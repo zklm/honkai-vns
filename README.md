@@ -11,6 +11,6 @@ Translating is fairly straightforward, in each VN directory there's a CN xml and
 For corrections and minor translations, feel free to submit an issue or PR.
 
 ## Current Progress
-* Durandal: CH1~6 mostly done (Aiatar), CH7~31 untranslated
+* Durandal: CH1-6 mostly done (Aiatar), CH7-31 untranslated
 * Anti-Entropy: 0
 * Seven Swords: 0
