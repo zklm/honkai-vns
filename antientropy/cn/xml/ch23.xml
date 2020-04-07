@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="CG22-2.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
+            <speak chara="schroCatNoFace">……这力量……的确和刚才判若两人……</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="schroFadeAway1.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="schroCatNoFace">呵……赌上这所剩无几的时间，果然是正确的……</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="schroFadeAway2.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="schroCatNoFace">本世代的第一律者啊……恭喜你……你已经不是“祂”的傀儡了……</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="schroFadeAway3.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="schroCatNoFace">呵呵……这样的话，我也算是赌赢了吧……</speak>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="white.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="stop"></bgm>
+            <sound src="04_20_fell.mp3"/>
+            <speak chara="reannaNoNameNoFace">——胡闹什么，小屁孩们！</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="white.jpg">
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <cg src="CG23-1.jpg" fadeIn="0" fadeOut="1"></cg>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="CG23-2-1.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="reannaNoFace">我是前往地狱的黑；</speak>
+            <goto goto="72" change="0"/>
+        </scene>
+        <scene id="72" background="CG23-2-2.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="reannaNoFace">我是来自天堂的白；</speak>
+            <goto goto="74" change="0"/>
+        </scene>
+        <scene id="74" background="CG23-2.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="reannaNoFace">神之键·黑渊白花，第二额定功率——</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="white.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <cg src="shengqiangBack.png" bg="white.jpg" fadeIn="0" fadeOut="0"></cg>
+            <bgm src="11_17_tatakau.mp3" status="stop"></bgm>
+            <sound src="05_18_smash.mp3"/>
+            <cg src="niliuStab.png" bg="CG23-3.jpg" fadeIn="0" fadeOut="1000"></cg>
+            <goto goto="90" change="#000000"/>
+        </scene>
+        <scene id="90" background="scienceEngineWarning.jpg">
+            <bgm src="10_25_noise.mp3" status="start"></bgm>
+            <text>约七个小时前，新泽西州·爱迪生市——</text>
+            <speak chara="schroNoFace">……反应堆功率异常上升！</speak>
+            <speak chara="schroNoFace">临界系数已被突破！</speak>
+            <speak chara="schroNoFace">反应即将失去控制！</speak>
+            <speak chara="nokiaNoFace">！</speak>
+            <speak chara="nokiaNoFace">怎么突然——</speak>
+            <speak chara="edisonNoFace">……全体进入避难室！快！</speak>
+            <speak chara="edisonNoFace">不要管别人了，自己快跑！</speak>
+            <speak chara="nokiaNoFace">可是——</speak>
+            <speak chara="edisonNoFace">没时间婆婆妈妈了！给我进去！</speak>
+            <goto goto="100" change="#000000"/>
+        </scene>
+        <scene id="100" background="CG23-3.jpg">
+            <bgm src="11_17_memory.mp3" status="start"></bgm>
+            <speak chara="schroCatNoFace">你……为何要……</speak>
+            <speak chara="reannaNoFace">嘘……别动。</speak>
+            <speak chara="reannaNoFace">很快……就会结束的。</speak>
+            <goto goto="110" change="#ffffff"/>
+        </scene>
+        <scene id="110" background="cloudSky.jpg">
+            <bgm src="11_17_memory.mp3" status="continue"></bgm>
+            <text>……</text>
+            <text>半个小时后，某辆被拆掉顶棚的豪华跑车上——</text>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="connecticutRoad.jpg">
+            <bgm src="11_17_memory.mp3" status="continue"></bgm>
+            <show chara="reaLaughArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">……好啦，说句话吧？</speak>
+            <show chara="reaEmbarraArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">虽然知道你是个沉默寡言的人……但这样也太闷了吧。</speak>
+            <show chara="reaEmbarraArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <bgm src="10_20_londonderry_p.mp3" status="start"></bgm>
+            <show chara="schroShrinkLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">……为什么……要救我……</speak>
+            <show chara="schroShrinkLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">……为什么？真是的，我总不能眼睁睁地看着你们做傻事吧。</speak>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">听好了。你体内的崩坏能，已经被“白花”全部限制在那条右臂上——</speak>
+            <speak chara="reannaNoFace">等这次的事件解决后，你的伙伴们，有的是时间来治好你。</speak>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroShrinkLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">……但是……我……</speak>
+            <show chara="schroShrinkLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">被崩坏侵蚀的人，难免会受到崩坏意志的挑衅，做出一些愚蠢透顶的事情。</speak>
+            <show chara="reaSmileArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">……但是对你来说，这没有关系。</speak>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">被侵蚀到几乎失去半边身体，却仍然能够进行理性的思考——</speak>
+            <show chara="reaSmileArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">——这已经比99.9%的人要顽强多了，你明白吗，薛定谔博士？</speak>
+            <show chara="reaSmileArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroShrinkLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">……</speak>
+            <show chara="schroShrinkLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">……当然，这不代表我认可你的做法。</speak>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">伤害无辜者的事情暂且不谈——不管怎么样，你都不太可能击败真正的律者。</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">如果瓦尔特站在崩坏那边，你这是自寻死路；</speak>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">而如果他站在我们这边——就像现在这样——你就是在让他背上“杀人”的诅咒。</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">这是多么恶劣的事情，你明白吗？</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroShrinkLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">……</speak>
+            <show chara="schroShrinkLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaHahArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">不过，你也别太有压力……</speak>
+            <show chara="reaSmileArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">事情已经过去了，不是吗？</speak>
+            <show chara="reaHahArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">今后，你还有的是时间，可以和他们好好相处呢。</speak>
+            <show chara="reaHahArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroShrinkLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">蕾安娜小姐……</speak>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">我……</speak>
+            <speak chara="schroNoFace">我不知道能不能做到……</speak>
+            <speak chara="schroNoFace">……</speak>
+            <show chara="schroSmileLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">……但是我会努力的。</speak>
+            <speak chara="schroNoFace">……努力去达到，您这样的境界。</speak>
+            <show chara="schroSmileLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaHahArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">哈哈……我可算不上什么榜样啊。</speak>
+            <show chara="reaSmileArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">之前交手的时候……你应该已经发现了吧？</speak>
+            <show chara="reaHahArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">我可是个……比你还“变本加厉”的家伙呢。</speak>
+            <show chara="reaSmileArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">物理意义上。</speak>
+            <goto goto="130" change="#ffffff"/>
+        </scene>
+        <scene id="130" background="tankInside.jpg">
+            <bgm src="04_20_tank.mp3" status="start"></bgm>
+            <show chara="teslaAstonishGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">呃……等等等等……</speak>
+            <speak chara="teslaNoFace">信息量有点大……</speak>
+            <show chara="teslaShoutWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">也就是说……那个一半都变成崩坏兽的阴沉女，是试图唤醒你的能力，才专门来找茬的？</speak>
+            <speak chara="teslaNoFace">专门拆了人家的房子？还连带着把我砸了个七荤八素？</speak>
+            <show chara="teslaShoutWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSorryNewClose-up" position="right"/>
+            <speak chara="weltNoFace">是这样……</speak>
+            <show chara="weltSorryNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">所以呢？你的能力究竟是什么？</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltAstonishNewClose-up" position="right"/>
+            <speak chara="weltNoFace">……唉？</speak>
+            <show chara="weltAstonishNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">怎么。既然你仍然是我们的人——那不就应该直接从建设性的问题开始吗？</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltAstonishNewClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <speak chara="weltNoFace">不……不愧是特斯拉……</speak>
+            <show chara="weltAstonishNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">嘿嘿，能快速接受世界的变化，那可是身为发明家的必要条件！</speak>
+            <show chara="teslaBiteGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">……啧。怎么好像被你拍了马屁一样。</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">……总而言之，回答我的问题啦！</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltEmbarraNewClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……这个嘛……</speak>
+            <speak chara="weltNoFace">我……我也不是很明白来着……</speak>
+            <show chara="weltEmbarraNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAstonishGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">……哈？</speak>
+            <show chara="teslaAstonishGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">别太着急，特斯拉博士。除了瓦尔特自己拒绝了那个神秘意志……</speak>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">现在能确定的，第一，是他使用伊甸之星的效果比我们要强很多；第二，是他的体内残留着柏林崩坏事件遇难者的“灵魂残渣”。</speak>
+            <show chara="einSeriousEmWinterClose-up" position="right"/>
+            <speak chara="einNoFace">如果薛定谔对于他是“律者”的判断没有偏差……那么，这两个已知条件，其实没有任何推理价值。</speak>
+            <show chara="einSeriousEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">“神之键”是使用“律者核心”打造的武装，律者使用起来当然比我们更得心应手；</speak>
+            <show chara="einSeriousEmWinterClose-up" position="right"/>
+            <speak chara="einNoFace">而那些“灵魂残渣”，应该也只是他真正能力所带来的副效果……否则，他们不会是个七嘴八舌的状态。</speak>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">总而言之……想要由此推知更多信息，未免太强人所难了吧？</speak>
+            <show chara="einSmileWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">话是这样说啦。</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">不过……如果这个笨蛋真的是“律者”，那他也是一开始就是的吧？</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSeriousEmWinterClose-up" position="right"/>
+            <speak chara="einNoFace">你是指……</speak>
+            <show chara="einSeriousEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">不要忘了……这次的灾害规模估计和柏林那次相当……</speak>
+            <speak chara="teslaNoFace">也就是说，既然笨蛋瓦尔特是律者，而闷葫芦薛定谔又不是——</speak>
+            <speak chara="teslaNoFace">那么，我们在纽约，也就很可能会遭遇另一位“新鲜出炉”的家伙了。</speak>
+            <speak chara="teslaNoFace">应该是这样的吧？</speak>
+            <goto goto="140" change="#ffffff"/>
+        </scene>
+        <scene id="140" background="connecticutRoad.jpg">
+            <bgm src="11_17_memory.mp3" status="start"></bgm>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">这么说……爱迪生小姐她，在事故发生时，是成功躲进了避难室的？</speak>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">……不，并没有。</speak>
+            <show chara="schroNormalLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">唉？她不是强推着诺基安维塔宁博士一起进去的吗？</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">……是的。但是她又冲出来了。</speak>
+            <show chara="schroNormalLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">……</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroShrinkLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">……为了保护我。</speak>
+            <show chara="schroShrinkLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">……等等。我没理解错的话，你是因为距离反应堆过近，所以无处可逃的？</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">……是的。</speak>
+            <show chara="schroNormalLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">……那爱迪生小姐究竟是用什么保护了你？</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">……不清楚。</speak>
+            <show chara="schroNormalLanceClose-up" position="right" opacity="0.7"/>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">……唉？</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">但我能肯定，那不是人类会有的力量。</speak>
+            <show chara="schroSmileLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">不过，那也绝不是与崩坏完全同源的东西。</speak>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">我能感受到，凭借着那个力量，此时此刻，她仍在和崩坏战斗着。</speak>
+            <show chara="schroShrinkLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">……但恐怕，那早已是我们任何人，都无力介入的领域了。</speak>
+            <goto goto="150" change="#ffffff"/>
+        </scene>
+        <scene id="150" background="cloudSky.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
+            <text>与此同时，某地上空——</text>
+            <show chara="edisonAngelHelplessFar" position="center"/>
+            <speak chara="edisonAngelNoNameNoFace">可恶……这个样子，根本没办法把消息传递出去！</speak>
+            <speak chara="edisonAngelNoNameNoFace">一旦我撑不住的话……</speak>
+            <show chara="edisonAngelAngryFar" position="center"/>
+            <speak chara="edisonAngelNoNameNoFace">喂！只会附在钞票上说话的胆小鬼！你倒是给我想个办法啊！</speak>
+            <show chara="dollarFranklinAhFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">……你已经很努力了，爱迪生小姐。</speak>
+            <show chara="dollarFranklinEmFar" position="center"/>
+            <speak chara="dollarFranklinNoFace" remark="next">但我必须要指出的是，当你决定借助■■■■的力量，使用“干涉仪”的那一刻，它就不再与“那个”十一维时空有任何的关联——而正是如此，我才会出现，才会这样和你对话。</speak>
+            <remark post="U2FsdGVkX1+X733EXSLz1fznthEa">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">理论物理中的“弦理论”（后发展为“M理论”）认为，所有的基本粒子都可以【表述】为某种特殊空间（十维）上的特殊【波动】（称之为“弦”，“弦”在M理论中被更本质的“膜”所表示）。因此，它是建立在十一维时空（十维空间加一维时间）上的。</p>
+                <p class="article-text">“人们非常幸运地发现了一种崭新的对称。……一种方式是讲，时空除了我们所体验到的维以外还有额外的维。这些维被称为格拉斯曼维，因为它们是用所谓的格拉斯曼变量的数而不用通常的实数来度量。……对于我这样的一名实证主义者而言，‘额外维的确存在吗？’的问题是没有意义的。人们最多只能问：具有额外维的数学模型能很好地描述宇宙吗？”——史蒂芬·霍金，《果壳中的宇宙》</p>
+            </remark>
+            <show chara="dollarFranklinAhFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">我代表着你所能够理解的思维方式；我再强调一遍，我也只不过是■■■■的一个造物而已，和如今的你没有任何区别。</speak>
+            <show chara="dollarFranklinEmFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">至于你……你现在具备的能力，已经是你这个生命，透支了各种各样的可能性所换来的结果。</speak>
+            <show chara="dollarFranklinAhFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">如果你对此有怨言的话，那只能说，你过于急躁地使用了“干涉仪”，拔苗助长，结果限制了更多潜力的表达。</speak>
+            <show chara="edisonAngelQuestionFar" position="center"/>
+            <speak chara="edisonAngelNoFace">什么？我急躁？那种状况下，是个人都会这么做吧！</speak>
+            <show chara="dollarFranklinAhFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">……所以我说，你已经很努力了啊，爱迪生小姐。</speak>
+            <show chara="dollarFranklinEmFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">“祂们”确实不会对这颗行星上的异常放任不管……</speak>
+            <show chara="dollarFranklinAhFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">但是，那一定不是通过我们可以理解的方式进行的。</speak>
+            <show chara="dollarFranklinEmFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">想必，对“祂们”来说，人类的存亡兴废，根本就无关紧要。</speak>
+            <show chara="dollarFranklinAhFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">“祂们”真正感兴趣的，是十一维时空中我们尚不能理解的某些涟漪——</speak>
+            <show chara="dollarFranklinEmFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">——而这颗行星上的异常，不过是其中恼人的几声蛙叫罢了。</speak>
+            <show chara="edisonAngelAngryFar" position="center"/>
+            <speak chara="edisonAngelNoFace">……告诉我这些能解决什么？无用的废话！</speak>
+            <show chara="dollarFranklinEmFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">我只是一张钞票而已，你指望我能给出什么建设性的意见呢？</speak>
+            <show chara="dollarFranklinAhFar" position="center"/>
+            <speak chara="dollarFranklinNoFace">……再说，就算是真正的本杰明·富兰克林，在这种状况下，就能真的想出什么高招吗？</speak>
+            <show chara="edisonAngelSeriousFar" position="center"/>
+            <speak chara="edisonAngelNoFace">……</speak>
+            <show chara="edisonAngelSmileFar" position="center"/>
+            <speak chara="edisonAngelNoFace">……是呢。没想到我竟然也一时糊涂，去希望一张钞票直接告诉我答案。</speak>
+            <show chara="edisonAngelSeriousFar" position="center"/>
+            <speak chara="edisonAngelNoFace">也好……我这就给祂们——那些高高在上的家伙——证明一下……</speak>
+            <show chara="edisonAngelAngryFar" position="center"/>
+            <speak chara="edisonAngelNoFace">人类的事情，到头来，还是要由人类自己来作主！</speak>
+            <speak chara="edisonAngelNoFace">南希·托马斯·爱迪生，就算是粉身碎骨，也绝不会让纽约这座城市，重蹈柏林的覆辙！</speak>
+            <end post="U2FsdGVkX1+x3U0ZNdcph971qhGD"/>
+        </scene>
+    </story>
+</data>	

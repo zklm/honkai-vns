@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="rocketFactory.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <text>金字塔下，火箭研发中心——</text>
+            <show chara="schroSmileClose" position="left"/>
+            <speak chara="_Schrodinger">好了，我们已经完全控制了那个神秘的远程服务器。不用担心机器人再被批量劫持了。</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">但是……雪莱会长，我认为您有义务向我们介绍一下这座城市的某些历史。</speak>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">某些【被遗忘的】历史。</speak>
+            <show chara="schroSeriousClose" position="left" opacity="0.8"/>
+            <show chara="shelleyShockedClose" position="right"/>
+            <speak chara="_Shelley">……</speak>
+            <show chara="shelleyShockedClose" position="right" opacity="0.8"/>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">……“浮士德博士”究竟是谁？根据那个服务器里的日志，他好像认识你。</speak>
+            <show chara="schroSeriousClose" position="left" opacity="0.8"/>
+            <show chara="shelleyBoredClose" position="right"/>
+            <speak chara="_Shelley">……那个人是我很久以前的研究伙伴。在18年前因为试图用人脑组装超级计算机而被市民们驱逐出了城市。</speak>
+            <show chara="shelleyBoredClose" position="right" opacity="0.8"/>
+            <show chara="schroCalmClose" position="left"/>
+            <speak chara="_Schrodinger">……原来如此。真真正正的“疯狂科学家”啊。</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">虽然那个服务器就是这位“浮士德博士”本人搭建的——不过我们也没法追究一个过世者的任何责任了。</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="shelleyColdClose" position="right"/>
+            <speak chara="_Shelley">……过世，吗。</speak>
+            <show chara="shelleyColdClose" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">是的。就在两天之前。死因似乎是“过劳死”。</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="shelleyShockedClose" position="right"/>
+            <speak chara="_Shelley">……</speak>
+            <show chara="shelleyShockedClose" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">在此之前，他已经完成了机器人劫持程序的设计。那个服务器是在自动执行攻击计划。</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="shelleyColdClose" position="right"/>
+            <speak chara="_Shelley">……</speak>
+            <show chara="shelleyColdClose" position="right" opacity="0.8"/>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">在图书馆绑架吉米的则是浮士德的部下。</speak>
+            <speak chara="_Schrodinger">由于浮士德突然离世，他们缺乏维护服务器的能力，所以病急乱投医地绑架了吉米等三位学者。</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">——不过这也意味着，我们那些正在侦破绑架案的朋友，正好能够完成对浮士德基地的占领。</speak>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">……而且过程应该很轻松。</speak>
+            <speak chara="_Schrodinger">因为除了吉米和那台服务器之外，基地里已经没有任何幸存者了。</speak>
+            <show chara="schroSeriousClose" position="left" opacity="0.8"/>
+            <show chara="micheSeriousClose" position="right"/>
+            <speak chara="_Michel">……这是怎么回事？</speak>
+            <show chara="micheSeriousClose" position="right" opacity="0.8"/>
+            <show chara="shakesQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">喂！吉米他——究竟遭遇了什么？！</speak>
+            <show chara="shakesQuestionClose" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">那个基地里发生了毒气泄漏。吉米很幸运，他被一台服务器搭救，目前生理状况良好。</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="shakesQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">……被服务器搭救？这是什么意思？</speak>
+            <show chara="shakesQuestionClose" position="right" opacity="0.8"/>
+            <show chara="schroSmileClose" position="left"/>
+            <speak chara="_Schrodinger">船长，你刚才应该也听到了吧。</speak>
+            <speak chara="_Schrodinger">浮士德这个人执着于搭建由人脑组装的超级计算机——因此，他制造出来的这台服务器，本身就是拥有自我意识的。</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">而且，根据那台机器上的记录——</speak>
+            <speak chara="_Schrodinger">——它还拥有一个可爱的人形终端，并且自称为“爱丽丝”。</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="shakesPityClose" position="right"/>
+            <speak chara="_Shakespeare">……</speak>
+            <show chara="shakesLaughClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Shakespeare">哈哈哈哈！</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">慢着慢着，吉米那小子……不会喜欢上人家了吧！</speak>
+            <show chara="shakesLaughClose" position="right"/>
+            <speak chara="_Shakespeare">可爱的机械人偶、独处一室、又是救命恩人——哈哈哈哈哈哈！</speak>
+            <show chara="shakesLaughClose" position="right" opacity="0.8"/>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">……咳咳。</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">不管怎么说，那台机器毕竟是客观上扰乱了城市秩序的恐怖分子。</speak>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">而且在刚才我说的那起毒气泄漏事件中，她还对其他的人质和浮士德的那些部下都见死不救。</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">她声称对方威胁她的“人身安全”——不过这无论如何也算不上正当防卫吧，雪莱会长？</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="shelleyColdClose" position="right"/>
+            <speak chara="_Shelley">当然不能。</speak>
+            <show chara="shelleyColdClose" position="right" opacity="0.8"/>
+            <show chara="micheFocusClose" position="right"/>
+            <speak chara="_Michel">根据这里的法律，最轻也要被判罚十年以上的义务劳动和受监视居住。</speak>
+            <show chara="micheSeriousClose" position="right"/>
+            <speak chara="_Michel">而鉴于她身为机器的特殊身份，情况可能更加复杂。</speak>
+            <show chara="micheSeriousClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">……不，“机器”这个身份也有有利的一面吧？</speak>
+            <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="micheFocusClose" position="right"/>
+            <speak chara="_Michel">……这怎么说？</speak>
+            <show chara="micheFocusClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">你们刚才不是说这个“爱丽丝”很可能是由人脑组装而成的吗？</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">那么，这些【人脑】总有他们的来源对不对？</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">至少从现行法律上讲，“爱丽丝”还是【那原本的若干个】普通人类，对吧？</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="micheDrySmileClose" position="right"/>
+            <speak chara="_Michel">这……倒是勉强能这样解释。所以呢？</speak>
+            <show chara="micheDrySmileClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">所以你们就按普通人类的案件来审理呀。在扰乱城市秩序上、在毒气泄漏事件上，应该怎样判罚就怎样判罚。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">而且，正因为对方同时还是一台机器，所以证据反而会变得非常清晰明白——是不是啊，薛定谔老师？</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="schroSmileClose" position="left"/>
+            <speak chara="_Schrodinger">是的。现在我们拥有那台服务器的管理员权限，所以它的记录、记忆、甚至当前的感情，对我们而言都是完全透明的。</speak>
+            <show chara="schroSmileClose" position="left" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">看吧？</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">而且没有什么意外的话……这些大脑的来源就是之前几年神秘失踪的那些外国人吧？</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">这样看来，在整起事件当中，这个“爱丽丝”固然是加害者，但同样也是受害者哦？</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">如果你们担心陪审团意见难以统一之类的问题，只要往这个方向引导，就应该还可以吧？</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="shelleyArrogantClose" position="right"/>
+            <speak chara="_Shelley">……</speak>
+            <show chara="shelleySmileClose" position="right"/>
+            <speak chara="_Shelley">你看起来是别有所求啊，莎士比亚。有话直说如何？</speak>
+            <show chara="shelleySmileClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哎呀。哈哈哈哈，被看穿了吗。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">……实不相瞒，我希望你们能够在时机成熟的情况下，把“理智结晶”还给我们。</speak>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">因为它是能对抗大海上那堵“墙”的唯一武器。</speak>
+            <goto goto="20" clockwise="1"/>
+        </scene>
+        <scene id="20" background="truckInterior.jpg">
+            <bgm src="12_14_moonLight.mp3" status="start"></bgm>
+            <text>比安卡·阿塔吉娜正默默地感受着卡车车厢在砂石路面上的颠簸起伏。</text>
+            <text>早上在自由活动中抽到的伙伴吉米·瓦特，此刻正一言不发地、低着头坐在她的对面。</text>
+            <text>她知道这是个不善言辞的家伙。</text>
+            <text>然而正因为如此，这起事件的结束方式才令她如鲠在喉。</text>
+            <text>她在那个基地的深处找到了一对六神无主的少年少女。</text>
+            <text>少年叫做吉米，少女叫做爱丽丝。</text>
+            <text>吉米是被绑架到这个基地里的。但是与比安卡他们重逢之后，这家伙的脸上却看不到任何重获自由的喜悦。</text>
+            <text>欲言又止的他只是默默地递给了比安卡一份传真。</text>
+            <text>那是由“城市管理协会会长”署名的一份文件，介绍了他们是如何先于地面行动队控制了这个基地，又附上了对于那位少女以及整个场所的处置意见。</text>
+            <text>少女是吉米的救命恩人，却也是见死不救的犯罪嫌疑人。更是整个城市骚动事件的客观责任人。</text>
+            <text>……虽然她自己在后一件事上似乎相当无辜。</text>
+            <text>……再怎么说，她毕竟只是一台电脑而已。</text>
+            <text>话虽如此，比安卡面前的这个吉米，他前前后后表现出来的态度却十分可疑。</text>
+            <text>……可疑到即使是比安卡也觉得有些不对劲。</text>
+            <text>面对着自己的老熟人们，这家伙却只会询问像是“爱丽丝的日常运转，之后由谁负责维护”这样的问题。</text>
+            <text>……也许机械师就是这种怪人才能担当的职业吧。</text>
+            <text>竟然——</text>
+            <text>竟然会和一个人偶、一台电脑，一见钟情？</text>
+            <text>想到这里，比安卡用力地摇了摇头。</text>
+            <text>她是不可能羡慕这样两个丢人到家的家伙的。</text>
+            <text>对，任何状况下都不可能。</text>
+            <goto goto="30" clockwise="1"/>
+        </scene>
+        <scene id="30" background="black">
+            <bgm src="" status="stop"></bgm>
+            <text>三天之后——</text>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="alexandriaCityLandscape.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">啧。我们都钓完鱼回来了，这审判——竟然还没有结束吗？</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="left"/>
+            <speak chara="_Miguel">唔……大概陪审团需要很多时间来“消化案情”吧。</speak>
+            <show chara="cervantesLaughClose" position="left"/>
+            <speak chara="_Miguel">毕竟审理对象是个用人脑拼凑出来的“电脑”——</speak>
+            <speak chara="_Miguel">——唉呀，老实说，光是她这种存在本身，就足够让我这把老骨头消化一阵子啦。</speak>
+            <show chara="cervantesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">……这个啊。多见识一些奇怪的事情，慢慢也就无所谓了吧。</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">非要说的话，爷爷你已经算接受能力很强的人啦。</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">倒是那个可恶的雪莱，说什么“非本市市民不得旁听审理”，愣是把我们赶了出来！</speak>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">哼，你要这么说，那丽塔怎么就可以留在法庭里面啊？</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="left"/>
+            <speak chara="_Miguel">哈哈，丽塔小姐不是要出庭作证吗？证人可不分什么“市民”或者“非市民”吧？</speak>
+            <show chara="cervantesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">……唉，我这不就和爷爷你发发牢骚嘛。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <sound src="03_22_bellX3.mp3"/>
+            <text>咚——咚——咚——</text>
+            <show chara="cervantesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">啊。</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="left"/>
+            <speak chara="_Miguel">审理终于结束了吗？</speak>
+            <goto goto="50" clockwise="1"/>
+        </scene>
+        <scene id="50" background="courtStep.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <cg src="CG10-1.jpg" bg="courtStep.jpg" fadeIn="0" fadeOut="500"></cg>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">……让、让你们久等了！</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">宣、宣判“有罪”的时候真的吓了我们一跳呢——还好结果不坏，是吧爱丽丝？</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="AliceSmileClose" position="right"/>
+            <speak chara="_Alice">是的！</speak>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">……不，我是说……非常不好意思。</speak>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">真的不敢想象陪审团会这么宽容……</speak>
+            <show chara="AliceSilentClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">好啦好啦，所以判决结果究竟是什么啊？</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">监视居住十年，义务劳动二十年，交出系统管理权五十年。但是保护隐私。</speak>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_Rita">——不过真正重要的是，这一系列刑罚的具体监督者都是我们的吉米先生。</speak>
+            <show chara="rita17SquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">啧。这还真是便宜了你们两个啊，嗯？</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="AliceShockClose" position="right"/>
+            <speak chara="_Alice">……对不起！我自己也感觉这个判罚结果真的非常——</speak>
+            <show chara="AliceShockClose" position="right" opacity="0.8"/>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">——那、那个，爱丽丝，比安卡说的话你不用往心里去哦。</speak>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">……毕竟和丽塔小姐不同，她其实很喜欢开玩笑的。</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="wattRelievedClose" position="right"/>
+            <speak chara="_Watt">——对、对吧？</speak>
+            <show chara="wattRelievedClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">好、好、好，就当是这样吧。</speak>
+            <show chara="biankaConfidentClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">你这小子，几天不见，别的没长进——</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG10-2.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">——胆子倒大了不少嘛！啊？</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="alexandriaHarbor.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">……所以，你，还有那个德国军官，都打算留在这座城市了吗？</speak>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">……嗯，入、入籍的手续，其实昨天就已经办好了。</speak>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">毕、毕竟我不是很放心让其他人来做【监控爱丽丝】之类的事情……所、所以在庭审前就提出了各种之后可能会用得着的申请。</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">而曼弗雷德先生一直都在思考如何才能复原他的飞行器——这方面，我和爱丽丝多少也能帮得上一些忙。</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">啧。我怎么闻到了一丝“黑幕”的味道啊。</speak>
+            <speak chara="_Bianka">那个雪莱果然还是帮你们走后门了吧？</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">……啊哈哈、啊哈哈哈哈。</speak>
+            <show chara="wattJihuatongClose" position="left"/>
+            <speak chara="_Watt">说起来，你知道爱丽丝具体是从事什么样的义务劳动吗？</speak>
+            <show chara="wattJihuatongClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">……嗯？是什么？反正不可能是“体力活”吧？</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="wattSmileClose" position="left"/>
+            <speak chara="_Watt">雪莱会长说，由于设计者意图的原因，我们不需要给爱丽丝做太多调整，就能让她胜任操控复数机器人的工作。</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">她说这种工作都可以由后台程序完成，因此不会给爱丽丝本身的人格造成负担。</speak>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">而之所以会产生这样的需求——</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">——是因为会长打算把原本由她占有的“理智结晶”还给莎士比亚船长、还有你。</speak>
+            <speak chara="_Watt">大家应该都知道了吧？雪莱会长的所谓“宝石”，其实就是原本镶嵌在宝剑“幽兰黛尔”上的“理智结晶”。</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">嗯。而且听说他们已经吧“宝石”送到船长那里了。似乎是达成了某种交易吧。……所以呢？</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">所、所以……在失去了那个“强人工智能”的现在，这座城市其实非常需要爱丽丝的力量。</speak>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">当、当然，这次的事件产生了很大的舆论压力；甚至雪莱会长自己，都计划在几天后的临时大会上引咎辞职。</speak>
+            <show chara="wattSadClose" position="left"/>
+            <speak chara="_Watt">但风波毕竟只是一时的。面对未来，我们必须有更长远的打算。</speak>
+            <show chara="wattSmileClose" position="left"/>
+            <speak chara="_Watt">因此，雪莱会长想利用自己闲下来的时间，和我一起完成对爱丽丝的升级改造——让她在将来，有更强的能力为大家提供服务。</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">……当然，这也是爱丽丝自己的愿望。</speak>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">虽、虽然说机器人的应用领域，肯定会因为这股民意动向，而在若干年内被限制许多——</speak>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">——但这座城市其实早已经无法完全离开它们了。</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">……真正需要作出改变的其实是我们。在法庭上，泰勒斯所长就是这样说的：</speak>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">“社会秩序是由我们人类制定的。那么，我们就也有义务为机器人、以及其他各种各样形态的智慧——”</speak>
+            <speak chara="_Watt">“——在这个社会中，寻找到属于它们的一席之地。”</speak>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">啊。船长她们过来了。</speak>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="alexandriaHarbor.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <show chara="shakesLaughClose" position="right"/>
+            <speak chara="_Shakespeare">怎么样，比安卡，是不是感觉我的小技师一下子长大了好多呀？</speak>
+            <show chara="shakesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">啧。什么长大啊，明明是比以前变得更加幼稚了吧。</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="wattShyClose" position="right"/>
+            <speak chara="_Watt">……</speak>
+            <show chara="wattShyClose" position="right" opacity="0.8"/>
+            <show chara="durandalOpen" position="left"/>
+            <speak chara="_SwordDurandalQNoName">……不是有一句话这样说吗：成长的代价，叫做“自寻烦恼”。</speak>
+            <show chara="durandalOutstretchOpen" position="left"/>
+            <speak chara="_SwordDurandalQNoName">让他和爱丽丝一起，在内内外外的困境中有所成长，这不也挺好吗？</speak>
+            <show chara="durandalOutstretchOpen" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">喂喂，你这个自来熟的家伙是怎么回事？又是什么科学怪人的远程终端吗？</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQNoName">……啊，好伤心。我只是换了个打扮，大小姐你就认不出来我是谁了。</speak>
+            <show chara="durandalWhite" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">所以你究竟是谁啦？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="durandalOutstretchStare" position="left"/>
+            <speak chara="_SwordDurandalQNoName">讨厌啦，我就是我啊——</speak>
+            <show chara="durandalOpen" position="left"/>
+            <speak chara="_SwordDurandalQNoName">找回了身体和眼睛，目前正在和你们一起寻找其他必要组件的——</speak>
+            <show chara="durandalStare" position="left"/>
+            <speak chara="_SwordDurandalQNoName">——被你们称作“幽兰黛尔”的那把剑呀。</speak>
+            <show chara="durandalOutstretchOpen" position="left"/>
+            <speak chara="_SwordDurandalQNoName">如果嫌名字太长的话，你们也可以就叫我“小幽”。嗯嗯。</speak>
+            <show chara="durandalOutstretchOpen" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">……啥？！</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="ironWhiteClose" position="left"/>
+            <speak chara="_Ironface">这是真的。</speak>
+            <show chara="ironBlueClose" position="left"/>
+            <speak chara="_Ironface">“理智结晶”是一个强人工智能——换言之，它有独立的自我意识。</speak>
+            <show chara="ironBlueClose" position="left"/>
+            <speak chara="_Ironface">在它的认知中，“幽兰黛尔”就是它的身体，它就是“幽兰黛尔”的大脑。</speak>
+            <show chara="ironBlueClose" position="left" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">——而当我把这颗宝石嵌入剑身的时候，它马上就驱动那些……是叫“魂钢”吧？把自己变成了这个样子。</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">莎士比亚船长，这一定是你【又】从中动了什么手脚吧？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">不。关于这一点，我可以证明莎士比亚大人是清白的。</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="left"/>
+            <speak chara="_Rita">只是……</speak>
+            <show chara="rita17HesitateClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">……只是什么？</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">您能驱动魂钢自主变形，小幽大人——</speak>
+            <show chara="rita17SmileClose" position="left" opacity="0.8"/>
+            <show chara="durandalSquint" position="right"/>
+            <speak chara="_SwordDurandalQ">嗯？“小幽大人”？这叫法不错嘛。嘿嘿。</speak>
+            <show chara="durandalSquint" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">那么……您应该不是所谓的“圣遗物”——不是前文明纪元的制式武器，对吧？</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="shakesQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">……前文明纪元？是你们说的那个——</speak>
+            <show chara="shakesQuestionClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">嘘。你先闭嘴。</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="durandalSquint" position="right"/>
+            <speak chara="_SwordDurandalQ">唔……</speak>
+            <show chara="durandalDeadfish" position="right"/>
+            <speak chara="_SwordDurandalQ">说的是呢。我当然不可能是什么“制式武器”。</speak>
+            <show chara="durandalOutstretchWhite" position="right"/>
+            <speak chara="_SwordDurandalQ">——不如说，我原本就和你们人类没有多少关系哦？</speak>
+            <end post="U2FsdGVkX1+CYuuJ64mMoKc8hF6N"/>
+        </scene>
+    </story>
+</data>

@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="libraryBasement.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <text>Library.</text>
+            <text>For those without the proper knowledge, bookshelves are a cultural cemetery made by boring people.</text>
+            <text>For those who have the knowledge to understand what they say, a library is a roaring Valhalla, a spiritual hall for communication across time and space.</text>
+            <text article="1">
+                <p class="article-text">「I propose to consider the question, "Can machines think?"」</p>
+                <p class="article-text">「This should begin with definitions of the meaning of the terms "machine" and "think."」</p>
+            </text>
+            <text article="1">
+                <p class="article-text">「The definitions might be framed so as to reflect so far as possible the normal use of the words, but this attitude is dangerous, If the meaning of the words "machine" and "think" are to be found by examining how they are commonly used it is difficult to escape the conclusion that the meaning and the answer to the question, "Can machines think?" is to be sought in a statistical survey such as a Gallup poll.」</p>
+                <p class="article-text">「But this is absurd.」</p>
+            </text>
+            <text article="1">
+                <p class="article-text">「Instead of attempting such a definition I shall replace the question by another, which is closely related to it and is expressed in relatively unambiguous words.」</p>
+                <p class="article-text">「The new form of the problem can be described in terms of a game which we call——」</p>
+            </text>
+            <text remark="next">「——The 'imitation game.'」</text>
+            <remark post="U2FsdGVkX18PHNWizGemutQ7hqod">
+                <p class="article-text-h">Note：</p>
+                <p class="article-text">此段文字翻译自阿兰·图灵（Alan Mathison Turing）于1950年发表的论文《计算机器与智能》（Computing Machinery and Intelligence）。</p>
+                <p class="article-text">这里的“模仿游戏”（后世称之为“图灵测验”）是指：一个人（代号C）使用他和测试对象皆理解的语言，去询问两个他不能直接感知的对象（一台机器，代号A；一个思维正常的人，代号B）任意一串问题——如果经过足够长的问答后，C仍不能准确判断出A与B谁是机器、谁是人，则称此机器A赢得“模仿游戏”（即“通过图灵测验”）。</p>
+                <p class="article-text">图灵测验的理论价值在于提出了一种切实可行的评判标准：如果一台机器能够稳定赢得“模仿游戏”，那么从客观的角度出发，这台机器在“心智能力”上和“人”就是没有区别的。</p>
+            </remark>
+            <text>I got separated from my two partners while I was immersed in Alan Turing's thoughts.</text>
+            <text>Partners I say—— But those two were too busy talking to each other they probably didn't notice I wasn't there anymore.</text>
+            <text>I'm feeling sleepy, maybe Turing's paper is too complicated.</text>
+            <text>I can't. If I stop reading now I'll lose track of what I've read so far. At least I need to finish this chapter...</text>
+            <text>Eh? I feel like... I'm forgetting something important...</text>
+            <text>It's useless, my eyes...</text>
+            <text>I'm... sleepy...</text>
+            <text>.....</text>
+            <text>Before losing consciousness, I smelled something akin to a perfume.</text>
+            <goto goto="20" clockwise="1"/>
+        </scene>
+        <scene id="20" background="libraryCenter.jpg">
+            <!-- 
+                Bianka and Thales are searching for Jimmy everywhere, even the bathroom, but they can't find him. 
+                He should be in the lobby if he got immersed reading a book and got left behind, but he's not there either. 
+                Bianka suggest using the radio to call for him, close all doors and search every corner of the library. 
+                Someone timid like him wouldn't go out on his own knowing this city used to sell slaves. 
+                She believes she isn't lost, he must have been kidnapped or something. 
+            -->
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="biankaShoutClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">这是怎么回事！？</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">你刚才不是言之凿凿，说他肯定还留在这个“后现代科学资料馆”的吗？！</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">结果呢？连洗手间里都没有一个人影！！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">奇怪，一个书呆子能跑到哪里去呢……</speak>
+            <speak chara="_Thales">当时，我们沿着大堂通道一路走到这里……我确实在这里向你们【两个】介绍了什么是“后现代科学”——也就是那些我们还没有系统掌握的外部世界知识；</speak>
+            <speak chara="_Thales">之后，我们就上楼梯去了后门的大厅，走出建筑、眺望风景……</speak>
+            <speak chara="_Thales">他和我们走失，最大的可能，确实是“还在这里埋头看书”啊……</speak>
+            <show chara="thalesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">现在再分析这些还有什么用！</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">广播找人！封锁大门！逐层筛查！</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">你不是说这座城市的历史充斥着买卖人口的恶行吗？他那种胆小怕事的家伙，凭自己能跑到哪里去？！</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">这肯定不是一般的走失——是诱拐、是绑架！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">……</speak>
+            <speak chara="_Thales">…………</speak>
+            <speak chara="_Thales">我承认你说的“最坏情况”不无可能。</speak>
+            <show chara="thalesEmbarrassedClose" position="right"/>
+            <speak chara="_Thales">I will arrange immediately the use of the radio. However, the other two actions will disrupt the order of the library. First we need the permission of the Curator.</speak>
+            <show chara="thalesEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">——Then let's go see the Curator! Right now!</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">If he doesn't show up——</speak>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">I will take matters into my own hands and thoroughly investigate everyone here!</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="thalesAngryClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Thales">Calm down!</speak>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">The Curator is a reasonable person, but right now you look like you're trying to pick a fight.</speak>
+            <show chara="thalesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">W-What did you say!?</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">I understand well you feel anxious about what happened to your friend, but there is an order for everything. Don't throw it away and cause trouble for everyone else here.</speak>
+            <show chara="thalesAngryClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Thales">Rules and systems are only effective because people adhere to them!</speak>
+            <show chara="thalesAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">Also... if you know violence is not good, suppress that aggressive attitude of yours until we confirm whether it was really a kidnapping or not.</speak>
+            <speak chara="_Thales">Or else you'll bring shame upon yourself.</speak>
+            <goto goto="30" clockwise="1"/>
+        </scene>
+        <scene id="30" background="libraryOfficeDavid.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <sound src="01_18_knock_door.mp3"/>
+            <text>Knock, knock——</text>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_MichelNoName">Come in.</speak>
+            <show chara="micheArrogantClose" position="left" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="right"/>
+            <speak chara="_Thales">Curator. It's about the broadcast I made earlier—— You probably heard it already.</speak>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">We searched every place we could think of but couldn't find a single clue.</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">It's impossible someone disappeared without any witness! Please at least contact the police!</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">I already did. I said it before, didn't I? The library acts as a legal institution too.</speak>
+            <show chara="thalesEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="micheFocusClose" position="left"/>
+            <speak chara="_MichelNoName">...Thales. Basically, you are saying someone disappeared inside the library—— And they didn't left any trace behind?</speak>
+            <show chara="micheFocusClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">Yes. I also took a look at the surveillance cameras but there was no footage of anyone similar to him leaving the building.</speak>
+            <show chara="thalesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">You have surveillance cameras? Makes sense, since there are robots too——</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="right"/>
+            <speak chara="_Thales">Don't interrupt me, Valkyrie.</speak>
+            <show chara="micheFocusClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">Curator, the surveillance footage tell us the missing boy hasn't left the building and he isn't responding to the radio message.</speak>
+            <speak chara="_Thales">Can I ask for a complete lockdown and a thorough search?</speak>
+            <show chara="thalesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="micheSeriousClose" position="left"/>
+            <speak chara="_MichelNoName">Do we need to go that far?</speak>
+            <show chara="micheSeriousClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">...I think we do. There is a chance this incident is connected to the recent 「missing outsiders case」.</speak>
+            <show chara="thalesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="micheFocusClose" position="left"/>
+            <speak chara="_MichelNoName">...!</speak>
+            <show chara="micheSeriousClose" position="left"/>
+            <speak chara="_MichelNoName">What makes you think that?</speak>
+            <show chara="micheSeriousClose" position="left" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="right"/>
+            <speak chara="_Thales">It's difficult to make a person 「disappear」. The culprit being the same person is more likely than there being two criminals with the same MO active at the same time.</speak>
+            <show chara="thalesEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="micheSeriousClose" position="left"/>
+            <speak chara="_MichelNoName">.....</speak>
+            <speak chara="_MichelNoName">Very well. The library will remain closed for 2 hours. Anyone entering or leaving will need my permission.</speak>
+            <speak chara="_MichelNoName">During that time, the entire staff and robots will search for the missing boy—— Are you okay with that, young lady?</speak>
+            <show chara="micheSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">I'm Bianka. Bianka Atagina. Rank A Valkyrie.</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_MichelNoName">I'm the Curator of the Great Library, Caterina Michelangelo Buonarroti. You can call me Michelangelo.</speak>
+            <show chara="micheFocusClose" position="left"/>
+            <speak chara="_Michel">Thales, would you please tell the 「Consultant Detective」 to come here? We need to settle this as soon as possible.</speak>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="libraryCenter.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="micheDrySmileClose" position="left"/>
+            <speak chara="_Michel">The library has 227 reading rooms, 39 laboratories, 86 offices and 45 warehouses. It will take too much time to search everything.</speak>
+            <show chara="micheDrySmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">The staff and the robots are running around looking for him—— Shouldn't we be doing something too?</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="micheRelaxClose" position="left"/>
+            <speak chara="_Michel">I'm not doing 「nothing」 here, I'm 「waiting」 for that person thinking over there.</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG6-1.jpg">
+            <bgm src="01_18_tango.mp3" status="continue"></bgm>
+            <text>The Curator pointed her finger at a person sitting in a chair. She seemed to be busy thinking while assuming a strange pose like Holmes.</text>
+            <speak chara="_ThinkerChampollion">Seems everyone can't wait any longer, I'll start sharing my deductions while we wait for my trusted assistant to come.</speak>
+            <speak chara="_Bianka">W-Wait a moment—— Who are you?</speak>
+            <speak chara="_ThinkerChampollion">I'm an archeologist—— And a consultant detective.</speak>
+            <speak chara="_ThinkerChampollion">.....</speak>
+            <speak chara="_Bianka">...Anything else?</speak>
+            <speak chara="_ThinkerChampollion">Oh, did I forget something?</speak>
+            <speak chara="_Bianka">.....</speak>
+            <speak chara="_Bianka">Why yes! Perhaps your name!? Are you not going to introduce yourself, like, properly?</speak>
+            <speak chara="_ThinkerChampollion">...Hmm. It's not like knowing my name would change our current situation.</speak>
+            <speak chara="_ThinkerChampollion">...But oh well. Call me Champollion. Jeanna François Champollion, archeology expert.</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="libraryCenter.jpg">
+            <bgm src="01_18_tango.mp3" status="continue"></bgm>
+            <show chara="champoColdClose" position="right"/>
+            <speak chara="_Champollion">I'll go straight to the point. The person you're looking for is not in this library.</speak>
+            <show chara="champoColdClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">What? But the camera footage...</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">The reason is simple.</speak>
+            <speak chara="_Champollion">If the boy was here, why isn't he showing himself? There is a huge commotion going on because of him.</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">H-He must have been locked up by someone! They must be waiting for the commotion to cease before sneaking him out!</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">Your first idea has a point... but the second one is too unreasonable.</speak>
+            <speak chara="_Champollion">If the target has been secured without anyone noticing, why would the kidnapper purposely take a risk and wait for the uncertain moment when 「the commotion ceases」?</speak>
+            <speak chara="_Champollion">And it's strange we haven't found any trace of him if he was hidden in a hurry.</speak>
+            <speak chara="_Champollion">Conversely, if this crime was premeditated, would the culprit stay here with the hostage or would they try to leave right away—— Which course of action do you think it's the best?</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">I get that...</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">But Jimmy didn't show up in any surveillance footage! There wasn't anyone who looked like him either!</speak>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">——C-Could it be Jimmy is...</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="champoColdClose" position="right"/>
+            <speak chara="_Champollion">Don't let your imagination run wild. I doubt anyone had a grudge against him, and it didn't seem like he had a lot of money. The possibility that someone would try to assassinate him is small.</speak>
+            <show chara="champoColdClose" position="right" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="left"/>
+            <speak chara="_Bianka">But then...</speak>
+            <show chara="biankaHesitateClose" position="left" opacity="0.8"/>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">It's simple. He was put inside something and was escorted out of the library.</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">But even if someone were to hide him in one of the boxes we use to carry books they would be thoroughly inspected at the exit. They would be found out immediately.</speak>
+            <show chara="thalesEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">...Director Thales, I never said anything about books.</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_Thales">I know... but it's not time for cleaning yet, he couldn't had been hidden together with the trash. Besides those boxes I'm not sure if there is something else where you can hide someone. Even personal luggage is stored away before entering the library...</speak>
+            <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">Hehe, it's right under your nose.</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_Thales">...What do you mean?</speak>
+            <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">What's the best tool of transportation that was made using that 「Gem of Reason」 you and your library are so proud of?</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_Thales">Ah—— I see——</speak>
+            <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">Exactly. Robots with large torsos are excellent tools to carry people.</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">But the robots are full of electronic components inside, you can't——</speak>
+            <show chara="thalesAngryClose" position="left"/>
+            <speak chara="_Thales">——Ah!</speak>
+            <show chara="thalesAngryClose" position="left" opacity="0.8"/>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">You noticed it, didn't you?</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">P-Please explain it so that I can understand it too!</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">...If you remove the autonomous control unit of the robot and switch to remote control you can fit a person inside.</speak>
+            <show chara="thalesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="micheSeriousClose" position="left"/>
+            <speak chara="_Michel">...Any solid proof of that?</speak>
+            <show chara="micheSeriousClose" position="left" opacity="0.8"/>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">From what I've heard the robots have a 「heartbeat」 system that automatically sends a signal back to HQ at regular intervals.</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="micheFocusClose" position="left"/>
+            <speak chara="_Michel">They do. It's a system we use to see the active area of each robot in real time so that we can optimize their deployment zone.</speak>
+            <show chara="micheFocusClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">Anyone planning to use a robot for a crime will definitely remove its transmitter, otherwise the risk of being found out is too great.</speak>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">The staff in charge of the system are now comparing the 「heartbeat」 system records with the camera footage. The results should be coming in soon.</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="cowGirlLibrarian" position="left"/>
+            <speak chara="_Librarian">Professor Champollion!</speak>
+            <speak chara="_Librarian">There is a discrepancy between the number of robots that left the building and the system's records. It's 3 of them!</speak>
+            <show chara="cowGirlLibrarian" position="left" opacity="0.8"/>
+            <show chara="micheColdClose" position="right"/>
+            <speak chara="_Michel">...3?</speak>
+            <show chara="micheColdClose" position="left" opacity="0.8"/>
+            <show chara="champoColdClose" position="right"/>
+            <speak chara="_Champollion">Hmph. There might be more victims we're not aware of yet.</speak>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">Or perhaps the culprit used the same method to escape.</speak>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">In any case, finding those robots will get us closer to solving this case.</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">...You sure sound confident for what it is essentially looking for a needle in the ocean.</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">I have a very talented assistant, you see.</speak>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">She should be arriving in any moment—— She better had not stopped to eat something on the way here...</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">...Is she really as reliable as you say she is?</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">Whatever, let's go to the entrance.</speak>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">Even if the culprit is still inside they would be no different than a cornered rat, the library's staff will be able to deal with them easily.</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="01_18_secretRoom.jpg">
+            <bgm src="01_18_horror.mp3" status="start"></bgm>
+            <text>At the same time, somewhere in the city——</text>
+            <speak chara="_ShadowA">I already used the drug. He should be waking up shortly. Will he really help us, though?</speak>
+            <speak chara="_ShadowB">Don't worry. We kidnapped him, but he seems to be too much of a good boy. There is no way he would let 「Unit 4」 die.</speak>
+            <speak chara="_ShadowA">If that hadn't happened to the Professor, we wouldn't had resorted to this.</speak>
+            <speak chara="_ShadowA">We kidnapped 3 other scholars, it's just a matter of time until the authorities realize what we're doing.</speak>
+            <speak chara="_ShadowB">It'll be alright. The Professor is no longer with us, but the 「assets」 he left behind are more than enough to make this experiment succeed.</speak>
+            <speak chara="_ShadowB">Not even the 「Great Library」 will be able to oppose us.</speak>
+            <speak chara="_ShadowC">Yes. And justice is in our side. Countless people who lost their freedom are waiting for us.</speak>
+            <speak chara="_ShadowC">It's time to turn off the lights of the 「Great Library」 that calls itself the Lighthouse of this city.</speak>
+            <goto goto="80" clockwise="1"/>
+        </scene>
+        <scene id="80" background="alexandriaLibraryYard.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="neithLaughClose" position="left"/>
+            <speak chara="_NeithNoName">Sup, Professor! The cake from the 「Nile River Orchard」 was so delicious I had to buy another one!</speak>
+            <show chara="neithLaughClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">...Hahaha, is there anything else besides food in that little head of yours? We can't have that hindering our investigation, Neith.</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="neithSmileClose" position="left"/>
+            <speak chara="_Neith">Ehehe, but I'm not too late aren't I...</speak>
+            <show chara="neithSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">This kid is your assistant?</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">Yes. Her name is Neith. She doesn't look very reliable, but her nose is better than a dog's.</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="neithComplainClose" position="left"/>
+            <speak chara="_Neith">I am reliable! I'm only late because the cake smelled so good! It's not my fault!</speak>
+            <show chara="neithComplainClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">So this kid is... your search dog?</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">Don't call her that. She's a treasure I found in the market.</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">Market? Don't tell me she's——</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">Let's get this started. Take us to the missing boy's room. We need to make Neith catch Jimmy's 「smell」.</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">...You changed the subject very quickly. How suspicious.</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="micheArrogantClose" position="right"/>
+            <speak chara="_Michel">Neith once found Arthur who ran away from home. I can vouch for her searching abilities.</speak>
+            <show chara="micheArrogantClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">...Arthur?</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="right"/>
+            <speak chara="_Thales">The Curator's pet parrot. We had a hard time catching it. Everyone worked together to climb the tree he was in... my precious silk cloak got torn that day.</speak>
+            <show chara="thalesEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="micheDrySmileClose" position="right"/>
+            <speak chara="_Michel">Cough. There is no time to reminiscence about the past. Let's go.</speak>
+            <show chara="micheDrySmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">R-Right! If we can really count on Neith then let's hurry up!</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">Jimmy's room is in the Caledonia!</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="alexandriaLighthouse.jpg">
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">Bianka-sama?</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="lallaQuestionClose" position="right"/>
+            <speak chara="_Lalla">What happened? You seem to be in a hurry...</speak>
+            <show chara="lallaQuestionClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">Jimmy is gone! I'm trying to get a whiff of his smell to find him!</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="lallaSeriousClose" position="right"/>
+            <speak chara="_Lalla">...!?</speak>
+            <show chara="lallaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="left"/>
+            <speak chara="_Rita">.....</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">Lalla-san, you're in charge of the cabin too, right? Can you open Jimmy's room, please?</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="lallaSeriousClose" position="right"/>
+            <speak chara="_Lalla">...Yes. Come with me.</speak>
+            <goto goto="100" change="#ffffff"/>
+        </scene>
+        <scene id="100" background="alexandriaLighthouse.jpg">
+            <bgm src="01_18_horror.mp3" status="start"></bgm>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">...Please wait, Bianka-sama.</speak>
+            <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">——What is it, Rita?</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">You said Jimmy-san disappeared... What happened exactly?</speak>
+            <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="left"/>
+            <speak chara="_Bianka">...Right, you don't know yet.</speak>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">Alright. Let me explain everything.</speak>
+            <goto goto="110" clockwise="1"/>
+        </scene>
+        <scene id="110" background="alexandriaLighthouse.jpg">
+            <bgm src="01_18_horror.mp3" status="continue"></bgm>
+            <show chara="rita17HesitateClose" position="center"/>
+            <speak chara="_Rita">...I see, so that happened.</speak>
+            <show chara="rita17NormalClose" position="center"/>
+            <speak chara="_Rita">In that case let Jimmy-san's search to me. Bianka-sama, you should stay aboard the Caledonia.</speak>
+            <hide position="center"></hide>
+            <show chara="rita17NormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">...Eh? Why should I?</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">I know you want to help Jimmy-san.</speak>
+            <speak chara="_Rita">However, we need to keep in mind our own mission... 「we」, in particular 「you」, shouldn't get involved in this case.</speak>
+            <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">Did I hear that right?</speak>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">Are you saying that I shouldn't get involved in an incident that happened under my watch? Are you serious!?</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17AngryEmClose" position="right"/>
+            <speak chara="_Rita">...I'm very serious, Bianka-sama.</speak>
+            <speak chara="_Rita">Getting involved in the internal affairs of a big city like this could bring unexpected risks to us.</speak>
+            <speak chara="_Rita">One of us should remain aboard the ship to avoid the worst case scenario.</speak>
+            <show chara="rita17AngryEmClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">...Then it should be fine if I go out and you stay on the ship! I was Jimmy's partner. This is my responsibility!</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17AngryClose" position="right"/>
+            <speak chara="_Rita">「There are five dangerous faults which may affect a general:」</speak>
+            <speak chara="_Rita">「Recklessness, which leads to destruction;」</speak>
+            <speak chara="_Rita">「Cowardice, which leads to capture;」</speak>
+            <speak chara="_Rita">「A hasty temper, which can be provoked by insults;」</speak>
+            <speak chara="_Rita">「A delicacy of honor which is sensitive to shame;」</speak>
+            <speak chara="_Rita">「Over-solicitude for his men, which exposes him to worry and trouble.」</speak>
+            <speak chara="_Rita">「These are the five besetting sins of a general, ruinous to the conduct of war.」</speak>
+            <speak chara="_Rita" remark="next">「When an army is overthrown and its leader slain, the cause will surely be found among these five dangerous faults. Let them be a subject of meditation.」</speak>
+            <remark post="U2FsdGVkX1+jgMcjNXOIjAJdTnV6">
+                <p class="article-text-h">Note：</p>
+                <!-- TODO -->
+                <p class="article-text">这一段文字是《孙子兵法》第八章“九变篇”里的内容。英文部分来自翟林奈（Lionel Giles）1910年的译本（ART OF WAR: THE OLDEST MILITARY TREATISE IN THE WORLD）。</p>
+            </remark>
+            <show chara="rita17AngryEmClose" position="right"/>
+            <speak chara="_Rita">Bianka-sama, from a military point of view your current state of mind is not suited to perform this investigation.</speak>
+            <speak chara="_Rita">As long as there are unknown risks we can't afford to act recklessly.</speak>
+            <show chara="rita17AngryEmClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">I'm not being reckless! No one will have faith in me if I have my adjutant solve my problems for me!</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">And all I'm gonna do is to catch some kidnappers! Where's the risk in that? I'm a Rank A Valkyrie, I can handle something like that without breaking a sweat!</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">.....</speak>
+            <show chara="rita17AngryEmClose" position="right"/>
+            <speak chara="_Rita">If you insist so much, then please at least wait until the rest of the Caledonia's crew is back——</speak>
+            <show chara="rita17AngryEmClose" position="right" opacity="0.8"/>
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="neithLaughClose" position="left"/>
+            <speak chara="_Neith">Got it! My nose is ready to go!</speak>
+            <show chara="neithSmileClose" position="left"/>
+            <speak chara="_Neith">Those who want to know where the criminals are follow me!</speak>
+            <show chara="neithSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">Good work! I'm coming!</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17AngryClose" position="right"/>
+            <speak chara="_Rita">Bianka-sama!</speak>
+            <show chara="rita17AngryClose" position="right" opacity="0.8"/>
+            <show chara="champoSmileClose" position="left"/>
+            <speak chara="_Champollion">Don't worry, maid. I'll keep an eye on that 「stubborn」 girl for you.</speak>
+            <show chara="champoSmileClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">T-Thank you very much...</speak>
+            <show chara="rita17AngryEmClose" position="right"/>
+            <speak chara="_Rita">(Was she... eavesdropping in our conversation...?)</speak>
+            <end post="U2FsdGVkX18Eo7yka2bZeNMg03Im"/>
+        </scene>
+    </story>
+</data>

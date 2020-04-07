@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="CG4-1.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <text>A man was drifting in the sea.</text>
+            <text>Normally he would be able to get to land by using a tattered propeller.</text>
+            <text>But he had no strength nor motivation to do so.</text>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="12_12_cloudSky.jpg">
+            <bgm src="seaAndSky.mp3" status="continue"></bgm>
+            <text>That man was once a pilot, an ace pilot even.</text>
+            <text>Not that far back he was like a hawk in the wind, an albatross soaring the sky above the clouds, a heaven-sent man who shot down 80 enemy planes.</text>
+            <goto goto="30" change="#000000"/>
+        </scene>
+        <scene id="30" background="12_12_blackCloud.jpg">
+            <bgm src="seaAndSky.mp3" status="continue"></bgm>
+            <text>.....</text>
+            <text>He feels like the last time he felt free was in the distant past.</text>
+            <text>Though ironically, he is now 「enjoying」, in a sense, 「absolute freedom」.</text>
+            <text>He has no dreams or desires. He lives 「free」, a life without meaning as if he was already dead.</text>
+            <text>A reasonable voice inside his head tells him——</text>
+            <text>——This feel is a hallucination caused by an imbalance in your body fluids right before death.</text>
+            <text>If I'm rescued, everything will be okay.</text>
+            <text>If I'm rescued, I will be free.</text>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="wallGibraltar.jpg">
+            <bgm src="seaAndSky.mp3" status="continue"></bgm>
+            <text>However——</text>
+            <text>——A 「foreign thought」 keeps telling him:</text>
+            <text>Your comrades are dead.</text>
+            <text>Your motherland is beyond this hallucination.</text>
+            <text remark="next">Like that philosopher once said, 「His death, dieth the consummating one triumphantly, surrounded by hoping and promising ones.」</text>
+            <text remark="next">「Thus to die is best; the next best, however, is to die in battle, and sacrifice a great soul.」, it has to be like a warrior.</text>
+            <remark post="U2FsdGVkX19tpsRgT2jPYlGdBeBn">
+                <p class="article-text-h">Note：</p>
+                <p class="article-text">引号中的部分来自尼采的《查拉图斯特拉如是说》。</p>
+            </remark>
+            <text>But he failed spectacularly and now he can only die pathetically, like a lion stripped of its fangs.</text>
+            <text>...Drifting in the sea, 「life」 and 「death」 have lost all meaning.</text>
+            <goto goto="50" clockwise="1"/>
+        </scene>
+        <scene id="50" background="submarineCabinBlurSunset.jpg">
+            <!--
+                When he attempted to fly over the Wall of Asgard his plane was deviated by a mysterious force as if there was a spatial curvature above the wall. 
+                In short, flying to get past the wall won't work. The plane can still be used for other purposes so Jimmy will repair it. 
+                Shakespeare wants to persuade him to join them, but before they can talk about cooperation they need to get him out of his depression first. 
+                Bianka offers to be the one to do it and orders Rita to prepare something delicious to eat. 
+                Bianka goes to talk to the man, from soldier to soldier, from Ace Valkyrie to Ace Pilot.
+    
+                Rita prepared whale steak for them, however the man has no appetite.  
+            -->
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">怎么样？这次的漂流幸存者是个什么人？</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="ironWhiteClose" position="right"/>
+            <speak chara="_Ironface">“飞行员”。操纵机械翱翔于蓝天的一种职业。</speak>
+            <show chara="ironWhiteClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哇哦！那我们岂不是可以从空中绕开那堵破墙了？</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="lallaSighClose" position="right"/>
+            <speak chara="_Lalla">这个……您最好不要抱太大希望。</speak>
+            <show chara="lallaSighClose" position="right" opacity="0.8"/>
+            <show chara="shakesQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">……为什么啊？</speak>
+            <show chara="shakesQuestionClose" position="left" opacity="0.8"/>
+            <show chara="ironWhiteClose" position="right"/>
+            <speak chara="_Ironface">他的飞行器在试图飞跃“阿斯加德之壁”时受到“神秘力量”的作用，大角度偏离了预定航向。</speak>
+            <speak chara="_Ironface">结合之前做过的鸟类观测，可以认为“壁”的上方确实存在着空间曲率的断层。</speak>
+            <show chara="ironWhiteClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">……虽然果真听不太懂你在说什么——</speak>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">就结论来说，你是指“飞行”不能作为突破“墙”的手段，对吧？</speak>
+            <show chara="shakesSweatyClose" position="left" opacity="0.8"/>
+            <show chara="ironWhiteClose" position="right"/>
+            <speak chara="_Ironface">是。不过，如果可以在通常的作战中使用飞行器，肯定还是很有利的。</speak>
+            <show chara="ironWhiteClose" position="right" opacity="0.8"/>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">逆向工程就交给我吧。</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="ironBlueClose" position="right"/>
+            <speak chara="_Ironface">辛苦了。如果需要复杂的计算，尽管找我帮忙。</speak>
+            <show chara="ironBlueClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈，这些细节问题，你们之后可以慢慢协调。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">当务之急是——有谁能去说服飞行员先生，让他加入我们呢？</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="lallaSighClose" position="right"/>
+            <speak chara="_Lalla">的确。他那个样子……与其说是“配合”，还不如说是“意志消沉”。</speak>
+            <show chara="ironRedClose" position="right"/>
+            <speak chara="_Ironface">……事先声明，我可没有兴趣去鼓励失魂落魄的小鬼。</speak>
+            <show chara="wattScaredClose" position="right"/>
+            <speak chara="_Watt">别、别看着我啊……这、这种事我肯定不擅长……</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">——那就交给我吧？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">……哇哦。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">你不是刚才还对我满腹狐疑，甚至不愿意收下宝剑“幽兰黛尔”的么？</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">……这有什么啦！再说，那些事情上我也并没有承认“你就是对的”，好吗？</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">哦？</speak>
+            <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">一码归一码啊。</speak>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">毕、毕竟坐在你们的船上——</speak>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">——如果能还回去一些人情，那不也挺好吗？</speak>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">而且，那个人自称是军人吧？还是个来自第一次世界大战末期的死硬脑袋小贵族，什么“王牌飞行员”。</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">这样的人，比起跟你们“海盗”，肯定更愿意和我这样的“王牌女武神”说话吧？</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈哈哈！</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">好玩儿！有意思！</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈哈哈！</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">哼，你可别小看我。</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">至少在消灭了多少敌人这件事情上——我想我还是会和他有一点共同语言的。</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">总之……</speak>
+            <speak chara="_Bianka">丽塔，先去给这人准备点好吃的！高热量，看着就让人流口水的那种！</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">遵命，比安卡大人。</speak>
+            <goto goto="60" clockwise="1"/>
+        </scene>
+        <scene id="60" background="submarineCabinBlurDeep.jpg">
+            <bgm src="12_14_moonLight.mp3" status="start"></bgm>
+            <show chara="manfredQuestionClose" position="left"/>
+            <text>The man was worried, staring at the meat in front of him.</text>
+            <show chara="manfredQuestionClose" position="left" opacity="0.8"/>
+            <show chara="biankaConfidentClose" position="right"/>
+            <!-- TODO -->
+            <speak chara="_Bianka">这是“鲸排”。</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">不趁热吃的话，可是会变腻的。</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="manfredColdClose" position="left"/>
+            <speak chara="_ManfredNoName">……</speak>
+            <show chara="manfredColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">虽然准确的品种并不是抹香鲸、露脊鲸、长须鲸这些很多人都知道的类别就是啦。</speak>
+            <show chara="biankaConfidentClose" position="right" opacity="0.8"/>
+            <show chara="manfredQuestionClose" position="left"/>
+            <speak chara="_ManfredNoName">……</speak>
+            <show chara="manfredQuestionClose" position="left" opacity="0.8"/>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">没有其他海产品的腥味，嫩而不散、肥而不腻，比小牛肉还好吃的——“鲸排”！</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="manfredColdClose" position="left"/>
+            <speak chara="_ManfredNoName">……不。</speak>
+            <show chara="manfredColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">……啊？你尝都没尝——</speak>
+            <show chara="manfredSeriousClose" position="left"/>
+            <speak chara="_ManfredNoName">我是说！……我只是自己没有胃口罢了。</speak>
+            <show chara="manfredSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">What?</speak>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">You were saved from such extreme conditions—— Yet you don't have any appetite?</speak>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">...Surely a man like yourself didn't get full just by drinking a little bit of Honey Water.</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">You're mistaken if you think anyone would believe that.</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="manfredSeriousClose" position="left"/>
+            <speak chara="_ManfredNoName">...You don't know anything, little girl.</speak>
+            <show chara="manfredSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <speak chara="_Bianka">Heh. So this pilot is the sort of person who discriminates based on age before even introducing himself?</speak>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">Looks like we cleaned you up for nothing.</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="manfredAngryClose" position="left"/>
+            <speak chara="_ManfredNoName">.....</speak>
+            <show chara="manfredAngryClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Do you intent to remain anonymous in front of the people who saved you?</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="manfredAngryClose" position="left"/>
+            <speak chara="_ManfredNoName">.....</speak>
+            <show chara="manfredColdClose" position="left"/>
+            <speak chara="_ManfredNoName">Manfred Albrecht von Richthofen. Pilot. Fighter pilot of the German Air Force.</speak>
+            <show chara="manfredColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">Bianka Atagina. Valkyrie. Squad Leader of Destiny's special exploration unit 「LONELY PANTHALASSA」.</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="manfredQuestionClose" position="left"/>
+            <speak chara="_Manfred">...「Destiny」 and 「Valkyrie」.</speak>
+            <show chara="manfredColdClose" position="left"/>
+            <speak chara="_Manfred">...As I thought, those terms mean nothing to me.</speak>
+            <show chara="manfredColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">「Wenn schon, denn schon」.</speak>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">I don't belong to this world, but first——</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">Eat before it gets cold.</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="manfredQuestionClose" position="left"/>
+            <speak chara="_Manfred">.....</speak>
+            <show chara="manfredSeriousClose" position="left"/>
+            <speak chara="_Manfred">My comrades survived 53 days out in the sea without water and unable to catch fish, only barely hanging on eating seaweed and shrimp.</speak>
+            <speak chara="_Manfred">Even in their worst moments...</speak>
+            <speak chara="_Manfred">.....</speak>
+            <show chara="manfredAngryClose" position="left"/>
+            <speak chara="_Manfred">None of them dared to give up...</speak>
+            <show chara="manfredSadClose" position="left"/>
+            <speak chara="_Manfred">...But in the end only me, their captain, survived.</speak>
+            <speak chara="_Manfred">I'm aware... Getting into an accident, being ill, everything comes down to cruel 「luck」.</speak>
+            <show chara="manfredQuestionClose" position="left"/>
+            <speak chara="_Manfred">So I...</speak>
+            <speak chara="_Manfred">.....</speak>
+            <show chara="manfredQuestionClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">Really——</speak>
+            <speak chara="_Bianka">What a troublesome man you are.</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="manfredAngryClose" position="left"/>
+            <speak chara="_Manfred">...?</speak>
+            <show chara="manfredAngryClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Let me put it this way.</speak>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">The meat in front of your is what's left of a creature we fought not too long ago.</speak>
+            <speak chara="_Bianka">Killing that giant monster only gave us ordinary things like meat and bones. You can't eat it all at once, nor you can store it for later.</speak>
+            <speak chara="_Bianka">So what's in front of you is just leftover food. It's not different from 「seaweed」 or 「shrimp」.</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">——Do you understand now?</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="manfredAngryClose" position="left"/>
+            <speak chara="_Manfred">...You!</speak>
+            <show chara="manfredSadClose" position="left"/>
+            <speak chara="_Manfred">(Stomach growl...)</speak>
+            <show chara="manfredSadClose" position="left" opacity="0.8"/>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">See. Your head rejects it, but the rest of your body is being honest.</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">...Or are you going to say that you were better off when you were drifting?</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">That your dead comrades—— Want to see you in pain like this!?</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="manfredSadClose" position="left"/>
+            <speak chara="_Manfred">.....</speak>
+            <show chara="manfredSadClose" position="left" opacity="0.8"/>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">Eat.</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">I too... had to say goodbye to people like you did.</speak>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">So how about you listen to my story while we eat?</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="warGrassland.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <speak chara="_Bianka">You came from a world where there is a 「World War II」 going on.</speak>
+            <speak chara="_Bianka">But in another world there is something far more terrifying than that massacre.</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="benghuai0.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">That is the Houkai——A natural disaster specialized in killing.</speak>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="benghuai1.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">You can't bargain with it.</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="benghuai2.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">You can't talk to it.</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="benghuai3.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">It's a natural phenomena devoid of emotions, it will never feel satisfaction or pity.</speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="benghuai4.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">The Houkai won't stop until our civilization is completely destroyed.</speak>
+            <goto goto="130" change="#000000"/>
+        </scene>
+        <scene id="130" background="12_12_blackCloud.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">From what I've been told... I'm the survivor of a Houkai attack.</speak>
+            <speak chara="_Bianka">——One of the few survivors among hundreds of millions of dead.</speak>
+            <speak chara="_Bianka">But that has no effect on me. After all, I have no memory of any of that.</speak>
+            <speak chara="_Bianka">As far as I know, 「Bianka」 has always been alone.</speak>
+            <speak chara="_Bianka">I don't know where I came from or who my parents are.</speak>
+            <speak chara="_Bianka">I've seen many people like that from sanatoriums in Russia to orphanages in France.</speak>
+            <speak chara="_Bianka">Some were depressed like you, some others were hellbent on revenge—— And of course, some were normal too.</speak>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="CG4-2.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <speak chara="_Bianka">In those 「not so bad but not so good」 days... I met a certain person.</speak>
+            <speak chara="_Bianka">A volunteer came to visit the orphanage——</speak>
+            <speak chara="_Bianka">——She was the captain of a Valkyrie Assault Squad and a battle training instructor who reported directly to HQ.</speak>
+            <speak chara="_Bianka">An 「Assault Squad」 is a special unit even among Valkyrie squads in charge of dealing with missions taking place in harsh environments.</speak>
+            <speak chara="_Bianka">So we thought she was going to be a strict person who had nothing but rules and training in her head——</speak>
+            <speak chara="_Bianka">——But surprisingly, what this Assault Squad captain held was...a peaceful gardening class.</speak>
+            <goto goto="150" change="#ffffff"/>
+        </scene>
+        <scene id="150" background="CG4-3.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <speak chara="_Ragna">Lilies are easy to grow.</speak>
+            <speak chara="_Ragna">The bulb and the petiole sprouts around it can be used to breed it... Of course, you can also take your time and use seeds.</speak>
+            <speak chara="_Ragna">Lilies are big and smell good—— And it takes almost no effort to take care of them.</speak>
+            <speak chara="_Ragna">Plant them in the ground and they will bloom without much trouble.</speak>
+            <goto goto="155" change="#ffffff"/>
+        </scene>
+        <scene id="155" background="12_12_cloudSky.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">It was an unforgettable evening.</speak>
+            <speak chara="_Bianka">If I had to put it in words...</speak>
+            <speak chara="_Bianka">The poem she taught us summarized it well.</speak>
+            <goto goto="160" change="#ffffff"/>
+        </scene>
+        <scene id="160" background="CG4-4-1.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
+            <text>「Shall I compare thee to a summer's day?」</text>
+            <text>「Thou art more lovely and more temperate:」</text>
+            <text>「Rough winds do shake the darling buds of May,」</text>
+            <text>「And summer's lease hath all too short a date:」</text>
+            <goto goto="170" change="0"/>
+        </scene>
+        <scene id="170" background="CG4-4-2.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
+            <text>「Sometime too hot the eye of heaven shines,」</text>
+            <text>「And often is his gold complexion dimmed;」</text>
+            <text>「And every fair from fair sometime declines,」</text>
+            <text>「By chance, or nature's changing course, untrimmed:」 </text>
+            <goto goto="180" change="0"/>
+        </scene>
+        <scene id="180" background="CG4-5.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
+            <text>「But thy eternal summer shall not fade,」</text>
+            <text>「Nor lose possession of that fair thou ow'st;」</text>
+            <text>「Nor shall Death brag thou wander'st in his shade」</text>
+            <text>「When in eternal lines to time thou grow'st:」 </text>
+            <goto goto="190" change="0"/>
+        </scene>
+        <scene id="190" background="CG4-2.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
+            <text remark="next">「So long as men can breathe or eyes can see,」</text>
+            <text remark="next">「So long lives this, and this gives life to thee.」</text>
+            <remark post="U2FsdGVkX19+vvrn8gcEnkSUJ6y+">
+                <p class="article-text-h">Note：</p>
+                <!-- TODO -->
+                <p class="article-text">这首英文诗歌是莎士比亚的《第18号十四行诗》。（由于语言之间的区别以及译者能力所限，括号里的翻译只能粗略表达诗文大意。）</p>
+            </remark>
+            <goto goto="200" change="#ffffff"/>
+        </scene>
+        <scene id="200" background="lily.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <speak chara="_Bianka">By Summer of the next year the lilies we planted blossomed.</speak>
+            <speak chara="_Bianka">White petals, golden stamens... the air throughout the Summer smelled great.</speak>
+            <speak chara="_Bianka">But the person who taught us how to plant them...</speak>
+            <speak chara="_Bianka">...Passed away the previous Winter.</speak>
+            <speak chara="_Bianka">I heard it was a fierce battle... Only a single member of her squad came back alive.</speak>
+            <speak chara="_Bianka">...And the 「Assault Squad」 was disbanded shortly after.</speak>
+            <goto goto="210" change="#000000"/>
+        </scene>
+        <scene id="210" background="12_12_cloudSky.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">During that Summer the survivor came to visit the orphanage.</speak>
+            <speak chara="_Bianka">She didn't mention any 「Assault Squad」 in her self introduction, only that she was a teacher at a certain 「school」.</speak>
+            <speak chara="_Bianka">...At the time I thought she was taking advantage of her position to 「recruit students」.</speak>
+            <speak chara="_Bianka">I couldn't help but feel anger towards such 「heartless person」.</speak>
+            <speak chara="_Bianka">But in response to my anger she told me——</speak>
+            <goto goto="220" change="0"/>
+        </scene>
+        <scene id="220" background="CG4-6-1.jpg">
+            <bgm src="12_14_Hero.mp3" status="start"></bgm>
+            <speak chara="_Hemiko">Don't get me wrong.</speak>
+            <speak chara="_Hemiko">As her friend... I haven't accepted her death.</speak>
+            <speak chara="_Hemiko">But there is no need for any of you to feel sad and be in pain whenever you think of that person.</speak>
+            <goto goto="230" change="0"/>
+        </scene>
+        <scene id="230" background="CG4-6-2.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_Hemiko">If she lives in your heart too and you want to honor her ideals and values...</speak>
+            <speak chara="_Hemiko">You must try to fulfill her dream.</speak>
+            <speak chara="_Hemiko">Because in the end what this world recognizes is——</speak>
+            <speak chara="_Hemiko">——Actions born out of pure effort and not sweet words.</speak>
+            <goto goto="240" clockwise="1"/>
+        </scene>
+        <scene id="240" background="submarineCabinBlurDeep.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <show chara="manfredSadClose" position="left" opacity="0.8"/>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">Shortly after I signed up for a special Valkyrie training at HQ.</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">I thought about joining the 「school」 that woman talked about——</speak>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">But the school's system was too relaxed and I would have to waste several years until I could become a real Valkyrie.</speak>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">...You can think of me as a 「child soldier」 but from my perspective the pilot training you've done is nothing impressive.</speak>
+            <speak chara="_Bianka">I'm a Rank A Valkyrie, a soldier who has seen hell same as you.</speak>
+            <speak chara="_Bianka">——Though right now you're closer to be a soldier who retired after the death of his comrades.</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="manfredQuestionClose" position="left"/>
+            <speak chara="_Manfred">.....</speak>
+            <show chara="manfredQuestionClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">Be more 「positive」 and look forward, soldier-san.</speak>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">Think deeply about how you can make come true the dreams of your comrades in this world.</speak>
+            <goto goto="250" clockwise="1"/>
+        </scene>
+        <scene id="250" background="submarineCabinBlurDeep.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">Were you successful?</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">Who knows.</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">But I said what I wanted to say.... The rest is up to him.</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Hahahaha!</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">The so called 「talk between men」 right?</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">...Between men?</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">Don't mind the small details—— Saying a 「talk between two chivalrous and passionate knights」 was too long so I just said 「men」, give me a pass.</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">If he is the sort of 「honorable man」 you think he is, then Jimmy will be able to start repairing his plane tomorrow.</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">Ah, right... What do you think of our next destination?</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka" remark="next">...「Alexandria」?</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <remark post="U2FsdGVkX1+eKLKx5fPAhMd10Pz0">
+                <p class="article-text-h">NOTE：</p>
+                <!-- TODO -->
+                <p class="article-text">“亚历山德里亚”是“亚历山大港”（Αλεξάνδρεια）的纯音译写法。这座埃及城市是亚历山大大帝在征服所至的范围内以自己的名字建立的数十座“亚历山大”之一——也是其中最繁荣的一座。在大帝去世后，他的部将托勒密将这座港口定为自己割据埃及的首都；地理上的优势、托勒密王朝的悉心建设，使她最终成为了整个古希腊文明史中最璀璨的明星都市。时至今日，亚历山大港依然是东地中海极为重要的港口，有约334万居民生活、工作于此。</p>
+            </remark>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">Yes.</speak>
+            <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">Well, the name makes me think of that old castle... Also the Alexandria Lighthouse or the Alexandria Library, but those don't exist anymore right?</speak>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">Ah, now that I remember, you said something about accommodating the refugees on the island there——</speak>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">——So that 「Alexandria」 must be just a refugee camp?</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Hahaha! You're right but not quite so! Well, it's fine to think of it as a refugee camp!</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">...What do you mean?</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">The thriving capital of a dynasty? The remains of a lonely civilization?</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">Both are correct and both are wrong.</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">Alexandria is a living city—— Full of ugliness and full of beauty.</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">Are you sure you are picking the right words?</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Yes I am.</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">If you think 「ugliness」 and 「beauty」 can't coexist at the same time——</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">Then you haven't understood the concept of 「city」 yet.</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">Every beautiful city has an 「ugliness」 equal to its beauty.</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">Remember those words well——</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">——Your heart will understand them tomorrow.</speak>
+            <end post="U2FsdGVkX1+b2+EXcuUJtsN1w15+"/>
+        </scene>
+    </story>
+</data>

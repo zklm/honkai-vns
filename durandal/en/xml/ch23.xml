@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="railwayStationL3.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">唔……我们再确认一遍……</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">先使用瓦卡隧道的L3线路，在P2-“卡哈马卡”站下车；</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">然后改乘地表的山地铁路S17次，在车上睡一晚后到达终点站基多车站——全程预计约12个小时。</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesConfidentClose" position="right"/>
+            <speak chara="_ShigureKiraNoName">基多是世界上离“锚点”最远的城市之一，我们有相当长的时间都会花在山路上——不过在列车上休息也算是别有风味嘛！</speak>
+            <show chara="ShigureKiraSunGlassesLaughClose" position="right"/>
+            <speak chara="_ShigureKiraNoName">毕竟，S17次可是出了名的豪华专列哦！</speak>
+            <show chara="ShigureKiraSunGlassesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">豪华专列……吗？</speak>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">——等等，你、你为什么这么自然地就跟在我们后面啊，时雨绮罗小姐。</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">难道你也要和我们一起去基多吗？</speak>
+            <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+            <speak chara="_ShigureKira">是啊。</speak>
+            <show chara="ShigureKiraSunGlassesOffConfidentClose" position="right"/>
+            <speak chara="_ShigureKira">反正接下来的几天我这边也没有什么安排——可以吗？让我代替军务在身的那些将军们，来当大家的导游。</speak>
+            <show chara="ShigureKiraSunGlassesOffConfidentClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">唔，这应该没什么问题吧？</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="schroSmileClose" position="right"/>
+            <speak chara="_Schrodinger">……无所谓。挺好的。</speak>
+            <show chara="schroSmileClose" position="right" opacity="0.8"/>
+            <show chara="champoBlanketLaughClose" position="left"/>
+            <speak chara="_Champollion">我当然没有意见哦？</speak>
+            <show chara="champoBlanketLaughClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel" remark="next">虽然老夫身为道地的西班牙人，却也只是听说过自己那片世界中“卡哈马卡”与“阿塔瓦尔帕”的传说而已。</speak>
+            <remark post="U2FsdGVkX1+YqWZI3sy8AO4iBMvg">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">1532年11月16日，卡哈马卡战役（Batalla de Cajamarca）爆发，西班牙殖民者皮萨罗率领168名部下（106名步兵，62名骑兵）突袭印加帝国篡位者阿塔瓦尔帕的8万大军，生擒阿塔瓦尔帕，并在追击中杀死数千名印加士兵。印加帝国就此失去独立主权。</p>
+            </remark>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">如果可以的话，请务必多多指教啦！我对独立发展成现代国家的“印卡共和国”非常感兴趣！</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">唔……</speak>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">我也觉得，可以当然是可以啦……就是有点奢侈。或者说罪恶感吧。</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="left"/>
+            <speak chara="_Rita">噗。看来比安卡大人已经是绮罗大人的粉丝了呢。</speak>
+            <show chara="ritaVestSquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">喂！你不要瞎说啊！</speak>
+            <show chara="biankaDressScreamClose" position="right"/>
+            <speak chara="_Bianka">我、我只是觉得人家身为偶像明星，时间也很宝贵而已！</speak>
+            <show chara="biankaDressScreamClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
+            <speak chara="_ShigureKira">哈哈，没有关系、没有关系。</speak>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="left"/>
+            <speak chara="_ShigureKira">虽然这样说可能反而有点生分、或者说怪怪的——</speak>
+            <show chara="ShigureKiraSunGlassesOffSunshineClose" position="left"/>
+            <speak chara="_ShigureKira">但命运已经决定：在目前可见的一段时光中，你们都必定是我最重要的“商业伙伴”！</speak>
+            <speak chara="_ShigureKira">希望我们彼此之间合作愉快！</speak>
+            <show chara="ShigureKiraSunGlassesOffSunshineClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
+            <speak chara="_ShigureKira">嘿嘿。作为女武神，我也很看好你们俩哦？</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">……！</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffSunshineClose" position="left"/>
+            <speak chara="_ShigureKira">——走喽！去卡哈马卡坐S17次，耶！</speak>
+            <goto goto="20" clockwise="1"/>
+        </scene>
+        <scene id="20" background="trainBedroom.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">唔哇……这……这简直和主教的公务车一样豪华啊！</speak>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">我们真的可以坐这样的车吗？连浴室都修得很漂亮啊！</speak>
+            <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+            <speak chara="_ShigureKira">主教？</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+            <speak chara="_ShigureKira">啊，你是说奥托主教吗？</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">啊，对啊。</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">虽然我觉得那个人看起来也没什么威严，整天吊儿郎当的……怎么看都不像一个“主教”就是了。</speak>
+            <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+            <speak chara="_ShigureKira">……</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+            <speak chara="_ShigureKira">哈哈，那说明他真的很器重你呢！</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffConfidentClose" position="right"/>
+            <speak chara="_ShigureKira">你认识德丽莎吧？德丽莎·阿波卡利斯。</speak>
+            <show chara="ShigureKiraSunGlassesOffConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">唔，算是听说过吧。她好像是主教的“孙女”？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+            <speak chara="_ShigureKira">嗯。德丽莎口中的奥托主教，和你口中的奥托主教就很相似。</speak>
+            <show chara="ShigureKiraSunGlassesOffTalkingClose" position="right"/>
+            <speak chara="_ShigureKira">不过当主教和我们在一起的时候……他那随性的笑容里却总是会多几分令人不寒而栗的东西。</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+            <speak chara="_ShigureKira">哈哈，不过你应该是真的没有机会见识主教的另一面吧？</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSorrowClose" position="left"/>
+            <speak chara="_Bianka">应该是吧……毕竟，之前丽塔也像你这么说过。说主教对待我的态度和其他人是不同的。</speak>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">——不过我觉得这并不是什么太重要的事情。</speak>
+            <speak chara="_Bianka">反正不管那家伙的本性究竟如何，我自己这边的情况总归是很清楚的。</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">我需要变得更强。我必须变得更强。不然我就什么也不是。</speak>
+            <speak chara="_Bianka">……至少就不算是什么“最年轻的A级女武神”了。</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+            <speak chara="_ShigureKira">……</speak>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
+            <speak chara="_ShigureKira">……</speak>
+            <show chara="ShigureKiraSunGlassesOffSunshineClose" position="right"/>
+            <speak chara="_ShigureKira">我说，你真的很适合当偶像啊！</speak>
+            <show chara="ShigureKiraSunGlassesOffSunshineClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">啊？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+            <speak chara="_ShigureKira">个人形象没问题。声音也OK。性格虽然不是最容易受欢迎的类型，但也足够有自己的特色。</speak>
+            <show chara="ShigureKiraSunGlassesOffSunshineClose" position="right"/>
+            <speak chara="_ShigureKira">然后就是这股信念！偶像是传递爱的天使，只有“追求最强”的内心才能承担起这份重任！</speak>
+            <show chara="ShigureKiraSunGlassesOffTalkingClose" position="right"/>
+            <speak chara="_ShigureKira">她需要把自己打造成大家真正需要的存在——</speak>
+            <show chara="ShigureKiraSunGlassesOffTalkingClose" position="right"/>
+            <speak chara="_ShigureKira">对抗自己的缺点和不成熟、对抗自己的私心杂念、对抗自己的审美偏见。</speak>
+            <show chara="ShigureKiraSunGlassesOffConfidentClose" position="right"/>
+            <speak chara="_ShigureKira">而且，为了把真正的爱传递到每个人的心里，她还必须像钻石一样，永远不会受伤、永远发光发亮才行。</speak>
+            <show chara="ShigureKiraSunGlassesOffConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">……这怎么可能？任谁都总有受伤的时候吧！</speak>
+            <show chara="biankaDressScreamClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+            <speak chara="_ShigureKira">狮子也会受伤，但狮子不会轻易让人看到自己舔舐伤口的样子。</speak>
+            <speak chara="_ShigureKira">狮子就是狮子。</speak>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
+            <speak chara="_ShigureKira">……</speak>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
+            <speak chara="_ShigureKira">啊，到头来，使用了“爱之宝石”来作弊的我……其实是最没有资格这么说的吧。</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+            <speak chara="_ShigureKira">不过是在你们面前吹牛而已。</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">可是……无论如何，你还是成为了舞台上最闪亮的那颗星，不是吗？</speak>
+            <show chara="biankaDressShyClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+            <speak chara="_ShigureKira">……</speak>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">我是孤儿。我是失去过记忆的人。我从很久以前就知道，这是一个只在乎结果的世界。</speak>
+            <show chara="biankaDressAngryClose" position="left"/>
+            <speak chara="_Bianka">我不是说过程不重要——但这就像一串数字，没有最左边的“1”，即使有再多右边的“0”也无济于事。</speak>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">所以……我发自内心地觉得，每一个能实现自己梦想的人，都非常、非常、非常地，了不起。</speak>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">作弊也好，幸运也罢——“时雨绮罗”的确是许许多多人都热爱的偶像，为他们带去了爱，带去了生活的阳光。</speak>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">这本身就已经很伟大了，不是吗？</speak>
+            <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffShockClose" position="right"/>
+            <speak chara="_ShigureKira">……！</speak>
+            <show chara="ShigureKiraSunGlassesOffSunshineClose" position="right"/>
+            <speak chara="_ShigureKira">谢谢！</speak>
+            <show chara="ShigureKiraSunGlassesOffSunshineClose" position="right"/>
+            <speak chara="_ShigureKira">你……真的很会鼓励人呢！简直就像塞西莉亚大人一样！</speak>
+            <show chara="ShigureKiraSunGlassesOffSunshineClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">“塞西莉亚”？是那个“游戏机记录保持者”塞西莉亚吗？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffShockClose" position="right"/>
+            <speak chara="_ShigureKira">……啊？</speak>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
+            <speak chara="_ShigureKira">“游戏机记录保持者”？等等——你、你对塞西莉亚大人的印象就是这个？</speak>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">啊……不……我只是觉得这样去称呼她，她本人大概会比较开心吧。</speak>
+            <show chara="biankaDressSorrowClose" position="left"/>
+            <speak chara="_Bianka">如果冒犯了你，那么我道歉。</speak>
+            <show chara="biankaDressSorrowClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+            <speak chara="_ShigureKira">……</speak>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHateClose" position="left"/>
+            <speak chara="_Bianka">几乎每个天命的女武神都知道——塞西莉亚·沙尼亚特是有史以来最强大的S级女武神之一、是在“第二次崩坏”的战斗中居功至伟的大英雄。</speak>
+            <show chara="biankaDressAngryClose" position="left"/>
+            <speak chara="_Bianka">……但是她终究是在最后的战役中牺牲了。</speak>
+            <show chara="biankaDressSorrowClose" position="left"/>
+            <speak chara="_Bianka">我既没有资格、也永远不会去苛责已逝之人——但我觉得，作为以“最强”为目标的一位女武神，她并不希望自己在大家心目中的形象是一位“牺牲者”。</speak>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">因为那个词汇意味着……那个人……明明离真正的“最强”已经很近很近了……</speak>
+            <show chara="biankaDressAngryClose" position="left"/>
+            <speak chara="_Bianka">……却因为命运的种种捉弄，最终还是没能攀登到真正的顶峰。</speak>
+            <show chara="biankaDressSorrowClose" position="left"/>
+            <speak chara="_Bianka">我觉得，这是很令人伤感的一件事。</speak>
+            <show chara="biankaDressSorrowClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
+            <speak chara="_ShigureKira">你……</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+            <speak chara="_ShigureKira">嘛，这的确也是一种人生信条呢。</speak>
+            <show chara="ShigureKiraSunGlassesOffShockClose" position="right"/>
+            <speak chara="_ShigureKira">不过，“最强”真的值得你付出一切吗？你……才12岁呀。</speak>
+            <show chara="ShigureKiraSunGlassesOffShockClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">如果同时计算牺牲和退役两种情况，那么女武神的平均除役年龄小于30岁。</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">——12岁已经是其中的一小半了。</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+            <speak chara="_ShigureKira">……你甚至完全没有想过自己可以不做女武神吗？</speak>
+            <show chara="ShigureKiraSunGlassesOffShockClose" position="right"/>
+            <speak chara="_ShigureKira">你的生活中真的就只有战斗吗？！</speak>
+            <show chara="ShigureKiraSunGlassesOffShockClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSorrowClose" position="left"/>
+            <speak chara="_Bianka">……绮罗前辈也是有过战友的吧。</speak>
+            <show chara="biankaDressAngryClose" position="left"/>
+            <speak chara="_Bianka">如果我不去为了这个世界战斗……那么只要想到那些在阿格拉堡牺牲的伙伴，我肯定就会失眠的。</speak>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">——如果有需要的话，我会在消灭崩坏之后再思考“怎么生活”的问题。</speak>
+            <show chara="biankaDressSmileClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffTalkingClose" position="right"/>
+            <speak chara="_ShigureKira">……</speak>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="right"/>
+            <speak chara="_ShigureKira">你……在旁人看来，注定会活得很辛苦吧。</speak>
+            <show chara="ShigureKiraSunGlassesOffConfidentClose" position="right"/>
+            <speak chara="_ShigureKira">但我曾经见过几个和你类似的人——我明白，这种旁人看来的辛苦，反而是能够让你们获得幸福的唯一道路。</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="right"/>
+            <speak chara="_ShigureKira">明天，议长小姐一定会很开心见到你的。因为她也属于你们这些“少数派”的一员。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <text>身着便服的偶像似乎想起了什么往事。</text>
+            <text>她道了声晚安，有些黯然神伤地离开了属于比安卡和丽塔的包间。</text>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">我……果然还是说了太多奇怪的话吧。</speak>
+            <show chara="biankaDressShyClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">不。比安卡大人。</speak>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">正因为您的话无比高尚，才会唤起我们前辈的一些宝贵记忆吧。</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSorrowClose" position="left"/>
+            <speak chara="_Bianka">……果然还是塞西莉亚的事吗？</speak>
+            <show chara="biankaDressSorrowClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_Rita">虽然嘴上没有承认，但比安卡大人其实也很崇拜她吧？</speak>
+            <show chara="ritaVestNaughtyClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">讨厌啦。被你突然这么一说，我现在感觉浑身都不舒服了。</speak>
+            <show chara="biankaDressShyClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">噗。那么要准备洗个澡吗？需要搓背或者按摩的话，请不要客气哦。</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">不——需——要——啦！！！</speak>
+            <goto goto="30" clockwise="1"/>
+        </scene>
+        <scene id="30" background="wildVolcano.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <text>第二天清晨。</text>
+            <text remark="next">列车开出了拉塔昆加车站，正在西方科迪勒拉和中央科迪勒拉的山间谷地中平稳地行驶。</text>
+            <remark post="U2FsdGVkX1+H7Ox4ChPbGiArVaZ1">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">科迪勒拉（Cordillera）在西班牙语中的本意是“山系”，后转化为包括安第斯山和落基山在内的、纵贯美洲的“科迪勒拉山系”之固定称谓。</p>
+                <p class="article-text">在厄瓜多尔及哥伦比亚地区，该山系分为三条相互平行的山脉，因此有“西方科迪勒拉”（Cordillera Occidental）、“中央科迪勒拉”（Cordillera Real / Cordillera Central）以及“东方科迪勒拉”（Cordillera Oriental）之分。</p>
+            </remark>
+            <text>距离终点站基多还有不到一个小时的车程，赤道地区四季如春的高山风光宛如一道徐徐展开的画卷映入了乘客们的眼帘。</text>
+            <speak chara="_ShigureKira">在古代，也就是王国时期，曾经只有这样的山间谷地才拥有相对成熟的文明——这种地形风调雨顺，灌溉便利，开荒的成本也比较低廉。</speak>
+            <speak chara="_ShigureKira">那时的国王们每征服一个行省，在建立统治、安顿居民之后，最不遗余力去做的事情就是扩展耕地和牧场。</speak>
+            <speak chara="_ShigureKira">他们专门召集工匠开凿水渠、平整土地，然后把原本过剩或逃难出来的人口安置在这些新村庄里。</speak>
+            <speak chara="_ShigureKira">他们不仅在谷底的平原里这样做，也会选择土质优良的山丘和山坡建立梯田。</speak>
+            <speak chara="_ShigureKira">建梯田时，先用结实的石料沿山体垒起三堵墙，墙体略微向内倾斜，以便能够承受住土的重量；随后便向墙里填土，填到与墙一样高为止。</speak>
+            <speak chara="_ShigureKira">一层梯田建成之后，再以此为基础建立更小的梯田，一直建到山顶为止。</speak>
+            <speak chara="_ShigureKira">后来王国的领土扩展到了沿海的沙漠地带，那里终年无雨，也没有可供开渠的河流；但是人们还是想出了一种奇妙的办法来开荒种地——</speak>
+            <speak chara="_ShigureKira">他们把村庄建在靠近大海的地方，扒开表层的沙砾，根据地段不同挖出一人或两人来深的大坑，一直挖到海平面为止：用这种办法来让作物获得足够的水分。</speak>
+            <speak chara="_ShigureKira">因为这种土地的肥力往往非常贫瘠，所以播种时人们会把沙丁鱼头和种子一起埋在土里。</speak>
+            <speak chara="_ShigureKira">那一带是沙丁鱼的产地，这样一来正好可以变废为宝。</speak>
+            <speak chara="_Bianka">唔……</speak>
+            <speak chara="_Bianka">绮罗前辈知道的好多啊。</speak>
+            <speak chara="_ShigureKira">啊哈哈……因为在几年之前，我其实当过一小段时间的导游啦。</speak>
+            <speak chara="_Bianka">咦？导游？那不是一般来说由本地人才能做好的职业吗？</speak>
+            <speak chara="_ShigureKira">——大概是正因为如此，培养偶像的制作所才专门给我安排了这样的工作吧。</speak>
+            <speak chara="_ShigureKira">活学活用本土文化？熟悉一般人的想法？嗯，就是这些目的啦。</speak>
+            <speak chara="_Bianka">……偶像真的很不容易呢。绮罗前辈就没有想过做回自己的老本行吗？</speak>
+            <speak chara="_ShigureKira">嗯？</speak>
+            <speak chara="_Bianka">你说过……你自己属于“星语者”的一员对吧。</speak>
+            <speak chara="_ShigureKira">……是有这回事。</speak>
+            <speak chara="_Bianka">所以……你难道不想在战场上也帮助这些人吗？你应该挺喜欢这个国度的不是吗？</speak>
+            <speak chara="_ShigureKira">是啊，所以我才愿意为他们做更多的事情。</speak>
+            <speak chara="_Bianka">咦？可是……</speak>
+            <speak chara="_ShigureKira">我现在能够使用的战斗方式，和身为女武神的时期已经完全不同了。</speak>
+            <speak chara="_ShigureKira">啊——这并不是说我已经失去了直接对抗崩坏的战斗力。只是……</speak>
+            <speak chara="_Bianka">只是？</speak>
+            <speak chara="_ShigureKira">只是，“时雨绮罗”现在还有一点小秘密不能告诉你们。</speak>
+            <speak chara="_Bianka">……？</speak>
+            <speak chara="_ShigureKira">等到时机成熟的时候，你自然会明白的。</speak>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="suburbsQuito.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="ShigureKiraSunGlassesLaughClose" position="left"/>
+            <speak chara="_ShigureKira">好啦，各位——欢迎来到共和国的首都，赤道的高山之城，基多！</speak>
+            <show chara="ShigureKiraSunGlassesConfidentClose" position="left"/>
+            <speak chara="_ShigureKira">这里的海拔在2800米左右，大家要小心高原反应哦？</speak>
+            <show chara="ShigureKiraSunGlassesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">那座雪山叫什么？看起来很高啊！</speak>
+            <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesThinkClose" position="left"/>
+            <speak chara="_ShigureKira">啊，她的名字是“科托帕希”，顶峰的冰雪终年不化，在传统文化中被认为是雨神的居所。</speak>
+            <show chara="ShigureKiraSunGlassesSmileClose" position="left"/>
+            <speak chara="_ShigureKira">言归正传——我们今天的目的地是共和国议会，途中会穿过普通的住宅区街道、顺便还可以参观“赤道纪念碑”。</speak>
+            <show chara="ShigureKiraSunGlassesConfidentClose" position="left"/>
+            <speak chara="_ShigureKira">这一段路程差不多三公里，我们可以散步过去。没有问题吧？</speak>
+            <show chara="ShigureKiraSunGlassesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="champoBlanketLaughClose" position="right"/>
+            <speak chara="_Champollion">没有问题！</speak>
+            <show chara="champoBlanketLaughClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesLaughClose" position="left"/>
+            <speak chara="_ShigureKira">好，那我们出发吧！</speak>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="streetEcuador.jpg">
+            <bgm src="10_10_kalinka.mp3" status="continue"></bgm>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">（不行……好在意……）</speak>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">（“现在还有一点小秘密不能告诉你们”？）</speak>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">（说了那样的话，然后自己又装得像无事发生一样，简直太狡猾了！）</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">比安卡大人……有什么心事吗？</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">啊……不……</speak>
+            <show chara="biankaDressAngryClose" position="left"/>
+            <speak chara="_Bianka">怎么说呢……</speak>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">唔，这个距离前面的人应该听不见吧……</speak>
+            <goto goto="60" clockwise="1"/>
+        </scene>
+        <scene id="60" background="streetEcuador.jpg">
+            <bgm src="10_10_kalinka.mp3" status="continue"></bgm>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……她当时买了这么一个关子就不往下说了。</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">……</speak>
+            <speak chara="_Rita">…………</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">我记得奥托主教曾经给我看过一组奇怪的档案记录。</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">是……绮罗前辈的吗？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">不，是她的战友，“莎布·尼古拉斯”大人。</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">——这当然是一个假名，那是洛夫克拉夫特笔下一个邪神的名字。</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">不过，女武神使用假名或者代号也不是什么特别稀有的事情，所以这并不是那个记录真正奇怪的地方。</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHateClose" position="left"/>
+            <speak chara="_Bianka">那么究竟是……</speak>
+            <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">非洲支部在1990年年初和年末、南美支部在1992年、极北支部在2000年曾经四次报告过“莎布·尼古拉斯”的阵亡。</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">什么？如果前三次都是误报的话，这次数也太多了吧？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">我也提出过这个问题。奥托主教当时的回答是——</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">“女武神内部有一两个神秘的过客，我想是很正常的。”</speak>
+            <speak chara="_Rita">“没什么，这种事情其实不要紧，你要学会不去跟进那些与大局无关的信息。”</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">可是……“过客”？主教究竟在指什么？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">不知道。但是时雨绮罗大人确实是和“莎布·尼古拉斯”大人搭档时间最久的女武神。</speak>
+            <speak chara="_Rita">如果说不只是其中一人，而是两人都携带着某种秘密……</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">或许，她并不是在故意吊你的胃口——而是事情的真相确实复杂，并不适合在此时此地加以解释。</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">唔……可是“战斗方式”的变化又能有多复杂呢？</speak>
+            <speak chara="_Bianka">就算是成为“星语者”之后获得了“外星人哔哩哔哩电波”——这也是一两句话就能解释清楚的吧？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_Rita">噗。比安卡大人还真是没有耐心呢。</speak>
+            <show chara="ritaVestNaughtyClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressAngryClose" position="left"/>
+            <speak chara="_Bianka">……讨厌啦。就算是女仆，你也不用每次都专门把主人的缺点戳出来晒吧。</speak>
+            <show chara="biankaDressAngryClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">哎呀。我道歉。</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">好啦。你那种得寸进尺的伎俩，我早都见怪不怪了耶。</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="monumentEquador.jpg">
+            <bgm src="10_10_kalinka.mp3" status="continue"></bgm>
+            <show chara="ShigureKiraSunGlassesLaughClose" position="left"/>
+            <speak chara="_ShigureKira">嗨，大家请看！这里就是共和国首都最富盛名的景观——赤道大纪念碑！</speak>
+            <show chara="ShigureKiraSunGlassesConfidentClose" position="left"/>
+            <speak chara="_ShigureKira">碑体通高30米，顶部是地球雕塑，从底部穿过它的黄线正是赤道本身；基座上的四个台座则代表了“世界的四方”，是共和国古称“塔万廷苏尤”的含义。</speak>
+            <show chara="ShigureKiraSunGlassesSmileClose" position="left"/>
+            <speak chara="_ShigureKira">另外值得一提的是，这个广场其实在古代就已经存在了——</speak>
+            <speak chara="_ShigureKira">——当时的国王为了庆祝王子的降生，特地下令铸造了一条两百人才能抬着走的金锁链，让王宫中的全体成员抓着锁链在这个广场上跳舞庆祝！</speak>
+            <show chara="ShigureKiraSunGlassesSmileClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">哈哈，不管怎么说，这里比伦敦那些死气沉沉的“塔”看起来是要气派多了！</speak>
+            <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……有吗？我觉得这就是个蛮普通的纪念碑吧？42大厦（Tower 42）难道不比它厉害无数倍吗？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">42号塔？是未来的什么神秘建筑吗？用来和外星人沟通的？</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……呃？</speak>
+            <show chara="ritaVestSmileClose" position="left"/>
+            <speak chara="_Rita" remark="next">莎士比亚大人，42大厦是伦敦的一座商用摩天大楼，和外星人并没有什么关系。</speak>
+            <remark post="U2FsdGVkX18K5DpwbS5JGcPJ79Q+">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“42大厦”（Tower 42）原名“国民西敏大厦”（National Westminster Tower），在1980年建成时以183米（600英尺）的高度成为伦敦及英国第一高建筑（至今仍是大伦敦地区第13高的建筑）。</p>
+                <p class="article-text">“42大厦”的名称来自于该楼的层数——并没有与生命、世界、宇宙等终极问题相关的任何深意。</p>
+            </remark>
+            <show chara="ritaVestSmileClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">哈哈哈哈，原来是这样吗。我还以为“42”一定会和疯狂科学家什么的有关系呢。</speak>
+            <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……唔，“42”和逆熵倒是多半挺般配的。</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="schroSmileClose" position="right"/>
+            <speak chara="_Schrodinger">……噗。</speak>
+            <show chara="schroSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">嗯？你、你刚才……普通的笑了？薛定谔博士？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="schroSmileClose" position="right"/>
+            <speak chara="_Schrodinger">是啊。毕竟每个人都有自己的宝贵回忆嘛。</speak>
+            <show chara="schroSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+            <show chara="schroCalmClose" position="right"/>
+            <speak chara="_Schrodinger">啊，你不用在意。不是什么和你们、和现在有关系的事情。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="shakesCasualQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">说起来啊——这座城市的确足够特殊，可这个以控制“锚点”而自豪的共和国为什么要把自己的首都固定在“离锚点最远的城市”呢？</speak>
+            <speak chara="_Shakespeare">他们就没有考虑过再迁都吗？历史上也迁过一次的吧，从那个“库斯科老城”？</speak>
+            <show chara="shakesCasualQuestionClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesThinkClose" position="right"/>
+            <speak chara="_ShigureKira">啊，这的确是有原因的。</speak>
+            <show chara="ShigureKiraSunGlassesConfidentClose" position="right"/>
+            <speak chara="_ShigureKira">虽然最初共和国改基多为首都只是出于支持率的考量；但后来随着“锚点”上防御压力的增加，“离锚点最远”反而成为了她作为首都在稳定性上的一项优势。</speak>
+            <show chara="ShigureKiraSunGlassesSmileClose" position="right"/>
+            <speak chara="_ShigureKira">——至少大多数议员是这么认为的。</speak>
+            <show chara="ShigureKiraSunGlassesSmileClose" position="right" opacity="0.8"/>
+            <show chara="champoBlanketSmileClose" position="left"/>
+            <speak chara="_Champollion">唔，的确有这种道理。虽然进取心不足，但完全可以理解。</speak>
+            <show chara="champoBlanketLaughClose" position="left"/>
+            <speak chara="_Champollion">大家了解远东的古代史吗？</speak>
+            <show chara="champoBlanketLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">是说……神州？</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="champoBlanketNormalClose" position="left"/>
+            <speak chara="_Champollion">不错。更强调防御的长安，居中的洛阳，以及交通更便利的开封——谁更合适来做首都，在当时也是一个争论不休的话题。</speak>
+            <show chara="champoBlanketEmbarrassClose" position="left"/>
+            <speak chara="_Champollion">总而言之，这种问题没有一个必然的答案：现实的选择往往只能基于国民的心理状态，而不是理论家的纸上谈兵。</speak>
+            <show chara="champoBlanketEmbarrassClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesSmileClose" position="right"/>
+            <speak chara="_ShigureKira">哈哈，商博良老师虽然是考古学者，但说起话来就像政治家一样呢。</speak>
+            <show chara="ShigureKiraSunGlassesSmileClose" position="right" opacity="0.8"/>
+            <show chara="champoBlanketLaughClose" position="left"/>
+            <speak chara="_Champollion">哈哈哈哈，人们不都说历史和政治不分家嘛。</speak>
+            <show chara="champoBlanketSmileClose" position="left"/>
+            <speak chara="_Champollion">走吧？我们是时候去拜访那位议长姐姐了吧？</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">距离上应该也不远了吧？</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesConfidentClose" position="right"/>
+            <speak chara="_ShigureKira">啊，是的。而且我们有预约过，所以应该很快就能见到她本人的。</speak>
+            <goto goto="80" clockwise="1"/>
+        </scene>
+        <scene id="80" background="palaceMeetingQuito.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <text>十五分钟后</text>
+            <text>共和国议会·伊比利亚茶室</text>
+            <speak chara="_ThoreauNoName">各位昨晚应该是在火车上休息的吧。</speak>
+            <speak chara="_ThoreauNoName">那么请原谅我用一个哲学发问来做开场白——</speak>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="CG23-1.jpg">
+            <bgm src="theme.mp3" status="continue"></bgm>
+            <speak chara="_Thoreau">每一次，究竟是我们在乘坐铁路，还是铁路在乘坐我们？</speak>
+            <speak chara="_Thoreau">是你们在寻找宝石，还是宝石在驱使你们？</speak>
+            <speak chara="_Thoreau">远方的旅人啊，你们究竟为何而战？</speak>
+            <end post="U2FsdGVkX19sb2OZkGsm28ubiLsp"/>
+        </scene>
+    </story>
+</data>

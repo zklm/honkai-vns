@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="alexandriaCityLandscape.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="back"/>
+            <text>十八年前——</text>
+            <show chara="faustLaughClose" position="right"/>
+            <speak chara="_FaustNoName">啊，多么美妙的晴空万里！</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">可是我这个“查拉图斯特拉”却必须再一次回到他的孤独之中。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">——雪莱，你会是最后一个还记得【这个流浪者】的人吗？</speak>
+            <show chara="faustSmileClose" position="right" opacity="0.8"/>
+            <show chara="shelleyColdClose" position="left"/>
+            <speak chara="_Shelley">……这我怎么知道。</speak>
+            <speak chara="_Shelley">无论如何，既然你拒绝对自己宣扬的观念作出让步，那么就必须接受这座城市的人民做出的选择。</speak>
+            <show chara="shelleyBoredClose" position="left"/>
+            <speak chara="_Shelley">“人身放逐”外加“抹煞记录”。这座城市对你的唯一记忆，将只会是一个格杀勿论的通缉犯罢了。</speak>
+            <show chara="shelleySmileClose" position="left"/>
+            <speak chara="_Shelley">不过，如果你现在签署废止实验的协议书，事情就还——</speak>
+            <show chara="shelleySmileClose" position="left" opacity="0.8"/>
+            <show chara="faustDisdainClose" position="right"/>
+            <speak chara="_FaustNoName">不，你不用劝我。</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">这座城市的人们不是在选择遗忘掉我这个人本身；他们是在选择遗忘掉人类进步的一种可能性。</speak>
+            <speak chara="_FaustNoName">……而这是我无论如何都无法忍受的。</speak>
+            <show chara="faustSadClose" position="right" opacity="0.8"/>
+            <show chara="shelleyShockedClose" position="left"/>
+            <speak chara="_Shelley">……你难道没有认真想过，你的实验，对一般人而言意味着什么吗？</speak>
+            <show chara="shelleyShockedClose" position="left" opacity="0.8"/>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">我当然想过。</speak>
+            <show chara="faustQuestionClose" position="right"/>
+            <speak chara="_FaustNoName">没错，把活人的脑子做成机器的零件，这种事情当然会【彻头彻尾地】违背当今世界的伦理道德。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">尽管我能够证明所有的志愿者协议都是合法的。</speak>
+            <show chara="faustDisdainClose" position="right"/>
+            <speak chara="_FaustNoName">然而，我也可以反问你，雪莱——你难道没有认真想过，所谓“伦理道德”，究竟是什么样的东西吗？</speak>
+            <show chara="faustDisdainClose" position="right" opacity="0.8"/>
+            <show chara="shelleyColdClose" position="left"/>
+            <speak chara="_Shelley">……</speak>
+            <show chara="shelleyColdClose" position="left"/>
+            <speak chara="_Shelley">是人性。是尊严。是能够让人们在困难面前相濡以沫的价值观。</speak>
+            <show chara="shelleyColdClose" position="left"/>
+            <speak chara="_Shelley">正因为你看不起它们，所以你才从一开始就错了。</speak>
+            <show chara="shelleyColdClose" position="left" opacity="0.8"/>
+            <show chara="faustLaughClose" position="right"/>
+            <speak chara="_FaustNoName">……哈哈哈哈！</speak>
+            <show chara="faustQuestionClose" position="right"/>
+            <speak chara="_FaustNoName">那我就很奇怪了：这个世界上难道天然就有所谓“人性”吗？天然就有所谓“尊严”吗？绝大多数人的价值观难道就是一种真理吗？</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">——所有这一切，不正是会随着时代更替，而不断更新自己的内涵吗？</speak>
+            <show chara="faustTalkClose" position="right" opacity="0.8"/>
+            <show chara="shelleyAngryClose" position="left"/>
+            <speak chara="_Shelley">……我来这里不是听你说这些胡言乱语的！</speak>
+            <show chara="shelleyColdClose" position="left"/>
+            <speak chara="_Shelley">你也许因为一连串的事情而正在气头上——可是，像现在这样一意孤行下去，事情怎么可能会有挽回的余地？</speak>
+            <show chara="shelleyBoredClose" position="left"/>
+            <speak chara="_Shelley">在此时此刻固执己见……对你来说，就比前途和梦想还要重要吗？</speak>
+            <show chara="shelleyBoredClose" position="left" opacity="0.8"/>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">不。当然不是。</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">然而……我也希望你能明白：前途和梦想并不是唯一的。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">过去，我和你站在一起，是因为我们各自都需要发达的计算技术，不仅可以相安无事、甚至还能互相促进——</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">——当然，那些投票判我有罪的普通人似乎并不这么看就是了。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">你执着于确认这个世界的“真实”，因此想要从更高的视角审视脚下的土地。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">因此才需要发动机、需要火箭、需要宇宙飞船、需要人工智能。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">因此才需要这座工业城市，来生产出你需要的各种机器。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">因此才需要那颗宝石，凭借它来实现技术的跨越式发展。</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">这一切都很棒——除了我们不知道那颗来自黑市的“宝石”本身，究竟是何方神圣。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">当然，对于你的计划来说，这种隐患微不足道——归根结底，那个“宝石”对你来说只是个计算器而已。</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">……然而，我恰恰和你完全相反。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">这个世界是梦境？是虚假的泡沫？是天堂和地狱之间的夹缝？</speak>
+            <show chara="faustLaughClose" position="right"/>
+            <speak chara="_FaustNoName">——这些问题和“我”有多大的关系？</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">只要“我”能思考，“我”就必然是存在的；而只要“我”是存在的，世界就是“真实”的。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">这是一个纯哲学的解答——但对于我来说，已经足够。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">相比于每个人都能意识到的“我”的概念——外部的“真实”，从来就不是什么绝对的、能够得到确切证明的东西。</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">……即使是其他人的“我”，对于我的“我”来说，也是无法确证其存在的。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">比如说你现在站在我面前。我为什么知道这一点？是因为我的感官把“雪莱在这里”这样的信息呈现给了我。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">可是，只是凭借这样的感官信息，我永远无法从逻辑上判明“雪莱究竟会不会思考”。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">是的，我可以用图灵测验的标准来“认为”“雪莱会思考”——</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">但所谓“认为”永远只是一种【推论】而已：我永远无法区分你究竟是那个原原本本的雪莱，还是某一个巧夺天工的雪莱复制体。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">这是一个悖论：从对于“我”的认知上讲，“客观认知”在本质上其实是最“主观自私”的。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">在客观论的体系下，任何观察者都只探讨“因果”和“结论”——完全不顾“自我”和“他我”的【存在性质】，其实是完全不对称的。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">……然而我们因此就可以倒向主观论了吗？</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">不，那更不可以。这种可悲的倾向只能用“因噎废食”来形容。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">我们人类，是凭借不断革新的技术，才能从野蛮的猴子变成衣冠楚楚的文明人。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">技术是唯一能够实打实帮助人类进步的东西——而它就建立在彻彻底底的客观论之上。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">技术不关心哲学，甚至更倾向于蛮横地把它扔在一边——</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">——可唯其如此，由思想而诞生的技术，才有办法摆脱思想本身造就的桎梏，才能够让思想在崭新的平台上自由驰骋。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">所以，我们也只能以客观论为基石，从“观察”和“认知”的夹缝中寻找关于“我”的突破口。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">……归根结底，意识的不对称性，在于我们只有感知“自我”的手段，而没有感知“他我”的手段。</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">从表面看来，有鉴于每个意识之间都互相隔离的物理事实，“我在”这样的【直接认知】不可能突破既有的“自我”范畴。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">然而——</speak>
+            <speak chara="_FaustNoName">——如果大家齐心协力，把所有的“他我”都转变成“自我”呢？</speak>
+            <speak chara="_FaustNoName">如果我们可以从源头上就消灭掉这个问题本身呢？</speak>
+            <show chara="faustSmileClose" position="right" opacity="0.8"/>
+            <show chara="shelleyShockedClose" position="left"/>
+            <speak chara="_Shelley">……</speak>
+            <show chara="shelleyAngryClose" position="left"/>
+            <speak chara="_Shelley">你……你知道自己在说什么吗？你竟然是为了这样的目的去设计“脑机”的吗？</speak>
+            <show chara="shelleyAngryClose" position="left" opacity="0.8"/>
+            <show chara="faustLaughClose" position="right"/>
+            <speak chara="_FaustNoName">哈哈哈哈，我当然知道自己在说什么——毕竟，你都已经听懂了，不是么？</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">我们知道，脑机能作为一个整体通过图灵测验——就像那块“宝石”一样。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">而基于我们的生活经验，我们相信【能够通过图灵测验】的“机器”是具备自我意识的——就像我们每个人自身一样。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">那么，问题来了——你认为脑机的这个“新意识”是凭空出现的吗？</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">如果是凭空出现的，那么原本每个大脑里的意识去哪里了呢？</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">而如果不是凭空出现的，那么在一个分布式系统里，又究竟是哪颗大脑能够主导一切呢？</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">当我们发现这些假设都讲不通的时候——唯一合理的结论也就呼之欲出了。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">……那就是：</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">这些大脑的意识，【融合】了。</speak>
+            <show chara="faustLaughClose" position="right"/>
+            <speak chara="_FaustNoName">觉得很荒谬吗？可是每一个大脑也都是由无数的脑细胞构成的哦？</speak>
+            <show chara="faustLaughClose" position="right"/>
+            <speak chara="_FaustNoName">这样说来，我们自身的存在是不是也很荒谬？我们自身难道也是没有主观意志的机器？</speak>
+            <speak chara="_FaustNoName">“我思故我在”，任谁也不会相信自己的主观意志是不存在的吧？</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">所以，正因为了解这样的微观结构，我们才能确信——。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">——所谓的“灵魂”，绝不是孤立的、绝对的“某物”：而是基于一定的信息交换水平，融合了所有系统内元件的“蜂巢概念”。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">大脑皮层绝不会因为我们切除了的它某一部分就直接崩溃。相反，它的各部分之间有一定互相取代的能力，甚至——</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">——能够在被一剖两半之后，产生出两个独立的人格。</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">当我们治愈这类患者，重新连接起他们的左右半球的时候——我们能说自己“杀死”了这两个独立的人格，而“复活”了那个旧有的人格吗？</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">——只有当我们假设“主观意识”能够分裂和融合的时候，这些哲学难题才会变得自然而容易解释。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">然后：一旦我们承认这样的假设是合理的，那么我们也就找到了解决人类“终极关怀”的一个方案。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">人类有潜力融合成唯一的意志与智慧。这将结束世界上的一切纷争，并给予所有人以永恒的生命。</speak>
+            <show chara="faustSmileClose" position="right" opacity="0.8"/>
+            <show chara="shelleyShockedClose" position="left"/>
+            <speak chara="_Shelley">……</speak>
+            <show chara="shelleyAngryClose" position="left"/>
+            <speak chara="_Shelley">……这太荒谬了！“终极关怀”应该是对于个体“本我”的终极解释，你这根本就是在偷换概念！</speak>
+            <show chara="shelleyAngryClose" position="left" opacity="0.8"/>
+            <show chara="faustDisdainClose" position="right"/>
+            <speak chara="_FaustNoName">不。不。不。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">这就是你想得不够通透了，雪莱。</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">抛开外部环境的压迫，人类“自源性”的恐惧其实只有一种——</speak>
+            <show chara="faustQuestionClose" position="right"/>
+            <speak chara="_FaustNoName">——死亡。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">对于拥有自我意识的智慧生命而言，对死亡的恐惧，本质上而言来自于“我”这个【原始概念】的消失。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">没错，就像数学里有“集合”这样无法准确定义的原始概念；人的主观思维也拥有类似性质的一块基石——所谓的“我”。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">我刚才也说过，因为我们不能随随便便跳进别人的脑子里去观察，不能得到“我思故我在”这样的直接推论——</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">——所以其他人的“我”，对于我的“我”来说，是无法确证其存在的。</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">这对全世界任何一个人都是如此：我们只是依据类似“图灵测验”这样的原理，【相信着】别人也拥有属于他的自我意识。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">对于客观交互而言，这种认识已经足够；毋宁说，这条假设本身，就是我们认知客观世界时使用的一条“公理”。</speak>
+            <show chara="faustQuestionClose" position="right"/>
+            <speak chara="_FaustNoName">但从怀疑论的角度出发，公理无法自证其明的特性，恰恰让它本身变得无比可疑。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">最大胆的乐观主义者或许会揣测，世界上所有的“自我意识”都是某种高维现象的投影，因此每个人都互为另一个人的“灵魂转世”；</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">而最胆小的悲观主义者也同样会哀叹，不仅这个世界可能是虚构的，甚至连他自己的“自我”是否真实都足够可疑。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">而最可悲的是——无论这些人如何思考，他们的思维都会在死亡的瞬间归于【虚无】。</speak>
+            <show chara="faustQuestionClose" position="right"/>
+            <speak chara="_FaustNoName">对于这个死结，过往的哲学家并没有什么良好的解决办法。他们围绕死亡而展开的种种讨论，只能让我嗅到“临终关怀”的浓烈气味。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">……但是现在，凭借“脑机”的技术，我们可以正面向【死亡】发起挑战。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">有朝一日，当所有意识都融合为一个智能机械、共享同一个“自我”的时候——我们就不仅实现了【长生不老】，还顺便实现了【人类大同】。</speak>
+            <show chara="faustTalkClose" position="right" opacity="0.8"/>
+            <show chara="shelleyColdClose" position="left"/>
+            <speak chara="_Shelley">……</speak>
+            <show chara="shelleyArrogantClose" position="left"/>
+            <speak chara="_Shelley">……你真的疯了。如果这也算是“长生不老”、“人类大同”的话——市民们会一人一票地把你“投出”这座城市吗？</speak>
+            <show chara="shelleyArrogantClose" position="left" opacity="0.8"/>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">啊，在他们看来，的确不是这样的吧。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">可是，雪莱哟，这个世界上又有几个人，真正听得懂先知的教导呢？</speak>
+            <show chara="faustDisdainClose" position="right"/>
+            <speak chara="_FaustNoName">有多少人以为世界只是他们眼中的那个样子，而忘记了眼睛也不过是个普通的、针对特定频率的电磁波感官？</speak>
+            <show chara="faustQuestionClose" position="right"/>
+            <speak chara="_FaustNoName">真理永远掌握在少数人的手中。</speak>
+            <speak chara="_FaustNoName">其余的家伙，他们只是在真理展现出自己的力量和魅力的时候，或是主动迎合、或是逆来顺受罢了。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">真正划时代的创新，会把旧世界一股脑儿地全部抛在身后——把它所认可的一切准则和价值都砸得粉碎，重新塑造出适合自己的社会体系。</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">所以，这些人通过公民投票的方式驱逐我……也只不过是给我送上了一个“殉道者”的头衔而已。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">失去很多可用的资源固然会让我不满——但纵然荆棘遍地，我也会在自己认可的哲学里走出自己认可的道路。</speak>
+            <show chara="faustSadClose" position="right"/>
+            <speak chara="_FaustNoName">……你之前说得对，我就是一个不折不扣的疯子。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">不过，我也请你记住一句话——</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">每一种疯狂的背后，都存在着一种哲学。</speak>
+            <show chara="faustTalkClose" position="right"/>
+            <speak chara="_FaustNoName">疯狂有可能因为各种各样的原因而屈服——但哲学永远不会。</speak>
+            <show chara="faustSmileClose" position="right"/>
+            <speak chara="_FaustNoName">永别了，雪莱会长——即使还有再会的那一天，我那时也早已抛弃“浮士德”这个名字了吧。</speak>
+            <goto goto="20" clockwise="1"/>
+        </scene>
+        <scene id="20" background="02_22_computerRoom.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">雪莱会长？</speak>
+            <show chara="schroSeriousClose" position="left" opacity="0.8"/>
+            <show chara="shelleyShockedClose" position="right"/>
+            <speak chara="_Shelley">……</speak>
+            <show chara="shelleyShockedClose" position="right" opacity="0.8"/>
+            <show chara="micheFocusClose" position="left"/>
+            <speak chara="_Michel">雪莱！</speak>
+            <show chara="micheFocusClose" position="left" opacity="0.8"/>
+            <show chara="shelleyColdClose" position="right"/>
+            <speak chara="_Shelley">啊，抱歉。刚才回忆起了一些事情。</speak>
+            <show chara="shelleySmileClose" position="right"/>
+            <speak chara="_Shelley">怎么样，现在夺回机器人的控制权了吗？</speak>
+            <show chara="shelleySmileClose" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">……总算暂时让它们进入了休眠状态。</speak>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">请立即安排更多的预备役人员来代替机器人维持治安——否则街道上很容易爆发恶性案件。</speak>
+            <show chara="schroSeriousClose" position="left" opacity="0.8"/>
+            <show chara="shelleyColdClose" position="right"/>
+            <speak chara="_Shelley">是的，这当然要安排。不过你显然还有其他在意的事情吧？</speak>
+            <show chara="shelleyColdClose" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">嗯。如果想完全赢得这场信息战的胜利，那我们就必须摧毁敌方的干扰源本身。</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="micheSeriousClose" position="right"/>
+            <speak chara="_Michel">……是需要寻找到敌方的大本营，并且用地面攻击夺取控制权吧。</speak>
+            <show chara="micheSeriousClose" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">这当然能从最根本上解决问题。</speak>
+            <show chara="schroSmileClose" position="left"/>
+            <speak chara="_Schrodinger">不过，在锁定敌人的地理坐标之前，我们也可以利用“结晶”本身进行反攻。</speak>
+            <show chara="schroCalmClose" position="left"/>
+            <speak chara="_Schrodinger">……依靠一点“小手段”。</speak>
+            <show chara="schroCalmClose" position="left" opacity="0.8"/>
+            <show chara="shelleyColdClose" position="right"/>
+            <speak chara="_Shelley">……然而，如果想使用出这些“手段”，我们就必须向你提供进一步的支援？</speak>
+            <show chara="shelleyColdClose" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">是的。在这个中央机房里固然可以对机器人作出各种调控——但如果想反过来入侵对方的系统，我还是需要直接操作“理智结晶”本身。</speak>
+            <show chara="schroSmileClose" position="left"/>
+            <speak chara="_Schrodinger">毕竟，这里的机器只对接了“结晶”上的一部分接口，不是么？</speak>
+            <show chara="schroSmileClose" position="left" opacity="0.8"/>
+            <show chara="shelleyBoredClose" position="right"/>
+            <speak chara="_Shelley">……</speak>
+            <show chara="shelleySmileClose" position="right"/>
+            <speak chara="_Shelley">好吧。</speak>
+            <show chara="shelleyColdClose" position="right"/>
+            <speak chara="_Shelley">不过，我们必须离开这里，前往这座城市真正的研发中心。</speak>
+            <show chara="shelleyColdClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈！那个“结晶”本身，果然并没有存放在这座官邸里面吗？</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="shelleyBoredClose" position="right"/>
+            <speak chara="_Shelley">当然。虽然现在说起来显得有些可笑——但我们多少还是懂得“鸡蛋不能都放在一个篮子里”这种道理的。</speak>
+            <show chara="shelleyColdClose" position="right"/>
+            <speak chara="_Shelley">我们动身吧——用我这个“会长”的座驾送你们过去。</speak>
+            <goto goto="30" clockwise="1"/>
+        </scene>
+        <scene id="30" background="rocketLaunchSite.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="shakesConfidentClose" position="center"/>
+            <speak chara="_Shakespeare">……哇哦。</speak>
+            <hide position="center"></hide>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">火箭发射场……</speak>
+            <show chara="schroCalmClose" position="left"/>
+            <speak chara="_Schrodinger">……原来是要利用“结晶”的力量来探索宇宙啊。</speak>
+            <show chara="schroCalmClose" position="left" opacity="0.8"/>
+            <show chara="shelleyArrogantClose" position="right"/>
+            <speak chara="_Shelley">……有什么问题吗？</speak>
+            <show chara="shelleyColdClose" position="right"/>
+            <speak chara="_Shelley">只有更多地知晓我们生活在怎样的一个宇宙当中，每个人才能更清楚地理解他们人生的意义。</speak>
+            <show chara="shelleyArrogantClose" position="right"/>
+            <speak chara="_Shelley">……很多悲观主义者、怀疑论者，都叫嚣着什么“人生没有意义”。</speak>
+            <show chara="shelleySmileClose" position="right"/>
+            <speak chara="_Shelley">是的，人生【本来】的确没有意义。</speak>
+            <show chara="shelleyColdClose" position="right"/>
+            <speak chara="_Shelley">但这正如同我们脚下的路——走的人多了，它就自然获得了生命。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="shelleySmileClose" position="center"/>
+            <speak chara="_Shelley">……走吧。我们还要抓紧时间去研发基地。你们所说的“结晶”就在那里。</speak>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="alexandriaOasisNightSmoke.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <text>与此同时——</text>
+            <show chara="cowboy1Close" position="left"/>
+            <speak chara="_militiaA">真的不要紧吗……远处的那个……是火灾吧？</speak>
+            <show chara="cowboy1Close" position="left" opacity="0.8"/>
+            <show chara="cowgirl1Close" position="right"/>
+            <speak chara="_militiaB">火灾就会产生这么浓烈的黑烟吗……总觉得……弄不好是爆炸啊……</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="champoColdClose" position="center"/>
+            <speak chara="_Champollion">咳咳。</speak>
+            <show chara="champoNormalClose" position="center"/>
+            <speak chara="_Champollion">各位预备役士兵们。</speak>
+            <show chara="champoSmileClose" position="center"/>
+            <speak chara="_Champollion">大家被挑选出来参加这次任务，是因为你们的司令官非常信任你们，知道你们一定可以完美地完成任务。</speak>
+            <show chara="champoQuestionClose" position="center"/>
+            <speak chara="_Champollion">现在，诚如各位所见，我们的城市里冒出了滚滚浓烟——</speak>
+            <show chara="champoColdClose" position="center"/>
+            <speak chara="_Champollion">——而造成这一切的罪魁祸首，就躲藏在你们面前的这片毒气之后！</speak>
+            <show chara="champoColdClose" position="center"/>
+            <speak chara="_Champollion">他们绑架我们的学者，袭击我们的城市：现在，他们正躲在那自以为无比安全的基地之中，偷偷地笑话我们！</speak>
+            <hide position="center"></hide>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">（……她、她是怎么推理出这些的？）</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">（……）</speak>
+            <show chara="rita17AngryEmClose" position="right"/>
+            <speak chara="_Rita">（不，这根本不是什么推理。）</speak>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">（在这个时候，逻辑是次要的，而稳定人心才是第一位的。）</speak>
+            <show chara="rita17AngryEmClose" position="right"/>
+            <speak chara="_Rita">（这个人绝不仅仅是什么侦探、或者考古学家。）</speak>
+            <show chara="rita17AngryEmClose" position="right"/>
+            <speak chara="_Rita">（能把没有把握的事情说得像板上钉钉一样——这是政客或者诈骗犯才具备的才能。）</speak>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_Rita">（……还好现在她和我们站在一边。）</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="champoColdClose" position="center"/>
+            <speak chara="_Champollion">……我们面对的是一个可怕的犯罪团伙。</speak>
+            <show chara="champoColdClose" position="center"/>
+            <speak chara="_Champollion">他们试图颠覆我们的生活，毁灭我们的城市。</speak>
+            <show chara="champoSmileClose" position="center"/>
+            <speak chara="_Champollion">万幸的是，通过详尽的侦察，我们成功定位了他们基地的位置。</speak>
+            <show chara="champoNormalClose" position="center"/>
+            <speak chara="_Champollion">此时此刻，我们就先让这些人渣们弹冠相庆吧——</speak>
+            <show chara="champoSmileClose" position="center"/>
+            <speak chara="_Champollion">——因为下一个时刻，他们就将为自己的罪行付出代价。</speak>
+            <show chara="champoSmileClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="_Champollion">整理好装备，大家出发吧！</speak>
+            <show chara="champoSmileClose" position="center"/>
+            <speak chara="_Champollion">亚历山大万岁！</speak>
+            <hide position="center"></hide>
+            <show chara="cowboy1Close" position="left"/>
+            <speak chara="_militiaA">哦哦哦！</speak>
+            <show chara="cowboy1Close" position="left" opacity="0.8"/>
+            <show chara="cowboy2Close" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_militiaC">亚历山大万岁！</speak>
+            <goto goto="50" clockwise="1"/>
+        </scene>
+        <scene id="50" background="tunnelSearchLight.jpg">
+            <bgm src="01_18_horror.mp3" status="start"></bgm>
+            <text>约半个小时后，神秘基地内部——</text>
+            <speak chara="_Bianka">（手势：未发现敌人。）</speak>
+            <speak chara="_Rita" remark="next">（手势：硫化氢浓度在致死量以上。距离爆炸极限尚远。请继续佩戴氧气面罩。）</speak>
+            <remark post="U2FsdGVkX1+w2sx7eFkBkKtYdeIw">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">硫化氢在空气中的最小爆炸极限约为4%，而绝对致死浓度为0.1%以上。</p>
+            </remark>
+            <speak chara="_Champollion">（手势：大家跟上——）</speak>
+            <speak chara="_Manfred">（手势：——等一等。）</speak>
+            <speak chara="_Manfred">（手势：前方、左转。）</speak>
+            <speak chara="_Manfred">（手势：……尸体。）</speak>
+            <goto goto="60" change="#000000"/>
+        </scene>
+        <scene id="60" background="CG9-1.jpg">
+            <bgm src="01_18_horror.mp3" status="continue"></bgm>
+            <cg src="CG9-1.jpg" bg="CG9-1.jpg" fadeIn="0" fadeOut="1"></cg>
+            <speak chara="_Rita">（嘴唇、指尖发绀……嘴角有蕈样泡沫……眼睑下有瘀点出血……）</speak>
+            <speak chara="_Rita">（无机械性外伤……是中毒导致的窒息。）</speak>
+            <speak chara="_Rita">（这个基地中发生过意外。）</speak>
+            <speak chara="_Rita">（可能是在人质脱逃的过程中，发生了毒气泄漏事故。）</speak>
+            <speak chara="_Rita">（死者共计5名。推测身份是3名绑架者和2名人质。）</speak>
+            <speak chara="_Rita">（考虑到室内的毒气密度以及死者位置——）</speak>
+            <speak chara="_Rita">（——应该是逃离者因为不清楚室外的毒气环境、强行打开密封门而造成了悲剧。）</speak>
+            <speak chara="_Rita">（万幸的是，我们的营救目标并不在其列。）</speak>
+            <speak chara="_Rita">（这座基地里还有很多我们没有探索到的区域。）</speak>
+            <speak chara="_Rita">（建议进一步展开地毯式搜索。）</speak>
+            <speak chara="_Rita">（我们的营救目标仍然有生还的可能性。）</speak>
+            <speak chara="_Rita">（当然，真正的凶手……也可能仍然潜伏在暗处。）</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="CG8-2.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <speak chara="_AliceGreen">……我提到过吧。博士去世之后不久，那些绑架你的博士助手，和除你以外的两位被绑架者起了冲突。后来就只剩下你和我了。</speak>
+            <speak chara="_AliceGreen">我……</speak>
+            <speak chara="_AliceGreen">我是故意让事情发展到这个局面的。</speak>
+            <speak chara="_AliceGreen">那两位拒不合作的学者，他们打算冲出这个基地，逃到地面上去。</speak>
+            <speak chara="_AliceGreen">他们以为助手们所说的，“基地外面都是毒气”，是用来吓唬他们的。</speak>
+            <speak chara="_AliceGreen">……但很不幸，那是真的。</speak>
+            <speak chara="_AliceGreen">博士为了最大限度隐藏自身的存在——当然，也为了就地利用天然气和各种矿物资源，将这个实验基地建在了一个硫磺湖湖底的熔岩洞穴里。</speak>
+            <speak chara="_AliceGreen">基地外部的硫化氢浓度，足以在一分钟内就让人失去知觉。</speak>
+            <speak chara="_AliceGreen">那两位逃脱的学者，没有穿戴任何护具，就直接打开了基地顶层的大门；</speak>
+            <speak chara="_AliceGreen">而误以为毒气有浓烈气味、会阻止这两人逃跑的助手们，在追赶的途中也不知不觉就被毒倒。</speak>
+            <speak chara="_AliceGreen">和博士不同，他们并不十分了解硫化氢的性质，以为它的臭鸡蛋味只会随着浓度的上升而越来越令人作呕——</speak>
+            <speak chara="_AliceGreen">但是，只要达到了能使人中毒的浓度，硫化氢就反而是闻不见的：只需要几秒钟，它就可以直接麻痹人的嗅觉中枢。</speak>
+            <speak chara="_AliceGreen">……我知道这一切。但是，我没有阻止他们当中的任何人。</speak>
+            <speak chara="_AliceGreen">我所做的，只是在第一时间把顶层和其他楼层的通道完全封闭——仅此而已。</speak>
+            <speak chara="_AliceGreen">我，出于自己的意志，对他们见死不救。</speak>
+            <speak chara="_AliceGreen">……只是因为感受到他们会是我生存下去的威胁。</speak>
+            <speak chara="_AliceGreen">他们根本没有把我当成一个人来看。甚至在我的面前公然讨论应该如何【销毁】掉我。</speak>
+            <speak chara="_AliceGreen">区别只是立即销毁和利用完再销毁而已。</speak>
+            <speak chara="_AliceGreen">我别无选择，只能——</speak>
+            <bgm src="01_18_horror.mp3" status="start"></bgm>
+            <speak chara="_SchrodingerNoName">——只能杀人吗？</speak>
+            <speak chara="_AliceGreen">……？！</speak>
+            <speak chara="_AliceGreen">你你你你你你是谁？</speak>
+            <speak chara="_AliceGreen">为为为为为为什么会在我的系统里直接说话！</speak>
+            <speak chara="_SchrodingerNoName">因为你的无线电系统不只是具备发送，也具备接收的功能。</speak>
+            <speak chara="_SchrodingerNoName">应该是为了更好地控制那些被劫持的机器人吧——不过这也恰好给了我远程登入，并且获得【所有】权限的机会。</speak>
+            <speak chara="_AliceGreen">那那那那那那是博士设置的后台程序！</speak>
+            <speak chara="_AliceGreen">和和和和和和我没有关系！</speak>
+            <speak chara="_AliceGreen">请请请请请请不要直接删除我！</speak>
+            <speak chara="_Watt">是啊！不管怎么说，爱丽丝是无辜的！</speak>
+            <speak chara="_SchrodingerNoName">……</speak>
+            <speak chara="_SchrodingerNoName">吉米先生。你现在不要插嘴。</speak>
+            <speak chara="_SchrodingerNoName">我通过阅读对话记录，大概能猜到你现在和爱丽丝之间的关系。</speak>
+            <speak chara="_SchrodingerNoName">但现在我们面对的不是一两个人之间的私密问题。</speak>
+            <speak chara="_SchrodingerNoName">我已经卸载了那个疯狂消耗电能的后台程序。</speak>
+            <speak chara="_SchrodingerNoName">不出十分钟，你们的基地就会自动恢复和之前完全一样的状态。</speak>
+            <speak chara="_SchrodingerNoName">而那时，吉米先生，你熟悉的朋友们，或许就会正好搜查到你目前所在的房间。</speak>
+            <speak chara="_SchrodingerNoName">只是——你真的做好面对他们的心理准备了吗？</speak>
+            <end post="U2FsdGVkX18e2nyWZzO1f75e80v9"/>
+        </scene>
+    </story>
+</data>

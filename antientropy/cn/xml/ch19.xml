@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="streetProvidence.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="start"></bgm>
+            <text>面前的街道上满是积水。</text>
+            <text>与11月的隆冬天气相反，积水一点儿也不冰冷——甚至还能让人感受到一股暖意。</text>
+            <text>早起的野鸭，甚至反季节地，在积水上惬意地游来游去。</text>
+            <text>不过……</text>
+            <text>世界上所有真实发生的事情，都不可能像少数感官片面感知地那样美好。</text>
+            <text>就如同这积水下的路面，坑洼不平，滑溜溜、黏糊糊、还夹杂着尖锐的硬物，简直让人无法行走。</text>
+            <show chara="einFoolWinterClose" position="center"/>
+            <speak chara="einNoFace">找到爆胎的罪魁祸首了。</speak>
+            <hide position="center"/>
+            <text>青年顺着少女指向的位置看去，只见有几片巨大、尖锐的“贝壳”，硬生生地扎在跑车干瘪的右后轮上。</text>
+            <text>被车轮搅浑的积水渐渐澄清了一些，瓦尔特能看到那里生长着一些密密麻麻的诡异生物。</text>
+            <text>灰白色与绀紫色相间的“贝壳”——和扎在车胎上一样的石灰质尖锐锥体——毫无规律地挤在一起。</text>
+            <text>说不上是软体动物还是什么东西。</text>
+            <text>总之，如果把地狱里所有魔鬼的爪子都砍下来，并像沙丁鱼一样叠在一起——大概就是眼前的这个样子。</text>
+            <show chara="teslaBiteGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace" remark="next">从结论来说……这水泥路面上……长着比平常大好几倍的藤壶。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">一般语境下，藤壶泛指节肢动物门、颚足纲、鞘甲亚纲下的一大类动物，营固着生活。它们主要粘附在礁石上，但有时也会粘附在浮木、船底上，蟹类、贝类的外壳上——某些特化的品种，甚至直接寄生在鲸类身上（称为“鲸藤壶”）。</p>
+                <p class="article-text">p.s. 搜索关于藤壶（尤其是鲸藤壶）的图片可能引发不适，请各位玩家谨慎对待自己的好奇心。</p>
+            </remark>
+            <text>打扮时髦的少女咬牙切齿地陈述着，看起来不大能对付这种密集的甲壳类动物。</text>
+            <show chara="teslaBiteGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltEmbarraNewClose" position="right"/>
+            <speak chara="weltNoFace">藤壶……不是海洋生物吗？</speak>
+            <speak chara="weltNoFace">这里……就算离海再近，但也……</speak>
+            <show chara="weltEmbarraNewClose" position="right" opacity="0.7"/>
+            <show chara="teslaBiteGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">这我当然知道！</speak>
+            <show chara="teslaDisgustedGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">所以才会更可怕啊不是吗！？</speak>
+            <show chara="teslaAstonishGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">绝不会出现在内陆上的恶心东西，就这样扎爆了我们的轮胎啊！？</speak>
+            <show chara="teslaAstonishGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace">1861年2月22日，狂风暴雨中，曾经有无数条海鱼在新加坡从天而降。</speak>
+            <speak chara="einNoFace">但固着在这些水洼里的藤壶，不可能是从天而降的。</speak>
+            <speak chara="einNoFace">……我们现在的具体位置是哪里？</speak>
+            <show chara="einNormalWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">波塔基特大道……霍普街区。</speak>
+            <text>打扮时髦的少女打量着手中的地图——</text>
+            <speak chara="teslaNoFace">左手边不远处是“斯旺波因特”墓地；墓地再向外，则是锡康克河的喇叭形河口。</speak>
+            <speak chara="teslaNoFace">如果我们要实地侦察的话，那么就是这样的一个三角形，从本斯利点到利比特公园，再到布莱克斯通公园——</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <bgm src="03_03_bostonNight.mp3" status="stop"></bgm>
+            <speak chara="reannaNoNameNoFace">不过核心还是那块墓地吧？</speak>
+            <speak chara="reannaNoNameNoFace">真是的，和你们的缘分，为什么总是与墓地有关啊。</speak>
+            <speak chara="teslaNoFace">谁？</speak>
+            <show chara="reaSmileArmedClose" position="center"/>
+            <text>完全听不到脚步声的“不速之客”，从头到脚都穿着特制的战斗服——</text>
+            <speak chara="einNoFace">啊……</speak>
+            <speak chara="weltNoFace">……蕾安娜小姐？</speak>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="streetProvidence.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="start"></bgm>
+            <show chara="reaLaughArmedClose" position="right"/>
+            <speak chara="reannaNoFace">……今天这个打扮，是不是有点认不出来啊？</speak>
+            <show chara="reaLaughArmedClose" position="right" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">呃……</speak>
+            <speak chara="teslaNoFace">（战斗服竟然……既不是金光闪闪，也不是蓝白相间……）</speak>
+            <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraArmedClose" position="right"/>
+            <speak chara="reannaNoFace">啊？什么？</speak>
+            <show chara="reaEmbarraArmedClose" position="right" opacity="0.7"/>
+            <show chara="teslaErGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">呃。没事没事。</speak>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">不说这个……蕾安娜小姐为什么会在这里啊？</speak>
+            <speak chara="teslaNoFace">你不是总部的女武神吗？</speak>
+            <show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="reaHahArmedClose" position="right"/>
+            <speak chara="reannaNoFace">啊，你说这个啊……</speak>
+            <show chara="reaSmileArmedClose" position="right"/>
+            <speak chara="reannaNoFace">我应该和你们一样，本来还在休假中哦？</speak>
+            <show chara="reaSmileArmedClose" position="right" opacity="0.7"/>
+            <show chara="teslaSurpriseGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">唉？</speak>
+            <show chara="teslaSurpriseGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="reaHahArmedClose" position="right"/>
+            <speak chara="reannaNoFace" remark="next">本来还预定了去楠塔基特参观捕鲸博物馆的船票……</speak>
+            <remark post="U2FsdGVkX1+nM00AVZfqWdagRa33">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">楠塔基特（Nantucket）是美国马萨诸塞州西南部的一座海岛，也是早期捕鲸业的世界中心之一。在赫尔曼·梅尔维尔（Herman Melville）的名著《白鲸》（Moby-Dick; or, The Whale）中，捕鲸船“裴廓德”号（Pequod）即从此处出发，开启了环绕全球的寻猎之旅。</p>
+            </remark>
+            <show chara="reaSeriousArmedClose" position="right"/>
+            <speak chara="reannaNoFace">但是如你们所见，昨天凌晨，发生了异常的事态。</speak>
+            <show chara="reaNormalArmedClose" position="right"/>
+            <speak chara="reannaNoFace">……倒是你们呢？赤手空拳，打算狩猎些什么？</speak>
+            <speak chara="reannaNoFace">街道上都莫名其妙长出藤壶了；到了墓地那边，一旦遇到了崩坏兽，你们怎么对付？</speak>
+            <show chara="reaNormalArmedClose" position="right" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">虽然是误打误撞——不过这倒真不用太担心。</speak>
+            <speak chara="teslaNoFace">再稍微等一会儿，我们可就神——啊不对，鸟枪换炮啦。</speak>
+            <show chara="teslaShameGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltAstonishNewClose" position="right"/>
+            <speak chara="weltNoFace">？？？</speak>
+            <show chara="reaNormalArmedClose" position="right"/>
+            <speak chara="reannaNoFace">……？</speak>
+            <show chara="reaNormalArmedClose" position="right" opacity="0.7"/>
+            <show chara="teslaErGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">啊……那个……我们想办法联络上了一个当地部门。</speak>
+            <speak chara="teslaNoFace">唉？叫……叫什么局来着？</speak>
+            <show chara="einNormalWinterClose" position="left"/>
+            <speak chara="einNoFace">紧急应变管理局，普罗维登斯特别联络办公室。</speak>
+            <speak chara="einNoFace">是北美支部和美国政府合作设立的部门。</speak>
+            <speak chara="einNoFace">根据他们的规章制度，目前特斯拉拥有该部门的临时指挥权。</speak>
+            <show chara="teslaErGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">咳咳……十分感谢总结。</speak>
+            <show chara="teslaSnickerGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">总之，我们和对方约定在附近大学的中央草坪集合——</speak>
+            <speak chara="teslaNoFace">你要不要也一起过来？</speak>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="universityMorning.jpg">
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <show chara="tank" position="back"/>
+            <show chara="mbembaClose" position="left"/>
+            <show chara="alexClose" position="right"/>
+            <show chara="yuriSadClose" position="center"/>
+            <text>高高低低、胖胖瘦瘦的三个人，以及两辆看起来完全不解决问题的装甲战车。</text>
+            <text>回头看看女武神蕾安娜，再看看眼前这几位“公务员”，特斯拉感到了一阵剧烈地胃疼。</text>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="universityMorning.jpg">
+            <bgm src="10_25_noise.mp3" status="start"></bgm>
+            <show chara="tank" position="back"/>
+            <show chara="teslaErGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">所以……就你们几个？还都是男的？</speak>
+            <show chara="teslaErGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="yuriSeriousClose" position="right"/>
+            <speak chara="yuriNoFace">……这……抱歉。</speak>
+            <text>三人中最矮的尤里是他们的代表。</text>
+            <show chara="yuriSadClose" position="right"/>
+            <speak chara="yuriNoFace">我是值夜班的……姆本巴还在住办公室……亚力克斯则是租住的公寓就在附近。</speak>
+            <speak chara="yuriNoFace">通讯中断的情况下，短时间能集合起来的只有我们三个……实在是没有办法。</speak>
+            <show chara="yuriSadClose" position="right" opacity="0.7"/>
+            <show chara="teslaDisgustedGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">所以说，现在发生的可是崩坏事件啊？</speak>
+            <show chara="teslaBiteGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">给我几个天然抗性就差的男人顶什么用？</speak>
+            <show chara="teslaErGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">亏你还说“有能够解决问题的手段”……</speak>
+            <show chara="teslaDisgustedGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">……就靠这种陆军都觉得老掉牙的坦克吗？</speak>
+            <show chara="teslaErGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">那些新研发的原型机甲呢？虽然还没有量产，但一架都没有给你们配吗？</speak>
+            <show chara="teslaErGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="mbembaClose" position="right"/>
+            <speak chara="mbembaNoFace" remark="next">这战车确实是用谢尔曼II型改造的——却内嵌了提尔合金的护壁，还加装了高能火焰喷口和化学药剂喷口。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">M4中型坦克是第二次世界大战时美国开发、制造的坦克，改装型号众多。其通称谢尔曼（Sherman）是英军起的诨名，源自美国南北战争时，北军的“魔鬼将军”威廉·特库姆赛·谢尔曼。</p>
+                <p class="article-text">在1864年的萨凡纳战役（俗称Sherman's March to the Sea）中，谢尔曼麾下的部队采取焦土战术，毁灭性地破坏了南方的大量基础设施，以非人道的手法重创了南方军民的财富和斗志。</p>
+            </remark>
+            <show chara="yuriSadClose" position="right"/>
+            <speak chara="yuriNoFace">根据……爱迪生小姐的说法……战术机甲的成本过高，在应付一般的崩坏冲突时，倒不如这种改进自普通军队的装备……更有性价比。</speak>
+            <show chara="alexClose" position="right"/>
+            <speak chara="alexNoFace" remark="next">补充一下。所谓“提尔合金”是爱迪生小姐起的名字，其实就是渗碳处理的钛(Ti)铀(U)合金——</speak>
+            <remark post="U2FsdGVkX18qFb5k3RSFaoDOxcnk">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">提尔是北欧神话中的战神——或者更确切地说，象征英雄与勇气的神。在不同语言中，他名字的写法有：Týr（古诺斯语），Ty（古挪威语），Ti（古瑞典语），Tiw或Tiu（古英语），Ziu或Zio（古德语）等等。</p>
+                <p class="article-text">p.s. 英语的星期二（Tuesday）其实是“提尔日”（Tiw's Day）的意思。</p>
+            </remark>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <show chara="alexClose" position="right" opacity="0.7"/>
+            <show chara="teslaAngryGlassWinterClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">——不用你们班门弄斧！这合金还是我开发的呢！</speak>
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">能够屏蔽崩坏能的量产型合金！魂钢的下位替代品！</speak>
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">本来打算用来制造正式版机甲的！但是密度有点大发动机功率完全跟不上！</speak>
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">就值五万美元的廉价专利，仅此而已！</speak>
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <show chara="teslaErGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">……咳咳。</speak>
+            <show chara="teslaShameGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">所以说，最终把它用在了坦克的防护层上吗？</speak>
+            <speak chara="teslaNoFace">……还真像那个人会想出来的馊主意。</speak>
+            <show chara="teslaEmbarraGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">……你们知道那个人给我的感觉是什么吗？</speak>
+            <speak chara="teslaNoFace">明明不知道自己面对的究竟是散兵游勇还是马克沁机枪，却觉得“我们”就是有办法获胜的祖鲁战士。</speak>
+            <show chara="teslaShameGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">……听不懂就算了。</speak>
+            <speak chara="teslaNoFace">……总之，正所谓“聊胜于无”，在特定的条件下，我不否认你们能帮上忙——</speak>
+            <speak chara="teslaNoFace">——“在特定的条件下”。</speak>
+            <show chara="teslaSnickerGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">……蕾安娜小姐。</speak>
+            <show chara="teslaSnickerGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="reaHahArmedClose" position="right"/>
+            <speak chara="reannaNoFace">……需要我做什么吗？</speak>
+            <show chara="reaHahArmedClose" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">由我来统一制定侦察以及可能的突击方案，可以吗？</speak>
+            <show chara="teslaShameGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">毕竟，我比较清楚，靠他们的三脚猫装备，究竟能做到什么地步。</speak>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="parkWaterTree.jpg">
+            <bgm src="horror.mp3" status="start"></bgm>
+            <text>1955年11月24日。</text>
+            <text>清晨6时45分。</text>
+            <text>普罗维登斯市的天空刚刚露出了一些鱼肚白。</text>
+            <show chara="teslaNormalGlassHeadsetWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">这里是尼古拉·特斯拉。我们和亚力克斯已经抵达本斯利点北侧预定位置，打出了红色旗帜。</speak>
+            <show chara="yuriSeriousClose-up" position="center"/>
+            <speak chara="yuriNoFace">这里是尤里·阿姆斯特朗。已经抵达布莱克斯通公园北侧预定位置，打出了蓝色旗帜。</speak>
+            <show chara="teslaNormalGlassHeadsetWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">收到。</speak>
+            <speak chara="teslaNoFace">我最后强调一遍，你们的战斗力最为有限，一旦遭遇可疑目标，立即喷洒化学药剂拖住对方，切勿擅自开炮，更不要使用火焰喷射，以免造成不可预料的后果！</speak>
+            <show chara="yuriSeriousClose-up" position="center"/>
+            <speak chara="yuriNoFace">明白。</speak>
+            <show chara="reaNormalArmedClose-up" position="center"/>
+            <speak chara="reannaNoFace">这里是蕾安娜·布里甘缇亚。</speak>
+            <speak chara="reannaNoFace">已经抵达利比特公园西侧预定地点。</speak>
+            <show chara="teslaNormalGlassHeadsetWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">收到。</speak>
+            <speak chara="teslaNoFace">蕾安娜小姐请随时做好机动的准备。一旦我们或者尤里他们发现了可疑目标，会第一时间通知你。</speak>
+            <show chara="reaNormalArmedClose-up" position="center"/>
+            <speak chara="reannaNoFace">收到。</speak>
+            <speak chara="reannaNoFace">我的机动时间，最坏估计大致需要2分钟；我的杀伤半径，最坏的情况下能控制在10米以内——</speak>
+            <speak chara="reannaNoFace">——请大家牢记这两个数字，不要因为误判而产生不必要的伤亡。</speak>
+            <show chara="teslaNormalGlassHeadsetWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">就是如此。拖够2分钟、保持10米以外。</speak>
+            <speak chara="teslaNoFace">开始行动吧。</speak>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="parkWaterTree.jpg">
+            <bgm src="horror.mp3" status="continue"></bgm>
+            <text>深秋的晨曦穿过如静脉网一般纵横交错的枝条，湿漉漉地照射在履带留下的车辙里。</text>
+            <text>尤里·阿姆斯特朗驾驶着装甲战车，从布莱克斯通公园向北缓缓前进。</text>
+            <text>第一次亲临“战场”的他，脑海中浮现出父亲的身影。</text>
+            <text>那是十年前的一个夏天。他拉着刚刚复员回家的父亲，想听他亲口讲讲关于诺曼底的故事。</text>
+            <text>然而，父亲却冷冷地反问了一句——</text>
+            <text>“在一片黑暗中，当我们只能看到高射炮的火光——你知道我们为什么能说服自己跳下去吗？”</text>
+            <text>“……”</text>
+            <text>“是因为在此之前的两年里，我们接受了上百次的训练。”</text>
+            <text>“除此之外，再没有什么‘为什么’。”</text>
+            <text>“这是现实生活，没有人是像‘美国队长’那样的超级英雄。”</text>
+            <text>“第一次跳伞的时候，我甚至吓得小腿抽筋，还尿了裤子。”</text>
+            <text>“……所谓职业军人，他们只是接受了长久的锻炼，将不必要的情绪统统都忘在了脑后——仅此而已。”</text>
+            <show chara="yuriSeriousClose-up" position="left"/>
+            <speak chara="yuriNoFace">（将不必要的情绪都忘在脑后——仅此而已。）</speak>
+            <show chara="yuriSeriousClose-up" position="left" opacity="0.7"/>
+            <show chara="mbembaClose-up" position="right"/>
+            <speak chara="mbembaNoFace">……尤里。</speak>
+            <show chara="mbembaClose-up" position="right" opacity="0.7"/>
+            <show chara="yuriSadClose-up" position="left"/>
+            <speak chara="yuriNoFace">……很逊吧？我现在的脸色一定很苍白。</speak>
+            <show chara="yuriSadClose-up" position="left" opacity="0.7"/>
+            <show chara="mbembaClose-up" position="right"/>
+            <speak chara="mbembaNoFace">……不。</speak>
+            <speak chara="mbembaNoFace">……我比你逊多了。</speak>
+            <speak chara="mbembaNoFace">……你马上就要闻到味道了。不好意思。</speak>
+            <show chara="mbembaClose-up" position="right" opacity="0.7"/>
+            <show chara="yuriSadClose-up" position="left"/>
+            <speak chara="yuriNoFace">？？？</speak>
+            <show chara="yuriSeriousClose-up" position="left"/>
+            <speak chara="yuriNoFace">唔……</speak>
+            <text>一股浓烈的、类似氨水的气味开始在车厢里弥漫。</text>
+            <text>那是哺乳动物，在极端恐惧时，有可能会散发出的味道。</text>
+            <show chara="yuriSeriousClose-up" position="left" opacity="0.7"/>
+            <show chara="mbembaClose-up" position="right"/>
+            <speak chara="mbembaNoFace">我……看到了……</speak>
+            <speak chara="mbembaNoFace">不，我是说……</speak>
+            <speak chara="mbembaNoFace">它好像也看到我们了。</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="peduncle" position="center"/>
+            <text>怪物用触腕上橄榄球一般大的眼睛，疑惑地盯着他们乘坐的、会移动的铁块。</text>
+            <text>你很难去描述它的构造……不，也许，是根本无法理解。</text>
+            <text>有些触腕上长着一连串的眼睛、有些触腕上长着一连串的钳子、有些触腕上长着一连串不可名状的口器……</text>
+            <text>这些触腕像藤壶一样固着在一块长方体的花岗岩上——也许是墓碑——它们就这样组成了一个整体，像只蠕虫一般，漫无目的、悄无声息地挪动着。</text>
+            <text>你唯一能确定的是……它，是这里独一无二的主宰。</text>
+            <hide position="center"/>
+            <show chara="mbembaClose-up" position="right"/>
+            <speak chara="mbembaNoFace">我们……应该做什么来着？喷火吗？把、把这些恶心的东西都烧掉吧？</speak>
+            <show chara="mbembaClose-up" position="right" opacity="0.7"/>
+            <show chara="yuriSeriousClose-up" position="left"/>
+            <speak chara="yuriNoFace">……别。</speak>
+            <show chara="yuriSadClose-up" position="left"/>
+            <speak chara="yuriNoFace">……千万别。</speak>
+            <speak chara="yuriNoFace">你……冷静一点。</speak>
+            <speak chara="yuriNoFace">别碰那个红色的面板……把手放到蓝色的那个上面去……</speak>
+            <speak chara="yuriNoFace">对……就在这个蓝色的面板上操作……</speak>
+            <show chara="yuriSeriousClose-up" position="left"/>
+            <text>黑眼圈的棕发青年深吸了一口气。</text>
+            <text>虽然那股氨水一样的味道很想让人摈住呼吸。</text>
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <speak chara="yuriNoFace">这里是“蓝色方面军”！我们已经发现了敌人！现在开始喷洒化学药剂！</speak>
+            <speak chara="yuriNoFace">重复一遍，“蓝色方面军”，已经发现敌人，开始喷洒化学药剂！</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="graveMorning.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <show chara="teslaDisgustedGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">蕾安娜！</speak>
+            <show chara="reaSeriousArmedClose-up" position="center"/>
+            <speak chara="reannaNoFace">……</speak>
+            <speak chara="reannaNoFace">…………</speak>
+            <show chara="teslaDisgustedGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">蕾安娜！!</speak>
+            <show chara="reaSeriousArmedClose-up" position="center"/>
+            <speak chara="reannaNoFace">………………</speak>
+            <show chara="reaNormalArmedClose-up" position="center"/>
+            <speak chara="reannaNoFace">定位完毕！请立即做战术机动，敌人由我来消灭！</speak>
+            <show chara="yuriSeriousClose-up" position="center"/>
+            <speak chara="yuriNoFace">明白！</speak>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="CG19-0-1.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <text>最强的女武神。</text>
+            <goto goto="82" change="0"/>
+        </scene>
+        <scene id="82" background="CG19-0-2.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <text>她不仅能在必要的时候，仅靠双腿，每分钟就跑一公里——</text>
+            <goto goto="84" change="0"/>
+        </scene>
+        <scene id="84" background="CG19-0-3.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <text>她的身体里，还蕴藏着另一种，任何武器都无法比拟的巨大潜能。</text>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="CG19-0-4.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="reannaNoFace">Ich bin das Schwarz auch das Weiß</speak>
+            <speak chara="reannaNoFace">Vor dem Beginn und zwar nach der Ende</speak>
+            <goto goto="95" change="0"/>
+        </scene>
+        <scene id="95" background="CG19.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="reannaNoFace">我是吞噬一切的黑，我是孕育一切的白；</speak>
+            <speak chara="reannaNoFace">诞生自创世之前，存在于湮灭之后；</speak>
+            <speak chara="reannaNoFace">神之键·黑渊白花，第一额定功率——</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="parkWaterTree.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <cg src="shengqiangShock.png" bg="parkWaterTree.jpg" fadeOut="0" fadeIn="0"></cg>
+            <cg src="zhanfangPetal.png" bg="parkWaterTree.jpg" fadeOut="0" fadeIn="0"></cg>
+            <end post="U2FsdGVkX1+Ny96acaorRcQ6snPL"/>
+        </scene>
+    </story>
+</data>

@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="seaWaveIslandNoName.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <text>The ocean is magical.</text>
+            <text>No matter what occurs, it's all fleeting——</text>
+            <text>Only its waves and bubbles are allowed to be eternal, swallowing everything into loneliness.</text>
+            <text article="1">
+                <p class="article-text">The mysterious submarine that suddenly appeared is now quietly floating above the sea.</p>
+                <p class="article-text">Only the cries of the pitiful 「Leviathan」 could be heard under the blue sky.</p>
+            </text>
+            <speak chara="_Rita">Are you alright, Bianka-sama?</speak>
+            <speak chara="_Bianka">O-Of course I am. I can handle getting wet from head to toe, this is nothing.</speak>
+            <speak chara="_Bianka">——Ah, thanks for the towel.</speak>
+            <goto goto="15" change="0"/>
+        </scene>
+        <scene id="15" background="seaWaveIslandNoNameRS.jpg">
+            <bgm src="seaAndSky.mp3" status="continue"></bgm>
+            <show chara="cervantesShoutClose-up" position="center"/>
+            <speak chara="_Miguel">What is this! T-This...</speak>
+            <show chara="biancaSeriousClose-up" position="center"/>
+            <speak chara="_Bianka">What is it? Do you know something, old man?</speak>
+            <show chara="cervantesSeriousClose-up" position="center"/>
+            <speak chara="_Miguel">...No, not a clue. I've never seen anything like this in my entire life.</speak>
+            <speak chara="_Miguel">A ship made entirely of metal... tore apart the 「Leviathan」's belly as if it was made of paper. And it can even dive under the sea——</speak>
+            <show chara="cervantesShoutClose-up" position="center"/>
+            <speak chara="_Miguel">——Are all ships from 400 years in the future this amazing?</speak>
+            <show chara="biancaSighClose-up" position="center"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biancaSneerClose-up" position="center"/>
+            <speak chara="_Bianka">Don't be so surprised by something of this level, old man.</speak>
+            <speak chara="_Bianka">I'll have you know—— Our transport ship 「Hestia」 is 10.000 times stronger than that submarine!</speak>
+            <show chara="rita17SquintClose-up" position="center"/>
+            <speak chara="_Rita">...Not that we can bring any battleship to this world.</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="CG2-1-1.jpg">
+            <bgm src="seaAndSky.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">Don't fret, old man! No matter who they are we'll do something about it!</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="CG2-1-2.jpg">
+            <bgm src="seaAndSky.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">(Huh? The energy of the Holy Relic... hasn't recovered even a single bit?)</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="seaWaveIslandNoNameRS.jpg">
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="rita17NormalClose-up" position="center"/>
+            <speak chara="_Rita">Look! Someone is coming out of the submarine!</speak>
+            <show chara="cervantesGazeClose-up" position="center"/>
+            <speak chara="_Miguel">...They are raising a flag?</speak>
+            <show chara="cervantesShoutClose-up" position="center"/>
+            <speak chara="_Miguel">T-That is——</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG2-2.jpg">
+            <bgm src="noise.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">...A pirate flag?</speak>
+            <goto goto="60" clockwise="1"/>
+        </scene>
+        <scene id="60" background="seaWaveIslandNoName.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <text>Four boats left the submarine.</text>
+            <text>Three of them surrounded the 「Leviathan」 and began to tear it apart；</text>
+            <text>The remaining boat headed to the small reed boat carrying three people.</text>
+            <text>Bianka felt like her opponent this time weren't 「normal」 pirates. Because——</text>
+            <text>——The boy that seemed to be the leader was panicking to be point it's impossible to believe he could be a pirate.</text>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_WattNoName">H-Hello.</speak>
+            <show chara="wattShyClose" position="left" opacity="0.8"/>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">...Hello.</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_WattNoName">U-Umm...</speak>
+            <speak chara="_WattNoName">I'm sorry...</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">...What?</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_WattNoName">W-We...</speak>
+            <speak chara="_WattNoName">Seem to have killed your prey so...</speak>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_WattNoName">...I'm very sorry.</speak>
+            <show chara="wattShyClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <speak chara="_Bianka">So you came all the way here to apologize, captain-san?</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_WattNoName">Ah—— I'm not the captain.</speak>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_WattNoName">.....</speak>
+            <speak chara="_WattNoName">I-I should let Lalla-neesan explain it.</speak>
+            <show chara="wattSighClose" position="left" opacity="0.8"/>
+            <show chara="lallaSighClose" position="right"/>
+            <speak chara="_Lalla">Sigh...</speak>
+            <speak chara="_Lalla">...You're really hopeless when it comes to these things.</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="lallaNormalClose" position="center"/>
+            <speak chara="_Lalla">Everyone, we're sailors from the amphibious ship 「Caledonia」.</speak>
+            <speak chara="_Lalla">I'm Lalla, the boatswain. This is Jimmy, our engineer—— As you can see, we're pirates.</speak>
+            <show chara="lallaSmileClose" position="center"/>
+            <speak chara="_Lalla">We apologize for stealing your prey, but we'll be keeping it. As an apology——</speak>
+            <speak chara="_Lalla">Our captain wants to invite you all aboard the 「Caledonia」...</speak>
+            <speak chara="_Lalla">...Interested?</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="submarinePipe.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <text>……</text>
+            <text>Dim incandescent bulbs, fading paint, rusty nuts and aged but well maintained power cables.</text>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="submarineEngine.jpg">
+            <bgm src="legion.mp3" status="continue"></bgm>
+            <text>For Bianka Atagina and Rita Rossweisse the 「Caledonia」 was a giant time capsule——</text>
+            <text>——As if they had stepped into a novel by Jules Verne.</text>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="submarineCorridor.jpg">
+            <bgm src="legion.mp3" status="continue"></bgm>
+            <show chara="biankaSeriousClose" position="left"/>
+            <!-- 
+				The mechanical design of the ship seems late 19th or early 20th century. 
+		  		Bianka asked Lalla where this ship came from since apparently Jimmy isn't good at talking. 
+		  		She'll let the captain explain it instead, can't go stealing her spotlight. 
+		  		She's waiting for them in the bridge. 
+		  	-->
+            <speak chara="_Bianka">The mechanical design of the ship seems late 19th or early 20th century.</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">...Where did this ship come from?</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="lallaSighClose" position="right"/>
+            <speak chara="_Lalla">Are you... asking me?</speak>
+            <show chara="lallaSighClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">Who else should I ask? Your pilot doesn't seem to speak well.</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="lallaSmileClose" position="right"/>
+            <speak chara="_Lalla">Pff.. Jimmy's actually very talkative—— you're just not familiar yet, right?</speak>
+            <show chara="wattShyClose" position="right"/>
+            <speak chara="_Watt">Um.. well. Yeah, probably.</speak>
+            <show chara="wattShyClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">...So where did your submarine come from?</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">Looking at your dress, does it really look like 20th century attire?</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="lallaNormalClose" position="right"/>
+            <speak chara="_Lalla">It really isn't.</speak>
+            <show chara="lallaSighClose" position="right"/>
+            <speak chara="_Lalla">However, you don't have be so worried——</speak>
+            <show chara="lallaSmileClose" position="right"/>
+            <speak chara="_Lalla">The captain can answer your questions later—— I don't want to steal her spotlight.</speak>
+            <show chara="lallaSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">...</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="lallaSmileClose" position="right"/>
+            <speak chara="_Lalla">Come on, the captain's already waiting for us on the bridge.</speak>
+            <bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
+            <goto goto="100" clockwise="1"/>
+        </scene>
+        <scene id="100" background="CG2-3.jpg">
+            <bgm src="11_15_shakespeareTheme.mp3" status="continue"></bgm>
+            <speak chara="_ShakespeareNoName">20th century... or perhaps 21st——</speak>
+            <speak chara="_ShakespeareNoName">Welcome aboard the 「Caledonia」!</speak>
+            <speak chara="_ShakespeareNoName">Captain 「Barbarossa」 welcomes you on behalf of the entire crew!</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="submarineCabinBlur.jpg">
+            <bgm src="11_15_shakespeareTheme.mp3" status="continue"></bgm>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">Hm. You speak and act like an actor despite being a pirate.</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_ShakespeareBarbarossa">I sincerely thank you for praising the 「King's Men」.</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">...?</speak>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">...By 「King's Men」 you mean Shakespeare's?</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_ShakespeareBarbarossa">The one and only.</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_ShakespeareBarbarossa">And playing the role of the pirate captain 「Barbarossa」 is——</speak>
+            <speak chara="_ShakespeareBarbarossa">——「William Shakespeare」 herself.</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">...!?</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="shakesQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">Well, if you don't like 「Barbarossa」 I can also act as 「Captain Nemo」.</speak>
+            <show chara="shakesDisgustedClose" position="right"/>
+            <speak chara="_Shakespeare">Though I don't know him very well. I just happened to find by chance the ship he abandoned.</speak>
+            <show chara="shakesDisgustedClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">You made it yours?</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="shakesColdClose" position="right"/>
+            <speak chara="_Shakespeare">Exactly.</speak>
+            <show chara="shakesQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">On a peaceful morning, I was doing my vocal workout while facing the sea——</speak>
+            <speak chara="_Shakespeare">When suddenly, a loud sound was heard and a steel monster came out of a maelstrom——</speak>
+            <show chara="shakesDisgustedClose" position="right"/>
+            <speak chara="_Shakespeare">There was no one in it and its logbook was incomplete.</speak>
+            <speak chara="_Shakespeare">...If you ask me, 「Captain Nemo」 and his 「Nautilus」 make for such a strange story.</speak>
+            <show chara="shakesDisgustedClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">...Is this supposed to be a joke?</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">A joke?</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">You could call it that. A joke from the play known as 「fate」.</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">But I must admit—— Overthrowing order, changing fate, rebelling against the heavens—— It's all truly overflowing with fun.</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">...Is this a world without order?</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">Oh my, does our nameless little 「knight」 care about order?</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">Right. We should start by introducing ourselves properly.</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">...What?</speak>
+            <speak chara="_Bianka">(How did we go from that talk to introducing ourselves?)</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">I am Marian William Shakespeare from 16th century England, and the captain of the 「Caledonia」.</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">If you don't like 「Marian」, you can call me 「William」 or 「Shakespeare」, I don't mind.</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">(The 16th century, so 1500...?)</speak>
+            <show chara="lallaSmileClose" position="left" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">This is our boatswain, Lalla Sayyida al Hurra. She's from Morocco of the same era as me.</speak>
+            <show chara="wattShyClose" position="left" opacity="0.8"/>
+            <speak chara="_Shakespeare" remark="next">And this is James "Jimmy" Watt, an engineer from 18th century Scotland. The 「Caledonia」 got its name thanks to him——</speak>
+            <remark post="U2FsdGVkX1+ddeoBsDMLAmG62QhQ">
+                <p class="article-text-h">Note：</p>
+                <p class="article-text">喀里多尼亚（Caledonia）是古罗马时期的拉丁语地名，即今日的苏格兰地区。</p>
+            </remark>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">(...James Watt? The guy who made the first modern steam engine? But he looks younger that me...)</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">——「Nautilus」 wasn't a bad name, but the crew insisted on this new name to honor the Scottish boy for his excellent work on repairing the ship.</speak>
+            <show chara="shakesConfidentClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">Wasn't it you the one who wanted to change its name?</speak>
+            <speak chara="_Watt">And I didn't do anything impressive, I just followed the manual.</speak>
+            <show chara="wattSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="right"/>
+            <speak chara="_Shakespeare">.....</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">Ah, right.</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <show chara="ironWhiteClose" position="left" opacity="0.8"/>
+            <speak chara="_Shakespeare">This is 「Iron Mask」. My chief officer and adjutant.</speak>
+            <show chara="ironWhiteClose" position="left"/>
+            <speak chara="_Ironface">...A pleasure to meet you.</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <show chara="ironWhiteClose" position="left" opacity="0.8"/>
+            <speak chara="_Shakespeare">She herself wishes for her identity to remain a secret, so please respect that and don't pry on her private matters.</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">...Isn't it a bit suspicious?</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="right"/>
+            <speak chara="_Shakespeare">Well, maybe that's how it looks to an outsider, but to me she's the most trustworthy and reliable person on this ship.</speak>
+            <show chara="shakesSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">Understood. I won't press the matter of 「Iron Mask」's identity any further——</speak>
+            <show chara="biankaConfidentClose" position="left"/>
+            <speak chara="_Bianka">——You and your crew introduced yourselves, I suppose it's now our turn.</speak>
+            <show chara="biankaProudClose" position="left"/>
+            <show chara="rita17SquintClose" position="right" opacity="0.8"/>
+            <speak chara="_Bianka">I am Bianka Atagina, and this is my adjutant Rita Rossweisse. We're Valkyries, who under the orders of Destiny, came to explore this world.</speak>
+            <show chara="biankaProudClose" position="left" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="right"/>
+            <speak chara="_Watt">.....?</speak>
+            <show chara="lallaQuestionClose" position="right"/>
+            <speak chara="_Lalla">.....?</speak>
+            <show chara="ironWhiteClose" position="right"/>
+            <speak chara="_Ironface">.....</speak>
+            <show chara="shakesDisgustedClose" position="right"/>
+            <!-- 
+				Shakespeare laughs. What "Iron Mask" told her was true. 
+				She told her in another world there is some kind of energy called "Houkai", and that it brings suffering to that world. 
+				An organization called "Destiny" rose up to fight against that threat. 
+				The main force of said organization are female soldiers called Valkyrie, who have resistance to this so called Houkai energy. 
+				In that world the Valkyries fight monsters to protect humanity. 
+			-->
+            <speak chara="_Shakespeare">Destiny? Valkyries? What are those?</speak>
+            <show chara="shakesDisgustedClose" position="right" opacity="0.8"/>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">...what?</speak>
+            <show chara="biankaProudClose" position="left" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="right"/>
+            <speak chara="_Shakespeare">Hahahaha!</speak>
+            <show chara="shakesLaughClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">...?</speak>
+            <show chara="ironWhiteClose" position="left" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">你所言果然不虚啊，我亲爱的大副“先生”！</speak>
+            <show chara="shakesLaughClose" position="right"/>
+            <speak chara="_Shakespeare">Ahahahaha!</speak>
+            <show chara="shakesLaughClose" position="right" opacity="0.8"/>
+            <show chara="ironRedClose" position="left"/>
+            <speak chara="_Ironface">……剧团长，您失态了。</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">喂！</speak>
+            <speak chara="_Bianka">你倒底在故弄玄虚些什么啊，红色的矮子？！</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="shakesDisgustedClose" position="right"/>
+            <speak chara="_Shakespeare">啧。骂人可不好哦，小妹妹。</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">……让我这么说吧。</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">起初，我完全不知道你所说的“天命”是个怎样的存在。</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">……什么？</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="shakesColdClose" position="right"/>
+            <speak chara="_Shakespeare">——但是这位“铁面人”告诉过我。</speak>
+            <speak chara="_Shakespeare">她说，在某些异世界里，有一种名为“崩坏”的能量异常充盈。</speak>
+            <show chara="shakesQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">嗯……差不多就是魔法世界的感觉吧。</speak>
+            <show chara="shakesColdClose" position="right"/>
+            <speak chara="_Shakespeare">特别地，受“崩坏”的影响，有一个世界魔物泛滥，承受了极其深重的苦难——</speak>
+            <speak chara="_Shakespeare">——而面对这些苦难，首先挺身而出的，是一个名叫“天命”的组织。</speak>
+            <speak chara="_Shakespeare">“天命”在那个世界中无人不知、无人不晓。</speak>
+            <speak chara="_Shakespeare">它从少女中遴选出能够对抗魔物的超级战士，称之为“女武神”。</speak>
+            <speak chara="_Shakespeare">这些“女武神”能够抵抗“崩坏”的侵蚀，并反过来利用它为人类而战。</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">——Self-proclaimed 「Valkyries」, are those things really true in your world?</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">.....</speak>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">You phrased it in a strange way, but...</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">Yes... That's the truth.</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">Then listen, you two—— The advice I'm about to give you will be useful to you in the future, so make sure to pay attention.</speak>
+            <show chara="shakesConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">...「Advice」?</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">Yes. A very simple advice but of the upmost importance.</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">Listen—— If you plan to survive in this world, make sure to not waste your ammunition.</speak>
+            <show chara="shakesConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="shakesColdClose" position="right"/>
+            <speak chara="_Shakespeare">I don't mean you won't be able to refill your energy anymore, but rather the recovery process will be 100 times slower than what you're used to.</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">Similar to how the 「Caledonia」 can only carry six torpedoes even after its renovation.</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">...Or perhaps did the training you've undergone since a young age made it so you can't do anything without 「Houkai」?</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">I'd appreciate if you didn't underestimate me!</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">If you go that far... would you like to spar with me? I promise I won't use Houkai energy!</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="right"/>
+            <speak chara="_Shakespeare">Hahahaha!</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">What will you do? Show off your melee fighting skills?</speak>
+            <show chara="shakesDisgustedClose" position="right"/>
+            <speak chara="_Shakespeare">I got an idea. Chief officer, do you feel like being this young lady's opponent?</speak>
+            <show chara="shakesDisgustedClose" position="right" opacity="0.8"/>
+            <show chara="ironWhiteClose" position="left"/>
+            <speak chara="_Ironface">...No thanks.</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">Are you hated by your crew?</speak>
+            <show chara="ironBlueClose" position="left"/>
+            <speak chara="_Ironface">——But if the captain were to pay me for it... I will.</speak>
+            <show chara="ironBlueClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">Huh. Were you a money loving mercenary all along?</speak>
+            <show chara="shakesLaughClose" position="right"/>
+            <speak chara="_Shakespeare">Ahahahaha!</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">Very well, I won't be able to call myself a good captain if I don't pay my troupe's salary!</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">.....</speak>
+            <speak chara="_Rita">In that case, I have one request.</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="back"/>
+            <speak chara="_Bianka">?</speak>
+            <show chara="biankaSeriousClose" position="back" opacity="0.8"/>
+            <show chara="rita17NaughtyClose" position="left"/>
+            <speak chara="_Rita">If Shakespeare-san is sending her adjutant to fight——</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">——Then I will be her opponent in behalf of Bianka-sama.</speak>
+            <show chara="rita17NaughtyClose" position="left"/>
+            <speak chara="_Rita">Does that sound good to you?</speak>
+            <show chara="rita17NaughtyClose" position="left" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="right"/>
+            <speak chara="_Shakespeare">Hahaha! Interesting!</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">...Then, let's do the following.</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">Bianka-san and me, Rita-san and 「Iron Mask」——</speak>
+            <speak chara="_Shakespeare">——Each one will fight its respective opponent. Any objections?</speak>
+            <goto goto="120" clockwise="1"/>
+        </scene>
+        <scene id="120" background="beachIslandNoName.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">Haa...Haa...!</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">So strong...</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">That was an excellent fight.</speak>
+            <show chara="shakesColdClose" position="right"/>
+            <speak chara="_Shakespeare">Lasting that long despite fighting using weapons and techniques you're not familiar with is worthy of respect.</speak>
+            <show chara="ironBlueClose" position="right"/>
+            <speak chara="_Ironface">...If you keep up your training, I'm sure your martial arts skills will surpass ours.</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">Now that we released stress by exercising——</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">——The real information exchange can start.</speak>
+            <show chara="shakesConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">...?</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="shakesColdClose" position="right"/>
+            <speak chara="_Shakespeare">"What's the goal of your exploration?"</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">In exchange, I will tell you the reason why the 「Caledonia」 sailed.</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="shakesDisgustedClose" position="right"/>
+            <speak chara="_Shakespeare">"No comment"?</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">Say nothing and you will lose the opportunity to become a passenger on the 「Caledonia」.</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">Ugh...</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">If there is something you don't want me to know——</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">Wait, old man!</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">...!</speak>
+            <show chara="cervantesNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">You can stay.</speak>
+            <speak chara="_Bianka">To us you're our comrade... so please don't think of yourself as an outsider.</speak>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">Let's get back on topic——</speak>
+            <speak chara="_Bianka">Rita, explain it to them.</speak>
+            <show chara="biankaConfidentClose" position="left"/>
+            <speak chara="_Bianka">Tell them why we've come here.</speak>
+            <show chara="biankaConfidentClose" position="left" opacity="0.8"/>
+            <show chara="rita17SmileClose" position="right"/>
+            <speak chara="_Rita">...Understood, Bianka-sama.</speak>
+            <show chara="rita17SquintClose" position="right"/>
+            <bgm src="11_16_themeOtto.mp3" status="start"></bgm>
+            <speak chara="_Rita">First—— Do you know what the 「Quantum Sea」 is?</speak>
+            <goto goto="130" clockwise="1"/>
+        </scene>
+        <scene id="130" background="11_15_gallery.jpg">
+            <!-- 
+                Rita repeats to them what the Bishop told them during a briefing. 
+                Their mission is to explore a special structure called "Ether Anchor Point" located within a dimension in the Quantum Sea. 
+                The Quantum Sea doesn't belong to any four dimensional space in particular, instead it's a bunch of "folded worlds" that exist in parallel. 
+                The Ether Anchor is a strange topological formation between the "dimensional manifolds", it could be a natural structure or a machine, there's not enough evidence to say for sure. 
+            -->
+            <bgm src="11_16_themeOtto.mp3" status="continue"></bgm>
+            <show chara="ottoSuitsKindFar" position="back"/>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <speak chara="_Otto">简而言之，你们的任务，是追踪名为“量子之海”的异次元位面，探索一种叫做“以太锚点”的特殊结构。</speak>
+            <speak chara="_Otto">从数学上概括的话，“量子之海”不属于已知的四维时空，是平行于我们而存在的一大类“折叠位面”；</speak>
+            <speak chara="_Otto" remark="next">而“以太锚点”，则是一种“位面流形”之间的拓扑变换，其实体可能是某种自然结构、甚或人造机械。</speak>
+            <remark post="U2FsdGVkX18NMIcI27DMkplacYO6">
+                <p class="article-text-h">Note：</p>
+                <p class="article-text">流形（Manifolds）是局部具有欧几里得性质的空间，是欧几里得空间中的曲线、曲面等概念的推广。一般的流形可以通过把许多平直的“片”“折弯”并“粘连”而成。</p>
+                <p class="article-text">黎曼（Bernhard Riemann）是第一个广泛地展开“真正需要把流形推广到高维的工作”的数学家。事实上，"Manifolds"这个名词就来自于黎曼的德文术语"Mannigfaltigkeit"（中文里“流形”的称谓，则来自江泽涵先生的创意）。</p>
+            </remark>
+            <speak chara="_Otto">Unlike the 「classic dimension」 we live in, the 「Quantum Sea」 is 「fragmented」 on a large scale——</speak>
+            <speak chara="_Otto">Basic physical laws change continuously as the coordinates shift, resulting in the worlds being unstable like soap bubbles——</speak>
+            <speak chara="_Otto">——However, in the gap between said fragmented worlds, there are countless 「stable zones」 fixated by the 「Ether Anchor Point」.</speak>
+            <speak chara="_Otto">Those worlds, like ours, follow a fixed set of laws.</speak>
+            <speak chara="_Otto">This is my conclusion. Listen well, this is very important.</speak>
+            <speak chara="_Otto">The 「projection」 of the Solar System in the 「Quantum Sea」 is very close to the 「coordinates」 of an 「Ether Anchor Point」.</speak>
+            <speak chara="_Otto">Which means, if someone were to get inside that 「projection」 in the 「Quantum Sea」...</speak>
+            <speak chara="_Otto">...One could possibly observe a 「clone of our Earth」.</speak>
+            <speak chara="_Otto">——There is value in exploring something like that.</speak>
+            <speak chara="_Otto">Luckily for us, by using materials left by the previous civilization we were able to create several experimental devices which allow us to move back and forth between the 「Quantum Sea」 and our world——</speak>
+            <speak chara="_Otto">——The name of that device is 「Gnius」.</speak>
+            <speak chara="_Otto">In theory, by using the 「Gnius」 a person is able to return from the 「projected worlds」 at any moment——</speak>
+            <speak chara="_Otto">But if one were to start from this side, our 「reality」, it can only be used when an extremely rare 「space-time window」 appears due to technical difficulties.</speak>
+            <speak chara="_Otto">The next time the 「window」 will appear is on February 29th between 11:15 and 12:15, near the Fjord 1054 in the Northeast Greenland National Park. It will remain open for approximately 100 seconds.</speak>
+            <speak chara="_Otto">This event is rarer than the transit of Venus—— It could be centuries until the next 「windows」 appears.</speak>
+            <speak chara="_Otto">——What do you think? Doesn't it make you excited?</speak>
+            <goto goto="140" clockwise="1"/>
+        </scene>
+        <scene id="140" background="beachIslandNoName.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_Rita">...That's the simpler version of it.</speak>
+            <show chara="rita17SmileClose" position="right"/>
+            <speak chara="_Rita">Our objective is to explore the 「Ether Anchor Point」—— Do any of you know anything about it?</speak>
+            <show chara="rita17SmileClose" position="right" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="left"/>
+            <speak chara="_Miguel">Not a clue... I didn't understand half the words you said, ahahaha.</speak>
+            <show chara="cervantesLaughClose" position="left" opacity="0.8"/>
+            <show chara="shakesQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">...Doesn't sound much different from what you told me, Iron Mask. Multiverse or whatever.</speak>
+            <show chara="shakesQuestionClose" position="right" opacity="0.8"/>
+            <show chara="ironWhiteClose" position="left"/>
+            <speak chara="_Ironface">...Perhaps.</speak>
+            <show chara="ironBlueClose" position="left"/>
+            <speak chara="_Ironface">That 「Bishop」 knows his stuff.</speak>
+            <show chara="ironWhiteClose" position="left"/>
+            <speak chara="_Ironface">Then... I'll take over to explain the situation from inside the 「Quantum Sea」.</speak>
+            <end post="U2FsdGVkX19isr5qAfmCyerhHwtc"/>
+        </scene>
+    </story>
+</data>

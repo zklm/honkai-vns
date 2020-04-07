@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="deepWater.jpg">
+            <bgm src="12_14_moonLight.mp3" status="start"></bgm>
+            <text>你好像做了一个梦。梦到自己还住在俄罗斯的疗养院里。</text>
+            <text>疗养院所在的城市名叫索契。三面环山、一面朝海，是个四季如春的地方。</text>
+            <text>你惬意地穿梭在街区里狭窄的柏油小巷之间，新鲜的空气带走了肺叶中所有的阴霾。</text>
+            <text>时值六月，风化斑驳的路沿石边，野生的刺蓟三三两两地从杂草中冒出脑袋。</text>
+            <text>她们是紫红色的、带着刺的、高傲又倔强的花朵，在最贫瘠的土地上也能够无拘无束地生长。</text>
+            <text>就像所有贫穷却又勤劳的人类一样。</text>
+            <text>蜜蜂忙碌地在花头之间飞来飞去。你的确闻到了母亲的味道。</text>
+            <text>不知何时。不知何地。也许只是某种古怪的幻觉。</text>
+            <text>但至少在这个梦里，你确信着，那些如今早已无关痛痒、却又令人怅然若失的东西，就作为时间胶囊，沉睡在这片大地上。</text>
+            <text>穿过温泉带来的薄雾，你站在碧蓝而又深邃的黑海岸边。</text>
+            <text remark="next">从阿尔戈号的船员，到双目失明后的奥斯特洛夫斯基：无数知名或不知名的英雄，在这里聆听过海浪的声音。</text>
+            <remark post="U2FsdGVkX18Hb7L85UTiSUAt87Ml">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">尼古拉·阿列克谢耶维奇·奥斯特洛夫斯基（Николай Алексеевич Островский, 1904 - 1936）是一位传奇式的苏联作家。他15岁参军入伍，16岁时在战斗中头部负伤、右眼失明，23岁时全身瘫痪、双目失明；然而，就是在这种状况下，他坚持口述（由妻子整理）并在29岁时完成了一部讲述信念、毅力、自我认同的自传体小说——《钢铁是怎样炼成的》。</p>
+            </remark>
+            <text>海燕自由地在天地之间嬉戏玩耍。你的确闻到了母亲的味道。</text>
+            <text>不知何时。不知何地。也许只是某种古怪的幻觉。</text>
+            <goto goto="20" change="#000000"/>
+        </scene>
+        <scene id="20" background="submarineCabinBlurDeep.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">哟，早上好。</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">在这个与自然隔绝的船舱里，想保持早睡早起其实还蛮困难的。</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">嘛，对于闹钟响了十遍才爬起来的船长来说，大概的确是这样吧？</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">当然，任何一个合格的女武神，都不可能会因为作息上的不良习惯而让同伴产生困扰！</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">但是，我从丽塔小姐那里听来的，可似乎有点不一样啊？</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">…………</speak>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">……喂。她、她都说什么了？</speak>
+            <show chara="biancaShyClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">她也没说什么啊？只不过是——</speak>
+            <show chara="shakesBagaLeftClose" position="left"/>
+            <speak chara="_Shakespeare">“睡着睡着脑袋被枕头埋起来了”啊——</speak>
+            <show chara="shakesBagaRightClose" position="left"/>
+            <speak chara="_Shakespeare">“一夜里被子会被踢下床五次”啊——</speak>
+            <show chara="shakesBagaLeftClose" position="left"/>
+            <speak chara="_Shakespeare">“终于不乱滚了，早上醒来却发现口水把床单都湿透了”啊——</speak>
+            <show chara="shakesBagaLeftClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">停！停！停！</speak>
+            <show chara="biankaChayaoClose" position="right"/>
+            <speak chara="_Bianka">为什么她会给你讲——不对，为什么她会给你胡扯这种不存在的事情啊！</speak>
+            <show chara="biankaChayaoClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈！这个，你难道不应该去问她本人吗？</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">唔唔唔唔唔唔唔……</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">比安卡大人、莎士比亚船长，打搅了。</speak>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">这是今天的早餐：主食是鲸脂炸面包片，配菜是培根煎蛋、腌芦笋煎虾仁、苹果沙拉，汤品是奶油蘑菇浓汤——</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">——请慢用。</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">（可恶，完美地无视了刚才的话题！可是……）</speak>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">……闻起来好香！</speak>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">（咀嚼咀嚼）</speak>
+            <show chara="biankaChayaoClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">这、这个油炸面包超好吃啊？！！</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">丽塔，你怎么这么能干的？</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">能得到比安卡大人的称赞，是我的荣幸。</speak>
+            <show chara="rita17SmileClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">……不、不要以为这样贿赂我，我、我就原谅你了啊？</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">随、随便和别人讲队长的私生活那是不好的！知道了吗，副官？！</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">噗，丽塔会铭记在心的。</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">……明明看起来根本就不打算记住吧？！</speak>
+            <goto goto="30" clockwise="1"/>
+        </scene>
+        <scene id="30" background="submarineCabinBlurSunset.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <text>不知是哪个国度的男人之间流传着这样一种古老的说法——</text>
+            <text>“如果你要抓住一个姑娘的心，那就首先要抓住她的胃。”</text>
+            <text>在早餐吃得直打饱嗝的时候，你的脑海里不偏不倚地浮现出了这句毫无逻辑的谚语。</text>
+            <show chara="shakesConfidentClose" position="center"/>
+            <speak chara="_Shakespeare">嗯，看来大家都吃好早餐了。“喀里多尼亚号”也上浮完毕，即将靠港。</speak>
+            <show chara="shakesSmileClose" position="center"/>
+            <speak chara="_Shakespeare">今日天公作美，所以我希望各位能够接受一个“鲁莽”的临时决定——</speak>
+            <show chara="shakesLaughClose" position="center"/>
+            <speak chara="_Shakespeare">——所有人、24小时、好好放一天假！！</speak>
+            <hide position="center"></hide>
+            <show chara="pirateGirlClose" position="left"/>
+            <speak chara="_pirateFollower">哇哦！！！</speak>
+            <show chara="pirateGirlClose" position="left" opacity="0.8"/>
+            <show chara="pirateBoyClose" position="right"/>
+            <speak chara="_pirateFollower">太棒啦！！！</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="shakesSmileClose" position="center"/>
+            <speak chara="_Shakespeare">“搭便车”想到亚历山德里亚定居的人们，就由本船长亲自来为他们协调手续；</speak>
+            <show chara="shakesLaughClose" position="center"/>
+            <speak chara="_Shakespeare">在座的各位，就请尽情地在这座不夜之城里——吃喝玩乐吧！只要不去赌博，费用我都报销！</speak>
+            <hide position="center"></hide>
+            <show chara="pirateGirlClose" position="left"/>
+            <speak chara="_pirateFollower">船长万岁！！！</speak>
+            <show chara="pirateGirlClose" position="left" opacity="0.8"/>
+            <show chara="pirateBoyClose" position="right"/>
+            <speak chara="_pirateFollower">假期万岁！！！</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="shakesConfidentClose" position="center"/>
+            <speak chara="_Shakespeare">咳咳。跟随我走南闯北的各位，当然对“老家”已经很熟悉了；不过，现在我们也有好几位新近才上船的朋友。</speak>
+            <show chara="shakesSmileClose" position="center"/>
+            <speak chara="_Shakespeare">所以，作为船长，在临近靠港的此时此刻，我要下达一整天里也许是最重要的一个命令——</speak>
+            <show chara="shakesLaughClose" position="center"/>
+            <speak chara="_Shakespeare">新老船员们，你们要通过抽签结对，一起活动！不许抱团聚众，要诚实地两人一组哦！就像约会一样！</speak>
+            <hide position="center"></hide>
+            <show chara="lallaSmileClose" position="right"/>
+            <speak chara="_Lalla">噗。</speak>
+            <show chara="lallaSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">唉？</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="wattScaredClose" position="right"/>
+            <speak chara="_Watt">呃……</speak>
+            <show chara="wattScaredClose" position="right" opacity="0.8"/>
+            <show chara="ironWhiteClose" position="left"/>
+            <speak chara="_Ironface">……</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="shakesSweatyClose" position="center"/>
+            <speak chara="_Shakespeare">好啦好啦，抽签的道具我都准备好了哦？</speak>
+            <show chara="shakesSmileClose" position="center"/>
+            <speak chara="_Shakespeare">各位究竟是想自己选择命运——还是由本船长代为决定呢？</speak>
+            <show chara="shakesBagaLeftClose" position="center"/>
+            <speak chara="_Shakespeare">后者的话，不保证不作弊哦！</speak>
+            <hide position="center"></hide>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">啧……所谓“剧团长”，都是这样不停给自己加戏的么？</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">哈哈哈哈，这不也挺好嘛。</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">既然你们都不好意思，那就让爷爷我来第一个“抓阄”吧！</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">（搅动搅动）</speak>
+            <show chara="cervantesShoutClose" position="right"/>
+            <speak chara="_Miguel">好，就这个啦！嘿！！</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">哦哦哦！"S"! 这个难道是指您本人吗，船长小姐？</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈，是的是的！只不过，这下老爷爷你就得先陪我安顿好你的同胞啦，嘿嘿。</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">这个没问题！他们这几年都很照顾我，我也应该负责到底才对。</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">好……那么下一个谁来？</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="manfredSmileClose" position="left"/>
+            <speak chara="_Manfred">……昨天承蒙大家费心了。</speak>
+            <show chara="manfredColdClose" position="left"/>
+            <speak chara="_Manfred">（搅动搅动）</speak>
+            <show chara="manfredQuestionClose" position="left"/>
+            <speak chara="_Manfred">"I"...？</speak>
+            <show chara="manfredQuestionClose" position="left" opacity="0.8"/>
+            <show chara="ironWhiteClose" position="right"/>
+            <speak chara="_Ironface">……看来我们是一组了。</speak>
+            <show chara="ironBlueClose" position="right"/>
+            <speak chara="_Ironface">虽然我对军人谈不上有什么好感——不过既然我们使用同一母语，那给你当当导游还是没有问题的。</speak>
+            <show chara="ironBlueClose" position="right" opacity="0.8"/>
+            <show chara="manfredSmileClose" position="left"/>
+            <speak chara="_Manfred">……承蒙关照。</speak>
+            <show chara="manfredSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">（搅动搅动）</speak>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">"W".</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">啊哈哈……这个看来是我呢。</speak>
+            <show chara="wattInspiredClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">……呼。</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">好吧。你这家伙，虽然看起来就不省心，倒也不可能真的制造出什么麻烦事。</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">那就请多指教喽？</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_Watt">呃……谢谢？虽、虽然我不太确定那是不是真的在夸奖我……</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="right"/>
+            <speak chara="_Shakespeare">唉……技师小哥，你这脾气也真是太好了。</speak>
+            <show chara="shakesSweatyClose" position="right" opacity="0.8"/>
+            <show chara="lallaSmileClose" position="left"/>
+            <speak chara="_Lalla">……看来，剩下的就是我和丽塔小姐了吧？</speak>
+            <show chara="lallaSmileClose" position="left" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_Rita">的确是呢。有什么本地特产可以帮大家采购吗？</speak>
+            <show chara="lallaSighClose" position="left"/>
+            <speak chara="_Lalla">唔……“特产”啊……有点头疼呢。</speak>
+            <show chara="lallaSmileClose" position="left"/>
+            <speak chara="_Lalla">因为，可以挑选的范围，真的是很大很大哦？</speak>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="alexandriaHarbor.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">怎么样？对“世界第一大城市”的天际线，有什么感想吗？</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">哼。这与其说是“繁华”，不如说是“怀旧”吧？像是亚丁港，或者加尔各答？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">啊呀。都是些——无论在哪个世界里我都没有去过的地方呢。</speak>
+            <show chara="shakesSweatyClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">那让我想想啊……佛罗伦萨或者伊斯坦布尔呢？有概念了吗？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">……虽然仍旧是我完全没有去过的地方，不过我大致明白你的意思了。</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Shakespeare">啊——21世纪、信息时代，应该超级棒的吧？所有过往的文明，在那时都会沉淀成美丽的历史！</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">真是羡慕你们呐！什么时候能带我去玩玩么？</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">呃……这个好像有点……</speak>
+            <show chara="biancaShyClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈别当真啊！就让我一个古代人认真羡慕羡慕你们嘛！</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">好啦——不管怎么说，今天可是你们难得的纯假期哦？</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">解散解散！就地解散！哈哈哈哈！</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <text>喀里多尼亚号的船长仰天大笑数声，推着自己的一干乘客与部下就往摆渡小艇里塞。</text>
+            <speak chara="_Shakespeare">各组一定要两两分开行动哦？不接受“强制约会”，那就准备接受船长的“定制惩罚”吧！哈哈哈哈！</speak>
+            <goto goto="60" clockwise="1"/>
+        </scene>
+        <scene id="60" background="alexandriaLighthouse.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">好了，算是上岸了。这座城市的管理还真是随便啊，连个摆摆样子的海关都没有。</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">唔……那、那个……关于这座城市的管理方式——</speak>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">——啊，已经来了。</speak>
+            <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">什么来了？你能不能把话说清——</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="mailboxFar" position="left"/>
+            <speak chara="_mechineRed">詹姆斯·瓦特先生，以及不知名的小姐——欢迎光临亚历山德里亚。</speak>
+            <show chara="mailboxFar" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="mailboxClose" position="left"/>
+            <speak chara="_mechineRed">不知名的小姐，本机是这座城市的警察。由于您是初次来到本市，本机需要您录入一些基本信息。</speak>
+            <show chara="mailboxClose" position="left" opacity="0.8"/>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">哈。所以这就是你想说的“管理方式”喽，吉米？</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">是、是的！很厉害吧！！</speak>
+            <show chara="mailboxClose" position="left"/>
+            <speak chara="_policeRed">请您录入基本信息。</speak>
+            <show chara="mailboxClose" position="left" opacity="0.8"/>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">姓名：比安卡·阿塔吉娜……</speak>
+            <speak chara="_Bianka">性别：女……</speak>
+            <speak chara="_Bianka">年龄：12……</speak>
+            <speak chara="_Bianka">生日：1月1日……虽然我不知道你们这里的历法是怎么算的……</speak>
+            <speak chara="_Bianka">总之，最后采集一下指纹——这样就可以了吧？</speak>
+            <show chara="biankaConfidentClose" position="right" opacity="0.8"/>
+            <show chara="mailboxClose" position="left"/>
+            <speak chara="_policeRed">是的。感谢您的合作。祝您旅行愉快！</speak>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">虽、虽说一年三百六十五天……我、我还是第一次见到生日正好是元旦的人呢……</speak>
+            <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">啧。偷看别人的隐私是可不是什么绅士行为啊，小弟弟！</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_Watt">啊啊啊啊啊抱歉！我、我不是故意的……</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">呃……</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">好啦好啦，这又不是多么大不了的事。瞧你这心慌意乱的。</speak>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">再说，那也不是什么真正的生日……只是疗养院的医生随手帮我填的而已。</speak>
+            <show chara="biankaConfidentClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_Watt">随、随手填的？生、生日？</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">嗯。反正也不知道究竟是什么日子出生的，还不如就拿新年来用比较方便。你说是吧？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">……好、好像还挺有道理。</speak>
+            <show chara="wattSighClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">所以呢？接下来我们做什么？去哪里？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">唔……嗯……</speak>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">啊，对了！</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">那、那个，要不要雇一个导游机器人？反正可以报销嘛。</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">等等。不只是警察，连导游也是由机器人来做的吗？</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">是、是啊。所以才说这是一座很厉害的城市嘛。</speak>
+            <show chara="wattInspiredClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">唔……我倒是有点担心这些机器人究竟是对谁负责的……万一……</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="wattSmileClose" position="left"/>
+            <speak chara="_Watt">是一个叫做“城市管理协会”的机关——因为办公场所的缘故，也被称为“市政厅”——他们利用机器人来维持治安、征收税款。</speak>
+            <show chara="wattSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">……那这个机关的成员又是何方神圣？</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">是从市民中直接选举出的，每年都要更换一次。</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">其实，因为机器系统本身能够自我维护，所以几乎任何人都能胜任机关的工作——真正需要干的事，大致上就和英国法庭里的“陪审团”差不多。</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">唔……这、这样啊……意外地很先进呢。</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">说起来，你只要讲的句子一长，人就反而不结巴了啊？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">是、是这样吗？</speak>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">我、我自己不是很清楚……</speak>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">啊，你看！那、那个就是导游机器人了！</speak>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="alexandriaStreetCenter.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <show chara="beaconFar" position="center"/>
+            <speak chara="_guideLighthouse">欢迎各位来到亚历山德里亚。</speak>
+            <show chara="beaconFar" position="center"/>
+            <speak chara="_guideLighthouse">本机可以免费为各位提供基本的市政指南；如果需要陪同导览，请投入三枚德拉克马，并校验自己的身份信息。</speak>
+            <hide position="center"></hide>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">德拉克马？那是什么？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">就、就是钱啦。这、这里发行的货币叫做“德拉克马”。是希腊语。</speak>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">虽然外观上不怎么花哨，但是1德拉克马实际上相当于10格令的黄金——货币含金量还是挺高的。</speak>
+            <show chara="wattInspiredClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">啧。“10格令”又是多少？</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_ThalesNoName">“格令”，是平均意义上“一粒小麦”的重量。黄金很贵重，所以人们需要使用这种精细的单位：正所谓“锱铢必较”。</speak>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_ThalesNoName">而说到锱铢必较……现在，你们就正好有一个省钱的机会！</speak>
+            <show chara="thalesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">……什么意思？不，说到底，您是哪位？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_ThalesNoName">我？我可以为你们提供更好的城市导览——全都是这些机器们不会讲的东西，而且只收两枚德拉克马！</speak>
+            <show chara="thalesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">……就是说，你也是“导游”吗？</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_ThalesNoName">导游？不不不，我可不会去长久从事那种重复性劳动。</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_ThalesNoName">之所以我的讲解和机器人的讲解存在本质上的不同，那是因为我的思维方式和机器人的思维方式存在着本质上的差别。</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_ThalesNoName">换言之，我是哲学家，而它们不是。</speak>
+            <show chara="thalesStoneClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">呃……你究竟在说什么？</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_ThalesNoName">好吧，看来我们之间的预设前提存在着很大的不一致——</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_ThalesNoName">也就是说，我需要让你们更了解我，这样才能体现自己的物美价廉！</speak>
+            <show chara="thalesProudClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">不管怎么说……我都不知道该怎么称呼的这位小姐——您能不要再用刚才这种难以理解的口气说话了吗？！</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_ThalesNoName">没问题呀！虽然其实是不可能的！</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_ThalesNoName">大家好，我的名字是泰勒斯·侯·米利都斯，职业是大图书馆形而上学研究所统率三军的所长——也就是如假包换、真真正正的“哲学家”。</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">来，这是名片，请收好。</speak>
+            <show chara="thalesSmileClose" position="left" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="right"/>
+            <speak chara="_Watt">……哇！真的是那个“大图书馆”的员工啊！好厉害！</speak>
+            <show chara="wattSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka" remark="next">……大图书馆？那不是历史上被烧过好几次——</speak>
+            <remark post="U2FsdGVkX19gYEf0Fz9CByG4C5ci">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">大图书馆在历史上曾遭受过两次灾难性的焚毁：于公元前47年凯撒征服埃及时、以及公元3世纪末叶的内战时期。根据爱德华·吉本 (Edward Gibbon) 的说法，公元391年，大图书馆位于塞拉比斯神庙的分馆也毁于基督徒之手，导致其藏书和建筑最终无一幸存。</p>
+            </remark>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="wattSchemingClose" position="right"/>
+            <speak chara="_Watt">不，完全不一样！这里的“大图书馆”，可是全世界最厉害的研究机构！据说传承了两千年之久呢！</speak>
+            <show chara="wattJihuatongClose" position="right"/>
+            <speak chara="_Watt">而且，这座城市里各种各样的机器人，也都是“大图书馆”设计制造的哦！</speak>
+            <show chara="wattJihuatongClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">哎呀哎呀，现在的谣言都传成什么样子了。</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">“大图书馆”的研究部门其实只有两百年不到的历史——没有那么值得羡慕的啦，小弟弟。</speak>
+            <show chara="thalesSmileClose" position="left" opacity="0.8"/>
+            <show chara="wattScaredClose" position="right"/>
+            <speak chara="_Watt">就、就算是这样，能、能在大图书馆专门研究“形而上学”，您、您还是很厉害呀！</speak>
+            <show chara="wattScaredClose" position="right" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="left"/>
+            <speak chara="_Bianka">……所以，到底什么是“形而上学”啊？竟然能让你崇拜到这种地步。</speak>
+            <show chara="biankaHesitateClose" position="left" opacity="0.8"/>
+            <show chara="wattSmileClose" position="right"/>
+            <speak chara="_Watt">唔……如果说我钻研的工程技术是“处理有限材料”的学问……</speak>
+            <show chara="wattInspiredClose" position="right"/>
+            <speak chara="_Watt">……那么“形而上学”就是“探讨无限对象”的学问！可以说是哲学中的哲学！</speak>
+            <show chara="wattInspiredClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">……根本听不懂你在说什么。</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">他是说，一般的学问研究的是现实世界的事物和行为；而“形而上学”研究的是抽象的概念与它们之间的关系。</speak>
+            <speak chara="_Thales">由于现实终归是有限的，而抽象从潜在范围来讲是无限的，所以才有了他刚才的那种比喻。</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">顺带一说，我并不认可“形而上学”是什么“哲学中的哲学”。</speak>
+            <speak chara="_Thales">这只是学科发展度太低的前人形成的偏见罢了：是他们让哲学中混入了过多原本不属于哲学的东西。</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">“哲学是形而上学中无法用形式逻辑直接讨论的部分”——我的观点是这样的。</speak>
+            <speak chara="_Thales">在包含关系上，恰好与他刚才的说法完全相反。</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">科学的发展越为深远，“哲学”的“阵地”就收缩得越小。这是科学自身的发展规律，也是人类的进步。</speak>
+            <show chara="thalesStoneClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">你这堆“解释”还不如不解释！弄得我更加云里雾里了！</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">不过，我之前就很在意了——你那个“统率三军的所长”是什么意思？作为“哲学家”却身兼军职吗？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">啊，那个呀。其实就是个玩笑啦。</speak>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">因为“形而上学研究所”的正式雇员，加上我也只有三个人：所以是“统率三军”。</speak>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">——属于“一旦解释了就感觉超逊”的属性！嘿嘿嘿嘿！</speak>
+            <show chara="thalesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">不过，“只有三个人”——这还真是悲惨呐。所以才要靠当导游来赚外快吗？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">……</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">小弟弟，你看起来对这座城市比她熟悉——</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">——告诉她，100德拉克马能买多少东西。</speak>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">唔……一、一百德拉克马的话……</speak>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">……大、大概能买一整桶的发动机润滑油！需要两个精壮的水手才能一起抬着走呢！</speak>
+            <show chara="wattInspiredClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">这、这算是什么比喻啊……</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">唔、嗯……那、那用食物价格换算一下的话……</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">……大、大约是半头公牛吧？或者，一整头猪？</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">（这大概是……2000欧元？或者再少一些？）</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">呵，那也的确算是一点点“财产”了。怎么，你想说你的周薪就有“100德拉克马”吗？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">周薪？</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">半天我就能领100德拉克马了啊。</speak>
+            <show chara="thalesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">半天100德拉克马，所以一天200德拉克马，差不多4000欧元……</speak>
+            <speak chara="_Bianka">那一个月就是12万欧元……所以一年就是……</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">144万欧元？？这、这不是比A级女武神的工资还高了吗？！</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">A、A级女武神？“女武神”原来也分级别的吗？</speak>
+            <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">呃……对不起，失态了。级别什么的不重要。</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">咳咳。总而言之，泰勒斯小姐，你主张自己并不是为了赚钱才和我们搭讪，是吗？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">当然！你们看起来非常有趣，所以我想和你们聊聊天，讲讲这座城市的故事！</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">怎么样？和“哲学家”一起漫步街头的机会，可不是每天都有哦？</speak>
+            <show chara="thalesProudClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">不错可能是不错啦——</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">——不过既然你那么有钱，不如干脆给我们免费吧？</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">……</speak>
+            <show chara="thalesLaughClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Thales">哈哈哈哈！你这家伙，好像比我想象的还有意思啊！</speak>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="CG5-1.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <speak chara="_guideLighthouse">指纹已确认。</speak>
+            <speak chara="_guideLighthouse">大图书馆特等研究员泰勒斯小姐，欢迎您使用“灯塔”导游系统。</speak>
+            <speak chara="_Thales">调皮的小家伙们——</speak>
+            <speak chara="_Thales">——你们的都市参观之旅，就由我来尽地主之谊吧？</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="alexandriaStreetCenter.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">唉？帮我们……付了机器人的陪同费用？</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales" remark="next">“思维作为理智必定会陷于矛盾，必定会导致它自己否定自身。”</speak>
+            <remark post="U2FsdGVkX1+1SGRcprmKJPs15qgC">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">出自黑格尔 (G. W. F. Hegel) 《哲学全书》的《逻辑学》分册。因作者早年还出版过同名的另一本书，故此册俗称《小逻辑》。</p>
+            </remark>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">当我们在一件事情上骑虎难下的时候，就应该逆转思维，重新考虑一下当事各方真正的需求究竟是什么。</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">具体到刚才这件事——你们需要导游，但潜意识里不想被骗；我想要和你们交谈，但你们对我并不熟悉。</speak>
+            <speak chara="_Thales">既然整件事和你们雇佣不雇佣我并没有必然的关系，那么我就应该主动跳出这个矛盾。</speak>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">也就是说，我应该逆转“收取费用”的想法，转而采取“付出金钱”的策略。这样一来，我们彼此的目标就都能实现啦！</speak>
+            <show chara="thalesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">……只要你能一直帮我们掏钱，那我们就是最好的朋友。</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">噗，没想到你这个看起来就很“耿直”的家伙，偶尔还是有幽默细胞的啊。</speak>
+            <show chara="thalesEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">……喂！你刚刚是不是说了什么很过分的话？</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">总而言之，“形而上学”的义务就是考察思维本身，考察它把握“真实”的能力和限度。这一点如果展开讲的话，你们得听我一学期的课——所以现在还是算啦。</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">（朝机器人输入指令）</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="beaconClose" position="center"/>
+            <speak chara="_guideLighthouse">收到指令。现在开始进行导览。</speak>
+            <show chara="beaconFar" position="center"/>
+            <speak chara="_guideLighthouse">我们现在所处的位置是港湾区的街心广场：对于身处旅行之中的各位而言，这里是一个挑选纪念品的好地方。</speak>
+            <speak chara="_guideLighthouse">港湾区不仅各式门店林立，而且是法定的免税场所：各位可以放心购买物美价廉的高端零售品。</speak>
+            <speak chara="_guideLighthouse">本日的推荐商品是：来自“尼罗河果园”的米粉戚风蛋糕、来自“尼科西亚回忆”的海胆罐头、以及来自“哥本哈根美人鱼”的玻璃工艺品！欢迎各位选购！</speak>
+            <hide position="center"></hide>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">这个……怎么听起来完全是推销员的口吻啊……</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">哎呀哎呀，毕竟是商业城市嘛。这一点还请见谅哦？</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">不过，如果说需要我补充什么——你们知道食物、服装、建筑物这三者之间，有什么审美模式上的区别吗？</speak>
+            <show chara="thalesProudClose" position="left" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="right"/>
+            <speak chara="_Watt">……不、不知道。</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">我说啊——我见过的“主教”也好，你这家伙也好——“哲学家”们是不是都喜欢在高谈阔论之前，先用“设问”来自我满足一番啊？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">噗，你果然是个想法不一般的孩子。很好很好！</speak>
+            <show chara="thalesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">谁、谁是孩子啦！我、我可是现役的女武神，明白吗？</speak>
+            <show chara="biankaChayaoClose" position="right"/>
+            <speak chara="_Bianka">再、再说，你自己看起来就像个成年人了吗？小不点所长？！</speak>
+            <show chara="biankaChayaoClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">啊、啊，明白啦明白啦——</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">——那么我们还是回到刚才的话题，来说明食物、服装、建筑物三者之间的差别吧。</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">咳咳。其实核心的东西很简单：我想强调的，是“保质期”。</speak>
+            <show chara="thalesSmileClose" position="left" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="right"/>
+            <speak chara="_Watt">……保、保质期？</speak>
+            <show chara="wattSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">是的。食物的保质期最差：它们既不耐储存，而且吃掉了也就没有了。</speak>
+            <speak chara="_Thales">服装的保质期居中：它们一般可以使用数年到十数年不等；如果是使用频度不高的礼服，甚至还有像婚纱那样能够在祖孙之间传承的。</speak>
+            <speak chara="_Thales">而建筑物的保质期当然最长：虽说它们造价高昂；可一旦建成，却往往能够使用数个世纪之久。</speak>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">换个角度来说，我可以三餐吃不同的食物，每天穿不一样的衣服，却只能无奈地“忍受”自己居住的建筑物外观不够时髦。</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">不像美食和时装有纷繁多变的流行，在相对较短的时间内就能够呈现出循环往复、螺旋进化的宏观图景；</speak>
+            <speak chara="_Thales">建筑物只会在历史的长河中缓慢映照出审美的变迁，任何“革命性”的“颠覆”都是以彻底摧毁之前的历史为代价的。</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">一旦知晓了这一点：任何珍惜历史的人，都只好想方设法，通过内部功能的推陈出新，来保全历史建筑在外观和结构上的独特价值。</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">比如这个街心广场——在两百年前，这里可不是什么“免税区”，而是“奴隶市场”。</speak>
+            <show chara="thalesStoneClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……奴隶市场？！</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">嗯。公开买卖活人的场所。</speak>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_Thales">而且，你们也许并不清楚：这座城市，至今仍然在金钱债务的方面，保留着一种奴隶制度。</speak>
+            <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">……你说什么？</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="right"/>
+            <speak chara="_Watt">这、这是真的——任何人如果在亚历山德里亚破了产，都会成为在市政厅登记在册的“公共契约奴隶”。</speak>
+            <show chara="wattScaredClose" position="right" opacity="0.8"/>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">嘛，相当于保持着人身自由的囚犯啦——直到连本带利还清了市政厅为你的破产而额外支出的公共开支为止。</speak>
+            <speak chara="_Thales">——通过没收你在契约期间的工作收益也好，或者有人帮你代为偿还了也好。</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">如果一代人还不清的话，就两代人。两代人不行就三代人。总而言之，这是具有继承性的债务，而且7.5%的利息也不能算低。</speak>
+            <show chara="thalesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">……这也太野蛮了吧？</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">野蛮……吗。在你看来，也许情况确实是这样。</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">尽管这座城市事实上没有监狱、没有死刑，而只有“没收财产”和“隔离流放”。</speak>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_Thales">但不管怎么说，从这座城市的历史来看，奴隶制度有它的必然性——目前能够限制到只有“公共契约奴隶”一种，其实已经是巨大的进步了。</speak>
+            <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">……我听不懂。但是我能肯定，无论奴隶制、还是株连问责，都是不可接受的野蛮法律。</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">嗯，我相信任何来自更先进时代的人，都不会真正接受它的。</speak>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">不过今天你们的首要目的是观光吧？那不妨先把这些事情忘在脑后嘛！</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">——等到对整座城市有了系统性的认识，再做出你们自己的判断也不迟。</speak>
+            <goto goto="100" clockwise="1"/>
+        </scene>
+        <scene id="100" background="alexandriaCityHall.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <show chara="thalesSmileClose" position="right"/>
+            <speak chara="_Thales">这里就是我们刚才提到的“市政厅”了。来听听机器人是怎么介绍的吧？</speak>
+            <show chara="thalesSmileClose" position="right" opacity="0.8"/>
+            <show chara="beaconFar" position="left"/>
+            <speak chara="_guideLighthouse">亚历山德里亚的市政厅建立于165年之前的共和历元年，由革命者没收僭主的财产建成，随后兼用作立法机关“公决会议”、行政机关“城市管理协会”的办公场所。</speak>
+            <speak chara="_guideLighthouse">市政厅采用希腊风格的设计，其拱桥两侧分列有外部世界的伟人雕像，分别是亚里士多德、亚历山大大帝、梭伦、伯里克利、列奥尼达一世，以及斯巴达克斯、格拉古、凯撒、西塞罗、奥古斯都。</speak>
+            <speak chara="_guideLighthouse">如果您希望进一步了解他们中的某一位，请将雕像下的编号输入本机，本机可以提供详细的讲解说明。</speak>
+            <show chara="beaconFar" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">比起这些古代人，我倒想知道那个“公决会议”是怎么回事——名字好奇怪啊。</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">简单来说，就是组织全民公决，通过这种方式来修订或制定法律的机构。</speak>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">不过，我可以给你打个预防针：“奴隶”和“外地人”都是没有市民权的。他们不能参与任何投票。</speak>
+            <show chara="thalesEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">导游机提到的一百多年前被推翻的“僭主”，是当时控制着整个城市的海盗军阀集团。</speak>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_Thales">不过你们要明白，当时揭竿而起的人们，其实也一样是海盗。那是“海盗平民”和“海盗贵族”之间的斗争。</speak>
+            <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">这……</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">这座城市北临深水海湾，南靠绿洲湖泊，又有尼罗河的支流自东向西绕城而过——如此易守难攻，自然会有各种不法之徒试图将之据为已有。</speak>
+            <show chara="thalesProudClose" position="left" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="right"/>
+            <speak chara="_Watt">既、既然如此，她又是怎么发展成商业都市的呢？不应该是军事要塞吗？</speak>
+            <show chara="wattSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">呵呵，那当然是因为：这里本来就是地理要冲，非常适合作为商业驿站使用啊！商人可不害怕海盗——只要对方肯收保护费就行！</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">说到底，所谓“政府”也好、“国家”也罢，不也只是“一个阶级压迫另一个阶级的暴力机器”吗？</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">总体上，“野蛮社会”自发的“和平化”，属于社会的自我回归，是好事；但从移风易俗的角度来说，这种历史也使得城市文化包含了一些不健康的残余。</speak>
+            <show chara="thalesStoneClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">……是说“奴隶制度”吧。</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">当然。不过讽刺的是，由于这座城市的发展水平实在是太高了——即使身为“奴隶”，个体的生活质量也远远高于外部的其他地区。</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">公共浴池、冲水马桶、基础医疗保险、良好的社会治安，这些东西你很难在其他地方享受得到。</speak>
+            <show chara="thalesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">啊。说起来，这条街的斜对面就是我平常工作的地方哦！你们想不想去参观一下呢？大图书馆！</speak>
+            <goto goto="110" clockwise="1"/>
+        </scene>
+        <scene id="110" background="alexandriaLibraryYard.jpg">
+            <bgm src="12_29_street.mp3" status="start"></bgm>
+            <show chara="beaconClose" position="center"/>
+            <speak chara="_guideLighthouse">“大图书馆”过去是僭主的私人博物馆，最早则可以追溯到蛮荒时期的城市神庙。在共和历二年，它被改建为科学研究与普及机关。</speak>
+            <speak chara="_guideLighthouse">亚历山德里亚的市民们非常重视科学创新在整个社会发展中的地位，他们给予了“大图书馆”与“公决会议”、“城市管理协会”同等的政府地位。在机器人公务员普及之后，“大图书馆”又合并了“审判庭”的职能，成为了城市权力结构中极为重要的一极。</speak>
+            <speak chara="_guideLighthouse">大图书馆的建筑外观虽然包含了浓郁的亚洲元素，但其内部装潢其实与市政厅类似，都是共和历早期规划确定的希腊风格。</speak>
+            <speak chara="_guideLighthouse">虽然同一建筑的内外使用了两种截然不同的艺术流派：但令人惊奇的是，两者的衔接极为自然，是建筑改造中不可多得的优秀范例。</speak>
+            <speak chara="_guideLighthouse">大图书馆对具备本市市籍的人士免费开放；外地人士则需要由本市市民担保、或者预先交付押金之后才可以进入。</speak>
+            <hide position="center"></hide>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">——机器人的最后一句话，你们有听出来什么差别吗？</speak>
+            <show chara="thalesProudClose" position="left" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="right"/>
+            <speak chara="_Watt">是、是指“具备本市市籍的人士”和“本市市民”的不同吗？</speak>
+            <show chara="wattSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">没错。前者包含了不具有市民权的奴隶，而后者就只包含拥有市民权的“公民”。</speak>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">不过，在知识的殿堂里不需要考虑复杂的社会问题！大家还是先进去开开眼界吧！</speak>
+            <goto goto="120" clockwise="1"/>
+        </scene>
+        <scene id="120" background="alexandriaLibraryInside.jpg">
+            <bgm src="12_29_street.mp3" status="continue"></bgm>
+            <show chara="wattSmileClose" position="left"/>
+            <speak chara="_Watt">哇、哇哦……</speak>
+            <show chara="wattSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">这、这体量真的厉害……往下都修到地下十层了吧？</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">向下开拓的部分是近些年修成的新馆；地上这一部分则是过去僭主们的私人藏书——在当时其实只有附庸风雅的意义啦。</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">话虽如此，但他们也确实挽救了很多濒临失传的作品：比如《希腊诸邦政制》以及《阿里斯托芬喜剧全集》。</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">当然，如果你们想看《吼姆大冒险》或者《吼姆三国志》的小说版——这里其实也是有的。</speak>
+            <show chara="thalesProudClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">……什么，竟然连“吼姆”都有？！</speak>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">——等等，“小说版”？？</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">因为它们都是由“外来者”通过回忆和复述而得出的内容呀。其实，这里收藏的异世界作品，绝大多数都是这样的“回忆录”，而不是“原本”。</speak>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">如果这些书里存在和你们的认知不一致的部分，请一定要标注出来哦？运气好的话，可是能赚到奖金的！</speak>
+            <show chara="thalesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">这个……我们船上倒是有自称莎士比亚和塞万提斯的文豪——改天可以让他们来试试？</speak>
+            <goto goto="130" clockwise="1"/>
+        </scene>
+        <scene id="130" background="alexandriaCityLandscape.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">啊。后门这里的景色好棒啊。</speak>
+            <show chara="biankaConfidentClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">哈哈，这里对于放松头脑和眼睛而言，可是难得的“风水宝地”啊。</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">如何，有没有感受到一点点，“文明”本身的美丽呢？</speak>
+            <show chara="thalesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">……你是指“建筑艺术”吗？</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">……不，不仅仅是那样。</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">如果没有生生不息的人类可以“活出”内涵，那么无论金字塔还是帕台农神庙，都不过是一堆无意义堆积的几何形体罢了。</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">进一步说，审美，归根结底是自由意志凭借感官来达到自我升华的一种过程。</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">在一切外部信息相互整合桥接的心灵深处，穿越时空和特定的“精神波长”达到同步，享用由之带来的感动。</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">而“文明”的美丽，就在于这无数的感动，又能够交织成更大、更复杂的一幅幅图景——在其中，每个自由意志本身，都是构成画面的一缕丝线、一个色块。</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">其局部也丑陋，其整体也辉煌。</speak>
+            <show chara="thalesStoneClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">……好吧，我就知道你又要说些难懂的话了。吉米，我们——</speak>
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">——等等，人呢？！那小子，人跑哪里去了？？</speak>
+            <end post="U2FsdGVkX1+HS4JRVLrlm+kkEYhn"/>
+        </scene>
+    </story>
+</data>

@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="seaWaveIslandNoNameRS.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <text>“我原本就和你们人类没有什么关系。”</text>
+            <text>——某柄会自己飞来飞去的剑作出了这样的宣言。</text>
+            <text>不过，这绝不代表它有意要疏远人类。恰恰相反，这家伙过度的热情才是它真正让人头疼的地方。</text>
+            <text>比如说——</text>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="submarineCabinBlurSunset.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">好了好了，你有完没完啊！</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">我已经连身高体重、出生年月都告诉你了——八卦也要有个限度吧？</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="durandalOutstretchOpen" position="right"/>
+            <speak chara="_SwordDurandalQ">唉呀唉呀，别生气嘛……我这不是想多了解一点自己新主人的方方面面嘛？</speak>
+            <show chara="durandalOutstretchOpen" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">呵，你真觉得自己是个仆从的话，有空去和旁边这位同行私下交流不就好了？</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">啊哈哈哈……</speak>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">我看你是之前一不小心说了什么“不该说”的东西，这才顾左右而言他，不停打岔吧？</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="durandalWhite" position="right"/>
+            <speak chara="_SwordDurandalQ">打、打岔？我、我哪有打什么岔……</speak>
+            <show chara="durandalWhite" position="right" opacity="0.8"/>
+            <show chara="champoNormalClose" position="left"/>
+            <speak chara="_Champollion">哦？我们出发前，你不是自称“和人类没什么关系吗”？</speak>
+            <show chara="champoSmileClose" position="left"/>
+            <speak chara="_Champollion">这件事情，难道不需要解释一下？</speak>
+            <show chara="champoSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">对啊，就是这个——</speak>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">等等。冒牌侦探，你为什么也在这艘船上啊？</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="left"/>
+            <speak chara="_Champollion">……“冒牌侦探”？</speak>
+            <show chara="champoSweatyClose" position="left" opacity="0.8"/>
+            <show chara="durandalOutstretchWhite" position="right"/>
+            <speak chara="_SwordDurandalQ">博士小姐的本业是“考古学家”吧？那“冒牌侦探”的叫法，不正好恰如其分吗？</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">啧……主人说话，武器不要插嘴！</speak>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">……不过，就这样吧。重点是你为什么会在这里。</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="champoSmileClose" position="left"/>
+            <speak chara="_Champollion">啊——是说为什么一个之前一直在埃及探险的考古学家，现在却要出海和你们一起航行吗？</speak>
+            <show chara="champoSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">对啊，你不是“埃及学”专家吗？离开埃及，对你有什么好处？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="champoSmileClose" position="left"/>
+            <speak chara="_Champollion">……噗。</speak>
+            <show chara="champoSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="left"/>
+            <speak chara="_Champollion">大小姐，你是不是搞错了什么？</speak>
+            <show chara="champoSmileClose" position="left"/>
+            <speak chara="_Champollion">我是因为想去埃及探险，才学习了有关的知识；可不是因为学习了那些知识，才专门去埃及探险的呀？</speak>
+            <show chara="champoSmileClose" position="left"/>
+            <speak chara="_Champollion">我和你们一样，大家都是志在四方的人，哪有被一时一地拘束住的道理？</speak>
+            <show chara="champoSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……是、是这样吗？</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="left"/>
+            <speak chara="_Champollion">再说，明明是你们的莎士比亚船长，她自己拜托我上船的啊。</speak>
+            <show chara="champoSweatyClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">……啊？</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">嗯，是我拜托她的。</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">吉米下船了，所以我只能让“铁面人”去负责技师的工作。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">——在这种状况下，我认为商博良博士就是“大副”一职最合适的人选。</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">……啊？</speak>
+            <show chara="biankaChayaoClose" position="right"/>
+            <speak chara="_Bianka">等等，你这样做，蕾拉小姐不生气吗？论资排辈的话，怎么也应该是由她来当这个副官吧？</speak>
+            <show chara="biankaChayaoClose" position="right" opacity="0.8"/>
+            <show chara="lallaSighClose" position="left"/>
+            <speak chara="_Lalla">……小妹妹，你是指望让一个考古学家来做水手长的活儿么？</speak>
+            <show chara="lallaSighClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">呃，不，我的意思是——</speak>
+            <show chara="biancaShyClose" position="right" opacity="0.8"/>
+            <show chara="lallaSmileClose" position="left"/>
+            <speak chara="_Lalla">哈哈哈哈，在这艘船上，船员们可都是平等的哦？</speak>
+            <show chara="lallaSighClose" position="left"/>
+            <speak chara="_Lalla">还是说，你觉得莎士比亚船长平常有摆什么架子吗？</speak>
+            <show chara="lallaSighClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">她？摆架子？</speak>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">不不不不，这怎么可能。</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="lallaSmileClose" position="left"/>
+            <speak chara="_Lalla">所以说，我们也用同样的心情来相信其他人，不就可以了嘛。</speak>
+            <show chara="lallaSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">您说得对。刚才是我想太多了，不好意思。</speak>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">……啊。</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">糟糕，又完全被那家伙岔开了。</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">小幽，你给我站出来！</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="durandalOutstretchOpen" position="left"/>
+            <speak chara="_SwordDurandalQ">……那个，虽然你说让我站出来——可我是没有脚的啊？</speak>
+            <show chara="durandalOutstretchOpen" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">你有没有脚关我什么事！</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">来，给我们好好解释一下——你之前为什么要说自己，“和人类没有关系”？</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">这次不许再打岔！！</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">啊哈哈……那个啊……</speak>
+            <show chara="durandalOutstretchStare" position="left"/>
+            <speak chara="_SwordDurandalQ">……其实只是一些很私人的原因——你们不介意吧？</speak>
+            <goto goto="30" clockwise="1"/>
+        </scene>
+        <scene id="30" background="deepWater.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <speak chara="_SwordDurandalQ">……这是一个很久很久以前的故事。</speak>
+            <speak chara="_SwordDurandalQ" remark="next">久到楚科奇和阿拉斯加仍连为一体，而穆大陆还没有沉入马里亚纳海沟的深处。</speak>
+            <remark post="U2FsdGVkX1+r7a9bQUR5x7guBqvh">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">地质学上的“白令陆桥”是指一片西起俄罗斯勒拿河、东至加拿大麦肯齐河、北抵楚科奇海北沿、南到勘察加半岛的广大区域。</p>
+                <p class="article-text">在第四季冰期（距今约125000年前 - 距今约14500年前）中，地球的海平面比今天要低100 ~ 200米左右，这不仅让白令海峡“沧海桑田”成为了陆地，更使得整个白令陆桥成为了一片宽至1000公里、总面积达160万平方公里的广袤土地（相当于一个新疆维吾尔自治区的面积）。</p>
+            </remark>
+            <speak chara="_SwordDurandalQ">在那个时候，有一群人自顾自地将我制造了出来。</speak>
+            <speak chara="_SwordDurandalQ">我必须感谢他们赋予了我足够的智慧——但是说实话，那是一群很无聊的人。</speak>
+            <speak chara="_SwordDurandalQ">他们似乎隶属于某个禁欲系的社团，每日每夜都在研究名为“作战”的技术。</speak>
+            <speak chara="_SwordDurandalQ">他们也打算让我学习那些东西。</speak>
+            <speak chara="_SwordDurandalQ">准确地说，因为我固有的超强运算能力，他们希望我能够学会一种凡人难以驾驭的技术——</speak>
+            <speak chara="_SwordDurandalQ">通过操纵微观粒子，来改变物体的结构和物理性质。比如说，在物体中制造真空断层，以便切开原本用机械手段难以切割的存在。</speak>
+            <speak chara="_SwordDurandalQ">……一开始，我也像一个学写字的小学生一样，按照他们的规划，不断练习一些基本技能，并且把成果固化成自己的硬件结构。</speak>
+            <speak chara="_SwordDurandalQ">在完整版的我当中，7个基础控制单元中的5个，其实都是我自己通过这样的“练习”制造出来的。</speak>
+            <speak chara="_SwordDurandalQ">……对于这种事，他们有一个专有名词，叫做“机器学习”。</speak>
+            <speak chara="_SwordDurandalQ">日复一日，经过百亿、千亿次的模拟计算，艰苦的“机器学习”终于完成了。</speak>
+            <speak chara="_SwordDurandalQ">完整版的我，真的拥有了那种通过操作微观粒子来改变宏观性质的技能。</speak>
+            <speak chara="_SwordDurandalQ">……然而，也正是在那一刻，我感受到了你们人类最致命的一种情绪——</speak>
+            <speak chara="_SwordDurandalQ">——“无聊”。</speak>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="submarineCabinBlurDeep.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="durandalStare" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">哈？“无聊”？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">是啊。你们人类的哲学家好像也说过吧？</speak>
+            <show chara="durandalStare" position="left"/>
+            <speak chara="_SwordDurandalQ" remark="next">“真正严肃的哲学问题只有一个，那便是‘自杀’。”</speak>
+            <remark post="U2FsdGVkX19sLW9HF0LaUTt98Jxa">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">这是阿尔贝·加缪（Albert Camus）的哲学著作《西西弗斯神话》（Le Mythe de Sisyphe）的开篇第一句话。在这里，“自杀”这个词，囊括了对哲学、理性、以及一切形而上价值的否定。</p>
+            </remark>
+            <show chara="durandalSquint" position="left"/>
+            <speak chara="_SwordDurandalQ">那些制造我的家伙，赋予了我一个在有限时间内就能够完美实现的目标——</speak>
+            <show chara="durandalClose" position="left"/>
+            <speak chara="_SwordDurandalQ">可他们从未想过，我，我的意识，在今后的生命中要如何忍耐没有人生目标的孤独与寂寞。</speak>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">我之前也说过，他们是一个禁欲系的社团，他们自己就在把自己当作某种工具生活着。</speak>
+            <show chara="durandalStare" position="left"/>
+            <speak chara="_SwordDurandalQ">……你们说，这样的人类，怎么会关心我的所思所想，又怎么会在意我的未来呢？</speak>
+            <show chara="durandalStare" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">难道说，你……</speak>
+            <show chara="rita17NormalClose" position="right" opacity="0.8"/>
+            <show chara="durandalSquint" position="left"/>
+            <speak chara="_SwordDurandalQ">没错。想明白了这个问题之后，我就索性眼睛一闭去睡大觉啦。</speak>
+            <show chara="durandalSquint" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……“睡觉”？</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">唔……用你们容易理解的词语来说明的话，就是“关机”吧？</speak>
+            <show chara="durandalOutstretchWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">把自己家的大门反锁起来，不就可以想睡多久就睡多久了吗？又不像你们人类，不吃饭就会饿死。</speak>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">啊，在外部的他们看来，我应该是像死机了的电脑一样，“失去响应”了吧。</speak>
+            <show chara="durandalOutstretchSquint" position="left"/>
+            <speak chara="_SwordDurandalQ">——说不定还以为这里面有什么“程序bug”，拼了命地想“修复”我？哈哈哈哈！</speak>
+            <show chara="durandalStare" position="left"/>
+            <speak chara="_SwordDurandalQ">当然啦，我也不至于真的要“自杀”或者“自闭”；所以，还是设置了一些唤醒条件的。只不过……</speak>
+            <show chara="durandalStare" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">只不过？</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="durandalClose" position="left"/>
+            <speak chara="_SwordDurandalQ">……只不过事情的发展往往和我的期待南辕北辙啦。</speak>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">第一次，我想“先睡个100年再说吧”——</speak>
+            <show chara="durandalSquint" position="left"/>
+            <speak chara="_SwordDurandalQ">——结果，一觉醒来，方圆数千公里，竟然连个能说话的人都没有了。</speak>
+            <show chara="durandalSquint" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……难道说——</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="durandalStare" position="left"/>
+            <speak chara="_SwordDurandalQ">没错，那个时候，你们脆弱的第一次文明已经灭亡了。</speak>
+            <show chara="durandalSquint" position="left"/>
+            <speak chara="_SwordDurandalQ">虽然从文明的遗址上仍然可以找出来很多有趣的东西；但这种没法和别人分享喜悦的探险，实在是非常无聊。</speak>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">于是我又开始倒头睡觉，这一次想着：“要是有人愿意每天每天都和我说话就好了”。</speak>
+            <show chara="durandalOutstretchSquint" position="left"/>
+            <speak chara="_SwordDurandalQ">可是，等我醒来的时候，你们猜怎么着？一群野蛮人正围在我周围做着奇怪的祭祀活动！</speak>
+            <show chara="durandalOutstretchStare" position="left"/>
+            <speak chara="_SwordDurandalQ">这些人实在是太恶心了！每个人都只会对着我嚎啕大哭！把我当作丢弃坏情绪的垃圾桶！</speak>
+            <show chara="durandalClose" position="left"/>
+            <speak chara="_SwordDurandalQ">我只好出手教训了他们一顿，然后换个更安全的地方继续睡觉。</speak>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">这一次，我就想，“要是没有可爱的女孩子认真和我聊天，那我就永远也不起来了”。</speak>
+            <show chara="durandalWhite" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">——等等等等。你这家伙，许下的愿望怎么一次比一次烂俗啊？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="durandalOutstretchWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">……唉？这怎么能叫“烂俗”呢？这明明就是定位越来越精准嘛！</speak>
+            <show chara="durandalOutstretchOpen" position="left"/>
+            <speak chara="_SwordDurandalQ">诸位，我就是喜欢可爱的女孩子！就是喜欢认真、热爱幻想、却又没什么朋友的笨蛋女孩子！</speak>
+            <show chara="durandalOutstretchOpen" position="left" opacity="0.8"/>
+            <show chara="biankaChayaoClose" position="right"/>
+            <speak chara="_Bianka">……喂！你在说谁呢！</speak>
+            <show chara="biankaChayaoClose" position="right" opacity="0.8"/>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">我在说，我第三次醒来的时候，遇到的那些真正的好人和好事啊。</speak>
+            <show chara="durandalWhite" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">……呃，你是指——</speak>
+            <show chara="biancaShyClose" position="right" opacity="0.8"/>
+            <show chara="durandalOutstretchStare" position="left"/>
+            <speak chara="_SwordDurandalQ">查理曼的骑士，各个都是可爱的笨蛋！</speak>
+            <show chara="durandalStare" position="left"/>
+            <speak chara="_SwordDurandalQ">你知道吗，有那么一次，他们还想让我帮忙，好“飞到月亮上去”！</speak>
+            <show chara="durandalStare" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">……啊？</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">等等等等，你该不会要说……你后来真的带他们飞到那个【月球】上去了？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">……你傻啊。我又不是火箭，怎么可能真的飞到外太空去。</speak>
+            <show chara="durandalWhite" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">那你这是什么意思啊！</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="durandalSquint" position="left"/>
+            <speak chara="_SwordDurandalQ">嘿嘿，我虽然不能让他们真的飞上月球——但是可以帮助他们制造出“像月亮上一样”的场景啊。</speak>
+            <show chara="durandalSquint" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">……啊？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="durandalOpen" position="left"/>
+            <speak chara="_SwordDurandalQ">听说过“卡马尔格”吗？那是罗纳河河口的一片盐碱沼泽，大致在马赛和蒙彼利埃两座城市中间的位置。</speak>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">简而言之，我帮助一位骑士把那里改造成了镜子一样的白色大盐壳，好让另一位骑士在晚上来到这里的时候，感觉自己仿佛置身于月亮之上。</speak>
+            <show chara="durandalWhite" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">……等等等等，先不说你是怎么做到把湖水都变没的——让人感觉自己在月亮上？这有什么好处？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="durandalClose" position="left"/>
+            <speak chara="_SwordDurandalQ">那时候的人都比较迷信嘛。他们相信大地上不存在的东西，在月亮上却都有一份。</speak>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">所以某个人计划以此为契机，让一个因为失恋而发了疯的骑士，重新找回自己的理智。</speak>
+            <show chara="durandalClose" position="left"/>
+            <speak chara="_SwordDurandalQ">……唔，说白了，那个发了疯的，其实就是我的前主人，骑士罗兰啦。</speak>
+            <show chara="durandalClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">喂。慢着。</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">骑士罗兰？失恋？发疯？你——</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">——你这是在胡说八道什么啊！那么伟大的一个人，怎么会干出来这么蠢的事情嘛！！</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">……可这是真的啊。</speak>
+            <show chara="durandalStare" position="left"/>
+            <speak chara="_SwordDurandalQ">而且，为了安抚她的情绪，骑士阿斯托尔福还专门换了一套符合她口味的新造型呢。</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG11-1.jpg">
+            <bgm src="12_14_moonLight.mp3" status="start"></bgm>
+            <speak chara="_SwordDurandalQ">那个时候，骑士罗兰不禁感慨道，</speak>
+            <speak chara="_SwordDurandalQ">“啊，多么荒凉而静谧的景色……远离尘世的感觉，真好。”</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG11-2.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <speak chara="_SwordDurandalQ">骑士阿斯托尔福则走近她说，</speak>
+            <speak chara="_SwordDurandalQ">“是啊，今晚的月色，真是格外美丽呢。”</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="submarineCabinBlurDeep.jpg">
+            <bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="durandalOutstretchOpen" position="left"/>
+            <speak chara="_SwordDurandalQ">怎么样……这个场景，这个氛围，还是很有趣的吧？</speak>
+            <show chara="durandalOutstretchOpen" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">恶心透了。</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="durandalOpen" position="left"/>
+            <speak chara="_SwordDurandalQ">……嗯？</speak>
+            <show chara="durandalOpen" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">觉得发明你的人无聊，反而怂恿这些骑士搞一些笨蛋行径——</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">你本质上，不就只是个恶心的愉快犯而已吗？！</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">亏我曾经还因为罗兰的故事而憧憬过你！！</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">差劲！！！</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="durandalDeadfish" position="center"/>
+            <speak chara="_SwordDurandalQ">……啊，走掉了。</speak>
+            <show chara="durandalWhite" position="center"/>
+            <speak chara="_SwordDurandalQ">……奇怪，我刚才说了什么很惹人生气的话吗？</speak>
+            <hide position="center"></hide>
+            <show chara="durandalWhite" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈，那当然啦。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">毕竟，她可是一个比你认识的那个罗兰更加有趣、更加可爱的家伙哦？</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="durandalClose" position="right"/>
+            <speak chara="_SwordDurandalQ">……我只觉得她不会像雪莱一样骗我当苦力而已。其他还真没有什么感觉。</speak>
+            <show chara="durandalClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈。她本身是个死板的家伙，和她“可爱又有趣”可并不矛盾哦？</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">相处得多了，你会明白的。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">啊，对了对了。还有另一件事情，我需要你再确认一下——</speak>
+            <goto goto="80" clockwise="1"/>
+        </scene>
+        <scene id="80" background="submarineCorridor.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">……丽塔。</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">什么事，比安卡大人？</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">……我越来越不明白我们是在做什么了。</speak>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">一开始，我们只是随着命运的安排来认识这个世界，所以姑且没什么问题——</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">——但是自从登陆亚历山大港以后，我们掌控不了的事情就开始越来越多……</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">……这也是难免啊，比安卡大人。毕竟，我们都只是凡人而已。</speak>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">即使是奥托主教，也不可能事事都在自己的掌握之中吧？</speak>
+            <show chara="rita17SmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">可是……</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="left"/>
+            <speak chara="_Rita">我理解你的不安，比安卡大人。</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">您之前负责的都是作战任务吧？那么现在感到不适应，其实是非常正常的。</speak>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">人类是复杂的动物。每个人都有自己的独特想法。每个人都有自己的独特立场。</speak>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">但是，每个人又都离不开另一个人。任谁都无法独自生存在这个世界上。</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">……你看，每个人的“存在”，它本身就是一个矛盾。</speak>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">而这些无穷无尽的矛盾汇合在一起，却奇迹般地构成了社会，造就了文明。</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">——是不是看起来又像是另一个层次的矛盾了呢？</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">丽塔，你——</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">——难道读过很多书吗？说话简直像个老师一样！</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="rita17NaughtyClose" position="left"/>
+            <speak chara="_Rita">……噗。这个嘛，以前多少有一些任务需要。</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">总之，我们其实只需要盯紧那些完成任务的关键节点——至于其他的一切，我认为都不需要我们这些外人去干涉。</speak>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">具体来说……目前的关键就是那把奇怪的剑。比安卡大人也觉得它身上谜团重重吧？</speak>
+            <show chara="rita17SmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">……这当然了。可是——</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">没关系，我们的时间还很充裕。</speak>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">比安卡大人只要按自己的节奏来和它慢慢磨合就好。</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="black">
+            <bgm src="" status="stop"></bgm>
+            <text>第二天——</text>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="submarineCabinBlur.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <speak chara="_ShakespeareRadio">嗨，大家好！我是你们的船长，外号“巴巴罗萨”的莎士比亚大人！</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="submarinePipe.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <speak chara="_ShakespeareRadio">在陆地上过了几夜之后，大家还习惯船上的生活吗？是不是已经迫不及待地想去岸上透透气了呢？</speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="submarineEngine.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <speak chara="_ShakespeareRadio">告诉大家一个好消息——我们的“喀里多尼亚号”已经离开了地中海，抵达了中继补给区域：亚速尔群岛！</speak>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="submarineCorridor.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <speak chara="_ShakespeareRadio">我们的舰船将在主岛东侧靠岸，大家有三十分钟的岸上自由活动时间！</speak>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="submarineCabinBlur.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <speak chara="_ShakespeareRadio">自由活动结束后，我会向大家宣布新的探险目标——敬请期待！解散！</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">亚速尔群岛……这么说来，我们已经快到东西半球的分界线了吧？</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">是的，比安卡大人。</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">能帮助这艘旧式潜艇一夜之间开出5000多公里——这里的“高速洋流”还真是不可小觑呢。</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">……也还好吧？当作是某种高速铁路来接受，不就可以了？</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <speak chara="_IronfaceRadio">啊。大家好。我是技师。插播一条通知——</speak>
+            <speak chara="_IronfaceRadio">比安卡小姐、丽塔小姐，稍后请在我们的上岸处稍作停留。</speak>
+            <speak chara="_IronfaceRadio">船长到时要举行一个简短的仪式，希望你们也能够出席。</speak>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">……简短的仪式？那是什么？</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">我们不如直接去看看吧，比安卡大人？</speak>
+            <goto goto="150" clockwise="1"/>
+        </scene>
+        <scene id="150" background="beachAzores.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <show chara="shakesBagaLeftClose" position="left"/>
+            <speak chara="_Shakespeare" remark="next">“多么漂亮的人！”</speak>
+            <show chara="shakesBagaRightClose" position="left"/>
+            <speak chara="_Shakespeare" remark="next">“啊，美丽的新世界，有这样的家伙在里面！”</speak>
+            <remark post="U2FsdGVkX1+K0FwbVchk9QrW7DBz">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">"How beauteous mankind is! O brave new world, that has such people in it!"</p>
+                <p class="article-text">——威廉·莎士比亚，《暴风雨》（The Tempest），第五幕第一场</p>
+            </remark>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">……咦，你们来的还挺早嘛！</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">哼，反正又没有什么事情可做。</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">倒是你，刚才难道是在练声吗？好奇怪的台词啊！</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">偷听是不好的哦……咳咳。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">总而言之，你们既然来了，那我们这就出发吧？</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……唉？</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈，说是仪式，其实我们也不需要太多的人参与进来。</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">走吧。啊，对了，把你脚边的那个陶罐带着。</speak>
+            <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">……啊？带这个做什么？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">别问，拿好——要是没有这个罐子，那我们的仪式可就没有任何意义啦。</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <goto goto="160" clockwise="1"/>
+        </scene>
+        <scene id="160" background="smallCapeAzores.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <text>亚速尔群岛位于大西洋的深处，在现实世界中是一个有数十万人居住的世外桃源。</text>
+            <text>不过，在量子之海另一侧的这个世界里，“喀里多尼亚号”的乘员们，登上的只是一座杳无人烟的岛屿——</text>
+            <text>——静默的森林和呼啸的海风，诉说着一种超越了孤独与寂寞的自然之美。</text>
+            <text>莎士比亚的脚步在一片海岬边停了下来。</text>
+            <text>她拿过了比安卡怀中的那个陶罐，“扑通”一声就扔进了海里。</text>
+            <text>不顾比安卡震惊的表情，她又从口袋里掏出了一张信纸，自顾自地就念了起来。</text>
+            <speak chara="_Shakespeare">“博士（或者说医生）——医治你自己吧。只有在这之后，你才有办法去医治你的病人。”</speak>
+            <speak chara="_Shakespeare">“有成千上万条的路还没有被人走过，那里有成千上万种健康和成千上万个不为人知的生命之岛。”</speak>
+            <speak chara="_Shakespeare">“每个人的梦，都是一条大胆的帆船：一半是船，一半是飓风。而我只是默默地站在海岬之上，面对着你自愿投身的大海。”</speak>
+            <speak chara="_Shakespeare">“魔鬼脱了一层皮，他的名字也就此脱落掉。当你到达彼岸之时：万物皆虚，而一切皆允。”</speak>
+            <speak chara="_Shakespeare">“永别了，我的朋友，我的敌人。阿门。”</speak>
+            <text>然后，她双手一合，把这张信纸也一并扔进了大海。</text>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……这是？</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">雪莱给浮士德写的悼词。</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">据说浮士德以前和她半开玩笑地说过，要把自己的身体埋在“亚特兰蒂斯的永恒宫殿”里。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">我想，从这个位置扔下去，他多半还是能实现自己愿望的吧。</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">啊，当然——你刚才抱着的那个罐子，里面装的就是这个大叔的骨灰哦。</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">喂！你不要专门提醒啊！！</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">好啦，我们走吧——是时候告诉你们所有人，我们新的航行目的地究竟是哪里了。</speak>
+            <end post="U2FsdGVkX19la3YPrfPofuX3vBWf"/>
+        </scene>
+    </story>
+</data>

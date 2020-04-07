@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="parisPalace.jpg">
+            <bgm src="12_14_moonLight.mp3" status="start"></bgm>
+            <text>每个人都在自己的生命中频繁地抛弃着自己的过去。</text>
+            <text article="1">
+                <p class="article-text">随着年龄的增长，我们渐渐离开了母亲的子宫和乳房，离开了温暖而舒适的摇篮，离开了养育自己的家园故土，一步步变成了一个和过去的自己毫无相似之处的人。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">霜月27日。</p>
+                <p class="article-text">葡月13日。</p>
+                <p class="article-text">获月13日。</p>
+                <p class="article-text">雾月18日和19日。</p>
+                <p class="article-text">风月8日。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">正是这一系列对过去的背叛，让名为“拿破仑·波拿巴”的这个男人，最终成为了历史所书写的那个版本。</p>
+            </text>
+            <text>他早已习惯了这种对自我的背叛，并始终以之为荣。</text>
+            <text>不论沦落到如何的境地……只要还有机会卷土重来，他就一定会继续前进。</text>
+            <text>——他的字典里从来就没有“失败”这个词汇。</text>
+            <text>在从前的战争中，受限于装备、补给、士气、时运，他也有过无奈的投降，有过见不到东山再起之日的恐惧。</text>
+            <text>但是，所有的这一切，时至今日，都不过是早已被他踏平的历史罢了。</text>
+            <text>他曾被俄国的“冬将军”击溃，敌人的联军长驱直入，径直占领了巴黎——</text>
+            <text>但转眼之间，他又从厄尔巴岛潜回故土，波旁的军队如潮水一般向他倒戈。</text>
+            <text>然而，紧随其后的滑铁卢决战却使得百日王朝匆匆结束，他本人被加倍惩罚，流放到遥远的南大西洋——</text>
+            <text>但就在所有人都认为这位皇帝的人生已经不会再有任何波澜的时候，已入暮年的他竟然又被卷入“蛇”的试验，并阴差阳错地在异境重塑了自己的威权。</text>
+            <text>可是，新人生的顺风顺水却因为他自己的贪欲平添波澜：为了永久掌握这股强大的力量，他试图激活远古文明控制这个微缩世界的装置……</text>
+            <text>……并因此把自己的所有臣民都变成了彻底非人的存在。</text>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="parisPalaceDark.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <text>但即使如此，皇帝仍然没有气馁。</text>
+            <text>在短暂的悲痛之后，他便意识到这不过是一段更加伟大的旅程的起点——</text>
+            <text>自己和幸存的臣民，只不过是从一种“消耗化学能”的生命形式，转化为了另一种“消耗崩坏能”的生命形式。</text>
+            <text>皇帝的位置仍然稳固。帝国的军力更胜往昔。</text>
+            <text>在短暂的纷争之后，如今的人民一心同体，这份赤诚比起以往的“圣歌时代”还要热烈雄壮。</text>
+            <text>尽管新生的人们需要“墙壁”来逐步改造脚下的土地——但对于永生不死的皇帝，这种缓慢而确实的扩张，不吝是一种别样的从容。</text>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="spaceNight.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <text>也正因为如此，现在的皇帝，可以说极为愤怒。</text>
+            <text>他本以为，随着这个世界逐渐被改造成更适合他的子民生活的家园，他的敌人只会越来越弱小、越来越缺乏攻击性——</text>
+            <text>可是，那些只会固守在要塞中的蝼蚁、像吉伦特党一样的乌合之众、抱残守缺不肯接受崭新生命形式的蠢人……</text>
+            <text>他们竟然能够做到将世界的一部分解体。竟然能够毁灭帝国神圣而充满能量的领土。</text>
+            <text>竟然能够不费一兵一卒而将皇帝逼入绝境。</text>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="CG28-3.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <text>……但皇帝并没有因此而动摇。</text>
+            <text>他的人生足够漫长，而这仅仅是一次新的“绝境”而已。</text>
+            <text>敌人似乎认为，帝国存在的根本，是其神圣的领土。</text>
+            <text>“皮之不存，毛将焉附”——一般而言确实如此。</text>
+            <text>不过，在“墙”的阻隔下，他们仅凭有限的接触，自然也不可能推断出……</text>
+            <text>……帝国的皇帝和臣民早已是牢不可破的一体，即使在虚空中零落四方，也一样有办法保存下最核心的机能。</text>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="01_19_scienceEngineWarning.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>帝国是以“新生命”为原则构筑起来的。</text>
+            <text>它终将破茧成蝶，突破这名为“世界”的牢笼。</text>
+            <text>没有疾病、没有迫害、没有困窘、没有死亡。</text>
+            <text>——而后，还将有绝对的理解、绝对的自由。</text>
+            <text>它将达成先知与选民们约定的复活，它将为一切更低级的生命降下最终的审判。</text>
+            <text>事到如今，那既是臣民又是皇帝的唯一生物，它唯一不明白的事实仅仅是……</text>
+            <text>……为何这份炽热的力量，直到今天，才有人将它继承与发扬。</text>
+            <text>毕竟，这力量的源头，并不是“拿破仑·波拿巴”、或者任何一个与他类似时代的智者——</text>
+            <text>这力量源自数万年前的隐秘，它像日食中的朝阳，在晨曦第一次渐露之时便不幸夭折；</text>
+            <text>却要一直等到星移斗转之后，才终于有机会，在彼岸的子夜中雄壮地升起。</text>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="lavaEarth.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <show chara="wristClose-up" position="left"/>
+            <text>……它抛弃了一切不必要的杂质，只留下了生命中最健壮、最朴素、最本源的部分。</text>
+            <text>不需要语言，不需要美貌，仅仅是它的存在本身，便是一种真理的象征。</text>
+            <text>——这毫无疑问乃是一切生命的终极形态。</text>
+            <text>试图将它杀死在摇篮里的人，只会在面对这股力量之际，自取其辱。</text>
+            <text>更何况对方的布阵过于依赖这个世界中的“管道”——</text>
+            <text>——在皇帝看来，对方从一开始，就已经输了。</text>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="lavaFlow.jpg">
+            <bgm src="01_04_Miracle.mp3" status="start"></bgm>
+            <text>……战场上四处弥漫着血的味道。</text>
+            <text>士兵的尸体犹如防洪的沙袋般填平了附近的每一条沟壑。</text>
+            <text>然而，身为临时前敌总指挥的人，却无法下令撤退。</text>
+            <text>敌人自空中强行降落，占据了此处通向锚点最主要的入口，截断了每一个人的退路。</text>
+            <text>因此，只要她们这些指挥员不打算扔下自己的士兵先行逃跑——</text>
+            <text>——她们就必须在“向敌人发起冲锋”和“坐以待毙”之间，为包括她们自己的所有人选择一种方案。</text>
+            <text>敌人牢牢占据着我方的咽喉。锚点的通道易守难攻。</text>
+            <text>从世界泡的另一侧投送兵力，只会让那些士兵在展开阵型之前，就被这怪异的敌人成批消灭。</text>
+            <text>……此时此刻，在这北海孤岛上，他们只能孤军奋战。</text>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="CG28-3.jpg">
+            <bgm src="01_04_Miracle.mp3" status="continue"></bgm>
+            <text>一开始，当那个门状的怪物出现在星辰背景之中时，士兵们还乐观地认为，那不过是切割世界所留下的某种残渣——</text>
+            <text>——可能是残余的机械装置，也可能是落单的脆弱敌人。</text>
+            <text>然而，当拦截无效、炮击无效，对方稳如山巅之城一般降落在锚点入口并施放出无数触腕的时候……</text>
+            <text>……任谁都能明白，挡在他们面前的，绝非普通的存在。</text>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="CG29-1.jpg">
+            <bgm src="01_04_Miracle.mp3" status="stop"></bgm>
+            <sound src="01_19_claw.mp3"/>
+            <cg src="01_19_bloodWhite.jpg" bg="CG29-1.jpg" fadeIn="0" fadeOut="1"></cg>
+            <bgm src="01_04_Miracle.mp3" status="start"></bgm>
+            <text>共和国的士兵们作战得很英勇。</text>
+            <text>他们前仆后继，只为了给同伴争取足够的时间。</text>
+            <text>新婚者、初为父母者、独子、年轻人……</text>
+            <text>滞留在这北海孤岛上的兵团，正在按照这样的顺序，使用仍在他们控制之下的备用通道，一个、一个地疏散着自己的战友。</text>
+            <text>如果用信息通量来对比，这备用的锚点通道的“带宽”只有主通道的万分之一左右——</text>
+            <text>这意味着前线的士兵坚持一个小时，也只能换来大约二十名同伴的成功撤退。</text>
+            <text>——而今天，为了完美实施切割世界泡的计划，在这座不大的北海岛屿上，集中了将近三千名共和国最精锐的战士。</text>
+            <text>……也就是说，即使前线士兵们能够一直支撑下去，他们也需要一周的时间才能从岛上完全撤离。</text>
+            <text>的确，他们还有“喀里多尼亚号”可以从水下穿越这个世界独有的狂风巨浪——</text>
+            <text>但是这唯一的额外手段，满打满算，也只能每两天转移走五十个幸运儿罢了。</text>
+            <goto goto="100" change="#000000"/>
+        </scene>
+        <scene id="100" background="CG29-2.jpg">
+            <bgm src="07_07_wind.mp3" status="start"></bgm>
+            <speak chara="_ThinkerChampollion">——比安卡和圣剑在之前的行动中都消耗了太多的能量，即使有丽塔的照顾，她们似乎也很难在短时间内苏醒。</speak>
+            <speak chara="_ThinkerChampollion">你麾下的星语者们，甚至是“喀里多尼亚号”的船员们，凡是自认能够在战场上存活下来的家伙，都已经冲上了前线。</speak>
+            <speak chara="_ThinkerChampollion">他们每个人都很英勇……但是他们自己或许最为明白——</speak>
+            <speak chara="_ThinkerChampollion">——他们只不过是在打一场必输无疑的战斗。</speak>
+            <speak chara="_ThoreauNoName">……所以呢？</speak>
+            <speak chara="_ThoreauNoName">如果你有什么能够扭转局面的方法，那就不要在这里绕弯子了。</speak>
+            <speak chara="_ThoreauNoName">有话直说。</speak>
+            <speak chara="_ThinkerChampollion">我想……如果十天前我向薛定谔咨询过的事情确实成立，那么我的确有办法杀死那个门——</speak>
+            <speak chara="_ThinkerChampollion">——但是我需要你命令所有人都退出战场。</speak>
+            <goto goto="110" change="#000000"/>
+        </scene>
+        <scene id="110" background="CG29-3.jpg">
+            <bgm src="noise.mp3" status="start"></bgm>
+            <speak chara="_Dracula">……你说什么？撤退？退出战线？</speak>
+            <speak chara="_Dracula">你疯了吗？我们现在可是背水一战，你让我往哪里退？</speak>
+            <speak chara="_Dracula">——难道要放弃这一片仅有的防御阵地，直接退到你的指挥部去吗？</speak>
+            <speak chara="_Dracula">你这样才是真正的军事自杀，你知道吗？</speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="CG29-4.jpg">
+            <bgm src="12_14_Hero.mp3" status="start"></bgm>
+            <speak chara="_ChampollionNotSure">……不要慌张，瓦拉几亚人。</speak>
+            <speak chara="_ChampollionNotSure">议长命令你们后撤是有原因的——</speak>
+            <speak chara="_ChampollionNotSure">——因为接下来，会由我来负责消灭这个敌人。</speak>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="CG29-3.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_Dracula">……你？一个考古学家？</speak>
+            <speak chara="_Dracula">你难道靠换了一身衣服就说服她们了吗？</speak>
+            <speak chara="_Dracula">……你究竟打算做什么？</speak>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="CG29-4.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_ChampollionNotSure">首先，我要向你们道歉——</speak>
+            <speak chara="_ChampollionNotSure">因为我在你们面前一直使用的“商博良”这个名字，其实只是从某个后辈同胞那里借来的而已。</speak>
+            <speak chara="_ChampollionNotSure">重新自我介绍一下吧，顽强的战士们、英勇的军人们——</speak>
+            <speak chara="_ThinkerChampollion">我的名字是“拿破仑”，我的姓氏是“波拿巴”——我来自科西嘉岛。</speak>
+            <speak chara="_NapoleonNotSure">我并不是普通的“星语者”；我是被你们眼前的怪物，在它二十五岁时就断然抛弃了的“普通人的人生”——</speak>
+            <speak chara="_NapoleonNotSure">——是无数早已被它遗忘的“背叛”中，那最初、也是最本源的成分。</speak>
+            <speak chara="_NapoleonNotSure">借用备用通道、通过锚点调整之后，我已经回到了被这个怪物所抛弃时的最初状态，并刻意让身体结构的虚数极性完全反转。</speak>
+            <speak chara="_NapoleonNotSure">简单来说，此时此刻，你们面前的这个怪物伤不到我的一丝一毫——</speak>
+            <speak chara="_NapoleonNotSure">——而我，却可以通过简单的接触，就能将它彻底摧毁。</speak>
+            <goto goto="150" change="0"/>
+        </scene>
+        <scene id="150" background="CG29-3.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_Dracula">这……</speak>
+            <speak chara="_Dracula">如果真有这么方便的事情，你为什么现在才站出来？！</speak>
+            <speak chara="_Dracula">……你知道我们已经牺牲了多少人吗？！</speak>
+            <goto goto="160" change="0"/>
+        </scene>
+        <scene id="160" background="CG29-5.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_NapoleonNotSure">……对不起。</speak>
+            <speak chara="_NapoleonNotSure">让大家在此承受了如此惨重的牺牲……我的确很过意不去。</speak>
+            <speak chara="_NapoleonNotSure">但是，不论目的为何……如果说一个人要主动舍弃自己的生命——</speak>
+            <speak chara="_NapoleonNotSure">——我想，她终究还是要进行一番内心的挣扎吧。</speak>
+            <goto goto="170" change="0"/>
+        </scene>
+        <scene id="170" background="CG29-3.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_Dracula">你……</speak>
+            <speak chara="_Dracula">你是要和它同归于尽吗？！</speak>
+            <goto goto="180" change="0"/>
+        </scene>
+        <scene id="180" background="CG29-6.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_NapoleonNotSure">……确切地说，只不过是让它为我“陪葬”而已。</speak>
+            <speak chara="_NapoleonNotSure">调整全身物理结构的虚数极性——这件事本身，就是百分之百的自杀行为。</speak>
+            <speak chara="_NapoleonNotSure">我现在只不过是一具服下了砒霜的行尸走肉——</speak>
+            <speak chara="_NapoleonNotSure">——只不过是想为自己找一个稍显荣耀的葬身之地罢了。</speak>
+            <goto goto="190" change="0"/>
+        </scene>
+        <scene id="190" background="CG29-7.jpg">
+            <bgm src="01_19_bellaCiao.mp3" status="start"></bgm>
+            <speak chara="_NapoleonNotSure">……与我一样同为“拿破仑·波拿巴”的存在啊。</speak>
+            <speak chara="_NapoleonNotSure">你现在是否因为我的出现而感受到羞辱？</speak>
+            <speak chara="_NapoleonNotSure">你现在是否因为我的出现而突然恐惧？</speak>
+            <speak chara="_NapoleonNotSure">在漫长一生中不断否定自我的你，却反过来要被自身的过去否定——</speak>
+            <speak chara="_NapoleonNotSure">——已经统合了全体臣民、失去了语言器官的你，此时此刻，是否尤其觉得羞愤难当呢？</speak>
+            <speak chara="_NapoleonNotSure">又或者，你正忙于重新启动自己那笨重的躯体，试图躲避这一步步正向你抵近的死亡呢？</speak>
+            <speak chara="_NapoleonNotSure">……呵。没什么，对我来说，这些都不重要。</speak>
+            <speak chara="_NapoleonNotSure">我只希望你能够知道——</speak>
+            <speak chara="_NapoleonNotSure">你走上了如此不堪的一条歧路——</speak>
+            <speak chara="_NapoleonNotSure">以至于你的历史、你的初心、你最初的梦想——</speak>
+            <speak chara="_NapoleonNotSure">——它们宁愿用自己的死亡，来换取你的毁灭。</speak>
+            <goto goto="200" change="0"/>
+        </scene>
+        <scene id="200" background="CG29-8.jpg">
+            <bgm src="01_19_bellaCiao.mp3" status="continue"></bgm>
+            <speak chara="_NapoleonNotSure">……比安卡。</speak>
+            <speak chara="_NapoleonNotSure">当你重握圣剑的时候，或许会因为此时此刻的事而有些感伤。</speak>
+            <speak chara="_NapoleonNotSure">我们是同行的伙伴，是为了拯救世界而不断探索的冒险者；</speak>
+            <speak chara="_NapoleonNotSure">但今天，这世界却也因为我行动的迟缓，而承受了许多不必要的痛苦。</speak>
+            <speak chara="_NapoleonNotSure">可是，话说回来——</speak>
+            <speak chara="_NapoleonNotSure">如果是你的话——</speak>
+            <speak chara="_NapoleonNotSure">你一定会更加高昂起头，按照你一贯的步调，用更坚定的步伐继续前进吧？</speak>
+            <speak chara="_NapoleonNotSure">因为你知道，只有这样，那些不完美的故事才可能会变得完美——</speak>
+            <speak chara="_NapoleonNotSure">那些不完美的世界，才可能拥有一个大家更期待的明天。</speak>
+            <goto goto="210" change="0"/>
+        </scene>
+        <scene id="210" background="white.jpg">
+            <bgm src="01_19_bellaCiao.mp3" status="continue"></bgm>
+            <speak chara="_NapoleonNotSure">比安卡……还有永远都陪伴在你身边的丽塔……</speak>
+            <speak chara="_NapoleonNotSure">……我说的，没错吧？</speak>
+            <end post="U2FsdGVkX1+oXCYaOQzPLggAhFhF"/>
+        </scene>
+    </story>
+</data>

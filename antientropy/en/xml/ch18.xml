@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="ruinHouseBerlin.jpg">
+            <bgm src="03_15_ruinBerlin.mp3" status="start"></bgm>
+            <text>你躺在地上的一条裂缝里。</text>
+            <text remark="next">挣扎着、勉强爬起来，你意识到自己的左手边是施普雷河。</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">施普雷河（Spree）发源于捷克境内，从德国首都柏林穿城而过，之后汇入易北河，注入北海。</p>
+                <p class="article-text">p.s. 冷战时期，施普雷河与哈弗尔河（Havel）的河面是“柏林墙”的少数几个缺口之一。</p>
+            </remark>
+            <text>你隔河望去。</text>
+            <text remark="next">南方，勃兰登堡门的方向——</text>
+            <remark post="U2FsdGVkX1984mCWWkKDy8j7g660">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">勃兰登堡门（Brandenburger Tor）位于柏林市中心，是柏林的象征。它由腓特烈“大帝”下令建造，以纪念普鲁士在七年战争（1754 - 1763）中取得的奇迹般胜利。</p>
+                <p class="article-text">p.s. 冷战时期，勃兰登堡门本身即为“柏林墙”的一部分，只有东德边防军可以接近。</p>
+            </remark>
+            <text>火焰形成的浓雾，像沾满血污的黑泥一般，来回翻滚。</text>
+            <text>今天是1952年1月1日。</text>
+            <text>现在是正午时分。</text>
+            <text>乌云密布的天空下，死神正降临在柏林。</text>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="ruinHallBerlin.jpg">
+            <bgm src="03_15_ruinBerlin.mp3" status="continue"></bgm>
+            <text>街道上满是碎石瓦砾。</text>
+            <text>建筑物和车辆，如重病将死的人，有一下没一下地吞吐着浓烟。</text>
+            <text>时隐时现的火苗，仿佛跳着神经质的舞蹈，猛地一下窜上高空，又忽地一下落到地面。</text>
+            <text>一个四方形的东西被炸上天空，重重地砸在你的前方。</text>
+            <text remark="next">那是一辆底盘朝天的T-54，占领军最强大的战车之一。</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“T-54”（这里的“T”是西里尔字母，读作“te”）是由苏联设计的中型坦克，于1947年开始量产。此后，T-54及其姊妹型T-55，迅速成为华约各国的装甲主力，并被输出到众多国家，参加了20世纪后半叶的几乎所有武装冲突。T-54/55是被认为是历史上产量最大的坦克，其总数可能高达十万辆左右。</p>
+                <p class="article-text">p.s.著名的“五对负重轮”——59式坦克，就是T-54的一款改进型。</p>
+            </remark>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="ruinHouseBerlin.jpg">
+            <bgm src="03_15_ruinBerlin.mp3" status="continue"></bgm>
+            <text>你麻木地继续向前走着。</text>
+            <text>视野之中，看不到一个活人。</text>
+            <text>带着木桩的铁丝栅栏像一张大网，从空中落了下来。</text>
+            <text remark="next">那曾经是分隔占领区的隔离墙——</text>
+            <remark post="U2FsdGVkX19jzpMoIyJvJmTjXOLz">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">1945年5月8日纳粹德国向盟军宣告无条件投降后，盟军将德国分为四个占领区，分别归苏、美、英、法四国管制，在占领区内实施民主化、非军事化和非纳粹化。</p>
+                <p class="article-text">冷战开始后，美、英、法三国管区合称为“西柏林”，被东德建设的“柏林墙”团团围住，是西方阵营在东方阵营中的孤岛。</p>
+            </remark>
+            <text>而现在，已经没有什么生命，还需要隔离了。</text>
+            <text>折断的■■刺穿了裤子，白森森地露在外面。</text>
+            <text>漆黑的■■从衬衫底下流了出来，连苍蝇都不来光顾。</text>
+            <text remark="next">即使是7年前的4月底，柏林也远不像今天这样了无生气。</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">柏林战役（1945年4月16日 - 1945年5月2日），是第二次世界大战中，欧洲战场的最后一场重大战役。是役苏波联军伤亡三十六万余人；德军伤亡三十一万余人，另有四十八万余人投降或被俘。</p>
+                <p class="article-text">4月30日21时50分，红军将胜利旗插上了柏林国会大厦圆顶，这标志着纳粹的彻底战败。</p>
+                <p class="article-text">5月8日，德国正式签署无条件投降协议，欧洲战事宣告结束。</p>
+            </remark>
+            <text>如果说战争制造的是人间地狱……</text>
+            <text>那么，现在的柏林，就是一个连孤魂野鬼都不存在的坟场。</text>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="ruinHallBerlin.jpg">
+            <bgm src="03_15_ruinBerlin.mp3" status="continue"></bgm>
+            <text>你麻木的继续向前走着。</text>
+            <text>视野之中，仿佛又看到了生命。</text>
+            <text>“你希望有个救世主吗？”</text>
+            <text>——你感到喉咙里发出了不属于自己的声音。</text>
+            <text>“是的！当然是的！”</text>
+            <text>——那些在烟尘与黑泥中闪闪发光的眼睛看着你。</text>
+            <text>在你为他们祈祷，祝福的手接触到他们的额头时——</text>
+            <text>你猛然意识到，他们放大的瞳孔中，早已无法浮现出任何东西。</text>
+            <text>那不过是与死亡同化的遗存。</text>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="ruinHouseBerlin.jpg">
+            <bgm src="03_15_ruinBerlin.mp3" status="continue"></bgm>
+            <text>“救世主”。</text>
+            <text>你看见这串诡异的文字熊熊燃烧着，从冰天雪地之中直插云霄。</text>
+            <text>你失去了理智，拼了命地向着这个符号冲过去。</text>
+            <text>但是，很快，一堵墙就挡住了你。</text>
+            <text>冰冷的一堵墙，封住了所有的去路。</text>
+            <text>大口呼着白汽的你，见到了连地狱中都未必会有的光景。</text>
+            <text>没有铁丝网，没有岗哨，这里只有一层又一层、紧紧堆积在一起的，冰冷坚硬的■■。</text>
+            <text>■■上结着一层薄霜，仿佛刚买到的雪糕，闪着星星点点的寒光。</text>
+            <text>耳中听不到爆炸。</text>
+            <text>只有冷入骨髓的火焰，在安静地燃烧。</text>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="ruinHallBerlin.jpg">
+            <bgm src="03_15_ruinBerlin.mp3" status="continue"></bgm>
+            <text>你看到了数公里之外惊慌的人们。</text>
+            <text>在神秘团体的带领下，占领军正在紧张地进行疏散。</text>
+            <text>每一条通往市中心的道路都被路障封锁。</text>
+            <text>路障的原材料五花八门。</text>
+            <text>你看到了军用的沙袋、</text>
+            <text>路灯的柱子、</text>
+            <text>阳台的栏杆、</text>
+            <text>机器的零部件、</text>
+            <text>T字型的钢梁、</text>
+            <text>变型的汽车和坦克、</text>
+            <text>还有从隔离墙上拆下来的铁丝网。</text>
+            <text>那些路障上面，还挂着几具■■的■■。</text>
+            <text>■■伸开双臂、张开双手，仿佛还要用那僵硬的■■去保护什么。</text>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="ruinHouseBerlin.jpg">
+            <bgm src="03_15_ruinBerlin.mp3" status="continue"></bgm>
+            <text>你很清楚，你的脚下，只有灰烬。</text>
+            <text>但是你不甘心。</text>
+            <text>在“救世主”的幻影下，你拼命地捡拾着心灵的碎片。</text>
+            <text>你叫不出她们的名字。</text>
+            <text>你不知道他们的经历。</text>
+            <text>你甚至不能理解，看起来不属于地球的怪物，为何会四下出没——</text>
+            <text>你只是固执地，不断地捡拾着。</text>
+            <text>你听到祂说——</text>
+            <text>“将他们的思念，铭刻进你的灵魂。”</text>
+            <text>仿佛，那就是，一切的救赎。</text>
+            <text>仿佛，你自己就是，“救世主”。</text>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="ruinHallBerlin.jpg">
+            <bgm src="03_15_ruinBerlin.mp3" status="continue"></bgm>
+            <text>你躺在地上的一条裂缝里。</text>
+            <text>你累极了，累到脑筋反而清醒了过来。</text>
+            <text>累到你终于发现，自己的所作所为，毫无意义。</text>
+            <text>你不是■■，不是■■，更不是■■■——</text>
+            <text>但是，你已经累极了。</text>
+            <text>疲劳，充斥着你的每一个细胞。</text>
+            <text>意识……渐渐无法维持。</text>
+            <text>在陷入长眠之前的朦胧中——</text>
+            <text>你莫名其妙地开始相信，自己，其实做了一件了不起的事情。</text>
+            <text>只是……不知是在过去、现在、还是将来。</text>
+            <text>蝴蝶跌落在你的指尖。</text>
+            <text>你修好了它的翅膀。</text>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="carNight.jpg">
+            <bgm src="12_15_1946.mp3" status="start"></bgm>
+            <speak chara="weltNoFace">……</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="CG18-1.jpg">
+            <bgm src="12_15_1946.mp3" status="continue"></bgm>
+            <speak chara="einNoFace">醒了吗？</speak>
+            <speak chara="einNoFace">你好像，做了个噩梦呢。</speak>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace">（我好像是在一辆车里……）</speak>
+            <speak chara="weltNoFace">（躺在她的腿上……）</speak>
+            <speak chara="weltNoFace">（特斯拉……在开车吗……）</speak>
+            <speak chara="weltNoFace">——我、我怎么了？是、是“神之键”做了什么吗？</speak>
+            <goto goto="105" change="0"/>
+        </scene>
+        <scene id="105" background="CG18-2.jpg">
+            <speak chara="einNoFace">不……我猜……应该和“神之键”没有关系。</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="CG18-2.jpg">
+            <bgm src="8_24_war.mp3" status="start"></bgm>
+            <speak chara="einNoFace">击倒你的，恐怕是自然灾害。</speak>
+            <speak chara="weltNoFace">自然灾害？</speak>
+            <speak chara="einNoFace">在你昏过去的时候，发生了地震。</speak>
+            <speak chara="weltNoFace">地、地震？我是因为地震受伤了吗？</speak>
+            <speak chara="einNoFace">不，不是你想象的那样。震感不是很强。波士顿应该不会有什么人受伤。</speak>
+            <speak chara="weltNoFace">那……</speak>
+            <speak chara="einNoFace">根据艾妲的对余震的监测，震中应该在纽约市区，曼哈顿一带。</speak>
+            <speak chara="weltNoFace">曼哈顿？那不是……</speak>
+            <speak chara="einNoFace">嗯……是爱迪生她们工作的地方。</speak>
+            <speak chara="einNoFace">不过……</speak>
+            <speak chara="einNoFace">……这还不是最值得担忧的部分。</speak>
+            <speak chara="einNoFace">在你晕倒的同时，艾妲也发生了短时间的故障。</speak>
+            <speak chara="einNoFace">根据它自检的结果，是高频率的能量脉冲导致了此次异常。</speak>
+            <speak chara="weltNoFace">能量……脉冲？</speak>
+            <speak chara="einNoFace">是的。</speak>
+            <speak chara="einNoFace">有我们相对熟悉的电磁脉冲……</speak>
+            <speak chara="einNoFace">以及，陌生而可怕的……</speak>
+            <speak chara="einNoFace">……崩坏脉冲。</speak>
+            <speak chara="weltNoFace">什……</speak>
+            <speak chara="einNoFace">最坏情况下……柏林发生的事情，可能会在纽约再次发生一次。</speak>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="carNight.jpg">
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <text>1955年11月24日，凌晨4时许。</text>
+            <text remark="next">1号国道，罗德岛州和马萨诸塞州交界的布莱克斯通河畔。</text>
+            <remark post="U2FsdGVkX19ohxbd4UVhPVop55vD">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">美国1号国道（U.S. Route 1），南起佛罗里达州的基韦斯特（Key West，美国本土最南端的城镇，距离对岸的古巴首都哈瓦那仅171公里）海岸，北至缅因州的肯特堡（Fort Kent）与加拿大新不伦瑞克省161号公路（New Brunswick Route 161，简称NB-161）连接，全长3846公里，是连接美国东海岸15个州的主要公路之一。从1957年起，1号国道的职能逐渐被新建的95号洲际公路（Interstate 95，简称I-95）取代。</p>
+            </remark>
+            <show chara="teslaBoringGlassHeadsetWinterClose-up" position="center"/>
+            <text>全名为芙蕾德莉卡·尼古拉·特斯拉的42实验室研究员，正全神贯注地握着方向盘。</text>
+            <text>事实上，若不是集中注意力在开车上，她有理由相信，自己才会是情绪最不稳定的那一个。</text>
+            <text>不中用的家伙醒来之后……前因后果的种种情况，就交给更有责任心的她去解释吧。</text>
+            <text>不过，会因为崩坏脉冲而昏倒……也意味着不中用家伙的身体状态，进入了不稳定的阶段吧。</text>
+            <text>……不对，现在还不是操心这些的时候。</text>
+            <text>耳机里，可以听见艾妲仍旧在不断地尝试拨号。</text>
+            <text remark="next">也许是刚刚经历了电磁脉冲的缘故，各种号码，全都是拨不通的状态。</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">在电磁脉冲的影响范围内，任何没有受到保护的电器、或任何连接到电线的东西，如电力系统、电子设备、集成电路等都会遭受无法修复的损坏。与晶体管相比，电子管（真空管） 不容易受到电磁脉冲的攻击——但这也仅仅指电子管本身。</p>
+            </remark>
+            <text>如果不是为了和艾妲连接而做过特殊强化的话，这台WS No.88，估计也逃不脱在电磁脉冲下短路熔毁的命运。</text>
+            <text>信息的瘫痪意味着社会的瘫痪。</text>
+            <text>难道要让我就这样盲目地开向纽约吗？</text>
+            <text>真希望还有哪个号码能奇迹般地——</text>
+            <hide position="center"/>
+            <speak chara="yuriNoNameNoFace">这、这里是紧急应变管理局、普罗维登斯特别联络办公室！请问您是什么部门？</speak>
+            <show chara="teslaAstonishGlassHeadsetWinterClose-up" position="center"/>
+            <text>——我的天啊，这下还真的接通了。</text>
+            <goto goto="130" change="#ffffff"/>
+        </scene>
+        <scene id="130" background="carNight.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <show chara="teslaShameGlassHeadsetWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">我们是……天命组织直属，帝国研究院42实验室。爱因斯坦博士和特斯拉博士。你可能没有听说过——</speak>
+            <hide position="center"/>
+            <speak chara="yuriNoNameNoFace">怎么可能没有听说过？！天啊，总算有靠谱的人和我联络了！</speak>
+            <text>电话另一头的男青年激动地喊了一声，随后又连连道歉。</text>
+            <speak chara="yuriNoFace">实在对不起……我的名字是尤里·阿姆斯特朗，今天值夜班。</speak>
+            <speak chara="yuriNoFace">突然之间又是地震又是停电、电话也打不通，所以铃声一响，我就特别激动……</speak>
+            <speak chara="yuriNoFace">啊，对了对了……因为你们都在“紧急咨询名单”上，所以我虽然不认识你们，但却很熟悉你们的名字……</speak>
+            <show chara="teslaNormalGlassHeadsetWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">“紧急咨询名单”？那是什么？</speak>
+            <hide position="center"/>
+            <speak chara="yuriNoFace">是政府和天命组织北美支部共同拟定的联络名单，以便有事时，紧急应变管理局的指挥系统能够正常运转。</speak>
+            <speak chara="yuriNoFace">你们的名字分别在第12顺位和第13顺位……呃，这个不重要。</speak>
+            <speak chara="yuriNoFace">总之，在无法联系到更高顺位指挥者的当下，我，乃至普罗维登斯的全体管理局成员……</speak>
+            <speak chara="yuriNoFace">……将全权接受你们的指挥。</speak>
+            <show chara="teslaAstonishGlassHeadsetWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">等等等等……你们不是政府部门吗？</speak>
+            <speak chara="teslaNoFace">接受我们的指挥是什么意思？</speak>
+            <hide position="center"/>
+            <speak chara="yuriNoFace">呃……你问我什么意思……</speak>
+            <speak chara="yuriNoFace">章程就是这样规定的啊……</speak>
+            <speak chara="yuriNoFace">……连我们特别联络办公室，都是在爱迪生小姐特别建议之下，由总统先生签署特别条令成立的啊。</speak>
+            <speak chara="yuriNoFace">要我读给你听的话，名单的第一位是总统先生，第二位是爱迪生小姐，第三位是普朗克小姐，第四位是——</speak>
+            <show chara="teslaBoringGlassHeadsetWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">好了好了我大概懂了。</speak>
+            <show chara="teslaShameGlassHeadsetWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">鸡窝头，这帮人需要你去发号施令喽。</speak>
+            <show chara="einFoolWinterClose-up" position="center"/>
+            <speak chara="einNoFace">特斯拉博士，不听完人家的解释，这样好吗？</speak>
+            <show chara="teslaShameGlassHeadsetWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">我才懒得和政府部门打交道呢……</speak>
+            <show chara="teslaBoringGlassHeadsetWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">再说，他还有什么可解释的啊，你的顺位摆明了在我之前——</speak>
+            <hide position="center"/>
+            <speak chara="yuriNoFace">等等——特斯拉小姐，你是在和爱因斯坦博士交谈吗？</speak>
+            <show chara="teslaAngryGlassHeadsetWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">当然啦，不然还有谁啊？你这个啰嗦鬼！</speak>
+            <speak chara="teslaNoFace">她是12号，我是13号，你们让她发号施令就可以了——我说的不对吗？</speak>
+            <hide position="center"/>
+            <speak chara="yuriNoFace">……</speak>
+            <show chara="teslaBoringGlassHeadsetWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">怎么了？你怎么突然不吭气了？</speak>
+            <hide position="center"/>
+            <speak chara="yuriNoFace">特斯拉博士，恕我直言……</speak>
+            <speak chara="yuriNoFace">名单上的第12顺位……</speak>
+            <speak chara="yuriNoFace">……就是您自己啊。</speak>
+            <end post="U2FsdGVkX1+WKqmGUyb3qMnZ46Is"/>
+        </scene>
+    </story>
+</data>		

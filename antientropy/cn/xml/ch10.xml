@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <img>
+        <image src="mancala.png" type="background"/>
+    </img>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="plankVienaNormal.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="start"></bgm>
+            <text remark="next">维也纳·十三区·天命总部</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">维也纳的十三区称为“席津”（Hietzing），位于该市的最西部。哈布斯堡家族的美泉宫（Schönbrunn Palace）即位于此地。</p>
+            </remark>
+            <speak chara="abcNoFace">普朗克教授，请不要再做这种标新立异的事情了。</speak>
+            <text>评议会的某人通过匿名发言装置敲打着身材火辣的学者。</text>
+            <goto goto="15" change="0"/>
+        </scene>
+        <scene id="15" background="plankVienaSly.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">这是教学的一环。我不知道你在大惊小怪什么。</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="plankVienaSmile.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="abcNoFace">教学可不是违背组织原则的借口。</speak>
+            <goto goto="25" change="0"/>
+        </scene>
+        <scene id="25" background="plankVienaSerious.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">……这种程度的自决权，北美支部也好，42实验室也好，都还是有的吧？</speak>
+            <speak chara="abcNoFace">42实验室是欧洲支部的一员。流程还是要走的。</speak>
+            <text>另一位评议会的成员，语气似乎要平和一些。</text>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="plankVienaSly.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">所以，你们其实是打算收回哪边的自决权呢？</speak>
+            <goto goto="35" change="0"/>
+        </scene>
+        <scene id="35" background="plankVienaSmile.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="abcNoFace">不……请不要这样偏激地理解。我们只是在探讨程序上的问题，大家不要上纲上线。</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="plankVienaSly.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">那么我也只是提醒一下——</speak>
+            <goto goto="45" change="0"/>
+        </scene>
+        <scene id="45" background="plankVienaNormal.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">自决权是研究机构的生命力之源。如果事事都要强求走程序报批，从学术活力上来讲，将是组织的灾难。</speak>
+            <speak chara="abcNoFace">咳咳……话说回来，爱迪生个人的情况呢？</speak>
+            <text>眼见双方在这个议题上各执一词，第三位发言者转移了话题。</text>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="plankVienaSly.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">哦，南希公主啊。她可有意思了。</speak>
+            <goto goto="55" change="0"/>
+        </scene>
+        <scene id="55" background="plankVienaSmile.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">比如，我手头就有确切证据——她在帮助训练组织外的军队。</speak>
+            <speak chara="abcNoFace">什么？她打算谋反吗？</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="plankVienaSly.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">不……这是美国政府的请求——双方签署过非致命性武器的研发协议，所以应该很难拒绝吧。</speak>
+            <goto goto="65" change="0"/>
+        </scene>
+        <scene id="65" background="plankVienaSmile.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="abcNoFace">……搞什么鬼，原来是那种用来维持治安的军队吗。</speak>
+            <speak chara="abcNoFace">不要开这种恶劣的玩笑，普朗克教授。</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="plankVienaSly.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">哎呀哎呀……我只是觉得各位刚才太严肃了哦？</speak>
+            <goto goto="75" change="0"/>
+        </scene>
+        <scene id="75" background="plankVienaSmile.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="abcNoFace">……评议会当然要严肃。请不要把那些不好的“外国”习惯带进来。</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="plankVienaSerious.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="planckNoFace">抱歉啦，我是土生土长的【巴伐利亚】人，没有办法嘛。</speak>
+            <goto goto="85" change="0"/>
+        </scene>
+        <scene id="85" background="plankVienaNormal.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <speak chara="abcNoFace">我说……各位请不要跑题。</speak>
+            <text>一个颇有威严的“长者”开口说道。</text>
+            <speak chara="abcNoFace">北美支部的琐事先放在一边……今天我们还有更重要的事情需要讨论。</speak>
+            <goto goto="100" change="#ffffff"/>
+        </scene>
+        <scene id="100" background="edisonTower.jpg">
+            <bgm src="10_25_ada.mp3" status="start"></bgm>
+            <text>纽约·曼哈顿·爱迪生大厦</text>
+            <show chara="schroNormalAhFar" position="left"/>
+            <show chara="edisonSlyWinterFar" position="center" opacity="0.7"/>
+            <show chara="nokiaSmileEmWinterFar" position="right" opacity="0.7"/>
+            <speak chara="schroNoFace">所以……你们说的“重要的事”，究竟是什么？</speak>
+            <show chara="schroNormalEmFar" position="left"/>
+            <text>差点打翻了墨水瓶的薛定谔，没好气地看着硬是要打断她研究工作的南希·爱迪生和埃里阿斯·诺基安维塔宁。</text>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="edisonTower.jpg">
+            <bgm src="10_25_ada.mp3" status="continue"></bgm>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">由我来说明吧。</speak>
+            <show chara="nokiaSmileEmWinterClose" position="right"/>
+            <text>男子装模作样地推了推他的金丝边儿眼镜——</text>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">之前总部主动借给了42实验室一份未发表的死海古卷……你还记得这事吗？</speak>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">……啊。</speak>
+            <speak chara="schroNoFace">……所以呢？</speak>
+            <speak chara="schroNoFace">你们从这种“只有”三四千年历史的东西里，竟然发现了什么吗？</speak>
+            <show chara="schroNormalEmClose" position="left"/>
+            <text>罗马卷研究员显然不是很待见这些蛮荒时代的玄幻古董。</text>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">……先和你确认一件事。</speak>
+            <speak chara="nokiaNoFace">物理学里是不是有个很重要的常数，数值的前几位是6626070？我是说，十进制的情况下。</speak>
+            <show chara="nokiaSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">……6626070？</speak>
+            <speak chara="schroNoFace">那不是普朗克常数吗？明知故问。</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">是不是还有一个常数，前几位是1054571？</speak>
+            <show chara="nokiaSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">……这是我建议大家使用的约化普朗克常数。</speak>
+            <speak chara="schroNoFace">你到底想表达什么？</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">……它们其实都出现在这个“只有三四千年历史”的文稿里啊！</speak>
+            <show chara="nokiaSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">……什么？</speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="edisonTower.jpg">
+            <bgm src="10_25_ada.mp3" status="continue"></bgm>
+            <show chara="schroNormalEmClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">不止这些！</speak>
+            <speak chara="nokiaNoFace">你看，虽然符号体系有所不同……</speak>
+            <speak chara="nokiaNoFace">但这个模样奇怪的纹章，这样这样拆开来看——你不觉得很像微积分里的公式吗？</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right"/>
+            <text>这个男人越说越激动，掏出自己的笔记本就伸到了罗马卷的面前。</text>
+            <show chara="nokiaSmileEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose-up" position="left"/>
+            <speak chara="schroNoFace">呃……离这么近我没法看……</speak>
+            <show chara="schroNormalEmClose-up" position="left"/>
+            <text>物理学博士尴尬地向后缩了一步——</text>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="edisonTower.jpg">
+            <bgm src="10_25_ada.mp3" status="continue"></bgm>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">嗯……</speak>
+            <speak chara="schroNoFace">也有道理吧……</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">是吧是吧！你觉得这真的是纯粹的巧合吗？</speak>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">……所以？</speak>
+            <speak chara="schroNoFace">……你难道想说，这帮犹太人是从哪里的前文明遗迹抄来的这种东西吗？</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">没错！就是这个！</speak>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">……啊？</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">先说结论——我认为这篇古卷极有价值，它无意中记录了一种我们未曾想象过的能量转化方式。</speak>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">你先看看我破译出的这个。</speak>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">……论文？</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">没错。论文。</speak>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">虽然古卷本身，完全是意味不明的阿拉姆咒语加上耸人听闻的标题——</speak>
+            <speak chara="nokiaNoFace">但如果把它当作一个输出结果，一个另一种文字经过简单代换加密之后的结果……</speak>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">——等等等等。“简单代换加密”？</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">啊……抱歉，是我跳得太快了。</speak>
+            <speak chara="nokiaNoFace" remark="next">把A换成D，B换成E，C换成F……这种最原始的加密方式——简单代换，也叫“凯撒密码”，你是知道的吧？</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“（凯撒）如果需要保密，信中便用暗号，也即是改变字母顺序，使局外人无法组成一个单词。如果想要读懂和理解它们的意思，得用第4个字母置换第一个字母，即以D代A，余此类推。”</p>
+                <p class="article-text">——苏埃托尼乌斯（69AD ~ ？），《罗马十二帝王传》</p>
+            </remark>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">嗯。</speak>
+            <speak chara="schroNoFace">所以？</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">想象一下我们就是那些误入前文明遗迹的犹太人。</speak>
+            <speak chara="nokiaNoFace">我们看到了前世代人类留下来的文字。以为是某种神秘的咒语。</speak>
+            <speak chara="nokiaNoFace">但很不幸，我们学识浅薄，并不认识这些天书。</speak>
+            <speak chara="nokiaNoFace">在这种状况下，如果我们想强行阅读……</speak>
+            <show chara="nokiaSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">就只能自己给每个字母编一个名字出来，一个字母一个字母地读？</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">没错。</speak>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">因为这种一一对应的关系，所以古卷上的阿拉姆语文本，恰好就形成了原始文本的一个简单代换。</speak>
+            <speak chara="nokiaNoFace">……一旦意识到了这一层，剩下的破译工作就极其简单了。不过是试错罢了。</speak>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">……</speak>
+            <speak chara="schroNoFace">……解密的结果既然有意义，从概率的角度上讲，原文应该就是如此了。</speak>
+            <speak chara="schroNoFace">……所以，你所谓“我们未曾想象过的能量转化方式”，究竟是什么？</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">是让崩坏能以可控的形式，回归普通能量的办法。</speak>
+            <show chara="nokiaSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">……什么？</speak>
+            <goto goto="160" change="0"/>
+        </scene>
+        <scene id="160" background="edisonTower.jpg">
+            <bgm src="10_25_ada.mp3" status="continue"></bgm>
+            <show chara="schroNormalEmFar" position="left" opacity="0.7"/>
+            <show chara="edisonSmileWinterFar" position="center"/>
+            <show chara="nokiaSeriousEmWinterFar" position="right" opacity="0.7"/>
+            <speak chara="edisonNoFace">没什么可惊讶的吧。</speak>
+            <speak chara="edisonNoFace" remark="next">热力学第二定律约束的是普通内能，虚数侧的崩坏能可不包含在内啊？</speak>
+            <remark post="U2FsdGVkX19FYPxwW3ZnF4aisvMm">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">热力学第二定律有多种等价的表述。常见的有：</p>
+                <p class="article-text">“不可能把热量从低温物体传递到高温物体而不产生其他影响”（克劳修斯表述）；</p>
+                <p class="article-text">“不可能从单一热源吸收能量，使之完全变为有用功而不产生其他影响”（开尔文表述）；</p>
+                <p class="article-text">“不可存在一个机器，在循环动作中把以重物升高而同时使一热库冷却”（普朗克表述）；</p>
+                <p class="article-text">“对于一个由给定能量、物质组成，参数确定的系统，存在这样一个稳定的平衡态——其他状态总可以通过可逆过程达到它”（Hatsopoulos-Keenan表述）；</p>
+                <p class="article-text">等等。</p>
+            </remark>
+            <show chara="schroNormalAhFar" position="left"/>
+            <show chara="edisonSmileWinterFar" position="center" opacity="0.7"/>
+            <speak chara="schroNoFace">话虽如此……</speak>
+            <speak chara="schroNoFace">但条件应该是超高的崩坏能密度……这样一来，可控程度也就趋近于零……</speak>
+            <show chara="schroNormalEmFar" position="left" opacity="0.7"/>
+            <show chara="edisonSighWinterFar" position="center"/>
+            <speak chara="edisonNoFace">不，当然不是趋近于零。</speak>
+            <show chara="edisonSlyWinterFar" position="center"/>
+            <speak chara="edisonNoFace">你难道忘记了“律者”吗？</speak>
+            <goto goto="200" change="#ffffff"/>
+        </scene>
+        <scene id="200" background="campusImperialDay.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <text>伦敦·肯辛顿·帝国研究院</text>
+            <goto goto="210" change="0"/>
+        </scene>
+        <scene id="210" background="schoolDay3.jpg">
+            <bgm src="street.mp3" status="continue"></bgm>
+            <text article="1">
+                <p class="article-text">也许是爱因斯坦的字典攻击过于强力——登时晕菜的特斯拉一直睡到了第二天的下午。</p>
+                <br />
+                <p class="article-text">当她揉着黑眼圈终于爬下楼来的时候，那个罪魁祸首，正和瓦尔特面对面地坐着，轮流摆弄着一些不知从哪里捡来的小石子。</p>
+            </text>
+            <goto goto="220" change="0"/>
+        </scene>
+        <scene id="220" background="studyNoon.jpg">
+            <bgm src="street.mp3" status="continue"></bgm>
+            <text article="1">
+                <p class="article-text">屋子里正开着地暖，室温比寒流到来之前还要舒服。</p>
+                <br />
+                <p class="article-text">慵懒的空气里，弥漫着一股油炸食品所特有的香味。</p>
+            </text>
+            <show chara="teslaNormalSleepyNightyClose" position="center"/>
+            <speak chara="teslaNoFace">我说你们……在搞啥？</speak>
+            <hide position="center"/>
+            <show chara="einNormalCoatClose" position="right"/>
+            <speak chara="einNoFace">奥姆维索。</speak>
+            <show chara="einSmileCoatClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose" position="left"/>
+            <speak chara="weltNoFace">奥瓦勒。</speak>
+            <show chara="weltNormalSweaterClose" position="left" opacity="0.7"/>
+            <show chara="einNormalCoatClose" position="right"/>
+            <speak chara="einNoFace">巴奥。</speak>
+            <show chara="einSmileCoatClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose" position="left"/>
+            <speak chara="weltNoFace" remark="next">卡拉赫。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">以上四种均为播棋（Mancala，或称“非洲棋”）的不同变体。奥姆维索（Omweso）流行于乌干达，奥瓦勒（Oware）流行于加纳，巴奥（Bao）流行于肯尼亚，卡拉赫（Kalah）则是由美国人改造出的规则。</p>
+                <p class="article-text">总体而言，这是一种两人对弈的棋类游戏，特色是如播种般过程不断搬移棋子，洒进棋盘的各洞中——并在此过程中，根据特定规则赢取棋子、进而获胜。</p>
+                <div class="article-pic" picsrc="mancala.png" style="background-position:left;height:11.5rem;"/>
+            </remark>
+            <show chara="weltNormalSweaterClose" position="left" opacity="0.7"/>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="teslaDisgustedShySleepyNightyClose" position="center"/>
+            <speak chara="teslaNoFace">……给我说人话。</speak>
+            <text>红毛乱翘的恶魔恶狠狠地盯着茶几上三五成堆的小石子，做出要一把掀了它们的样子。</text>
+            <show chara="einFoolCoatClose" position="center"/>
+            <speak chara="einNoFace">小心小心。</speak>
+            <text>天然卷赶忙伸手护住石子堆——</text>
+            <show chara="einSlyCoatClose" position="center"/>
+            <speak chara="einNoFace">我们正在研究播棋的各类变种规则。</speak>
+            <show chara="teslaNormalSleepyNightyClose" position="center"/>
+            <speak chara="teslaNoFace">……你们不会一上午都在干这种蠢事儿吧。</speak>
+            <show chara="einSmileCoatClose" position="center"/>
+            <speak chara="einNoFace">60种主流变体，已经研究了4种。</speak>
+            <show chara="einSlyCoatClose" position="center"/>
+            <speak chara="einNoFace">正准备尝试第5种。</speak>
+            <show chara="teslaNormalSleepyNightyClose" position="center"/>
+            <speak chara="teslaNoFace">……这真的有意思？</speak>
+            <show chara="einSmileCoatClose" position="center"/>
+            <speak chara="einNoFace">纯情的男人需要一些不那么刺激的娱乐。</speak>
+            <text>天然卷继续不着边际地解释着。</text>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <show chara="einSlyCoatClose" position="center"/>
+            <speak chara="einNoFace">……提醒一下，你昨晚正是找的这个【纯情】男人发酒疯。</speak>
+            <show chara="teslaNormalSleepyNightyClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">……咕。</speak>
+            <text>迷迷瞪瞪的红色恶魔似乎突然回想到了什么。</text>
+            <show chara="teslaShyHandNightyClose" position="center"/>
+            <speak chara="teslaNoFace">呃啊啊啊啊啊啊！</speak>
+            <text>她的脸瞬间通红，恨不得像猫一样钻到沙发底下去。</text>
+            <hide position="center"/>
+            <show chara="einNormalCoatClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <text>瓦尔特尴尬地扭过了头。</text>
+            <show chara="weltTiredSweaterClose" position="left" opacity="0.7"/>
+            <show chara="einSlyCoatClose" position="right"/>
+            <speak chara="einNoFace">如你所见，【这家伙】就是这么纯情。</speak>
+            <show chara="einSlyCoatClose" position="right" opacity="0.7"/>
+            <show chara="teslaDisgustedShySleepyNightyClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">……你到底是在说谁啊！</speak>
+            <text>爱因斯坦暧昧的眼神，令特斯拉无法理解，这句话是究竟指瓦尔特还是她自己。</text>
+            <show chara="teslaDisgustedShySleepyNightyClose" position="center" opacity="0.7"/>
+            <show chara="einSlyCoatClose" position="right"/>
+            <speak chara="einNoFace">嗯。今天的特斯拉也特别可爱呢。</speak>
+            <show chara="einSlyCoatClose" position="right" opacity="0.7"/>
+            <show chara="teslaShyHandNightyClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">你够了啦！！！！</speak>
+            <goto goto="300" change="#ffffff"/>
+        </scene>
+        <scene id="300" background="carNoon.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <sound src="9_11_car away.mp3"/>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace">那个……我们这是要去什么地方？</speak>
+            <text remark="next">乘坐在开往汉普斯特德荒野的计程车上，瓦尔特总算得到了询问某个红发暴君的机会。</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">汉普斯特德荒野（Hampstead Heath，"the Heath"）是一个古老而面积巨大的伦敦公园，此地横跨一条粘土带（包含作为伦敦地理最高点的沙丘，海拔134米），从汉普斯特德绵延至海格特公墓，是伦敦著名的自然景观之一。</p>
+            </remark>
+            <show chara="weltTiredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">哈？</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">……对哦，我打预约电话的时候，你们还在玩那个乱七八糟的石子游戏呢。</speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">公墓啦，海格特公墓。</speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">公墓？！</speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">……大惊小怪什么。又不是要把你给埋进去。</speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltTiredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">话说回来……</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">你自己丢进后备箱的大袋子，你自己搞不清楚里面装的是什么吗？</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……那个，我再怎么说也不会有透视眼之类的特异功能吧？</speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">你难道有鼻炎吗？猫粮的味道都闻不出来？</speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">这个……我又没有养过猫——</speak>
+            <show chara="weltTiredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">——你就不会闻着闻着，留点口水啥的吗？</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……你当我是猫啊！</speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">差不多吧？反正没有区别。</speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……区别大了好吗？！</speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaSmileGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">噗。会这么认真反驳的，也只有瓦尔特了吧。</speak>
+            <show chara="teslaSmileGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">不说这个……</speak>
+            <speak chara="weltNoFace">我们为啥要去公墓喂猫呢？这车程好像还挺远的啊。</speak>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaSmileGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">算是……喂习惯了吧。</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">毕竟上半年的时候，被强迫着在那边做了五个月的义工。</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">强迫你……做义工……</speak>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">……在公墓？</speak>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">这得是什么情况啊？</speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">什么情况不情况的……</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">法院判你做义工，你还能不去啊？</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">法院？</speak>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">你、你这是触犯了什么和墓地有关的法律吗……</speak>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">况且，组织里的成员，不是都有司法豁免权的吗？</speak>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">……组织和各国政府签订的条约，难道能包含酒驾？</speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">啥？</speak>
+            <speak chara="weltNoFace">酒驾？</speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">你以为，为啥芬兰人跑了，我们就只能坐地铁或者打车啊？</speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="teslaNoFace">还不是该死的苏格兰场！非要吊销我的驾照不可！</speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <speak chara="weltNoFace">这个……听起来怎么都是你自己的不对吧……</speak>
+            <show chara="weltTiredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">什么我自己的不对……</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">明明是他们的标准制定得莫名其妙好吗！我自己根本没什么感觉的说！</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">这这……你要是自己都能“感觉”出来了，那就大事不妙了吧？！</speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">咳咳，总之，上半年的周末本小姐都是在坟堆里度过的……</speak>
+            <show chara="teslaSmileGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">……不过其实也还好。</speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">海格特这个地方，与其说是“公墓”，倒不如说是“古迹”，更合适一些。</speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……古迹？</speak>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaSmileGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">到了你就知道啦。</speak>
+            <goto goto="400" change="#ffffff"/>
+        </scene>
+        <scene id="400" background="graveAfternoon.jpg">
+            <bgm src="10_20_londonderry_b.mp3" status="start"></bgm>
+            <text remark="next">于1839年5月去世的伊丽莎白·杰克逊女士一定料想不到……</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">伊丽莎白·杰克逊（Elizabeth Jackson）是第一位埋葬在海格特公墓的逝者。</p>
+                <p class="article-text">在十九世纪中前期，由于工业革命带来的城市人口暴涨，伦敦一度出现了“墓荒”，甚至出现了在下葬数月的新坟上继续开坟的窘况。海格特公墓，正是当时的英国政府为了解决这一民生难题而新筹划的公墓之一。</p>
+            </remark>
+            <text>在她身后的几十年中，她所安息的场所，会逐渐演变成一个各式墓葬风格云集、自成一景——</text>
+            <text>——甚至周边别墅都能热卖的，独特的公墓。</text>
+            <goto goto="410" change="0"/>
+        </scene>
+        <scene id="410" background="catHighgate.jpg">
+            <bgm src="10_20_londonderry_b.mp3" status="continue"></bgm>
+            <text>自然……这种公园一般的场所，少不了猫的存在。</text>
+            <speak chara="teslaNoFace">啊……是般度。</speak>
+            <speak chara="weltNoFace">般度？</speak>
+            <speak chara="weltNoFace">……是猫的名字吗。</speak>
+            <speak chara="teslaNoFace">嗯。作为完美地被【切掉】了的一只猫，你不觉得这名字很合适么？</speak>
+            <speak chara="weltNoFace">……完全不明白你在说什么。</speak>
+            <speak chara="teslaNoFace" remark="next">没事，就是借用了一个没劲的故事里的没劲的角色的名字罢了……</speak>
+            <remark post="U2FsdGVkX18I67XYQqwGpilFZmQ5">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">般度（Pandu）是《摩诃婆罗多》中般度族的始祖，阿周那等“般度五子”名义上的父亲。</p>
+                <p class="article-text">年少时，般度在郊野打猎，拉弓射中了一只正在交配的羚羊——但羚羊是仙人化身，般度被他诅咒不得与人交合，否则会惨死。长大后，身为国王的般度迎娶了学有仙术的贡蒂，贡蒂凭借“天神降子”生下诸子（包括太阳神之子迦尔纳，迦尔纳是她未婚先孕的长子，由一车夫收养长大），这才使般度有了继承人。</p>
+            </remark>
+            <goto goto="420" change="0"/>
+        </scene>
+        <scene id="420" background="graveAfternoon.jpg">
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <show chara="teslaStarGlassWinterFar" position="right"/>
+            <show chara="weltTiredWinterFar" position="left" opacity="0.7"/>
+            <speak chara="teslaNoFace">对了对了！</speak>
+            <speak chara="teslaNoFace">袋子里的猫粮分我一半！</speak>
+            <show chara="teslaStarGlassWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterFar" position="left"/>
+            <speak chara="weltNoFace">一半？</speak>
+            <speak chara="weltNoFace">它一只就能吃这么多吗？</speak>
+            <show chara="weltScaredWinterFar" position="left" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">……想什么呢你。</speak>
+            <show chara="teslaShameGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">这么大一片园子，现在又是这个时间点儿了——分头行动不是很合理吗。</speak>
+            <show chara="weltScaredWinterFar" position="left"/>
+            <speak chara="weltNoFace">分、分头行动？</speak>
+            <speak chara="weltNoFace">在、在这里？</speak>
+            <show chara="weltScaredWinterFar" position="left" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaEmbarraGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">你一个大男人就这么点胆子么。</speak>
+            <show chara="teslaShameGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">给，地图。我肯定要留在东区这边，所以……</speak>
+            <show chara="teslaStarGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">整个西区都交给你了哦！</speak>
+            <goto goto="430" change="#ffffff"/>
+        </scene>
+        <scene id="430" background="graveDayLate.jpg">
+            <bgm src="10_20_londonderry_b.mp3" status="start"></bgm>
+            <text remark="next">海格特公墓虽不像威斯敏斯特教堂那样，安葬着不计其数的帝国名流——</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">威斯敏斯特修道院（Westminster Abbey，亦作“西敏寺”）位于伦敦市中心威斯敏斯特区，一直是英国君主（从英格兰时期起）加冕登基及下葬的地点。</p>
+                <p class="article-text">安葬于此的非王室成员多为英国伟人，包括艾萨克·牛顿、查尔斯·达尔文、查尔斯·狄更斯等等。</p>
+            </remark>
+            <text remark="next">——但“迈克尔·法拉第”和“卡尔·马克思”这两个名字，还是令独处墓园的瓦尔特感到了莫名的安心。</text>
+            <remark post="U2FsdGVkX18nWTNTcyVHAnSlQCjJ">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">此二位伟人均葬于海格特公墓。</p>
+                <p class="article-text">p.s. 对于我们的作品而言，这里还应该包含道格拉斯·亚当斯（Douglas Adams，1952AD ~ 2001AD），《银河系漫游指南》的作者。感谢他给出了“42”这个“生命、宇宙以及任何事情的终极答案”（Answer to the Ultimate Question of Life, The Universe, and Everything）。</p>
+            </remark>
+            <text>这么说来……所谓的“名人效应”，还真是一个无所不在的现象呐。</text>
+            <text>好在，拜其所赐，名为瓦尔特的青年，总算能稍稍体验一下这座墓园的独特魅力了。</text>
+            <text article="1">
+                <p class="article-text">渺小到难以察觉的简陋墓穴、浮夸到仿佛吴哥窟的豪华享殿，在青苔与酸雨的侵蚀下，共同衰败成了一片史前废墟般的场所。琴键早已模糊不堪的石雕钢琴、浑身任由藤蔓攀爬的断臂雕像、鬃毛上落满了鸟粪的花岗岩狮子……这里固然阴森可怖，却也如同一个天然的博物馆——众生百态，琳琅满目。</p>
+            </text>
+            <goto goto="440" change="#ffffff"/>
+        </scene>
+        <scene id="440" background="graveDayLate.jpg">
+            <bgm src="10_20_londonderry_b.mp3" status="continue"></bgm>
+            <show chara="reaNormalAhWinterFar" position="right"/>
+            <speak chara="weltNoFace">啊。</speak>
+            <text>当青年将视线收回到眼前的步道上时，他猛然发现，在前方的拐角处，矗立着一个有些熟悉的女性身影。</text>
+            <hide position="right"/>
+            <show chara="reaSmileAhWinterFar" position="center"/>
+            <speak chara="reannaNoNameNoFace">呀。真是有缘呢。</speak>
+            <speak chara="weltNoFace">那个……</speak>
+            <show chara="reaSmileEmWinterFar" position="center"/>
+            <speak chara="reannaNoNameNoFace">是上个月，在机场的时候吧？</speak>
+            <goto goto="450" change="#ffffff"/>
+        </scene>
+        <scene id="450" background="airportNewYorkOld.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="start"></bgm>
+            <show chara="blackTwo" position="center"/>
+            <speak chara="weltNoFace">……</speak>
+            <goto goto="460" change="#ffffff"/>
+        </scene>
+        <scene id="460" background="graveDayLate.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="weltScaredWinterFar" position="left"/>
+            <show chara="reaSmileEmWinterFar" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace">……啊！</speak>
+            <show chara="weltShyWinterFar" position="left"/>
+            <speak chara="weltNoFace">那、那个……</speak>
+            <show chara="weltShyWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaSmileEmSadWinterFar" position="right"/>
+            <speak chara="reannaNoNameNoFace">不用紧张。</speak>
+            <show chara="reaSmileEmWinterFar" position="right"/>
+            <speak chara="reannaNoNameNoFace">我的名字是蕾安娜·布里甘缇亚。</speak>
+            <show chara="reaSmileAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace">虽然是总部直属的女武神——但今天也不过和你一样，是个来扫墓的普通人罢了。</speak>
+            <show chara="reaSmileEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterFar" position="left"/>
+            <speak chara="weltNoFace">不……那个……扫墓什么的……</speak>
+            <show chara="weltTiredWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaNormalAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace">？</speak>
+            <show chara="reaNormalAhWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterFar" position="left"/>
+            <speak chara="weltNoFace">我、我其实是来帮人喂猫的……</speak>
+            <goto goto="470" change="#ffffff"/>
+        </scene>
+        <scene id="470" background="graveDayLate.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="weltTiredWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaSmileEmSadWinterFar" position="right"/>
+            <speak chara="reannaNoFace">噗。原来如此。</speak>
+            <show chara="reaSmileAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace">你也真是辛苦呢。</speak>
+            <show chara="reaSmileEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltGiggleWinterFar" position="left"/>
+            <speak chara="weltNoFace">啊哈哈……那倒也谈不上……</speak>
+            <show chara="weltGiggleWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaSmileAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace">能在这里遇到也是缘分……</speak>
+            <speak chara="reannaNoFace">……不如我们一起来喂这些孩子吧？</speak>
+            <show chara="reaSmileEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltShyWinterFar" position="left"/>
+            <speak chara="weltNoFace">唉？可、可以吗？</speak>
+            <show chara="weltShyWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaSmileAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace">当然可以啊。</speak>
+            <speak chara="reannaNoFace">反正今天我休息。</speak>
+            <show chara="reaSmileEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltShyWinterFar" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltSmileWinterFar" position="left"/>
+            <speak chara="weltNoFace">……。</speak>
+            <show chara="weltNormalWinterFar" position="left"/>
+            <speak chara="weltNoFace">那么，可以让我也凭吊一下吗？</speak>
+            <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaNormalAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace">嗯？</speak>
+            <show chara="reaSmileEmSadWinterFar" position="right"/>
+            <speak chara="reannaNoFace">啊，当然可以啊。</speak>
+            <show chara="reaNormalEmWinterFar" position="right"/>
+            <speak chara="reannaNoFace">玛莎是个很好说话的孩子，她应该不会讨厌你的。</speak>
+            <goto goto="480" change="#ffffff"/>
+        </scene>
+        <scene id="480" background="callaLily.jpg">
+            <bgm src="11_17_memory.mp3" status="start"></bgm>
+            <speak chara="weltNoFace">……愿你所在处，没有幽深的黑暗，也没有刺目的眩光。</speak>
+            <speak chara="weltNoFace">……愿你所在处，没有嘈杂的噪音，也没有可怖的寂静。</speak>
+            <speak chara="weltNoFace">……你所在处，是温暖和煦的彼岸之乡。阿门。</speak>
+            <speak chara="reannaNoFace">……</speak>
+            <speak chara="reannaNoFace">玛莎·“莉莉”·雅各布斯……霍洛威街土生土长的孩子。</speak>
+            <speak chara="reannaNoFace">“莉莉”是她的绰号，因为她很喜欢马蹄莲（Calla Lily）。</speak>
+            <speak chara="reannaNoFace" remark="next">她是唯一一位，因柏林崩坏事件而死，却没有归葬在荣军公墓里的女武神。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">荣军公墓（Invalidenfriedhof）是柏林最古老的公墓之一，曾作为普鲁士的军人公墓使用。</p>
+            </remark>
+            <speak chara="weltNoFace">……柏、柏林？</speak>
+            <speak chara="weltNoFace">那、那不是……</speak>
+            <speak chara="reannaNoFace">嗯。就是你“诞生”的那次事件。</speak>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="reannaNoFace">你不用太内疚。</speak>
+            <speak chara="reannaNoFace">战场上难免有牺牲。</speak>
+            <speak chara="reannaNoFace">一般来说，组织会就近选择一处公墓。伤重不治的情况，也会迁葬过去，和战友们安息在一处。</speak>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace">咦？那玛莎的情况是……</speak>
+            <speak chara="reannaNoFace">在消灭帝王级崩坏兽的过程中，她所领导的“夜蛾”小队近乎全灭。</speak>
+            <speak chara="reannaNoFace">这孩子……作为唯一的幸存者，精神上承受了我们难以想象的压抑。</speak>
+            <speak chara="weltNoFace">…………</speak>
+            <speak chara="reannaNoFace">尽管我们及时安排她调离前线、接受治疗……</speak>
+            <speak chara="reannaNoFace">但最终，还是……</speak>
+            <speak chara="weltNoFace">………………</speak>
+            <speak chara="reannaNoFace">今年的新年，也就是事件发生两周年之际……</speak>
+            <speak chara="reannaNoFace">她在自己的家里……</speak>
+            <speak chara="reannaNoFace">……上吊自杀了。</speak>
+            <speak chara="weltNoFace">……………………</speak>
+            <speak chara="reannaNoFace">因为是非战斗情况下的自杀，根据军纪，我们不能把她和她的后辈们合葬在一处。</speak>
+            <shake position="all" time="250"></shake>
+            <speak chara="weltNoFace">……这、这不是太残忍了吗？！</speak>
+            <goto goto="490" change="0"/>
+        </scene>
+        <scene id="490" background="graveDayLate.jpg">
+            <bgm src="11_17_memory.mp3" status="continue"></bgm>
+            <show chara="reaSeriousWinterClose" position="center"/>
+            <speak chara="reannaNoFace">……没有办法。军队就是这样。</speak>
+            <show chara="reaSmileEmSadWinterClose" position="center"/>
+            <speak chara="reannaNoFace">所谓军队，是一台不能容忍任何一颗螺丝钉出现故障的机器。</speak>
+            <speak chara="reannaNoFace">也因此，它的“英灵殿”只会接收那些……将“责任”履行到了最后一刻的人。</speak>
+            <show chara="reaSeriousWinterClose" position="center"/>
+            <speak chara="reannaNoFace">这很残酷……但是我们也没有更好的解决方案。</speak>
+            <show chara="reaNormalEmWinterClose" position="center"/>
+            <speak chara="reannaNoFace">不要误会了。</speak>
+            <show chara="reaSmileEmSadWinterClose" position="center"/>
+            <speak chara="reannaNoFace">就任何人而言，她的不幸都是一个彻头彻尾的悲剧。一个绝不应该由她自己承担的悲剧。</speak>
+            <show chara="reaNormalEmWinterClose" position="center"/>
+            <speak chara="reannaNoFace">只是……对于战士，对于军人——所谓“职业荣誉”，是要放在任何一个个人之前的东西。</speak>
+            <show chara="reaSmileEmSadWinterClose" position="center"/>
+            <speak chara="reannaNoFace">是的，对于个人来说，这很悲惨……</speak>
+            <show chara="reaNormalEmWinterClose" position="center"/>
+            <speak chara="reannaNoFace">……但是，这也是一种无可奈何的“以毒攻毒”。</speak>
+            <show chara="reaSeriousWinterClose" position="center"/>
+            <speak chara="reannaNoFace">因为只有这样，才能组织起我们中最勇敢的一些人——</speak>
+            <speak chara="reannaNoFace">让他们在瞬息万变的战场上，也能团结得像一架机器——</speak>
+            <speak chara="reannaNoFace">——去承受……进而……打败……这个世界上最残酷的一些东西。</speak>
+            <goto goto="500" change="#ffffff"/>
+        </scene>
+        <scene id="500" background="graveNight.jpg">
+            <bgm src="themeWelt.mp3" status="start"></bgm>
+            <text>繁星渐起，食袋渐空。</text>
+            <text>一路走来，猫咪们虽然都很开心……然而，听过了女武神玛莎的故事，瓦尔特始终如鲠在喉。</text>
+            <show chara="weltDarkWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaNormalAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace">……这里就是最后一个投喂点了吧。</speak>
+            <show chara="reaNormalEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltDarkWinterFar" position="left"/>
+            <speak chara="weltNoFace">嗯。</speak>
+            <show chara="weltDarkWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaSmileEmSadWinterFar" position="right"/>
+            <speak chara="reannaNoFace">……抱歉。</speak>
+            <show chara="reaSmileEmSadWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltDarkWinterFar" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltDarkWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaSmileEmSadWinterFar" position="right"/>
+            <speak chara="reannaNoFace">玛莎的事情……这本不是你应该去承受的一份悲伤。</speak>
+            <show chara="reaSmileEmSadWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterFar" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltSmileWinterFar" position="left"/>
+            <speak chara="weltNoFace">……但是，蕾安娜小姐自己也很难受吧？</speak>
+            <show chara="ghostFloatDarkFar" position="back" opacity="0.3"/>
+            <bgm src="horror.mp3" status="start"></bgm>
+            <speak chara="weltNoFace">不是有句俗话这样说吗——</speak>
+            <speak chara="weltNoFace">“分享的喜悦是两倍的喜悦；分享的悲伤是一半的悲伤。”</speak>
+            <show chara="weltSmileWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaNormalAhWinterFar" position="right"/>
+            <speak chara="reannaNoFace">……？</speak>
+            <show chara="reaNormalAhWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltGiggleShyWinterFar" position="left"/>
+            <show chara="ghostFloatDarkFar" position="back" opacity="0.5"/>
+            <speak chara="weltNoFace">啊哈哈……是不是……稍微有点耍帅啊。</speak>
+            <show chara="reaSeriousWinterFar" position="right"/>
+            <speak chara="reannaNoFace">……！</speak>
+            <show chara="reaSeriousWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltShyWinterFar" position="left"/>
+            <show chara="ghostFloatDarkFar" position="back" opacity="0.7"/>
+            <speak chara="weltNoFace">……那个，我、我这样硬开玩笑是不是不太好？</speak>
+            <show chara="weltShyWinterFar" position="left" opacity="0.7"/>
+            <hide position="right"/>
+            <hide position="back"/>
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <show chara="reaSeriousWinterFar" position="center"/>
+            <speak chara="reannaNoFace">……少啰嗦！</speak>
+            <goto goto="520" change="0"/>
+        </scene>
+        <scene id="520" background="graveNightSpeed.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <text>说时迟，那时快，蕾安娜一把捂住瓦尔特的嘴，将他硬扯进了灌木丛里！</text>
+            <show chara="ghostFloatClose-up" position="center"/>
+            <text>在他之前没有注意到的方向上——一团神秘的漂浮物，凭空出现在了夜幕之中！</text>
+            <goto goto="530" change="0"/>
+        </scene>
+        <scene id="530" background="CG10-2.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">这、这是什么啊？</speak>
+            <speak chara="reannaNoFace">……</speak>
+            <speak chara="weltNoFace">呃……该不会……是那、那个什么？</speak>
+            <speak chara="reannaNoFace">什么“那个什么”……说话利索点！</speak>
+            <speak chara="weltNoFace">呃……</speak>
+            <speak chara="weltNoFace">就是……</speak>
+            <speak chara="weltNoFace">那个……</speak>
+            <speak chara="weltNoFace">U...U...U...</speak>
+            <speak chara="weltNoFace">幽灵？</speak>
+            <speak chara="reannaNoFace">……啧。别说这种不吉利的话！</speak>
+            <speak chara="reannaNoFace">这世界上真实存在的“幽灵”，可比都市传说里的那些麻烦多了！</speak>
+            <speak chara="weltNoFace">唉？真的有幽灵吗？</speak>
+            <speak chara="reannaNoFace">……比喻而已。</speak>
+            <speak chara="reannaNoFace">还有，少给我大呼小叫。在战场上，那可是会送命的！</speak>
+            <goto goto="540" change="#ffffff"/>
+        </scene>
+        <scene id="540" background="graveNight.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <show chara="ghostFloatFar2" position="center"/>
+            <speak chara="ghostNoFace" remark="next">Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn...</speak>
+            <hide position="center"/>
+            <show chara="ghostFloatFar" position="right"/>
+            <speak chara="ghostNoFace" remark="next">Cthulhu fhtagn!</speak>
+            <hide position="right"/>
+            <show chara="ghostFloatFar2" position="left"/>
+            <speak chara="ghostNoFace" remark="next">Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn...</speak>
+            <hide position="left"/>
+            <show chara="ghostFloatFar" position="center"/>
+            <speak chara="ghostNoFace" remark="next">Cthulhu fhtagn!</speak>
+            <hide position="center"/>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">这是洛夫克拉夫特的著名短篇小说《克苏鲁的呼唤》中，崇拜克苏鲁的邪教使用的咒语。意为，“在他拉莱耶的家中，长眠的克苏鲁等待着做梦”。</p>
+            </remark>
+            <show chara="ghostFloatFar2" position="right"/>
+            <speak chara="weltNoFace">……绕在这里不走了！</speak>
+            <hide position="right"/>
+            <show chara="ghostFloatFar" position="left"/>
+            <speak chara="weltNoFace">……而且它还念念有词？！</speak>
+            <hide position="left"/>
+            <show chara="ghostFloatFar2" position="center"/>
+            <speak chara="reannaNoFace">……哼。</speak>
+            <hide position="center"/>
+            <show chara="ghostFloatFar" position="right"/>
+            <speak chara="reannaNoFace">那个飘飘晃晃的东西……你不觉得很像床单吗？</speak>
+            <hide position="right"/>
+            <show chara="ghostFloatFar2" position="left"/>
+            <speak chara="weltNoFace">床、床单？</speak>
+            <hide position="left"/>
+            <show chara="ghostFloatFar" position="center"/>
+            <speak chara="weltNoFace">唔……可是它没有腿啊？</speak>
+            <hide position="center"/>
+            <show chara="ghostFloatFar2" position="right"/>
+            <speak chara="reannaNoFace">……谁知道。大概是谁用气球搞的恶作剧？</speak>
+            <hide position="right"/>
+            <show chara="ghostFloatFar" position="left"/>
+            <speak chara="reannaNoFace">而且它念来念去的那个……我总觉得……是不是在哪里听过--|||</speak>
+            <hide position="left"/>
+            <show chara="ghostFloatFar2" position="center"/>
+            <text>蕾安娜从草丛里随手捡了一颗石子——</text>
+            <goto goto="550" change="0"/>
+        </scene>
+        <scene id="550" background="white">
+            <bgm src="horror.mp3" status="stop"></bgm>
+            <sound src="11_17_metal hit.mp3"/>
+            <text>乒！</text>
+            <goto goto="560" change="0"/>
+        </scene>
+        <scene id="560" background="graveNight.jpg">
+            <bgm src="horror.mp3" status="start"></bgm>
+            <text>击中了“幽灵”的石子像是打在了坚硬的岩石上似的，发出清脆的响声，滚落回了草丛里。</text>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="reaNormalAhWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">……？</speak>
+            <show chara="reaNormalAhWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">这、这个诡异的撞击声是怎么回事？！</speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="reaNormalAhWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">……我怎么知道？！</speak>
+            <goto goto="565" change="0"/>
+        </scene>
+        <scene id="565" background="graveNightSpeed.jpg">
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <show chara="ghostEscapeFar" position="center"/>
+            <speak chara="ghostNoFace">糟糕，被发现啦！</speak>
+            <hide position="center"/>
+            <sound src="11_17_gust wind.mp3"/>
+            <show chara="ghostEscapeFar" position="left"/>
+            <text>“幽灵”突然从身下喷出一股气流，以飞快地速度夺路而逃！</text>
+            <hide position="left"/>
+            <show chara="reaNormalAhWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">这、这、这又是什么？</speak>
+            <show chara="weltScaredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="reaSeriousWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">……啧。 </speak>
+            <text>蕾安娜掏出了一个微型对讲机似的装置。</text>
+            <hide position="right"/>
+            <hide position="left"/>
+            <show chara="reaRunWinterClose-up" position="center"/>
+            <sound src="11_17_D.mp3"/>
+            <speak chara="reannaNoFace">V-23请求紧急支援！发现不明飞行物，请立即按8号预案向我投送武器！机动部队随时待命！</speak>
+            <hide position="center"/>
+            <sound src="11_17_D.mp3"/>
+            <show chara="reaRunWinterClose-up" position="left"/>
+            <speak chara="reannaNoFace">重复一遍，发现不明飞行物，请立即按8号预案向我投送武器！机动部队随时待命！</speak>
+            <goto goto="600" change="#ffffff"/>
+        </scene>
+        <scene id="600" background="graveNightRS.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <show chara="teslaBiteGlassWinterClose" position="right"/>
+            <show chara="joaNormalEmWinterClose" position="left" opacity="0.7"/>
+            <speak chara="teslaNoFace">slkjfdsjfdjlsdjlfjlaslioeijfdslf?</speak>
+            <show chara="teslaBiteGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="joaNormalAhWinterClose" position="left"/>
+            <speak chara="joaNoNameNoFace">esoppusIootsevilllitsuhluhtC...</speak>
+            <show chara="joaNormalEmWinterClose" position="left" opacity="0.7"/>
+            <text>在分隔东西墓园的路口，神情莫名紧张的特斯拉，正在一个小朋友交流着什么——</text>
+            <goto goto="610" change="0"/>
+        </scene>
+        <scene id="610" background="graveNightSpeed.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <show chara="weltScaredWinterClose-up" position="center"/>
+            <speak chara="weltNoFace">特斯拉！危险！</speak>
+            <show chara="reaRunWinterClose-up" position="center"/>
+            <speak chara="reannaNoFace">闪开！红毛！</speak>
+            <goto goto="620" change="0"/>
+        </scene>
+        <scene id="620" background="graveNightRS.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <show chara="teslaDisgustedGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">红、红毛？谁是红毛!？</speak>
+            <show chara="teslaAstonishGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">喂喂喂……发生什么啦？！</speak>
+            <goto goto="630" change="0"/>
+        </scene>
+        <scene id="630" background="graveNightSpeed.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <show chara="reaRunWinterClose-up" position="center"/>
+            <speak chara="reannaNoFace">想活命就闪开！ </speak>
+            <goto goto="640" change="0"/>
+        </scene>
+        <scene id="640" background="white">
+            <bgm src="11_17_tatakau.mp3" status="stop"></bgm>
+            <speak chara="teslaJoaNoFace">咿呀呀呀呀呀呀呀——</speak>
+            <goto goto="650" change="0"/>
+        </scene>
+        <scene id="650" background="graveNightRS.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <show chara="reannaBlackWhite" position="center"/>
+            <sound src="11_17_D.mp3"/>
+            <speak chara="reannaNoFace">……8号预案完美成功。不明飞行物已经解体。</speak>
+            <sound src="11_17_D.mp3"/>
+            <speak chara="reannaNoFace">我将按照预案自行带回黑渊白花，通讯结束。</speak>
+            <show chara="teslaAstonishGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="joaScaredWinterClose-up" position="center"/>
+            <speak chara="joaNoNameNoFace">……</speak>
+            <show chara="reannaBlackWhite" position="center"/>
+            <speak chara="reannaNoFace">二位，没有受伤吧？</speak>
+            <bgm src="10_20_PeerGynt.mp3" status="stop"></bgm>
+            <show chara="joaScaredWinterClose-up" position="center"/>
+            <speak chara="joaNoNameNoFace">……</speak>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <show chara="teslaShoutWinterClose-up" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">没有受伤个鬼啦？！</speak>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">我们最新款的浮空机器人！！</speak>
+            <shake position="center" time="250"></shake>
+            <show chara="teslaAngryGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">你赔啊！！！！</speak>
+            <end post="U2FsdGVkX18eaRN6J700hdHmH7oe"/>
+        </scene>
+    </story>
+</data>

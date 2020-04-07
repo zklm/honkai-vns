@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="chileIceMountain.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <text remark="next">“在极北的高地上，一个被称做‘斯威斯约德’的国度里，有一座雄伟的山峰。”</text>
+            <text remark="next">“它有一百英里长，一百英里高——”</text>
+            <text remark="next">“一千年一次，会有一只小鸟飞到这座山的山顶，用山岩将它的鸟嘴磨利。”</text>
+            <text remark="next">“而等到这座山峰就这样被小鸟磨平了之后，永恒的日历才终于翻过了薄薄的一页。”</text>
+            <remark post="U2FsdGVkX1+IG6e9RXnWjaMPClT3">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">以上文字引自房龙（Hendrik Willem van Loon）的作品《人类的故事》（The Story of Mankind）。原文如下：</p>
+                <br />
+                <p class="article-text">High in the North in a land called Svithjod there is a mountain.</p>
+                <p class="article-text">It is a hundred miles long and a hundred miles high</p>
+                <p class="article-text">and once every thousand years a little bird comes to this mountain to sharpen its beak.</p>
+                <p class="article-text">When the mountain has thus been worn away a single day of eternity will have passed.</p>
+                <br />
+                <p class="article-text">p.s. “Svithjod”是“瑞典”的一个古称，带有古诺斯语的色彩。</p>
+            </remark>
+            <text>英雄已经远去。创伤渐渐愈合。</text>
+            <text>生活重归于琐碎，正如永恒的星辰日复一日地东升西落。</text>
+            <text>世界泡中的时间就这样过去了十年。</text>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="alexandriaPalace.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="DogeNormal" position="left"/>
+            <speak chara="_CervantesVenice">安东尼奥有没有来？</speak>
+            <show chara="DogeNormal" position="left" opacity="0.8"/>
+            <show chara="AntonioNormal" position="right"/>
+            <speak chara="_ThalesVenice">有。殿下。</speak>
+            <show chara="AntonioNormal" position="right" opacity="0.8"/>
+            <show chara="DogeSad" position="left"/>
+            <speak chara="_CervantesVenice">我为你感到难过。</speak>
+            <show chara="DogeSad" position="left"/>
+            <speak chara="_CervantesVenice">你是来和一个铁石心肠的对手当庭对质：一个不懂得怜悯、没有一丝慈悲之心、丝毫不近人情的恶汉。</speak>
+            <show chara="DogeSad" position="left" opacity="0.8"/>
+            <show chara="AntonioHelpless" position="right"/>
+            <speak chara="_ThalesVenice">我听说殿下曾经费劲口舌，只劝他凡事不要做得太过分；可是他固执己见，不肯作一丝一毫的让步。既然没有合法的手段可以使我脱离他的魔爪，那……</speak>
+            <show chara="AntonioShout" position="right"/>
+            <speak chara="_ThalesVenice">……那俗话说得好，不在沉默中爆发，就在沉默中死亡！我——</speak>
+            <show chara="AntonioDismay" position="right"/>
+            <speak chara="_ThalesVenice">我……</speak>
+            <show chara="AntonioHelpless" position="right"/>
+            <speak chara="_ThalesVenice">说来惭愧，我从来就没有胆量做任何出格的事，所以今天也只好在这里默默迎接自己的悲惨命运了。</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="BassanioShock" position="left"/>
+            <speak chara="_BiankaVeniceNoName">……咦？</speak>
+            <show chara="BassanioDissatisfied" position="left"/>
+            <speak chara="_BiankaVeniceNoName">泰勒斯她……她刚才说的完全不是剧本上的台词吧，船长？</speak>
+            <show chara="BassanioDissatisfied" position="left" opacity="0.8"/>
+            <show chara="ShylockLaugh" position="right"/>
+            <speak chara="_ShakespeareVeniceNoName">哈哈哈哈，那又有什么关系呢？</speak>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceNoName">演员忘词是很常见的事情——只要按着情势说下去就可以了，故事还是会正常发展的。</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceNoName">对了。在这里要叫我“剧团长”，而不是“船长”——东方人说得好，“名不正则言不顺”。</speak>
+            <show chara="ShylockSmile" position="right" opacity="0.8"/>
+            <show chara="BassanioPrudish" position="left"/>
+            <speak chara="_BiankaVeniceNoName">……啊，抱歉。从前叫习惯了，不好意思。</speak>
+            <show chara="BassanioPrudish" position="left" opacity="0.8"/>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceNoName">哈哈。你也不要突然就拘谨起来啊。</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceNoName">谦逊庄重虽然不是坏事，但我果然还是更喜欢那个更加洒脱一些的你啊。</speak>
+            <show chara="ShylockSmile" position="right" opacity="0.8"/>
+            <show chara="BassanioHelpless" position="left"/>
+            <speak chara="_BiankaVeniceNoName">……唔。丽塔有时也这样说我。</speak>
+            <show chara="BassanioSmile" position="left"/>
+            <speak chara="_BiankaVeniceNoName">不过，这就是所谓“成长”吧？经历许许多多的事，有所失、有所得——</speak>
+            <show chara="BassanioConfident" position="left"/>
+            <speak chara="_BiankaVeniceNoName">最终，你也许在外表上和过去相差甚远；但你知道，你在内心深处守护住了自己在这个世界上最重要的珍宝：</speak>
+            <show chara="BassanioSmile" position="left"/>
+            <speak chara="_BiankaVeniceNoName">那个许多年前的，最真实的你自己。</speak>
+            <show chara="BassanioSmile" position="left" opacity="0.8"/>
+            <show chara="ShylockPleased" position="right"/>
+            <speak chara="_ShakespeareVeniceNoName">……你真的长大了呢，比安卡。</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceNoName">尽管在你们那边，时间的流速要缓慢不少；但是比起我们在这边的十年，果然……</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="SolanioSmile" position="center"/>
+            <speak chara="_ManfredVeniceNoName">剧团长！接下来是您自己的戏啦！</speak>
+            <hide position="center"></hide>
+            <show chara="ShylockSmile" position="left"/>
+            <speak chara="_ShakespeareVeniceNoName">哎呀。轮到我上场了呢。比安卡，注意和我对台词哦？</speak>
+            <show chara="ShylockSmile" position="left" opacity="0.8"/>
+            <show chara="BassanioSmile" position="right"/>
+            <speak chara="_BiankaVeniceNoName">是。</speak>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="alexandriaPalace.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="DogeSerious" position="left"/>
+            <speak chara="_CervantesVenice">债主，你上前来！我们都在等候你改变心意，放弃从这个不幸商人的身上割那一磅肉。</speak>
+            <show chara="DogeSerious" position="left" opacity="0.8"/>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">尊敬的督治殿下，我已经把自己的意思向您禀告过了：</speak>
+            <speak chara="_ShakespeareVeniceFather">我曾对天发誓，一定要按照约定上的白纸黑字来执行处罚。</speak>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">殿下，威尼斯的法律，明明白白地支持我的请求。</speak>
+            <show chara="ShylockLaugh" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">如果您非要问我为什么不愿接受三千个金币，也只想拿一块注定要腐烂的臭肉——</speak>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">——我只能说我喜欢这样，这算不算一个回答？</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">要是我的屋子里有了耗子，我高兴出一万个金币找人把它们赶掉——您难道管得了我这样做吗？</speak>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">有的人不喜欢哼哼乱叫的猪，有的人一见到猫自己就浑身炸毛，还有人听见人家吹笛子的声音就忍不住想上厕所——</speak>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">——瞧，我们的感情完全受着内心好恶的支配，谁其实也做不了自己的主。</speak>
+            <show chara="ShylockHelplessSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">所以，如果您一定要打破沙锅问到底的话，那我也只能说：</speak>
+            <show chara="ShylockNormal" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">在自己的好恶受到刺激的时候，不需要所谓的“充分理由”，每个人就都会情不自禁地展现出自己的丑相来。</speak>
+            <show chara="ShylockHelplessSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">至于我个人，正因为我和安东尼奥之间有着深刻的积怨，所以我才会咽不下这口气，向他发起这样一场并不能使我自己赢得利益的诉讼。</speak>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">——您向我索要回答，那么这就是我的回答。</speak>
+            <show chara="ShylockProvocative" position="right" opacity="0.8"/>
+            <show chara="BassanioScold" position="left"/>
+            <speak chara="_BiankaVenice">你、你这冷酷无情的家伙！</speak>
+            <show chara="BassanioTeeth" position="left"/>
+            <speak chara="_BiankaVenice">这种丧尽天良的回答，就是你天性残忍的最好注脚！</speak>
+            <show chara="BassanioTeeth" position="left" opacity="0.8"/>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">我本来也不是为了讨你喜欢才站在这里的。</speak>
+            <show chara="ShylockSmile" position="right" opacity="0.8"/>
+            <show chara="BassanioTeeth" position="left"/>
+            <speak chara="_BiankaVenice">你这个疯子！</speak>
+            <show chara="BassanioScold" position="left"/>
+            <speak chara="_BiankaVenice">难道人们对于他们不喜欢的人，就一定要置之死地而后快吗？</speak>
+            <show chara="BassanioScold" position="left" opacity="0.8"/>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">呵呵。哪一个人会真的憎恨，那些他自己本就不愿意杀死的东西？</speak>
+            <show chara="ShylockProvocative" position="right" opacity="0.8"/>
+            <show chara="BassanioFindOthersUnreasonable" position="left"/>
+            <speak chara="_BiankaVenice">初次冒犯就引为仇恨？世界上哪有这样的道理？</speak>
+            <show chara="BassanioFindOthersUnreasonable" position="left" opacity="0.8"/>
+            <show chara="ShylockFalseShock" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">什么？！一次还不够，你还愿意被毒蛇咬第二次吗？</speak>
+            <show chara="AntonioHelpless" position="right"/>
+            <speak chara="_ThalesVenice">我的朋友，你现在和这个铁石心肠的人讲理，就好像站在海滩上，要那大海的怒涛自己平息下它奔腾的威力；</speak>
+            <show chara="AntonioDismay" position="right"/>
+            <speak chara="_ThalesVenice">就好像责问豺狼，问它为何要害得母羊因为失去自己的孩子而哀鸣；</speak>
+            <show chara="AntonioHelpless" position="right"/>
+            <speak chara="_ThalesVenice">或者是叫那山上的松柏，在受到强风吹拂的时候，也不要摇摆不定，发出那种令人害怕的“沙沙”声音。</speak>
+            <show chara="AntonioDisheartened" position="right"/>
+            <speak chara="_ThalesVenice">所以，我的朋友，请你也不用再跟他商量什么条件，不用再替我想什么办法——</speak>
+            <speak chara="_ThalesVenice">让我爽快地收到判决书，让这个野蛮人满足他的心愿吧。</speak>
+            <show chara="AntonioDisheartened" position="right" opacity="0.8"/>
+            <show chara="BassanioShock" position="left"/>
+            <speak chara="_BiankaVenice">你、你怎么能就这样自己放弃？</speak>
+            <show chara="BassanioHelpless" position="left"/>
+            <speak chara="_BiankaVenice">那边的老先生，您也行行好：他借了你三千块钱，现在我们拿六千块还你好不好？</speak>
+            <show chara="BassanioHelpless" position="left" opacity="0.8"/>
+            <show chara="ShylockFalseShock" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">我刚才说了那么多，你竟然把它们全当耳旁风吗？！</speak>
+            <show chara="ShylockNormal" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">听好了，毛头小子。即使这六千块当中的每一个金币都可以分成六份，而这六份中的每一份都可以再变成那三千块本钱——</speak>
+            <show chara="ShylockCold" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">——就算这样，我也不想要这些钱财：我只要按照约定上的白纸黑字来执行处罚。</speak>
+            <show chara="ShylockCold" position="right" opacity="0.8"/>
+            <show chara="DogeSad" position="left"/>
+            <speak chara="_CervantesVenice">你……你这样一点也不讲慈悲之心，将来还怎么能够希望别人在这公堂之上，对你也讲点慈悲呢？</speak>
+            <show chara="DogeSad" position="left" opacity="0.8"/>
+            <show chara="ShylockFalseShock" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">你究竟在暗示什么，督治殿下？我平生不干错事，为什么要怕刑罚？</speak>
+            <show chara="ShylockNormal" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">你们这些所谓的贵族，买了许多的奴隶，把他们当作畜生一样地看待，叫他们做种种又肮脏又辛苦的活——</speak>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">我可不可以对你们说，不要管那些花出去的金钱了，放他们自由，让他们和你们的子女随意结婚？</speak>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">让他们的床铺和你们的同样柔软，让他们的的舌头也尝尝你们所享用的佳肴吧——</speak>
+            <speak chara="_ShakespeareVeniceFather">——当我这样发问的时候，你们的慈悲之心又在哪里？</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">既然你们回答道，“这些奴隶是我们的私人财产”——</speak>
+            <speak chara="_ShakespeareVeniceFather">那么我也可以一样说：这个人身上的一磅肉，也是我花了很多钱才买来的，我一定要把它正式搞到手里。</speak>
+            <show chara="ShylockLaugh" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">如果这样您还要拒绝我，那么威尼斯的法律也不过是给这宫殿装点门面的一纸空文而已！</speak>
+            <show chara="ShylockLaugh" position="right" opacity="0.8"/>
+            <show chara="DogeAngry" position="left"/>
+            <speak chara="_CervantesVenice">放肆！</speak>
+            <show chara="DogeAngry" position="left" opacity="0.8"/>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">尊敬的督治殿下，我现在等候着判决。请快些回答我：我到底可不可以拿到这一磅肉？</speak>
+            <show chara="ShylockProvocative" position="right" opacity="0.8"/>
+            <show chara="DogeHelpless" position="left"/>
+            <speak chara="_CervantesVenice">……我已经差人去请佩·吉诃德，一位饱学的博士，让他来替我们审判这件案子。</speak>
+            <show chara="DogeHelpless" position="left"/>
+            <speak chara="_CervantesVenice">如果他今天不来，我有权宣布本案延期宣判。</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="BassanioShock" position="left"/>
+            <speak chara="_BiankaVeniceSelf">等、等等？</speak>
+            <show chara="BassanioDissatisfied" position="left"/>
+            <speak chara="_BiankaVeniceSelf">这个“博士”的名字之前出现过一次，应该是不能随口替换的吧？</speak>
+            <show chara="BassanioDissatisfied" position="left" opacity="0.8"/>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">嗯，这回比安卡说得对。故事的细节可以留给演员随机应变，但是架构上的逻辑却没法随意更改。</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">“佩拉里奥”是女主角“鲍茜娅”的表兄，这在第三幕“鲍茜娅”的台词里交代过。</speak>
+            <show chara="ShylockSmile" position="right" opacity="0.8"/>
+            <show chara="DogeHelpless" position="left"/>
+            <speak chara="_CervantesVeniceSelf">唉……年纪大了，脑袋确实不好使了。</speak>
+            <show chara="DogeSmile" position="left"/>
+            <speak chara="_CervantesVeniceSelf">刚才一时想不起来这个博士的名字，只好把“堂·吉诃德”给串了进去。</speak>
+            <show chara="DogeSmile" position="left" opacity="0.8"/>
+            <show chara="ShylockLaugh" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">哈哈，那试试这个方法怎么样？</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">这里就给巴萨尼奥加一句台词，让他来补充博士的名字。</speak>
+            <show chara="ShylockSmile" position="right" opacity="0.8"/>
+            <show chara="BassanioShock" position="left"/>
+            <speak chara="_BiankaVeniceSelf">是说让我来提醒吗？</speak>
+            <show chara="BassanioShock" position="left" opacity="0.8"/>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">嗯。督治先拖着腔不说名字，“我已经差人去请……”</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">你就马上补充说，“佩拉里奥博士，殿下。”</speak>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">然后督治就可以继续说下去了，“对、对……佩拉里奥博士，一位饱学之士——我们请他来审判这个案子。”</speak>
+            <show chara="ShylockConfident" position="right" opacity="0.8"/>
+            <show chara="DogeSmile" position="left"/>
+            <speak chara="_CervantesVeniceSelf">哦哦，这个方法不错！</speak>
+            <show chara="DogeSmile" position="left" opacity="0.8"/>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">那我们就这样继续喽？</speak>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="alexandriaPalace.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="DogeHelpless" position="left"/>
+            <speak chara="_CervantesVenice">咳咳。我已经差人去请……请……</speak>
+            <show chara="DogeHelpless" position="left" opacity="0.8"/>
+            <show chara="BassanioHelpless" position="right"/>
+            <speak chara="_BiankaVenice">佩拉里奥博士，殿下。</speak>
+            <show chara="BassanioHelpless" position="right" opacity="0.8"/>
+            <show chara="DogeSmile" position="left"/>
+            <speak chara="_CervantesVenice">对、对……佩拉里奥博士，一位饱学之士——我们请他来审判这个案子。</speak>
+            <show chara="DogeHelpless" position="left"/>
+            <speak chara="_CervantesVenice">如果他今天不来，我有权宣布本案延期宣判。</speak>
+            <show chara="DogeHelpless" position="left" opacity="0.8"/>
+            <show chara="SolanioNormal" position="right"/>
+            <speak chara="_ManfredVenice">启禀督治殿下。</speak>
+            <show chara="SolanioNormal" position="right" opacity="0.8"/>
+            <show chara="DogeNormal" position="left"/>
+            <speak chara="_CervantesVenice">嗯？有什么消息？</speak>
+            <show chara="DogeNormal" position="left" opacity="0.8"/>
+            <show chara="SolanioNormal" position="right"/>
+            <speak chara="_ManfredVenice">外面有一个从帕多瓦赶来的使者，说是带着佩拉里奥博士的书信。</speak>
+            <show chara="SolanioNormal" position="right" opacity="0.8"/>
+            <show chara="DogeSerious" position="left"/>
+            <speak chara="_CervantesVenice">正好。把信拿来给我，叫那使者进来。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="BassanioConfident" position="left"/>
+            <speak chara="_BiankaVenice">高兴起来吧，安东尼奥！</speak>
+            <show chara="BassanioInspireOthers" position="left"/>
+            <speak chara="_BiankaVenice">我的老兄，你可千万别现在就灰心丧气！</speak>
+            <show chara="BassanioTeeth" position="left"/>
+            <speak chara="_BiankaVenice">这野蛮人可以把我的皮、我的肉、我的骨头、我的一切都拿去——可是我决不让你为了我的缘故流一滴血。</speak>
+            <show chara="BassanioTeeth" position="left" opacity="0.8"/>
+            <show chara="AntonioDismay" position="right"/>
+            <speak chara="_ThalesVenice">唉……我就是羊群里那头最不中用的病羊，被宰杀就是我的宿命；</speak>
+            <speak chara="_ThalesVenice">常言道，“最软的果子最先掉在地上”：让我就这样草草了结我时运不济的一生吧。</speak>
+            <show chara="AntonioDisheartened" position="right"/>
+            <speak chara="_ThalesVenice">巴萨尼奥，只要你活下去，将来能替我写一篇墓志铭，我就万分感激了。</speak>
+            <show chara="AntonioDisheartened" position="right" opacity="0.8"/>
+            <show chara="BassanioFindOthersUnreasonable" position="left"/>
+            <speak chara="_BiankaVenice">喂！你不要再说这些自暴自弃的话了！瞧，那位使者已经走过来了。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="NerissaSmile" position="right"/>
+            <speak chara="_AliceVeniceM">参见督治殿下。</speak>
+            <show chara="NerissaSmile" position="right" opacity="0.8"/>
+            <show chara="DogeSmile" position="left"/>
+            <speak chara="_CervantesVenice">你就是那位博士的使者吗？</speak>
+            <show chara="DogeSmile" position="left" opacity="0.8"/>
+            <show chara="NerissaSmile" position="right"/>
+            <speak chara="_AliceVeniceM">是的，殿下。佩拉里奥让我代他向您问好。</speak>
+            <show chara="NerissaSmile" position="right"/>
+            <speak chara="_AliceVeniceM">这是他的亲笔信，请您过目。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <speak chara="_NarrationVenice">呲啦——呲啦——</speak>
+            <speak chara="_NarrationVenice">呲啦——呲啦——呲啦——</speak>
+            <show chara="BassanioScold" position="left"/>
+            <speak chara="_BiankaVenice">喂！吵死了！你这家伙，用那么大力气磨刀做什么？</speak>
+            <show chara="BassanioScold" position="left" opacity="0.8"/>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">当然是为了从那个破产的家伙身上，割下属于我的那磅肉来啊？</speak>
+            <show chara="ShylockProvocative" position="right" opacity="0.8"/>
+            <show chara="GratianoAngry" position="left"/>
+            <speak chara="_WattVenice">你……你这个狠毒的小人，你不是在自己的鞋跟上磨刀，你、你是把刀放在你的铁石心肠上磨！</speak>
+            <show chara="GratianoTeeth" position="left"/>
+            <speak chara="_WattVenice">没、没有哪一种钢铁，就、就连刽子手砍头的钢刀，都赶不上你这副心肠一半的坚硬！</speak>
+            <show chara="GratianoFindOthersUnreasonable" position="left"/>
+            <speak chara="_WattVenice">难、难——难道什么样的恳求都不能打动你吗？</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="BassanioDissatisfied" position="left"/>
+            <speak chara="_BiankaVeniceSelf">……吉米啊，你怎么总是这么紧张呢。</speak>
+            <show chara="BassanioDissatisfied" position="left" opacity="0.8"/>
+            <show chara="GratianoSorry" position="right"/>
+            <speak chara="_WattVeniceSelf">抱、抱歉……我、我一想到这是一段控诉反派的剧情，就……</speak>
+            <show chara="GratianoSorry" position="right" opacity="0.8"/>
+            <show chara="ShylockLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">哈哈，我觉得这也没有什么不好哦？</speak>
+            <show chara="ShylockConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">一个胆小怕事、但是骨子里又想坚持自己那套朴素正义观的“格拉提亚诺”，不也很有意思吗？</speak>
+            <show chara="ShylockConfident" position="left" opacity="0.8"/>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVeniceSelf">啊……抱歉……</speak>
+            <show chara="BassanioHelpless" position="right"/>
+            <speak chara="_BiankaVeniceSelf">我只是看到这样的人，就会忍不住自己着急。</speak>
+            <show chara="BassanioHelpless" position="right" opacity="0.8"/>
+            <show chara="ShylockLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">哈哈哈哈。毕竟大家都是临时客串，所以肯定还是要让角色跟着自己的本性走，这样才有把握演好。</speak>
+            <show chara="ShylockSmile" position="left"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">那么——我们继续排练吧？</speak>
+            <show chara="ShylockConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">毕竟明天的演出，可是要向全世界公开直播的哦？</speak>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="alexandriaPalace.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="ShylockCold" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">……不能。无论你，或者你们，说得多么情深意切，都没有用。</speak>
+            <show chara="ShylockCold" position="right" opacity="0.8"/>
+            <show chara="GratianoTeeth" position="left"/>
+            <speak chara="_WattVenice">你、你这条该下地狱的毒蛇！</speak>
+            <show chara="GratianoTeeth" position="left" opacity="0.8"/>
+            <show chara="ShylockProvocative" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">呵呵，除非你能够把我在这张契约上的印章骂掉；不然，你这样尖叫着怨天尤人，只不过是白白气坏了自己而已——何必呢？</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">好孩子，我劝你还是冷静一下，不要继续在这里出丑，对自己或者别人做出什么无法收拾的事情来。</speak>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">——督治殿下，我只要求法律最公正的裁判。</speak>
+            <show chara="ShylockConfident" position="right" opacity="0.8"/>
+            <show chara="DogeSerious" position="left"/>
+            <speak chara="_CervantesVenice">……这封信上说，博士自己无法出庭，但他推荐了一位年轻有为的同行来担此大任。</speak>
+            <show chara="DogeNormal" position="left"/>
+            <speak chara="_CervantesVenice">使者啊，这年轻人也随你一同来了吗？</speak>
+            <show chara="DogeNormal" position="left" opacity="0.8"/>
+            <show chara="NerissaSmile" position="right"/>
+            <speak chara="_AliceVeniceM">正是。他就在外面等候着您的答复——不知道殿下是否允许他进来。</speak>
+            <show chara="NerissaSmile" position="right" opacity="0.8"/>
+            <show chara="DogeSmile" position="left"/>
+            <speak chara="_CervantesVenice">非常欢迎。快，你们去三四个人，把他恭恭敬敬地请到这里来。</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="alexandriaPalace.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="DogeSmile" position="left"/>
+            <speak chara="_CervantesVenice">年轻人。你就是从博士先生那里来的吗？</speak>
+            <show chara="DogeSmile" position="left" opacity="0.8"/>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">正是，殿下。</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="DogeSmile" position="left"/>
+            <speak chara="_CervantesVenice">欢迎、欢迎。请上座。</speak>
+            <show chara="DogeSerious" position="left"/>
+            <speak chara="_CervantesVenice">您有没有了解过今天我们在这里审理的案子，双方的立场都是什么？</speak>
+            <show chara="DogeSerious" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">我对于这个案子的情形已经完全知道了。</speak>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">你们哪一位是破产的商人，哪一位又是他的债主呢？</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="DogeNormal" position="left"/>
+            <speak chara="_CervantesVenice">安东尼奥，夏洛克：你们两人都过来。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">你的名字就是夏洛克吗？</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="ShylockSmile" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">夏洛克正是我的名字。</speak>
+            <show chara="ShylockSmile" position="left" opacity="0.8"/>
+            <show chara="PortiaThink" position="right"/>
+            <speak chara="_RitaVeniceM">你这场官司打得确实奇怪。不过，按照威尼斯的法律，你的控诉是可以成立的。</speak>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">安东尼奥，你的生死现在操纵在他的手里，是不是？</speak>
+            <show chara="PortiaNormal" position="right" opacity="0.8"/>
+            <show chara="AntonioDismay" position="left"/>
+            <speak chara="_ThalesVenice">……他是这样说的。</speak>
+            <show chara="AntonioDismay" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">那么你自己呢？你承认这个借约吗？</speak>
+            <show chara="PortiaNormal" position="right" opacity="0.8"/>
+            <show chara="AntonioHelpless" position="left"/>
+            <speak chara="_ThalesVenice">……我只能承认。</speak>
+            <show chara="AntonioHelpless" position="left" opacity="0.8"/>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">既然对方认错，那么我建议债主先生应该慈悲一点。</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="ShylockProvocative" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">你们为什么总让我“慈悲一点”？你又有什么新的理由？</speak>
+            <show chara="ShylockProvocative" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">我是一名学者，所以请原谅我的话听起来有点像说教。</speak>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">慈悲是一种美德。因此，它绝不是出于一个人的勉强，而是像天降甘霖一样普济众生。</speak>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">慈悲不但会给予受施舍的人以幸福，也会给予提供施舍的人另一种幸福：它比任何权利和财富都要高贵，也比任何权利和财富都更能够慰藉我们的灵魂。</speak>
+            <show chara="PortiaPersuade" position="right"/>
+            <speak chara="_RitaVeniceM">先生，我说这番话，是希望你能够从你的原告立场上做一点让步；可如果你坚持原来的要求，那么法律是无私的，我们也就只能宣判那个商人有罪。</speak>
+            <show chara="PortiaPersuade" position="right" opacity="0.8"/>
+            <show chara="ShylockCold" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">我不让步。我只要求法律允许我按照约定执行惩罚。</speak>
+            <show chara="ShylockCold" position="left" opacity="0.8"/>
+            <show chara="PortiaThink" position="right"/>
+            <speak chara="_RitaVeniceM">那么：这位商人，他是不是绝无可能如约用自己的生意偿还这笔欠款？</speak>
+            <show chara="PortiaThink" position="right" opacity="0.8"/>
+            <show chara="BassanioTeeth" position="left"/>
+            <speak chara="_BiankaVenice">不，我愿意替他当庭还清，就算是翻倍也可以。</speak>
+            <show chara="BassanioFindOthersUnreasonable" position="left"/>
+            <speak chara="_BiankaVenice">要是那位债主还不满足，那么我愿意签署契约，还十倍的数目，用我的头和心来做抵押；</speak>
+            <speak chara="_BiankaVenice">如果就算这样也不能使他改弦易辙，那只能说对方是要存心谋杀我的朋友了。</speak>
+            <show chara="BassanioSmile" position="left"/>
+            <speak chara="_BiankaVenice">博士先生，请您合理地运用一下权力，把法律稍稍变通一下——</speak>
+            <show chara="BassanioInspireOthers" position="left"/>
+            <speak chara="_BiankaVenice">用一次小小的错误，来换取一件大大的好事，不要让这个残忍恶魔的欲望得逞，让整个法律成为他杀人的帮凶。</speak>
+            <show chara="BassanioInspireOthers" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">这可不行。在威尼斯，谁也没有权力在法庭上临时变更既定的法律：一旦开了这种恶例，法律必将成为一纸空文，任何坏事都能找出借口来开脱了。</speak>
+            <show chara="PortiaPersuade" position="right"/>
+            <speak chara="_RitaVeniceM">这是绝对不行的。</speak>
+            <show chara="PortiaPersuade" position="right" opacity="0.8"/>
+            <show chara="ShylockLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">看啊，多么铁面无私的法官！这位青年的智识简直世所罕见，我同意他所说的每一个字！</speak>
+            <show chara="ShylockLaugh" position="left" opacity="0.8"/>
+            <show chara="PortiaThink" position="right"/>
+            <speak chara="_RitaVeniceM">债主先生，请让我再看一看那份借据。</speak>
+            <show chara="PortiaThink" position="right" opacity="0.8"/>
+            <show chara="ShylockSmile" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">它就在这里。请您过目，可敬的博士。</speak>
+            <show chara="ShylockSmile" position="left" opacity="0.8"/>
+            <show chara="PortiaPersuade" position="right"/>
+            <speak chara="_RitaVeniceM">债主先生，你需要再考虑一下吗？他们愿意出三倍以上的钱来还你，那可不是一个小数目。</speak>
+            <show chara="PortiaPersuade" position="right" opacity="0.8"/>
+            <show chara="ShylockFalseShock" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">不，不，我早已对天发誓要惩罚这个不守约定的人——我难道可以让自己的灵魂背上毁坏誓言的恶名吗？</speak>
+            <show chara="ShylockCold" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">不，不，不！就算你们把整个威尼斯都让给我，我都不能答应。</speak>
+            <show chara="ShylockCold" position="left" opacity="0.8"/>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">好。那么我们就如约处罚。</speak>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">根据法律，这位债主有权从那位商人的胸口割下一磅肉来。</speak>
+            <show chara="PortiaPersuade" position="right"/>
+            <speak chara="_RitaVeniceM">不过……夏洛克先生，我最后再劝你一次：慈悲为怀，把三倍的钱拿到手，让我撕了这张借据吧。</speak>
+            <show chara="PortiaPersuade" position="right" opacity="0.8"/>
+            <show chara="ShylockNormal" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">等他按照这上面写好的条款接受了惩罚之后，您再撕不迟。</speak>
+            <show chara="ShylockSmile" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">您是一位很好的法官，您懂得法律中的真理！</speak>
+            <show chara="ShylockConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">您讲的话都是那么地有道理，不愧是法律界中一颗冉冉升起的新星——</speak>
+            <speak chara="_ShakespeareVeniceFather">——所以我现在用法律的名义恳请您，请您立即宣判。</speak>
+            <show chara="ShylockCold" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">我不想要任何和解与变通，我只想执行这个惩罚条款。</speak>
+            <show chara="AntonioDisheartened" position="left"/>
+            <speak chara="_ThalesVenice">……我这颗绝望的心灵，也请求您用宣判来结束它的煎熬。</speak>
+            <show chara="AntonioDisheartened" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">……好吧。</speak>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">那么就是这样：你，被告人安东尼奥，必须准备让原告夏洛克的刀子刺进你的胸膛。</speak>
+            <show chara="PortiaSerious" position="right" opacity="0.8"/>
+            <show chara="ShylockLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">哈哈哈哈！您是最伟大的法官，最优秀的青年！</speak>
+            <show chara="ShylockLaugh" position="left" opacity="0.8"/>
+            <show chara="PortiaThink" position="right"/>
+            <speak chara="_RitaVeniceM">我之所以这样宣判，是因为这借据上规定的处罚，与威尼斯的法律条文并无任何抵触。</speak>
+            <show chara="PortiaThink" position="right" opacity="0.8"/>
+            <show chara="ShylockConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">非常正确！我聪明正直的法官，你看上去这样地年轻，办事却又这样地老练！</speak>
+            <show chara="ShylockConfident" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">……安东尼奥。把你的胸膛袒露出来。</speak>
+            <show chara="PortiaNormal" position="right" opacity="0.8"/>
+            <show chara="ShylockProvocative" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">是的，“他的胸部”，“心口附近”！这里白纸黑字，写得明明白白。</speak>
+            <show chara="ShylockProvocative" position="left" opacity="0.8"/>
+            <show chara="PortiaThink" position="right"/>
+            <speak chara="_RitaVeniceM">……是的。这样说来，你有没有准备好称肉的天平？</speak>
+            <show chara="PortiaThink" position="right" opacity="0.8"/>
+            <show chara="ShylockSmile" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">我随身带着。</speak>
+            <show chara="ShylockSmile" position="left" opacity="0.8"/>
+            <show chara="PortiaPersuade" position="right"/>
+            <speak chara="_RitaVeniceM">那么，我希望你能自掏腰包，请一位外科医生为此事善后，免得我们的原告因为流血而失去性命。</speak>
+            <show chara="PortiaPersuade" position="right" opacity="0.8"/>
+            <show chara="ShylockFalseShock" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">我和他签订的契约上没有这一条规定吧？</speak>
+            <show chara="ShylockFalseShock" position="left" opacity="0.8"/>
+            <show chara="PortiaThink" position="right"/>
+            <speak chara="_RitaVeniceM">嗯。可是这又有什么关系呢？这总归是一件好事啊。</speak>
+            <show chara="PortiaThink" position="right" opacity="0.8"/>
+            <show chara="ShylockCold" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">抱歉，我找不到什么外科医生。再说，也没有任何人可以要求我这么做。</speak>
+            <show chara="ShylockCold" position="left" opacity="0.8"/>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">……那么，商人安东尼奥，你还有什么话要说吗？</speak>
+            <show chara="PortiaSerious" position="right" opacity="0.8"/>
+            <show chara="AntonioDisheartened" position="left"/>
+            <speak chara="_ThalesVenice">我没有什么话可说——我早已经准备好了。</speak>
+            <show chara="AntonioLaugh" position="left"/>
+            <speak chara="_ThalesVenice">巴萨尼奥，把你的手伸过来，让我们好好告别一下吧！</speak>
+            <show chara="AntonioSmile" position="left"/>
+            <speak chara="_ThalesVenice">你千万不要把我的这种结局归咎于你自己：无论任何人，只要他真心爱着自己的朋友，他就一定会像我这样去做的。</speak>
+            <show chara="AntonioSmileCloseEye" position="left"/>
+            <speak chara="_ThalesVenice">巴萨尼奥，替我向你的夫人致意：告诉她安东尼奥的结局，告诉她安东尼奥是多么地爱自己的朋友，告诉她安东尼奥又究竟怎样从容赴死。</speak>
+            <show chara="AntonioSmile" position="left"/>
+            <speak chara="_ThalesVenice">这样，等到你讲完我的故事之后，你可以问问她：巴萨尼奥是不是曾经有过一个真心爱他的朋友，那个朋友是不是发自内心地认为自己死而无憾。</speak>
+            <show chara="AntonioLaugh" position="left"/>
+            <speak chara="_ThalesVenice">想开点，巴萨尼奥，千万不要因为自己将要失去一个朋友就痛不欲生：只要那家伙把刀刺深一点，我就可以在一刹那还清自己身上所有的债。</speak>
+            <show chara="AntonioLaugh" position="left" opacity="0.8"/>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">啊，安东尼奥！我爱我的妻子，就像我自己的生命一样；可是我的生命、我的妻子、以及这整个世界，在我的眼中都不比你的生命更为贵重！</speak>
+            <show chara="BassanioTeeth" position="right"/>
+            <speak chara="_BiankaVenice">我愿意丧失我的一切，把它们都献祭给恶魔做牺牲——只为了搭救你的性命！</speak>
+            <show chara="BassanioTeeth" position="right" opacity="0.8"/>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">……咳咳。尊夫人要是听见你发表如此高论，恐怕不见得会感谢你吧。</speak>
+            <show chara="PortiaSneer" position="left" opacity="0.8"/>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVeniceQ">不，丽塔——</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="BassanioHelpless" position="left"/>
+            <speak chara="_BiankaVeniceSelf">——呃。</speak>
+            <show chara="BassanioShy" position="left"/>
+            <speak chara="_BiankaVeniceSelf">……抱歉，我串词了。</speak>
+            <show chara="BassanioShy" position="left" opacity="0.8"/>
+            <show chara="PortiaSneer" position="right"/>
+            <speak chara="_RitaVeniceMSelf">噗。</speak>
+            <show chara="ShylockLaugh" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">哈哈哈哈哈哈！</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">……没事没事。这种容易串戏或者笑场的地方，我们之后多强化训练几次就是了。</speak>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">话说回来，这一段本身只是故事里的俏皮话，所以大家用自己的理解自由发挥就好。</speak>
+            <show chara="ShylockSmile" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">——那么我们继续？</speak>
+            <show chara="ShylockSmile" position="right" opacity="0.8"/>
+            <show chara="BassanioShy" position="left"/>
+            <speak chara="_BiankaVeniceSelf">……好。</speak>
+            <goto goto="110" change="#ffffff"/>
+        </scene>
+        <scene id="110" background="alexandriaPalace.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">尊夫人要是听见你发表如此高论，恐怕不见得会感谢你吧。</speak>
+            <show chara="PortiaSneer" position="left" opacity="0.8"/>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVenice">不，博士，这只是一种比喻上的说法，我不是说真的要用自己家人……</speak>
+            <show chara="GratianoNervous" position="right"/>
+            <speak chara="_WattVenice">是、是啊。我也有妻子，我、我发誓我是爱她的——</speak>
+            <show chara="GratianoTeeth" position="right"/>
+            <speak chara="_WattVenice">可、可是此情此景，让、让我也难免会产生一些荒诞的念头：比如希望她现在就住在天堂里，这样她就可以直接请求上帝来抹去那个人骇人听闻的可怕执念了。</speak>
+            <show chara="GratianoTeeth" position="right" opacity="0.8"/>
+            <show chara="NerissaDespise" position="left"/>
+            <speak chara="_AliceVeniceM">……幸亏先生您是在她背后说这样的胡言乱语；否则，只怕是您家里一定要几天几夜吵得鸡犬不宁了。</speak>
+            <show chara="NerissaDespise" position="left" opacity="0.8"/>
+            <show chara="GratianoSorry" position="right"/>
+            <speak chara="_WattVenice">呃……</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="ShylockLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">瞧瞧吧，这就是你们所谓“文明人”的“好丈夫”！</speak>
+            <show chara="ShylockNormal" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">我有一个女儿，我宁愿她嫁给一个海盗的子孙，也不要嫁给你们这种衣冠禽兽。</speak>
+            <show chara="ShylockConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">让我们别再浪费光阴了，赶快宣判吧！</speak>
+            <show chara="ShylockConfident" position="left" opacity="0.8"/>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">好。</speak>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">商人安东尼奥身上的一磅肉是你夏洛克的——法律许可你，法庭判给你。</speak>
+            <show chara="PortiaSerious" position="right" opacity="0.8"/>
+            <show chara="ShylockSmile" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">正直的法官，公平的判决！</speak>
+            <show chara="ShylockSmile" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">原告，由于你不接受被告提出的一切折衷方案，所以必须从他胸前割下这一磅肉来。法庭判给你，法律要求你。</speak>
+            <show chara="PortiaNormal" position="right" opacity="0.8"/>
+            <show chara="ShylockConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">判得好，博学多才的法官！来吧，各位！</speak>
+            <show chara="ShylockConfident" position="left" opacity="0.8"/>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">且慢。</speak>
+            <show chara="PortiaSerious" position="right" opacity="0.8"/>
+            <show chara="ShylockProvocative" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">……还有什么事吗，法官阁下？</speak>
+            <show chara="ShylockProvocative" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">当然。</speak>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">原告，这契约上并没有允许你取他的一滴血，只是明写着“一磅肉”；所以你可以照这些条文拿一磅肉去——</speak>
+            <speak chara="_RitaVeniceM">可是在割肉的时候，你但凡让被告流了一滴血，你的土地和财产，按照威尼斯的法律就要全部充公。</speak>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVenice">……咦？</speak>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">看、看到了吗？！你、你这可恶的吸血鬼，这才是真正公平公正的法官！博、博学多才的法官！</speak>
+            <show chara="GratianoExcited" position="right" opacity="0.8"/>
+            <show chara="ShylockShock" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">……法律上是这样说的？！</speak>
+            <show chara="ShylockShock" position="left" opacity="0.8"/>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">你可以自己去查查明白。</speak>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">既然你要求公道，我就给你公道——而且比你要求的还要地道。</speak>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">“博学多才的法官！”</speak>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">“正直的法官，公平的判决！”</speak>
+            <show chara="GratianoExcited" position="right" opacity="0.8"/>
+            <show chara="ShylockDissatisfied" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">……那么算了吧。我愿意接受逾期还款，就照这契约上的三倍数目来还吧。</speak>
+            <show chara="ShylockDissatisfied" position="left" opacity="0.8"/>
+            <show chara="BassanioConfident" position="right"/>
+            <speak chara="_BiankaVenice">钱就在这里。</speak>
+            <show chara="BassanioConfident" position="right" opacity="0.8"/>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">别忙，被告的这位朋友。</speak>
+            <show chara="PortiaNormal" position="left"/>
+            <speak chara="_RitaVeniceM">我刚才已经宣判了，由于原告不接受被告提出的一切折衷方案，所以他必须从被告胸前割下那一磅肉来。</speak>
+            <show chara="PortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">他已经不能接受一切替代方案了。</speak>
+            <show chara="PortiaSerious" position="left" opacity="0.8"/>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">全、全世界也没有比你更公正的人了，法官阁下！</speak>
+            <show chara="GratianoExcited" position="right" opacity="0.8"/>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">所以，夏洛克先生，请你现在就动手割肉吧。</speak>
+            <show chara="PortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">你不准让他留一滴血，也不准割得超过或者不足一磅的重量——</speak>
+            <speak chara="_RitaVeniceM">——如若不然，即使相差只有一丝一毫，你也要为此抵命，你的财产也要全部充公。</speak>
+            <show chara="PortiaSerious" position="left" opacity="0.8"/>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">“看啊，多么铁面无私的法官！这位青年的智识简直世所罕见，我同意他所说的每一个字！”</speak>
+            <show chara="GratianoExcited" position="right" opacity="0.8"/>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">原告，动手吧。</speak>
+            <show chara="PortiaSmile" position="left" opacity="0.8"/>
+            <show chara="ShylockDissatisfied" position="right"/>
+            <speak chara="_ShakespeareVeniceFather">……把我的本钱还我，我们就当这事从没发生过吧。</speak>
+            <show chara="ShylockDissatisfied" position="right" opacity="0.8"/>
+            <show chara="BassanioConfident" position="left"/>
+            <speak chara="_BiankaVenice">没问题，钱就在这里。</speak>
+            <show chara="BassanioConfident" position="left" opacity="0.8"/>
+            <show chara="PortiaSneer" position="right"/>
+            <speak chara="_RitaVeniceM">被告的这位朋友？</speak>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">我刚才说过，原告已经不能接受一切替代方案了。</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="ShylockFury" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">难道我单单拿回我的本钱都不成吗？</speak>
+            <show chara="ShylockFury" position="left" opacity="0.8"/>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">不能。你只能冒着你自己的生命危险割下那一磅肉：法律不能给你其他的任何东西。</speak>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">法律已经判处被告违约在先，你不能绕过这个事实。</speak>
+            <show chara="PortiaNormal" position="right" opacity="0.8"/>
+            <show chara="ShylockFury" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">呸，让魔鬼保佑他去享用那些金子吧！我不打这场官司还不行吗？！</speak>
+            <show chara="ShylockFury" position="left" opacity="0.8"/>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">等一等，原告——法律上还有一点牵涉你。</speak>
+            <show chara="PortiaNormal" position="right"/>
+            <speak chara="_RitaVeniceM">威尼斯的法律规定：任何异邦人，如果企图用直接或间接的手段，谋害任何本邦公民，查有实据者——</speak>
+            <show chara="PortiaSerious" position="right"/>
+            <speak chara="_RitaVeniceM">他财产中的半数应当归受害的一方所有，另一半则由国家没收；</speak>
+            <speak chara="_RitaVeniceM">犯罪者的性命交由督治处置，其他人不得过问。</speak>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">所以原告，你现在立刻跪下来请求督治殿下开恩，可能还来得及。</speak>
+            <show chara="DogeSmile" position="right"/>
+            <speak chara="_CervantesVenice">夏洛克啊，现在就让你瞧瞧我们“文明人”的精神：你虽然还没有向我开口，但我已自动饶恕了你的死罪。</speak>
+            <show chara="DogeSerious" position="right"/>
+            <speak chara="_CervantesVenice">你财产的一半划归安东尼奥，还有一半要由国家没收——如果你诚心悔过，国家的那一部分或许还可以减免一些。</speak>
+            <show chara="DogeSerious" position="right" opacity="0.8"/>
+            <show chara="ShylockFury" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">不！</speak>
+            <show chara="ShylockHysteria" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">你们就把我的生命连着财产一起抢去吧，我不要你们的“宽恕”！</speak>
+            <show chara="ShylockHysteria" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">一瞬间，你们就把我抢得家徒四壁——我还要靠什么来活下去？！</speak>
+            <show chara="ShylockHysteria" position="left" opacity="0.8"/>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">安东尼奥，现在你能不能给他一点慈悲？</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="AntonioSmile" position="left"/>
+            <speak chara="_ThalesVenice">如果殿下和阁下愿意从宽发落，不予没收他一半的财产；那么我也许诺：</speak>
+            <speak chara="_ThalesVenice">我接管的那另一半，将由我转交给他女儿，以及最近和他女儿私奔了的那位绅士。</speak>
+            <show chara="AntonioNormal" position="left"/>
+            <speak chara="_ThalesVenice">我只要一个附加条件：他必须当庭立下文书，声明他死了之后，他的全部财产都要传给他的女儿，还有他的女婿洛伦佐先生。</speak>
+            <show chara="AntonioNormal" position="left" opacity="0.8"/>
+            <show chara="DogeSmile" position="right"/>
+            <speak chara="_CervantesVenice">好。只要他愿意这样做，我就可以这样赦免他。</speak>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">夏洛克先生，你满意吗？你有什么话要说吗？</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="ShylockShock" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">我……</speak>
+            <show chara="ShylockDissatisfied" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">……随你们的便吧。</speak>
+            <show chara="ShylockDissatisfied" position="left" opacity="0.8"/>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">那么，书记——请写下一张捐赠产业的文书。</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="ShylockDisheartened" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">我……我希望你们允许我退庭……我身体不太舒服。</speak>
+            <show chara="ShylockDisheartened" position="left"/>
+            <speak chara="_ShakespeareVeniceFather">文书写好了可以送到我家里，我在上面签字就是了。</speak>
+            <show chara="ShylockDisheartened" position="left" opacity="0.8"/>
+            <show chara="DogeNormal" position="right"/>
+            <speak chara="_CervantesVenice">去吧，我相信你没有胆量再临时变卦。</speak>
+            <show chara="DogeSmile" position="right"/>
+            <speak chara="_CervantesVenice">安东尼奥——虽然我们现在即将退庭，但你私下里要代我好好谢谢这位博士先生。这次可是多亏有他啊。</speak>
+            <show chara="DogeSmile" position="right" opacity="0.8"/>
+            <show chara="AntonioSmile" position="left"/>
+            <speak chara="_ThalesVenice">遵命，我的殿下。</speak>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="BassanioSmile" position="left"/>
+            <speak chara="_BiankaVeniceSelf">呼……总算能喘口气了。</speak>
+            <show chara="BassanioSmile" position="left" opacity="0.8"/>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">虽然我这样说可能有点不客气——不过刚才的这一幕，可还没有结束哦？</speak>
+            <show chara="ShylockConfident" position="right" opacity="0.8"/>
+            <show chara="BassanioShock" position="left"/>
+            <speak chara="_BiankaVeniceSelf">……啊。之后还有巴萨尼奥把自己的结婚戒指送给博士的剧情吧。</speak>
+            <show chara="BassanioShock" position="left" opacity="0.8"/>
+            <show chara="PortiaSneer" position="right"/>
+            <speak chara="_RitaVeniceMSelf">是的，幽兰黛尔——</speak>
+            <show chara="PortiaShock" position="right"/>
+            <speak chara="_RitaVeniceMSelf">——啊不，比安卡大人。</speak>
+            <show chara="PortiaShock" position="right" opacity="0.8"/>
+            <show chara="BassanioConfident" position="left"/>
+            <speak chara="_BiankaVeniceSelf">没关系啦，我又不介意这些。</speak>
+            <show chara="BassanioSmile" position="left"/>
+            <speak chara="_BiankaVeniceSelf">船——不，剧团长的另一个剧本里不就有一段很有名的台词吗？</speak>
+            <show chara="BassanioInspireOthers" position="left"/>
+            <speak chara="_BiankaVeniceSelf">“姓名又不是手，又不是脚，又不是胳膊，又不是脸，又不是身体的任何其他部分。”</speak>
+            <show chara="BassanioInspireOthers" position="left"/>
+            <speak chara="_BiankaVeniceSelf">“姓名本来是没有意义的；我们叫做玫瑰的这种花，就算叫了别的名字，它的气味也还是一样的芬芳。”</speak>
+            <show chara="BassanioInspireOthers" position="left" opacity="0.8"/>
+            <show chara="ShylockConfident" position="right"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">哈哈。话说回来，你们不是说已经重铸了“圣剑”吗——它有没有抗议你抢了它的名字？</speak>
+            <show chara="ShylockConfident" position="right" opacity="0.8"/>
+            <show chara="BassanioHelpless" position="left"/>
+            <speak chara="_BiankaVeniceSelf">……还好吧。</speak>
+            <show chara="BassanioHelpless" position="left" opacity="0.8"/>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceMSelf">毕竟“圣剑”自己的说法是——</speak>
+            <show chara="PortiaSmile" position="right" opacity="0.8"/>
+            <show chara="BassanioShock" position="left"/>
+            <speak chara="_BiankaVeniceSelf">喂——</speak>
+            <show chara="BassanioShock" position="left" opacity="0.8"/>
+            <show chara="PortiaPersuade" position="right"/>
+            <speak chara="_RitaVeniceMSelf">“不，你应该继续用这个名字呀！先不说其他人能不能习惯你再改回去，我可是很享受能自称是你祖先的感觉啊？”</speak>
+            <show chara="PortiaPersuade" position="right" opacity="0.8"/>
+            <show chara="ShylockLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">哈哈哈哈！它要是能回来看看，想必会更热闹一点吧。</speak>
+            <show chara="ShylockLaugh" position="left" opacity="0.8"/>
+            <show chara="BassanioSmile" position="right"/>
+            <speak chara="_BiankaVeniceSelf">……那倒是。</speak>
+            <show chara="BassanioInspireOthers" position="right"/>
+            <speak chara="_BiankaVeniceSelf">船长，我们一定会找到办法，把这个世界泡的“反演基线”连接到“虚数之树”上，彻底解决它的稳定性问题。</speak>
+            <show chara="BassanioConfident" position="right"/>
+            <speak chara="_BiankaVeniceSelf">等到那一天，“圣剑”也能卸下这份重担的时候——我们一定会专程带着它回来看看的。</speak>
+            <show chara="BassanioConfident" position="right" opacity="0.8"/>
+            <show chara="ShylockConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">哈哈，那我们可就一言为定喽？</speak>
+            <show chara="ShylockConfident" position="left" opacity="0.8"/>
+            <show chara="BassanioConfident" position="right"/>
+            <speak chara="_BiankaVeniceSelf">一言为定！</speak>
+            <show chara="PortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceMSelf">一言为定。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="ShylockLaugh" position="center"/>
+            <speak chara="_ShakespeareVeniceFatherSelf">好了各位！我们还有最后的五分之一——为了在直播的时候能给全世界献上一份惊喜，大家加油吧！</speak>
+            <goto goto="130" change="#ffffff"/>
+        </scene>
+        <scene id="130" background="alexandriaCityLandscape.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="BassanioInspireOthers" position="right"/>
+            <speak chara="_BiankaVenice">啊，最可尊敬的博士先生！我和我的朋友今天全赖您的智慧，才脱得大难，免去一场无妄之灾。</speak>
+            <show chara="BassanioConfident" position="right"/>
+            <speak chara="_BiankaVenice">所以，先生，为了表示我们的敬意，请您一定要收下这三千个金币。</speak>
+            <show chara="BassanioSmile" position="right"/>
+            <speak chara="_BiankaVenice">这些钱原本是打算还给那个夏洛克的，现在正好可以作为谢礼送给您。</speak>
+            <show chara="BassanioSmile" position="right" opacity="0.8"/>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">两位，万万不可。我帮你们的忙，是不想让法律本身为虎作伥；我此刻的心满意足就是我最大的报酬，已经不需要再得到任何额外的酬谢了。</speak>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">但愿我们下次再见面的时候，两位仍旧认识我。两位保重，我就此告辞了。</speak>
+            <show chara="PortiaSneer" position="left" opacity="0.8"/>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVenice">——等等，先生！</speak>
+            <show chara="BassanioSmile" position="right"/>
+            <speak chara="_BiankaVenice">好先生，您的大恩大德我们真的无以为报：请您随便从我们身上拿些什么东西去，就算是留个纪念也好。</speak>
+            <show chara="BassanioInspireOthers" position="right"/>
+            <speak chara="_BiankaVenice">好先生，我只求你原谅我这强人所难的要求，让我们好安心回去——不要连这也一并推辞了。</speak>
+            <show chara="BassanioInspireOthers" position="right" opacity="0.8"/>
+            <show chara="PortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">……哎呀。你们这样殷勤，还真让我不好推辞了。</speak>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">安东尼奥先生，请您把手套送给我，让我戴着回去留个纪念吧；</speak>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">而巴萨尼奥先生，为了纪念您的盛情，就让我把这枚戒指拿去吧。</speak>
+            <show chara="PortiaSneer" position="left" opacity="0.8"/>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVenice">咦？可是——</speak>
+            <show chara="BassanioShock" position="right" opacity="0.8"/>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">先生，请不要缩回您的手，您不是说让我随便从你身上“拿些什么东西去”吗？</speak>
+            <show chara="PortiaSmile" position="left" opacity="0.8"/>
+            <show chara="BassanioShy" position="right"/>
+            <speak chara="_BiankaVenice">可是，这个戒指是我……我……</speak>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">我说！它只不过是个不值钱的装饰品，我不好意思把这东西送给您。</speak>
+            <show chara="BassanioTangled" position="right" opacity="0.8"/>
+            <show chara="PortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">……这有什么不好意思的？你这样说，我现在倒非常想把它要过来了。</speak>
+            <show chara="PortiaPersuade" position="left"/>
+            <speak chara="_RitaVeniceM">我什么都不要，就要这戒指。</speak>
+            <show chara="PortiaPersuade" position="left" opacity="0.8"/>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">……唉。这戒指本身并没有什么价值，可是因为一些其他的关系，我不能把它送给别人。</speak>
+            <show chara="BassanioInspireOthers" position="right"/>
+            <speak chara="_BiankaVenice">博士，如果您愿意放过我这枚不值钱的戒指，我可以买一枚全威尼斯最贵重的戒指，专程去送给您。</speak>
+            <show chara="BassanioInspireOthers" position="right" opacity="0.8"/>
+            <show chara="PortiaAngry" position="left"/>
+            <speak chara="_RitaVeniceM">……先生，你竟然只是个口头上慷慨的人？</speak>
+            <speak chara="_RitaVeniceM">你左手教我怎样伸手乞讨，右手就教我乞讨最常得到的东西究竟是什么。呵呵。</speak>
+            <show chara="PortiaAngry" position="left" opacity="0.8"/>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">我……我——</speak>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">好先生，我求求你：这戒指其实是我妻子送给我的，我曾经对她发誓，永远也不会把它转交给别人。</speak>
+            <show chara="BassanioTangled" position="right" opacity="0.8"/>
+            <show chara="PortiaNormal" position="left"/>
+            <speak chara="_RitaVeniceM">……在人们吝啬他们的礼物的时候，这是一个很常见的借口。</speak>
+            <show chara="PortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">让我说得不客气一点吧：如果您夫人不是一个没有理性的疯子，她就知道我是值得您送出这枚戒指的对象；</speak>
+            <speak chara="_RitaVeniceM">即使我现在拿走它，也不会就导致您婚姻破裂、家庭不幸的。</speak>
+            <show chara="PortiaAngry" position="left"/>
+            <speak chara="_RitaVeniceM">好了，再见吧，愿你们平安！</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVenice">啊，请等等——</speak>
+            <show chara="BassanioShock" position="right" opacity="0.8"/>
+            <show chara="AntonioHelpless" position="left"/>
+            <speak chara="_ThalesVenice">唉，我的巴萨尼奥少爷，你就让他把那戒指拿去吧——</speak>
+            <show chara="AntonioSmileCloseEye" position="left"/>
+            <speak chara="_ThalesVenice">就像他说的那样，看在他功劳的份上，你和夫人的这个小小约定应该没有那么要紧才对。</speak>
+            <show chara="AntonioSmileCloseEye" position="left" opacity="0.8"/>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">……</speak>
+            <show chara="BassanioPrudish" position="right"/>
+            <speak chara="_BiankaVenice">格拉提亚诺，你去追上他们，把这戒指送给博士；如果他们愿意的话，你还可以带他们到安东尼奥的家里去做客。</speak>
+            <show chara="BassanioPrudish" position="right" opacity="0.8"/>
+            <show chara="GratianoNormal" position="left"/>
+            <speak chara="_WattVenice">好，我现在就去追他们。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="BassanioInspireOthers" position="center"/>
+            <speak chara="_BiankaVenice">来吧，安东尼奥，我们现在就回你家去，好好庆祝一下；明天我们再一起赶回贝尔蒙特的别墅。</speak>
+            <goto goto="140" clockwise="1"/>
+        </scene>
+        <scene id="140" background="alexandriaFair.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="PortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">奈莉莎，快去打听打听夏洛克一家到底住在什么地方，把这份新契约书的文本交给他，让他签个字。</speak>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">我们今天晚上就动身，这样就可以比我们的丈夫早一天到家。洛伦佐他们如果拿到了这份契约，一定会高兴得不得了。</speak>
+            <show chara="PortiaSmile" position="left" opacity="0.8"/>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">博、博士先生！</speak>
+            <show chara="GratianoExcited" position="right" opacity="0.8"/>
+            <show chara="PortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">嗯？</speak>
+            <show chara="PortiaShock" position="left" opacity="0.8"/>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">先、先生，我、我可算追上您了。</speak>
+            <show chara="GratianoNervous" position="right"/>
+            <speak chara="_WattVenice">巴、巴萨尼奥先生再、再三考虑之后，决、决定派我来把这戒指送给您，还、还要请您和他一道去安东尼奥先生的府上好好地吃一顿。</speak>
+            <show chara="GratianoNervous" position="right" opacity="0.8"/>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">吃饭就不必了；不过他的戒指我收下了，请你替我谢谢他的好意。</speak>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">另外，我还要麻烦你帮我的这位书记带个路，让他能找到那个夏洛克的住处。</speak>
+            <show chara="PortiaSmile" position="left" opacity="0.8"/>
+            <show chara="GratianoExcited" position="right"/>
+            <speak chara="_WattVenice">没、没问题！</speak>
+            <show chara="NerissaSmile" position="right"/>
+            <speak chara="_AliceVeniceM">博士，麻烦借一步说话。</speak>
+            <show chara="NerissaSneer" position="right"/>
+            <speak chara="_AliceVeniceM">（我想试试我能不能也把我丈夫的戒指拿下来。他也曾发誓过自己要一直戴着它，永不离手。）</speak>
+            <show chara="NerissaSneer" position="right" opacity="0.8"/>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">（噗，你肯定行的。等我们回家以后，一定要看看他们那拼命解释戒指只是送给男人了的窘态；</speak>
+            <speak chara="_RitaVeniceM">但是我们不仅要赢得这场对质，还要让他们比以前更看重这种誓言才行。）</speak>
+            <show chara="PortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">没关系，你快去吧；你知道我会在什么地方等你。</speak>
+            <show chara="PortiaSmile" position="left" opacity="0.8"/>
+            <show chara="NerissaSmile" position="right"/>
+            <speak chara="_AliceVeniceM">那么先生，就麻烦您为我带路吧。</speak>
+            <show chara="NerissaSmile" position="right" opacity="0.8"/>
+            <show chara="GratianoExcited" position="left"/>
+            <speak chara="_WattVenice">请、请这边走，书记先生。</speak>
+            <goto goto="150" change="#ffffff"/>
+        </scene>
+        <scene id="150" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="JessicaLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceNoName">哈哈哈哈，让真正的情侣来演这种戏，果然很有意思！</speak>
+            <show chara="JessicaLaugh" position="left" opacity="0.8"/>
+            <show chara="BassanioHelpless" position="right"/>
+            <speak chara="_BiankaVeniceSelf">唔……我倒是很同情吉米，他怎么看都有些紧张过头了。</speak>
+            <show chara="BassanioHelpless" position="right" opacity="0.8"/>
+            <show chara="JessicaFalseShock" position="left"/>
+            <speak chara="_ShakespeareVeniceNoName">嗯？那你自己呢？</speak>
+            <show chara="JessicaFalseShock" position="left" opacity="0.8"/>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVeniceSelf">我？我有什么——</speak>
+            <show chara="BassanioTeeth" position="right"/>
+            <speak chara="_BiankaVeniceSelf">……喂！你究竟在暗示些什么啦，八卦剧团长！</speak>
+            <show chara="BassanioTeeth" position="right" opacity="0.8"/>
+            <show chara="PortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceMSelf">发生什么事了吗，比安卡大人？</speak>
+            <show chara="PortiaSneer" position="left" opacity="0.8"/>
+            <show chara="BassanioShy" position="right"/>
+            <speak chara="_BiankaVeniceSelf">……什么事都没有啦！</speak>
+            <show chara="BassanioShy" position="right" opacity="0.8"/>
+            <show chara="JessicaLaugh" position="left"/>
+            <speak chara="_ShakespeareVeniceNoName">哈哈哈哈。好啦好啦，不开玩笑了。</speak>
+            <show chara="JessicaConfident" position="left"/>
+            <speak chara="_ShakespeareVeniceNoName">需要换衣服的各位抓紧一下时间，让我们一鼓作气把最后一幕演完吧！</speak>
+            <show chara="JessicaConfident" position="left" opacity="0.8"/>
+            <show chara="LorenzoHappy" position="right"/>
+            <speak chara="_YukimuraVeniceNoName">遵命，剧团长！</speak>
+            <goto goto="160" clockwise="1"/>
+        </scene>
+        <scene id="160" background="starNight.jpg">
+            <bgm src="09_13_dannyBoy.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="LorenzoTender" position="left"/>
+            <speak chara="_YukimuraVenice">多么美丽的星空！微风轻轻地亲吻着树枝，没有发出一点声响；也许就是在这样的一个夜晚——</speak>
+            <show chara="LorenzoTender" position="left" opacity="0.8"/>
+            <show chara="JessicaSurprised" position="right"/>
+            <speak chara="_ShakespeareVeniceDaughter">——嘘。你听，有脚步声。</speak>
+            <show chara="JessicaSurprised" position="right" opacity="0.8"/>
+            <show chara="LorenzoVigilant" position="left"/>
+            <speak chara="_YukimuraVenice">谁在这静悄悄的夜里跑得飞快？</speak>
+            <show chara="LorenzoVigilant" position="left" opacity="0.8"/>
+            <show chara="StephanoSincere" position="right"/>
+            <speak chara="_RolandVenice">一个朋友！</speak>
+            <show chara="StephanoSincere" position="right" opacity="0.8"/>
+            <show chara="JessicaVigilant" position="left"/>
+            <speak chara="_ShakespeareVeniceDaughter">朋友？洛伦佐和我应该都不认识你。</speak>
+            <show chara="JessicaVigilant" position="left" opacity="0.8"/>
+            <show chara="StephanoTender" position="right"/>
+            <speak chara="_RolandVenice">我的名字是斯丹法诺，我是专程来向你们报信的：我家的女主人在天亮之前就会回来，她会把一个非常好的消息带给你们。</speak>
+            <show chara="StephanoTender" position="right" opacity="0.8"/>
+            <show chara="LorenzoSurprised" position="left"/>
+            <speak chara="_YukimuraVenice">什么好消息？</speak>
+            <show chara="LorenzoSurprised" position="left" opacity="0.8"/>
+            <show chara="StephanoSincere" position="right"/>
+            <speak chara="_RolandVenice">这我可不知道，女主人只是想让我提前通知你们“有好消息”——</speak>
+            <show chara="GobboTalk" position="right"/>
+            <speak chara="_CaravaggioVenice">让开让开！送口信的来了！</speak>
+            <show chara="GobboTalk" position="right" opacity="0.8"/>
+            <show chara="JessicaSurprised" position="left"/>
+            <speak chara="_ShakespeareVeniceDaughter">……咦？老爷子，你不在家里照顾我爸爸，到这里来送信做什么？</speak>
+            <show chara="JessicaSurprised" position="left" opacity="0.8"/>
+            <show chara="GobboSmile" position="right"/>
+            <speak chara="_CaravaggioVenice">啊，杰西卡，你这个好孩子——我这次是帮老爷原本的仇人来送信的，他明天就要来这里，而且会带给你们一个好消息。</speak>
+            <show chara="GobboSmile" position="right" opacity="0.8"/>
+            <show chara="LorenzoSurprised" position="left"/>
+            <speak chara="_YukimuraVenice">什么好消息？</speak>
+            <show chara="LorenzoSurprised" position="left" opacity="0.8"/>
+            <show chara="GobboTalk" position="right"/>
+            <speak chara="_CaravaggioVenice">这我可不知道。</speak>
+            <show chara="GobboTalk" position="right" opacity="0.8"/>
+            <show chara="LorenzoHelpless" position="left"/>
+            <speak chara="_YukimuraVenice">……怎么回事，每个人都神秘兮兮的。</speak>
+            <show chara="LorenzoSmile" position="left"/>
+            <speak chara="_YukimuraVenice">不过，我们还是都进屋子里去吧：既然这屋子的女主人就要回来了，那我们不好好准备准备可不行呀。</speak>
+            <goto goto="170" clockwise="1"/>
+        </scene>
+        <scene id="170" background="starNightNorth.jpg">
+            <bgm src="09_13_dannyBoy.mp3" status="continue"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="DressPortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">咦？我们家里怎么亮着灯光，还有美妙的音乐在风中流淌？</speak>
+            <show chara="DressPortiaShock" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_AliceVeniceM">难道……我们的丈夫竟然在我们之前回来了吗？</speak>
+            <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
+            <show chara="DressPortiaThink" position="left"/>
+            <speak chara="_RitaVeniceM">别慌，奈莉莎：你知道他们和那个安东尼奥的关系有多么好，他们昨天晚上一定还在城里大吃大喝呢。</speak>
+            <show chara="DressPortiaThink" position="left" opacity="0.8"/>
+            <show chara="LorenzoSmile" position="right"/>
+            <speak chara="_YukimuraVenice">——要是我没有听错，门外这声音分明就是我们女主人的。</speak>
+            <show chara="LorenzoSmile" position="right" opacity="0.8"/>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">噗。这一定是我的嗓音太难听，所以才一下子就给他听出来了。</speak>
+            <show chara="DressPortiaSmile" position="left" opacity="0.8"/>
+            <show chara="LorenzoSmile" position="right"/>
+            <speak chara="_YukimuraVenice">好夫人，您说笑了。欢迎您回家来！</speak>
+            <show chara="LorenzoSmile" position="right" opacity="0.8"/>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">我们昨天外出为我们的丈夫祈祷平安，希望他们能够因此而时来运转。他们已经回来了吗？</speak>
+            <show chara="DressPortiaSmile" position="left" opacity="0.8"/>
+            <show chara="LorenzoSmile" position="right"/>
+            <speak chara="_YukimuraVenice">夫人，他们还没有回来；刚才他们的信使就跟在你们的信使后面过来，一样说自己的主人有好消息要带来——</speak>
+            <show chara="LorenzoHelpless" position="right"/>
+            <speak chara="_YukimuraVenice">——却也一样不肯告诉我们，到底是什么好消息。</speak>
+            <show chara="LorenzoHelpless" position="right" opacity="0.8"/>
+            <show chara="DressPortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">……唔，那他们应该也离家不远了。</speak>
+            <show chara="DressPortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">奈莉莎，吩咐所有仆人，让他们都当我们昨天没出去过一样；洛伦佐，也麻烦你和杰西卡帮我们保守秘密：</speak>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">那个好消息，等一会儿时机合适了我们再告诉你。</speak>
+            <show chara="DressPortiaSmile" position="left" opacity="0.8"/>
+            <show chara="LorenzoSmile" position="right"/>
+            <speak chara="_YukimuraVenice">夫人，您放心好了，这里没有喜欢搬弄是非的人。</speak>
+            <show chara="LorenzoSurprised" position="right"/>
+            <speak chara="_YukimuraVenice">啊，你们听——远处好像响起了巴萨尼奥先生吹喇叭的声音。</speak>
+            <goto goto="180" clockwise="1"/>
+        </scene>
+        <scene id="180" background="0_studyNight.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="0curtain" position="back"/>
+            <show chara="DressPortiaHappy" position="left"/>
+            <speak chara="_RitaVeniceM">夫君，欢迎回家！</speak>
+            <show chara="DressPortiaHappy" position="left" opacity="0.8"/>
+            <show chara="BassanioSmile" position="right"/>
+            <speak chara="_BiankaVenice">谢谢你，我的夫人。托你的福，事情转危为安了。</speak>
+            <show chara="BassanioConfident" position="right"/>
+            <speak chara="_BiankaVenice">请容我正式介绍一下：这位就是安东尼奥，他曾经给过我很多的帮助。</speak>
+            <show chara="AntonioSmile" position="right"/>
+            <speak chara="_ThalesVenice">您好，夫人。</speak>
+            <show chara="AntonioSmile" position="right" opacity="0.8"/>
+            <show chara="DressPortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">巴萨尼奥，他的确给过你很多的帮助——因为我听说为了你，他差点把命都搭进去了。</speak>
+            <show chara="DressPortiaSneer" position="left" opacity="0.8"/>
+            <show chara="AntonioLaugh" position="right"/>
+            <speak chara="_ThalesVenice">这没有什么，现在一切都完美解决了。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="GratianoNervous" position="center"/>
+            <speak chara="_WattVenice">——等、等一下，请听我解释，奈莉莎！</speak>
+            <show chara="GratianoSorry" position="center"/>
+            <speak chara="_WattVenice">我、我没有撒谎，我真的把它送给了那位法官的书记。</speak>
+            <show chara="GratianoFindOthersUnreasonable" position="center"/>
+            <speak chara="_WattVenice">那、那真的没有什么！毕、毕竟他只是一个博士的书童而已！</speak>
+            <hide position="center"></hide>
+            <show chara="DressPortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">咦？你们在争吵些什么？</speak>
+            <show chara="DressPortiaShock" position="left" opacity="0.8"/>
+            <show chara="GratianoNervous" position="right"/>
+            <speak chara="_WattVenice">我、我……</speak>
+            <show chara="GratianoNervous" position="right" opacity="0.8"/>
+            <show chara="AliceHmClose" position="left"/>
+            <speak chara="_AliceVeniceM">哼。当初我给你那枚戒指的时候，你是怎么对我发誓的？</speak>
+            <show chara="AliceShockClose" position="left"/>
+            <speak chara="_AliceVeniceM">你说，你要“戴着它一直到死，死了也要和它一起被埋进坟墓”——</speak>
+            <show chara="AliceThinkClose" position="left"/>
+            <speak chara="_AliceVeniceM">——即使不为了我，为了你自己的誓言，你也应该把它看得更重要一些，不管遇到什么事情都好好保存着才对。</speak>
+            <show chara="AliceShockClose" position="left"/>
+            <speak chara="_AliceVeniceM">现在呢？一个小男孩就把这个戒指骗了去，一个小男孩！</speak>
+            <show chara="AliceShockClose" position="left" opacity="0.8"/>
+            <show chara="GratianoFindOthersUnreasonable" position="right"/>
+            <speak chara="_WattVenice">如、如果是女孩的话，问题才更大吧？</speak>
+            <show chara="GratianoFindOthersUnreasonable" position="right" opacity="0.8"/>
+            <show chara="AliceShockClose" position="left"/>
+            <speak chara="_AliceVeniceM">什么？你还敢假设这种情况？</speak>
+            <show chara="AliceShockClose" position="left" opacity="0.8"/>
+            <show chara="GratianoNervous" position="right"/>
+            <speak chara="_WattVenice">我、我……</speak>
+            <show chara="GratianoTeeth" position="right"/>
+            <speak chara="_WattVenice">我对天发誓，那博士和书记都是我们的恩人；他实在想要这枚戒指，我脸上挂不住，没法拒绝他。</speak>
+            <show chara="GratianoTeeth" position="right" opacity="0.8"/>
+            <show chara="DressPortiaAngry" position="left"/>
+            <speak chara="_RitaVeniceM">……恕我插一句不客气的话。</speak>
+            <show chara="DressPortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">奈莉莎是你的妻子，你怎么可以把你妻子给你的第一件礼物就随随便便地送了人？</speak>
+            <show chara="DressPortiaAngry" position="left"/>
+            <speak chara="_RitaVeniceM">在妻子面前，你们男人所谓的“面子”根本不值一提！</speak>
+            <show chara="DressPortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">你既然已经发过誓要把那戒指永远戴在自己的手上，那它就已经是你身体不可分割的一部分，就像你的手指脚趾一样了。</speak>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">我也曾经送过巴萨尼奥一个戒指，他也发誓说自己永远不会把它抛弃——</speak>
+            <show chara="DressPortiaHappy" position="left"/>
+            <speak chara="_RitaVeniceM">我敢说，即使是哪里的国王，要用他所有的金银财宝来换这枚戒指，我的巴萨尼奥也绝不可能答应的。</speak>
+            <show chara="DressPortiaAngry" position="left"/>
+            <speak chara="_RitaVeniceM">格拉提亚诺，你太对不起自己的妻子了，你应该赶紧想办法向她道歉才对。</speak>
+            <show chara="DressPortiaAngry" position="left" opacity="0.8"/>
+            <show chara="BassanioRegret" position="right"/>
+            <speak chara="_BiankaVenice">（……我真该把我的左手在回家之前砍掉；那样，我就可以发誓说，因为强盗想要这枚戒指，而我不想给他，结果那强盗就把我戴戒指的手直接砍下来了。）</speak>
+            <show chara="GratianoSorry" position="right"/>
+            <speak chara="_WattVenice">可、可是……巴、巴萨尼奥先生……也把他的戒指送给那位博士了啊？</speak>
+            <show chara="GratianoNervous" position="right"/>
+            <speak chara="_WattVenice">他们帮了我们判赢了官司，却分文不取，只要我们手上的——</speak>
+            <show chara="GratianoNervous" position="right" opacity="0.8"/>
+            <show chara="DressPortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">——等等？</speak>
+            <show chara="DressPortiaFalseShock" position="left"/>
+            <speak chara="_RitaVeniceM">我的夫君，你把哪个戒指送给了别人？该不会是我送你的“那个”吧？</speak>
+            <show chara="DressPortiaFalseShock" position="left" opacity="0.8"/>
+            <show chara="BassanioRegret" position="right"/>
+            <speak chara="_BiankaVenice">……要是我现在说谎就可以让你开心一点的话，那么我会否认的。可是，我的手上现在空空如也，我说什么也不可能让你开心起来了。</speak>
+            <show chara="BassanioRegret" position="right" opacity="0.8"/>
+            <show chara="DressPortiaFalseShock" position="left"/>
+            <speak chara="_RitaVeniceM">天啊，你这时候再坦诚起来又有什么用？你虚伪的心里没有一丝一毫的真情。</speak>
+            <show chara="DressPortiaAngry" position="left"/>
+            <speak chara="_RitaVeniceM">我对天发誓，除非我再见到你手上戴着那个戒指，否则我就再也不和你同床共枕了。</speak>
+            <show chara="DressPortiaAngry" position="left" opacity="0.8"/>
+            <show chara="BassanioRegret" position="right"/>
+            <speak chara="_BiankaVenice">……</speak>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">亲爱的鲍茜娅，要是你知道我把这戒指送给了什么人——</speak>
+            <show chara="BassanioTangled" position="right" opacity="0.8"/>
+            <show chara="DressPortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">这根本不是送给谁的问题。</speak>
+            <show chara="DressPortiaAngry" position="left"/>
+            <speak chara="_RitaVeniceM">巴萨尼奥，如果你真的知道这枚戒指代表了什么、拥有怎样的价值，你就不可能再把它送给任何一个人。</speak>
+            <show chara="DressPortiaFalseShock" position="left"/>
+            <speak chara="_RitaVeniceM">再说，世上哪有这样的人？一边分文不取，一边专要别人手上的戒指？</speak>
+            <show chara="DressPortiaFalseShock" position="left"/>
+            <speak chara="_RitaVeniceM">他难道是个不经世事的傻瓜，不知道这种东西有多么大的纪念意义？</speak>
+            <speak chara="_RitaVeniceM">我现在不禁怀疑，是不是有什么女人把这个戒指拿走了！</speak>
+            <show chara="DressPortiaFalseShock" position="left" opacity="0.8"/>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVenice">不！</speak>
+            <show chara="BassanioHelpless" position="right"/>
+            <speak chara="_BiankaVenice">我的夫人，我用我的名誉、我的灵魂发誓，我真的是把戒指送给了那个在法庭上帮助了我们的博士。</speak>
+            <show chara="BassanioRegret" position="right"/>
+            <speak chara="_BiankaVenice">他不接受我送给他的三千金币，一定要这枚戒指；我不答应，他就气哄哄地拂袖而去了。</speak>
+            <show chara="BassanioTangled" position="right"/>
+            <speak chara="_BiankaVenice">可是——这个人救了我最好的朋友的性命啊？我、我难道就忍心让他这样和我们不欢而散吗？</speak>
+            <show chara="BassanioHelpless" position="right"/>
+            <speak chara="_BiankaVenice">我的好夫人，我是实在没有法子，才叫人追上去、把戒指送给他；不然，我就只能一辈子做一个忘恩负义的人了。</speak>
+            <show chara="BassanioRegret" position="right"/>
+            <speak chara="_BiankaVenice">请原谅我，好夫人；我对天发誓，如果那时候你也在场，你也一样会劝我把戒指送给那位博士的。</speak>
+            <show chara="BassanioRegret" position="right" opacity="0.8"/>
+            <show chara="DressPortiaSerious" position="left"/>
+            <speak chara="_RitaVeniceM">……那我劝你不要让那位博士有机会和我见面。</speak>
+            <show chara="DressPortiaThink" position="left"/>
+            <speak chara="_RitaVeniceM">他既然拿了我所珍视的宝物，而那宝物又是你发誓永远为我而保存的东西——</speak>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">——那么我也会像你一样慷慨，把我所有的一切都奉献给他。</speak>
+            <show chara="DressPortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">即使是他要我的身体，或是这个家里的任何一张床，我也都不会拒绝他的。</speak>
+            <show chara="DressPortiaSneer" position="left" opacity="0.8"/>
+            <show chara="AntonioHelpless" position="right"/>
+            <speak chara="_ThalesVenice">夫人啊，您千万别动气——都是我的不是，才引出了你们这一场吵闹。</speak>
+            <show chara="AntonioHelpless" position="right" opacity="0.8"/>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">好先生，这跟您没有关系；我们都很喜欢您，欢迎您来我们家做客。</speak>
+            <show chara="DressPortiaSmile" position="left" opacity="0.8"/>
+            <show chara="BassanioRegret" position="right"/>
+            <speak chara="_BiankaVenice">鲍茜娅，我真的错了。现在，当着这么多朋友们的面，我向你发誓：凭着你这双美丽的眼睛，在它们里面我可以看见我自己的——</speak>
+            <show chara="BassanioRegret" position="right" opacity="0.8"/>
+            <show chara="DressPortiaFalseShock" position="left"/>
+            <speak chara="_RitaVeniceM">你在说些什么？我的左眼里也有一个你，我的右眼里也有一个你：你是打算借着自己的“双重人格”发誓吗？</speak>
+            <show chara="DressPortiaFalseShock" position="left" opacity="0.8"/>
+            <show chara="BassanioPrudish" position="right"/>
+            <speak chara="_BiankaVenice">不，鲍茜娅，你听我说。请你原谅我犯下的这个大错；我凭借我的灵魂起誓，我以后再不违背任何对你发出的誓言。</speak>
+            <show chara="AntonioNormal" position="right"/>
+            <speak chara="_ThalesVenice">好夫人，我曾经为了这个男人的幸福，用我自己的身体做抵押，为他借来了三千金币——而现在，我敢再立一张契约。</speak>
+            <show chara="AntonioSwear" position="right"/>
+            <speak chara="_ThalesVenice">用我的灵魂、我的性命做担保，我保证您的丈夫绝不会再做任何对您背信弃义的行为！</speak>
+            <show chara="AntonioSwear" position="right" opacity="0.8"/>
+            <show chara="DressPortiaShock" position="left"/>
+            <speak chara="_RitaVeniceM">好先生，担保或者契约就不必了——</speak>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">不过我想麻烦你做一个见证人，把这个给我先生，让他把它保存的比上回的那一个好一些。</speak>
+            <show chara="DressPortiaSmile" position="left" opacity="0.8"/>
+            <show chara="AntonioSmile" position="right"/>
+            <speak chara="_ThalesVenice">巴萨尼奥，快拿着！快发誓永远保存这枚新的戒指！</speak>
+            <show chara="BassanioShock" position="right"/>
+            <speak chara="_BiankaVenice">……天啊！这不就是我原来拿到的那一个吗？！</speak>
+            <show chara="BassanioShock" position="right" opacity="0.8"/>
+            <show chara="DressPortiaSneer" position="left"/>
+            <speak chara="_RitaVeniceM">我从“博士”手里把它要回来了呀。</speak>
+            <show chara="DressPortiaSmile" position="left"/>
+            <speak chara="_RitaVeniceM">巴萨尼奥，原谅我：为了这枚戒指，我已经和那位“博士”睡过觉了。</speak>
+            <show chara="AliceSmileClose" position="right"/>
+            <speak chara="_AliceVeniceM">也原谅我，格拉提亚诺：为了向那个未成年的书记讨要我的戒指，我也已经和他睡过觉了。</speak>
+            <show chara="AliceSmileClose" position="right" opacity="0.8"/>
+            <show chara="GratianoFindOthersUnreasonable" position="left"/>
+            <speak chara="_WattVenice">什……什么？</speak>
+            <show chara="BassanioFindOthersUnreasonable" position="left"/>
+            <speak chara="_BiankaVenice">这、这……</speak>
+            <show chara="BassanioFindOthersUnreasonable" position="left" opacity="0.8"/>
+            <show chara="DressPortiaSneer" position="right"/>
+            <speak chara="_RitaVeniceM">噗。看来你们有一点受惊过度；所以我觉得我们还是不要继续捉弄你们了。</speak>
+            <show chara="DressPortiaHappy" position="right"/>
+            <speak chara="_RitaVeniceM">这里有一封信，你们拿去慢慢看吧——它是从帕多瓦寄来的，你们从这封信里，就可以知道那位博士就是鲍茜娅，而她的书记就是奈莉莎。</speak>
+            <show chara="DressPortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">洛伦佐也可以向你们证明，当你们出发之后，我们也立即动身去了帕多瓦；我们到家也还没有多久，连自己的屋子都还没有进去过呢。</speak>
+            <show chara="DressPortiaHappy" position="right"/>
+            <speak chara="_RitaVeniceM">对了，安东尼奥先生，我们这里甚至还有一个与您有关的好消息：</speak>
+            <show chara="DressPortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">这里有一封信，上面说您那三艘逾期未至的商船即将满载而归，马上就要到港了。您一定没想到，这样一封信会由我转交给您。</speak>
+            <show chara="DressPortiaSmile" position="right" opacity="0.8"/>
+            <show chara="AntonioShock" position="left"/>
+            <speak chara="_ThalesVenice">……我已经吃惊地无话可说了。</speak>
+            <show chara="BassanioShock" position="left"/>
+            <speak chara="_BiankaVenice">所、所以……你就是那个博士，而我们却连认都没有认出来你？</speak>
+            <show chara="BassanioShock" position="left" opacity="0.8"/>
+            <show chara="DressPortiaSneer" position="right"/>
+            <speak chara="_RitaVeniceM">噗。男人们多半自己没有什么变装的经验，会在这种事情上吃亏简直再正常不过了。</speak>
+            <show chara="DressPortiaSneer" position="right" opacity="0.8"/>
+            <show chara="BassanioShy" position="left"/>
+            <speak chara="_BiankaVenice">……</speak>
+            <show chara="BassanioConfident" position="left"/>
+            <speak chara="_BiankaVenice">啊，让我们把所有问题都抛诸脑后吧！</speak>
+            <speak chara="_BiankaVenice">我的好博士，你今晚就陪我睡觉吧！</speak>
+            <show chara="BassanioSmile" position="left"/>
+            <speak chara="_BiankaVenice">当我不在的时候，你也可以直接睡到我妻子的床上。</speak>
+            <show chara="BassanioShy" position="left"/>
+            <speak chara="_BiankaVenice">……嗯，就是这样。</speak>
+            <show chara="BassanioShy" position="left" opacity="0.8"/>
+            <show chara="DressPortiaSneer" position="right"/>
+            <speak chara="_RitaVeniceM">哎呀哎呀，突然学会了甜言蜜语的巴萨尼奥——我觉得如果什么时候你做了法官，一定会比那位博士更加能言善辩。</speak>
+            <show chara="DressPortiaHappy" position="right"/>
+            <speak chara="_RitaVeniceM">对了，洛伦佐——</speak>
+            <show chara="DressPortiaHappy" position="right" opacity="0.8"/>
+            <show chara="LorenzoSmile" position="left"/>
+            <speak chara="_YukimuraVenice">什么事，夫人？</speak>
+            <show chara="LorenzoSmile" position="left" opacity="0.8"/>
+            <show chara="DressPortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">这是你的好消息：这里有一张你那个放高利贷的岳父亲笔签署的文书，他不仅现在就要把他一半的财富交给你和杰西卡；</speak>
+            <speak chara="_RitaVeniceM">等他百年之后，他的所有遗产，也都会全部归于你们名下。</speak>
+            <show chara="DressPortiaSmile" position="right" opacity="0.8"/>
+            <show chara="LorenzoHappy" position="left"/>
+            <speak chara="_YukimuraVenice">我的天啊！夫人，你们简直就是播撒幸福的天使！</speak>
+            <show chara="LorenzoHappy" position="left" opacity="0.8"/>
+            <show chara="DressPortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">天已经差不多要亮了，可是我知道你们还想把整件事情的来龙去脉知道的更详细一点。</speak>
+            <show chara="DressPortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceM">没有关系，让我们大家先进屋吧；如果谁还有什么疑惑的地方，他可以慢慢地向我们提问。</speak>
+            <show chara="DressPortiaSmile" position="right" opacity="0.8"/>
+            <show chara="BassanioSmile" position="left"/>
+            <speak chara="_BiankaVenice">现在距离白天可能只有两个小时了；不如我们各自先去睡觉，等到下午再一起庆祝我们的整个冒险——</speak>
+            <show chara="BassanioShy" position="left"/>
+            <speak chara="_BiankaVenice">——博、博士小姐，可以吧？</speak>
+            <goto goto="190" clockwise="1"/>
+        </scene>
+        <scene id="190" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="BassanioShy" position="left"/>
+            <speak chara="_BiankaVeniceSelf">呼……没想到最后的这一段戏，演起来竟然是最累人的部分。</speak>
+            <show chara="BassanioShy" position="left" opacity="0.8"/>
+            <show chara="DressPortiaFalseShock" position="right"/>
+            <speak chara="_RitaVeniceMSelf">咦？是这样吗？</speak>
+            <show chara="DressPortiaSneer" position="right"/>
+            <speak chara="_RitaVeniceMSelf">我还以为……比安卡大人一定会乐在其中呢。</speak>
+            <show chara="DressPortiaSneer" position="right" opacity="0.8"/>
+            <show chara="BassanioShy" position="left"/>
+            <speak chara="_BiankaVeniceSelf">哪、哪有——</speak>
+            <show chara="BassanioFindOthersUnreasonable" position="left"/>
+            <speak chara="_BiankaVeniceSelf">我、我在这戏里有什么可开心的？</speak>
+            <show chara="BassanioFindOthersUnreasonable" position="left" opacity="0.8"/>
+            <show chara="DressPortiaSmile" position="right"/>
+            <speak chara="_RitaVeniceMSelf">……咦？真的是这样吗？</speak>
+            <goto goto="200" change="0"/>
+        </scene>
+        <scene id="200" background="CG31-1.jpg">
+            <bgm src="12_29_street.mp3" status="start"></bgm>
+            <speak chara="_Rita">“啊，我的好博士，你今晚就陪我睡觉吧。”</speak>
+            <speak chara="_Rita">“当我不在的时候，你也可以直接睡到我妻子的床上。”</speak>
+            <goto goto="210" change="0"/>
+        </scene>
+        <scene id="210" background="CG31-2.jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">喂！</speak>
+            <end last="1" post="U2FsdGVkX19p0u0anU64b1thN0ia"/>
+        </scene>
+    </story>
+</data>

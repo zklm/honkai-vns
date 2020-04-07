@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="studyLamp.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">金毛！拿我的烈火之剑来！</speak>
+            <show chara="teslaShameEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">金毛……是说我吗？</speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">……“烈火之剑”又是什么？</speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="joaSmileWinterClose-up" position="left"/>
+            <speak chara="joaNoNameNoFace">女武神姐姐……她大概是想让你把焊接枪递过去……</speak>
+            <show chara="joaSmileWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">啊、啊，焊接枪是吗……</speak>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">焊接枪……焊接枪……</speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">给，焊接枪。</speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">啊啊……就是这个。谢啦。</speak>
+            <show chara="teslaBoringEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="einFoolWhiteClose-up" position="right"/>
+            <speak chara="einNoFace">不好意思，我们家这个傻子，一烦躁起来就不太会说人话。</speak>
+            <show chara="einFoolWhiteClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAngryEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">喂！鸡窝头！你说谁是傻子啊？！</speak>
+            <show chara="teslaAngryEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWhiteClose-up" position="right"/>
+            <speak chara="einNoFace">除了最尊贵的特斯拉阁下，还有谁啊。</speak>
+            <show chara="einSlyWhiteClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAngryEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">……吃我烈火之剑啦！</speak>
+            <show chara="teslaAngryEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">……危险啊！</speak>
+            <show chara="weltShameSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">……而且为什么是朝我身上挥啊！？</speak>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="studyLamp.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <text article="1">
+                <p class="article-text">事情是怎么变成这样呢……瓦尔特不禁一声叹息。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">今晚来到42实验室的两位客人名叫蕾安娜·布里甘缇亚，以及约阿希姆·诺基安维塔宁。前者是来自总部的高阶女武神，后者则是某个轻浮芬兰人的儿子。</p>
+                <p class="article-text">要说这两个家伙为何会一同出现在这里……</p>
+                <p class="article-text">大概，这就是所谓的“缘分”吧。</p>
+            </text>
+            <show chara="ghostBlackFloatClose-up" position="center" opacity="0.9"/>
+            <text article="1">
+                <p class="article-text">当然，我们没法知道，作为这份缘分的垫脚石的，某个倒了八辈子血霉的遥控机器人会怎么想。</p>
+                <br />
+                <p class="article-text">……如果它也能思考的话。</p>
+            </text>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="schoolNight3.jpg">
+            <text article="1">
+                <p class="article-text">约阿希姆以前就来过好多次他爸爸工作的地方；每一次，这里的天然卷姐姐和双马尾姐姐，总是会给他玩各式各样其他小朋友玩不到的东西：制作各种色彩鲜艳的化学溶液啦，在暗室里用放电线圈奏乐啦，和电脑小姐姐一起排练舞台剧啦……全是可以和其他小朋友吹牛的资本。</p>
+            </text>
+            <show chara="joaBlackWinterClose-up" position="center" opacity="0.9"/>
+            <text article="1">
+                <p class="article-text" style="color:#ccbdac;font-style:italic;">“我最喜欢姐姐们了！”</p>
+                <br />
+                <p class="article-text">——至少在瓦尔特看来，少年绝对是这样想的。</p>
+            </text>
+            <hide position="center"/>
+            <text article="1">
+                <p class="article-text">所以，几天之前，当双马尾姐姐暑假时送给他的通信器又突然响起的时候，少年本能地觉得，一定又有什么有趣的事要发生了。</p>
+            </text>
+            <show chara="teslaBlackGlassWinterClose-up" position="center" opacity="0.9"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(237,118,114);font-style:italic;">“喂，小子！想不想一起来玩万圣节的整蛊啊？”</p>
+            </text>
+            <hide position="center"/>
+            <text article="1">
+                <p class="article-text">只是双马尾姐姐不可能估计到，自己早就在墓园里准备好的机器人，会被恰好前来扫墓的女武神姐姐，当作“不明飞行物”给轰成了碎片。</p>
+            </text>
+            <show chara="reaBlackRunWinterClose-up" position="center" opacity="0.9"/>
+            <text article="1">
+                <p class="article-text" style="color:#fff2c4;font-style:italic;">“啊……这……我真的不知道！非常对不起！我会按你们的要求赔偿的！”</p>
+            </text>
+            <hide position="center"/>
+            <text article="1">
+                <p class="article-text">回想起女武神姐姐深鞠躬道歉的样子，约阿希姆不好意思地觉得，自己也有些对不住人家。</p>
+                <br />
+                <p class="article-text">——至少在瓦尔特看来是这样的。</p>
+            </text>
+            <show chara="joaBlackWinterClose-up" position="center" opacity="0.9"/>
+            <text article="1">
+                <p class="article-text">面对执意要求赔偿的对方，这小子灵机一动——</p>
+                <br />
+                <p class="article-text" style="color:#ccbdac;font-style:italic;">“蕾安娜姐姐，我想要你的签名！”</p>
+            </text>
+            <hide position="center"/>
+            <text article="1">
+                <p class="article-text">当然，话说回来……</p>
+                <br />
+                <p class="article-text">某个红发暴君是不可能这样就假装“无事发生”的。</p>
+            </text>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="studyLamp.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="teslaNormalEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">真是的……</speak>
+            <show chara="teslaEmbarraEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">你那“黑渊白花”是什么玩意啊？竟然把每一根电线都从内部搞断了，怎么做到的啊？</speak>
+            <show chara="teslaEmbarraEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaSmileAhWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">“黑渊白花”是集分解与创生为一体的“神之键”。</speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">当发动它的破坏能力时，针对的目标，从内到外都会向着更加混乱无序的状态自动解构。</speak>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">如果以最大功率使用的话——</speak>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">慢着慢着。</speak>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">“集分解与创生为一体”？</speak>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">就是说——它也具备修复的能力？</speak>
+            <show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaSmileAhWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">……是的。</speak>
+            <show chara="reaSmileAhWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSmileEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">那你不早说！</speak>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">我们一起操作它，把这堆破铜烂铁重新修好，不就得了？</speak>
+            <show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">……抱歉，这个我做不到。如果可以的话，我也想当场就把它修好的。</speak>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">啊？为什么啊。</speak>
+            <show chara="teslaShameEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">黑渊白花虽然能够分解一切，但它的“创生”能力，却只适合修复生命体的损伤。</speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">啊，是这样吗。</speak>
+            <show chara="teslaEmbarraEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">等等……这没道理啊。有机和无机又没有绝对的界限。</speak>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">说到底，所谓的“人”，换个角度看，不也只是台具备自我意识的机器么？</speak>
+            <show chara="teslaShameEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">那个……</speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">……你是第一次听到这种说法么？</speak>
+            <show chara="teslaSmileEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">想想我们的脏器。想想我们的细胞。想想我们的线粒体。想想我们的神经递质。</speak>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">哪一个不是根据外部条件，机械地执行命令？</speak>
+            <show chara="teslaNormalEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">人是软乎乎的，机器是硬梆梆的——这只是材质的差别而已。</speak>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">我们貌似聪明，机器貌似笨拙，但那只不过因为我们还没有能力设计出像我们自己这样好的机器。</speak>
+            <show chara="teslaBoringEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">那些顽固相信人有所谓“灵魂”的家伙，要么是不愿深究这个世界的本质——</speak>
+            <show chara="teslaEmbarraEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">要么，就是被“自我”这个概念搅乱了方寸，非要找一件“国王的新衣”来证明自己的“合法性”不可。</speak>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">明白吗？这些人不敢相信自己只是大自然随性的产物，不敢相信自己只是万事万物自然演化的副产品。</speak>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">他们宁愿我们在虚构的概念中“伟大”，也不要脚踏实地去好好认识自己。</speak>
+            <speak chara="teslaNoFace">正因为怕得要死，所以更愿意目空一切——和那些高喊“君权神授”的国王没有任何区别。</speak>
+            <show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">啊哈哈……</speak>
+            <speak chara="reannaNoFace">那个……</speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">虽然你讲的道理很有意思……但任何修复都是需要蓝图的啊。</speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">蓝图？我给你不就好了，这又不是什么难事！</speak>
+            <show chara="teslaShameEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">不……对于黑渊白花来说，它只能解析用基因语言编制的蓝图。</speak>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace" remark="next">啧……DNA吗。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">1953年初，沃森（James Dewey Watson）和克里克（Francis Harry Compton Crick）根据富兰克林（Rosalind Elsie Franklin）所拍摄的X光衍射图，提出了DNA双螺旋解构的精确模型，并发表在了《自然》杂志上（第171卷4356期737页，MOLECULAR’ STRUCTURE OF NUCLEIC ACIDS：A Structure for Deoxyribose Nucleic Acid）。</p>
+                <br />
+                <p class="article-text">P.S. 这篇论文只有一页纸——除了署名和参考文献列在了738页上。</p>
+            </remark>
+            <show chara="teslaBoringEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">嗯……它只能识别DNA格式的“蓝图”呢。</speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">……切，没劲。</speak>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace" remark="next">既然能号称“神之键”……我还以为你这是什么“贤者之石”呢。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">贤者之石（Philosopher's stone）的概念，一般认为出自公元1世纪左右的赫耳墨斯主义（Hermeticism）的纲领性短文《翠玉石板》（Emerald Tablet）中。</p>
+                <p class="article-text">“贤者之石”象征着炼金术的顶点，术士们认为它不仅能点石成金，还能令人长生不老。</p>
+            </remark>
+            <show chara="teslaShameEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right"/>
+            <speak chara="reannaNoFace">啊哈哈哈哈……贤者之石什么的……</speak>
+            <show chara="reaEmbarraOpenEyeWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="einSlyWhiteClose-up" position="right"/>
+            <speak chara="einNoFace">不好意思啊，我们家这个【傻子】，书都读到博士了，竟然还相信炼金术。</speak>
+            <show chara="einSlyWhiteClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAngryEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaAngryEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWhiteClose-up" position="right"/>
+            <speak chara="einNoFace">怎么了，有什么问题吗？</speak>
+            <show chara="einSlyWhiteClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAngryEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">…………</speak>
+            <show chara="teslaAngryEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWhiteClose-up" position="right"/>
+            <speak chara="einNoFace">没有问题的话，我们就继续修理吧？</speak>
+            <show chara="einSlyWhiteClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAngryEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">………………</speak>
+            <show chara="teslaNormalEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">瓦尔特。</speak>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">在！？</speak>
+            <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">不使用什么危险武器的话……我还是可以揍人的吧？</speak>
+            <show chara="teslaShameEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">那个……你不揍我就行？</speak>
+            <show chara="weltGiggleSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">不伤及无辜群众的话，你就是要拆了房子也没关系啊。</speak>
+            <show chara="weltGiggleSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">……</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="">
+            <bgm src="lab.mp3" status="stop"></bgm>
+            <sound src="hit man.mp3"/>
+            <text>“啊！”</text>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="studyLamp.jpg">
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <show chara="weltShameSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">好痛！</speak>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">为什么又是我啊！？</speak>
+            <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">当然是因为打你更好玩咯。</speak>
+            <show chara="teslaSmileEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">再说，这也是最不会“伤及无辜群众”的方案啊。</speak>
+            <show chara="teslaSmileEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">等、等等？</speak>
+            <show chara="weltSurpriseSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">“那个……你不揍我就行？”</speak>
+            <show chara="teslaSmileEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">噗！</speak>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">爱因斯坦博士，你说这种作壁上观的家伙，该怎么惩罚呀？</speak>
+            <show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWhiteClose-up" position="left"/>
+            <speak chara="einNoFace">死刑得了。</speak>
+            <show chara="einSlyWhiteClose-up" position="left" opacity="0.7"/>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">……等等等等？</speak>
+            <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="left"/>
+            <speak chara="reannaNoFace">……哈哈哈哈。</speak>
+            <show chara="reaSmileAhWinterClose-up" position="left"/>
+            <speak chara="reannaNoFace">……你还真是一个“罪孽深重”的男人啊。</speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="left"/>
+            <speak chara="reannaNoFace">接受吧接受吧。</speak>
+            <show chara="reaEmbarraCloseEyeWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">……等等等等等等？</speak>
+            <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="joaNormalAhWinterClose-up" position="left"/>
+            <speak chara="joaNoFace">那个……</speak>
+            <show chara="joaNormalEmWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">小、小弟弟……你、你要帮我说话啊！看在我们同为男性的份上！</speak>
+            <show chara="weltTiredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="joaNormalEmWinterClose-up" position="left"/>
+            <speak chara="joaNoFace">……</speak>
+            <show chara="joaSmileWinterClose-up" position="left"/>
+            <speak chara="joaNoFace">请节哀？</speak>
+            <show chara="joaSmileWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">节、“节哀”？！</speak>
+            <show chara="weltShameSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace" remark="next">你小子，难道是姓“布鲁图”的吗！？</speak>
+            <remark post="U2FsdGVkX19IYJuwZsYSwhJzkZ5S">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">在莎士比亚的历史剧《儒略·恺撒》中，“Et tu, Brute?”（还有你吗，布鲁图？）是凯撒临死前，对刺杀自己的养子布鲁图说的最后一句话。</p>
+            </remark>
+            <show chara="weltShameSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">你又不是他干爹，这算哪门子的“布鲁图”啊？</speak>
+            <show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWhiteClose-up" position="left"/>
+            <speak chara="einNoFace">要不然，干脆趁现在办个手续？</speak>
+            <show chara="einSlyWhiteClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaSnickerEyeClose-up" position="left"/>
+            <speak chara="teslaNoFace">虽然人家肯定不愿意当他的继承人就是了。哈哈哈哈。</speak>
+            <show chara="teslaSnickerEyeClose-up" position="left" opacity="0.7"/>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">……你们够了啦！</speak>
+            <goto goto="100" change="#ffffff"/>
+        </scene>
+        <scene id="100" background="">
+            <bgm src="lab.mp3" status="stop"></bgm>
+            <speak chara="schroNoFace">——停！</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="CG11-1.jpg">
+            <bgm src="horror.mp3" status="start"></bgm>
+            <text>纽约·爱迪生大厦·地下试验室</text>
+            <speak chara="schroNoFace" remark="next">哈利，先不要加反射模组！</speak>
+            <speak chara="schroNoFace">……对，你看，现在的反应规模已经很危险了。</speak>
+            <text>薛定谔本能地想擦擦头上的汗水，却发现隔着厚重的防护服，这样做根本是无济于事。</text>
+            <speak chara="schroNoFace" remark="next">……路易，握紧你的改锥！这些金属块就像叠叠乐一样不安稳。</speak>
+            <speak chara="schroNoFace">……对。慢慢地撤走它。</speak>
+            <speak chara="schroNoFace">慢慢地……</speak>
+            <speak chara="schroNoFace">……好。</speak>
+            <speak chara="schroNoFace">现在这个装置将处于亚临界的稳定状态……</speak>
+            <speak chara="schroNoFace">如果一切顺利的话——</speak>
+            <speak chara="schroNoFace">——哈利，现在“核心”的温度是多少？</speak>
+            <speak chara="harryNoFace">……45.7摄氏度！</speak>
+            <speak chara="harryNoFace">……已经迅速上升了20.7度！转化成普通内能的效率很高！</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">这可能是我们整个故事中最令人唏嘘的一个梗。</p>
+                <p class="article-text">在我们的世界中，Harry K. Daghlian, Jr (1921.4 - 1945.9) 和Louis Alexander Slotin (1910.12 - 1946.5) 均是美国洛斯阿拉莫斯国家实验室的雇员。这两名不幸的科学家分别于1945年8月21日和1946年5月21日因操作不慎而受到了致命剂量的核辐射，并因此去世。</p>
+                <p class="article-text">其中，路易·斯洛廷（Louis Alexander Slotin）更是以“用双手掰开原子弹”的伟大举动而闻名于世。</p>
+            </remark>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="adaRoom.jpg">
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <show chara="nokiaSeriousEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="edisonSmileWinterFar" position="left"/>
+            <speak chara="edisonNoFace">……真棒。</speak>
+            <show chara="edisonLaughWinterFar" position="left"/>
+            <speak chara="edisonNoFace">它会成为人类有史以来最伟大的【民用】发明!</speak>
+            <speak chara="edisonNoFace">我们一定要给它一个响当当的计划名称！</speak>
+            <show chara="edisonSighWinterFar" position="left"/>
+            <speak chara="edisonNoFace">要不然，普朗克那个家伙，肯定会笑话我们没文化的。</speak>
+            <show chara="edisonSighWinterFar" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterFar" position="right"/>
+            <speak chara="nokiaNoFace">……民用发明？难道是指发电吗？</speak>
+            <show chara="nokiaSeriousAhWinterFar" position="right" opacity="0.7"/>
+            <show chara="edisonLaughWinterFar" position="left"/>
+            <speak chara="edisonNoFace">噗哈哈哈哈！说什么呢你。</speak>
+            <show chara="edisonSmileWinterFar" position="left"/>
+            <speak chara="edisonNoFace">这个发明一旦成功，无论是我也好，天命组织也好，大家的愿望都能顺利达成。</speak>
+            <show chara="edisonSlyWinterFar" position="left"/>
+            <speak chara="edisonNoFace">不，应该说……到那个时候，天命组织，就既没有存在的价值，也没有存在的资本了。</speak>
+            <show chara="edisonSlyWinterFar" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterFar" position="right"/>
+            <speak chara="nokiaNoFace">什……</speak>
+            <speak chara="nokiaNoFace">“既没有存在的价值，也没有存在的资本”？</speak>
+            <show chara="nokiaSeriousAhWinterFar" position="right" opacity="0.7"/>
+            <show chara="edisonNeckWinterFar" position="left"/>
+            <speak chara="edisonNoFace">当然。</speak>
+            <show chara="edisonSighWinterFar" position="left"/>
+            <speak chara="edisonNoFace">你难道没有意识到吗？</speak>
+            <show chara="edisonSeriousWinterFar" position="left"/>
+            <speak chara="edisonNoFace">既然我们有希望，在可控而普适的情形下，完成从崩坏能到普通能量的转换——</speak>
+            <show chara="edisonSmileWinterFar" position="left"/>
+            <speak chara="edisonNoFace">那么将这种技术推而广之，从地球上每一个角落去吸收、转换崩坏能——</speak>
+            <show chara="edisonNeckWinterFar" position="left"/>
+            <speak chara="edisonNoFace">崩坏本身不就相当于不存在了吗？</speak>
+            <show chara="edisonSighWinterFar" position="left"/>
+            <speak chara="edisonNoFace">至于天命……它不过是一个用崩坏对抗崩坏的组织。</speak>
+            <show chara="edisonSlyWinterFar" position="left"/>
+            <speak chara="edisonNoFace">一旦离开了崩坏，自然就什么也不是。</speak>
+            <show chara="edisonLaughWinterFar" position="left"/>
+            <speak chara="edisonNoFace">就像当初这新大陆朝气蓬勃的人们，根本不需要那日薄西山的国王一样！</speak>
+            <speak chara="edisonNoFace" remark="next">“起来吧，美丽的月亮！”</speak>
+            <speak chara="edisonNoFace" remark="next">“赶走那妒忌的太阳，她因为她的女儿比她美得多，已经气得两眼通红了！”</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“起来吧，美丽的太阳！赶走那妒忌的月亮，她因为她的女弟子比她美得多，已经气得面色惨白了。”——《罗密欧与茱丽叶》，莎士比亚。</p>
+            </remark>
+            <show chara="edisonSeriousWinterFar" position="left"/>
+            <speak chara="edisonNoFace">啊。</speak>
+            <show chara="edisonNeckWinterFar" position="left"/>
+            <speak chara="edisonNoFace">月亮……月光……</speak>
+            <show chara="edisonSlyWinterFar" position="left"/>
+            <speak chara="edisonNoFace">……“月光王座”？</speak>
+            <show chara="edisonLaughWinterFar" position="left"/>
+            <speak chara="edisonNoFace">“月光王座计划”！你觉得我们用这个名字怎么样？</speak>
+            <end post="U2FsdGVkX18acvktWFkCKCirIU76"/>
+        </scene>
+    </story>
+</data>	

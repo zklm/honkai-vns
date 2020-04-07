@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story title="1">
+        <scene id="0" background="black" bgm="no">
+            <bgm src="horror.mp3" status="start"></bgm>
+            <text>汽车终于停了下来。</text>
+            <sound src="car door open.mp3"/>
+            <text>车门似乎打开了。</text>
+            <text>外面的冷气裹挟着刺鼻的烟味。</text>
+            <speak chara="5">阿嚏！</speak>
+            <speak chara="0">……</speak>
+            <speak chara="0">下车吧。</speak>
+            <speak chara="5">……</speak>
+            <speak chara="5">啊。</speak>
+            <text>下意识地寻找右手边的门，结果它却是是关着的。</text>
+            <speak chara="0">啧。左边，左边！</speak>
+            <text>那人不耐烦地说着。</text>
+            <text>我顺从地摸向另一侧的车门，将腰弯曲成虾米一样的形状。</text>
+            <text>因为害怕脑袋撞上门框，直到从车中走出了两三步之后，才敢挺直自己的后背。</text>
+            <text>没有办法。谁让我的脑袋还套在黑色的袋子里呢……</text>
+            <speak chara="0">走。</speak>
+            <text>声音的来源抓住我的胳膊，不由分说地就向前拉扯。那力道很大。对方应该是个彪形大汉吧。</text>
+            <text>砰。</text>
+            <sound src="door close car away.mp3"/>
+            <text>身后传来车门关闭、引擎发动的声音。</text>
+            <shake position="all" time="250"></shake>
+            <speak chara="5">啊！</speak>
+            <text>一时失神，结果自己就像笨蛋一样地滑倒了。</text>
+            <speak chara="0">蠢货，看着点路！</speak>
+            <speak chara="5">……</speak>
+            <text>我倒是想看路啊。</text>
+            <goto goto="5" change="0"/>
+        </scene>
+        <scene id="5" background="forrestDark.jpg" bgm="no">
+            <bgm src="horror.mp3" status="continue"></bgm>
+            <sound src="walk on grass.mp3"/>
+            <text>地面上似乎湿漉漉的，阴冷的地气侵蚀着裤管里残存不多的热量。</text>
+            <text>就这样，也不知道走了多久。</text>
+            <text>周围越来越安静。依稀能听到猫头鹰凄厉的叫声。</text>
+            <text>感觉……</text>
+            <text>……不，他们应该不会打算“处理掉”我吧？</text>
+            <text>毕竟是重要的“样品”，应该不会……</text>
+            <text>等等。</text>
+            <sound src="write.mp3"/>
+            <text>面前好像有谁在用笔写字。或者是划着什么东西。</text>
+            <speak chara="einNoFaceNoName">……你可以回去了。</speak>
+            <text>这是一个平静到没有感情色彩的女性嗓音。听起来年龄不是很大，也许是秘书之类的角色吧。</text>
+            <speak chara="0">是，小姐。</speak>
+            <text>抓住胳膊的大手终于松开了。</text>
+            <text>有一阵风衣摩擦的声音。然后是渐行渐远的脚步声。</text>
+            <goto goto="10" />
+        </scene>
+        <scene id="10" background="schoolNight1.jpg" bgm="no">
+            <bgm src="horror.mp3" status="continue"></bgm>
+            <show chara="einNormalCloseNoName" position="center"/>
+            <sound src="cloth.mp3"/>
+            <shake position="all" time="250"></shake>
+            <speak chara="einNormalCloseNoName">格林尼治时间，10月20日22点57分——辛苦你了，小白鼠。</speak>
+            <speak chara="5">啊！</speak>
+            <text>没有任何心理准备，头罩被“唰”地一声扯了下来。</text>
+            <text>收口的松紧带狠狠地刮了一下鼻子，挺疼的。</text>
+            <speak chara="einNormalCloseNoName">安静。</speak>
+            <text>头发乱糟糟的少女平静地提醒着。</text>
+            <speak chara="einNormalCloseNoName">跟我来。</speak>
+            <show chara="einNormalCloseNoName" position="center" opacity="0.7"/>
+            <text>她没有给我太多打量面孔的机会。</text>
+            <text>她也知道我无处可逃。</text>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="schoolNight1.jpg" bgm="no">
+            <bgm src="horror.mp3" status="continue"></bgm>
+            <sound src="walk slow.mp3"/>
+            <text>这里似乎是某所大学的校园。刺眼的路灯在坚硬的路面上投射出草木可怖的投影，前方小楼中苍白的光影令人不由得联想到一些禁忌的实验。</text>
+            <text>无法停止地，内心里开始想象自己狼狈逃跑的样子。</text>
+            <text>咬破手指。</text>
+            <text>撕碎衣服。</text>
+            <text>歇斯底里地大叫。</text>
+            <text>谵妄地挥舞双手——</text>
+            <text>最后被麻醉枪击倒在地。</text>
+            <text>或者更惨。</text>
+            <text remark="next">“你在那里将会听到绝望的惨叫，”</text>
+            <text remark="next">“会看到远古的幽灵在饱受煎熬，”</text>
+            <text remark="next">“他们都在为祈求第二次死亡而不断呼号——”</text>
+            <remark post="U2FsdGVkX19kizjVUiE6CvKADa98">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">瓦尔特联想到的这几句诗来自但丁的《神曲》。</p>
+            </remark>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="schoolNight3.jpg" bgm="no">
+            <show chara="einNormalCloseNoName" position="center"/>
+            <bgm src="lab.mp3" status="start"></bgm>
+            <speak chara="einSmileCloseNoName">别害怕。这里和其他的实验室不一样。</speak>
+            <text>！</text>
+            <text>……她似乎能轻易看穿我内心的焦虑。</text>
+            <show chara="einSmileCloseNoName" position="center"/>
+            <speak chara="einSmileCloseNoName">帝国研究院42实验室。</speak>
+            <text>她自顾自地解说着——</text>
+            <show chara="einSmileCloseNoName" position="center"/>
+            <speak chara="einSmileCloseNoName">欢迎回家。</speak>
+            <text>回家？</text>
+            <goto goto="40"/>
+        </scene>
+        <scene id="40" background="studyNight.jpg" bgm="no">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="einNormalCloseNoName" position="center"/>
+            <speak chara="einNormalCloseNoName">坐。</speak>
+            <text>少女指着门厅里的沙发。</text>
+            <speak chara="einNormalCloseNoName">茶？还是咖啡？</speak>
+            <speak chara="5">……</speak>
+            <speak chara="einNormalCloseNoName">我推荐茶。伦敦的空气很糟糕。</speak>
+            <speak chara="5">……</speak>
+            <speak chara="einNormalCloseNoName">……</speak>
+            <speak chara="5">……</speak>
+            <show chara="einSeriousAhCloseNoName" position="center"/>
+            <speak chara="einSeriousAhCloseNoName">Ein-Stein.</speak>
+            <text>她突然一脸严肃地说起了德语。Ein...Stein...“一块石头”？</text>
+            <show chara="einNormalClose" position="center"/>
+            <speak chara="einNormalClose">博士，爱因斯坦——丽瑟尔·阿尔伯特·爱因斯坦。</speak>
+            <text>她指了指自己，又指了指我。</text>
+            <speak chara="einNormalClose">你的名字？</speak>
+            <speak chara="5">……Ω1。我的资料上有。</speak>
+            <speak chara="einNormalClose">Ω1不能算作人类的名字。</speak>
+            <speak chara="5">……那我没有名字。</speak>
+            <speak chara="einNormalClose">不方便。</speak>
+            <text>她摇了摇脑袋。</text>
+            <speak chara="5">……</speak>
+            <text>话虽如此，可我也没有办法啊。毕竟——</text>
+            <show chara="einSmileClose" position="center"/>
+            <speak chara="einSmileClose">……瓦尔特。W.E.L.T. </speak>
+            <speak chara="5">呃？</speak>
+            <speak chara="einSmileClose">我觉得这个名字挺适合你。 </speak>
+            <speak chara="5">……随便吧。</speak>
+            <text>Ω = W。Welt = 世界。作为世界的弃儿，叫这么一个名字倒也是有趣。</text>
+            <show chara="einNormalClose" position="center"/>
+            <speak chara="einNormalClose">那么，我们来检查身体吧，瓦尔特。</speak>
+            <speak chara="5">……是。 </speak>
+            <text>又要戴上一大堆电极——也许还有抽血或骨髓穿刺吧。早都是家常便饭了。</text>
+            <show chara="einSeriousAhCloseNoName" position="center"/>
+            <speak chara="einSeriousAhClose">不，不要起来。就坐在那里。</speak>
+            <speak chara="einSeriousAhClose">把脚心伸出来。</speak>
+            <speak chara="5">哦……</speak>
+            <bgm src="lab.mp3" status="stop"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="5">……啊？脚、脚心？？</speak>
+            <show chara="einSeriousAhCloseNoName" position="center"/>
+            <speak chara="einSeriousAhClose">把你的鞋子和袜子脱了。我要观察你的脚底板。</speak>
+            <bgm src="lab.mp3" status="start"></bgm>
+            <speak chara="5">——这是要做什么？！</speak>
+            <show chara="einNormalClose" position="center"/>
+            <speak chara="einNormalClose">时间已经很晚了，我们应该早点儿休息。</speak>
+            <speak chara="5">……哈？！</speak>
+            <speak chara="einNormalClose">脚底板可以精确而直观地反映你身体的健康状况。而且检查起来很快——</speak>
+            <show chara="einSmileClose" position="center"/>
+            <speak chara="einSmileClose">——找把牙刷挠一挠就行了。</speak>
+            <speak chara="5">等等……</speak>
+            <speak chara="5">……你是想说然后我们就能睡觉了吗？！</speak>
+            <speak chara="einSmileClose">正确。理解力很出色。</speak>
+            <speak chara="5">……这哪里都不对吧！</speak>
+            <show chara="einNormalClose" position="center"/>
+            <speak chara="einNormalClose">是的。</speak>
+            <speak chara="5">……啊？</speak>
+            <show chara="einSmileClose" position="center"/>
+            <speak chara="einSmileClose">看到瓦尔特无精打采的样子，爱因斯坦博士决定开个玩笑让他精神精神。</speak>
+            <speak chara="5">……</speak>
+            <text>这个博士究竟是怎么回事？</text>
+            <show chara="einNormalClose" position="center"/>
+            <speak chara="einNormalClose">你睡这边的105室。</speak>
+            <text>她指了指一旁的走廊。</text>
+            <speak chara="einNormalClose">我在楼上住。</speak>
+            <speak chara="5">……哦。</speak>
+            <speak chara="einNormalClose">晚安。你可以忘掉自己的小白鼠身份了。</speak>
+            <hide position="center"></hide>
+            <bgm src="themeWelt.mp3" status="start"></bgm>
+            <text>她头也不回地走掉了。</text>
+            <text>只留下曾经的“小白鼠”呆立在原地。</text>
+            <speak chara="5">……</speak>
+            <goto goto="50"/>
+        </scene>
+        <scene id="50" background="hospital.jpg" bgm="no">
+            <bgm src="themeWelt.mp3" status="continue"></bgm>
+            <text article="1">
+                <p class="article-text">……</p>
+            </text>
+            <text article="1">
+                <p class="article-text">被起名为“瓦尔特”的男子无法搞明白究竟发生了什么。自他有记忆以来，还没有人这么没头没脑地给过他莫名其妙的自由——虽然这个“有记忆以来”也不是多么久远的事情。</p>
+                <p class="article-text">三年前的这个季节，他从一片混沌中睁开了眼睛。陌生的男男女女打量着他、询问着各种走失儿童才会面对的问题。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">“你叫什么名字？”</p>
+                <br />
+                <p class="article-text">“以前住在哪里？”</p>
+                <br />
+                <p class="article-text">“你是哪国人？”</p>
+            </text>
+            <text article="1">
+                <p class="article-text">“……”</p>
+                <br />
+                <p class="article-text">这种感觉很奇怪——你明明知道答案，但就是无法把它们在大脑中“凝聚”起来。仿佛联络记忆之海的神经全都被烧却了一般。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">“我不知道。”</p>
+                <p class="article-text">这是青年唯一能给出的答案。</p>
+                <p class="article-text">自己还记得如何说话——他不知道自己是不是应该为此而庆幸一番。德语、英语、俄语、拉丁语……甚至还有日语和汉语。他不明白自己为什么会懂这么多门语言。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">“我是谁？”</p>
+                <br />
+                <p class="article-text">他很自然地反问出了这样的问题。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">“我们也不知道。”</p>
+                <br />
+                <p class="article-text">对方是这么回答的。然后就开始了滔滔不绝的自说自话。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">天命。这是一个历史悠久的秘密组织。是世界真正的掌控者、人类的救星。</p>
+                <p class="article-text">崩坏。这是一种科学还不能完美解释的灾害。自有文明以来，它就污染着人类世界，将和平的生物转变为恐怖的魔鬼。这些被称为“崩坏兽”的怪物有着塑胶一般的诡异皮肤，令人不寒而栗。</p>
+                <p class="article-text">自己。失忆的自己是一场崩坏事件中唯一的幸存者。地点在柏林，位于某个不认识的大楼中。</p>
+                <p class="article-text">身体。这具幸存之躯上隐藏着巨大的秘密——为了拯救世界上更多的人，接受他们安排的人体实验是唯一正确的选择。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">一个月。又一个月。再一个月。</p>
+                <br />
+                <p class="article-text">一年。又一年。再一年。</p>
+                <br />
+                <p class="article-text">编号为“Ω1”的青年被带到一个又一个的实验室里，重复着一模一样的事情。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">忍受着难以忍受的痛苦。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">“请配合我们。”</p>
+                <br />
+                <p class="article-text">“为人类考虑一下吧。”</p>
+                <br />
+                <p class="article-text">“这是无可避免的副作用。”</p>
+            </text>
+            <text article="1">
+                <p class="article-text">一群疯子科学家。拯救人类什么的，肯定是骗人的。</p>
+                <p class="article-text">不是说我是幸存者吗？那为什么还要凭空再遭受另一种不幸？</p>
+                <p class="article-text">你们口口声声强调的“人类”又是谁呢？</p>
+            </text>
+            <text article="1">
+                <p class="article-text">有时候真的很想一死了之。</p>
+                <br />
+                <p class="article-text">……</p>
+                <br />
+                <p class="article-text">如果不是还有个话痨在惦记着自己。</p>
+            </text>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="letter.jpg" bgm="no">
+            <bgm src="themeWelt.mp3" status="continue"></bgm>
+            <text article="1">
+                <p class="article-text-h">Ω：</p>
+                <p class="article-text">十月好。不知不觉，这已经是我写给你的第二十二封信了——关于圣女的故事上次就已经讲完了，在我找到新的谈资之前，咱们还是聊点身边的事情吧。</p>
+                <p class="article-text">九月的那个糟糕事故我也听说了，我代他们向你道歉。正好有新的实验室希望和你合作，我估计你很快就可以换个地方了。也许情况会比之前所有的实验室都好也说不定——因为我听说新的负责人是位个性稳重的女士。</p>
+                <p class="article-text">不过，出于天命组织的立场，我也必须转告你：你接受的实验，都是为了让这个星球上名为“智人”的物种能够存续下去，所必须的苦难。世界总会对某些人特别不公平，这也是没有办法的事情。</p>
+                <p class="article-text">柏林的灾难已经过去三年了。城市已经开始了重建，那一夜的恐怖，人们终究会渐渐忘记。</p>
+                <p class="article-text">然而我们都知道，邪恶的力量正在时空的夹缝中慢慢积蓄。它当初放过了你，但并没有放过其他人。如果我们真能够通晓这其中的原理，那么“智人”就能名副其实地用自己的智慧征服这个自然界——没有人再会去过担惊受怕或者自欺欺人的日子。</p>
+                <p class="article-text">是的，这对你不公平；而且最近的一系列事情尤其对你不公平——但即使是我，也希望你能理解并原谅这一切。全人类的命运，某种意义上，也许都维系在你一个人的身上。</p>
+                <br />
+                <p class="article-text-h">P.S.</p>
+                <p class="article-text">关于你失忆前的经历，据我所知，有关部门应该还在调查——但如你所知，事情已经过去了三年多，有什么结果的可能性只会越来越小。不过我是不相信什么“崩坏之子”的说法的。你连律者都算不上，不是么？</p>
+                <p class="article-text">也许新技术的出现，会让整个事情带来出乎所有人意料的转机吧……谁知道呢。那所新的实验室真的不错，你过去以后应该会想主动配合她们的——相信我。</p>
+                <br />
+                <p class="article-text-s">你的老朋友，</p>
+                <p class="article-text-s">小丑阿尔法</p>
+                <p class="article-text-s">1955.10.2.</p>
+            </text>
+            <goto goto="70"/>
+        </scene>
+        <scene id="70" background="weltRoomNight1.jpg" bgm="no">
+            <bgm src="themeWelt.mp3" status="continue"></bgm>
+            <speak chara="5">唉……这家伙，说得倒轻松……</speak>
+            <speak chara="5">不过……人家也有人家的难处吧。</speak>
+            <speak chara="5">毕竟只是不知什么大人物安排给我的匿名笔友罢了。</speak>
+            <speak chara="5">虽然他讲的“圣女卡莲”的故事还真打动到我了。明明自己不打算理睬这种政治宣传一样的东西——</speak>
+            <speak chara="5">究竟从何时开始，反而期待起了他每月更新一次的故事呢？</speak>
+            <speak chara="5">呼……</speak>
+            <text>“105”。散发着霉味的木门冷漠地敞开着。</text>
+            <text>这应该就是刚才那个莫名其妙的女孩子让自己过夜的地方吧。毫无生气的亚麻色窗帘，太平间似的墙壁。果然还是这种，实验室惯有的风格——</text>
+            <goto goto="72" change="0"/>
+        </scene>
+        <scene id="72" background="weltRoomNight3.jpg" bgm="no">
+            <bgm src="themeWelt.mp3" status="continue"></bgm>
+            <text>嗯？这桌上的面包和零食，是给我吃的么？</text>
+            <text>……</text>
+            <text>嚼嚼。</text>
+            <speak chara="5">……</speak>
+            <speak chara="5">天啊！这面包切片里夹的是什么？！</speak>
+            <speak chara="5">怎么能这么好吃啊！</speak>
+            <speak chara="5">这难以形容的蘑菇清香！</speak>
+            <speak chara="5">这恰到好处的熏肉味道！</speak>
+            <speak chara="5">这无法用语言描述的醇厚回味！</speak>
+            <shake position="all" time="250"></shake>
+            <speak chara="5">怎么能这么好吃啊！</speak>
+            <shake position="all" time="250"></shake>
+            <speak chara="5">活着真是太好了！</speak>
+            <goto goto="75" change="0"/>
+        </scene>
+        <scene id="75" background="black" bgm="no">
+            <bgm src="themeWelt.mp3" status="continue"></bgm>
+            <text>嚼嚼。</text>
+            <text>嚼嚼嚼嚼。</text>
+            <text>嚼嚼嚼嚼嚼嚼。</text>
+            <text>……………………………………</text>
+            <bgm src="themeWelt.mp3" status="stop"></bgm>
+            <sound src="mid-lude.mp3"/>
+            <text>满足地享用了这无上的美味之后，瓦尔特沉沉地睡去了。</text>
+            <text>翌日——</text>
+            <goto goto="80"/>
+        </scene>
+        <scene id="80" background="weltRoomDay1.jpg" bgm="no">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <text>半夜下了一场暴雨——推开窗户，空气格外清新，让人难以相信这里就是工业革命的发源地。</text>
+            <text>不远处，几只山雀在枝头叽叽喳喳地议论着地平线上的霞光。</text>
+            <text>晨曦里，一只不知从何而来的蝴蝶，慢悠悠地爬过窗户的边沿。</text>
+            <speak chara="teslaNoFaceNoName">喂。</speak>
+            <text>蝴蝶轻拍了两下翅膀，消失在湛蓝的天空之中。</text>
+            <text>穿过树丛的阳光洒落在人的身上，青年的心底里好像有什么坚硬的东西在融化开来。</text>
+            <speak chara="teslaNoFaceNoName">喂！</speak>
+            <text>难以置信的一个夜晚。难以置信的一个清晨。</text>
+            <text>自己究竟有多久已经没有享受过，这样一份平和的安宁？</text>
+            <text>风雨也好，鸟鸣也罢，哪怕是嗡来嗡去的飞虫——</text>
+            <text>此时此刻，即便有上百分贝的噪音，那也是无所谓的吧……</text>
+            <goto goto="84" change="0"/>
+        </scene>
+        <scene id="84" background="black" bgm="no">
+            <bgm src="morning.mp3" status="stop"></bgm>
+            <sound src="hit man.mp3"/>
+            <shake position="all" time="250"></shake>
+            <speak chara="teslaNoFaceNoName">喂！！我说你呢！！！</speak>
+            <text>青年感到了来自脑后的一记重击。</text>
+            <text>眼前好黑……</text>
+            <text>咦？山雀们怎么飞到了自己的头顶上，还打起了转儿来？</text>
+            <goto goto="85" change="0"/>
+        </scene>
+        <scene id="85" background="weltRoomDay2.jpg" bgm="no">
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <show chara="teslaAngryCloseNoName" position="right"/>
+            <shake position="all" time="250"></shake>
+            <speak chara="teslaAngryCloseNoName">真是的，你是聋子吗？都叫你几声了！亏我还好心撬门进来。</speak>
+            <text>扎着双马尾的红发施暴者，蛮横地数落着跌坐在地、眼冒山雀的青年。她也穿着白大褂。</text>
+            <show chara="teslaAngryCloseNoName" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltSurpriseClose">……您是？</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraCloseNoName" position="right"/>
+            <speak chara="teslaEmbarraCloseNoName">哈？没人介绍——</speak>
+            <text>话说了一半，双马尾的视线停留在了一个空盘子上。</text>
+            <text>它静静地躺在房间里唯一的一张书桌上。</text>
+            <hide position="right"></hide>
+            <text>双马尾闭上眼睛，全神贯注地把鼻子凑到它上面闻了闻。</text>
+            <show chara="teslaAngryCloseNoName" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="teslaAngryCloseNoName">喂！你……你你你不会是吃了什么松露做的东西吧？</speak>
+            <show chara="teslaAngryCloseNoName" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltSurpriseClose">松露？</speak>
+            <speak chara="weltSurpriseClose">呃……那个盘子里本来装的是面包切片……夹的好像是某种蘑菇……你说的“松露”是一种蘑菇吗？</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="teslaAngryCloseNoName" position="right"/>
+            <speak chara="teslaAngryCloseNoName">……</speak>
+            <hide position="right"></hide>
+            <text>红色双马尾翻了一个白眼，差点没气晕过去。</text>
+            <show chara="teslaAngryCloseNoName" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="teslaAngryCloseNoName">一种蘑菇？你告诉我松露仅仅是“一种蘑菇”？该死，那个笨蛋不会也是这么想的吧！</speak>
+            <show chara="teslaEmbarraCloseNoName" position="right"/>
+            <speak chara="teslaEmbarraCloseNoName">……嗯？</speak>
+            <text>她发现在空盘子的旁边，还有其他零零碎碎的“可疑物品”。</text>
+            <show chara="teslaEmbarraCloseNoName" position="right"/>
+            <speak chara="teslaEmbarraCloseNoName">啧啧啧啧……金平糖……原子火球……黑巧克力……</speak>
+            <show chara="teslaAngryCloseNoName" position="right"/>
+            <speak chara="teslaAngryCloseNoName">怎么会把松露和这些廉价的零食混在一起嘛！</speak>
+            <show chara="teslaEmbarraCloseNoName" position="right"/>
+            <text>她一边研究着这些糖果，一边顺手剥一些往嘴里丢——直到看见了角落里的某物。</text>
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="teslaSnickerCloseNoName" position="right"/>
+            <speak chara="teslaSnickerCloseNoName">哦呀？这是什么？欢迎贺卡？</speak>
+            <text>原来如此，卡片的确是不能吃的东西。</text>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltShameClose">呃啊啊啊啊啊！</speak>
+            <text>窗边的青年突然谵妄地大叫了起来。</text>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraCloseNoName" position="right"/>
+            <speak chara="teslaEmbarraCloseNoName">……嗯？你抽什么风？</speak>
+            <text>这名青年语无伦次地叫喊着，似乎放弃了内心里的某种尊严。</text>
+            <hide position="left"></hide>
+            <text>未几，他投降似的双手抱头，将自己团成了一个球形。</text>
+            <show chara="teslaSnickerCloseNoName" position="right"/>
+            <speak chara="teslaSnickerCloseNoName">哼哼……</speak>
+            <text>女青年似乎明白了什么。</text>
+            <speak chara="teslaSnickerCloseNoName">那~我~打~开~看~了~哦？</speak>
+            <text>红发施暴者拿腔作调地，像念广播剧台词一样说道。</text>
+            <text>恍惚之间，青年的眼前出现了蜡烛和皮鞭的幻影。</text>
+            <show chara="teslaSnickerCloseNoName" position="right"/>
+            <speak chara="teslaSnickerCloseNoName">“尊敬的Ω1先生：你好。”</speak>
+            <speak chara="teslaSnickerCloseNoName">“因为不知道你的名字，所以暂且这么称呼，实在是非常抱歉。”</speak>
+            <show chara="teslaEmbarraCloseNoName" position="right"/>
+            <speak chara="teslaEmbarraCloseNoName">咳咳，对我怎么就从来没这么客气过啊？</speak>
+            <text>她评点卡片内容的样子，活像是那些吃了飞醋的岳父大人。</text>
+            <show chara="teslaSnickerCloseNoName" position="right"/>
+            <speak chara="teslaSnickerCloseNoName">“从本日起，你已成为帝国研究院42实验室的一员。当然，本实验室与不列颠政府无关，而是由天命总部直接领导的独立机构。”</speak>
+            <speak chara="teslaSnickerCloseNoName">“与那些配备重型理化设施的实验室不同，我们是基于伽罗瓦分析和图灵仿真的研究机构，不会对你的生活造成可见的影响。”</speak>
+            <show chara="teslaEmbarraCloseNoName" position="right"/>
+            <speak chara="teslaEmbarraCloseNoName">呼……Ω1，她写这些，你能看懂吗？</speak>
+            <show chara="teslaSnickerCloseNoName" position="right"/>
+            <speak chara="teslaSnickerCloseNoName">“你也许不知道的是，从三年前的那起灾难开始，我就一直在关注着你。”</speak>
+            <speak chara="teslaSnickerCloseNoName">“作为样本的你。作为生命的你。作为人类的你。某种意义上，你的存在，早已是我的生活中，一个不可磨灭的印记。”</speak>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <show chara="teslaAngryCloseNoName" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="teslaAngryCloseNoName">——呃啊啊啊啊啊！</speak>
+            <text>红发施暴者突然失去了理智，谵妄地朝空气中乱挥拳头。</text>
+            <speak chara="teslaAngryCloseNoName">……可恶！可恶！可恶！……这绝对是故意调戏！……绝对是算准了我也会看到！</speak>
+            <speak chara="teslaAngryCloseNoName">你！</speak>
+            <text>她并着两根手指，鄙夷地瞪着蜷缩在地的青年。</text>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltShameClose">是？？？</speak>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="teslaAngryCloseNoName" position="right"/>
+            <speak chara="teslaAngryCloseNoName">你也知道这种文字游戏——这里、这里、这里！这里除了“研究生活”以外，不可能有其他的含义吧？……嗯？！</speak>
+            <show chara="teslaAngryCloseNoName" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltShameClose">当……当然了！我、我再怎么样也是昨天才认识她的啊！</speak>
+            <text>可怜的青年，他满脸通红的样子，反而更显得缺乏说服力。</text>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="teslaAngryCloseNoName" position="right"/>
+            <speak chara="teslaAngryCloseNoName">……</speak>
+            <text>双马尾的视线直得瘆人，仿佛随时能射出死光。</text>
+            <shake position="left" time="250"></shake>
+            <show chara="teslaAngryCloseNoName" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltShameClose">……你这样子念出来，我也是很羞耻的啊！</speak>
+            <text>不敢对视的青年抱住自己的脑袋，破罐子破摔地大喊了一句。</text>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="teslaAngryCloseNoName" position="right"/>
+            <speak chara="teslaAngryCloseNoName">……</speak>
+            <text>对方用看垃圾一样的眼神又打量了青年一番，随后闭上了眼睛。</text>
+            <show chara="teslaEmbarraCloseNoName" position="right"/>
+            <bgm src="lab.mp3" status="start"></bgm>
+            <speak chara="teslaEmbarraCloseNoName">算了，这件事情上就先放过你吧。真敢有什么非分之想，本小姐第一个就阉了你！</speak>
+            <show chara="teslaEmbarraCloseNoName" position="right" opacity="0.7"/>
+            <shake position="left" time="250"></shake>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltShameClose">噫！</speak>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraCloseNoName" position="right"/>
+            <text article="1">
+                <p class="article-text">（前略）</p>
+                <p class="article-text">……我知道，才刚刚见面的人，不会有太多说服力。不过，请你相信——在这里，你将体验到崭新的人生。</p>
+                <br />
+                <p class="article-text-s">以美食发誓的，</p>
+                <p class="article-text-s">丽瑟尔·阿尔伯特·爱因斯坦博士</p>
+                <p class="article-text-s">1955.10.20</p>
+            </text>
+            <text>不愉快地看完了卡片的最后一部分内容，不高兴的双马尾终于想起了什么——</text>
+            <show chara="teslaBoringCloseNoName" position="right"/>
+            <speak chara="teslaBoringCloseNoName">话说，你还不认识我是吧。</speak>
+            <show chara="teslaBoringCloseNoName" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <text>青年惊魂未定地点了点头。</text>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="teslaBoringClose" position="right"/>
+            <speak chara="teslaBoringClose">自我介绍的话……尼古拉·特斯拉。叫我特斯拉就行了。</speak>
+            <show chara="teslaEmbarraClose" position="right"/>
+            <speak chara="teslaEmbarraClose">总之，你只需要知道，我也是这个实验室的负责人之一。</speak>
+            <speak chara="teslaEmbarraClose">你吃下肚的“蘑菇”呢，是我的私有财产，而且很重要。明白？</speak>
+            <text>她没好气地一把揪住青年的衬衫。</text>
+            <show chara="teslaBoringClose" position="right"/>
+            <speak chara="teslaBoringClose">走吧，人都已经在客厅了。</speak>
+            <show chara="teslaBoringClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltSurpriseClose">……人？</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="teslaAngryClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="teslaAngryClose">就是那个美食小偷！不然还有谁啊？！</speak>
+            <goto goto="90"/>
+        </scene>
+        <scene id="90" background="CG1.jpg" bgm="no">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <speak chara="einNoFace">早上好，特斯拉博士——今天的早饭感觉如何？</speak>
+            <speak chara="teslaNoFace">早上好，爱因——啧。</speak>
+            <text>扯着瓦尔特领子的双马尾，粗暴地咂了咂嘴。</text>
+            <speak chara="teslaNoFace">……你这混蛋，倒跟我装得没事一样？</speak>
+            <speak chara="einNoFace">看来腊肠蛋饼合你的胃口。真是太好了。</speak>
+            <text>几乎被指着鼻子抨击的天然卷平静地坐在沙发里，淡然地吃着一块类似酥皮三明治的东西。</text>
+            <speak chara="teslaNoFace">嘛，毕竟油脂充分，能量很足——不对，你不要跟我打岔！</speak>
+            <speak chara="einNoFace">噗。今天也很精神呢，特斯拉博士。</speak>
+            <speak chara="teslaNoFace">……还不是被你这家贼气的！哼！</speak>
+            <speak chara="einNoFace">家贼？</speak>
+            <speak chara="einNoFace">爱因斯坦博士不明白特斯拉博士在说什么。</speak>
+            <speak chara="teslaNoFace">不要装傻！那包松露是不是你擅自从我房间拿走的？</speak>
+            <speak chara="einNoFace">……</speak>
+            <text>天然卷早有预期似的左右摇着食指。</text>
+            <speak chara="einNoFace">爱因斯坦博士友情提醒——</speak>
+            <speak chara="einNoFace" remark="next">——即使特斯拉博士再喜欢去的里雅斯特度假，也不代表那包蘑菇就是特斯拉博士的私有财产。</speak>
+            <remark post="U2FsdGVkX19jgf4aT8mx5i123cv3">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">的里雅斯特是位于意大利与斯洛文尼亚边境上的一座港口城市，曾因是奥匈帝国的主要出海口而繁盛一时，其所属的弗留利地区是松露的主要产地之一。该城也是国际理论物理中心的所在地。</p>
+                <p class="article-text">特斯拉是克罗地亚裔美国人，的里雅斯特与她的故乡有着类似的气候。</p>
+            </remark>
+            <speak chara="teslaNoFace">你你你你你说什么？这明明是我千辛万苦才买到的东西，有没有搞错！</speak>
+            <speak chara="teslaNoFace">而且松露不是什么蘑菇！你叫它蘑菇是对它的侮辱！</speak>
+            <speak chara="einNoFace">呼……</speak>
+            <text>天然卷无奈地叹了口气。</text>
+            <speak chara="einNoFace">那是用实验室经费买的。当然是公物。有什么问题吗？</speak>
+            <speak chara="teslaNoFace">……那、那叫借！下次有钱了我会还上的！不要搞错了！</speak>
+            <speak chara="einNoFace">如果特斯拉博士继续坚持错误的主张，爱因斯坦博士将不得不向总部举报这一挪用公款的行为。</speak>
+            <speak chara="teslaNoFace">……</speak>
+            <text>特斯拉的嘴角抽搐了几下，最终选择了更换话题。</text>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="studyDay.jpg" bgm="no">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="teslaEmbarraClose" position="center"/>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <speak chara="teslaNoFace">这家伙把自己反锁在卧室里发呆，害得我还以为他要闹自杀呢。</speak>
+            <show chara="teslaEmbarraClose" position="center" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltNoFace">呃……谁要自杀啦！</speak>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="teslaAngryClose" position="center"/>
+            <speak chara="teslaNoFace">谁要？你知不知道我敲门敲了多少声？啊？？</speak>
+            <speak chara="teslaNoFace">更别提你还有抑郁症病史？！</speak>
+            <show chara="teslaAngryClose" position="center" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">抱歉……一时出神……</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="einNormalClose" position="right"/>
+            <speak chara="einNoFace">原谅他吧，特斯拉博士。是你太紧张了。</speak>
+            <text>爱因斯坦舔了舔指尖上的盐粒。</text>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraClose" position="center"/>
+            <speak chara="teslaNoFace">啧。你们俩倒是一唱一和……难道是失散多年的夫妻？</speak>
+            <text>双马尾的眉头拧成了一个“山”字。</text>
+            <show chara="teslaEmbarraClose" position="center" opacity="0.7"/>
+            <show chara="einSeriousAhClose" position="right"/>
+            <speak chara="einNoFace">爱因斯坦博士不会找这么差劲的男朋友的。</speak>
+            <show chara="einSeriousAhClose" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltShameClose">嗯嗯就是——不对！我哪里差劲啦！</speak>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="einNormalClose" position="right"/>
+            <speak chara="einNoFace">自暴自弃。</speak>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <show chara="einNormalClose" position="right"/>
+            <speak chara="einNoFace">人没有工作就容易自暴自弃。</speak>
+            <text>天然卷少女“嚯”的一声从沙发窝里站了起来。</text>
+            <speak chara="einNoFace">所以我们决定给你一份工作。</speak>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">……工作？</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="einNormalClose" position="right"/>
+            <speak chara="einNoFace">实验室助理。</speak>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">……助理？我——</speak>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <show chara="teslaNormalClose" position="center"/>
+            <show chara="teslaNormalClose" position="center"/>
+            <speak chara="teslaNoFace">总而言之，你不再是小白鼠了。你现在是我们的伙伴。来高兴吧。</speak>
+            <text>双马尾用棒读佛经般的腔调说道。</text>
+            <show chara="teslaNormalClose" position="center" opacity="0.7"/>
+            <show chara="einNormalClose" position="right"/>
+            <speak chara="einNoFace">特斯拉博士，我们需要正确地告诉他具体职责。</speak>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerClose" position="center"/>
+            <speak chara="teslaNoFace">嗯……简单来说，就是伺候我们开心？</speak>
+            <show chara="teslaSnickerClose" position="center" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">……？</speak>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <show chara="teslaNormalClose" position="center"/>
+            <speak chara="teslaNoFace">
+			比如给我们端茶送水啦，做饭洗衣服啦，没事擦擦地板刷刷马桶啦……</speak>
+            <show chara="teslaNormalClose" position="center" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousEmClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="einNoFace">咳咳。</speak>
+            <text>天然卷故意清了清嗓子。</text>
+            <show chara="einSeriousEmClose" position="right" opacity="0.7"/>
+            <show chara="teslaAngryClose" position="center"/>
+            <speak chara="teslaNoFace">开玩笑啦！像你这种呆头呆脑的小白脸，想给我们当佣人，我们还不要呢……</speak>
+            <show chara="teslaAngryClose" position="center" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousAhClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="einNoFace">咳咳。</speak>
+            <text>天然卷用更响的声音清了清嗓子。</text>
+            <show chara="einSeriousAhClose" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassClose" position="center"/>
+            <speak chara="teslaNoFace">好啦好啦我会好好解释的啦！明明平常都没有这么啰嗦……</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <text>双马尾无奈地戴上了一副不知从哪里摸出来的红框眼镜。</text>
+            <show chara="teslaSnickerGlassClose" position="center"/>
+            <speak chara="teslaNoFace">嗯哼……小白脸给我听好。一般来说，实验室助理当然是帮忙做实验的。可是你显然没有这种能力吧？</speak>
+            <text>青年点点头。</text>
+            <speak chara="teslaNoFace">不过呢，我们觉得你可以提升我们的工作效率。而且这也对你自己有好处。</speak>
+            <text>青年茫然地歪了歪头。</text>
+            <speak chara="teslaNoFace">你的工作是规划我们的休息日。安排好我们的闲暇娱乐。省下我们好不容易放假了却还要去思考玩什么的脑子。</speak>
+            <speak chara="teslaNoFace">当然，你自己也可以参与其中。听起来不坏吧？</speak>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="teslaEmbarraGlassClose" position="center"/>
+            <speak chara="teslaNoFace">有什么我没有解释清楚的吗？再说得简单一点，你的工作就是带我们玩。</speak>
+            <speak chara="teslaNoFace">不过工作时间可别来打搅我们。自己去图书馆呆着，或者在周围随便转转——</speak>
+            <speak chara="teslaNoFace">——别跑太远了搞得组织以为你要逃跑就成。我们可不想和那些便衣多打交道。</speak>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="teslaAngryClose" position="center"/>
+            <speak chara="teslaNoFace">喂！行不行啦？不同意的话，我们可就要把你送回去了啊？！</speak>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="teslaEmbarraGlassClose" position="center"/>
+            <speak chara="teslaNoFace">嘿！你傻了？</speak>
+            <text>红框眼镜无奈地在青年的眼前晃动着手掌。</text>
+            <show chara="teslaEmbarraGlassClose" position="center" opacity="0.7"/>
+            <show chara="einSmileClose" position="right"/>
+            <speak chara="einNoFace">爱因斯坦博士认为，瓦尔特只是对此感到难以置信罢了。</speak>
+            <show chara="einSmileClose" position="right" opacity="0.7"/>
+            <show chara="teslaAngryClose" position="center"/>
+            <speak chara="teslaNoFace" remark="next">……丽瑟尔！你是《魔戒》里的兽人吗？不要再故意用这个博士、那个博士来回称呼啦，很烦耶！</speak>
+            <show chara="teslaAngryClose" position="center" opacity="0.7"/>
+            <remark post="U2FsdGVkX192eVQJxmFnhxbdYPSj">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">J·R·R·托尔金的《魔戒》(The Lord of the Rings)于1954年7月29日在英国出版了它的第一部《护戒同盟队》。</p>
+                <p class="article-text">托尔金原计划将已经完稿的《魔戒》集结成一册出版，但由于战后物资紧张、纸张短缺，该想法未能付诸实现。</p>
+            </remark>
+            <show chara="teslaEmbarraGlassClose" position="center"/>
+            <speak chara="teslaNoFace">……等等。</speak>
+            <speak chara="teslaNoFace">……“瓦尔特”是谁啊？</speak>
+            <speak chara="teslaNoFace">……这个小白脸吗？</speak>
+            <show chara="teslaAngryClose" position="center"/>
+            <speak chara="teslaNoFace">……丽瑟尔！不会是你专门给取的名字吧？</speak>
+            <show chara="teslaEmbarraGlassClose" position="center" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltNoFace">等等，谁是小白脸啦！</speak>
+            <bgm src="lab.mp3" status="stop"></bgm>
+            <end post="U2FsdGVkX18SorRINadIetIkimT9"/>
+        </scene>
+    </story>
+</data>

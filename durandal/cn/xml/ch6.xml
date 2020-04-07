@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="libraryBasement.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <text>图书馆。</text>
+            <text>对于不具备相应知识基础的人而言，一排排的书架不过是由无聊字符筑就的文化坟场。</text>
+            <text>而对于理解它们所言何物的人来说，图书馆却是喧嚣嘈杂的瓦尔哈拉，是跨越时空进行智慧交流的英灵殿堂。</text>
+            <text article="1">
+                <p class="article-text">“我建议考虑这个问题：‘机器会思考吗？’”</p>
+                <p class="article-text">“这一思辨应当从定义‘机器’和‘思考’这两个术语究竟意味着什么开始。这些定义或许会被尽可能地框定在这些词语的日常用法之中——但这种态度其实是危险的。”</p>
+            </text>
+            <text article="1">
+                <p class="article-text">“如果‘机器’和‘思考’这两个词的内涵建立在它们的日常用法之上，那么我们就很难逃脱这样的结论：‘机器会思考吗’这个问题的内涵和答案，将只能从那些早已预设好的选项中寻求，就像调查公司的‘民意测验’一样。”</p>
+                <p class="article-text">“这很荒谬。”</p>
+            </text>
+            <text article="1">
+                <p class="article-text">“比起尝试去做那样的一个定义，我将把这个问题本身，用另一个问题——和它密切相关的、而且相比之下能够用语言毫不含糊表达清楚的——替换掉。”</p>
+                <p class="article-text">“这个问题的新形式可以用由明确术语定义的一个游戏来描述——”</p>
+            </text>
+            <text remark="next">“——我们称之为，‘模仿游戏’。”</text>
+            <remark post="U2FsdGVkX18PHNWizGemutQ7hqod">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">此段文字翻译自阿兰·图灵（Alan Mathison Turing）于1950年发表的论文《计算机器与智能》（Computing Machinery and Intelligence）。</p>
+                <p class="article-text">这里的“模仿游戏”（后世称之为“图灵测验”）是指：一个人（代号C）使用他和测试对象皆理解的语言，去询问两个他不能直接感知的对象（一台机器，代号A；一个思维正常的人，代号B）任意一串问题——如果经过足够长的问答后，C仍不能准确判断出A与B谁是机器、谁是人，则称此机器A赢得“模仿游戏”（即“通过图灵测验”）。</p>
+                <p class="article-text">图灵测验的理论价值在于提出了一种切实可行的评判标准：如果一台机器能够稳定赢得“模仿游戏”，那么从客观的角度出发，这台机器在“心智能力”上和“人”就是没有区别的。</p>
+            </remark>
+            <text>你专心致志地研读着这本阿兰·图灵的论文集，全然不知两位伙伴已经离开了这个区域。</text>
+            <text>不过，这也要怪她们一路上都在自说自话——至少不了解情况的人，肯定想不到那两个“吹牛皮大王”真的是你的伙伴。</text>
+            <text>也许是这位图灵老师的论文太过艰深，困意开始不断地向你的大脑袭来。</text>
+            <text>不行，在这里停下来的话，思路就断了。至少看完这个段落再休息吧。</text>
+            <text>咦？我是不是……忘了什么很重要的事情……</text>
+            <text>不行，眼皮都要睁不开了……</text>
+            <text>好……困……</text>
+            <text>……</text>
+            <text>在失去意识之前，你好像闻到了一股淡淡的香水味。</text>
+            <goto goto="20" clockwise="1"/>
+        </scene>
+        <scene id="20" background="libraryCenter.jpg">
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="biankaShoutClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">这是怎么回事！？</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">你刚才不是言之凿凿，说他肯定还留在这个“后现代科学资料馆”的吗？！</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">结果呢？连洗手间里都没有一个人影！！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">奇怪，一个书呆子能跑到哪里去呢……</speak>
+            <speak chara="_Thales">当时，我们沿着大堂通道一路走到这里……我确实在这里向你们【两个】介绍了什么是“后现代科学”——也就是那些我们还没有系统掌握的外部世界知识；</speak>
+            <speak chara="_Thales">之后，我们就上楼梯去了后门的大厅，走出建筑、眺望风景……</speak>
+            <speak chara="_Thales">他和我们走失，最大的可能，确实是“还在这里埋头看书”啊……</speak>
+            <show chara="thalesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">现在再分析这些还有什么用！</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">广播找人！封锁大门！逐层筛查！</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">你不是说这座城市的历史充斥着买卖人口的恶行吗？他那种胆小怕事的家伙，凭自己能跑到哪里去？！</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">这肯定不是一般的走失——是诱拐、是绑架！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">……</speak>
+            <speak chara="_Thales">…………</speak>
+            <speak chara="_Thales">我承认你说的“最坏情况”不无可能。</speak>
+            <show chara="thalesEmbarrassedClose" position="right"/>
+            <speak chara="_Thales">广播找人不需要什么手续；不过，你说的其他两种措施，属于会严重扰乱馆内秩序的行为，是需要馆长亲自批示才能执行的。</speak>
+            <show chara="thalesEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">——那我们就去找馆长啊！现在就去！</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">如果人真的在这个图书馆里丢了——</speak>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">——你们、全都、吃不了兜着走！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="thalesAngryClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Thales">冷静！</speak>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">虽然我们的馆长是个通情达理的人……但你现在简直就像是专门来找茬的。</speak>
+            <show chara="thalesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">你……你说什么？！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">我知道找不到同行伙伴的你心情急迫，但万事都是要一步一步来的。你不可能跳过必要的步骤，直接去给所有在这里读书的人添麻烦。</speak>
+            <show chara="thalesAngryClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Thales">只有所有人都尊重规章制度，规章制度才能为所有人服务！</speak>
+            <show chara="thalesAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">另外……如果你觉得暴力威胁是引人反感的手段，那么请在事件尚未定性之前，收起刚才那样咄咄逼人的态度。</speak>
+            <speak chara="_Thales">这是个人修养的问题。</speak>
+            <goto goto="30" clockwise="1"/>
+        </scene>
+        <scene id="30" background="libraryOfficeDavid.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <sound src="01_18_knock_door.mp3"/>
+            <text>咚。咚。</text>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_MichelNoName">请进。</speak>
+            <show chara="micheArrogantClose" position="left" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="right"/>
+            <speak chara="_Thales">馆长。刚才我们发布了一条广播找人的信息——想必您也已经听到了。</speak>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">我们已经跑过了所有能预测到的地点，但仍然一无所获、没有任何头绪。</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">一个大活人，走失之后竟然连个目击者都找不到！你们这里应该怎么报警？至少请让我报警！</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">我们已经在报警了。我说过的，大图书馆本身就是执法机关。</speak>
+            <show chara="thalesEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="micheFocusClose" position="left"/>
+            <speak chara="_MichelNoName">……泰勒斯。你们的意思是说，有人在我们图书馆里失踪了——而且连一点蛛丝马迹都没有留下？</speak>
+            <show chara="micheFocusClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">是这样。我刚才用快速检索程序确认了所有出口的监控录像，并没有和失踪者同样身材的人离开过图书馆。</speak>
+            <show chara="thalesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">竟然还有监控录像？也对，你们都有那么先进的机——</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="right"/>
+            <speak chara="_Thales">不要打断我的陈述，女武神小姐。</speak>
+            <show chara="micheFocusClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">馆长，既然根据监控，失踪人员从未离开过——那么广播找人得不到任何反馈，就非常可疑了。</speak>
+            <speak chara="_Thales">我认为有必要立即封闭全馆，进行彻底的搜查。</speak>
+            <show chara="thalesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="micheSeriousClose" position="left"/>
+            <speak chara="_MichelNoName">嗯？有必要做到这种程度吗？</speak>
+            <show chara="micheSeriousClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">……有。我怀疑这起失踪事件与“外地人失踪案”有关。</speak>
+            <show chara="thalesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="micheFocusClose" position="left"/>
+            <speak chara="_MichelNoName">……！</speak>
+            <show chara="micheSeriousClose" position="left"/>
+            <speak chara="_MichelNoName">有什么思路吗。</speak>
+            <show chara="micheSeriousClose" position="left" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="right"/>
+            <speak chara="_Thales">这么说吧。让人“消失得无影无踪”是很难做到的——比起假设有两伙具备同样能力的犯人，倒不如认为他们都是一伙的更符合概率。</speak>
+            <show chara="thalesEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="micheSeriousClose" position="left"/>
+            <speak chara="_MichelNoName">……</speak>
+            <speak chara="_MichelNoName">这样吧。图书馆临时关闭两小时——一切人员进出需要征得我本人的同意。</speak>
+            <speak chara="_MichelNoName">在此期间，全体馆员和馆内所有的机器人都会协助你全力寻找失踪者——不知名的当事人小姐。</speak>
+            <show chara="micheSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">我的名字是比安卡。比安卡·阿塔吉娜，A级女武神。</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_MichelNoName">图书馆馆长，卡特琳娜·米开朗基罗·博纳罗蒂。叫我“米开朗基罗”就好。</speak>
+            <show chara="micheFocusClose" position="left"/>
+            <speak chara="_Michel">泰勒斯，把那个“顾问侦探”也请来。这个案子不能再拖下去了，我们非破不可。</speak>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="libraryCenter.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="micheDrySmileClose" position="left"/>
+            <speak chara="_Michel">我们的图书馆共有大小227间阅览室、39间实验室、86个一般办公室、以及45个密封仓库。全部检索一遍会耗费很长的时间。</speak>
+            <show chara="micheDrySmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">普通馆员还有机器人们确实忙得东奔西跑——然而我们现在却不紧不慢地在这里发呆？这合适吗？</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="micheRelaxClose" position="left"/>
+            <speak chara="_Michel">并不是“发呆”，而是“等待”。比如说，等待那边的沉思者得出结论。</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG6-1.jpg">
+            <bgm src="01_18_tango.mp3" status="continue"></bgm>
+            <text>在馆长手指的方向上，你发现了一位将自己缩在靠背椅中的沉思者——用着如同福尔摩斯般的思考姿势。</text>
+            <speak chara="_ThinkerChampollion">既然大家已经等不及了，那么我们就先开始推理吧。虽然关键的助手还在赶来的路上。</speak>
+            <speak chara="_Bianka">等等等等——您是哪位？</speak>
+            <speak chara="_ThinkerChampollion">我是一个兼职顾问侦探的考古学家。</speak>
+            <speak chara="_ThinkerChampollion">……</speak>
+            <speak chara="_Bianka">……没了？</speak>
+            <speak chara="_ThinkerChampollion">没了。你觉得缺了什么吗？</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">喂喂，当然是名字啊？！你不打算自我介绍一下吗？？</speak>
+            <speak chara="_ThinkerChampollion">……唉，明明你就算知道了我的名字，也不会有任何事情会因此而变得不一样。</speak>
+            <speak chara="_ThinkerChampollion">……叫我“商博良”吧。让娜·弗朗索瓦·商博良，考古学博士。</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="libraryCenter.jpg">
+            <bgm src="01_18_tango.mp3" status="continue"></bgm>
+            <show chara="champoColdClose" position="right"/>
+            <speak chara="_Champollion">先说一下我的结论吧：你们要找的人，应该不在这所图书馆里。</speak>
+            <show chara="champoColdClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">什么？可是……监控记录……</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">这只是个基本的反证法罢了。</speak>
+            <speak chara="_Champollion">假设这个人还在图书馆里。那么他为什么现在还没有现身呢？为了他，整个图书馆可几乎都乱作一团了哦。</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">当、当然是被人巧妙地藏起来了啊！这个人想等风平浪静了再把他转移出去！</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">前半句有道理，不过后半句可说不通。</speak>
+            <speak chara="_Champollion">明明是在谁都没有注意到的情况下控制了对方，却为什么想顶着压力先等一段时间，硬要熬到不知何时才能到来的“风平浪静”之时？</speak>
+            <speak chara="_Champollion">再者，如果是迫不得已仓促躲藏，怎么可能这么久还不被发现、不被找到任何蛛丝马迹？</speak>
+            <speak chara="_Champollion">而如果是策划已久、早有预谋：同样都要带着一个人质冒险——“坐以待毙”和“走为上策”，你觉得犯人会偏好哪一种呢？</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">这……</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">可是监控里确实没有录下吉米离开图书馆的身影啊！连身高相近的人都没有！这你要如何解释？</speak>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">——难、难道说，吉米其实已经……</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="champoColdClose" position="right"/>
+            <speak chara="_Champollion">别瞎想。无冤无仇、也不是身携巨款，不太可能会有人对这样的目标去策划暗杀。</speak>
+            <show chara="champoColdClose" position="right" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="left"/>
+            <speak chara="_Bianka">那……</speak>
+            <show chara="biankaHesitateClose" position="left" opacity="0.8"/>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">很简单。这位小哥被人藏在某样东西里带出去了。</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">向外批量运书需要经过严格的审查。如果想利用书箱运送一个大活人，肯定会立刻暴露的。</speak>
+            <show chara="thalesEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">……泰勒斯所长，谁说要靠书箱了？</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_Thales">可是……现在又不是清扫垃圾的时间……除了书箱之外，还有什么能藏得下一个人的运输工具呢？大件的私人行李可都是要寄存的啊。</speak>
+            <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">呵呵。果然这就是所谓的“灯下黑”吧？</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_Thales">……什么意思？</speak>
+            <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">因为最理想的运人工具，正是你们图书馆最引以为傲的“智慧结晶”啊。</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_Thales">你——你是说——</speak>
+            <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">其实很显然吧？那些肚皮大得能撑船的机器人，就是偷运人类最理想的选择。</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">可是那里面都是电子元件，其实根本塞不下别的——</speak>
+            <show chara="thalesAngryClose" position="left"/>
+            <speak chara="_Thales">——啊！</speak>
+            <show chara="thalesAngryClose" position="left" opacity="0.8"/>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">看来您也意识到了。</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">我、我可完全不懂你们在说什么！</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">……如果去掉自动化元件，改为遥控操纵，机器人的肚皮就能空出足够的空间去塞一个活人。</speak>
+            <show chara="thalesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="micheSeriousClose" position="left"/>
+            <speak chara="_Michel">……有什么证据能够证明这样的推测吗？</speak>
+            <show chara="micheSeriousClose" position="left" opacity="0.8"/>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">我听说你们的机器人有一个定时向总部自动发信的“心跳”系统。</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="micheFocusClose" position="left"/>
+            <speak chara="_Michel">是的，这是为了随时掌握并优化机器人的活动区域。</speak>
+            <show chara="micheFocusClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">所以，如果我想利用机器人来犯罪，就一定会拆下这种发信装置。随时会暴露犯罪工具的行踪，那也太危险了。</speak>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">我之前拜托了管理通信系统的馆员去比对馆内机器人的“心跳”纪录和大门监控的出入纪录。现在，结果应该快出来了吧。</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="cowGirlLibrarian" position="left"/>
+            <speak chara="_Librarian">商博良博士！</speak>
+            <speak chara="_Librarian">视频里进入、离开图书馆的机器人数量，比通过心跳记录计算出的同类数量，分别各多出三台！</speak>
+            <show chara="cowGirlLibrarian" position="left" opacity="0.8"/>
+            <show chara="micheColdClose" position="right"/>
+            <speak chara="_Michel">……三台？</speak>
+            <show chara="micheColdClose" position="left" opacity="0.8"/>
+            <show chara="champoColdClose" position="right"/>
+            <speak chara="_Champollion">唔。那么或许还有其他因为暂未报案而不被我们知晓的受害者。</speak>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">当然，也可能是犯人本身同样利用了机器人进行逃跑。</speak>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">不管怎么说，如果追踪到这几个机器人的下落，那我们离破案也就不远了。</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">……听起来，对于这种大海捞针的事情，你倒是很有信心啊？</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">因为我有一个很可靠的助手嘛。</speak>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">唔……按时间算，那家伙也该来了——总不会是在路边随便捡了什么东西自己吃了起来吧？</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">……真的不要紧吗，你这个助手。</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">不管怎么说，我们先向约好的门口移动吧。</speak>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">图书馆内的一切都不过是瓮中之鳖：就算有意料之外的反转，我相信依靠各位馆员也足以处理得当了。</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="01_18_secretRoom.jpg">
+            <bgm src="01_18_horror.mp3" status="start"></bgm>
+            <text>与此同时，同一城市的某处——</text>
+            <speak chara="_ShadowA">清醒剂已经打过了，他们一会儿就能恢复意识。可是……这些人真的愿意帮助我们吗？</speak>
+            <speak chara="_ShadowB">没有问题。虽然承受着被绑架的屈辱……但这类老好人书呆子，是不会坐视“4号机”白白死掉的。</speak>
+            <speak chara="_ShadowA">……唉。要不是博士出了那档子事儿，我们又何必在这种时候横生枝节。</speak>
+            <speak chara="_ShadowA">一次抢走三个研究同一领域的人……距离我们真正意图的暴露，也只是时间长短的问题了吧。</speak>
+            <speak chara="_ShadowB">无妨。虽然博士已经不能帮助我们了……但他留下的“财富”，足以使这次实验取得完全的成功。</speak>
+            <speak chara="_ShadowB">……到了那时，无论几个“大图书馆”，都不是我们的对手。</speak>
+            <speak chara="_ShadowC">没错。更何况，我们才是正义的一方，有无数失去自由的人们都在等待着我们揭竿而起。</speak>
+            <speak chara="_ShadowC">“大图书馆”自诩为城市的“灯塔”……现在，它熄灭的时刻就要到了。</speak>
+            <goto goto="80" clockwise="1"/>
+        </scene>
+        <scene id="80" background="alexandriaLibraryYard.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="neithLaughClose" position="left"/>
+            <speak chara="_NeithNoName">嗨，博士！“尼罗河果园”的蛋糕实在是太好吃啦！涅伊特忍不住又买了一份！</speak>
+            <show chara="neithLaughClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">……吃、吃、吃，你就知道吃。万一耽误了事情怎么办？</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="neithSmileClose" position="left"/>
+            <speak chara="_Neith">嘿嘿，这不是刚刚好赶上嘛……</speak>
+            <show chara="neithSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">所以，这就是你的“助手”？</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">是的。这家伙的名字是“涅伊特”。虽然看起来好像不怎么靠得住，可是那鼻子其实比狗还灵呢。</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="neithComplainClose" position="left"/>
+            <speak chara="_Neith">涅伊特才没有靠不住！要怪也只能怪那些蛋糕闻起来实在是太香了！</speak>
+            <show chara="neithComplainClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">所以说，这家伙……其实就相当于你的寻踪犬吗？</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">哈哈，要这么说也确实没错。总之是从契约市场上淘到的宝贝。</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">淘到的宝贝？她、她难道是你的——</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">事不宜迟，带我们去你失踪伙伴的房间吧。涅伊特需要充分确认吉米的“味道”。</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">……好可疑，竟然强行转移话题。</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="micheArrogantClose" position="right"/>
+            <speak chara="_Michel">涅伊特之前帮我找回了离家出走的“亚瑟”——单纯从搜查水平来说，她还是相当厉害的。</speak>
+            <show chara="micheArrogantClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">……“亚瑟”是谁？</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="right"/>
+            <speak chara="_Thales">是馆长养的鹦鹉啦。真是的，一群人在树上爬上爬下，害的我把丝织斗篷都给扯破了。</speak>
+            <show chara="thalesEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="micheDrySmileClose" position="right"/>
+            <speak chara="_Michel">咳咳。如果要抓紧时间找人的话……我们不应该先行动起来吗？</speak>
+            <show chara="micheDrySmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">……对、对啊！既、既然你们都觉得这个叫“涅伊特”的家伙靠得住，那就赶紧跟我来吧！</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">正好吉米那家伙在“喀里多尼亚号”上有自己的独立舱室！</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="alexandriaLighthouse.jpg">
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">咦？比安卡大人？</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="lallaQuestionClose" position="right"/>
+            <speak chara="_Lalla">怎么了？带着这么多人，还风风火火的……</speak>
+            <show chara="lallaQuestionClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">吉米丢了！现在我们要利用他的气味去找他！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="lallaSeriousClose" position="right"/>
+            <speak chara="_Lalla">……？！</speak>
+            <show chara="lallaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="left"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">蕾拉小姐！水手长是不是会兼职管家的工作？你能打开吉米的私人舱室吗？</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="lallaSeriousClose" position="right"/>
+            <speak chara="_Lalla">……没有问题。各位，请跟我来。</speak>
+            <goto goto="100" change="#ffffff"/>
+        </scene>
+        <scene id="100" background="alexandriaLighthouse.jpg">
+            <bgm src="01_18_horror.mp3" status="start"></bgm>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">……比安卡大人，请留步。</speak>
+            <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">——怎么了，丽塔？</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">您刚才的意思是吉米先生失踪了……究竟发生了什么事？</speak>
+            <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="left"/>
+            <speak chara="_Bianka">……也对，你们还什么都不知道呢。</speak>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">真没办法，我就简单给你说明一下吧。</speak>
+            <goto goto="110" clockwise="1"/>
+        </scene>
+        <scene id="110" background="alexandriaLighthouse.jpg">
+            <bgm src="01_18_horror.mp3" status="continue"></bgm>
+            <show chara="rita17HesitateClose" position="center"/>
+            <speak chara="_Rita">……是这样的一个情况吗。</speak>
+            <show chara="rita17NormalClose" position="center"/>
+            <speak chara="_Rita">寻找吉米的事情，请让丽塔前去吧。比安卡大人可能更适合留守“喀里多尼亚号”。</speak>
+            <hide position="center"></hide>
+            <show chara="rita17NormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">……喂。你这是什么意思？</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">我知道比安卡大人救人心切。</speak>
+            <speak chara="_Rita">但是，从任务目标出发……我认为这次的事件并不需要【我们】出面解决。尤其是【您】。</speak>
+            <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">你什么意思？</speak>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">不让我出面解决和我有关的问题？你疯了吗？！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17AngryEmClose" position="right"/>
+            <speak chara="_Rita">……当然没有，比安卡大人。</speak>
+            <speak chara="_Rita">丽塔只是想提醒您注意：参与这种大城市的内部事务往往会给自己带来意想不到的风险。</speak>
+            <speak chara="_Rita">为了防备最坏的情况，我们当中至少有一人应该留守基地，以备不测。</speak>
+            <show chara="rita17AngryEmClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">……那也应该是我去寻找，你来留守吧？吉米和我分到了一组，他失踪的这件事，我也是要承担责任的！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17AngryClose" position="right"/>
+            <speak chara="_Rita">"There are five dangerous faults which may affect a general: （故将有五危：）</speak>
+            <speak chara="_Rita">"Recklessness, which leads to destruction; （必死可杀，）</speak>
+            <speak chara="_Rita">"Cowardice, which leads to capture; （必生可虏，）</speak>
+            <speak chara="_Rita">"A hasty temper, which can be provoked by insults; （忿速可侮， ）</speak>
+            <speak chara="_Rita">"A delicacy of honor which is sensitive to shame; （洁廉可辱， ）</speak>
+            <speak chara="_Rita">"Over-solicitude for his men, which exposes him to worry and trouble. （爱民可烦。）</speak>
+            <speak chara="_Rita">"These are the five besetting sins of a general, ruinous to the conduct of war. （凡此五者，将之过也，用兵之灾也。）</speak>
+            <speak chara="_Rita" remark="next">"When an army is overthrown and its leader slain, the cause will surely be found among these five dangerous faults. Let them be a subject of meditation." （覆军杀将，必以五危，不可不察也。）</speak>
+            <remark post="U2FsdGVkX1+jgMcjNXOIjAJdTnV6">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">这一段文字是《孙子兵法》第八章“九变篇”里的内容。英文部分来自翟林奈（Lionel Giles）1910年的译本（ART OF WAR: THE OLDEST MILITARY TREATISE IN THE WORLD）。</p>
+            </remark>
+            <show chara="rita17AngryEmClose" position="right"/>
+            <speak chara="_Rita">比安卡大人，从军事理论的角度，您目前的性格并不利于您的职业。</speak>
+            <speak chara="_Rita">当面对既不必要又不可预知的风险时，丽塔无法认同任何冒失行事、轻举妄动的做法。</speak>
+            <show chara="rita17AngryEmClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">这才不是轻举妄动！让副官代替自己承担责任——一旦做出这样的事情，主将在日后还有什么诚信可言？！</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">更何况，只是去逮捕一群绑架犯而已，这能危险到哪里去？！A级女武神，会被区区犯罪者打败吗？？</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="rita17AngryEmClose" position="right"/>
+            <speak chara="_Rita">如果比安卡大人执意要去，那么至少，请先召回“喀里多尼亚号”的伙伴们——</speak>
+            <show chara="rita17AngryEmClose" position="right" opacity="0.8"/>
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="neithLaughClose" position="left"/>
+            <speak chara="_Neith">好啦！涅伊特的鼻子已经准备好啦！</speak>
+            <show chara="neithSmileClose" position="left"/>
+            <speak chara="_Neith">想第一个发现犯人老巢的，就跟着涅伊特来吧！</speak>
+            <show chara="neithSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">好！我们出发！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17AngryClose" position="right"/>
+            <speak chara="_Rita">比安卡大人！</speak>
+            <show chara="rita17AngryClose" position="right" opacity="0.8"/>
+            <show chara="champoSmileClose" position="left"/>
+            <speak chara="_Champollion">女仆小姐不必担心。我会帮你盯好这个“满身都是不合适性格”的暴躁主人的。</speak>
+            <show chara="champoSmileClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">啊……谢谢……</speak>
+            <show chara="rita17AngryEmClose" position="right"/>
+            <speak chara="_Rita">（奇怪……这个人……是偷听到什么了吗？）</speak>
+            <end post="U2FsdGVkX18Eo7yka2bZeNMg03Im"/>
+        </scene>
+    </story>
+</data>

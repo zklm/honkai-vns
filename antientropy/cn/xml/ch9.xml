@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story title="1">
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="studyLamp.jpg">
+            <bgm src="themeWelt.mp3" status="start"></bgm>
+            <speak chara="weltNoFace">……</speak>
+            <text article="1">
+                <p class="article-text">从现在开始的四周里，名为瓦尔特的实验室助理责任重大。42实验室因为超级电脑艾妲被某个计算任务完全占用而“准放假”四周——这也意味着他规划两位博士娱乐活动的工作要正式开始了。虽然其中一位声称“放假的时候也不是每天都不工作”；但以另一位的作风而言，似乎就难说了……</p>
+            </text>
+            <text>尤其是仅仅数个小时之前，自己的无脑耍帅行为还惹得她火冒三丈。</text>
+            <text>墙上的挂钟默默地走过了十一点。尽管知道这一带的治安是全英国最好的，可终究难以安心睡觉的瓦尔特，还是选择在门厅里熬夜等待。</text>
+            <text>倒是爱因斯坦，看起来对于室友晚归司空见惯的她，一个小时前就上楼“休息”去了。</text>
+            <sound src="8_24_mess.mp3"/>
+            <text>——只是垃圾滑槽里不时有各种杂物落下的声音，听起来反倒像是一直在收拾房子。</text>
+            <text remark="next">喝完第七杯红茶，手中《麦田里的守望者》已经翻到了最后一页。</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《麦田里的守望者》（The Catcher in the Rye），又译为《麦田捕手》，为美国作家J.D.塞林格于1951年发表的长篇小说。</p>
+                <p class="article-text">刚出版时，许多学校和图书馆将《麦田里的守望者》列为禁书；但现在，这本书却是许多美国学校的指定读物。有的评论家说，它“大大地影响了好几代美国青年”。</p>
+            </remark>
+            <text>里面的蠢蛋主角颇有几分可爱的气质，使自己不禁联想起去年读过的《堂·吉诃德》。</text>
+            <text>啊。</text>
+            <text>这么说来……</text>
+            <text>刚才自己收到的那封信，也是有够奇怪的……</text>
+            <goto goto="15" change="#ffffff"/>
+        </scene>
+        <scene id="15" background="CG9-1.jpg">
+            <bgm src="11_3_themeOtto.mp3" status="start"></bgm>
+            <cg src="CG9-1.jpg"></cg>
+            <text article="1">
+                <p class="article-text-h">Ω：</p>
+                <br />
+                <p class="article-text">你收到这封信的时候，应该已经是31号左右了吧。</p>
+                <br />
+                <p class="article-text">万圣节快乐。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">听说是因为某个主教大人特别重视这个节日，所以每年都要在总部进行隆重的布置……没错，附上的照片就是今年我这里的布置情况。</p>
+                <p class="article-text">顺带一提，从本月开始，这实验室的员工终于“可喜可贺”地只剩下了我一个人——所以如你所见，连照个相，也只能自拍了。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">最近没有收到你的回信，是因为新的机遇让你重新燃起生活的热情了吧？我听说你们在大西洋之间来回往返，玩得还蛮开心的。不过，北美支部在总部这边一向风评不佳，如果他们互相之间要闹什么别扭的话，你可千万不要瞎参与啊……听说，这里面的水好像还挺深。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">……我也是傻。神仙打架，和你我之间又有什么关系？不提也罢。虽然不知道伦敦天气如何——但今天的维也纳，确实月色难得；我也算借着酒力，咱们就来随便扯点平常不太能说的话吧。我姑且一说，你姑且一听，别太当回事就好。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">我知道，你是一个喜欢读书的人。不过……不知道你有没有思考过，在和崩坏的抗争中，是什么让我们人类屡屡受挫、损失惨重呢？说到底，究竟是怎样的劣势，使得我们次次被崩坏占去先机，疲于应付呢？</p>
+                <p class="article-text">再换句话说……我们为什么总是、总是、总是重复同样的错误呢？</p>
+            </text>
+            <text article="1">
+                <p class="article-text">通观人类历史，确实，我们一直都在进步，这种进步的潮流也绝不会被一时一事所阻挡；但我看到更多的，却是那些挺立潮头的先驱，他们孤立无援、伤痕累累，甚至有时因为自己人的因素而败下阵来、狼狈不堪。他们是精神上的巨人，却有时是物质上的弱者；他们的精神往往需要长时间的传承，才能成为公认的无价之宝。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">之前，我给你讲过圣女卡莲的故事。但是，我在今天想说的是……相比于她伟大的人格，自然赋予她的，一个普通少女的身体（虽然卡斯兰娜这个血统绝对算不上普通……但这并没有什么决定意义上的差别）——是那样的脆弱、那样的渺小，以至于凡夫俗子竟然可以判处她死刑，以至于区区崩坏兽就能够轻易夺取她的性命。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">这毫无道理不是吗？</p>
+                <br />
+                <p class="article-text">我们生活的这个世界，一点儿都不符合逻辑，一点儿都不尊重等价交换的原理！</p>
+            </text>
+            <text article="1">
+                <p class="article-text">我永远不会忘记卡莲这短暂一生的遭遇。</p>
+                <br />
+                <p class="article-text">我深信，对于我们人类来说，最大的敌人根本不是什么崩坏，而恰恰是我们自己。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">——我们自己太脆弱了，以至于我们的英雄总是无力去拯救所有的人；我们自己太脆弱了，以至于我们中的某些人竟会怀疑英雄的动机；我们自己太脆弱了，以至于我们会为了眼前的小利而罔顾真正的正义；我们自己太脆弱了，以至于我们只能在互相威胁之中换取短暂的和平，还要用“秩序”、“伦理”这样冠冕堂皇的字眼来掩饰那些卑劣十足的动机。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">圣女……她之所以是圣女，就在于，尽管本质上和我们一样脆弱——但是，她，唯独她，只有她，和我们不同，不害怕自己的脆弱。这种发自内心的勇敢，对于普通人来说，简直就像太阳一样，可望而不可即。</p>
+                <p class="article-text">至少，和她比起来……我自己，就是一个十足的懦夫。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">我们每个人，都怀揣着这名为“恐惧”的原罪，战战兢兢地寻求着人生的答案。</p>
+                <br />
+                <p class="article-text">圣女是不会嘲笑我们的。但每当我意识到我们是这样活着的时候，我就恨不得把自己一巴掌打死。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">但试想，假如，假如我们每个人都果真有机会，能够摆脱这种脆弱；一旦“我很脆弱”这种根植于人类内心深处的恐惧被连根拔出……那么，那时我们创造的新文化，该会有多么宽容、多么自信、多么充满活力啊！而所谓的“崩坏”，在这样的我们面前，难道不是渺小到不足挂齿么？</p>
+            </text>
+            <text article="1">
+                <p class="article-text">这样的世界，会守护自己的圣女。</p>
+                <br />
+                <p class="article-text">这样的世界，也更值得圣女来守护。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">假如，假如，假如卡莲能有机会再次闪耀于这个世界舞台，那么，这一次，她将不会因为我们自身的渺小而举步维艰。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">许久没有品尝红酒，大概今天的确是喝得有些多。这封信在你看来，可能纯属不知所云的语无伦次吧……不过这样也没关系。之前，我一直是以组织的一员的身份在和你对话；今天，就让我做回一个普通的研究者，随便发点自以为是的牢骚吧。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">我不认为我刚才憧憬的那种世界能够实现……但是这也没有关系。我们依然有许多可以去做的事——不是吗？</p>
+                <br />
+                <p class="article-text-s">你今天有点奇怪的老朋友，</p>
+                <p class="article-text-s">小丑阿尔法</p>
+                <p class="article-text-s">1955.10.28.</p>
+            </text>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="studyLamp.jpg">
+            <bgm src="themeWelt.mp3" status="start"></bgm>
+            <text>挂钟的时针转过了60°，早已是第二天的凌晨了。</text>
+            <text>瓦尔特默默地给自己续上了第八杯红茶。</text>
+            <sound src="11_3_mess lock.mp3"/>
+            <text>咔嗒。</text>
+            <sound src="11_3_mess lock.mp3"/>
+            <text>咔嗒咔嗒。</text>
+            <sound src="11_3_mess lock.mp3"/>
+            <text>咔嗒咔嗒咔嗒。</text>
+            <text>门外终于响起了醉鬼特有的，那种死活也找不到锁眼的捅锁声。</text>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="studyNight.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="teslaNormalDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">啊……你小子……没睡啊。</speak>
+            <text>虚浮的脚步，满脸的酒气——毫无疑问，这家伙已经喝高了。</text>
+            <speak chara="weltNoFace">……是啊。要上楼吗？</speak>
+            <text>想起了天然卷的叮嘱，青年决定以平常心应对这个场面。</text>
+            <show chara="teslaAstonishDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">上楼？……不要不要。</speak>
+            <text>半解开双马尾的红发女子粗鲁地挥舞着双手。</text>
+            <show chara="teslaFoolDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">你……来陪我说话。</speak>
+            <speak chara="weltNoFace">……我、我吗？</speak>
+            <show chara="teslaBiteDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">少……少废话！</speak>
+            <show chara="teslaFoolDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">除了你……还有谁……啊？</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG9-2.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <text>毫无酒品的“成年人”顺势一倒，四仰八叉地躺在了身边的小沙发上。</text>
+            <speak chara="teslaNoFace">……反正你也没有听过不是吗？</speak>
+            <speak chara="weltNoFace">没有听过？</speak>
+            <speak chara="weltNoFace">呃……什么没有听过？</speak>
+            <speak chara="teslaNoFace">……好啰嗦啊你。哪里来的下院议员吗？没有听过不就是没有听过吗？</speak>
+            <speak chara="teslaNoFace">……本小姐难得一本正经地给你解释解释，你洗好耳朵乖乖听着不就行了？</speak>
+            <text>红发醉鬼一边无厘头地骂着，一边厌恶地将自己的外套甩到了沙发靠背上。</text>
+            <speak chara="teslaNoFace">……你也知道，老子的名字是尼古拉。</speak>
+            <speak chara="teslaNoFace">刚好在这边也算是个女孩子的名字，所以就这么用了。</speak>
+            <speak chara="teslaNoFace">不过呐，护照上可就……</speak>
+            <speak chara="teslaNoFace">哈哈哈哈哈，要说起来的话，还有些羞耻呐。</speak>
+            <speak chara="weltNoFace">呃……你是想说……</speak>
+            <speak chara="weltNoFace">……尼古拉是假名吗？</speak>
+            <speak chara="teslaNoFace">倒也……算不上假名啦。</speak>
+            <speak chara="teslaNoFace">芙蕾德莉卡·尼古拉·特斯拉……全名算是这样的说。</speak>
+            <speak chara="teslaNoFace" remark="next">真是的，听起来跟个德国母猪似的。</speak>
+            <remark post="U2FsdGVkX19IgpxWjGoRkLC6kAMe">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">特斯拉是一个出生在克罗地亚、拥有奥地利国籍的塞尔维亚族人。在中东欧地区，由于历史原因，这样的情况并不少见。</p>
+            </remark>
+            <speak chara="weltNoFace">唉……不是个……很可爱的名字吗？</speak>
+            <speak chara="teslaNoFace">……啧。</speak>
+            <text>醉鬼不满地换了个姿势，将两条腿交叉搭在了一起——</text>
+            <speak chara="teslaNoFace">就知道你们男人要这么说。</speak>
+            <speak chara="teslaNoFace">尼古拉这种男女通用的名字，你们就提不起“兴趣”了是不是？</speak>
+            <speak chara="weltNoFace">呃……是、是这样吗……</speak>
+            <speak chara="teslaNoFace">我已经受够了那种把我当所谓“女孩子”的生活。</speak>
+            <text>醉鬼的语速陡然加快了起来——</text>
+            <speak chara="teslaNoFace">简直傻得要死，人类的个性哪里是靠性别啊、种族啊这种无聊的东西来定义的？</speak>
+            <speak chara="teslaNoFace" remark="next">脑子被福尔马林泡过了吗？</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">福尔马林(Formalin)是甲醛含量约为40%，甲醇含量含量约为15%的混合水溶液，一般被用作制作标本的防腐剂。</p>
+                <p class="article-text">在我们的世界中，1955年4月18日，物理学家阿尔伯特·爱因斯坦去世后7个小时内，他的大脑就经由10% ~ 11.4%的福尔马林溶液初步固化，而后被切片保存。</p>
+            </remark>
+            <speak chara="teslaNoFace">……但确实，很不幸，世界上的绝大多数人真的只会作茧自缚，用无聊的标签规划自己的生活。</speak>
+            <speak chara="teslaNoFace">一旦有人跳出了这些明明暗暗的“规则”，他们就无名火起、暴跳如雷，仿佛对方要毁了他们的人生似的。</speak>
+            <speak chara="teslaNoFace">这些人大概是忘了，我们身上各种各样的身份，不过是人类为了组织起一个像样的社会而虚构出来的设定。</speak>
+            <speak chara="teslaNoFace">所有自然界原本不存在的东西，都不过是人类的虚构，都不过是设定罢了。</speak>
+            <speak chara="teslaNoFace">虚、构、的！</speak>
+            <speak chara="teslaNoFace">天命是虚构的，英国是虚构的，靠左行驶是虚构的，连厕所要分男女——那也是虚构的！</speak>
+            <speak chara="weltNoFace">呃……</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="studyNight.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="teslaNormalDrunkWinterClose" position="left"/>
+            <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
+            <speak chara="teslaNoFace" remark="next">啊……抱歉抱歉，一股脑说这么多，简直跟填鸭填鹅似的。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">肥肝（法语：foie gras）是一道著名的法国菜，在汉语常称“鹅肝”，但实际上也有使用鸭肝来作为原材料的。</p>
+                <p class="article-text">生产肥肝的农场会以管饲法将饲料直接强灌到胃部的方式来迫使鸭或鹅养成脂肪肝。灌食为期2至4星期，每日2至3次，使用管子将特别调制的饲料浆直接灌入其食道。这会使大量过剩的营养在其肝脏积聚，最后得出肥大而细腻的脂肪肝。</p>
+            </remark>
+            <show chara="teslaFoolDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">尼古拉·特斯拉，人称“喝了酒秒变话痨”专业博士！</speak>
+            <text>红发女子仰身跃起，一把夺过了青年面前的红茶，不由分说就喝了起来。</text>
+            <show chara="teslaNormalDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">你们所有人都管我叫博士——但我其实还没有毕业哦？</speak>
+            <show chara="teslaNormalDrunkWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose" position="right"/>
+            <speak chara="weltNoFace">……啊？</speak>
+            <show chara="weltSurpriseWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaFoolDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">有那么吃惊吗……</speak>
+            <show chara="teslaNormalDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">因为种种原因而选择休学退学的人也不少见吧。</speak>
+            <show chara="teslaNormalDrunkWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="right"/>
+            <speak chara="weltNoFace">可是……你在这里不也是做研究吗？</speak>
+            <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaNormalDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">啊，这个不一样啦。</speak>
+            <text>特斯拉无奈的耸耸肩膀。</text>
+            <speak chara="teslaNoFace">普朗克教授是做纯理论的——凭我现在的研究，可没法在她那里毕业。</speak>
+            <show chara="teslaBiteDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">尤其是爱因斯坦那个混蛋……最近只肯让我在艾妲上面跑虚拟测试了！</speak>
+            <speak chara="teslaNoFace">不就是炸了那么一两次卧室……至于吗？</speak>
+            <show chara="teslaNormalDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">啊。</speak>
+            <speak chara="teslaNoFace">你还不知道艾妲是谁吧？</speak>
+            <show chara="teslaNormalDrunkWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="right"/>
+            <speak chara="weltNoFace">……艾妲的话，今天倒是刚刚认识。</speak>
+            <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaFoolDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">吼——看来你们已经把那玩意儿分析完了？</speak>
+            <show chara="teslaFoolDrunkWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="right"/>
+            <speak chara="weltNoFace">不……看起来要四周以后才能出结果。</speak>
+            <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaAstonishDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">唉……</speak>
+            <show chara="teslaFoolDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">那今天晚上我们可以玩个通宵了吧！哈哈哈哈哈！</speak>
+            <show chara="teslaFoolDrunkWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose" position="right"/>
+            <speak chara="weltNoFace">通、通宵？</speak>
+            <show chara="weltScaredWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaLveDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">那不是当然吗……你个傻瓜！</speak>
+            <show chara="teslaNormalDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">四个星期耶！</speak>
+            <show chara="teslaLveDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">整整一个月呐！你懂吗？！</speak>
+            <show chara="teslaFoolDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">艾妲要忙那么久，那我岂不是……放大假啦？</speak>
+            <speak chara="teslaNoFace">哈哈哈哈哈哈！放假喽！酒池肉林的生活！我来啦！</speak>
+            <show chara="teslaFoolDrunkWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaAstonishDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">还愣着干什么，给姐姐我找酒来啊！</speak>
+            <show chara="teslaAstonishDrunkWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltShameWinterClose" position="right"/>
+            <speak chara="weltNoFace">喂喂……你这……这、这不能再喝了吧？</speak>
+            <show chara="weltScaredWinterClose" position="right"/>
+            <speak chara="weltNoFace">都醉成这样了……还要喝？！</speak>
+            <show chara="weltScaredWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaNormalDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">唉。</speak>
+            <show chara="teslaFoolDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">说什么傻话……我看是你自己喝多了吧……哈哈哈哈！</speak>
+            <show chara="teslaLveDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">我这不还和你对答如流吗？凭什么不能喝！</speak>
+            <show chara="teslaNormalDrunkWinterClose" position="left"/>
+            <speak chara="teslaNoFace">既然你不肯帮忙……</speak>
+            <hide position="left"/>
+            <show chara="teslaFoolDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">……那我就自己去拿呗？</speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="corridorMessy.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <text>说着，她便晃晃悠悠地往楼上走去。</text>
+            <text>目标很明确——二层走廊尽头那台色彩鲜艳又圆滚滚的冰箱。</text>
+            <show chara="teslaFoolDrunkWinterClose" position="center" opacity="0.7"/>
+            <show chara="weltShameWinterClose" position="right"/>
+            <speak chara="weltNoFace">啊……不行不行！</speak>
+            <text>眼看无法阻止特斯拉的脚步，瓦尔特把心一横，冲上去紧紧拉住了她。</text>
+            <show chara="weltShameWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaBiteDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">……喂！你干什么啦！</speak>
+            <speak chara="teslaNoFace">放开我的手！</speak>
+            <show chara="teslaBiteDrunkWinterClose" position="center" opacity="0.7"/>
+            <show chara="weltNormalWinterClose" position="right"/>
+            <speak chara="weltNoFace">如果你是要继续去喝酒的话，那我是不会放开的。</speak>
+            <text>青年再上前一步，又拉住了她的另一只手。</text>
+            <show chara="weltNormalWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaAstonishDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">哈？好不容易放个假，怎么寻开心是我的自由吧？</speak>
+            <show chara="teslaLveDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">喝两杯你也要管，小气鬼！</speak>
+            <text>醉鬼显然不会满意这种粗暴的干涉——她像拉面大师似的甩动着自己的双手，试图从瓦尔特那里挣脱开来。</text>
+            <show chara="teslaBiteDrunkWinterClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">喂！</speak>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">变态！色狼！</speak>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">快放开啦！</speak>
+            <show chara="teslaBiteDrunkWinterClose" position="center" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaBiteDrunkWinterClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">你倒是放开啦放开啦放开啦！</speak>
+            <show chara="teslaBiteDrunkWinterClose" position="center" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="right"/>
+            <speak chara="weltNoFace">……那你能对自己的身体负责吗。</speak>
+            <text>青年的脸上写满了哭笑不得——现在被他攥住双手的红发女孩子，宛如一个得不到玩具的幼儿，就差躺在地上撒泼耍赖了。</text>
+            <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaBiteDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">……你不放开是不是。</speak>
+            <show chara="teslaBiteDrunkWinterClose" position="center" opacity="0.7"/>
+            <show chara="weltShameWinterClose" position="right"/>
+            <speak chara="weltNoFace">在你放弃之前……我、我是不可能放开的!</speak>
+            <show chara="weltShameWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaNormalDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaNormalDrunkWinterClose" position="center" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="right"/>
+            <speak chara="weltNoFace">你已经醉了，回房休息吧。</speak>
+            <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaFoolDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">不！我没醉！我明明这么精神！</speak>
+            <show chara="teslaFoolDrunkWinterClose" position="center" opacity="0.7"/>
+            <show chara="weltShameWinterClose" position="right"/>
+            <speak chara="weltNoFace">……只有醉鬼才会这么说吧！</speak>
+            <show chara="weltShameWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaNormalDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">没醉没醉就是没醉嘛！</speak>
+            <text>特斯拉生气地蹲在地上——忽然又像想到了什么似的，猛地跳了起来。</text>
+            <show chara="teslaAstonishDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">我知道了。我不喝酒了。</speak>
+            <show chara="teslaAstonishDrunkWinterClose" position="center" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose" position="right"/>
+            <speak chara="weltNoFace">……你别骗我。</speak>
+            <show chara="weltSurpriseWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaFoolDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">不骗你不骗你！</speak>
+            <show chara="teslaFoolDrunkWinterClose" position="center"/>
+            <text>这团散发着酒气的红毛露出了小恶魔一样的笑容。</text>
+            <speak chara="teslaNoFace">不过嘛，作为代价……</speak>
+            <speak chara="teslaNoFace">……你要陪我玩！</speak>
+            <show chara="teslaFoolDrunkWinterClose" position="center" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaFoolDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">陪我玩，我就不喝！</speak>
+            <show chara="teslaFoolDrunkWinterClose" position="center" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaAstonishDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">真的真的！不骗你的嘛！</speak>
+            <show chara="teslaAstonishDrunkWinterClose" position="center" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltNormalWinterClose" position="right"/>
+            <speak chara="weltNoFace">……好吧。</speak>
+            <text>青年视死如归般点了点头——</text>
+            <show chara="weltTiredWinterClose" position="right"/>
+            <speak chara="weltNoFace">所以，你打算玩什么？现在已经是深夜了吧？</speak>
+            <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaFoolDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">哈哈哈哈，就是深夜才好玩啊？</speak>
+            <show chara="teslaFoolDrunkWinterClose" position="center" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose" position="right"/>
+            <speak chara="weltNoFace">啊？</speak>
+            <show chara="weltScaredWinterClose" position="right"/>
+            <speak chara="weltNoFace">别、别说这种危险的发言啊喂！</speak>
+            <show chara="weltTiredWinterClose" position="right"/>
+            <speak chara="weltNoFace">听、听起来简直像是哪里的犯罪者一样好吗？！</speak>
+            <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaFoolDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">啊。害羞了害羞了。</speak>
+            <show chara="teslaFoolDrunkWinterClose" position="center" opacity="0.7"/>
+            <show chara="weltShameWinterClose" position="right"/>
+            <speak chara="weltNoFace">什么害羞，不要胡说！</speak>
+            <shake position="right" time="250"></shake>
+            <speak chara="weltNoFace">我哪里害羞啦！</speak>
+            <show chara="weltShameWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaFoolDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">嘿嘿嘿嘿，我就要说就要说！</speak>
+            <show chara="teslaLveDrunkWinterClose" position="center"/>
+            <speak chara="teslaNoFace">瓦尔特！你这个臭男人！你有种就来——</speak>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="">
+            <bgm src="themeTesla.mp3" status="stop"></bgm>
+            <text>啪。</text>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="corridorMessy.jpg">
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <text>一只背后阴影中飞来的字典准确命中了这个聒噪家伙的脑袋。</text>
+            <show chara="0einSeriousAhVestClose-up" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="einNoFace">大半夜的吵死了！</speak>
+            <shake position="center" time="250"></shake>
+            <speak chara="einNoFace">都给我睡觉去！现在！马上！</speak>
+            <show chara="0einNormalVestClose-up" position="center"/>
+            <speak chara="einNoFace">……</speak>
+            <speak chara="einNoFace">…………</speak>
+            <show chara="0einFoolVestClose-up" position="center"/>
+            <speak chara="einNoFace">………………</speak>
+            <show chara="einBagaVestClose-up" position="center"/>
+            <speak chara="einNoFace">瓦尔特，你说……她为什么突然就一动不动了？</speak>
+            <end post="U2FsdGVkX19e4WHxF4Pk4HxRATs2"/>
+        </scene>
+    </story>
+</data>	
+
+
+

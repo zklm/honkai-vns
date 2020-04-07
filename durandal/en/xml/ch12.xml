@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="beachAzores.jpg">
+            <bgm src="12_14_moonLight.mp3" status="start"></bgm>
+            <text>当莎士比亚等人从“葬礼现场”返回的时候，蕾拉水手长已经指挥船员们在“喀里多尼亚号”潜艇的登陆地点搭好了一个临时的演讲台。</text>
+            <text>红发的船长招呼自己的部下们聚拢过来，示意自己将要发表一段讲话。</text>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="CG12-1.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">咳咳。</speak>
+            <speak chara="_Shakespeare">大家知道，你们的船长不喜欢装腔作势的演讲。</speak>
+            <speak chara="_Shakespeare">没错，她的确是让剧里的安东尼靠着三寸不烂之舌就帮凯撒报了仇——</speak>
+            <speak chara="_Shakespeare">——但你们也知道，与那个光荣的独裁官或者那些光荣的谋杀者相比，这家伙只不过是一个必须去背负历史之恶的小丑罢了。</speak>
+            <speak chara="_Shakespeare">所以，回到正题，你们的船长，她首先会清楚明白地告诉你们：</speak>
+            <speak chara="_Shakespeare">我们当前的航行目的地是尤卡坦半岛，我们要去那里找回一块宝石、或者说一个零件，去组装一把能够拯救这整个世界的武器。</speak>
+            <speak chara="_Shakespeare">和往常一样，你们的船长会在旅行中为你们寻找发财致富的好办法——</speak>
+            <speak chara="_Shakespeare">——在常人根本无法自行前往的新大陆，大家赚钱的机会，只会多、不会少。</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="CG12-2.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">……然而，在今天，在这个我们即将离开熟悉的旧大陆的时刻——</speak>
+            <speak chara="_Shakespeare">——身为你们的船长，我有必要让各位同样清楚明白地知道：</speak>
+            <speak chara="_Shakespeare">在接下来的一段时间里，我们为什么要进行一次史无前例的长距离航行。</speak>
+            <speak chara="_Shakespeare">是的：我们不仅要纵贯大西洋，还要横穿太平洋，我们的脚印将踏在四、五个大洲的不同土地上。</speak>
+            <speak chara="_Shakespeare">……而这件事本身的意义，绝对超过了金钱和荣誉所能带给任何人的一切。</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="CG12-1.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">大家知道，你们的船长总是强调说，你们不仅仅是“喀里多尼亚号”的海盗，也是“国王剧团”的演员。</speak>
+            <speak chara="_Shakespeare">——伙计们，这不是因为你们的船长怀念她的旧业，想在未来的某一天让大家排练剧目、登台演出。</speak>
+            <speak chara="_Shakespeare">——伙计们，你们的船长要这样说：</speak>
+            <speak chara="_Shakespeare">世界就是一个大舞台，而每一个活出精彩的人，都是这个舞台上最棒的演员！</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG12-2.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">我们是海盗。海盗的价值观很简单，它只有一个词：自由。</speak>
+            <speak chara="_Shakespeare">在大洋上，在没有恼人的法律约束我们的地方，我们掠夺一切、分享一切，想怎样生活就怎样生活。</speak>
+            <speak chara="_Shakespeare">——但这样的日子恐怕越来越少了。</speak>
+            <speak chara="_Shakespeare">为什么？因为有一束绞索早已经套上了我们的脖子，而且它毎时每刻都在向上收紧！</speak>
+            <speak chara="_Shakespeare">这束看不见的绞索，已经吊死了众多的异乡守护神——</speak>
+            <speak chara="_Shakespeare">她们的名字包括：</speak>
+            <speak chara="_Shakespeare">英格兰、</speak>
+            <speak chara="_Shakespeare">苏格兰、</speak>
+            <speak chara="_Shakespeare">爱尔兰、</speak>
+            <speak chara="_Shakespeare">法兰西、</speak>
+            <speak chara="_Shakespeare">尼德兰、</speak>
+            <speak chara="_Shakespeare">德意志、</speak>
+            <speak chara="_Shakespeare">斯堪的纳维亚、</speak>
+            <speak chara="_Shakespeare">波兰、</speak>
+            <speak chara="_Shakespeare">波希米亚、</speak>
+            <speak chara="_Shakespeare">匈牙利、</speak>
+            <speak chara="_Shakespeare">瓦拉几亚、</speak>
+            <speak chara="_Shakespeare">保加利亚、</speak>
+            <speak chara="_Shakespeare">塞尔维亚、</speak>
+            <speak chara="_Shakespeare">阿尔巴尼亚、</speak>
+            <speak chara="_Shakespeare">希腊、</speak>
+            <speak chara="_Shakespeare">意大利、</speak>
+            <speak chara="_Shakespeare">还有伊比利亚。</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG12-3.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">……是的，你们中的某些人应该听说过，在这些五花八门的名称之上，她们还有一个共同的名字：</speak>
+            <speak chara="_Shakespeare">“欧罗巴”。</speak>
+            <speak chara="_Shakespeare">曾几何时，在这些大大小小的神明庇护下，欧罗巴的人们自由富足、安居乐业：</speak>
+            <speak chara="_Shakespeare">我们可以说，那是真正的桃源之乡，是个遍地黄金的地方。</speak>
+            <speak chara="_Shakespeare">——但是现在呢？</speak>
+            <speak chara="_Shakespeare">正如我们在地中海航行时总能看到的那样——这片辽阔的土地，正在高墙之后凄惨地荒芜着，无人可以涉足，更无人可以居住。</speak>
+            <speak chara="_Shakespeare">而这一切悲剧的开端，都来自这样的一个传说——</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="CG12-2.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">“秋分之日，皇帝在阿姆斯特丹上岸了。”</speak>
+            <speak chara="_Shakespeare">如今，我们已经无法考证这个“皇帝”究竟是谁。但很明显，他赖以统治的手段，绝不同于我们熟知的任何国王、市长、或者祭司。</speak>
+            <speak chara="_Shakespeare">老人们说，“异乡的皇帝带着他异乡的仆从在大街上耀武扬威。然后，离奇的事情便发生了。”</speak>
+            <speak chara="_Shakespeare">“那些看到了这个队伍的人，有一半都不由自主地加入了他们，仿佛自己生来便是皇帝的仆从。”</speak>
+            <speak chara="_Shakespeare">“皇帝的仆从不吃不喝，也从不睡觉：他们只是簇拥着自己的皇帝，一边用我们听不懂的语言唱着歌，一边坚定不移地向前行军。”</speak>
+            <speak chara="_Shakespeare">“就这样，他们翻过山脉、跨过河流，来到了大陆中心的古城遗址。”</speak>
+            <speak chara="_Shakespeare">“我们不知道皇帝做了什么。但是那废墟似乎突然就被注满了能量，它的墙壁像镜子中的镜子一样层层增长。”</speak>
+            <speak chara="_Shakespeare">“这些墙壁仿佛裹挟着世界上的一切火焰和雷电：凡是与它们接触的人、动物、乃至植物，全部都被蒸发，全部都变成了惨白的尘埃。”</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="CG12-3.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">——这是你们的祖辈亲身经历的事件。</speak>
+            <speak chara="_Shakespeare">一个世纪之后，这堵似乎无敌的墙壁，已经蚕食了整整一个大洲的土地——</speak>
+            <speak chara="_Shakespeare">——尤其是五年前，你们都听说了直布罗陀被吞噬的惨剧。</speak>
+            <speak chara="_Shakespeare">没有人知道我们接下来还会面对怎样的厄运……</speak>
+            <speak chara="_Shakespeare">……除非，有人站出来，去摧毁那个毁灭一切的天灾，去从那个“皇帝”的手里，抢夺回我们的整个世界。</speak>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="CG12-4.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">各位！抢夺一个世界！身为江洋大盗，还有比这更为激动人心的目标吗？</speak>
+            <speak chara="_Shakespeare">当我们年老体衰的时候，让我们的子子孙孙们，去尽情嫉妒我们现在的这趟冒险吧！</speak>
+            <speak chara="_Shakespeare">……各位，你们的船长虽然一贯轻浮，但也绝对不会去打没有准备的战争。</speak>
+            <speak chara="_Shakespeare">我要告诉你们的是：现在，我们有一个绝好的机会，去获得一把能够重塑整个世界的武器！</speak>
+            <speak chara="_Shakespeare">来吧，隐藏在铁面之下的旅行者、异界的博士！现在是时候告诉大家，三十年前，你那跳跃次元的传奇经历了！</speak>
+            <goto goto="100" clockwise="1"/>
+        </scene>
+        <scene id="100" background="beachAzores.jpg">
+            <bgm src="05_01_themeEin.mp3" status="start"></bgm>
+            <text>在船长手指的方向，摘下面具的“铁面人”，第一次出现在了全体船员的面前。</text>
+            <text>她手中的幽兰黛尔剑，也配合地保持着武器原本的形态。</text>
+            <goto goto="110" change="#ffffff"/>
+        </scene>
+        <scene id="110" background="CG12-5.jpg">
+            <bgm src="05_01_themeEin.mp3" status="continue"></bgm>
+            <speak chara="_Ironface">大家好。</speak>
+            <speak chara="_Ironface">我的名字是埃尔温·蕾安娜·薛定谔。很抱歉之前因为一些原因，不能告诉大家我的真实身份。</speak>
+            <speak chara="_Schrodinger">不过，既然船长让我介绍一下自己过去的经历，那么我也就趁此机会说明一下——</speak>
+            <speak chara="_Schrodinger">——和你们中的大多数人不同，我是凭借自己的意志，离开了过去曾生活过的世界和宇宙。</speak>
+            <speak chara="_Schrodinger">对，就像台下两位最新加入我们的女武神一样。</speak>
+            <speak chara="_Schrodinger">准确地说，我和她们来自同一个世界，效力过同一个组织。</speak>
+            <speak chara="_Schrodinger">……不过，那也是数十年之前的的事情了。</speak>
+            <speak chara="_Schrodinger">当时，我被卷进了一场突发的危机。</speak>
+            <speak chara="_Schrodinger">在这场危机中，因为一系列的意外，我丧失了自身作为物理实体存在的“稳定性”。</speak>
+            <speak chara="_Schrodinger">虚数内能暴走、粒子幺正性丧失——</speak>
+            <speak chara="_Schrodinger">那个世界的人们这样称呼这一罕见的现象：</speak>
+            <speak chara="_Schrodinger">“量子化”。</speak>
+            <speak chara="_Schrodinger">实体消退、意识模糊，最终会跌落到“量子之海”的底部，被囚禁在能量最低点的世界夹缝中……</speak>
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <speak chara="_Schrodinger">……本应该是这样的。</speak>
+            <speak chara="_Schrodinger">然而，极其幸运的是，在那个世界之外的深渊里缓缓下沉的时候，我偶然触摸到了这把独一无二的圣剑。</speak>
+            <speak chara="_Schrodinger">当时，它是一块丢失了灵魂的金属；而我，则是一个失去了身体的野鬼。</speak>
+            <speak chara="_Schrodinger">我凭借它稳定了自己的存在；它依靠我找回了原本的力量。</speak>
+            <speak chara="_Schrodinger">最终，我们收集到了足够的能量，发动了一次足以跳出那个深渊的“跃迁”。</speak>
+            <speak chara="_Schrodinger">只不过，那个时候，我们已经从自己原本的世界离开太久了——</speak>
+            <speak chara="_Schrodinger">——久到外面已经没有“信标”可以让我们完成定位，我们根本没有办法指定“跃迁”后自己会出现在【哪里】。</speak>
+            <speak chara="_Schrodinger">……但结果正如你们看到的：我们，残缺不全地，来到了【这里】。</speak>
+            <speak chara="_Schrodinger">虽然我并不是什么宿命论者，但是我相信，在我们身处的这个畸形世界里，这把剑有它自己应该去完成的任务——</speak>
+            <speak chara="_Schrodinger">——去斩断，那堵威胁着我们所有人的灾厄之壁。</speak>
+            <bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
+            <speak chara="_Schrodinger" remark="next">……船长，可以借你的“非洲之星”一用吗？</speak>
+            <remark post="U2FsdGVkX19iXpOj+BlU3UoHLW2y">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“非洲之星”是库里南钻石（Cullinan Diamond）的一个别称。这颗钻石是人类迄今发现的最大天然钻石原石，重3106克拉（约相当于621克）。</p>
+                <p class="article-text">英帝国政府于1907年得到该钻石后，命宝石匠将它切割成了9大块（及许多小块），以便进一步雕琢加工。其中最大的一块（530.2克拉）被镶嵌在王室权杖的顶部，次大的一块（317.4克拉）则被镶嵌在帝国皇冠的正面。</p>
+            </remark>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="beachAzores.jpg">
+            <bgm src="11_15_shakespeareTheme.mp3" status="continue"></bgm>
+            <show chara="shakesQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">啊？你不会真的要用那个来……试剑吧？</speak>
+            <show chara="shakesQuestionClose" position="left" opacity="0.8"/>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">……反正你也不会把它拿出去卖钱的，对不对？</speak>
+            <show chara="schroTalkClose" position="right" opacity="0.8"/>
+            <show chara="shakesPityClose" position="left"/>
+            <speak chara="_Shakespeare">……</speak>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">……行吧，反正再好的原石也终归是要被拿来切割的。</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">帮我切得好看一点啊？</speak>
+            <goto goto="130" clockwise="1"/>
+        </scene>
+        <scene id="130" background="beachAzores.jpg">
+            <bgm src="11_15_shakespeareTheme.mp3" status="continue"></bgm>
+            <text>十分钟后，大如茄子的钻石原石从船长室里被取了出来。</text>
+            <text>这玩意儿虽然个头惊人，但那粗糙无光的表面，总是让人忍不住怀疑它只是一块玻璃。</text>
+            <text>——不过，亲手触摸过它的人，却能从一种轻盈、又瞬间被掌温“融化”的质感上，切实感受到这确实是那种世界上“最纯粹”的晶体。</text>
+            <text>在大家传看这块钻石的时候，薛定谔博士轻轻地把圣剑倒插进了一块礁石的中央。</text>
+            <text>她握住剑柄的右手释放出紫色的荧光，似乎正在为这柄奇异的武器注入能量。</text>
+            <text>“好了。”博士保持着她一贯的冷淡腔调，向身后伸出了左手。“把钻石交给我吧。”</text>
+            <text>她轻轻握住这块稀世珍宝，像木匠对待刨刀、又像陶匠对待黏土——</text>
+            <text>——让它紧贴着圣剑的一侧剑刃，轻轻地、稳稳地擦蹭过去。就像在面包上抹黄油一样。</text>
+            <text>……当博士再度举起宝石让大家观赏的时候，方才“抹黄油”的位置，已经形成了一个平整光滑、明亮剔透的晶体断面。</text>
+            <text>在船员们几近窒息的震惊之中，博士就像削土豆一样，淡然地将宝石一次次翻面、旋转，让圣剑清理掉它表面的每一处瑕疵。</text>
+            <text>最终，她平静地把刮削完毕的宝石还给了船长：</text>
+            <text>“我不是专业的宝石匠，只懂得尽可能地保留住宝石的尺寸。”</text>
+            <text>“……希望它没有贬值。”</text>
+            <text>博士面无表情地从礁石中拔出了圣剑，消去了它表面的荧光。</text>
+            <text>她穿过自动分开的人群，踩着碎如雪花的海浪，返回了喀里多尼亚号的指挥台。</text>
+            <goto goto="140" clockwise="1"/>
+        </scene>
+        <scene id="140" background="submarineCabinBlur.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="shakesBagaLeftClose" position="left"/>
+            <speak chara="_Shakespeare">哎呀，薛定谔博士，刚才的表演实在是太精彩了！</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">我之前还担心“非洲之星”会不会被劈成两半呢！</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="schroCalmClose" position="right"/>
+            <speak chara="_Schrodinger">呵呵，如果你不会事后找我索赔的话，我还挺想那样干脆利落地去做呢。</speak>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">……话说回来，那边的两位女武神——从刚才开始，你们俩就活脱脱一副欲言又止的样子啊？</speak>
+            <show chara="schroSmileClose" position="right"/>
+            <speak chara="_Schrodinger">开诚布公地来谈一谈如何？</speak>
+            <show chara="schroSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biancaShyClose" position="left"/>
+            <speak chara="_Bianka">那个……</speak>
+            <show chara="biankaChayaoClose" position="left"/>
+            <speak chara="_Bianka">你、你难道是那个超有名的、“又死又活”的“薛定谔”吗？</speak>
+            <show chara="biankaChayaoClose" position="left" opacity="0.8"/>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">……啊？</speak>
+            <show chara="schroTalkClose" position="right" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">……比安卡大人应该是想说“又死又活的猫”。</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">……哦，那个啊。</speak>
+            <show chara="schroSmileClose" position="right"/>
+            <speak chara="_Schrodinger">怎么，对你们来说，我最有名的事迹，竟然是这么一个无聊的思想实验吗？</speak>
+            <show chara="schroSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">……啊？</speak>
+            <show chara="biankaHesitateClose" position="left"/>
+            <speak chara="_Bianka">无、无聊吗？可“薛定谔的猫”，真的是一个非常流行的比喻啊？</speak>
+            <show chara="biankaHesitateClose" position="left" opacity="0.8"/>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">怎么说呢……那只是基于所谓的“故意错用”，而构筑成的一个荒诞悖论罢了。</speak>
+            <show chara="schroCalmClose" position="right"/>
+            <speak chara="_Schrodinger">唉。我倒也不是不能理解它为什么会流行。</speak>
+            <show chara="schroMemoryClose" position="right"/>
+            <speak chara="_Schrodinger">……</speak>
+            <speak chara="_Schrodinger">…………</speak>
+            <show chara="schroSmileClose" position="right"/>
+            <speak chara="_Schrodinger">算了，现在也不是什么合适的时机去给你们讲过去的故事。</speak>
+            <show chara="schroSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">过去的事情随你们怎么理解吧，现在真正重要的是解决这个世界里的问题。</speak>
+            <show chara="schroSeriousClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">（……）</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">……有件事情我只是怀疑而已：但是，告诉你们我有这种怀疑，也许是比较好的。</speak>
+            <show chara="schroTalkClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="schroSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">我怀疑类似我们现在所处的这种“世界泡”，其实是有寿命的——而且，比那些“正规”的宇宙，要短得多。</speak>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">如果事实果真如此的话，那我们就必须尽快行动了。</speak>
+            <show chara="schroCalmClose" position="right"/>
+            <speak chara="_Schrodinger">从“墙”的拥有者对外界不理不睬的态度来看……说不定，他们其实觉得外面的世界根本就可有可无。</speak>
+            <show chara="schroCalmClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">这……</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="schroSmileClose" position="right"/>
+            <speak chara="_Schrodinger">当然了，这只是一种直觉而已——既没有正面证据，也没有反面证据。</speak>
+            <show chara="schroCalmClose" position="right"/>
+            <speak chara="_Schrodinger">说不定我们还会意外发现，“墙”里面的人其实在外面的世界也无孔不入？</speak>
+            <show chara="schroCalmClose" position="right" opacity="0.8"/>
+            <bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">……哈哈哈哈！所以说啦，与其讨论这种没谱的事情，还不如关心一下外面的天气哦？</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">天气？难道要刮暴风雨了吗？</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">啊不不不，不是这种意思啦。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">我是说，我们这次的航行的目的地，可是热带地区哦？到了那里，大家总不能还穿得里三层、外三层吧？</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">不过别担心，你们的船长已经帮你们做好了准备——</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">——来一起试一试新衣服吧！</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaChayaoClose" position="right"/>
+            <speak chara="_Bianka">等等等等，你别擅自就把衣服扔过来啊？总不能就在这里换吧？还有，这衣服——</speak>
+            <show chara="biankaChayaoClose" position="right" opacity="0.8"/>
+            <show chara="shakesBagaLeftClose" position="left"/>
+            <speak chara="_Shakespeare">有什么关系？把男孩子们全都赶出去不就好了吗？</speak>
+            <show chara="shakesBagaLeftClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">别担心，比安卡大人。我会帮你遮住身体的。</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaChayaoClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">……丽塔！不是这种问题啦！！</speak>
+            <goto goto="150" clockwise="1"/>
+        </scene>
+        <scene id="150" background="black">
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <speak chara="_SomeOneTalking">喂……这、这件上衣的尺寸，真的没问题吗？</speak>
+            <speak chara="_SomeOneTalking">唉？这种款式，明明很适合比安卡大人呢……</speak>
+            <speak chara="_SomeOneTalking">……丽塔也就算了。那边那个人！你自己的新衣服，和之前根本没有多少区别吧！</speak>
+            <speak chara="_SomeOneTalking">我？我可是船长啊，区别太大的话，船员们会不习惯的吧？</speak>
+            <speak chara="_SomeOneTalking">啊，如果有时候船里实在太热的话，大家倒是都得穿着泳装来工作哦？</speak>
+            <speak chara="_SomeOneTalking">……喂！</speak>
+            <speak chara="_SomeOneTalking">事先声明，我例外。</speak>
+            <speak chara="_SomeOneTalking">废话，博士你连调节体温都不需要吧。</speak>
+            <speak chara="_SomeOneTalking">——总而言之，好身材不就是用来展示给大家看的吗？你们既然是“女武神”，不就应该试一试那些最漂亮、最可爱的衣服吗？</speak>
+            <speak chara="_SomeOneTalking">你、你这是偷换概念！而且你是对女武神有什么误——啊！丽塔！唔、唔……</speak>
+            <speak chara="_SomeOneTalking">嗯，尺寸果然没有什么问题。那么，接下来就是裙子……</speak>
+            <goto goto="160" change="#ffffff"/>
+        </scene>
+        <scene id="160" background="submarineCabinBlur.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">哇哦。这不是非常合身嘛！</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">……有、有、有吗？</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose" position="left"/>
+            <speak chara="_Rita">嗯。尤其是蝴蝶结的部分，非常可爱哦？</speak>
+            <show chara="ritaVestNaughtyClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">好，既然大家都很满意，那不如我们来一次“现场直播”吧？</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……现、现、现场直播？</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="schroCalmClose" position="left"/>
+            <speak chara="_Schrodinger">……我想她指的是无线电视频通讯吧。</speak>
+            <show chara="schroSmileClose" position="left"/>
+            <speak chara="_Schrodinger">之前她拜托我架设了喀里多尼亚号和亚历山大港之间的通信渠道——</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">——就像这样。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <text>嘟——嘟——嘟——</text>
+            <show chara="AliceSurprisedCloseE" position="left"/>
+            <speak chara="_Alice">是……薛定谔博士吗？大家现在已经航行到大西洋上了吗？</speak>
+            <show chara="AliceSurprisedCloseE" position="left" opacity="0.8"/>
+            <show chara="schroSmileClose" position="right"/>
+            <speak chara="_Schrodinger">是啊。雪莱女士在忙吗？</speak>
+            <show chara="schroSmileClose" position="right" opacity="0.8"/>
+            <show chara="AliceSmileCloseE" position="left"/>
+            <speak chara="_Alice">嗯，她在自己的书房里。需要我请她过来吗？</speak>
+            <show chara="AliceSmileCloseE" position="left" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">不必了，并没有什么重要的事情。叫吉米过来就好——</speak>
+            <show chara="shakesCasualNormalClose" position="right"/>
+            <speak chara="_Shakespeare">——让他鉴定一下我们几个人里面，谁的新衣服最可爱。</speak>
+            <show chara="shakesCasualNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">……喂！</speak>
+            <show chara="AliceSmileCloseE" position="left"/>
+            <speak chara="_Alice">……噗。好的。请稍等。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <speak chara="_Alice">……吉米！船长她们找你！</speak>
+            <goto goto="170" clockwise="1"/>
+        </scene>
+        <scene id="170" background="deepWater.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <text>相传，在公元前13世纪的某一天，在特洛伊城郊外的艾达山上，天后赫拉、智慧与战争女神雅典娜、爱神阿芙罗狄忒把一个刻有“献给最美的女神”字样的金苹果递给了王子帕里斯。</text>
+            <text>“英俊的吉米·帕里斯王子啊，请你告诉我们，谁才配得上拥有这颗硕大、华丽、价值连城的金苹果呢？”</text>
+            <text>“我是赫拉·莎士比亚，如果你把金苹果送给我，我保证你会成为这个世界上最富有的男人。”</text>
+            <text>“帕里斯大人，我是阿芙罗狄忒·洛丝薇瑟，如果你把金苹果送给我，我会保佑你和你的恋人生生世世都不分离。”</text>
+            <text>“哼，你这个发呆的傻瓜，把金苹果给我雅典娜·阿塔吉娜就对了！我会给你传授最先进的的武器和战斗技术，让你变成天下无敌的大英雄！”</text>
+            <text>——咳咳，以上都是胡扯。</text>
+            <text>毕竟，现在己经是外部世界的2012年3月5日——即使是在量子之海的某个泡沫里，女神们也不会因为争风吃醋就开始大动干戈的。</text>
+            <text>⋯⋯而当星移斗转，太阳再度从海平面上升起之时：喀里多尼亚号的船员们却要确实地被卷入一场攸关他人性命的纷争了。</text>
+            <goto goto="180" clockwise="1"/>
+        </scene>
+        <scene id="180" background="black">
+            <bgm src="01_21_1-second-of-silence.mp3" status="stop"></bgm>
+            <text remark="next">第二天，尤卡坦长纪历12.19.19.17.18，2-燧石——</text>
+            <remark post="U2FsdGVkX1+RLgYWFCb0+htv8E3C">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">严格来说，这个日期的前半部分（12.19.19.17.18）是属于长纪历的，而后半部分（2-燧石）则属于以260天为周期循环往复的“卓尔金历”（Tzolk'in，类似于干支系统）。</p>
+                <p class="article-text">玛雅人的长纪历使用一连串向前进位的数字表示日期与年代，大致上以20为基数。日数的单位称为金（k'in），而20金为1乌纳（winal或uinal），18乌纳为1盾（tun，360天，约1年），20盾为1卡盾（k'atun，约19.7年），20卡盾为1伯克盾（bak'tun，约394.3年）。而比“伯克盾”更高、但极少被使用的四个单位，则依序为皮克盾（Pictun，约7885年）、卡拉盾（Calabtun，约157703年）、金奇盾（Kinchiltun，约3154069年）及阿托盾（Alautun，约63081377年）。</p>
+                <p class="article-text">p.s. 在我们的世界里，2012年12月21日的长纪历对应数字是：13.0.0.0.0。（这让它有了所谓“世界末日”的意义。）</p>
+            </remark>
+            <goto goto="190" change="#ffffff"/>
+        </scene>
+        <scene id="190" background="mayanVillage.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="OfficerClose" position="left"/>
+            <speak chara="_OfficerNoName">我今天来做最后一次劝告。</speak>
+            <show chara="OfficerClose" position="left"/>
+            <speak chara="_OfficerNoName">如果你们这些拒绝接受教化的生番一意孤行，一定要按你们自己的野蛮方式去庆祝“新纪元”的到来——</speak>
+            <show chara="OfficerClose" position="left"/>
+            <speak chara="_OfficerNoName">那就不要怪我们不遵守神圣的节日休战戒约，用暴力的方式来强迫你们接受进步文化！</speak>
+            <show chara="OfficerClose" position="left" opacity="0.8"/>
+            <show chara="PriestAngryClose" position="right"/>
+            <speak chara="_PriestNoName">哼。你们这些联邦的妖怪，没有信仰心的家伙！</speak>
+            <show chara="PriestSeriousClose" position="right"/>
+            <speak chara="_PriestNoName">还“神圣的节日休战戒约”呢——老祖宗传下来的东西，你们怕是早已经忘光了吧？</speak>
+            <show chara="PriestSeriousClose" position="right" opacity="0.8"/>
+            <show chara="WarriorClose" position="left"/>
+            <speak chara="_WarriorNoName">休得无礼！区区蛮夷，不用心学习大祭司的思想，竟然还敢——</speak>
+            <show chara="WarriorClose" position="left" opacity="0.8"/>
+            <show chara="OfficerClose" position="right"/>
+            <speak chara="_OfficerNoName">——不必多言。</speak>
+            <show chara="OfficerClose" position="right"/>
+            <speak chara="_OfficerNoName">他们既然心意已决，那我们也只好动手。</speak>
+            <show chara="OfficerClose" position="right"/>
+            <speak chara="_OfficerNoName">就让你们的野蛮风俗被金星诸神永世诅咒吧！</speak>
+            <show chara="OfficerClose" position="right" opacity="0.8"/>
+            <show chara="WitchSeriousClose" position="left"/>
+            <speak chara="_WitchNoName">等等，请不要现在就开战，祖母大人，联邦的将军！</speak>
+            <show chara="WitchSeriousClose" position="left" opacity="0.8"/>
+            <show chara="OfficerClose" position="right"/>
+            <speak chara="_OfficerNoName">……嗯？</speak>
+            <show chara="OfficerClose" position="right" opacity="0.8"/>
+            <show chara="PriestCalmClose" position="left"/>
+            <speak chara="_PriestNoName">……傻丫头。事已至此，你以为可以用三言两语就把这些人打发回去吗？</speak>
+            <show chara="PriestCalmClose" position="left" opacity="0.8"/>
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <show chara="biankaDressDarkClose" position="right"/>
+            <speak chara="_BiankaOutsiderNoName">哼。</speak>
+            <show chara="biankaDressDarkClose" position="right" opacity="0.8"/>
+            <show chara="OfficerClose" position="left"/>
+            <speak chara="_OfficerNoName">……什么人？</speak>
+            <show chara="OfficerClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_BiankaOutsiderNoName">哼哼，不知道吧——</speak>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_BiankaOutsiderNoName">——我是专门用暴力制裁一切暴力的女武神！</speak>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_BiankaOutsiderNoName">而我的船长，现在有话要说！</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_ShakespeareOutsiderNoName">咳咳。俗话说的好，和气生财——所以各位还请息怒。</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_ShakespeareOutsiderNoName">既然天意让我们的舰队在此时登陆——</speak>
+            <speak chara="_ShakespeareOutsiderNoName">——那你们双方不如都给我一个面子，暂且罢兵休战如何？</speak>
+            <end post="U2FsdGVkX19HfLhF9LrPGSRzvmiU"/>
+        </scene>
+    </story>
+</data>

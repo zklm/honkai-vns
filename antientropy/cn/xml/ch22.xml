@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="edisonTower.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <text>约七个小时前，新泽西州·爱迪生市——</text>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace">……嗯。所以我们才来了新泽西啊。</speak>
+            <show chara="schroNormalHeadsetAhClose" position="center"/>
+            <speak chara="schroNoFace">拉里坦河湿地上的新实验室——你知道的吧？</speak>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace" remark="next">……对。正所谓“爱迪生市”“爱迪生大街”的“爱迪生实验室”。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">这是真实世界的历史。</p>
+                <p class="article-text">1875年下旬，托马斯·爱迪生（1847 ~ 1931）将自己的家搬至拉里坦镇的“门罗公园”。在这里，从1876年开设实验室到1887年迁出工厂为止，爱迪生11年间研制了400多项发明，申请了1000余项专利。</p>
+                <p class="article-text">1925年，为了表彰爱迪生，新泽西州政府在门罗公园遗址（此时，由于废弃已久，爱迪生的故居和实验室均已倒塌）树立了“托马斯·爱迪生纪念塔”。</p>
+                <p class="article-text">1954年，为了进一步纪念爱迪生，拉里坦镇被更名为“爱迪生市”。</p>
+                <p class="article-text">——时至今日，爱迪生市已经成为了世界上最适宜居住的城镇之一。</p>
+            </remark>
+            <show chara="schroNormalHeadsetAhClose" position="center"/>
+            <speak chara="schroNoFace">不管怎么说，这里离曼哈顿有五十多公里——那边的上百万市民，横竖都不会受什么影响的。</speak>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace">……</speak>
+            <speak chara="schroNoFace">……这我可拦不住她。你知道的，就算是脑内刚刚浮现出的发明，她都会迫不及待地动手求证——</speak>
+            <show chara="schroNormalHeadsetAhClose" position="center"/>
+            <speak chara="schroNoFace">更别提这类本有蓝图，只是因故没能进行下去的计划了。</speak>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace">……</speak>
+            <speak chara="schroNoFace">……是啊，这当然是最难办的事情。</speak>
+            <speak chara="schroNoFace">这从来都是最难办的事情。</speak>
+            <show chara="schroNormalHeadsetAhClose" position="center"/>
+            <speak chara="schroNoFace">不过那家伙向来是走一步看一步的吧？</speak>
+            <speak chara="schroNoFace">接下来指不定会发明一种力场装置，让所有利用崩坏能的武器统统失效哦？</speak>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace">……嗯啊。我当然是在挖苦。别的不说，她那个全年无休的工作强度，谁受得了？</speak>
+            <show chara="schroNormalHeadsetAhClose" position="center"/>
+            <speak chara="schroNoFace">不过，毕竟是任性的“公主殿下”，谁又能拦的住呢？</speak>
+            <speak chara="schroNoFace">更何况还有个芬兰人——</speak>
+            <speak chara="schroNoFace">啊，也不能这么说。换个角度看，他其实挺本分的。研究领域使然吧。</speak>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace">……</speak>
+            <speak chara="schroNoFace">……没关系啦。老师就专心去制造“惊喜”吧。从一开始，你就打算亲自出面的，对不对？</speak>
+            <show chara="schroNormalHeadsetAhClose" position="center"/>
+            <speak chara="schroNoFace">……唉？伊万？玛格丽塔？本尼迪克特？那都是谁啊？</speak>
+            <speak chara="schroNoFace">……等等，这不是“总动员”了吗？</speak>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace">……好吧，那倒也是。“快刀斩乱麻”，免得夜长梦多。</speak>
+            <show chara="schroNormalHeadsetAhClose" position="center"/>
+            <speak chara="schroNoFace">……啊？那当然喽？这还用问吗？</speak>
+            <show chara="schroNormalHeadsetEmClose" position="center"/>
+            <speak chara="schroNoFace">某人可是把房子都一直预留着，就等她们啥时候来帮忙呢。</speak>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="hospital.jpg">
+            <bgm src="04_20_tank.mp3" status="start"></bgm>
+            <text>现在——</text>
+            <sound src="05_18_gun.mp3"/>
+            <show chara="percivalNormalClose" position="left"/>
+            <speak chara="percivalNoFace">医生！我们不去帮忙吗？！</speak>
+            <show chara="percivalNormalClose" position="left" opacity="0.7"/>
+            <sound src="05_18_gun.mp3"/>
+            <show chara="morganClose" position="right"/>
+            <speak chara="morganNoFace">……赫拉，止血钳。</speak>
+            <show chara="morganClose" position="right" opacity="0.7"/>
+            <show chara="hellawesNormalClose" position="left"/>
+            <speak chara="hellawesNoFace">……给。</speak>
+            <sound src="05_18_crash.mp3"/>
+            <show chara="percivalNormalClose" position="left"/>
+            <speak chara="percivalNoFace">喂！你们两个！外面可都打起来了！</speak>
+            <show chara="percivalNormalClose" position="left" opacity="0.7"/>
+            <show chara="morganClose" position="right"/>
+            <speak chara="morganNoFace">……所以呢？</speak>
+            <show chara="morganClose" position="right" opacity="0.7"/>
+            <show chara="percivalNormalClose" position="left"/>
+            <speak chara="percivalNoFace">……呃？</speak>
+            <show chara="percivalNormalClose" position="left" opacity="0.7"/>
+            <show chara="morganClose" position="right"/>
+            <speak chara="morganNoFace">帕西瓦尔，医生誓词的第一条是什么？</speak>
+            <speak chara="morganNoFace">去年考执照的时候，你专门背过的吧？</speak>
+            <show chara="morganClose" position="right" opacity="0.7"/>
+            <show chara="percivalNormalClose" position="left"/>
+            <speak chara="percivalNoFace">唔……“我要奉献一切为人类服务”。</speak>
+            <show chara="percivalNormalClose" position="left" opacity="0.7"/>
+            <show chara="morganClose" position="right"/>
+            <speak chara="morganNoFace">第四条呢？</speak>
+            <show chara="morganClose" position="right" opacity="0.7"/>
+            <show chara="percivalNormalClose" position="left"/>
+            <speak chara="percivalNoFace">……“病人的健康应为我的首要的顾念”。</speak>
+            <show chara="percivalNormalClose" position="left" opacity="0.7"/>
+            <show chara="morganClose" position="right"/>
+            <speak chara="morganNoFace">第九条呢？</speak>
+            <show chara="morganClose" position="right" opacity="0.7"/>
+            <show chara="percivalNormalClose" position="left"/>
+            <speak chara="percivalNoFace" remark="next">……“我将要尽可能地维护人的生命”。</speak>
+            <remark post="U2FsdGVkX19IVfciYsx86aiXz8zW">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《日内瓦宣言》是“世界医学学会”指定的医生宣誓词，第一版于1948年提出（在瑞士日内瓦召开的该会议上）。其誓词全文（第一版，并非时下使用的第六版）如下——</p>
+                <br />
+                <p class="article-text">『准许我进入医业时：</p>
+                <p class="article-text">1.我郑重地保证自己要奉献一切为人类服务；</p>
+                <p class="article-text">2.我将要给我的师长以应有的崇敬及感恩；</p>
+                <p class="article-text">3.我将要凭我的良心和尊严从事医业；</p>
+                <p class="article-text">4.病人的健康应为我的首要的顾念；</p>
+                <p class="article-text">5.我将要尊重所寄托给我的秘密；</p>
+                <p class="article-text">6.我将要尽力维护医业的荣誉和高尚的传统；</p>
+                <p class="article-text">7.我将视我的同业为手足；</p>
+                <p class="article-text">8.我将不容许有任何宗教、国籍、种族、政见或地位的上的考量，横亘于我的职责和病人之间；</p>
+                <p class="article-text">9.我将要尽可能地维护所有人的生命，自从受胎时起；</p>
+                <p class="article-text">10.即使在威胁之下，我也不会运用我的医学知识去违反人道；</p>
+                <p class="article-text">——我郑重地，自主地并且以我的人格宣誓以上的约定。』</p>
+            </remark>
+            <show chara="percivalNormalClose" position="left" opacity="0.7"/>
+            <show chara="morganClose" position="right"/>
+            <speak chara="morganNoFace">如果现在不去清创缝合，病人会怎么样？</speak>
+            <show chara="morganClose" position="right" opacity="0.7"/>
+            <show chara="percivalNormalClose" position="left"/>
+            <speak chara="percivalNoFace">……</speak>
+            <speak chara="percivalNoFace">……不排除会被崩坏侵蚀。</speak>
+            <show chara="percivalNormalClose" position="left" opacity="0.7"/>
+            <show chara="morganClose" position="right"/>
+            <speak chara="morganNoFace">所以，你还有什么可说的？好好干活！</speak>
+            <speak chara="morganNoFace">……相信你隔壁的朋友们！</speak>
+            <goto goto="25" change="#ffffff"/>
+        </scene>
+        <scene id="25" background="">
+            <bgm src="04_20_tank.mp3" status="stop"></bgm>
+            <sound src="05_18_claw.mp3"/>
+            <cg src="catClaw.png"></cg>
+            <goto goto="30" change="#000000"/>
+        </scene>
+        <scene id="30" background="CG22-1.jpg">
+            <bgm src="8_24_war.mp3" status="start"></bgm>
+            <speak chara="schroCatNoFace">哼……这就是五万年前，第九律者的“地”之力量吗？</speak>
+            <speak chara="schroCatNoFace">……还真是个好东西呢，跨越世代的战利品，所谓的“神之键”。</speak>
+            <speak chara="schroCatNoFace">……竟然可以让你这样手无缚鸡之力的家伙，也能阻挡住现在的我！</speak>
+            <speak chara="einNoFace">薛定谔……</speak>
+            <speak chara="einNoFace">不……“你”……</speak>
+            <speak chara="einNoFace">……“你”为什么对“伊甸之星”知道得这么清楚？</speak>
+            <speak chara="schroCatNoFace">呵……同窗七年的爱因斯坦博士……你最想对我提出的问题，竟然是这个吗？</speak>
+            <speak chara="schroCatNoFace">不过……也好。</speak>
+            <speak chara="schroCatNoFace">某位女武神正在被我的量子分身逗得团团转呢——我们有的是时间。</speak>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="connecticutFarm.jpg">
+            <bgm src="8_24_war.mp3" status="continue"></bgm>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroSmileCatClose" position="center"/>
+            <speak chara="schroCatNoFace">从结论来讲……是你手上的“神之键”，它自己告诉我的。</speak>
+            <show chara="schroSmileCatClose" position="center" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back" opacity="0.7"/>
+            <show chara="einShockWinterEdenClose" position="right"/>
+            <speak chara="einNoFace">……？</speak>
+            <show chara="einShockWinterEdenClose" position="right" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroHaughtyCatClose" position="center"/>
+            <speak chara="schroCatNoFace">呵，准确地说，是躺在里面的，已经被“禁锢”了的“核心”。</speak>
+            <speak chara="schroCatNoFace">——“闻”过那个的“味道”，谁都能明白的吧？</speak>
+            <show chara="schroHaughtyCatClose" position="center" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back" opacity="0.7"/>
+            <show chara="einSadWinterEdenClose" position="right"/>
+            <speak chara="einNoFace">这……怎么可能……</speak>
+            <show chara="einSadWinterEdenClose" position="right" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroScornfulCatClose" position="center"/>
+            <speak chara="schroCatNoFace">我也很吃惊呢。</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroHaughtyCatClose" position="center"/>
+            <speak chara="schroCatNoFace">应该说……我现在比你们多了一种感官，它能够轻易“嗅”出由崩坏“书写”的信息。</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroSmileCatClose" position="center"/>
+            <speak chara="schroCatNoFace">所以，知道这护盾的力量属于第九律者，又有什么可奇怪的？</speak>
+            <show chara="schroSmileCatClose" position="center" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back" opacity="0.7"/>
+            <show chara="weltQuestionNewClose" position="right"/>
+            <speak chara="weltNoFace">你……你究竟还知道些什么？</speak>
+            <show chara="weltQuestionNewClose" position="right" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroExcitedCatClose" position="center"/>
+            <speak chara="schroCatNoFace">哦呀。我们的“主人公”（HERO）总算是发问了呢。</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroSmileCatClose" position="center"/>
+            <speak chara="schroCatNoFace">嗯……让我想想……</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroHaughtyCatClose" position="center"/>
+            <speak chara="schroCatNoFace">我知道纽约的情况……我知道“公主”的情况……我也大致能猜出你的情况。</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroScornfulCatClose" position="center"/>
+            <speak chara="schroCatNoFace">啊……就在刚才，我也稍稍明白了，那个女武神的情况。</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroExcitedCatClose" position="center"/>
+            <speak chara="schroCatNoFace">所以，你想从哪个开始听呢？我们世代的“律者”先生？</speak>
+            <show chara="schroExcitedCatClose" position="center" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back" opacity="0.7"/>
+            <show chara="weltNoWordsNewClose" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="einShockWinterEdenClose" position="right"/>
+            <speak chara="einNoFace">你……</speak>
+            <show chara="einShockWinterEdenClose" position="right" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroSmileCatClose" position="center"/>
+            <speak chara="schroCatNoFace">怎么……这家伙是律者，那不是显而易见的事情吗？</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroScornfulCatClose" position="center"/>
+            <speak chara="schroCatNoFace">啊……对哦。你们感受不到呢。</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroExcitedCatClose" position="center"/>
+            <speak chara="schroCatNoFace">这家伙的每一个细胞，可都在饥渴地呐喊着哦！</speak>
+            <speak chara="schroCatNoFace">“我想吞噬”……“我想吸收”……“我想重新打造一切”！</speak>
+            <show chara="weltSBDNewClose" position="right"/>
+            <speak chara="weltNoFace">不……不要胡说！</speak>
+            <show chara="weltSBDNewClose" position="right" opacity="0.7"/>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroScornfulCatClose" position="center"/>
+            <speak chara="schroCatNoFace">呵……胡说？</speak>
+            <show chara="energyballSchroBackLeftClose" position="back"/>
+            <show chara="schroExcitedCatClose" position="center"/>
+            <speak chara="schroCatNoFace">你脑子里也许理解不了——但身体，却早已经饥渴难耐了吧！</speak>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="CG22-1-2.jpg">
+            <bgm src="8_24_war.mp3" status="continue"></bgm>
+            <speak chara="einNoFace">快住手！</speak>
+            <speak chara="einNoFace">这样下去，事情会不受控制的！</speak>
+            <speak chara="schroCatNoFace">……不受控制？</speak>
+            <speak chara="schroCatNoFace">哈哈哈哈，这不也挺好吗？</speak>
+            <speak chara="schroCatNoFace">……如果还想让事情走回你所设计的“正轨”，那就让瓦尔特自己站出来！</speak>
+            <speak chara="einNoFace">不可能！</speak>
+            <speak chara="einNoFace">我不会让你伤害他的！</speak>
+            <speak chara="schroCatNoFace">哼——</speak>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="CG22-1-3.jpg">
+            <bgm src="8_24_war.mp3" status="stop"></bgm>
+            <sound src="05_18_smash.mp3"/>
+            <speak chara="schroCatNoFace">——那就先毁掉你这面盾牌吧！</speak>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="darkEnergy.jpg">
+            <bgm src="03_15_ruinBerlin.mp3" status="start"></bgm>
+            <show chara="energyBallSchroBackClose-up" position="back"/>
+            <show chara="schroScornfulCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">呵……</speak>
+            <show chara="schroExcitedCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">听好了，躲在女孩子后面的小白脸。</speak>
+            <show chara="schroSmileCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">出于一些你应该不知道的原因……这个卷毛，真的会为你拼上性命。</speak>
+            <show chara="schroScornfulCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">……但是，现在这样，应该也就是她的极限了。</speak>
+            <show chara="schroSmileCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">……她连我的一只手都战胜不了。</speak>
+            <show chara="schroScornfulCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">要我说啊……</speak>
+            <show chara="schroExcitedCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">“湖中圣剑”如果不在亚瑟王手里，又能有什么意义？</speak>
+            <show chara="schroHaughtyCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">……怎么，不甘心吗？</speak>
+            <show chara="schroScornfulCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">如果你想证明，你和古代记载的那些律者不同……</speak>
+            <show chara="schroExcitedCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">如果你想证明，你不会输给自己的原始本能……</speak>
+            <show chara="schroScreamCatClose-up" position="center"/>
+            <speak chara="schroCatNoFace">不……如果你想证明，你还算得上有种的男人——</speak>
+            <speak chara="schroCatNoFace">那就拿起武器，堂堂正正，从正面打败我啊！？</speak>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace">…………</speak>
+            <goto goto="80" change="#0"/>
+        </scene>
+        <scene id="80" background="nebula.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
+            <show chara="ottoShadowClose-up" position="center"/>
+            <speak chara="ottoShadowNoFace">呵呵，你可不要上钩了哦？</speak>
+            <speak chara="weltNoFace">你……你是……</speak>
+            <speak chara="ottoShadowNoFace">我是谁？这并不重要。</speak>
+            <speak chara="ottoShadowNoFace">重要的是——那可是薛定谔啊，她对你们，不可能下的去手啦。</speak>
+            <speak chara="ottoShadowNoFace">只要拖延够时间，蕾安娜也是会回来救你们的吧？</speak>
+            <speak chara="weltNoFace">你……你的意思是……</speak>
+            <show chara="karlShadowFar" position="center"/>
+            <speak chara="karlShadowNoFace">不……正面回应她吧，瓦尔特。</speak>
+            <speak chara="karlShadowNoFace">你不是一个普通人——你要相信自己的力量。</speak>
+            <speak chara="karlShadowNoFace">而且，对于薛定谔博士来说，那才是……最大的尊重。</speak>
+            <show chara="ottoShadowClose-up" position="center"/>
+            <speak chara="ottoShadowNoFace">等等……你……你是谁？</speak>
+            <show chara="girlShadowFar" position="center"/>
+            <speak chara="girlShadowNoFace">既然你发出了诱惑他的声音……</speak>
+            <show chara="peopleAShadowFar" position="left"/>
+            <speak chara="peopleAShadowNoFace">……我们，也不会再保持沉默了。</speak>
+            <show chara="peopleBShadowFar" position="right"/>
+            <speak chara="peopleBShadowNoFace">没关系的，我们不是什么坏人。</speak>
+            <show chara="peopleCShadowFar" position="center"/>
+            <speak chara="peopleCShadowNoFace">你只要不去听那个金毛小鬼的胡话，就不会堕落成复仇鬼。</speak>
+            <show chara="soldierAShadowFar" position="left"/>
+            <speak chara="soldierAShadowNoFace">你的对手，薛定谔博士，她抱有必死的信念。</speak>
+            <show chara="soldierBShadowFar" position="right"/>
+            <speak chara="soldierBShadowNoFace">明白这是为什么吗？</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="darkEnergy.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace">…………</speak>
+            <show chara="weltNoWordsNewClose" position="right"/>
+            <speak chara="weltNoFace">大……大家……在呼唤我。</speak>
+            <show chara="weltNoWordsNewClose" position="right" opacity="0.7"/>
+            <show chara="einShockWinterEdenClose" position="left"/>
+            <speak chara="einNoFace">……什么？</speak>
+            <show chara="einShockWinterEdenClose" position="left" opacity="0.7"/>
+            <show chara="weltSmileNewClose" position="right"/>
+            <speak chara="weltNoFace">爱茵……</speak>
+            <show chara="weltNervousNewClose" position="right"/>
+            <speak chara="weltNoFace">请把“伊甸之星”……</speak>
+            <speak chara="weltNoFace">……借给我，好吗？</speak>
+            <show chara="weltNervousNewClose" position="right" opacity="0.7"/>
+            <show chara="einSadWinterEdenClose" position="left"/>
+            <speak chara="einNoFace">……</speak>
+            <speak chara="einNoFace">可是……</speak>
+            <show chara="einSadWinterEdenClose" position="left" opacity="0.7"/>
+            <show chara="karlShadowClose" position="right"/>
+            <speak chara="weltKarlNoFace">你忘了吗……空间的维度，可以是无限的啊。</speak>
+            <show chara="weltNervousNewClose" position="right" opacity="0.7"/>
+            <show chara="einShockWinterEdenClose" position="left"/>
+            <speak chara="einNoFace">……！</speak>
+            <show chara="einShockWinterEdenClose" position="left" opacity="0.7"/>
+            <show chara="weltSmileNewClose" position="right"/>
+            <speak chara="weltNoFace">没关系的。</speak>
+            <show chara="weltSorryNewClose" position="right"/>
+            <speak chara="weltNoFace">确实……我的身体在渴望……渴望沐浴在这能量的洪流之下……</speak>
+            <show chara="weltNervousNewClose" position="right"/>
+            <speak chara="weltNoFace">不过……或许也拜它所赐……我现在能感受到，“大家”的力量。</speak>
+            <show chara="weltNervousNewClose" position="right" opacity="0.7"/>
+            <show chara="einShockWinterEdenClose" position="left"/>
+            <speak chara="einNoFace">……“大家”的力量？</speak>
+            <show chara="einShockWinterEdenClose" position="left" opacity="0.7"/>
+            <show chara="weltSighNewClose" position="right"/>
+            <speak chara="weltNoFace">嗯。“大家”的力量。</speak>
+            <show chara="weltAstonishNewClose" position="right"/>
+            <speak chara="weltNoFace">不仅有卡尔……更有许许多多，我们都未谋面过的，老老少少、各行各业的平凡人。</speak>
+            <show chara="weltAstonishNewClose" position="right" opacity="0.7"/>
+            <show chara="einSadWinterEdenClose" position="left"/>
+            <speak chara="einNoFace">你……</speak>
+            <show chara="einSadWinterEdenClose" position="left" opacity="0.7"/>
+            <show chara="weltSmileNewClose" position="right"/>
+            <speak chara="weltNoFace">没事的……我……还是我自己。我一直都是我自己，我也永远都会是我自己。</speak>
+            <speak chara="weltNoFace">所以……可以吧力量借给我吗？爱茵——不，爱因斯坦博士？</speak>
+            <show chara="weltSmileNewClose" position="right" opacity="0.7"/>
+            <show chara="einSadWinterEdenClose" position="left"/>
+            <speak chara="einNoFace">……</speak>
+            <show chara="einRelaxWinterEdenClose" position="left"/>
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <speak chara="einNoFace">…………</speak>
+            <speak chara="einNoFace">啊，男人，总归都是有这一天的吧。</speak>
+            <show chara="einRelaxWinterEdenClose" position="left" opacity="0.7"/>
+            <show chara="weltEmbarraNewClose" position="right"/>
+            <speak chara="weltNoFace">呃……嗯？</speak>
+            <show chara="weltEmbarraNewClose" position="right" opacity="0.7"/>
+            <show chara="einRelaxWinterEdenClose" position="left"/>
+            <speak chara="einNoFace">没什么，随便夸夸你而已。</speak>
+            <show chara="einSmileWinterClose" position="left"/>
+            <speak chara="einNoFace">（总是出人意料的我的“世界”啊……）</speak>
+            <speak chara="einNoFace">（……“瓦尔特”的命运，今天就交给你啦。）</speak>
+            <goto goto="95" change="#ffffff"/>
+        </scene>
+        <scene id="95" background="white.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <text>与此同时——</text>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="cloudSky.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <text>方圆几十公里之间，那些魅影一般的人形崩坏兽，突然全部失去了气息。</text>
+            <text>你感到自己被算计了。</text>
+            <text>很快，这令人后背发凉的预感，就成为了现实。</text>
+            <text>在你出发的起点——也就是摩根医生的诊所附近——</text>
+            <text>之前似乎被某种神秘力量所掩盖的崩坏怒涛，如同火山爆发一般，喷薄而出。</text>
+            <text>……那位天然卷博士说得对。</text>
+            <text>是你自己，太依赖于过去的经验了。</text>
+            <text>……“投鼠忌器”，你不可能在这样的距离上去进行无差别攻击。</text>
+            <text>好在，从感知到的崩坏冲击来看，那些人的底牌应该还没有打光。</text>
+            <text>……然而，事态的发展，也的确刻不容缓了。</text>
+            <goto goto="110" change="#ffffff"/>
+        </scene>
+        <scene id="110" background="connecticutFarm.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="reannaNoFace">这……这是……</speak>
+            <text>诊所的外墙已经破了一个大洞。</text>
+            <text>爱因斯坦扶着失去意识的特斯拉靠在干草垛上；满身尘土的牛仔和小黑哥，还有白大褂完全不合身的两名护士，他们神情空洞地呆立在一旁。</text>
+            <text>……在他们目光汇聚的方向，危险的能量，正在两个人之间激荡着。</text>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="CG22-2.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="schroCatNoFace">怎么了，瓦尔特？你难道已经使出吃奶的力气了吗？</speak>
+            <speak chara="weltNoFace">薛定谔博士！我们不能再继续打了！会出人命的！</speak>
+            <speak chara="schroCatNoFace">……人命？不要开玩笑了，你我之间，哪里还有什么“人”命？！</speak>
+            <speak chara="schroCatNoFace">出尔反尔的家伙！你既然接受了我的挑战，就应该明白这是生与死的对决！</speak>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="schroCatNoFace">哈哈哈哈，怎么，不说话了？</speak>
+            <speak chara="schroCatNoFace">想要为手里可能沾上我的血而后悔，你也要先觉醒那份力量才行吧！</speak>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="CG22-3.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">……不。我不是为了可能的结果而后悔。</speak>
+            <speak chara="weltNoFace">只是，体内的这些声音告诉我……</speak>
+            <speak chara="weltNoFace">你……不是敌人。</speak>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="CG22-2.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="schroCatNoFace">……哈哈哈哈！</speak>
+            <speak chara="schroCatNoFace">……说什么笑话！我可是真心要杀了你的！</speak>
+            <goto goto="150" change="0"/>
+        </scene>
+        <scene id="150" background="CG22-3.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">……不，我不反对这一点。</speak>
+            <speak chara="weltNoFace">你确实想杀死我……而且，如果你做到了，对所有人来说，那也是另一种好的结果。</speak>
+            <speak chara="weltNoFace">但即便如此……你仍然不是敌人。</speak>
+            <speak chara="weltNoFace">你只是这场决斗中，我的对手罢了。</speak>
+            <goto goto="160" change="0"/>
+        </scene>
+        <scene id="160" background="CG22-2.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="schroCatNoFace">呵……</speak>
+            <speak chara="schroCatNoFace">呵呵……</speak>
+            <speak chara="schroCatNoFace">……你究竟想说什么？</speak>
+            <speak chara="schroCatNoFace">……你又以为你自己是什么？</speak>
+            <goto goto="170" change="0"/>
+        </scene>
+        <scene id="170" background="CG22-3.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">……说实话，我现在也不是很清楚自己究竟是什么。</speak>
+            <speak chara="weltNoFace">此时此刻，我的身体里，有无数的声音在窃窃私语、大呼小叫、七嘴八舌。</speak>
+            <speak chara="weltNoFace">有声音在引诱我破坏一切；但是，还有更多的声音，在鼓励我，去为这个世界造福。</speak>
+            <speak chara="weltNoFace">我唯一能确信的是……如果我被你杀死了，那么，他们……他们遗留在世界上的最后的残渣……也将一并不复存在。</speak>
+            <speak chara="weltNoFace">所以……如果你真的要一决生死……</speak>
+            <speak chara="weltNoFace">那么，我也绝不会坐以待毙。</speak>
+            <goto goto="175" change="0"/>
+        </scene>
+        <scene id="175" background="CG22-3-1.jpg">
+            <speak chara="weltNoFace">在这场对决之后，我还要去实现，那无数声音里，最美好的几种可能性！</speak>
+            <goto goto="180" change="0"/>
+        </scene>
+        <scene id="180" background="CG22-2.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="schroCatNoFace">呵……</speak>
+            <speak chara="schroCatNoFace">哈哈哈哈哈哈哈！</speak>
+            <speak chara="schroCatNoFace">这下，终于无需多言了呢。</speak>
+            <speak chara="schroCatNoFace">放马过来吧！让我见识一下，所谓“律者”，究竟有怎样的能耐！</speak>
+            <goto goto="190" change="0"/>
+        </scene>
+        <scene id="190" background="CG22-3.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace">…………</speak>
+            <speak chara="weltNoFace">………………薛定谔博士。</speak>
+            <goto goto="200" change="#ffffff"/>
+        </scene>
+        <scene id="200" background="CG22-3-2.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">你真正的决意，我感受到了！</speak>
+            <end post="U2FsdGVkX1+fxfq7GL5Sc8Cdoiw9"/>
+        </scene>
+    </story>
+</data>	

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="westCliffWomenRoom.jpg">
+            <bgm src="12_15_1946.mp3" status="start"></bgm>
+            <text>……</text>
+            <text>今天也没有做梦。</text>
+            <text>质量很好的睡眠。</text>
+            <text>清晨的空气，带着一股海边特有的咸味。</text>
+            <text>沾满了湿气的被子，僵硬地盖在自己身上。</text>
+            <text>窗帘的背后映照出窗户方形的亮光。</text>
+            <text>的确是新的一天了。</text>
+            <text>收拾行装，驱车回伦敦，艾妲的破译结果应该就在等着我们了。</text>
+            <text>……有一种诡异的预感。</text>
+            <text>总觉得，自己和周围人的命运，都会发生巨大的改变。</text>
+            <text>那是我一度逃避面对的东西。</text>
+            <text>一度以“搁置猜测”为借口，拒绝做太多进一步的思考。</text>
+            <text>……并不是多么喜欢伦敦这座城市。</text>
+            <text>只是觉得，同一屋檐下的我们，彼此都习惯了对方的存在。</text>
+            <text>就连瓦尔特，也仿佛从很久之前开始，便是其中的一员了。</text>
+            <text>我由衷地希望，这种平静的日子，能够一直延续下去。</text>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="westCliffBeach.jpg">
+            <bgm src="12_15_1946.mp3" status="continue"></bgm>
+            <text remark="next">“我们认为下面这些真理是不言而喻的：造物者创造了平等的个人，并赋予他们若干不可剥夺的权利——其中包括生命权、自由权和追求幸福的权利。”</text>
+            <remark post="U2FsdGVkX1+V00C1bWCZ1mItXrxvd2HnHUK+zfphgA4=">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">此句出自《美国独立宣言》。</p>
+            </remark>
+            <text remark="next">“每个人的自由发展是一切人的自由发展的条件。”</text>
+            <remark post="U2FsdGVkX19DUpbEWgHXgh+oWXOF9WuI5jO6G9PaEd0=">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">此句出自《共产党宣言》。</p>
+                <p class="article-text">全句为：“代替那存在着阶级和阶级对立的资产阶级旧社会的，将是这样一个联合体，在那里，每个人的自由发展是一切人的自由发展的条件。”</p>
+            </remark>
+            <text>然而，天命这样的军事组织，很容易就会倾向于践踏生命权以外的一切。</text>
+            <text>在生死攸关的时刻，这也的确是无可奈何的事情。</text>
+            <text>但是，对一种权利的片面强调，往往也会殃及这种权利自身。</text>
+            <text>如果一个军事组织，它根本性的“法理”因为这种反噬而遭到颠覆——</text>
+            <text>——那么它就会逐渐化为，与从前它消灭的敌人，同样可鄙的存在。</text>
+            <text>无论它的领袖，是文治武功的乔治三世、拿破仑一世；还是昏聩无能的查理一世、路易十六。</text>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="westCliff.jpg">
+            <bgm src="12_15_1946.mp3" status="continue"></bgm>
+            <text>那个人，“H.A.”，在影像中传达着她的见解。</text>
+            <text>她说，天命组织的理想，从根本上就有问题。</text>
+            <text>如果这个“天命”，真的也和历史上的诸多帝国一样——</text>
+            <text>最终，被证明是一个，由少数人的欲望凝结而成的怪胎……</text>
+            <text>作为一个有良知的人，自己就必须站到它的对立面去。</text>
+            <text>但是……</text>
+            <text>那个对立面，似乎是更加赤裸裸的、由复仇之火驱动着的引擎。</text>
+            <text>南希公主……</text>
+            <text>不。</text>
+            <text>哈姆雷特。</text>
+            <text>第一次见到GE机电联合体的董事长时，她就给自己留下了这样印象。</text>
+            <text>南希·托马斯·爱迪生，一个活脱脱的、现实版的哈姆雷特。</text>
+            <text>她不是没有七情六欲。</text>
+            <text>她不是没有人之常情。</text>
+            <text>只不过，一旦涉及到具体的事物，她便强行把它们遗忘，只剩下利害取舍——</text>
+            <text>——为自己的家人，乃至为了整个人类，亲手向崩坏复仇。</text>
+            <text>为此，她会不惜排除掉任何“障碍物”。</text>
+            <text>不达目的，誓不罢休。</text>
+            <text>自己本身、自己的公司、自己的国家、天命这个组织……对她来说，都不过是实现目标的筹码而已。</text>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="westCliffWomenRoom.jpg">
+            <bgm src="12_15_1946.mp3" status="continue"></bgm>
+            <text>太别扭了。</text>
+            <text>这样的人生一点儿也不快乐。</text>
+            <text>为了实现目的，她把自己异化成了实现愿望的工具。</text>
+            <text>……更不用说周围的人了。</text>
+            <text>特斯拉虽然也是个意气用事的家伙……但方向，就和她完全不同。</text>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG16-1-1.jpg">
+            <bgm src="12_15_1946.mp3" status="continue"></bgm>
+            <text>相比之下，也就可爱得多。</text>
+            <text>……</text>
+            <text>多睡一会儿吧。</text>
+            <text>今天，也许会很漫长。</text>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="CG16-1-2.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <sound src="8_24_knock_door.mp3"/>
+            <speak chara="someoneNoFace">咚咚……咚咚……</speak>
+            <goto goto="63" change="0"/>
+        </scene>
+        <scene id="63" background="CG16-1-3.jpg">
+            <bgm src="morning.mp3" status="continue"></bgm>
+            <sound src="Hah.mp3"/>
+            <speak chara="teslaNoFace">唔……几点啊……怎么就摁门铃……</speak>
+            <speak chara="teslaNoFace">鸡窝头……你去开一下……</speak>
+            <speak chara="teslaNoFace">……</speak>
+            <speak chara="teslaNoFace">……嗯？</speak>
+            <speak chara="teslaNoFace">已经起床出去了么……</speak>
+            <speak chara="teslaNoFace">又不是八十岁的老太太，起那么早干嘛啊……</speak>
+            <goto goto="66" change="0"/>
+        </scene>
+        <scene id="66" background="westCliffWomenRoom2.jpg">
+            <bgm src="morning.mp3" status="continue"></bgm>
+            <sound src="8_24_knock_door.mp3"/>
+            <speak chara="someoneNoFace">咚咚……咚咚……</speak>
+            <goto goto="68" change="0"/>
+        </scene>
+        <scene id="68" background="">
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <sound src="8_24_mess.mp3"/>
+            <speak chara="teslaNoFace">吵死啦！</speak>
+            <speak chara="teslaNoFace">让我起个床啊，你个笨蛋！</speak>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="westCliffWomenRoom2.jpg">
+            <bgm src="themeTesla.mp3" status="continue"></bgm>
+            <show chara="weltLaughNewFar" position="center"/>
+            <speak chara="someoneNoFace">早上好，特斯拉博士。</speak>
+            <speak chara="teslaNoFace">……</speak>
+            <speak chara="teslaNoFace">……你谁啊？</speak>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="">
+            <bgm src="serenity.mp3" status="start"></bgm>
+            <text>当日，早些时候——</text>
+            <speak chara="ritaNoNameNoFace">（……瓦尔特先生，请留步。）</speak>
+            <speak chara="weltNoFace">……谁？</speak>
+            <speak chara="ritaNoFace">是我，丽塔。</speak>
+            <speak chara="weltNoFace">老、老板娘？</speak>
+            <speak chara="ritaNoFace">走廊里不好说话。你先跟我来。</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="westCliffBossRoomNight.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="weltSurpriseRobeClose-up" position="right" opacity="0.7"/>
+            <show chara="ritaNormalAhClose-up" position="left"/>
+            <speak chara="ritaNoFace">虽然事出突然，让我很不好意思……</speak>
+            <speak chara="ritaNoFace">但是……</speak>
+            <show chara="ritaNormalClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseRobeClose-up" position="right"/>
+            <speak chara="weltNoFace">怎……怎么了？</speak>
+            <show chara="weltSurpriseRobeClose-up" position="right" opacity="0.7"/>
+            <show chara="ritaNormalAhClose-up" position="left"/>
+            <speak chara="ritaNoFace">您送洗的衣服还没有来得及烘干……</speak>
+            <speak chara="ritaNoFace">这里一旦停电就会持续半天左右……</speak>
+            <speak chara="ritaNoFace">所以，明天回去的时候，您可能得需要换一身衣服了……</speak>
+            <show chara="ritaNormalClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNervousRobeClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <speak chara="weltNoFace">我、我没有带多余的外套啊！</speak>
+            <speak chara="weltNoFace">那一身也是因为在沙滩上不小心沾了泥——</speak>
+            <show chara="weltNervousRobeClose-up" position="right" opacity="0.7"/>
+            <show chara="ritaSmileClose-up" position="left"/>
+            <speak chara="ritaNoFace">不要紧张，不要紧张。</speak>
+            <speak chara="ritaNoFace">这是我们工作的疏失，所以您的外套，我会想办法解决的。</speak>
+            <speak chara="ritaNoFace">我这里恰好有一套男式正装……您要不要试一试合不合身？</speak>
+            <goto goto="100" change="#ffffff"/>
+        </scene>
+        <scene id="100" background="westCliffBossRoomNight.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="weltNervousNewClose-up" position="right" opacity="0.7"/>
+            <show chara="ritaSmileClose-up" position="left"/>
+            <speak chara="ritaNoFace">啊……不错不错！果然很合适！</speak>
+            <show chara="ritaSmileClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNervousNewClose-up" position="right"/>
+            <speak chara="weltNoFace">唔……有种……量身定做的感觉呢……</speak>
+            <show chara="weltNervousNewClose-up" position="right" opacity="0.7"/>
+            <show chara="ritaSmileClose-up" position="left"/>
+            <speak chara="ritaNoFace">哈哈，我判断身材的眼光，可是很准的哦！</speak>
+            <show chara="ritaSmileLeftClose-up" position="left"/>
+            <speak chara="ritaNoFace">……啊，对了。这里有另一位客人留给你的礼物。</speak>
+            <show chara="ritaSmileLeftClose-up" position="left" opacity="0.7"/>
+            <show chara="weltQuestionNewClose-up" position="right"/>
+            <speak chara="weltNoFace">另一位客人？</speak>
+            <show chara="weltQuestionNewClose-up" position="right" opacity="0.7"/>
+            <show chara="ritaSmileLeftClose-up" position="left"/>
+            <speak chara="ritaNoFace">那个……是叫符华吧？她说自己是你的朋友。</speak>
+            <show chara="ritaSmileLeftClose-up" position="left" opacity="0.7"/>
+            <show chara="weltQuestionNewClose-up" position="right"/>
+            <speak chara="weltNoFace">符、符华？</speak>
+            <speak chara="weltNoFace">她、她怎么会……</speak>
+            <speak chara="weltNoFace">……我可以在这里拆开看看吗？</speak>
+            <show chara="weltQuestionNewClose-up" position="right" opacity="0.7"/>
+            <show chara="ritaSmileClose-up" position="left"/>
+            <speak chara="ritaNoFace">当然可以啊。</speak>
+            <show chara="ritaSmileClose-up" position="left" opacity="0.7"/>
+            <show chara="weltEmbarraNewClose-up" position="right"/>
+            <speak chara="weltNoFace">这、这花里胡哨的是……</speak>
+            <show chara="weltEmbarraNewClose-up" position="right" opacity="0.7"/>
+            <show chara="ritaSmileLeftClose-up" position="left"/>
+            <speak chara="ritaNoFace">……辣椒喷雾？</speak>
+            <show chara="ritaSmileLeftClose-up" position="left" opacity="0.7"/>
+            <show chara="weltEmbarraNewClose-up" position="right"/>
+            <speak chara="weltNoFace">啥？</speak>
+            <show chara="weltEmbarraNewClose-up" position="right" opacity="0.7"/>
+            <show chara="ritaSmileClose-up" position="left"/>
+            <speak chara="ritaNoFace">女孩子防身用的喷雾罐啦。对着脸“啾”地喷一下，能把犯罪者难受死的东西。</speak>
+            <speak chara="ritaNoFace">虽然里面的压缩气体用不了几次，但因为没有什么操作难度……</speak>
+            <speak chara="ritaNoFace">对于客人你来说，好像还蛮实用的？</speak>
+            <show chara="ritaSmileClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSBDNewClose-up" position="right"/>
+            <speak chara="weltNoFace">……一点也不实用啊！</speak>
+            <speak chara="weltNoFace">……这、这包装，怎么看都是女生的玩具吧！</speak>
+            <speak chara="weltNoFace">……说到底，她为什么觉得我会需要这种罐子啦！</speak>
+            <goto goto="110" change="#ffffff"/>
+        </scene>
+        <scene id="110" background="carMorning.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="start"></bgm>
+            <show chara="teslaSnickerGlassWinterClose-up" position="left"/>
+            <show chara="weltEmbarraNewClose-up" position="right" opacity="0.7"/>
+            <speak chara="teslaNoFace">噗哈哈哈哈哈哈哈！</speak>
+            <speak chara="teslaNoFace">辣椒喷雾！</speak>
+            <speak chara="teslaNoFace">这可怜主教，还真是被自家女武神看不起啊！</speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltQuestionNewClose-up" position="right"/>
+            <speak chara="weltNoFace">……啊，对了。</speak>
+            <speak chara="weltNoFace">仔细查看以后，礼品盒里面还有个字条——</speak>
+            <speak chara="weltNoFace" remark="next">“岸远沙平，日斜归路晚霞明。”</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">此句出自《南乡子·岸远沙平》，为五代十国时期，后蜀词人欧阳炯所作。</p>
+                <p class="article-text">全词为：“岸远沙平，日斜归路晚霞明。孔雀自怜金翠尾，临水，认得行人惊不起。”</p>
+            </remark>
+            <speak chara="weltNoFace">也不知道是什么意思。</speak>
+            <show chara="weltQuestionNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">哼。</speak>
+            <speak chara="teslaNoFace">所以你就保管好呗。</speak>
+            <speak chara="teslaNoFace">真遇到什么情况了，你念一句诗，人家说不定就会专程来救呢。</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNervousNewClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <show chara="einSlyWinterClose-up" position="right"/>
+            <speak chara="einNoFace">噗。特斯拉博士吃醋了呢。</speak>
+            <show chara="einSlyWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAngryGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">吃、吃你妹的醋啊！我为什么要吃醋啊！</speak>
+            <show chara="teslaAngryGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSighNewClose-up" position="right"/>
+            <speak chara="weltNoFace">那个……</speak>
+            <show chara="weltSighNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">嗯！？</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSighNewClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……我是说……</speak>
+            <speak chara="weltNoFace">那个主教的事情……就这样不管他……没问题吗？</speak>
+            <show chara="weltSighNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">……你想管的话，要怎么管啊？</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSighNewClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……倒也不是说我怎么管……</speak>
+            <show chara="weltSighNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">好啦好啦我知道你其实很不安啦。</speak>
+            <speak chara="teslaNoFace">说真的……</speak>
+            <speak chara="teslaNoFace">大不了我们全跳槽去爱迪生那边……有什么了不起的。</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltQuestionNewClose-up" position="right"/>
+            <speak chara="weltNoFace">你……你不是很讨厌她的吗？</speak>
+            <show chara="weltQuestionNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">啊。是啊。</speak>
+            <speak chara="teslaNoFace">不过那又怎样？</speak>
+            <speak chara="teslaNoFace">你觉得万一出了什么状况，我们对你见死不救，这样比较好吗？</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSighNewClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……不……不是这个意思……</speak>
+            <show chara="weltSighNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSmileGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">哼，那就闭嘴吧你。</speak>
+            <speak chara="teslaNoFace">天塌下来，那也轮不到你去撑着。</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">再说，我挺喜欢你当面呛死他的那个勇气。</speak>
+            <speak chara="teslaNoFace">鸡窝头也一样吧？</speak>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="adaRoom.jpg">
+            <bgm src="10_25_ada.mp3" status="start"></bgm>
+            <text>当日，晚些时候——</text>
+            <show chara="adaSmileAhFar" position="center"/>
+            <speak chara="adaNoFace">各位，魂钢内的加密信息已经破译完毕。</speak>
+            <speak chara="adaNoFace">内容共计两件：一串文字，以及另一段视频。</speak>
+            <show chara="adaSmileFar" position="center"/>
+            <speak chara="adaNoFace">我先从文字开始介绍，可以吗？</speak>
+            <show chara="adaSpot" position="center"/>
+            <text>如往常一样，艾妲将文字直接投影在空中。</text>
+            <text>是英文——</text>
+            <text article="1">
+                <p class="article-text">"Follow the Freedom Trail, then visit Lexington in the midnight."</p>
+            </text>
+            <goto goto="130" change="#ffffff"/>
+        </scene>
+        <scene id="130" background="adaRoomRVS.jpg">
+            <bgm src="10_25_ada.mp3" status="continue"></bgm>
+            <show chara="weltQuestionNewFar" position="left"/>
+            <show chara="teslaNormalGlassWinterFar" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace" remark="next">沿着自由之路前行，然后在午夜造访列克星敦……</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">自由之路是一条由红色地砖（自1951年起）标出的线路，串联起了波士顿市中心的十六处独立战争时期的历史古迹。</p>
+            </remark>
+            <speak chara="weltNoFace">这是指……波士顿的景观吗？</speak>
+            <show chara="weltQuestionNewFar" position="left" opacity="0.7"/>
+            <show chara="teslaErGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">真是的，还真要把我们在大半个地球之间来回折腾啊？</speak>
+            <show chara="teslaErGlassWinterFar" position="right" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="left"/>
+            <speak chara="einNoFace">……先看完视频吧。</speak>
+            <goto goto="140" change="#ffffff"/>
+        </scene>
+        <scene id="140" background="CG16-2.jpg">
+            <bgm src="10_25_ada.mp3" status="continue"></bgm>
+            <text>影像里的人，显然还是那个神秘的H.A.——</text>
+            <text>不过，她似乎要比录制上一段视频的时候，年长了一些。</text>
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <speak chara="haNoFace">首先，恭喜你破译成功，遥远未来的探险家们。</speak>
+            <speak chara="haNoFace">我不知道在你们的时代，往返大洋之间是一种怎样的体验。也许很轻松吧。</speak>
+            <speak chara="haNoFace">不过，即便如此，我也希望你们再花时间思考一番……</speak>
+            <speak chara="haNoFace">在寻找到最后的魂钢之后，你们，究竟要用这份资料，来做什么。</speak>
+            <speak chara="haNoFace">还记得我曾经说过的结论吗？</speak>
+            <speak chara="haNoFace">天命那种硬桥硬马的做法，是不可能战胜崩坏的。</speak>
+            <speak chara="haNoFace">在这里，我要承认……这是我的一家之言。</speak>
+            <speak chara="haNoFace">虽然，我依然认为，这个判断是正确的——</speak>
+            <speak chara="haNoFace">但我也不强求你们，一定要赞同我的观点。人无完人嘛。</speak>
+            <speak chara="haNoFace">在之前的影像中你应该见过年轻时我——</speak>
+            <speak chara="haNoFace">血气方刚、嫉恶如仇、只争朝夕。</speak>
+            <speak chara="haNoFace">我不会说自己变了——</speak>
+            <speak chara="haNoFace">但至少，在隐姓埋名的生活中，我学会了用更开放的视角，去观察这个世界。</speak>
+            <speak chara="haNoFace">不去盲目地敌视任何人，而是专注于判断力的提升。</speak>
+            <speak chara="haNoFace">我希望你们也是如此。</speak>
+            <speak chara="haNoFace">不论你们的主张为何，我都希望——</speak>
+            <speak chara="haNoFace">你们，能够聆听自己内心最深处的声音。</speak>
+            <speak chara="haNoFace">要知道，这个世界上最无可挽回的事情，就是一个人南辕北辙，虚度光阴。</speak>
+            <speak chara="haNoFace">行动不过是手段……理想才是真正的纲领。</speak>
+            <speak chara="haNoFace">正因为如此……</speak>
+            <speak chara="haNoFace">我希望你们，能够不辞辛劳，再次造访我们这个，不存在于古代史之中的国家。</speak>
+            <speak chara="haNoFace">美利坚合众国。</speak>
+            <speak chara="haNoFace">她的成立，就来自于这样的一批人——</speak>
+            <speak chara="haNoFace">他们尊重自己的内心……并勇敢地去捍卫这份正义。</speak>
+            <speak chara="haNoFace">是时候告诉你我真正的名字了。</speak>
+            <speak chara="haNoFace">我是阿默妮（Harmony）·阿耶特（Ayette）。本姓莫提耶（Motier）。</speak>
+            <speak chara="haNoFace">拉法耶特侯爵，吉尔伯特·杜·莫提耶的后人。</speak>
+            <speak chara="haNoFace">或者，你也可以用商业世界的外号来称呼我——</speak>
+            <speak chara="haNoFace">“教父”。</speak>
+            <goto goto="150" change="#ffffff"/>
+        </scene>
+        <scene id="150" background="adaRoomRVS.jpg">
+            <bgm src="10_25_ada.mp3" status="start"></bgm>
+            <show chara="weltAstonishNewFar" position="left" opacity="0.7"/>
+            <show chara="teslaAstonishGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">拉法耶特侯爵？他、他有这样的后人？</speak>
+            <show chara="teslaAstonishGlassWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltAstonishNewFar" position="left"/>
+            <speak chara="weltNoFace">那是谁？古代的什么贵族吗？</speak>
+            <show chara="weltAstonishNewFar" position="left" opacity="0.7"/>
+            <show chara="teslaShoutGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">喂！你这家伙难道不知道拉法耶特侯爵？我的天啊！</speak>
+            <show chara="teslaShoutGlassWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltAstonishNewFar" position="left"/>
+            <speak chara="weltNoFace">呃……所以说这个侯爵是谁啦……</speak>
+            <show chara="weltAstonishNewFar" position="left" opacity="0.7"/>
+            <show chara="teslaAstonishGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">18岁参加美国革命、36岁参加法国革命、72岁再次参加并领导法国革命，被誉为“两个世界的英雄”——</speak>
+            <speak chara="teslaNoFace">——这样的人你说你不知道？</speak>
+            <show chara="teslaAstonishGlassWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltNervousNewFar" position="left"/>
+            <speak chara="weltNoFace">呃……大概因为我既不是法国人也不是美国人……</speak>
+            <show chara="weltNervousNewFar" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">反正我告诉你，光是波士顿附近就有五条道路都叫做“拉法耶特大街”——想想吧。</speak>
+            <goto goto="160" change="0"/>
+        </scene>
+        <scene id="160" background="adaRoom.jpg">
+            <bgm src="themeEin.mp3" status="start"></bgm>
+            <show chara="einNormalWinterFar" position="center"/>
+            <speak chara="einNoFace">……咳咳。</speak>
+            <speak chara="einNoFace">她祖先是她祖先，她自己是她自己。</speak>
+            <speak chara="einNoFace">我们不用在意这些虚的东西。</speak>
+            <show chara="einSeriousEmWinterFar" position="center"/>
+            <speak chara="einNoFace">不过……</speak>
+            <show chara="einSeriousAhWinterFar" position="center"/>
+            <speak chara="einNoFace">归根结底，我们对于自己将要发现什么，其实还一无所知。</speak>
+            <show chara="einSeriousEmWinterFar" position="center"/>
+            <speak chara="einNoFace">但尽管如此……</speak>
+            <speak chara="einNoFace">这仍然有可能是一次，开弓没有回头箭的选择。</speak>
+            <speak chara="einNoFace">……</speak>
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <show chara="einSmileWinterFar" position="center"/>
+            <speak chara="einNoFace">特斯拉。</speak>
+            <speak chara="einNoFace">瓦尔特。</speak>
+            <show chara="einSlyWinterFar" position="center"/>
+            <speak chara="einNoFace">你们希望就此打住，将真相交付给更有权有势的家伙——</speak>
+            <show chara="einNormalWinterFar" position="center"/>
+            <speak chara="einNoFace">还是希望独立揭开，这位“教父”，煞费苦心，隐藏至今的秘密呢？</speak>
+            <end post="U2FsdGVkX1+qjQtlqkMV9tfIhNltWxNqBw9dG0VmPJ0="/>
+        </scene>
+    </story>
+</data>	
+
+
+

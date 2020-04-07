@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="deepWater.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <text>The 「Quantum Sea」 is not a real ocean.</text>
+            <text>It doesn't belong to any particular planet, nor it's composed of liquid such as water.</text>
+            <text>It's not the 「cornerstone」 of a 「single universe」 either, but the 「medium」 where many worlds of countless possibilities exist.</text>
+            <text>Its structure can't be completely described using a third or four dimensional mathematical concept——</text>
+            <text>Let's imagine for a moment many worlds, each one with their own set of dimensions and laws, being their own separated 「bubble world」——</text>
+            <text>——Following that metaphor, the 「Quantum Sea」 is an 「ocean」 that houses countless 「bubble worlds」.</text>
+            <text>...Of course, it doesn't matter if you think of it as a bathtub instead of an ocean.</text>
+            <text>「Membranes」 are formed in the 「fluctuations」 of the 「Ether」 the 「Quantum Sea」 is composed of, and said 「membranes」 may evolve into a 「bubble world」.</text>
+            <text>As we all know, a three dimensional bubble has a spherical surface that is close to being two dimensional.</text>
+            <text>When these 「bubble worlds」 are in the 「Ether Bathhub」, a choice of which of the eleven dimensions are inherited must be made.</text>
+            <text>For instance, in the 「universe」 we are familiar with humans can recognize four dimension and seven extra dimensions, each one being a constant 「membrane」.</text>
+            <text>What Bishop Otto referred to as 「Ether Anchor Point」 is the special structure or method that allows those 「membranes」 to turn into 「bubble worlds」.</text>
+            <text>When the 「analogous distance」 between two 「membranes」 is small enough, they begin to influence each other—— For example, by exchanging matter.</text>
+            <text>Speaking in general, it's easier for a substance to go from a 「relatively small membrane」 to a 「relatively big membrane」 but doing the oppossite is quite difficult——</text>
+            <text>——As such, the 「relatively small membrane」 is likely to be the one who performs changes to other bigger 「membranes」.</text>
+            <text>And finally, the special 「membrane」 called 「projection」 is born.</text>
+            <text>In this 「projection」, only analogous areas of the 「membranes」 continue to exist—— while everything else disappears completely.</text>
+            <text>For example, the 「world」 where the 「Caledonia」 exists right now is a 「projection」 made out of 「membranes」 which had analogous properties between them.</text>
+            <text>This is how Bianka and Rita were able to meet 「Captain Shakespeare」 who came from another world.</text>
+            <goto goto="20" change="#000000"/>
+        </scene>
+        <scene id="20" background="CG3-1.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <speak chara="_Bianka">...</speak>
+            <speak chara="_Bianka">.....</speak>
+            <speak chara="_Bianka">........</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="submarineCabinBlurDeep.jpg">
+            <!-- 
+                Bianka is stressed over the current situation. 
+                Rita tells her the refugees on the island have calmed down, and although the pirate crew complained a bit, they made a place for them to rest for the moment. Rita was impressed by Bianka's behavior earlier. 
+                She always makes decisions instantly and takes action without hesitation. 
+                About that, once in the orphanage a counselor told her 「By the love of God! You idiot! Would it kill you to use your head for a little bit!?」 and 「Don't trust someone so easily! Think things twice!」. 
+                Rita thinks someone who is moderately reckless is much better than someone who doesn't hesitate at all, is too indecisive, or tries to escape from all responsibility. 
+                In her own way she's praising Bianka, which bothers her because now their roles have been reversed. 
+            -->
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="biankaBiteClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">真是的！我瞎琢磨这些云里雾里的东西干什么啦！</speak>
+            <show chara="biankaSeriousClose" position="right"/>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <speak chara="_Bianka">啊……</speak>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">你原来在啊，丽塔。</speak>
+            <show chara="biankaConfidentClose" position="right" opacity="0.8"/>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">从岛上来的难民都已经安顿好了。</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">海盗们虽然满口抱怨，但还是配合地腾出了地方，供大家休息。</speak>
+            <show chara="rita17HesitateClose" position="left"/>
+            <speak chara="_Rita">……话虽如此，但至少最近的几个晚上，大多数人都没有办法在床上睡觉了。</speak>
+            <show chara="rita17HesitateClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">无妨。无论是为了搭乘交通工具的一方，还是同意了搭救别人的一方，应该都没什么好抱怨的。</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">再说，有我们的米格尔老爷爷在，气氛肯定不会糟糕到哪里去的，不是吗？</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">啊，这倒也是。</speak>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">……</speak>
+            <speak chara="_Rita">说实话，我非常佩服比安卡大人的这一点。</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">啊？你佩服我什么？</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">总是能很快速地对事情做出判断，而且执行起来也很坚决。</speak>
+            <show chara="rita17SmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">呃……</speak>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">你知道吗，以前在孤儿院里的时候，可是有辅导员这样批评我——</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">“天啊！你这个笨蛋！脑筋都不动一下的吗？！”</speak>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">还有——</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">“不要这么快就相信啊！转两下脑子再行动不好吗？！”</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">——怎么看都是缺点的事情，怎么到了你那里，就摇身一变，成了难能可贵的优点了？</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">呵呵。这并不是什么“摇身一变”呀。</speak>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">实话实说，我是觉得——适度的鲁莽，远比犹豫不决、优柔寡断、甚至为了逃避责任而不作为，要好得多。</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">……喂喂，你后面说的这些——哪里会有这么差劲的女武神啊？总不可能是你自己吧？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">噗，我只是想认真地吹捧一下比安卡大人啊。</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">吹……吹捧什么的……</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">……这样不就被你抢了先吗！</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">反了、反了、完全反了啊！</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">……反了？</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="CG3-2.jpg">
+            <bgm src="11_29_themeTesla.mp3" status="start"></bgm>
+            <speak chara="_Bianka">Here, take this... It's a gift.</speak>
+            <speak chara="_Bianka">Ummm...</speak>
+            <speak chara="_Bianka">Happy 17th birthday, adjutant-san.</speak>
+            <speak chara="_Rita">...T-Thank you very much.</speak>
+            <speak chara="_Bianka">I-I made it using a fang from the 「Leviathan」.</speak>
+            <speak chara="_Bianka">...If it is too weird, feel free to throw it away. It's not worth anything.</speak>
+            <speak chara="_Bianka">I-I planned to give it to you at night, right before going to sleep... but let me give it to you now, to serve as well as a thanks for fighting on my behalf today...</speak>
+            <speak chara="_Bianka">...T-There is no problem if I give it to you a few hours earlier, right? Right?</speak>
+            <show chara="black" position="back" opacity="0.6"/>
+            <show chara="ritaSpecialRightSquint" position="center"/>
+            <speak chara="_Rita">.....</speak>
+            <show chara="ritaSpecialRightSmile" position="center"/>
+            <speak chara="_Rita">But of course. I will cherish any present from Bianka-sama.</speak>
+            <hide position="back"></hide>
+            <hide position="center"></hide>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="submarineCabinBlurDeep.jpg">
+            <!-- 
+                Rita never mentioned when her birthday was and they've only met recently, so how did Bianka know? 
+                Bishop Otto 「sold her out」 accidentally when he was telling Bianka they were going to partner up. 
+                He said 「Rita Rossweisse, born on March 1st 1995...」. Shakespeare comes in to interrupt this precious moment. 
+                When they exchanged information she mentioned 「Europe」 is currently 「blocked」, and that it could have something to do with its ruler. 
+                The Caledonia has arrived at the perfect spot to see solid proof of what she was talking about. 
+                This place has many nicknames: 「Pillars of Hercules」, 「Mount of Tarik」, 「The World's End」. Its name is 「Gibraltar」. 
+                In just a few hours the Caledonia has traveled over 1000km despite moving at the speed of 5 knots. How is that possible? 
+            -->
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="biankaBiteClose" position="right"/>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">珍、珍藏什么的就不用啦！</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="rita17NaughtyClose" position="left"/>
+            <speak chara="_Rita">欸嘿嘿……不要害羞嘛，比安卡大人。</speak>
+            <show chara="rita17NaughtyClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">谁、谁害羞了啦！</speak>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">呃……抱歉，我、我不是故意要吼你……</speak>
+            <show chara="biancaShyClose" position="right" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">呵呵，我知道的，比安卡大人。</speak>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">不过，话说起来……</speak>
+            <speak chara="_Rita">……您为什么知道我的生日是明天……3月1日呢？</speak>
+            <speak chara="_Rita">……我好像……还没有对任何人提起过呀？</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">……哈哈哈哈，这当然是主教大人“出卖”了你啊。</speak>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">丽塔·洛丝薇瑟，1995年3月1日出生于——</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">啊。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">看起来我好像打断了什么好事的样子啊。</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">好、好事？哪、哪有什么好事……</speak>
+            <show chara="biancaShyClose" position="right" opacity="0.8"/>
+            <bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">……咳咳。</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">总之，之前介绍情况的时候和你们说过，在这个世界里，“欧洲”处于“被封锁”的状态。</speak>
+            <show chara="shakesColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">嗯，你们还说，从其他世界流落来的难民越来越多，这也很可能和“欧洲”的统治者有关。</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">没错。我当时说，之后要给你们看这种论点的“直接论据”——</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">——现在正好就到了那个最合适的观察地点。</speak>
+            <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">“赫拉克勒斯之柱”，“塔里克的山峰”，“世界的尽头”，拥有诸般称谓的弹丸之地——</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">——直布罗陀。</speak>
+            <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">……？！</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">……直布罗陀？？</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">我们出发的地方，不是说在加那利群岛和马德拉岛之间的大西洋上吗？</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">是这样啊。又没有骗你们。</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">那么，从出航到现在不过4个小时，按照你的说法，我们已经来到了上千公里以外——</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">——靠这艘古董潜艇？航速飙到100节以上？</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">打个对折再对折，25节，每小时50公里不到——恐怕也是天方夜谭吧！</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈！你们女武神，在地理交通的知识方面，难道也是专家吗？</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">的确，“喀里多尼亚号”现在只是以5节的对应马力进行潜航——一般来说，这也就相当于普通人跑步的速度吧。</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">那你怎么好意思——</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">稍安勿躁，稍安勿躁。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">The 「Caledonia」 isn't particularly fast, but what if there is a shortcut?</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">...What do you mean?</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">Do you remember what my adjutant said? That everything here is a 「projection」 of the real world.</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">However that 「projection」 isn't 100% accurate. For instance, there are no 「humans」 born in this world.</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">...Which means, it wouldn't be so strange if there was a natural phenomena that doesn't exist in the outside world, right?</speak>
+            <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">...What are you trying to say?</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">When I sailed for the first time, I discovered ultra high speed deep sea currents going into many directions. By taking advantage of them, the 「Caledonia」 can travel at high speed underwater.</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">You can think of it as this submarine being a surfboard surfing underwater.</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">Ultra high speed sea currents... Why does something like that exists?</speak>
+            <show chara="rita17NormalClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">...Beats me. It's like teaching a mere fisherman the principle behind a typhoon.</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">According to my adjutant, this is a natural phenomena unique to this world. Who knows, maybe there is a 「complex reason」 behind it.</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">In any case, the Gibraltar doesn't lie.</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">The 「Caledonia」 will soon surface—— And you'll be able to see it with your own eyes.</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="wallGibraltar.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">We're really at Gibraltar...</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">But that wall—— What's going on with that wall?</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">It's surrounding the entire coastline!</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">——To be precise, it's surrounding the entire European continent.</speak>
+            <show chara="shakesPityClose" position="left"/>
+            <speak chara="_Shakespeare">「The Wall of Asgard」... is what the people who fled to North Africa call that monstrous wall.</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">According to them, the wall appeared approximately 100 years ago. Though at first it only surrounded a ruined city.</speak>
+            <show chara="shakesPityClose" position="left"/>
+            <speak chara="_Shakespeare">But over time it started to expand, and slowly but surely new walls were formed. It crossed mountains and rivers, leaving behind inhospitable areas.</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare" remark="next">Give it a few years and it'll block the Mediterranean and Atlantic Ocean too.</speak>
+            <show chara="shakesPityClose" position="left"/>
+            <speak chara="_Shakespeare" remark="next">The Strait of Gibraltar flows faster than the English Channel... but before that huge wall it's just a matter of time until that is no longer true.</speak>
+            <remark post="U2FsdGVkX18uSb9H1ND0T3Wb7jFr">
+                <p class="article-text-h">Note：</p>
+                <p class="article-text">海峡被截断、地中海和大西洋断绝联系的事件，在地质史上真实发生过。以下内容引自《古海荒漠：科学史上大发现》一书（许靖华著，朱文焕译，生活·读书·新知三联书店、天下文化出版公司出版）：</p>
+                <br />
+                <p class="article-text">***地中海的沧桑史***</p>
+                <p class="article-text">我们设想：在2000万年前，地中海是一条联通印度洋和大西洋的宽阔海路。大约1500万年前，随着非洲和欧亚大陆的碰撞和在中东发生的造山运动，古地中海与印度洋的海路联系宣告中断。当时，古地中海与大西洋联系的通道也仅遗留下两条狭窄的海峡——西班牙南部的贝蒂克（Betic）海峡和北非的里菲（Riphian）海峡。我们在岩芯里可以清楚地看出地中海环境的逐步恶化——海水流动渐趋停滞，底栖生物不可避免地纷纷死亡，浮游种群苟延残喘，而幸免于盐度危机的耐盐种族则演化繁衍。随着两条海峡的最后封闭，这个内陆海变成了一些巨大的盐湖。盐湖不断涸竭，导致这个位于海平面以下3000公尺的中新世“死谷”底上的动植物荡然无存。直布罗陀地峡是一道孤孤单单的长堤，横亘在干涸的地中海和大西洋之间的咽喉地带，阻止了大西洋海水的侵入。500万年前的上新世初叶，这道长堤决口，破堤而入的海水汹涌奔腾，冲过缺口，形成一个巨大的瀑布。这个直布罗陀大瀑布的水流量每年约为四万立方公里，比维多利亚瀑布壮观百倍，比尼亚加拉瀑布雄浑千倍。但即使是这样大的瀑布，也需要一百多年才能把干涸的地中海重新灌满海水。这该是何等壮观的场面啊！</p>
+                <p class="article-text">在墨西拿盐度危机时期，一旦海水溢过地峡，动物也会随之蜂拥而来；而一旦溶解的离子以盐的形式沉淀下来，它们就又都死亡殆尽。但是，每一次洪水泛滥后就会建立起一代新的动物王朝。上新世初，直布罗陀海峡又窄又深，大西洋的冷海水可以畅通无阻地流入新诞生的地中海。但是，岩芯已经告诉我们，历史是会重演的。目前，直布罗陀海峡正在变浅而成为一道海槛。我们可以设想，总有一天，直布罗陀海峡又会重新变成阻隔在大西洋和地中海沙漠之间的一条地峡。</p>
+                <p class="article-text">这个故事委实过于离奇，但是雷恩、希妲和我是根据岩芯的分析资料推论出来的，可谓证据确凿。我们这个大胆的见解自然遭到许多人的怀疑。质疑者有之，批评者亦不乏其人。但是，由诘问和答辩组成的每一个回合，到头来不过是在帮助我们，在这幅拼图游戏中又翻开了一些新的拼版而已。</p>
+            </remark>
+            <show chara="lallaSighClose" position="left"/>
+            <speak chara="_Lalla">Gibraltar used to be a very important trading hub in the past, who could had imagined it would end up like this.</speak>
+            <show chara="lallaSeriousClose" position="left"/>
+            <speak chara="_Lalla">I wonder how long will Tanger, Ceuta and Tetouan will remain on the other side.</speak>
+            <show chara="shakesPityClose" position="left"/>
+            <speak chara="_Shakespeare">Tetouan is Lalla-san's hometown.</speak>
+            <show chara="shakesPityClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">May I ask something?</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">Of course.</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">That 「Wall of Asgard」... is it made of Houkai energy?</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">That seems to be the case according to my adjutant's observations.</speak>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">「The average density is approximately 1000HW per meter, touch it and you die」—— I don't understand well the terms she uses, but it sounds horrible.</speak>
+            <show chara="shakesSweatyClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">...However there hasn't been any sightings of 「Houkai Beasts」 correct?</speak>
+            <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">Houkai beast? What's that?</speak>
+            <show chara="shakesQuestionClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">The 「monsters」 Iron Mask-san mentioned earlier.</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">Do they not appear near the 「wall」?</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">No, I don't think so.</speak>
+            <show chara="shakesPityClose" position="left"/>
+            <speak chara="_Shakespeare">But that doesn't change the fact that merely touching the 「Wall of Asgard」 is fatal... the natives who refused to leave their homes and went up in smoke are proof of that.</speak>
+            <show chara="shakesPityClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">They went up in smoke...</speak>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">It appears that besides Houkai energy, there is another kind of energy at play...</speak>
+            <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesPityClose" position="left"/>
+            <speak chara="_Shakespeare">...Once I thought that if I obtained the means, I could change everything.</speak>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">I told myself everything would be fine and that fortune was on my side. Which is why——</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="CG3-3-1.jpg">
+            <bgm src="11_29_themeTesla.mp3" status="start"></bgm>
+            <speak chara="_Shakespeare">——This sword is broken.</speak>
+            <speak chara="_Bianka">Is that... a treasure sword?</speak>
+            <speak chara="_Bianka">...Doesn't look broken to me.</speak>
+            <speak chara="_Shakespeare">...That's because you haven't seen its true form yet.</speak>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="CG3-3-2.jpg">
+            <bgm src="11_29_themeTesla.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">「Good Durindana, unlucky is your plight!」</speak>
+            <speak chara="_Shakespeare">「I've need of you no more; spent is my pride!」</speak>
+            <speak chara="_Shakespeare">「We in the field have won so many fights, combating through so many regions wide」</speak>
+            <speak chara="_Shakespeare">「Beneath the sun reflecting back his rays!」</speak>
+            <speak chara="_Shakespeare">「Relics lay in your seven-colored pattern!」</speak>
+            <speak chara="_Shakespeare">「Red Courage, Orange Confidence, Gold Benevolence, Green Virtue, Cyan Vigor, Blue Reason, Purple Noble」</speak>
+            <speak chara="_Shakespeare">「You shall become the sharpest blade in the world, wielded by a brave hero worthy of you!」</speak>
+            <speak chara="_Shakespeare">「Just like your name —— Durindana, you shall be unbreakable and unrivaled.」</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="CG3-3-1.jpg">
+            <bgm src="11_29_themeTesla.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">Anyway, the sword can't be used anymore so it's all yours!</speak>
+            <speak chara="_Bianka">W-Wait a moment!</speak>
+            <speak chara="_Bianka">What do you mean you're giving me a broken sword!?</speak>
+            <speak chara="_Bianka">That name 「Durindana」... I feel like I've heard it before... And that needlessly melodramatic act of yours is too suspicious!</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="wallGibraltar.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">Well, how to say it...</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">If one were to try to forcibly draw out the power of that sword...</speak>
+            <speak chara="_Shakespeare">It would be similar to breaking some kind of contract and all the power stored in the sword would go away!</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">Don't tell me...</speak>
+            <speak chara="_Bianka">...You're about to ask for our help to restore the power of that sword, aren't you?</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">Yup. Exactly.</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">Do you actually expect me to nod and do as you say!?</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">...Well, according to what my adjutant says about 「Valkyries」, either you, or perhaps Rita, is the 「True Owner」 of this sword.</speak>
+            <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">...What do you mean by that?</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">The moment when 「Durindana」 unleashes its true power, it does a check to determine the true nature of its 「Owner」.</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">Courageous, confident, caring, virtuous, vigorous, rational and noble.</speak>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">If the seven characteristics aren't met, the power of the sword will be scattered across the world in the form of gems.</speak>
+            <show chara="shakesSweatyClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">...Sounds like a fairy tale.</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">In that case, let me tell you this——</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">We found one of the seven gems, the 「Gem of Courage」, in the Saloum River at the West of Africa, and the red color of the sword's hilt returned——</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">——Do you still believe it's a mere fairy tale after seeing this?</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">Try holding it. Let it tell you where the remaining six gems are.</speak>
+            <goto goto="120" clockwise="1"/>
+        </scene>
+        <scene id="120" background="wallGibraltar.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="back"/>
+            <show chara="swordRedClose-up" position="center"/>
+            <text>The moment she touched the sword, a strange feeling overwhelmed the girl's mind.</text>
+            <text>Surprised, she closed her eyes to shut off her vision. That way it would be easier to picture the images that came to her.</text>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="black">
+            <bgm src="seaAndSky.mp3" status="continue"></bgm>
+            <text>And she saw six different landscapes——</text>
+            <text>A flower blooming amid a blizzard.</text>
+            <text>An idol dazzling on the stage.</text>
+            <text>A mysterious city surrounded by volcanoes and snowy ridges.</text>
+            <text>A space center near the edge of a desert.</text>
+            <text>A limestone cave glowing like a jewel in a rainforest.</text>
+            <text>A desolated island with statues pointing towards the shore.</text>
+            <text>——And unrelated to those visions...</text>
+            <text>...Without proof whatsoever, the girl felt that if this sword were to awaken its true power, it would become the sharpest blade in the world.</text>
+            <text>No matter the opponent, it would cut right through it as easy as slicing a cake.</text>
+            <text>...No.</text>
+            <text>...That was not a baseless claim.</text>
+            <text>...For an instant, the girl had a taste of how an undefeated warrior in the battlefield would feel like.</text>
+            <text>But she knows very well that is not something she should grasp right now.</text>
+            <text>Her nerves tighten.</text>
+            <text>Goosebumps arise.</text>
+            <text>Cold sweat drops.</text>
+            <goto goto="140" change="#000000"/>
+        </scene>
+        <scene id="140" background="wallGibraltar.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">...I certainly saw strange 「landscapes」.</speak>
+            <speak chara="_Bianka">And felt some kind of hidden power... that I can't put into words.</speak>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">...If this sword can really awaken, there is no doubt that it will destroy that 「wall」 easily.</speak>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">But where did you get this 「Durindana」—— A weapon on the level of a 「Divine Key」?</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">I stumbled upon it.</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">...Excuse me?</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">I found it by chance.</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">An earthquake happened shortly after I met Lalla in Tetouan.</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">The sword fell off a cliff—— And I was lucky enough to be the first one to find it.</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">...Well, I can't guess what you're thinking, but just so you know the one who gave it the name 「Durindana」 wasn't me.</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">The first time I touched this seven colored sword, I saw the silhouette of a certain female knight.</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">Carrying the Carolingian Empire's coat of arms with her, she and her companions fought all over the country against monsters and other evil creatures—— And even made it to the Moon once.</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">Isn't that...</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">Yes, it matches the tale of a certain historical figure.</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">The legendary knight who served under Charles the Great—— Roland.</speak>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">The only inconsistency is... the Roland from the history I know was definitely a man. A brave, burly man full of muscles.</speak>
+            <show chara="shakesSweatyClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">...A man!?</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="shakesDisgustedClose" position="left"/>
+            <speak chara="_Shakespeare">Yes, nothing to be surprised about——</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">Ah, I see. In your history Roland was a woman, wasn't he?</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">Yes, she's quite famous as a hero who fought the Houkai—— And although she wasn't a Valkyrie herself, there is no Valkyrie who hasn't heard of her.</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">But what's the relationship between 「Durindana」 and Roland? Her sword was named 「Durandal」——</speak>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">Ah——!</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Hahaha! Did you realize it?</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">Let me ask you this, just in case——</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">Did your Roland's sword, 「Durandal」, go missing at the end of her legend?</speak>
+            <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">...Yes.</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">「Durandal」 went missing after she lost her life. I've heard rumors that it was stolen right before the war began but——</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">But that's——</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <bgm src="noise.mp3" status="start">Captain! We got a drifter on the 「Caledonia」's course!</bgm>
+            <show chara="lallaSeriousClose" position="right"/>
+            <speak chara="_Lalla">Just when things were about to get interesting——</speak>
+            <show chara="lallaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="shakesQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">——But saving lives is more important!</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">We might be getting a new crew member, people! Hahaha!</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Come with me!</speak>
+            <speak chara="_Shakespeare">大家跟我上！</speak>
+            <end post="U2FsdGVkX19LI5+XVKTLDbEhVqlH"/>
+        </scene>
+    </story>
+</data>

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="commandCenterHuaca.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>七年前——</text>
+            <show chara="DraculaThinkClose" position="left"/>
+            <speak chara="_Dracula">副部长小姐，麻烦你和大家说明一下目前的状况。</speak>
+            <show chara="DraculaThinkClose" position="left" opacity="0.8"/>
+            <show chara="thorNormalClose" position="right"/>
+            <speak chara="_Thoreau">是。</speak>
+            <show chara="thorAngryClose" position="right"/>
+            <speak chara="_Thoreau">在今天凌晨的例行自动监测中，我们在拉帕努伊岛的位置发现了崩坏能的异常汇聚。</speak>
+            <show chara="thorAngryClose" position="right"/>
+            <speak chara="_Thoreau">与此同时，我们所在的在锚点中心也出现了崩坏能的异常枯竭——我们由此推断这是一例非常罕见的“锚点毛细管堵塞”现象。</speak>
+            <show chara="thorAngryClose" position="right" opacity="0.8"/>
+            <show chara="DraculaSeriousClose" position="left"/>
+            <speak chara="_Dracula">……</speak>
+            <show chara="DraculaSeriousClose" position="left"/>
+            <speak chara="_Dracula">YUKI（幸），你怎么看？</speak>
+            <show chara="DraculaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="yukimuraTalkClose" position="right"/>
+            <speak chara="_Yukimura">这个岛本身只是一座废弃的度假村，崩坏能的聚集不至于直接造成人员伤亡。</speak>
+            <show chara="yukimuraColdClose" position="right"/>
+            <speak chara="_Yukimura">但锚点中心同时发生了崩坏能异常枯竭……这也就意味着很可能存在着一组毛细通道，它会把这个岛屿和锚点中心联通在一起。</speak>
+            <show chara="yukimuraSeriousClose" position="right"/>
+            <speak chara="_Yukimura">如果放任不管，一旦岛屿上积聚了过多的崩坏能之后突然“决堤”，那么将会对锚点中心造成毁灭性的伤害。</speak>
+            <show chara="yukimuraTalkClose" position="right"/>
+            <speak chara="_Yukimura">从最坏的角度来说，这有可能就像海啸一样危险——当然，时间还不至于紧迫到需要用分钟或小时来计算。</speak>
+            <show chara="yukimuraTalkClose" position="right" opacity="0.8"/>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">……那么，根据真田参谋长的建议，我们派出一个三百人的工程小组前往解决此事，可以吗？</speak>
+            <show chara="thorNormalClose" position="left" opacity="0.8"/>
+            <show chara="DraculaQuestionClose" position="right"/>
+            <speak chara="_Dracula">三百人？需要那么多吗？</speak>
+            <show chara="DraculaQuestionClose" position="right" opacity="0.8"/>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">从卡尔德拉港出发，乘坐工程汽船，最快也需要五天的时间才能赶到拉帕努伊岛。</speak>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">今天三个人就能够解决的崩坏能汇聚问题，五天后就需要三十人才能解决，十天后就需要三百人才能解决——这并不奇怪吧？</speak>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">考虑到调动本身需要的时间以及恶劣天气可能造成的影响，我认为准备三百人规模的团队是最为稳妥的。</speak>
+            <show chara="thorAngryClose" position="left"/>
+            <speak chara="_Thoreau">……说不定，这次行动可能会面临出乎意料的困难。</speak>
+            <show chara="thorAngryClose" position="left" opacity="0.8"/>
+            <show chara="yukimuraColdClose" position="right"/>
+            <speak chara="_Yukimura">关于这一点——各位，此事请务必让我带队负责。</speak>
+            <show chara="yukimuraColdClose" position="right" opacity="0.8"/>
+            <show chara="DraculaQuestionClose" position="left"/>
+            <speak chara="_Dracula">……为什么？</speak>
+            <show chara="DraculaThinkClose" position="left"/>
+            <speak chara="_Dracula">你是锚点防御系统的设计者之一，我们原则上不能让你亲身犯险。</speak>
+            <show chara="DraculaThinkClose" position="left" opacity="0.8"/>
+            <show chara="yukimuraSmileClose" position="right"/>
+            <speak chara="_Yukimura">正是因为我足够了解防御系统的结构和性能，才有足够的判断力来随机应变，选择正确的策略。</speak>
+            <show chara="yukimuraTalkClose" position="right"/>
+            <speak chara="_Yukimura">另外，这个世界上没有一个人有处理锚点毛细管堵塞的经验——从避免灾害扩大化的角度出发，您也应该派遣一位足够熟悉锚点、又有足够的特种兵和工程兵经验的星语者带队压阵。</speak>
+            <show chara="yukimuraSmileClose" position="right"/>
+            <speak chara="_Yukimura">……而且，这也正是我报答各位平日里关照的一个好机会呀。</speak>
+            <show chara="yukimuraSmileClose" position="right" opacity="0.8"/>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">……</speak>
+            <show chara="thorNormalClose" position="left" opacity="0.8"/>
+            <show chara="yukimuraSmileClose" position="right"/>
+            <speak chara="_Yukimura">保险起见，司令员，我还需要你帮我借一样东西。</speak>
+            <show chara="yukimuraSmileClose" position="right" opacity="0.8"/>
+            <show chara="DraculaQuestionClose" position="left"/>
+            <speak chara="_Dracula">……？</speak>
+            <goto goto="20" clockwise="1"/>
+        </scene>
+        <scene id="20" background="moaiEasterIsland.jpg">
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="caravaColdClose" position="left"/>
+            <speak chara="_Caravaggio">真田从装备部借来了当时我们仅有的“繁盛结晶”——事后想来，也许她从一开始就做好了最坏的打算。</speak>
+            <show chara="caravaColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……所以她倒底是为什么变成现在这个样子的？</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="caravaDisgustedClose" position="left"/>
+            <speak chara="_Caravaggio">不清楚。当时的这片现场，崩坏能浓度比我们能想象到的还要高很多。</speak>
+            <show chara="caravaFocusClose" position="left"/>
+            <speak chara="_Caravaggio">我不知道她具体采取了什么措施……但是等回过神来的时候，崩坏能的浓度早已大幅降低，毛细管通向锚点深处的通路也被成功桥接了。</speak>
+            <show chara="caravaDisgustedClose" position="left"/>
+            <speak chara="_Caravaggio">而她……就这样被定格在了事发现场——当时就有大半身体结晶化了。</speak>
+            <show chara="caravaFocusClose" position="left"/>
+            <speak chara="_Caravaggio">说实话，如果没有“繁盛结晶”额外提供的生命力，任何人冲上去大概都只是送死而已。</speak>
+            <show chara="caravaSurpriseClose" position="left"/>
+            <speak chara="_Caravaggio">……你们见过冻雨吗？整棵树有时候都会被冻在冰块里。</speak>
+            <show chara="caravaFocusClose" position="left"/>
+            <speak chara="_Caravaggio">当侵入她体内的崩坏能不断结晶化的时候，我想到的就是那种天气。</speak>
+            <show chara="caravaSurpriseClose" position="left"/>
+            <speak chara="_Caravaggio">按他们的说法，星语者的身体，本身就是崩坏能的牢笼。</speak>
+            <show chara="caravaFocusClose" position="left"/>
+            <speak chara="_Caravaggio" remark="next">结晶化的崩坏能相当不容易散佚，就像硅藻土炸药相对于纯硝酸甘油一样稳定。</speak>
+            <remark post="U2FsdGVkX19F48nvbMaxcMojdPXv">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">硝酸甘油（Nitroglycerin, CHNO3(CH2NO3)2）是一种爆炸能力极强的炸药。1847年由都灵大学的化学家索布雷洛（Ascanio Sobrero）发明。</p>
+                <p class="article-text">高纯度硝酸甘油作为炸药虽然威力巨大却过于易爆（连运输途中的颠簸都可能导致其突然爆炸），这极大限制了它在实际生产与军事中的应用——直到索布雷洛的学生诺贝尔在1866年发明了用硅藻土稳定硝酸甘油的“安全炸药”（Dynamite）为止。</p>
+            </remark>
+            <show chara="caravaFocusClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">话虽如此……可你们就一直把她留在这种地方吗？</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="caravaDisgustedClose" position="left"/>
+            <speak chara="_Caravaggio">那你说怎么办？她虽然已经全身结晶化，和植物人也差不多——可毕竟还是个活人吧？</speak>
+            <show chara="caravaSurpriseClose" position="left"/>
+            <speak chara="_Caravaggio">要是她被碰一下、撞一下，哗啦啦碎成一堆破石头，那不是得不偿失了吗？</speak>
+            <show chara="caravaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHateClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressHateClose" position="right" opacity="0.8"/>
+            <show chara="caravaDisgustedClose" position="left"/>
+            <speak chara="_Caravaggio">不过七年都过去了……时至今日，这个问题早已经无所谓了。关键在于——</speak>
+            <show chara="caravaColdClose" position="left"/>
+            <speak chara="_Caravaggio">你们也好，国家也好，这个世界也好——都需要这家伙体内的那颗结晶吧？</speak>
+            <show chara="caravaColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">话是这样说……可是——</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <text>女武神的话还没有说完，土人打扮的油画家已经走到了结晶化的武士面前。</text>
+            <text>她默默举起了手中的大棒。</text>
+            <speak chara="_Bianka">喂……喂！！你要干嘛？！</speak>
+            <text>手举大棒的油画家没有任何反应。</text>
+            <text>她就像是没听到任何人说话一样，全力地将棍棒挥了下去。</text>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background=".jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">住手！</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="CG25-1.jpg">
+            <bgm src="noise.mp3" status="start"></bgm>
+            <speak chara="_Bianka">你疯了吗？！</speak>
+            <speak chara="_Bianka">这个人不是还活着吗？！</speak>
+            <speak chara="_Caravaggio">啧。</speak>
+            <speak chara="_Caravaggio">我是真的搞不懂你们这些人。</speak>
+            <speak chara="_Bianka">……啊？？</speak>
+            <speak chara="_Caravaggio">你们不是为了这颗宝石才来的吗？</speak>
+            <speak chara="_Caravaggio">现在宝石就在这家伙体内，砸碎晶体难道不是取出宝石的唯一办法吗？</speak>
+            <speak chara="_Bianka">才不是！！</speak>
+            <speak chara="_Caravaggio">好啊，如果有更好的办法，你倒是告诉我啊？！</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Caravaggio">没有的话就让开！！</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="moaiEasterIsland.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">……慢着。</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="caravaColdClose" position="right"/>
+            <speak chara="_Caravaggio">……？</speak>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">是、是有什么办法的吧，薛定谔博士！</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">有……不过那种做法也有它自身的代价。</speak>
+            <show chara="schroSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">不要紧！只要不会直接杀死这个人就好！</speak>
+            <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">……你先冷静一下。</speak>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">理论上，我们可以操纵崩坏能，让它们重新活化，离开这位“星语者”的身体。</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">——在我们获得了支配结晶的现在，这件事的确是可以做到的。</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">……那我们还等什么？</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">崩坏能不可能凭空消失。一旦它们重新活化——为了所有人的安全起见，我们不可能允许这些能量肆意扩散。</speak>
+            <show chara="schroSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">难道，你是指……</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">嗯。考虑到“幽兰黛尔”剑的性能限制，我们恐怕只能选择将这一能量转移至持剑人的体内。</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">所以，如果持剑人的崩坏能抗性无法超过“星语者”真田幸村的话——她的所作所为就会变得毫无意义。</speak>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">我自觉无法做到这一点……不过，你们是女武神。你们的崩坏能抗性究竟有多强，只有你们自己才最清楚。</speak>
+            <show chara="schroSeriousClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="right"/>
+            <speak chara="_ShigureKira">……</speak>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">…………</speak>
+            <show chara="biankaDressHateClose" position="right"/>
+            <speak chara="_Bianka">………………</speak>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">薛定谔博士，我应该没有问题。</speak>
+            <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">……这不是你头脑发热说出来的狠话吧，比安卡小姐。</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">不是。</speak>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">从前有个医生，他和我说过这样几句话——</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">“比安卡，你的崩坏能抗性会随着接触崩坏能的剂量而增长。”</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">“如果有一天你选择了成为女武神的道路，那么切记：”</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">“凡是杀不死你的，都会让你变得更强大。”</speak>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">相信我，博士。这点崩坏能杀不死我。</speak>
+            <show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
+            <show chara="schroSmileClose" position="left"/>
+            <speak chara="_Schrodinger">……</speak>
+            <show chara="ritaVestHesitateClose" position="left"/>
+            <speak chara="_Rita">比安卡大人……</speak>
+            <show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">没关系的，丽塔。</speak>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">我在阿格拉堡承受过这种级别的崩坏能辐射。一整夜。</speak>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">当时我在事后昏睡了一个多星期……</speak>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">不过这一次，我肯定不需要再休养那么久了。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="biankaDressSneerClose" position="center"/>
+            <speak chara="_Bianka">来吧，小幽。我们上。</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG25-2.jpg">
+            <bgm src="11_22_Tiger.mp3" status="start"></bgm>
+            <text>少女将双手大剑深深地插入沙质的土地上。</text>
+            <text>武士身上的崩坏能结晶逐渐溶解、消散，却又在少女的周围形成一道道可怕的激波。</text>
+            <text>少女的意志并没有因此动摇。</text>
+            <text>所谓女武神，无论天生的也好，后天改造的也罢——她们都是为了适应和操控崩坏能而被挑选出来的战士。</text>
+            <text>尽管血液近乎于沸腾、尽管意识渐渐暧昧不明——</text>
+            <text>比安卡·阿塔吉娜仍然紧握着“幽兰黛尔”的剑柄，凭借着自己的血肉之躯消解着来自崩坏的惊涛骇浪。</text>
+            <text>而在这惊涛骇浪的尽头……</text>
+            <text>久远的记忆，正如梦境般侵入现实。</text>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="CG25-3.jpg">
+            <bgm src="11_16_themeOtto.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <speak chara="_OttoDr">早上好。</speak>
+            <speak chara="_Bianka">早……早上好。</speak>
+            <speak chara="_OttoDr">怎么样？医院里的生活，还习惯吗？</speak>
+            <speak chara="_Bianka">……住院就是这样的吧。也谈不上什么习惯不习惯的。</speak>
+            <speak chara="_Bianka">啊，对了。名字和姓氏我已经选好了。就在床头的那张表格上。</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="bedSochi.jpg">
+            <bgm src="11_16_themeOtto.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <show chara="ottoDrTrickyClose" position="back"/>
+            <speak chara="_OttoDr">“比安卡·阿塔吉娜”……</speak>
+            <show chara="ottoDrNormalClose" position="back"/>
+            <speak chara="_OttoDr">恭喜你，从今天开始有自己的名字了。</speak>
+            <speak chara="_Bianka">……医生你大早上就来这里，是要安排什么测试吗？</speak>
+            <show chara="ottoDrFoolishSmileClose" position="back"/>
+            <speak chara="_OttoDr">啊，没有没有。只是过来看看你而已。</speak>
+            <speak chara="_Bianka">……你还真的是很闲啊。不是说外科医生都很容易过劳死的吗？</speak>
+            <show chara="ottoDrFoolishSmileClose" position="back"/>
+            <speak chara="_OttoDr">哈哈。大概是因为这所医院的科室恰好分得很细吧？</speak>
+            <show chara="ottoDrKindClose" position="back"/>
+            <speak chara="_OttoDr">儿童脑外科——听这个名字就知道我的病人不会很多了吧？</speak>
+            <speak chara="_Bianka">……不是太懂你们医生的事。</speak>
+            <speak chara="_Bianka">话说回来——我什么时候可以全天下床活动啊？</speak>
+            <speak chara="_Bianka">我感觉自己的身体已经没有什么不方便的地方了。</speak>
+            <show chara="ottoDrNormalClose" position="back"/>
+            <speak chara="_OttoDr">……嗯，时机正好差不多。</speak>
+            <show chara="ottoDrFoolishSmileClose" position="back"/>
+            <speak chara="_OttoDr">今天你先和我一起来散散步怎么样？没什么问题的话，明天我就让你自由活动。</speak>
+            <speak chara="_Bianka">真的吗？</speak>
+            <show chara="ottoDrKindClose" position="back"/>
+            <speak chara="_OttoDr">当然是真的。</speak>
+            <show chara="ottoDrTrickyClose" position="back"/>
+            <speak chara="_OttoDr">来——“每天一苹果，医生远离我。”</speak>
+            <show chara="ottoDrNormalClose" position="back"/>
+            <speak chara="_OttoDr">把这个苹果吃了我们就出门，怎么样？</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="beachAzores.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <show chara="ottoDrFoolishSmileClose" position="back"/>
+            <speak chara="_OttoDr" remark="next">我们所在的这个地区在古代叫做“科尔基斯”——没错，就是神话中“阿尔戈号”的目的地，美狄亚公主帮助伊阿宋王子盗取金羊毛的那个地方。</speak>
+            <remark post="U2FsdGVkX1+M8qDQSorPucbUeTiQ">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">科尔基斯（Κολχίς）位于高加索地区的黑海沿岸（分属今日的俄罗斯、格鲁吉亚、土耳其等国）；一般认为，这块狭长的滨海地带正是格鲁吉亚古老文化的起源地。</p>
+            </remark>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="ottoDrColdClose" position="back"/>
+            <speak chara="_OttoDr">唔，你对这个故事不是很熟悉啊。</speak>
+            <show chara="ottoDrKindClose" position="back"/>
+            <speak chara="_OttoDr">简单来说，就是有一位会魔法的公主爱上了远道而来的、身为船长的王子，因此帮助他偷走了自己国家的神赐之宝“金羊毛”。王子和公主在船上结为夫妇——</speak>
+            <show chara="ottoDrTalkClose" position="back"/>
+            <speak chara="_OttoDr">——但真正的故事从这里才正式开始。</speak>
+            <show chara="ottoDrColdClose" position="back"/>
+            <speak chara="_OttoDr">在“阿尔戈号”返航的途中，公主的弟弟为了夺回国宝，追踪而至。</speak>
+            <speak chara="_OttoDr">公主为了王子，毫不手软地杀死了自己的亲弟弟。</speak>
+            <speak chara="_OttoDr">王子带着金羊毛荣归故里，可有言在先、“成功后就归还王位”的篡位者却并不愿意就此让位。</speak>
+            <speak chara="_OttoDr">公主于是施展她擅长的魔法，成功将篡位者骗进“返老还童的魔法锅”，让他被开水活活烫死。</speak>
+            <show chara="ottoDrTalkClose" position="back"/>
+            <speak chara="_OttoDr">可是，公主明明为王子做了如此多的、其他人根本没法做到的事，王子却反而心怀恐惧地离她而去了。</speak>
+            <show chara="ottoDrColdClose" position="back"/>
+            <speak chara="_OttoDr">因为，在王子的眼中，公主的双手早已沾满了血腥，越来越像一个杀人不眨眼的魔鬼。</speak>
+            <speak chara="_OttoDr">王子其实本不期待自己的冒险能真的成功——当公主用不惜一切代价的方式为他实现这一切时，他感到的是惊恐、后怕、乃至厌恶。</speak>
+            <show chara="ottoDrTalkClose" position="back"/>
+            <speak chara="_OttoDr">可是公主又有什么错呢？</speak>
+            <show chara="ottoDrColdClose" position="back"/>
+            <speak chara="_OttoDr">名为“爱情”的毒药早已夺取了她的灵魂，她唯一的选择就是不惜一切代价去支持自己的心上人——</speak>
+            <speak chara="_OttoDr">——哪怕为此弄脏自己的双手，哪怕为此成为世界的公敌。</speak>
+            <speak chara="_OttoDr">当爱情夺取了她灵魂的那一刻……她的全部人生，就已经注定是一场悲剧。</speak>
+            <speak chara="_OttoDr">……当然，比起那些一生只能对着心上人单相思的可怜虫，她还是曾经幸福过的。</speak>
+            <show chara="ottoDrTalkClose" position="back"/>
+            <speak chara="_OttoDr">但是她终究还是亲手扼杀了这份幸福仅剩的证明——她和王子的两个孩子。</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">神话故事还真是可怕啊。不过你为什么要专门讲这样一个故事给我听？</speak>
+            <show chara="ottoDrNormalClose" position="back"/>
+            <speak chara="_OttoDr">因为你……总有一天，会在现实中见识到类似的事情吧。</speak>
+            <show chara="ottoDrColdClose" position="back"/>
+            <speak chara="_OttoDr">当那个时刻到来的时候……</speak>
+            <show chara="ottoDrTalkClose" position="back"/>
+            <speak chara="_OttoDr">……我希望你不要去同情那名公主。</speak>
+            <show chara="ottoDrColdClose" position="back"/>
+            <speak chara="_OttoDr">她的双脚早已深陷在血腥的沼泽之中——即使她自己想要调头折返，那道路也是同样令人厌倦的。</speak>
+            <speak chara="_Bianka">难道医生你……身边就有这样的人吗？</speak>
+            <show chara="ottoDrTrickyClose" position="back"/>
+            <speak chara="_OttoDr">哎呀呀，真是那样的话，这世界可就太可怕了。</speak>
+            <show chara="ottoDrKindClose" position="back"/>
+            <speak chara="_OttoDr">……比安卡。</speak>
+            <show chara="ottoDrColdClose" position="back"/>
+            <speak chara="_OttoDr">这个世界上有各种各样的人，因为各种各样的原因，会去做各种各样的坏事。</speak>
+            <show chara="ottoDrNormalClose" position="back"/>
+            <speak chara="_OttoDr">但是我希望你相信一件事——好心人，终究是要比狠心的家伙多一些的。</speak>
+            <show chara="ottoDrTalkClose" position="back"/>
+            <speak chara="_OttoDr">因为，如果不是这样……早在几百、几千、几万年前，人类应该就已经自己把自己消灭光了。</speak>
+            <speak chara="_Bianka">……</speak>
+            <hide position="back"></hide>
+            <text>金发的医生转身面向大海。</text>
+            <text>他的口中呢喃着少女不曾理解的诗篇。</text>
+            <speak chara="_OttoDr">“那里是坟墓之岛，沉默之岛；那里也有埋葬我青春的坟墓。我要把生命的常青花圈带往那里去。”</speak>
+            <speak chara="_OttoDr">“心中做出如此的决定，我就乘船渡海而去。”</speak>
+            <speak chara="_OttoDr">“你对于我，依然是一切坟墓的破坏者：只有在有着坟墓的地方，才有复活。”</speak>
+            <end post="U2FsdGVkX18XUGkE4E5zBPLImNFI"/>
+        </scene>
+    </story>
+</data>

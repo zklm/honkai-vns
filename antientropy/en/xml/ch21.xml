@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="dreamSky.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="start"></bgm>
+            <show chara="ottoShadowClose-up" position="center"/>
+            <speak chara="ottoShadowNoFace">让我讲一个故事吧。</speak>
+            <speak chara="ottoShadowNoFace">有一位希腊人的英雄……哈，其实他来自哪里并不重要。</speak>
+            <speak chara="ottoShadowNoFace">总之，他很伟大，所以人们把他从前冒险时用的船供奉了起来，当作纪念碑一样。</speak>
+            <speak chara="ottoShadowNoFace">但是时间无情，制造那艘船的木材，渐渐都腐朽不堪。</speak>
+            <speak chara="ottoShadowNoFace">为了不让这艘伟大的船最后只能当作祭品被烧掉，当地人想出了一个好方法——</speak>
+            <speak chara="ottoShadowNoFace">每年都检查一遍船上的所有部件：如果有朽烂严重的，就重做新的换掉。</speak>
+            <speak chara="ottoShadowNoFace">于是，一百年后，当一位哲学家前来参观的时候，船上的所有部件，都已经至少换过一次了。</speak>
+            <speak chara="ottoShadowNoFace">哲学家听说了这个情况后很沮丧，他质问当地人：“这还是原本的那艘船吗？”</speak>
+            <speak chara="ottoShadowNoFace">而当地人却满不在乎的回答——</speak>
+            <speak chara="ottoShadowNoFace">“如果您说不是的话，哲学家先生，您觉得它从什么时候开始不是的呢？”</speak>
+            <speak chara="ottoShadowNoFace">“您要知道，即使是在大英雄冒险的途中，船只也是需要时不时更换部件的呀。”</speak>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="benchClinic.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <speak chara="reannaNoNameNoFace">……</speak>
+            <text>梦醒了。</text>
+            <text>不知为何，你坐在一间诊所的长椅上。</text>
+            <text>啊……</text>
+            <text>……想起来了，是那个红发的牛仔带你们来的。</text>
+            <text>因为你救了她的命。</text>
+            <text>……来到这里以后，不知何时，你就坐着睡着了。</text>
+            <text>……真是丢脸。对现在的你来说，“零式”的消耗应该微不足道才对。</text>
+            <text>果然……</text>
+            <text>……是和这些人在一起，精神上太放松了吗？</text>
+            <text remark="next">好在时间并没有流逝多少，潮湿阴冷的空气里，依旧充斥着石炭酸的味道。</text>
+            <remark post="U2FsdGVkX195uGGwk19hRG2IpYlg">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">石炭酸（Carbolic acid），即苯酚（化学式：PhOH），是最简单的酚类有机物；其稀溶液是现代医学中最早投入使用的消毒药剂。苯酚是一种不安全的消毒剂，它的浓溶液对皮肤具有极强的渗透、腐蚀能力，且毒性较强；在当代，其主要用途在于化工合成，如制造阿司匹林、酚醛树脂等。</p>
+            </remark>
+            <text>午前璀耀的日光从走廊尽头窄小的窗户倾泻而下：明暗之间强烈的对比，为这间普通的诊所，平添了一股吊诡的气息。</text>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="wallClinic.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="morganClose" position="left"/>
+            <speak chara="morganNoNameNoFace">你好。</speak>
+            <show chara="morganClose" position="left" opacity="0.7"/>
+            <show chara="reaHahArmedClose" position="right"/>
+            <speak chara="reannaNoFace">你、你好。</speak>
+            <show chara="reaHahArmedClose" position="right" opacity="0.7"/>
+            <show chara="morganClose" position="left"/>
+            <text>对方面无表情地伸出了一只手……</text>
+            <text>……似乎是打算握手的意思。</text>
+            <speak chara="morganNoNameNoFace">米卡里·摩根。这家诊所的负责人。</speak>
+            <show chara="morganClose" position="left" opacity="0.7"/>
+            <show chara="reaHahArmedClose" position="right"/>
+            <speak chara="reannaNoFace">蕾安娜·布里甘缇亚。天命的女武神。</speak>
+            <show chara="reaHahArmedClose" position="right" opacity="0.7"/>
+            <show chara="morganClose" position="left"/>
+            <speak chara="morganNoFace">你的同伴正在隔壁补充能量……需要来一点吗？高热量食品。</speak>
+            <show chara="morganClose" position="left" opacity="0.7"/>
+            <show chara="reaHahArmedClose" position="right"/>
+            <speak chara="reannaNoFace">啊，不必了。我……早饭吃得很饱，哈哈。</speak>
+            <show chara="reaHahArmedClose" position="right" opacity="0.7"/>
+            <show chara="morganClose" position="left"/>
+            <speak chara="morganNoFace">是吗……那我就自己享用喽。</speak>
+            <text>说着，她剥开一块巧克力丢进嘴里。</text>
+            <speak chara="morganNoFace">对了。</speak>
+            <speak chara="morganNoFace">感谢你及时救治了伊莱恩。那个蠢货，之前要是没有我们，估计已经死了好几回了。</speak>
+            <speak chara="morganNoFace">不过，我好奇的是——你们的“野战医疗设备”，究竟是什么东西？</speak>
+            <show chara="morganClose" position="left" opacity="0.7"/>
+            <show chara="reaHahArmedClose" position="right"/>
+            <speak chara="reannaNoFace">啊哈哈……这个嘛……</speak>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="livingroomClinic.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="einSmileWinterClose" position="left"/>
+            <speak chara="einNoFace">唔……这鱼子酱的味道真不错。面包的质感也正好。</speak>
+            <show chara="einSmileWinterClose" position="left" opacity="0.7"/>
+            <show chara="elaineSmileClose" position="right"/>
+            <speak chara="elaineNoFace">我说吧？他们总有办法搞到一些特别好吃的玩意儿。</speak>
+            <speak chara="elaineNoFace" remark="next">像是这个里海欧鳇鱼子酱啦，之前的伊斯特拉白松露啦，还有伊比利亚橡实火腿……</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">欧洲鳇（学名：Huso huso）为鲟科鳇属的鱼类，俗名“欧鳇”，亦有因其产地而称为“黑海鳇”、“里海鳇”的。欧洲鳇是世界上最大的淡水鱼品种之一，也是鲟鱼中最大、最珍贵的品种，体长可长达8米多、体重可达1吨以上。欧洲鳇（尤其是伏尔加河“入海口”阿斯特拉罕出产的）的鱼子酱，卵粒肥硕、口感柔滑、回味持久，是所有鱼子酱中最美味、最名贵的品种。</p>
+            </remark>
+            <show chara="elaineSmileClose" position="right" opacity="0.7"/>
+            <show chara="teslaSurpriseGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">什么？摩根医生这么有钱的吗？</speak>
+            <show chara="teslaSurpriseGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="elaineNormalClose" position="right"/>
+            <speak chara="elaineNoFace">唔……该说有钱呢……还是认识的人多呢……</speak>
+            <show chara="hellawesNormalClose" position="right"/>
+            <speak chara="hellawesNoNameNoFace">嗯哼……山珍海味再好，也是没法填饱肚子的吧？</speak>
+            <speak chara="hellawesNoNameNoFace">来，久等啦——香蕉巧克力蛋糕。</speak>
+            <show chara="hellawesNormalClose" position="right" opacity="0.7"/>
+            <show chara="teslaStarGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">唔哇，好香！</speak>
+            <show chara="teslaStarGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="mbembaClose" position="right"/>
+            <speak chara="mbembaNoFace">唔嗯嗯，比我妈妈烤的还香！</speak>
+            <show chara="hellawesNormalClose" position="right"/>
+            <speak chara="hellawesNoNameNoFace">那当然喽，你们当我是白穿这一身兔女郎啦。</speak>
+            <show chara="hellawesNormalClose" position="right" opacity="0.7"/>
+            <show chara="teslaEatGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">我不客气啦！</speak>
+            <show chara="teslaEatGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterClose" position="right"/>
+            <speak chara="einNoFace">噗……慢点吃，别噎着哦。</speak>
+            <show chara="einSlyWinterClose" position="right"/>
+            <speak chara="einNoFace">啊……需要我给你拍拍嗝吗？</speak>
+            <show chara="einSlyWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaBiteGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">……要你管啦！啰嗦。</speak>
+            <show chara="teslaBiteGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="hellawesNormalClose" position="right"/>
+            <speak chara="hellawesNoNameNoFace">嗯哼……她说的没错哦？即使着急赶路，那也要细嚼慢咽嘛。</speak>
+            <show chara="hellawesNormalClose" position="right" opacity="0.7"/>
+            <show chara="teslaErGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">……说起来啊，赫拉薇丝小姐，你究竟是帮摩根医生做什么的？</speak>
+            <show chara="teslaErGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="hellawesNormalClose" position="right"/>
+            <speak chara="hellawesNoFace">此时此刻的话……当然是兼职护士啦。</speak>
+            <speak chara="hellawesNoFace">别看我这副打扮——人家可是真的有执照的哦？</speak>
+            <speak chara="hellawesNoFace">平常诊所里不需要那么多人手……不过，总有例外的时候，你说是吧？</speak>
+            <show chara="elaineNormalClose" position="right"/>
+            <speak chara="elaineNoFace">从昨天半夜突然断电的时候起，摩根医生就把我们都叫来这里了——</speak>
+            <show chara="elaineSmileClose" position="right"/>
+            <speak chara="elaineNoFace">如你所见，旁边这家伙，上夜班的衣服都还没有换掉呢。</speak>
+            <show chara="elaineSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltAstonishNewClose" position="left"/>
+            <speak chara="weltNoFace">等等……所以你们本来就是一个固定的……“组织”？</speak>
+            <show chara="weltAstonishNewClose" position="left" opacity="0.7"/>
+            <show chara="hellawesNormalClose" position="right"/>
+            <speak chara="hellawesNoFace">嗯哼……说“组织”的话也有点太夸张了……</speak>
+            <speak chara="hellawesNoFace">不过确实，大家算是一个“生意团队”。</speak>
+            <speak chara="hellawesNoFace">我和帕西瓦尔负责打听消息，伊莱恩负责跑生意和放债讨债，至于摩根医生——她当然是负责动脑子啦。</speak>
+            <show chara="hellawesNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltNervousNewClose" position="left"/>
+            <speak chara="weltNoFace">呃……你们这难道是……</speak>
+            <show chara="weltNervousNewClose" position="left" opacity="0.7"/>
+            <show chara="hellawesNormalClose" position="right"/>
+            <speak chara="hellawesNoFace">嗯哼？我们可没做任何违法的事情哦？</speak>
+            <show chara="hellawesNormalClose" position="right" opacity="0.7"/>
+            <show chara="elaineSmileClose" position="right"/>
+            <speak chara="elaineNoFace">嘿嘿，你们想太多了吧？</speak>
+            <speak chara="elaineNoFace">就他们几个，哪有胆子去干提着脑袋的买卖？……唔，蛋糕吃完了耶！</speak>
+            <speak chara="elaineNoFace">小赫拉，去开那个吧！那个！“塞纳之花”！</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="backdoorClinic.jpg">
+            <bgm src="lab.mp3" status="stop"></bgm>
+            <sound src="11_3_mess lock.mp3"/>
+            <show chara="percivalNormalClose" position="right"/>
+            <speak chara="percivalNoNameNoFace">别开什么酒了！</speak>
+            <speak chara="percivalNoNameNoFace">来帮忙！</speak>
+            <bgm src="10_25_noise.mp3" status="start"></bgm>
+            <text>猛地推开诊所后门的，是一位穿着不合身“白大褂”的魁梧青年。</text>
+            <show chara="percivalNormalClose" position="right" opacity="0.7"/>
+            <show chara="hellawesNormalClose" position="left"/>
+            <speak chara="hellawesNoFace">帕西瓦尔，你——天啊，有人受伤了？</speak>
+            <show chara="hellawesNormalClose" position="left" opacity="0.7"/>
+            <show chara="percivalNormalClose" position="right"/>
+            <speak chara="percivalNoFace">还愣着做什么？快把他抬到医生那里去！救命要紧！</speak>
+            <text>魁梧青年卸下肩头的，是一名浑身鲜血、奄奄一息的西装男子。</text>
+            <text>男子的后背上有数道条状的伤口——从衣服被撕裂的程度来看，应该是上深下浅。</text>
+            <show chara="percivalNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltQuestionNewClose" position="left"/>
+            <speak chara="weltNoFace">这是……野兽抓伤？</speak>
+            <show chara="weltQuestionNewClose" position="left" opacity="0.7"/>
+            <show chara="percivalNormalClose" position="right"/>
+            <speak chara="percivalNoFace">不知道！</speak>
+            <speak chara="percivalNoFace">这人就交给你们了，门口可是还倒着一个呢！</speak>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="wallClinic.jpg">
+            <bgm src="04_20_tank.mp3" status="start"></bgm>
+            <show chara="elaineNormalClose" position="right"/>
+            <speak chara="elaineNoFace">……米卡里！情况怎么样了？</speak>
+            <show chara="elaineNormalClose" position="right" opacity="0.7"/>
+            <show chara="morganClose" position="left"/>
+            <speak chara="morganNoFace">都只是皮肉伤，没啥大不了的。</speak>
+            <show chara="morganClose" position="left" opacity="0.7"/>
+            <show chara="weltAstonishNewClose" position="right"/>
+            <speak chara="weltNoFace">……唉？</speak>
+            <show chara="weltAstonishNewClose" position="right" opacity="0.7"/>
+            <show chara="morganClose" position="left"/>
+            <speak chara="morganNoFace">没有伤到大动脉和主神经，只是普通的肌肉撕裂而已。静养一两个月应该就没事了。</speak>
+            <speak chara="morganNoFace">只不过……</speak>
+            <show chara="morganClose" position="left" opacity="0.7"/>
+            <show chara="weltQuestionNewClose" position="right"/>
+            <speak chara="weltNoFace">只不过什么？</speak>
+            <show chara="weltQuestionNewClose" position="right" opacity="0.7"/>
+            <show chara="morganClose" position="left"/>
+            <speak chara="morganNoFace">……算了，让“擅长解说”的布里甘缇亚小姐和你们说明吧。我还要给他们缝针呢。</speak>
+            <hide position="left"></hide>
+            <show chara="reaHahArmedClose" position="right"/>
+            <speak chara="reannaNoFace">啊哈哈……刚才那个……确实是需要向您保密，抱歉。</speak>
+            <show chara="reaHahArmedClose" position="right" opacity="0.7"/>
+            <show chara="teslaBiteGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">啧，先别对着人家的背影道歉了。</speak>
+            <show chara="teslaEmbarraGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">蕾安娜，到底发生什么了？</speak>
+            <show chara="teslaEmbarraGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="reaSeriousArmedClose" position="right"/>
+            <speak chara="reannaNoFace">他们的伤口有崩坏能侵蚀的现象。虽然不严重，但毫无疑问，是崩坏兽所为。</speak>
+            <show chara="reaNormalArmedClose" position="right"/>
+            <speak chara="reannaNoFace">另外，伤口的撕裂方式平滑得可怕，这说明对方拥有异常快速的攻击手段，普通人很难防范。</speak>
+            <show chara="reaSeriousArmedClose" position="right"/>
+            <speak chara="reannaNoFace">所以……</speak>
+            <show chara="reaSmileArmedClose" position="right"/>
+            <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
+            <speak chara="reannaNoFace">你们留在这里帮助医生，我去把它消灭掉。</speak>
+            <show chara="reaSmileArmedClose" position="right" opacity="0.7"/>
+            <show chara="einSeriousEmWinterClose" position="left"/>
+            <speak chara="einNoFace">……没问题吗？会不会有什么圈套？</speak>
+            <show chara="einSeriousEmWinterClose" position="left" opacity="0.7"/>
+            <show chara="reaEmbarraArmedClose" position="right"/>
+            <speak chara="reannaNoFace">博士，我消灭过很多崩坏兽……但它们之中，还没有哪只能够和人类，不，和哺乳动物的知性相比拟的。</speak>
+            <show chara="reaSmileArmedClose" position="right"/>
+            <speak chara="reannaNoFace">诊所刚才没有受到直接攻击——以那些家伙的行为方式而言，短时间内，这里会很安全。</speak>
+            <show chara="reaLaughArmedClose" position="right"/>
+            <speak chara="reannaNoFace">再说，如果我没有猜错的话……</speak>
+            <show chara="reaSmileArmedClose" position="right"/>
+            <speak chara="reannaNoFace">……你们手里也是有一张“王牌”的，对吗？</speak>
+            <show chara="reaSmileArmedClose" position="right" opacity="0.7"/>
+            <show chara="einFoolWinterClose" position="left"/>
+            <speak chara="einNoFace">……</speak>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="livingroomClinic.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <text>神秘地眨了眨眼之后，蕾安娜便提起黑渊白花，离开了诊所。</text>
+            <bgm src="04_20_tank.mp3" status="start"></bgm>
+            <show chara="elaineNormalClose" position="left"/>
+            <speak chara="elaineNoFace">“王牌”？她是指什么？</speak>
+            <show chara="elaineNormalClose" position="left" opacity="0.7"/>
+            <show chara="weltNervousNewClose" position="right"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <show chara="teslaErGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">这个……</speak>
+            <show chara="einSmileWinterClose" position="right"/>
+            <speak chara="einNoFace">喏。</speak>
+            <text>天然卷少女不知从何处掏出了一把银灰色的子弹，递给了红发的牛仔。</text>
+            <show chara="einSmileWinterClose" position="right" opacity="0.7"/>
+            <show chara="elaineNormalClose" position="left"/>
+            <speak chara="elaineNoFace">这是……</speak>
+            <show chara="elaineNormalClose" position="left" opacity="0.7"/>
+            <show chara="einSlyWinterClose" position="right"/>
+            <speak chara="einNoFace" remark="next">“银色子弹”。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">银色子弹（silver bullet）是一种由白银制成的火枪弹丸。在欧洲中世纪的民间传说中，银制品，如银刀、银叉等，是唯一能和狼人、女巫以及其他怪物对抗的利器。因此，在引申含义中，“银弹”也意味着强有力的、一劳永逸的、适应各种场合的“万能王牌”。</p>
+            </remark>
+            <show chara="einSlyWinterClose" position="right" opacity="0.7"/>
+            <show chara="elaineNormalClose" position="left"/>
+            <speak chara="elaineNoFace">啊？</speak>
+            <show chara="elaineNormalClose" position="left" opacity="0.7"/>
+            <show chara="einLveWinterClose" position="right"/>
+            <speak chara="einNoFace">开玩笑的，其实没有这种名字。</speak>
+            <show chara="einSmileWinterClose" position="right"/>
+            <speak chara="einNoFace" remark="next">“阿斯特拉弹”是使用这位特斯拉博士发明的合金制作的弹药。对崩坏兽的破甲效果相当不错。</speak>
+            <remark post="U2FsdGVkX18Mxo5Y1tbHXcnS6m3z">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">"Astra"（梵语: अस्त्र）是印度神话中，一类由神赐予的超自然武器的统称。</p>
+                <p class="article-text">例如，“兽主法宝”（Pashupatastra），即是湿婆（Shiva，印度神话的“破坏神”，亦是百兽之神）赐予阿周那的 "Astra"，其法力据说强到可以毁灭宇宙。</p>
+            </remark>
+            <show chara="einSmileWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaErGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">啊……对……哈哈……姑且算是有些效果吧？</speak>
+            <show chara="teslaShameGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace" remark="next">话说回来，这子弹虽然是破甲弹，却是.45规格的……你们有适合装填的家伙么？</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">.45 Auto（.45自动手枪弹），也称.45 ACP（Automatic Colt Pistol，柯尔特自动手枪），是美国多种手枪及冲锋枪所使用的弹种，其重弹头在亚音速下，能够轻易对缺乏防护的目标造成致命杀伤……</p>
+                <p class="article-text">……不过，在我们的故事中，特斯拉另辟蹊径，她利用提尔合金的自锐效应——即铀在高速旋转摩擦下能够实现液化穿刺的特殊性能，反其道而行之，发明了这一款轻型枪械也能使用的.45超音速破甲弹。</p>
+                <p class="article-text">p.s. “.45”是指其这款子弹的弹头直径约为0.45英寸。</p>
+            </remark>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="livingroomClinic.jpg">
+            <bgm src="04_20_tank.mp3" status="continue"></bgm>
+            <show chara="elaineSmileClose" position="left"/>
+            <speak chara="elaineNoFace">嘿嘿……</speak>
+            <speak chara="elaineNoFace">来！一人一台“打字机”！</speak>
+            <show chara="elaineSmileClose" position="left" opacity="0.7"/>
+            <show chara="mbembaClose" position="right"/>
+            <speak chara="mbembaNoFace" remark="next">哦哦，汤普森啊！有这家伙在手上，可就什么都不怕啦。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“芝加哥打字机”是汤普森冲锋枪的俗称，因其开火声类似打字机、又是1930年代芝加哥黑帮的标志性武器而得名。汤普森系列出众的近距离杀伤力，使其成为当时世界上最受欢迎的冲锋枪之一——仅次于苏联的“波波沙”系列。</p>
+            </remark>
+            <show chara="mbembaClose" position="right" opacity="0.7"/>
+            <show chara="weltAstonishNewClose" position="left"/>
+            <speak chara="weltNoFace">……这是冲锋枪吧？我们有那么多的弹药吗？</speak>
+            <show chara="weltAstonishNewClose" position="left" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">这个你就放心好啦！我们开过来的那辆跑车里，可是屯着满满一箱的哦？</speak>
+            <show chara="teslaShameGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltEmbarraNewClose" position="left"/>
+            <speak chara="weltNoFace">满……满满一箱？！</speak>
+            <show chara="weltEmbarraNewClose" position="left" opacity="0.7"/>
+            <show chara="teslaErGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">……怎么，你不觉得这很符合那家伙的风格吗？大量生产，然后在各种地方都预留一手？</speak>
+            <show chara="teslaErGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltAstonishNewClose" position="left"/>
+            <speak chara="weltNoFace">那家伙……？</speak>
+            <show chara="weltAstonishNewClose" position="left" opacity="0.7"/>
+            <bgm src="04_20_tank.mp3" status="stop"></bgm>
+            <show chara="teslaBoringGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">……</speak>
+            <bgm src="10_25_noise.mp3" status="start"></bgm>
+            <show chara="teslaDisgustedGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">爱迪生啦！</speak>
+            <show chara="teslaEmbarraGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaEmbarraGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltAstonishNewClose" position="left"/>
+            <speak chara="weltNoFace">呃……你、你在生南希小姐的气吗？</speak>
+            <show chara="weltAstonishNewClose" position="left" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaSmileGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">……你，今天，能不能给我少提几次这个名字，啊？</speak>
+            <show chara="teslaAngryGlassWinterClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="teslaNoFace">……想起来就超烦！</speak>
+            <show chara="teslaBiteGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">比蚊子还烦比跳蚤更烦比绿头苍蝇十万倍的烦！</speak>
+            <show chara="teslaBiteGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltSorryNewClose" position="left"/>
+            <speak chara="weltNoFace">对……对不起。</speak>
+            <show chara="weltSorryNewClose" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaBiteGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">啧。笨蛋吗你。</speak>
+            <show chara="teslaBiteGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltAstonishNewClose" position="left"/>
+            <speak chara="weltNoFace">呃……？</speak>
+            <show chara="weltAstonishNewClose" position="left" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">这不是你能“对得起”的事情。</speak>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaAstonishGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">要是那些家伙有啥三长两短，你还能给我变回来几个活蹦乱跳的不成？</speak>
+            <show chara="teslaDisgustedGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">能吗？</speak>
+            <show chara="teslaAstonishGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">你说啊，嗯？！</speak>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="backdoorClinic.jpg">
+            <bgm src="10_25_noise.mp3" status="stop"></bgm>
+            <sound src="8_24_knock_door.mp3"/>
+            <text>砰。</text>
+            <sound src="8_24_knock_door.mp3"/>
+            <text>砰砰。</text>
+            <sound src="8_24_knock_door.mp3"/>
+            <text>砰砰砰。</text>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="livingroomClinic.jpg">
+            <bgm src="10_25_noise.mp3" status="stop"></bgm>
+            <show chara="elaineNormalClose" position="right"/>
+            <speak chara="elaineNoFace">……有人敲门？</speak>
+            <show chara="elaineNormalClose" position="right" opacity="0.7"/>
+            <show chara="mbembaClose" position="left"/>
+            <speak chara="mbembaNoFace">……我去看看吧。</speak>
+            <goto goto="105" change="#ffffff"/>
+        </scene>
+        <scene id="105" background="white">
+            <bgm src="10_25_noise.mp3" status="stop"></bgm>
+            <sound src="hit man.mp3"/>
+            <speak chara="mbembaNoFace">呜哇！</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="CG21.jpg">
+            <bgm src="8_24_war.mp3" status="start"></bgm>
+            <speak chara="mbembaNoFace">做……做什么……？</speak>
+            <speak chara="schroCatNoNameNoFace">让开，杂鱼。</speak>
+            <speak chara="schroCatNoNameNoFace">我是来找后面那个小白脸的。</speak>
+            <speak chara="schroCatNoNameNoFace">……没错，说的就是你。</speak>
+            <speak chara="schroCatNoNameNoFace">……站出来，“瓦尔特”。</speak>
+            <speak chara="schroCatNoNameNoFace">……然后，去死吧。</speak>
+            <end post="U2FsdGVkX18B8yapKZq9zigEFiYZ"/>
+        </scene>
+    </story>
+</data>

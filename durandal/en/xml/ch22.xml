@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="stageHuacaCloseUp.jpg">
+            <bgm src="09_13_dannyBoy.mp3" status="start"></bgm>
+            <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">我的思念♬ 你收到了吗♪</speak>
+            <show chara="ShigureKiraSingingLyricalFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">你的发梢♬ 是仲夏夜的凉风♪</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">花瓣布满来路♪</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">旅人不知归处♪</speak>
+            <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">悸动的心灵无可平复♬</speak>
+            <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">炽热的毒药甜美如初♬</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">因为你♪ 我无比珍惜命运♬</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">因为你♪ 我努力变得勇敢♬</speak>
+            <show chara="ShigureKiraSingingLyricalFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">十年已然交错♬</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">我只愿身影不再遥远♪</speak>
+            <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">四季仍在前方♬</speak>
+            <show chara="ShigureKiraSingingLyricalFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">我只愿回忆绚烂依然♪</speak>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="stageHuaca.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">（不愧是真正的艺人……唱得好棒……）</speak>
+            <show chara="biankaDressAngryClose" position="left"/>
+            <speak chara="_Bianka">（不对不对，我明明是过来找宝石的！）</speak>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">台上的偶像小姐——能占用一点你的时间吗？</speak>
+            <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraQuestionClose" position="right"/>
+            <speak chara="_ShigureKiraNoName">你……你们是？</speak>
+            <show chara="ShigureKiraQuestionClose" position="right" opacity="0.8"/>
+            <show chara="durandalOutstretchOpen" position="left"/>
+            <speak chara="_SwordDurandalQ">美丽的小姐，请问您曾经捡到过一块金色的“爱之宝石”吗？</speak>
+            <show chara="durandalOpen" position="left"/>
+            <speak chara="_SwordDurandalQ">它可以接管使用者身体的部分机能，使它们能够做好您反复练习却又总是无法掌握的事情！</speak>
+            <show chara="durandalOutstretchStare" position="left"/>
+            <speak chara="_SwordDurandalQ">无论是写字画画，还是唱歌跳舞，全都不在话下！</speak>
+            <show chara="durandalOutstretchStare" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraQuestionClose" position="right"/>
+            <speak chara="_ShigureKiraNoName">……所以呢？</speak>
+            <show chara="ShigureKiraQuestionClose" position="right" opacity="0.8"/>
+            <show chara="durandalOutstretchOpen" position="left"/>
+            <speak chara="_SwordDurandalQ">我们希望您能够把这块宝石还给我们！</speak>
+            <show chara="durandalClose" position="left"/>
+            <speak chara="_SwordDurandalQ">我的名字是“幽兰黛尔”，从红色的“勇气宝石”到紫色的“支配宝石”，原本都是我的零部件！</speak>
+            <show chara="durandalClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraQuestionClose" position="right"/>
+            <speak chara="_ShigureKiraNoName">……然后呢？你打算收齐你的宝石去做什么吗？</speak>
+            <show chara="ShigureKiraQuestionClose" position="right" opacity="0.8"/>
+            <show chara="durandalOutstretchOpen" position="left"/>
+            <speak chara="_SwordDurandalQ">打破支配欧洲的“墙壁”，拯救这整个世界！</speak>
+            <show chara="durandalOutstretchOpen" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraAngryClose" position="right"/>
+            <speak chara="_ShigureKiraNoName">……那你知道我，超时空偶像“时雨绮罗”，又正在准备着什么吗？</speak>
+            <show chara="ShigureKiraAngryClose" position="right" opacity="0.8"/>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">准备某种唱歌的表演？对一下嘴型就好的那种？</speak>
+            <show chara="durandalWhite" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraQuestionClose" position="right"/>
+            <speak chara="_ShigureKira">……喂。</speak>
+            <show chara="ShigureKiraQuestionClose" position="right" opacity="0.8"/>
+            <show chara="durandalOpen" position="left"/>
+            <speak chara="_SwordDurandalQ">？</speak>
+            <show chara="durandalOpen" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraAngryClose" position="right"/>
+            <speak chara="_ShigureKira">……不要小看演唱会啊，你们这些无知的家伙。</speak>
+            <show chara="ShigureKiraQuestionClose" position="right"/>
+            <speak chara="_ShigureKira">后面一起来的将军们——</speak>
+            <show chara="ShigureKiraSneerClose" position="right"/>
+            <speak chara="_ShigureKira">——可以拜托你们把这些捣乱的家伙请出去吗？</speak>
+            <speak chara="_ShigureKira">现在是宝贵的准备时间，有什么事大家可以等演唱会结束再谈。</speak>
+            <show chara="ShigureKiraSneerClose" position="right" opacity="0.8"/>
+            <show chara="DraculaSmileClose" position="left"/>
+            <speak chara="_Dracula">哎呀，碰到了一个非常的有骨气的人呢。</speak>
+            <show chara="DraculaFunnyClose" position="left"/>
+            <speak chara="_Dracula">那我们还是“恭敬不如从命”，先欣赏完这场演出再说吧？</speak>
+            <show chara="DraculaFunnyClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">喂……一开始难道不是你急吼吼地推着我们过来的？</speak>
+            <show chara="biankaDressSighClose" position="right" opacity="0.8"/>
+            <show chara="DraculaLaughClose" position="left"/>
+            <speak chara="_Dracula">哈哈哈哈，你难道就不喜欢像时雨小姐这样有骨气的人吗？</speak>
+            <show chara="DraculaLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+            <show chara="DarwinEmbarrassedClose" position="left"/>
+            <speak chara="_Darwin">啊，虽说有些唐突……</speak>
+            <show chara="DarwinSmileClose" position="left"/>
+            <speak chara="_Darwin">但既然正好空出来了时间，可以麻烦各位向我们多传授一些对抗崩坏的经验吗？</speak>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">当然，我们也会相应地为大家介绍共和国的战略态势和具体军事部署。</speak>
+            <show chara="DarwinNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈，我觉得这样正好啊？反正离演唱会开始还有不少时间吧？</speak>
+            <show chara="DarwinFunnyClose" position="left"/>
+            <speak chara="_Darwin">怎么样，女武神们，方便吗？</speak>
+            <show chara="DarwinFunnyClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">唔，这方面的交流当然很有必要啦……</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">不过你们具体想了解哪方面的东西呢？组织，还是装备？或者是别的什么你们在意的领域？</speak>
+            <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+            <show chara="DarwinSmileClose" position="left"/>
+            <speak chara="_Darwin">如果方便的话，我希望你们可以从“天命”组织的历史开始讲起。</speak>
+            <show chara="DarwinFunnyClose" position="left"/>
+            <speak chara="_Darwin">这方面的资料，即便是亚历山德里亚的大图书馆，也很少能收集到呢。</speak>
+            <show chara="DarwinFunnyClose" position="left" opacity="0.8"/>
+            <show chara="champoBlanketLaughClose" position="right"/>
+            <speak chara="_Champollion">哇哦。既然如此，那么我们要求你们对等地提供一些机密信息，也没有问题吧？</speak>
+            <show chara="champoBlanketLaughClose" position="right"/>
+            <speak chara="_Champollion">——就像借给我这条漂亮的毯子来保暖一样？</speak>
+            <show chara="champoBlanketLaughClose" position="right" opacity="0.8"/>
+            <show chara="DarwinSmileClose" position="left"/>
+            <speak chara="_Darwin">哈哈，那当然没问题。毕竟我们从很久以前就期待着像你们这样的人能够到来了。</speak>
+            <show chara="DarwinSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……从很久以前？</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">是的。等我讲到相关情况的时候，您自然就明白了。</speak>
+            <goto goto="30" clockwise="1"/>
+        </scene>
+        <scene id="30" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <text>灯光。节拍。韵律。</text>
+            <text>婉转。铿锵。澎拜。</text>
+            <text>现场不愧是现场。无论是球赛、艺术展还是演唱会，“现场”总有一种魔力，能将人的感性中枢激活到最大的功率。</text>
+            <text>转播或资料固然能够提供最好的视角，却也剥夺了那种能够让观众的感性随心游走的可能性。</text>
+            <text>不知不觉，女武神和将军们停下了低声的讨论，开始全神贯注地欣赏舞台上的表演。</text>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="CG22-1.jpg">
+            <bgm src="10_10_kalinka.mp3" status="continue"></bgm>
+            <speak chara="_ShigureKira">Калинка♬ калинка♬ калинка моя♪ （雪球花 雪球花 我的雪球花）</speak>
+            <speak chara="_ShigureKira">В саду ягода малинка♬ малинка моя♪ （花园里长满红树莓 我的红树莓）</speak>
+            <speak chara="_ShigureKira">Ах♪ под сосною♬ под зеленою♬ （啊 在松树下 在绿荫下）</speak>
+            <speak chara="_ShigureKira">Спать положите вы меня♪ （助我安眠）</speak>
+            <speak chara="_ShigureKira">Ай-люли♪ люли♬ ай-люли♪ люли♬ （啊啰哩 啰哩 啊啰哩 啰哩）</speak>
+            <speak chara="_ShigureKira">Спать положите вы меня♪ （助我安眠）</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG22-2.jpg">
+            <bgm src="10_10_kalinka.mp3" status="continue"></bgm>
+            <speak chara="_ShigureKira">Калинка♬ калинка♬ калинка моя♪ （雪球花 雪球花 我的雪球花）</speak>
+            <speak chara="_ShigureKira">В саду ягода малинка♬ малинка моя♪ （花园里长满红树莓 我的红树莓）</speak>
+            <speak chara="_ShigureKira">Ах♪ сосёнушка♬ ты зеленая♬ （啊 小松树 你这绿色的家伙）</speak>
+            <speak chara="_ShigureKira">Не шуми ты надо мной♪ （请别在我头顶喧闹）</speak>
+            <speak chara="_ShigureKira">Ай-люли♪ люли♬ ай-люли♪ люли♬ （啊啰哩 啰哩 啊啰哩 啰哩）</speak>
+            <speak chara="_ShigureKira">Не шуми ты надо мной♪ （请别在我头顶喧闹）</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG22-3.jpg">
+            <bgm src="10_10_kalinka.mp3" status="continue"></bgm>
+            <speak chara="_ShigureKira">Калинка♬ калинка♬ калинка моя♪ （雪球花 雪球花 我的雪球花）</speak>
+            <speak chara="_ShigureKira">В саду ягода малинка♬ малинка моя♪ （花园里长满红树莓 我的红树莓）</speak>
+            <speak chara="_ShigureKira">Ах♪ красавица♬ душа-девица♬ （啊 美丽的人 我灵魂中的姑娘）</speak>
+            <speak chara="_ShigureKira">Полюби же ты меня♪ （你快来爱我吧）</speak>
+            <speak chara="_ShigureKira">Ай-люли♪ люли♬ ай-люли♪ люли♬ （啊啰哩 啰哩 啊啰哩 啰哩）</speak>
+            <speak chara="_ShigureKira">Полюби же ты меня♪ （你快来爱我吧）</speak>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="stageHuacaCloseUp.jpg">
+            <bgm src="10_10_kalinka.mp3" status="continue"></bgm>
+            <speak chara="_AudienceLot">绮罗，绮罗，绮罗星！</speak>
+            <speak chara="_AudienceLot">一闪，一闪，亮晶晶！</speak>
+            <show chara="ShigureKiraCuteFar" position="center"/>
+            <speak chara="_ShigureKira">谢谢大家！最喜欢你们了！</speak>
+            <goto goto="80" clockwise="1"/>
+        </scene>
+        <scene id="80" background="commandCenterHuaca.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">（那就是偶像……明星吗……）</speak>
+            <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraCuteClose" position="right"/>
+            <speak chara="_ShigureKira">怎么样？演出还不错吧？</speak>
+            <show chara="ShigureKiraCuteClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">非常棒！我感觉自己很久都没有这么痛快地听歌了！</speak>
+            <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraAngryClose" position="right"/>
+            <speak chara="_ShigureKira">所以……你们明白自己口中的“零件”，对其他人来说有多大的价值了吗？</speak>
+            <show chara="ShigureKiraAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……！</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraThinkClose" position="right"/>
+            <speak chara="_ShigureKira">我啊……以前是一个只能憧憬着舞台上的明星，自己却什么也做不到的家伙。</speak>
+            <show chara="ShigureKiraSneerClose" position="right"/>
+            <speak chara="_ShigureKira">——没办法，谁让我天生就是一个五音不全的倒霉蛋呢？</speak>
+            <show chara="ShigureKiraThinkClose" position="right"/>
+            <speak chara="_ShigureKira">唔……这么说来……好像还有人拿我的原版歌声去研制音波武器呢。</speak>
+            <show chara="ShigureKiraConfidentClose" position="right"/>
+            <speak chara="_ShigureKira">不过那都是很久以前的事情啦！</speak>
+            <show chara="ShigureKiraAngryClose" position="right"/>
+            <speak chara="_ShigureKira">现在的我，是这片土地上原汁原味的偶像。我认为你们并没有把【她】从人们的生活中夺走的权利。</speak>
+            <show chara="ShigureKiraSneerClose" position="right"/>
+            <speak chara="_ShigureKira">“宝石”我可以借给你们——但是事后你们必须再还给我。</speak>
+            <show chara="ShigureKiraQuestionClose" position="right"/>
+            <speak chara="_ShigureKira">至少现在，我还不能让这些喜欢我歌声的人们失望。</speak>
+            <show chara="ShigureKiraQuestionClose" position="right" opacity="0.8"/>
+            <show chara="DarwinFunnyClose" position="left"/>
+            <speak chara="_Darwin">……不过你还是愿意把宝石借给她们的，对吧？</speak>
+            <show chara="DarwinFunnyClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraAngryClose" position="right"/>
+            <speak chara="_ShigureKira">只要你们能向我保证，这不是一时兴起的某种冒险。</speak>
+            <show chara="ShigureKiraThinkClose" position="right"/>
+            <speak chara="_ShigureKira">身为共和国的公民，我当然支持自己的国家——但是我同样也不希望看到那些宝贵的资源被轻易浪费掉。</speak>
+            <show chara="ShigureKiraThinkClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="left"/>
+            <speak chara="_Rita">绮罗大人是不想让这个世界也重蹈“第二次崩坏”的覆辙吧？</speak>
+            <show chara="ritaVestSquintClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraAngryClose" position="right"/>
+            <speak chara="_ShigureKira">那当然啦！那种惨胜，不就仅仅是“比输了要强”而已吗？</speak>
+            <show chara="ShigureKiraQuestionClose" position="right"/>
+            <speak chara="_ShigureKira">……等等。女仆——你为什么要专门提起这件事？</speak>
+            <show chara="ShigureKiraQuestionClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="left"/>
+            <speak chara="_Rita">那当然是因为您是我们的女武神前辈呀，绮罗大人。</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">时雨绮罗……SHIGURE KIRA……Kira Shigure……啊！</speak>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">你、你不会就是“雪狼小队”的那个时雨绮罗吧？</speak>
+            <show chara="biankaDressScreamClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraQuestionClose" position="right"/>
+            <speak chara="_ShigureKira">……</speak>
+            <show chara="ShigureKiraSneerClose" position="right"/>
+            <speak chara="_ShigureKira">讨厌啦，你们专门强调这件事，不就显得我是像个大白天冒出来的幽灵了嘛！</speak>
+            <show chara="ShigureKiraCuteClose" position="right"/>
+            <speak chara="_ShigureKira">你、你们也不是头一次见到“星语者”了吧？</speak>
+            <show chara="ShigureKiraCuteClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">呃，的确不是……</speak>
+            <show chara="DarwinSmileClose" position="left"/>
+            <speak chara="_Darwin">哎呀。原来绮罗小姐也是“星语者”吗？我还以为这些年里，新诞生的“星语者”只有罗兰小姐呢！</speak>
+            <show chara="DarwinSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……咦？</speak>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">等等等等……达尔文小姐难道不是这个国家的“国防部长”吗？</speak>
+            <show chara="biankaDressSighClose" position="right" opacity="0.8"/>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">是这样啊。</speak>
+            <show chara="DarwinNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">……那为什么你会连自己的国家里到底有多少“星语者”都不清楚啊！这也太不称职了吧！</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="DarwinEmbarrassedClose" position="left"/>
+            <speak chara="_Darwin">唔……这个……也是没有办法的事情啊。</speak>
+            <show chara="DarwinSeriousClose" position="left"/>
+            <speak chara="_Darwin">实不相瞒。这些年来……“以太锚点”的力量比以前减弱了很多。</speak>
+            <show chara="DarwinSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">“减弱”是指——</speak>
+            <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">我在这个世界上作为“星语者”诞生的时候，只有10岁。</speak>
+            <speak chara="_Darwin">在那个时代，人们还能够利用以太锚点“诱导”星语者，将他们“转生”的位置都指定在这个国家里。</speak>
+            <show chara="DarwinSmileClose" position="left"/>
+            <speak chara="_Darwin">所以即使是像我这样的孩子，也能够被及时发现，并最终成长为一名军人。</speak>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">……但我也是最后一个如此幸运的人。</speak>
+            <show chara="DarwinNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">最后……一个……？</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="DarwinSeriousClose" position="left"/>
+            <speak chara="_Darwin">从27年前的某次事故起，共和国就再也无法将初来乍到的星语者“诱导”到自己的国土上来。</speak>
+            <show chara="DarwinEmbarrassedClose" position="left"/>
+            <speak chara="_Darwin">虽然就在三年前，我们获得了罗兰——不过那时她只是被巡逻队员“捡”到了而已。</speak>
+            <show chara="DarwinSeriousClose" position="left"/>
+            <speak chara="_Darwin">星语者原本可以说是共和国的“专利”……在失去了获得他们的特殊途径之后，我们在与敌人的战斗中也逐渐趋于下风。</speak>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">毕竟，即使我们去全世界寻找那些随机“转生”的星语者，也很难把他们从一般的“流浪者”中筛选出来。</speak>
+            <show chara="DarwinSeriousClose" position="left"/>
+            <speak chara="_Darwin">……除非你以不尊重和平生活为前提，使用一些非常混账的策略。那肯定是不为共和国的价值观所允许的。</speak>
+            <show chara="DarwinSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">……你刚才说“流浪者”？他们和“星语者”有什么不同吗？</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="DarwinSmileClose" position="left"/>
+            <speak chara="_Darwin">我们用“流浪者”这个词代指那些意外穿过世界泡边界跌落在这边的人。</speak>
+            <show chara="DarwinSeriousClose" position="left"/>
+            <speak chara="_Darwin">由以太锚点复制的星语者天生就具备很强的崩坏能抗性——但一般的“流浪者”显然并不具备这样的天赋。</speak>
+            <show chara="DarwinEmbarrassedClose" position="left"/>
+            <speak chara="_Darwin">而且，很不幸的是……这二十多年来，“流浪者”的人口还在不断增长。这让我们更加难以将星语者甄别出来。</speak>
+            <show chara="DarwinEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">……难道是因为这个世界的“存在性”变弱了？</speak>
+            <show chara="schroTalkClose" position="right" opacity="0.8"/>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">……不知道。</speak>
+            <show chara="DarwinSeriousClose" position="left"/>
+            <speak chara="_Darwin">但如果真是那样的话……留给我们的时间很可能就不多了。</speak>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">如果世界泡最终消失，对于幸运的少数人来说，面临的是在量子之海中流浪的未知命运……</speak>
+            <show chara="DarwinSeriousClose" position="left"/>
+            <speak chara="_Darwin">……对于不幸的大多数人来说，则意味着直接而干脆的消失——随着世界本身一同死亡。</speak>
+            <show chara="DarwinSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressAngryClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressAngryClose" position="right" opacity="0.8"/>
+            <show chara="DarwinSmileClose" position="left"/>
+            <speak chara="_Darwin">所以我不是这样说么？“我们从很久以前就期待着像你们这样的人能够到来”。</speak>
+            <show chara="DarwinSmileClose" position="left"/>
+            <speak chara="_Darwin">——大家来看一看这段视频吧。</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="railwayChileValley.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="start"></bgm>
+            <speak chara="_ThoreauNoName">这个国家在过去被称为“塔万廷苏尤”，意思是“世界的四个部分”。</speak>
+            <speak chara="_ThoreauNoName">这四个部分以旧都库斯科为中心——她原本的名字是“科斯科”，其含义是“大地的肚脐”。</speak>
+            <speak chara="_ThoreauNoName">在此基础上，南方区域称“科利亚苏尤”，北方区域称“钦查苏尤”，西方区域称“昆蒂苏尤”，东方区域称“安蒂苏尤”——纵贯大陆的“安第斯山”便因此得名。</speak>
+            <speak chara="_ThoreauNoName">我们现在的国名“印卡”，最初是“王族”的独特称号——现在则代表全体人民都具有国王一般的荣耀。</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="chileRiverMountain.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="continue"></bgm>
+            <speak chara="_ThoreauNoName">这个国家的人民从来都不崇尚武力。他们更乐于炫耀自己的美好生活，并吸引外来者加入自己——当然，也包括星语者。</speak>
+            <speak chara="_ThoreauNoName">“印卡”的价值观基于理性、和睦、以及平等，绝不允许对人对己实行两种不同的行为准则。</speak>
+            <speak chara="_ThoreauNoName">他们总是通过诚实与尊重来结交更多的朋友，获得更多的同胞亲人。</speak>
+            <speak chara="_ThoreauNoName">从王国时代起，他们就把土地以及其他无主的财富平均分配给每一位新人——他们甚至为了此专门创造了一个土地面积单位，称为“图普”。</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="trainWindowStrangeLight.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="continue"></bgm>
+            <speak chara="_ThoreauNoName">他们在尚未摆脱蒙昧与迷信的古老年代，就构建出了各种严丝合缝、不需灰泥的石墙奇观，以及那些用纯金代替灰泥而建成的太阳神庙；</speak>
+            <speak chara="_ThoreauNoName">当现代工业敲响时代大门之时，他们又成功控制了“以太锚点”，并借助它抵抗凶恶敌人摧毁世界的图谋。</speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="chileIceMountain.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="continue"></bgm>
+            <speak chara="_ThoreauNoName">即使在尚未获得牲畜和铁制工具的年代，“印卡”的先民也能切割和打磨那些大小堪比巨人的岩石。</speak>
+            <speak chara="_ThoreauNoName">他们从高山上凿下这些原材料，越过河流和峡谷，在平地上建设出仿佛只有魔法才能完成的建筑。</speak>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="railwayStationSaksaqWaman.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="continue"></bgm>
+            <speak chara="_ThoreauNoName">这些巨石被打磨得无比平整，堆砌得严丝合缝，连刀刃都难以插进——尽管，这些建筑师们没有吊车和滑轮，也没有测量用的尺子和三角板。</speak>
+            <speak chara="_ThoreauNoName">这些石材大小不一，表面也绝非规整——但巧夺天工的人们却可以使它们严丝合缝地组成一个整体，让这些不沾灰泥的石墙也能屹立千年。</speak>
+            <speak chara="_ThoreauNoName" remark="next">这些建筑群中最杰出的一个叫做“萨克萨瓦曼”，我们甚至会觉得这个名字本身就带有某种魔力。</speak>
+            <remark post="U2FsdGVkX1+jnuocdZ8L2fVP9+jU">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">萨克萨瓦曼（克丘亚语：Saksaq Waman，“令人满意的鹰”）是秘鲁的一座印加帝国要塞遗迹，距古都库斯科约2公里，海拔3700米。</p>
+                <p class="article-text">萨克萨瓦曼的城墙纯粹由打磨过的巨石堆叠、镶嵌而成，没有使用任何石灰、水泥、或其他类似的接合材料。“所用岩石都硕大惊人，但又互补余缺，相得益彰，严丝合缝，浑然一体，使整个建筑显得气势磅礴……超过了人们记述的世界七大奇迹”（《印卡王室述评》）。</p>
+            </remark>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="12_12_cloudSky.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="continue"></bgm>
+            <speak chara="_ThoreauNoName">从雨林到雪山，从大河到冰川——这片土地上的文明生生不息，原始的居住者和外来的异世界人共同构筑了多样而精彩的人类画卷。</speak>
+            <speak chara="_ThoreauNoName">大洋、乃至量子之海彼岸的英雄们，你们摧毁“墙壁”的计划和所有人的利益都息息相关，我们当然会提供一切可能的帮助来配合你们。</speak>
+            <speak chara="_ThoreauNoName">但在此之前——我希望你们能利用好锚点的便利性，在这片伟大的土地上多走一走、看一看。</speak>
+            <goto goto="150" change="0"/>
+        </scene>
+        <scene id="150" background="commandCenterHuaca.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="continue"></bgm>
+            <show chara="thorConfidentCloseE" position="center"/>
+            <speak chara="_ThoreauNoName">我是共和国的议长，索菲娅·亨利·梭罗。</speak>
+            <show chara="thorConfidentCloseE" position="center" opacity="0.8"/>
+            <show chara="thorSmileCloseE" position="center"/>
+            <speak chara="_Thoreau">我在首都基多为各位准备了一份与“宝石”有关的厚礼——欢迎你们随时前来。</speak>
+            <end post="U2FsdGVkX18dfFFAJqAR6U1qiNI2"/>
+        </scene>
+    </story>
+</data>

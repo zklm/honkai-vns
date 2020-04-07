@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story title="1">
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="americaShop.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">所以情况是怎么变成这样的呢……</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <text>瓦尔特猛吸了一口可乐，看着一旁的拎着各色纸袋的芬兰人。</text>
+            <text>女孩子们去了内衣店，青年只好拉住唯一的同性在外面聊天。</text>
+            <text>对方看起来倒是打算就这么跟着女孩子们大摇大摆走进去的。</text>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">血拼真的需要理由吗？</speak>
+            <text>见怪不怪的短袖男子轻浮地摊开双手。</text>
+            <speak chara="nokiaNoFace">更何况这里的免税店确实比伦敦的便宜。</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <text>这家伙还真是擅长拎袋子啊。这样的姿势也不会让它们掉下来。</text>
+            <text>难不成他以前就经常扮演这种角色？他夫人不是几乎不着家的考古学者吗？</text>
+            <show chara="weltTiredClose" position="left"/>
+            <text>女人还真是可怕的生物。</text>
+            <show chara="weltNormalClose" position="left"/>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace" remark="next">……所以，这就是特斯拉博士成为“月光族”的原因吗？</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“月光族”，即每月都花光自己收入的人（living from paycheck to paycheck）。</p>
+            </remark>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">一半正确吧。实话说，她最近还沉迷邮购，听说也买了不少没用的东西。</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredClose" position="left"/>
+            <speak chara="weltNoFace">……爱因斯坦博士也真够辛苦的。</speak>
+            <show chara="weltTiredClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">哈哈，这你就错得离谱啦。</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">唉？</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">你不觉得正是因为有特斯拉这样的人，各种事情才变得比较有趣么？</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredClose" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <show chara="weltTiredClose" position="left" opacity="0.7"/>
+            <speak chara="nokiaBagSmileClose">不要看不起人家女孩子。</speak>
+            <speak chara="nokiaNoFace">太死板的话，以后可是会找不到另一半的哦？</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredClose" position="left"/>
+            <speak chara="weltNoFace">……要你管。</speak>
+            <show chara="weltTiredClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">哦哦，这个闷骚的反应倒是很可爱呢。再严肃一点的话…</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">……？</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace" remark="next">以后说不定可以朝亨弗莱·鲍嘉那个方向发展？</speak>
+            <speak chara="nokiaNoFace" remark="next">嗯，就是《卡萨布兰卡》里的那个“里克·布莱恩”啦。</speak>
+            <remark post="U2FsdGVkX180vKbyXq4IHH3HepZD">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">亨弗莱·鲍嘉（1899年12月25日－1957年1月14日），美国电影演员，他在去世的几十年后还在电影界保持着传奇性的地位。</p>
+                <p class="article-text">1942年他在《卡萨布兰卡》一片中出色的表演让他获得奥斯卡最佳男演员奖提名，这部电影直至今日还被人认为是永恒的经典，而他所扮演的角色“里克·布莱恩”是美国人永远的偶像。</p>
+                <p class="article-text">1999年，美国电影学院把他评为电影诞生100年以来最伟大的男演员。</p>
+            </remark>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">……？？</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSeriousClose" position="right"/>
+            <speak chara="nokiaNoFace">啊。</speak>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">你不会是没看过那部电影吧？下次我在42实验室里放给你们看？</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredClose" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltTiredClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">总之呢，好男人就要搞清楚自己的优点。</speak>
+            <text>金丝边儿眼镜跳脱得让瓦尔特插不上话。</text>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredClose" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">……说起来，我还有些别的事情，一直很在意。</speak>
+            <text>青年努力驱散着自己对金丝边儿眼镜的负面印象，开始转换话题。</text>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">哦？是关于组织的吗？还是我们前往调查的东西呢？</speak>
+            <text>对方看起来倒是对任何话题都不拒绝。</text>
+            <show chara="weltTiredClose" position="left" opacity="1"/>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace">呃……虽然这两个方面我也很在意——</speak>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">不过眼下想问【你】的并不是这些。</speak>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSeriousClose" position="right"/>
+            <speak chara="nokiaNoFace">你是特地要问——【我】？</speak>
+            <text>金丝眼镜的眼神中透露出一丝诧异。他好像微妙地动摇了。</text>
+            <show chara="nokiaBagSeriousClose" position="right" opacity="0.7"/>
+            <show chara="weltShyClose" position="left"/>
+            <speak chara="weltNoFace">嗯……就是……那个……</speak>
+            <show chara="weltShyClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">别这么不干不脆的啊。两位博士都还没有男朋友哦？</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltNoFace">谁问你这个啦！</speak>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">你自己不说，我不就只好瞎猜了。</speak>
+            <text>金丝边儿眼镜夸张地耸了耸肩膀。</text>
+            <speak chara="nokiaNoFace">年龄？三围？里里外外偏好的款式？</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">喂！</speak>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">嘿嘿……</speak>
+            <text>金丝眼镜发出了意味深长的笑声。</text>
+            <speak chara="nokiaNoFace">我觉得这些问题还是等她们自己告诉你答案比较好哦？</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">喂！！</speak>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">别露出那个表情嘛。我并不是知道答案还故意调戏你哦。</speak>
+            <show chara="nokiaBagSeriousClose" position="right"/>
+            <speak chara="nokiaNoFace">你看嘛，这种事关隐私的事情，万一你不过大脑地问了……</speak>
+            <text>他拎着纸袋比划了一个“砍头”的手势。</text>
+            <show chara="nokiaBagSeriousClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredClose" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace">你有病吗。</speak>
+            <show chara="weltTiredClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">你别说，我和你嫂子第一次见面时就傻乎乎地问了一句——</speak>
+            <speak chara="nokiaNoFace">“这年纪还穿南瓜裤是不是太蠢了？”</speak>
+            <speak chara="nokiaNoFace">——然后就被揍了。</speak>
+            <speak chara="nokiaNoFace">真的是胖揍了一顿啊。哈哈哈哈。</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltNoFace">……谁管你自己犯病啊！</speak>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">不过说实话……如果你也遇到了三十岁还喜欢南瓜裤的女孩子，可千万不要错过哦。</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredClose" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltTiredClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace" remark="next">真的真的。如果她恰好是个喜欢《伊娃的波尔卡》的芬兰人的话，你就可以邀请她蒸桑拿……</speak>
+            <remark post="U2FsdGVkX19PN8ZVJEe5S4WK1BZz">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《伊娃的波尔卡》（Ievan Polkka）是芬兰的一首著名民歌，表现的是年轻男女打破封建束缚、勇敢追求爱情的主题。</p>
+                <p class="article-text">此曲一个著名的改编版本是由初音未来演唱的“甩葱歌”。</p>
+            </remark>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">……？</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">顺便一提我的全名是埃里阿斯·诺基安维塔宁——货真价实的芬兰人。</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">……？？</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">传统上，大家在桑拿房里是要坦诚相见的——你明白那个意思吧？</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">……？？？</speak>
+            <show chara="weltTiredClose" position="left"/>
+            <speak chara="weltNoFace">……为什么我感觉你从刚才开始就拼命地向我推销“桑拿”啊？</speak>
+            <show chara="weltTiredClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSeriousClose" position="right"/>
+            <speak chara="nokiaNoFace">唉？</speak>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace">我想，你特地要问我的东西，肯定是我自己特别了解的？</speak>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredClose" position="left" opacity="1"/>
+            <speak chara="weltNoFace">……拜托，我连你说的“桑拿”究竟是个什么概念都不太明白啊！</speak>
+            <show chara="weltTiredClose" position="left" opacity="0.7"/>
+            <show chara="nokiaBagSmileClose" position="right"/>
+            <speak chara="nokiaNoFace" remark="next">啊？我以为这是我们芬兰唯一成功推广到全球的文化？</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">桑拿（芬兰语：sauna）是芬兰的国粹。</p>
+                <p class="article-text">据估计，芬兰全国约有两百万个桑拿房——平均不到三人就拥有一个。</p>
+                <p class="article-text">p.s.</p>
+                <p class="article-text">在古代，桑拿房是不分性别的。</p>
+            </remark>
+            <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredClose" position="left"/>
+            <speak chara="weltNoFace">所以说，我本来想问的，根本和芬兰没什么关系啊！</speak>
+            <text>结果，直到两位博士从内衣店出来，瓦尔特也没有打听到她们的任何一个私人爱好。</text>
+            <goto goto="20"/>
+        </scene>
+        <scene id="20" background="planeNight.jpg">
+            <bgm src="serenity.mp3" status="start"></bgm>
+            <sound src="8_24_launch.mp3"/>
+            <show chara="einNormalDressClose-up" position="center" opacity="0.7"/>
+            <text>当一行人终于登上飞往芝加哥的班机时，爱因斯坦已经换上了一套新买的衣服。</text>
+            <text>宠物鼠一样毛茸茸的披肩外套，奶油蛋糕一样层层叠叠的裙子——据说是维多利亚时代的少女礼服。</text>
+            <text>不知为何，礼服在她的身上，呈现出一种非常滑稽的感觉。尤其是当她把那本关于黎曼的书扣在脸上斜躺着睡觉的时候。</text>
+            <text>不用说，这衣服只可能是特斯拉的口味。</text>
+            <text>也不用说，这衣服只可能是特斯拉自掏腰包的结果。</text>
+            <text>更不用说，特斯拉这个人才不会在飞机上看什么专业书籍。</text>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <hide position="center"/>
+            <show chara="teslaSmileDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">我们来玩牌吧！</speak>
+            <text>打扮时髦的红发双马尾如此宣布道。她怎么不自己穿那种洋娃娃一样的衣服呢？</text>
+            <show chara="nokiaSmileClose-up" position="right"/>
+            <show chara="teslaSmileDressClose-up" position="left" opacity="0.7"/>
+            <speak chara="nokiaNoFace">三个人好像有点尴尬呢。</speak>
+            <text>芬兰人倒是认真思考起了他们几个能玩什么。</text>
+            <text>三缺一——这个金丝边儿眼镜绝对是喜欢打桥牌的那一型。</text>
+            <show chara="nokiaSmileClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">有什么尴尬的啦！既然到了美国，怎么能不玩德州扑克呢？</speak>
+            <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileClose-up" position="right"/>
+            <speak chara="nokiaNoFace">德州扑克吗……零钱好像不是太够啊？</speak>
+            <show chara="nokiaSmileClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">你在说什么傻话啊芬兰人！</speak>
+            <show chara="teslaSnickerDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">	我们不是有这个吗？</speak>
+            <text>红色双马尾一边旁若无人地大吼大叫着，一边从爱因斯坦的包里掏出了那盒巧克力。</text>
+            <text>把巧克力球和硬币一起当赌资用，你还真是孩子气啊。</text>
+            <show chara="teslaSmileDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">你们知道吗，在某些年代，巧克力可是和金子一样贵重的东西呢。</speak>
+            <speak chara="teslaNoFace">早在阿兹特克帝国，可可豆就是一种贵重的战略资源，被作为货币使用……</speak>
+            <show chara="teslaSmileDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">唔……</speak>
+            <show chara="weltNormalSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">……而在诺曼底登陆之后，美军士兵定额配给的巧克力就成了西线的硬通货——</speak>
+            <speak chara="teslaNoFace">——你能想象到的东西，全都可以用巧克力买到！</speak>
+            <show chara="teslaSnickerDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <show chara="weltSurpriseSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSmileDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">……现代巧克力采用了一种特殊的结晶手法，能同时保证它的硬度和口感。</speak>
+            <speak chara="teslaNoFace">这就是为什么巧克力一旦融化，再冻回去口感就变差的原因。分子层面上可是起了变化的哟！</speak>
+            <show chara="teslaSmileDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">哦……</speak>
+            <show chara="weltNormalSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSmileDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">……总之，应该感谢如今的工业文明，让我们可以随心所欲地大快朵颐。阿门。</speak>
+            <show chara="teslaSmileDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">请问……</speak>
+            <show chara="weltNormalSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">瓦尔特同学，你有什么问题？请提问。</speak>
+            <show chara="teslaNormalDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">我不懂你们说的“德州扑克”要怎么玩。</speak>
+            <show chara="weltNormalSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">……这有什么？玩着玩着就会了呗。</speak>
+            <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <show chara="weltNormalSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">真是的，“照猫画虎”你没有听说过吗？</speak>
+            <show chara="teslaEmbarraDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">为什么关于巧克力能解释一大堆，反而……</speak>
+            <text>瓦尔特用只有自己能听清的声音嘟囔着。</text>
+            <show chara="weltNormalSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">怎么了？对本博士有什么不满吗？</speak>
+            <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">哪里哪里。岂敢岂敢。</speak>
+            <bgm src="serenity.mp3" status="start"></bgm>
+            <text>又不是真的赌博。就算是真的赌博自己也没什么好输的。</text>
+            <text>想到这一层，瓦尔特把心一横，硬着头皮上了。</text>
+            <goto goto="25"/>
+        </scene>
+        <scene id="25" background="planeNight.jpg">
+            <bgm src="serenity.mp3" status="continue"></bgm>
+            <text>……</text>
+            <show chara="nokiaSmileClose-up" position="right"/>
+            <speak chara="nokiaNoFace">弃牌。</speak>
+            <show chara="weltNormalSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace"> 弃牌。</speak>
+            <show chara="weltNormalSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">等等等等！</speak>
+            <text>特斯拉不满地抓起牌堆上方的两张牌，硬塞回了瓦尔特的手里。</text>
+            <show chara="teslaBoringDressClose-up" position="left"/>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <speak chara="teslaNoFace">不许弃牌！</speak>
+            <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……为什么？</speak>
+            <show chara="weltSurpriseSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">没有那么多为什么！就是禁止连续弃牌！</speak>
+            <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">可是……</speak>
+            <show chara="weltSurpriseSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">哼哼，你个初学者手怎么可以这么“紧”呢？</speak>
+            <show chara="teslaEmbarraDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">只看见大牌才开玩！平常都是死气沉沉的“过”、“过”、“过”！</speak>
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">你这样能有什么意思嘛！</speak>
+            <show chara="teslaSnickerDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">瓦尔特同学，你知道赌博最大的坏处是什么吗？</speak>
+            <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">那个……输钱？</speak>
+            <text>瓦尔特看向了博士小姐空空如也的本金区。</text>
+            <show chara="weltNormalSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">不！</speak>
+            <show chara="teslaShameDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">不。不……对于你这样的人来说，是太在乎赌金，而丧失了游戏本身的娱乐性！</speak>
+            <show chara="teslaEmbarraDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">你看看你，患得患失顾虑重重！犹犹豫豫瞻前顾后！畏畏缩缩裹足不前！像个男人吗你……</speak>
+            <show chara="teslaEmbarraDressClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalDressClose-up" position="right"/>
+            <bgm src="themeEin.mp3" status="start"></bgm>
+            <speak chara="einNoFace">上帝不掷骰子。</speak>
+            <text>熟悉的无机质声音从那本倒扣的黎曼下方发出。看来特斯拉的大嗓门终于还是搅了爱因斯坦的清梦。</text>
+            <show chara="einNormalDressClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSmileDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">……你、你醒了啊。</speak>
+            <text>就算不看着特斯拉，都能感觉到她脸上红一阵白一阵的。</text>
+            <show chara="teslaSmileDressClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalDressClose-up" position="right"/>
+            <speak chara="einNoFace">不用担心。</speak>
+            <text>倒扣的黎曼被随手丢在一边的角落里。</text>
+            <show chara="einSmileDressClose-up" position="right"/>
+            <bgm src="lab.mp3" status="start"></bgm>
+            <speak chara="einNoFace">我也来吧。</speak>
+            <show chara="teslaNormalDressClose-up" position="left"/>
+            <show chara="einSmileDressClose-up" position="right" opacity="0.7"/>
+            <speak chara="teslaNoFace">唉？</speak>
+            <show chara="teslaNormalDressClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalDressClose-up" position="right"/>
+            <speak chara="einNoFace">巧克力。</speak>
+            <text>头发比平时还要更乱糟糟的少女无视几人的惊讶，将手伸了过来。</text>
+            <text>红色双马尾只好从两位男士的"赌金"里各抓了几颗塞给她。</text>
+            <show chara="weltSurpriseSweaterClose-up" position="left"/>
+            <show chara="einNormalDressClose-up" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace">那个……</speak>
+            <speak chara="weltNoFace">你不是刚刚还在说“上帝不掷骰子”之类的吗……</speak>
+            <hide position="right"/>
+            <hide position="left"/>
+            <show chara="einSmileDressClose-up" position="center"/>
+            <speak chara="einNoFace">瓦尔特，你说的很对。</speak>
+            <text>少女随手就剥开了一块巧克力的包装纸——</text>
+            <speak chara="einNoFace">上帝不掷骰子。</speak>
+            <show chara="einLickDressClose-up" position="center"/>
+            <speak chara="einNoFace">上帝负责吃巧克力。</speak>
+            <goto goto="30"/>
+        </scene>
+        <scene id="30" background="airportBillings.jpg">
+            <bgm src="themeWelt.mp3" status="start"></bgm>
+            <text>当一行人乘坐的班机终于降落在蒙大拿州比灵斯市时，太阳早已落山。</text>
+            <text>事实上，如果不是时差的影响，此刻他们大概可以在伦敦看到一轮明艳的朝阳。</text>
+            <text>啊，如果说雾霾不重的话。</text>
+            <text>比灵斯是个不大的城市，加上处于旅游淡季的关系，偌大的航站楼里冷冷清清地没有几个人。</text>
+            <text>不过，也正因为如此，一旦有人打起招呼，百米开外想必也是听得见的。</text>
+            <show chara="planckSmileCoatFar" position="left"/>
+            <bgm src="lab.mp3" status="start"></bgm>
+            <speak chara="planckNoNameNoFace">爱因斯坦！特斯拉！</speak>
+            <text>一位身材高挑、长发及腰的大姐姐从远处大声地打着招呼。</text>
+            <show chara="schroNormalEmFar" position="right"/>
+            <text>大姐姐旁边是一位梳着单边罗马卷、身着羽绒服的少女，正敷衍地向他们摇摆手掌示意。</text>
+            <show chara="planckSmileCoatFar" position="left" opacity="0.7"/>
+            <show chara="schroNormalEmFar" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraDressFar" position="center"/>
+            <speak chara="teslaNoFace">啧。果然那个老太婆也在。</speak>
+            <text>特斯拉有些愤恨地咬着指甲。</text>
+            <show chara="teslaEmbarraDressFar" position="center" opacity="0.7"/>
+            <show chara="einSmileDressFar" position="center"/>
+            <speak chara="einNoFace">高个子的是普朗克教授，我的博士导师，也是北美支部名义上的负责人。</speak>
+            <text>看来另一位便是寄来谜之信件的薛定谔了——她看起来似乎和特斯拉差不多年纪……也是博士吗？</text>
+            <text>另外，"名义上的"是什么意思？难道还有什么"幕后老板"不成？</text>
+            <hide position="right"/>
+            <show chara="einSmileDressFar" position="center" opacity="0.7"/>
+            <show chara="planckSmileCoatFar" position="left"/>
+            <speak chara="planckNoFace">嘿嘿嘿，丽瑟尔宝贝这一身好可爱啊！个子好像也长高了一点？</speak>
+            <show chara="planckEinFar" position="left"/>
+            <hide position="center"/>
+            <text>那边瓦尔特还在琢磨爱因斯坦话中流露出的信息，这边普朗克教授就将她一把搂进了自己的怀里。</text>
+            <text>大概是因为脸埋进了对方颇有器量的胸部之中，天然卷少女发出了阵阵类似窒息的悲鸣声。</text>
+            <show chara="planckEinFar" position="left" opacity="0.7"/>
+            <show chara="teslaAngryDressFar" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="teslaNoFace">……？！！！！</speak>
+            <show chara="planckEinFar" position="left"/>
+            <show chara="teslaAngryDressFar" position="right" opacity="0.7"/>
+            <speak chara="planckNoFace">蒙大拿的天气可是很冷的哟。小家伙们，保暖的衣服带充足了吗？</speak>
+            <show chara="planckEinFar" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraDressFar" position="right"/>
+            <speak chara="teslaNoFace">……哼，不用你提醒。</speak>
+            <text>特斯拉没好气地瞪了普朗克一眼。</text>
+            <show chara="teslaShameDressFar" position="right"/>
+            <speak chara="teslaNoFace">倒是你，就不怕把心爱的学生给谋杀了吗……</speak>
+            <show chara="teslaShameDressFar" position="right" opacity="0.7"/>
+            <show chara="planckEinFar" position="left"/>
+            <speak chara="planckNoFace">啊啦，人家觉得丽瑟尔宝贝可是乐在其中呢……</speak>
+            <show chara="planckEinFar" position="left"/>
+            <text>长发大姐姐放松了自己的臂弯，对着怀中露出的额头轻轻地吻了一口。</text>
+            <show chara="planckEinFar" position="left" opacity="0.7"/>
+            <show chara="teslaAngryDressFar" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="teslaNoFace">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！</speak>
+            <speak chara="teslaNoFace">你在做什么啊！！！！！！！！！！！！！！！！！！</speak>
+            <text>红色双马尾当即炸了锅。</text>
+            <show chara="teslaAngryDressFar" position="right" opacity="0.7"/>
+            <show chara="planckEinFar" position="left"/>
+            <speak chara="planckNoFace">大家都是女孩子，有什么关系呢？</speak>
+            <text>大姐姐一边将右手食指置于唇边，一边朝左手臂弯中的少女抛了个媚眼。</text>
+            <speak chara="einNoFace">咳咳……</speak>
+            <text>由于还没有从各种冲击中缓过气来，可怜的天然卷只好以沉默应对。</text>
+            <show chara="planckEinFar" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileFar" position="right"/>
+            <speak chara="nokiaNoFace">哎呀哎呀……</speak>
+            <text>芬兰人如往常一般笑着，但瓦尔特却分明读出了"这展开真是和我估计的一模一样"的意味。</text>
+            <speak chara="nokiaNoFace">二位好。我是研究古文字的埃里阿斯·诺基安维塔宁博士，这位则是瓦尔特·乔伊斯研究助理。</speak>
+            <speak chara="nokiaNoFace">啊，特斯拉博士肯定不需要我再介绍了吧？</speak>
+            <text>原来这个人也是博士啊……看起来这年头找个工作还真挺辛苦的。</text>
+            <show chara="nokiaSmileFar" position="right" opacity="0.7"/>
+            <show chara="planckEinFar" position="left"/>
+            <speak chara="planckNoFace">古文字专家吗……还真是帮了大忙了呢。</speak>
+            <show chara="planckNormalCoatFar" position="left"/>
+            <text>普朗克教授终于放开了可怜的爱因斯坦。</text>
+            <show chara="planckSeriousCoatFar" position="left"/>
+            <text>她煞有介事地打量了芬兰人一番，目光却转而停留在了瓦尔特的身上。</text>
+            <speak chara="planckNoFace">研究助理……？</speak>
+            <show chara="planckSeriousCoatFar" position="left" opacity="0.7"/>
+            <show chara="weltNormalFar" position="right"/>
+            <speak chara="weltNoFace">呃……名义上是这样的。</speak>
+            <text>被陌生的大姐姐直勾勾地盯着，瓦尔特感觉脊背有些发凉。</text>
+            <show chara="einNormalDressFar" position="right"/>
+            <speak chara="einNoFace">具体细节牵扯到了欧洲支部的保密协议，老师你还是不要问了。</speak>
+            <text>真是太谢谢你了，爱因斯坦！不愧是我的救星！万岁！！</text>
+            <show chara="einNormalDressFar" position="right" opacity="0.7"/>
+            <show chara="planckSadCoatFar" position="left"/>
+            <speak chara="planckNoFace">真是的……北美支部对你们可是知无不言哦？</speak>
+            <text>不知是不是有意想调戏一下自己的学生，教授姐姐故意摆出了一副愁眉苦脸的样子。</text>
+            <show chara="planckSadCoatFar" position="left" opacity="0.7"/>
+            <show chara="einSmileDressFar" position="right"/>
+            <speak chara="einNoFace">那么……老师你的三围和年龄都是多少呢？</speak>
+            <text>天然卷学生倒也是不依不饶。</text>
+            <show chara="einSmileDressFar" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatFar" position="left"/>
+            <speak chara="planckNoFace">94、62、92——</speak>
+            <speak chara="planckNoFace">——17年前17岁。</speak>
+            <speak chara="planckNoFace">爱因斯坦终于学会关心老师了呢~好开心~~❤</speak>
+            <text>教授姐姐得意地比了一个桃心。</text>
+            <show chara="planckSmileCoatFar" position="left" opacity="0.7"/>
+            <show chara="einNormalDressFar" position="right"/>
+            <speak chara="einNoFace">……</speak>
+            <show chara="einNormalDressFar" position="right" opacity="0.7"/>
+            <speak chara="teslaNoFace">……</speak>
+            <speak chara="nokiaNoFace">……</speak>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="planckSlyCoatFar" position="left"/>
+            <speak chara="planckNoFace">啊啦……人家说了什么很奇怪的话吗？</speak>
+            <show chara="planckSlyCoatFar" position="left" opacity="0.7"/>
+            <show chara="einNormalDressFar" position="right"/>
+            <speak chara="einNoFace" remark="next">Surely You're Joking, Miss Planck.（别闹了，普朗克小姐。）</speak>
+            <remark post="U2FsdGVkX18ezd09lnSH3okcm2NL">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《别闹了，费曼先生》（Surely You're Joking, Mr. Feynman!）是诺贝尔奖得主、物理学家理查德·费曼的一部非正式自传，出版于1984年。</p>
+                <p class="article-text">其续集于1988年出版，名为《你干嘛在乎别人怎么想？》（What Do You Care What Other People Think?）。</p>
+            </remark>
+            <show chara="einNormalDressFar" position="right" opacity="0.7"/>
+            <show chara="schroNormalEmFar" position="center"/>
+            <speak chara="schroNoFace">我说你们……</speak>
+            <text>在尴尬的气氛中，打破沉默的是之前一直没有说话的薛定谔。</text>
+            <show chara="schroNormalAhFar" position="center"/>
+            <speak chara="schroNoFace">先决定晚饭吃什么再说吧。</speak>
+            <show chara="schroNormalEmFar" position="center"/>
+            <text>她板着扑克脸，像招财猫一样挥动着自己的右手。</text>
+            <goto goto="40"/>
+        </scene>
+        <scene id="40" background="barBillings.jpg">
+            <bgm src="serenity.mp3" status="start"></bgm>
+            <show chara="teslaNormalDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">这是什么？</speak>
+            <text>在机场附近的一间酒吧里，红色双马尾盯着餐桌上一盘油炸丸子似的东西眨着眼睛。</text>
+            <show chara="teslaNormalDressClose-up" position="left" opacity="0.7"/>
+            <show chara="planckSlyClose-up" position="right"/>
+            <speak chara="planckNoFace">落基山牡蛎。</speak>
+            <text>调皮的大姐姐面带微笑地介绍道。</text>
+            <show chara="schroNormalEmClose-up" position="right"/>
+            <speak chara="schroNoFace">……</speak>
+            <text>不知为何，罗马卷面无表情地叹了口气。</text>
+            <show chara="schroNormalAhClose-up" position="right"/>
+            <speak chara="schroNoFace">教授她比较喜欢吃这个。你们能不能习惯就不知道了。</speak>
+            <hide position="right"/>
+            <hide position="left"/>
+            <show chara="teslaNormalDressClose-up" position="center"/>
+            <speak chara="teslaNoFace">不就是牡蛎吗……又不是没吃过。虽然这个好像是奇怪了点儿。</speak>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <text>双马尾不以为然地叉起了一个丸子，像吃甜点一样送进了嘴里。</text>
+            <show chara="teslaBoringDressClose-up" position="center"/>
+            <speak chara="teslaNoFace">唔……呃……</speak>
+            <text>虽然叉的时候就已经觉得哪里不对劲，但真正入口之后的怪异感才开始让人心里打鼓。</text>
+            <show chara="teslaEmbarraDressClose-up" position="center"/>
+            <text>橡胶一般富有弹性的质地、完全不像海鲜的厚重味道……这肯定不是什么"牡蛎"——</text>
+            <show chara="teslaBoringDressClose-up" position="center"/>
+            <text>不像鸡肉、不像牛肉，不像肝脏、不像心脏——这到底是什么东西？</text>
+            <text>丸子虽然算不上难吃，但疑惑已经写满了特斯拉博士的脸。</text>
+            <show chara="planckSlyClose-up" position="center"/>
+            <speak chara="planckNoFace">落基山牡蛎是一种装模作样的叫法。</speak>
+            <text>看着她把口中的肉完全咽下去了，普朗克教授这才不慌不忙地解释起来。</text>
+            <show chara="planckNormalClose-up" position="center"/>
+            <speak chara="planckNoFace">如你所知，这一带是山区。在保鲜技术不够发达的年代，牛仔们不可能吃的到真正的牡蛎。</speak>
+            <show chara="planckSlyClose-up" position="center"/>
+            <speak chara="planckNoFace">所以他们一半出于安慰，一半出于好玩，就把这种沿海地区不大会吃的东西叫成了牡蛎。</speak>
+            <speak chara="planckNoFace">日常生活中，我们有很多关于它的叫法；不过，如果想表达得准确的话……</speak>
+            <show chara="planckSmileClose-up" position="center"/>
+            <speak chara="planckNoFace">在生物学上，我们叫它“睾丸”。</speak>
+            <show chara="teslaBoringDressClose-up" position="center"/>
+            <bgm src="themeTesla.mp3" status="stop"></bgm>
+            <speak chara="teslaNoFace">什么？</speak>
+            <text>双马尾显然有点不相信自己的耳朵。</text>
+            <show chara="planckSlyClose-up" position="center"/>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <speak chara="planckNoFace">睾丸。</speak>
+            <text>普朗克教授面带微笑地又重复了一遍。</text>
+            <show chara="planckSmileClose-up" position="center"/>
+            <speak chara="planckNoFace">这是小牛的睾丸。</speak>
+            <hide position="center"/>
+            <text>同一桌上，爱因斯坦和薛定谔无奈地耸了耸肩膀。</text>
+            <text>瓦尔特和芬兰人盯着手里的叉子，不知该如何处置已经送到嘴边的“油炸丸子”。</text>
+            <show chara="teslaGreenDressClose-up" position="center"/>
+            <text>当然，至于可怜的特斯拉——</text>
+            <text>——她的脸都变绿了。</text>
+            <text>字面意义上。</text>
+            <goto goto="50"/>
+        </scene>
+        <scene id="50" background="streetBillings.jpg">
+            <bgm src="serenity.mp3" status="start"></bgm>
+            <sound src="8_30_wind.mp3"/>
+            <text>身处吧台之间，人总是很容易忽略外部世界的变化——不管从何种意义上来说都是。</text>
+            <text>当瓦尔特一行人酒足饭饱、结账离开时，雪不知何时又下了起来。</text>
+            <text>夜空中不见一丝月光——倒是纷飞的雪片，在橘黄的路灯下缓缓飘落，反射出星星点点的光华，如梦似幻。</text>
+            <goto goto="51" change="0"/>
+        </scene>
+        <scene id="51" background="CG4.jpg">
+            <bgm src="serenity.mp3" status="continue"></bgm>
+            <text>背着醉成烂泥的特斯拉，瓦尔特费力地抬了抬头，望向夜空。</text>
+            <speak chara="weltNoFace">这就是雪啊……</speak>
+            <speak chara="weltNoFace">我不记得自己见过……但不知为何，感觉很怀念啊。</speak>
+            <speak chara="einNoFace" remark="next">Déjà vu（既视感）。</speak>
+            <text>爱因斯坦撑起了一把伞，并排走在了他的旁边。</text>
+            <speak chara="weltNoFace">呃……什么？</speak>
+            <speak chara="einNoFace" remark="next">幻觉记忆。不见得你以前就真的见过雪。可能只是此时此刻海马体兴奋过度了而已。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">Déjà vu是法文短语，字面意思为“已经见过”，指人在清醒的状态下第一次见到某场景，却感到“似曾相识”，是一种常见的生理现象。</p>
+                <p class="article-text">中文对此词汇借鉴日文译法，一般译作“既视感”，也有译作“幻觉记忆”的；而英文则是直接照抄Déjà vu这一写法。</p>
+            </remark>
+            <speak chara="weltNoFace">这……</speak>
+            <speak chara="einNoFace">人类的大脑有时候会欺骗自己。</speak>
+            <speak chara="weltNoFace">可是……</speak>
+            <speak chara="einNoFace">感情是真挚的，但来源却有可能是伪造的。</speak>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="einNoFace">抱歉，好像煞风景了。</speak>
+            <speak chara="weltNoFace">不……我还挺喜欢这样随便说些有的没的。至少比一言不发有意思多了。</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="streetBillings.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="planckSmileCoatFar" position="left"/>
+            <speak chara="planckNoFace">啊啦，感情好像很不错呀。</speak>
+            <text>长发大姐姐不知何时从后面赶了上来。</text>
+            <show chara="planckSmileCoatFar" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="center"/>
+            <speak chara="einNoFace">教授，年轻人说话长辈不要插嘴。</speak>
+            <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
+            <show chara="planckSadCoatFar" position="left"/>
+            <speak chara="planckNoFace">呜呜呜……丽瑟尔宝贝好过分！</speak>
+            <text>普朗克夸张地假哭起来。</text>
+            <speak chara="planckNoFace">姐姐要伤心了！本来还想告诉你们一个好事情的！</speak>
+            <show chara="planckSadCoatFar" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="center"/>
+            <speak chara="einNoFace">教授，恶意装可爱是很无聊的行为。</speak>
+            <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
+            <show chara="planckBoringCoatFar" position="left"/>
+            <speak chara="planckNoFace">哼，人家明明是好心！</speak>
+            <show chara="planckSadCoatFar" position="left"/>
+            <speak chara="planckNoFace">……</speak>
+            <show chara="planckSmileCoatFar" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="planckNoFace">你们全员都要小心被夜袭哦！</speak>
+            <text>双倍十七岁的“少女”突然像广告模特一样摆出“射中你心”的姿势。</text>
+            <show chara="planckSmileCoatFar" position="left" opacity="0.7"/>
+            <show chara="weltShameWinterFar" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="weltNoFace">唉？！</speak>
+            <text>某个可怜的青年显然是被“夜袭”这个词汇吓了一跳。</text>
+            <show chara="einNormalWinterFar" position="center"/>
+            <show chara="weltShameWinterFar" position="right" opacity="0.7"/>
+            <speak chara="einNoFace">……爱因斯坦对于观星并没有什么特别的兴趣。</speak>
+            <text>天然卷一语戳破了所谓“夜袭”的实际意思。</text>
+            <text>她们两个似乎就像家人一样熟悉彼此。</text>
+            <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
+            <show chara="planckSlyCoatFar" position="left"/>
+            <speak chara="planckNoFace">嗯哼？</speak>
+            <speak chara="planckNoFace">等你回了伦敦的闹市区，就算是想看，那也看不到了喽~~</speak>
+            <show chara="planckSlyCoatFar" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="center"/>
+            <speak chara="einNoFace">……啧。</speak>
+            <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
+            <show chara="planckSlyCoatFar" position="left"/>
+            <speak chara="planckNoFace">唉呀唉呀，口是心非了吧？</speak>
+            <text>长发大姐姐挑衅地摇晃着食指。</text>
+            <show chara="planckSmileCoatFar" position="left"/>
+            <speak chara="planckNoFace">不过今天晚上要好好睡哦——明天去现场，大家都得早起。</speak>
+            <show chara="planckSmileCoatFar" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="center"/>
+            <speak chara="einNoFace">啰嗦。提起“夜袭”的明明是你自己吧。</speak>
+            <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
+            <show chara="planckSmileCoatFar" position="left"/>
+            <speak chara="planckNoFace">长辈当然要啰嗦一点嘛。</speak>
+            <hide position="center"/>
+            <text>不知何故，普朗克突然抬起头来，越过爱因斯坦的头顶，直勾勾地看着瓦尔特。</text>
+            <show chara="planckSlyCoatFar" position="left"/>
+            <speak chara="planckNoFace">你说是不是呀？</speak>
+            <show chara="planckSlyCoatFar" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterFar" position="right"/>
+            <speak chara="weltNoFace">呃……唉？</speak>
+            <show chara="weltSurpriseWinterFar" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatFar" position="left"/>
+            <speak chara="planckNoFace">丽瑟尔这么可爱的女孩子——当哥哥的可不要欺负她哦。</speak>
+            <show chara="planckSmileCoatFar" position="left" opacity="0.7"/>
+            <show chara="weltShyWinterFar" position="right"/>
+            <speak chara="weltNoFace">唉唉唉——哥哥？</speak>
+            <show chara="weltShyWinterFar" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatFar" position="left"/>
+            <speak chara="planckNoFace">啊啦，原来不对吗……</speak>
+            <text>长发大姐姐故作思考地说道。</text>
+            <show chara="planckSlyCoatFar" position="left"/>
+            <speak chara="planckNoFace">那么，果然还是宠物？</speak>
+            <show chara="planckSlyCoatFar" position="left" opacity="0.7"/>
+            <show chara="weltShameWinterFar" position="right"/>
+            <speak chara="weltNoFace">宠、宠物又是怎么回事啦！</speak>
+            <show chara="weltShameWinterFar" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatFar" position="left"/>
+            <speak chara="planckNoFace">字面意思。非要我夸张一点的话……奴隶？活人玩具？</speak>
+            <show chara="planckSmileCoatFar" position="left" opacity="0.7"/>
+            <show chara="weltShameWinterFar" position="right"/>
+            <speak chara="weltNoFace">……那也太可怕了吧！</speak>
+            <show chara="weltShameWinterFar" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatFar" position="left"/>
+            <speak chara="planckNoFace">哎，只要有个好主人，明明就可以无忧无虑、养尊处优——有什么不好嘛。</speak>
+            <show chara="planckSlyCoatFar" position="left" opacity="0.7"/>
+            <show chara="schroNormalEmFar" position="center"/>
+            <speak chara="schroNoFace">……</speak>
+            <text>薛定谔不知何时挤进了众人之间，用一贯的冰冷眼神睥睨着普朗克那装腔作势的脸。</text>
+            <speak chara="schroNoFace">老师，我有一句话不知当讲不当讲。</speak>
+            <show chara="planckBoringCoatFar" position="left"/>
+            <show chara="schroNormalEmFar" position="center" opacity="0.7"/>
+            <speak chara="planckNoFace">……</speak>
+            <show chara="planckSadCoatFar" position="left"/>
+            <speak chara="planckNoFace">来了来了，那个只会说煞风景话的薛定谔同学！</speak>
+            <show chara="planckSadCoatFar" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhFar" position="center"/>
+            <speak chara="schroNoFace">谢谢老师您的恭维——</speak>
+            <speak chara="schroNoFace">——在一个被林肯再造的国家说刚才那种话，我觉得很不合适呢。</speak>
+            <show chara="planckSadCoatFar" position="left"/>
+            <show chara="schroNormalAhFar" position="center" opacity="0.7"/>
+            <speak chara="planckNoFace">……</speak>
+            <speak chara="planckNoFace">我就知道从你嘴里说不出什么好玩儿的话！哼！</speak>
+            <end post="U2FsdGVkX18Pl0DHdQ3CMr0NKlFs"/>
+        </scene>
+    </story>
+</data>

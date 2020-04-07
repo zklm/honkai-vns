@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story title="1">
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="storage2.jpg">
+            <bgm src="10_25_noise.mp3" status="start"></bgm>
+            <show chara="staffGalleryScareClose" position="center"/>
+            <speak chara="staffNoFace">你……你们……</speak>
+            <hide position="center"/>
+            <show chara="staffGalleryScareClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="staffNoFace">stnetnocstillaetalerrocotdnimnamuhehtfoytilibani ehtsiknihtIdlrowehtnignihtluficremtsomehT..^%$@!</speak>
+            <text article="1">
+                <p class="article-text">距离爱因斯坦开始操作某个奇怪装置已经过去了两分钟。之前坚持要监督她的秃头大叔，此刻已然怪叫着夺门而去。</p>
+            </text>
+            <show chara="teslaDisgustedGlassNoiseWinterClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">瓦尔特！</speak>
+            <speak chara="teslaNoFace">堵紧自己的耳朵！</speak>
+            <speak chara="teslaNoFace">别管别人了！</speak>
+            <show chara="teslaDisgustedGlassNoiseWinterClose" position="left" opacity="0.7"/>
+            <show chara="einLeftWeltCloseWinterClose" position="right"/>
+            <speak chara="weltNoFace">不行！我不能现在松手！</speak>
+            <speak chara="einNoFace">……别这样。</speak>
+            <speak chara="einNoFace">……先照顾好你自己。我没事的。</speak>
+            <show chara="einLeftWeltCloseWinterClose" position="right" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text">在一波波绵延不绝，令人汗毛倒竖、冷汗直流的金属摩擦音中，天然卷少女的语气镇定如常。</p>
+                <br />
+                <p class="article-text">此时此刻，她正全神贯注，以稳定的节奏操作着怀中的“电子管功放器”。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">如果谁有幸见过水银在喇叭上震动的样子，那么他们可能会更容易理解，此时此刻，在瓦尔特等人的眼前，究竟发生了什么。随着释放微波的机械逐渐满负荷运转，画作的“保护膜”慢慢变得不透明起来，开始显露出金属特有的银白光泽。它们在画布上不断地渗出着、抖动着，像出汗一般，与原本的画面脱离开来。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">两分半。</p>
+                <br />
+                <p class="article-text">两分四十五。</p>
+                <br />
+                <p class="article-text">两分五十五。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">噪音越来越强，每一秒，都仿佛是在地狱穿行一个世纪那样漫长。</p>
+            </text>
+            <show chara="teslaAstonishGlassNoiseWinterClose" position="left"/>
+            <speak chara="teslaNoFace">喂！你这家伙！</speak>
+            <speak chara="teslaNoFace">快听话啊！</speak>
+            <speak chara="teslaNoFace">这样下去，你的耳朵会受不了的！</speak>
+            <show chara="teslaAstonishGlassNoiseWinterClose" position="left" opacity="0.7"/>
+            <show chara="einLeftWeltCloseWinterClose" position="right"/>
+            <speak chara="weltNoFace">不，但是……</speak>
+            <speak chara="einNoFace">别这样……</speak>
+            <speak chara="einNoFace">爱茵……不会有事的……</speak>
+            <show chara="einLeftWeltCloseWinterClose" position="right" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text">银色的“汗水”逐渐脱出画面，缓缓地在画布下方汇聚成了一粒樱桃大小的金属液滴。</p>
+                <br />
+                <p class="article-text">从两米多高的平面上萃取出一小块液态金属，这本应是相当壮观震撼的场面——如果没有那伴随而来的可怖噪音的话。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">如果一定要形容——用钢勺在钢精锅上使劲摩擦的声音大概和它的感觉最为接近。</p>
+                <br />
+                <p class="article-text">另外，拿指甲用力刮擦黑板、使用圆珠笔猛划尼龙伞，或许也能达到异曲同工的效果。</p>
+            </text>
+            <goto goto="15" change="#ffffff"/>
+        </scene>
+        <scene id="15" background="storage2.jpg">
+            <bgm src="themeWelt.mp3" status="start"></bgm>
+            <show chara="einLeftWeltOpenWinterClose" position="center"/>
+            <speak chara="einNoFace">……你……不用这样的。</speak>
+            <show chara="einLeftWeltSmileWinterClose" position="center"/>
+            <speak chara="weltNoFace">说什么……傻话……</speak>
+            <speak chara="weltNoFace">这是……我……</speak>
+            <speak chara="weltNoFace">唯一……能做的……事情……啊……</speak>
+            <speak chara="einNoFace">……傻瓜。</speak>
+            <speak chara="einNoFace">快坐下。别说话。</speak>
+            <show chara="einSeriousAhWinterClose" position="center"/>
+            <speak chara="einNoFace">安静休息一会儿。你的耳神经现在处于过载状态。</speak>
+            <show chara="einSeriousEmWinterClose" position="center" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">呜啊……</speak>
+            <text>特斯拉将手指拔出了自己的耳孔，用力甩了甩变得有些乱的双马尾。</text>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">好久没听过了，还真是刺激啊。</speak>
+            <show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einFoolWinterClose" position="center"/>
+            <speak chara="einNoFace">……</speak>
+            <show chara="einFoolWinterClose" position="center" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">我是知道你这家伙是天生就不怕金属摩擦音……</speak>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">……但那俩家伙可就惨了啊。</speak>
+            <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text">瓦尔特自不必说——</p>
+                <br />
+                <p class="article-text">夺门而逃的美术馆管理员更是不知去向。</p>
+            </text>
+            <show chara="einFoolWinterClose" position="center"/>
+            <speak chara="einNoFace">抱歉……是我解释得不够清楚。</speak>
+            <show chara="einNormalWinterClose" position="center"/>
+            <speak chara="einNoFace">正如特斯拉所说……我天生免疫这类噪音。</speak>
+            <show chara="einNormalWinterClose" position="center" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">那个有点讨厌的大叔姑且不论——</speak>
+            <hide position="left"/>
+            <show chara="teslaNormalGlassWinterClose" position="center"/>
+            <bgm src="8_24_war.mp3" status="start"></bgm>
+            <text>双马尾走到瓦尔特的身前，冲他狠狠地瞪了一眼。</text>
+            <show chara="teslaAngryGlassWinterClose" position="center"/>
+            <shake position="center" time="250"/>
+            <speak chara="teslaNoFace">你这家伙，纯粹就是逞能吧？我们让你堵好耳朵你为什么不听？</speak>
+            <show chara="teslaEmbarraGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">我知道你是担心她——可、是、她、还、真、就、不、怕、这、种、声、音、啊！</speak>
+            <show chara="teslaBiteGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">你为什么非要那么固执啊？嗯？</speak>
+            <show chara="teslaDisgustedGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">为什么不按我们说的，先保护你自己？</speak>
+            <show chara="teslaBiteGlassWinterClose" position="center"/>
+            <shake position="center" time="250"/>
+            <speak chara="teslaNoFace">我们懂得多还是你懂得多？</speak>
+            <show chara="teslaBiteGlassWinterClose" position="center"/>
+            <shake position="center" time="250"/>
+            <speak chara="teslaNoFace">我们是负责人还是你是负责人？</speak>
+            <show chara="teslaAngryGlassWinterClose" position="center"/>
+            <shake position="center" time="250"/>
+            <speak chara="teslaNoFace">你不要给我——</speak>
+            <show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousAhWinterClose" position="center"/>
+            <speak chara="einNoFace">特斯拉！</speak>
+            <text>天然卷大叫着双马尾的名字打断了她。</text>
+            <show chara="einNormalWinterClose" position="center"/>
+            <speak chara="einNoFace">瓦尔特……他的出发点是好的。</speak>
+            <show chara="einNormalWinterClose" position="center" opacity="0.7"/>
+            <show chara="teslaAstonishGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">……出发点？你身为一个研究者，现在要给我来动机论吗？爱因斯坦？</speak>
+            <show chara="teslaBiteGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">他这样子不听话，以后遇到更危险的情况怎么办？</speak>
+            <show chara="teslaDisgustedGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">你希望他溺死在自己所谓的“爱心”里吗？</speak>
+            <show chara="teslaDisgustedGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einFoolWinterClose" position="center"/>
+            <speak chara="einNoFace">……</speak>
+            <hide position="left"/>
+            <show chara="teslaBiteGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">你是助理，瓦尔特先生。</speak>
+            <show chara="teslaDisgustedGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">你的首要职责就是听话！我们说什么你就做什么！</speak>
+            <speak chara="teslaNoFace">收起你那些自以为是的“关爱之心”吧——</speak>
+            <show chara="teslaAngryGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">根本没那个必要！</speak>
+            <show chara="einFoolWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaBiteGlassWinterClose" position="center"/>
+            <shake position="center" time="250"/>
+            <speak chara="teslaNoFace">还有你！爱因斯坦！</speak>
+            <show chara="teslaDisgustedGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">以后不要再宠着他了！很恶心耶！</speak>
+            <hide position="right"/>
+            <hide position="center"/>
+            <text>她愤愤地踏着大步，头也不回地走掉了。</text>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="carNoon.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="start"></bgm>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <text>窝在计程车的后座里，青年依旧对双马尾博士的暴怒心有余悸。</text>
+            <show chara="weltDarkWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">那个……我……</speak>
+            <show chara="weltDarkWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">放宽心。</speak>
+            <text>天然卷少女望着另一侧的窗外，头也不回地说道。</text>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">她只是脾气大罢了。</speak>
+            <show chara="einSmileWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltDarkWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">但是……我自己……的确也过于固执了。</speak>
+            <show chara="weltDarkWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSeriousAhWinterClose-up" position="right"/>
+            <speak chara="einNoFace">今天以内，禁止你道歉。</speak>
+            <show chara="einSeriousEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……唉？</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSeriousAhWinterClose-up" position="right"/>
+            <speak chara="einNoFace">不要火上浇油。回去以后你就当无事发生。</speak>
+            <show chara="einSeriousEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……啊？</speak>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">放心。她不会找你茬的。特斯拉才不是那种小肚鸡肠的人。</speak>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">倒不如说……</speak>
+            <speak chara="einNoFace">这个时候，她正在哪里的酒吧喝个痛快也说不定呢——</speak>
+            <speak chara="einNoFace">——为了消解自己刚才对我们大发脾气的罪恶感。</speak>
+            <show chara="einSmileWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="carMorning.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <text>计程车在一个金色的雕像附近转向，沿着北侧的林荫道继续行驶。</text>
+            <text>左侧的车窗外有一幢四四方方的古典建筑，上面插着一面花得让人看不清图案的旗子。</text>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">白金汉宫。</speak>
+            <text>少女指着那幢四四方方的古典建筑说道。</text>
+            <speak chara="einNoFace">挂着那面君主旗，说明女王正在宫中。</speak>
+            <show chara="einNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">君主旗上的四个色块分别代表英格兰、苏格兰、北爱尔兰和海外领地。</speak>
+            <speak chara="einNoFace">因为威尔士亲王是王储的头衔，所以君主旗里并没有红龙的元素。</speak>
+            <show chara="einNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einFoolWinterClose-up" position="right"/>
+            <speak chara="einNoFace">……你大概并不想听这些有的没的东西吧。心情一时半会儿转不过来吗？</speak>
+            <show chara="einFoolWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltTiredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einFoolWinterClose-up" position="right"/>
+            <speak chara="einNoFace">唉。看来你是被那家伙吓得不轻。</speak>
+            <show chara="einFoolWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltDarkWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltDarkWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWinterClose-up" position="right"/>
+            <speak chara="einNoFace">没事啦。</speak>
+            <show chara="einFoolWinterClose-up" position="right"/>
+            <speak chara="einNoFace">我说过的——那个人虽然暴脾气，但气头过去也就没事了。</speak>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">倒是你自己，下次见到她的时候，千万千万，可不要畏畏缩缩的。</speak>
+            <show chara="einFoolWinterClose-up" position="right"/>
+            <speak chara="einNoFace">那样她估计反而会讨厌你。</speak>
+            <show chara="einSlyWinterClose-up" position="right"/>
+            <speak chara="einNoFace">对了。魂钢既然已经取到，是时候让你拜会一下我们42实验室的“公主殿下”了。</speak>
+            <show chara="einSlyWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……？</speak>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einFoolWinterClose-up" position="right"/>
+            <speak chara="einNoFace">不是我。</speak>
+            <show chara="einSlyWinterClose-up" position="right"/>
+            <speak chara="einNoFace">当然，更不是那个暴脾气。</speak>
+            <show chara="einSlyWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">所以……</speak>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einLveWinterClose-up" position="right"/>
+            <speak chara="einNoFace">现 · 在 · 保 · 密 ~</speak>
+            <show chara="einSlyWinterClose-up" position="right"/>
+            <text>少女故弄玄虚地笑了笑，不再作答。</text>
+            <goto goto="35" change="#ffffff"/>
+        </scene>
+        <scene id="35" background="londonStreet.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <text>计程车绕过了威灵顿拱门，沿着骑士桥笔直西行。</text>
+            <text>在这个深秋的傍晚，路边积水反射出的清冷霞光，不禁使人联想起一句两千多年前的不吉诗篇——</text>
+            <text remark="next">“苍白的死神平等地叩响穷人房舍的小门和国王宫殿的大门。”</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">"Pale Death beats equally at the poor man's gate and at the palaces of kings."</p>
+                <p class="article-text">此句来自古罗马诗人贺拉斯（Quintus Horatius Flaccus, 65 BC ~ 8 BC），拉丁语原文为“PALLIDA MORS AEQVO PVLSAT PEDE PAVPERVM TABERNAS REGVMQVE TVRRIS”。</p>
+            </remark>
+            <text>少女摇开车窗，目光转向了路对面的海德公园。</text>
+            <text>就要回到熟悉的帝国研究院了。</text>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="studyDay.jpg">
+            <bgm src="serenity.mp3" status="start"></bgm>
+            <sound src="key.mp3"/>
+            <text>42实验室的门牢牢地锁着，三人的手提箱横七竖八地丢在门厅的中央。</text>
+            <text>并没有前脚有人回来过的迹象。</text>
+            <show chara="einSlyWinterClose" position="center"/>
+            <speak chara="einNoFace">果然是去哪里的酒吧了吧。不用管她——</speak>
+            <show chara="einSmileWinterClose" position="center"/>
+            <speak chara="einNoFace">啊，这些行李也先不用管。</speak>
+            <show chara="einNormalWinterClose" position="center"/>
+            <speak chara="einNoFace">跟我来。</speak>
+            <hide position="center"/>
+            <text>心中有所计划的天然卷转向了右侧的走廊——</text>
+            <text>那个瓦尔特使终搞不清用途的区域。</text>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="adaDoor.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="einSlyWinterClose" position="right"/>
+            <speak chara="einNoFace">你应该很在意吧。</speak>
+            <show chara="einSlyWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose" position="left"/>
+            <speak chara="weltNoFace">不……那倒也不至于——</speak>
+            <show chara="weltNormalWinterClose" position="left" opacity="0.7"/>
+            <show chara="einFoolWinterClose" position="right"/>
+            <speak chara="einNoFace">那就是【特别在意】吧。</speak>
+            <show chara="einFoolWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose" position="left"/>
+            <speak chara="weltNoFace">不……怎么说呢——</speak>
+            <show chara="weltSurpriseWinterClose" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterClose" position="right"/>
+            <speak chara="einNoFace">我懂了。是【非常在意】。</speak>
+            <speak chara="einNoFace">非常、非常、非常在意。</speak>
+            <show chara="einSlyWinterClose" position="right"/>
+            <speak chara="einNoFace">对吧？</speak>
+            <show chara="einSlyWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <text>面对这种突如其来而又莫名其妙的固执，青年只好露出一副“败给你了”的表情。</text>
+            <show chara="weltTiredWinterClose" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterClose" position="right"/>
+            <speak chara="einNoFace">嗯嗯，我知道我知道。</speak>
+            <text>天然卷装模作样地点点头。</text>
+            <show chara="einSlyWinterClose" position="right"/>
+            <speak chara="einNoFace">来吧。感动到哭泣吧。</speak>
+            <speak chara="einNoFace">激动到脱衣庆祝吧。</speak>
+            <speak chara="einNoFace">是时候让你在42实验室的王牌面前五体投地了。</speak>
+            <text>她说这些话时——</text>
+            <text>那种往常的、一贯的、毫无感情色彩的无机质腔调——</text>
+            <text>配合着那谜一样的微笑，显得非常欠扁。</text>
+            <sound src="10_25_key1.mp3"/>
+            <text>……而且，这人还保持住插进钥匙的动作，就是不转动它。</text>
+            <show chara="einSlyWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="left"/>
+            <speak chara="weltNoFace">……从刚才开始，你是不是就在存心拿我开玩笑？</speak>
+            <text>可怜的青年哭笑不得地耸着肩膀。</text>
+            <show chara="weltTiredWinterClose" position="left" opacity="0.7"/>
+            <show chara="einSlyWinterClose" position="right"/>
+            <speak chara="einNoFace">当然。</speak>
+            <sound src="10_25_key2.mp3"/>
+            <text>似乎是听到了满意的答复，少女微笑着转动了钥匙。</text>
+            <goto goto="60" change="#000000"/>
+        </scene>
+        <scene id="60" background="adaRoom.jpg">
+            <bgm src="10_25_ada.mp3" status="start"></bgm>
+            <show chara="adaSpot" position="center"/>
+            <sound src="10_25_equipment.mp3"/>
+            <text>门打开的瞬间，瓦尔特有些疑惑自己究竟面对着什么。</text>
+            <text>一团虚无飘渺的粉色荧光，正像某种幻界生物的心脏一样，在缓缓搏动。</text>
+            <text>背景里，一排一排如同电话交换机一样的装置发出恼人的电子嗡嗡声；无数明明灭灭的指示灯在黑暗中兀自闪烁。</text>
+            <hide position="center"/>
+            <sound src="10_25_taylormin.mp3"/>
+            <text remark="next">未几，荧光突然消失；一阵好似泰勒明电子琴的音阶声莫名响起。</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">泰勒明（Терменво́кс，英语：Theremin）是世界最早的电子乐器之一，由俄国发明家泰勒明发明于1919年。</p>
+                <p class="article-text">由于音色特殊，早期许多电影的恐怖气氛都是用它来营造的。</p>
+            </remark>
+            <show chara="einSmileWinterFar" position="right"/>
+            <speak chara="einNoFace">下午好，艾妲。</speak>
+            <text>对此毫不奇怪的少女，向之前荧光所在的位置打了一个招呼。</text>
+            <show chara="einSmileWinterFar" position="right" opacity="0.7"/>
+            <show chara="adaDimFar" position="center"/>
+            <speak chara="adaNoFace">下午好，爱因斯坦博士。</speak>
+            <speak chara="adaNoFace">啊，助理先生也是——下午好。</speak>
+            <text>传来陌生声音的方向，如魔法般幻化出一个可爱的人形，向二人颔首致意。</text>
+            <show chara="adaDimFar" position="center" opacity="0.7"/>
+            <show chara="weltSurpriseWinterFar" position="left"/>
+            <speak chara="weltNoFace">你……你好……</speak>
+            <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterFar" position="right"/>
+            <speak chara="einNoFace">艾妲，给这家伙自我介绍一下。形象仿真系统我已经都打开了。</speak>
+            <text>天然卷少女一边调试着那些“电话交换机”，一边头也不回地说道。</text>
+            <show chara="einSmileWinterFar" position="right" opacity="0.7"/>
+            <show chara="adaDimFar" position="center"/>
+            <speak chara="adaNoFace">好的！</speak>
+            <show chara="adaSmileFar" position="center" time="2000"/>
+            <text>荧光构成的人形渐渐清晰起来，仿佛真实存在的童话角色一般，轻轻地飘在屋子中央。</text>
+            <speak chara="adaNoFace">你好，我是终端界面试作品0042号，人类名字是艾妲。</speak>
+            <speak chara="adaNoFace">A ~ D ~ A ~ </speak>
+            <speak chara="adaNoFace">艾——妲。</speak>
+            <text remark="next">她对自己名字的最后一个音节的读法，仿佛是用舌尖从上颚刻意下弹，令瓦尔特有些尴尬地联想起最近在法国出版的一部争议小说。</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“洛——丽——塔：舌尖向上，分三步，从上颚往下轻轻落在牙齿上。洛。丽。塔。”</p>
+                <p class="article-text">1955年9月，博纳科夫的著名小说《洛丽塔》由巴黎奥林匹亚出版社首次出版。</p>
+            </remark>
+            <speak chara="adaNoFace" remark="next">如果你需要使用“洛夫莱斯系统”的话，可以把需要解决的问题交给我。</speak>
+            <remark post="U2FsdGVkX19KCkqzXcU6dkLDzO7a">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">诗人拜伦的女儿、洛夫莱斯伯爵夫人奥古斯塔·艾妲·金·诺尔（Ada Lovelace）是人类历史上的第一位电脑程序员。</p>
+            </remark>
+            <show chara="adaSmileFar" position="center" opacity="0.7"/>
+            <show chara="weltNormalWinterFar" position="left"/>
+            <speak chara="weltNoFace">洛夫莱斯系统是什么？</speak>
+            <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
+            <show chara="adaNormalFar" position="center"/>
+            <speak chara="adaNoFace">ⵥ·ⵋ·ⵐ·ⵐ·ⵥ·ⵋ·ⵥ</speak>
+            <text>艾妲用荧光在空中写了一行意味不明的字符。</text>
+            <show chara="adaSmileFar" position="center"/>
+            <speak chara="adaNoFace">“JSZZJSJ”，如果用你们的语言，就是这样的一个缩写。</speak>
+            <show chara="adaSmileFar" position="center"/>
+            <speak chara="adaNoFace">大家都觉得这个称谓实在是太难念了，所以起了“洛夫莱斯系统”这样的别称。</speak>
+            <show chara="adaSmileFar" position="center" opacity="0.7"/>
+            <show chara="weltSurpriseWinterFar" position="left"/>
+            <speak chara="weltNoFace">等等……</speak>
+            <show chara="weltTiredWinterFar" position="left"/>
+            <speak chara="weltNoFace">……刚才那个克苏鲁风味的缩写是怎么回事啦。J什么S什么Z什么的。</speak>
+            <show chara="weltTiredWinterFar" position="left" opacity="0.7"/>
+            <show chara="adaNormalFar" position="center"/>
+            <speak chara="adaNoFace">ⵥⵙⵎ ⵋⴱⴳ ⵐⵓⴽⴸ ⵐ ⵥⵛⵌⴱⴴⵙⴸ ⵋⵓⵖⴱ ⵥⴶ</speak>
+            <text>艾妲续写了一行更加不明所以的字符。</text>
+            <speak chara="adaNoFace" remark="next">Jhona Shiba Zhulaka ZhaJhyurhipoka Shuvi Jhaha. </speak>
+            <remark post="U2FsdGVkX197im1hVEKWIqLnBHyl">
+                <p class="article-text-h" style="text-decoration:line-through">注：</p>
+                <p class="article-text" style="text-decoration:line-through">技（J）术（S）宅（Z）拯（Z）救（J）世（S）界（J）。</p>
+            </remark>
+            <show chara="adaSmileFar" position="center"/>
+            <speak chara="adaNoFace" remark="next">“大型主要快速的崩坏能计算系统”，翻译过来应该是这样的。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">内政部大型重要查询系统，Home Office Large Major Enquiry System，简称“HOLMES”，是一个英国警察部门用于调查重大案件的信息技术系统。</p>
+                <p class="article-text">与我们这里有关的是，它的全名是英国人为了HOLMES（福尔摩斯）这个缩写而故意拼凑的。</p>
+            </remark>
+            <show chara="adaSmileFar" position="center" opacity="0.7"/>
+            <show chara="weltTiredWinterFar" position="left"/>
+            <speak chara="weltNoFace">……我放弃了。</speak>
+            <text>青年绝望地看着这一通鬼画符——</text>
+            <show chara="weltNormalWinterFar" position="left"/>
+            <speak chara="weltNoFace">还是告诉我你平常能做什么吧。</speak>
+            <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
+            <show chara="adaSmileFar" position="center"/>
+            <speak chara="adaNoFace">天气预报、武器性能估算、解析魂钢数据……</speak>
+            <show chara="adaSmileAhFar" position="center"/>
+            <speak chara="adaNoFace">根据“平常”的定义，就是这些了。</speak>
+            <show chara="adaSmileFar" position="center" opacity="0.7"/>
+            <show chara="weltSurpriseWinterFar" position="left"/>
+            <speak chara="weltNoFace">……我不知道这样概括对不对……</speak>
+            <text>青年托着下巴思考了一番——</text>
+            <show chara="weltNormalWinterFar" position="left"/>
+            <speak chara="weltNoFace">也就是说——你和其他实验室的……嗯，那种特别大的计算机……是差不多的东西？</speak>
+            <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
+            <show chara="adaSmileAhFar" position="center"/>
+            <speak chara="adaNoFace">它们的确是我的同类。尽管相当原始。</speak>
+            <text>对方轻描淡写地评判着当代最尖端的计算设备。</text>
+            <show chara="adaSmileAhFar" position="center" opacity="0.7"/>
+            <show chara="weltScaredWinterFar" position="left"/>
+            <speak chara="weltNoFace">……原始？</speak>
+            <show chara="weltScaredWinterFar" position="left" opacity="0.7"/>
+            <show chara="adaSmileFar" position="center"/>
+            <speak chara="adaNoFace">维持这个一级智能交互界面，目前占据了我核心模块性能的99%。</speak>
+            <show chara="adaSmileAhFar" position="center"/>
+            <speak chara="adaNoFace" remark="next">尽管如此，那些设备的计算能力依然和我这剩余的1%，相差13个十进制数量级。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">1954年的超级计算机“IBM NORC”每秒能进行约67000次基本运算，而2016年的超级计算机“神威·太湖之光”每秒能进行约93000000000000000次浮点运算。</p>
+            </remark>
+            <show chara="adaSmileFar" position="center" opacity="0.7"/>
+            <show chara="weltSurpriseWinterFar" position="left"/>
+            <speak chara="weltNoFace">……13个数量级？</speak>
+            <text>不太擅长数学的瓦尔特对于这类大数字毫无概念。</text>
+            <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
+            <show chara="adaSmileFar" position="center"/>
+            <speak chara="adaNoFace">十万亿。</speak>
+            <speak chara="adaNoFace">每当我计算这么多次的时候，它们才能计算一次。</speak>
+            <show chara="adaSmileAhFar" position="center"/>
+            <speak chara="adaNoFace">或者说，我的1秒钟，等于它们的10万年。</speak>
+            <show chara="adaSmileFar" position="center" opacity="0.7"/>
+            <show chara="weltScaredWinterFar" position="left"/>
+            <speak chara="weltNoFace">什……</speak>
+            <show chara="weltScaredWinterFar" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterFar" position="right"/>
+            <speak chara="einNoFace">不用惊讶。</speak>
+            <show chara="einSmileWinterFar" position="right"/>
+            <speak chara="einNoFace">艾妲不属于这个时代。</speak>
+            <show chara="einSmileWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterFar" position="left"/>
+            <speak chara="weltNoFace">不属于这个时代……</speak>
+            <show chara="weltScaredWinterFar" position="left"/>
+            <speak chara="weltNoFace">……你是说？</speak>
+            <show chara="weltScaredWinterFar" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterFar" position="right"/>
+            <speak chara="einNoFace">没错。前文明的产物。</speak>
+            <show chara="einFoolWinterFar" position="right" />
+            <speak chara="einNoFace">这也是42实验室雇佣埃里阿斯·诺基安维塔宁博士的根本原因。</speak>
+            <show chara="einFoolWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterFar" position="left"/>
+            <speak chara="weltNoFace">根本原因……</speak>
+            <show chara="weltShameWinterFar" position="left"/>
+            <speak chara="weltNoFace">你是说，是他给艾妲……</speak>
+            <show chara="weltShameWinterFar" position="left" opacity="0.7"/>
+            <show chara="einFoolWinterFar" position="right" />
+            <speak chara="einNoFace">没错……基本就是……家庭教师。</speak>
+            <text>少女有些无奈地耸耸肩——</text>
+            <show chara="einSlyWinterFar" position="right" />
+            <speak chara="einNoFace">艾妲的名字、形象、行为方式……全都是那家伙的口味哟。</speak>
+            <show chara="einSlyWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterFar" position="left"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <text>青年感受到了来自脊骨深处的一阵恶寒。</text>
+            <goto goto="71" change="#ffffff"/>
+        </scene>
+        <scene id="71" background="adaRoom.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="adaSmileAhFar" position="center"/>
+            <speak chara="adaNoFace">魂钢里的记录不需要翻译，爱因斯坦博士、瓦尔特助理。</speak>
+            <show chara="adaSmileFar" position="center" opacity="0.7"/>
+            <show chara="weltScaredWinterFar" position="left"/>
+            <speak chara="weltNoFace">……啥？！</speak>
+            <show chara="weltScaredWinterFar" position="left" opacity="0.7"/>
+            <show chara="adaSmileAhFar" position="center"/>
+            <speak chara="adaNoFace">记录共有两份。</speak>
+            <speak chara="adaNoFace">其一是本世代的影像资料，其二是用数学方法加密的某种数据。</speak>
+            <show chara="adaSmileFar" position="center" opacity="0.7"/>
+            <show chara="einSeriousAhWinterFar" position="right" />
+            <speak chara="einNoFace">……不意外。先展示影像资料吧。</speak>
+            <show chara="einSeriousEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="adaNormalFar" position="center"/>
+            <speak chara="adaNoFace">好的。</speak>
+            <goto goto="76" change="#ffffff"/>
+        </scene>
+        <scene id="76" background="casterCave.jpg">
+            <bgm src="10_25_ada.mp3" status="start"></bgm>
+            <text article="1">
+                <p class="article-text">话音未落，艾妲的童话少女形象就消失了——取而代之的是海市蜃楼似的幻影。</p>
+                <br />
+                <p class="article-text">……那是一个洞穴，看起来与黄石遗迹颇为相似。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">一个人影出现在了视野之中。</p>
+                <br />
+                <p class="article-text">是一位黑发的大姐姐。</p>
+                <br />
+                <p class="article-text">她穿着古代的女武神制服，浑身满是血污。</p>
+            </text>
+            <goto goto="82" change="0"/>
+        </scene>
+        <scene id="82" background="CG8.jpg">
+            <bgm src="10_25_ada.mp3" status="continue"></bgm>
+            <speak chara="haNoNameNoFace">……应该已经开始录制了吧。</speak>
+            <text>幻影中的大姐姐深吸了一口气。</text>
+            <speak chara="haNoNameNoFace">我是……H.A。看到这个，意味着你已经初步解开了我留下的谜题。</speak>
+            <speak chara="haNoFace">哈哈哈……我甚至不知道，究竟是应该恭喜你，抑或是诅咒你。</speak>
+            <speak chara="haNoFace">我猜测你知道“天命”这样一个组织。也许你就是他们的一员。</speak>
+            <speak chara="haNoFace">哦，甚至，你可能就是奥托·阿波卡利斯本人。</speak>
+            <speak chara="haNoFace">如果竟然真是最后这种情况的话，那我大概还真的需要感谢一下神明了。</speak>
+            <speak chara="haNoFace">……哈哈哈哈哈哈哈。</speak>
+            <speak chara="weltNoFace">奥托……阿波卡利斯？</speak>
+            <text>这个名字，瓦尔特有些耳熟。</text>
+            <sound src="9_28_sheeee.mp3"/>
+            <speak chara="einNoFace">嘘。</speak>
+            <text>爱因斯坦皱着眉头，示意他不要发出声音。</text>
+            <speak chara="haNoFace">你一定知道“崩坏”是什么。</speak>
+            <text>影像中的H.A自然不可能和他们互动，只是顺着自己的步调述说着。</text>
+            <speak chara="haNoFace">你也一定知道，天命组织的信仰，就是将崩坏从地球上连根铲除。</speak>
+            <speak chara="haNoFace">不过……</speak>
+            <speak chara="haNoFace">很不幸，这是无法办到的。</speak>
+            <speak chara="haNoFace">你可能认为我只不过是被消极的情绪冲昏了头脑。</speak>
+            <speak chara="haNoFace">不，不是这样的。</speak>
+            <speak chara="haNoFace">在“最后的魂钢”里，你将找到无可辩驳的残酷证据。</speak>
+            <speak chara="haNoFace">请做好这样的心理准备。</speak>
+            <speak chara="haNoFace">啊……我知道你现在一定在疑惑些什么。</speak>
+            <speak chara="haNoFace">如你所想。现在你发现的这块魂钢，并不是我所说的“最后的魂钢”。</speak>
+            <speak chara="haNoFace">它是我转存的。一段影像……还有，附带一条密码信息。</speak>
+            <speak chara="haNoFace">试着解开它吧。向我证明你的技术力。</speak>
+            <goto goto="93" change="#ffffff"/>
+        </scene>
+        <scene id="93" background="adaRoom.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="adaSmileFar" position="center"/>
+            <speak chara="adaNoFace">在播放录像的时候我分析了她所说的密码信息的加密方式。</speak>
+            <text>恢复了拟人形象的艾妲报告道。</text>
+            <show chara="adaNormalFar" position="center"/>
+            <speak chara="adaNoFace" remark="next">我猜测是利用了有限域中椭圆曲线上的离散对数。</speak>
+            <remark post="U2FsdGVkX19S8bzKHNuaPD0XARXO">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">椭圆曲线密码（ECC）是一种如今已颇为常见的加密技术。</p>
+                <p class="article-text">这里的椭圆曲线，是指形如y^2 = x^3 + ax + b的代数曲线，而不是圆锥曲线中的椭圆。椭圆曲线之所以叫“椭圆曲线”，是因为形如x^3 + ax + b的式子会出现在积分计算椭圆弧长的过程中；而椭圆弧长不能用基本函数表示的原因也与之有关。椭圆曲线也是证明费马大定理的关键跳板——其在代数学中的重要性可见一斑。</p>
+                <p class="article-text">ECC相对于另一种常见的加密技术RSA（因数分解密码）更难破解。举例来说，美国国家标准与技术局建议的最小密钥长度，ECC是160位，而RSA是1024位。</p>
+            </remark>
+            <show chara="adaSmileAhFar" position="center"/>
+            <speak chara="adaNoFace">鉴于目前并没有这个领域的参考资料，初步估计，暴力破解需要花费三个月的时间。</speak>
+            <show chara="adaSmileFar" position="center" opacity="0.7"/>
+            <show chara="einSeriousAhWinterFar" position="right" />
+            <speak chara="einNoFace">满负荷运转呢？</speak>
+            <show chara="einSeriousEmWinterFar" position="right"/>
+            <text>爱因斯坦的眉头又皱了起来。</text>
+            <show chara="einSeriousEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="adaNormalFar" position="center"/>
+            <speak chara="adaNoFace">如果暂停其他一切既定安排和日常机能，仍然需要约四周的时间。</speak>
+            <show chara="adaNormalFar" position="center" opacity="0.7"/>
+            <show chara="einSeriousEmWinterFar" position="right"/>
+            <speak chara="einNoFace">……</speak>
+            <show chara="einSeriousEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="adaNormalFar" position="center"/>
+            <speak chara="adaNoFace">爱因斯坦博士……这是很紧急的任务吗？</speak>
+            <show chara="adaNormalFar" position="center" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">呼……</speak>
+            <text>天然卷少女深吸了一口气——</text>
+            <show chara="einSmileWinterFar" position="right" />
+            <speak chara="einNoFace">不，我只是被好奇心绑架了而已。</speak>
+            <show chara="einSmileWinterFar" position="right" opacity="0.7"/>
+            <show chara="adaSmileAhFar" position="center"/>
+            <speak chara="adaNoFace">那么，我们调整日程安排吗？</speak>
+            <show chara="adaSmileAhFar" position="center" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="right" />
+            <speak chara="einNoFace">瓦尔特。</speak>
+            <show chara="einNormalWinterFar" position="center" />
+            <show chara="adaSmileAhFar" position="right" opacity="0.7"/>
+            <text>爱因斯坦突然靠近一步，双眼直勾勾地盯着这个无助于解决谜题的男人。</text>
+            <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
+            <show chara="weltShyWinterFar" position="left"/>
+            <speak chara="weltNoFace">……呃——在？</speak>
+            <text>从刚才开始就跟不上步调的青年吓得退了个趔趄。</text>
+            <show chara="weltShyWinterFar" position="left" opacity="0.7"/>
+            <show chara="einSlyWinterFar" position="center" />
+            <text>出乎他意料地，少女的脸上露出了一丝邪恶的微笑。</text>
+            <show chara="einSmileWinterFar" position="center" />
+            <speak chara="einNoFace">这段时间就拜托你啦。好好地负起责任吧？</speak>
+            <show chara="einSmileWinterFar" position="center" opacity="0.7"/>
+            <show chara="weltShameWinterFar" position="left"/>
+            <speak chara="weltNoFace">……啊？</speak>
+            <speak chara="weltNoFace">……等等等等，你说啥？</speak>
+            <end post="U2FsdGVkX19rqEwKMZHDErhJDSEv"/>
+        </scene>
+    </story>
+</data>

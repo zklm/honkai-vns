@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="alexandriaPalace.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="neithLaughFar" position="center"/>
+            <speak chara="_Neith">会长姐姐！等一等！</speak>
+            <hide position="center"></hide>
+            <show chara="shelleyBoredFar" position="left"/>
+            <speak chara="_ShelleyCareer">你是……？</speak>
+            <show chara="shelleyBoredFar" position="left" opacity="0.8"/>
+            <show chara="micheFocusFar" position="right"/>
+            <speak chara="_MichelCareer">涅伊特？</speak>
+            <show chara="micheSeriousFar" position="right"/>
+            <speak chara="_MichelCareer">……商博良侦探遇到什么麻烦了吗？</speak>
+            <show chara="micheSeriousFar" position="right" opacity="0.8"/>
+            <show chara="neithComplainFar" position="left"/>
+            <speak chara="_Neith">当然有啦！你听我说啊！</speak>
+            <show chara="neithScaredFar" position="left"/>
+            <speak chara="_Neith">我们一路向西追踪绑架犯留下的痕迹，最后发现他们的基地竟然在一片硫磺湖的中心！</speak>
+            <show chara="neithComplainFar" position="left"/>
+            <speak chara="_Neith">没错！硫磺湖！全都是毒气！硫化氢！</speak>
+            <show chara="neithComplainFar" position="left" opacity="0.8"/>
+            <show chara="micheSeriousFar" position="right"/>
+            <speak chara="_MichelCareer">……！</speak>
+            <show chara="micheSeriousFar" position="right" opacity="0.8"/>
+            <show chara="shelleyShockedFar" position="left"/>
+            <speak chara="_ShelleyCareer">……是阿拉曼附近的火山地区吗。</speak>
+            <show chara="shelleyColdFar" position="left"/>
+            <speak chara="_ShelleyCareer">……的确是那个被“抹煞记录”之人所能做到的事情。</speak>
+            <show chara="shelleyArrogantFar" position="left"/>
+            <speak chara="_ShelleyCareer">小姑娘……你是叫“涅伊特”吧？</speak>
+            <show chara="shelleyArrogantFar" position="left" opacity="0.8"/>
+            <show chara="neithSmileFar" position="right"/>
+            <speak chara="_Neith">嗯？</speak>
+            <show chara="neithSmileFar" position="right" opacity="0.8"/>
+            <show chara="shelleySmileFar" position="left"/>
+            <speak chara="_ShelleyCareer">……拿着这个单子去找预备役司令部的侯赛因司令。还有这个单子，给市政装备部的托勒密所长。他们会想办法配齐你需要的人手、还有装备。</speak>
+            <show chara="shelleySmileFar" position="left" opacity="0.8"/>
+            <show chara="neithScaredFar" position="right"/>
+            <speak chara="_Neith">……唔！真痛快！</speak>
+            <show chara="neithLaughFar" position="right"/>
+            <speak chara="_Neith">帮大忙喽！谢谢啦！</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="neithSmileFar" position="center"/>
+            <speak chara="_Neith">会长姐姐，拜拜！</speak>
+            <goto goto="15" change="#000000"/>
+        </scene>
+        <scene id="15" background="alexandriaPalace.jpg">
+            <bgm src="01_18_tango.mp3" status="continue"></bgm>
+            <show chara="shakesLaughFar" position="center"/>
+            <speak chara="_ShakespeareCareer">真是个充满活力的孩子呢。</speak>
+            <show chara="shakesSmileFar" position="center"/>
+            <speak chara="_ShakespeareCareer">……不过，身为这座科技都市的“领袖”，您竟然不打算派出“最值得信赖”的机器人部队吗？雪莱会长？</speak>
+            <hide position="center"></hide>
+            <show chara="shelleyBoredFar" position="left"/>
+            <speak chara="_Shelley">……终于来了啊，莎士比亚新晋会员。</speak>
+            <show chara="shelleyColdFar" position="left"/>
+            <speak chara="_Shelley">悠哉游哉的，难道你就一点儿也不担心自己的船员吗？</speak>
+            <show chara="shelleyColdFar" position="left" opacity="0.8"/>
+            <show chara="shakesSmileFar" position="right"/>
+            <speak chara="_Shakespeare">只要这座城市的警察系统足够值得信赖——那我就完全没有必要担心什么呀。</speak>
+            <show chara="shakesSmileFar" position="right" opacity="0.8"/>
+            <show chara="shelleyColdFar" position="left"/>
+            <speak chara="_Shelley">……啧。说吧，你到底想要参与什么。</speak>
+            <show chara="shelleyColdFar" position="left" opacity="0.8"/>
+            <show chara="shakesSweatyFar" position="right"/>
+            <speak chara="_Shakespeare">……您这算是一种“明知故问”吗？</speak>
+            <show chara="shakesConfidentFar" position="right"/>
+            <speak chara="_Shakespeare">那好吧……既然如此，不如让我也“明知故问”一下。</speak>
+            <show chara="shakesConfidentFar" position="right" opacity="0.8"/>
+            <show chara="shelleyBoredFar" position="left"/>
+            <speak chara="_Shelley">……。</speak>
+            <show chara="shelleyBoredFar" position="left" opacity="0.8"/>
+            <show chara="shakesColdFar" position="right"/>
+            <speak chara="_Shakespeare">会长女士，您和馆长小姐应该也考虑到了“某种”棘手的情况吧。</speak>
+            <show chara="shakesQuestionFar" position="right"/>
+            <speak chara="_Shakespeare">不然，逮捕一伙绑架犯，为什么要动用预备役的【真实人类】呢？您二十年前大获成功的竞选策略，不就是“利用人工智能的技术优势开展改革，从各类高危职业中保护服务者与被服务者的安全”吗？</speak>
+            <show chara="shakesDisgustedFar" position="right"/>
+            <speak chara="_Shakespeare">而且，即使不谈这些【真实人类】们自身将要承担的风险——作为预备役，他们都多少年没有参加过实战了？为什么您会觉得：恰恰是调用他们，才能稳妥解决这次的绑架事件呢？</speak>
+            <show chara="shakesDisgustedFar" position="right" opacity="0.8"/>
+            <show chara="micheFocusFar" position="left"/>
+            <speak chara="_Michel">……</speak>
+            <show chara="micheSeriousFar" position="left"/>
+            <speak chara="_Michel">所以你不和商博良侦探她们直接汇合，却专程来找我们——有何高见，不妨直说。</speak>
+            <show chara="micheSeriousFar" position="left" opacity="0.8"/>
+            <show chara="shelleyColdFar" position="left"/>
+            <speak chara="_Shelley">这里不是剧场，我们并不需要你那些徒有其表的装腔作势和哑谜。</speak>
+            <show chara="shelleyColdFar" position="left" opacity="0.8"/>
+            <show chara="shakesLaughFar" position="right"/>
+            <speak chara="_Shakespeare">哈哈哈哈！没问题、没问题。</speak>
+            <show chara="shakesSmileFar" position="right"/>
+            <speak chara="_Shakespeare">不过……既然是有话直说——那倒不如把“话筒”交给最权威的专家，你们说是吧？</speak>
+            <show chara="shakesSmileFar" position="right" opacity="0.8"/>
+            <show chara="shelleyShockedFar" position="left"/>
+            <speak chara="_Shelley">……？</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="alexandriaPalace.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="start"></bgm>
+            <sound src="02_03_highheels.mp3"/>
+            <show chara="ironWhiteSwordFar" position="center"/>
+            <speak chara="_SchrodingerNoName">所谓智慧，多半并不是观察到之前没有人注意的东西——</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="CG8-1-2.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+            <speak chara="_SchrodingerNoName">而是从每个人都司空见惯的事物中——</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="CG8-1-3.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+            <speak chara="_SchrodingerNoName">——提炼出从来没人有考虑过的新思维。</speak>
+            <speak chara="_Schrodinger">我是埃尔温·蕾安娜·薛定谔，来自深渊的位面旅行者。</speak>
+            <goto goto="50" clockwise="1"/>
+        </scene>
+        <scene id="50" background="alexandriaPalace.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+            <show chara="micheSeriousFar" position="left"/>
+            <speak chara="_Michel">……。</speak>
+            <show chara="micheSeriousFar" position="left" opacity="0.8"/>
+            <show chara="shelleyShockedFar" position="right"/>
+            <speak chara="_Shelley">“位面旅行者”？你究竟是什么人？</speak>
+            <show chara="shelleyAngryFar" position="right"/>
+            <speak chara="_Shelley">……不对，你究竟是【什么】？</speak>
+            <show chara="shelleyAngryFar" position="right" opacity="0.8"/>
+            <show chara="schroSeriousFar" position="left"/>
+            <speak chara="_Schrodinger">……人类。</speak>
+            <show chara="schroTalkFar" position="left"/>
+            <speak chara="_Schrodinger">虽然，严格来说，现在只是丧失了量子分布幺正性的拟态生物。</speak>
+            <show chara="schroSmileFar" position="left"/>
+            <speak chara="_Schrodinger">……你就当我是从其他世界【跃迁】而来的幽灵吧。</speak>
+            <show chara="schroSmileFar" position="left" opacity="0.8"/>
+            <show chara="shelleyShockedFar" position="right"/>
+            <speak chara="_Shelley">……</speak>
+            <show chara="shelleyShockedFar" position="right" opacity="0.8"/>
+            <show chara="schroTalkFar" position="left"/>
+            <speak chara="_Schrodinger">认识这把剑吗？它的名字叫做“幽兰黛尔”。</speak>
+            <show chara="schroTalkFar" position="left" opacity="0.8"/>
+            <show chara="shelleyBoredFar" position="right"/>
+            <speak chara="_Shelley">……？</speak>
+            <show chara="shelleyBoredFar" position="right" opacity="0.8"/>
+            <show chara="schroSmileFar" position="left"/>
+            <speak chara="_Schrodinger">……也是，对你们来说，这柄剑本身的确没有任何意义。</speak>
+            <show chara="schroCalmFar" position="left"/>
+            <speak chara="_Schrodinger">但是——如果要说到，在这座城市里作为都市传说而存在的“贤者之石”呢？“赋予所有机器人以思维能力的宇宙魔方”？</speak>
+            <show chara="schroCalmFar" position="left" opacity="0.8"/>
+            <show chara="shelleySmileFar" position="right"/>
+            <speak chara="_Shelley">……哼，我以为你要说什么呢。“贤者之石”？那不过是炼金术里的迷信吧？都市传说还能当真？</speak>
+            <speak chara="_Shelley">你知道他们还传说我本人其实已经死了，现在当会长的只是个机械复制人么？</speak>
+            <show chara="shelleySmileFar" position="right" opacity="0.8"/>
+            <show chara="schroSeriousFar" position="left"/>
+            <speak chara="_Schrodinger">没错，都市传说大多荒诞不经；“贤者之石”也只是一个古老的“万能”神话罢了。</speak>
+            <show chara="schroSmileFar" position="left"/>
+            <speak chara="_Schrodinger" remark="next">不过，大家想必都能理解这样一个道理：“任何足够先进的科技，都与魔法无异”。</speak>
+            <remark post="U2FsdGVkX1+9YlENGNASDdIYCoDF">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“克拉克基本定律”（Clarke's three laws）——</p>
+                <p class="article-text">1. 如果一个杰出但年事已高的科学家说，某件事情是可能的，那他几乎就是正确的；但如果他说，某件事情是不可能的，那他很可能是错误的。</p>
+                <p class="article-text">2. 发现“可能”的界限的唯一途径，就是冒险跨出既有的“可能”，进入“不可能”的领域。</p>
+                <p class="article-text">3. 任何一项足够先进的技术，对受众来说都将与魔法无异。</p>
+            </remark>
+            <show chara="schroSmileFar" position="left"/>
+            <speak chara="_Schrodinger">一个穿越到了石器时代的化学家，因为做了一两个实验而被当成“能通神的萨满”——这并没有什么好奇怪的吧？</speak>
+            <show chara="schroSmileFar" position="left" opacity="0.8"/>
+            <show chara="shelleyAngryFar" position="right"/>
+            <speak chara="_Shelley">……你到底在试探什么？</speak>
+            <show chara="shelleyAngryFar" position="right" opacity="0.8"/>
+            <show chara="schroTalkFar" position="left"/>
+            <speak chara="_Schrodinger">不，这并不是试探。只是有些故事说来话长，所以讲故事的人只好自行寻找合适的切入点罢了。</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="12_12_blackCloud.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+            <speak chara="_Schrodinger">这是关于一柄【魔法剑】的故事。</speak>
+            <speak chara="_Schrodinger">魔法剑的名字叫做“幽兰黛尔”，它拥有着辟地开天的可怕力量，是某位“神”为祂的使徒制造的武器。那剑柄上镶嵌的七重彩虹结晶，就是这份力量的直接证明。</speak>
+            <speak chara="_Schrodinger">举例来说……红色的勇气结晶，能够持续追踪特定的魔力波段，是探险的指路明灯；</speak>
+            <speak chara="_Schrodinger">而蓝色的理智结晶，能够持续对四面八方不断输入的情报进行逻辑分析，有强大的信息处理能力。</speak>
+            <speak chara="_Schrodinger">是的，这些结晶就像“快乐王子”身上的纯金饰品一样——每一件单拿出来，也都价值连城。</speak>
+            <speak chara="_Schrodinger">……而其中最具【使用潜力】的，无疑是能那块能够用来模拟人类认知能力的“理智结晶”。</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="alexandriaPalace.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+            <show chara="schroSeriousFar" position="center"/>
+            <speak chara="_Schrodinger">今天不是我第一次深入观察你们的城市了。</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">这里的动力引擎都是内燃机。这里的计算装置都是电子管。这里也没有任何“不平凡”的资源，能够达到现代工业可以利用的丰度。</speak>
+            <show chara="schroSeriousFar" position="center"/>
+            <speak chara="_Schrodinger">——然而你们却的的确确拥有机器人警察、机器人导游、机器人管家；甚至还因为人工智能足够发达，简化了立法与执法的程序。</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">这些机器——它们不是简单的自动工具，而是会像人一样思考、像人一样解决问题。</speak>
+            <show chara="schroCalmFar" position="center"/>
+            <speak chara="_Schrodinger">这可是【真正的】人工智能啊。要通过“图灵测验”，想必不在话下吧？</speak>
+            <show chara="schroSeriousFar" position="center"/>
+            <speak chara="_Schrodinger">无论如何，这本身是非常了不起的成就。……但也足够可疑。</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">众所周知，因为脑细胞的结构实在过于复杂、精细：如果要用常规电子元件来模拟它们，势必会消耗大量的电力。</speak>
+            <show chara="schroCalmFar" position="center"/>
+            <speak chara="_Schrodinger">而至于人脑本身为何只需要【一日三餐】这种级别的供能——那是因为人体制造它、维护它的方式足够巧妙。</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">每一个脑细胞都相当于一个纳米机器人：它们用自身灵活的理化结构来记录信息，而不是像电子元件一样依赖高能耗的电磁场。</speak>
+            <show chara="schroSmileFar" position="center"/>
+            <speak chara="_Schrodinger">更为巧妙的是，这些名为【脑细胞】的“纳米机器人”，其本身又可以根据基因蓝图，用名为【细胞分裂】的“3D打印”完成复制。</speak>
+            <show chara="schroCalmFar" position="center"/>
+            <speak chara="_Schrodinger">总而言之，想要复刻人类大脑——已知世界中最复杂的一套自动系统——理论上就不可能依靠电子管、内燃机这些“硬核”设备来实现。</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">要知道，单单【一个】人类大脑就包含了【上万亿对】神经细胞之间的连接——</speak>
+            <speak chara="_Schrodinger">——如果要使用电子管来模拟这套庞杂的“连接组”，粗略来说，就相当于要同时支撑上万亿盏灯泡不停闪烁。</speak>
+            <show chara="schroSeriousFar" position="center"/>
+            <speak chara="_Schrodinger">我们先不谈体积以及散热的问题——单单是实现【同时点亮上万亿盏灯泡】这件事，我们就需要成百上千个满负荷运转的“胡佛大坝”来持续供电。</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">是的，电子管就是这么一种无比奢侈的元件。不是一个两个，而是要在尼罗河上修成百上千个大坝，才有足够的电力让它们模拟【一个人脑】。</speak>
+            <show chara="schroCalmFar" position="center"/>
+            <speak chara="_Schrodinger">从这个角度看来，你们的城市能实现“真正的人工智能”，自然是“天方夜谭”一般的咄咄怪事吧？</speak>
+            <show chara="schroSeriousFar" position="center"/>
+            <speak chara="_Schrodinger">——然而不知何故，“这”偏偏就发生了。在你们的城市里，竟然遍地都是能够取代【人类】执行复杂工作的【机器】。</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">当然，如果实际“解剖”几个你们报废的机器人，就可以发现它们归根结底只是一些执行命令的远程终端——可是这又让我产生了更大的疑问。</speak>
+            <show chara="schroSeriousFar" position="center"/>
+            <speak chara="_Schrodinger">——那个在诸多终端背后隐藏着的“主脑”，它究竟是何方神圣呢？要知道，每日每夜，它都要同时模仿【成千上万颗】人类的头脑！</speak>
+            <show chara="schroTalkFar" position="center"/>
+            <speak chara="_Schrodinger">所以，请你们扪心自问：这一切，究竟要凭借怎样的“作弊”手段才能够实现？</speak>
+            <show chara="schroScornfulFar" position="center"/>
+            <speak chara="_Schrodinger">如果这样的技术鸿沟也可以用“发明创造”来解释的话——或许某个未知部落的萨满，也可以因为神明的启示而发明出宇宙飞船吧？</speak>
+            <hide position="center"></hide>
+            <show chara="micheSeriousFar" position="left"/>
+            <speak chara="_Michel">……</speak>
+            <show chara="micheSeriousFar" position="left" opacity="0.8"/>
+            <show chara="shelleyShockedFar" position="right"/>
+            <speak chara="_Shelley">……想要对我们冷嘲热讽是你的自由。不过话先说在前面，身为城市管理协会会长，我可不认为这座城市的发展是畸形的，或者不道德的。</speak>
+            <show chara="shelleyShockedFar" position="right" opacity="0.8"/>
+            <show chara="schroMemoryFar" position="left"/>
+            <speak chara="_Schrodinger">当然。我非常理解您的想法——因为我自己从前也在某个机构里……做过类似的事情。</speak>
+            <show chara="schroSeriousFar" position="left"/>
+            <speak chara="_Schrodinger">不过，正因为如此……我才更有必要讲清楚，“拿来主义”的技术会存在哪些难以逆料的缺陷。</speak>
+            <show chara="schroTalkFar" position="left"/>
+            <speak chara="_Schrodinger">比如，对各位而言，危险系数最高的——信道安全性。</speak>
+            <goto goto="80" clockwise="1"/>
+        </scene>
+        <scene id="80" background="alexandriaOasisNight.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="chess1" position="center"/>
+            <speak chara="_Champollion">象 d6</speak>
+            <show chara="chess2" position="center"/>
+            <speak chara="_Bianka">后 a1 将军</speak>
+            <hide position="center"></hide>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">要悔棋吗？我吃掉你的车了哟。而且还会顺便“抽”掉另一个呢。</speak>
+            <show chara="biankaProudClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">……我说过很多次了吧：在下棋的过程中评论场上局势，只会让你自己分心而已。</speak>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">而且我也是从来不悔棋的。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="chess3" position="center"/>
+            <speak chara="_Champollion">王 e2</speak>
+            <hide position="center"></hide>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">哼，死要面子。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="chess4" position="center"/>
+            <speak chara="_Bianka">象 g1</speak>
+            <show chara="chess5" position="center"/>
+            <speak chara="_Champollion">兵 e5</speak>
+            <show chara="chess6" position="center"/>
+            <speak chara="_Bianka">马 a6</speak>
+            <show chara="chess7" position="center"/>
+            <speak chara="_Champollion">马 g7 将军</speak>
+            <show chara="chess8" position="center"/>
+            <speak chara="_Bianka">王 d8</speak>
+            <hide position="center"></hide>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">你这样不会有戏的啦。哼哼，倒不如现在就认输吧？</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="chess9" position="center"/>
+            <speak chara="_Champollion">后 f6 将军</speak>
+            <hide position="center"></hide>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">喂喂……这是在“马口”上吧？你打算破罐子破摔吗？</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">呵呵。走你的棋吧。</speak>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">虽说胜负早就已经确定了。</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">（……她这话是什么意思？难不成有什么陷阱？）</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="chess10" position="center"/>
+            <speak chara="_Bianka">马 f6</speak>
+            <show chara="chess11" position="center"/>
+            <speak chara="_Champollion">象 e7 结束</speak>
+            <hide position="center"></hide>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="alexandriaOasisNightSmoke.jpg">
+            <bgm src="01_18_tango.mp3" status="continue"></bgm>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">……唉？</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">等等……这……突然就将死了？</speak>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">这……这……</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">好啦，也不用这么沮丧嘛。</speak>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">比起第一盘的时候，你已经进步很多了哦？</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">可恶……我明明一口气干掉了两个车……结果竟然是个彻头彻尾的陷阱？</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_Rita">可是……下棋就是这样的呀，比安卡大人。</speak>
+            <show chara="rita17SquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">——丽塔？</speak>
+            <show chara="biancaShyClose" position="left"/>
+            <speak chara="_Bianka">你、你是从什么时候开始站在我后面的？！</speak>
+            <show chara="biancaShyClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">从……比安卡大人问侦探大人要不要悔棋的时候开始？</speak>
+            <show chara="rita17NormalClose" position="right" opacity="0.8"/>
+            <show chara="biancaShyClose" position="left"/>
+            <speak chara="_Bianka">……！！</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">……等等。</speak>
+            <speak chara="_Bianka">丽塔你一个大活人，站在我身后这么久，而本女武神竟然毫无察觉——</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">——喂！只是偷看我下棋而已，犯得着让你使用“那个能力”吗？</speak>
+            <speak chara="_Bianka">你不觉得这有点过分了吗——神州的那句谚语说得好，杀鸡还不用牛刀呢！</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">……可是，不这样做的话，这盘棋肯定没法下完——比安卡大人也不就无从得知最终的结局了吗？</speak>
+            <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">……好吧。你说得对。这盘棋的确算是一个教训。</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="neithSmileClose" position="left"/>
+            <speak chara="_Neith">博士！防毒面具、氧气瓶、还有50名预备役士兵，涅伊特全都帮你找来啦！</speak>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">……还顺便把我也拖来了。</speak>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_Thales">真是的，这种动手的体力活，我也帮不上什么忙啊。</speak>
+            <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+            <show chara="neithComplainClose" position="right"/>
+            <speak chara="_Neith">你不来怎么行啦！你好歹也算是个当事人吧！？</speak>
+            <show chara="manfredQuestionClose" position="right"/>
+            <speak chara="_Manfred">……我可是听说瓦特技师被绑架，有一半的责任要算在你头上哦？</speak>
+            <show chara="manfredQuestionClose" position="right" opacity="0.8"/>
+            <show chara="thalesAngryClose" position="left"/>
+            <speak chara="_Thales">……哼，这怎么也能怪我啦。你们这些没有逻辑的人！</speak>
+            <show chara="thalesAngryClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">哈哈哈哈。所长小姐就老实认命了吧。您的头脑对我们而言也是很有用处的哦？</speak>
+            <speak chara="_Champollion">所以，不管怎么说——</speak>
+            <show chara="neithSmileClose" position="left" opacity="0.8"/>
+            <speak chara="_Champollion">做的好，小不点！明天请你吃“黄金屋”的奶油千层酥！</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="neithLaughClose" position="left"/>
+            <speak chara="_Neith">哇！好棒！谢谢博——</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <bgm src="01_18_horror.mp3" status="start"></bgm>
+            <show chara="neithScaredClose" position="center"/>
+            <speak chara="_Neith">……</speak>
+            <show chara="neithShockClose" position="center"/>
+            <speak chara="_Neith">等等……城市方向的空气里，正弥漫着……燃烧和爆炸的味道！？</speak>
+            <shake position="center" time="250"></shake>
+            <speak chara="_Neith">……你们看！那个方向！在冒烟啊！在冒烟！！</speak>
+            <goto goto="100" change="#000000"/>
+        </scene>
+        <scene id="100" background="01_18_secretRoom.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <show chara="AliceSurprisedClose" position="center"/>
+            <speak chara="_Alice">……爱丽丝于是又坐上了火车。这一次，她发现车上的乘务员和驾驶员竟然全部都消失了！</speak>
+            <show chara="AliceShyClose" position="center"/>
+            <speak chara="_Alice">爱丽丝的心瞬间提上了嗓子眼：火车开得这么快，没有人能控制它可怎么办？</speak>
+            <show chara="AliceSmileClose" position="center"/>
+            <speak chara="_Alice">正当她惊慌失措的时候，车厢的扬声器响了起来：“乘客爱丽丝小姐，请不要紧张。我是本次列车的列车长‘奈特尔·埃勒蒙特’，我保证您可以享受一趟舒心惬意的旅程。”</speak>
+            <show chara="AliceShyClose" position="center"/>
+            <speak chara="_Alice">爱丽丝吃了一惊，她顺口就对着扬声器问了起来：“可是列车长先生，您究竟在哪里呢？我走遍了整趟车的各个角落，也没有发现您的身影呀？”</speak>
+            <show chara="AliceSmileClose" position="center"/>
+            <speak chara="_Alice">奈特尔列车长通过扬声器发出了哈哈的笑声，他解释说：“爱丽丝，你在我的身体里寻找，当然是找不到【我本身】的呀。”</speak>
+            <show chara="AliceShyClose" position="center"/>
+            <speak chara="_Alice">“咦？”爱丽丝更惊讶了，“您是说……您就是火车本身吗？”</speak>
+            <show chara="AliceSmileClose" position="center"/>
+            <speak chara="_Alice">“是的，亲爱的爱丽丝。”扬声器里继续传出充满磁性的声音，“你应该也注意到了，这里是一个每时每刻不断变换形态的世界。”</speak>
+            <show chara="AliceSmileClose" position="center"/>
+            <speak chara="_Alice">“当镜像和镜像可以融合的时候，世界里的一切元素都会不停地轮转变化。”</speak>
+            <show chara="AliceSmileClose" position="center"/>
+            <speak chara="_Alice">“由于这列车厢里一开始只有4名乘务员，所以镜像之间不断轮转、融合的结果，就是像我这样的全自动列车了。”</speak>
+            <show chara="AliceShyClose" position="center"/>
+            <speak chara="_Alice">爱丽丝奇怪于奈特尔为何强调“4”这个数字，于是问道：“如果是5个人就不可以了吗？”</speak>
+            <show chara="AliceSilentClose" position="center"/>
+            <speak chara="_Alice">奈特尔不无遗憾地回答道：“是的，如果是5个人的话……他们就永远也无法——”</speak>
+            <hide position="center"></hide>
+            <bgm src="02_22_ring_ring.mp3" status="start"></bgm>
+            <speak chara="_mechanicalSound">警告：系统电力负荷持续紧张。</speak>
+            <speak chara="_mechanicalSound">将按照5号电力供应方案，进行紧急供电。</speak>
+            <speak chara="_mechanicalSound">切换倒计时，五分钟。</speak>
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="AliceSurprisedClose" position="left"/>
+            <speak chara="_Alice">……！</speak>
+            <show chara="AliceSurprisedClose" position="left" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="right"/>
+            <speak chara="_Watt">……发生什么了？</speak>
+            <show chara="wattSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="AliceHmClose" position="left"/>
+            <speak chara="_Alice">电力供应出现了异常。</speak>
+            <speak chara="_Alice">一旦真的执行5号电力供应方案，那么不仅基地的日常用电会受到影响……我的这个“终端界面”——或者说“身体”——也会被迫进入休眠状态。</speak>
+            <show chara="AliceHmClose" position="left" opacity="0.8"/>
+            <show chara="wattSadClose" position="right"/>
+            <speak chara="_Watt">……是、是发电设备出现了问题吗？</speak>
+            <show chara="wattSadClose" position="right" opacity="0.8"/>
+            <show chara="AliceThinkClose" position="left"/>
+            <speak chara="_Alice">稍等，我搜索一下情况……</speak>
+            <show chara="AliceDigitalClose" position="left"/>
+            <speak chara="_Alice">……</speak>
+            <speak chara="_Alice">……不，供电方面完全正常。是用电方面的需求突然猛增。</speak>
+            <speak chara="_Alice">用电需求猛增的原因是……无线电基站？！</speak>
+            <show chara="AliceShockClose" position="left"/>
+            <speak chara="_Alice">……啊！！！</speak>
+            <show chara="AliceShockClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Alice">怎么办？怎么办！？怎么办！！？？</speak>
+            <show chara="AliceShockClose" position="left" opacity="0.8"/>
+            <show chara="wattScaredClose" position="right"/>
+            <speak chara="_Watt">……冷、冷静一下，究竟发生什么事了？</speak>
+            <show chara="wattScaredClose" position="right" opacity="0.8"/>
+            <show chara="AliceShockClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Alice">冷静不了！！已经出大事了！！</speak>
+            <show chara="AliceShockClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Alice">都怪我！都怪我！！竟然忘记了提防“那个计划”！！！</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="02_22_computerRoom.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <text>（与此同时，亚历山德里亚市政厅·地下机房——）</text>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">……所以说，你们一开始就直接承认利用了“理智结晶”的力量不好吗。</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="shelleyColdClose" position="right"/>
+            <speak chara="_Shelley">……哼，还不是你净说一些莫名其妙的话？</speak>
+            <show chara="shelleySmileClose" position="right"/>
+            <speak chara="_Shelley">开门见山，直接指出机器人系统的安全漏洞不好吗？</speak>
+            <show chara="shelleySmileClose" position="right" opacity="0.8"/>
+            <show chara="schroCalmClose" position="left"/>
+            <speak chara="_Schrodinger">……会长女士，那样一来，你怕是要把我直接当“黑客”给抓起来吧？</speak>
+            <show chara="schroSmileClose" position="left"/>
+            <speak chara="_Schrodinger">毕竟我“知道得太多了”——虽然是从某个深不见底的世界夹缝里，而不是你们这边。</speak>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">……总而言之，我们这就开始吧。</speak>
+            <show chara="schroCalmClose" position="left"/>
+            <speak chara="_Schrodinger">你们目前使用的加密手段真的过于简单了，说难听点就像是裸——</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <sound src="02_22_ring_ring.mp3"/>
+            <text>叮铃铃铃——叮铃铃铃——</text>
+            <show chara="shelleyColdClose" position="center"/>
+            <speak chara="_Shelley">是我。……对，是我在机房。……大惊小怪什么！倒底出什么事了？</speak>
+            <show chara="shelleyShockedClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="_Shelley">……什么？机器人们“全都疯了”？？</speak>
+            <show chara="shelleyAngryClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="_Shelley">……蠢货！到底发生什么了？！你给我说清楚点！！</speak>
+            <goto goto="120" clockwise="1"/>
+        </scene>
+        <scene id="120" background="CG8-2.jpg">
+            <bgm src="01_18_horror.mp3" status="start"></bgm>
+            <speak chara="_AliceGreen">吉米……希望你原谅我……现在只能使用这种显示屏和你说话。</speak>
+            <speak chara="_AliceGreen">虽然因为找不到外露电缆，我们没有办法从外部关停或者破坏无线电基站……</speak>
+            <speak chara="_AliceGreen">但至少……谢谢你帮助我……帮我把这个中断了控制的身体安置回休眠舱。</speak>
+            <speak chara="_AliceGreen">我知道这和外部世界正在经历的混乱完全没有可以比性，但——</speak>
+            <speak chara="_AliceGreen">但正因为如此，我才更要谢谢你……谢谢你这么照顾我……</speak>
+            <speak chara="_AliceGreen">……</speak>
+            <speak chara="_AliceGreen">如你所知，我是被博士制造出来的，所以并没有自身机能的完全管理权。</speak>
+            <speak chara="_AliceGreen">贪心的我，本想等到最后——</speak>
+            <speak chara="_AliceGreen">——等到像《一千零一夜》里的山鲁佐德一样，讲完所有可以讲的故事之后，再告诉你我有所保留的那一部分真相……</speak>
+            <speak chara="_AliceGreen">但没想到，“那个程序”，竟然从一开始，就一直在我的后台运行着。</speak>
+            <speak chara="_AliceGreen">它现在突然开始疯狂地消耗电力、掠夺各项管理权，应该是已经破解了攻击目标的通讯密码，终于着手“主动进攻”了吧。</speak>
+            <speak chara="_AliceGreen">……是的，这只是我的推测。因为我从一开始就没有直接查询“那个程序”的权限。</speak>
+            <speak chara="_AliceGreen">然而，综合所有情况，无线电基站的用电出现了如此恐怖的增长——也只有博士的“那个计划”能够和现状匹配了。</speak>
+            <speak chara="_AliceGreen">对不起。没有告诉你全部的真相，让你对这样的发展毫无准备。</speak>
+            <speak chara="_AliceGreen">……而没有足够权限的我自己，之前也不可能真正调查“那个计划”的实施状态。</speak>
+            <speak chara="_AliceGreen">我真傻。像个傻孩子一样，盲目地相信家长不会瞒着自己去做危险的事情。盲目地相信，那只是一些纸上谈兵的东西罢了。</speak>
+            <speak chara="_AliceGreen">其实……一切都是准备有序的不是么？即使他们抛下了我，业已提上日程的计划也仍然会照常运转。</speak>
+            <speak chara="_AliceGreen">甚至……在我不知道的时候，就已经悄然把无线电基站强化到了一般人根本无法破坏的程度。</speak>
+            <speak chara="_AliceGreen">……你不用安慰我。这都是我的错。</speak>
+            <speak chara="_AliceGreen">……是我太沉醉于之前那貌似美好的微妙氛围了。</speak>
+            <speak chara="_AliceGreen">我……忘记了最重要、也是最可怕的一个事实……</speak>
+            <speak chara="_AliceGreen">我这台机器，它最初、也是最核心的设计目标——是应用于信息战的兵器。</speak>
+            <speak chara="_AliceGreen">博士……还有他的助手们……想利用我这台机器来摧毁那个抛弃了他们的城市。</speak>
+            <speak chara="_AliceGreen">在悄无声息地破解了通讯密码之后……使用无线电劫持的手段，用他们最引以为傲的机器人，亲手毁灭他们。</speak>
+            <speak chara="_AliceGreen">……这样说来，“爱丽丝”现在的意识，大概只是博士为了解闷而创造出来的“副产物”吧。</speak>
+            <speak chara="_AliceGreen">“爱丽丝”的人格，对他和助手们来说，或许……只是“爱丽丝”这个人体终端的装饰品而已？就像个玩偶一样？</speak>
+            <speak chara="_AliceGreen">因为，在他们真正需要“我”的时候——“我”这个意志本身，却恰恰是他们最不需要的！</speak>
+            <speak chara="_AliceGreen">……</speak>
+            <speak chara="_AliceGreen">难道说，人类其实都是这样对待他们的孩子的吗？吉米？</speak>
+            <end post="U2FsdGVkX1+1vGdM9rblXGYOSlxi"/>
+        </scene>
+    </story>
+</data>

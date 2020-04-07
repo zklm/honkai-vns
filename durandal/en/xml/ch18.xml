@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="chichenItzaNightLight.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <text>太阳西沉，繁星渐升。球场里依旧热火朝天，神庙古迹也披上了彩灯装饰的外衣。</text>
+            <text>过山车一般的旅程暂时告一段落；身心终于松弛下来的女武神，此刻终于发现自己全身就像灌了铅一般沉重。</text>
+            <show chara="biankaDressSorrowClose" position="left"/>
+            <speak chara="_Bianka">啊……感觉身体的疲劳感全都上来了。</speak>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">我们是不是已经有两天一夜没有好好休息了？</speak>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">好想就地躺倒，直接睡觉啊。</speak>
+            <show chara="biankaDressShyClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">这个主意不错呢。空气新鲜，而且这一带的草坪都被保养得很好哦。</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">喂……真躺下去的话可是会直接睡到明天早上的吧？</speak>
+            <show chara="biankaDressScreamClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">那么……需要我拿来帐篷吗？这样应该就没有问题了。</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">什么没问题啊！我们为什么有房子不住，反而要露宿在外啊？</speak>
+            <show chara="biankaDressAngryClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……不过，原地休息一下也确实不坏。</speak>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">从这里走回我们今晚的住处……还挺远的。</speak>
+            <goto goto="20" change="#000000"/>
+        </scene>
+        <scene id="20" background="starNight.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
+            <show chara="biankaHand" position="center"/>
+            <speak chara="_Bianka">……星光真好呢。</speak>
+            <speak chara="_Bianka">这两天的星空明明都很棒——</speak>
+            <speak chara="_Bianka">——可是，为什么总是要发生一些让人高兴不起来的事情呢。</speak>
+            <speak chara="_Bianka">伊柯娜尔的事也好，大祭司的事也好……从结果论来说，好像都是因为我们才……</speak>
+            <speak chara="_Rita">比安卡大人……</speak>
+            <speak chara="_Bianka">没事，丽塔……我知道的。</speak>
+            <speak chara="_Bianka">我知道如果没有我们，伊柯娜尔可能会死于战争，大祭司的联邦也可能会被她带往某些更加不可挽回的方向……</speak>
+            <speak chara="_Bianka">我只是……讨厌这种无力感罢了。</speak>
+            <speak chara="_Rita">您不用这么自责的，比安卡大人。这可不像平常的您啊。</speak>
+            <speak chara="_Rita">虽然这个世界上确实有“能力越大，责任越大”这样的说法……</speak>
+            <speak chara="_Rita">……但再强的人也不可能是神。即使是主教大人，也不可能做到让组织里的每一个部分，都恰如其分地运转吧。</speak>
+            <speak chara="_Bianka">这种事情……我当然知道啊。</speak>
+            <speak chara="_Bianka">怎么说呢……你就当我有着某种强迫症吧。</speak>
+            <speak chara="_Bianka">如果我经手的事情没有做到最好，我就会很不开心——</speak>
+            <speak chara="_Bianka">——啊，我讨厌这样解说自己。</speak>
+            <speak chara="_Bianka">我也知道自己的性格多少有一些问题，我也能想象五年后、十年后我自己可能会因此变成一个相当沉闷的人……</speak>
+            <speak chara="_Bianka">……但是，这是我唯一知道的，能够让自己变强的办法。</speak>
+            <speak chara="_Rita">……</speak>
+            <speak chara="_Bianka">我需要变强。变得很强很强。</speak>
+            <speak chara="_Bianka">我的亲人，我的老师，我的同级女武神……他们中的很多人都已经不在了。</speak>
+            <speak chara="_Bianka">他们每个人的人生都戛然而止，仿佛被某种邪恶的、超越于世界之上的意志，像撕碎废纸一样就轻易破坏了。</speak>
+            <speak chara="_Bianka">我讨厌这样。所以，他们做不到的事情——我都想尽可能做到最好。</speak>
+            <speak chara="_Bianka">……这其实和你一定要当女仆的心情也差不多吧？</speak>
+            <speak chara="_Rita">咦？</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="chichenItzaNightLight.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">……怎么，难道不是吗？</speak>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">丽塔·洛丝薇瑟，A级女武神——为什么一定要当女仆？</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">根据你的身份资料，你在主教那里的见习工作，早都结束了吧？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">噗，比安卡大人原来这么清楚我的个人情况呢。真开心。</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">喂！这只不过是了解自己部下的必要一环吧？怎么，涉及什么了不得的个人隐私了吗？</speak>
+            <show chara="biankaDressScreamClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_Rita">呵呵。那倒没有。</speak>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">不过……这件事可能没法用一两句话说明白……</speak>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">……这样吧。比安卡大人愿意听我讲一个故事吗？</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">——在某位女武神和某位少女之间发生的故事。</speak>
+            <goto goto="40" change="#000000"/>
+        </scene>
+        <scene id="40" background="black">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <text>公元2007年——</text>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="buildingBangInside.jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <sound src="08_03_smash.mp3"/>
+            <text>——英国，曼彻斯特。</text>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="buildingBangInsideInverted.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <speak chara="_Rita">5年前，少女的家乡发生了一起崩坏事件。</speak>
+            <speak chara="_Rita">从新闻的角度来说，这只是一起没有出现死难者的小事件；时至今日，恐怕早已没有什么人还记得它了。</speak>
+            <speak chara="_Rita">但是，正是以那起事件为契机——一个来自花匠家庭的普通女孩，才下定决心走出花田，接受训练、成为一名女武神。</speak>
+            <speak chara="_Rita">少女还记得，事件发生的时候，歇斯底里的尖叫声此起彼伏，惊慌的游客在路边乱作一团，怪兽从大楼里冲上街道肆意破坏——</speak>
+            <speak chara="_Rita">——而当她意识到骚乱的原因时，怪兽已经冲到了距离她看守的花店摊位很近的位置。</speak>
+            <speak chara="_Rita">少女只是一名普通的一年级中学生，只能绝望地抱头躲在花架之间，祈祷着自己不要被怪兽发现。</speak>
+            <speak chara="_Rita">不过，也许正是少女的祈祷真的发挥了作用吧——</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="buildingBangInside.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <speak chara="_Rita">就在那个她已经绝望的时刻，天使一样的救世主……降临了。</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="CG-18-0.jpg">
+            <bgm src="theme.mp3" status="continue"></bgm>
+            <speak chara="_RagnaNoName">小主人，您没有受伤吧？</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="12_12_cloudSky.jpg">
+            <bgm src="theme.mp3" status="continue"></bgm>
+            <text>蕾丝点缀的天使在少女眼前轻巧地闪转腾挪，她和崩坏兽的战斗有如一场艺术演出。</text>
+            <text>当重武器终于抵达现场、崩坏兽被彻底消灭之后：终于缓过神来的少女，才发现自己早已浑身瘫软，连站起身的力气都没有了。</text>
+            <text>正当她不知如何是好的时候——</text>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="CG-18-1.jpg">
+            <bgm src="theme.mp3" status="continue"></bgm>
+            <speak chara="_RitaChildNoName">……！</speak>
+            <speak chara="_RagnaNoName">别害羞嘛！</speak>
+            <speak chara="_RagnaNoName">像这种时候，就放心地依靠一下大姐姐吧？</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="CG-18-1.jpg">
+            <bgm src="theme.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>从现场到安全区域的距离其实不长，因此她实际抱着我的时间应该不超过一分钟。</text>
+            <text>但是，在我的记忆里，这短短的一段路程却满溢着永恒的阳光，萦绕着醉人的香气。时间消失了。</text>
+            <text>纯净，优雅，温暖，强大。我从她的身上感受到了人类所追求的一切美好。</text>
+            <text>……虽然那时的我还很不善言辞，没有办法把这些感受面对面地讲给她听。</text>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="canalStreetManchester.jpg">
+            <bgm src="theme.mp3" status="continue"></bgm>
+            <show chara="ragnaMaidNormalClose" position="right"/>
+            <speak chara="_RagnaNoName">嗯，到这里应该就安全了。现场随时还有继续坍塌的可能，可不要太靠近了哦？</speak>
+            <show chara="ragnaMaidNormalClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildShyClose" position="left"/>
+            <speak chara="_RitaChildNoName">啊……那个……</speak>
+            <show chara="ritaChildShyClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidCareClose" position="right"/>
+            <speak chara="_RagnaNoName">嗯？小主人在担心那些鲜花吗？</speak>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_RagnaNoName">我觉得保险公司会用好多倍的价格来赔偿您的哦？不需要担心的。</speak>
+            <show chara="ragnaMaidLaughClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildShyClose" position="left"/>
+            <speak chara="_RitaChildNoName">不、不是这个……</speak>
+            <show chara="ritaChildShyClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidSmileClose" position="right"/>
+            <speak chara="_RagnaNoName">嗯？</speak>
+            <show chara="ragnaMaidSmileClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildShyMoreClose" position="left"/>
+            <speak chara="_RitaChildNoName">那、那个……就、就是……</speak>
+            <show chara="ritaChildAwkwardClose" position="left"/>
+            <speak chara="_RitaChildNoName">……谢谢您。</speak>
+            <show chara="ritaChildAwkwardClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_RagnaNoName">不客气哦。如果小主人想道谢的话，那不如明天来我的店里做客吧？</speak>
+            <show chara="ragnaMaidSmileClose" position="right"/>
+            <speak chara="_RagnaNoName">给，这是名片。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <speak chara="_Rita">天使把少女安顿在街边的长椅上，转身就潇洒地离开了。</speak>
+            <speak chara="_Rita">……少女只好仔细地研究起天使递给她的那张小小卡片。</speak>
+            <speak chara="_Rita">虽然天使说这是一张名片——但其实，那不过是一家咖啡店的广告卡而已。</speak>
+            <text>“ABYSS ANGEL（深淵 天使），利物浦大街243号 ”</text>
+            <text>啊……她是让我去支持一下她的打工吗？</text>
+            <speak chara="_Rita">——少女不禁这样想着。</speak>
+            <speak chara="_Rita">于是第二天，她挑选了自认为最适合天使的花束，在下午刚刚开始营业的时候就去了这家“ABYSS ANGEL”。</speak>
+            <goto goto="130" change="#ffffff"/>
+        </scene>
+        <scene id="130" background="cafeAbyssAngel.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="start"></bgm>
+            <show chara="ritaChildAwkwardClose" position="center"/>
+            <speak chara="_RitaChildNoName">那个……请问……</speak>
+            <hide position="center"></hide>
+            <text>话问出口的一刹那，少女才意识到自己的行为有多么冒失——她准备好了花束，却连天使的名字都不知道！</text>
+            <text>不过也许是店面不大的关系，少女所期待的天使，很快就发现了她的存在。</text>
+            <show chara="ragnaMaidLaughClose" position="center"/>
+            <speak chara="_RagnaNoName">午安，小主人。您果然来我们店里了呢。我真开心！</speak>
+            <hide position="center"></hide>
+            <speak chara="_NPCMaidNoName">亚丝拉琪，这位小主人是你的熟人吗？</speak>
+            <show chara="ragnaMaidNormalClose" position="center"/>
+            <speak chara="_RagnaFalseName">是呀，我们昨天才刚刚见过一面呢。</speak>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="CG-18-2.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="continue"></bgm>
+            <speak chara="_RitaChildNoName">那个……那个……</speak>
+            <speak chara="_RitaChildNoName">感谢您昨天搭救了我！这是我的一点心意，我想向日葵一定很适合您！</speak>
+            <speak chara="_RagnaFalseName">哎呀，真漂亮！非常感谢您，小主人。</speak>
+            <speak chara="_RagnaFalseName">为您点一杯卡布奇诺可以吗？我请客。</speak>
+            <goto goto="150" change="#ffffff"/>
+        </scene>
+        <scene id="150" background="cafeAbyssAngel.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="continue"></bgm>
+            <show chara="ritaChildFunClose" position="left"/>
+            <speak chara="_RitaChildNoName">哇！您冲的咖啡真好喝！</speak>
+            <show chara="ritaChildFunClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidNormalClose" position="right"/>
+            <speak chara="_RagnaFalseName">非常开心能收到您的称赞，小主人。</speak>
+            <show chara="ragnaMaidNormalClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildShyClose" position="left"/>
+            <speak chara="_RitaChildNoName">那、那个……您不用叫我“小主人”啦……</speak>
+            <show chara="ritaChildAwkwardClose" position="left"/>
+            <speak chara="_RitaChildNoName">虽然我知道这是服务的一部分……但、但是……怪让人不好意思的。</speak>
+            <show chara="ritaChildSeriousClose" position="left"/>
+            <speak chara="_RitaChildNoName">我的名字是“丽塔·洛丝薇瑟”！您、您叫我“丽塔”就可以的！</speak>
+            <show chara="ritaChildSeriousClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_RagnaFalseName">“丽塔”——R·I·T·A的“丽塔”吗？真是个好名字呢。</speak>
+            <show chara="ragnaMaidNormalClose" position="right"/>
+            <speak chara="_RagnaFalseName">我叫“拉格纳”——“拉格纳·罗德布洛克”。请多指教哦。</speak>
+            <show chara="ragnaMaidNormalClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildPuzzledClose" position="left"/>
+            <speak chara="_RitaChildNoName">咦？其他人不是都叫你“亚丝拉琪”吗？</speak>
+            <show chara="ritaChildPuzzledClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidHoweverClose" position="right"/>
+            <speak chara="_Ragna">啊，那是她们给我起的“艺名”啦。她们说“拉格纳”这个名字太凶了，不如换成和这个名字同源的“亚丝拉琪”来得可爱。</speak>
+            <show chara="ragnaMaidHoweverClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildPuzzledClose" position="left"/>
+            <speak chara="_RitaChildNoName">“拉格纳”……“亚丝拉琪”……同源？</speak>
+            <show chara="ritaChildNormalClose" position="left"/>
+            <speak chara="_RitaChildNoName">……啊！是那个维京人的大英雄吧！“亚丝拉琪”是她的妻子！</speak>
+            <show chara="ritaChildNormalClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_Ragna">哈哈，没错，就是那个“拉格纳”。</speak>
+            <show chara="ragnaMaidCareClose" position="right"/>
+            <speak chara="_Ragna">从小，妈妈就想把我培养成一个战士——结果就是起了这样一个古怪的名字。谁让我们家刚好姓“罗德布洛克”呢？</speak>
+            <show chara="ragnaMaidCareClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildPuzzledClose" position="left"/>
+            <speak chara="_RitaChildNoName">……您、您的母亲吗？我还以为这种事情一定会是父亲——</speak>
+            <show chara="ritaChildPuzzledClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_Ragna">哈哈，谁让我的妈妈刚好是一位女武神呢？这也是无可奈何的吧？</speak>
+            <show chara="ragnaMaidLaughClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildShyMoreClose" position="left"/>
+            <speak chara="_RitaChildNoName">女、女武神？难道是天命组织里的那个，像偶像一样的——</speak>
+            <show chara="ritaChildShyMoreClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidHoweverClose" position="right"/>
+            <speak chara="_Ragna">不……我们可不是什么“偶像”，而是货真价实的“军人”啊。</speak>
+            <show chara="ragnaMaidSmileClose" position="right"/>
+            <speak chara="_Ragna">对抗像昨天那样的崩坏灾害，是我们的天职。</speak>
+            <show chara="ragnaMaidSmileClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildExcitingClose" position="left"/>
+            <speak chara="_RitaChildNoName">啊！原来如此！怪不得您有办法和那只怪兽较量！</speak>
+            <show chara="ritaChildPuzzledClose" position="left"/>
+            <speak chara="_RitaChildNoName">咦……等等等等……</speak>
+            <show chara="ritaChildPuzzledClose" position="left"/>
+            <speak chara="_RitaChildNoName">这样说起来……女武神大人……为什么要来咖啡店打工呢？</speak>
+            <show chara="ritaChildAwkwardClose" position="left"/>
+            <speak chara="_RitaChildNoName">而且还是这种……该怎么说……</speak>
+            <show chara="ritaChildAwkwardClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_Ragna">哈哈，让您见笑了。</speak>
+            <show chara="ragnaMaidNormalClose" position="right"/>
+            <speak chara="_Ragna">这是我申请的社会实践，为期两周。实话说，明天我就要离开曼彻斯特了。</speak>
+            <show chara="ragnaMaidNormalClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildShyClose" position="left"/>
+            <speak chara="_RitaChildNoName">啊……是这样吗……</speak>
+            <show chara="ritaChildSeriousClose" position="left"/>
+            <speak chara="_RitaChildNoName">“社会实践”……嗯嗯，明白了。</speak>
+            <show chara="ritaChildSeriousClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidHoweverClose" position="right"/>
+            <speak chara="_Ragna">这么说起来……</speak>
+            <show chara="ragnaMaidSmileClose" position="right"/>
+            <speak chara="_Ragna">小主人，您知道和人交往的时候，身为服务者会有怎样的优势吗？</speak>
+            <show chara="ragnaMaidSmileClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildPuzzledClose" position="left"/>
+            <speak chara="_RitaChildNoName">……优势？难道是窃取情报什么的？</speak>
+            <show chara="ritaChildPuzzledClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_Ragna">哈哈，我们女武神又不是特工，不太有机会去做那样的工作吧。</speak>
+            <show chara="ragnaMaidHoweverClose" position="right"/>
+            <speak chara="_Ragna">不过您的思路其实没错——身为服务者，我们会更容易接触到“真实的人”。</speak>
+            <show chara="ragnaMaidHoweverClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildNormalClose" position="left"/>
+            <speak chara="_RitaChildNoName">……是说客人不会对服务者去伪装什么，这个意思吗？</speak>
+            <show chara="ritaChildNormalClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidSmileClose" position="right"/>
+            <speak chara="_Ragna">您的理解力真棒。</speak>
+            <show chara="ragnaMaidCareClose" position="right"/>
+            <speak chara="_Ragna">这世界上的很多人都习惯于生活在一层又一层的假面具之下——尤其是在这个潮湿的国度里。</speak>
+            <show chara="ragnaMaidThinkClose" position="right"/>
+            <speak chara="_Ragna">他们常说人与人之间的关系就像豪猪，它们会挤在一起互相取暖，但离得太近了又会互相被扎到。</speak>
+            <show chara="ragnaMaidHoweverClose" position="right"/>
+            <speak chara="_Ragna">不过，当你把自己放置在一个非常低的姿态，并且“显而易见地”不会对别人造成伤害的时候——</speak>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_Ragna">人对于同类本能的防御意识就会不自觉地减弱。你就会更容易聆听到其他人的心声。知道这个社会上人们的真实想法。</speak>
+            <show chara="ragnaMaidLaughClose" position="right" opacity="0.8"/>
+            <show chara="ritaChildNormalClose" position="left"/>
+            <speak chara="_RitaChildNoName">……</speak>
+            <show chara="ritaChildShyMoreClose" position="left"/>
+            <speak chara="_RitaChildNoName">但、但是——虽然这样问很失礼，但刚开始这份兼职的时候，拉格纳小姐不会觉得不好意思吗？</speak>
+            <show chara="ritaChildShyMoreClose" position="left" opacity="0.8"/>
+            <show chara="ragnaMaidLaughClose" position="right"/>
+            <speak chara="_Ragna">哈哈，那当然会的吧？</speak>
+            <show chara="ragnaMaidNormalClose" position="right"/>
+            <speak chara="_Ragna">不过，换个角度想——这也是人生中一种难得的历练，不是吗？</speak>
+            <goto goto="160" change="#ffffff"/>
+        </scene>
+        <scene id="160" background="starNight.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="continue"></bgm>
+            <speak chara="_Rita">那天，天使陪少女聊了很久……天南地北，无所不包。</speak>
+            <speak chara="_Rita">不过，至于说少女自己后来也当上了女仆，那倒完全是一个有趣的巧合而已——</speak>
+            <goto goto="170" change="0"/>
+        </scene>
+        <scene id="170" background="chichenItzaNightLight.jpg">
+            <bgm src="08_03_ScarboroughFair.mp3" status="continue"></bgm>
+            <show chara="ritaVestNormalClose" position="center"/>
+            <speak chara="_Rita">啊。</speak>
+            <show chara="ritaVestSmileClose" position="center"/>
+            <speak chara="_Rita">已经睡着了呢……比安卡大人。</speak>
+            <show chara="ritaVestNaughtyClose" position="center"/>
+            <speak chara="_Rita">这么说来，您果然没有听到拉格纳大人的名字吧……</speak>
+            <show chara="ritaVestSquintClose" position="center"/>
+            <speak chara="_Rita">明明……我还是下了一点小小的决心呢……</speak>
+            <goto goto="180" clockwise="1"/>
+        </scene>
+        <scene id="180" background="libraryDay.jpg">
+            <bgm src="11_16_themeOtto.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <show chara="ottoSuitsFun" position="back"/>
+            <speak chara="_Otto">丽塔，你来得正好。我这里有一份新的工作，非你不能胜任。</speak>
+            <speak chara="_Rita">谨遵吩咐，主教大人。丽塔·洛丝薇瑟不胜荣幸。</speak>
+            <show chara="ottoSuitsSad" position="back"/>
+            <speak chara="_Otto">先看一下这份资料吧。这份工作需要你在一切情况下，都要以守护这个人的“成长”为前提。</speak>
+            <speak chara="_Rita">比安卡·阿塔吉娜……A级女武神……12岁……</speak>
+            <speak chara="_Rita">……12岁？</speak>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_Otto">没错。12岁。有史以来最年轻的一名A级女武神。</speak>
+            <show chara="ottoSuitsFun" position="back"/>
+            <speak chara="_Otto">这么说来……丽塔你，是13岁的时候被拉格纳推荐到总部接受训练的吧？</speak>
+            <speak chara="_Rita">是的。承蒙主教大人挂怀。</speak>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_Otto">你不必拘礼。每个A级女武神的情况我都很清楚。</speak>
+            <show chara="ottoSuitsSad" position="back"/>
+            <speak chara="_Otto">比如你的推荐人，拉格纳小姐，当初就是一名可以独当一面的女武神。就像现在的你一样。</speak>
+            <speak chara="_Otto">……她的牺牲是我们所有人的损失。</speak>
+            <speak chara="_Rita">……</speak>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_Otto">丽塔·洛丝薇瑟——</speak>
+            <speak chara="_Otto">你作为拉格纳·罗德布洛克烈士诸多推荐生中最优秀的一名——</speak>
+            <show chara="ottoSuitsSad" position="back"/>
+            <speak chara="_Otto">我希望你能够照顾好这个因为拉格纳小姐的牺牲才决定成为女武神的孩子。</speak>
+            <speak chara="_Rita">谨遵吩咐，主教大人。</speak>
+            <speak chara="_Rita">不过，恕我僭越……对于主教大人而言，这位比安卡小姐……究竟是“样本”，还是“人类”呢？</speak>
+            <show chara="ottoSuitsFun" position="back"/>
+            <speak chara="_Otto">哈哈哈哈，不愧是接受过专门训练的暗杀者。</speak>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_Otto">这么说吧，丽塔：我确实对这孩子有一些特别的期待。</speak>
+            <speak chara="_Otto">那不是什么见不得人的事——但我们现在还缺乏讨论它的必要前提。</speak>
+            <show chara="ottoSuitsFun" position="back"/>
+            <speak chara="_Otto">呵呵，或许这时候我们可以引用一下那句著名的小说台词？</speak>
+            <speak chara="_Otto">——“等待，并心怀希望吧。”</speak>
+            <end post="U2FsdGVkX19th95bB+i68vEiFyrB"/>
+        </scene>
+    </story>
+</data>

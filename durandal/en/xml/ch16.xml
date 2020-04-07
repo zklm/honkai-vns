@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="asteroidPalace.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+            <text>灵魂的味道是甜蜜的。</text>
+            <text>蜜蜂们微小的脏腑容纳不下植物那巨大的灵魂——所以它们把它酿成了味道更加悠长的蜂蜜。</text>
+            <text>……不过，在此之前，新鲜的花蜜也是非常值得品尝的。</text>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="CG15-1.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="continue"></bgm>
+            <speak chara="_ZarathustraDaughter">那么，可爱的孩子们、风流的大人们——</speak>
+            <speak chara="_ZarathustraDaughter">——我要从你们中的谁开始下口呢？</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="CG16-1-1.jpg">
+            <bgm src="12_14_Hero.mp3" status="start"></bgm>
+            <speak chara="_ZarathustraDaughter">？</speak>
+            <speak chara="_Rita">你……休想动比安卡大人……一根手指……</speak>
+            <speak chara="_ZarathustraDaughter">咦？吸入了这么多的麻醉气体，竟然还有力量勉强站起来吗？</speak>
+            <speak chara="_ZarathustraDaughter">不过，就凭你现在这样踉踉跄跄的样子，又能为你的“比安卡大人”做什么呢？</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="CG16-1-2.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_Rita">看来……大祭司女士是不知道呢……</speak>
+            <speak chara="_Rita">当武器足够锋利的时候……</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG16-2-1.jpg">
+            <bgm src="07_07_wind.mp3" status="start"></bgm>
+            <speak chara="_Rita">……杀人，根本不需要力量。</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG16-2-2.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="start"></bgm>
+            <speak chara="_ZarathustraDaughter">这……怎么可能……</speak>
+            <speak chara="_Rita">你想必……很惊讶吧……</speak>
+            <speak chara="_Rita">不过……这其中的秘密……你并不需要知道……</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="CG16-3.jpg">
+            <bgm src="02_22_amazingGrace.mp3" status="continue"></bgm>
+            <speak chara="_Rita">我说过了……</speak>
+            <speak chara="_Rita">你……休想动比安卡大人……一根手指……</speak>
+            <speak chara="_Rita">永别了……第二任的……“蛇王”……</speak>
+            <goto goto="80" change="#000000"/>
+        </scene>
+        <scene id="80" background="black">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <speak chara="_Bianka">（唔……我……怎么了……）</speak>
+            <speak chara="_Bianka">（浑身发冷……脑袋昏昏沉沉……）</speak>
+            <speak chara="_Bianka">（啊……有什么东西靠过来了……）</speak>
+            <speak chara="_Bianka">（很温暖……香香的……）</speak>
+            <speak chara="_Bianka">（有点像……妈妈的味道……）</speak>
+            <speak chara="_Bianka">（……）</speak>
+            <speak chara="_Bianka">（等等。不对——）</speak>
+            <speak chara="_Bianka">（我、我还在——我怎么会睡着了？）</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="CG16-4.jpg">
+            <bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
+            <speak chara="_Rita">午安，比安卡大人。</speak>
+            <speak chara="_Rita">这一觉睡得还好吗？</speak>
+            <speak chara="_Bianka">丽塔？我、我怎么了？为什么会在这种地方？我睡了多久？</speak>
+            <speak chara="_Rita">这里是奇琴伊察城；具体来说，则是希克苏鲁伯陨石建筑的后院。</speak>
+            <speak chara="_Rita">大约一个小时之前，有人设下陷阱，使我们吸入了大量麻醉气体。</speak>
+            <speak chara="_Rita">……比安卡大人毕竟还在长身体的阶段，所以恢复起来比我要慢一点也是正常的。</speak>
+            <speak chara="_Bianka">唔……是这样吗……麻醉气体……</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="cenote.jpg">
+            <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">对了，其他人呢？船长他们怎么样了？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">别担心。小幽正在利用大祭司的设备，看护着他们吸氧；再过半个小时左右，大家应该都能清醒过来。</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">……小幽？那把剑？它什么时候跟过来的？</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">从今天早上起，它就一直跟着我们呀。回收了两颗宝石以后，它可以通过改变自己周遭的气体分布来完成隐身。</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……什么？那家伙可以给自己上光学迷彩吗？</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">没错。所以我和薛定谔博士就一起说服它，由它来当那张隐藏的王牌。</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">可、可是这么重要的事情，你们为什么要瞒着我啊？太过分了吧！</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">非常抱歉，比安卡大人。但我和博士都认为，知道具体情况的人越少，王牌就越不容易暴露给潜在的敌人。</speak>
+            <speak chara="_Rita">所以，不仅是您——</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">——啊、啊，我知道啦，我就是不适合摆扑克脸啦，对不对嘛！</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……好啦，所以到底是什么人在攻击我们和大祭司？叛乱分子吗？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">不。</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">比安卡大人。用麻醉气体攻击我们的，恰恰就是“大祭司”本人。</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……什么？</speak>
+            <goto goto="110" clockwise="1"/>
+        </scene>
+        <scene id="110" background="cenote.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">这……她一开始装作迎接我们的样子，竟然只是为了把我们骗到封闭的空间、在我们最没有防备的时候释放毒气？</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">从结果来看是这样的。按照她的说法，她似乎可以通过吞食我们，获得我们各自的力量。</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">……就像“蛇王”的传说里描述的那样。</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">这是她留下的一些笔记。我来帮您翻译。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <text article="1">
+                <p class="article-text">12.14.11.15.1.</p>
+                <br />
+                <p class="article-text">我还是使用了“蛇”的力量。没有办法，这里全都是一些只知道用暴力说话的野蛮人。欺软怕硬。</p>
+                <p class="article-text">好消息是，现在我说什么就是什么。我有的是时间来驯服这股力量。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">12.14.11.15.2.</p>
+                <br />
+                <p class="article-text">“啊，超人！你把属于自己的善良、成功和取胜的秘诀赐给那些平凡的人；他们表现出你的一部分美德，因而不使你感到扫兴、痛苦和悲伤。在那里，人们坚持走真理的道路，认为超人是最值得崇拜和颂扬的。”</p>
+                <p class="article-text">——就这样为他们编写下去吧。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">12.14.14.3.0.</p>
+                <br />
+                <p class="article-text">已经四十天没有吃脑子了。身体感觉良好。摄取自愿献身的对象确实有助于抑制“蛇”的欲望。</p>
+                <p class="article-text">争取把我们的信仰传播给更多的人。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">12.15.1.0.8.</p>
+                <br />
+                <p class="article-text">前往高地殖民的部队据说发生了叛乱。难以判断事情的真假，所以吃了报告者的一块肉。</p>
+                <p class="article-text">——是诬告，不过边防部队的将领也确实需要定期进行轮换。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">12.15.6.1.15.</p>
+                <br />
+                <p class="article-text">从学校里就接受新式信仰的一代人已经成长起来了。或许有必要多巡视巡视新开拓的土地，强化一下边境居民的国家意识。</p>
+                <p class="article-text">……我发现自己不会像一般人那样变老。不知道是不是因为“蛇”的原因。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">12.15.10.15.6.</p>
+                <br />
+                <p class="article-text">时隔多年，又吃了一次脑子。</p>
+                <p class="article-text">侍卫们从浮木上捞起了一个被水母蛰得半死的大叔。他自称是“画家”，叫“马蒂斯”。希望这家伙能够给我带来一些艺术细胞吧。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">12.15.10.15.7.</p>
+                <br />
+                <p class="article-text">该死，这大叔的脑子简直比混了蘑菇的曼陀罗还猛。</p>
+                <p class="article-text">我现在总是忍不住把太阳画成草绿色、把海水画成粉红色。希望其他人不会觉得他们的大祭司害了疯病。也许应该就此补充一些信条，免得有人变得不虔诚起来。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">12.15.10.15.8.</p>
+                <br />
+                <p class="article-text">在信仰里专门探讨了两种自由的区别。凡人的自由和超人的自由。它们本就是完全不同的东西。</p>
+                <p class="article-text">凡人的存在意义就是成为超人。他们既没有能力、也没有理由去干涉超人的任何行为。</p>
+            </text>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">……不管怎么说，倒是多亏了她推行的信仰，这里的玛雅人反而不会因为“大祭司”自己的死而敌视我们。</speak>
+            <show chara="ritaVestHesitateClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">咦？我还以为，一定是你镇压了其中最狂热的一小撮信徒……</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">总之，他们认为“纳科姆”之间的争斗是神圣的，无论发生什么都理所应当。</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">这些人现在的诉求，是希望我们中至少留下一人，来做他们的新任“大祭司”。</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……我怎么觉得把奥托主教扔给他们才是最合适的呢。</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_Rita">噗，主教大人的话，每天只需要借出喝一杯茶的时间，就足够处理这里的所有事务了吧。</speak>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">——说起来，比安卡大人似乎不像其他女武神那样畏惧主教大人呢。是发生过什么有趣的事吗？</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">啊。毕竟那个人当过我的主治医生嘛。我刚从医院里醒来的那段时间。</speak>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">他自己让我把他当成一个普通的医生，所以我也就那么做了。</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……结果，等到我真正来了总部以后，反而觉得其他女武神对他那种毕恭毕敬的样子非常不自然。</speak>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">——我们的主教有那么可怕吗？</speak>
+            <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_Rita">噗。大概因为她们没有比安卡大人这样的好运气吧。</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">毕竟对于大多数人而言，主教大人都是一位高高在上、和自己几乎没有交集、又让人琢磨不透的长辈。对吧？</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">好啦，我的身体也恢复得差不多了，是时候——</speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="cenote.jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <sound src="se_spring.mp3"/>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">——怎么回事？</speak>
+            <bgm src="legion.mp3" status="start"></bgm>
+            <speak chara="_Rita">有什么、要从潭底出来了！</speak>
+            <show chara="BertrandSmile" position="center"/>
+            <shake position="all" time="250"></shake>
+            <speak chara="_bertrand">"Le Peuple souverain s'avance,"（让自主的人民前进，）</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand" remark="next">"Tyrans descendez au cercueil! "（让暴君进他的棺材！）</speak>
+            <remark post="U2FsdGVkX1+JMOsAqrORmyQBW1vO">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">这是《出征曲》的两句歌词。</p>
+                <p class="article-text">《出征曲》（法语：Chant du départ；艾森蒂恩·尼古拉斯·梅耶尔作曲，玛丽-约瑟夫·切尼尔作词）是发表于1794年的一首法国革命战争歌曲，也是法兰西第一帝国的官方国歌。</p>
+            </remark>
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">尊贵的小姐们，感谢您帮助我获得自由。我的名字叫做贝特朗，是法兰西共和国东方远征军的一名上校！</speak>
+            <speak chara="_bertrand">立正！敬礼！</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="center"/>
+            <speak chara="_Bianka">……上校？远征军？法国？你在说什么？</speak>
+            <show chara="biankaDressShoutClose" position="center"/>
+            <speak chara="_Bianka">不、不对，在那之前——你到底是什么东西？为什么会说话啊？！</speak>
+            <show chara="biankaDressShoutClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">……啊。我现在——已经不是“普通人类”的外貌了啊。</speak>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">抱歉，尊贵的小姐。您明白的，上了年纪的人总会出现一种幻觉：他们似乎仍然年轻，仍然在经历那些自己很久之前已经经历过的事情。</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">三千年！啊不……也许是三个月……三年？不，不管怎么说，可恶的女巫剥夺了我的力量，就这样把我活生生囚禁在深不见底的水潭里。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">所以，告诉我，尊贵的小姐们：那个波斯女巫是不是已经接受了正义的制裁？</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">……“艾丝德尔·查拉图斯特拉”的确是死了。她试图暗杀我们，但失败了。正当防卫。</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">呵呵……人常常会在自己最擅长的领域付出最惨痛的代价。就像我们的皇帝一样。</speak>
+            <show chara="BertrandSmile" position="center" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="center"/>
+            <speak chara="_Rita">……“皇帝”？</speak>
+            <show chara="ritaVestNormalClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand" remark="next">是的，皇帝，“Imperator”。</speak>
+            <remark post="U2FsdGVkX19v4Kx0G0CAr4k8kjaj">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">Imperator（音译：英白拉多，意译：凯旋将军、皇帝）是古罗马的一种头衔。在罗马共和国时期相当于军队的总指挥官，在罗马帝国时期变成“元首”（Princeps，意为“第一公民”）的头衔之一。</p>
+                <p class="article-text">——Imperator也是英语"Emperor"（“皇帝”）的辞源。</p>
+            </remark>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">不是罗马人、不是希腊人、不是德意志人、更不是土耳其人或者俄罗斯人——</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">他是我们法国人唯一的皇帝——</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">——他的名字是，拿破仑·波拿巴！</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">……我可没听说过拿破仑还封过一条龙当上校。</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">哦，尊贵的小姐，从亚历山大到圣赫勒拿，忠诚的贝特朗永远都是皇帝最值得信赖的一名士兵。</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">一名士兵！不是龙！会喷火的是枪管，不是嘴！</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">啊，不……现在的确已经是一条龙了。</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">喂喂，你究竟想说什么？</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">哦，尊贵的小姐，您一定要原谅我这颗越发糊涂的脑袋。</speak>
+            <speak chara="_bertrand">最忠诚的贝特朗反而背叛了皇帝，这无比悲伤的事实让我心绪难平、有口难言。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">是的是的。我背叛了皇帝。一切都已经结束了。一切又重新开始了。</speak>
+            <speak chara="_bertrand">皇帝启动了“墙”。他正在缔造一个新世界，可是我却逃离了他的战壕。</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="center"/>
+            <speak chara="_Bianka">（……“皇帝”……“墙”……“新世界”？）</speak>
+            <show chara="biankaDressShockClose" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">……啊！可恶的水藻！该死的涡虫！</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">它们肯定侵蚀了这颗原本就越发糊涂的脑袋，让可怜的贝特朗几乎害了疯病。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">尊贵的小姐，您一定要原谅我这条不中用的老龙。</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">好的好的，我一定原谅你——只要你好好回答我们的问题。</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">一定、一定。洗耳恭听。</speak>
+            <show chara="BertrandSmile" position="center" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="center"/>
+            <speak chara="_Bianka">……贝特朗“上校”。你究竟是怎样变成“龙”的？</speak>
+            <show chara="biankaDressNormalClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">龙？……龙当然和皇帝有关系，至少东方的那些传说是这样认为的。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">但是我也必须提醒你，尊贵的小姐，在东方根本就没有什么“Imperator”——</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">——“神圣”不过是庸俗的臆想，“超人”才是“凯旋将军”的真谛。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">是的，尊贵的小姐，你要相信：我们的皇帝是个非常光明磊落的人——</speak>
+            <speak chara="_bertrand">——尽管他和密谋暗算的可恶女巫都属于名为“超人”的可怕异形。</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="center"/>
+            <speak chara="_Bianka">……“蛇人”也好，“龙人”也罢，有什么区别吗？</speak>
+            <show chara="biankaDressHesitateClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">没有。云朵和彩虹又能有多大的区别呢？</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">但如果制造云朵的人在追求雨水，而制造彩虹的人在追求艳阳，那事情就完全不同了。</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">我是说，皇帝永远是人……至少在外表上肯定没错。他这样的伟人，才不会变成我这样的半人半兽。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">皇帝说过，“神”是人们在心灵中建筑起的金字塔，是人们为自己准备的一个精神坟墓，用来逃避那些无法面对的灾厄与痛苦。</speak>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">啊，伟大的皇帝：他总是直面自己的激情，以此来感染周围的人。</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">举世无双的拿破仑·波拿巴！我永远忠诚于他！法兰西人民永远忠诚于他！</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">……喂！你刚刚才说过，你自己背叛了“皇帝”！</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">我？昂利·加蒂安·贝特朗？背叛皇帝？哈哈哈哈，这是什么可怕的玩笑——</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">——啊，不。我的确背叛了皇帝。所以我才会在这里。被水藻和涡虫支配。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">抱歉，尊贵的小姐。我这颗不中用脑袋里面大概早已空空如也……不过我会努力回忆发生过什么事的。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">唔……是莫斯科吗？是滑铁卢吗？是圣赫勒拿吗？……不对不对，圣赫勒拿的蝴蝶至少很漂亮。</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">……蝴蝶？</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">不、不，和蝴蝶没有什么关系。蝴蝶只不过是水藻和涡虫带来的臆想罢了……虚空中的精灵而已。</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">唔……虚空……等等，我想起来了！一切确实是从圣赫勒拿开始的！</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">尊贵的小姐，圣赫勒拿属于东印度公司管辖，因此看管我们的英国人也都是公司的雇员。</speak>
+            <speak chara="_bertrand">……您知道的，皇帝战败了，他和追随着他的我们都被流放到了这个小岛上。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">岛上的长官是个传统的英国绅士，但是他的部下里也有一些从印度招募来的佣兵、杂役、建筑师——甚至天文学家。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">不过，其实建筑师也好、天文学家也罢，那都是同一个人；他的名字很古怪，叫做……“婆”……“婆罗”……</speak>
+            <speak chara="_bertrand">……不对，应该是叫“婆什迦罗十八世”。</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">啊啊，这个天杀的印度疯子！可恨之极！</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="center"/>
+            <speak chara="_Rita">我记得婆什迦罗二世是十二世纪最伟大的数学家之一……</speak>
+            <show chara="ritaVestNormalClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">我不清楚这个“十八世”算不算数学家——</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">我只记得1820年的一整年里，他这个人都在岛上布置着古怪的机械！该诅咒的渎神机械！</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">……那家伙虽然是个印度人，却有一整套英国国王颁发的特许证明，因此什么人都不能妨碍他在岛上进行“科学研究”。</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">所以……他的机械装置和你或者“皇帝”有什么关系吗？我怎么越听越糊涂了？</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">啊啊，尊贵的小姐，您不用着急的。婆……“婆什迦罗”的装置，和我如今的下场的确有很深的联系……您只需要听我慢慢讲来。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">第一件事。这个印度人花了一年多的时间在圣赫勒拿的各处都布置起了他的渎神装置；然后，在1821年5月的那个新月之夜——</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">他把整座岛屿从地球上——不，应该说从我们的宇宙里——换走了。</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="center"/>
+            <speak chara="_Bianka">……啊？</speak>
+            <show chara="biankaDressShoutClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">根据他的说法，1821年5月的第一个新月之夜是“繁星正确之时”，在这个夜晚的特定时间、特定地点，我们能够与相邻的异世界进行物质交换。</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="center"/>
+            <speak chara="_Rita">……！</speak>
+            <speak chara="_Rita">这个印度人，他有提到过自己的装置叫什么名字吗？</speak>
+            <show chara="ritaVestAngryClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">唔……我记得他把那个叫做“格洛里亚”……不对，“格尼瑞斯”……不对，“格尼乌斯”……</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">对！“格尼乌斯”！“格尼乌斯集群”！是这个名字，没有错！</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="center"/>
+            <speak chara="_Bianka">（……又一个使用了“格尼乌斯”的事件？）</speak>
+            <show chara="biankaDressShockClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">印度人用“格尼乌斯集群”把整个岛屿转移到了一个未知的空间……然后又做了第二件事。</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">未知的空间？不是现在我们身处于此的这个世界吗？</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">……应该不是。毕竟星空看起来完全不同。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">印度人也曾经用这一点来威胁我们，说如果我们不配合他，就会迷失在时间的夹缝中，在无始无终的痛苦里重复毁灭，永世不得脱身。</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">所以你们只好配合他来行动？</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">哦，尊贵的小姐，我很想说“不是”，但可惜事实并非如此。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">他取出了一整箱的神秘药剂，然后自己喝下去了其中的一瓶。他的整个身体都开始变形……变成了怪物。</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">……？！</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">我们本以为他是想用魔法来控制所有人……但是这个人却对我们说……</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">“我很清楚，自己不具备成为‘超人’的潜质。”</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">“喝下这瓶药之后，我的理性很快就会死去，变成残暴的、试图毁灭一切的‘崩坏兽’。”</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">“但是，我知道，你们当中至少有一个人是‘圣痕’的显现者——”</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">“——拿破仑·波拿巴，法兰西人伟大的皇帝。”</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">“如果你喝下同样的药剂，你就会进化成‘超人’。”</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">“这样，你不仅可以打败我，保全你的部下以及他们的孩子；还能利用我所留下的资料，让岛屿降落回稳定的世界。”</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">“我的皮肤已经变成了比钢铁还要坚硬的外骨骼……你还有10秒钟的时间做出选择，皇帝。”</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="center"/>
+            <speak chara="_Bianka">……他真的疯了。</speak>
+            <show chara="biankaDressHesitateClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">岛上的英国守军试图用枪械和刺刀阻止这个印度疯子，但根本无济于事。现场乱作一团——</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">——这时有一瓶药剂正好滚到了皇帝的脚下。</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">……他喝下去了？</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">是的。接下来发生的事情似乎完全符合那个印度疯子的说法：皇帝并没有像他那样变成怪物，而是变成了比怪物还强的“超人”。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">他似乎突然之间就年轻了三十岁——</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">不，即使是最年轻力壮的士兵也根本没法和他相提并论——</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">他的拳可以撕开天空！他的脚可以踢裂大地！他徒手就制服了刀枪不入的怪兽，撕下它的鳞甲、割下它的头颅！</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">接下来，皇帝迅速整合了岛上的法国人和英国人，根据印度疯子留下的资料，操纵整个岛屿返回现实世界……</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">……一切本该这样就重回正轨的。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">但直到我们的船只抵近了不列颠的土地，才发现它显然不属于我们熟悉的、原本的那个世界：</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">整个岛上的读书人说的都是法语！就像“诺曼征服”之后的中世纪一样！</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">……这个我们倒已经见怪不怪了。那时候你还没有变成现在这副样子吧？这之后发生了什么？</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">面对着陌生的异界，皇帝没有气馁。他说——</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">“那我们就开始新的生活，从这里建立一个新的帝国吧！”</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">不过，事后想来的话……这也正是一切动乱发生的源头。</speak>
+            <end post="U2FsdGVkX19wRxPb54i8CCP+o3ni"/>
+        </scene>
+    </story>
+</data>

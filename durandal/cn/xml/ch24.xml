@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="CG23-1.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <speak chara="_Thoreau">我由衷地认同这句箴言：“最好的治理系统，它治理得最少。”</speak>
+            <speak chara="_Thoreau">迫于外部压力，共和国的治理系统无法让我实现这个理想——你们在世界彼岸隶属的那个组织或许也是如此。</speak>
+            <speak chara="_Thoreau">当人类必须让社会高效运转才能求得生存的时候，他们就只能将自己的命运寄托于少数代表者的身上；这是一件无可奈何的事情。</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="palaceMeetingQuito.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">据说二位从异世界带来的使命，是调查我们的“以太锚点”。</speak>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">也就是说，你们的核心诉求，直接与这个世界的【生命线】紧密相关。</speak>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">那么，一个很自然的问题出现了：“锚点”的重要性，对我们彼此而言在多大程度上是对等的呢？</speak>
+            <show chara="thorNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">……我无法直接回答这个问题。</speak>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">但在我们的世界里，每一立方米的空气都充斥着能够让我的武器快速回复能量的崩坏能。</speak>
+            <show chara="biankaDressHateClose" position="right"/>
+            <speak chara="_Bianka">在那里，崩坏与和平并没有明确的界限；人们只能被迫地、麻木地接受自己的命运。</speak>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">而在那个世界里领导着我们对抗崩坏的领袖——他认为调查“锚点”对于我们的事业很有价值。</speak>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">……我想，这多少能够说明，我们的任务是一件严肃的事。</speak>
+            <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈，专门强调“严肃”这一点，是因为我平常太不严肃了吗？</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">喂……</speak>
+            <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">别介意嘛，开个玩笑而已。</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">我是个艺术家，也是个梦想家。</speak>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">我总是会尝试去做一些能够改变世界的事情。</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">所以——能一次改变两个世界的命运，那不是更棒了吗？</speak>
+            <show chara="shakesCasualSeriousClose" position="left"/>
+            <speak chara="_Shakespeare">比安卡，你是个难得一见的好孩子。</speak>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">我想，你一生中遇到的所有人，他们最终都会支持你、帮助你的。</speak>
+            <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">……谢谢。</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="thorSmileClose" position="left"/>
+            <speak chara="_Thoreau">咳咳。</speak>
+            <show chara="thorConfidentClose" position="left"/>
+            <bgm src="legion.mp3" status="start"></bgm>
+            <speak chara="_Thoreau">言归正传。如果你们真的愿意帮助共和国、帮助这个世界——</speak>
+            <show chara="thorSmileClose" position="left"/>
+            <speak chara="_Thoreau">那么作为回报，我们会向你们提供远比普通的“调查结果”更有价值的东西。</speak>
+            <show chara="thorConfidentClose" position="left"/>
+            <speak chara="_Thoreau">——没错，那也许要比我手中的这两颗“幽兰黛尔”的宝石还要贵重无数倍。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="thorSmileClose" position="center"/>
+            <speak chara="_Thoreau">……在具体展开之前，我先说一下结论吧。</speak>
+            <show chara="thorConfidentClose" position="center"/>
+            <speak chara="_Thoreau">面对崩坏的威胁，共和国在很久以前就准备好了一个积极进攻、彻底拯救这个世界的计划。</speak>
+            <show chara="thorNormalClose" position="center"/>
+            <speak chara="_Thoreau">这是一个非常大胆的计划，它几乎没有缺点——</speak>
+            <show chara="thorSighClose" position="center"/>
+            <speak chara="_Thoreau">——除了缺乏必要的执行人。</speak>
+            <show chara="thorSmileClose" position="center"/>
+            <speak chara="_Thoreau">当然，现在一切都不同了。命运让你们与共和国不期而遇。</speak>
+            <show chara="thorConfidentClose" position="center"/>
+            <speak chara="_Thoreau">好了，前言完毕。准确地说，我们希望你能够扮演这样一个角色——</speak>
+            <goto goto="30" clockwise="1"/>
+        </scene>
+        <scene id="30" background="palaceMeetingQuito.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressHateClose" position="left"/>
+            <speak chara="_Bianka">我只问一个问题。</speak>
+            <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+            <show chara="thorSmileClose" position="right"/>
+            <speak chara="_Thoreau">请讲。</speak>
+            <show chara="thorSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">这个计划的成功率……您认为有多少。</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="thorConfidentClose" position="right"/>
+            <speak chara="_Thoreau">第一步应该能达到99%——剩下的1%是我们没有正确评估你的崩坏能抗性的可能性。</speak>
+            <show chara="thorSighClose" position="right"/>
+            <speak chara="_Thoreau">但是第二步……我没有办法概括成一个数字来告诉你。</speak>
+            <show chara="thorNormalClose" position="right"/>
+            <speak chara="_Thoreau">在那个时刻到来的时候，我们之前的一切准备都可能会在瞬间就变得毫无意义。</speak>
+            <show chara="thorConfidentClose" position="right"/>
+            <speak chara="_Thoreau">但尽管如此——在最坏的状况下，我们也有办法让事情不至于完全失控。</speak>
+            <show chara="thorNormalClose" position="right"/>
+            <speak chara="_Thoreau">“星语者”后继无人无疑让我们在长期战略上居于劣势；</speak>
+            <speak chara="_Thoreau">但【君士坦丁堡】在1453年之前也不是那么容易就会陷落的。</speak>
+            <show chara="thorNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">明白了。</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">我会在取回拉帕努伊岛上的“繁盛结晶”之后，再给您确切的答复。</speak>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">感谢您的真诚。</speak>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="quitoPalaceOutside.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">……呼。</speak>
+            <show chara="biankaDressShyClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">比安卡大人……</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">啊。丽塔。</speak>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">抱歉，让你担心了。</speak>
+            <show chara="biankaDressSmileClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">议长的计划那么夸张，您有所犹豫是很正常的呀。</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">唔。这方面其实还好吧。我不觉得那和我们自己的任务有任何冲突。</speak>
+            <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">咦？</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">我只是……担心自己不能把这件事做得很完美。</speak>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">毕竟，对于这个世界来说，我们的的确确是预料之外的“X元素”。</speak>
+            <show chara="biankaDressSorrowClose" position="left"/>
+            <speak chara="_Bianka">如果我们搞砸了，那么一定有许许多多人都会感受到“世界末日”的压力吧。</speak>
+            <show chara="biankaDressSorrowClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">啊。大概是吧。</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">不过你相信吗？第二天，他们仍然会该喝酒的喝酒，该唱歌的唱歌。</speak>
+            <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">——</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">不用把自己想成什么救世主啊，小姑娘。</speak>
+            <show chara="shakesCasualSeriousClose" position="right"/>
+            <speak chara="_Shakespeare">你并不是在出售某种表演，或者在实现某种已经许诺他人的救赎——你和你的武器给了这里的人们一个机会，仅此而已。</speak>
+            <show chara="shakesCasualNormalClose" position="right"/>
+            <speak chara="_Shakespeare">无论世界的命运有没有被改变，我们的所作所为终究也不过是一则新闻罢了。</speak>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare" remark="next">君士坦丁堡的市民们真的在意贝利撒留是否光复了旧都罗马吗？</speak>
+            <remark post="U2FsdGVkX18WuUH6eUef0oepgNf3">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">贝利撒留（Flavius Belisarius, c.500 ~ 565）是公元6世纪东罗马帝国的名将，他为皇帝查士丁尼接连收复了被“蛮族”统治近百年的北非和意大利。</p>
+            </remark>
+            <show chara="shakesCasualNormalClose" position="right"/>
+            <speak chara="_Shakespeare">不。</speak>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare" remark="next">他们只在意查士丁尼皇帝会不会加税，会不会把商船强征入伍。</speak>
+            <remark post="U2FsdGVkX1+pjzGzv6ESAibLPgbh">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">查士丁尼一世（Flavius Petrus Sabbatius Justinianus, c. 482 ~ 565）是公元527年到565年在位的东罗马帝国（拜占庭）皇帝。他（在皇后提奥多拉等人辅佐下）收复了众多失土，编纂了《查士丁尼法典》，有“大帝”与“最后的罗马人”之称。</p>
+            </remark>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">所以你尽管放轻松——“如何让人民开心”是议长的责任，而不是你的责任。</speak>
+            <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">唔……可是我甚至不确定我自己是否真的适合——</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="champoBlanketLaughClose" position="right"/>
+            <speak chara="_Champollion">哈哈，那你才更应该放轻松啊！</speak>
+            <show chara="champoBlanketSmileClose" position="right"/>
+            <speak chara="_Champollion">从最终结果来说，你们在这件事上无非是二选一罢了：</speak>
+            <show chara="champoBlanketNormalClose" position="right"/>
+            <speak chara="_Champollion">要么加入议长的计划，带着更多关于“锚点”的情报回家；要么回绝那个人的邀请，或者就此总结探险成果，或者绕过她、用窃取的方式获得更有价值的情报。</speak>
+            <show chara="champoBlanketLaughClose" position="right"/>
+            <speak chara="_Champollion">虽然后者好像对这个世界没什么好处……但【你们】终究是在为自己原本的世界而冒险，对吧？</speak>
+            <show chara="champoBlanketLaughClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="left"/>
+            <speak chara="_ShigureKira">喂。你说这话是什么意思啊。我们的比安卡是那种人吗？</speak>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="left" opacity="0.8"/>
+            <show chara="champoBlanketEmbarrassClose" position="right"/>
+            <speak chara="_Champollion">抱歉抱歉。我只是想放松一下她们的神经而已。</speak>
+            <show chara="champoBlanketEmbarrassClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffTalkingClose" position="left"/>
+            <speak chara="_ShigureKira">……讲这些能放松哪门子的神经啊。你这个“印第安纳”，思想很危险呐。</speak>
+            <show chara="ShigureKiraSunGlassesOffTalkingClose" position="left" opacity="0.8"/>
+            <show chara="champoBlanketLaughClose" position="right"/>
+            <speak chara="_Champollion">“印第安纳”？这是未来时代流行的某种外号吗？</speak>
+            <show chara="champoBlanketLaughClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffConfidentClose" position="left"/>
+            <speak chara="_ShigureKira">哼，自己猜去吧。谁让你明明是个学者，脑子里却总是想着些“三十六计”一样的东西嘛。</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
+            <speak chara="_ShigureKira">啊，顺便一说，人家真正的“印第安纳”可比你强多了。</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="left" opacity="0.8"/>
+            <show chara="champoBlanketEmbarrassClose" position="right"/>
+            <speak chara="_Champollion">……那、那还真是抱歉了呢。</speak>
+            <show chara="champoBlanketEmbarrassClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">好啦……</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……与其说我没有决定好怎么做，倒不如说我需要整理一下心情来认真面对那个计划。</speak>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">先出发吧——无论如何，我们总归要去拉帕努伊岛取回青色宝石“繁盛结晶”。</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……毕竟这个信息，人家都作为一个人情直接告诉我们了。</speak>
+            <goto goto="50" clockwise="1"/>
+        </scene>
+        <scene id="50" background="beachRapaNui.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+            <text>——两天后，南太平洋深处。</text>
+            <show chara="caravaArrogantClose" position="center"/>
+            <speak chara="_CaravaggioNoName">……哟。</speak>
+            <speak chara="_CaravaggioNoName">欢迎来到拉帕努伊岛。</speak>
+            <speak chara="_CaravaggioNoName">叫我“卡拉瓦乔”吧。</speak>
+            <hide position="center"></hide>
+            <show chara="caravaArrogantClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">唔……你好，卡拉瓦乔小姐。</speak>
+            <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+            <show chara="caravaFocusClose" position="left"/>
+            <speak chara="_Caravaggio">事情我已经听说了。</speak>
+            <show chara="caravaColdClose" position="left"/>
+            <speak chara="_Caravaggio">我们上山吧。“繁盛结晶”就在接近山顶的位置。</speak>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="treeRapaNui.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="continue"></bgm>
+            <show chara="ritaVestNormalClose" position="left"/>
+            <speak chara="_Rita">听说卡拉瓦乔大人是专门守卫“繁盛结晶”的星语者……这颗宝石如今很危险吗？</speak>
+            <show chara="ritaVestNormalClose" position="left" opacity="0.8"/>
+            <show chara="caravaColdClose" position="right"/>
+            <speak chara="_Caravaggio">不。它从来都不危险。</speak>
+            <show chara="caravaFocusClose" position="right"/>
+            <speak chara="_Caravaggio">基本来说，只是能让一个人的生命力变得更顽强罢了。</speak>
+            <show chara="caravaFocusClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">咦？那为什么它需要被专人看守在如此偏僻的一座小岛上？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="caravaSurpriseClose" position="right"/>
+            <speak chara="_Caravaggio">啊，这你就搞错了。</speak>
+            <show chara="caravaArrogantClose" position="right"/>
+            <speak chara="_Caravaggio">不是“繁盛结晶被人专门看守在偏僻的拉帕努伊岛上”——</speak>
+            <show chara="caravaFocusClose" position="right"/>
+            <speak chara="_Caravaggio">而是“繁盛结晶只能留在偏僻的拉帕努伊岛上，并且有个人在看守着它”。</speak>
+            <show chara="caravaFocusClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="caravaFocusClose" position="right"/>
+            <speak chara="_Caravaggio">没事。听不懂没关系。毕竟凡事百闻不如一见。</speak>
+            <show chara="caravaArrogantClose" position="right"/>
+            <speak chara="_Caravaggio">我的老本行是画家，不像某些下了海的红发剧团长那样能说会道。</speak>
+            <show chara="caravaArrogantClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">等等——这句话的感觉——难道你和莎士比亚船长原本就认识？</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="caravaFocusClose" position="right"/>
+            <speak chara="_Caravaggio">……唔，谁知道呢。</speak>
+            <show chara="caravaDisgustedClose" position="right"/>
+            <speak chara="_Caravaggio">这种陈芝麻烂谷子一样的事情，还是由你们的船长自己来揭底比较好。</speak>
+            <show chara="caravaDisgustedClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">别看我呀。我可不记得自己哪年哪月见义勇为时候冤枉过一个暴躁画家啊。</speak>
+            <show chara="caravaSurpriseClose" position="right"/>
+            <speak chara="_Caravaggio">呵。看见了吧，这家伙也就这么点出息了。</speak>
+            <show chara="caravaArrogantClose" position="right"/>
+            <speak chara="_Caravaggio">各位，现在有没有突然想起来什么，以前被她稀里糊涂糊弄过去的事情啊？</speak>
+            <show chara="caravaArrogantClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">——啊！</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">……等等，还真有？</speak>
+            <show chara="shakesCasualQuestionClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">船长，这次可不许你再瞎扯了——</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">——还记得当初我们刚见面的时候，你是怎么说明“幽兰黛尔”的来历的吗？</speak>
+            <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">“捡来的”？</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">对，没错，“捡来的”。就是这么荒唐。既然——</speak>
+            <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+            <bgm src="11_29_themeTesla.mp3" status="start"></bgm>
+            <show chara="durandalWhite" position="right"/>
+            <speak chara="_SwordDurandalQ">等等，新主人。很抱歉打断您。</speak>
+            <show chara="durandalWhite" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">——怎么了？</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="durandalClose" position="right"/>
+            <speak chara="_SwordDurandalQ">……那件事是真的。我真的是被她偶然捡到的。</speak>
+            <show chara="durandalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">……啥？</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="durandalOpen" position="right"/>
+            <speak chara="_SwordDurandalQ">来到这个世界的时候我不是和薛定谔博士分开了吗？</speak>
+            <show chara="durandalClose" position="right"/>
+            <speak chara="_SwordDurandalQ">——莎士比亚船长就是在那段时间里捡到我的。</speak>
+            <show chara="durandalWhite" position="right"/>
+            <speak chara="_SwordDurandalQ">至于后来……</speak>
+            <show chara="durandalOpen" position="right"/>
+            <speak chara="_SwordDurandalQ">咦？我的记录里显示……当时系统发生过一次致命错误……</speak>
+            <show chara="durandalWhite" position="right"/>
+            <speak chara="_SwordDurandalQ">奇怪，为什么我的意识层面没有相关的记忆？难道是错误太严重以至于连记忆都丢失了？</speak>
+            <show chara="durandalWhite" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">呃……</speak>
+            <show chara="biankaDressAngryClose" position="left"/>
+            <speak chara="_Bianka">你自己的问题先不谈……</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">总而言之，你真的就是这个红毛矮子……运气好捡到的？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="durandalOpen" position="right"/>
+            <speak chara="_SwordDurandalQ">嗯。这一点，千真万确哦。</speak>
+            <show chara="durandalOpen" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……而薛定谔博士也是后来偶然遇见的？</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="durandalClose" position="right"/>
+            <speak chara="_SwordDurandalQ">唔……这个我就不太清楚了。当时“理智结晶”正被别人挪作他用，所以我是没有相关记忆的。</speak>
+            <show chara="schroCalmClose" position="right"/>
+            <speak chara="_Schrodinger">是我找到船长的。</speak>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">那时候她就像个暴发户一样扛着把大宝剑招摇过市——不管被什么人找到都只是时间问题吧？</speak>
+            <show chara="schroTalkClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">你不要说得这么形象啊！我脑内又出现她以前傻笑的那个蠢样了！</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">哈哈哈哈。没心没肺地傻笑可是我的“天字第一号”招牌哦？</speak>
+            <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">……你怎么这么欠揍啊？！</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="rockRapaNui.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+            <text>山路盘旋而上，海拔越高，地面的沙化便越厉害。</text>
+            <text remark="next">“我们这边有几尊那种叫做‘摩埃’的石像，”土人打扮的星语者耸着肩膀说道，“不过它们都是异世界的仿制品。”</text>
+            <remark post="U2FsdGVkX1+zb5o1703+UTqcrTik">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">摩艾（Moai）是令拉帕努伊岛（Rapa Nui，旧称复活节岛）闻名世界的一类巨型石雕人像。全岛已知有887尊摩艾石像，多半只有头，少数有肩膀、手臂以及躯干，还有一些未完成即被遗弃。</p>
+                <p class="article-text">今日的拉帕努伊岛树木稀疏、土地贫瘠、水土流失严重，一片荒凉的景象。但考古学显示，这里曾是一个自然生态的天堂——是当地人毫无节制的大兴土木导致了环境灾难，并使得曾经繁盛的文明（一度拥有文字和远洋航海技术）最终退化消亡。</p>
+            </remark>
+            <speak chara="_Caravaggio">有一段时间，这个国家的人们喜欢复制所有来自异世界的东西。按照我们议长的说法——</speak>
+            <speak chara="_Caravaggio">“我们是宁愿花更多的钱于布置的奢侈上，而不在乎安全和便捷的。”</speak>
+            <speak chara="_Caravaggio">“我们的家园仿佛一个后现代客厅，有印度的躺椅，土耳其的软床，阿拉伯的纱帐；</speak>
+            <speak chara="_Caravaggio">“我们把千百种来自另一个世界的花样一股脑都搬到自己家里：而那些花样原本的用途，是连大卫王和他的朋友们听了都要觉得害臊的。”</speak>
+            <speak chara="_Caravaggio">——当然，她说这段话的时候自己还没有成为议长。那时她可以毫不顾忌地说，“一个人除了吃三餐饭、睡一张床之外，便不需要任何多余的奢侈之物了”。</speak>
+            <speak chara="_Caravaggio">跑题了。对你们即将见到的东西而言，这不是什么有价值的话题。</speak>
+            <speak chara="_Caravaggio">当然，它和你们船长过去的馊事也没有任何关系。</speak>
+            <speak chara="_Caravaggio">……那并不是任何一个【个人】的错误。</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="moaiRapaNui.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <text>山顶的平地上没有一丝一毫的风。</text>
+            <text>但尽管如此，崩坏能的漩涡却让每个人都感受到了明显的窒息感——</text>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="CG24-1.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <text>——这漩涡的最深处并不是一尊雕塑。</text>
+            <text>那个人还活着。</text>
+            <text>从很久以前开始就活着。</text>
+            <end post="U2FsdGVkX18wG6R8wEzF+R78AexS"/>
+        </scene>
+    </story>
+</data>

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="dashboard.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <text>清晨五点。</text>
+            <text>在一台比卡车驾驶室还大的笨重装置里，系好安全带的少女启动了电源。</text>
+            <text>电源按钮的上方是一个早已斑驳不堪的油漆徽章：一串难以辨认的俄语字母围绕着一支抽象风格的火箭。</text>
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <text>И...Н...Т...Е...Р...К...О...С...М...О...С...</text>
+            <text>ИНТЕРКОСМОС (INTERKOSMOS)</text>
+            <text>近半个世纪之前，在“天命”组织的帮助下，人类曾经把若干位来自不同国家的宇航员成功送上了月球。</text>
+            <text>而这台机器，就是那个辉煌时代留存至今的遗产之一。</text>
+            <speak chara="_mechanicalSound">预热完毕。</speak>
+            <speak chara="_mechanicalSound">当前模拟倍率，0.2。</speak>
+            <speak chara="_mechanicalSound">开始运行。</speak>
+            <text>伴随着古老机械那透着机油气味的噪音，从少女的腰部向下，空气增压系统开始为她平衡地球的重力。</text>
+            <text>现在，她的脚踝和膝盖只需要承受20%的体重负荷——</text>
+            <text>这样，少女就可以连续奔跑几十公里，而不需要让关节冒过度磨损的风险。</text>
+            <text>朝日初升。</text>
+            <text>女武神·幽兰黛尔，开始了新一天的训练。</text>
+            <goto goto="10" clockwise="1"/>
+        </scene>
+        <scene id="10" background="gymnasium.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <show chara="biankaSportSmileClose" position="right"/>
+            <speak chara="_Durandal">平均心率125……很好，锻炼效果不错。</speak>
+            <show chara="biankaSportSmileClose" position="right" opacity="0.8"/>
+            <show chara="ritaMaidSmileClose" position="left"/>
+            <speak chara="_Rita">那么【比安卡】大人，您的早餐可以端上来了吗？</speak>
+            <show chara="ritaMaidSquintClose" position="left"/>
+            <speak chara="_Rita" remark="next">今天的甜点，是新鲜出炉的乳酪拿破仑哦。</speak>
+            <remark post="U2FsdGVkX18du3l7nMcHK1ORJgIy">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">法式千层酥（mille-feuille）是由三层酥皮夹两层奶油或果酱制成的一类蛋糕，其发明灵感可能源自那不勒斯的披萨。</p>
+                <p class="article-text">由于“Napolitain”（“那不勒斯”的形容词形式）与"Napoleon"（“拿破仑”）的拼写近似，在英文中此甜点遂被戏称为"Napoleon"；中文亦随之译作“拿破仑蛋糕”。</p>
+                <p class="article-text">p.s. 由于1812年俄法战争的关系，“拿破仑”在俄罗斯是最受欢迎的蛋糕款式之一。</p>
+            </remark>
+            <show chara="ritaMaidSquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaSportSurprisedClose" position="right"/>
+            <speak chara="_Durandal">咦？丽塔？今天怎么突然想起做这种高热——</speak>
+            <speak chara="_Durandal">——等等。</speak>
+            <speak chara="_Durandal">刚才，你叫我……“比安卡”？</speak>
+            <show chara="biankaSportSurprisedClose" position="right" opacity="0.8"/>
+            <show chara="ritaMaidNaughtyClose" position="left"/>
+            <speak chara="_Rita">诶嘿嘿。没错哦。</speak>
+            <show chara="ritaMaidSquintClose" position="left"/>
+            <speak chara="_Rita">因为今天是一个值得用蛋糕纪念的特别日子嘛。</speak>
+            <show chara="ritaMaidSquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaSportSurprisedClose" position="right"/>
+            <speak chara="_Durandal">今天？2月28……不对，29？</speak>
+            <speak chara="_Durandal">啊。</speak>
+            <show chara="biankaSportHesitateClose" position="right"/>
+            <speak chara="_Durandal">……</speak>
+            <speak chara="_Durandal">已经四年了吗。</speak>
+            <show chara="biankaSportSmileClose" position="right"/>
+            <speak chara="_Durandal">认识你也好……认识他们也好。</speak>
+            <show chara="biankaSportHesitateClose" position="right"/>
+            <speak chara="_Durandal">……连我自己都已经习惯于“幽兰黛尔”这个名字了。</speak>
+            <speak chara="_Durandal">……</speak>
+            <show chara="biankaSportHesitateClose" position="right" opacity="0.8"/>
+            <show chara="ritaMaidNormalClose" position="left"/>
+            <speak chara="_Rita">主教大人会择机实施他的计划。</speak>
+            <speak chara="_Rita">而我们，也终将有机会兑现自己的承诺。</speak>
+            <show chara="ritaMaidNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaSportSmileClose" position="right"/>
+            <speak chara="_Durandal">……当然。</speak>
+            <speak chara="_Durandal">那可是少女比安卡的头等大事。</speak>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="libraryDay.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <text>在天命组织的女武神档案馆里，静静地躺着一叠微微发黄的纸张。</text>
+            <text>这份经过脱密处理的文件，开头是这样书写的——</text>
+            <text>绝密行动："LONELY PANTHALASSA" </text>
+            <text>开始时间：2012年2月29日</text>
+            <text>行动地点：██████████·“量子之海”  </text>
+            <text>行动目标：████████████</text>
+            <text>执行人员：比安卡·“幽兰黛尔”·阿塔吉娜（12）、丽塔·洛丝薇瑟（16）</text>
+            <text>行动状态：已结束</text>
+            <text>脱密审核：奥托·阿波卡利斯</text>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="black">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <text>是的。</text>
+            <text>接下来的故事，将自2016年2月29日向前倒推1461天——</text>
+            <text>从比安卡和丽塔抵达“量子之海”的第一日，正式开始。</text>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="fishingVillage.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_BiankaNoName">可恶，这些难民全都是懦夫！</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_BiankaNoName">不管来自什么时代，全都一样！</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_BiankaNoName">宁可过这种饥一顿饱一顿的日子，也不愿帮我们出海？！</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_BiankaNoName">还能再没有骨气一点吗？！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_RitaNoName">在流落到此之前，他们并没有当过职业水手……</speak>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_RitaNoName">……会害怕神话中的海怪“利维坦”，也是理所当然的吧？</speak>
+            <show chara="rita17NormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_BiankaNoName">可是——他们就心甘情愿被这样困在岛上？过这种只能靠捡贝壳、捉螃蟹过活的日子？</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_RitaNoName">有一句俗语是这样说的：“小船就应该靠近海岸行驶。”</speak>
+            <show chara="rita17SquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_BiankaNoName">……啊？</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_RitaNoName">比安卡大人，所谓“普通人”，就是悲观的现实主义者：在成功的报酬之前，他们会优先关注失败的惩罚。</speak>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_RitaNoName">更何况这是难以预测的大海、全然未知的异界——只要稍有事实作为依托，恐怖的谣言就会铺天盖地而来。</speak>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_RitaNoName">正如“利维坦”这个名字所暗示的……</speak>
+            <speak chara="_RitaNoName">在他们的潜意识中，出海，就是与自然作对——</speak>
+            <speak chara="_RitaNoName">——就是一种自杀。</speak>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_RitaNoName">所以，在他们眼中，您和我，才是不知天高地厚的“疯狂冒险者”吧。</speak>
+            <show chara="rita17SquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">啧。你倒是很同情这些软弱的家伙嘛。</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">以及——</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">——丽塔小姐，我今天已经说过很多次了吧？</speak>
+            <speak chara="_Bianka">请不要左一个“大人”、右一个“大人”的……你就没有一点关于“肉麻”的自觉吗？</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">我只是一个在任务开始前才刚刚和你认识的普通女武神，你也只不过是某人强行安插给我的临时副官——</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">——请不要把服务主教时的那一套东西用在我身上！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">……是，比安卡大人。</speak>
+            <show chara="rita17NormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_MiguelNoName">打搅一下。</speak>
+            <speak chara="_MiguelNoName">二位小姐……是今天才来到岛上的新人吧？</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaConfidentClose" position="left"/>
+            <speak chara="_Bianka">……没错。</speak>
+            <speak chara="_Bianka">是38分钟25秒——不，26秒——的新人。</speak>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">不过，这可不是像你们那样的“落难”，而是“奉命探险”。</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">当然，在完成特定的任务之前——我们会留在这个世界，与你们同甘共苦。</speak>
+            <show chara="biankaConfidentClose" position="left"/>
+            <speak chara="_Bianka">我是比安卡·阿塔吉娜，她是副官丽塔·洛丝薇瑟——您有什么问题吗？</speak>
+            <show chara="biankaConfidentClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_MiguelNoName">哈哈哈哈！</speak>
+            <speak chara="_MiguelNoName">哈哈哈哈哈哈哈哈！</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">……有什么好笑的？</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_MiguelNoName">抱歉抱歉！年纪大了，没事儿就喜欢笑笑。冒险家小姐不必在意。</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_MiguelNoName">言归正传——</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_MiguelNoName">我听说你试图动员大家，一起去消灭“利维坦”，为出海打开通路。</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">是的。</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">不过根本没有人愿意一起冒险！</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_MiguelNoName">哈哈……那是当然。再怎么说，他们也不是战士——</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_MiguelNoName">——是没法和见识过地狱光景的女英雄们相提并论的。</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">您……是怎么……</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_MiguelNoName">哈哈哈哈。等你们到了我这个岁数，那也是只要看一下别人的眼神，就能明白的！</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_MiguelNoName">我的名字是米格尔。直截了当地说——</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">两位勇敢的战士……你们愿意帮助我这个残废了左手的老水兵，去完成一次伟大的狩猎吗？</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">咦？</speak>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">你是说……</speak>
+            <show chara="biankaProudClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">我是说，我可以给你们提供船只，并且承担驾驶的职责。</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">——如果你们不嫌弃它只是一条芦苇船的话。哈哈！</speak>
+            <goto goto="50" clockwise="1"/>
+        </scene>
+        <scene id="50" background="beachIslandNoName.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">哦，大海，我的老朋友！</speak>
+            <speak chara="_Miguel">多谢你高抬贵手，让我这条发了霉的老破船，到今天也没有散架！</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">……怎么了，突然诗兴大发的样子。</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">哈哈哈……看啊，这条芦苇船吃了三年的灰，竟然还这么结实！</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">……“利维坦”已经围困岛屿这么久了吗？</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">唔，可能还更久也说不定。总之，它似乎在这附近筑了巢，不肯走了。</speak>
+            <show chara="cervantesSeriousClose" position="right"/>
+            <speak chara="_Miguel">唉。第一年到这里的时候，我们可是能打上来不少好鱼呢！</speak>
+            <show chara="cervantesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">……那时候，您在周围发现过其他的岛屿吗？</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">唔，那倒是没有。</speak>
+            <show chara="cervantesSeriousClose" position="right"/>
+            <speak chara="_Miguel">这附近瞭望不到别的陆地——没有充足的准备，就算是哥伦布也不敢轻率启航的。</speak>
+            <show chara="cervantesSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">……是指淡水和干粮吗？</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">唔，那些当然也是必不可少的——</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">——但关键在于，你需要一艘“强壮”的船。</speak>
+            <show chara="cervantesShoutClose" position="right"/>
+            <speak chara="_Miguel">龙骨！三角帆和四角帆！这些才是最重要的。</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">靠面前这条独木舟一样的家伙？没门。这里可不是风平浪静的太平洋。</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">不过，如果我们能干掉“利维坦”，那肯定有足够的人手愿意听我们的调遣，去建造大船。</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">真的假的？</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">哈哈。人类呐，不就是一种凭借信心来生存的物种吗？</speak>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">举例来说，西班牙的士兵，面对着那些野蛮人，为什么常常能以少胜多？</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">不是我们真的强大到无法战胜——而是我们让敌人感受不到获胜的希望。</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">若不然，仅凭一两百号冒险者，怎么能征服人口有数百万之多的秘鲁？</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">勒班陀海战以少胜多，那也是因为大家从气势上将敌人踩在了脚下——而不是靠什么临阵磨枪的威尼斯战船。</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">您……来自帝国时期的西班牙吗？</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">噢，小姐好眼光啊。</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">这可不是吹牛——在误打误撞闯进这个异世界之前，我可不光是退伍战士，还是个出了好几本书的文化人咧！</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">哼，听你这口气，多半也就是些卖不出去的孤芳自赏之作吧？</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSeriousClose" position="right"/>
+            <speak chara="_Miguel">唔……我的确不知道它们在你们那个四百年后的时代还流行不流行了。</speak>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">《伽拉泰亚》，《贝尔西雷斯和西希斯蒙达》——</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">——以及，《堂·吉诃德·德·拉曼恰》。</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">您……</speak>
+            <speak chara="_Rita" remark="next">您是……塞万提斯？</speak>
+            <remark post="U2FsdGVkX19Bo9kqC3iZolEItRdA">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">米格尔·德·塞万提斯·萨维德拉（Miguel de Cervantes Saavedra, 1547 ~ 1616）是西班牙文学世界里最伟大的作家，甚至连西班牙语都被称为“塞万提斯的语言”。他的《堂吉诃德》，被认为是文学史上的第一部“现代小说”。</p>
+                <p class="article-text">塞万提斯曾作为普通军人参加了1571年10月7日的勒班陀战役。在八年后撰写的一项官方报告中这样写道：“……在这场海战中，塞万提斯发着高烧，状态很差，连长和战友告诉他：你的情况很糟糕，应该好好躺在帆船的房间里。塞万提斯指责道：你们说什么呢，我没有尽到我应尽的义务，与其当怕死鬼，倒宁愿为了上帝和国王而战死……他就这样与战友们一起，像连长所命令的那样，在这场战斗中和土耳其人搏斗着。战斗结束后，胡安将军知晓了他的英勇表现，给了他额外的四个金币……在这场战役中，他的胸部和手部两处受伤，他的左手从此残废了。”</p>
+            </remark>
+            <goto goto="60" clockwise="1"/>
+        </scene>
+        <scene id="60" background="beachIslandNoName.jpg">
+            <bgm src="peerGynt.mp3" status="continue"></bgm>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Cervantes">什么嘛，原来我在后世是这么有名的人啊！</speak>
+            <speak chara="_Cervantes">大——文——豪！哈哈哈，我喜欢这个称呼！</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">啧。本以为你是个久经沙场的老骑士……没想到竟然如此得意忘形。</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Cervantes">哈哈哈哈！比安卡小姐，既然我们听说了值得高兴的事，那为什么不顺势开心一把呢？</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Cervantes">这样，等下出海的时候，大家也可以更加认真地去做事呀。</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">哼。这你就多虑了。自从十岁当上女武神以来，我就没有一天、一事不是认真对待的。</speak>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">只要你肯教我，那不论捕鱼还是驾船，我都有信心做到最好！</speak>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">啊。说起来……</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">……塞万提斯先生，出海之后，我们应该怎么分工呢？</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Cervantes">哈，丽塔小姐不用客气。你们继续叫我“米格尔”就好。</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">至于分工呢，也很简单。</speak>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">我来当船长，负责掌舵，也负责判断进退的时机。而二位——</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">比安卡小姐，既然你自称惯用标枪和长枪，那么就拜托你来投掷渔叉；</speak>
+            <speak chara="_Miguel">丽塔小姐，你心思细腻，正好负责收放叉子上的缆绳，避免它们搅在一起。</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">缆绳？用那个做什么？</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">当然是用来把船拉到距离海怪足够近的位置喽。</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">不然我们怎么杀死它呢？再说，我们本来也得把它的尸体拖回去，好证明给大家看。</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">……那如果“利维坦”主动攻击我们呢？这条芦苇船……看起来有点……</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">只要船长利用好海流，不让它有机会从正下方偷袭就没问题！</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">之前你们不是给岛民们演示过的吗？那把能直接打碎巨石的“火枪”——你们管它叫什么来着？</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">……前文明纪元泛用性预装填作战兵器“第二圣遗物”。——这个名字应该不难记吧？</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">哈哈哈哈！人老了，这种长词儿实在是记不住啦。</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">总之，既然我们有这种比无敌舰队的大炮还强的武器——</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">——那我们乘坐的就不是什么弱不经风的芦苇小船，而是无敌的猎魔战舰！</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">你们记住了——</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">“利维坦”也好，海怪也罢，终究也不过是普通的动物而已。个头大一点罢了。</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">——而勇猛的猎人，是不会害怕猎物靠近自己的。</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">——没错！就是这样！</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">来吧！让我们杀它个污血横流，鳍肢脱落！</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">老爷爷，你就看好了吧：“天命”的女武神，究竟是怎样战斗的！</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">（……）</speak>
+            <speak chara="_Rita">（为什么，他这样确定那是“普通的动物”？）</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="seaWaveIslandNoName.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <text article="1">
+                <p class="article-text">尽管之前徒步丈量过小岛的周长，也曾在岩山上的制高点俯瞰观察；但直到身处一片汪洋之中，两位女武神才真正感受到了她们“登陆场”的渺小。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">芦苇船只不过驶出了一刻钟的光景，身后这座容纳了数十人的“避难所”，便已经退化为一块难以辨识的绿色礁石，仿佛抬一抬手就能将它从天边抹去。</p>
+            </text>
+            <text>正午的阳光洒在海面上，粼粼的反光刺得人有些睁不开眼睛。</text>
+            <text>老人轻摇长橹，将一叶扁舟稳定在翻滚的波浪之间。</text>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">当心。那家伙快要来了。</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">……可附近什么也没有啊？</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">但是，时间差不多了。</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">……时间？</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">从嗅到出海人的气息，到追上他们的船只，“利维坦”大致需要十五分钟的时间。</speak>
+            <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">等等——</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">——原来如此！所以你才把船停在了这里！</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">没错。脚下这块五米见方的暗礁，会保护我们不受垂直方向的偷袭。</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">不过，我们毕竟是在用自己当诱饵——疏忽大意或犹豫不决都会赔上性命。</speak>
+            <speak chara="_Miguel">而真正的机会，往往转瞬——</speak>
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="cervantesShoutClose" position="right"/>
+            <speak chara="_Miguel">——慢着，这是什么声音？!</speak>
+            <show chara="cervantesShoutClose" position="right" opacity="0.8"/>
+            <show chara="rita17AngryClose" position="left"/>
+            <speak chara="_Rita">机械的噪音？！</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">快看啊！水下有什么深色的东西流出来了！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">那是……血？</speak>
+            <show chara="cervantesShoutClose" position="right"/>
+            <speak chara="_Miguel">有什么东西正在和“利维坦”搏斗！就在水下！</speak>
+            <show chara="cervantesShoutClose" position="right" opacity="0.8"/>
+            <show chara="rita17AngryClose" position="left"/>
+            <speak chara="_Rita">——要浮上来了！</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="CG1.jpg">
+            <bgm src="noise.mp3" status="stop"></bgm>
+            <sound src="se_spring.mp3"/>
+            <cg src="CG1.jpg" bg="CG1.jpg" fadeIn="0" fadeOut="1"></cg>
+            <speak chara="_Bianka">这是……</speak>
+            <speak chara="_Bianka">……潜水艇？！</speak>
+            <end post="U2FsdGVkX19d+mMVBhzEm6N2HRMF"/>
+        </scene>
+    </story>
+</data>

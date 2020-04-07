@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story title="1">
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10"/>
+        </scene>
+        <scene id="10" background="carMorning.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <show chara="planckSmileCoatClose-upSymme" position="center"/>
+            <speak chara="planckNoFace">目标：黄石湖——出发！</speak>
+            <sound src="9_11_car away.mp3"/>
+            <text article="1">
+                <p class="article-text">翌日清晨，随着普朗克一脚踩下油门，圆滚滚的大众2型露营车吐出一团团粗壮健硕的热气，带着众人西出比灵斯，飞驰而去。</p>
+                <p class="article-text">大约是起床太早的缘故，上车之后没多久，后排的三人就七倒八歪地睡成了一片。</p>
+            </text>
+            <goto goto="12" change="0"/>
+        </scene>
+        <scene id="12" background="roadMontana1.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <text>劳雷尔。</text>
+            <text>帕克城。</text>
+            <text>哥伦布。</text>
+            <text>里德波因特。</text>
+            <text>格雷克利夫。</text>
+            <text>大廷伯。</text>
+            <text article="1">
+                <p class="article-text">一座座小巧恬适的殖民城镇，沿着蜿蜒的黄石河，错落有致地分布在蒙大拿的荒野之间——给予了这片辽阔土地一点点人类的烟火气息。</p>
+                <p class="article-text">尽管这条路线已经跑了很多次，薛定谔还是饶有兴致地欣赏着窗外苍凉的风景。</p>
+            </text>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">蒙大拿真好啊……</speak>
+            <speak chara="planckNoFace">这种充满静谧气息的旷野，最适合把头脑和心情全都放空呢！</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">嗯。要是人烟再少一点就更好了。 </speak>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">啊啦，你是喜欢阿拉斯加吗？</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">不……那还是算了……</speak>
+            <speak chara="schroNoFace" remark="next">不管从什么意义上说，安克雷奇附近的山都太多了。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">安克雷奇（Anchorage）是美国阿拉斯加州的最大城市、州治所在，位于阿拉斯加中南部，楚加奇山（Czugach Mountains）的东麓。</p>
+            </remark>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">啊。</speak>
+            <speak chara="schroNoFace">西伯利亚倒应该不错。</speak>
+            <speak chara="schroNoFace">就是俄国人体味太大，估计受不了。</speak>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">明明隔壁就是加拿大，你还真是舍近求远啊。</speak>]
+            <show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace" remark="next">加拿大——也包括阿拉斯加的育空地区——它们在末次冰盛期里都完全被覆盖在北极冰盖之下……</speak>
+            <remark post="U2FsdGVkX18Fdl7WdyWDLF5FgdGs">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">末次冰盛期（Last Glacial Maximum）是距现代最近的极寒时期，最盛时为公元前2.5万年左右。</p>
+                <p class="article-text">其时全球陆地约有24%被冰覆盖，海平面比现代低约120米左右，两极平均温度比现代低10-20°C。</p>
+                <p class="article-text">在末次冰盛期，地球比现代更为寒冷、干燥，荒漠化严重。</p>
+            </remark>
+            <speak chara="schroNoFace">老师你觉得我们能有多少机会去那边工作？</speak>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">话虽如此……</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">但西伯利亚根本不在咱们的管辖范围内啊？</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">是，不过那里有【巴比伦实验室】啊。不是说违抗主教的人都会被送进去参加人体实验么？</speak>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckBoringCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">……这笑话可真冷。</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">……而且一点儿也不好笑。</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">老师你总是不愿意考虑消极的可能性。</speak>
+            <show chara="schroNormalEmClose-upSymme" position="right"/>
+            <text>仿佛事不关己似的，薛定谔悠闲地撩拨着自己的罗马卷。</text>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace" remark="next">Uncertainty principle.（不确定性原理）</speak>
+            <speak chara="schroNoFace" remark="next">世界会因为人类的观察而变化——如果只是一味关注美好可爱的东西，那么它也会变成一只脆弱的瓷娃娃。</speak>
+            <remark post="U2FsdGVkX18cdcmDUJFVy06pVsT6">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">不确定性原理（Uncertainty principle），即，粒子的位置与动量不可同时被确定，其不确定性遵守不等式——</p>
+                <p class="article-text">ΔxΔp ≥ h/4π</p>
+                <p class="article-text">——其中，h是普朗克常数。</p>
+                <p class="article-text">该原理表明，观测者不可能对一个微观粒子的全部物理量均做出精确的预测，其中某些量的确定程度越高，另一些量的不确定程度就越大。</p>
+            </remark>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckBoringCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">……</speak>
+            <speak chara="planckNoFace">瓷娃娃的说法姑且不提——</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">——但爱因斯坦本来就比你可爱啊，薛定谔博士。</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalEmClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">……</speak>
+            <text>大概是话题的跳跃性过于出乎意料，薛定谔那玩弄着罗马卷的食指直接停在了半空。</text>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">哼哼——</speak>
+            <speak chara="planckNoFace" remark="next">——想在讲笑话上超过我们巴伐利亚，你们奥地利还是再修炼一百年吧！</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">巴伐利亚（英语：Bavaria；德语：Bayern，“拜仁”），位于德意志联邦共和国东南部，是现代德国面积最大的州。</p>
+                <p class="article-text">该地风土人情与德国其他地区颇有不同，历史上也是最晚被普鲁士统一的德意志邦国之一。</p>
+                <p class="article-text">p.s.</p>
+                <p class="article-text">普朗克是巴伐利亚人，而薛定谔是奥地利人。</p>
+            </remark>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">……</speak>
+            <speak chara="schroNoFace">老师，地域歧视是很不好的行为。</speak>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckBoringCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">啊啊，所以才说你还需要修炼啊。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">浑身阴郁气质不谈，还一点儿都不接地气——</speak>
+            <show chara="planckSadCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">这样下去可怎么找男朋友啊？</speak>
+            <show chara="planckSadCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalEmClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">……</speak>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">怎么……</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">作为改变的理由，这还不够有说服力吗？</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="schroNormalEmClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">……</speak>
+            <text>薛定谔无奈地叹了口气。</text>
+            <speak chara="schroNoFace">非要说的话……</speak>
+            <show chara="schroNormalAhClose-upSymme" position="right"/>
+            <speak chara="schroNoFace">老师，是您自己的单身焦虑太严重了吧？</speak>
+            <show chara="schroNormalEmClose-upSymme" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">……</speak>
+            <show chara="planckSadCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">你这家伙，实在是太不可爱了！</speak>
+            <speak chara="planckNoFace">哼！</speak>
+            <goto goto="20"/>
+        </scene>
+        <scene id="20" background="CG5.jpg">
+            <bgm src="street.mp3" status="continue"></bgm>
+            <text>……</text>
+            <text article="1">
+                <p class="article-text">当瓦尔特再度睁开惺忪的睡眼时，大众2型露营车的司机已经换成了某只阴郁的罗马卷。</p>
+                <p class="article-text">副驾驶位置里，一双大长腿撑在挡风玻璃上，裙摆极不优雅地尽数滑落至一侧，披散的长发如瀑布一般顺着靠背倾泻而下——这位教授的打盹方式还真够夸张的。</p>
+            </text>
+            <speak chara="schroNoFace">刚出了利文斯顿，现在我们在沿着89号公路向南开。</speak>
+            <text>从后视镜里看到有人醒来，薛定谔便解说了一下当前的状况。</text>
+            <speak chara="einNoFace">那么我们先来对一下黄石的情况吧。</speak>
+            <text>爱因斯坦不知何时已经睁开了还显惺忪的眼睛。</text>
+            <speak chara="planckNoFace">不让那两位再休息一会儿了？</speak>
+            <text>闭着眼睛发话的是普朗克。看来她也并没有真的睡着。</text>
+            <speak chara="einNoFace">这个醉鬼已经睡得够多的了吧。</speak>
+            <shake position="all" time="250"></shake>
+            <text>浅色天然卷二话不说地向红色双马尾的脑袋捶了一拳。</text>
+            <goto goto="25" change="0"/>
+        </scene>
+        <scene id="25" background="roadMontana2.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">啊——痛痛痛……</speak>
+            <sound src="Hah.mp3"/>
+            <speak chara="teslaNoFace">你就不能温柔一点嘛。</speak>
+            <text>特斯拉强睁着眼睛，有气无力地抱怨道。今天她倒是一醒来就戴上了眼镜。这个难道不是平光镜吗？</text>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="einSeriousEmWinterClose-up" position="left"/>
+            <speak chara="einNoFace">宿醉的人没有发言权。</speak>
+            <text>爱因斯坦不满地瞪了她一眼。</text>
+            <show chara="einNormalWinterClose-up" position="left"/>
+            <speak chara="einNoFace">芬兰人也醒了吧？</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="nokiaSmileEmWinterClose-up" position="center"/>
+            <speak chara="nokiaNoFace">举手！</speak>
+            <text>熟悉的轻浮声从车尾传来。这家伙倒蛮有精神的样子。</text>
+            <goto goto="30"/>
+        </scene>
+        <scene id="30" background="roadMontana2.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="planckSmileCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">既然都醒了——</speak>
+            <speak chara="planckNoFace">——那我们就从基本的地理情况开始吧。</speak>
+            <show chara="planckSmileCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose-up" position="left"/>
+            <speak chara="schroNoFace">好的。</speak>
+            <show chara="schroNormalEmClose-up" position="left"/>
+            <text>薛定谔熟练地换了个档，适当放慢了车速。</text>
+            <show chara="schroNormalEmClose-up" position="left" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">如你们所知，黄石公园是人类历史上的第一个自然保护区。</speak>
+            <speak chara="planckNoFace">公园的核心黄石湖，是黄石超级火山的主要喷口。这座活火山能量巨大——</speak>
+            <speak chara="planckNoFace">一旦喷发，带来的火山灰将导致当年全球平均气温下降【10度】左右。</speak>
+            <show chara="planckNormalCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">10度？</speak>
+            <text>瓦尔特不太明白这是怎样的一个概念。</text>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">这意味着灾害当年，绝大多数热带或亚热带作物都面临绝收的风险。</speak>
+            <speak chara="planckNoFace">如果应对失当……</speak>
+            <speak chara="planckNoFace">毫不夸张地说，饥荒和瘟疫将在不少国家蔓延。</speak>
+            <show chara="planckSeriousCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">什……</speak>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose-up" position="left"/>
+            <speak chara="schroNoFace">放轻松，那不是我们在有生之年里应该担心的。</speak>
+            <text>薛定谔斜眼瞟了一下后视镜。</text>
+            <speak chara="schroNoFace">更何况，如果我们输给了崩坏，所有诸如此类的忧虑——就根本没有一丝一毫的意义。</speak>
+            <show chara="schroNormalEmClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">当然，如果怀疑论一点，你也可以认为，黄石火山就是“崩坏豪华超值套餐”中的一环。</speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……套餐？</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="teslaSnickerGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">崩坏的破坏方式可是五花八门的。</speak>
+            <text>红色双马尾摆出一副讲师的做派——</text>
+            <show chara="teslaNormalGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">黑死病，冰河期，世界大战——这些统统都有崩坏的影子在里面。</speak>
+            <speak chara="teslaNoFace">远的不说，对那些战犯的分析就表明，他们普遍被微量的崩坏能侵蚀过——</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">更有其中的一两个样本，它们的崩坏能密度甚至达到了致死剂量的数倍。</speak>
+            <show chara="weltSurpriseWinterClose-up" position="center"/>
+            <speak chara="weltNoFace">什——</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">一般而言，雄性哺乳动物的代谢环境对崩坏的感染具有强烈的过敏反应——</speak>
+            <speak chara="teslaNoFace">换言之，就是男性的崩坏能适应性往往极低——</speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">不过偶尔也会有例外。</speak>
+            <bgm src="themeEin.mp3" status="start"></bgm>
+            <speak chara="teslaNoFace">那一两个战犯也好，你也好，应该都是这样的情况。</speak>
+            <show chara="weltSurpriseWinterClose-up" position="center"/>
+            <speak chara="weltNoFace">呃……我？</speak>
+            <text>瓦尔特从未想到过自己的名字会和这类魔人有所关联。</text>
+            <show chara="teslaSnickerGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">是的。你肯定具有某种我们还不知道的奇异特性。</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">组织在你身上进行了这么多的实验，你自己应该也很清楚这一点。</speak>
+            <show chara="weltDarkWinterClose-up" position="center"/>
+            <speak chara="weltNoFace">不，我是说……</speak>
+            <hide position="center"/>
+            <show chara="weltDarkWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">安心。</speak>
+            <text>前排的天然卷少女转身摸了摸青年的脑袋。</text>
+            <speak chara="einNoFace">你的灵魂是不会变质的。</speak>
+            <show chara="einNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltShyWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltShyWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">也许连你自己都已经忘记了，你是一个多么善良的人。</speak>
+            <show chara="einNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltShyWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">啊哈哈……</speak>
+            <speak chara="weltNoFace">这个……没什么证据吧？</speak>
+            <show chara="weltShyWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">相信我。</speak>
+            <speak chara="einNoFace">虽然确实算不上有什么【证据】……</speak>
+            <speak chara="einNoFace">……但是，请相信我。</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="einSmileWinterClose-up" position="center"/>
+            <text>爱因斯坦露出了温暖而坚定的目光。</text>
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="planckSlyCoatClose-up" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="planckNoFace">咳咳。</speak>
+            <show chara="planckSmileCoatClose-up" position="center"/>
+            <speak chara="planckNoFace">好啦好啦。</speak>
+            <speak chara="planckNoFace">言归正传，我们还是先来对接一下正事吧？很有意思的哦。</speak>
+            <goto goto="40"/>
+        </scene>
+        <scene id="40" background="roadMontana3.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="planckSeriousCoatClose-up" position="right"/>
+            <speak chara="planckNoFace" remark="next">……最后一点，样本中检测不到碳-14存在。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">碳-14是碳的一种放射性的同位素，其半衰期约为5730年。</p>
+                <p class="article-text">此即是说，对于已经失去生物活性的样本，每5730年，其中的碳-14含量就会衰减一半——以此比率不断衰减，直至再精密的仪器也无法检出它的存在为止。</p>
+            </remark>
+            <speak chara="planckNoFace">由此综合判断，遗迹中最后有人活动的年代为公元前50000年左右，误差不超过1000年。</speak>
+            <show chara="planckSmileCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">以上。</speak>
+            <show chara="planckSmileCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose-upSymme" position="left"/>
+            <speak chara="nokiaNoFace">还是难以置信……</speak>
+            <text>芬兰人十指相对，陷入沉思。</text>
+            <show chara="nokiaSmileEmWinterClose-upSymme" position="left"/>
+            <speak chara="nokiaNoFace">……没想到，前文明时代，北美地区就已经有人类活动了啊。</speak>
+            <show chara="nokiaSmileEmWinterClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">类似于我们在南极的科考站吧。</speak>
+            <show chara="planckSlyCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">和我们关于前文明的理解并不矛盾。</speak>
+            <text>普朗克漫不经心地玩着自己的长发，仿佛是在模仿之前的薛定谔。</text>
+            <show chara="planckSlyCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="nokiaSeriousEmWinterClose-upSymme" position="left"/>
+            <speak chara="nokiaNoFace">不……</speak>
+            <show chara="nokiaSmileAhWinterClose-upSymme" position="left"/>
+            <speak chara="nokiaNoFace">这种堪比旧大陆遗迹的规模……事情未必有你说的这么简单啊。</speak>
+            <text>芬兰人依旧用合十的双手撑着自己的下巴。</text>
+            <text>他是从哪里来的福尔摩斯粉吗？</text>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">那个……</speak>
+            <text>早已摸不着头脑的瓦尔特举起了手来。</text>
+            <speak chara="weltNoFace">从刚才开始你们就一直在讨论的“前文明”——</speak>
+            <speak chara="weltNoFace">——它到底是什么啊？</speak>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">嗯……现在我们在……</speak>
+            <show chara="planckSlyCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">啊，还没到加德纳啊。</speak>
+            <text>长发教授研究了一下公路上的标识。</text>
+            <show chara="planckSmileCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">没事，时间还早。你们就当打发时间，找个人出来给他介绍介绍呗。</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">那么就由我来说明吧。</speak>
+            <text>身为古文字专家，芬兰人当仁不让。</text>
+            <show chara="nokiaSmileAhWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">前文明，顾名思义，就是在我们如今的历史开始之前，已经在地球上兴盛过的一个科技文明。</speak>
+            <speak chara="nokiaNoFace" remark="next">该文明最早可追溯到约公元前53000年左右的阿斯特拉罕3号遗址，</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">阿斯特拉罕（Astrakhan）位于里海之滨，是伏尔加河流经的最后一个大城市，分布在被桥梁连接的十多个岛屿上。其城始建于十三世纪金帐汗国时期，1460-1556年曾为独立的阿斯特拉罕汗国，后被莫斯科大公国吞并。</p>
+                <p class="article-text">该地的名产是西瓜。</p>
+            </remark>
+            <speak chara="nokiaNoFace">以共同的文化为特征，分布在从日本海到地中海、波罗的海到波斯湾的区域内。</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">他们也是人类？</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">哈哈，当然。他们应该是第一批“走出非洲”的智人——</speak>
+            <speak chara="nokiaNoFace">话虽如此，但他们的文化模式，还是和我们有不小的差异。</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">……是生活习惯和艺术风格之类的吗？</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">哈哈哈哈，那倒不是。不如说，在这些方面，我们意外地相似呢。</speak>
+            <speak chara="nokiaNoFace">我刚才说的所谓模式，主要是文明的历史长度和文化的多样性丰度。</speak>
+            <speak chara="nokiaNoFace">举例来说，我们如今的文明，最早可以追溯到公元前4000年的少数地区；</speak>
+            <speak chara="nokiaNoFace">从那时起，经过近6000年的传播和发展，才终于形成了遍布全球的文明世界。</speak>
+            <speak chara="nokiaNoFace">我们有不计其数的民族、不计其数的文字、不计其数的文化，是一种多样性非常强的文明体系。</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">前文明不是这样？</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">有所区别。他们【整个世界】有统一的官方文字、统一的技术风格。</speak>
+            <speak chara="nokiaNoFace">在我们的世界里，虽然希腊-罗马-不列颠文化非常强势，但还远远不到他们的那个程度。</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">要比较起来的话，他们给人的感觉更像古代的东亚——比方说，【大家都用汉字】那种感觉。</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">所以你是说……他们的多样性非常低？</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousAhWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">嗯。而且，他们似乎像我们现在保护南极洲一样，将整个美洲保留在了一种无人定居的原始状态中。</speak>
+            <speak chara="nokiaNoFace">这简直就像是在说，土地并不是他们的主要经济来源。</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">他们可能很早就大规模利用起了崩坏能。</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">如果是这样的话，那么，定居在缺乏崩坏能的地区就是没有意义的。</speak>
+            <speak chara="teslaNoFace">就像我们如今的大城市往往贴近远洋码头、内河码头、或者铁路枢纽一样。</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">崩坏能难道不是一种类似辐射的东西吗？</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">哈哈哈哈，雷电可以用来劈人，也可以用来照明啊！</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">崩坏能也是一样的。</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">从物理学的角度说，崩坏能——或者说虚数内能——</speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">啧，就算这么说你也不可能懂的吧。真是头疼。</speak>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">虚数内能是关于崩坏现象以及宇宙大爆炸的一种假说。</speak>
+            <text>爱因斯坦倒是一脸愉快地接过了话茬——</text>
+            <hide position="left"/>
+            <hide position="right"/>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <show chara="einBlackWinterClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);">热力学第二定律有这样一个表述：一个系统的熵如果下降，就必然会引起另一个系统的熵以更大的幅度上升。从信息的角度来看，这相当于，信息高度混沌化的普通环境，与信息高度秩序化的负熵环境之间，存在巨大的信息不对称。历史研究表明，崩坏能和这种信息不对称具有强烈的伴生关系。而在数学上，属于坍缩次元的虚数内能，与作为发散次元——也就是我们平常能感知到的四维时空——的热力表征的实数内能，在数学上可以通过高维复函数进行统一的表达，其结果可以在微观尺度上预测崩坏的波动。因此，当前的研究者普遍猜想，这种“虚数内能”就是崩坏能，或者至少是崩坏能的重要组成部分。</p>
+            </text>
+            <show chara="einSmileWinterClose-up" position="center"/>
+            <speak chara="einNoFace">怎么样，现在明白了一点吗，瓦尔特同学？</speak>
+            <show chara="weltDarkWinterClose-up" position="center"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltShameWinterClose-up" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="weltNoFace">明白个鬼啊！</speak>
+            <goto goto="50"/>
+        </scene>
+        <scene id="50" background="hotSpring.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <text article="1">
+                <p class="article-text">穿过镌刻着“为了人民的利益与欢乐”的罗斯福石门，大众2型露营车沿着89号公路进入了怀俄明州。学者们热烈地讨论着各种各样的技术细节——连其中基本常识都不懂的瓦尔特只好专心观赏国家公园的风景。</p>
+            </text>
+            <text>猛犸泉……</text>
+            <text>天鹅湖……</text>
+            <text>咆哮山……</text>
+            <text>火洞河……</text>
+            <text>公园管理部门对于景点名称的审美还真是令人难以形容。</text>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">瓦尔特，现在几点几分？</speak>
+            <text>已经换回驾驶位的普朗克，像是突然想起什么似的，询问着此刻的时间。</text>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">稍等……</speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="center"/>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <text>没有表的青年以扭曲的姿势抓过了身前少女的手腕。</text>
+            <show chara="weltNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAngryGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">喂喂喂，你找死吗！</speak>
+            <show chara="teslaAngryGlassWinterClose-up" position="center" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <text>对特斯拉的抗议充耳不闻，瓦尔特拼死将自己的视线集中在那个小小的圆面上——</text>
+            <speak chara="weltNoFace">报告教授，现在是十点四四四四十三——</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="teslaAngryGlassWinterClose-up" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">死开啊！</speak>
+            <goto goto="52" change="0"/>
+        </scene>
+        <scene id="52" background="black">
+            <bgm src="themeTesla.mp3" status="continue"></bgm>
+            <sound src="hit man.mp3"/>
+            <speak chara="weltNoFace">啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊！！！！！！！！！！！！！！！！！！！！</speak>
+            <text>特斯拉毫不客气地反手就是一记肘击，力道之大甚至震飞了她自己的眼镜。</text>
+            <text>惨绝人寰的哀嚎瞬间响彻了整个车厢。</text>
+            <goto goto="53" change="0"/>
+        </scene>
+        <scene id="53" background="hotSpring.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">哈哈哈哈……</speak>
+            <speak chara="planckNoFace">不管怎么说，看起来赶得上！</speak>
+            <text>长发的大姐姐野蛮地换了个档，随即就是一脚油门——</text>
+            <goto goto="54" change="0"/>
+        </scene>
+        <scene id="54" background="hotSpring2.jpg">
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">第一次来的人，可要给我好好往左边看！</speak>
+            <hide position="left"/>
+            <text>露营车猛然加速，先是绕过了数个如海蓝宝石一般的彩泉，又穿过一座大桥——</text>
+            <text>随后竟直接开下了公路，冲上了一个较为平缓的山头——</text>
+            <text>紧接着又是一个九十度漂移的急刹车。</text>
+            <show chara="weltShameWinterClose-up" position="center"/>
+            <speak chara="weltNoFace">啊啊啊啊啊要车祸啦！！救命啊！！</speak>
+            <text>就在瓦尔特惊魂未定的时候——</text>
+            <goto goto="55" change="0"/>
+        </scene>
+        <scene id="55" background="white">
+            <bgm src="lab.mp3" status="stop"></bgm>
+            <sound src="9_11_spring.mp3"/>
+            <text article="1">
+                <p class="article-text">哗！</p>
+            </text>
+            <text article="1">
+                <p class="article-text">一条约莫三四十米高的巨大水柱，从山坡后的盆地中腾空而起，如火山爆发般喷出大量的白色雾气。</p>
+            </text>
+            <goto goto="60"/>
+        </scene>
+        <scene id="60" background="CG5_2.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <speak chara="teslaNoFace" remark="next">老忠实泉！</speak>
+            <remark post="U2FsdGVkX18n4C50htMsi6EoUNdz">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">老忠实泉（Old Faithful）可谓是世界上最具人气的间歇泉。其每次喷水量在3700加仑到8400加仑之间，水温约有95°C。</p>
+                <p class="article-text">“老忠实有时会被屈尊作为洗衣房。在停止喷发时将衣物放在喷发口上，等到喷发时就衣服就会被冲洗干净了。谢里登将军的士兵在1882年发现亚麻和棉布衣料经过水的冲刷不会损毁，但是羊毛织物就会被扯成碎片。”</p>
+            </remark>
+            <speak chara="teslaNoFace">竟然刚好看到！</speak>
+            <speak chara="nokiaNoFace">唉呀唉呀，这下可是赚到了啊。</speak>
+            <speak chara="einNoFace">……冬天果然比夏天要壮观许多。</speak>
+            <speak chara="planckNoFace">虽然这个景点因为非常守时而被命名为“老忠实”，不过，它其实有两个间歇时间哦！</speak>
+            <speak chara="planckNoFace">65分钟和91分钟——究竟间隔多少，据说要看每次的喷发量而定呢。</speak>
+            <speak chara="weltNoFace">唔……那我们——</speak>
+            <speak chara="planckNoFace">怎么样，是不是运气很好啊？</speak>
+            <speak chara="schroNoFace">……教授，别调皮了。这哪里是什么运气。</speak>
+            <speak chara="schroNoFace">明明公园每天都会做喷发时间的预报啊。</speak>
+            <speak chara="planckNoFace">……</speak>
+            <speak chara="planckNoFace">薛定谔……什么事情让你一说，都变得毫无神秘感可言啊……</speak>
+            <speak chara="schroNoFace">谢谢。这是我的优点。</speak>
+            <end post="U2FsdGVkX18hpl2iS7jGFPVPBmAW"/>
+        </scene>
+    </story>
+</data>

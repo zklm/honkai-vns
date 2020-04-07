@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="bostonCommon.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="start"></bgm>
+            <text>1955年11月24日星期四，凌晨1时。</text>
+            <text>上弦月还不是很明亮——路灯之外，伸手不见五指。</text>
+            <text remark="next">一手提着改装过的WS No.88无线收发器，一手打着高亮探灯——</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">WS No.88无线收发器是一款1950年代英国军方使用的VHF-FM收发器（俗称“步话机”），主要用于短距离（2英里以内）的步兵通信。 </p>
+            </remark>
+            <text>告别了向北美支部借来的司机，爱因斯坦博士和她的伙伴们正矗立在深夜的波士顿街头。</text>
+            <text>这里是特莱蒙街139号，波士顿公园的入口，“自由之路”的起点。</text>
+            <text>这条拥有百年历史的纪念线路在4年前被修葺一新，殷红的地砖犹如凝固的血液，将风云激荡的时代和当下联系在一起。</text>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">这里就是“自由之路”的起点了。艾妲，有什么发现吗？</speak>
+            <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="adaNormalRadioFar" position="left"/>
+            <speak chara="adaNoFace">检测到微弱的崩坏能反应。</speak>
+            <speak chara="adaNoFace">密文与之前已获得的密钥匹配。是前文明人类的音频记录。</speak>
+            <speak chara="adaNoFace">信号长度为348单位，已经全部接收。</speak>
+            <text>WS No.88步话机发出了一连串带有噪声的电子音。</text>
+            <text>艾妲的核心在这种简陋的装置里只能堪堪维持运转，甚至连自己的影像都无法稳定生成。</text>
+            <show chara="adaNormalRadioFar" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">那就拜托你翻译了。</speak>
+            <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="adaSmileRadioFar" position="left"/>
+            <speak chara="adaNoFace">没有问题，爱因斯坦博士。</speak>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="bostonCommon.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">……</speak>
+            <speak chara="oldTapeNoFace">如果未来有其他文明的人发现了这些资料的话，我希望能给他们留下一个完整的故事。</speak>
+            <speak chara="oldTapeNoFace">在这个星球上，崩坏，伴随着文明而生。</speak>
+            <speak chara="oldTapeNoFace">人类的文明越是发展，崩坏的力量，也越是强大。</speak>
+            <speak chara="oldTapeNoFace">崩坏每催生出一个律者，人类都需要花费巨大的代价去击败它。</speak>
+            <speak chara="oldTapeNoFace">理之律者，空之律者，雷之律者，风之律者……创生与毁灭，支配与约束……</speak>
+            <speak chara="oldTapeNoFace">在最近的事件发生之前，经过十余场世界大战一般的摧残，我们，有近七成的都市，都已经毁灭了。</speak>
+            <speak chara="oldTapeNoFace">不过……和我要记录的这个事件比起来，之前的一切，都不过是小巫见大巫罢了。</speak>
+            <goto goto="25" change="#ffffff"/>
+        </scene>
+        <scene id="25" background="bostonCommon.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <show chara="weltQuestionNewFar" position="right"/>
+            <speak chara="weltNoFace">……你知道他说的这些历史吗，艾妲？</speak>
+            <show chara="weltQuestionNewFar" position="right" opacity="0.7"/>
+            <show chara="adaNormalRadioFar" position="left"/>
+            <speak chara="adaNoFace">不知道，瓦尔特先生。</speak>
+            <speak chara="adaNoFace">我的数据库里并没有相关的知识。</speak>
+            <speak chara="adaNoFace">……而从自我意识上来说，我也没有经历过那个时代。</speak>
+            <show chara="adaNormalRadioFar" position="left" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">瓦尔特你可能不知道……艾妲被发掘出来的时候，还是没有“开机”的状态。</speak>
+            <speak chara="teslaNoFace">打比方的话……也就是说，它是在这个时代，在被发掘出来以后，才“诞生”的。</speak>
+            <show chara="weltQuestionNewFar" position="right"/>
+            <speak chara="weltNoFace">唔……</speak>
+            <show chara="weltQuestionNewFar" position="right" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="left"/>
+            <speak chara="einNoFace">……总之我们先前进吧。对方应该是打算在每个景点都留下一小段记录。</speak>
+            <show chara="einSmileWinterFar" position="left"/>
+            <speak chara="einNoFace">自由之路的第二个景点是“麻州议会大厦”。穿过公园，走到灯塔街就是。</speak>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="massachusettsStateHouse.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <show chara="weltQuestionNewFar" position="right"/>
+            <speak chara="weltNoFace">……说起来，这里为什么叫“灯塔街”呢？</speak>
+            <show chara="weltQuestionNewFar" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">当然是因为，这里本来有一座灯塔啊。</speak>
+            <speak chara="teslaNoFace">不仅这条街叫“灯塔街”，这个区域还叫“灯塔山”呢。</speak>
+            <speak chara="teslaNoFace">你要知道，从大概四百年前起，波士顿就是北美地区最重要的港口之一了。</speak>
+            <show chara="einNormalWinterFar" position="left"/>
+            <speak chara="einNoFace">因为城市发展而丧失了地标，这也是无可奈何的事情。</speak>
+            <speak chara="einNoFace" remark="next">早在爱尔兰人大规模迁入这座城市之前，灯塔山就已经因为填海造陆的需求而被挖平了。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">爱尔兰人开始大规模移入美国东北地区，发生在1845年爱尔兰大饥荒爆发之后。这场起因于马铃薯绝收和英国政府不作为的饥荒，导致爱尔兰岛的居民锐减了一半。由于大部分移民离开或受灾死亡的爱尔兰人是以盖尔语为母语的穷人，爱尔兰当地的通行语言逐渐变成了英语，使得该岛的语言文化生态产生了永久性的改变。</p>
+            </remark>
+            <show chara="einNormalWinterFar" position="left" opacity="0.7"/>
+            <show chara="adaNormalRadioFar" position="right"/>
+            <speak chara="adaNoFace">检测到微弱的崩坏能反应。</speak>
+            <speak chara="adaNoFace">密文与之前已获得的密钥匹配。是前文明人类的音频记录。</speak>
+            <speak chara="adaNoFace">信号长度为194单位，已经全部接收。</speak>
+            <show chara="adaNormalRadioFar" position="right" opacity="0.7"/>
+            <show chara="einFoolWinterFar" position="left"/>
+            <speak chara="einNoFace">啊，先不聊没用的话题了。</speak>
+            <show chara="einNormalWinterFar" position="left"/>
+            <speak chara="einNoFace">我们来听听记录的内容吧。</speak>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="massachusettsStateHouse.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">在某个军事基地的三十三层，关押着一位特殊的少女。</speak>
+            <speak chara="oldTapeNoFace">她虽然在体内持有剧烈的崩坏能反应，却没有任何特殊的能力。</speak>
+            <speak chara="oldTapeNoFace">当然，她也依然保有着，人类的意识。</speak>
+            <speak chara="oldTapeNoFace">面对着测谎仪，她发自肺腑的真心话，仅仅是……</speak>
+            <speak chara="oldTapeNoFace">“我想回家”。</speak>
+            <goto goto="45" change="#ffffff"/>
+        </scene>
+        <scene id="45" background="massachusettsStateHouse.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <show chara="teslaEmbarraGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace" remark="next">……“恐惧是所有不宽容的起因”。我已经能猜到这个少女的悲惨命运了。</speak>
+            <remark post="U2FsdGVkX18FMez2JjeaxPpFtfL8">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“我重复一遍，恐惧是所有不宽容的起因”——这是亨德里克·威廉·房龙（Hendrik Willem van Loon）在他的著作《宽容》（Tolerance）中写下的名句。尽管出生在荷兰，但知识界一般认为，他是属于美国的作家。</p>
+            </remark>
+            <show chara="teslaShameGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">但是H.A.的用意又是什么呢？毕竟，这些信息，都是她人为布置好的啊。</speak>
+            <show chara="teslaShameGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">……接下来是公园街教堂。在前面的路口右转就是。</speak>
+            <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaErGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">呃。你不发表任何意见吗？</speak>
+            <show chara="teslaErGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">……为什么要着急。</speak>
+            <speak chara="einNoFace">走完“自由之路”的时候，我们自然能够听到完整的录音。</speak>
+            <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaErGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">呃。你还真是沉得住气啊。</speak>
+            <show chara="teslaErGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="einSlyWinterFar" position="right"/>
+            <speak chara="einNoFace">谢谢夸奖。不轻下判断是身为研究者的优点。</speak>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="ParkStreet.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">后来的某一天，自作主张的杀手冲进了牢房，残忍地杀害了她。</speak>
+            <speak chara="oldTapeNoFace">然而，谁也没有想到，第十二律者的力量，从她死去的瞬间，开始显现了。</speak>
+            <speak chara="oldTapeNoFace">“侵蚀之律者”。</speak>
+            <speak chara="oldTapeNoFace">一种拥有自我意识的传染源、病毒。</speak>
+            <speak chara="oldTapeNoFace">不仅仅是生物性的，也同样是电子性的。</speak>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="ParkStreet.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <show chara="teslaShameGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">唔。竟然还有这种类型的特殊存在啊。</speak>
+            <speak chara="teslaNoFace">不过理论上也不是不可能，毕竟像“黑渊白花”那样“作弊”的武器都是存在的——</speak>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">接下来是谷仓墓地。转过这个街角应该就是。</speak>
+            <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaErGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">呃……</speak>
+            <speak chara="teslaNoFace">算了，就这样吧……</speak>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="chapelBuryingGround.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">它首先感染了那些杀手，又通过他们体内的生物芯片，侵入了各式各样的电子系统。</speak>
+            <speak chara="oldTapeNoFace">当然，这也包括，军事基地的作战系统。</speak>
+            <speak chara="oldTapeNoFace">理所当然地，基地中所有的导弹，带着少女的怒火，被发射向了我们那些仅存的都市。</speak>
+            <speak chara="oldTapeNoFace">理所当然地，这些城市都被毁灭了……</speak>
+            <speak chara="oldTapeNoFace">人也好，机器也好，在爆炸的高温中，一瞬间，就被汽化了。</speak>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="kingsChapel.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">理所当然地，我们基地对外的通道，也被律者关闭了。</speak>
+            <speak chara="oldTapeNoFace">每分每秒，都有新的系统被控制。</speak>
+            <speak chara="oldTapeNoFace">每分每秒，都有新的同胞被侵蚀。</speak>
+            <speak chara="oldTapeNoFace">他们被无法打开的大门所分隔，在绝望中，眼睁睁地看着自己，化为行尸走肉。</speak>
+            <speak chara="oldTapeNoFace">字面意思的，行尸走肉。</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="campusMassachusetts.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">我们的基地共计失去控制，一小时，零八分，二十秒。</speak>
+            <speak chara="oldTapeNoFace">人类历史上，最漫长的，一小时，零八分，二十秒。</speak>
+            <speak chara="oldTapeNoFace">我们这些还来得及思考对策的幸运儿，毁掉了自己体内的生物芯片，牺牲了几乎所有的电子终端……</speak>
+            <speak chara="oldTapeNoFace">最终，利用某位博士搭设的陷阱，将这个恐怖的律者封印在了“盒子”里。</speak>
+            <speak chara="oldTapeNoFace">代价是……文明的断绝。</speak>
+            <goto goto="100" change="#ffffff"/>
+        </scene>
+        <scene id="100" background="oldCornerBookstore.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">从知识的角度上来说，我们的衰退尚不严重。</speak>
+            <speak chara="oldTapeNoFace">幸存者里还有很多学识渊博的人，他们绝不会放弃战斗。</speak>
+            <speak chara="oldTapeNoFace">从技术的角度上来说，那些因为空无一人而躲过灾难的基地、避难所，或许还能重新运转起来。</speak>
+            <speak chara="oldTapeNoFace">运气好的话，我们还能找到新的战斗力，再次壮大自己。</speak>
+            <speak chara="oldTapeNoFace">但是，从文明的角度上说……人类的文明，已经不复存在了。</speak>
+            <speak chara="oldTapeNoFace">那些上百年积累下来工业生产线、上千年传承下来的艺术瑰宝、上亿人分工合作构筑的城市社会……</speak>
+            <speak chara="oldTapeNoFace">……所有这些，都不存在了。</speak>
+            <speak chara="oldTapeNoFace">我们，其实已经输了。</speak>
+            <goto goto="110" change="#ffffff"/>
+        </scene>
+        <scene id="110" background="oldSouthMeetinghouse.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">以上，就是我们之所以放弃这个千疮百孔的基地，开始逃亡的原因。</speak>
+            <speak chara="oldTapeNoFace">北美洲、南美洲、远离大陆的海岛……</speak>
+            <speak chara="oldTapeNoFace">在博士的带领下，大家勉强拼凑了几支“舰队”，带着仅剩的物资，向着那些躲过了袭击的避难所出发。</speak>
+            <speak chara="oldTapeNoFace">她鼓励大家说，“我们的家乡，从来都不是一个地理概念。”</speak>
+            <speak chara="oldTapeNoFace">“家乡可以是任何地方——事实上它是因为人而存在的，是因为同胞而存在的。”</speak>
+            <speak chara="oldTapeNoFace">“同胞在哪里，哪里就是家乡。”</speak>
+            <speak chara="oldTapeNoFace">……也许博士是对的。</speak>
+            <speak chara="oldTapeNoFace">但这些“荒岛”，确实是我们仅剩的“应许之地”了。</speak>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="oldStateHouse.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">今天是我们出发的日子。</speak>
+            <speak chara="oldTapeNoFace">基地中的死难人数是15626人——广播中，正播放着他们的名单。</speak>
+            <speak chara="oldTapeNoFace">有本来就认识的人。</speak>
+            <speak chara="oldTapeNoFace">也有安葬时才初次了解的人。</speak>
+            <speak chara="oldTapeNoFace">无论如何，只要我知道你们的故事……我就会把你们记录在这里。</speak>
+            <speak chara="oldTapeNoFace">作为，你们，最后的遗产。</speak>
+            <goto goto="130" change="#ffffff"/>
+        </scene>
+        <scene id="130" background="bostonMassacreSite.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <show chara="teslaErGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">呃……别的道理我都懂……</speak>
+            <speak chara="teslaNoFace">但我们为什么要在这个井盖前面停下来？</speak>
+            <show chara="teslaErGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace">这不是井盖。你好好看看上面的字。</speak>
+            <show chara="einNormalWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace" remark="next">三月五日，一七七〇年……波士顿屠杀……啊。</speak>
+            <remark post="U2FsdGVkX19kUIIJSICTAeS2APir">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">波士顿屠杀（Boston Massacre）是一起英军士兵与波士顿民众之间的冲突，最终导致五名民众死亡。</p>
+                <p class="article-text">1770年3月5日，一名英军军官（John Goldfinch）购买假发后回营。假发店的店员（Edward Garrick）误会军官没付钱，于是向军官喊叫，军官解释之后就打算离去——谁知他的随行部下（Hugh White）为军官抱不平，与店员发生口角，最后还打伤了他。店员血流如注，哀号痛哭，愤怒的围观民众立刻包围了军官和他的部下。另外一名英军军官（Thomas Preston）率领几个士兵来解救他们，却遭到民众丢掷石块与殴打——这队英军情急之下向群众开火，杀死了5名平民，并导致6人受伤。</p>
+                <p class="article-text">虽然此事的责任不全在英军身上，但它大大激化了英国北美殖民地的军民矛盾，并最终导致了美国独立战争的爆发。</p>
+            </remark>
+            <show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace">嗯。这里就是“自由之路”上的第十个地点——波士顿屠杀遗址。</speak>
+            <goto goto="140" change="#ffffff"/>
+        </scene>
+        <scene id="140" background="bostonMassacreSite.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">No.289 巴卡布·苏利文</speak>
+            <speak chara="oldTapeNoFace">No.290 胡纳布·库·苏利文</speak>
+            <speak chara="oldTapeNoFace">No.291 卡玛索茨·苏利文</speak>
+            <speak chara="oldTapeNoFace">No.292 伊扎姆纳·苏利文</speak>
+            <speak chara="oldTapeNoFace">No.293 诗琪柯·苏利文</speak>
+            <speak chara="oldTapeNoFace">苏利文五兄妹都是战士。</speak>
+            <speak chara="oldTapeNoFace">胡纳布、卡玛索茨、伊扎姆纳三兄弟，是作战中不慎被侵蚀的。</speak>
+            <speak chara="oldTapeNoFace">巴卡布当时也在现场，他死于弟弟们的攻击。</speak>
+            <speak chara="oldTapeNoFace">妹妹诗琪柯幸存到了战斗结束……但是在三天后，因为药品短缺，她不幸死于伤口感染。</speak>
+            <speak chara="oldTapeNoFace">五兄妹在生前并不认识我……</speak>
+            <speak chara="oldTapeNoFace">我只是那个负责安葬他们遗体的人。</speak>
+            <speak chara="oldTapeNoFace">妹妹的身体上有很多抓伤……据说在弥留之际，出现过精神错乱的症状。</speak>
+            <goto goto="150" change="#ffffff"/>
+        </scene>
+        <scene id="150" background="faneuilHall.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">No.3426 哈斯塔·柯尔特</speak>
+            <speak chara="oldTapeNoFace">哈斯塔是一个极富感染力的演说家，经常去各军事基地开展慰问工作。</speak>
+            <speak chara="oldTapeNoFace">当我看到他时，这具尸体正四肢扭曲地躺在地上，眼睛空洞地瞪着摇曳的吊灯。</speak>
+            <speak chara="oldTapeNoFace">现场的迹象表明，在被律者侵蚀后，他并没有停下演讲，反而越来越兴奋。</speak>
+            <speak chara="oldTapeNoFace">似乎他的演讲也具有了侵蚀的能力，他和听众无法克制地陶醉于某种氛围里，手舞足蹈直至力竭而死。</speak>
+            <speak chara="oldTapeNoFace">我在其他地方听过哈斯塔的演讲。不幸中的万幸是，我不是他的粉丝。</speak>
+            <goto goto="160" change="#ffffff"/>
+        </scene>
+        <scene id="160" background="paulRevereHouse.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">No.5390 安布罗基诺·莫罗</speak>
+            <speak chara="oldTapeNoFace">安布罗基诺是被枪杀的。</speak>
+            <speak chara="oldTapeNoFace">他并没有被律者侵蚀；枪杀他的人也没有失去理智的迹象，甚至还细心地抹除了指纹证据。</speak>
+            <speak chara="oldTapeNoFace">所以，我们只能推测，这是一起酝酿已久的谋杀，对方利用了律者出现时的混乱，成功地完成了犯罪。</speak>
+            <speak chara="oldTapeNoFace">安布罗基诺本人是个脾气古怪又吝啬的小老头；我和他打过几次交道，说实话，他很讨人厌。</speak>
+            <speak chara="oldTapeNoFace">这家伙没有家人，是因为家乡被毁灭，而被接进基地临时安置的。</speak>
+            <speak chara="oldTapeNoFace">从这个角度来看，我又想不出，会有什么样的人，处心积虑要杀他。</speak>
+            <goto goto="170" change="#ffffff"/>
+        </scene>
+        <scene id="170" background="oldNorthChurch.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">No.8421 温迪戈·卡利伊</speak>
+            <speak chara="oldTapeNoFace">No.8422 罗薇娜·莱洛伊尔</speak>
+            <speak chara="oldTapeNoFace">No.8594 乔克沙·马提尼斯</speak>
+            <speak chara="oldTapeNoFace">No.8595 库克·李</speak>
+            <speak chara="oldTapeNoFace">温迪戈是牧师。他是祷告室内唯一未被律者侵蚀的……却也是第一个死掉的。</speak>
+            <speak chara="oldTapeNoFace">根据我们掌握的情况，在信徒们被律者侵蚀、出现精神错乱并将温迪戈团团围住时……</speak>
+            <speak chara="oldTapeNoFace">他没有逃跑，或许是还在为他们祷告——直至信徒们将他撕碎，并分了他的肉。</speak>
+            <speak chara="oldTapeNoFace">我听说过温迪戈的名字，他是一个虔诚的人，不知道他临死前，他的“神”和他说了什么。</speak>
+            <speak chara="oldTapeNoFace">编号8422到编号8595都是这个收容站里的平民信徒，他们在分食了温迪戈后，也自相残杀而死。</speak>
+            <speak chara="oldTapeNoFace">罗薇娜是一位金发小女孩。</speak>
+            <speak chara="oldTapeNoFace">乔克沙是一位耄耋之年的老人。</speak>
+            <speak chara="oldTapeNoFace">库克是个本分的生意人。</speak>
+            <speak chara="oldTapeNoFace">在“侵蚀之律者”面前，他们没有任何差别……</speak>
+            <goto goto="180" change="#ffffff"/>
+        </scene>
+        <scene id="180" background="coppsHillBuryingGround.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">No.12687 爱德华兹·曼纳海姆</speak>
+            <speak chara="oldTapeNoFace">No.12688 雪莉·曼纳海姆</speak>
+            <speak chara="oldTapeNoFace">爱德华兹是旧贵族——曼纳海姆家族的最后成员，而雪莉则是他的新婚妻子。</speak>
+            <speak chara="oldTapeNoFace">雪莉之所以会来到我们的基地，就是为了和爱德华兹举行婚礼。</speak>
+            <speak chara="oldTapeNoFace">战斗爆发时，爱德华兹身穿着白色礼服，雪莉撕掉了婚纱的裙摆，他们一起拿起了武器。</speak>
+            <speak chara="oldTapeNoFace">两人最终的死因都是失血过多和伤口感染。</speak>
+            <speak chara="oldTapeNoFace">我保持了雪莉临终时怀抱爱德华兹尸体的姿势，就这样将他们下葬了。</speak>
+            <speak chara="oldTapeNoFace">很遗憾，没有条件给他们制作曼纳海姆家族特有的七边形墓碑。</speak>
+            <goto goto="190" change="#ffffff"/>
+        </scene>
+        <scene id="190" background="bunkerHill.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <speak chara="oldTapeNoFace">No.14936 帕特莉夏·辛格</speak>
+            <speak chara="oldTapeNoFace">帕特莉夏和我有过一面之缘，她是基地当时的值班医生之一。</speak>
+            <speak chara="oldTapeNoFace">在那漫长的一个多小时里，她不顾自己身受的数处枪伤，坚持在第一线救死扶伤。</speak>
+            <speak chara="oldTapeNoFace">就在我们夺回基地的控制权后不久……我亲眼看着她，倒在控制台前红色地砖的尽头。</speak>
+            <speak chara="oldTapeNoFace">她身下的鲜血像是成为了红砖的延续……而我们，必须踩着鲜血继续前进。</speak>
+            <goto goto="200" change="#ffffff"/>
+        </scene>
+        <scene id="200" background="bunkerHill.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">邦克山纪念碑……所以，这里就是“自由之路”的终点喽？</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNervousNewClose-up" position="right"/>
+            <speak chara="weltNoFace">总算是结束了吗……那些沉重的故事……</speak>
+            <show chara="weltNervousNewClose-up" position="right" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">从红砖路的角度来讲是这样的……不过从16个景点的列表来讲，我们还有“宪法号”没去。</speak>
+            <show chara="einNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">唔，就是那个从一百多年前起，一直被美国海军保持着服役状态的木制战舰？</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">嗯。既然纪念碑这里的录音还是在说牺牲者的故事……</speak>
+            <show chara="einNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">那么H.A.很可能会把自己的看法留在“宪法号”附近，或者列克星敦？作为总结？</speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">没错，就是这样。</speak>
+            <goto goto="210" change="#ffffff"/>
+        </scene>
+        <scene id="210" background="ussConstitution.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <text>正如爱因斯坦推测的那样，留在“宪法号”附近的录音，是“H.A.”本人的记录。</text>
+            <speak chara="haNoFace">我是H.A.……可能，你们已经很熟悉我的声音了。</speak>
+            <speak chara="haNoFace">我曾经也是“天命”这个组织的一名“女武神”。</speak>
+            <speak chara="haNoFace">当我在黄石遗迹找到这份五万年前流传下来的资料时，我无法抑制自己的好奇心。</speak>
+            <speak chara="haNoFace">我用就地找到的装置播放了全部的内容……你们应该庆幸，我只给你们留下了6组牺牲者的故事。</speak>
+            <speak chara="haNoFace">我发誓，将数百个死亡案例一一听个遍，绝对不是什么好主意。</speak>
+            <speak chara="haNoFace">对过去的语言不够精通的我，为了稳妥起见，私下里拜托了一位学者，来翻译整理这些资料。</speak>
+            <speak chara="haNoFace">然而……这个人，却突然被天命的走狗诬告，进了牢房。</speak>
+            <speak chara="haNoFace">这是1829年的事……学者，名叫“尼尔斯·亨利克·阿贝尔”。</speak>
+            <speak chara="haNoFace">如果你们有条件的话，可以验证一下此事的真伪。</speak>
+            <speak chara="haNoFace">后来，我自己也同样被人诬告；只是因为前来抓捕我的女武神睁一只眼闭一只眼，才没有遭受同样的命运。</speak>
+            <speak chara="haNoFace">我从魂钢中摘出了最关键的十几条信息，而把剩下的条目都留给了“天命”。</speak>
+            <speak chara="haNoFace">……或许我从很久以前开始，就已经不信任他们了吧。</speak>
+            <speak chara="haNoFace">他们对待敌人，永远都只有一种偏执的态度，“务求消灭”。</speak>
+            <speak chara="haNoFace">偏执到，让人不由得怀疑，是不是有人，在借此掩盖，自己肮脏的企图。</speak>
+            <speak chara="haNoFace">偏执到，没被我带走的魂钢被主教销毁，研究它的学者，在饥寒交迫中被肉体消灭。</speak>
+            <speak chara="haNoFace">无论是“天命”，还是它的主教，都不可能真正战胜崩坏。</speak>
+            <speak chara="haNoFace">即使他们有朝一日能够达到甚至超过前一个世代的技术水平……</speak>
+            <speak chara="haNoFace">……至少，面对能力不可逆料的“律者”，按照他们一贯做法，只能是束手无策。</speak>
+            <speak chara="haNoFace">让世界的命运维系在这种组织的身上，绝对，不是什么正确的事情。</speak>
+            <speak chara="haNoFace">在列克星敦，我给你们留下了足以对抗那位主教的武器。</speak>
+            <speak chara="haNoFace">善加利用吧……但是切记，“最好的威胁是不采取行动”。</speak>
+            <speak chara="haNoFace">因为，一旦采取行动却没收到效果——人们就再也不怕威胁了。</speak>
+            <goto goto="220" change="#ffffff"/>
+        </scene>
+        <scene id="220" background="ussConstitution.jpg">
+            <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">鸡窝头，你怎么看？</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="right"/>
+            <speak chara="einNoFace">一面之词……吧。</speak>
+            <speak chara="einNoFace">但是，确实能自圆其说。</speak>
+            <show chara="einNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">唔……你打算等找到了她所说的“武器”，再来定夺下一步怎么走么？</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einFoolWinterClose-up" position="right"/>
+            <speak chara="einNoFace">难道能有什么更好的方法吗？总不可能去做没有证据的判断吧。</speak>
+            <show chara="einFoolWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">……就知道你会这么说。</speak>
+            <speak chara="teslaNoFace">感谢我吧，建议你大包小包，把宿舍里重要的东西都给带过来。</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWinterClose-up" position="right"/>
+            <speak chara="einNoFace">……难道不是薛定谔特别安排了专机，我们才有机会这么做吗？</speak>
+            <show chara="einSlyWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">哼，我知道你就是不想夸我。</speak>
+            <speak chara="teslaNoFace">薛定谔这么重视这件事的话，她自己怎么不来啊？</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWinterClose-up" position="right"/>
+            <speak chara="einNoFace">据说是爱迪生的实验进行到了关键阶段，实在抽不开身。</speak>
+            <speak chara="einNoFace">她还特别建议我们，之后去一趟纽约，见识一下“划时代的能源装置”。</speak>
+            <show chara="einSlyWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">啧。什么“划时代”啊。那个铁公鸡，她能搞出什么名堂？</speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltEmbarraNewClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……就算你不喜欢她，也不用这样说吧……</speak>
+            <show chara="weltEmbarraNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">你懂什么。大人说话，小孩子别插嘴。</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSighNewClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <show chara="weltSighNewClose-up" position="right" opacity="0.7"/>
+            <show chara="einSmileWinterClose-up" position="right"/>
+            <speak chara="einNoFace">Massachusetts H6D626……啊，就是这辆了。拜托薛定谔准备的车。</speak>
+            <show chara="einSmileWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShoutWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">什么？这这……</speak>
+            <speak chara="teslaNoFace">这不是劳斯莱斯吗？</speak>
+            <speak chara="teslaNoFace">你没搞错吧，薛定谔，还有那个铁公鸡，会给我们准备这么好的车？</speak>
+            <show chara="teslaShoutWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="einSlyWinterClose-up" position="right"/>
+            <speak chara="einNoFace">哼哼——</speak>
+            <speak chara="einNoFace">亲爱的特斯拉小姐……</speak>
+            <speak chara="einNoFace">现在夜深人静，我们要不要来一次“史无前例”的兜风呢？</speak>
+            <goto goto="230" change="#ffffff"/>
+        </scene>
+        <scene id="230" background="lexingtonMA.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="start"></bgm>
+            <text>牌照为H6D626的“劳斯莱斯”在马萨诸塞大道上狂奔了十余英里（伴随着特斯拉小姐兴奋的大呼小叫）之后，终于以一个急刹车停了下来。</text>
+            <text>一行人此刻面对的，是路边的旁一块不大的三角形公园——</text>
+            <text>——与它不起眼的面积不同，这是一个将自己的存在，深深地烙印进人类史的伟大地标。</text>
+            <text remark="next">列克星敦——这里是1775年4月19日，打响了美国独立战争第一枪的地方。</text>
+            <remark post="U2FsdGVkX19rc2sXYtcTfwfoS00J">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">列克星敦和康科德战役（Battles of Lexington and Concord）是英国陆军与北美民兵之间的一场武装冲突，发生于1775年4月19日。虽然美国参议院在1908年通过决议，将快活角战斗（Battle of Point Pleasant）定为美国独立战争（1775 - 1783）的第一战，但美国社会仍普遍将列克星敦和康科德之战作为为独立战争的起点看待。</p>
+            </remark>
+            <goto goto="240" change="#ffffff"/>
+        </scene>
+        <scene id="240" background="lexingtonMA.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">艾妲。</speak>
+            <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="adaNormalRadioFar" position="left"/>
+            <speak chara="adaNoFace">北纬42.45度，西经71.23度——判定已进入目标区域，现开启搜索模式。</speak>
+            <show chara="adaSmileRadioFar" position="left"/>
+            <speak chara="adaNoFace">检测到目标源。</speak>
+            <show chara="adaSmileRadioFar" position="left" opacity="0.7"/>
+            <show chara="weltAstonishNewFar" position="right"/>
+            <speak chara="weltNoFace">好快？</speak>
+            <show chara="weltAstonishNewFar" position="right" opacity="0.7"/>
+            <show chara="adaNormalRadioFar" position="left"/>
+            <text>不理会瓦尔特的疑问，艾妲自顾自地进行着一系列的流程。</text>
+            <speak chara="adaNoFace">账户登陆成功，密码与之前一致。</speak>
+            <speak chara="adaNoFace">已请求目标源着陆，并使用退相干解除超次元迷彩。</speak>
+            <speak chara="adaNoFace">超次元迷彩解除。</speak>
+            <speak chara="adaNoFace">软着陆成功。</speak>
+            <show chara="adaSmileRadioFar" position="left"/>
+            <speak chara="adaNoFace">目标应该就在你们前方，请验收。</speak>
+            <goto goto="250" change="#ffffff"/>
+        </scene>
+        <scene id="250" background="CG17-1.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <text>实在是太显而易见了——</text>
+            <text>就像月亮一样。</text>
+            <text>伴随着“超次元迷彩”的解除，一个黄白色的光球凭空出现，徐徐降落在了众人的面前。</text>
+            <speak chara="teslaNoFace">艾妲！那个是什么？！</speak>
+            <speak chara="adaNoFace">1625型浮空储藏室。具备超次元迷彩，可以悬浮在固定地点的上空，长久不被发现。</speak>
+            <speak chara="einNoFace">打开它，艾妲。</speak>
+            <speak chara="adaNoFace">了解，爱因斯坦博士。</speak>
+            <goto goto="260" change="#ffffff"/>
+        </scene>
+        <scene id="260" background="CG17-2.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <text>黄白色的光球，以类似树叶飘落的速度，缓缓展开了自己的球壳。</text>
+            <text>约有一人高的这个大家伙，如同盛开的莲花一般，四散打开，露出了内部的透明置物柜。</text>
+            <speak chara="weltNoFace">这是……</speak>
+            <text>透明置物柜的内部，静静地悬浮着一颗直径大约十厘米的蓝色球体。</text>
+            <speak chara="adaNoFace">ⴳⴽⵓ ⵐ ⵋⵓ（Balu zha Shu）！</speak>
+            <speak chara="weltNoFace">嗯？！</speak>
+            <speak chara="teslaNoFace">艾妲，你在说什么？</speak>
+            <speak chara="adaNoFace">神之键！特斯拉博士，是神之键！</speak>
+            <speak chara="adaNoFace">目标物体的识别码，是“神之键·第九号·伊甸之星”！</speak>
+            <end post="U2FsdGVkX18OCUSLhPy1oDwFhkQc"/>
+        </scene>
+    </story>
+</data>		

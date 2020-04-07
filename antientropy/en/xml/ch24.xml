@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="roadNewYork.jpg">
+            <bgm src="04_20_tank.mp3" status="start"></bgm>
+            <show chara="starFallUp" position="back"/>
+            <text>当日11时，纽约市郊区——</text>
+            <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">天上的……那是什么？</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
+            <speak chara="reannaNoFace">紫色的……流星？</speak>
+            <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
+            <show chara="schroNormalLanceClose-up" position="right"/>
+            <speak chara="schroNoFace">不……那……那是……</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="tankInside.jpg">
+            <bgm src="04_20_tank.mp3" status="continue"></bgm>
+            <show chara="adaNormalRadioFar" position="center" opacity="0.95"/>
+            <speak chara="adaNoFace">爱因斯坦博士、特斯拉博士。</speak>
+            <speak chara="adaNoFace">检测到电磁发信源。使用公开信道。信号形式是……</speak>
+            <speak chara="adaNoFace" remark="next">……模拟信号。</speak>
+            <remark post="U2FsdGVkX1+unhzSzQEIRkMDDNP3">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">模拟信号（analog signal），是指在时域上数学形式为连续函数的信号。与模拟信号对应的是数字信号，只取二元对立的逻辑值。</p>
+                <p class="article-text">和数字信号相比，模拟信号主要用于记录原始信息（如音频、视频等），或具有连续变动范围的测量值（如温度、压强、位移等）。其缺点是无法抵抗信道噪声的影响，在多次复制或长距离传输之后会逐渐失真。</p>
+            </remark>
+            <speak chara="adaNoFace">……降噪处理中，推测语言：英语。</speak>
+            <show chara="einShockWinterClose-up" position="center"/>
+            <speak chara="einNoFace">……</speak>
+            <show chara="adaNormalRadioFar" position="center" opacity="0.95"/>
+            <speak chara="adaNoFace">……声纹拟合：南希·托马斯·爱迪生董事长。</speak>
+            <show chara="teslaAstonishGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">……什么？！</speak>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="cloudSky.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
+            <speak chara="edisonNoNameNoFace">░▒░▒░▒论如何，我会尽自己最大的努力，不让任何无辜者，因为我们的实验事故而遭受损失。</speak>
+            <speak chara="teslaNoFace">……爱迪生？</speak>
+            <speak chara="teslaNoFace">……你能听到我吗，爱迪生？！</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="tankInside.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <show chara="edisonWhiteWinterClose-up" position="center" opacity="0.95"/>
+            <speak chara="edisonNoFace">……特斯拉？</speak>
+            <show chara="teslaShoutWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">没错，是我！你被困在哪里了吗？我们这就去救你！</speak>
+            <show chara="edisonWhiteWinterClose-up" position="center" opacity="0.95"/>
+            <speak chara="edisonNoFace">……这不是目前的优先事项，尼古拉。</speak>
+            <speak chara="edisonNoFace">尽你的力量通知下纽约湾的船只和沿岸居民：可能有小型海啸发生，保险起见，请远离滩涂地区。</speak>
+            <show chara="teslaAstonishGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">……什——</speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="center"/>
+            <speak chara="teslaNoFace">——不，明白了。</speak>
+            <speak chara="teslaNoFace">我们即将抵达长岛海峡的尽头，全速前进的话，预计半个小时可以抵达曼哈顿海滩！</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG24-1-0.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="edisonNoFace">……半个小时吗。我的电力，怕是没办法支撑那么久了。</speak>
+            <speak chara="teslaNoFace">没关系！告诉我们你的坐标，我们通知完民众就来支援！</speak>
+            <speak chara="edisonNoFace">……情况有点复杂。</speak>
+            <speak chara="edisonNoFace">总而言之：我目前唯一能够做的，是尽力向外海推进，尽量减少海啸的规模。</speak>
+            <speak chara="teslaNoFace">……向外海推进？！你、你在说什么啊！？</speak>
+            <speak chara="edisonNoFace">我目前勉强控制着一颗爆炸当量超过两万吨TNT的崩坏能集束球——徒手。</speak>
+            <speak chara="edisonNoFace">只有在远离人群的地方将它摧毁，民众才能够得到最大程度的保全。</speak>
+            <speak chara="teslaNoFace">可是——</speak>
+            <speak chara="edisonNoFace">……这是我的选择。</speak>
+            <speak chara="edisonNoFace">我必须用最有把握的手段解决这个问题。</speak>
+            <speak chara="edisonNoFace">这是我自己制造的麻烦，我必须对它负责。</speak>
+            <speak chara="teslaNoFace">可是——</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="roadNewYork.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <show chara="starFallDown" position="back"/>
+            <speak chara="edisonNoFace">抱歉。我不能坐等这些崩坏能完全失去控制。</speak>
+            <speak chara="edisonNoFace">对了……</speak>
+            <speak chara="edisonNoFace">你离职时我扣下的那笔专利费……</speak>
+            <speak chara="edisonNoFace">……公司会支付给你的。</speak>
+            <goto goto="65" change="0"/>
+        </scene>
+        <scene id="65" background="cloudSky.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <show chara="teslaTearsBigHead" position="center"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaTearsBigHeadCloseEye" position="center"/>
+            <speak chara="teslaNoFace">铁公鸡！我要你亲手给我！</speak>
+            <show chara="teslaTearsBigHeadShout" position="center"/>
+            <speak chara="teslaNoFace">不然我丢不起那个面子！听到没有！</speak>
+            <speak chara="edisonNoFace">啊啊……</speak>
+            <speak chara="edisonNoFace">如果我下周……不会迟到的话。</speak>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="CG24-1-1.jpg">
+            <bgm src="06_15_ScarboroughFair.mp3" status="start"></bgm>
+            <speak chara="edisonNoFace" remark="next">Are you going to Scarborough Fair?</speak>
+            <remark post="U2FsdGVkX185n4iwTfCoutEDolvL">
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">你要去斯卡布罗集市吗？</p>
+            </remark>
+            <goto goto="73" change="0"/>
+        </scene>
+        <scene id="73" background="CG24-1-2.jpg">
+            <bgm src="06_15_ScarboroughFair.mp3" status="continue"></bgm>
+            <speak chara="edisonNoFace" remark="next">Parsley, sage, rosemary, and thyme</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">香芹、鼠尾草、迷迭香和百里香</p>
+            </remark>
+            <speak chara="edisonNoFace" remark="next">Remember me to one who lives there</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">请代我问候住在那里的一个人</p>
+            </remark>
+            <speak chara="edisonNoFace" remark="next">She once was a true love of mine</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">她曾经是我的真爱</p>
+            </remark>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="cloudSky.jpg">
+            <bgm src="06_15_ScarboroughFair.mp3" status="continue"></bgm>
+            <show chara="teslaTearsBigHeadTeatsDown" position="center"/>
+            <speak chara="teslaNoFace" remark="next">Tell her to make me a cambric shirt</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">叫她为我做一件麻布衬衫</p>
+            </remark>
+            <speak chara="teslaNoFace" remark="next">Parsley, sage, rosemary, and thyme</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">香芹、鼠尾草、迷迭香和百里香</p>
+            </remark>
+            <speak chara="teslaNoFace" remark="next">Without any seam or needlework</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">不用裁剪也不用针线缝合</p>
+            </remark>
+            <speak chara="teslaNoFace" remark="next">Then she'll be a true love of mine</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">那她就将成为我的真爱</p>
+            </remark>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="CG24-1-2.jpg">
+            <bgm src="06_15_ScarboroughFair.mp3" status="continue"></bgm>
+            <speak chara="edisonNoFace" remark="next">Tell her to find me an acre of land</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">叫她替我找一英亩耕地</p>
+            </remark>
+            <goto goto="93" change="0"/>
+        </scene>
+        <scene id="93" background="CG24-1-3.jpg">
+            <bgm src="06_15_ScarboroughFair.mp3" status="continue"></bgm>
+            <speak chara="teslaNoFace" remark="next">Parsley, sage, rosemary, and thyme</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">香芹、鼠尾草、迷迭香和百里香</p>
+            </remark>
+            <speak chara="edisonNoFace" remark="next">Between the salt water and the sea strands</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">恰在咸水与海岸之间</p>
+            </remark>
+            <speak chara="teslaNoFace" remark="next">Then she'll be a true love of mine</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">那她就将成为我的真爱</p>
+            </remark>
+            <speak chara="edisonTeslaNoFace" remark="next">Tell her to reap it in a sickle of leather</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">叫她用一把皮镰收获它的产出</p>
+            </remark>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="CG24-1-4.jpg">
+            <bgm src="06_15_ScarboroughFair.mp3" status="continue"></bgm>
+            <speak chara="edisonTeslaNoFace" remark="next">Parsley, sage, rosemary, and thyme</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">香芹、鼠尾草、迷迭香和百里香</p>
+            </remark>
+            <speak chara="edisonTeslaNoFace" remark="next">And gather it all in a bunch of heather</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">再把它们全都收进一束石楠花</p>
+            </remark>
+            <goto goto="106" change="0"/>
+        </scene>
+        <scene id="106" background="white.jpg">
+            <bgm src="06_15_ScarboroughFair.mp3" status="continue"></bgm>
+            <speak chara="edisonTeslaNoFace" remark="next">Then she'll be a true love of mine</speak>
+            <remark>
+                <p class="article-text-h">歌词大意：</p>
+                <p class="article-text">那她就将成为我的真爱</p>
+            </remark>
+            <goto goto="110" change="#ffffff"/>
+        </scene>
+        <scene id="110" background="brightonBeach.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <speak chara="radioNoNameNoFace">░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒</speak>
+            <speak chara="schroNoFace">……</speak>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="einNoFace">……</speak>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="reaSeriousArmedNoLanceFar" position="right"/>
+            <bgm src="horror.mp3" status="start"></bgm>
+            <speak chara="reannaNoFace">……你们留在安全的地带。</speak>
+            <speak chara="reannaNoFace">我去高空侦察一下。</speak>
+            <show chara="reaSeriousArmedNoLanceFar" position="right" opacity="0.7"/>
+            <show chara="teslaDisgustedGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">等等，你要怎么——</speak>
+            <hide position="right"></hide>
+            <hide position="left"></hide>
+            <show chara="weltQuestionNewFar" position="center"/>
+            <speak chara="weltNoFace">——喂。那是……</speak>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="brightonBeach.jpg">
+            <bgm src="horror.mp3" status="continue"></bgm>
+            <show chara="nokiaDepressedWinterFar" position="right"/>
+            <speak chara="nokiaNoFace">……</speak>
+            <speak chara="nokiaNoFace">……各位。</speak>
+            <show chara="nokiaDepressedWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaShoutGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">天啊！这不是芬兰人吗？！你怎么了？！没事吧？？</speak>
+            <show chara="teslaShoutGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="nokiaAnnoyedWinterFar" position="right"/>
+            <speak chara="nokiaNoFace">我也收到了爱迪生的信号……</speak>
+            <show chara="nokiaDepressedWinterFar" position="right"/>
+            <speak chara="nokiaNoFace">……用避难室里翻出来的设备。</speak>
+            <show chara="nokiaDepressedWinterFar" position="right" opacity="0.7"/>
+            <show chara="schroNormalLanceFar" position="left"/>
+            <speak chara="schroNoFace">大家……还好吗？</speak>
+            <show chara="schroNormalLanceFar" position="left" opacity="0.7"/>
+            <show chara="nokiaDepressedWinterFar" position="right"/>
+            <speak chara="nokiaNoFace">……没问题。都还活着。</speak>
+            <show chara="nokiaAnnoyedWinterFar" position="right"/>
+            <speak chara="nokiaNoFace">……</speak>
+            <show chara="nokiaCrazyWinterFar" position="right"/>
+            <speak chara="nokiaNoFace">——不对！</speak>
+            <show chara="nokiaCrazyWinterFar" position="right" opacity="0.7"/>
+            <show chara="einShockWinterFar" position="left"/>
+            <speak chara="einNoFace">……怎么了？</speak>
+            <show chara="einShockWinterFar" position="left" opacity="0.7"/>
+            <show chara="nokiaCrazyWinterFar" position="right"/>
+            <speak chara="nokiaNoFace">……我要说的，不是这个！</speak>
+            <show chara="nokiaAnnoyedWinterFar" position="right"/>
+            <speak chara="nokiaNoFace">我……</speak>
+            <show chara="nokiaAnnoyedWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaBiteGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">……你？你怎么了？说话利索点！</speak>
+            <show chara="teslaBiteGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="nokiaCrazyWinterFar" position="right"/>
+            <speak chara="nokiaNoFace">这一切都是因为我！因为我受到了那个人的威胁！</speak>
+            <shake position="right" time="250"></shake>
+            <speak chara="nokiaNoFace">他拿我的孩子来威胁！</speak>
+            <show chara="nokiaCrazyWinterFar" position="right" opacity="0.7"/>
+            <show chara="schroShockLanceFar" position="left"/>
+            <speak chara="schroNoFace">……？！</speak>
+            <show chara="schroShockLanceFar" position="left" opacity="0.7"/>
+            <show chara="nokiaCrazyWinterFar" position="right"/>
+            <speak chara="nokiaNoFace">我不是故意的！我也想不到实验会产生这么严重的后果！</speak>
+            <speak chara="nokiaNoFace">主教只是告诉我，他修改过古卷里的后期数据，会白白浪费爱迪生的时间！</speak>
+            <speak chara="nokiaNoFace">他只是轻描淡写地和我说，不希望爱迪生“将划时代的突破据为己有”！</speak>
+            <speak chara="nokiaNoFace">我……我怎么能想到会发展成现在这样？！</speak>
+            <shake position="right" time="250"></shake>
+            <speak chara="nokiaNoFace">……我怎么知道实验失败的后果会这么严重？！！</speak>
+            <show chara="nokiaCrazyWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltSBDNewFar" position="left"/>
+            <speak chara="weltNoFace">你说——</speak>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="CG24-2-0.jpg">
+            <bgm src="horror.mp3" status="stop"></bgm>
+            <sound src="05_18_claw.mp3"/>
+            <speak chara="ottoNoNameNoFace">……你说漏嘴的太多了，愚蠢的人。</speak>
+            <speak chara="nokiaNoFace">什——</speak>
+            <goto goto="135" change="0"/>
+        </scene>
+        <scene id="135" background="CG24-2-1.jpg">
+            <bgm src="horror.mp3" status="stop"></bgm>
+            <sound src="04_20_fell.mp3"/>
+            <speak chara="ottoNoNameNoFace">安静地去和你的家人团聚吧。</speak>
+            <goto goto="140" change="#ffffff"/>
+        </scene>
+        <scene id="140" background="brightonBeach.jpg">
+            <bgm src="horror.mp3" status="start"></bgm>
+            <show chara="teslaAstonishGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaAstonishGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="schroShockLanceFar" position="right"/>
+            <speak chara="schroNoFace">你……为什么……</speak>
+            <show chara="einShockWinterFar" position="right"/>
+            <speak chara="einNoFace">不对……你……是什么？！</speak>
+            <hide position="right"></hide>
+            <hide position="left"></hide>
+            <show chara="ottoChangeFar" position="center"/>
+            <speak chara="ottoNoNameNoFace">我？从物理关系上讲，我不就是和你们一同行动的女武神，蕾安娜·布里甘缇亚吗？</speak>
+            <speak chara="ottoNoNameNoFace">——虽然外形和人格的确都不是一个。</speak>
+            <speak chara="ottoNoNameNoFace">……也罢，就让你们看清楚一点儿好了。</speak>
+            <goto goto="150" change="#ffffff"/>
+        </scene>
+        <scene id="150" background="brightonBeach.jpg">
+            <bgm src="horror.mp3" status="continue"></bgm>
+            <show chara="ottoConfidentLanceFar" position="center"/>
+            <speak chara="ottoNoNameNoFace">……机械海马体接管率，99.993666%。魂钢皮肤拟合完成。</speak>
+            <show chara="ottoRidiculingLanceFar" position="center"/>
+            <speak chara="ottoNoNameNoFace">好了。虽然你们中的某些人本来就认识我……</speak>
+            <show chara="ottoConfidentLanceFar" position="center"/>
+            <speak chara="ottoNoNameNoFace">不过出于礼貌起见，还是自我介绍一下吧。</speak>
+            <show chara="ottoFrivolousLanceFar" position="center"/>
+            <speak chara="ottoNoFace">在下奥托·阿波卡利斯。权且担任“天命”的“主教”一职。</speak>
+            <show chara="weltSBDNewFar" position="center"/>
+            <speak chara="weltNoFace">……奥托！</speak>
+            <speak chara="weltNoFace">你……你在变什么戏法？！</speak>
+            <speak chara="weltNoFace">混账东西！！！</speak>
+            <show chara="ottoRidiculingLanceFar" position="center"/>
+            <speak chara="ottoNoFace">稍安勿躁，亲爱的笔友。</speak>
+            <show chara="ottoConfidentLanceFar" position="center"/>
+            <speak chara="ottoNoFace">在下出现在自己的某一个机械身体里，这应该不算什么“魔术”吧？</speak>
+            <show chara="ottoFrivolousLanceFar" position="center"/>
+            <speak chara="ottoNoFace">……蕾安娜·布里甘缇亚。</speak>
+            <show chara="ottoRidiculingLanceFar" position="center"/>
+            <speak chara="ottoNoFace">一百多年来，最强大、也是我最为倚重的女武神。</speak>
+            <show chara="ottoConfidentLanceFar" position="center"/>
+            <speak chara="ottoNoFace">让她如此强大而可靠的，不是什么看不见摸不着的精神品质……</speak>
+            <show chara="ottoLaughLanceFar" position="center"/>
+            <speak chara="ottoNoFace">——而正是我拣选无数前文明遗产，亲手为她打造的这具不朽之身啊！</speak>
+            <show chara="teslaAstonishGlassWinterFar" position="center"/>
+            <speak chara="teslaNoFace">你……你究竟在说什么？！</speak>
+            <show chara="ottoConfidentLanceFar" position="center"/>
+            <speak chara="ottoNoFace">……特斯拉小姐。</speak>
+            <show chara="ottoRidiculingLanceFar" position="center"/>
+            <speak chara="ottoNoFace">你已经猜到了答案，却不愿直面它吗？</speak>
+            <show chara="ottoFrivolousLanceFar" position="center"/>
+            <speak chara="ottoNoFace">……也罢。</speak>
+            <speak chara="ottoNoFace">我就浪费一点时间，为你们说明一下好了。</speak>
+            <show chara="ottoConfidentLanceFar" position="center"/>
+            <speak chara="ottoNoFace">从前有这样一个故事。</speak>
+            <speak chara="ottoNoFace">有一位雅典人的英雄……哈，其实他来自哪里并不重要。</speak>
+            <speak chara="ottoNoFace">总之，他很伟大，所以当地人把他曾经驾驶的船供奉了起来，当作纪念碑一样。</speak>
+            <speak chara="ottoNoFace">但是时间无情，制造那艘船的木材，渐渐都腐朽不堪。</speak>
+            <speak chara="ottoNoFace">为了不让这艘伟大的船最后只能当作祭品被烧掉，人们想出了一个好方法——</speak>
+            <speak chara="ottoNoFace">每隔若干年，就检查一遍船上的所有部件，如果有朽烂的，就重做新的换掉。</speak>
+            <speak chara="ottoNoFace">于是，很多年后，当一位哲学家前来参观的时候，船上的所有部件，都已经换过至少两次了。</speak>
+            <show chara="ottoFrivolousLanceFar" position="center"/>
+            <speak chara="ottoNoFace">哲学家听说了这件事之后很沮丧，他质问当地人：“这还是原本的那艘船吗？”</speak>
+            <show chara="ottoRidiculingLanceFar" position="center"/>
+            <speak chara="ottoNoFace">而当地人却满不在乎的回答：“如果您说不是的话，哲学家先生，您觉得它是什么时候开始不是的呢？”</speak>
+            <speak chara="ottoNoFace">“您要知道，即使是在出海途中，船只也是需要时不时更换部件的呀。”</speak>
+            <show chara="weltSBDNewFar" position="center"/>
+            <speak chara="weltNoFace">这是什么狗屁故事？！</speak>
+            <speak chara="weltNoFace">你究竟想说什么？！</speak>
+            <show chara="ottoLaughLanceFar" position="center"/>
+            <speak chara="ottoNoFace">哈哈……经过这百余年来，大大小小上千次的人体改造——</speak>
+            <speak chara="ottoNoFace">——你们觉得，这具身体，究竟是一名女武神，还是一台机器呢？</speak>
+            <show chara="weltSBDNewFar" position="center"/>
+            <speak chara="weltNoFace">你——</speak>
+            <show chara="ottoRidiculingLanceFar" position="center"/>
+            <speak chara="ottoNoFace">当然，其实答案很简单。</speak>
+            <show chara="ottoConfidentLanceFar" position="center"/>
+            <speak chara="ottoNoFace">——刚才的问题，根本就不重要。</speak>
+            <show chara="ottoLaughLanceFar" position="center"/>
+            <speak chara="ottoNoFace">因为，在实验的最后，这具身体，终究是属于我的。</speak>
+            <show chara="weltSBDNewFar" position="center"/>
+            <speak chara="weltNoFace">……你？！</speak>
+            <show chara="ottoFrivolousLanceFar" position="center"/>
+            <speak chara="ottoNoFace">律者。如果你活得足够久，你也会明白——确保自己的战斗力，对于永生者而言，有多么重要。</speak>
+            <show chara="ottoRidiculingLanceFar" position="center"/>
+            <speak chara="ottoNoFace">……再说，你们面前的这个实验体，今天的确太不规矩了点儿。</speak>
+            <show chara="ottoFrivolousLanceFar" position="center"/>
+            <speak chara="ottoNoFace">……还真是可悲啊。我的蕾安娜。</speak>
+            <show chara="ottoRidiculingLanceFar" position="center"/>
+            <speak chara="ottoNoFace">……她难道以为，身为首席女武神，就已经可以和主教平起平坐了吗？</speak>
+            <speak chara="ottoNoFace">……就这么天真的以为，我在进行实验的时候，不会留几个后门接口？</speak>
+            <show chara="ottoLaughLanceFar" position="center"/>
+            <speak chara="ottoNoFace">……哈哈哈哈哈！</speak>
+            <show chara="schroShockLanceFar" position="center"/>
+            <speak chara="schroNoFace">怎……怎么可以……</speak>
+            <show chara="ottoRidiculingLanceFar" position="center"/>
+            <speak chara="ottoNoFace">哦，对了——</speak>
+            <speak chara="ottoNoFace">我的话已经说完了。认真地讲，你们应该感到荣幸才对。</speak>
+            <show chara="ottoLaughLanceFar" position="back"/>
+            <show chara="speedLine" position="center"/>
+            <speak chara="ottoNoFace">——没有多少敌人，值得如今的奥托·阿波卡利斯亲手处刑！</speak>
+            <goto goto="160" change="0"/>
+        </scene>
+        <scene id="160" background="white.jpg">
+            <bgm src="horror.mp3" status="stop"></bgm>
+            <speak chara="schroNoFace">——快闪开！</speak>
+            <goto goto="170" change="0"/>
+        </scene>
+        <scene id="170" background="CG24-3-0.jpg">
+            <bgm src="horror.mp3" status="stop"></bgm>
+            <sound src="05_18_claw.mp3"/>
+            <speak chara="schroNoFace">……</speak>
+            <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
+            <show chara="speedLine" position="center"/>
+            <speak chara="schroNoFace">啊啊啊啊啊啊啊啊！！！！！！！！</speak>
+            <goto goto="180" change="0"/>
+        </scene>
+        <scene id="180" background="CG24-4-0.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="ottoNoFace">……飞蛾扑火。</speak>
+            <speak chara="ottoNoFace">与崩坏兽同化的你，又能做到什么？</speak>
+            <speak chara="schroNoFace">只要我……还没有倒下……</speak>
+            <speak chara="schroNoFace">你……就别想再谋害任何人……</speak>
+            <speak chara="ottoNoFace">唔。你说得的确有道理。</speak>
+            <speak chara="ottoNoFace">不过……不要紧吗？只是接触到这把“黑渊”，你的“武器”可就已经开始崩裂了哦？</speak>
+            <speak chara="schroNoFace">我会怎么样……那根本不重要。</speak>
+            <speak chara="schroNoFace">但是……</speak>
+            <goto goto="185" change="0"/>
+        </scene>
+        <scene id="185" background="CG24-4-1.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="schroNoFace">我绝对不允许你，就这样肆无忌惮地玷污这个身体！还用它去伤害我的伙伴们！</speak>
+            <speak chara="schroNoFace">它不属于你！！</speak>
+            <speak chara="schroNoFace">它唯一的主人是——</speak>
+            <goto goto="190" change="0"/>
+        </scene>
+        <scene id="190" background="CG24-4-2.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="schroNoFace">——蕾安娜！！！</speak>
+            <end post="U2FsdGVkX1+xP0LTQC+x1lfTNrBM"/>
+        </scene>
+    </story>
+</data>	

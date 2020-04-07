@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="tankInside.jpg">
+            <bgm src="mid-lude.mp3" status="stop"></bgm>
+            <text>当日，上午8时左右。</text>
+            <bgm src="04_20_tank.mp3" status="start"></bgm>
+            <show chara="teslaSnickerGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">好啦，现在已经不需要再盯着瞭望镜了哦，“临时车长”？</speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNervousNewClose-up" position="right"/>
+            <speak chara="weltNoFace">已经……彻底安全了吗？</speak>
+            <show chara="weltNervousNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSmileGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">这里又不是灾难的中心，没必要自己吓自己啦。</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">退一万步说，就算会有敌袭，那也是视野更好的蕾安娜，会首先发现端倪吧？</speak>
+            <show chara="teslaErGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">我们可是专门帮她把劳斯莱斯的顶棚拆了，搞成敞篷跑车的哦？</speak>
+            <show chara="teslaErGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSighNewClose-up" position="right"/>
+            <speak chara="weltNoFace">唔……说的也是……</speak>
+            <show chara="weltSighNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaErGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">所以你就快点从那上面下来吧？</speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">机会难得，我们抓紧时间学习学习。</speak>
+            <show chara="teslaSnickerGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltEmbarraNewClose-up" position="right"/>
+            <speak chara="weltNoFace">学习？</speak>
+            <show chara="weltEmbarraNewClose-up" position="right" opacity="0.7"/>
+            <show chara="einSlyWinterClose-up" position="left"/>
+            <speak chara="einNoFace">嗯。学习“神之键”的使用方法。</speak>
+            <show chara="einSlyWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltAstonishNewClose-up" position="right"/>
+            <speak chara="weltNoFace">……什么？</speak>
+            <show chara="weltAstonishNewClose-up" position="right" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="left"/>
+            <speak chara="einNoFace">“伊甸之星”。</speak>
+            <speak chara="einNoFace">由前世代“岩之律者”的“律者核心”打造的致命武器。</speak>
+            <speak chara="einNoFace">我们都应该了解它的能力，以及使用方法。</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">艾妲已经帮我们把说明书解析完成了——</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">——趁着我们和总部的女武神之间隔着这层装甲，赶快开始吧。</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltAstonishNewClose-up" position="right"/>
+            <speak chara="weltNoFace">……啊？</speak>
+            <show chara="weltAstonishNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaAngryGlassWinterClose-up" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">“啊”什么“啊”，你是榆木脑袋吗？</speak>
+            <show chara="teslaDisgustedGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">蕾安娜再怎么烂好人，那也是你直接顶撞过的奥托——一言九鼎的“天命”主教——人家的部下！</speak>
+            <show chara="teslaAstonishGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">我们做了这么多他八成会反感的事儿，总该适当提防一下，准备点手段的吧？</speak>
+            <show chara="teslaBiteGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">况且，万一爱迪生那边倒了血霉，被天灾也好人祸也好一锅端了——</speak>
+            <show chara="teslaDisgustedGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">——那种情况下，我们除了自己，还能依靠谁？</speak>
+            <shake position="left" time="250"></shake>
+            <show chara="teslaAngryGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">难道你真以为，人家和你一样，都是只知道吃喝玩乐的蠢蛋吗？</speak>
+            <show chara="teslaAngryGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltEmbarraNewClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <show chara="weltEmbarraNewClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">你给我听好了。</speak>
+            <show chara="teslaShameGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">在其他任何时候，我都能容忍你就是个实验室的吉祥物……</speak>
+            <show chara="teslaSmileGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">一起旅行也好，一起烂在家里也好，哪怕是和某个鸡窝头一起欺负我也好……</speak>
+            <shake position="left" time="250"></shake>
+            <show chara="teslaDisgustedGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">但是今天不可以！</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">你，我，鸡窝头，大家都必须学会“伊甸之星”的使用方法！</speak>
+            <show chara="teslaBiteGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">至少，也要尽最大的可能去尝试！</speak>
+            <shake position="left" time="250"></shake>
+            <show chara="teslaDisgustedGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">这是事关生死存亡的事情——我是说，字面意思！</speak>
+            <show chara="teslaDisgustedGlassWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="weltSBDNewClose-up" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="mbembaClose-up" position="right"/>
+            <speak chara="mbembaNoFace">呃……是说，我也得学会吗？</speak>
+            <speak chara="mbembaNoFace">那个……神……神什么来着……</speak>
+            <show chara="mbembaClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaErGlassWinterClose-up" position="left"/>
+            <speak chara="teslaNoFace">……你就算了。</speak>
+            <speak chara="teslaNoFace">司机先生……还是专心开车吧。</speak>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="roadMontana3.jpg">
+            <bgm src="8_24_war.mp3" status="start"></bgm>
+            <speak chara="reannaNoFace">……以上就是我知道的所有情况。</speak>
+            <speak chara="reannaNoFace">……</speak>
+            <speak chara="reannaNoFace">我的建议？不要再像三年前一样，贸然派出没有作战经验的部队了。</speak>
+            <speak chara="reannaNoFace">那、根、本、不、可、能、有、任、何、意、义。</speak>
+            <speak chara="reannaNoFace">……北美的地方组织看起来有能力做好侦察。</speak>
+            <speak chara="reannaNoFace">何况，他们很清楚自己战斗力弱小，反而不会因为冒进而造成不必要的牺牲。</speak>
+            <speak chara="reannaNoFace">……</speak>
+            <speak chara="reannaNoFace">这怎么可能。</speak>
+            <speak chara="reannaNoFace">话说回来，如果竟然真是爱迪生那小丫头搞的鬼……</speak>
+            <speak chara="reannaNoFace">……我会把她的头给拧下来的。</speak>
+            <speak chara="reannaNoFace">字面意义上。</speak>
+            <speak chara="reannaNoFace">……</speak>
+            <speak chara="reannaNoFace">嗯，保持联络——主教大人。</speak>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="roadMontana1.jpg">
+            <bgm src="10_25_ada.mp3" status="start"></bgm>
+            <text>从这个实际年龄是自己好几倍的人身上，蕾安娜不时会感受到，他对于生死的冷漠。</text>
+            <text>或许，对于当权者而言，一切人力上的损失，都不过是冰冷的数字而已——</text>
+            <text>事实上，如果你想当一个称职的将军，那么也只能把生死之事，统统化为数学上的种种计算。</text>
+            <text>你要带着这些兄弟姐妹们活下去——不是任何一个个体，而是整个团队本身——这是一种冷酷无情的科学。</text>
+            <text>它偶尔称得上艺术，却永远称不上救赎。</text>
+            <text>战争就是战争。</text>
+            <text>它只负责毁灭。</text>
+            <text>这一点，永远也不会改变。</text>
+            <text>即使你拥有良好的目的，那也必须忍耐随之而来的牺牲。</text>
+            <text>而牺牲，往往是无法控制的。</text>
+            <text remark="next">简单的博弈就可以告诉我们，“不顾一切、不惜代价地使用暴力的一方，如果另一方软弱退缩，就必然独占优势”。</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">这句话出自克劳塞维茨的《战争论》第一章第3节。我们不能片面理解它的含义；事实上，在相同的章节里，克劳塞维茨写道：“如果说文明民族不杀俘虏，不毁坏城市和乡村，这并不能说明他们没有采用暴力，而是因为他们在战争中更多更巧妙地应用了智慧，学会了使用比这种原始粗暴的发泄本能更加有效的暴力方法。”</p>
+            </remark>
+            <text>崩坏就在那里。</text>
+            <text>我们不可能和它讨价还价。</text>
+            <text>它也不会听我们讲任何道理。</text>
+            <text>它不会畏惧自己的牺牲，更不会怜悯我们的牺牲……它甚至不在意这个世界会变成什么样子。</text>
+            <text>它永远不会停止自己的暴力——</text>
+            <text>——除非我们完全、彻底、一个不剩地，从这颗星球上消失。</text>
+            <text>打一开始，这就是背水一战。</text>
+            <text>……但尽管如此，我们却还抱有一种绝对可以称得上“奢侈”的心态——</text>
+            <text>想在这场永恒的战争中，看得到重生，看得到救赎，看得到一切发自人性的美丽。</text>
+            <text>而且，正因为它们不是战争的固有属性；</text>
+            <text>正因为这场战争永远也没有结束的那一天——</text>
+            <text>我们，才愈发会这样期待。</text>
+            <text>况且……</text>
+            <text>我觉得，这种期待，是件好事。</text>
+            <text>这是合理的羡慕。</text>
+            <text>也是人性的源泉。</text>
+            <text>或许，我还可以进一步说，任何奢侈本身，都不是什么坏事——</text>
+            <text>只要我们承认，奢侈，不是一种必然存在的基本态。</text>
+            <text>只要我们明白，奢侈，会给我们所有人带来什么。</text>
+            <text>……</text>
+            <text>特斯拉。</text>
+            <text>爱因斯坦。</text>
+            <text>瓦尔特。</text>
+            <text>在天命这个组织里，已经不知道多少年，没有像这几个人一样可爱的家伙了。</text>
+            <text>……也许，在很久很久以前，某个喜欢用"H. A"这种缩写来签名的人，还能算半个。</text>
+            <text>虽然自己完全不喜欢她那种怀疑论的调调……但至少，她能在气氛上，让大家换换口味。</text>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="cloudSky.jpg">
+            <bgm src="10_25_ada.mp3" status="continue"></bgm>
+            <text>不知不觉，那最后一次相遇，也是百年之前的事情了。</text>
+            <text>那个时候，铁路才刚刚修到芝加哥——</text>
+            <text>而现在，她已经是一座几百万人的大都市了。</text>
+            <text>实话说，这一百年多年间，发生变化的，可远远不止美国。</text>
+            <text remark="next">“德意志”不再只是一个民族称谓，他们先后成立了两个帝国，虽然均以失败告终；</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">指在普鲁士-法国战争中获胜，统一“小德意志”的“德意志帝国”（1871 ~ 1918）；以及强行合并德语国家奥地利，鲸吞存在德意志人口的苏台德、克莱佩达（梅梅尔）、格但斯克（但泽）、南日德兰（北石勒苏益格）、卢森堡、阿尔萨斯-洛林等地，组建“大德意志”的所谓“第三帝国”（1933 ~ 1945）。</p>
+            </remark>
+            <text remark="next">法国的元首从总统变成了皇帝，又从皇帝变回了总统；</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">指再度推翻波旁王朝的“法兰西第二共和国”（1848 ~ 1852）、路易·波拿巴（拿破仑三世）的“法兰西第二帝国”（1852 ~ 1870）、夹在两次对德作战失败之间的“法兰西第三共和国”（1870 ~ 1940）。</p>
+                <p class="article-text">p.s. 马克思的名作《路易·波拿巴的雾月十八日》生动解释了这个时期法国社会的怪相。</p>
+            </remark>
+            <text remark="next">哈布斯堡退出历史舞台，昔日的君主制堡垒四分五裂；</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">指由哈布斯堡家族出任君主的“奥地利帝国”（1804 ~ 1867）和“奥匈帝国”（1867 ~ 1918）。1918年第一次世界大战结束后，奥匈帝国解体，奥地利、匈牙利、捷克斯洛伐克作为共和国独立，其余地区并入南斯拉夫、波兰、罗马尼亚及意大利。</p>
+            </remark>
+            <text remark="next">奥斯曼王朝崩溃后的权力真空，使犹太人绵延千年的复国梦想得以实现；</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">第一次世界大战后，奥斯曼帝国放弃了它在阿拉伯半岛、伊拉克、叙利亚一带的大量领土，巴勒斯坦地区改由英国托管，大量欧洲犹太人随之迁入；第二次世界大战后，犹太人在战争中的悲惨遭遇使得他们的复国理念得到了美苏等强权的支持，“以色列国”于1948年5月14日宣布独立。</p>
+            </remark>
+            <text remark="next">意大利、希腊也不再是一个纯粹的地理概念，土耳其甚至摆脱了“多少世纪以来像铁箍似的束缚着我们思想的那些令人无法理解的符号”……</text>
+            <remark post="U2FsdGVkX19yQNaEeMBKin4QUNdj">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">指意大利统一（1815 ~ 1871）、希腊独立战争（1821 ~ 1829）、巴尔干战争（1912 ~ 1913）、土耳其独立战争（1919 ~ 1923）。</p>
+                <p class="article-text">p.s. “多少世纪以来像铁箍似的束缚着我们思想的那些令人无法理解的符号”，是土耳其国父（Atatürk）穆斯塔法·凯末尔（Mustafa Kemal）对于阿拉伯字母的评价。</p>
+            </remark>
+            <text>尤其是最近的几十年，“日常”的世界打了两次大战，外强中干的帝国倒了一个又一个……</text>
+            <text>而“天命”这个组织，却反而愈发地死气沉沉，毫无变革的迹象。</text>
+            <text>身为女武神（或者说，一台“战争机器”），这样抱怨可能有些奇怪——</text>
+            <text>但让人头疼的主教或许一个人吸纳了所有的“创意细胞”；同僚也好，研究员也好，仿佛都是那个“神州仙人”的翻版，不苟言笑，味同嚼蜡……</text>
+            <text>或者，至少让人看不到，他们的心里，能有什么异想天开的东西。</text>
+            <text>那是标准的、鸡肋的、沉闷到令人窒息的，“冷静的成年人”。</text>
+            <text>……当我们自诩为“成熟冷静”的时候，大概，就已经老了吧。</text>
+            <text>或许，就在此时此刻，某几个“不成熟”的人正在坦克舱室里，捣鼓着一些主教明令禁止的事情。</text>
+            <text>……但那又如何？</text>
+            <text>只要不做出太过分的事情——我想，那也不是他们的风格——</text>
+            <text>——我这台“机器”，今天，就偏偏，要去包庇他们。</text>
+            <text>因为，“机器”，也是有感情的。</text>
+            <text>“机器”，也想要去品尝，那名为“羡慕”的感觉。</text>
+            <text>“我将来要当一名麦田里的守望者，有那么一群孩子在一大块麦田里玩。”</text>
+            <text>“几千几万的小孩子，附近没有一个大人，我是说——除了我。”</text>
+            <text>“我呢，就在那混账的悬崖边；我的职务，就是在那儿守望，要是有哪个孩子往悬崖边来，我就负责把他捉住——”</text>
+            <text>“我是说，孩子们都是在狂奔，也不知道自己是在往哪儿跑——我得从什么地方出来，把他们捉住。”</text>
+            <text remark="next">“我整天就干这样的事，我只想做个麦田里的守望者。”</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">引自《麦田里的守望者》（作者：J.D.塞林格）。原文如下：</p>
+                <p class="article-text">"Anyway, I keep picturing all these little kids playing some game in this big field of rye and all. Thousands of little kids, and nobody's around - nobody big, I mean - except me. And I'm standing on the edge of some crazy cliff. What I have to do, I have to catch everybody if they start to go over the cliff - I mean if they're running and they don't look where they're going I have to come out from somewhere and catch them. That's all I do all day. I'd just be the catcher in the rye and all. I know it's crazy, but that's the only thing I'd really like to be."</p>
+            </remark>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="connecticutRoad.jpg">
+            <bgm src="10_25_ada.mp3" status="continue"></bgm>
+            <text>因为电子通讯的异常，形形色色的人们从睡梦中醒来后，便被卷入了巨大的混乱之中。</text>
+            <text>然而，与灾难电影中常见的镜头不同；这种混乱，在更大的尺度上，却被一种自发的井然有序所代替：</text>
+            <text remark="next">离开普罗维登斯之后，在沿着6号公路前进的旅途上，我们没有遭遇大规模的交通堵塞，没有遭遇趁火打劫的流氓团伙——</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">6号公路（U.S. Route 6）是一条东西方向的美国国道。该公路起于马萨诸塞州普罗温斯顿，终于加利福尼亚州毕晓普，被誉为“美国风景最优美的驱车线路”。</p>
+            </remark>
+            <text>甚至，没有遭遇，任何一只，普通武器完全无法应对的崩坏兽。</text>
+            <text>当然，这种临时的有序，和信息无法有效传播不无关系……</text>
+            <text>但这个国家的人民，他们的自治能力，也着实令人敬佩。</text>
+            <text>普罗维登斯的三个蹩脚联络员，一位负责给42实验室的诸人驾驶坦克，另两位已经做回了自己的“本职工作”。</text>
+            <text>没错，在电子通信无法保障的情况下，我们还可以用人力来完成消息的传达。</text>
+            <text>一传十。</text>
+            <text>十传百。</text>
+            <text>百传千。</text>
+            <text>爱迪生分配给他们的装备虽然难堪大用，但如果，总数上真的有上万辆之多……</text>
+            <text>那我想，即使在纽约爆发的，真的是柏林级别的事件，他们也足以压住阵脚，形成隔离带，阻遏灾害的蔓延。</text>
+            <text>哪怕，我们只能联系到，其中的十分之一。</text>
+            <text>至于核心地带……</text>
+            <text>……那里，交给我就好。</text>
+            <text>三年之前，他们说我是“最后的底牌”，强迫我留在总部……</text>
+            <text>强迫我，看着玛莎，看着那些毫无经验的孩子去送死。</text>
+            <text>那根本不是什么“实战检验”。</text>
+            <text>那只是，冷血如造物主一般，看着她们，活生生地，从悬崖上掉落。</text>
+            <text>不能再有那样的事情了。</text>
+            <text>这一次，我要彻彻底底地去当一台战争机器——</text>
+            <text>——无论遇到什么样的牛鬼蛇神，全都杀给你们看。</text>
+            <text>……</text>
+            <text>这一次，这台机器，要去当一名——</text>
+            <text>“麦田里的守望者”。</text>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="tankInside.jpg">
+            <bgm src="10_25_ada.mp3" status="stop"></bgm>
+            <sound src="04_20_brake.mp3"/>
+            <show chara="teslaAngryGlassWinterClose-up" position="right"/>
+            <shake position="all" time="250"></shake>
+            <speak chara="teslaNoFace">哇！干嘛突然刹车啊！</speak>
+            <show chara="weltAstonishNewGloveClose-up" position="right"/>
+            <speak chara="weltNoFace">……发生什么了吗？</speak>
+            <show chara="weltAstonishNewGloveClose-up" position="right" opacity="0.7"/>
+            <show chara="mbembaClose-up" position="left"/>
+            <speak chara="mbembaNoFace">路边……窜出一个一瘸一拐的人……</speak>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="connecticutFarm.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <show chara="elaineStruggleFar" position="left"/>
+            <speak chara="elaineNoNameNoFace">欢迎来到康涅狄格河畔哈特福德！</speak>
+            <show chara="elaineHematemesisFar" position="left"/>
+            <speak chara="elaineNoNameNoFace">噗咳——</speak>
+            <show chara="elaineHematemesisFar" position="left" opacity="0.7"/>
+            <show chara="teslaShoutGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">你——你没事吧？</speak>
+            <show chara="teslaShoutGlassWinterFar" position="right" opacity="0.7"/>
+            <show chara="elaineStruggleFar" position="left"/>
+            <speak chara="elaineNoNameNoFace">不、不要紧。</speak>
+            <show chara="elaineHematemesisFar" position="left"/>
+            <speak chara="elaineNoNameNoFace">噗咳——</speak>
+            <bgm src="street.mp3" status="stop"></bgm>
+            <hide position="left"/>
+            <sound src="04_20_fell.mp3"/>
+            <text>不知名的女子倒了下去。</text>
+            <bgm src="8_24_war.mp3" status="start"></bgm>
+            <show chara="teslaAstonishGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">喂！坚持住啊！</speak>
+            <show chara="teslaAstonishGlassWinterFar" position="right" opacity="0.7"/>
+            <show chara="einSeriousEmWinterFar" position="left"/>
+            <speak chara="einNoFace">面色苍白……体温过低……</speak>
+            <show chara="einSeriousAhWinterFar" position="left"/>
+            <speak chara="einNoFace">……她的血压很不稳定，得尽快送她去医院才行！</speak>
+            <show chara="einSeriousAhWinterFar" position="left" opacity="0.7"/>
+            <show chara="reaNormalArmedFar" position="right"/>
+            <speak chara="reannaNoNameNoFace">没那个必要。</speak>
+            <show chara="reaSmileArmedFar" position="right"/>
+            <speak chara="reannaNoFace">交给我吧。</speak>
+            <show chara="reaSmileArmedFar" position="right" opacity="0.7"/>
+            <show chara="weltAstonishNewFar" position="left"/>
+            <speak chara="weltNoFace">蕾、蕾安娜小姐？</speak>
+            <show chara="weltAstonishNewFar" position="left" opacity="0.7"/>
+            <show chara="reaLaughArmedFar" position="right"/>
+            <speak chara="reannaNoFace">怎么，你忘了吗？</speak>
+            <show chara="reaSmileArmedFar" position="right"/>
+            <speak chara="reannaNoFace">“黑渊白花”——</speak>
+            <speak chara="reannaNoFace">——可是集分解与创生为一体的“神之键”哦！</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="CG20-1.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
+            <speak chara="reannaNoFace">我是来自深渊的黑，</speak>
+            <speak chara="reannaNoFace">我是降自云霄的白；</speak>
+            <speak chara="reannaNoFace">诞生自创世之前，</speak>
+            <speak chara="reannaNoFace">存在于湮灭之后；</speak>
+            <speak chara="reannaNoFace">我要将生命泉的水，</speak>
+            <speak chara="reannaNoFace" remark="next">白白赐给那口渴的人喝。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《圣经·新约·启示录》（21:6）——他又对我说：“都成了！我是‘阿尔法’，我是‘欧米伽’；我是始，我是终。我要将生命泉的水，白白赐给那口渴的人喝。”</p>
+            </remark>
+            <speak chara="reannaNoFace">神之键·黑渊白花，第零额定功率——</speak>
+            <speak chara="reannaNoFace" remark="next">Heilige Lanze, die Welwitschie!</speak>
+            <remark post="U2FsdGVkX18O7USd7byF8+J6GxvE">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">这是奥托主教的母语——德语，“Heilige Lanze”意为“圣枪”，“Welwitschie”意为“百岁兰”。</p>
+                <p class="article-text">p.s. 百岁兰是“百岁兰科”“百岁兰属”的唯一品种。又称“奇想天外”。1859年，由奥地利探险家Friedrich Welwitsch发现于安哥拉的沙漠中。雌雄异株。茎短，一生只长两片叶（相对的，这两片叶会无限生长；其远端会逐渐干裂成条状并聚集成堆，让人无法看出他们原来是两片叶子）。根极长，可达3米至10米，以吸收地下水。平均寿命可达数百年，某些个体甚至可达两千年以上。是安哥拉邻国纳米比亚的国花。</p>
+            </remark>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="connecticutFarm.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="start"></bgm>
+            <show chara="elaineSmileFar" position="left"/>
+            <speak chara="elaineNoNameNoFace">嘿，你们，难道是什么医疗专家团？</speak>
+            <speak chara="elaineNoNameNoFace">摩根医生都不可能做到这么好耶！</speak>
+            <show chara="elaineSmileFar" position="left" opacity="0.7"/>
+            <show chara="reaHahArmedFar" position="right"/>
+            <speak chara="reannaNoFace">不……我们只是恰巧拥有很好的……“野战医疗设备”？</speak>
+            <show chara="reaHahArmedFar" position="right" opacity="0.7"/>
+            <show chara="elaineSmileFar" position="left"/>
+            <speak chara="elaineNoNameNoFace">哇，那你一定要把它借给摩根医生看看！</speak>
+            <show chara="elaineNormalFar" position="left"/>
+            <speak chara="elaineNoNameNoFace">啊，自我介绍一下——伊莱恩·格拉斯顿，退役游骑兵。</speak>
+            <show chara="elaineSmileFar" position="left"/>
+            <speak chara="elaineNoFace" remark="next">"Rangers, Lead the Way!"——哈哈哈哈，对，就是那个“游骑兵”。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">"Rangers, Lead the Way!"（游骑兵，开路吧！）是美国游骑兵（相当于其他国家的特种兵）的格言。</p>
+                <p class="article-text">1944年6月6日，诺曼底的奥马哈海滩上，在美军突击登陆“白狗”防御区时，美国第29步兵师副师长诺曼·柯塔（Norman Cota）准将与游骑兵第五营指挥官马克斯·施耐德（Max Schneider）少校相遇。准将问：“这是哪门子部队？”（"What outfit is this?"）少校回答：“游骑兵第五营，长官！”（"5th Rangers, Sir!"）准将于是回了一句：“好吧，该死的，如果你们算是游骑兵，那就开路吧！”（"Well, goddamnit, if you're Rangers, lead the way!"）</p>
+            </remark>
+            <speak chara="elaineNoFace">至于刚才提到的摩根医生——米卡里·摩根——她是我的熟人，医术很不错。</speak>
+            <show chara="elaineNormalFar" position="left"/>
+            <speak chara="elaineNoFace">而且，她的私人研究，也包括你们称之为“崩坏”的这个灾害。</speak>
+            <show chara="elaineNormalFar" position="left" opacity="0.7"/>
+            <show chara="reaSmileArmedFar" position="right"/>
+            <speak chara="reannaNoFace">……私人研究？那很厉害啊。</speak>
+            <show chara="teslaErGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">等等等等——伊莱恩……摩根……该不会还有薇薇安和妮妙吧？</speak>
+            <show chara="teslaErGlassWinterFar" position="right" opacity="0.7"/>
+            <show chara="elaineSmileFar" position="left"/>
+            <speak chara="elaineNoFace">……啊？那是什么？</speak>
+            <show chara="elaineSmileFar" position="left" opacity="0.7"/>
+            <show chara="teslaErGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace" remark="next">呃……亚瑟王？</speak>
+            <remark post="U2FsdGVkX18sNx6bP5ZCa35+JjZ3">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">伊莱恩、摩根、薇薇安、妮妙都是在亚瑟王传说中登场的角色。其中伊莱恩、薇薇安、妮妙是所谓“湖中妖女”（Ladies of the Lake）的成员；而摩根（Morgan le Fay）是亚瑟王的姐姐，以“邪恶女巫”闻名。</p>
+                <p class="article-text">p.s. 康涅狄格州、哈特福德市和亚瑟王的关系，来自马克·吐温的名作《康州美国佬大闹亚瑟王朝》（A Connecticut Yankee in King Arthur's Court）——现代穿越小说的鼻祖。</p>
+            </remark>
+            <show chara="teslaErGlassWinterFar" position="right" opacity="0.7"/>
+            <show chara="elaineStruggleFar" position="left"/>
+            <speak chara="elaineNoFace">……亚瑟王？唔，小学的时候，大概被老师强迫读过吧——</speak>
+            <show chara="elaineNormalFar" position="left"/>
+            <speak chara="elaineNoFace">——等等，你这家伙，我可是要说正经事的。各位……是政府方面派来治灾的吗？</speak>
+            <show chara="elaineNormalFar" position="left" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">唔……可以算是？</speak>
+            <show chara="teslaSnickerGlassWinterFar" position="right" opacity="0.7"/>
+            <show chara="elaineSmileFar" position="left"/>
+            <speak chara="elaineNoFace">那正好，你们可以看看我们的团队还欠缺些什么——</speak>
+            <show chara="elaineStruggleFar" position="left"/>
+            <speak chara="elaineNoFace">——毕竟，如你们所见，用这双勃朗宁去对付怪兽，终究还是难了一点。</speak>
+            <end post="U2FsdGVkX18lD14m4x7Hih5YT4tS"/>
+        </scene>
+    </story>
+</data>			

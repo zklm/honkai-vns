@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="landCuracao.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <text>“守护这片大陆、守护这个星球，这是共和国的昭昭天命”——飒爽的骑士如此介绍着自己的祖国。</text>
+            <text>从赤道以北的群岛，到大地最南端的冰原：广袤的南美大陆，每一寸土地都需要由共和国来守护。</text>
+            <text>可是另一方面，国家也必须集结重兵、坚守通向地心的“瓦卡隧道”，所以边界巡逻只能由像他们这样从前线轮换下来的部队代为完成——</text>
+            <text>“不过，共和国的地理位置决定了她几乎没有边防威胁；我们这种行军几乎相当于旅游观光，也算是一种休整了。”</text>
+            <text>根据骑士们和莎士比亚船长双方的说法：只有潜水船，才能够在这个世界里进行跨洋航行。</text>
+            <text>在这里的大洋深处，随处可见高达百米的滔天巨浪——要知道，在女武神们生活的世界里，即使是台风或海啸，也“只不过”能掀起二十到三十米的巨浪而已。</text>
+            <text>这个未知的世界还隐藏着很多的秘密……不过，对于女武神们而言，她们的核心任务，还是获取与“以太锚点”有关的情报。</text>
+            <text>……或者，退而求其次，寻找那些圣剑宝石的下落。</text>
+            <show chara="rolandArmorLaughClose" position="left"/>
+            <speak chara="_Roland">啊，前面那艘铁家伙，就是你们的“潜水船”吧？</speak>
+            <show chara="rolandArmorLaughClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="right"/>
+            <speak chara="_Shakespeare" remark="next">是啊。累计航程超过两万里格，了不起的“喀里多尼亚号”！</speak>
+            <remark post="U2FsdGVkX19HoeGOGqPk10KZNXah">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">里格（英语：League；法语：Lieue；西班牙语：Legua，又译“莱瓜”）是源自古罗马的一种长度单位，在英语世界通常定义为3英里或3海里，在法语世界相当于10000至14000法尺不等。</p>
+                <p class="article-text">p.s. 儒勒·凡尔纳的《海底两万里》（Vingt Mille Lieues Sous Les Mers）在标题中使用的就是这个单位。</p>
+            </remark>
+            <show chara="shakesCasualNormalClose" position="right" opacity="0.8"/>
+            <show chara="rolandArmorSmileClose" position="left"/>
+            <speak chara="_Roland">只用一天的时间就能横渡整个大西洋？</speak>
+            <show chara="rolandArmorSmileClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">怎么，骑士小姐想利用自己的假期去埃及玩一玩吗？</speak>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">如果我们能互利互惠的话，那自然没有问题！乐意之至！</speak>
+            <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+            <show chara="rolandArmorEmbarrassClose" position="left"/>
+            <speak chara="_Roland">啊，不……我其实是想说，如果你们的舰船航速足够快，那么我其实可以直接带你们去看看“瓦卡隧道”。</speak>
+            <show chara="rolandArmorEmbarrassClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="right"/>
+            <speak chara="_Shakespeare">……哎呀，此话当真？你不是说，那是你们全国最重要的一座要塞吗？</speak>
+            <show chara="shakesCasualNormalClose" position="right" opacity="0.8"/>
+            <show chara="rolandArmorLaughClose" position="left"/>
+            <speak chara="_Roland">哈哈……既然大家都要对抗“地底大陆”的敌人，那么互相了解一下对方的战斗方式——这应该是最基本的吧？</speak>
+            <show chara="rolandArmorLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">可是……这种情况下，一般不都会要求我们先展示自己的战斗力吗？</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="rolandArmorSmileClose" position="left"/>
+            <speak chara="_Roland">噗。这里可是共和国的领土，我们不略尽地主之谊，那是不好的吧。</speak>
+            <show chara="rolandArmorLaughClose" position="left"/>
+            <speak chara="_Roland">而且……这艘“喀里多尼亚号”，它惊人的航速本身，就是你们最宝贵的战斗力啊？</speak>
+            <show chara="rolandArmorLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">唔……你是不是不相信我们A级女武神自己的本事啊。</speak>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">告诉你，就算赤手空拳，我们至少也能搞定普通的下位崩坏兽（Bêtes Honkai）！</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="rolandArmorQuestionClose" position="left"/>
+            <speak chara="_Roland">……“崩坏”（Honkai）？你们也知道这个禁忌的名字吗？</speak>
+            <show chara="rolandArmorQuestionClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">啊？我没有说过吗？在我们的世界里，“女武神”就是专门对抗“崩坏”的一种军人啊！</speak>
+            <show chara="biankaDressScreamClose" position="right"/>
+            <speak chara="_Bianka">我们是从其他……唔，“平行世界”一样的地方来到你们这里的，这个你总还记得吧！</speak>
+            <show chara="biankaDressScreamClose" position="right" opacity="0.8"/>
+            <show chara="rolandArmorEmbarrassClose" position="left"/>
+            <speak chara="_Roland">是的……你们刚才的确这样介绍过……</speak>
+            <show chara="rolandArmorNormalClose" position="left"/>
+            <speak chara="_Roland">看来，“崩坏”并不是我们这片大陆独有的现象呢……</speak>
+            <show chara="rolandArmorQuestionClose" position="left"/>
+            <speak chara="_Roland">这样说来——</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="CG20-1.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <speak chara="_Roland">各位！请务必允许我暂时和大家一起行动，拜托了！</speak>
+            <speak chara="_Bianka">等等——你、你怎么突然跪下了？！</speak>
+            <speak chara="_Roland">“崩坏”不仅能制造怪兽，还会侵蚀人的身体。如果不是天赋异禀之人，即使身着如此厚重的战甲，依然不能在战场上连续作战超过一周。</speak>
+            <speak chara="_Roland">——这也是我们的军团、连队，都必须定期轮换的根本原因。</speak>
+            <speak chara="_Roland">而且，在实际的作战中——除了像我这样冠以“印卡”之名的“星语者”——普通的士兵根本无法在野战中取得优势。</speak>
+            <speak chara="_Roland">如果各位女武神，果然是比我等“星语者”更加强大的、对抗崩坏和崩坏兽的专家……</speak>
+            <speak chara="_Roland">那么请务必允许我将各位引荐给共和国议长和要塞司令！</speak>
+            <speak chara="_Roland">拜托了！</speak>
+            <speak chara="_Bianka">这、这当然可以吧！你先起来、先站起来再说话啊！这根本没有必要单膝下跪吧！我、我们当然义不容辞啊！</speak>
+            <goto goto="30" clockwise="1"/>
+        </scene>
+        <scene id="30" background="submarineCabinBlur.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">好啦，既然上了船，那我们就算是命运与共了。来吧，把要去的经纬坐标告诉我。</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorQuestionClose" position="right"/>
+            <speak chara="_Roland">啊……是。“西经”1.5度，“南纬”47.5度。</speak>
+            <show chara="rolandArmorQuestionClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">1.5度？我们现在不是在南美洲吗？难道不是71.5度什么的？</speak>
+            <show chara="shakesCasualQuestionClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorEmbarrassClose" position="right"/>
+            <speak chara="_Roland">不……不是啊。真的是1.5度。</speak>
+            <show chara="rolandArmorEmbarrassClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualDislikeClose" position="left"/>
+            <speak chara="_Shakespeare">这就奇怪了……你说的那个地方，可是在根本不可能有陆地的南大西洋深处啊？</speak>
+            <show chara="ritaVestNormalClose" position="left"/>
+            <speak chara="_Rita">啊……</speak>
+            <show chara="ritaVestSmileClose" position="left"/>
+            <speak chara="_Rita">罗兰小姐，我冒昧问一句：你们使用的“本初子午线”是哪一条？</speak>
+            <show chara="ritaVestSmileClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorQuestionClose" position="right"/>
+            <speak chara="_Roland">“哪一条”？本初子午线不就是穿过库斯科老城中轴线的那条经线吗？</speak>
+            <show chara="rolandArmorQuestionClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">啥？</speak>
+            <show chara="shakesCasualQuestionClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">船长，看来这个国家使用的经纬系统和我们不太一样呢。</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualDislikeClose" position="left"/>
+            <speak chara="_Shakespeare" remark="next">……这还真是我的思维盲区。从来没有听说过不用格林威治当0度经线的！</speak>
+            <show chara="shakesCasualDislikeClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorEmbarrassClose" position="right"/>
+            <speak chara="_Roland" remark="next">啊哈哈……“格林威治”……这倒是我没有听说过的地名了。</speak>
+            <remark post="U2FsdGVkX1+6bMp+CC30EQlveqKe">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“本初子午线”即0度经线，其东西两边分别定为东经和西经（它们再于180度相遇）。不像纬度起点（即赤道）由地球自转轴决定，理论上任何一条经线均可定为本初子午线；历史上也确实曾对此线有过不同的定义。</p>
+                <p class="article-text">格林威治（Greenwich）在15、16世纪曾是英国王宫所在地。1675年，这里设立了“皇家天文台”；1884年，国际会议正式确认格林威治天文台所处的经线为本初子午线，“格林威治时间”在英国之外开始普及；1967年，国际天文学联合会正式推出以格林威治时间为参考的“协调世界时”，作为全世界的时间基准。</p>
+            </remark>
+            <show chara="rolandArmorEmbarrassClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">好啦。不管怎么说，事情弄清楚了就好。</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">爱丽丝，在线吗？帮我们换算一下，库斯科老城以西1.5度是什么经度？</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedCloseE" position="right"/>
+            <speak chara="_Alice">啊啊——收到！</speak>
+            <show chara="AliceSmileCloseE" position="right"/>
+            <speak chara="_Alice">根据大图书馆的资料，是西经73.5度！</speak>
+            <show chara="AliceSmileCloseE" position="right" opacity="0.8"/>
+            <show chara="rolandArmorQuestionClose" position="left"/>
+            <speak chara="_Roland">……天啊，这是视频通讯技术吗？</speak>
+            <show chara="rolandArmorLaughClose" position="left"/>
+            <speak chara="_Roland">在我们的国家，只有议长那样的大人物才有机会使用呢！</speak>
+            <show chara="rolandArmorLaughClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">怎么样，这技术很不错吧。</speak>
+            <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+            <show chara="rolandArmorLaughClose" position="left"/>
+            <speak chara="_Roland">嗯！我还是头一次在要塞之外见到实物呢！我相信你们是最棒的援军！</speak>
+            <show chara="rolandArmorLaughClose" position="left" opacity="0.8"/>
+            <show chara="micheDrySmileCloseE" position="right"/>
+            <speak chara="_Michel">咳咳。罗兰少将团长，你这样“粗暴”地献殷勤，未免也太“肉麻”了吧？</speak>
+            <show chara="micheDrySmileCloseE" position="right" opacity="0.8"/>
+            <show chara="rolandArmorEmbarrassClose" position="left"/>
+            <speak chara="_Roland">啊、是！对不起！</speak>
+            <show chara="rolandArmorQuestionClose" position="left"/>
+            <speak chara="_Roland">唉？博纳罗蒂局长？你、你怎么也在他们的通讯影像里啊？！</speak>
+            <show chara="rolandArmorQuestionClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">咦……你、你刚才叫她什么？</speak>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">对啊对啊，你们怎么听起来互相认识的样子？</speak>
+            <show chara="micheArrogantCloseE" position="right"/>
+            <speak chara="_Michel">罗兰，向他们介绍一下，我在共和国的正式职位是什么。</speak>
+            <show chara="micheArrogantCloseE" position="right" opacity="0.8"/>
+            <show chara="rolandArmorEmbarrassClose" position="left"/>
+            <speak chara="_Roland">啊、是。</speak>
+            <show chara="rolandArmorSmileClose" position="left"/>
+            <speak chara="_Roland">博纳罗蒂女士是共和国技术情报局的局长，负责从全世界的各个研究基地向国内输送技术。</speak>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">……喂喂，这、这说穿了不就是间谍吗？</speak>
+            <show chara="biankaDressScreamClose" position="left" opacity="0.8"/>
+            <show chara="micheDrySmileCloseE" position="right"/>
+            <speak chara="_Michel">谢谢夸奖，阿塔吉娜小姐。</speak>
+            <show chara="micheRelaxCloseE" position="right"/>
+            <speak chara="_Michel">大图书馆、亚历山大港、金字塔火箭发射场——这里拥有全世界其他地方都难以拥有的研究环境，我有义务让她为这个世界做出更大的贡献。</speak>
+            <show chara="micheRelaxCloseE" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">可、可是……你现在已经是代理“市长”了啊！你这样要怎么为那些市民负责啊？！</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="micheFocusCloseE" position="right"/>
+            <speak chara="_Michel">市民们最大的利益所在就是安全。一个无法对抗“崩坏帝国”的世界是无所谓安全的。</speak>
+            <show chara="micheDrySmileCloseE" position="right"/>
+            <speak chara="_Michel">……再说，你们的雪莱会长肯定会紧盯着我的一举一动的，对不对？</speak>
+            <show chara="micheDrySmileCloseE" position="right" opacity="0.8"/>
+            <show chara="shelleyBoredCloseE" position="left"/>
+            <speak chara="_Shelley">……</speak>
+            <show chara="shelleyShockedCloseE" position="left"/>
+            <speak chara="_Shelley">对是对，但是我可怎么也想不到你会挑这么一个时机……</speak>
+            <show chara="shelleyColdCloseE" position="left"/>
+            <speak chara="_Shelley">你现在可是我们的代理会长，这些内幕怎么能随便就……</speak>
+            <speak chara="_Shelley">……“墙”的威胁解除之后，你马上给我辞职。</speak>
+            <show chara="shelleyArrogantCloseE" position="left"/>
+            <speak chara="_Shelley">不管你自己的动机如何；你这双重身份，本来就不符合这座城市的法律规定。</speak>
+            <show chara="shelleyArrogantCloseE" position="left" opacity="0.8"/>
+            <show chara="micheRelaxCloseE" position="right"/>
+            <speak chara="_Michel">没问题呀。那时我不仅会辞职，而且还会离开亚历山大港。</speak>
+            <show chara="micheDrySmileCloseE" position="right"/>
+            <speak chara="_Michel">一言为定！</speak>
+            <show chara="micheDrySmileCloseE" position="right" opacity="0.8"/>
+            <show chara="shelleyBoredCloseE" position="left"/>
+            <speak chara="_Shelley">……</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">好啦好啦，雪莱女士真的很不容易，我们都不要再给她添乱了。</speak>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">那么……馆长——啊，不，局长小姐——这也就是说，我们“喀里多尼亚号”的一举一动，都在你们共和国的监视之中吗？</speak>
+            <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+            <show chara="micheRelaxCloseE" position="right"/>
+            <speak chara="_Michel">……如果你认为我和议长就能代表共和国的话，那么：是的，我们是几乎了解你们的每一个动向。</speak>
+            <show chara="micheArrogantCloseE" position="right"/>
+            <speak chara="_Michel">反之，我也可以保证，目前没有其他共和国国民了解你们的情况。</speak>
+            <show chara="micheDrySmileCloseE" position="right"/>
+            <speak chara="_Michel">——你们那边的罗兰少将，自然也不是刻意要遇到你们的。不要太为难她哦？</speak>
+            <show chara="micheDrySmileCloseE" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈，像罗兰小姐这么好的女孩子，我们怎么可能会去为难她呢？</speak>
+            <show chara="shakesCasualDislikeClose" position="left"/>
+            <speak chara="_Shakespeare">倒是你，既然跳了出来，那就老实和我们交代一下，所谓的“瓦卡隧道”究竟是怎么回事儿吧。</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">那玩意儿真的穿过地心了吗？怎么做到的？</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="micheArrogantCloseE" position="right"/>
+            <speak chara="_Michel">嗯，穿过了哦。</speak>
+            <show chara="micheDrySmileCloseE" position="right"/>
+            <speak chara="_Michel">至于说原理方面……</speak>
+            <show chara="micheRelaxCloseE" position="right"/>
+            <speak chara="_Michel">为了让你们有点思想准备，我们不如先讨论一下“地圆说”吧。</speak>
+            <show chara="micheRelaxCloseE" position="right" opacity="0.8"/>
+            <show chara="shakesCasualDislikeClose" position="left"/>
+            <speak chara="_Shakespeare">……什么意思？</speak>
+            <show chara="shakesCasualDislikeClose" position="left" opacity="0.8"/>
+            <show chara="micheArrogantCloseE" position="right"/>
+            <speak chara="_Michel">从直觉上讲，我们有充足的反例来说明大地不是平的。</speak>
+            <speak chara="_Michel">原始的航海民族就能够通过南北星空的差异推断出“天球”的存在，并反过来用天地之间相互平行的关系来得出“地面”其实是“地球”的结论。</speak>
+            <show chara="micheRelaxCloseE" position="right"/>
+            <speak chara="_Michel">但是，这种推理其实是不严谨的。</speak>
+            <speak chara="_Michel">“不平”并不一定真的就“是球”。</speak>
+            <show chara="micheDrySmileCloseE" position="right"/>
+            <speak chara="_Michel">原始的航海民族观测到了两个事实：“斗转星移”和“天地平行”。</speak>
+            <speak chara="_Michel">前者确实可以推出“天地之间必然存在着连绵不绝的相对运动”；而后者却不能推出“地面和天空构造相同”。</speak>
+            <show chara="micheArrogantCloseE" position="right"/>
+            <speak chara="_Michel">原因很简单：他们的足迹并没有遍布整个世界。</speak>
+            <show chara="micheDrySmileCloseE" position="right"/>
+            <speak chara="_Michel">没有人规定“地球”就一定是个简单的几何结构。</speak>
+            <speak chara="_Michel">也许，在这些水手观测不到的地方，大地奇异地卷曲、折叠在一起，星空也因为海面的剧烈起伏而无法准确指示经纬。</speak>
+            <show chara="micheDrySmileCloseE" position="right" opacity="0.8"/>
+            <show chara="shakesCasualQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">这太荒谬了。自然形成的地球怎么会具备这样复杂的构造？明明球体才是最稳定的结构啊。</speak>
+            <show chara="shakesCasualQuestionClose" position="left" opacity="0.8"/>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">不，船长。我想局长小姐的意思其实正是——</speak>
+            <show chara="schroSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">——我们所在的这个世界，原本就不见得是自然形成的。</speak>
+            <show chara="schroSeriousClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">……</speak>
+            <show chara="shakesCasualQuestionClose" position="left" opacity="0.8"/>
+            <show chara="micheDrySmileCloseE" position="right"/>
+            <speak chara="_Michel">她的怀疑很合理，亲爱的船长阁下。</speak>
+            <show chara="micheArrogantCloseE" position="right"/>
+            <speak chara="_Michel">这个世界，原本就是由“以太锚点”反向构筑出来的——人造品。</speak>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="deepWater.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <speak chara="_Michel">让我们回忆一下人们是怎么画世界地图的吧。</speak>
+            <speak chara="_Michel">世界地图很大，所以人们需要拜托不同的制图员去绘制不同的区域；况且，地面在“世界”这个尺度上也绝不是“横平竖直”的平面。</speak>
+            <speak chara="_Michel">因此，这些制图员就必须给自己制定一套明确的规范：</speak>
+            <speak chara="_Michel">如果委托给两个不同制图员的绘制区域有所重叠，那么这两个制图员必须在各自的地图上明确定义这块公共地带互相对应的规则。</speak>
+            <speak chara="_Michel">在这样的规范下，每一张局部地图都可以画在独立的纸张上，然后被整体组装成一个图册。</speak>
+            <speak chara="_Michel">——现在，请想象我们所在的世界就是这样一张图册。</speak>
+            <speak chara="_Michel">大洋之间的惊涛骇浪就是纸张的边缘，而你们依赖的“高速洋流”则是纸张内部的纤维脉络。</speak>
+            <speak chara="_Michel">或者说，“虫洞”。</speak>
+            <speak chara="_Michel">至于“瓦卡隧道”，它是贯穿地心的“缝合线”，相当于装订这本书的书脊和胶水。</speak>
+            <speak chara="_Michel">所以严格来说，并不是“瓦卡隧道打穿了地球”，而是“地球本身就是由瓦卡隧道连结而成的”。</speak>
+            <speak chara="_Michel">——而且，无论“书脊”还是“书页”，它们都是因为某些人的意志才被制造出来的“人造品”。</speak>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="submarineCabinBlurDeep.jpg">
+            <bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">……这里有一个问题。</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="micheDrySmileCloseE" position="right"/>
+            <speak chara="_Michel">不必客气，您直接提问就好。</speak>
+            <show chara="micheDrySmileCloseE" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">从量子之海中凭空组装出一个世界需要天文数字一般的能量。</speak>
+            <speak chara="_Schrodinger">即使可以用巧妙的办法把“不需要的区域”进行“折叠处理”，我们仍然需要和这个“折叠过的世界”至少相当的能量。</speak>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">是什么人可以支配如此大规模的能量，来组装一个微缩地球呢？他们的目的又是什么？</speak>
+            <show chara="schroSeriousClose" position="left" opacity="0.8"/>
+            <show chara="micheArrogantCloseE" position="right"/>
+            <speak chara="_Michel">坦白地说，我并不完全确定他们的目的。</speak>
+            <speak chara="_Michel">但根据大图书馆中的资料，我想还是可以锁定“嫌疑人是谁”的。</speak>
+            <show chara="micheRelaxCloseE" position="right"/>
+            <speak chara="_Michel">"asatela bahidalaki jhyurhi-kavina"——</speak>
+            <show chara="micheDrySmileCloseE" position="right"/>
+            <speak chara="_Michel">——薛定谔博士听说过这个拗口的名词吗？</speak>
+            <show chara="micheDrySmileCloseE" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">……</speak>
+            <show chara="schroMemoryClose" position="left"/>
+            <speak chara="_Schrodinger">它是写作“ⵀⵤⴺⵚⴽ ⴳⴶⴱⴹⴽⴸⴱ ⵥⵛⵌⴱ-ⴸⵖⴱⵎ”……吗。</speak>
+            <show chara="schroMemoryClose" position="left" opacity="0.8"/>
+            <show chara="micheArrogantCloseE" position="right"/>
+            <speak chara="_Michel">是的。博士您很熟悉这种语言的拼写嘛。</speak>
+            <show chara="micheArrogantCloseE" position="right" opacity="0.8"/>
+            <show chara="schroMemoryClose" position="left"/>
+            <speak chara="_Schrodinger">……嗯，因为某些原因专门学习过。</speak>
+            <show chara="schroMemoryClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">所以你们究竟在搞什么啊。对暗号吗？</speak>
+            <show chara="biankaDressSighClose" position="right" opacity="0.8"/>
+            <show chara="schroCalmClose" position="left"/>
+            <speak chara="_Schrodinger">呵呵……如果真要说这门外语是某种“暗号”的话，倒也没有什么不妥。</speak>
+            <show chara="schroSmileClose" position="left"/>
+            <speak chara="_Schrodinger">这样说吧。在我们的语言中，最接近这个冗长词组的“类比概念”是一个非常诗意的名字——</speak>
+            <show chara="schroMemoryClose" position="left"/>
+            <speak chara="_Schrodinger">——“月光王座”。</speak>
+            <show chara="schroMemoryClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">……！</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="schroCalmClose" position="left"/>
+            <speak chara="_Schrodinger">……丽塔小姐似乎对这个名词有些印象啊。愿意和我们分享一下吗？</speak>
+            <show chara="schroCalmClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">据我所知，“月光王座”是一种对崩坏能特效的大规模杀伤性武器，也是逆熵巨型作战兵器“阿拉哈托”搭载的主炮。</speak>
+            <speak chara="_Rita">……由自称“爱因斯坦”和“特斯拉”的两个“执行者”负责指挥。</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">……啊，天命是这样告诉你们的吗。</speak>
+            <show chara="schroSmileClose" position="left"/>
+            <speak chara="_Schrodinger">不过，那些人还真是起了几个帅名字啊……“逆熵”和“阿拉哈托”吗……哈哈哈哈。</speak>
+            <speak chara="_Schrodinger">……不过“执行者”就有点太普通了。肯定是爱因斯坦起的吧？也只有那个性冷淡会起这种名字了。</speak>
+            <show chara="schroSmileClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">……？</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="schroCalmClose" position="left"/>
+            <speak chara="_Schrodinger">没事，不过是一些陈年回忆罢了。让我们就事论事吧。</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">严格来说，“月光王座”不能算一种兵器：它只是一种能量转换装置而已。用可控的方式，把崩坏能转化成普通能量。</speak>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">人类在前文明末期曾经掌握了这项技术，但当时的事态发展没有给他们留下足够的时间。</speak>
+            <show chara="schroMemoryClose" position="left"/>
+            <speak chara="_Schrodinger">假如在那个时间点，他们能将人类原有的工业规模再维持十年左右，那么量产的“月光王座”就足以吸纳星球规模的溢出崩坏能。</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">而“ⵀⵤⴺⵚⴽ ⴳⴶⴱⴹⴽⴸⴱ ⵥⵛⵌⴱ-ⴸⵖⴱⵎ”，就是当时——5万年前——制造的一台原型机。</speak>
+            <show chara="schroCalmClose" position="left"/>
+            <speak chara="_Schrodinger">所以，那边的“局长”兼“馆长”——“ⵀⵤⴺⵚⴽ ⴳⴶⴱⴹⴽⴸⴱ ⵥⵛⵌⴱ-ⴸⵖⴱⵎ”和“瓦卡隧道”之间又是什么关系呢？</speak>
+            <show chara="schroCalmClose" position="left" opacity="0.8"/>
+            <show chara="micheRelaxCloseE" position="right"/>
+            <speak chara="_Michel">“瓦卡隧道”是通俗的称呼。在你刚才所说的那个文明里，它被称作“ⵚⴺⵚⵇ ⵛⴺⵋⴱ”(etera jutashi)，也就是“以太锚点”本身。</speak>
+            <show chara="micheRelaxCloseE" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">地心隧道……是“以太锚点”本身？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="micheArrogantCloseE" position="right"/>
+            <speak chara="_Michel">没错。那个文明似乎掌握了搭建“微缩宇宙”的技术——</speak>
+            <speak chara="_Michel">根据资料显示，我们目前所处的这整个世界，都是由“以太锚点”人为扩张而来的。这也是它在各个“世界泡”之间非常弱势的根本原因。</speak>
+            <show chara="micheArrogantCloseE" position="right" opacity="0.8"/>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">而最关键的能量来源——是那台类似“月光王座”的原型机？</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="micheFocusCloseE" position="right"/>
+            <speak chara="_Michel">初期是这样。</speak>
+            <speak chara="_Michel">“膜”在“以太锚点”周围形成稳定的“流形”之后，则通过吸收周围世界泡渗透而来的崩坏能进一步生长。</speak>
+            <speak chara="_Michel">金字塔也好，大陆的形状也好，甚至整个星空帷幕——都是这样逐渐“生长”出来的。</speak>
+            <show chara="micheFocusCloseE" position="right" opacity="0.8"/>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">等等……这也就是说，制造“小型世界泡”并不是目的，而只是他们尝试转移崩坏能的一种手段？</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">他们最初是打算搭建一个可以当作“宇宙垃圾站”的世界泡吗？</speak>
+            <show chara="schroTalkClose" position="left" opacity="0.8"/>
+            <show chara="micheRelaxCloseE" position="right"/>
+            <speak chara="_Michel">是可以这么猜测。</speak>
+            <show chara="micheDrySmileCloseE" position="right"/>
+            <speak chara="_Michel">不过，话虽如此——和“原版”的世界相比，我们这里的“体量”仍然小得微不足道。</speak>
+            <show chara="micheArrogantCloseE" position="right"/>
+            <speak chara="_Michel">这样说吧：把启动“以太锚点”制造“微缩宇宙”时消耗的崩坏能再提高一个数量级，那也只相当于文献记载中“第一律者”或“第二律者”自身所持有的能量。</speak>
+            <show chara="micheArrogantCloseE" position="right" opacity="0.8"/>
+            <show chara="schroSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">而后期律者能操纵的崩坏能，规模还远在这之上……</speak>
+            <show chara="schroSeriousClose" position="left" opacity="0.8"/>
+            <show chara="micheArrogantCloseE" position="right"/>
+            <speak chara="_Michel">嗯。对他们来说，这无疑是一次失败的尝试。</speak>
+            <show chara="micheFocusCloseE" position="right"/>
+            <speak chara="_Michel">这次尝试虽然给我们留下了这个奇妙的世界，却也从一开始就埋下了某个巨大的隐患。</speak>
+            <show chara="micheFocusCloseE" position="right"/>
+            <speak chara="_Michel">那个活在传说中的“拿破仑”——我想，他正是促使这个隐患直接爆发的关键人物。</speak>
+            <show chara="micheRelaxCloseE" position="right"/>
+            <speak chara="_Michel">但即使如此……现实和传说还是很不一样的。</speak>
+            <show chara="micheArrogantCloseE" position="right"/>
+            <speak chara="_Michel">罗兰，向他们介绍一下，共和国的敌人究竟是一种什么样的存在吧。</speak>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="chileIceMountain.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <speak chara="_Roland">共和国自她成立的那一天起，就一直在和敌人打着一场看不到终点的消耗战。</speak>
+            <speak chara="_Roland">我方有技术兵器、有“星语者”；敌方有崩坏兽、有协调到极致的指挥。</speak>
+            <speak chara="_Roland">这些崩坏兽能同时集结成百上千个小分队，精准攻击每一个能够攻击的目标；它们进退灵活、相互照应，仿佛在天上有一只无形的眼睛指挥着他们。</speak>
+            <speak chara="_Roland">每一次，我们将新研发的兵器投入实战；每一次，对方都利用自己的战术优势将我们拉回同一个起跑线。</speak>
+            <speak chara="_Roland">而其他时间，我们也只能坚守要塞不出——</speak>
+            <speak chara="_Roland">至少，只要“瓦卡隧道”不落入敌手，我们背后的整个国家就是安全的；而一旦要塞陷落，敌人就能通过隧道，去侵略全世界的任意角落。</speak>
+            <speak chara="_Roland">起初，共和国也尝试过和她的敌人谈判。但摆在我们面前的头一个问题就是——</speak>
+            <speak chara="_Roland">——我们甚至不知道敌人的国名是什么、领袖是谁。我们只知道，这些崩坏兽的背后肯定存在着一群“操盘者”。</speak>
+            <speak chara="_Roland">我们派出过由“星语者”组成的“使节探险队”——但他们即使深入敌境上千里格，依然找不到能够接洽的目标。</speak>
+            <speak chara="_Roland">我们只知道，敌人的核心领土都在一圈由能量构筑的高墙之后；我们只知道，崩坏兽们每次都是从墙内出发，对我们的要塞发起远征。</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="submarineCabinBlurDeep.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="biankaDressHateClose" position="left"/>
+            <speak chara="_Bianka">这……</speak>
+            <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualMercyClose" position="right"/>
+            <speak chara="_Shakespeare">……那位“拿破仑”既然连自己都变异成了怪物，那他周围会发生什么，我觉得都不能算奇怪。</speak>
+            <show chara="shakesCasualDislikeClose" position="right"/>
+            <speak chara="_Shakespeare">说不定连他自己都已经疯了呢？</speak>
+            <show chara="shakesCasualDislikeClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="left"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="left"/>
+            <speak chara="_Rita">罗兰小姐，我有一事不明，还望赐教。</speak>
+            <show chara="ritaVestSmileClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorEmbarrassClose" position="right"/>
+            <speak chara="_Roland">咦？这么客气……是要问什么？</speak>
+            <show chara="rolandArmorEmbarrassClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">没关系啦，你不要紧张——丽塔她对谁都是这样，客气得过分。</speak>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">头几次遇到可能会觉得很恐怖，不过习惯了之后你会发现她真的没什么恶意。</speak>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">啊，对了。丽塔，你本来是要问什么来着？</speak>
+            <show chara="ritaVestSquintClose" position="left"/>
+            <speak chara="_Rita">没什么，只是一个名词而已。</speak>
+            <show chara="ritaVestSmileClose" position="left"/>
+            <speak chara="_Rita">罗兰小姐，您说的“星语者”究竟是指什么呢？</speak>
+            <show chara="ritaVestSmileClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorQuestionClose" position="right"/>
+            <speak chara="_Roland">……咦？你们不知道这个？</speak>
+            <show chara="rolandArmorNormalClose" position="right"/>
+            <speak chara="_Roland">唔……简单来说，就是指我和你们一样，来自其他世界，并且天生具备对崩坏能的抗性呀。</speak>
+            <show chara="rolandArmorNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">那、那为什么小幽会认识你——你却不认识它啊？这、这不是自相矛盾了吗？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorSeriousClose" position="right"/>
+            <speak chara="_Roland">……可能是因为我没有自己来到这个世界之前的记忆吧。</speak>
+            <show chara="rolandArmorSmileClose" position="right"/>
+            <speak chara="_Roland">即使我之前真的在别的世界经历过什么……那也和现在的我没有任何关系，不是吗？</speak>
+            <show chara="rolandArmorNormalClose" position="right"/>
+            <speak chara="_Roland">毕竟，哲学家说，人类并不能改变过去，也不能提前经历未来——所以任何人都只能生活在“现在”。</speak>
+            <show chara="rolandArmorEmbarrassClose" position="right"/>
+            <speak chara="_Roland">啊……我是不是说的太严肃了？</speak>
+            <show chara="rolandArmorLaughClose" position="right"/>
+            <speak chara="_Roland">唔……等到我退役的时候，我应该会去补补课、认真了解一下那个“疯狂罗兰”都做过什么吧？</speak>
+            <show chara="rolandArmorSmileClose" position="right"/>
+            <speak chara="_Roland">但是现在，身为一名共和国的军人，我觉得自己还是保持“不知道”来得更好。</speak>
+            <show chara="rolandArmorEmbarrassClose" position="right"/>
+            <speak chara="_Roland">毕竟……我还是有点害怕《发条橙》这种小说的……不好意思啦！</speak>
+            <goto goto="80" clockwise="1"/>
+        </scene>
+        <scene id="80" background="deepWater.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <text>在略有一丝尴尬与不知所措的气氛中，来自外部的通讯信号逐渐失真，最终断开。</text>
+            <text>这标志着“喀里多尼亚号”已经潜入了电波难以企及的深海。</text>
+            <text>罗兰好奇地研究着潜水船中的各种机械，对丽塔的厨艺更是赞不绝口。</text>
+            <text>她甚至为了照顾小幽的情绪，主动插科打诨，和它讲共和国里流行的那些笑话。</text>
+            <text>这个人似乎真的全不在意自己丧失过记忆；她真的在新世界里活出了全新的人生。</text>
+            <text>……这让比安卡稍稍有点羡慕。</text>
+            <goto goto="90" change="#000000"/>
+        </scene>
+        <scene id="90" background="black">
+            <bgm src="seaAndSky.mp3" status="continue"></bgm>
+            <text>第二天——</text>
+            <goto goto="100" change="#ffffff"/>
+        </scene>
+        <scene id="100" background="chileRiverMountain.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">哇，这里真的是南美吗？风景简直就像是阿尔卑斯山啊！</speak>
+            <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">因为这里是南纬47度嘛！和阿尔卑斯山北面的苏黎世差不多是同一个纬度哦？</speak>
+            <show chara="champoDisgustedClose" position="right"/>
+            <speak chara="_Champollion">阿——阿嚏！</speak>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">……我真的应该披件外套再出来的。这地方冷死了。</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">呣……你这个人还真是莫名其妙地不浪漫呢。</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorSmileClose" position="right"/>
+            <speak chara="_Roland">“瓦卡隧道”的主入口就在峡湾对面的山谷里。不过……</speak>
+            <show chara="rolandArmorNormalClose" position="right"/>
+            <speak chara="_Roland">……在此之前，希望你们能允许我先在这附近花掉一点时间。</speak>
+            <show chara="rolandArmorNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <goto goto="110" clockwise="1"/>
+        </scene>
+        <scene id="110" background="CG20-2.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <text>在肃穆的建筑一旁，军人脱下了战甲。</text>
+            <text>初秋的野花，逐渐在她的手中连成花环。</text>
+            <text remark="next">“我等流浪者，永远寻找着更孤独的道路；我们从不在一天结束的地方重新开始，也不会在日落之处等待日出。”</text>
+            <text remark="next">“即使大地沉睡，我们仍将前行。”</text>
+            <text remark="next">“我们是最顽强生命的种子，当我们随风而散之时，我们的心早已成熟饱满。”</text>
+            <remark post="U2FsdGVkX1+cIQJYCLH6o+ilJrOa">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">这段文字引自黎巴嫩文豪纪伯伦（Gibran Kahlil Gibran）的《先知》（The Prophet）。</p>
+            </remark>
+            <end post="U2FsdGVkX18+GwrkZLCAXnqMQVqB"/>
+        </scene>
+    </story>
+</data>

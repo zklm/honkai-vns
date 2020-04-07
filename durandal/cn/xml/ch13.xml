@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="mayanBeach.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
+            <text>十五分钟之前——</text>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哇哦！多么美丽的大海，还有天空！</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">如果没什么事的话，我真想好好躺在这沙滩上晒一下午的太阳。</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">莎士比亚船长……我们是因为看到了岸上有人生烟火，才专门在这里登陆的吧？</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualMercyClose" position="left"/>
+            <speak chara="_Shakespeare">是啦是啦，你说的没错。我们需要补给和向导。不过最重要的还是向导。</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">话说回来，这里毕竟不是亚历山德里亚，会说英语的人大概不多。</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">所以我们不如先在这里总结一下吧——各位，你们都会说什么语言呢？</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">……喂。我还以为你身为船长，一定对船员们的基本情况都了如指掌呢？</speak>
+            <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">哎呀，我是觉得就算语言不通也没有什么大不了的——不过既然想到了这个问题，那就顺便问问呗。</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">我虽然只懂英语和拉丁文……但你们女武神，似乎每个人都会好几门语言吧？</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">哼。</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">英语、德语、俄语、法语——本小姐也就会这四门而已，勉勉强强吧？</speak>
+            <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">女仆小姐呢？</speak>
+            <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">……我虽说蜻蜓点水地学过十几门世界上的主要语言，但也没有自信能在这“新大陆”派上用场。</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">等……等等。你给我等等。</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">“学过十几门世界上的主要语言”？你这家伙……难道连汉语也会说吗？</speak>
+            <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">“一曲新词酒一杯， 去年天气旧亭台。夕阳西下几时回？”</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">“无可奈何花落去， 似曾相识燕归来。小园香径独徘徊。”</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">这……日语呢？你也会吗？</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_Rita" remark="next">“古池や / 蛙飛びこむ / 水の音”。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">古池畔 / 青蛙一轻跃 / 水叮咚</p>
+                <p class="article-text">——松尾芭蕉</p>
+            </remark>
+            <show chara="ritaVestNaughtyClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">那、那……那西班牙语呢？</speak>
+            <show chara="biankaDressScreamClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita" remark="next">"Cuando una puerta se cierra, otra se abre. "</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">当一扇门被关上的时候，总有另一扇门已经打开了。</p>
+                <p class="article-text">——《堂·吉诃德》卷一，第21节</p>
+            </remark>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……真、真的都会？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorLaughClose" position="right"/>
+            <speak chara="_Miguel">哈哈哈哈，最后这句话，好像就是我写过的啊！</speak>
+            <show chara="cervantesSailorLaughClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="left"/>
+            <speak chara="_Rita">没错，塞万提斯先生，是您《堂·吉诃德》里的句子。</speak>
+            <show chara="ritaVestSmileClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">那这位来自西班牙的大叔，你又懂哪门奇奇怪怪的语言吗？</speak>
+            <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorSmileClose" position="left"/>
+            <speak chara="_Miguel">唔……“奇奇怪怪”吗……那阿拉伯语应该不算吧……</speak>
+            <show chara="cervantesSailorNormalClose" position="left"/>
+            <speak chara="_Miguel">大家多少都会的那些欧洲语言，当然更不能算……</speak>
+            <show chara="cervantesSailorLaughClose" position="left"/>
+            <speak chara="_Miguel">抱歉，那就真的没有了。</speak>
+            <show chara="cervantesSailorLaughClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">唔……其他人里面，蕾拉和薛定谔博士要留守舰艇……</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">啊。说起来，商博良小姐，你作为考古学家，就没有学习过任何新大陆“原生”的语言吗？</speak>
+            <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="left"/>
+            <speak chara="_Champollion">……抱歉，我只钻研过埃及的科普特语。</speak>
+            <show chara="champoSweatyClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">哈哈哈哈，说的也是，毕竟你之前都是在研究古埃及嘛！</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">算啦！我们就图个吉利，让懂西班牙语的几位来“打头阵”吧？——毕竟它非常适合“听天由命”嘛！</speak>
+            <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……喂，你这句话有逻辑吗？</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorLaughClose" position="right"/>
+            <speak chara="_Miguel">……哈哈哈哈，我猜她是想说，“国王用西班牙语和上帝对话”吧？</speak>
+            <show chara="cervantesSailorLaughClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">没错没错，就是这个。</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">好啦，我们快出发吧——向着有人烟的地方！</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka" remark="next">（……等等，刚才他们是在讲什么典故吗？为什么看起来好像只有我一个人不知道？）</speak>
+            <remark post="U2FsdGVkX1+el5qtmajBs2CXtBqo">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“我用西班牙语和上帝对话，用意大利语同女人调情，用法语与绅士寒暄，而用德语调教马匹。”</p>
+                <p class="article-text">——查理五世（西班牙国王、神圣罗马帝国皇帝）</p>
+            </remark>
+            <goto goto="20" clockwise="1"/>
+        </scene>
+        <scene id="20" background="mayanWallBroken.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <show chara="shakesCasualQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">喂——！这——里——有——人——吗——？</speak>
+            <show chara="shakesCasualDislikeClose" position="left"/>
+            <speak chara="_Shakespeare">……有——人——能——听——见——我——说——话——吗——？</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">奇怪……没有人吗……</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorNormalClose" position="right"/>
+            <speak chara="_Miguel">……等等，树林里好像有人在跑过来。</speak>
+            <goto goto="25" change="#ffffff"/>
+        </scene>
+        <scene id="25" background="mayanWallBroken.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="cervantesSailorLaughClose" position="left"/>
+            <speak chara="_Miguel">那边的小姐！你会说西班牙语吗？</speak>
+            <show chara="cervantesSailorLaughClose" position="left" opacity="0.8"/>
+            <show chara="WitchShockClose" position="right"/>
+            <speak chara="_WitchNoName">……</speak>
+            <show chara="WitchSadClose" position="right"/>
+            <speak chara="_WitchNoName">你是……联邦的人？！可是，你穿的衣服……</speak>
+            <show chara="WitchSadClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorNormalClose" position="left"/>
+            <speak chara="_Miguel">……联邦？那是什么？这里的一个国家吗？墨西哥？</speak>
+            <show chara="cervantesSailorNormalClose" position="left" opacity="0.8"/>
+            <show chara="WitchShockClose" position="right"/>
+            <speak chara="_WitchNoName">……咦？</speak>
+            <show chara="WitchSadClose" position="right"/>
+            <speak chara="_WitchNoName">您……不知道联邦吗？</speak>
+            <show chara="WitchShockClose" position="right"/>
+            <speak chara="_WitchNoName">可是……您说的语言……的确是“联邦标准语”啊？</speak>
+            <show chara="WitchShockClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorSmileClose" position="left"/>
+            <speak chara="_Miguel">……啊？我们现在说的这个，明明就叫“西班牙语”呀。</speak>
+            <show chara="cervantesSailorLaughClose" position="left"/>
+            <speak chara="_Miguel">“联邦标准语”？这是什么奇怪的叫法。</speak>
+            <show chara="cervantesSailorLaughClose" position="left" opacity="0.8"/>
+            <show chara="WitchSadClose" position="right"/>
+            <speak chara="_WitchNoName">……？</speak>
+            <show chara="WitchShockClose" position="right"/>
+            <speak chara="_WitchNoName">……啊！我懂了！</speak>
+            <show chara="WitchHappyClose" position="right"/>
+            <speak chara="_WitchNoName">你们是“漂流者”吧？和联邦那里的“大祭司”一样，都是从其他世界穿越而来的吧！</speak>
+            <show chara="WitchHappyClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorLaughClose" position="left"/>
+            <speak chara="_Miguel">呃……我想，你大概说得没错？</speak>
+            <show chara="cervantesSailorLaughClose" position="left" opacity="0.8"/>
+            <show chara="WitchSmileClose" position="right"/>
+            <speak chara="_WitchNoName">——那太好了！</speak>
+            <show chara="WitchSeriousClose" position="right"/>
+            <speak chara="_WitchNoName">神通广大的漂流者大人！话虽突然——但联邦的军队正准备进攻我们的村子，我在此斗胆请求您的帮助！</speak>
+            <show chara="WitchSeriousClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorStareClose" position="left"/>
+            <speak chara="_Miguel">……嗯？</speak>
+            <show chara="cervantesSailorStareClose" position="left" opacity="0.8"/>
+            <show chara="WitchSeriousClose" position="right"/>
+            <speak chara="_WitchNoName">我、我是这个村庄的“神谕者”，是本地的守护神“伊诗·塔布”的“人间化身”。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="WitchSmileClose-up" position="center"/>
+            <speak chara="_WitchNoName">如果各位大人愿意出手解救我们……</speak>
+            <show chara="WitchSeriousClose-up" position="center"/>
+            <speak chara="_WitchNoName">事后，让我们的村庄为您做什么都可以！</speak>
+            <goto goto="30" clockwise="1"/>
+        </scene>
+        <scene id="30" background="mayanVillage.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <text>现在——</text>
+            <show chara="OfficerClose" position="left"/>
+            <speak chara="_OfficerNoName">你们说……什么？</speak>
+            <show chara="OfficerClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_RitaOutsiderNoName">……语言不通还真难办呢。看来我只好用字面意思来翻译比安卡大人刚才所说的话了。</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_RitaOutsiderNoName">“滚回你们的老家去，一辈子也别想再来侵略这个村子！”</speak>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_RitaOutsiderNoName">——以上。</speak>
+            <show chara="ritaVestNaughtyClose" position="right" opacity="0.8"/>
+            <show chara="WarriorClose" position="left"/>
+            <speak chara="_WarriorNoName">你、你、你们……竟敢如此侮辱神圣的联邦军人，我、我要和你们决斗！</speak>
+            <show chara="WarriorClose" position="left" opacity="0.8"/>
+            <show chara="OfficerClose" position="right"/>
+            <speak chara="_OfficerNoName">……不要激动，查克哈尔兄弟。</speak>
+            <show chara="OfficerClose" position="right"/>
+            <speak chara="_OfficerNoName">忘记了吗？我们是给他们带来文明的。不要让我们自己表现得反像是一群野蛮的游牧民族。</speak>
+            <show chara="OfficerClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_BiankaOutsiderNoName">……</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_BiankaOutsiderNoName">真是可笑，人类历史上打着你们这种旗号的强盗还少吗？</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="CG13-2.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <speak chara="_BiankaOutsiderNoName">丽塔，拿拳套来。</speak>
+            <speak chara="_RitaOutsiderNoName">是，比安卡大人。</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG13-3.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <speak chara="_BiankaOutsiderNoName">你们这些自以为是、恃强凌弱的败类……</speak>
+            <speak chara="_BiankaOutsiderNoName">……好好见识一下女武神的力量吧。</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG13-4.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <speak chara="_BiankaOutsiderNoName">然后——</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="Fist01.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_OfficerNoNameShort">什——</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="Fist02.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_WarriorNoNameShort">唔啊啊啊啊啊啊啊——</speak>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="CG13-5.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_BiankaOutsiderNoName">——从哪里来，就给我滚回哪里去！</speak>
+            <goto goto="100" clockwise="1"/>
+        </scene>
+        <scene id="100" background="mayanVillage.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="PriestAngryClose" position="left"/>
+            <speak chara="_PriestNoName">啊啊啊啊！我的天啊！神明保佑！</speak>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestNoName">您一定是战神“布鲁克·查布坦”的人间化身，专程来拯救我们了！</speak>
+            <show chara="PriestSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="left"/>
+            <speak chara="_Rita">（她说您是当地一位战神的化身，是特地来拯救他们的。）</speak>
+            <show chara="ritaVestSquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">（……唔，这、这还挺让人不好意思的。接下来的翻译也麻烦你了，丽塔。）</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestNoName">……啊，不好意思，我这个老不中用的东西，把自我介绍都忘记了。</speak>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestNoName">这座村庄被外人称作“埃尔·蕾”；老身塔苏玛尔，是这里的“伊扎特·威尼克”，相当于村长。</speak>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestTrueName">这位是我的孙女，伊柯娜尔，也是我们村庄的守护神——“伊诗·塔布”的现任化身。</speak>
+            <show chara="WitchHappyClose" position="left"/>
+            <speak chara="_WitchTrueName">承蒙大家关照了。</speak>
+            <show chara="WitchHappyClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">……我、我是比安卡，她们是船长莎士比亚、还有女仆丽塔。</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">请多关照喽？</speak>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">塔苏玛尔大人、伊柯娜尔大人，今后还请多多包涵。</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="WitchShyClose" position="left"/>
+            <speak chara="_WitchTrueName">大、大人什么的……实在是不敢当，我只是相当于修女或者巫女一类的人而已。</speak>
+            <show chara="WitchShyClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">哈哈，不用在意、不用在意！丽塔她只是习惯这么说话罢了。</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestTrueName">啊——对了对了！各位远道而来，一定还没有吃上一顿热乎饭吧？</speak>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestTrueName">要不要来尝一尝用新磨面粉烤出来的玉米饼呢？</speak>
+            <show chara="PriestSmileClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorSmileClose" position="right"/>
+            <speak chara="_Miguel">哦哦，是传说中的“塔科饼”吗？</speak>
+            <show chara="cervantesSailorSmileClose" position="right" opacity="0.8"/>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestTrueName">唉呀，恩人您知道啊。那我就更应该亲自下厨，绝对不能让各位觉得味道不正宗喽。</speak>
+            <show chara="PriestSmileClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorLaughClose" position="right"/>
+            <speak chara="_Miguel">哈哈哈哈，我肚子里的馋虫都开始叫啦！</speak>
+            <show chara="cervantesSailorLaughClose" position="right" opacity="0.8"/>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestTrueName">伊柯娜尔，陪各位大人聊聊天，我现在就去生火！</speak>
+            <show chara="PriestSmileClose" position="left" opacity="0.8"/>
+            <show chara="WitchShyClose" position="right"/>
+            <speak chara="_WitchTrueName">没问题，奶奶！我、我也很想多了解一点大海对面的世界呢！</speak>
+            <goto goto="110" clockwise="1"/>
+        </scene>
+        <scene id="110" background="mayanRoom.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="WitchShockClose-up" position="left"/>
+            <speak chara="_WitchTrueName">……他们用机、机器人来管理城市吗？ </speak>
+            <show chara="WitchShockClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose-up" position="right"/>
+            <speak chara="_Bianka">嗯，任劳任怨、能帮助人们做很多事哦？对，就像神话里那些非常方便的“使魔”一样。</speak>
+            <show chara="biankaDressSighClose-up" position="right"/>
+            <speak chara="_Bianka">……虽然这种技术也会带来其他方面的隐患就是了。</speak>
+            <show chara="biankaDressSighClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchSeriousClose-up" position="left"/>
+            <speak chara="_WitchTrueName">难道是……让埃及的神明们变得更容易生气了？觉得人们不再像以前那样依赖祂们？</speak>
+            <show chara="WitchSeriousClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose-up" position="right"/>
+            <speak chara="_Bianka">不不不，就算你这样说——那也是人们通过自己的努力，从神明那里成功“断奶”了吧？</speak>
+            <speak chara="_Bianka">会有母亲因为这种事而生孩子的气吗？</speak>
+            <show chara="biankaDressHesitateClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchShockClose-up" position="left"/>
+            <speak chara="_WitchTrueName">……唔，原来还有这种看问题的角度啊。</speak>
+            <show chara="WitchShockClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose-up" position="right"/>
+            <speak chara="_Rita">……噗。</speak>
+            <show chara="ritaVestSmileClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShyClose-up" position="left"/>
+            <speak chara="_Bianka">喂！你干嘛突然发笑啊，丽塔？</speak>
+            <show chara="biankaDressShyClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose-up" position="right"/>
+            <speak chara="_Rita">没什么，只是看到比安卡大人和伊柯娜尔大人一见如故的样子，我就很开心呀。</speak>
+            <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressAngryClose-up" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressBiteClose-up" position="left"/>
+            <speak chara="_Bianka">你、你、你在说什么蠢话呀！</speak>
+            <show chara="biankaDressBiteClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose-up" position="right"/>
+            <speak chara="_Rita">（伊柯娜尔大人，比安卡大人害羞的样子也很可爱吧？）</speak>
+            <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchHappyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">（……啊哈哈哈，丽塔大人就像比安卡大人的姐姐一样呢。）</speak>
+            <show chara="WitchHappyClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose-up" position="right"/>
+            <speak chara="_Bianka">喂！你们不要自顾自地取笑我啊！</speak>
+            <show chara="biankaDressBiteClose-up" position="right"/>
+            <speak chara="_Bianka">（丽塔，你真的有在好好翻译我说的话吗？）</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <speak chara="_PriestTrueName">伊柯娜尔，过来一下！第一锅的饼子做好了哦？</speak>
+            <show chara="WitchSmileClose-up" position="center"/>
+            <speak chara="_WitchTrueName">好的，我马上就来！</speak>
+            <goto goto="120" clockwise="1"/>
+        </scene>
+        <scene id="120" background="mayanRoom.jpg">
+            <bgm src="11_29_lab.mp3" status="continue"></bgm>
+            <show chara="biankaDressSmileAhClose-up" position="left"/>
+            <speak chara="_Bianka">呀！好丰盛的饭菜啊！</speak>
+            <show chara="biankaDressSmileAhClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose-up" position="right"/>
+            <speak chara="_Shakespeare">哇哦，按亚历山德里亚的说法，这或许已经超过那些“轮胎小子餐厅”的水平了？</speak>
+            <show chara="shakesCasualLaughClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose-up" position="left"/>
+            <speak chara="_Bianka">总、总之，我不客气啦！</speak>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="CG13-1.jpg">
+            <bgm src="11_29_lab.mp3" status="stop"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">呜哇！好辣！</speak>
+            <bgm src="11_29_lab.mp3" status="continue"></bgm>
+            <speak chara="_WitchTrueName">比安卡大人？……您、您还好吗？</speak>
+            <speak chara="_Bianka">当、当然啦！堂堂女武神，才不会输给什么辣椒呢！</speak>
+            <speak chara="_Bianka">玉米饼很好吃！瘦肉、肥肉、还有番茄都烤得恰到好处！</speak>
+            <speak chara="_Bianka">只、只是我自己没有心理准备，突然被辣到了而已！根本没什么事！</speak>
+            <speak chara="_Shakespeare">哎……明明人家好像为了照顾我们的口味，还故意少放辣子了呢……</speak>
+            <speak chara="_Bianka">好、好烦啊你！笨蛋船长！我不要你操心！</speak>
+            <speak chara="_Shakespeare">……是吗？那我这就去招呼村长奶奶，让她下一锅再多放点辣椒呗。</speak>
+            <speak chara="_Bianka">你、你、你——你给我站住！</speak>
+            <goto goto="140" clockwise="1"/>
+        </scene>
+        <scene id="140" background="mayanRoom.jpg">
+            <bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
+            <show chara="shakesCasualLaughClose-up" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈，吃不下了吃不下了，再吃肚皮都要撑破了！</speak>
+            <show chara="shakesCasualLaughClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose-up" position="right"/>
+            <speak chara="_Bianka">……饭桶船长，前前后后加起来，感觉你吃了两磅都不止吧？</speak>
+            <show chara="biankaDressSighClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchHappyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">没关系，从明天开始，连续十天都是重要的节日，大家还有很多一起分享美食的机会哦？</speak>
+            <show chara="WitchHappyClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="right"/>
+            <speak chara="_Bianka">连续十天都是节日？</speak>
+            <show chara="biankaDressShockClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchSmileClose-up" position="left"/>
+            <speak chara="_WitchTrueName">嗯。因为今天是12.19.19.17.18——而等到后天，13.0.0.0.0，我们就要迎来一个新的“伯克盾”了呀。</speak>
+            <show chara="WitchSmileClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose-up" position="right"/>
+            <speak chara="_Bianka">“伯克盾”？</speak>
+            <show chara="biankaDressHesitateClose-up" position="right" opacity="0.8"/>
+            <show chara="champoSmileClose-up" position="left"/>
+            <speak chara="_Champollion">——啊，这个我倒是有所耳闻。“伯克盾”是玛雅人“长纪历”中的一个纪年单位，大约有公历的四百年那么长吧。</speak>
+            <show chara="champoNormalClose-up" position="left"/>
+            <speak chara="_Champollion">所以这个日期本身的意义，大致就相当于我们的“新世纪”……不，应该说“千禧年”吧。</speak>
+            <show chara="champoSmileClose-up" position="left"/>
+            <speak chara="_Champollion">伊柯娜尔小姐，你刚才说连续十天都是节日——其中的每一天想必都有特殊的宗教意义吧？</speak>
+            <show chara="champoSmileClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchHappyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">啊，这倒没有。</speak>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">节日就是节日——除了在节日开始之前的“请示神谕”以外，其间不会有其他任何祭祀活动。</speak>
+            <show chara="WitchSmileClose-up" position="right"/>
+            <speak chara="_WitchTrueName">归根结底，我们的信仰，并不提倡联邦人那种“每个人自己和神明直接交流”的想法。</speak>
+            <show chara="WitchSmileClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="left"/>
+            <speak chara="_Bianka">……不可以在心里、在冥想的时候和祂们说话吗？</speak>
+            <show chara="biankaDressShockClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">如果你有所欲求，就不可以。</speak>
+            <show chara="WitchSadClose-up" position="right"/>
+            <speak chara="_WitchTrueName">神明们都是为所欲为的，贸然向祂们抛出问题、提出要求，弄不好反而会给自己带来不幸。</speak>
+            <show chara="WitchSadClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressAngryClose-up" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressHesitateClose-up" position="left"/>
+            <speak chara="_Bianka">说实话……我有点……无法理解。</speak>
+            <show chara="biankaDressHesitateClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualMercyClose-up" position="right"/>
+            <speak chara="_Shakespeare">信仰是不讲道理的。你只能选择“相信”还是“不相信”，而不是“理解”或者“不理解”。</speak>
+            <show chara="shakesCasualMercyClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressAngryClose-up" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressAngryClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose-up" position="right"/>
+            <speak chara="_Shakespeare">不过，换个角度看，这种我们看起来有些古怪的信仰，也正是这个村庄独到的“人文精神”吧！</speak>
+            <show chara="shakesCasualConfidentClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="WitchShockClose-up" position="left"/>
+            <speak chara="_WitchTrueName">“人…文…精…神”？这个是……某种专有名词吗？</speak>
+            <show chara="WitchShockClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose-up" position="right"/>
+            <speak chara="_Shakespeare">唉呀。麻烦了。这玩意儿……三言两语还真解释不太清楚呢……</speak>
+            <show chara="shakesCasualConfidentClose-up" position="right"/>
+            <speak chara="_Shakespeare">那边的考古学博士，你有什么概括它的好办法吗？</speak>
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <show chara="champoSweatyClose-up" position="right"/>
+            <speak chara="_Champollion">嗯……我想想啊……</speak>
+            <show chara="champoNormalClose-up" position="right"/>
+            <speak chara="_Champollion">简单来说，就是要尽可能地尊重每一个人的【价值倾向】和【人格尊严】、并且维护【思想自由】的环境吧。</speak>
+            <show chara="champoSmileClose-up" position="right"/>
+            <speak chara="_Champollion">比如，《人权和公民权宣言》的开头就有这样两句话——</speak>
+            <show chara="champoNormalClose-up" position="right"/>
+            <speak chara="_Champollion">“在权利方面，人们生来是、而且始终是自由平等的。”</speak>
+            <show chara="champoSmileClose-up" position="right"/>
+            <speak chara="_Champollion">“这些权利就是自由、财产、安全和反抗压迫。”</speak>
+            <show chara="champoSmileClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchShyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">……？</speak>
+            <show chara="WitchShyClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose-up" position="right"/>
+            <speak chara="_Shakespeare">嘛，具体来说，就像你们把庆祝节日和祭祀神明完全分开一样——</speak>
+            <show chara="shakesCasualConfidentClose-up" position="right"/>
+            <speak chara="_Shakespeare">所谓“人文精神”，就是认为这个社会，应该尽可能地让所有人，都能按照自己的想法去过日子。</speak>
+            <show chara="shakesCasualNormalClose-up" position="right"/>
+            <speak chara="_Shakespeare">以这种标准来说，像伊柯娜尔小姐这样的神职人员，就应该尽量不强求所有人都认同您的信仰、遵守和您一模一样的道德规范。</speak>
+            <show chara="shakesCasualNormalClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchShockClose-up" position="left"/>
+            <speak chara="_WitchTrueName">啊，这个道理我懂。</speak>
+            <show chara="WitchSmileClose-up" position="left"/>
+            <speak chara="_WitchTrueName">我是神明“伊诗·塔布”在这个村子里的化身，代替全村人承受祂的喜怒哀乐，是我义不容辞的责任。</speak>
+            <show chara="WitchSeriousClose-up" position="left"/>
+            <speak chara="_WitchTrueName">我不会让其他人来承担与神沟通的风险——因为那本来就是我应该尽职尽责的工作。</speak>
+            <show chara="WitchSeriousClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose-up" position="right"/>
+            <speak chara="_Shakespeare">……原来如此。嗯，将神明对普通人的影响降至最低，这也是件很有意义的事情呢！</speak>
+            <show chara="shakesCasualNormalClose-up" position="right"/>
+            <speak chara="_Shakespeare">每个人都是一个渐渐长大的孩子。总有一天，他或者她，会意识到自己的母亲、父亲都不是万能的。一切终究只能依靠自己。</speak>
+            <show chara="shakesCasualEmbarrassedClose-up" position="right"/>
+            <speak chara="_Shakespeare">——神明也和我们的父母一样。祂们对我们的帮助，或许在“创世纪”之前就已经结束了。</speak>
+            <show chara="shakesCasualConfidentClose-up" position="right"/>
+            <speak chara="_Shakespeare">但是，这并不是什么值得难过的事情。相反，这其实是一个人、一个民族真正成年的象征——</speak>
+            <show chara="shakesCasualNormalClose-up" position="right"/>
+            <speak chara="_Shakespeare">——因为，这证明，他们已经能为自己的一切行为负责。他们已经彻底自由了。</speak>
+            <show chara="shakesCasualNormalClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchShockClose-up" position="left"/>
+            <speak chara="_WitchTrueName">自由……吗……</speak>
+            <show chara="WitchHappyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">嗯，今天晚上请示神谕的时候，就用“自由”来作为主题吧！</speak>
+            <show chara="WitchHappyClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="right"/>
+            <speak chara="_Bianka">咦？</speak>
+            <show chara="biankaDressShockClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchShyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">虽然目前，我们的村庄，还需要各位贵人的保护才能维持独立——</speak>
+            <show chara="WitchSmileClose-up" position="left"/>
+            <speak chara="_WitchTrueName">——但我相信，总有一天，我们的村民也好、对面的联邦人也好，所有人都能没有负担、自由自在地在这个世界上生活！</speak>
+            <show chara="WitchSmileClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose-up" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressSmileAhClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchHappyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">……从下午开始，我就要进行请示神谕之前的准备工作了。</speak>
+            <show chara="WitchShyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">到了明天……如果一切顺利的话……可以让我也加入你们的船队吗？</speak>
+            <show chara="WitchHappyClose-up" position="left"/>
+            <speak chara="_WitchTrueName">我想脚踏实地，去了解这个村庄、这片半岛以外的世界！</speak>
+            <show chara="WitchHappyClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose-up" position="right"/>
+            <speak chara="_Shakespeare">哈哈哈哈，这当然没问题啦！</speak>
+            <show chara="shakesCasualNormalClose-up" position="right"/>
+            <speak chara="_Shakespeare">——就算你要我现在带你离家出走，也不是不可以哦？</speak>
+            <show chara="shakesCasualNormalClose-up" position="right" opacity="0.8"/>
+            <show chara="WitchSmileClose-up" position="left"/>
+            <speak chara="_WitchTrueName">即使要被“伊诗·塔布”诅咒也不要紧吗？</speak>
+            <show chara="WitchSmileClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose-up" position="right"/>
+            <speak chara="_Shakespeare">嗯，不要紧哦？</speak>
+            <show chara="shakesCasualEmbarrassedClose-up" position="right"/>
+            <speak chara="_Shakespeare">只不过，那样一来，你们的村民们会不会觉得自己“要被诅咒”就不得而知了……</speak>
+            <show chara="shakesCasualEmbarrassedClose-up" position="right" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose-up" position="left"/>
+            <speak chara="_Rita">（……船长大人，这话似乎有点——）</speak>
+            <show chara="ritaVestHesitateClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose-up" position="right"/>
+            <speak chara="_Shakespeare">（没事，你直接翻译就好。）</speak>
+            <show chara="shakesCasualNormalClose-up" position="right" opacity="0.8"/>
+            <show chara="ritaVestNormalClose-up" position="left"/>
+            <speak chara="_Rita">船长大人说，她并不害怕诅咒；如果你现在就离家出走，唯一的问题其实是——</speak>
+            <show chara="ritaVestAngryClose-up" position="left"/>
+            <speak chara="_Rita">——你是否愿意终结，那份事关信仰的责任。</speak>
+            <show chara="ritaVestAngryClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchShockClose-up" position="right"/>
+            <speak chara="_WitchTrueName">……</speak>
+            <show chara="WitchShockClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose-up" position="left"/>
+            <speak chara="_Bianka">（喂！你们在干什么啦！气氛一下子冷下来了啊！）</speak>
+            <show chara="biankaDressBiteClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">……不，不是那样的，比安卡小姐。</speak>
+            <show chara="WitchShyClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="left"/>
+            <speak chara="_Bianka">咦？你……你听得懂英语吗？</speak>
+            <show chara="biankaDressShockClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchHappyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">不……但是我知道你刚才在担心我。谢谢。</speak>
+            <show chara="WitchHappyClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShyClose-up" position="left"/>
+            <speak chara="_Bianka">啊……不、不客气……</speak>
+            <show chara="biankaDressShyClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchSeriousClose-up" position="right"/>
+            <speak chara="_WitchTrueName">莎士比亚船长说得对。我是神灵的化身……在决定我自己的未来之前，首先必须为这些村民尽到自己应尽的义务。</speak>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">为了他们的未来……我自己无论承受怎样的苦难，都是值得的。</speak>
+            <show chara="WitchShyClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose-up" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressHesitateClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchHappyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">……抱歉，好像反而是我擅自让话题更加沉重了。</speak>
+            <show chara="WitchSeriousClose-up" position="right"/>
+            <speak chara="_WitchTrueName">不过，大家还记得那个联邦将军说的话吗？</speak>
+            <show chara="WitchSadClose-up" position="right"/>
+            <speak chara="_WitchTrueName">有一点他说的没错——和他们迎立的新神不同，一直保佑我们的古老神明，的确是嗜血而又残酷的。</speak>
+            <show chara="WitchSadClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShockClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchSeriousClose-up" position="right"/>
+            <speak chara="_WitchTrueName">太阳神“基尼什·阿哈瓦”、玉米神“胡恩·胡纳赫普”，都需要人们举行放血仪式来进行滋养。</speak>
+            <show chara="WitchSadClose-up" position="right"/>
+            <speak chara="_WitchTrueName">死亡之神“基西姆”，只认可那些得慢性皮肤病的人做祂的祭司。</speak>
+            <show chara="WitchSeriousClose-up" position="right"/>
+            <speak chara="_WitchTrueName">雨神“恰克”在力量不足的时候，更是要享用鲜活的男孩子来恢复神力。</speak>
+            <show chara="WitchSadClose-up" position="right"/>
+            <speak chara="_WitchTrueName">即使是我们村庄的守护神“伊诗·塔布”，庇护难产母亲与自杀者的温柔女神，也需要我们用绳索刺穿舌头来帮助她显灵。</speak>
+            <show chara="WitchSadClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose-up" position="left"/>
+            <speak chara="_Bianka">这……这简直太荒谬了！</speak>
+            <show chara="biankaDressScreamClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">……我明白你想要表达的意思，比安卡小姐。</speak>
+            <show chara="WitchSadClose-up" position="right"/>
+            <speak chara="_WitchTrueName">这也是联邦的那些人指责我们野蛮、凶残的根本原因。</speak>
+            <show chara="WitchSadClose-up" position="right" opacity="0.8"/>
+            <show chara="champoColdClose-up" position="left"/>
+            <speak chara="_Champollion">恕我直言，那看起来只是他们想要扩张领土的借口罢了。</speak>
+            <show chara="champoColdClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchSeriousClose-up" position="right"/>
+            <speak chara="_WitchTrueName">……但至少，这个事实，使得那些士兵完全瞧不起我们的传统，不是吗？</speak>
+            <show chara="WitchSadClose-up" position="right"/>
+            <speak chara="_WitchTrueName">无论是从减轻痛苦，还是从消除指责的角度出发——我都希望保佑我们的诸神，可以允许我们这些卑微的凡人，能够更加轻松、自由地生活下去。</speak>
+            <show chara="WitchSadClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose-up" position="left"/>
+            <speak chara="_Bianka">等等——这难道不是，你们自己做出“改变”的决定就可以了吗？</speak>
+            <show chara="biankaDressBiteClose-up" position="left"/>
+            <speak chara="_Bianka">因为，“神”，祂归根结底，只是人们灵魂和意志的一种升华啊？</speak>
+            <show chara="biankaDressBiteClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchShockClose-up" position="right"/>
+            <speak chara="_WitchTrueName">……</speak>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">嗯，您说的没错。</speak>
+            <show chara="WitchSmileClose-up" position="right"/>
+            <speak chara="_WitchTrueName">但正因为如此……今晚的仪式才尤为重要。</speak>
+            <show chara="WitchHappyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">“纪元末日”的仪式每四百年才能进行一次——只有利用这样的机会，才能帮助神明们一口气改变祂们给世界留下的固有印象。</speak>
+            <show chara="WitchHappyClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShockClose-up" position="left" opacity="0.8"/>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">我由衷地感谢各位贵人在今天来到我们的村庄。</speak>
+            <show chara="WitchSmileClose-up" position="right"/>
+            <speak chara="_WitchTrueName">大家不仅帮助我们赶走了联邦人——</speak>
+            <show chara="WitchHappyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">——而且也让我坚定了向女神请求变革的决心。</speak>
+            <show chara="WitchShyClose-up" position="right"/>
+            <speak chara="_WitchTrueName">所以……真的、真的非常感谢你们。</speak>
+            <goto goto="150" clockwise="1"/>
+        </scene>
+        <scene id="150" background="mayanWallBroken.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <show chara="shakesCasualSeriousClose" position="left"/>
+            <speak chara="_Shakespeare">……戴羽毛的小妹妹去洞穴里闭关了。说起来，我们的两位女武神呢？</speak>
+            <show chara="shakesCasualSeriousClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorNormalClose" position="right"/>
+            <speak chara="_Miguel">小姑娘们好像不愿意看她做那些自虐仪式的准备，但又觉得自己没有充足的理由去干涉这些，所以就先回船上去了。</speak>
+            <show chara="cervantesSailorStareClose" position="right"/>
+            <speak chara="_Miguel">虽然我们确实不好多说什么——但这里的风俗习惯，的确是让人揪心呐。</speak>
+            <show chara="cervantesSailorStareClose" position="right" opacity="0.8"/>
+            <show chara="champoColdClose" position="left"/>
+            <speak chara="_Champollion">……而且，我现在突然有些担心。不知道那位小妹妹会不会做出什么蠢事来。</speak>
+            <show chara="champoColdClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">……蠢事？</speak>
+            <show chara="shakesCasualQuestionClose" position="right" opacity="0.8"/>
+            <show chara="champoQuestionClose" position="left"/>
+            <speak chara="_Champollion">他们的仪式虽然秘而不宣，但多半是要用到一些致幻药物的吧。有意识地去排除痛觉、追求狂热。</speak>
+            <show chara="champoColdClose" position="left"/>
+            <speak chara="_Champollion">……看她那么努力的架势，天知道最后会变成什么样子。</speak>
+            <show chara="champoColdClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorNormalClose" position="right"/>
+            <speak chara="_Miguel">为了维持所谓的“神秘”和“神圣”，她当然需要那么做吧。</speak>
+            <show chara="cervantesSailorStareClose" position="right"/>
+            <speak chara="_Miguel">不过，从理智的角度来讲，身为天主的子民，我从一开始就觉得这种异端信仰糟糕透了。</speak>
+            <show chara="cervantesSailorStareClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈！老爷子你果然很有“西班牙”的味道嘛！</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorSmileClose" position="right"/>
+            <speak chara="_Miguel">唔？……那可不好说哦？</speak>
+            <show chara="cervantesSailorSmileClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">咦？</speak>
+            <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorNormalClose" position="right"/>
+            <speak chara="_Miguel">因为啊，我从很久以前就在想，那些异教信徒、又或者无神论者，恐怕也是用一模一样的怜悯目光来看我们西班牙人的吧？</speak>
+            <show chara="cervantesSailorSmileClose" position="right"/>
+            <speak chara="_Miguel">基督是什么？基督是神的化身，是“三位一体”的组成部分。</speak>
+            <show chara="cervantesSailorNormalClose" position="right"/>
+            <speak chara="_Miguel">——如果不论神的真实与否，这就和刚才那孩子的身份没有多少差别。</speak>
+            <show chara="cervantesSailorSmileClose" position="right"/>
+            <speak chara="_Miguel">那么，基督做过什么？基督为了清除我们所有凡人身上的原罪，牺牲了自己。</speak>
+            <show chara="cervantesSailorNormalClose" position="right"/>
+            <speak chara="_Miguel">——如果不论神的真实与否，这就和他们穿刺自己、放血祭神，也没有多少差别。</speak>
+            <show chara="cervantesSailorLaughClose" position="right"/>
+            <speak chara="_Miguel">而不相信我们那位唯一真神的人，自然也不会觉得祂的神性是真实的。</speak>
+            <show chara="cervantesSailorSmileClose" position="right"/>
+            <speak chara="_Miguel">——那么在他们看来，是不是连基督自己，都只是个固执、迂腐、而又异想天开的烂好人呢？</speak>
+            <show chara="cervantesSailorSmileClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">……哇哦。</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorLaughClose" position="right"/>
+            <speak chara="_Miguel">唉呀唉呀，如果是在我原来生活的【那个】西班牙，想发表这样的言论当然是不可能的。</speak>
+            <show chara="cervantesSailorSmileClose" position="right"/>
+            <speak chara="_Miguel">——不过在这个世界里，不只是我们，“旧大陆”的大多数人好像都没有这种信仰狂热吧？</speak>
+            <show chara="cervantesSailorSmileClose" position="right" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="left"/>
+            <speak chara="_Champollion">毕竟“墙”已经存在了超过100年；各式各样的狂热者，早就已经被“消费”得差不多了吧。</speak>
+            <show chara="champoSweatyClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">……偏远地区的人们就不一定了。不过我们也不可能去替他们决定什么。</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">比起这些，在晚上小妹妹从洞里出来之前，我们应该先专心把自己的事情办好。比如说——</speak>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">——这里的玉米面很不错，咱们可以多收购一点！</speak>
+            <goto goto="160" clockwise="1"/>
+        </scene>
+        <scene id="160" background="12_12_blackCloud.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <text>夕阳西斜。</text>
+            <goto goto="170" change="0"/>
+        </scene>
+        <scene id="170" background="starNight.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <text>繁星渐升。</text>
+            <goto goto="175" change="0"/>
+        </scene>
+        <scene id="175" background="submarinePipe.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <text>在“喀里多尼亚号”潜水艇中，比安卡·阿塔吉娜度过了让人焦虑不安的12个小时。</text>
+            <text>无论是调整武器、学习西班牙语、还是打扑克牌，她都无法完全集中自己的精神。</text>
+            <text>这种令人难受的感觉，让她想起了自己身为女武神，等待执行那第一次任务的时候。</text>
+            <text>那时她并没有被分配进正面作战的第一梯队；在直升机里惴惴不安地等待了如一年般漫长的15分钟之后，这些预备队员被告知可以出击了。</text>
+            <text remark="next">面前是阿格拉堡。背后是泰姬陵。这些人类文明的宝贵财富，是此次行动中，女武神们必须保护的对象。</text>
+            <remark post="U2FsdGVkX1+ZeN1QQy+0Qu+c5q+Y">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">阿格拉堡（印地语：आगरा क़िला，乌尔都语：آگرہ قلعہ‬‎‎）是印度莫卧儿王朝全盛时期的皇宫，使用者包括巴布尔、胡马雍、阿克巴、贾汗吉尔、沙贾汗、奥朗则布六代雄主。</p>
+                <p class="article-text">著名的泰姬陵位于阿格拉堡东南2.5公里处，是沙贾汗为其妻子慕塔芝·玛哈修建的陵寝。沙贾汗晚年被儿子奥朗则布夺取皇位并囚禁于阿格拉堡，他在人生最后的八年中只能从这里去默默地眺望泰姬陵。</p>
+            </remark>
+            <text>因此，第一梯队的女武神要想办法从城堡的花园中引出崩坏兽，把城堡的损毁控制在最低限度；而比安卡所在的第二梯队，则要挡住崩坏兽的退路，将它控制在亚穆纳河的河道上，并协助第一梯队将其歼灭。</text>
+            <text>本该是如此这般有条不紊地来展开的——</text>
+            <goto goto="180" change="0"/>
+        </scene>
+        <scene id="180" background="submarineCabinBlurDeep.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="ritaVestNormalClose" position="left"/>
+            <speak chara="_Rita">比安卡大人，村庄“埃尔·蕾”的塔苏玛尔大人来找您了。</speak>
+            <text>——女仆的出现打断了少女的回忆。</text>
+            <show chara="ritaVestNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">找……我？</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="left"/>
+            <speak chara="_Rita">是的，她点名要找您。</speak>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestTrueName">战神“布鲁克·查布坦”的化身！苦难灵魂的引导者“伊诗·塔布”的化身派老身邀请您，请您帮助她完成仪式。</speak>
+            <show chara="PriestSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="left"/>
+            <speak chara="_Rita">她说，伊柯娜尔大人想邀请比安卡大人来帮助她完成祭祀的仪式。她们似乎认真地把您当成神明的化身了。</speak>
+            <show chara="ritaVestSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="PriestSeriousClose" position="left"/>
+            <speak chara="_PriestTrueName">这是女神“伊诗·塔布”的神谕——只有同为神明化身的您，才有资格协助我的孙女完成仪式。</speak>
+            <show chara="PriestSmileClose" position="left"/>
+            <speak chara="_PriestTrueName">拜托您了。</speak>
+            <show chara="PriestSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">……明、明白了。</speak>
+            <goto goto="190" clockwise="1"/>
+        </scene>
+        <scene id="190" background="mayanCandleCave.jpg">
+            <bgm src="01_18_horror.mp3" status="start"></bgm>
+            <text>这个被村民们奉为神圣场所的溶洞，此刻正点满蜡烛。</text>
+            <text>老村长一言不发地引导着比安卡向深处走去——据说即使是她这样德高望重的老人，也不能在这个洞穴里张嘴讲一句话。</text>
+            <text>——那是“神明化身”的特有权利。</text>
+            <text>昏暗的烛光在无声中摇曳。</text>
+            <text>跌落凡间的水珠，不时在乳黄色的石笋上飞溅开来。</text>
+            <text>恍惚之间，仿佛血液从女武神的指尖滴落。</text>
+            <text>——那是比安卡作为女武神参加的第一个任务。</text>
+            <text>——那个任务，也只有比安卡一个人从中生还。</text>
+            <text>从那时起，她便开始意识到自己是不同的。</text>
+            <text>并非简单的幸运爆棚。也并非直观的天赋异禀。</text>
+            <text>是她渐渐发现，对于一般人而言，在任何一个领域内，都存在着一块看不见的“天花板”——他们无论如何努力，都无法让自己超越那个极限。</text>
+            <text>——而她却不同。在战斗的领域里，她只要努力，就能成长。</text>
+            <text>直觉告诉她，这样的人就是所谓的“天才”。</text>
+            <text>——然而她的意志却绝不愿承认这一点。</text>
+            <text>她更愿意相信，任何人都拥有超越自我的能力。</text>
+            <text>她绝不愿承认，这种事对于一般人而言，竟然是十足的奢侈品。</text>
+            <text>老村长停下了她的脚步。</text>
+            <text>洞穴最深处的这一段路，需要比安卡独自一人走过去——因为另一个“神的化身”说过，等比安卡也来到这里的时候，某个需要保密的仪式应该已经开始了。</text>
+            <text>十步，二十步，三十步。</text>
+            <text>转弯，穿过石壁上的裂缝，再转弯。</text>
+            <text>周围安静依旧。没有人演奏音乐，也听不到木鞋踩踏的回响。</text>
+            <text>烛光的尽头，是一道红底黑纹、编织着图腾一般象形文字的门帘。</text>
+            <show chara="biankaDressDarkClose" position="center"/>
+            <speak chara="_Bianka">……伊柯娜尔小姐？我进来了哦。</speak>
+            <hide position="center"></hide>
+            <text>——这是她临时抱佛脚学会的几句西班牙语之一。</text>
+            <text>只不过，并没有任何人来回应她的这声呼唤。</text>
+            <text>女武神带着疑惑挑起了门帘——</text>
+            <goto goto="200" change="0"/>
+        </scene>
+        <scene id="200" background="CG13-6.jpg">
+            <bgm src="01_18_horror.mp3" status="continue"></bgm>
+            <cg src="CG13-6.jpg" bg="CG13-6.jpg" fadeIn="0" fadeOut="1"></cg>
+            <text>——却看到了她最不愿意看到的一幕。</text>
+            <end post="U2FsdGVkX19NCGf3MWcQ4Va1Xf3k"/>
+        </scene>
+    </story>
+</data>

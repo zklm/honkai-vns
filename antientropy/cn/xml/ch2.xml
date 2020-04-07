@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story title="1">
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="campusImperialDay.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <text remark="next">帝国研究院。</text>
+            <remark post="U2FsdGVkX19nEXNXbauN7pDja052">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">帝国研究院（Imperial Institute）位于伦敦的肯辛顿区，由英国女王维多利亚于1888年创办，并于1907年成为伦敦帝国学院（Imperial College, London）的创始成员之一。</p>
+                <p class="article-text">1958年，帝国研究院改称为联邦研究院（Commonwealth Institute），校园亦进行了重建，原建筑物仅保留了标志性的女王塔（Queen's Tower）。</p>
+            </remark>
+            <text>被红色暴力女“赶出家门”的可怜青年，正在这座拥有近七十年历史的高等学府中，漫无目的地游荡。</text>
+            <show chara="teslaAngryClose" position="center" opacity="0.6"/>
+            <speak chara="teslaNoFace">好啦好啦抓紧时间出去熟悉熟悉环境吧！</speak>
+            <speak chara="teslaNoFace">中午之前都不用回来！</speak>
+            <hide position="center"/>
+            <text>不知道为什么，同样是天命组织的成员，被这个女孩子粗暴对待的感觉——</text>
+            <text>——好像并没有那么令人讨厌。</text>
+            <speak chara="weltNoFace">呼……我这都在想些什么乱七八糟的啊。</speak>
+            <bgm src="serenity.mp3" status="start"></bgm>
+            <text article="1">
+                <p class="article-text">The Imperial Institute.</p>
+                <p class="article-text">这个机构里既分布着像42实验室这样的独栋小院，也耸立着数座墙壁已显斑驳之色的高挑楼宇。</p>
+                <p class="article-text">不远处，女王塔粉绿色的穹顶布满了蒙尘和雨痕，显出一种难以名状的丑陋色泽——似乎在这样难得的晴天里，它也要嘲笑平日那令人忧心的空气污染。</p>
+            </text>
+            <text>见惯了那些一尘不染的高端研究所，这种过气明星一般的地方反倒使得名为瓦尔特的青年心情平静。</text>
+            <text>虽然还没有绝对意义上的人身自由——但至少，这个“神通广大”的组织暂时是放自己一马了。</text>
+            <text>大概。</text>
+            <text>秋意渐浓，阳光徒劳地温暖着寒风四起的大地。</text>
+            <text>侧身倚坐在步道旁的大理石栏杆上，瓦尔特用力拍了拍自己的脸颊。</text>
+            <text>还是多想想积极一点的事情吧。</text>
+            <sound src="deep breath.mp3"/>
+            <text>深呼吸——</text>
+            <text>……</text>
+            <text>——世界多美好。</text>
+            <text article="1">
+                <p class="article-text">研究院的北边有一大片郁郁葱葱的林地，据说那就是著名的海德公园和肯辛顿公园——不过某两位天才少女应该没什么兴趣吧。</p>
+                <p class="article-text">对于那些象牙塔里的精英来说，最容易想到的放松形式，恐怕就是靠在花园的长椅上闭目养神。</p>
+                <p class="article-text">太没创意了。爱因斯坦先不说，特斯拉肯定会觉得无聊的。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">还是带她们去些更有意思的场所吧。</p>
+                <p class="article-text">伦敦好玩的东西应该不少——瓦尔特这样想着，决定去图书馆碰碰运气，看有没有什么资料可查。</p>
+                <p class="article-text">——他当然不可能知道，未来的世界会有互联网这么方便的东西。</p>
+            </text>
+            <goto goto="20"/>
+        </scene>
+        <scene id="20" background="libraryDay.jpg">
+            <bgm src="serenity.mp3" status="continue"></bgm>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">您好。</speak>
+            <text>图书管理员是一位穿着条纹短袖衬衫、带着金丝边眼镜的轻浮男子。</text>
+            <text>这个约莫三十来岁的金毛大哥，用不知何地的怪异口音搭起了腔——</text>
+            <bgm src="lab.mp3" status="start"></bgm>
+            <speak chara="nokiaNoNameNoFace">则位先森，请问您系不系要借苏？</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">呃……啊……那个……</speak>
+            <text>瓦尔特感觉自己不太应付得了这个怪胎。</text>
+            <speak chara="weltNoFace">请问……这里有没有……旅游类的书？</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">旅游类？</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">嗯……就是介绍伦敦好玩的地方的那种书。</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">……这个还真没有什么印象。</speak>
+            <text>金丝边眼镜遗憾地摊了摊手。</text>
+            <speak chara="nokiaNoNameNoFace">要不您直接去报刊阅览室看看？</speak>
+            <speak chara="nokiaNoNameNoFace">实在抱歉，旅游黄页那一类的书，本馆确实没有——</speak>
+            <speak chara="nokiaNoNameNoFace">——倒不如说，完全不在“狩猎范围”内吧，呵呵。</speak>
+            <text>金丝边眼镜皮笑肉不笑的表情，让瓦尔特觉得自己仿佛才是那个怪胎。</text>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">啊……我原本也没有太多期待的。</speak>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">请问报刊阅览室是在哪边呢？</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">嗯……</speak>
+            <speak chara="nokiaNoNameNoFace">直接说明的话，您可能不大好理解……</speak>
+            <speak chara="nokiaNoNameNoFace">不如随我来吧。</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">唔……麻烦你了。</speak>
+            <text>看来这家伙虽然看起来有些做作，人倒还真是个好人——</text>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">等等。</speak>
+            <text>金丝边眼镜正想上前引路，却忽然又想起什么似的，停了下来。</text>
+            <speak chara="nokiaNoNameNoFace">请问您有借阅证吗？</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltNoFace">……啊！</speak>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">怎么了？</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">那个……唔……</speak>
+            <speak chara="weltNoFace">……抱歉，我没有借阅证。</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">哦？这可就难办了啊……</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">那个……我是42实验室的新助理……所以……</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSeriousClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="nokiaNoNameNoFace">什么？42实验室？</speak>
+            <show chara="nokiaNoNameSeriousClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">呃……是的……</speak>
+            <text>瓦尔特不是很明白金丝边眼镜为何突然严肃了起来。</text>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">哎呀哎呀，爱因斯坦博士他老人家，最近身体还好吗？</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">老、老人家？</speak>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">你、你在说什么呢啊！博、博士怎么会是老人家啊！</speak>
+            <text>“老人家”这个词儿真是惊得瓦尔特的下巴都差点掉了下来。</text>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">哈哈哈……抱歉，最近学校里发生过诈骗事件，所以要求我们提高警惕……</speak>
+            <speak chara="nokiaNoNameNoFace">刚才故意试了一下你，真是不好意思。</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">爱因斯坦博士之前特地嘱咐过我——不过当时她也没有你的照片，所以……</speak>
+            <text>金丝边眼镜以他一贯的笑容耸了耸肩膀。</text>
+            <speak chara="nokiaNoNameNoFace">说实话，这个试人的办法，还是她自己建议的……哈哈哈哈。</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">没事，我现在就给你办一张研究专员的借书证。想借什么书就借什么书。</speak>
+            <text>金丝边眼镜以他一贯的笑容推了推自己鼻梁上的“本体”。</text>
+            <goto goto="30"/>
+        </scene>
+        <scene id="30" background="campusImperialDay.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <sound src="walk slow.mp3"/>
+            <text>《泰晤士报》过于严肃，《金融时报》完全不符合需要，倒是从《每日先驱报》和《每日镜报》这些市井报纸里能看出一点名堂。</text>
+            <text>时值中午，从报刊室返回的瓦尔特一边回顾着自己的笔记，一边查阅着借来的便携式交通图。</text>
+            <text>大英博物馆——大罗素街；</text>
+            <text>国家美术馆——特拉法加广场；</text>
+            <text>戏院区、赌场与唐人街——莱斯特广场；</text>
+            <text>……</text>
+            <text>从旅游名胜开始，应该至少能得个及格分吧？</text>
+            <text>游玩之余，还可以邀请她们在外面的餐厅吃饭——研究院在工作日送上门的“大锅饭”应该好吃不到哪里去，正好可以借出门的机会改善改善。</text>
+            <text>虽然英国的本土饮食除了海鲜就乏善可陈，但法国、意大利、土耳其、印度等国的菜式也很容易吃到，去唐人街的话还有中餐这个选择……</text>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="schoolDay3.jpg">
+            <bgm src="street.mp3" status="continue"></bgm>
+            <text>……虽然自己身无分文，但既然是工作，报销肯定是没问题的吧？</text>
+            <text>——如此这般思考了一番的瓦尔特，不知不觉就回到了42实验室的小院之前。</text>
+            <text>独门独栋的42实验室是战后新建的工作别墅，属于工作、生活一体化的前卫设计。</text>
+            <text>一楼配置有书房、工作间、客房、各种厨卫设施、甚至还有一间安着保险门的秘密仓库；</text>
+            <text>而二楼则是“男士禁止入内”的居住区，瓦尔特也不是很清楚里面的构造如何。</text>
+            <text>粉色的窗帘？奶油色的家具？充满着糖果和布偶的房间？</text>
+            <text>……不不不，再怎么说，科研人员的居室也不会是这种感觉的吧。而且她们的私人实验室好像也在那一层里。</text>
+            <goto goto="50"/>
+        </scene>
+        <scene id="50" background="studyNoon.jpg">
+            <bgm src="street.mp3" status="stop"></bgm>
+            <sound src="door open.mp3"/>
+            <speak chara="weltNoFace">我回来了。</speak>
+            <text>轻手轻脚地打开别墅的大门，青年礼节性地向空无一人的客厅问候着。</text>
+            <text>他自有记忆以来就保持着这种古怪的习惯，以至于天命组织曾认真调查过他是日本人的可能性。</text>
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="einSmileClose" position="right"/>
+            <speak chara="einNoFace">嗯，你来的正好。</speak>
+            <show chara="einSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">唉？？</speak>
+            <text>出乎意料地，从客厅门后的死角处，天然卷少女合上书本走了出来。</text>
+            <show chara="einSmileClose" position="right"/>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">吓到你了？</speak>
+            <show chara="einSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">啊……不……并没有……</speak>
+            <show chara="einNormalClose" position="right"/>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">那就好。资料准备的怎么样了？</speak>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">嗯……还不错吧？伦敦的名胜还真是挺多的。</speak>
+            <show chara="einNormalClose" position="right"/>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">……</speak>
+            <text>天然卷少女表情冷淡，似乎对青年的说法并不怎么满意。</text>
+            <speak chara="einNoFace">所以，今天午饭吃什么呢？</speak>
+            <text>轻描淡写地，她抛出了这个历史悠久的世界性难题。</text>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">呃……啊？</speak>
+            <show chara="einNormalClose" position="right"/>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">午饭我想在附近吃点有意思的。你有什么建议吗？</speak>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">……呃。</speak>
+            <text>一早上只顾着查资料，完全没有进行过实地考察的青年冷汗直冒。他怎么可能弄得清，这个初来乍到的地方，都有些什么值得一去的餐馆呢？</text>
+            <show chara="einNormalClose" position="right"/>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">答不上来啊……</speak>
+            <text>少女面无表情地确认着。</text>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <text>青年尴尬地摇了摇头。</text>
+            <show chara="einNormalClose" position="right"/>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">午饭，请客。</speak>
+            <text>少女冷漠地提出了惩罚的措施。</text>
+            <show chara="einNormalClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">……我错了。</speak>
+            <text>青年懊丧地低下了头。自己真是太没用了。</text>
+            <text>这种时候，不说别的，就算是她要让自己摘星星——</text>
+            <show chara="einSmileClose" position="right"/>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">不，你只是被骗了这个月的补助金而已。</speak>
+            <show chara="einSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltNoFace">……呃？</speak>
+            <show chara="einSmileClose" position="right"/>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">怎么，我这样不算碰瓷儿吗？你哪有时间能把这肯辛顿区都跑个遍呢？</speak>
+            <text>少女怜悯地嘲笑着被自己戏弄的笨蛋。</text>
+            <speak chara="einNoFace">今天就去吃意大利面吧！</speak>
+            <hide position="right"></hide>
+            <hide position="left"></hide>
+            <show chara="einSmileCoatClose" position="center"/>
+            <text>她一边自言自语，一边脱下白大褂，换上了普通的风衣外套。</text>
+            <speak chara="einNoFace">特斯拉还在睡回笼觉，我们不用管她。这个人在任何时间醒着或睡着都是正常的——冰箱里有的是快餐。微波炉我们也有。没有问题。</speak>
+            <text>少女罕见地一股脑儿说了一大串话。她一手提起坤包，一手拉住了门把手。</text>
+            <speak chara="einNoFace">没关系。今天才是第一天。千万不要以为我会生气啊。</speak>
+            <show chara="einSmileCoatClose" position="center" opacity="0.7"/>
+            <sound src="key.mp3"/>
+            <text>她掏出钥匙，开始反锁大门。</text>
+            <goto goto="60"/>
+        </scene>
+        <scene id="60" background="londonStreet.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <text>……</text>
+            <show chara="einNormalCoatClose-up" position="center"/>
+            <speak chara="einNoFace">这是V&amp;A博物馆。</speak>
+            <speak chara="einNoFace">那是圣三一教堂。</speak>
+            <text>少女晃着乱糟糟的短发，面无表情地在青年的身边解说着。不知情的人，大概会把他们当成多年未见、关系已经有些生分的兄妹吧。</text>
+            <speak chara="weltNoFace">唔……</speak>
+            <show chara="einSmileCoatClose-up" position="center"/>
+            <speak chara="einNoFace">A是“阿尔伯特”的首字母。来自我的名字。</speak>
+            <speak chara="weltNoFace">……唉？</speak>
+            <show chara="einNormalCoatClose-up" position="center"/>
+            <speak chara="einNoFace">骗你的。</speak>
+            <speak chara="weltNoFace">呃……</speak>
+            <show chara="einFoolCoatClose-up" position="center"/>
+            <speak chara="einNoFace">哼哼，也不算骗你就是了。</speak>
+            <speak chara="weltNoFace">……哈？</speak>
+            <show chara="einNormalCoatClose-up" position="center"/>
+            <speak chara="einNoFace" remark="next">别在意。一些无聊的巧合罢了。</speak>
+            <remark post="U2FsdGVkX19iI3nii1DJQrJarsUb">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">阿尔伯特亲王（Albert, Prince Consort），全名弗朗西斯·阿尔伯特·奥古斯都·查尔斯·埃曼纽尔（Francis Albert Augustus Charles Emmanuel），是英国维多利亚女王（Queen Victoria）的丈夫。</p>
+                <p class="article-text">V&amp;A博物馆（Victoria and Albert Museum）是以他们夫妻二人的名字命名的。在英国有一系列以“阿尔伯特”命名的地标或机构，都是在阿尔伯特亲王去世后，女王为了纪念他而设立的。</p>
+            </remark>
+            <hide position="center"/>
+            <text>这样的对话已经重复几次了？</text>
+            <text>从皇家音乐学院，到王子公园，再到科学博物馆、自然博物馆……</text>
+            <text>……她该不会是乐在其中？</text>
+            <show chara="einSmileCoatClose-up" position="center"/>
+            <speak chara="einNoFace">啊。好像已经有半年都没走这么远了。</speak>
+            <text>少女伸着懒腰，头也不回地说道。</text>
+            <speak chara="weltNoFace">……工作还真忙啊。</speak>
+            <text>青年暗暗盘算了一下，觉得两人也不过是走了一公里出头。</text>
+            <show chara="einNormalCoatClose-up" position="center"/>
+            <sound src="Hah.mp3"/>
+            <speak chara="einNoFace">嗯。每天得花三到四个小时吧。</speak>
+            <text>少女更加慵懒地打了一个哈欠。</text>
+            <speak chara="weltNoFace">……这不是只干半天吗！</speak>
+            <show chara="einSmileCoatClose-up" position="center"/>
+            <speak chara="einNoFace">所以说你不懂啊。</speak>
+            <hide position="center"/>
+            <text>……</text>
+            <text>大概对于科学家这类烧脑型职业来说，工作四小时已经很辛苦了吧。</text>
+            <text>……不过之前的实验室里，那些人明明都是夜以继日地干活啊？</text>
+            <show chara="einNormalCoatClose-up" position="center"/>
+            <speak chara="einNoFace">这里。</speak>
+            <text>青年正疑惑着，身旁那团乱糟糟的头发突然停住了脚步。</text>
+            <speak chara="weltNoFace">“咖啡协奏曲”……</speak>
+            <speak chara="weltNoFace">……不是说要去吃意大利面吗？</speak>
+            <show chara="einSmileCoatClose-up" position="center"/>
+            <speak chara="einNoFace">是意大利餐馆啊。</speak>
+            <text>少女指了指餐馆门口的小黑板。上面的菜名确实是意大利的。</text>
+            <text>……可是意大利餐厅起这样的名字做什么？！</text>
+            <goto goto="70"/>
+        </scene>
+        <scene id="70" background="italianRestaurant.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <text>装饰画、香槟瓶、甜点架……顶着“咖啡协奏曲”的古怪店名，这里倒的确像是个意大利餐馆该有的样子。</text>
+            <text>青年和少女找了一个双人位坐下。店里很暖和，两人纷纷脱去了外套。</text>
+            <goto goto="72" change="0"/>
+        </scene>
+        <scene id="72" background="CG2.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <speak chara="einNoFace">啊！我要那个草莓蛋糕！</speak>
+            <speak chara="einNoFace">……嗯，只要这个。足够了。</speak>
+            <speak chara="weltNoFace">我要……</speak>
+            <speak chara="weltNoFace">……等等，你不是自己说要吃意大利面吗？</speak>
+            <speak chara="einNoFace">那只是一种抽象的说法。</speak>
+            <speak chara="weltNoFace">可是……</speak>
+            <speak chara="einNoFace">突然就想吃蛋糕了。</speak>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="einNoFace">服务生在看着你呢。</speak>
+            <speak chara="weltNoFace">啊啊……我要这个烤蜗牛……还有海鲜烩面。嗯，就这些。</speak>
+            <text article="1">
+                <p class="article-text">服务生满意地走远了。无事可做的少女望向窗外，仿佛思考着什么哲学问题。深蓝色的眼睛、洋娃娃一样的圆脸、再加上浅色的天然卷——如果不是那个糟糕的发型，应该能成为一个标致的美人吧。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">这样乱七八糟地想着，被赐名为瓦尔特的青年才意识到，这是大概他第一次打量天才少女——丽瑟尔·阿尔伯特·爱因斯坦博士的长相。她身上无疑有一股传说中“疯狂科学家”的味道，但同时，也像个邻家妹妹一样戏耍着可怜的自己。</p>
+            </text>
+            <goto goto="75" change="0"/>
+        </scene>
+        <scene id="75" background="italianRestaurant.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="weltShySweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">Ein（爱茵）……</speak>
+            <show chara="weltShySweaterClose-up" position="left" opacity="0.7"/>
+            <show chara="0einNormalVestClose-up" position="right"/>
+            <speak chara="einNoFace">……我？</speak>
+            <show chara="weltNormalSweaterClose-up" position="left"/>
+            <show chara="0einNormalVestClose-up" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace">抱歉……只是……我……一不小心就叫出来了。</speak>
+            <show chara="weltShySweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">虽然我是觉得有个昵称的话比较好交流……但拆开别人的姓氏，果然很奇怪吧。</speak>
+            <show chara="weltShySweaterClose-up" position="left" opacity="0.7"/>
+            <show chara="0einSmileVestClose-up" position="right"/>
+            <speak chara="einNoFace">……无所谓。随你喜欢就好。</speak>
+            <show chara="weltShySweaterClose-up" position="left"/>
+            <show chara="0einSmileVestClose-up" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace">是吗……那真是谢谢啦。</speak>
+            <text>青年一边左顾右盼一边抓耳挠腮——</text>
+            <speak chara="weltNoFace">其实……我有个问出来也许会失礼的问题……</speak>
+            <show chara="0einSeriousAhVestClose-up" position="right"/>
+            <show chara="weltShySweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">在女性面前闪烁其词是更失礼的行为。</speak>
+            <show chara="0einSeriousAhVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">……对不起。</speak>
+            <text>青年觉得自己刚才一定是脑筋搭错了线。</text>
+            <text>询问一下日常爱好而已，干嘛这么不好意思？</text>
+            <show chara="0einSmileVestClose-up" position="right"/>
+            <show chara="weltTiredSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">爱因斯坦博士，五十一岁。</speak>
+            <show chara="0einSmileVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <text>看来对方究竟还是误会了“失礼”的说法——</text>
+            <text>等等？</text>
+            <text>五十一岁？</text>
+            <show chara="weltScaredSweaterClose-up" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">……啊？</speak>
+            <text>反应有些迟钝的青年用双手扶住自己快要掉下来的下巴。</text>
+            <show chara="0einSlyVestClose-up" position="right"/>
+            <show chara="weltScaredSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">骗你的。除以三大概差不多吧。</speak>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <show chara="0einSlyVestClose-up" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltNormalSweaterClose-up" position="left"/>
+            <text>等等？</text>
+            <text>五十一除以三……</text>
+            <text>六八四十八——四十八除以三得十六；六九五十四，五十四除以三得十八……</text>
+            <text>所以五十一除以三得十七……爱因斯坦博士十七岁……</text>
+            <show chara="weltScaredSweaterClose-up" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">……未成年？</speak>
+            <speak chara="weltNoFace">博士学位……未成年？！</speak>
+            <show chara="weltScaredSweaterClose-up" position="left" opacity="0.7"/>
+            <show chara="0einSmileVestClose-up" position="right"/>
+            <speak chara="einNoFace">不可以吗？</speak>
+            <show chara="0einSmileVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">……呃，这哪有什么可以不可以的啊。</speak>
+            <show chara="0einSlyVestClose-up" position="right"/>
+            <show chara="weltTiredSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">顺带一提，特斯拉博士是比我大4岁的成年人——如果你想知道的话。</speak>
+            <show chara="0einSlyVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">为什么这种说法显得她是情商负分一样……</speak>
+            <show chara="0einFoolVestClose-up" position="right"/>
+            <show chara="weltNormalSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">瓦尔特也好不到哪里去吧。</speak>
+            <show chara="0einFoolVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <show chara="0einNormalVestClose-up" position="right"/>
+            <show chara="weltTiredSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">……</speak>
+            <show chara="0einNormalVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="0einNormalVestClose-up" position="right"/>
+            <show chara="weltNormalSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">我打算再看会儿风景，你先不要找我说话了。</speak>
+            <show chara="0einNormalVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">……呃。好的。</speak>
+            <show chara="0einSmileVestClose-up" position="right"/>
+            <show chara="weltNormalSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">难得今天天气这么好。</speak>
+            <show chara="0einSmileVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">……呃。</speak>
+            <show chara="0einSlyVestClose-up" position="right"/>
+            <show chara="weltTiredSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">你大概不知道，我最近在控制自己少说废话。</speak>
+            <show chara="0einSlyVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="0einSlyVestClose-up" position="right"/>
+            <show chara="weltTiredSweaterClose-up" position="left" opacity="0.7"/>
+            <speak chara="einNoFace">我爷爷说过，“成功等于天才加汗水加少说废话”。</speak>
+            <show chara="0einSlyVestClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltScaredSweaterClose-up" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="weltNoFace">……从刚才开始一直在说废话的就是你自己吧！你的人设究竟是寡言少语还是唠唠叨叨啊！</speak>
+            <show chara="weltScaredSweaterClose-up" position="left" opacity="0.7"/>
+            <show chara="0einSlyVestClose-up" position="right"/>
+            <speak chara="einNoFace">……爱因斯坦博士不明白“人设”是什么意思。</speak>
+            <text>有那么一瞬间，名为瓦尔特的青年感到自己看见了恶魔的微笑。</text>
+            <goto goto="80"/>
+        </scene>
+        <scene id="80" background="schoolDay3.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <show chara="nokiaNoNameSmileClose" position="mostright"/>
+            <text>……</text>
+            <text>从“咖啡协奏曲”回来，爱因斯坦、瓦尔特两人在42实验室的门口，意外地发现了那个穿着条纹短袖衬衫、戴着金丝边眼镜的金毛图书管理员。</text>
+            <text>怎么说呢……他还真在室外也这么穿啊。</text>
+            <hide position="mostright"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">啊，爱因斯坦亲！你回来啦！</speak>
+            <text>不知为何，这个人显得非常熟络地向少女挥手致意。瓦尔特的心中隐隐泛出了一丝厌恶情绪。</text>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="einNormalCoatClose" position="left"/>
+            <speak chara="einNoFace">……什么事。芬兰人。</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="nokiaNoNameSmileClose" position="center"/>
+            <text>芬兰人？</text>
+            <text>怪不得这家伙大冬天还只穿短袖、说英语的腔调也非常诡异——是芬兰人的话，就没有什么可奇怪的了呢。</text>
+            <text>据说在气温零度的时候，他们还在自家后院里惬意地翻转着夏日烤肠呢——</text>
+            <text>——虽然那应该只是报纸上的笑话而已。</text>
+            <text>不……这个轻浮男的话……说不定……</text>
+            <hide position="center"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <show chara="einNormalCoatClose" position="left" opacity="0.7"/>
+            <speak chara="nokiaNoNameNoFace">42实验室的加急件。</speak>
+            <text>轻浮男从文件夹中掏出了一个航空信封。</text>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="einNormalCoatClose" position="left"/>
+            <speak chara="einNoFace">明白了。</speak>
+            <text>爱因斯坦意兴阑珊地用左手顺过来信，右手则伸到风衣口袋中掏钥匙。</text>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <show chara="einNormalCoatClose" position="left" opacity="0.7"/>
+            <speak chara="nokiaNoNameNoFace">对方早先打来电报说，希望你在收到信的第一时间就能看看——</speak>
+            <speak chara="nokiaNoNameNoFace">——说是你【肯定】会感兴趣的。</speak>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="einNormalCoatClose" position="left"/>
+            <text>爱因斯坦正在摸索钥匙的右手停了下来。她的表情似乎有点不耐烦。</text>
+            <speak chara="einNoFace">帮我拆了。</speak>
+            <show chara="weltSurpriseClose" position="left"/>
+            <show chara="einNormalCoatClose" position="center" opacity="0.7"/>
+            <speak chara="weltNoFace">呃……没问题吗？我的密保等级——</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="einSmileCoatClose" position="center"/>
+            <speak chara="einNoFace">我说——“帮我拆了”。</speak>
+            <show chara="einSmileCoatClose" position="center" opacity="0.7"/>
+            <show chara="nokiaNoNameSmileClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">哈哈，虽然我自己这么说有点奇怪……如果是机密信函，以我的级别来说是不能递送的。</speak>
+            <text>芬兰人推了推自己的金丝边眼镜，在一旁装模做样地补充道。</text>
+            <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">……那我拆了。</speak>
+            <sound src="envelope.wav"/>
+            <text>瓦尔特理都没理这个自作多情的人一眼。</text>
+            <show chara="einNormalCoatClose" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text-h">爱因斯坦前辈：</p>
+                <p class="article-text">别来无恙。最近我们在当地发现了一种相当不错的古老游戏。你如果有兴趣的话，请务必择日来玩。我保证你们都会很兴奋的。</p>
+                <p class="article-text">至于工作方面，ⵥⵙⵎ ⵋⴱⴳ ⵐⵓⴽⴸ ⵐ ⵥⵛⵌⴱⴴⵙⴸ ⵋⵓⵖⴱ ⵥⴶ应该能帮你们代理吧？</p>
+                <p class="article-text-s">期待您光临的后辈，</p>
+                <p class="article-text-s">薛定谔</p>
+                <p class="article-text-s">10.16. 于蒙大拿州比灵斯市</p>
+            </text>
+            <show chara="einSeriousCoatClose" position="center" opacity="0.7"/>
+            <speak chara="weltNoFace">……</speak>
+            <text>怎么说呢，这信的内容还真是有够悠闲的。虽然其中包含着一些让人看不懂的鬼画符。</text>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousCoatClose" position="center"/>
+            <bgm src="themeEin.mp3" status="start"></bgm>
+            <speak chara="einNoFace">为什么专门……</speak>
+            <text>出乎瓦尔特的意料，爱因斯坦表情严肃地将信纸递给了芬兰人。</text>
+            <show chara="nokiaNoNameSeriousClose" position="right" opacity="0.7"/>
+            <speak chara="einNoFace">这个……这是艾妲的本名吧？</speak>
+            <text>纤细的手指，指向的是那串意义不明的“ⵥⵙⵎ ⵋⴱⴳ ⵐⵓⴽⴸ ⵐ ⵥⵛⵌⴱⴴⵙⴸ ⵋⵓⵖⴱ ⵥⴶ”。</text>
+            <show chara="einSeriousCoatClose" position="center" opacity="0.7"/>
+            <show chara="nokiaNoNameSeriousClose" position="right"/>
+            <speak chara="nokiaNoNameNoFace">……嗯。</speak>
+            <speak chara="nokiaNoNameNoFace">她应该是知道“艾妲”这个名字的……何必……</speak>
+            <show chara="nokiaNoNameSeriousClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <text>为什么要请教这个人？他难不成是什么领域的专家吗？</text>
+            <text>“艾妲”又是谁？</text>
+            <text>究竟发生了什么？</text>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousCoatClose" position="center"/>
+            <speak chara="einNoFace">薛定谔这家伙，绝对不会没事找事。</speak>
+            <text>爱因斯坦仿佛突然明白了什么。</text>
+            <speak chara="einNoFace">芬兰人，现在就去安排，我们要搭最近的班机去比灵斯——</speak>
+            <shake position="center" time="250"></shake>
+            <speak chara="einNoFace">瓦尔特！</speak>
+            <hide position="center"/>
+            <show chara="einSeriousCoatClose" position="right" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltNoFace">是！？</speak>
+            <text>大概是受对方气势的影响，新任实验室助理像个士兵一样绷直了身体——</text>
+            <text>——还不自觉地敬了个礼。虽然他很快就把手收了回去。</text>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousCoatClose" position="right"/>
+            <speak chara="einNoFace">细节不用多管——快上楼去叫醒特斯拉！203！</speak>
+            <show chara="weltSurpriseClose" position="left"/>
+            <show chara="einSeriousCoatClose" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace">我？！</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousCoatClose" position="right"/>
+            <speak chara="einNoFace">爱茵忙不过来。</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="weltSurpriseClose" position="center" opacity="0.7"/>
+            <text>不理会瓦尔特的呆若木鸡，爱因斯坦径直打开实验室的大门，向着一楼右手边的走廊跑去。</text>
+            <text>——那里除了一扇突兀的保险门，别无他物。</text>
+            <end post="U2FsdGVkX187oCnLTMJUa96nJWvK"/>
+        </scene>
+    </story>
+</data>

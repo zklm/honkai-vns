@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="cenote.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="biankaDressHesitateClose" position="center"/>
+            <speak chara="_Bianka">……你说的“动乱”，就是指“皇帝”启动“墙”的那件事吧？</speak>
+            <show chara="biankaDressHesitateClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">啊，是的。能量阵列摧毁了所有旧秩序的残余——而这正是皇帝所需要的。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">皇帝说，他要让前人建立的“新秩序”真正运转起来。</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">什么意思？什么“新秩序”？</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">什么？我刚才没有说过吗？</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">……啊，我好像是没有说过。</speak>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">唉，到了我这个年纪，就算是看画册，同一页或许也要翻好几遍才能读懂内容吧……</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">您刚才问我什么是“新秩序”，对吗？嗯……这件事需要从……这个世界本身的历史讲起。</speak>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">在皇帝到来之前，【这里的】欧洲曾经出现过一位【先知】。</speak>
+            <show chara="BertrandSmile" position="center" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="center"/>
+            <speak chara="_Bianka">先知？是宗教上的那种“先知”吗？</speak>
+            <show chara="biankaDressSneerClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">是的，就是那种“先知”。</speak>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">凡是尊崇他的村庄或者部落，无一例外地坚守着一种不正常的状态：人人心中都只有集体，没有个人。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">啊，尊贵的小姐，我能从您的眼神里看出来，您觉得这世界上本就不缺少“无私”的人。</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">这没有错。“无私”本身更没有错！但越是美德，就越不可能“人人都做到”！</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">一个集体，任凭岁月的洗礼、人世的更迭、信息的流动，却能够始终维持着“大公无私”的氛围，人人如此——尊贵的小姐，您应该清楚这有多么困难。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">“无私”就像清水，“自私”就像墨汁。为了面对这种漆黑的毒药，有理想的组织只能迫使每个人都像水滴一样，不断地变成云朵、再从山巅上重新落下。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">能做到这一点的人类群体，在历史的长河中恐怕都屈指可数——但“先知”却奇迹般地在整片大陆上留下了无数的“果实”。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">皇帝认识到了这种异常。他试图找到答案。</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">……别卖关子了，他找到了什么？</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">尊贵的小姐，您真性急。</speak>
+            <speak chara="_bertrand">答案很简单——先知改变了这些人与生俱来的本性。</speak>
+            <hide position="center"></hide>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">“改变与生俱来的本性”？</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">是转基因吗？难道这些人被改造成了……蜂巢思维？</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">呃，我不知道您说的“转基因”或者“蜂巢思维”是什么……</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">皇帝找到的答案是……对，是拉丁文。先知留下的遗稿。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">先知说，他获得的是“禁果”中的知识；为了不使这种知识在未来伤害到什么人，所以他只愿讲明自己做了什么，而永远也不会去讲他是怎么做到的。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">先知在这些部落民的本能中“敲”下了三个原则：</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">第一，个体不得伤害整体，或者坐视整体受到伤害。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">第二，除非违背第一条原则，否则个体不得侵犯其他个体。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">第三，除非违背第一或第二条原则，否则个体必须服从整体的命令。</speak>
+            <hide position="center"></hide>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka" remark="next">这、这怎么那么像“机器人三定律”？</speak>
+            <remark post="U2FsdGVkX1+qVHLfxjwj8NGnvMCM">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">机器人三定律是阿西莫夫在他的科幻小说中为机器人设定的行为准则——</p>
+                <p class="article-text">1. 机器人不得伤害人类，或坐视人类受到伤害；</p>
+                <p class="article-text">2. 除非违背第一法则，否则机器人必须服从人类命令；</p>
+                <p class="article-text">3. 除非违背第一或第二法则，否则机器人必须保护自己。</p>
+                <p class="article-text">0. 在所有法则之前的约束：机器人不得伤害人类整体，或坐视人类整体受到伤害。</p>
+            </remark>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">……或许我们可以更贴切地叫它“军人三定律”。</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">集体并不等于全体，“集体”的内涵完全可以是“军队本身”。</speak>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_Rita">对你们的皇帝来说，这些人应该是全世界最理想的兵源了吧？</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">您说得一针见血，尊贵的小姐。</speak>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">好的统帅可以激励自己的士兵，好的士兵也可以激励自己的统帅。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">那真的是一个好时候，大家都心气高涨——唯一令人不快的，就是哈德森·洛维和他的部下们做出的那些危险事情。</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">……哈德森·洛维是谁？</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">是原本负责戍守圣赫勒拿的英国军官。他和他的部下觊觎皇帝的力量——</speak>
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">——皇帝！皇帝就在这里！</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">等等，你说什么？？</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">我感受到了皇帝的气息！这、这里难道有谁和皇帝有联系？还是说你们已经找到了皇帝？</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">啊，不，不对，难道皇帝是来捉拿我这个叛逃者的？不、不，这怎么可能，皇帝不可能离开——</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="_Bianka">给我冷静一点，你这头蠢龙！</speak>
+            <show chara="biankaDressShoutClose" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">……！</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="durandalOutstretchOpen" position="center"/>
+            <speak chara="_SwordDurandalQ">是啊是啊，年纪这么大还大呼小叫的，成什么体统嘛。</speak>
+            <show chara="durandalOutstretchOpen" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">这……这是什么？妖魔鬼怪吗？</speak>
+            <hide position="center"></hide>
+            <show chara="durandalSquint" position="right"/>
+            <speak chara="_SwordDurandalQ">哦？你是说我吗？咳咳，不是怕吓到你，不过我可是天上地下唯——</speak>
+            <show chara="durandalSquint" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">——唯一一把聒噪地想让人把它拧成麻花丢进炼钢炉的武器。</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">好啦，瞒着我做事的问题暂且不提；你既然出现在这里，也就意味着其他人都恢复过来了吧？</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="caveEntranceChichenItza.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="shakesCasualLaughClose" position="center"/>
+            <speak chara="_Shakespeare">是呀，二位中午好！呜哇——睡了个“午觉”，精神真是感觉好多了呢！</speak>
+            <show chara="shakesCasualNormalClose" position="center"/>
+            <speak chara="_Shakespeare">哦？那是什么？你们新找来的宠物吗？</speak>
+            <show chara="shakesCasualNormalClose" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">……</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">（奇怪……皇帝的气息……消失了？）</speak>
+            <hide position="center"></hide>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……船长你真的是很“精神”了。不过这可不是宠物，这是“皇帝”的前部下，贝特朗准将。</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">……皇帝？该不会是那个建“墙”的？那个我们打算收拾掉的“皇帝”？</speak>
+            <show chara="shakesCasualQuestionClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">没错。就是那个“皇帝”。</speak>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">——根据这头龙的说法，“皇帝”的名字叫做“拿破仑·波拿巴”。</speak>
+            <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+            <show chara="champoQuestionClose" position="right"/>
+            <speak chara="_Champollion">……这、这不可能？！</speak>
+            <show chara="champoQuestionClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorNormalClose" position="left"/>
+            <speak chara="_Miguel">博士……这个“波拿巴”是你的熟人吗？</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">——总不会是亲戚什么的吧？</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">……</speak>
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="champoDisgustedClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Champollion">等等，你们不是在开玩笑吗？那、那可是拿破仑耶！</speak>
+            <show chara="champoDisgustedClose" position="right"/>
+            <speak chara="_Champollion">拿破仑·波拿巴，法兰西第一帝国的皇帝、人类历史上最伟大的军事家之一！你们在大图书馆的资料里没有读到过吗？</speak>
+            <show chara="champoDisgustedClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualDislikeClose" position="left"/>
+            <speak chara="_Shakespeare">啊。这么说来好像是有这么一个人。在某些世界里带着你们法国大杀特杀，弄得全欧洲都鸡犬不宁。</speak>
+            <show chara="shakesCasualDislikeClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">……好吧，船长你的确是一个英格兰人。</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorStareClose" position="left"/>
+            <speak chara="_Miguel">唔……总之，那是一个和凯撒差不多的家伙吧？我们今后要面对的，竟然是这种级别的英雄人物吗？</speak>
+            <show chara="cervantesSailorStareClose" position="left" opacity="0.8"/>
+            <show chara="champoColdClose" position="right"/>
+            <speak chara="_Champollion">……现在还很难说吧？毕竟我们也只有这位“贝特朗准将”的一面之词而已。</speak>
+            <show chara="champoQuestionClose" position="right"/>
+            <speak chara="_Champollion">等等……“贝特朗”？</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">怎么！你这个装模做样的姑娘！不相信我老贝特朗说的话吗？！</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="champoSmileClose" position="center"/>
+            <speak chara="_Champollion">……不，不是“不相信”，而是“不能全信”。</speak>
+            <show chara="champoSmileClose" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">什么意思！我有在哪里骗你们吗？</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="center"/>
+            <speak chara="_Champollion">不，不是这种意义上的“不能全信”。</speak>
+            <show chara="champoSweatyClose" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">……那你到底是什么意思！？</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="champoNormalClose" position="center"/>
+            <speak chara="_Champollion">贝特朗先生，您所说的内容，对我们来说都属于所谓的“孤证”。</speak>
+            <show chara="champoColdClose" position="center"/>
+            <speak chara="_Champollion">也就是说，关于这个“拿破仑·波拿巴”的任何事情：如果是您记错了、或者口误讲错了，那我们根本没有任何办法来指出这些错误。</speak>
+            <show chara="champoSweatyClose" position="center"/>
+            <speak chara="_Champollion">——因为我们并没有除了您以外的信息来源。</speak>
+            <show chara="champoSmileClose" position="center"/>
+            <speak chara="_Champollion">您承认这一点吗？</speak>
+            <show chara="champoSmileClose" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">我、我当然不承认！我可是贝特朗上校，不，准将——跟随皇帝最久的人之一！</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="champoSmileClose" position="center"/>
+            <speak chara="_Champollion">嗯，所以呢？</speak>
+            <show chara="champoSmileClose" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">所以？还有什么所以？连水藻和涡虫都——</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">……</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="_bertrand">……哦，天啊，该死的水藻和涡虫！</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">……我不得不承认您说的没错。我也不能确信我现在留下的记忆都是正确无误的。</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">但是！“墙”是被皇帝发现、被皇帝启动的！这一点我绝对不会弄错！！</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="shakesCasualDislikeClose" position="center"/>
+            <speak chara="_Shakespeare">嗯嗯，传说也是这样讲的——虽然传说里并没有提到“皇帝”究竟是谁。</speak>
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="shakesCasualMercyClose" position="center"/>
+            <speak chara="_Shakespeare">不过，我们更关心的，也正是这个“皇帝”的动机：“墙”对他而言，究竟有什么好处？</speak>
+            <show chara="shakesCasualSeriousClose" position="center"/>
+            <speak chara="_Shakespeare">贝特朗准将，这个问题您怎么看？</speak>
+            <show chara="shakesCasualSeriousClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">……当然是因为帝国需要她的疆界。就像日耳曼长城、哈德良长城一样。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">不。比起罗马来说，皇帝的新帝国要更加、更加需要这座“墙”。非常需要这座“墙”。</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="shakesCasualQuestionClose" position="center"/>
+            <speak chara="_Shakespeare">……这是什么意思？</speak>
+            <show chara="shakesCasualQuestionClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">看看我吧。看看这只苟延残喘的野兽。从飞离“墙”的那一天起，我的身体机能就无法再达到最佳状态。</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">天杀的波斯女巫！她骗我说有颗紫色的宝石的可以帮助我恢复力量！</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand" remark="next">而结果呢？我完全没有办法动弹，被她当作“莱顿瓶”一样的东西，进一步地榨干能量！</speak>
+            <remark post="U2FsdGVkX18e7vGpcOTb1pyCt6c5">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“莱顿瓶”是一种18世纪时用以储存静电的装置，最先由van Musschenbroek在荷兰的莱顿试用。作为原始形式的电容器，莱顿瓶曾被用来作为电学实验的供电来源。</p>
+            </remark>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">来！你们谁帮我把这颗该死的宝石抠下来！就在我的脖子后面！</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">我也是真的傻，看着它和我们的能量来源颜色相近、气息相似，就天真的以为那都是一种东西！</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="durandalOpen" position="center"/>
+            <speak chara="_SwordDurandalQ">嗯？宝石？紫色的？</speak>
+            <show chara="durandalOutstretchSquint" position="center"/>
+            <speak chara="_SwordDurandalQ">来来来来让我飞上去看看——</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="cenote.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <show chara="durandalOutstretchOpen" position="center"/>
+            <speak chara="_SwordDurandalQ">啊！这、这不就是我“高贵”的“支配结晶”吗？为什么会在你的背上？</speak>
+            <show chara="durandalOutstretchOpen" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">奇怪的魔法剑，你说这宝石是你的东西？</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="durandalWhite" position="center"/>
+            <speak chara="_SwordDurandalQ">是啊！不过说来话长，所以我还是先帮你把它取下来吧！</speak>
+            <show chara="durandalDeadfish" position="center"/>
+            <speak chara="_SwordDurandalQ">放心，因为它可以改变能量移动的方向——也包括你的神经电信号——所以你根本不会觉得痛哦？</speak>
+            <goto goto="40" change="#000000"/>
+        </scene>
+        <scene id="40" background="cenote.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
+            <show chara="durandalSquint" position="center"/>
+            <speak chara="_SwordDurandalQ">很好，搞定！</speak>
+            <show chara="durandalOutstretchSquint" position="center"/>
+            <speak chara="_SwordDurandalQ">怎么样，一点都不痛吧？</speak>
+            <show chara="durandalOutstretchSquint" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">啊啊，简直就像挤掉脓疮一样神清气爽！哈哈哈哈！</speak>
+            <hide position="center"></hide>
+            <show chara="durandalStare" position="left"/>
+            <speak chara="_SwordDurandalQ">不过，这还真是暴殄天物啊……竟然被那个蛇女如此愚蠢地使用……</speak>
+            <show chara="durandalStare" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">所以，“支配结晶”本来的用途是什么呢？</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="durandalWhite" position="left"/>
+            <speak chara="_SwordDurandalQ">唔……用薛定谔博士想到的例子来说明的话——</speak>
+            <show chara="durandalOpen" position="left"/>
+            <speak chara="_SwordDurandalQ">“麦克斯韦妖”，你们听说过吗？</speak>
+            <show chara="durandalOpen" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">……这是什么，某种崩坏兽吗？</speak>
+            <show chara="biankaDressSighClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose" position="left"/>
+            <speak chara="_Rita">噗。比安卡大人，“麦克斯韦妖”其实是物理学家们假想出的一种妖怪——</speak>
+            <show chara="ritaVestSquintClose" position="left"/>
+            <speak chara="_Rita">这种妖怪能够控制粒子的运动方向，从而干涉能量的传播，诱导出对自己有利的能量分布。</speak>
+            <show chara="ritaVestSquintClose" position="left" opacity="0.8"/>
+            <show chara="durandalOutstretchOpen" position="right"/>
+            <speak chara="_SwordDurandalQ">嗯嗯，丽塔小姐的回答，满分！有了“支配结晶”，我就可以在更大的范围里，操纵各种各样的能量了！</speak>
+            <show chara="durandalClose" position="right"/>
+            <speak chara="_SwordDurandalQ">谢谢你，龙先生！帮了我们大忙了！向您鞠躬！</speak>
+            <show chara="durandalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">（啧。在陌生人面前反而一副彬彬有礼的样子。）</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">（噗。那是因为它喜欢你啊，比安卡大人。）</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">（喂！被这样的家伙喜欢，我只会觉得困扰好吗？！）</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="shakesCasualEmbarrassedClose" position="center"/>
+            <speak chara="_Shakespeare">咳咳。让我们回到之前的问题上来吧。</speak>
+            <bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
+            <show chara="shakesCasualQuestionClose" position="center"/>
+            <speak chara="_Shakespeare">贝特朗先生，您为什么说“皇帝”非常需要那堵“墙”呢？</speak>
+            <show chara="shakesCasualQuestionClose" position="center"/>
+            <speak chara="_Shakespeare">难道只是为了……收集那种稀缺的能量？“印度疯子”给你们“皇帝”喂的那个？</speak>
+            <show chara="shakesCasualQuestionClose" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">——没有什么“只是”！那种能量对皇帝来说很重要！</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">随着岁月的流逝，皇帝的力量开始逐渐衰退——要知道，在印度疯人的事变之前，皇帝他作为人类，已经大限将至了。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">如果一切顺其自然，那么等到“超人”力量完全消散的那一天，皇帝很可能就会死去……他在不列颠建立的新帝国也很可能就此瓦解。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">所以，他开始有计划地消耗那种印度疯人留下、而我们完全无法复制的神秘药剂；可在这期间，又发生了觊觎“长生不老”的旧英国军官试图盗取药剂的事件。</speak>
+            <speak chara="_bertrand">——对，就是我之前提到的哈德森·洛维的那件事。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">一切都在提醒着皇帝，他需要另一种、能取代那药剂的能量来源。最好还能分享给他的臣民们。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">唔，对了……这段时间里皇帝还发现了“圣歌”的秘密……我记不清这几件事的先后了。总之，皇帝既掌握了“圣歌”的力量、也获得了“墙”的蓝图。</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="center"/>
+            <speak chara="_Shakespeare">没关系，您一件一件讲就好。“圣歌”是什么？</speak>
+            <show chara="shakesCasualNormalClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">“圣歌”是“先知”创制的一种乐曲，能够唤醒人们在先祖时就刻印在血脉中的“洗礼”，使“洗礼”不会因为代际交替而逐渐消失。</speak>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">皇帝发现了这个秘密，他用这种音乐的力量劝服了很多大陆上的部落和村庄效忠自己的帝国。</speak>
+            <show chara="BertrandSmile" position="center" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="center"/>
+            <speak chara="_Rita">您说的“洗礼”，就是之前告诉我们的“三个原则”吗？</speak>
+            <show chara="ritaVestNormalClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">唔，没错，尊贵的小姐。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">第一，个体不得伤害整体，或者坐视整体受到伤害。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">第二，除非违背第一条原则，否则个体不得侵犯其他个体。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">第三，除非违背第一或第二条原则，否则个体必须服从整体的命令。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">——这些“本能”烙印在那些人的血脉里，随着先知的足迹以及人口的流动，扩散到了整个欧洲大陆。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">皇帝需要做的，只不过是吸引这些“先天公民”融入他的帝国而已。</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="shakesCasualDislikeClose" position="center"/>
+            <speak chara="_Shakespeare">“异乡的皇帝带着他异乡的仆从在大街上耀武扬威。然后，离奇的事情便发生了。”</speak>
+            <show chara="shakesCasualDislikeClose" position="center"/>
+            <speak chara="_Shakespeare">“那些看到了这个队伍的人，有一半都不由自主地加入了他们，仿佛自己生来便是皇帝的仆从。”</speak>
+            <show chara="shakesCasualDislikeClose" position="center"/>
+            <speak chara="_Shakespeare">“皇帝的仆从不吃不喝，也从不睡觉：他们只是簇拥着自己的皇帝，一边用我们听不懂的语言唱着歌，一边坚定不移地向前行军。”</speak>
+            <show chara="shakesCasualDislikeClose" position="center"/>
+            <speak chara="_Shakespeare">——这些传说是真的吗？</speak>
+            <show chara="shakesCasualDislikeClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">喂……再怎么说……这也太夸张了吧……</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">不吃不喝？不由自主？不、不，我向你保证，英格兰人——法兰西人的皇帝永远也不会做这种巫师行径！</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">传说太荒诞了。皇帝当时只是用我们这些旧部来举例说明，人的力量可以远超“人类”本身。仅此而已。</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">……什么意思？他不应该用自己当例子才对吗？</speak>
+            <show chara="biankaDressSighClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">在登陆阿姆斯特丹之前，皇帝和我们分享了他的药剂。他已经断定自己不是一个绝版孤例；而且，那时他也不再需要保存这些药剂了。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">他知道，“墙”一旦展开，就相当于给无数的人都分享了那种药剂。虽然我并不知道他是如何获得关于“墙”的知识的……也许是在某个遗迹里……</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">啊……真想回到我还没有背叛皇帝的时候啊。在那之前，事情明明都非常简单而美好的。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">也许是皇帝没有充分理解“先知”的技术。也许是皇帝的计算出现了错误。但不可更改的事实是……</speak>
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">“墙”展开之后，死了很多无辜的人。很多。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">他们明明都是皇帝的部下。那些不久之前因为相信皇帝才加入了我们的、血脉中刻印着“洗礼”的、新的部下。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">……连皇帝自己，都没有预期到会这么惨烈。</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="shakesCasualMercyClose" position="center"/>
+            <speak chara="_Shakespeare">……</speak>
+            <show chara="shakesCasualMercyClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">从事后来看，“先知”赋予这些人的“洗礼”并不足以让他们承受住蜕变的过程。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">他们中的确有一些人，像我这样挺了下来、甚至像皇帝那样完美地转化了——</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">——但还有更多的人！十分之九！他们不是像印度疯人一样变成了怪兽，就是直接在沐浴到能量后烧成了灰烬！</speak>
+            <hide position="center"></hide>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">……！</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">……太惨了。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">是的。一切都很惨。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">我虽然还没有到下地狱的年纪，但我觉得地狱里也不过如此……</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">发得出声音的、发不出声音的；哭喊哀号的，啃噬同类的；燃烧成灰烬的，崩解成碎片的……</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">……还有剩下的十分之一，对这一切冷漠到无动于衷，把那当作地板上的污渍，去清理、铲除。</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">——只是因为他们在灵魂中被深深地烙下了来自远古的“洗礼”！</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">……我受不了这一切。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">我没有办法再说服自己追随皇帝。</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">恐惧压倒了我的忠诚！逃跑成为了我唯一的本能！多么可笑的画面！一条龙！</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">……对，这甚至连“背叛”都算不上。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">我只是……受不了那种惨状。</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">我逃跑了！最忠诚的贝特朗竟然逃跑了！而且是用自己新获得的“超人”力量，像个懦夫一样逃跑了！</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="center"/>
+            <speak chara="_Rita">我想……这不是您的错。</speak>
+            <show chara="ritaVestHesitateClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">时至今日，皇帝一定在“墙”的内侧建立了空前冷酷、空前强大的“超人之国”。而耻辱的贝特朗，却只是在“墙”的外面，漫无目的地流浪。</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">懦夫贝特朗！他没有能力做任何事情！甚至连传递他所知道的信息——都做不到！</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">没有人愿意和恐怖的邪龙打交道。没有人胆敢和邪龙讨论这些危险的事情。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">百分之九十九的人见到我都只会逃命；而剩下的那一个，又打算杀死我来博取名利。</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">更可恶的是那个吃人不吐骨头的波斯女巫！把老贝特朗囚禁起来，只为了榨取他体内那如同风中残烛的能量！</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">……</speak>
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">让这一切结束吧，尊贵的小姐们。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">皇帝的秘密已经不再由一个懦夫来保守……</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">……是时候把责任交给你们这些更可靠的人了。</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">来吧，勇敢的小姐们！在你们对抗皇帝之前，不如先杀死一位他可耻的部下来练练手吧！</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">贝特朗准将已经无法远征了……但贝特朗上校渴望在战斗中死去！</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">——来吧！杀死我！让我在战斗中死去吧！</speak>
+            <hide position="center"></hide>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">……你！你突然胡思乱想些什么！这太荒谬了！</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">……请冷静一点，贝特朗先生！</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="durandalClose" position="right"/>
+            <speak chara="_SwordDurandalQ">咳咳。我倒是觉得……</speak>
+            <speak chara="_SwordDurandalQ">……他这么想死的话，那我们就成全他呗？</speak>
+            <show chara="durandalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">小幽！你在胡说些什么！？</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="durandalStare" position="right"/>
+            <speak chara="_SwordDurandalQ">不，比安卡大人，这不是胡说。</speak>
+            <bgm src="legion.mp3" status="start"></bgm>
+            <speak chara="_SwordDurandalQ">你们人类总是会死的——而选择死法也的确是很重要的。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="durandalWhite" position="center"/>
+            <speak chara="_SwordDurandalQ">只不过，有一点和懦夫先生想象的不太一样：</speak>
+            <show chara="durandalOpen" position="center"/>
+            <speak chara="_SwordDurandalQ">如果一个人无比渴望在荣耀的战斗中死去……那么他真正应该尝试的，就是看看“生活”这只怪物，在究竟多少回合之后才能杀死自己。</speak>
+            <show chara="durandalOpen" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">……“生活”？</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="durandalOutstretchOpen" position="center"/>
+            <speak chara="_SwordDurandalQ">是的，“生活”。这可是世界上最凶猛的怪物了哦？没有人能从他的利爪下逃脱；即使是真正的英雄，也只是在尽全力享受和它的搏斗罢了。</speak>
+            <show chara="durandalOutstretchWhite" position="center"/>
+            <speak chara="_SwordDurandalQ">鉴于您这类老将军一般来说比较泯顽不灵……</speak>
+            <show chara="durandalSquint" position="center"/>
+            <speak chara="_SwordDurandalQ">所以，我现在要开始骂人了。咳咳。</speak>
+            <show chara="durandalDeadfish" position="center"/>
+            <speak chara="_SwordDurandalQ">你这个老糊涂！老不死的家伙！不中用的窝囊废！</speak>
+            <show chara="durandalSquint" position="center"/>
+            <speak chara="_SwordDurandalQ">刚刚在小姐们面前高唱《出征曲》的那个战士上哪里去了？</speak>
+            <show chara="durandalStare" position="center"/>
+            <speak chara="_SwordDurandalQ">“生活”还等着你继续出招呢，世界上需要你做的事情还有很多呢！你这个——</speak>
+            <hide position="center"></hide>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">——对、对啊！</speak>
+            <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+            <show chara="durandalOutstretchStare" position="right"/>
+            <speak chara="_SwordDurandalQ">（等等，比安卡大人，我还没骂——）</speak>
+            <show chara="durandalOutstretchStare" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">（你闭嘴！现在听我的！不然我就把你借给村民们去挖矿！）</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <bgm src="12_14_Hero.mp3" status="start"></bgm>
+            <show chara="biankaDressNormalClose" position="center"/>
+            <speak chara="_Bianka">贝特朗将军。我们接下来的确打算和你的“皇帝”正面交锋——</speak>
+            <show chara="biankaDressSmileClose" position="center"/>
+            <speak chara="_Bianka">——但我也知道你做不到这这件事。不过没关系！其实你正好可以做另一件事！</speak>
+            <show chara="biankaDressSmileClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">……？</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="center"/>
+            <speak chara="_Bianka">看看你的周围。这个畸形的、令人困惑的、只知道崇拜“超人”的国度。和他们那些迷信的邻居同样令人担忧。</speak>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <speak chara="_Bianka">如果我们所有人都一“走”了之——他们又要何去何从？</speak>
+            <show chara="biankaDressShoutClose" position="center"/>
+            <speak chara="_Bianka">贝特朗将军，请帮助这个地区！作为真正的“超人”，带领他们走出迷途、重回正轨！</speak>
+            <show chara="biankaDressScreamClose" position="center"/>
+            <speak chara="_Bianka">你比“皇帝”和“波斯女巫”都更适合这个工作！因为你有一颗善良的心！这比什么都重要！</speak>
+            <show chara="biankaDressBiteClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="_Bianka">您的善良是时间都无法磨灭的——所以，不要浪费掉它啊！</speak>
+            <show chara="biankaDressBiteClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">……</speak>
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="center"/>
+            <speak chara="_Shakespeare">说得好，女武神。</speak>
+            <show chara="shakesCasualConfidentClose" position="center"/>
+            <speak chara="_Shakespeare">龙先生，这里的人们不会讨厌你，他们只会崇拜你——我相信你今后会感到很舒适的。</speak>
+            <show chara="shakesCasualConfidentClose" position="center" opacity="0.8"/>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">……可是，最忠诚的那个贝特朗，他却滑稽地背叛了皇帝！</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="champoQuestionClose" position="center"/>
+            <speak chara="_Champollion">这有什么关系？你的“皇帝”难道就没有背叛过其他人吗？</speak>
+            <show chara="champoColdClose" position="center"/>
+            <speak chara="_Champollion">他要发动侵略、他要建立帝国——那些因此而死的人，纵然全心全意地支持他，难道就可以算作“光荣牺牲”吗？</speak>
+            <show chara="champoQuestionClose" position="center"/>
+            <speak chara="_Champollion">身为一个“皇帝”，他背叛过多少人？他又真的在意你是不是“背叛”他吗？</speak>
+            <show chara="champoQuestionClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">这……</speak>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrand">好吧，皇帝的确不会在意这些。他从来没有在意过具体的某个人是不是背叛他。</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrand">……</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">是你们赢了！我承认我只是一个跨不出自己的窘境的蠢蛋！</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">——啊！该死的水藻和涡虫！</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">瞧瞧我这颗脑袋，刚才都在胡思乱想些什么！？</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="center"/>
+            <speak chara="_Shakespeare">哈哈，这有什么关系？</speak>
+            <show chara="shakesCasualConfidentClose" position="center"/>
+            <speak chara="_Shakespeare">人们常说，上了年纪的人更加需要旁人来开导——说的就是现在这种情况吧？</speak>
+            <show chara="shakesCasualLaughClose" position="center"/>
+            <speak chara="_Shakespeare">没事的，大家一起热闹热闹，把糟糕的事情忘光光就好啦！</speak>
+            <show chara="shakesCasualNormalClose" position="center"/>
+            <speak chara="_Shakespeare">来吧，我现在就把你介绍给这里的一般民众，怎么样？</speak>
+            <goto goto="50" clockwise="1"/>
+        </scene>
+        <scene id="50" background="hallOfPriestChichenItza.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……丽塔。</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">怎么了，比安卡大人？有什么心事吗？</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">……我们这样顺水推舟，是不是也有点对不住人家？突然把这么责任重大的工作推给那样一位老人？</speak>
+            <show chara="biankaDressShyClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">噗，比安卡大人真的很善良呢。</speak>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_Rita">——作为急中生智的主意来说，已经没有比这个更好的方案了。</speak>
+            <show chara="ritaVestNaughtyClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">真的吗？</speak>
+            <show chara="biankaDressSmileClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">至少这个新工作和他之前的经历没有什么负面联系，也能让他重新找到自身存在的价值。</speak>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">归根结底，没有比一份好工作更能帮助人调理身心的事情了，不是吗？</speak>
+            <goto goto="60" clockwise="1"/>
+        </scene>
+        <scene id="60" background="ballcourtFar.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="shakesCasualConfidentClose" position="center"/>
+            <speak chara="_Shakespeare">……综上所述，为了庆贺最古老的超人、“龙将军”贝特朗重回大地——</speak>
+            <show chara="shakesCasualLaughClose" position="center"/>
+            <speak chara="_Shakespeare">——让我们来举办一场盛大的球赛吧！红蓝大战！人人都可以报名参与！</speak>
+            <hide position="center"></hide>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_citizenChichenItzaMan">万岁！纳科姆大人万岁！</speak>
+            <show chara="vilagerSmileClose" position="left" opacity="0.8"/>
+            <show chara="vilagerWomanSmileClose" position="right"/>
+            <speak chara="_citizenChichenItzaWoman">天黑之后就点起火把，让孩子们在球场里迎接新纪元的到来吧！</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……晚出来了一步，发生什么了？吵闹成这个样子。</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="durandalOutstretchOpen" position="right"/>
+            <speak chara="_SwordDurandalQ">哎呀，您刚才不也听到了吗？为了给“龙将军”造势，船长在鼓动城里的每一个人都来参加球赛哦？</speak>
+            <show chara="durandalOutstretchOpen" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……球赛？足球我倒是会踢，不过这里的“球赛”究竟是什么？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion" remark="next">中美洲蹴球。根据大图书馆的资料，那是这一带最受欢迎的体育运动。</speak>
+            <remark post="U2FsdGVkX18XlOZKtpb4YulAHtLS">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“蹴球”（玛雅语：pitz；纳瓦特尔语：ōllamalīztli）是一种发源于中美洲的球类运动，有超过三千年的历史。由于这项运动的历史非常悠久，它的详细规则随时间和地点会有所不同。一般而言，这是两人或两方对赛的竞技项目。</p>
+                <p class="article-text">蹴球在古代具有宗教意义。球本身代表太阳，正式的比赛常被认为是天上的神明与地下世界的主宰之间的斗争。而最后（在正式比赛中），落败一方的领队会被斩首或取出心脏以作活祭品，他的头骨将作为新球的球心（当时的球都是实心橡胶球）。</p>
+            </remark>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">简单来说就是两只队伍轮流击球，保持球不出界——但击球的时候只能用肘、膝或者腰臀这几个部位。</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">呃……好诡异的运动啊……</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">对了，还有一项附加规则：如果能够把球送过对方的石环，那么就可以直接赢得比赛。</speak>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">在这种情况下，之前依靠球出界次数、犯规次数来计算的小分将毫无意义。</speak>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">——当然，这种得分方式的难度也是非常非常大的。</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">……哦？一击必杀吗？这倒是有点刺激啊。</speak>
+            <goto goto="70" change="#000000"/>
+        </scene>
+        <scene id="70" background="ballcourtClose.jpg">
+            <bgm src="11_29_lab.mp3" status="continue"></bgm>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">啊，侦探博士——你说的石环，就是墙上的那个吗？</speak>
+            <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">对的，就是它。</speak>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">如你所见，石环高挂在墙壁的顶端，而且内环的尺寸比球的半径也大不了多少。</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">哼哼，对于女武神来说，没有什么是不可能的！</speak>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">我要到船长那里报名！传说中的一击必杀——你们就给我看好了吧！</speak>
+            <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">噗。既然这样，那么就由我来担当比安卡大人的对手吧。</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">哦吼？丽塔，你果然还是想和我一较高下的吧？</speak>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">嗯嗯，这样才像一个真正的女武神嘛！不错不错，非常好！值得鼓励！</speak>
+            <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">不，比安卡大人……我只是担心如果没有另一个女武神做您的对手，比赛说不定会一边倒……</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……什么嘛，真扫兴。</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">不过话虽如此——比赛场上，你也不至于会放水吧？丽塔副官？</speak>
+            <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">当然。我会尽量不让比安卡大人失望的。</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">没关系，这样就足够了。</speak>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">走，我们快点去报名吧！</speak>
+            <goto goto="80" clockwise="1"/>
+        </scene>
+        <scene id="80" background="CG17-1.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <speak chara="_Shakespeare">那么，接下来是临时插入的红蓝大战特别回合！</speak>
+            <speak chara="_citizenChichenItzaFan">哦哦哦哦哦哦哦！</speak>
+            <speak chara="_Shakespeare">红方特别代表队——“一击必杀”！</speak>
+            <speak chara="_Shakespeare">队长：女武神，比安卡·阿塔吉娜！</speak>
+            <speak chara="_citizenChichenItzaFan">比安卡大人！我们全押你！加油！！</speak>
+            <speak chara="_Shakespeare">蓝方特别代表队——“谨尊命令绝不放水所以大意的话可是会输哦比安卡大人”！</speak>
+            <speak chara="_Shakespeare">队长：女武神，丽塔·洛丝薇瑟！</speak>
+            <speak chara="_citizenChichenItzaFan">丽塔大人万岁！让对面那些赌狗输个倾家荡产吧！</speak>
+            <speak chara="_Shakespeare">嗯嗯，看来大家都很热情呢！选手们想必也已经摩拳擦掌了吧？</speak>
+            <speak chara="_Shakespeare">那么，我宣布——</speak>
+            <speak chara="_Shakespeare">——现在开球！</speak>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="ballcourtClose.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">哦哦哦，开球以后，双方立即短兵相接！</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="CG17-2.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">哇！精彩！比安卡在前场用肘部打一记反弹球，但丽塔随机应变，将球顶向了后场空当！</speak>
+            <speak chara="_Shakespeare">红队救球失败，蓝队得分！1：0！</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="ballcourtClose.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">天呐！红队马上还以颜色！比安卡扫出一记追身球，接发球直接得分！1：1！</speak>
+            <speak chara="_Shakespeare">现在比赛似乎进入了焦灼状态……双方都有一段时间没有得分了……</speak>
+            <speak chara="_Shakespeare">咦？失误？比安卡失误了！发力过猛，球被她直接打上了看台！1：2，蓝队再次领先！</speak>
+            <speak chara="_Shakespeare">哎呀！红队连续失误！</speak>
+            <speak chara="_Shakespeare">似乎是受到刚才那个失误的影响，红队的后场队员接球不稳，将球直接垫出了本方底线！1：3！</speak>
+            <speak chara="_Shakespeare">红队不甘落后，连续发起向前的传球——她们是打算直接将球射进环里吗？</speak>
+            <speak chara="_Shakespeare">啊！蓝队出其不意再次将球打向红队后场！一次很勉强的救球……触球部位违例！红队犯规！1：4！</speak>
+            <speak chara="_Shakespeare">现在的比分是蓝队4：1领先！她们再赢一分就可以拿下比赛！压力全部来到了红队的肩上！</speak>
+            <speak chara="_Shakespeare">红队队员似乎互相比划着什么……开球了！红队以破釜沉舟之势全部前压！蓝队沉着应对，阵型没有混乱——</speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="CG17-3.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">哇哦！天啊！发生了什么？！天外飞仙！</speak>
+            <speak chara="_Shakespeare">比安卡趁全队前压的机会拉到了侧翼区域，用膝盖打出了一记凌空抽射！球应声穿过了圆环！</speak>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="ballcourtClose.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">球穿过了圆环！红队在1：4的不利局面下实现了绝杀逆转！</speak>
+            <speak chara="_Shakespeare">红队获胜！红队获胜！她们就像自己的队名一样，实现了“一击必杀”！</speak>
+            <speak chara="_Shakespeare">恭喜她们！恭喜比安卡！这是今天到目前为止最精彩的一球！</speak>
+            <speak chara="_Shakespeare">红蓝大战特别回合，红方在总比分榜上再添一分！双方总比分14：12，红队继续领先！</speak>
+            <goto goto="140" clockwise="1"/>
+        </scene>
+        <scene id="140" background="ballcourtFar.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">丽塔，这真是一场好比赛！我们这边差点就要输了！</speak>
+            <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">是啊，那一球真的是太惊人了。</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">观众也非常热情！气氛真是太棒了！</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">没错……这真的很难理解……</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrand">他们不是刚刚才失去自己的旧君主吗？转头就在球场里大肆庆祝起来！难道他们之前的虔诚，全部都徒有其表？</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="champoSmileClose" position="center"/>
+            <speak chara="_Champollion">——这应该就是所谓“文化差异”吧？而且，说实话，我挺羡慕他们的。</speak>
+            <show chara="champoSmileClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">……羡慕？</speak>
+            <show chara="BertrandThink" position="center" opacity="0.8"/>
+            <show chara="champoNormalClose" position="center"/>
+            <speak chara="_Champollion">是啊。统治者对他们来说只不过是个图腾而已——该怎么过日子就怎么过日子，自己的心情不会受这些高高在上的东西影响。</speak>
+            <show chara="champoSmileClose" position="center"/>
+            <speak chara="_Champollion">这不是很棒吗？这说明他们的统治者极少会干涉到他们的日常生活。</speak>
+            <show chara="champoSweatyClose" position="center"/>
+            <speak chara="_Champollion">我们不谈那个波斯人在其他方面如何——单从这方面来说，我们必须承认，她是个难得的好君主。</speak>
+            <show chara="champoNormalClose" position="center"/>
+            <speak chara="_Champollion">这里的人们会崇敬制度，而不仅仅是崇敬统治者——尽管他们的制度很有问题，但这总好过空有制度却得不到信任。</speak>
+            <show chara="champoSmileClose" position="center"/>
+            <speak chara="_Champollion">——所以，“大祭司”虽然换成了“龙将军”，但这个社会中真正美好的东西也不会“人亡政息”。</speak>
+            <show chara="champoSmileClose" position="center"/>
+            <speak chara="_Champollion">对了，抛开清规戒律之间的区别不谈——你真的在意上帝的名字，是用字母J开头，还是用字母A开头吗？</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrand">这……</speak>
+            <show chara="champoSmileClose" position="center"/>
+            <speak chara="_Champollion">好好思考一下吧，我们的“龙将军”。</speak>
+            <end post="U2FsdGVkX19GiBRUa512FcBs35kF"/>
+        </scene>
+    </story>
+</data>

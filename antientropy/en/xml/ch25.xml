@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="beachNorfolk.jpg">
+            <bgm src="10_25_noise.mp3" status="start"></bgm>
+            <sound src="8_24_launch.mp3"/>
+            <text remark="next">受突发大规模电磁脉冲的遗留影响，你所搭乘的专机备降在了诺福克海军基地的军用机场。</text>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">诺福克海军基地（Naval Station Norfolk）是美国海军设于弗吉尼亚州诺福克的一处军港，是美国“大西洋舰队”的母港，也是全世界最大的一座海军基地。</p>
+            </remark>
+            <text>根据监测到的数据，电磁脉冲的中心，应当来自纽约市附近——并且伴随着灾难级的崩坏脉冲。</text>
+            <text>你来不及震惊，更来不及悲伤——身为“紧急咨询名单”上能联系到的最高领导人，你有责任亲临现场统筹救灾事宜。</text>
+            <text>原本，你们只是为了最有效地掩人耳目，才决定在预定日程之前，提前行动，撤出所有可能沦为奥托人质的潜在对象——</text>
+            <text>——甚至为了迷惑潜在的敌人，专门用伪造的发信基站和自己的学生通信，仿佛计划只是刚刚开始执行而已。</text>
+            <text>然而，阴差阳错之下，在可知的范围内，你竟然成了世界上头号强国的临时掌控者。</text>
+            <text>随行的非战斗人员可以暂时安置在基地中。载有其他重要“客人”的后续专机也会陆续来此降落。</text>
+            <text>就事论事之下，你暗自庆幸——这是一个幅员辽阔的国家。</text>
+            <text>在任何灾难面前，人们总能找到稳定的后方。</text>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="aircraftCockpit.jpg">
+            <bgm src="04_20_tank.mp3" status="start"></bgm>
+            <speak chara="ritaFullNameNoFace">教授，我们已经抵达拉里坦湾上空。</speak>
+            <speak chara="ritaFullNameNoFace">是否改为侦察队形？</speak>
+            <text>经过两次加油、前后超过四个小时的长途飞行，在你的“王牌特工”带领下，作为先锋的直升机编队即将抵达灾难的中心地区。</text>
+            <text>地面上找不到遭受侵害的迹象，除了部分公路出现了堵车，从高空看去，并没有其他显而易见的异常。</text>
+            <speak chara="planckYourNameNoFace">进入侦察模式。</speak>
+            <speak chara="planckYourNameNoFace">目前的情形十分反常，通知大家执行最高程度的戒备，不要放过任何蛛丝马迹。</speak>
+            <speak chara="ritaFullNameNoFace">是，教授。</speak>
+            <speak chara="planckYourNameNoFace">保持敏锐。我去冲一杯咖啡。</speak>
+            <hide position="center"></hide>
+            <speak chara="crewNoNameNoFace">……流星！2点钟方向，天空中出现了流星！</speak>
+            <speak chara="planckYourNameNoFace">……？！</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="CG25-1.jpg">
+            <bgm src="04_20_tank.mp3" status="continue"></bgm>
+            <text>流星的蹊跷出现，当然令人意外。</text>
+            <text>然而，更加令你惊诧的是，这个在杂物箱里不声不响藏了一路的孩子。</text>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="darkEnergy.jpg">
+            <bgm src="04_20_tank.mp3" status="stop"></bgm>
+            <text>……</text>
+            <bgm src="03_03_bostonNight.mp3" status="start"></bgm>
+            <text>你知道，无论如何，自己必须转移这个邪恶主教的注意力。</text>
+            <text>如果是一般的伤员，现在的你可以量子化，所以浑水摸鱼把你的朋友们转移出去，完全可行。</text>
+            <text>但是在目前的状况下……那可以说毫无用处。</text>
+            <text>你明白，“黑渊”给他们造成的致命伤，不是一般的医疗手段能够治疗的。</text>
+            <text>更糟糕的是，唯一能做到这一点的“白花”，必须要和“黑渊”结合，才能达成足够的创生效果。</text>
+            <text>但你并不是这对双子神之键所认可的主人……</text>
+            <text>究竟要如何——</text>
+            <text>……</text>
+            <text>不，机会也许会有一次。</text>
+            <text>……</text>
+            <text>爱因斯坦。</text>
+            <text>特斯拉。</text>
+            <text>瓦尔特。</text>
+            <text>他们的光辉不能就这样湮灭于黑暗之中。</text>
+            <text>为此，现在唯一能战斗的人，责无旁贷。</text>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="CG25-2.jpg">
+            <bgm src="8_24_war.mp3" status="start"></bgm>
+            <speak chara="ottoNoFace">……大言不惭的家伙。</speak>
+            <speak chara="ottoNoFace">……近身攻击不成，便想用分身来迷惑我吗。</speak>
+            <speak chara="ottoNoFace">好啊，那我们就比拼一下，谁才是真正拥有无限可能性的存在吧。</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG25-3.jpg">
+            <bgm src="8_24_war.mp3" status="continue"></bgm>
+            <speak chara="ottoNoFace">此世无需永恒之物；</speak>
+            <speak chara="ottoNoFace">梦幻泡影，刹那无常，反是真实。</speak>
+            <speak chara="ottoNoFace">第一神之键，第七复数拟态——</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="CG25-3.jpg">
+            <bgm src="8_24_war.mp3" status="continue"></bgm>
+            <cg src="xuKongWanZang.png" bg="CG25-3.jpg" fadeIn="0" fadeOut="0"></cg>
+            <bgm src="8_24_war.mp3" status="stop"></bgm>
+            <sound src="05_18_gun.mp3"/>
+            <cg src="yuZhongTianHua.png" bg="CG25-4.jpg" fadeIn="0"></cg>
+            <goto goto="90" change="#000000"/>
+        </scene>
+        <scene id="90" background="brightonBeach.jpg">
+            <bgm src="04_20_tank.mp3" status="start"></bgm>
+            <show chara="ottoScornfulGunFar" position="center"/>
+            <speak chara="ottoNoFace">……不堪一击。</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="CG25-5.jpg">
+            <bgm src="04_20_tank.mp3" status="stop"></bgm>
+            <sound src="05_18_claw.mp3"/>
+            <cg src="CG25-5.jpg" bg="CG25-5.jpg" fadeIn="0" fadeOut="1"></cg>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="brightonBeach.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <speak chara="ritaNoNameNoFace">……啧。果然没有用吗。</speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="brightonBeach.jpg">
+            <bgm src="morning.mp3" status="continue"></bgm>
+            <show chara="ottoChangeGunFar" position="center"/>
+            <speak chara="ottoNoFace">……哟。</speak>
+            <bgm src="04_20_tank.mp3" status="start"></bgm>
+            <show chara="ottoScornfulGunFar" position="center"/>
+            <speak chara="ottoNoFace">站出来，老鼠。</speak>
+            <show chara="ottoHaughtyGunFar" position="center"/>
+            <speak chara="ottoNoFace">不要以为打搅了我的兴致，你还能全身而退。</speak>
+            <hide position="center"></hide>
+            <speak chara="ritaNoNameNoFace">……呵呵。你不知道吗，主教大人？</speak>
+            <show chara="ritaSmileGunFar" position="center"/>
+            <speak chara="ritaFullNameNoFace">历史上最伟大的一些哲学家是这样说的：</speak>
+            <show chara="ritaNormalGunFar" position="center"/>
+            <speak chara="ritaFullNameNoFace" remark="next">“一切伟大的世界历史事变和人物，可以说都要出现两次——”</speak>
+            <speak chara="ritaFullNameNoFace" remark="next">“第一次是悲剧，而第二次是笑剧。”</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">这是马克思《路易·波拿巴的雾月十八日》的开篇之言（与原文略有出入）。</p>
+            </remark>
+            <show chara="ottoConfidentGunFar" position="center"/>
+            <speak chara="ottoNoFace">……哦？</speak>
+            <show chara="ritaTalkGunFar" position="center"/>
+            <speak chara="ritaFullNameNoFace">奥托先生……我们国家的《独立宣言》里有这样的一段话——</speak>
+            <show chara="ritaNormalGunFar" position="center"/>
+            <speak chara="ritaFullNameNoFace">“当今大不列颠国王的历史，是一再损人利己和强取豪夺的历史，所有这些暴行的直接目的，就是想在这些邦建立一种绝对的暴政。”</speak>
+            <show chara="ritaSmileGunFar" position="center"/>
+            <speak chara="ritaFullNameNoFace">您如果想模仿“乔治三世”的所作所为……</speak>
+            <show chara="ritaNodGunFar" position="center"/>
+            <speak chara="ritaFullNameNoFace">……那不过是把您自己变成真正的“小丑”而已。</speak>
+            <show chara="ottoLaughGunFar" position="center"/>
+            <speak chara="ottoNoFace">……哈。我还以为你突然出现在这里，是要说什么引领时代的高论呢，度假村的老板娘。</speak>
+            <show chara="ottoHaughtyGunFar" position="center"/>
+            <speak chara="ottoNoFace">让我这么回答你吧——</speak>
+            <show chara="ottoConfidentGunFar" position="center"/>
+            <speak chara="ottoNoFace">任何统治都是一种暴政。只有缺乏担当的人才会巧言令色，贼喊捉贼。</speak>
+            <show chara="ottoHaughtyGunFar" position="center"/>
+            <speak chara="ottoNoFace">所以，你们大可不必上升到哲学的高度——</speak>
+            <show chara="ottoScornfulGunFar" position="center"/>
+            <speak chara="ottoNoFace">——今天，我只是打算清除一些绊脚石而已。</speak>
+            <goto goto="150" change="#ffffff"/>
+        </scene>
+        <scene id="150" background="darkEnergy.jpg">
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <text>很好……完美地拖延了时间。</text>
+            <text>尽管我完全没有预期到还有像你这样的帮手……</text>
+            <text>但是，谢谢。</text>
+            <text>当然，还有帮助我们，在敌人眼皮子底下完成沟通的——艾妲。</text>
+            <text>总之，这样一来……</text>
+            <text>……接力棒，就可以安稳地交到那个人的手上了吧。</text>
+            <goto goto="160" change="#ffffff"/>
+        </scene>
+        <scene id="160" background="CG25-6.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="ottoNoFace">……嗯？</speak>
+            <goto goto="170" change="0"/>
+        </scene>
+        <scene id="170" background="CG25-7.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="schroPlasmaNoFace">意识重构完成，采用崩坏能表达。</speak>
+            <speak chara="schroPlasmaNoFace">全体粒子，脱离麦克斯韦-玻尔兹曼分布。</speak>
+            <speak chara="schroPlasmaNoFace">基础次元幺正性取消。</speak>
+            <goto goto="180" change="0"/>
+        </scene>
+        <scene id="180" background="CG25-8.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <cg src="heiYuanBaiHuaDiLingGongLv.png" bg="CG25-8.jpg" fadeIn="0" fadeOut="0"></cg>
+            <bgm src="11_17_tatakau.mp3" status="stop"></bgm>
+            <sound src="05_18_smash.mp3"/>
+            <cg src="jieXianTuPoQiangZhiZhanKai.png" bg="CG25-8-2.jpg" fadeIn="0" fadeOut="1"></cg>
+            <goto goto="900" change="#ffffff"/>
+        </scene>
+        <scene id="900" background="cloudSky.jpg">
+            <bgm src="themeWelt.mp3" status="start"></bgm>
+            <text>你从一片朦胧之中苏醒。</text>
+            <text>你感到有一股熟悉的气息，不，能量，在快速消散。</text>
+            <text>和你体内的那些灵魂残渣不同——</text>
+            <text>她并非死去；却也绝不能称为活着。</text>
+            <text>……但比起关心她的下落，你明白自己还有更重要的事情要做。</text>
+            <text>她留给你的等离子防护罩，让气急败坏的主教，暂时无可奈何。</text>
+            <text>此时此刻，你明白无误地确信——</text>
+            <text>爱因斯坦和特斯拉博士，她们的生命，不会就此终结。</text>
+            <text>仿佛她们从未受伤。</text>
+            <text>仿佛她们就是不死之身。</text>
+            <text>……你知道自己已经掌握了生命创生的秘密。</text>
+            <text>尽管你不知道这些知识来自何方——</text>
+            <text>但咒语的咏唱，能量的调度，基因的重置……一切都是那样的自然、流畅。</text>
+            <text>你根本不需要评估这样做的代价……</text>
+            <text>因为……</text>
+            <text>这一个多月来的种种经历，已经成为了你的无价之宝。</text>
+            <goto goto="1000" change="#ffffff"/>
+        </scene>
+        <scene id="1000" background="studyNight.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center"/>
+            <show chara="einSmileClose" position="back"/>
+            <speak chara="einSmileClose">……瓦尔特。W.E.L.T. </speak>
+            <speak chara="einSmileClose">我觉得这个名字挺适合你。 </speak>
+            <goto goto="1010" change="#ffffff"/>
+        </scene>
+        <scene id="1010" background="weltRoomDay2.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center"/>
+            <show chara="teslaAngryCloseNoName" position="back"/>
+            <speak chara="teslaAngryCloseNoName">真是的，你是聋子吗？都叫你几声了！亏我还好心撬门进来。</speak>
+            <goto goto="1015" change="#ffffff"/>
+        </scene>
+        <scene id="1015" background="italianRestaurant.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center"/>
+            <show chara="0einSlyVestClose-up" position="back"/>
+            <speak chara="einNoFace">你大概不知道，我最近在控制自己少说废话。</speak>
+            <speak chara="einNoFace">我爷爷说过，“成功等于天才加汗水加少说废话”。</speak>
+            <goto goto="1020" change="#ffffff"/>
+        </scene>
+        <scene id="1020" background="barBillings.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center"/>
+            <show chara="planckSlyClose-up" position="back"/>
+            <speak chara="planckNoFace">落基山牡蛎。</speak>
+            <show chara="schroNormalAhClose-up" position="back"/>
+            <speak chara="schroNoFace">教授她比较喜欢吃这个。你们能不能习惯就不知道了。</speak>
+            <goto goto="1030" change="#ffffff"/>
+        </scene>
+        <scene id="1030" background="CG6-1.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="back"/>
+            <speak chara="teslaNoFace">啧。你干嘛啦！</speak>
+            <speak chara="teslaNoFace">喂！性骚扰啦！</speak>
+            <speak chara="teslaNoFace">爱因斯坦！薛定谔！普朗克！你们都不来管管她吗？！</speak>
+            <goto goto="1040" change="#ffffff"/>
+        </scene>
+        <scene id="1040" background="CG6-2.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="back"/>
+            <speak chara="einNoFace">To the youngs who came here（来到这里的少年们啊）</speak>
+            <speak chara="einNoFace">I leave the last Soulium to you（我把最后的魂钢托付给你们了）</speak>
+            <goto goto="1050" change="#ffffff"/>
+        </scene>
+        <scene id="1050" background="adaRoom.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center"/>
+            <show chara="adaSmileFar" position="back"/>
+            <speak chara="adaNoFace">你好，我是终端界面试作品0042号，人类名字是艾妲。</speak>
+            <speak chara="adaNoFace">A ~ D ~ A ~ </speak>
+            <speak chara="adaNoFace">艾——妲。</speak>
+            <goto goto="1060" change="#ffffff"/>
+        </scene>
+        <scene id="1060" background="corridorMessy.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center"/>
+            <show chara="teslaFoolDrunkWinterClose" position="back"/>
+            <speak chara="teslaNoFace">啊。害羞了害羞了。</speak>
+            <goto goto="1070" change="#ffffff"/>
+        </scene>
+        <scene id="1070" background="graveDayLate.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center"/>
+            <show chara="reaSmileEmWinterFar" position="back"/>
+            <speak chara="reannaNoNameNoFace">我的名字是蕾安娜·布里甘缇亚。</speak>
+            <show chara="reaSmileAhWinterFar" position="back"/>
+            <speak chara="reannaNoFace">虽然是总部直属的女武神——但今天也不过和你一样，是个来扫墓的普通人罢了。</speak>
+            <goto goto="1080" change="#ffffff"/>
+        </scene>
+        <scene id="1080" background="studyLamp.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center"/>
+            <show chara="teslaBoringEyeClose-up" position="back"/>
+            <speak chara="teslaNoFace">那些顽固相信人有所谓“灵魂”的家伙，要么是不愿深究这个世界的本质——</speak>
+            <show chara="teslaEmbarraEyeClose-up" position="back"/>
+            <speak chara="teslaNoFace">要么，就是被“自我”这个概念搅乱了方寸，非要找一件“国王的新衣”来证明自己的“合法性”不可。</speak>
+            <show chara="teslaShameEyeClose-up" position="back"/>
+            <speak chara="teslaNoFace">明白吗？这些人不敢相信自己只是大自然随性的产物，不敢相信自己只是万事万物自然演化的副产品。</speak>
+            <show chara="teslaSnickerEyeClose-up" position="back"/>
+            <speak chara="teslaNoFace">他们宁愿我们在虚构的概念中“伟大”，也不要脚踏实地去好好认识自己。</speak>
+            <speak chara="teslaNoFace">正因为怕得要死，所以更愿意目空一切——和那些高喊“君权神授”的国王没有任何区别。</speak>
+            <goto goto="1090" change="#ffffff"/>
+        </scene>
+        <scene id="1090" background="CG12-1.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="back"/>
+            <speak chara="einNoFace">But come ye back when summer's in the meadow, （但你会回来，当夏日重临牧场）</speak>
+            <speak chara="einNoFace">Or when the valley's hushed and white with snow, （或是万籁俱静，那时白雪满川）</speak>
+            <speak chara="einNoFace">It's I'll be here in sunshine or in shadow, （是我，我无论光影都在）</speak>
+            <speak chara="einNoFace">Oh, Danny Boy, oh Danny Boy, I love you so!（哦，丹尼少年，我是如此爱你）</speak>
+            <goto goto="1100" change="#ffffff"/>
+        </scene>
+        <scene id="1100" background="cloudSky.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">“我要将生命泉的水，”</speak>
+            <speak chara="weltNoFace">“白白赐给那口渴的人喝。”</speak>
+            <speak chara="weltNoFace">……不，这还远远不够。</speak>
+            <goto goto="1120" change="0"/>
+        </scene>
+        <scene id="1120" background="cloudSky.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
+            <text article="1">
+                <p class="article-text">This is the day, which down the void abysm</p>
+                <br />
+                <p class="article-text">其时已至，虚空深渊之下，</p>
+            </text>
+            <text article="1">
+                <p class="article-text">At the Earth-born's spell yawns for Heaven's despotism,</p>
+                <br />
+                <p class="article-text">在人间法宝吞噬天上暴君之日，</p>
+            </text>
+            <text article="1">
+                <p class="article-text">And Conquest is dragged captive through the deep:</p>
+                <br />
+                <p class="article-text">那征服者被拖进深处，无从翻身：</p>
+            </text>
+            <text article="1">
+                <p class="article-text">Love, from its awful throne of patient power</p>
+                <br />
+                <p class="article-text">爱，从它那折磨人的、属于忍耐之力</p>
+            </text>
+            <text article="1">
+                <p class="article-text">In the wise heart, from the last giddy hour</p>
+                <br />
+                <p class="article-text">与智慧之心的王座里，从末次昏迷不醒的时间中</p>
+            </text>
+            <text article="1">
+                <p class="article-text">Of dread endurance, from the slippery, steep,</p>
+                <br />
+                <p class="article-text">受尽的煎熬里，从湿滑、陡峭、</p>
+            </text>
+            <text article="1">
+                <p class="article-text">And narrow verge of crag-like agony, springs</p>
+                <br />
+                <p class="article-text">无法攀登、乱石一般的痛苦里，喷薄而出，</p>
+            </text>
+            <text article="1">
+                <p class="article-text">And folds over the world its healing wings.</p>
+                <br />
+                <p class="article-text">并用治愈一切的羽翼将世界庇护。</p>
+            </text>
+            <goto goto="1160" change="#ffffff"/>
+        </scene>
+        <scene id="1160" background="darkEnergy.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <text article="1">
+                <p class="article-text">To suffer woes which Hope thinks infinite;</p>
+                <br />
+                <p class="article-text">去忍受无穷痛苦，哪怕希望漫漫无期；</p>
+            </text>
+            <text article="1">
+                <p class="article-text">To forgive wrongs darker than death or night;</p>
+                <br />
+                <p class="article-text">去宽恕一切罪过，哪怕比死亡和夜晚还要黑暗；</p>
+            </text>
+            <text article="1">
+                <p class="article-text">To defy Power, which seems omnipotent;</p>
+                <br />
+                <p class="article-text">去打倒权威，哪怕它看似无所不能；</p>
+            </text>
+            <text article="1">
+                <p class="article-text">To love, and bear; to hope till Hope creates</p>
+                <br />
+                <p class="article-text">去爱，去承担；在没有希望的岁月坚守，等待它</p>
+            </text>
+            <text article="1">
+                <p class="article-text">From its own wreck the thing it contemplates;</p>
+                <br />
+                <p class="article-text">从自身的废墟里，从头实现曾经的诺言；</p>
+            </text>
+            <text article="1">
+                <p class="article-text">Neither to change, nor falter, nor repent;</p>
+                <br />
+                <p class="article-text">不要改弦易辙，不要灰心丧气，更不要懊悔莫及；</p>
+            </text>
+            <text article="1">
+                <p class="article-text">This, like thy glory, Titan, is to be</p>
+                <br />
+                <p class="article-text">这，如你的光荣一般，                    <ruby class="article-text-h">普罗米修斯                        <rt>泰坦</rt>
+                    </ruby>，这才是
+                </p>
+            </text>
+            <text article="1">
+                <p class="article-text">Good, great and joyous, beautiful and free;</p>
+                <br />
+                <p class="article-text">善良、伟大和欢愉的象征，美丽和自由的图腾；</p>
+            </text>
+            <text article="1">
+                <p class="article-text">This is alone Life, Joy, Empire, and Victory.</p>
+                <br />
+                <p class="article-text">这才是无上的生命、快乐、权威、与胜利。</p>
+            </text>
+            <goto goto="1200" change="0"/>
+        </scene>
+        <scene id="1200" background="CG25-9.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace" remark="next">——其时已至，此为吞噬天上暴君之日。</speak>
+            <remark post="U2FsdGVkX18o9ZihHoexEPzjpmN9">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">引自雪莱（P. B. Shelley）《解放了的普罗米修斯》（Prometheus Unbound）的结尾部分。</p>
+            </remark>
+            <speak chara="weltNoFace">奥托·阿波卡利斯……</speak>
+            <speak chara="weltNoFace">不，小丑α——</speak>
+            <speak chara="weltNoFace">见识一下星星粉碎的样子吧！</speak>
+            <end post="U2FsdGVkX18FjFK3VUd0XhOzu9el"/>
+        </scene>
+    </story>
+</data>		

@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <img>
+        <image src="zeta_function.png" type="background"/>
+    </img>
+    <story title="1">
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="corridorMessy.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <text>与整洁的一层和走道相比，二层的私人空间简直就是人间地狱。</text>
+            <text>几分钟前的瓦尔特绝不会想到，自己将要在女孩子的卧室外发现以下这些东西——</text>
+            <text>叠叠乐一样的披萨盒。</text>
+            <text>废纸堆成了小山的垃圾槽。</text>
+            <text>到处乱晾的胸罩、内裤和长筒袜。</text>
+            <text>不知道有什么用的电子装置横七竖八地倒在墙角，上面积满了灰尘。</text>
+            <text>难以想象，仅仅是因为保洁员不会上来，一切就会变成这种令人发指的样子。</text>
+            <text>而如果说，万一，万一这场面就是无数单身女性的私宅标配——又不知会令多少男士大跌眼镜、心碎不已呢？</text>
+            <text>至少，瓦尔特是抱着一种沉重的心情在寻找203室。</text>
+            <sound src="8_24_knock_door.mp3"/>
+            <text>“咚咚。”</text>
+            <text>……</text>
+            <sound src="8_24_door_lock.mp3"/>
+            <text>“咔嗒。”</text>
+            <text>令人有些意外，门很快就开了——</text>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <text>不对！这是反锁的声音啊！</text>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltNoFace">……特斯拉博士！我、我不是故意上来的！</speak>
+            <show chara="weltShameClose" position="left" opacity="0.7"/>
+            <show chara="teslaAngryNightyQ" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">哈？你是想说自己在梦游吗，瓦尔特助理？</speak>
+            <text>门内侧传来了一个暴躁而很有精神的声音——毫无疑问、如假包换的特斯拉本人。</text>
+            <show chara="weltShameClose" position="left"/>
+            <show chara="teslaAngryNightyQ" position="center" opacity="0.7"/>
+            <speak chara="weltNoFace">不不不我不是……</speak>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">我是说……是爱因斯坦博士让我来叫醒你……</speak>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraNightyQ" position="center"/>
+            <speak chara="teslaNoFace">我没睡觉！</speak>
+            <show chara="teslaEmbarraNightyQ" position="center" opacity="0.7"/>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <speak chara="weltNoFace">好吧……总之我们、现在、要搭最近的班机、去美国……</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="teslaBoringNightyQ" position="center"/>
+            <speak chara="teslaNoFace">等等等等——</speak>
+            <speak chara="teslaNoFace">——去哪里？</speak>
+            <show chara="weltSurpriseClose" position="left"/>
+            <show chara="teslaBoringNightyQ" position="center" opacity="0.7"/>
+            <speak chara="weltNoFace">去美国。</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="teslaBoringNightyQ" position="center"/>
+            <speak chara="teslaNoFace">——现在？</speak>
+            <show chara="weltSurpriseClose" position="left"/>
+            <show chara="teslaBoringNightyQ" position="center" opacity="0.7"/>
+            <speak chara="weltNoFace">是的……</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="teslaBoringNightyQ" position="center"/>
+            <speak chara="teslaNoFace">……美利坚合众国（United States of America）的那个“美国”（America）？</speak>
+            <show chara="weltSurpriseClose" position="left"/>
+            <show chara="teslaBoringNightyQ" position="center" opacity="0.7"/>
+            <speak chara="weltNoFace">是的……西部……蒙大拿……</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="teslaAngryNightyQ" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">……疯了吗？</speak>
+            <show chara="teslaAngryNightyQ" position="center" opacity="0.7"/>
+            <show chara="weltShameClose" position="left"/>
+            <speak chara="weltNoFace">我也搞不清啊！</speak>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">只是那个短袖——不，眼镜——不，芬兰人给她看了一封莫名其妙的信，她就一下认真起来了……</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="teslaBoringNightyQ" position="center"/>
+            <speak chara="teslaNoFace">……什么鬼？</speak>
+            <show chara="teslaBoringNightyQ" position="center" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">呃……上面说发现了什么古老游戏……</speak>
+            <speak chara="weltNoFace">嗯……还有一些我不认识的字……</speak>
+            <show chara="weltSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">啊，对了！落款叫施（Sch）……咦，还是叫薛（Schr）什么来着——</speak>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraNightyQ" position="center"/>
+            <speak chara="teslaNoFace">——薛定谔（Schrödinger）吧！</speak>
+            <show chara="teslaEmbarraNightyQ" position="center" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">对对对！薛定谔，是叫薛定谔。</speak>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <show chara="teslaAngryNightyQ" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">普朗克那老东西，又想借自己的学生来把妹吗！</speak>
+            <show chara="weltSurpriseClose" position="left"/>
+            <show chara="teslaAngryNightyQ" position="center" opacity="0.7"/>
+            <speak chara="weltNoFace">……啊？</speak>
+            <show chara="teslaAngryNightyQ" position="center"/>
+            <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">你不用知道！</speak>
+            <show chara="teslaAngryNightyQ" position="center" opacity="0.7"/>
+            <show chara="weltNormalClose" position="left"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <show chara="weltNormalClose" position="left" opacity="0.7"/>
+            <show chara="teslaAngryNightyQ" position="center"/>
+            <shake position="center" time="250"></shake>
+            <sound src="8_24_mess.mp3"/>
+            <speak chara="teslaNoFace">明明是我的！……明明都有42实验室了！……明明——</speak>
+            <text>这个话题好像太过于危险，站在门外的瓦尔特只好捂起耳朵默不作声。不过叮铃咣啷的可怕噪音仍然不绝于耳。</text>
+            <text>……</text>
+            <show chara="teslaEmbarraNightyQ" position="center"/>
+            <speak chara="teslaNoFace">好啦！</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="black">
+            <bgm src="themeTesla.mp3" status="stop"></bgm>
+            <sound src="hit man.mp3"/>
+            <text>噼里啪啦。</text>
+            <text>可怜的青年倒在一堆披萨盒里，四仰八叉，目瞪口呆。</text>
+            <text>门毫无预警地打开了——吓了一跳的瓦尔特在后退中不幸踩翻了那堆披萨盒叠叠乐——顺便自己也滑倒了。</text>
+            <text>不过这些并不是重点。</text>
+            <goto goto="25" change="0"/>
+        </scene>
+        <scene id="25" background="corridorMessy.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="teslaNormalNightyClose" position="center"/>
+            <speak chara="weltNoFace">特——特——</speak>
+            <show chara="teslaEmbarraNightyClose" position="center"/>
+            <speak chara="teslaNoFace">好烦耶！摔傻了吗？把你的腿让开！</speak>
+            <speak chara="weltNoFace">特斯拉博士！外面不是夏天！</speak>
+            <show chara="teslaBoringNightyClose" position="center"/>
+            <speak chara="teslaNoFace">哈？你在说什么啊？</speak>
+            <speak chara="weltNoFace">那个……你你你……</speak>
+            <show chara="teslaEmbarraNightyClose" position="center"/>
+            <speak chara="teslaNoFace">你你你什么啦，烦不烦啊。让开让开！</speak>
+            <show chara="teslaBoringNightyClose" position="center"/>
+            <speak chara="weltNoFace">……你现在还只穿着睡衣不是吗？！</speak>
+            <bgm src="lab.mp3" status="stop"></bgm>
+            <goto goto="28" change="0"/>
+        </scene>
+        <scene id="28" background="white">
+            <sound src="hit man.mp3"/>
+            <text>随着一声闷响，世界（Welt）在瞬间化为了一片虚无。</text>
+            <goto goto="30"/>
+        </scene>
+        <scene id="30" background="carNoon.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <show chara="weltTiredSweaterClose-up" position="right"/>
+            <show chara="nokiaSmileHandUpClose-up" position="left" opacity="0.7"/>
+            <speak chara="weltNoFace">嘶——痛痛痛。</speak>
+            <text article="1">
+                <p class="article-text">和司机——金丝边儿眼镜芬兰人——一同坐在临时借来的甲壳虫车前排，瓦尔特轻轻摸了摸自己的头顶。</p>
+                <br />
+                <p class="article-text">果然起包了。</p>
+                <br />
+                <p class="article-text">不过话说回来……被下了那么重的手，自己的这条小命竟然还在，也许已经值得庆祝个三天三夜了？</p>
+            </text>
+            <goto goto="32" change="0"/>
+        </scene>
+        <scene id="32" background="CG3.jpg">
+            <bgm src="street.mp3" status="continue"></bgm>
+            <text>斜眼从后视镜看去，那位始作俑者，正不急不忙地对着镜子勾唇线。</text>
+            <text>瓦尔特不是很懂这种人为什么会把自己的住处搞得一团糟。</text>
+            <text>比和她同坐后排的爱因斯坦的发型还糟。</text>
+            <text>——而且一着急，出门还差点忘了换衣服。</text>
+            <text article="1">
+                <p class="article-text">不过，说不定更难理解的是——她是从哪里翻出这一身轻飘飘的披肩和连衣裙的？连一个褶子都没有。但凡看见过那堆披萨盒叠叠乐的人，绝对要相信这人是有个四次元衣柜的。</p>
+                <p class="article-text">不对，应该反过来说——但凡见过眼前的这位可爱的女孩子，任谁都不会相信她住在那样一个乱七八糟的环境里吧？</p>
+            </text>
+            <text>表面光鲜的女青年似乎要收起镜子了。瓦尔特赶紧把视线别开。</text>
+            <text>余光中，芬兰人的嘴角诡异的翘了一下。</text>
+            <speak chara="weltNoFace">……</speak>
+            <text>好好开你的车！</text>
+            <speak chara="einNoFace">呐。</speak>
+            <text>就在瓦尔特感到郁闷的当口，爱因斯坦从后座递过来了一个文件袋。</text>
+            <speak chara="weltNoFace">这是……给我吗？</speak>
+            <text>瓦尔特接住了纸袋。里面似乎是几个硬邦邦的小本子。</text>
+            <speak chara="einNoFace">嗯。打开看看。</speak>
+            <speak chara="einNoFace">一会儿你就要用到的。</speak>
+            <goto goto="35" change="0"/>
+        </scene>
+        <scene id="35" background="carNoon.jpg">
+            <bgm src="street.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">……</speak>
+            <text>其中的一个本子是护照。</text>
+            <text>另外还包括帝国研究院的工作证，以及一些可以用于出入境担保的文件。</text>
+            <show chara="weltNormalSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">瓦尔特·乔伊斯？</speak>
+            <text>护照上印着这样一个半是熟悉半是陌生的名字。</text>
+            <show chara="teslaSmileDressClose-up" position="left"/>
+            <show chara="weltNormalSweaterClose-up" position="right" opacity="0.7"/>
+            <speak chara="teslaNoFace">啊……乔伊斯这个姓来自一个作家。</speak>
+            <speak chara="teslaNoFace" remark="next">知道《尤利西斯》吗？</speak>
+            <remark post="U2FsdGVkX19Pnf400VtQNsGpiWZl">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《尤利西斯》（英语：Ulysses）是爱尔兰现代主义作家詹姆斯·乔伊斯于1922年出版的长篇小说。</p>
+                <p class="article-text">小说以时间为顺序，描述了主人公——苦闷彷徨的都柏林小市民，广告推销员利奥波德·布卢姆（Leopold Bloom）——于1904年6月16日一昼夜之内在都柏林的种种日常经历。</p>
+                <p class="article-text">《尤利西斯》是意识流小说的代表作，并被誉为20世纪百大英文小说之首，每年的6月16日已经被纪念为“布卢姆日”。</p>
+            </remark>
+            <show chara="teslaSmileDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">尤利西斯？……你是指拉丁语里的“奥德修斯”吗？</speak>
+            <show chara="weltNormalSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">不是……</speak>
+            <speak chara="teslaNoFace">嘛……想来你也不可能知道呢。当我没说就好。</speak>
+            <show chara="teslaBoringDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">反正她给你取的名字你自己记好，免得在海关面前露马脚。</speak>
+            <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">露马脚……总不成这个证件是伪造的吧？</speak>
+            <text>毕竟，“瓦尔特”这名字也仅仅是爱因斯坦不久之前随口取的。</text>
+            <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSmileDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">看你怎么说了。</speak>
+            <show chara="teslaSnickerDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">就当它是——“由民间人士擅自签发的官方证件”吧。</speak>
+            <show chara="teslaSnickerDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">这算是什么说法？</speak>
+            <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSmileDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">总之是不可能查出什么来的啦！</speak>
+            <show chara="teslaBoringDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">不过呢，如果你表现得太古怪，苏格兰场的正义伙伴们肯定要搜查询问一番——我不太喜欢那种感觉。</speak>
+            <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">苏格兰场不是刑警吗？！</speak>
+            <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">……真是的，你个失忆的人怎么还对这种乱七八糟的东西一知半解？</speak>
+            <speak chara="teslaNoFace">“苏格兰场”是警察厅啦，警察厅！</speak>
+            <show chara="teslaEmbarraDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <show chara="weltTiredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="einNormalCoatClose-up" position="left"/>
+            <speak chara="einNoFace">放轻松。</speak>
+            <show chara="einSmileCoatClose-up" position="left"/>
+            <speak chara="einNoFace">把名字记熟就没问题。</speak>
+            <show chara="einSmileCoatClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">……唔。</speak>
+            <show chara="weltNormalSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">啊。</speak>
+            <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">怎么了？</speak>
+            <show chara="teslaEmbarraDressClose-up" position="left"/>
+            <show chara="weltNormalSweaterClose-up" position="right" opacity="0.7"/>
+            <speak chara="teslaNoFace">没你的事。</speak>
+            <show chara="teslaNormalDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">芬兰人，你儿子怎么办啊？</speak>
+            <text>“儿子”。瓦尔特一时没反应过来这个词汇的准确意思。</text>
+            <show chara="teslaNormalDressClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileHandUpClose-up" position="right"/>
+            <speak chara="nokiaNoFace">没事，已经给学校打过电话了。</speak>
+            <speak chara="nokiaNoFace">约阿希姆也不是第一次遇到这种事了，没有问题的。</speak>
+            <show chara="nokiaSmileHandUpClose-up" position="right" opacity="0.7"/>
+            <text>约阿希姆。看来芬兰人的儿子叫这个名字……</text>
+            <text>等等。</text>
+            <text>儿子？</text>
+            <shake position="all" time="250"></shake>
+            <text>也就是说，这个金丝边儿眼镜，他儿子都能上学了吗？</text>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="teslaAngryDressClose-up" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">发什么呆呢？你这呆子！赶紧给我把名字背熟了！</speak>
+            <text>双马尾一记手刀，正好敲打在瓦尔特脑袋长包的地方。</text>
+            <text>绝对是故意的。</text>
+            <hide position="center"/>
+            <show chara="teslaAngryDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">痛痛痛……</speak>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">你、你怎么知道我没在好好记名字啦！</speak>
+            <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">哼。简单的家伙。</speak>
+            <show chara="teslaBoringDressClose-up" position="left"/>
+            <speak chara="teslaNoFace">是在羡慕人家芬兰人吧？</speak>
+            <show chara="teslaEmbarraDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <show chara="weltTiredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalDressClose-up" position="left" />
+            <speak chara="teslaNoFace">Miss "Young".</speak>
+            <show chara="teslaNormalDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltNormalSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">呃？</speak>
+            <show chara="weltNormalSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerDressClose-up" position="left" />
+            <speak chara="teslaNoFace">海因丽忒·杨，年轻有为的考古学家，中德混血的大美人，这个芬兰人如假包换的妻子。但是呢———</speak>
+            <speak chara="teslaNoFace">——人家同时也是个一年只有十几天能在家的大忙人。你要不也自己单独带个孩子试试？</speak>
+            <show chara="teslaNormalDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <show chara="weltTiredSweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="nokiaSmileHandUpClose-up" position="left"/>
+            <speak chara="nokiaNoFace">哈哈哈……上学以后其实好多了。话说回来，孩子他妈的工作本来就值得我们每个人的支持。</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="teslaAngryDressClose-up" position="center"/>
+            <speak chara="teslaNoFace">总而言之，你现在的任务就是把自己的名字背熟。连名带姓。其他什么都不要想！飞机上有的是做其他事的时间！</speak>
+            <text>双马尾拎起瓦尔特的后领，狠狠地“嘱咐”了几句——然后意味深长地转向了身边的天然卷少女。</text>
+            <hide position="center"/>
+            <show chara="teslaBoringDressClose-up" position="left" />
+            <show chara="einNormalCoatClose-up" position="right" opacity="0.7"/>
+            <speak chara="teslaNoFace">不过嘛……话虽如此，某人是不大可能和我做什么的吧？</speak>
+            <speak chara="teslaNoFace">哪怕是飞机上这么无聊的地方？</speak>
+            <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
+            <show chara="einFoolCoatClose-up" position="right"/>
+            <speak chara="einNoFace">……</speak>
+            <show chara="einFoolCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaBoringDressClose-up" position="left" />
+            <speak chara="teslaNoFace">干嘛。上次你不就不和我玩，自己一个人看书。好像你的时间宝贵到了什么地步似的。</speak>
+            <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalCoatClose-up" position="right"/>
+            <speak chara="einNoFace">……</speak>
+            <text>天然卷面无表情地平视着双马尾的双眼。</text>
+            <speak chara="einNoFace">这次我们住双人间。</speak>
+            <show chara="einNormalCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalDressClose-up" position="left" />
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaSmileDressClose-up" position="left" />
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">哇！</speak>
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">真的真的？不搞单人间了？哈哈哈哈，好棒耶！</speak>
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">我爱你！丽瑟尔！爱死你了！</speak>
+            <show chara="teslaSmileDressClose-up" position="left" opacity="0.7"/>
+            <show chara="einFoolCoatClose-up" position="right"/>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <speak chara="einNoFace">——如果你喝完酒、洗完澡，肯好好穿衣服的话……</speak>
+            <show chara="einFoolCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaNormalDressClose-up" position="left" />
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaNormalDressClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileHandUpClose-up" position="right"/>
+            <speak chara="nokiaNoFace">……</speak>
+            <show chara="weltShySweaterClose-up" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltShySweaterClose-up" position="right" opacity="0.7"/>
+            <show chara="teslaShameDressClose-up" position="left" />
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">讨、讨厌啦……</speak>
+            <show chara="teslaSmileDressClose-up" position="left" />
+            <speak chara="teslaNoFace">怎么会有那种事啦……啊哈哈哈……</speak>
+            <show chara="teslaSmileDressClose-up" position="left" opacity="0.7"/>
+            <show chara="weltScaredSweaterClose-up" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="weltNoFace">……等等，刚才那个是真——</speak>
+            <hide position="left"/>
+            <hide position="right"/>
+            <sound src="hit man.mp3"/>
+            <speak chara="weltNoFace">——呜哇？！</speak>
+            <text>可怜的前排青年还没反应过来，就捂着头，呻吟着倒在了座位里。</text>
+            <show chara="teslaAngryDressClose-up" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">瓦尔特你给我闭嘴！！</speak>
+            <goto goto="50"/>
+        </scene>
+        <scene id="50" background="planeNoon.jpg">
+            <bgm src="serenity.mp3" status="start"></bgm>
+            <sound src="8_24_launch.mp3"/>
+            <text>先从伦敦飞纽约。</text>
+            <text>八小时。</text>
+            <text>再转机去芝加哥。</text>
+            <text>两小时。</text>
+            <text>最后转机去比灵斯。</text>
+            <text>又是两小时。</text>
+            <text>这还不包括登机转机时需要的等待时间——尽管他们是VIP。</text>
+            <text>有一个这样漫长的行程预期，喷气式引擎的轰鸣声便相当容易催人入眠……</text>
+            <text>……当窗外的景色是一成不变的浩瀚大洋时，情况就更是如此了。</text>
+            <text>所以，当瓦尔特因为一阵急促的尿意醒来时——</text>
+            <text>——一时间，他竟不想离开自己的座位。</text>
+            <text>抬起微鼾的双马尾垂在自己身上的右臂，帮走道另一边的芬兰人收好跌落的眼镜——</text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text>——已经来到走廊上的瓦尔特才发现，在这些睡得东倒西歪的乘客间，靠窗的爱因斯坦依旧在对着亮光看书。</text>
+            <text>好像还在一个本子上时不时写写画画着什么。</text>
+            <show chara="einSmileVestClose-up" position="center"/>
+            <speak chara="weltNoFace">我去一下洗手间。</speak>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">知道了。</p>
+            </text>
+            <text>头发乱糟糟的少女写了个纸条举在手里。</text>
+            <text>这是在提醒他不要打搅别人的睡眠吗？</text>
+            <speak chara="weltNoFace">……</speak>
+            <text>感觉到尴尬的青年决定尿遁为上。</text>
+            <goto goto="55"/>
+        </scene>
+        <scene id="55" background="planeNoon.jpg">
+            <bgm src="serenity.mp3" status="continue"></bgm>
+            <text>这个时间点没有人排队，名为瓦尔特的青年很快就解决完毕了自己的生理需求。</text>
+            <choices>
+                <x goto="60" change="black">继续利用午觉倒时差吧……</x>
+                <y>但爱茵为什么不休息呢？</y>
+            </choices>
+            <bgm src="themeEin.mp3" status="start"></bgm>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1" post="U2FsdGVkX19eqZ1UrJe1GmX4HkVk">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">不休息吗？</p>
+            </text>
+            <hide position="center"></hide>
+            <text>“入乡随俗”，他决定也递一个纸条回去。</text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">只是看到了比较奇妙的东西。</p>
+            </text>
+            <hide position="center"></hide>
+            <text>传过来的纸条上如此写道。</text>
+            <text>机舱里的温度变得有点冷，对方不知何时已经披上了外套。</text>
+            <show chara="teslaBlackDressClose-up" position="center" opacity="0.7"/>
+            <text>自然，他们的中间依旧隔着呼呼大睡的某只双马尾。</text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">是什么？</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">黎曼猜想。</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">数学问题吗？</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <div class="article-pic" picsrc="zeta_function.png" style="background-position:left;"/>
+                <p class="article-text-h" style="color:rgb(181,233,247);font-style:italic;">的解析延拓的一切非平凡零点都在直线1/2 + ti上。</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">完全不懂。</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">不奇怪。和缺乏复变函数知识的人很难讲明白。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">你要知道，这个其貌不扬的问题却可以称得上是整个数学界的圣杯。</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">圣杯？！</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">比如，从广义黎曼猜想是可以推出哥德巴赫猜想的。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">你知道什么是哥德巴赫猜想吗？</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">不知道……</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">任何大于5的奇数都可以表示为三个质数之和；</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">任何大于2的偶数都可以表示为两个质数之和。</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">……</p>
+                <br />
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">总而言之，看起来很厉害就是了。</p>
+                <br />
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">你是想解决这些猜想吗？</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">不。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">它们完全超出了我的能力。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">更何况我的主业不是数学。只不过黎曼对我有过很大的影响，仅此而已。</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">他是你的……数学老师？</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">也可以这么说吧。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">不过他肯定不认识我，也不可能知道我的广义相对论是以他的黎曼流形为基础的。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">毕竟，他是一百多年前的古人。我爷爷出生的时候他都已经过世了。</p>
+            </text>
+            <hide position="center"></hide>
+            <text>青年花了好一会儿才消化了这段话的大致意思。</text>
+            <text>他决定问一个看起来对方更方便解释的问题——</text>
+            <text>——他发现他喜欢看她写字作答的样子。</text>
+            <show chara="teslaBlackDressClose-up" position="center" opacity="0.7"/>
+            <text>……尤其是趁某只双马尾呼呼大睡的时候。</text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">广义相对论？</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">简单来说就是论证万有引力等价于时空扭曲的理论。</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">……</p>
+                <br />
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">有没有什么形象的比喻能让我想象一下？</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">你见过漩涡吧。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">想像一下掉进漩涡里的一颗木球。它看起来像不像是被中间那个洞吸进去的？</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">嗯。</p>
+                <br />
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">——你是说，万有引力也是类似这样的错觉吗？</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">没错。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">我们知道，对于木球来说，扭曲的水面才是它作螺旋运动的直接原因。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">对于星球来说也是如此。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">任何物体都会凭借自身的质量，扭曲它们所在的时空，形成大大小小的漩涡。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">引力不过是这种扭曲的表现形式罢了。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">想象一下，地球的表面处处都是这样的涟漪，而我们的飞机就在它上面冲浪。</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">感觉像是某种哲学……</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">没有数学表述的物理理论本来就是哲学。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">所以牛顿爵士的名作才叫做《自然哲学的数学原理》。</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">没有看过那本书……</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">你应该看不懂的。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">那个年代的数学记号，本身对现代人而言就是鬼画符。</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">鬼画符……</p>
+                <br />
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">说到这个，薛定谔的那封信上，我看不懂的那部分，是什么呢？</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">名字。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">来自五万年前的一个信息处理装置的名字。</p>
+            </text>
+            <hide position="center"></hide>
+            <text>这句话的内容太突兀了，瓦尔特一时竟无法理解。</text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">什么？</p>
+            </text>
+            <hide position="center"></hide>
+            <text>对方却只是默默地在“信息处理装置”下划了一条线。</text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">所以……什么叫“信息处理装置”？</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">请想象一个由自动机械担任管理员的图书馆。</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">……自动机械？</p>
+                <br />
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">……五万年前？</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">对你来说……</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">就把它当成一个悬念吧。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);">☺</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">请现在就告诉我。</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">太麻烦了。</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">拜托了。</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">到时自然有人和你讲的。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">我估计他不怕这个麻烦——所以你就饶了我吧。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);">☺</p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">呜哇，爱茵好坏。</p>
+                <br />
+                <p class="article-text" style="color:#EDEDED;">☹</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">那当然了。 </p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">p.s. 想象了一下，你这个语气还真够恶心的。</p>
+            </text>
+            <hide position="center"></hide>
+            <text>青年只好无奈地吐了吐舌头。</text>
+            <text>少女有样学样地也吐了吐舌头。</text>
+            <text>还顺带把他手上的纸条要了回去。</text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">趁此机会，我们来上上数学课吧。 </p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">……你认真的？</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">当然。 </p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">你知道怎么证明 e^(πi) + 1 = 0 吗？ </p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">怎么可能知道啊！</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">哦。那要不要从微积分基本定理开始？</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">不对，既然要教的话，也许从戴德金分割学起更好？ </p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">啊，都到了这个地步，干脆原原本本从集合论开始算了…… </p>
+            </text>
+            <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">……我选择睡觉可以吗。</p>
+            </text>
+            <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">好呀。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">这样我就能自己多看会儿书啦。</p>
+                <br />
+                <p class="article-text" style="color:rgb(181,233,247);">☺</p>
+            </text>
+            <hide position="center"></hide>
+            <show chara="einLveCoatClose-up" position="center"/>
+            <text>递过这张纸条的时候，少女用更加无辜的表情吐了吐舌头。</text>
+            <text>那感觉就像是在说——</text>
+            <text>“想和我搭讪，你还早了一百年呢。”</text>
+            <goto goto="70"/>
+        </scene>
+        <scene id="60" background="Memory2.jpg">
+            <bgm src="8_24_war.mp3" status="start"></bgm>
+            <text post="U2FsdGVkX18wrTH4A0Mz6Lys852r">……</text>
+            <text>…………</text>
+            <text>数不清杀了多少人。</text>
+            <text>数不清烧毁了多少这些人引以为傲的建筑。</text>
+            <text>那些绝望的哀嚎早已听得麻木。</text>
+            <text>事到如今，这些蟑螂一般的幸存者们……又打算怎样来对付我呢？</text>
+            <text>活生生地挖出我的律者核心，然后像条狗一样把我吊死示众吗？</text>
+            <text>………………</text>
+            <shake position="all" time="250"></shake>
+            <sound src="8_24_womanLaugh2.mp3"/>
+            <speak chara="redNoFace">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈！</speak>
+            <text>还挺有趣的不是吗？</text>
+            <text>那个能扭曲时空、制造黑洞的诡异武器，它的力量就是来自这种方式吧？</text>
+            <text>真好呢……你们就尽情地去使用这种力量吧……</text>
+            <text>……总有一天，它会用比现在的我强出百倍的方式，去向你们复仇的！</text>
+            <shake position="all" time="250"></shake>
+            <sound src="8_24_womanLaugh2.mp3"/>
+            <speak chara="redNoFace">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈！</speak>
+            <text>到时候，还真希望你们不要把我从绞刑架上卸下来啊——</text>
+            <text>——那样的话，不正好可以亲眼目睹，你们命中注定的悲惨结局吗？</text>
+            <shake position="all" time="250"></shake>
+            <sound src="8_24_womanLaugh2.mp3"/>
+            <speak chara="redNoFace">哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈！</speak>
+            <goto goto="65"/>
+        </scene>
+        <scene id="65" background="planeNoon.jpg">
+            <bgm src="serenity.mp3" status="start"></bgm>
+            <shake position="all" time="250"></shake>
+            <sound src="8_24_pant.mp3"/>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace">…………</speak>
+            <speak chara="weltNoFace">………………</speak>
+            <text>从疯狂的笑声中清醒过来，瓦尔特瘫软在飞机座位上，张嘴大喘着粗气，两个太阳穴青筋直跳。</text>
+            <text>刚才的噩梦清晰地有点过头——过头到瓦尔特开始怀疑，这是否就是真实记忆的闪回。</text>
+            <text>“律者”。</text>
+            <text>瓦尔特在之前的实验室里听说过这个词汇。</text>
+            <text>根据上古文献中的结论，当崩坏爆发时的瞬间功率达到1000HW以上时，在灾难的区域，就有机会诞生名为“律者”的存在。</text>
+            <text>“律者”是对崩坏能适应性极高的人类所转化成的怪物——</text>
+            <text>——她们使用着由“律者核心”所获得的超能力，肆无忌惮地破坏人类世界。</text>
+            <text>是的，“她们”。上古文献中记载中的十几位律者，无一例外，全是女性。</text>
+            <text>一般而言，男性的崩坏能适应性是远逊于女性的——而律者，可是这一适应性的极致存在。</text>
+            <speak chara="weltNoFace">……</speak>
+            <text>现在的世界上并不存在律者。上古文献中的种种说法，也有可能不过是拙劣的创世神话而已。</text>
+            <text>令名为瓦尔特的青年无法释怀的是，为何梦境中，自己化身而成的女性，想法竟如此令人不寒而栗。</text>
+            <speak chara="einNoFace">Zzz...</speak>
+            <speak chara="teslaNoFace">Zzz...</speak>
+            <speak chara="nokiaNoFace">Zzz...</speak>
+            <text>向左右看去，自己的同伴正享受着各自的梦乡。</text>
+            <speak chara="weltNoFace">……做噩梦什么的，不过是运气不好罢了。</speak>
+            <goto goto="68" change="0"/>
+        </scene>
+        <scene id="68" background="black">
+            <bgm src="serenity.mp3" status="stop"></bgm>
+            <sound src="deep breath.mp3"/>
+            <text>如此这般地给自己打着气，青年深呼吸了一口，闭上了眼睛。</text>
+            <text>再睡一觉，彻底忘记这种可怕的虚构故事吧。</text>
+            <goto goto="70"/>
+        </scene>
+        <scene id="70" background="airportNewYork.jpg">
+            <bgm src="themeWelt.mp3" status="start"></bgm>
+            <text>纽约国际机场。</text>
+            <text>横跨五个时区的飞行，使得瓦尔特在距离午餐十个多小时后的现在，依然能在这里看到太阳的余晖。</text>
+            <show chara="blackTwo" position="left"/>
+            <speak chara="blackNoFace">爱因斯坦博士、特斯拉博士。</speak>
+            <text>两位素不相识的人突然打断了瓦尔特的遐思。</text>
+            <show chara="blackTwo" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousFar" position="center"/>
+            <speak chara="nokiaNoFace">请问你们是……</speak>
+            <text>芬兰人警觉地站在了两位女士的身前。</text>
+            <show chara="blackTwo" position="left"/>
+            <show chara="nokiaSeriousFar" position="center" opacity="0.7"/>
+            <speak chara="blackNoFace">爱因斯坦博士，我们应该见过面。</speak>
+            <text>这个中年男子的嗓音很低沉。瓦尔特觉得自己似乎听过这个声音。</text>
+            <show chara="blackTwo" position="left" opacity="0.7"/>
+            <show chara="einSeriousCoatFar" position="right"/>
+            <speak chara="einNoFace">有何贵干？</speak>
+            <text>天然卷少女的反应很是冷淡，仿佛双方之间并没有任何交集。</text>
+            <show chara="einSeriousCoatFar" position="right" opacity="0.7"/>
+            <show chara="blackTwo" position="left"/>
+            <speak chara="blackNoFace">老人家希望这个东西能帮到你们。</speak>
+            <text>中年男子从随身的皮包中取出了一个卷轴匣，递向了芬兰人。</text>
+            <speak chara="blackNoFace">您是研究古文字的专家吧。</speak>
+            <show chara="blackTwo" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousFar" position="center"/>
+            <speak chara="nokiaNoFace">姑且算是……</speak>
+            <show chara="blackTwo" position="left"/>
+            <show chara="nokiaSeriousFar" position="center" opacity="0.7"/>
+            <speak chara="blackNoFace">那么，您应该认得这个。</speak>
+            <show chara="blackTwo" position="left" opacity="0.7"/>
+            <show chara="nokiaSeriousFar" position="center"/>
+            <speak chara="nokiaNoFace">……</speak>
+            <text>芬兰人疑惑地打开了木匣，抽出了一张残破不堪、似乎最近才重新修补过的羊皮纸。</text>
+            <speak chara="nokiaNoFace">阿拉姆语……</speak>
+            <speak chara="nokiaNoFace">“审判日的”……“献祭”……“歌”……</speak>
+            <shake position="center" time="250"></shake>
+            <speak chara="nokiaNoFace">这个形制……难、难道是死海文书？</speak>
+            <show chara="blackTwo" position="left"/>
+            <show chara="nokiaSeriousFar" position="center" opacity="0.7"/>
+            <speak chara="blackNoFace">呵呵……您果然知道。</speak>
+            <speak chara="blackNoFace">不错。这是尚未公开发表的部分。希望其中的秘密能对你们的研究有用。</speak>
+            <show chara="blackTwo" position="left" opacity="0.7"/>
+            <show chara="teslaNormalDressFar" position="right"/>
+            <speak chara="teslaNoFace">所以，主教他，究竟是需要我们做什么呢？</speak>
+            <show chara="blackTwo" position="left"/>
+            <show chara="teslaNormalDressFar" position="right" opacity="0.7"/>
+            <speak chara="blackNoFace">没什么。</speak>
+            <speak chara="blackNoFace">老人家只是希望在近期的研究中，能够助42实验室一臂之力——仅此而已。</speak>
+            <show chara="blackTwo" position="left" opacity="0.7"/>
+            <show chara="teslaSnickerDressFar" position="right"/>
+            <speak chara="teslaNoFace">也就是说……他这次，相当期待我们的研究结果喽？</speak>
+            <show chara="blackTwo" position="left"/>
+            <show chara="teslaSnickerDressFar" position="right" opacity="0.7"/>
+            <speak chara="blackNoFace">那是当然。</speak>
+            <speak chara="blackNoFace">他期待着你们的论文。</speak>
+            <show chara="blackTwo" position="left" opacity="0.7"/>
+            <show chara="teslaSnickerDressFar" position="right"/>
+            <speak chara="teslaNoFace">懂啦，懂啦。</speak>
+            <speak chara="teslaNoFace">我们在这边的活动，不让北美支部独吞成果就可以了吧？</speak>
+            <show chara="teslaBoringDressFar" position="right"/>
+            <speak chara="teslaNoFace">竟然为了这个就兴师动众，你们欧美之间的关系得是有多差啊。</speak>
+            <show chara="teslaBoringDressFar" position="right" opacity="0.7"/>
+            <show chara="blackTwo" position="left"/>
+            <speak chara="blackNoFace">……</speak>
+            <speak chara="blackNoFace">啊对了。这个是伴手礼，还请笑纳。</speak>
+            <text>中年男子不再理会特斯拉，却从皮包中掏出一盒看起来就是名牌的巧克力，递给了爱因斯坦。</text>
+            <speak chara="blackNoFace">那么，再会了。</speak>
+            <show chara="nokiaSeriousFar" position="left" opacity="0.7"/>
+            <show chara="teslaBoringDressFar" position="center"/>
+            <show chara="einSeriousCoatFar" position="right" opacity="0.7"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaEmbarraDressFar" position="center"/>
+            <speak chara="teslaNoFace">切。</speak>
+            <speak chara="teslaNoFace">说的不疼不痒，其实骨子里还不是那种独裁见地。什么尾大不掉啊，强枝弱干啊……新支部兴旺发达了自己倒先害怕起来，真是翻脸比翻书还快。</speak>
+            <show chara="teslaEmbarraDressFar" position="center" opacity="0.7"/>
+            <show chara="einNormalCoatFar" position="right"/>
+            <speak chara="einNoFace">……</speak>
+            <text>爱因斯坦不置可否，只是默默地剥开了一块巧克力的包装纸。</text>
+            <show chara="teslaAngryDressFar" position="center"/>
+            <show chara="einNormalCoatFar" position="right" opacity="0.7"/>
+            <speak chara="teslaNoFace">喂！我说你这个鸡窝头！一盒巧克力就把你收买啦？！</speak>
+            <show chara="teslaAngryDressFar" position="center" opacity="0.7"/>
+            <show chara="einSmileCoatFar" position="right"/>
+            <speak chara="einNoFace">不好好吃食物的话，农民伯伯会伤心的。</speak>
+            <show chara="teslaAngryDressFar" position="center"/>
+            <show chara="einSmileCoatFar" position="right" opacity="0.7"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">……你有好好听我说话吗？！</speak>
+            <end post="U2FsdGVkX19iYggwjfZZvGuXAWk9"/>
+        </scene>
+    </story>
+</data>

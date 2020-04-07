@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="CG20-2.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <speak chara="_Roland">这里是共和国的无名烈士墓。</speak>
+            <speak chara="_Roland">纪念碑背面刻着的每一个名字，都对应着一位我们无法回收遗体的战士。</speak>
+            <speak chara="_Roland">还有……不可能留下遗体的星语者。</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="chileRiverMountain.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">……不可能留下遗体？这、这是字面的那个意思吗？</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="rolandNormalClose" position="right"/>
+            <speak chara="_Roland">是啊。星语者如果受到致命的伤害，组成身体的物质就会急速衰变……就像沙子一样直接消失。</speak>
+            <show chara="rolandNormalClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="left"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
+            <show chara="rolandEmbarrassClose" position="right"/>
+            <speak chara="_Roland">啊哈哈……我好像一不小心说了很可怕的事情……</speak>
+            <show chara="rolandLaughClose" position="right"/>
+            <speak chara="_Roland">不用在意那种无可奈何的事情啦！“马革裹尸”才反而会给别人添麻烦吧？哈哈哈哈。</speak>
+            <show chara="rolandLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="rolandSmileClose" position="right"/>
+            <speak chara="_Roland">说起来——你们注意到我刚才装在肩膀上的这个了吗？</speak>
+            <show chara="rolandSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">这是……军衔吗？</speak>
+            <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+            <show chara="rolandLaughClose" position="right"/>
+            <speak chara="_Roland">没错，是“副军级指挥员”哦？去要塞的时候我就会按照规定戴上它们。</speak>
+            <show chara="rolandEmbarrassClose" position="right"/>
+            <speak chara="_Roland">不过啊，要是把这种硬梆梆的东西穿在动力装甲里面……一时还好，时间长了那是真的很不舒服。</speak>
+            <show chara="rolandSmileClose" position="right"/>
+            <speak chara="_Roland">所以我和士兵们一般都把它们摘下来收着！哈哈哈哈。</speak>
+            <show chara="rolandSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">唔……</speak>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">其实……说到动力装甲，我有一点疑问……</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">如果说罗兰小姐你本身就拥有抵抗崩坏能的天赋——那么你其实根本不需要穿戴这么笨重的防护装置吧？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="rolandSmileClose" position="right"/>
+            <speak chara="_Roland">噗……单纯从运动机能上来说，的确是这样呢……</speak>
+            <show chara="rolandNormalClose" position="right"/>
+            <speak chara="_Roland">不过，我个人觉得——既然士兵们每天都要操纵这种笨重的机械，那么我自己也不应该搞特殊啊？</speak>
+            <show chara="rolandSeriousClose" position="right"/>
+            <speak chara="_Roland">如果平常执行任务的时候不能体会士兵们的难处，那么在真正需要机动灵活的战场上，我就很难正确地给他们下达指令。</speak>
+            <show chara="rolandNormalClose" position="right"/>
+            <speak chara="_Roland">……任何人，只要担任军事指挥员，就意味着每时每刻——都有可能因为仅仅一道命令就决定无数人的生死。</speak>
+            <show chara="rolandSeriousClose" position="right"/>
+            <speak chara="_Roland">所有军人都必须对此保持敬畏。</speak>
+            <show chara="rolandSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="rolandEmbarrassClose" position="right"/>
+            <speak chara="_Roland">啊……真是的，我怎么又绕到沉重的话题上去了。</speak>
+            <show chara="rolandLaughClose" position="right"/>
+            <speak chara="_Roland">走吧！我们去山谷的对面——到隧道和要塞去！</speak>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="railwayChileValley.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">这是……铁路？是那种跑火车的铁路吗？</speak>
+            <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorSmileClose" position="right"/>
+            <speak chara="_Roland">嗯啊！无论军团还是战备物资，只要不赶时间，都会用铁道先运过来。</speak>
+            <show chara="rolandArmorLaughClose" position="right"/>
+            <speak chara="_Roland">毕竟这边是隧道的主入口嘛，带宽比较大。</speak>
+            <show chara="rolandArmorLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……带宽？互联网的那个？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorSmileClose" position="right"/>
+            <speak chara="_Roland">有什么问题吗？信息通道的运力，当然是用“带宽”来表示的嘛。</speak>
+            <show chara="rolandArmorEmbarrassClose" position="right"/>
+            <speak chara="_Roland">……啊咧，我之前没有提到过吗？“瓦卡隧道”之所以能从地心连接起地表上的不同地点，就是因为它能把物质信息化，再把信息物质化呀。</speak>
+            <show chara="rolandArmorEmbarrassClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">这……这不是和格尼乌斯的原理一样嘛！</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorLaughClose" position="right"/>
+            <speak chara="_Roland">啊。原来把你们送来这里的也是类似的技术吗？嘿嘿，这样的话，接下来我们要经历的东西你们肯定会感到似曾相识的！</speak>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="railwayStationSaksaqWaman.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哎呀。好复古的一座车站啊！</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorEmbarrassClose" position="right"/>
+            <speak chara="_Roland">那个……因为这堵墙是货真价实的古迹嘛。</speak>
+            <show chara="rolandArmorSmileClose" position="right"/>
+            <speak chara="_Roland">古人们基于他们的自然崇拜，在这里修建过神庙——这座屹立了上千年的石墙就是他们虔诚心的证明。</speak>
+            <show chara="rolandArmorLaughClose" position="right"/>
+            <speak chara="_Roland">即使是乘坐运兵车过来的人，也需要在这一站下车，然后在地下换乘隧道内部的专用线路。</speak>
+            <show chara="rolandArmorSmileClose" position="right"/>
+            <speak chara="_Roland">大家请在站台上稍等片刻，我现在去办理一下相关的各种手续。</speak>
+            <show chara="rolandArmorSmileClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">哦哦，辛苦你啦！</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <text>骑士驱动着她那笨重的动力装甲走进一个类似检查站的岗亭。远处响起了令人怀念的火车汽笛声。</text>
+            <text>高纬度的清凉秋风吹过自己略有些缭乱的发丝，让比安卡不禁想起了在阿尔汉格尔斯克度过的那几天时光。</text>
+            <text article="1">
+                <p class="article-text">Архангельск——用拉丁字母来拼写就是Arkh-angel-sk，“大天使之城”。极北支部在这里的地区负责人是一位叫做“米莎”的D级女武神，虽然只是文员却单枪匹马就把整个州的事务都打理得井井有条。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">米莎曾经说，如果天命的每个机构都像她这里一样门可罗雀，如果天命的所有事情都像你们女武神接了任务然后消灭掉崩坏兽那样简单——那么这个世界一定会非常美好。因为这意味着所有人都过上了和平的日子。</p>
+            </text>
+            <text>火车的汽笛声越来越近。想必是给要塞运来了新的物资或者兵源。</text>
+            <text>罗兰从岗亭里出来，手里挥舞着看起来是临时证件的东西。</text>
+            <text>她似乎寄存起了那身笨重的动力装甲——这让她看起来就像米莎一样娇小可爱。</text>
+            <text>比安卡顺着她招呼的方向跑了过去——</text>
+            <text>——在内心为这个世界祈祷着和平。</text>
+            <goto goto="50" clockwise="1"/>
+        </scene>
+        <scene id="50" background="railwayStationTunnel.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="shakesCasualQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">呼……这么长的楼梯爬下来，我感觉自己的膝盖都要不好了。</speak>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">不过——这个就是我们接下来要坐的车吗？该怎么说……还挺可爱的？</speak>
+            <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+            <show chara="rolandEmbarrassClose" position="right"/>
+            <speak chara="_Roland">啊哈哈，其实就是用普通的轻型矿车改造的啦。</speak>
+            <speak chara="_Roland">“瓦卡隧道”的内部开掘成本非常高，所以我们为这条线路选择了最轻量级的设计方案。</speak>
+            <show chara="rolandEmbarrassClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">嘛，如果都坐女孩子的话其实刚合适啊？就是那边的老爷爷要辛苦一点啦！</speak>
+            <show chara="biankaDressSmileAhClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">哈哈哈，你们看那边的士兵，他们可是穿着动力装甲直接坐进去的哦！和那些人比起来，我们稍微低头弯腰一下根本没什么吧？</speak>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">而且什么叫“都坐女孩子就刚好合适”啊……站一起比一比的话，咱们中间个子最高的反而是我吧？阿嚏！</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">可是你年轻呀！难道你的腰椎已经因为天天坐侦探办公室，变得像老爷爷一样了吗？</speak>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">怪不得我们中间只有你感冒了呢。</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">不过嘛，机会难得，我们还是赶紧来试试吧！</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">这让我想起了加莱赛战船的划桨室——只不过这次我们不用贡献肌肉的力量啦，哈哈哈哈！</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">哇哦，划桨室吗？那可真是个汇聚男性荷尔蒙恶臭的地方呢！很有戏剧张力，非常不错！</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">哈哈，虽然有个词我即使听了翻译也搞不懂——不过我同意你！汗水是世界上最丑陋也是最美妙的东西之一！</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……文豪的兴趣还真是让普通人难以理解啊。</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">艺术家的想法如果全都容易理解的话，那艺术本身也就没有什么深度可言了吧？</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka" remark="next">哼……就是因为太纵容他们了，所以才会有人直接倒立一个小便器就宣称那是艺术品的吧？</speak>
+            <remark post="U2FsdGVkX1+TtcIcw6vru39zAYww">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《喷泉》（Fountain），是美籍法裔艺术家、达达主义大师马塞尔·杜尚（Henri-Robert-Marcel Duchamp，1887－1968）于1917年创作的作品。杜尚在《喷泉》这件作品中使用了在纽约第五大道118号的J·L·莫特铁工坊连锁店购买的贝德福郡型（Bedfordshire）陶瓷小便斗，将其倒立过来命名为“喷泉”，并用涂鸦字体署名“R. Mutt 1917”。</p>
+            </remark>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">什么什么？你们那边还有这么前卫的作品吗？我还以为《等待戈多》就已经是登峰造极的荒诞了呢！</speak>
+            <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">哼哼……说不定就是因为这种人层出不穷，我们的世界里的“崩坏能”才多到爆炸的哦？</speak>
+            <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">嘿，开这种玩笑，小妹妹你这可是有点小心眼了哦？人类的社会就是因为丰富多彩所以才有意义的嘛！</speak>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">如果地球对面的某群人也能有这样的审美灵性，我们现在才不需要解决什么能量墙壁的威胁呢！</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <text>也不知算是知趣还是不知趣，正在比安卡感到世界观受到冲击的当口，“滴滴滴”的车铃同时响了起来。</text>
+            <text>一行人在罗兰的引导下抓紧时间鱼贯而入——随即，引擎的轰鸣声就盖过了任何人正常说话的嗓音。</text>
+            <text>车窗外的水泥墙极速后退，列车像地铁一样驶入了一片黑暗之中。</text>
+            <text>正当比安卡觉得“一切也不过如此”的时候——</text>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="trainWindowStrangeLight.jpg">
+            <bgm src="09_13_Sine.mp3" status="start"></bgm>
+            <text>——窗外奇妙的光线吸引了所有初来乍到者的注意力。</text>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="CG21-1.jpg">
+            <bgm src="09_13_Sine.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">哇哦！这就是世界的“书脊”吗？</speak>
+            <speak chara="_Bianka">好漂亮……</speak>
+            <speak chara="_Roland">对吧？简直就是现实版的银河铁道呢！</speak>
+            <speak chara="_Roland" remark="next">啊……你们知道《银河铁道之夜》吗？是一本据说在原本的世界也没有写完的童话……</speak>
+            <remark post="U2FsdGVkX182b3s6B7lBgLF40mWY">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《银河铁道之夜》是日本作家宫泽贤治（1896－1933）于1934年所出版的著名童话作品。因作者离世时全书仍处于草稿阶段，故作品现存4个版本，且不同版本间差异较大。尽管如此，由于作品充满唯美主义的奇思妙想，因此仍受到众多读者的喜爱——宫泽贤治本人更是在他去世多年之后被捧为日本的“国民级”作家。</p>
+            </remark>
+            <speak chara="_Bianka">唔……好像听说过……又好像没有……</speak>
+            <speak chara="_Bianka">丽塔知道这个故事吗？</speak>
+            <speak chara="_Rita">嗯。银河铁道是连接地面与天国的灵魂列车……在梦中我们会和最好的朋友一起，乘坐它环游星空。</speak>
+            <speak chara="_Bianka">……这故事也未免太悲伤了吧。</speak>
+            <speak chara="_Rita">童话故事从来都是在悲伤无助与温暖人心之间寻找微妙的平衡点嘛。</speak>
+            <speak chara="_Rita">而且……据说开始创作这个故事的时候，作者的妹妹刚刚过世。</speak>
+            <speak chara="_Bianka">这……</speak>
+            <speak chara="_Bianka">抱歉。我不应该用“悲伤”这种词语去形容这样一部勇敢的作品。</speak>
+            <speak chara="_Shakespeare">哈哈哈哈，你们女武神也太严肃啦。人生中原本就没有任何旅程可以重来，珍惜“一期一会”才是最朴素的浪漫嘛！</speak>
+            <speak chara="_Bianka">“一期一会”？</speak>
+            <speak chara="_Rita">就是“一生中只有一次”的意思。</speak>
+            <speak chara="_Miguel">即使时隔多年能够再度相遇，无论是对方也好、自己也罢，都已全然不是当时的心境。</speak>
+            <speak chara="_Shakespeare">不过这也并不是什么坏事哦？被我们叫做“浪漫”的那个词汇，就正是因为它难以重复才显得更加迷人嘛！</speak>
+            <speak chara="_Shakespeare">“哦罗密欧，罗密欧！为什么你偏偏是罗密欧！”</speak>
+            <speak chara="_Shakespeare">——如果你们没看过我的剧，那这句话也不会有那种让你们揪心的感觉对不对？</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="CG21-1-2.jpg">
+            <bgm src="09_13_Sine.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">……完全不明白你在说什么。</speak>
+            <speak chara="_Rita">比安卡大人请放心，即使我的名字变成布琳希尔德或者奥特琳德，丽塔也仍然是您忠诚的仆人。</speak>
+            <speak chara="_Bianka">喂……！你、你这是公开调戏上司你知道吗？！</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="commandCenterHuaca.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <show chara="DarwinFunnyClose" position="center"/>
+            <speak chara="_DarwinNoName">哎呀，罗兰，看来你和女武神们相处得很不错嘛。</speak>
+            <show chara="DarwinSmileClose" position="center"/>
+            <speak chara="_DarwinNoName">自我介绍一下：我是共和国的国防部长、也是这座要塞的司令——安娜·查尔斯·达尔文。</speak>
+            <show chara="DarwinFunnyClose" position="center"/>
+            <speak chara="_Darwin" remark="next">各位请坐下来一起品尝马黛茶吧。</speak>
+            <remark post="U2FsdGVkX18o9bCa4l1P1Um8gxrF">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">马黛茶（yerba mate）一种传统的南美洲草本茶，富含咖啡因，成分是巴拉圭冬青干燥后的叶子。在阿根廷有“国茶”之称。</p>
+            </remark>
+            <hide position="center"></hide>
+            <text article="1">
+                <p class="article-text">——在“指挥中心”站下车，穿过由专人负责开启和关闭的数道大门，比安卡一行人见到了等候他们多时的国防部长，达尔文。</p>
+                <br />
+                <p class="article-text">对方作了简单的自我介绍，罗兰也反过来一一介绍了比安卡一行人的身份。</p>
+            </text>
+            <text>这种官样文章一样的寒暄，让从刚才起就憋着问题的比安卡很是难受。</text>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">那个……我现在可以提问了吧。</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="DarwinSmileClose" position="right"/>
+            <speak chara="_Darwin">一直都可以的呀。是什么问题呢？</speak>
+            <show chara="DarwinSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">刚才……您是说自己姓“达尔文”吧？难、难道是《物种起源》的那位……</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="DarwinFunnyClose" position="right"/>
+            <speak chara="_Darwin">啊哈哈，是说家父吗？在我离开那个世界的时候，他的确正在计划撰写这样一部颠覆性的著作。</speak>
+            <show chara="DarwinSmileClose" position="right"/>
+            <speak chara="_Darwin">我很高兴地了解到，这本书在一百多年间改变了许多人看待世界的方式。</speak>
+            <show chara="DarwinSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">啊……原来是“女儿”吗？</speak>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">不过，这样说来……您看到的《物种起源》，应该是不同世界的查尔斯老先生留下的著作吧？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="DarwinEmbarrassedClose" position="right"/>
+            <speak chara="_Darwin">不是哦。据我所知，成功出版了《物种起源》、并且还娶妻生子了的男性达尔文——在所有已知世界中，也只有家父一人。</speak>
+            <show chara="DarwinEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">……唉？</speak>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">所、所以您也和尤卡坦的“大祭司”一样，在量子之海里以信息状态度过了很长的时间，所以从结果上来说跳跃到了未来吗？</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="DarwinFunnyClose" position="right"/>
+            <speak chara="_Darwin">……我想，本质上并不是这样的。</speak>
+            <show chara="DarwinFunnyClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">可是……你的情况，不可能用“不同世界泡之间时间的起点或流速不同”来解释吧？</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="DarwinEmbarrassedClose" position="right"/>
+            <speak chara="_Darwin">嗯，的确不是那种情况哦？而且我也没有像你们遇到的那位“蛇”一样，变成长生不老的存在。</speak>
+            <show chara="DarwinNormalClose" position="right"/>
+            <speak chara="_Darwin">我说的那些事情中出现了时间上的矛盾，这是只因为——</speak>
+            <show chara="DarwinSeriousClose" position="right"/>
+            <speak chara="_Darwin">——我是从死亡中诞生的星语者。是他人的复制品。</speak>
+            <show chara="DarwinSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……“从死亡中诞生”？“复制品”？您、您究竟在说什么？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="DarwinNormalClose" position="right"/>
+            <speak chara="_Darwin">真正的“安娜·查尔斯·达尔文”在10岁的时候就因病去世了。</speak>
+            <speak chara="_Darwin">站在你们面前的这个人——她只是继承了量子之海中的一副残像罢了。</speak>
+            <show chara="DarwinNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……？！</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="DarwinSmileClose" position="right"/>
+            <speak chara="_Darwin">不要误会，这并不是说我是鬼魂或者灵体之类的东西。这只是把以太锚点“复刻世界”的能力用在“人”身上的结果罢了。</speak>
+            <show chara="DarwinNormalClose" position="right"/>
+            <speak chara="_Darwin">无论是文明成果还是智慧生命，它们都是“负熵”的直观象征。你们可以把“以太锚点”当作“固着”负熵的“培养基”……</speak>
+            <show chara="DarwinNormalClose" position="right" opacity="0.8"/>
+            <show chara="schroMemoryClose" position="left"/>
+            <speak chara="_Schrodinger">……而负熵与虚数内能——也就是崩坏能——相伴相生。</speak>
+            <show chara="schroTalkClose" position="left"/>
+            <speak chara="_Schrodinger">理论上，我们确实可以反其道而行，利用可控的崩坏能来制造出新的“负熵”。</speak>
+            <show chara="schroMemoryClose" position="left"/>
+            <speak chara="_Schrodinger">——这正是“月光王座”的最基本的原理。</speak>
+            <show chara="schroMemoryClose" position="left" opacity="0.8"/>
+            <show chara="DarwinSmileClose" position="right"/>
+            <speak chara="_Darwin">噗。不愧是提出“负熵”这一概念的薛定谔博士——看来你已经明白事情的来龙去脉了。</speak>
+            <show chara="DarwinSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">呃……你们究竟在说些什么？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="schroMemoryClose" position="right"/>
+            <speak chara="_Schrodinger">……</speak>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">女武神们，你们知道“第一律者”的能力吗？</speak>
+            <show chara="schroTalkClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">是说逆熵的“盟主”吗？他可以凭空复制出各种机械装置、圣遗物、甚至神之键，对吧？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="schroSmileClose" position="right"/>
+            <speak chara="_Schrodinger">嗯，概括得不错。不过……如果抠字眼的话，他并不是“凭空”复制出那些东西的。</speak>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">他是通过操控体内富集的崩坏能，来反向构造秩序，制造出这些等同于“负熵”的物品。</speak>
+            <show chara="schroSmileClose" position="right"/>
+            <speak chara="_Schrodinger">一般而言，崩坏能就像脱缰的野马一样难以控制——但那个人是律者，是可以在某一方面完全不按常理出牌的超能力者。</speak>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">达尔文小姐……你们的“以太锚点”也具备类似的力量……只是你们不能随心所欲地去操纵它……是这样吗？</speak>
+            <show chara="schroTalkClose" position="right" opacity="0.8"/>
+            <show chara="DarwinEmbarrassedClose" position="left"/>
+            <speak chara="_Darwin">唔……准确地说，“以太锚点”本身也根本不具备那种随心所欲的超能力。</speak>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">它只是能够从量子之海——从这片信息的汪洋之中——“打捞”出自身能够复现的些许信息罢了。</speak>
+            <show chara="DarwinSmileClose" position="left"/>
+            <speak chara="_Darwin">来到这里的两位女武神想必都经历过自身的物质先被信息化，然后这些信息又再次被物质化的过程。</speak>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">——这就是一种特殊的、定向的“打捞”。</speak>
+            <show chara="DarwinFunnyClose" position="left"/>
+            <speak chara="_Darwin">这种“打捞”始终保持在“现在进行时”当中，两位的精神和意志都是连续的——因此即使跨越了世界，两位仍然是两位自己。</speak>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">而“安娜·查尔斯·达尔文”的全部信息早已是“过去完成时”，以太锚点只是偶然从量子之海中读取了这段行将消逝的信息，然后将它再度表达出来而已。</speak>
+            <show chara="DarwinSmileClose" position="left"/>
+            <speak chara="_Darwin">……这就是我深知自己只是某个历史人物的复制品的原因。</speak>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">也许有另一套更复杂的机制可以让死者真正的复活——但显然这个世界的“锚点”没有那种能力。</speak>
+            <show chara="DarwinNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSorrowClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">感谢您的坦诚，达尔文小姐。</speak>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">您特地开门见山地告诉我们这些可谓机密的东西——也就意味着你们“共和国”迫切需要我们“喀里多尼亚号”的帮助吧？</speak>
+            <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
+            <show chara="DraculaLaughClose" position="left"/>
+            <speak chara="_DraculaNoName">哈哈哈哈！不愧是纵横七海的红色船长，说话一针见血！我差点就要对你一见钟情了哦？</speak>
+            <show chara="DraculaLaughClose" position="left" opacity="0.8"/>
+            <show chara="DarwinEmbarrassedClose" position="right"/>
+            <speak chara="_Darwin">喂，伊洛娜，不可以这样突然闯进来、还乱开客人的玩笑啦！</speak>
+            <show chara="DarwinEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="DraculaFunnyClose" position="left"/>
+            <speak chara="_DraculaNoName">哼哼，安娜你即使当上了国防部长，也还是这么小气啊。</speak>
+            <show chara="DraculaSmileClose" position="left"/>
+            <speak chara="_DraculaNoName">我是伊洛娜•德拉库列斯特，第一近卫兵团司令——你们也可以用“德古拉”这个外号来称呼我。</speak>
+            <show chara="DraculaNormalClose" position="left"/>
+            <speak chara="_Dracula">我和旁边这位“小气”的美少女不一样，是无需“以太锚点”就能独立存在的星语者——</speak>
+            <show chara="DraculaSmileClose" position="left"/>
+            <speak chara="_Dracula">——也就是说从五百年前一直活到了今天哦！怎么样，“吸血鬼”是不是很厉害呢？</speak>
+            <show chara="DraculaSmileClose" position="left" opacity="0.8"/>
+            <show chara="DarwinFunnyClose" position="right"/>
+            <speak chara="_Darwin">噗，那么我就翻译一下吧：“我在量子之海里沉浮了五百年，早就不在意自己究竟是人类还是怪物啦。你们也不用深究哦？”</speak>
+            <show chara="DarwinSmileClose" position="right"/>
+            <speak chara="_Darwin">伊洛娜，是这个意思没错吧？</speak>
+            <show chara="DarwinSmileClose" position="right" opacity="0.8"/>
+            <show chara="DraculaFunnyClose" position="left"/>
+            <speak chara="_Dracula">……好吧，我早就该意识到，你这可恶的家伙每次都要破坏我完美的形象。</speak>
+            <show chara="DraculaLaughClose" position="left"/>
+            <speak chara="_Dracula">罗兰的朋友们，你们是不是也觉得这个达尔文意外地不会说话，总是让别人很难和她对谈下去啊？</speak>
+            <show chara="DraculaLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">呃……我倒是觉得自己还挺喜欢这种有话直说的风格？至少比我们那位成天神秘兮兮的主教来得好多了。</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">……虽说那个人也算是对我有救命之恩，我这样讲他的坏话也好像也很奇怪。</speak>
+            <show chara="schroSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">……我们先不谈另一个世界的事情。</speak>
+            <show chara="schroCalmClose" position="right"/>
+            <speak chara="_Schrodinger">“印卡共和国”的各位——你们唯一重要的军事目标就是要摧毁地球另一面的那个帝国——我这样概括应该没有问题吧？</speak>
+            <show chara="schroCalmClose" position="right" opacity="0.8"/>
+            <show chara="DraculaFunnyClose" position="left"/>
+            <speak chara="_Dracula">啊啦，这位就是大名鼎鼎的薛定谔博士吗？</speak>
+            <show chara="DraculaSeriousClose" position="left"/>
+            <speak chara="_Dracula">您说的没错。这个共和国本身、其存在的意义，就是为了与那样的“自然灾害”相抗衡。</speak>
+            <show chara="DraculaFunnyClose" position="left"/>
+            <speak chara="_Dracula">……虽然最近有些捉襟见肘就是了。</speak>
+            <show chara="DraculaSmileClose" position="left"/>
+            <speak chara="_Dracula">所以，您特地将我们的话题拉回最基本的现实——是因为早有一套“达成目标”的方法了吗？</speak>
+            <show chara="DraculaSmileClose" position="left" opacity="0.8"/>
+            <show chara="schroSmileClose" position="right"/>
+            <speak chara="_Schrodinger">呵呵，你们可以这样认为。不过我首先要问一个听起来非常不着边际的问题——</speak>
+            <show chara="schroTalkClose" position="right"/>
+            <speak chara="_Schrodinger">这个共和国里，有“演艺偶像”这样的职业吗？</speak>
+            <show chara="schroTalkClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">……哈？</speak>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">你突然问这个做什——</speak>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">——啊。</speak>
+            <show chara="biankaDressNormalClose" position="left" opacity="0.8"/>
+            <show chara="DraculaFunnyClose" position="right"/>
+            <speak chara="_Dracula">……这是怎么了？“演艺偶像”和你们有什么特殊的关系吗？</speak>
+            <show chara="DraculaFunnyClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="left"/>
+            <speak chara="_Bianka">简单说，我们正在组装一件失传已久的强力兵器。</speak>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">——而这件兵器的某个零件可能正在一位“演艺偶像”的身上。</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="DraculaLaughClose" position="right"/>
+            <speak chara="_Dracula">哈哈哈哈，这究竟是开玩笑、还是认真的啊？</speak>
+            <show chara="DarwinSeriousClose" position="right"/>
+            <speak chara="_Darwin">比安卡小姐，你们是在说恢复圣剑“幽兰黛尔”力量的那些宝石吗？</speak>
+            <show chara="DarwinSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">对啊。小幽凭借它和这些宝石之间的联系，提供了一些影像作为搜索的线索——</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="durandalOutstretchOpen" position="right"/>
+            <speak chara="_SwordDurandalQ">——来了！比安卡大人，来了来了！</speak>
+            <show chara="durandalOutstretchOpen" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">喂！不要突然打断别人说话啊，你这个笨蛋！什么“来了”？</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="durandalOpen" position="right"/>
+            <speak chara="_SwordDurandalQ">当然是金色的“爱之宝石”啊！</speak>
+            <show chara="durandalOutstretchOpen" position="right"/>
+            <speak chara="_SwordDurandalQ">我感到它突然出现在这附近的空间里！就好像跳跃了时空一样！</speak>
+            <show chara="durandalOutstretchOpen" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">哈？</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="champoQuestionClose" position="right"/>
+            <speak chara="_Champollion">……啊。</speak>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">或许是携带宝石的人也使用了“瓦卡隧道”吧。不是说那个的原理类似于“超空间连接”吗？</speak>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">——达尔文小姐，今天要塞里有什么特殊的日程安排吗？</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="DarwinNormalClose" position="left"/>
+            <speak chara="_Darwin">现在这个时间段吗？一小时之后有一场慰问演出——</speak>
+            <show chara="DarwinEmbarrassedClose" position="left"/>
+            <speak chara="_Darwin">——等等，难道【那位】明星小姐就是你们正在寻找的“携带宝石的偶像”？！</speak>
+            <show chara="DarwinSeriousClose" position="left"/>
+            <speak chara="_Darwin">这个时间……她的确应该刚刚抵达要塞！</speak>
+            <show chara="DarwinSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">“明星小姐”？</speak>
+            <show chara="biankaDressScreamClose" position="right"/>
+            <speak chara="_Bianka">……她是梳着一条浅蓝色的、长长的马尾吗？看起来很有活力的样子，对不对？</speak>
+            <show chara="biankaDressScreamClose" position="right" opacity="0.8"/>
+            <show chara="DraculaFunnyClose" position="left"/>
+            <speak chara="_Dracula">哎呀，你们真的认识她啊？</speak>
+            <show chara="DraculaFunnyClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">啊……不，该怎么说呢——</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="DraculaLaughClose" position="left"/>
+            <speak chara="_Dracula">好啦好啦，那我们还在这里磨磨蹭蹭做什么？赶紧直接去现场呀！</speak>
+            <show chara="DraculaSmileClose" position="left"/>
+            <speak chara="_Dracula">你们赶在演出之前有话要问她吧？走啦走啦！战略计划什么的，我们可以等下再慢慢交流嘛！</speak>
+            <show chara="DraculaSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="right"/>
+            <speak chara="_Bianka">啊——不、不要推我啦！我自己会走啊！</speak>
+            <goto goto="95" clockwise="1"/>
+        </scene>
+        <scene id="95" background="stageHuaca.jpg">
+            <bgm src="09_13_dannyBoy.mp3" status="start"></bgm>
+            <text>也许是因为还没有允许观众入场，要塞的礼堂比预想之中要安静许多。</text>
+            <text>比安卡正打算径直闯进后台——</text>
+            <text>——忽然，伴奏轻轻地响起，一名艺人打扮的可爱女孩来到前台开始试音。</text>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="stageHuacaCloseUp.jpg">
+            <bgm src="09_13_dannyBoy.mp3" status="continue"></bgm>
+            <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">我的声音♬ 你听到了吗♪</speak>
+            <show chara="ShigureKiraSingingLyricalFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">你的微笑♬ 是雨过天晴的阳光♪</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">天使降临凡间♪</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">彩虹是云的翩跹♪</speak>
+            <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">温柔的野兽横冲直撞♬</speak>
+            <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">剧毒的蔷薇狂野生长♬</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">因为你♪ 我无比珍惜命运♬</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">因为你♪ 我努力变得勇敢♬</speak>
+            <show chara="ShigureKiraSingingLyricalFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">灵魂早已交融♬</speak>
+            <show chara="ShigureKiraSingingPassionFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">我只愿身影不再遥远♪</speak>
+            <show chara="ShigureKiraSingingCloseEyeFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">指尖曾经轻触♬</speak>
+            <show chara="ShigureKiraSingingLyricalFar" position="center"/>
+            <speak chara="_ShigureKiraNoName">我只愿回忆绚烂依然♪</speak>
+            <end post="U2FsdGVkX18nlZmHoGxgv3pMXtlH"/>
+        </scene>
+    </story>
+</data>

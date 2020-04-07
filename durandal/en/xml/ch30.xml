@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#ffffff"/>
+        </scene>
+        <scene id="10" background="white.jpg">
+            <bgm src="x_DLC_UI7.mp3" status="start"></bgm>
+            <text>在地心深处，少女正做着零碎的梦。</text>
+            <text>梦与梦的夹缝中，无常的诗篇散布于幽谷之间。</text>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="CG3-1.jpg">
+            <bgm src="x_DLC_UI7.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text article="1">
+                <p class="article-text">The flower that smiles today</p>
+                <p class="article-text">（今朝欢笑的鲜花）</p>
+                <br />
+                <p class="article-text">Tomorrow dies;</p>
+                <p class="article-text">（明日凋零；）</p>
+            </text>
+            <text article="1">
+                <p class="article-text">All that we wish to stay,</p>
+                <p class="article-text">（我们想要留下的，）</p>
+                <br />
+                <p class="article-text">Tempts and then flies.</p>
+                <p class="article-text">（诱惑我们，飞散不见。）</p>
+            </text>
+            <text article="1">
+                <p class="article-text">What is this world's delight? Lightning that mocks the night,</p>
+                <p class="article-text">（什么是这世上的喜悦？是戏弄黑夜的闪电，）</p>
+                <br />
+                <p class="article-text">Brief even as bright.</p>
+                <p class="article-text">（明亮，而同短暂。）</p>
+            </text>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="CG14-1.jpg">
+            <bgm src="x_DLC_UI7.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text article="1">
+                <p class="article-text">Virtue, how frail it is!</p>
+                <p class="article-text">（美德，它是多么地脆弱！）</p>
+                <br />
+                <p class="article-text">Friendship how rare!</p>
+                <p class="article-text">（友情又何等稀有！）</p>
+            </text>
+            <text article="1">
+                <p class="article-text">Love, how it sells poor bliss</p>
+                <p class="article-text">（爱，它竟出卖可怜的幸福）</p>
+                <br />
+                <p class="article-text">For proud despair!</p>
+                <p class="article-text">（只为虚荣的绝望！）</p>
+            </text>
+            <text article="1">
+                <p class="article-text">But we, though soon they fall, Survive their joy and all</p>
+                <p class="article-text">（但我们仍要活着，即使欢悦转瞬即逝）</p>
+                <br />
+                <p class="article-text">Which ours we call.</p>
+                <p class="article-text">（还有称之为“我们的”一切。）</p>
+            </text>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="CG4-4-2.jpg">
+            <bgm src="x_DLC_UI7.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text article="1">
+                <p class="article-text">Whilst skies are blue and bright,</p>
+                <p class="article-text">（趁着天空湛蓝明媚，）</p>
+                <br />
+                <p class="article-text">Whilst flowers are gay,</p>
+                <p class="article-text">（趁着花朵轻盈自在，）</p>
+            </text>
+            <text article="1">
+                <p class="article-text">Whilst eyes that change ere night</p>
+                <p class="article-text">（趁着黑夜未至，双眸未改）</p>
+                <br />
+                <p class="article-text">Make glad the day,</p>
+                <p class="article-text">（仍停留在白昼的开心一刻）</p>
+            </text>
+            <text article="1">
+                <p class="article-text">Whilst yet the calm hours creep, Dream thou – and from thy sleep</p>
+                <p class="article-text">（趁平稳的时光还在缓缓流淌，愿你入梦——沉沉睡去吧）</p>
+                <br />
+                <p class="article-text">Then wake to weep.</p>
+                <p class="article-text">（待到醒来时再哭泣。）</p>
+            </text>
+            <goto goto="50" change="#000000"/>
+        </scene>
+        <scene id="50" background="black.jpg">
+            <bgm src="x_DLC_UI7.mp3" status="continue"></bgm>
+            <text>梦如同黎明的泡沫一样渐渐消失。</text>
+            <text>少女感到某种清冽的气体正通向自己的肺部。</text>
+            <text>眼皮格外沉重。手指和脚趾似乎也没有清醒过来。</text>
+            <text>她努力驱赶着脑中的睡意，和自己缺乏控制的身体就这样斗争了三分钟——或者半小时。</text>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG30-1.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <show chara="eyeOpening" position="center" opacity="1.0"/>
+            <speak chara="_Rita">啊……</speak>
+            <speak chara="_Rita">请您先不要动，比安卡大人。</speak>
+            <hide position="center"></hide>
+            <speak chara="_Rita">您昏迷了约3小时45分钟——而这是治疗的最后一针。</speak>
+            <speak chara="_Rita">所以，在注射完成前，请您继续保持平卧的姿势。</speak>
+            <speak chara="_Bianka">唔……是主教在出发前让你随身携带的那种药剂吧……</speak>
+            <speak chara="_Bianka">我记得原理是……用稀释到极低浓度的圣血——</speak>
+            <speak chara="_Rita">……嘘。我现在将对您进行静脉推注，需要您尽可能地保持安静和放松。</speak>
+            <speak chara="_Bianka">啊……不好意思。</speak>
+            <speak chara="_Bianka">这样的话……我就只确认一个问题好了……</speak>
+            <speak chara="_Bianka">切割世界泡的行动……成功了吗？</speak>
+            <speak chara="_Rita">……对世界泡切割可以说非常成功。只不过——</speak>
+            <speak chara="_Rita">——可能还有一些遗留问题需要我们来解决。所以，现在先请您配合治疗。</speak>
+            <speak chara="_Rita">没关系。很快就结束了。</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="fortHospital.jpg">
+            <bgm src="x_3_6_Talkbgm3.mp3" status="start"></bgm>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">……这药还真厉害。我感觉自己简直比倒下之前还要健康。</speak>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">所以呢？情况现在怎么样了？还有……我们现在这是在哪里？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">这里是地底深处，“要塞指挥中心”的附属医务室。我们现在正处于距离“锚点”最近的地方。</speak>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">您之前参与其中的、切割世界泡的“帕查库特克行动”已经结束。根据议长那边的初步统计，有378人在行动中阵亡或失踪……</speak>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">……其中，包括“喀里多尼亚号”的大副，“让娜·弗朗索瓦·商博良”小姐。</speak>
+            <show chara="ritaVestHesitateClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">——什么？</speak>
+            <show chara="biankaDressSorrowClose" position="left"/>
+            <speak chara="_Bianka">她……怎么会……</speak>
+            <show chara="biankaDressSorrowClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">“商博良”是她的化名。根据薛定谔博士的说法，这位“考古学家”其实是由聚合态“拿破仑”的信息碎片额外形成的“星语者”。</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">……啥？</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">粗略来说，她就是这个世界上额外存在的另一个拿破仑——而且其实在个性上更接近于我们从历史课本里学到的那一个。</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">在世界泡被切割开之后，残存在欧洲碎片上的崩坏兽凭借拿破仑的意志形成了聚合体，攻占了那个海岛上最重要的锚点通道，切断了我们的交通线。</speak>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">为了避免岛上的三千多人陷入全军覆没的境地，“商博良”选择了与“拿破仑”同归于尽——她利用锚点将自身调整为特攻武器，湮灭了崩坏兽聚合体当中的“拿破仑”成分。</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">她用自己的牺牲挽救了其余的两千多人，挽救了重伤的德拉库列斯特将军、真田幸村将军、以及卡拉瓦乔小姐……</speak>
+            <show chara="ritaVestHesitateClose" position="right"/>
+            <speak chara="_Rita">……也避免了我启动格尼乌斯，将你强行带回原本世界的可能。</speak>
+            <show chara="ritaVestHesitateClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">不过，崩坏兽聚合体虽然已经不复存在，但它积攒起来的崩坏能并没有完全消失。</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">在距离它湮灭地点不远的地方，薛定谔博士发现了一些新产生的巨型晶体。</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">为此，博士本人、时雨绮罗前辈、罗兰小姐目前都还留在那座岛上进行监视。</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">……这也是我之前所说的，可能需要我们才能解决的“遗留问题”。</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……你打算怎么做？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">用崩坏能攻击来测试这种晶体的稳定性。</speak>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">如果这种晶体足够稳定，那么无论是把它深埋地下、还是发射到太空，都将是不错的选择。</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……可是，万一这种晶体比较脆弱、容易泄露呢？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">那我们就把它们全部引爆。</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">这……这要怎么做？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="eyeSwordNormal" position="right"/>
+            <speak chara="_eyeDurandalQNoName">嘿嘿……那当然是靠我啦。</speak>
+            <show chara="eyeSwordNormal" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">你是……小幽吗？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="eyeSwordSmile" position="right"/>
+            <speak chara="_eyeDurandalQDurandal">没错，当然就是我！</speak>
+            <speak chara="_eyeDurandalQDurandal">“喀里多尼亚号”上唯一的机械种族，马泰奥·马里亚·博亚尔多·路德维希奥·阿里奥斯托十二世！</speak>
+            <speak chara="_eyeDurandalQDurandal">啊，那个名字是我随口瞎编的，不用在意。</speak>
+            <show chara="eyeSwordNormal" position="right"/>
+            <speak chara="_eyeDurandalQDurandal">总之，这是我恢复了完整机能之后能够使用的人偶形态，是不是比之前威风了不少呢？</speak>
+            <show chara="eyeSwordNormal" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……大、大概吧。</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="eyeSwordNormal" position="right"/>
+            <speak chara="_eyeDurandalQDurandal">我比主人早恢复意识35分钟28秒，所以已经帮你们设定好净化那些晶体的程序了。</speak>
+            <show chara="eyeSwordSmile" position="right"/>
+            <speak chara="_eyeDurandalQDurandal">事不宜迟，我们现在就出发吧？</speak>
+            <goto goto="80" clockwise="1"/>
+        </scene>
+        <scene id="80" background="commandCenterHuaca.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">呀。身体恢复了吗？</speak>
+            <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">船长！爷爷！你们都没事吧？</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="left"/>
+            <speak chara="_Miguel">嗯，我们都被保护得很好……托流血牺牲的英雄们的福。</speak>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">……所以，你们现在是要带着“圣剑”返回战场吗？</speak>
+            <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">嗯。小幽说它有能力处理残余的崩坏能。</speak>
+            <show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">加油。那的确是只有你们才能做到最好的事情。</speak>
+            <show chara="cervantesNormalClose" position="left"/>
+            <speak chara="_Miguel">……</speak>
+            <show chara="cervantesSmileClose" position="left"/>
+            <speak chara="_Miguel">我听说在东方的哲学里有一种讲法，说每个人都是带着“宿命”降生到这个世界上的。</speak>
+            <show chara="cervantesNormalClose" position="left"/>
+            <speak chara="_Miguel">不过，与预言家口中的“宿命”不同，这种人皆有之的“宿命”，大多数时候其实都被琐碎的人生给埋没了。</speak>
+            <show chara="cervantesGazeClose" position="left"/>
+            <speak chara="_Miguel">只有拥有真正的智慧与勇敢的人，才能从只有一次的人生中察觉到自己的“宿命”——</speak>
+            <show chara="cervantesSmileClose" position="left"/>
+            <speak chara="_Miguel">——并利用它去创造，那些在局外人的口中被称为“奇迹”与“不可能”的东西。</speak>
+            <show chara="cervantesSeriousClose" position="left"/>
+            <speak chara="_Miguel">也许，有时候“奇迹”令人付出沉重的代价；</speak>
+            <show chara="cervantesSeriousClose" position="left"/>
+            <speak chara="_Miguel">也许，有时候“宿命”的实现方式让我们扼腕叹息——</speak>
+            <show chara="cervantesGazeClose" position="left"/>
+            <speak chara="_Miguel">但它们都是被这个世界选择的历史，是从无数可能性当中，因为种种的机缘巧合，而最终降临在我们身边的“命运”。</speak>
+            <show chara="cervantesNormalClose" position="left"/>
+            <speak chara="_Miguel">孩子们，我真正想说的是……</speak>
+            <show chara="cervantesSmileClose" position="left"/>
+            <speak chara="_Miguel">不论在什么样的哲学里，“改变命运”都远远比“祈求命运”或是“诅咒命运”要来得重要，来得更有意义。</speak>
+            <show chara="cervantesNormalClose" position="left"/>
+            <speak chara="_Miguel">时间不能倒流。世界不能重启。与其诉说悲伤的理由，倒不如细数能做到的事情。</speak>
+            <show chara="cervantesGazeClose" position="left"/>
+            <speak chara="_Miguel">孩子们，你们的征途才刚刚开始……也许有无数的世界、无数的险阻，还在前方等待着你们。</speak>
+            <show chara="cervantesSmileClose" position="left"/>
+            <speak chara="_Miguel">所以，加油吧。对故人最好的纪念，就是在他们开辟的道路下前进下去。</speak>
+            <show chara="cervantesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">……是！</speak>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">非常感谢您，塞万提斯大人。</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="fortTunnel.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="biankaDressSighClose" position="center"/>
+            <speak chara="_Bianka">虽然之前已经来过一次……但这个保卫“锚点”的中央要塞还真是够大啊。</speak>
+            <hide position="center"></hide>
+            <show chara="rolandLNEmbarrassClose" position="left"/>
+            <speak chara="_RolandNoName">啊，太好了，赶上了！</speak>
+            <show chara="rolandLNEmbarrassClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……罗兰？你从崩坏能晶体那边回来了吗？</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">罗兰大人，难道——发生什么意外了吗？</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="rolandLNEmbarrassClose" position="left"/>
+            <speak chara="_Roland">啊，不……不至于有“意外”那么夸张啦。</speak>
+            <show chara="rolandLNSmileClose" position="left"/>
+            <speak chara="_Roland">是薛定谔博士监测到晶体的崩坏能出现异常波动，所以派我回来找议长商量对策。</speak>
+            <show chara="rolandLNEmbarrassClose" position="left"/>
+            <speak chara="_Roland">因为切割行动后世界本身还处于不稳定的状态，岛上的通信也没有恢复——所以我也只能像这样用人力传递消息了。</speak>
+            <show chara="rolandLNNormalClose" position="left"/>
+            <speak chara="_Roland">……啊。你们现在要赶去北海那边支援吗？</speak>
+            <show chara="rolandLNNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">当然。我们本来就打算这么做。</speak>
+            <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+            <show chara="rolandLNSmileClose" position="left"/>
+            <speak chara="_Roland">那太好了。如果有比安卡小姐在场的话，时雨绮罗小姐也……</speak>
+            <show chara="rolandLNShockClose" position="left"/>
+            <speak chara="_Roland">啊，不，没什么。应该是我多虑了吧。</speak>
+            <show chara="rolandLNShockClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="rolandLNSeriousClose" position="left"/>
+            <speak chara="_Roland">她在调查晶体的时候不小心被“烫”伤了，手臂和眼睛似乎都有一些被崩坏能侵蚀的迹象。</speak>
+            <show chara="rolandLNEmbarrassClose" position="left"/>
+            <speak chara="_Roland">虽然她本人说没有关系……</speak>
+            <show chara="rolandLNEmbarrassClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">啧。可千万别出什么麻烦啊。</speak>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">罗兰，具体情况就麻烦你通知议长她们了。我和丽塔现在直接赶去时雨绮罗那边！</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="rolandLNShockClose" position="left"/>
+            <speak chara="_Roland">事态可能会很严重吗？</speak>
+            <show chara="rolandLNSeriousClose" position="left"/>
+            <speak chara="_Roland">……那么，向议长报告之后，我会争取让能帮上忙的人都赶去那边。这样可以吗？</speak>
+            <show chara="rolandLNSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">好，拜托你了！</speak>
+            <goto goto="100" clockwise="1"/>
+        </scene>
+        <scene id="100" background="fireGroundNorth.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="start"></bgm>
+            <text>在东方有一种形容旱灾的词汇，叫做“赤地千里”。</text>
+            <text>而如今，这座北海的小岛，因为切割世界泡的行动和之后的混战而化为一片炼狱——</text>
+            <text>——尚未凝结的熔岩，恰如那个成语让人产生的字面误解。</text>
+            <show chara="ShigureKiraVNShockClose" position="center"/>
+            <speak chara="_ShigureKiraNoName">……</speak>
+            <speak chara="_Rita">那、那是——</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="swordTrail.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">坚持住！时雨绮罗！不要让崩坏侵蚀掉你的意志！</speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="CG30-2.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_ShigureKira">冷静！比安卡！</speak>
+            <speak chara="_ShigureKira">你搞错目标了！我才没有被崩坏侵蚀！</speak>
+            <speak chara="_Bianka">绮罗前辈！</speak>
+            <speak chara="_Bianka">你的身体已经被侵蚀的很严重了！难道你自己看不见吗？！</speak>
+            <speak chara="_ShigureKira">我哪里被侵蚀了？我身上难道有——</speak>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="CG30-2B.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="continue"></bgm>
+            <speak chara="_ShigureKira">（……啧。原来如此吗。）</speak>
+            <speak chara="_ShigureKira">（虽然这只能浪费更多的时间……但没办法，该解释的还是得解释才行。）</speak>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="CG30-2.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_ShigureKira">听好了，自以为是的后辈！</speak>
+            <speak chara="_ShigureKira">我周身的这些印记，它并非来自崩坏！</speak>
+            <speak chara="_ShigureKira">它是活生生的外星生命，我用战友名字的一半来称呼它——</speak>
+            <speak chara="_ShigureKira">——“尼古拉斯”！</speak>
+            <goto goto="150" change="0"/>
+        </scene>
+        <scene id="150" background="fireBoomNorth.jpg">
+            <bgm src="11_22_Tiger.mp3" status="start"></bgm>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">……？！</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">“尼古拉斯”……这个名字是来自和您同属雪狼小队的“莎布·尼古拉斯”吗？</speak>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">——那个传说中曾数次“复活”的女武神？</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraVNNormalClose" position="left"/>
+            <speak chara="_ShigureKira">……是的。</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">这孩子能够用自己的细胞修复取代宿主损坏的器官和组织——这就是“莎布·尼古拉斯”能够数次复活的秘密。</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">你说什么？</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraVNNormalClose" position="left"/>
+            <speak chara="_ShigureKira">别急着惊讶……请你先听我讲完。</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">尽管尼古拉斯能够增强特定适格者的生命力，但是它自己的生存也要依赖宿主本身。</speak>
+            <show chara="ShigureKiraVNThinkClose" position="left"/>
+            <speak chara="_ShigureKira">在第二次崩坏的战场上，当“莎布·尼古拉斯”的身体完全崩溃之后……它便选择了我。</speak>
+            <show chara="ShigureKiraVNSadClose" position="left"/>
+            <speak chara="_ShigureKira">那时我已经失去了意识，所以自己也不清楚究竟发生了什么。</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">只是等到再度醒来的时候，我已经来到了另一个世界。</speak>
+            <speak chara="_ShigureKira">而尼古拉斯的“意识”……或者说“情绪”……就开始在我的脑海中共鸣。</speak>
+            <show chara="ShigureKiraVNSadClose" position="left"/>
+            <speak chara="_ShigureKira">我很难描述这种感觉，因为尼古拉斯并不是具备复杂思维的生物，它只是把自己的各种本能都投射进了人的意识而已。</speak>
+            <show chara="ShigureKiraVNThinkClose" position="left"/>
+            <speak chara="_ShigureKira">我只能说……我知道它把我带来这个世界是为了躲避风险，我知道它和我身体的结合度出乎意料的好。</speak>
+            <show chara="ShigureKiraVNNormalClose" position="left"/>
+            <speak chara="_ShigureKira">这个世界的人们把我当作了由“锚点”复制而生的“星语者”，我也就顺水推舟接受了这个新身份。</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">毕竟……在经历过那样一场残酷的战争之后……</speak>
+            <show chara="ShigureKiraVNThinkClose" position="left"/>
+            <speak chara="_ShigureKira">……说实话，我自己也不是很想再回去原来的世界了。</speak>
+            <show chara="ShigureKiraVNThinkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">这么说……你从那时起，就一直……</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraVNShockClose" position="left"/>
+            <speak chara="_ShigureKira">……糟糕，现在不是回顾这些东西的时候。</speak>
+            <show chara="ShigureKiraVNSeriousClose" position="left"/>
+            <speak chara="_ShigureKira">我刚才解释了那么多，只是为了说明我自己并没有被崩坏能侵蚀——</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">只是某种突如其来的冲击波让我失去了意识，使我体内的尼古拉斯产生了应激反应罢了。</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……突如其来的冲击波？</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraVNSadClose" position="left"/>
+            <speak chara="_ShigureKira">嗯。说起来丢人，我根本没有接近那些晶体，甚至都不知道发生了什么，就整个人失去了意识……</speak>
+            <show chara="ShigureKiraVNShockClose" position="left"/>
+            <speak chara="_ShigureKira">……等到我清醒过来的时候，发现自己竟然在尼古拉斯的保护之下漂浮在岩浆里。</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">罗兰小姐和薛定谔博士也不知所踪。我甚至担心她们是不是已经——</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">——不好！</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">怎么了，丽塔？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">比安卡大人，您忘了吗，我们刚才还见过罗兰大人……</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">啊！</speak>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">怎么会这样？罗兰说的是——</speak>
+            <goto goto="160" change="0"/>
+        </scene>
+        <scene id="160" background="fortTunnel.jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <show chara="rolandLNSeriousClose" position="back"/>
+            <speak chara="_Roland">她在调查晶体的时候不小心被烫伤了，手臂和眼睛似乎都有一些被崩坏能侵蚀的迹象。</speak>
+            <show chara="rolandLNEmbarrassClose" position="back"/>
+            <speak chara="_Roland">虽然她本人说没有关系……</speak>
+            <goto goto="170" change="0"/>
+        </scene>
+        <scene id="170" background="fireGroundNorth.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="start"></bgm>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">……恐怕，不幸被崩坏侵蚀了意志的人，正是罗兰自己吧。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">博士！你没事吧？</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="left"/>
+            <speak chara="_Schrodinger">我没事。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">这副身体虽然容易在能量的冲击下丧失幺正性，却也没有那么容易留下不可逆的损伤。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">……只是凝结回这个人形需要一些时间罢了。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">刚才你们的对话我都听到了。就让我补充一份证言吧——</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">袭击我和时雨绮罗的冲击波，是正罗兰本人释放出来的。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">紧贴着我的身体，把我炸了个粉碎。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">不、不可能……</speak>
+            <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraVNShockClose" position="left"/>
+            <speak chara="_ShigureKira">……</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">罗兰没有任何道理做这一切……除非——</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">——除非她已经被崩坏侵蚀了。</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">我在凝聚身体的时间里搜查了整座岛屿。哪里都没有我们之前监视的那些崩坏能晶体。</speak>
+            <show chara="schroNoSwordTalkClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">那……难道说……</speak>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">罗兰……她………</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="eyeSwordShock" position="right"/>
+            <speak chara="_eyeDurandalQDurandal">……我的天啊。</speak>
+            <show chara="eyeSwordShock" position="right"/>
+            <speak chara="_eyeDurandalQDurandal">我们就那样毫不在意地把她放进了要塞！</speak>
+            <goto goto="180" clockwise="1"/>
+        </scene>
+        <scene id="180" background="fortTunnelRed.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <text>数分钟前。</text>
+            <text>“女子”不紧不慢地走在要塞空旷的走廊里。</text>
+            <text>她的目标很明确，内心没有半点迷茫。</text>
+            <text>她知道，在这个千疮百孔的世界泡中，自己是独一无二的高贵存在。</text>
+            <text>是的，她起源于人类——</text>
+            <text>但正如人类不会觉得猴子还是自己的同类，她也不认为“裸猿”和“蝼蚁”能有多大的区别。</text>
+            <text>对她来说，即使是那个拿破仑，也不过是一个陈腐而固执的老父亲罢了。</text>
+            <text>……此身是上万个意志共同进化出的结晶。</text>
+            <text>摆脱了束缚自由的“主脑”，摆脱了丑陋的怪兽形体——</text>
+            <text>——神之子，借由天生残缺的“星语者”，终于降临人间。</text>
+            <text>……是的，她目前还认为自己仅仅是“神之子”。</text>
+            <text>她还不够强大，因此必须使用一点小小的伎俩。</text>
+            <text>等到她确信自己能够成功的时候，这些伪装也就毫无必要了。</text>
+            <text>……“罗兰”的意志还活在她的体内。但那不过是她完整意识中一个微不足道的神经细胞，一张不代表灵魂的画皮而已。</text>
+            <text>熬夜的人不会在意眼睛的干涩，长跑的人不会在意肌肉的酸痛——</text>
+            <text>不论螳螂如何挥动自己的前肢，车轮的前进方向也不会有一丝一毫的变化。</text>
+            <text>……神之子享受着自己体内这种微不足道的挣扎，不紧不慢地走在要塞空旷的走廊里。</text>
+            <goto goto="190" change="#000000"/>
+        </scene>
+        <scene id="190" background="fortControlRoom.jpg">
+            <bgm src="x_ruin.mp3" status="start"></bgm>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">咦？罗兰？</speak>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">出什么情况了吗？</speak>
+            <show chara="thorSighClose" position="left" opacity="0.8"/>
+            <show chara="rolandLNEmbarrassClose" position="right"/>
+            <speak chara="_Roland">不，一切正常，议长。</speak>
+            <show chara="rolandLNSmileClose" position="right"/>
+            <speak chara="_Roland">只是因为那边得到了两位女武神的增援，所以薛定谔博士把我轮换下来了。</speak>
+            <show chara="rolandLNSmileClose" position="right" opacity="0.8"/>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">唔，也好。毕竟你作为不完全的“星语者”，对崩坏的抵抗能力的确不如她们几位。</speak>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">唉……我们自己把事情弄成了一团糟，结果却还需要别人来做善后工作。</speak>
+            <show chara="thorSighClose" position="left" opacity="0.8"/>
+            <show chara="DarwinEmbarrassedClose" position="right"/>
+            <speak chara="_Darwin">这个……毕竟也有很多无法预测的事情发生了……</speak>
+            <show chara="DarwinEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="rolandLNNormalClose" position="left"/>
+            <speak chara="_Roland">不过，我觉得你们完全可以开心点，议长、司令。</speak>
+            <show chara="rolandLNNormalClose" position="left" opacity="0.8"/>
+            <show chara="DarwinSeriousClose" position="right"/>
+            <speak chara="_Darwin">……？</speak>
+            <show chara="DarwinSeriousClose" position="right" opacity="0.8"/>
+            <show chara="rolandLNSmileClose" position="left"/>
+            <speak chara="_RolandNina">我们并不认为那是一个真正糟糕的结果。</speak>
+            <show chara="rolandLNLaughClose" position="left"/>
+            <speak chara="_RolandNina">因为——这世界上最美妙的生命，其实已经在你们的面前诞生了哦？</speak>
+            <goto goto="200" change="0"/>
+        </scene>
+        <scene id="200" background="CG30-3.jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <sound src="01_19_claw.mp3"/>
+            <cg src="01_19_bloodWhite.jpg" bg="CG30-3.jpg" fadeIn="0" fadeOut="1"></cg>
+            <bgm src="x_Night.mp3" status="start"></bgm>
+            <speak chara="_Darwin">咕……唔……</speak>
+            <speak chara="_RolandNina">啊。被人掐住脖子的感觉一定很痛苦吧。</speak>
+            <speak chara="_RolandNina">不过抱歉啦？因为你可能是这个世界上最能理解我们的人……</speak>
+            <speak chara="_RolandNina">……所以我们可不想让你像议长一样死得不明不白。</speak>
+            <speak chara="_Darwin">咯……</speak>
+            <speak chara="_RolandNina">呵呵呵呵。没错，多露出一些痛苦、无助、绝望、错愕、而又愤怒的表情给我们看吧。</speak>
+            <speak chara="_RolandNina">不然我们都不知道自己应该从哪里开始讲哦？</speak>
+            <speak chara="_RolandNina">自我介绍？</speak>
+            <speak chara="_RolandNina">对对对，初次见面的礼仪，当然必须从自我介绍开始。</speak>
+            <speak chara="_RolandNina">嗯……不过这样一来，我们就必须给自己取个名字才可以吧？</speak>
+            <speak chara="_RolandNina">那么……司令姐姐你觉得……有什么适合“神之子”的名字可以给我们吗？</speak>
+            <goto goto="210" clockwise="1"/>
+        </scene>
+        <scene id="210" background="fireBoomNorth.jpg">
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_ShigureKira">别发呆了，女武神！</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">快回总部！我担心事情已经要来不及了！</speak>
+            <show chara="ShigureKiraVNTalkClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">！</speak>
+            <show chara="schroNoSwordSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">时雨绮罗！当心脚下！</speak>
+            <show chara="schroNoSwordSeriousClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraVNShockClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_ShigureKira">？！</speak>
+            <goto goto="220" change="0"/>
+        </scene>
+        <scene id="220" background="lavaBreak.jpg">
+            <bgm src="x_REV.mp3" status="start"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_ShigureKira">这……这是……</speak>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">……地震？还是火山爆发？</speak>
+            <goto goto="230" change="0"/>
+        </scene>
+        <scene id="230" background="fireGroundNorth.jpg">
+            <bgm src="x_REV.mp3" status="continue"></bgm>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">……糟糕，事情好像越来越失去控制了。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">您知道究竟发生了什么吗，薛定谔博士？</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">不知道。但不管来源为何……</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">……有一种力量，此时此刻，似乎正在侵蚀“锚点”本身。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">对于这个世界泡而言——也许这就是“世界末日”了吧。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNShockClose" position="right"/>
+            <speak chara="_ShigureKira">你是说……这个世界泡，马上就要变成一片火海了吗？像这里一样？</speak>
+            <show chara="ShigureKiraVNShockClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">不一定。或者说，大部分地区并不会那么惨。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">但无论如何，如果这个特殊的“锚点”系统崩塌了……世界泡就很容易内卷为时空碎片，最终衰变消失。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">在量子之海的底部，有许多这样的世界残骸。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">比如说……人们只能像囚犯一样生活在一栋大楼的断片里，无休无止地重复着同一天的时光。</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNSadClose" position="right"/>
+            <speak chara="_ShigureKira">这……</speak>
+            <show chara="ShigureKiraVNSadClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">喂！我说你们，现在不是分享这种知识的时候吧？刚才还说不要让我发呆呢！</speak>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">既然博士你说侵蚀“锚点”的是一股“力量”，那么我们把它阻止住不就好了吗？</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">……理论上是这样。但是，现在“锚点”的通道已经起伏不定，我们甚至很难有办法回到正确的地方去解决问题。</speak>
+            <show chara="schroNoSwordSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">我之前难道不是直接从这里跳下去了吗？</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">那是在锚点还很稳定的时候！</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">现在能量的波动如此剧烈，你要如何在空中灵活调整，让自己不被时空的裂隙撕扯殆尽？</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">即使——</speak>
+            <show chara="schroNoSwordTalkClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="left"/>
+            <speak chara="_Rita">诸位！快看！好像有什么飞过来了！</speak>
+            <goto goto="240" change="0"/>
+        </scene>
+        <scene id="240" background="lavaBreak.jpg">
+            <bgm src="12_14_Hero.mp3" status="start"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_bertrandYNoName">嗷嗷嗷嗷嗷嗷嗷——</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrandY">女武神们、旅行者们！你们遇到什么危机了吗？你们需要特别的救援吗？</speak>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrandY">化身为龙的贝特朗准将，在此向你们报道！我觉得自己每天都能年轻二十岁！</speak>
+            <show chara="BertrandSmile" position="center" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="center"/>
+            <speak chara="_Bianka">龙将军？太好了，你来的正是时候！</speak>
+            <show chara="biankaDressHesitateClose" position="center"/>
+            <speak chara="_Bianka">不过……你、你怎么刚好会出现在这里？</speak>
+            <show chara="biankaDressHesitateClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrandY">我在尤卡坦感到了崩坏能的异常波动，担心你们是不是已经与皇帝开战——</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrandY">——没想到我在飞行的途中误入了世界的裂缝！等到冲出来的时候，眼前便是这一番炼狱的光景！</speak>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrandY">——你们果然遇到什么难题了吗？</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="center"/>
+            <speak chara="_Bianka">……长话短说吧，龙将军！现在我们需要闯进一个要塞去拯救世界，但是空间隧道很不稳定，我们没有办法直接跳进去！</speak>
+            <show chara="biankaDressShoutClose" position="center" opacity="0.8"/>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrandY">唔……虽然我不是很清楚具体应该怎么做……</speak>
+            <show chara="BertrandAnger" position="center"/>
+            <speak chara="_bertrandY">……但为了回报你们的恩情，载几个人去穿越个把“空间隧道”，我想应该不成问题！</speak>
+            <show chara="BertrandAnger" position="center" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="center"/>
+            <speak chara="_Bianka">太好了！我们这就上来！</speak>
+            <show chara="biankaDressSneerClose" position="center" opacity="0.8"/>
+            <show chara="BertrandNormal" position="center"/>
+            <speak chara="_bertrandY">啊，等等——</speak>
+            <show chara="BertrandNormal" position="center" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="center"/>
+            <speak chara="_Bianka">——嗯？</speak>
+            <show chara="biankaDressHesitateClose" position="center" opacity="0.8"/>
+            <show chara="BertrandSmile" position="center"/>
+            <speak chara="_bertrandY">——你们应该还有其他的帮手，也在朝这里赶过来。</speak>
+            <show chara="BertrandThink" position="center"/>
+            <speak chara="_bertrandY">……看。</speak>
+            <goto goto="250" change="0"/>
+        </scene>
+        <scene id="250" background="fireGroundNorth.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <show chara="wattInspiredClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Watt">比安卡，好久不见！</speak>
+            <show chara="wattInspiredClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">吉米？还有飞行员先生？</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="manfredSmileClose" position="left"/>
+            <speak chara="_Manfred">哈哈，区区空间波动，怎么能阻挡得住“红男爵”的翅膀呢？</speak>
+            <show chara="manfredSadClose" position="left"/>
+            <speak chara="_Manfred">不过机械毕竟没有真正的龙那样灵活……我们本来还飞在他前面的，结果为了寻找能降落的地方，反而花了更多的时间。</speak>
+            <show chara="manfredSadClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">这有什么关系！我们可是完全没想到你们会出现在这里啊？！</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">比安卡、博士——现在是什么安排？</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">我们要穿越“锚点”，回到“瓦卡隧道”的核心区域！没错吧，薛定谔？</speak>
+            <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">……嗯。趁现在还来得及。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">你和丽塔借助贝特朗将军返回，时雨绮罗和我则搭乘“红男爵”的改进型飞机——</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">——无论谁先抵达，优先发布警报，并且搜寻罗兰的下落！</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="schroNoSwordTalkClose" position="center"/>
+            <speak chara="_Schrodinger">时间就是一切。</speak>
+            <show chara="schroNoSwordSeriousClose" position="center"/>
+            <speak chara="_Schrodinger">现在可能是拯救整个世界的最后机会！任何人的疑问，都稍后再解释！</speak>
+            <goto goto="260" clockwise="1"/>
+        </scene>
+        <scene id="260" background="CG30-4.jpg">
+            <bgm src="01_04_Darken-4.mp3" status="start"></bgm>
+            <speak chara="_bertrandY">……世事无常啊。不到半天的功夫，竟然足以发生如此之多的事情。</speak>
+            <speak chara="_bertrandY">虽然为时已晚，但我还是想对皇帝陛下说一句——</speak>
+            <speak chara="_bertrandY">——果然，青春年少时代的那个“波拿巴”，其实一直都生活在您内心的深处吧。</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_bertrandY">啊，你们年轻人，不必和我这样的老朽一起感伤。</speak>
+            <speak chara="_bertrandY">尽管我们彼此都失去了一些故人：但我的故事，多半已没有什么波澜；而你们的故事，实际上才刚刚开始。</speak>
+            <speak chara="_Rita">……</speak>
+            <speak chara="_bertrandY">当皇帝还是皇帝的时候，只要他还在工作，我们就无法从他的身上看到名为“悲伤”的情绪。</speak>
+            <speak chara="_bertrandY">他说，这个世界上最伟大的一种人，叫做“积极行动的悲观主义者”。</speak>
+            <speak chara="_bertrandY">他首先是悲观主义者：他知道，人类必须不断奋斗才能生存，从来就没有什么悲天悯人的力量在暗中护佑我们。</speak>
+            <speak chara="_bertrandY">但在此基础上，他又绝不消极，绝不退缩：即使明知自己力量卑微，也会向着目标毅然前行。</speak>
+            <speak chara="_bertrandY">因为他深深明白：在这个世界上，只有行动才能带来意义，只有行动才能改变命运。</speak>
+            <speak chara="_bertrandY">而一切不包括行动的思想，都只不过是一种自以为是的傲慢罢了。</speak>
+            <speak chara="_Rita">“知易行难”。我记得在东方有这样的说法。</speak>
+            <speak chara="_bertrandY">是这样。皇帝以前常常告诫我们：没有行动的思想，没有思想的行动——这两者一样危险。</speak>
+            <speak chara="_bertrandY">前者只会坐而论道，满腹牢骚；后者只会意气用事，乱上添乱。</speak>
+            <speak chara="_bertrandY">皇帝说，这种平衡其实很难掌握——他自己也仅仅是在组织编纂《民法典》的时候表现得比较出色。</speak>
+            <speak chara="_bertrandY">他说，他的那部《民法典》是思辨和行动力的完美结合，绝对不会被历史抛弃。</speak>
+            <speak chara="_Bianka">……女武神的工作就是拯救世界。她们也绝对不会被历史抛弃。</speak>
+            <speak chara="_bertrandY">哈哈哈哈，你说得很对。你们的事业是一切的基础，只要你们不背叛她，就绝对值得最多人的赞颂。</speak>
+            <speak chara="_bertrandY">你们知道，皇帝为了自己的利益、法国的利益而牺牲了整个欧洲……这也最终成为了他身上的致命污点。</speak>
+            <speak chara="_bertrandY">贝多芬甚至愤而撕掉了为他创作的交响曲的标题，把上面的“波拿巴”涂改成了“一位英雄”。</speak>
+            <speak chara="_bertrandY">毕竟，和全世界比起来……区区一个皇帝，区区数千万的法国人，都不过是少数中的少数而已。</speak>
+            <speak chara="_Bianka">可是……</speak>
+            <speak chara="_Bianka">……我们其实谁也不能保证自己做的事情，就一定符合人类的利益、文明的进步吧？</speak>
+            <speak chara="_bertrandY">你能想到这一层，真的很好。</speak>
+            <speak chara="_bertrandY">从你们转述的事情来看，皇帝或许正是为了彻底避免这一点，而选择与自己的臣民一道，融合进某种新的生命形式。</speak>
+            <speak chara="_bertrandY">但代价是什么呢？这些臣民正是过去他最忠心、最激进的仆从，他和他们的结合，只不过是让一群人更加心无旁骛地在偏执的道路上飞奔下去罢了。</speak>
+            <speak chara="_bertrandY">也许拾捡全人类的碎片，将他们统统融合在一起，不失为一种超越崩坏的途径——</speak>
+            <speak chara="_bertrandY">——但我们眼前的这个粗暴例子，绝对是负面中的负面，是从个人的畸形欲望中孳生而来的孽胎。</speak>
+            <speak chara="_bertrandY">……只可惜皇帝陛下真正的另一半已经和它同归于尽，而剩下的残渣余孽却似乎还要变本加厉地兴风作浪。</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_eyeDurandalQDurandal">主人，现在还不是伤心和愤怒的时候。</speak>
+            <speak chara="_Bianka">我明白。在真正拯救这个世界之前，我们每个人……都不能失去自己的冷静。</speak>
+            <bgm src="11_22_Tiger.mp3" status="start"></bgm>
+            <speak chara="_Rita">比安卡大人、贝特朗将军——看起来，我们已经十分接近空间裂缝的入口了。</speak>
+            <speak chara="_Bianka">了解。就这么笔直冲进去。</speak>
+            <speak chara="_Bianka">小幽，注意探查“锚点”的波动，即时校正目标定位。</speak>
+            <speak chara="_eyeDurandalQDurandal">……包在我身上！</speak>
+            <goto goto="270" clockwise="1"/>
+        </scene>
+        <scene id="270" background="fortControlRoomDark.jpg">
+            <bgm src="x_ruin.mp3" status="start"></bgm>
+            <text>星语者们的遗骸渐渐消散，能够调控整个锚点的中央监控室，此刻寂静无声。</text>
+            <text>从旧王遗骸中新生的魔君，如蜘蛛一般安居在世界泡的中心，细细地品味着猎物的味道。</text>
+            <show chara="RolandBSKSmile" position="center"/>
+            <speak chara="_laNinaNoName">……在彻底与旧世界告别之前，你们终究还是找到我们了呢。</speak>
+            <show chara="RolandBSKNormal" position="center"/>
+            <speak chara="_laNinaNoName">而距离我们成为超越这个世界的神明……还有五分钟。</speak>
+            <show chara="RolandBSKSmile" position="center"/>
+            <speak chara="_laNinaNoName">呵呵，我们倒是很有兴致看一看，你们几个人究竟还能做到什么。</speak>
+            <goto goto="280" change="#000000"/>
+        </scene>
+        <scene id="280" background="fortTunnelRed.jpg">
+            <bgm src="x_Night.mp3" status="start"></bgm>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">奇怪……这里会怎么连一个人都没有……</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestAngryClose" position="right"/>
+            <speak chara="_Rita">比安卡大人——你看对面！</speak>
+            <show chara="ritaVestAngryClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">？！</speak>
+            <goto goto="290" change="0"/>
+        </scene>
+        <scene id="290" background="fortTunnelRedRS.jpg">
+            <bgm src="x_Night.mp3" status="continue"></bgm>
+            <show chara="ShigureKiraVNShockClose" position="left"/>
+            <speak chara="_ShigureKira">比安卡、丽塔？你们怎么从对面——</speak>
+            <show chara="ShigureKiraVNShockClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">——这是我想问的吧！</speak>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">我们不是从降落点兵分两路去搜寻罗兰的下落吗？为什么竟然会迎面相遇！这条通道应该不是环形的啊！？</speak>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">我们不是还让龙和瓦特他们守在出发位置来接应吗？！</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">……</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">你们……是不是一路上也没有遇到任何人？</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">是啊，连个警备人员都没有！可如果说崩坏已经攻陷了要塞，又怎么会连战场都打扫得这么——</speak>
+            <show chara="biankaDressSighClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">崩坏当然不会刻意去打扫战场。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">既然我们用自己的双脚证明了这条通道是环形，那么在我的思考能力以内，就只有一种可能的情况了——</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">在我们脚下的这一部分要塞，很可能已经脱离了由“锚点”组织的正常秩序。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">……什么意思？</speak>
+            <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">比安卡，请你这样想。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">这座地心要塞，原本就修建在最接近“锚点”的地方。而“锚点”本身是什么呢？</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">是组织起这个大型世界泡的核心，是让诸多不同的、如书页般的微小空间，有序组织起来的“书脊”。</speak>
+            <show chara="schroNoSwordCalmClose" position="left"/>
+            <speak chara="_Schrodinger">……不，这种状况下，或许用电子计算机里那乱麻一般的数据线来打比方，可能还更合适。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">总之，由于要塞离锚点过近，所以它其实很容易被拆解成一个个微小的独立空间，每一个都近似于单独的世界碎片。</speak>
+            <show chara="schroNoSwordCalmClose" position="left"/>
+            <speak chara="_Schrodinger">换句话说，我们的相遇，其实就是各自从相反的方向绕了“一个世界 ”的半圈。</speak>
+            <show chara="schroNoSwordCalmClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">这……难道说，要塞本身已经解体，而我们还找错了应该前往的那部分碎片吗？</speak>
+            <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">……不。前半句对，后半句似乎不对。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">时雨绮罗，你身上的那个……“尼古拉斯”……是不是也拥有可以感知崩坏能的器官？</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNShockClose" position="right"/>
+            <speak chara="_ShigureKira">器官？你的话总是不太好理解……不过是的，“尼古拉斯”是有办法告诉我周遭崩坏能的大致分布状况。</speak>
+            <show chara="ShigureKiraVNShockClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">……那你感知到我们之前调查的那些晶体了吗？</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNThinkClose" position="right"/>
+            <speak chara="_ShigureKira">……</speak>
+            <show chara="ShigureKiraVNSeriousClose" position="right"/>
+            <speak chara="_ShigureKira">有一点……模模糊糊的感觉。</speak>
+            <show chara="ShigureKiraVNTalkClose" position="right"/>
+            <speak chara="_ShigureKira">我甚至觉得……它可能就藏在我们对面的那堵墙里。这不太可能吧。</speak>
+            <show chara="ShigureKiraVNTalkClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordCalmClose" position="left"/>
+            <speak chara="_Schrodinger">不。其实我的“嗅觉”也是这么告诉我的。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">嗯。这样一来，事情就很简单了。比安卡——</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">需要我做什么？</speak>
+            <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">——举起你的圣剑，切开那里的空间。</speak>
+            <show chara="schroNoSwordCalmClose" position="left"/>
+            <speak chara="_Schrodinger">我们要找的罪魁祸首，应该就藏这堵墙的对面。</speak>
+            <show chara="schroNoSwordCalmClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">就这么简单吗？</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordCalmClose" position="left"/>
+            <speak chara="_Schrodinger">就这么简单。</speak>
+            <show chara="schroNoSwordCalmClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">……很好。</speak>
+            <goto goto="300" change="0"/>
+        </scene>
+        <scene id="300" background="Fist01.jpg">
+            <bgm src="01_04_Miracle.mp3" status="start"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">那么来吧！</speak>
+            <goto goto="310" change="#ffffff"/>
+        </scene>
+        <scene id="310" background="fortControlRoomDark.jpg">
+            <bgm src="01_04_Miracle.mp3" status="continue"></bgm>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNinaNoName">哎呀，哎呀。</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNinaNoName">不愧是诸位。“拉尼娜”在此恭候多时了。</speak>
+            <show chara="RolandBSKSmile" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">你、你是——</speak>
+            <show chara="ShigureKiraVNShockClose" position="right"/>
+            <speak chara="_ShigureKira">——罗、罗兰？</speak>
+            <show chara="ShigureKiraVNShockClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKNormal" position="left"/>
+            <speak chara="_laNina">啊……你们是说这具躯体原本的主人吗。</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">星语者、骑士罗兰，她现在只是构成我们的万千细胞之一。</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">毫无特殊，毫无额外的意义。甚至不能参与思考。</speak>
+            <show chara="RolandBSKSmile" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">……也就是说你只是个该死的寄生虫而已吧！</speak>
+            <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKDis" position="left"/>
+            <speak chara="_laNina">啧。卑微的生物，多么粗鲁。</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">这世界上千姿百态的各种生物，最初都是由细菌那样的单细胞进化而来的——这是某个世界中达尔文的发现，我们想你们应该都知道。</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">那么，使用这个道理作为比喻的话——</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">——我们，“拉尼娜”，正是由“拿破仑帝国”的全体臣民，和你们的罗兰骑士，在崩坏的美妙作用下一同“进化”而来的。</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">她构成我们的骨骼，我们拓展她的智慧。你觉得你身体里的骨骼会嫉妒你的大脑吗？</speak>
+            <show chara="RolandBSKBark" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNTalkClose" position="right"/>
+            <speak chara="_ShigureKira">……这都是什么奇谈怪论？</speak>
+            <show chara="ShigureKiraVNTalkClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">觉得荒谬吗，时雨绮罗小姐？你之所以能从我们的攻击中幸存下来，不也是因为和其他生物融合在一起所带来的好处吗？</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">你就真的那么难以理解，为什么我们会比普通人优越无数倍吗？</speak>
+            <show chara="RolandBSKBark" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNSadClose" position="right"/>
+            <speak chara="_ShigureKira">……你只会让我感到恶心而已。</speak>
+            <show chara="ShigureKiraVNSadClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">啊。或许吧。因为我们的诞生，似乎过于美妙了一点。</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">你想，它可是这么多事情在机缘巧合之下先后发生的结果——</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">首先，是我们的皇帝，拿破仑先生，他为了自己的统治能够千秋万代，把我们作为他身体的零部件组装在了一起；</speak>
+            <show chara="RolandBSKDis" position="left"/>
+            <speak chara="_laNina">其后，是你们这个想要摆脱他威胁的共和国，擅自切下了世界泡的一部分，迫使我们包含精神在内，都在崩坏能的作用下完全混合在一起；</speak>
+            <show chara="RolandBSKNormal" position="left"/>
+            <speak chara="_laNina">再之后，皇帝的对立存在和他同归于尽，我们变成了“钵中之脑”，被困在崩坏能结晶之中；</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">但最后，那位不完全的星语者恰巧出现在我们的面前，使得我们可以进入她的身体涅槃重生。</speak>
+            <show chara="RolandBSKBark" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">但是你现在又要做什么！试图利用我们对罗兰的同情心吗？</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">呵呵，你还真是个心急的小姑娘。</speak>
+            <show chara="RolandBSKSmile" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">你……我可不怕把你当作在战场上被崩坏侵蚀的战友来处置！</speak>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">赶快滚出罗兰的身体，圣剑“幽兰黛尔”还能饶你不死！</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">哎呀哎呀。又粗鲁又心急，简直像个小土匪呢。你的同伴们倒是都有不错的克制力——</speak>
+            <show chara="RolandBSKDis" position="left"/>
+            <speak chara="_laNina">——不过很遗憾。这次其实你是对的，而她们是错的。</speak>
+            <show chara="RolandBSKDis" position="left" opacity="0.8"/>
+            <show chara="biankaDressHateClose" position="right"/>
+            <speak chara="_Bianka">……你在暗示些什么？</speak>
+            <show chara="biankaDressHateClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">哪里，我们现在还需要再“暗示”什么？</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">就在刚才你威胁我的时候，我们和“锚点”的同步已经悄然完成。从此以后，我们就是“锚点”，“锚点”就是我们。</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">而你们——为了听我们讲述自己的故事，而白白浪费了能够阻止“拉尼娜”的 最 后 五 分 钟 。</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">……还真是遗憾呢。</speak>
+            <show chara="RolandBSKBark" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">和“锚点”……同步？</speak>
+            <show chara="schroNoSwordTalkClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">啊，我们亲爱的博士。您一定是她们之中最明白这句话分量的人吧。</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">“锚点”控制着这个世界——如果有人真的能与它达成同步，那么这个人就不仅超脱于世界之外，甚至还能反过来利用世界的一切法则。</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">换句话说……我们，神之子“拉尼娜”——</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">现在已经成为了你们无比牵挂的这个世界的——神明。</speak>
+            <show chara="RolandBSKBark" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNShockClose" position="right"/>
+            <speak chara="_ShigureKira">这……这怎么可能！有史以来从没有人能同时操纵“锚点”情报量的哪怕千分之一——</speak>
+            <show chara="ShigureKiraVNSeriousClose" position="right"/>
+            <speak chara="_ShigureKira">——你又算什么东西，在这里虚张声势？！</speak>
+            <show chara="ShigureKiraVNSeriousClose" position="right" opacity="0.8"/>
+            <show chara="RolandBSKSerious" position="left"/>
+            <speak chara="_laNina">虚张声势？不，你错了，偶像小姐。</speak>
+            <show chara="RolandBSKSeriousTalk" position="left"/>
+            <speak chara="_laNina">“拉尼娜”既是一个人，也是一万个人、十万个人。我们能做到的事情，你根本无法想象。</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">请放心，这其实是一件好事。</speak>
+            <show chara="RolandBSKSeriousTalk" position="left"/>
+            <speak chara="_laNina">皇帝的所作所为不过是杀鸡取卵，而共和国的切割计划也只是破罐子破摔。</speak>
+            <show chara="RolandBSKDis" position="left"/>
+            <speak chara="_laNina">而只有我们，被命运选择的圣婴——才能够让这个世界最终长久地存在下去，让它拥有“明天”和“后天”。</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">作为证明……</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">对了，不如让我们把几个刚刚死去的人，为你们再复制到这个世界上来，怎么样？</speak>
+            <show chara="RolandBSKBark" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">你说什——</speak>
+            <goto goto="320" change="0"/>
+        </scene>
+        <scene id="320" background="fortDarkHonkai.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="start"></bgm>
+            <text>崩坏能从“拉尼娜”的体内倾泻而出。</text>
+            <text>但真正可怕的是——这些能量中的大部分并没有四散逃逸，而是凝聚成了一个个令人熟悉而又陌生的样子。</text>
+            <goto goto="330" change="0"/>
+        </scene>
+        <scene id="330" background="fortControlRoomDark.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="continue"></bgm>
+            <show chara="darwinHonkai" position="center"/>
+            <speak chara="_DarwinError">……</speak>
+            <show chara="darwinHonkai" position="center" opacity="0.8"/>
+            <show chara="soldierDeLaVegaHonkai" position="left"/>
+            <speak chara="_soldierDeLaVegaError">……</speak>
+            <show chara="soldierGarcilasoHonkai" position="right"/>
+            <speak chara="_soldierGarcilasoError">……</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <hide position="center"></hide>
+            <show chara="RolandBSKNormal" position="left"/>
+            <speak chara="_laNina">哎呀，好像出了点错误呢。</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">对哦，我们怎么忘记了——这些人的心智实在是太美味了，所以已经被我们消化干净，根本吐不出来啦。</speak>
+            <show chara="RolandBSKBark" position="left"/>
+            <speak chara="_laNina">没什么……“令人感动的再会”虽然没有在这里发生——</speak>
+            <show chara="RolandBSKSmile" position="left"/>
+            <speak chara="_laNina">——不过，如果你们都被我们吃掉的话，还真的可以所有人在同一具身体里重聚哦？</speak>
+            <goto goto="340" change="0"/>
+        </scene>
+        <scene id="340" background="CG30-5.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">你这个疯子！</speak>
+            <speak chara="_laNina">呵！想靠“幽兰黛尔”先发制人？</speak>
+            <goto goto="350" change="0"/>
+        </scene>
+        <scene id="350" background="CG30-6.jpg">
+            <bgm src="x_BGM32_boss4.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_laNina">——在名为“罗兰”的身体面前，你是打算教鱼怎么游泳吗？！</speak>
+            <speak chara="_Bianka">……剑……断了？</speak>
+            <speak chara="_laNina">怎么，你不会今天才意识到，这把剑的弱点，就是它的“完全形态”本身吧？</speak>
+            <speak chara="_laNina">好了，趁着你的伙伴们分身乏术的时候，我们来优先解决掉你吧……</speak>
+            <goto goto="360" change="0"/>
+        </scene>
+        <scene id="360" background="CG30-7.jpg">
+            <bgm src="x_Tarot.mp3" status="start"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Rita">休想得逞！</speak>
+            <show chara="iceFrozen" position="center"/>
+            <speak chara="_laNina">嗯？冰冻攻击吗？</speak>
+            <speak chara="_laNina">笑话——</speak>
+            <show chara="iceFrozen" position="back"/>
+            <speak chara="_laNina">————</speak>
+            <speak chara="_laNina">————————</speak>
+            <goto goto="370" change="0"/>
+        </scene>
+        <scene id="370" background="fortDarkHonkai.jpg">
+            <bgm src="x_Tarot.mp3" status="continue"></bgm>
+            <show chara="RolandBSKBark" position="center"/>
+            <shake position="all" time="250"></shake>
+            <speak chara="_laNina">——这种力量对我能有什么作用？！</speak>
+            <goto goto="380" change="0"/>
+        </scene>
+        <scene id="380" background="fortDarkHonkaiRS.jpg">
+            <bgm src="x_Tarot.mp3" status="continue"></bgm>
+            <show chara="schroNoSwordTalkClose" position="center"/>
+            <speak chara="_Schrodinger">——不。就像刚才的你一样，她也争取到了一份宝贵的时间。</speak>
+            <show chara="schroNoSwordSmileClose" position="center"/>
+            <speak chara="_Schrodinger">比安卡！用你自己的意志驱动“幽兰黛尔”的宝石！</speak>
+            <show chara="schroNoSwordSmileClose" position="center"/>
+            <speak chara="_Schrodinger">你是它的现任主人，它一定会回应你的意志的！</speak>
+            <show chara="schroNoSwordSmileClose" position="center" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">……是！</speak>
+            <goto goto="390" change="0"/>
+        </scene>
+        <scene id="390" background="m_CG27-2.jpg">
+            <bgm src="12_14_Hero.mp3" status="start"></bgm>
+            <speak chara="_Bianka">（罗兰的圣剑啊……）</speak>
+            <speak chara="_Bianka">（如果你同意由我来拯救她今世的名誉……）</speak>
+            <speak chara="_Bianka">（如果你愿意借用我的身体来消灭敌人……）</speak>
+            <speak chara="_Bianka">（……那么就回应我心灵深处的呼唤吧！不灭之刃！）</speak>
+            <goto goto="400" change="0"/>
+        </scene>
+        <scene id="400" background="white.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_laNina">不可能——</speak>
+            <speak chara="_laNina">这是——什么？</speak>
+            <goto goto="410" change="0"/>
+        </scene>
+        <scene id="410" background="CG30-8.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">原来……是这么一回事啊。</speak>
+            <speak chara="_Bianka">作为武器，魂钢可以代替女武神的肉体来吸收、控制和释放崩坏能……</speak>
+            <speak chara="_Bianka">但反过来，女武神也可以用自己的肉体，去临时做到魂钢能做到的事情！</speak>
+            <speak chara="_Bianka">所以，所谓的“拉尼娜”，你这个世界的渣滓……</speak>
+            <speak chara="_Bianka">这是在我们出发前，圣剑它早就为你准备好的净化程序——</speak>
+            <goto goto="420" change="0"/>
+        </scene>
+        <scene id="420" background="white.jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">——受死吧！</speak>
+            <goto goto="430" clockwise="1"/>
+        </scene>
+        <scene id="430" background="fortControlRoomDark.jpg">
+            <bgm src="x_DLC_UI7.mp3" status="start"></bgm>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">——罗兰！</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="ShigureKiraVNTalkClose" position="right"/>
+            <speak chara="_ShigureKira">别慌，比安卡。她体内的崩坏能已经被你抽干，现在只是普通地昏过去了。</speak>
+            <show chara="ShigureKiraVNSadClose" position="right"/>
+            <speak chara="_ShigureKira">比起这个……</speak>
+            <show chara="ShigureKiraVNSadClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">嗯……最根本的问题其实还留在那里。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="ritaVestNormalClose" position="right"/>
+            <speak chara="_Rita">薛定谔博士……你究竟是指……？</speak>
+            <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">……啊。你们——圣剑可能也不例外——对崩坏能的感知，的确没有我和时雨绮罗来得敏感。</speak>
+            <show chara="schroNoSwordSmileClose" position="left"/>
+            <speak chara="_Schrodinger">刚才的净化程序的确“擦除”了那些崩坏能中夹杂的意识。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">但问题在于，这些崩坏能已经和“锚点”触发了绑定关系——即使是圣剑，也只能把这股能量驱逐到“锚点”的更深处，而不是世界泡之外。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">……这就像你很难期待洗衣粉能把脏水本身洗干净一样。</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">所以……接下来会发生什么？</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">这个世界泡会暂时恢复平静。但是，由于自由崩坏能对“锚点”具有侵蚀作用，它很可能还是会在三到五年的时间中完全解体。</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">……还是会解体？</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">是的。这个世界泡仍然会裂解成无数碎片，走向自己的终点。</speak>
+            <speak chara="_Schrodinger">这个过程从“拉尼娜”死亡后的第一秒起就开始了。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">也就是说，即使在我们现在交谈的当口，这个世界泡也在缓慢而确实地崩解着。</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">——这、这怎么可以！</speak>
+            <bgm src="11_22_Tiger.mp3" status="start"></bgm>
+            <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">没错。没有人愿意接受这种命运。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">幸好，在目前的状况下，我的确能够想到一种方法……</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">……但是它给你个人带来的好处与坏处几乎相等，所以我必须首先争得你的同意。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">没关系！不论你说什么——只要能够彻底拯救这个世界，我都同意！</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">你先不要激动。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">我此刻临时想到的这种方法，其实不可能从根本上解决问题：它只是“拉尼娜”邪恶图谋的一个替代品，只是能大大拖延这个世界的“死亡”而已。</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">还有。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">一旦将这个方法付诸实施，除我们四人之外的一切都会滞留在这个濒死的世界泡当中——无论对方是否情愿。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">这个世界泡的时空裂缝将会从外部彻底锁死，我们没有机会和他们告别，没有机会告诉他们这里究竟发生了什么。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">甚至，我们也必然会丧失修理“幽兰黛尔”剑的机会。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">——但与此同时，我向你保证：这个世界的确会因此赢得宝贵的喘息时光。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">无论是我、时雨绮罗、你们的奥托主教，抑或是“逆熵”的什么人，在这段时间里都有可能找到办法来帮助这个世界。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">不过……由于这是我此刻能想到的唯一方法，所以从做决定的角度来说，以上这些其实都还不是判断的决定因素。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">那个决定因素在于——这个世界的命运，将从此系于你一人的身上。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">难道说……你要让我……</speak>
+            <bgm src="01_04_Darken-4.mp3" status="start"></bgm>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="left"/>
+            <speak chara="_Schrodinger">嗯，就是那个“难道”。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">你将直接代替“拉尼娜”占据那个可以自称为“神”的位置，将世界泡的存亡与自己相互锁定——</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">——只要你活着，这个世界就还能存在；反之，她也会因为你的死亡而重新开启自己崩解的进程。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">我此前也不曾想到……你作为“幽兰黛尔”那些宝石的容器，表现得甚至比它原本的魂钢身体还要好。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">这样一来，虽然我们还是无法将“拉尼娜”留下的崩坏能与“锚点”彻底分开——</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">——但是我们却可以利用“幽兰黛尔”的宝石，将整个“锚点”，连同世界泡本身和崩坏能，全部封入你的体内。</speak>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="right"/>
+            <speak chara="_Bianka">……啊？体内？字面意思？</speak>
+            <show chara="biankaDressScreamClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="left"/>
+            <speak chara="_Schrodinger">字面意思。就像你刚才让自己的肉身代替“幽兰黛尔”的剑身来运作一样。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">正如几何学上的“反演”可以将一个对象从圆的外部置换到圆的内部——</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">——以“幽兰黛尔”操作能量的技术，我们也可以把你当作那个圆，将这个世界泡，从你的外部“反演”到你的内部。</speak>
+            <show chara="schroNoSwordSmileClose" position="left"/>
+            <speak chara="_Schrodinger">在“反演”生效后，你完全可以正常使用“格尼乌斯”回到天命总部。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">而当前的这个世界泡……</speak>
+            <speak chara="_Schrodinger">对了，套用哲学里的一种说法就是——</speak>
+            <show chara="schroNoSwordSmileClose" position="left"/>
+            <speak chara="_Schrodinger">——它将成为你个人的“小宇宙”。</speak>
+            <show chara="schroNoSwordSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">当然，对于你个人来说，这不仅仅是一份精神上的重担：你是女武神，所以这甚至可能让天命的某些人产生对你进行人体实验的念头。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">……但正如我刚才所说，这是我能想到的唯一办法。</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">我不确定我们如果束手旁观研究上一段时间还能得到什么更好的方法……</speak>
+            <show chara="schroNoSwordSeriousClose" position="left"/>
+            <speak chara="_Schrodinger">而那时，随着“锚点”受到更多的侵蚀和破坏，我们倒很可能会失去像现在这样可以利用“幽兰黛尔”的宝石来“反演”它的机会。</speak>
+            <show chara="schroNoSwordTalkClose" position="left"/>
+            <speak chara="_Schrodinger">如果让我用自己对于崩坏能的“嗅觉”来推断的话……我们大概还有一周左右的安全缓冲时间来决定是否要进行“反演”。</speak>
+            <bgm src="11_22_Tiger.mp3" status="start"></bgm>
+            <show chara="schroNoSwordTalkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">……博士，我想我听得已经够多了。</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">你只需要告诉我，我究竟应该怎么做，才能抓住这根“救命稻草”，拯救这个世界。</speak>
+            <show chara="biankaDressSorrowClose" position="right"/>
+            <speak chara="_Bianka">我喜欢这个世界里的很多人。他们中有些人甚至为了世界的前途而牺牲了自己的生命。</speak>
+            <show chara="biankaDressAngryClose" position="right"/>
+            <speak chara="_Bianka">所以，无论如何，我都不想让这个世界迎来末日的命运。既然我们的旅行已经走到了这里，那么我们也就必须帮助他们守护到底。</speak>
+            <show chara="biankaDressAngryClose" position="right" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="left"/>
+            <speak chara="_Schrodinger">……比安卡，你真的是我见到过的，最勇敢的人。</speak>
+            <show chara="ShigureKiraVNShockClose" position="left"/>
+            <speak chara="_ShigureKira">可是……你这么轻松就可以……一口气决定掉自己今后的人生吗？那可是一整个世界的责任啊？！</speak>
+            <show chara="ShigureKiraVNShockClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">……前辈，女武神的人生，从来不都是这样的吗？</speak>
+            <show chara="biankaDressAngryClose" position="right"/>
+            <speak chara="_Bianka">我们是战士，是随时可能意外死亡的人，也是永远将众人的命运扛在自己肩上的人。</speak>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">既然我们从一开始就无法对眼前的毁灭坐视不理——</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">那么其实，从那时起，我们就已经决定了自己的人生会活成什么样子。</speak>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">如果说有人对此还有所犹豫……</speak>
+            <show chara="biankaDressHateClose" position="right"/>
+            <speak chara="_Bianka">我想，她们应该是没有仔细想清楚过——</speak>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">——成为“女武神”，为世界上的一切美好而战，究竟意味着什么。</speak>
+            <show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraVNTalkClose" position="left"/>
+            <speak chara="_ShigureKira">……</speak>
+            <goto goto="440" change="#ffffff"/>
+        </scene>
+        <scene id="440" background="CG13-1.jpg">
+            <bgm src="12_14_Hero.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="1.0"/>
+            <speak chara="_Bianka">为了我所喜欢的人，</speak>
+            <goto goto="450" change="0"/>
+        </scene>
+        <scene id="450" background="CG10-2.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="1.0"/>
+            <speak chara="_Bianka">为了这些人所喜欢的更多的人，</speak>
+            <goto goto="460" change="0"/>
+        </scene>
+        <scene id="460" background="CG24-1.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="1.0"/>
+            <speak chara="_Bianka">为了所有让“人”能够称之为“人”的人——</speak>
+            <goto goto="470" change="0"/>
+        </scene>
+        <scene id="470" background="CG21-1.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="1.0"/>
+            <speak chara="_Bianka">——他们曾经使我获得了感动，而我也愿意献上自己的一切来守护他们。</speak>
+            <goto goto="480" change="0"/>
+        </scene>
+        <scene id="480" background="m_CG11-1.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">圣剑啊！如果你还保有着意识、如果你还觉得我是一个值得托付的主人——</speak>
+            <speak chara="_Bianka">——那么现在，就和我一起超越自己的极限吧！</speak>
+            <goto goto="490" change="#ffffff"/>
+        </scene>
+        <scene id="490" background="CG30-9-1.jpg">
+            <bgm src="x_Lighting.mp3" status="start"></bgm>
+            <speak chara="_Rita">突然覆盖全身的闪耀战甲……比安卡大人和圣剑产生了更深层次的融合吗？</speak>
+            <speak chara="_ShigureKira">空间竟然都已经开始扭曲了！她背后的那个……是黑洞吗？！</speak>
+            <speak chara="_Schrodinger">不，那东西应该叫做“视界”——黑洞只是产生它的一种方式而已。</speak>
+            <speak chara="_Schrodinger">看起来，“不灭之刃”自身，也非常明白我所说的“反演”究竟怎样一回事。</speak>
+            <speak chara="_ShigureKira">翻转整个世界……将它收进另一个世界里没有体积的“一点”吗？</speak>
+            <speak chara="_Schrodinger">世界泡本身的体量很小，所以比安卡和“幽兰黛尔”才能够做到这一点。</speak>
+            <speak chara="_Schrodinger">丽塔小姐，准备好你们的“格尼乌斯”。时雨绮罗，也让你的“尼古拉斯”进入兴奋状态。</speak>
+            <speak chara="_Schrodinger">罗兰原本就是由“锚点”产生的星语者，无论如何，她都会被强制拖拽到世界泡的内部。</speak>
+            <speak chara="_Schrodinger">大家……我们就要到说再见的时候了。</speak>
+            <speak chara="_Bianka">博……士……</speak>
+            <speak chara="_Rita">比安卡大人？你不用勉强说话——</speak>
+            <goto goto="500" change="0"/>
+        </scene>
+        <scene id="500" background="CG30-9-2.jpg">
+            <bgm src="x_Lighting.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">没关系……</speak>
+            <speak chara="_Bianka">我现在……越来越适应了……</speak>
+            <speak chara="_Bianka">我感受到了……在我身体当中的天地……</speak>
+            <speak chara="_Bianka">有人在迎接崭新的蓝天……有人和朋友们紧紧拥抱在一起……</speak>
+            <speak chara="_Bianka">……我会珍惜他们所有人的。</speak>
+            <goto goto="510" change="0"/>
+        </scene>
+        <scene id="510" background="CG30-9-1.jpg">
+            <bgm src="x_Lighting.mp3" status="continue"></bgm>
+            <shake position="all" time="250"></shake>
+            <speak chara="_Bianka">——丽塔，就是现在！启动“格尼乌斯”！</speak>
+            <speak chara="_Bianka">“反演”很快就会结束，我们要被弹进量子之海的虚空当中了！</speak>
+            <goto goto="520" change="0"/>
+        </scene>
+        <scene id="520" background="white.jpg">
+            <bgm src="x_Lighting.mp3" status="continue"></bgm>
+            <speak chara="_Rita">是！比安卡大人！</speak>
+            <end post="U2FsdGVkX1+Uikg4fnAgehPgXIiy"/>
+        </scene>
+    </story>
+</data>

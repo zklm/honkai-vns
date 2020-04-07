@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="deepWater.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <text>“量子之海”并非真实的海洋。</text>
+            <text>它既不属于某颗特定的星球，也不是由水这样的液态流体构成的。</text>
+            <text>事实上，你应该把它当作某种不属于任何“单个宇宙”的“基石”，当作一种能够承载各种可能世界的“介质”。</text>
+            <text>坦率地说，我们无法在3维或4维的数学体系里，完整描绘它的结构——</text>
+            <text>但这并不妨碍我们，将各种各样、由相同或不同的基本维度和基本法则展开的、千差万别的宇宙，想象成一个又一个的“世界泡”——</text>
+            <text>——在这种比喻的意义上，“量子之海”，就是那个容纳着所有“世界泡”的“海洋”。</text>
+            <text>……嗯，其实你喜欢的话，也可以把它当成一口浴缸。</text>
+            <text>因为，构成“量子之海”的“以太”，它们在“涨落”中会自然形成各种“膜”，而这些“膜”都有机会进化成“世界泡”。</text>
+            <text>我们知道，三维的肥皂泡会形成一个近似二维的球面；</text>
+            <text>而这些“世界泡”，对于“以太浴缸”所拥有的全部11个维度，其继承也各有“取舍”。</text>
+            <text>举例来说，我们熟知的“那个宇宙”，就是一类“4个维度无限延伸、7个维度有限蜷缩、并且各种常数均符合日常经验”的“膜”。</text>
+            <text>而你们的奥托主教所称的“锚点”，应该就是指那些可以将“膜”稳定成“世界泡”的偶然机遇或特殊结构。</text>
+            <text>当两张稳定的“膜”的“相似性距离”足够小时，它们就会互相产生影响——比如物质上的交流。</text>
+            <text>一般来说，物质从“较小的膜”前往“较大的膜”是容易的，但反过来则很难——</text>
+            <text>——这样，“较小的膜”在结构上就很容易发生退化，并导致它可以被更多其他的“膜”所影响。</text>
+            <text>最终的结果，就是形成一类被称为“投影”的特殊“膜”：</text>
+            <text>在“投影”上，只有受到其他“膜”稳定影响的区域还保持着存在——其余的空间，则完全消失于无形。</text>
+            <text>作为一个实例，“喀里多尼亚号”目前所在的“世界”，正是一个由若干性质相似的“膜”所共享的“投影”。</text>
+            <text>也因为如此，来自某一个世界的你们，才会成为来自另一个世界的“船长莎士比亚”的客人。</text>
+            <goto goto="20" change="#000000"/>
+        </scene>
+        <scene id="20" background="CG3-1.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">…………</speak>
+            <speak chara="_Bianka">………………</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="submarineCabinBlurDeep.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="biankaBiteClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">真是的！我瞎琢磨这些云里雾里的东西干什么啦！</speak>
+            <show chara="biankaSeriousClose" position="right"/>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <speak chara="_Bianka">啊……</speak>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">你原来在啊，丽塔。</speak>
+            <show chara="biankaConfidentClose" position="right" opacity="0.8"/>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">从岛上来的难民都已经安顿好了。</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">海盗们虽然满口抱怨，但还是配合地腾出了地方，供大家休息。</speak>
+            <show chara="rita17HesitateClose" position="left"/>
+            <speak chara="_Rita">……话虽如此，但至少最近的几个晚上，大多数人都没有办法在床上睡觉了。</speak>
+            <show chara="rita17HesitateClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">无妨。无论是为了搭乘交通工具的一方，还是同意了搭救别人的一方，应该都没什么好抱怨的。</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">再说，有我们的米格尔老爷爷在，气氛肯定不会糟糕到哪里去的，不是吗？</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">啊，这倒也是。</speak>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">……</speak>
+            <speak chara="_Rita">说实话，我非常佩服比安卡大人的这一点。</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">啊？你佩服我什么？</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">总是能很快速地对事情做出判断，而且执行起来也很坚决。</speak>
+            <show chara="rita17SmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">呃……</speak>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">你知道吗，以前在孤儿院里的时候，可是有辅导员这样批评我——</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">“天啊！你这个笨蛋！脑筋都不动一下的吗？！”</speak>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">还有——</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">“不要这么快就相信啊！转两下脑子再行动不好吗？！”</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">——怎么看都是缺点的事情，怎么到了你那里，就摇身一变，成了难能可贵的优点了？</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">呵呵。这并不是什么“摇身一变”呀。</speak>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">实话实说，我是觉得——适度的鲁莽，远比犹豫不决、优柔寡断、甚至为了逃避责任而不作为，要好得多。</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">……喂喂，你后面说的这些——哪里会有这么差劲的女武神啊？总不可能是你自己吧？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">噗，我只是想认真地吹捧一下比安卡大人啊。</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">吹……吹捧什么的……</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">……这样不就被你抢了先吗！</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">反了、反了、完全反了啊！</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">……反了？</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="CG3-2.jpg">
+            <bgm src="11_29_themeTesla.mp3" status="start"></bgm>
+            <speak chara="_Bianka">喏，这个……送你。</speak>
+            <speak chara="_Bianka">那个……</speak>
+            <speak chara="_Bianka">……17岁生日快乐，副官小姐。</speak>
+            <speak chara="_Rita">……啊。谢、谢谢。</speak>
+            <speak chara="_Bianka">用……用“利维坦”的牙齿随便刻出来的小玩意。</speak>
+            <speak chara="_Bianka">……觉、觉得奇怪的话，直接扔了就好。反正也不值钱。</speak>
+            <speak chara="_Bianka">本、本来打算晚上休息的时候再送你的……也是作为你今天想替我出面战斗的回礼……</speak>
+            <speak chara="_Bianka">……不、不过提前几个小时也没差是吧？是吧！</speak>
+            <show chara="black" position="back" opacity="0.6"/>
+            <show chara="ritaSpecialRightSquint" position="center"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="ritaSpecialRightSmile" position="center"/>
+            <speak chara="_Rita">当然啦。比安卡大人的礼物，我一定会好好珍藏的。</speak>
+            <hide position="back"></hide>
+            <hide position="center"></hide>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="submarineCabinBlurDeep.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <show chara="biankaBiteClose" position="right"/>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">珍、珍藏什么的就不用啦！</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="rita17NaughtyClose" position="left"/>
+            <speak chara="_Rita">欸嘿嘿……不要害羞嘛，比安卡大人。</speak>
+            <show chara="rita17NaughtyClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">谁、谁害羞了啦！</speak>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">呃……抱歉，我、我不是故意要吼你……</speak>
+            <show chara="biancaShyClose" position="right" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">呵呵，我知道的，比安卡大人。</speak>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">不过，话说起来……</speak>
+            <speak chara="_Rita">……您为什么知道我的生日是明天……3月1日呢？</speak>
+            <speak chara="_Rita">……我好像……还没有对任何人提起过呀？</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">……哈哈哈哈，这当然是主教大人“出卖”了你啊。</speak>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">丽塔·洛丝薇瑟，1995年3月1日出生于——</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">啊。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">看起来我好像打断了什么好事的样子啊。</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">好、好事？哪、哪有什么好事……</speak>
+            <show chara="biancaShyClose" position="right" opacity="0.8"/>
+            <bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">……咳咳。</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">总之，之前介绍情况的时候和你们说过，在这个世界里，“欧洲”处于“被封锁”的状态。</speak>
+            <show chara="shakesColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">嗯，你们还说，从其他世界流落来的难民越来越多，这也很可能和“欧洲”的统治者有关。</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">没错。我当时说，之后要给你们看这种论点的“直接论据”——</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">——现在正好就到了那个最合适的观察地点。</speak>
+            <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">“赫拉克勒斯之柱”，“塔里克的山峰”，“世界的尽头”，拥有诸般称谓的弹丸之地——</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">——直布罗陀。</speak>
+            <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">……？！</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">……直布罗陀？？</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">我们出发的地方，不是说在加那利群岛和马德拉岛之间的大西洋上吗？</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">是这样啊。又没有骗你们。</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">那么，从出航到现在不过4个小时，按照你的说法，我们已经来到了上千公里以外——</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">——靠这艘古董潜艇？航速飙到100节以上？</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">打个对折再对折，25节，每小时50公里不到——恐怕也是天方夜谭吧！</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈！你们女武神，在地理交通的知识方面，难道也是专家吗？</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">的确，“喀里多尼亚号”现在只是以5节的对应马力进行潜航——一般来说，这也就相当于普通人跑步的速度吧。</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">那你怎么好意思——</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">稍安勿躁，稍安勿躁。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">“喀里多尼亚号”的续航航速虽然不快，但这并不代表我们没有捷径可走。</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……什么意思？</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">你们还记得大副“先生”讲的东西吗？她认为，这里的一切事物，都可以视作外部世界的“投影”。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">但“投影”不可能百分之百还原“本体”。比如说，这个世界里就不存在原生的“人类”。</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">……换个角度看，我们也可以认为，在这个世界里，理所当然，会有一些和外部不同的自然现象。</speak>
+            <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">……你到底想说什么？</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">在实际航行中，我们发现了广泛分布的超高速深海洋流，它们可以帮助“喀里多尼亚号”在水下疾驰。</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">你可以把我们的座驾想象成在海底冲浪的帆板，这样比较容易理解。</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="right"/>
+            <speak chara="_Rita">超高速深海洋流……为什么会有这样的东西？</speak>
+            <show chara="rita17NormalClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">……不知道啊。你如果指望渔夫能讲解台风的原理，那也太强人所难啦。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">反正，按照大副“先生”的说法，它们是这个世界独有的自然现象，背后可能潜藏着“深刻的原理”。</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">不管怎么说，直布罗陀的标志性巨岩是不会骗人的。</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">“喀里多尼亚号”马上就要浮出海面了——擦亮你们的眼睛吧。</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="wallGibraltar.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">真的是直布罗陀……</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">但是——那堵墙，那个能量壁，那是什么玩意？！</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">竟然围住了整个海岸线？！</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">——准确的说，它围住了整个欧洲大陆。</speak>
+            <show chara="shakesPityClose" position="left"/>
+            <speak chara="_Shakespeare">“阿斯加德之壁”……逃难到北非的人们这样称呼那个怪物。</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">这种能量壁据说从一百多年前开始出现，最初只是包围了某座失落的城市而已。</speak>
+            <show chara="shakesPityClose" position="left"/>
+            <speak chara="_Shakespeare">但是，从那时起，它就每时每刻都不断向外扩张，缓慢但不断地产生出新的障壁，绕过山脉，跨过河流，制造出新的无人区。</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare" remark="next">过不了许多年，地中海也许就要和大西洋断绝联系了吧。</speak>
+            <show chara="shakesPityClose" position="left"/>
+            <speak chara="_Shakespeare" remark="next">虽然直布罗陀海峡远比英吉利海峡水流湍急……但被那个巨墙拦腰截断，也只是时间问题。</speak>
+            <remark post="U2FsdGVkX18uSb9H1ND0T3Wb7jFr">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">海峡被截断、地中海和大西洋断绝联系的事件，在地质史上真实发生过。以下内容引自《古海荒漠：科学史上大发现》一书（许靖华著，朱文焕译，生活·读书·新知三联书店、天下文化出版公司出版）：</p>
+                <br />
+                <p class="article-text">***地中海的沧桑史***</p>
+                <p class="article-text">我们设想：在2000万年前，地中海是一条联通印度洋和大西洋的宽阔海路。大约1500万年前，随着非洲和欧亚大陆的碰撞和在中东发生的造山运动，古地中海与印度洋的海路联系宣告中断。当时，古地中海与大西洋联系的通道也仅遗留下两条狭窄的海峡——西班牙南部的贝蒂克（Betic）海峡和北非的里菲（Riphian）海峡。我们在岩芯里可以清楚地看出地中海环境的逐步恶化——海水流动渐趋停滞，底栖生物不可避免地纷纷死亡，浮游种群苟延残喘，而幸免于盐度危机的耐盐种族则演化繁衍。随着两条海峡的最后封闭，这个内陆海变成了一些巨大的盐湖。盐湖不断涸竭，导致这个位于海平面以下3000公尺的中新世“死谷”底上的动植物荡然无存。直布罗陀地峡是一道孤孤单单的长堤，横亘在干涸的地中海和大西洋之间的咽喉地带，阻止了大西洋海水的侵入。500万年前的上新世初叶，这道长堤决口，破堤而入的海水汹涌奔腾，冲过缺口，形成一个巨大的瀑布。这个直布罗陀大瀑布的水流量每年约为四万立方公里，比维多利亚瀑布壮观百倍，比尼亚加拉瀑布雄浑千倍。但即使是这样大的瀑布，也需要一百多年才能把干涸的地中海重新灌满海水。这该是何等壮观的场面啊！</p>
+                <p class="article-text">在墨西拿盐度危机时期，一旦海水溢过地峡，动物也会随之蜂拥而来；而一旦溶解的离子以盐的形式沉淀下来，它们就又都死亡殆尽。但是，每一次洪水泛滥后就会建立起一代新的动物王朝。上新世初，直布罗陀海峡又窄又深，大西洋的冷海水可以畅通无阻地流入新诞生的地中海。但是，岩芯已经告诉我们，历史是会重演的。目前，直布罗陀海峡正在变浅而成为一道海槛。我们可以设想，总有一天，直布罗陀海峡又会重新变成阻隔在大西洋和地中海沙漠之间的一条地峡。</p>
+                <p class="article-text">这个故事委实过于离奇，但是雷恩、希妲和我是根据岩芯的分析资料推论出来的，可谓证据确凿。我们这个大胆的见解自然遭到许多人的怀疑。质疑者有之，批评者亦不乏其人。但是，由诘问和答辩组成的每一个回合，到头来不过是在帮助我们，在这幅拼图游戏中又翻开了一些新的拼版而已。</p>
+            </remark>
+            <show chara="lallaSighClose" position="left"/>
+            <speak chara="_Lalla">直布罗陀以前是一个很重要的贸易据点。没想到就这样荒废掉了。</speak>
+            <show chara="lallaSeriousClose" position="left"/>
+            <speak chara="_Lalla">对岸的坦吉尔、休达和得土安，又能坚持多久呢。</speak>
+            <show chara="shakesPityClose" position="left"/>
+            <speak chara="_Shakespeare">得土安城是蕾拉小姐的故乡。</speak>
+            <show chara="shakesPityClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">可以提一个问题吗？</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">当然。</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">“阿斯加德之壁”……是由崩坏能构成的吗？</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">根据大副“先生”的测量，应该是这样。</speak>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">“截面的平均能量密度大约为1000轰瓦每平方米，直接接触会导致立即死亡”—她用的那些术语我不是很懂，但总之，好像挺可怕的。</speak>
+            <show chara="shakesSweatyClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">……但即使如此，也没有诱发“崩坏兽”的出现？</speak>
+            <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">BENGHUAISHOU? 那是什么？</speak>
+            <show chara="shakesQuestionClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">就是铁皮人给你讲的“魔物”啦。</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">“墙”的附近，果然没有这种东西出没吗？</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">没有。</speak>
+            <show chara="shakesPityClose" position="left"/>
+            <speak chara="_Shakespeare">但直接接触“阿斯加德之壁”仍然是致命的……某些执着于故土的难民已经用自己的灰飞烟灭证明过了这一点。</speak>
+            <show chara="shakesPityClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">灰飞烟灭……</speak>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">看来不仅仅是高浓度的崩坏能，还有其他能量形式的共同作用吗……</speak>
+            <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesPityClose" position="left"/>
+            <speak chara="_Shakespeare">……曾几何时，我以为自己拥有了一些手段，便试图出手改变这一切。</speak>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">不过，那时的我过高估计了自己运气，所以——</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="CG3-3-1.jpg">
+            <bgm src="11_29_themeTesla.mp3" status="start"></bgm>
+            <speak chara="_Shakespeare">——这把武器就成了这个样子。</speak>
+            <speak chara="_Bianka">这是什么……宝剑吗？</speak>
+            <speak chara="_Bianka">……看起来也没坏啊？</speak>
+            <speak chara="_Shakespeare">……那是你没有见过它真正的样子。</speak>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="CG3-3-2.jpg">
+            <bgm src="11_29_themeTesla.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">“啊，勇敢的武器，你何其不幸！”</speak>
+            <speak chara="_Shakespeare">“现在你虽已无用，但人们仍爱你如初。”</speak>
+            <speak chara="_Shakespeare">“古代的勇士们用你打了那么多胜仗，但愿我们这些新人不是临阵脱逃的懦夫！”</speak>
+            <speak chara="_Shakespeare">“啊，阳光下，你是多么的耀眼，美丽而神圣！”</speak>
+            <speak chara="_Shakespeare">“你七彩的剑柄，镶满人人向往的神圣宝物——”</speak>
+            <speak chara="_Shakespeare">“红色的勇敢、橙色的自信、金色的博爱、绿色的善良、青色的活力、蓝色的冷静、紫色的高贵！”</speak>
+            <speak chara="_Shakespeare">“你是人世间最锋利的兵刃，能将一切污秽送进湮灭的深渊。”</speak>
+            <speak chara="_Shakespeare">“——正如你的名字，‘杜兰达尔’，坚不可摧，无可匹敌。”</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="CG3-3-1.jpg">
+            <bgm src="11_29_themeTesla.mp3" status="continue"></bgm>
+            <speak chara="_Shakespeare">总之，这把剑已经被我用坏了，所以只好送给你啦！</speak>
+            <speak chara="_Bianka">等等等等！</speak>
+            <speak chara="_Bianka">凭啥你要把用坏了的东西丢给我啊？！</speak>
+            <speak chara="_Bianka">虽然“杜兰达尔”这个名字我总觉得有些耳熟……但你这样念念有词的，一看就很可疑好吗？！</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="wallGibraltar.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">怎么说呢……</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">我就是强行使用了它一次……</speak>
+            <speak chara="_Shakespeare">结果好像违背了什么契约，反而让武器的特殊力量全都消散啦！</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">你……</speak>
+            <speak chara="_Bianka">……该不会是想借助我们，来找回这些力量吧。</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">没错，就是这样。</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">喂！你为什么觉得我们会答应这种没谱的事啊？！</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">……因为根据大副“先生”对“女武神”的了解，你或者丽塔，很可能就是“真正的幸运儿”啊。</speak>
+            <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">……什么意思？</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">这柄“杜兰达尔”，在发动真正的威力时，会验证“主人”的特质是否符合自己的预期。</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">勇敢、自信、博爱、善良、活力、冷静、高贵。</speak>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">在这七个方面，只要有其一得不到它的认可，整柄剑的力量就会四散逃逸，化作天涯海角的七颗宝石。</speak>
+            <show chara="shakesSweatyClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">……这是哪里来的童话故事吗。</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">可如果我这么说呢——</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">“喀里多尼亚号”的船长刚刚去过一趟非洲大陆的最西端，在萨卢姆河口成功回收了“勇气宝石”，并因此让剑柄上重新出现了那条红色装饰环——</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">——你还会觉得，这是一个童话故事吗？</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">握住它吧。让它自己来告诉你，剩余的六颗宝石，都流落在了怎样的地方。</speak>
+            <goto goto="120" clockwise="1"/>
+        </scene>
+        <scene id="120" background="wallGibraltar.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="back"/>
+            <show chara="swordRedClose-up" position="center"/>
+            <text>刚刚接过剑柄的一瞬间，你就感到异样的直觉在脑海里若隐若现。</text>
+            <text>在惊讶中，你闭上了双眼，试图通过屏蔽感官来捕捉更多的意象。</text>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="black">
+            <bgm src="seaAndSky.mp3" status="continue"></bgm>
+            <text>你感知到了，共计六种景象——</text>
+            <text>大雪中盛开的鲜花。</text>
+            <text>舞台上璀璨夺目的偶像。</text>
+            <text>被火山和雪岭包围的奇怪都市。</text>
+            <text>沙漠边缘发射架高耸的宇航中心。</text>
+            <text>雨林中如宝石一般深不见底的蔚蓝溶洞。</text>
+            <text>荒芜的小岛，倾颓的石像突兀地矗立在岸边。</text>
+            <text>——而且，与这些景象无关……</text>
+            <text>……你毫无理由地开始坚信，那最终完成的剑锋，就将是大千世界中最最锐利的事物：</text>
+            <text>无论对象为何，都会被它像切蛋糕一样轻松分解。</text>
+            <text>……不。</text>
+            <text>……绝不是毫无理由。</text>
+            <text>……有一瞬间，你确实体会到了，某位自信无敌的战士，在战场上究竟拥有怎样的心境。</text>
+            <text>你很清楚，那绝不是现在的你就能奢求的东西。</text>
+            <text>皮肤因此紧绷。</text>
+            <text>毛发因此倒竖。</text>
+            <text>冷汗止不住地流下来。</text>
+            <goto goto="140" change="#000000"/>
+        </scene>
+        <scene id="140" background="wallGibraltar.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">我……确实感受到了奇怪的“景象”。</speak>
+            <speak chara="_Bianka">以及……那种潜藏的……难以形容的……巨大威力。</speak>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">……如果真的能够苏醒过来，它绝对可以像切豆腐一样破坏掉那堵“墙”。</speak>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">但是，这所谓的“杜兰达尔”——一柄可能达到“神之键”级别的神兵利器——你们究竟是怎么搞到手的？</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">捡的。</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">……啥？</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">捡的。</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">当我在得土安城遇见蕾拉的时候，正好碰上了地震。</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">这宝贝家伙随着碎石就从山崖上直接滚了下来——我比较好运，第一个发现了它。</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">……不管你怎么想，“杜兰达尔”这个名字，可不是我自己随便起的。</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">当第一次拿起这柄有着彩虹饰环的武器之时，我看到了一位少女骑士的幻影。</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">她在加洛林的鹰徽下，和十几位要好的伙伴一起，征战四方、周游世界、对抗邪恶的怪兽和魔人——甚至还去过月亮上。</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">这……</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">这些事迹，完全符合一个历史人物的特征。</speak>
+            <show chara="shakesColdClose" position="left"/>
+            <speak chara="_Shakespeare">传说中的骑士，查理大帝麾下第一猛将——罗兰。</speak>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">唯一的问题在于……在我所知的历史当中，罗兰毫无疑问是个男人。孔武有力、肌肉都快要溢出到脑子里的，那种男人。</speak>
+            <show chara="shakesSweatyClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">……男人？！</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="shakesDisgustedClose" position="left"/>
+            <speak chara="_Shakespeare">是啊，这有什么——</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">啊。我明白了。在你所知的历史里，罗兰的的确确是个女人。对不对？</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">是的。她是历史上有名的、对抗崩坏的大英雄——虽然并不是女武神，但没有女武神会不知道她。</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">不过，说到底，“杜兰达尔”和罗兰有什么关系？她的宝剑明明是叫做“幽兰黛尔”——</speak>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">啊。</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈！你也意识到了吗？</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">以防万一，我再补充问一句——</speak>
+            <show chara="shakesConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">你们世界的罗兰之剑，“幽兰黛尔”，在传说的最后，是不是下落不明了呢？</speak>
+            <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">……是。</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">她牺牲后，“幽兰黛尔”就神秘消失了。虽然，有一种说法是，某个叛徒在开战前偷走了它——</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">但也可能——</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="lallaSeriousClose" position="right"/>
+            <speak chara="_Lalla">船长！海面上发现了一名漂流者！就在“喀里多尼亚号”的航向上！</speak>
+            <show chara="lallaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="shakesQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">啧。聊天聊得正开心——</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">——不过救人要紧！</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">各位，我们好像又可以招募新的船员啦！哈哈哈哈！</speak>
+            <speak chara="_Shakespeare">大家跟我上！</speak>
+            <end post="U2FsdGVkX19LI5+XVKTLDbEhVqlH"/>
+        </scene>
+    </story>
+</data>

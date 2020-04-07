@@ -1,0 +1,808 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="jailCell.jpg">
+            <bgm src="01_18_horror.mp3" status="start"></bgm>
+            <text>你——吉米·瓦特——绝望地回忆着自己昏迷前的经历。</text>
+            <text>不知多久之前，你在大图书馆的阅览室里失去了意识……等到再度清醒过来的时候，人就已经被关在了这个牢房里。</text>
+            <text>冰冷的大门紧锁着，没有任何人回应你嘶声力竭的呼喊。</text>
+            <text>比安卡……莎士比亚船长……泰勒斯所长……</text>
+            <text>你无助地幻想着她们的神兵天降，幻想着有人谈笑之间就可以把自己搭救出去。</text>
+            <sound src="02_03_highheels.mp3"/>
+            <text>……脚步声？</text>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="black">
+            <bgm src="01_18_horror.mp3" status="stop"></bgm>
+            <text>你连忙将耳朵贴在了门上。脚步声似乎就在门的另一侧停了下来。</text>
+            <sound src="02_03_key.mp3"/>
+            <text>你听到了钥匙的声音。门锁在转动。</text>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="jailCell.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <sound src="02_03_door.mp3"/>
+            <show chara="AliceStandBlackClose" position="center"/>
+            <speak chara="_AliceNoName">学者先生。让您受委屈了。</speak>
+            <speak chara="_Watt">呃……嗯。请问你是……？</speak>
+            <speak chara="_AliceNoName">……说的是呢。想必老师您也很困惑吧。</speak>
+            <speak chara="_AliceNoName">我的名字是“爱丽丝”。目前……暂时管理着这栋建筑。</speak>
+            <speak chara="_Alice">请先随我来吧，我们边走边说。</speak>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="jailBridge.jpg">
+            <bgm src="12_14_moonLight.mp3" status="start"></bgm>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">……这里曾经是某位博士的实验基地。</speak>
+            <show chara="AliceDeclineFar" position="center"/>
+            <speak chara="_Alice">博士是一位特立独行的人。不只是深居简出这一方面——他的思想，也和城里的人们很不一样。</speak>
+            <speak chara="_Alice">城里的人们不赞成博士倡议的社会发展方式。他们认为博士是个危险人物，并因此将他驱逐出境。</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">……不过博士并没有轻言放弃。</speak>
+            <show chara="AliceCalmFar" position="center"/>
+            <speak chara="_Alice">他利用自己的知识和城外形形色色的人交易，白手起家建成了这座实验基地，自给自足地住在了里面。</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">为了……建造出像我这样的存在。</speak>
+            <speak chara="_Watt">……“建造”？你？</speak>
+            <show chara="AliceBitterFar" position="center"/>
+            <speak chara="_Alice">……嗯。</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">虽然难以启齿……而且我自己这么说也很奇怪……</speak>
+            <show chara="AliceCalmFar" position="center"/>
+            <speak chara="_Alice">但是……我的确不是人类。</speak>
+            <speak chara="_Watt">……这、这是某种比喻吗？</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">不……请不要惊讶。</speak>
+            <show chara="AliceDeclineFar" position="center"/>
+            <speak chara="_Alice">我没有任何装神弄鬼的意思……只是，我的确是博士亲手制造的一台机器。“4号机”。</speak>
+            <show chara="AliceCalmFar" position="center"/>
+            <speak chara="_Alice">老师您现在看到的“爱丽丝”，只是这台机器的一个终端界面而已。</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">……虽然，的确和人类的肉体……很相似。</speak>
+            <speak chara="_Watt">……</speak>
+            <show chara="AliceCalmFar" position="center"/>
+            <speak chara="_Alice">……我知道自己刚才说的话有多么令人难以置信。</speak>
+            <show chara="AliceDeclineFar" position="center"/>
+            <speak chara="_Alice">可是，接下来……其实还有更加耸人听闻的事实。</speak>
+            <show chara="AliceBitterFar" position="center"/>
+            <speak chara="_Alice">我当然愿意现在就解释老师您之所以被绑架的原因……</speak>
+            <show chara="" position="center"/>
+            <speak chara="_Alice">但是我更希望，在看到“某样东西”之前……您能够做好足够的心理准备。</speak>
+            <speak chara="_Watt">……心、心理准备？</speak>
+            <speak chara="_Watt">……你、你要带我去哪里？</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">去这个世界上，某位博士最引以为傲的地方……</speak>
+            <show chara="AliceCalmFar" position="center"/>
+            <speak chara="_Alice">……也就是，我的“脑部”。</speak>
+            <speak chara="_Watt">……你的……脑部……</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">……之前博士的助手们也绑架过两位学者。可是，他们在看到“那个”的一瞬间就完全拒绝了合作。</speak>
+            <show chara="AliceDeclineFar" position="center"/>
+            <speak chara="_Alice">一个不听解释，无论说什么都要逃跑；</speak>
+            <show chara="AliceBitterFar" position="center"/>
+            <speak chara="_Alice">另一个口中不停地默念着谵妄的祈祷咒语，根本没有办法进行交流。</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">……</speak>
+            <speak chara="_Alice">最终，所有人都“死”了。</speak>
+            <speak chara="_Watt">死、死了……？</speak>
+            <show chara="AliceDeterminedFar" position="center"/>
+            <speak chara="_Alice">是的……而老师您，也就成了爱丽丝……最后的希望。</speak>
+            <speak chara="_Watt">……你……你们……要对我……做什么……</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">不，不是的……</speak>
+            <show chara="AliceBitterFar" position="center"/>
+            <speak chara="_Alice">……这里已经没有所谓的“我们”了。</speak>
+            <speak chara="_Watt">……？</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">这里……现在只有我和你……</speak>
+            <show chara="AliceDeclineFar" position="center"/>
+            <speak chara="_Alice">博士和……助手们、还有其他受害者……大家【都】已经不在了。</speak>
+            <speak chara="_Watt">……！</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">首先是……前天，大约50个小时之前……</speak>
+            <speak chara="_Alice">博士……在连续工作了20多个小时之后，突然就倒下了……</speak>
+            <show chara="AliceDeclineFar" position="center"/>
+            <speak chara="_Alice">助手们乱作了一团……他们手忙脚乱地给博士进行“治疗”……然而根本于事无补。</speak>
+            <speak chara="_Alice">当我……可以接触到博士的时候……他已经……</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">……去世了。</speak>
+            <show chara="AliceDeclineFar" position="center"/>
+            <speak chara="_Alice">之后……失去博士的助手们，为了想办法继续利用爱丽丝……就铤而走险，绑架了老师您……还有其他两位学者……</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">于是，就像我刚才所说的……那两位学者和绑架他们的助手们之间又起了冲突……</speak>
+            <show chara="AliceBitterFar" position="center"/>
+            <speak chara="_Alice">再之后……这里就只剩下……爱丽丝了……</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">……当然，还有……当时幸好还昏睡在牢房里的……老师您。</speak>
+            <speak chara="_Watt">那、那个……叫我“吉米”就好。</speak>
+            <speak chara="_Alice">吉米老师……对爱丽丝来说，您是唯一……可以拯救这一切的人了……</speak>
+            <speak chara="_Watt">……</speak>
+            <speak chara="_Watt">你打算……让、让我做什么？</speak>
+            <show chara="AliceSilentFar" position="center"/>
+            <speak chara="_Alice">……</speak>
+            <show chara="AliceCalmFar" position="center"/>
+            <speak chara="_Alice">啊。前面的楼梯右转。</speak>
+            <show chara="AliceDeterminedFar" position="center"/>
+            <speak chara="_Alice">……我们要到了。</speak>
+            <goto goto="50" change="#000000"/>
+        </scene>
+        <scene id="50" background="CG7-1-1.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <text>楼梯的底部是一扇没有什么特征的门。</text>
+            <text>少女的双手紧贴着门扉，身体仿佛有一些颤抖。</text>
+            <speak chara="_Alice">当这扇门打开的时候……</speak>
+            <speak chara="_Alice">我希望您能够保持足够的冷静和克制……</speak>
+            <speak chara="_Alice">……因为，无论这个实验本身，看起来有多么违背伦理、荒谬绝伦——</speak>
+            <speak chara="_Alice">但因此而诞生的生命，她……</speak>
+            <speak chara="_Alice">她……</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG7-1-2.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <cg src="CG7-1.jpg" bg="CG7-1-2.jpg" fadeIn="0" fadeOut="1"></cg>
+            <speak chara="_Alice">……她想活下去！</speak>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="jailComputerRoom.jpg">
+            <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">这、这里是……</speak>
+            <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="AliceDeterminedClose" position="right"/>
+            <speak chara="_Alice">……是我的思维中枢。</speak>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">我没有阅读维护资料的权限……所以在博士去世之后，只能先找其他人学会维护流程……之后再教给我。</speak>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">不……准确地说，不教给我维护的方法也没有关系……但是……</speak>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">……但是……我真的希望能定期得到维护……</speak>
+            <speak chara="_Alice">……否则，我……我的生命甚至维持不了200小时。</speak>
+            <show chara="AliceSilentClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_Watt">等、等一等……让我理解一下……</speak>
+            <speak chara="_Watt">也就是说……你是一个会思考的机械……而这里，就相当于你的大脑？</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="AliceDeclineClose" position="right"/>
+            <speak chara="_Alice">……是的。简单……来说的话。</speak>
+            <show chara="AliceDeclineClose" position="right" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">而……就像人类的大脑需要睡觉休息，你的“大脑”也需要定期维护，才能正常工作？</speak>
+            <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="AliceCalmClose" position="right"/>
+            <speak chara="_Alice">……是的。</speak>
+            <show chara="AliceCalmClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">然后……制造你的“博士”偏偏能够“绝对控制”你的行为……</speak>
+            <speak chara="_Watt">他不给你阅读维护资料的权限，你也就没有办法单凭自己学会维护的技术……</speak>
+            <show chara="wattSighClose" position="left" opacity="0.8"/>
+            <show chara="AliceDeterminedClose" position="right"/>
+            <speak chara="_Alice">是的。</speak>
+            <show chara="AliceDeterminedClose" position="right" opacity="0.8"/>
+            <show chara="wattSadClose" position="left"/>
+            <speak chara="_Watt">……这、这太奇怪了。“博士”为什么要这样做啊？</speak>
+            <show chara="wattSadClose" position="left" opacity="0.8"/>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">……不知道。</speak>
+            <show chara="AliceDeclineClose" position="right"/>
+            <speak chara="_Alice">不过，我想……博士可能是要保留几个……能够在意外情况下控制我的手段。</speak>
+            <show chara="AliceDeclineClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_Watt">意外情况？控、控制你？……为、为什么？</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="AliceBitterClose" position="right"/>
+            <speak chara="_Alice">……因为我的确不是什么“干净”的机械。</speak>
+            <show chara="AliceBitterClose" position="right" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">……？</speak>
+            <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">……</speak>
+            <show chara="AliceBitterClose" position="right"/>
+            <speak chara="_Alice">这些柜子看起来并没有什么特殊之处——您是不是觉得，它里面也就是一些复杂的电路，仅此而已呢？</speak>
+            <show chara="AliceBitterClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">……因、因为你自称“机械”……所以会这样想也很自然？</speak>
+            <show chara="wattSighClose" position="left" opacity="0.8"/>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">但是……我自称为“机械”……其实只是没有“更贴切的词汇”可以使用而已。</speak>
+            <show chara="AliceSilentClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_Watt">……这是……什么意思？</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="AliceDeclineClose" position="right"/>
+            <speak chara="_Alice">……如果允许生造一个词汇的话，我想，我应该是一台——</speak>
+            <show chara="AliceCalmClose" position="right"/>
+            <speak chara="_Alice">——“脑机”。</speak>
+            <show chara="AliceCalmClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_Watt">……！</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">我是“4号机”。</speak>
+            <show chara="AliceCalmClose" position="right"/>
+            <speak chara="_Alice">过去的1号机是单纯的电子计算机。2号机加入了人工培养的耦合神经元。3号机加入了章鱼的大脑。</speak>
+            <show chara="AliceDeclineClose" position="right"/>
+            <speak chara="_Alice">——而建造我这台“混合型超级生物电脑”的动议，正是博士当初被市民们驱逐出境的原因。</speak>
+            <show chara="AliceDeclineClose" position="right" opacity="0.8"/>
+            <show chara="wattSadClose" position="left"/>
+            <speak chara="_Watt">……</speak>
+            <show chara="wattSadClose" position="left" opacity="0.8"/>
+            <show chara="AliceDeterminedClose" position="right"/>
+            <speak chara="_Alice">我必须面对这个无法绕开的“原罪”……如果我……想获得您的帮助。</speak>
+            <hide position="right"></hide>
+            <hide position="left"></hide>
+            <text>少女纤细的手指，指向了一扇冰冷的金属柜门。</text>
+            <text>你从这一言不发的气氛中感受到了窒息一般的沉重。 </text>
+            <text>似乎，一旦触摸到柜门上的那把钥匙，就会有什么东西在你的内心深处……如同花瓶一般被摔得粉碎。</text>
+            <text>然而，就在这个瞬间，你猛然地意识到——</text>
+            <text>你自己本身，也不过是一团生活在名为“颅骨”的容器内的“凝胶状物”而已。</text>
+            <text>“我思故我在”。</text>
+            <text>“我”，作为存在着的、能够思考的主体的代称，因为它精神性的本源，从一开始就厌恶一切缺乏审美价值的“不纯粹物”。</text>
+            <text>而矛盾的是，“我”所谓的“审美价值”，却深深植根于客体的、物质性的不纯粹中。</text>
+            <text>一个人要想将他的主观存在和客观凭依完全剥离开来，根本就是不可能的。</text>
+            <text>说到底，我们的灵魂本身，也不过是神经递质和生物电流此起彼伏的一曲合唱罢了。</text>
+            <text>“一切皆虚，万事皆允”。</text>
+            <text>事实上，你，和“爱丽丝”的区别……只是“凝胶”的来源是否“合法”，仅此而已。</text>
+            <text>……至少，她完美赢得了图灵先生的“模仿游戏”。</text>
+            <text>……</text>
+            <text>你无意中碰触到了她冰凉的指尖。她条件反射似的缩回了自己的手指。</text>
+            <text>心中那易碎的“花瓶”陡然消失。你不再犹豫，旋转钥匙，打开了柜门。</text>
+            <text article="1">
+                <p class="article-text">在接满各式电子元件的培养槽中央，你看到了一大团“凝胶”——那无疑曾经是某具身体的组成部分。虽然缺乏生物学知识的你，并不知道那究竟应该是怎样的动物。</p>
+                <p class="article-text"></p>
+            </text>
+            <text article="1">
+                <p class="article-text">培养槽里并不明亮；闪烁着的，只有真空管们发出的橘红色暖光。</p>
+                <p class="article-text">你轻轻将手掌贴在培养槽的玻璃外壳上。与方才冰冷的手指不同……这里是温暖的……人类身体的温度。</p>
+            </text>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">坦白地说，我也想过，是不是可以学着博士的助手那样，去……去强迫老师您来维护我的系统。</speak>
+            <show chara="AliceDeterminedClose" position="right"/>
+            <speak chara="_Alice">——但是，不可以的事情就是不可以。我……不能给自己增加更多的罪孽。</speak>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">虽然……我真的很需要……老师您。</speak>
+            <show chara="AliceSmileClose" position="right"/>
+            <speak chara="_Alice">……抱歉，好像说了一些自作多情的话。</speak>
+            <text>少女从裙子内侧的口袋里取出了一串钥匙，交到了你的手上。</text>
+            <show chara="AliceThinkClose" position="right"/>
+            <speak chara="_Alice">……用来打开所有屋子的钥匙都在这里了。我全权接受吉米老师……您的决断。</speak>
+            <show chara="AliceSmileClose" position="right"/>
+            <speak chara="_Alice">我保证，无论如何，您都会回到地表、回到您原本所属的世界。</speak>
+            <show chara="AliceDeclineClose" position="right"/>
+            <speak chara="_Alice">……即使您认为我是一个应该消灭的异类、即使您最终决定赐予我死亡……我也——</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="CG7-2.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <speak chara="_Watt">……不、不要再说这样的话了！</speak>
+            <speak chara="_Watt">也许博士和助手们做错了很多事情……但、但爱丽丝并没有做错什么啊？</speak>
+            <speak chara="_Alice">……！</speak>
+            <speak chara="_Alice">你……你明明……对我……明明什么……都不知道……</speak>
+            <speak chara="_Watt">……。</speak>
+            <speak chara="_Watt">……也、也许，现在的我就是个傻瓜。</speak>
+            <speak chara="_Watt">但是——</speak>
+            <speak chara="_Watt">——想要活下去，这本身绝对没有错啊！</speak>
+            <speak chara="_Watt">不如说……正是因为爱丽丝你不是像我这样的普通人……</speak>
+            <speak chara="_Watt">我才更加不能原谅在这种情况下还利用你、还抛下你不管的人！</speak>
+            <speak chara="_Alice">……！！</speak>
+            <speak chara="_Alice">我、我、我……</speak>
+            <speak chara="_Watt">……虽然，我有自己属于的那个社会。</speak>
+            <speak chara="_Watt">……虽然，我真的是稀里糊涂地被绑架到了这里。</speak>
+            <speak chara="_Watt">……虽然，我知道自己对于你确实是一无所知。</speak>
+            <speak chara="_Watt">但是，身为一个机械师——</speak>
+            <speak chara="_Watt">不，是身为一个人——</speak>
+            <speak chara="_Watt">——我无论如何也做不到，看见这样的你，却要见死不救！</speak>
+            <speak chara="_Alice">……吉米……老师……</speak>
+            <speak chara="_Watt">……爱丽丝，你的生命不会只有区区的200小时。</speak>
+            <speak chara="_Watt">我发誓！</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="alexandriaCityHall.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <text>（与此同时……）</text>
+            <show chara="neithSmileFar" position="center"/>
+            <speak chara="_Neith">前面的路口右转！</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="alexandriaFair.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <show chara="neithLaughFar" position="center"/>
+            <speak chara="_Neith">直走，然后左转！</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="alexandriaSlum.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <show chara="neithComplainFar" position="center"/>
+            <speak chara="_Neith">从山坡下的贫民区穿过去！别气喘吁吁的，我们还远着呢！</speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="alexandriaWild.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <show chara="neithSmileFar" position="center"/>
+            <speak chara="_Neith">在这里离开主路！</speak>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="alexandriaOasis.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <show chara="neithLaughFar" position="center"/>
+            <speak chara="_Neith">继续前进！</speak>
+            <hide position="center"></hide>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">那个——我们好像都跑到郊外来了？</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">涅伊特的嗅觉不会有问题的。再说……</speak>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">这沙地上的浅坑，不正是三足机器人特有的移动痕迹么？你看，像这样、这样调整轮子，就会留下这种特殊的车辙。</speak>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">哦哦——不是在障碍物上留下痕迹，而是会主动跨过障碍物！</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">涅伊特！你确定这几个车辙就是吉米被绑架时留下的，对不对！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="neithSeriousClose" position="right"/>
+            <speak chara="_Neith">（嗅、嗅）</speak>
+            <show chara="neithLaughClose" position="right"/>
+            <speak chara="_Neith">确定！跟着它们走就对啦！</speak>
+            <show chara="neithLaughClose" position="right" opacity="0.8"/>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">好！</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">哼哼……混蛋绑架犯，这下你们就等着束手就擒吧！</speak>
+            <goto goto="140" clockwise="1"/>
+        </scene>
+        <scene id="140" background="lakeSulfur.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">唔哇——好恶心！这、这是什么？！</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">……硫磺湖。大概是火山活动形成的。</speak>
+            <show chara="champoDisgustedClose" position="right"/>
+            <speak chara="_Champollion">啧。这下可麻烦大了。</speak>
+            <show chara="champoDisgustedClose" position="right" opacity="0.8"/>
+            <show chara="neithComplainClose" position="left"/>
+            <speak chara="_Neith">博士！这里实在是太臭啦！涅伊特根本没办法追踪气味！</speak>
+            <show chara="neithComplainClose" position="left" opacity="0.8"/>
+            <show chara="champoDisgustedClose" position="right"/>
+            <speak chara="_Champollion">嗯，我知道。这股显而易见的臭鸡蛋味……</speak>
+            <show chara="champoColdClose" position="right"/>
+            <speak chara="_Champollion">像这样的硫磺湖会将大量的硫化氢释放进空气中。硫化氢这种气体不仅有剧毒，浓度高时还反而闻不到气味……贸然深入等同于送死。</speak>
+            <show chara="champoColdClose" position="right" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="left"/>
+            <speak chara="_Bianka">这……</speak>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">……这样的话，绑架犯自己要怎么通过？</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="champoColdClose" position="right"/>
+            <speak chara="_Champollion">应该是配备了防毒面具之类的装备。</speak>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">你看。在这个位置，机器人好像停留了一段时间——所以重新启动的时候，留下了比之前和之后都更深的车辙。</speak>
+            <speak chara="_Champollion">……那就是他们更换装备的时刻。</speak>
+            <show chara="champoColdClose" position="right"/>
+            <speak chara="_Champollion">涅伊特。你赶紧原路返回，去联系原计划和市政厅汇合的馆长她们——准备好防毒面具和氧气瓶、还有地毯式搜索的人手！越多越好！</speak>
+            <show chara="champoColdClose" position="right" opacity="0.8"/>
+            <show chara="neithSmileClose" position="left"/>
+            <speak chara="_Neith">没问题！博士！</speak>
+            <goto goto="150" change="#ffffff"/>
+        </scene>
+        <scene id="150" background="alexandriaOasis.jpg">
+            <bgm src="01_18_tango.mp3" status="start"></bgm>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">所以，我们现在……就退回来在这里傻等吗？</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">不是“傻等”，是“原地休息”。</speak>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">养精蓄锐、等待时机，在作战中可是相当重要的一环。说起来……女武神小姐，作为军人，你指挥过什么战役吗？</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Bianka">战役？战争？你是说那种成千上万人自相残杀的愚蠢事情吗？女武神只会为了人类的命运作战，才不会为了某一部分人的利益去当雇佣兵！</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">哈哈，说得好！</speak>
+            <show chara="champoSweatyClose" position="right"/>
+            <speak chara="_Champollion">嗯，我果然很羡慕你的时代啊……能让许许多多的人都意识到战争并不高尚。</speak>
+            <show chara="champoSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaHesitateClose" position="left" opacity="0.8"/>
+            <show chara="champoColdClose" position="right"/>
+            <speak chara="_Champollion">战争是野蛮人的荣耀，文明人的耻辱。所有亲身经历过战争的人，都会发现它远比想象中的还要残酷许多。</speak>
+            <speak chara="_Champollion">愤怒过后我可以重新开心，烦恼过后你可以重归平静——但是被摧毁的国家不会再存在，被杀死的人不可能再复活。</speak>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">更何况今天的友军可能是明天的敌人，今天的敌人也可能是明天的友军。一切都是为了争夺利益，仅此而已。</speak>
+            <show chara="champoNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">哼。那你就好好羡慕吧……女武神们确实不会像历史上的军人那样争权夺利！</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="champoColdClose" position="right"/>
+            <speak chara="_Champollion">……不。“不会争权夺利”？那是不可能的。</speak>
+            <show chara="champoColdClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">喂！你这是什么意思？看不起我吗？！</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion">不。我并没有针对你的意思——我只是在阐述理论。</speak>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">所谓“作战”，归根结底，就是通过暴力去进行利益的再分配。</speak>
+            <show chara="champoColdClose" position="right"/>
+            <speak chara="_Champollion">大公无私也好，自私自利也罢——即便仅仅是打猎，也总归要把猎物扒掉毛皮、吃进肚子。</speak>
+            <show chara="champoNormalClose" position="right"/>
+            <speak chara="_Champollion">所以，“作战”一旦发生，就一定会让这个世界产生改变。某些改变可能是人们想要的，另一些改变可能是人们不想要的。</speak>
+            <show chara="champoQuestionClose" position="right"/>
+            <speak chara="_Champollion">但无论如何——所有参与“作战”的人都应该意识到，自己必然要承担“改变”的责任。</speak>
+            <show chara="champoColdClose" position="right"/>
+            <speak chara="_Champollion">当战士意识到他背负的这种“责任”之后，他才是一个真正的“军人”——而不是一台只知道服从命令的机器。</speak>
+            <show chara="champoColdClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">你……你真的是“考古学家”吗？不太像啊？</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose" position="right"/>
+            <speak chara="_Champollion" remark="next">哈哈——那不然，你觉得我是什么呢？什么“东方远征军总司令”吗？</speak>
+            <remark post="U2FsdGVkX19MFk8yugUqbbug2iS2">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">1798年，拿破仑率领法兰西第一共和国的“东方远征军”入侵英国的盟友、奥斯曼帝国的附庸——马穆鲁克治下的埃及。此举意在打通由英国及其盟友控制的、联通欧亚大陆的交通线，并最终帮助印度的提普苏丹等人成功反抗英国的统治，以动摇英国的国本。</p>
+                <p class="article-text">这场“埃及-叙利亚战役”的战略目的虽然没有实现，但拿破仑通过在埃及打出的一系列以少胜多的战果，极大地提高了自身的声望。</p>
+                <p class="article-text">p.s. 在同马穆鲁克军于金字塔之下决战之前，时年29岁的拿破仑这样开始了他的战前演讲：“士兵们，请记住——在这些金字塔的顶端之上，四十个世纪的历史正在默默注视着你们。”。</p>
+            </remark>
+            <show chara="champoSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <goto goto="160" clockwise="1"/>
+        </scene>
+        <scene id="160" background="jailComputerRoom.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">……这样……再、再这样。</speak>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">原来如此，是这么操作啊。</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">爱丽丝！……我、我可以开始了。</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_Alice">真的吗？老师您真厉害！这么快就掌握了！</speak>
+            <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">其实维护流程本身倒没有什么技术难度……只是纯粹的繁琐而已。</speak>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">话虽如此……我也没有能力直接解除你读取资料的限制……只能自己先读一遍，然后用这种绕弯子的办法来教你。</speak>
+            <show chara="wattSadClose" position="left"/>
+            <speak chara="_Watt">……抱歉。</speak>
+            <show chara="wattSadClose" position="left" opacity="0.8"/>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">不，没有的事！我也……想和吉米老师……一起学习。</speak>
+            <show chara="AliceShyClose" position="right" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">……</speak>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">那、那我们就从1号仓开始吧。还有……以后还是不要对我用、用尊称了……太奇怪了。</speak>
+            <show chara="wattShyClose" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_Alice">好、好的！</speak>
+            <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">拉、拉出这里的玻璃营养槽……然后根据状态条显示的状况……按、按下里面的不同按钮。</speak>
+            <show chara="wattShyClose" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_Alice">唔……原来如此，这么简单啊。</speak>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">难怪之前博士操作营养槽的时候，一次都不让我在旁边观察。</speak>
+            <show chara="AliceSilentClose" position="right" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">……</speak>
+            <show chara="wattSadClose" position="left"/>
+            <speak chara="_Watt">对于博士来说，爱丽丝……是什么呢？</speak>
+            <show chara="wattSadClose" position="left" opacity="0.8"/>
+            <show chara="AliceDeclineClose" position="right"/>
+            <speak chara="_Alice">这个……我也不是很清楚。</speak>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">包括给我取的……“爱丽丝”这个名字……他……或许自己也很矛盾吧……</speak>
+            <show chara="AliceSilentClose" position="right" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">……？</speak>
+            <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="AliceSmileClose" position="right"/>
+            <speak chara="_Alice">那个……你知道吗？“爱丽丝”是一个童话故事的主角。</speak>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">就是那个……看见了一只兔子……然后跟着兔子跳上了一棵豆茎的故事。</speak>
+            <show chara="AliceShyClose" position="right" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">……豆茎？</speak>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">呃……抱歉……没、没有听过这样的故事。</speak>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">跟、跟踪一只兔子的话……难、难道不是会钻进兔子洞里吗？</speak>
+            <show chara="wattSighClose" position="left" opacity="0.8"/>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">唔……可能……这只兔子就是与众不同吧？</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="AliceSmileClose-up" position="center"/>
+            <speak chara="_Alice">总之，童话的主角爱丽丝，跟着一只穿燕尾服的兔子，来到了一棵高耸如云的豌豆茎脚下。</speak>
+            <show chara="AliceSurprisedClose-up" position="center"/>
+            <speak chara="_Alice">豆茎上开了一个洞——兔子就是从那个洞里消失的。爱丽丝走近洞口，发现豆茎的内部竟然有一股强劲的上升气流！</speak>
+            <show chara="AliceShyClose-up" position="center"/>
+            <speak chara="_Alice">爱丽丝心想：不好不好，如果我也学着兔子先生的样子飞上去，那裙子可怎么办呀！</speak>
+            <show chara="AliceSurprisedClose-up" position="center"/>
+            <speak chara="_Alice">就在爱丽丝这样想的时候，豆茎上的一片叶子主动伸到了她的面前——叶子上托着一只漂亮的玻璃瓶，瓶子上用漂亮的字体写着：“喝了它”。</speak>
+            <hide position="center"></hide>
+            <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">这也太可疑了吧……</speak>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">对了……接下来的5号仓……你要……自己尝试一下维护流程吗？</speak>
+            <show chara="wattShyClose" position="left" opacity="0.8"/>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">好、好的！应该……没有问题！</speak>
+            <show chara="AliceSmileClose" position="right"/>
+            <speak chara="_Alice">拉开玻璃柜……状态条是三格……所以应该按绿色的按钮……对吧？</speak>
+            <show chara="AliceSmileClose" position="right" opacity="0.8"/>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">没错，就是这样。</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">然后是6号仓……对了，故事里的“爱丽丝”真的喝了瓶子里的东西吗？</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">喝了……然后……她的灵魂飞了出来。</speak>
+            <show chara="AliceShyClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_Watt">灵、灵、灵魂飞出来？</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="AliceSmileClose" position="right"/>
+            <speak chara="_Alice">……应该是故事里的一种魔法吧？</speak>
+            <speak chara="_Alice">总之，爱丽丝的灵魂跟随着气流飘到了豆茎的顶端。当她回头想确认一下豆茎高度的时候——</speak>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">——却发现自己的身体不知何时也跟上来了，就躺在一片扁扁的豆荚上！</speak>
+            <show chara="AliceShyClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">感、感觉真的变成了鬼故事……</speak>
+            <show chara="wattSighClose" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_Alice">……鬼故事吗？</speak>
+            <show chara="AliceThinkClose" position="right"/>
+            <speak chara="_Alice">博士说人类都害怕灵魂离开身体的感觉……原来真的是这样啊……</speak>
+            <show chara="AliceThinkClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">与其说是害怕这类感觉，倒不如说是害怕死亡本身吧。</speak>
+            <show chara="wattSadClose" position="left"/>
+            <speak chara="_Watt">毕竟没有人经历过“灵魂离开身体”的事情……在现实中，它就是“死亡”的代名词而已。</speak>
+            <show chara="wattSadClose" position="left" opacity="0.8"/>
+            <show chara="AliceHmClose" position="right"/>
+            <speak chara="_Alice">……明白了。不过故事里的爱丽丝当然没有死掉哦！</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="AliceShyClose-up" position="center"/>
+            <speak chara="_Alice">爱丽丝伸手想去触摸自己的身体……突然“嘭”地一下，灵魂和身体就重新合二为一了！</speak>
+            <show chara="AliceSurprisedClose-up" position="center"/>
+            <speak chara="_Alice">爱丽丝想：这片像飞毯一样的豆荚，会把我带到哪里呢？</speak>
+            <show chara="AliceSmileClose-up" position="center"/>
+            <speak chara="_Alice">而豆荚似乎感受到了她的想法，载着爱丽丝，“呼”地一下就飞到了白云的上面！</speak>
+            <show chara="AliceShyClose-up" position="center"/>
+            <speak chara="_Alice">在那里，这片豆荚迎风生长，很快就长到了一艘大船的尺寸。</speak>
+            <show chara="AliceSurprisedClose-up" position="center"/>
+            <speak chara="_Alice">豆荚的“甲板”上也出现了一扇门，上面写着：“由此进入奇迹的世界”。</speak>
+            <show chara="AliceCalmClose-up" position="center"/>
+            <speak chara="_Alice">爱丽丝于是走进了这扇门。门里面是一条向下延伸的台阶，光线非常昏暗，她必须十分小心才能避免不幸摔倒。</speak>
+            <show chara="AliceShyClose-up" position="center"/>
+            <speak chara="_Alice">当爱丽丝走到台阶的底部时，她偶然发现，在墙壁转角处闪烁的油灯下方，写着一行非常小的字：</speak>
+            <show chara="AliceCalmClose-up" position="center"/>
+            <speak chara="_Alice">“跨入此门的人，必须舍弃一切外部世界的常识。”</speak>
+            <hide position="center"></hide>
+            <show chara="AliceSmileClose" position="right" opacity="0.8"/>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">……感觉这里是改编了《神曲》当中的说法啊。</speak>
+            <show chara="wattInspiredClose" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_Alice">《神曲》？</speak>
+            <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_Watt">那、那个……就是“地狱之门”上面的那句……</speak>
+            <show chara="wattSadClose" position="left"/>
+            <speak chara="_Watt">“跨入此门的人，必须舍弃一切希望”。</speak>
+            <show chara="wattSadClose" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_Alice">……真是一句绝望的格言啊。</speak>
+            <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">因、因为是“地狱”啊。</speak>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">所、所以，故事里的爱丽丝，是跨过了这扇“舍弃常识”的门吗？</speak>
+            <show chara="wattShyClose" position="left" opacity="0.8"/>
+            <show chara="AliceSmileClose" position="right"/>
+            <speak chara="_Alice">嗯。博士说，因为爱丽丝是一个喜欢冒险的少女，所以她觉得“放弃常识”是相当简单的事情。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="AliceShyClose-up" position="center"/>
+            <speak chara="_Alice">当爱丽丝穿过第二扇门之后，一切都豁然开朗起来。</speak>
+            <show chara="AliceSmileClose-up" position="center"/>
+            <speak chara="_Alice">她看到天边有一条宏伟的雪山，眼前还有一条奔腾的大河。在大河的岸边有一座小小的火车站，一位少年正坐在车站的值班室里啃着苹果。</speak>
+            <show chara="AliceShyClose-up" position="center"/>
+            <speak chara="_Alice">爱丽丝上前问他：“请问下一班列车是几点几分到呢？”</speak>
+            <show chara="AliceSmileClose-up" position="center"/>
+            <speak chara="_Alice">少年回答：“在三分钟之前刚刚过去了一趟。”</speak>
+            <show chara="AliceShyClose-up" position="center"/>
+            <speak chara="_Alice">爱丽丝很困惑，她说：“谢谢您让我有了心理准备，但我不可能真的去坐三分钟之前的那班车啊。”</speak>
+            <show chara="AliceSmileClose-up" position="center"/>
+            <speak chara="_Alice">少年摇摇头，放下了手里的苹果：“忘掉你的‘常识’吧。在这里——只需要一面镜子，你就可以让时间倒流。”</speak>
+            <show chara="AliceSurprisedClose-up" position="center"/>
+            <speak chara="_Alice">说着，少年从自己的桌子上拿起了一面小镜子，“唰”地一下拉成了门洞大小。</speak>
+            <show chara="AliceSmileClose-up" position="center"/>
+            <speak chara="_Alice">“请进吧，对面是五分钟之前的这个车站。”</speak>
+            <show chara="AliceShyClose-up" position="center"/>
+            <speak chara="_Alice">镜子里的一切都是上下颠倒的。爱丽丝将信将疑地用手指戳了一下镜面，镜面上随即泛起像蜘蛛网一样的涟漪。</speak>
+            <show chara="AliceSmileClose-up" position="center"/>
+            <speak chara="_Alice">一个和少年穿着打扮相似的少女出现在了镜子的内侧，朝她挥手，示意爱丽丝穿过镜子。</speak>
+            <show chara="AliceSurprisedClose-up" position="center"/>
+            <speak chara="_Alice">爱丽丝小心翼翼地向着镜面抬起鞋尖——</speak>
+            <speak chara="_Alice">——当鞋尖伸入镜面的时候，整个镜中世界猛然颠倒了过来：爱丽丝就这样毫无障碍地穿过了镜子。</speak>
+            <hide position="center"></hide>
+            <show chara="AliceShyClose" position="right" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">上下颠倒的镜子……该不会是牛顿反射镜吧？</speak>
+            <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_Alice">牛顿反射镜？是……天文观测使用的那种吗？</speak>
+            <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">嗯。这种望远镜利用凹面镜的反射来成像，所以视野是上下颠倒的。此外，因为要从视野的中央截取出镜像，所以“第二反射镜”的支架会在成像过程中留下形似蜘蛛网的衍射条纹。</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_Alice">……和博士在故事里描绘的情景还真有几分相似呢！</speak>
+            <show chara="AliceHmClose" position="right"/>
+            <speak chara="_Alice">啊！那位吃苹果的“少年”，难道就是大名鼎鼎的“牛顿”吗？</speak>
+            <show chara="AliceHmClose" position="right" opacity="0.8"/>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">这、这个就不知道了……</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">不、不如说，因为是童话故事……所以无论怎么联想，应该都可以吧？</speak>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">……啊，17号仓？不知不觉，我们已经维护了这么多仓室了吗？</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">你已经很熟练了呢，爱丽丝！</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">没什么……这、这是理所当然的。倒是吉米老师——啊不，吉米……你……你真的没有在硬撑吗？</speak>
+            <show chara="AliceShyClose" position="right" opacity="0.8"/>
+            <show chara="wattSmileClose" position="left"/>
+            <speak chara="_Watt">……硬、硬撑？不、不，这当然没有的啊！你、你在说什么呐！</speak>
+            <show chara="wattSmileClose" position="left" opacity="0.8"/>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">可是，几乎每次打开仓室，你……都会试图在我不注意的时候……深呼吸好几次……</speak>
+            <show chara="AliceSilentClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_Watt">……那、那个……只是生理上的……</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="AliceHmClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Alice">这不就是在硬撑嘛！</speak>
+            <speak chara="_Alice">生理上的不适就不是负担了吗？</speak>
+            <show chara="AliceDeclineClose" position="right"/>
+            <speak chara="_Alice">……我知道这些东西对于一般人类来说，看起来有多么恶心——</speak>
+            <show chara="AliceDeterminedClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Alice">——所以你真的没必要硬装作没事的样子！</speak>
+            <show chara="AliceDeterminedClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_Watt">……抱、抱歉。</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">……不……我……我也说得有点过分了。毕竟……这也是你的心意……</speak>
+            <show chara="AliceSilentClose" position="right" opacity="0.8"/>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">……</speak>
+            <show chara="wattShyClose" position="left" opacity="0.8"/>
+            <show chara="AliceSmileClose" position="right"/>
+            <speak chara="_Alice">没事没事！维护方面的事情我已经很熟练了……</speak>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">……所以，吉米多陪陪我说、说说话就好！</speak>
+            <show chara="AliceShyClose" position="right" opacity="0.8"/>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">……！</speak>
+            <show chara="wattShyClose" position="left" opacity="0.8"/>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">咦……刚才的故事讲到哪里了来着……</speak>
+            <show chara="AliceSilentClose" position="right" opacity="0.8"/>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">“爱丽丝”……“爱丽丝”穿过镜子。</speak>
+            <show chara="wattShyClose" position="left" opacity="0.8"/>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">啊！是的是的！</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="AliceSmileClose-up" position="center"/>
+            <speak chara="_Alice">爱丽丝穿过镜子之后，一辆由巧克力做成的蒸汽火车就正好冒着糖霜一般的白烟开进了站台。</speak>
+            <show chara="AliceShyClose-up" position="center"/>
+            <speak chara="_Alice">一只穿着工装的松鼠从驾驶室冒出头来：“开往奶酪群岛的列车进站啦！开往奶酪群岛的列车进站啦！”</speak>
+            <show chara="AliceSurprisedClose-up" position="center"/>
+            <speak chara="_Alice">爱丽丝不清楚“奶酪群岛”是什么样的地方，她问车站里的少女：“‘奶酪群岛’是一个有很多很多奶酪的地方吗？”</speak>
+            <show chara="AliceSmileClose-up" position="center"/>
+            <speak chara="_Alice">少女笑着回答她：“没错，奶酪群岛是银河（Milky Way）里最美丽的一串岛屿，那里有着用豪达奶酪铺成的暖金色沙滩，以及用蓝纹奶酪筑成的青花瓷城堡！还有蛋糕树木和糖果花朵——全部都是可以吃的哦？”</speak>
+            <show chara="AliceShyClose-up" position="center"/>
+            <speak chara="_Alice">爱丽丝虽然喜欢冒险，却很有可持续发展的意识，所以她又问道：“奶酪、蛋糕、还有糖果……不会越吃越少吗？”</speak>
+            <show chara="AliceSmileClose-up" position="center"/>
+            <speak chara="_Alice">车站的少女乐了：“你没有听说过这句话吗——‘零点是见证奇迹的瞬间’！好啦，列车就要出发了哦！先上车吧！”</speak>
+            <hide position="center"></hide>
+            <show chara="AliceSmileClose" position="right" opacity="0.8"/>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">这一段故事……突然就变得非常少女呢。</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">咦？是……这样吗？</speak>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">我本身没有办法品尝巧克力或者蛋糕或者奶酪的味道……</speak>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_Alice">……是说对于人类而言，一切高热量食物都代表着“少女”的感觉吗？</speak>
+            <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">……不、不，肯定不是这样的吧。</speak>
+            <show chara="wattSighClose" position="left" opacity="0.8"/>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">唔……人类的文化果然好难啊。</speak>
+            <show chara="AliceSilentClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">这、这个……也不用这么沮丧啊。毕竟，“人类”本身就是“矛盾”的代名词嘛。</speak>
+            <show chara="wattSighClose" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_Alice">……</speak>
+            <speak chara="_Alice">这句话，博士也说过……</speak>
+            <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">所谓“人类”呢，就是无论做什么事情都想获得全部的好处、而不用承受任何的弊端——如果做不到的话，也至少要在表面上去维护那样的一个梦境。</speak>
+            <show chara="wattSmileClose" position="left"/>
+            <speak chara="_Watt">人类……可是非常擅长自我欺骗的。</speak>
+            <show chara="wattSmileClose" position="left" opacity="0.8"/>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">自我……欺骗吗？</speak>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">……比如……我是说比如啊……爱丽丝因为有你面前的这个终端，所以就可以自称为少女——是像这样吗？</speak>
+            <show chara="AliceSilentClose" position="right" opacity="0.8"/>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">噗……这个……都算不上自我欺骗吧？</speak>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">即便爱丽丝只有这一排排的“计算中枢”……如果你觉得自己是少女，那、那么你就是少女啊。</speak>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">既、既然你认为自己不属于“人类”，那、那么这些称谓不就更加地……只、只是精神符号而已了吗？</speak>
+            <show chara="wattShyClose" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_Alice">唔……原来还有这种角度……吗……</speak>
+            <show chara="AliceSmileClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Alice">明白了！我会大大方方地承认自己是“少女”！嘿嘿！</speak>
+            <show chara="AliceHmClose" position="right"/>
+            <speak chara="_Alice">……四格状态条，黄色按钮，32号仓搞定！好咧，接下来只剩26个仓室了！</speak>
+            <show chara="AliceHmClose" position="right" opacity="0.8"/>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">看、看来在故事讲完之前，维护就可以先结束了呢。</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_Alice">……</speak>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">维护结束以后……吉米……就要离开了吗？</speak>
+            <show chara="AliceSilentClose" position="right" opacity="0.8"/>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">唔……讲、讲道理的话……的确如此——</speak>
+            <show chara="wattSchemingClose" position="left"/>
+            <speak chara="_Watt">——不过！</speak>
+            <show chara="wattSchemingClose" position="left" opacity="0.8"/>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">……不过？</speak>
+            <show chara="AliceShyClose" position="right" opacity="0.8"/>
+            <show chara="wattSmileClose" position="left"/>
+            <speak chara="_Watt">在、在【这一次的】离开之前，我、我还想先听你讲完——那个关于“爱丽丝”的故事！</speak>
+            <show chara="wattSmileClose" position="left" opacity="0.8"/>
+            <show chara="AliceShyClose" position="right"/>
+            <speak chara="_Alice">……！</speak>
+            <end post="U2FsdGVkX19ElKLrf7n7dD8pOCQG"/>
+        </scene>
+    </story>
+</data>

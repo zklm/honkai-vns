@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="seaWaveIslandNoName.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <text>大海是有魔力的。</text>
+            <text>在这里，无论什么样的喧嚣吵闹，总是转瞬即逝——</text>
+            <text>永恒不变的，只有浮浪与泡沫之间，那可以吞噬一切的孤独。</text>
+            <text article="1">
+                <p class="article-text">劈波斩浪、横空出世的神秘潜水艇，在将芦苇船上的老少三人浇了个透心凉之后，此刻正安静地飘浮在海面上。</p>
+                <p class="article-text">苍穹之下，只有可怜的怪兽“利维坦”，垂死呻吟。</p>
+            </text>
+            <speak chara="_Rita">您没事吧，比安卡大人？</speak>
+            <speak chara="_Bianka">当、当然。谁没有当过落汤鸡啊。</speak>
+            <speak chara="_Bianka">——唔，谢谢毛巾。</speak>
+            <goto goto="15" change="0"/>
+        </scene>
+        <scene id="15" background="seaWaveIslandNoNameRS.jpg">
+            <bgm src="seaAndSky.mp3" status="continue"></bgm>
+            <show chara="cervantesShoutClose-up" position="center"/>
+            <speak chara="_Miguel">天啊！这、这……</speak>
+            <show chara="biancaSeriousClose-up" position="center"/>
+            <speak chara="_Bianka">怎么了？你知道些什么吗，老爷爷？</speak>
+            <show chara="cervantesSeriousClose-up" position="center"/>
+            <speak chara="_Miguel">……不。直截了当地说，我一辈子都没见过这样的玩意儿。</speak>
+            <speak chara="_Miguel">全金属构造、挑开“利维坦”的肚皮如同撕纸、甚至还是从水下冒出来的——</speak>
+            <show chara="cervantesShoutClose-up" position="center"/>
+            <speak chara="_Miguel">——你们四百年后的船都这样厉害的吗？</speak>
+            <show chara="biancaSighClose-up" position="center"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biancaSneerClose-up" position="center"/>
+            <speak chara="_Bianka">老爷爷，你这还真是“大惊小怪”了。</speak>
+            <speak chara="_Bianka">你知道吗——哪怕就是我们的运输舰“赫斯提亚”，也比面前的这个铁皮锈桶强一万倍！</speak>
+            <show chara="rita17SquintClose-up" position="center"/>
+            <speak chara="_Rita">……虽然，我们没办法把那些战舰中的任何一艘开进这个世界。</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="CG2-1-1.jpg">
+            <bgm src="seaAndSky.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">没关系，老爷爷！就算来者不善，我们也有的是办法对付！</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="CG2-1-2.jpg">
+            <bgm src="seaAndSky.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">（咦？圣遗物的能量槽……竟然一点儿也没有回复？）</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="seaWaveIslandNoNameRS.jpg">
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="rita17NormalClose-up" position="center"/>
+            <speak chara="_Rita">快看！潜水艇里有人出来了！</speak>
+            <show chara="cervantesGazeClose-up" position="center"/>
+            <speak chara="_Miguel">……升起了旗帜？</speak>
+            <show chara="cervantesShoutClose-up" position="center"/>
+            <speak chara="_Miguel">那、那是——</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG2-2.jpg">
+            <bgm src="noise.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">……海盗旗？</speak>
+            <goto goto="60" clockwise="1"/>
+        </scene>
+        <scene id="60" background="seaWaveIslandNoName.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <text>挂起海盗旗的钢铁怪物放下了四只小艇。</text>
+            <text>三只在围绕在“利维坦”的尸体边，似乎进行着某种切割作业；</text>
+            <text>剩下的一只则径直向老少三人乘坐的芦苇船驶来。</text>
+            <text>如果说有什么让他们感到，来者不是“普通”的海盗——</text>
+            <text>——那就是对方为首的那名少年，看起来反而紧张得像是遇见了海盗似的。</text>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_WattNoName">你、你们好。</speak>
+            <show chara="wattShyClose" position="left" opacity="0.8"/>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">……你好啊。</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_WattNoName">那、那个……</speak>
+            <speak chara="_WattNoName">非常抱歉……</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">……啊？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_WattNoName">就、就是……</speak>
+            <speak chara="_WattNoName">我们好像抢了你们的猎物……</speak>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_WattNoName">……实在不好意思。</speak>
+            <show chara="wattShyClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">所以，你只是专程过来找我们道歉的吗？小船长？</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_WattNoName">啊——不不不，我不是船长。</speak>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_WattNoName">……</speak>
+            <speak chara="_WattNoName">算了，还是你来说明吧，蕾拉姐姐。</speak>
+            <show chara="wattSighClose" position="left" opacity="0.8"/>
+            <show chara="lallaSighClose" position="right"/>
+            <speak chara="_Lalla">唉……</speak>
+            <speak chara="_Lalla">……小弟弟，你在这方面还真是没用啊。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="lallaNormalClose" position="center"/>
+            <speak chara="_Lalla">各位，我们是两栖铁甲舰“喀里多尼亚号”的船员。</speak>
+            <speak chara="_Lalla">我是水手长蕾拉，他是机师吉米——如你所见，都是海盗。</speak>
+            <show chara="lallaSmileClose" position="center"/>
+            <speak chara="_Lalla">所以，虽然很抱歉抢了各位的猎物，但是那个大家伙就由我们收下啦。作为补偿——</speak>
+            <speak chara="_Lalla">我们家船长想邀请各位参观“喀里多尼亚号”……</speak>
+            <speak chara="_Lalla">……不知大家意下如何？</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="submarinePipe.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <text>……</text>
+            <text>昏黄的白炽灯、褪色的油漆、生锈的螺母、老化但保养得还不错的橡胶电缆。</text>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="submarineEngine.jpg">
+            <bgm src="legion.mp3" status="continue"></bgm>
+            <text>对于比安卡·阿塔吉娜和丽塔·洛丝薇瑟而言，“喀里多尼亚号”是一颗巨大的时间胶囊——</text>
+            <text>——让身居其间的她们，仿佛来到了儒勒·凡尔纳笔下的那个“电气时代”。</text>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="submarineCorridor.jpg">
+            <bgm src="legion.mp3" status="continue"></bgm>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">19世纪末、20世纪初的机械设计……</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">……你们这艘“两栖铁甲舰”是从哪儿搞来的？</speak>
+            <show chara="biankaSneerClose" position="left" opacity="0.8"/>
+            <show chara="lallaSighClose" position="right"/>
+            <speak chara="_Lalla">您是……在问我吗？</speak>
+            <show chara="lallaSighClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">不然还有谁啊。你们的机师连话都说不好，我干嘛要问他啊。</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="lallaSmileClose" position="right"/>
+            <speak chara="_Lalla">噗……吉米其实很健谈的——他只是还不熟悉你们，对吧？</speak>
+            <show chara="wattShyClose" position="right"/>
+            <speak chara="_Watt">唔……嗯。大、大概吧。</speak>
+            <show chara="wattShyClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">……所以你们的潜水艇倒底从哪搞来的？</speak>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">看你们的打扮，真的不像是20世纪的人啊？！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="lallaNormalClose" position="right"/>
+            <speak chara="_Lalla">的确不是。</speak>
+            <show chara="lallaSighClose" position="right"/>
+            <speak chara="_Lalla">不过，你们也不必如此心急——</speak>
+            <show chara="lallaSmileClose" position="right"/>
+            <speak chara="_Lalla">稍后船长会亲自来解答你们的疑问——我没有必要在这里越俎代庖。</speak>
+            <show chara="lallaSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="lallaSmileClose" position="right"/>
+            <speak chara="_Lalla">来吧，船长已经在舰桥上等着我们了。</speak>
+            <bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
+            <goto goto="100" clockwise="1"/>
+        </scene>
+        <scene id="100" background="CG2-3.jpg">
+            <bgm src="11_15_shakespeareTheme.mp3" status="continue"></bgm>
+            <speak chara="_ShakespeareNoName">20世纪……不，也许是21世纪的各位——</speak>
+            <speak chara="_ShakespeareNoName">欢迎来到“喀里多尼亚号”！</speak>
+            <speak chara="_ShakespeareNoName">船长“巴巴罗萨”，在这里代表全体船员，向您致意！</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="submarineCabinBlur.jpg">
+            <bgm src="11_15_shakespeareTheme.mp3" status="continue"></bgm>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">啧。明明就是一群海盗，竟然像演员一样装腔作势。</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_ShakespeareBarbarossa">“国王剧团”谢谢您的夸奖。</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">……“国王剧团”？莎士比亚的那个？</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_ShakespeareBarbarossa">正是。</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_ShakespeareBarbarossa">而在下，就是扮演海盗船长“巴巴罗萨”一角的——</speak>
+            <speak chara="_ShakespeareBarbarossa">——“威廉·莎士比亚”本人。</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">……？！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="shakesQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">唔。如果你不喜欢这个戏码，那我也可以扮演“尼莫船长”。</speak>
+            <show chara="shakesDisgustedClose" position="right"/>
+            <speak chara="_Shakespeare">虽然……我并不清楚这位船长的事迹，而只是捡走了一艘被他抛弃的破船罢了。</speak>
+            <show chara="shakesDisgustedClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">捡走？</speak>
+            <show chara="rita17NormalClose" position="left" opacity="0.8"/>
+            <show chara="shakesColdClose" position="right"/>
+            <speak chara="_Shakespeare">没错。</speak>
+            <show chara="shakesQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">一个风和日丽的早晨，正在面对大海做着发声练习的剧团长——</speak>
+            <speak chara="_Shakespeare">突然发现一艘钢铁怪物，“砰”地一声就从深渊的漩涡里蹦了出来——</speak>
+            <show chara="shakesDisgustedClose" position="right"/>
+            <speak chara="_Shakespeare">里面空无一人，连航海日志都残缺不全。</speak>
+            <speak chara="_Shakespeare">……对我来说，“尼莫船长”和他的“鹦鹉螺号”，就是这样一个没头没尾的奇怪故事。</speak>
+            <show chara="shakesDisgustedClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">……你是在开玩笑吗？</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">开玩笑？</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">啊，是的，这的确是名为“命运”的戏剧里一个不大不小的玩笑。</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">不过你得承认——颠覆秩序、改变命运、替天行道——这一切的确都很有意思。</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">……在这个看起来毫无秩序可言的异世界里？</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">唔，看起来你很重视秩序嘛，不知名的“骑士”小姐。</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">……那我们何不遵从礼仪，先自我介绍一番呢？</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">……啊？</speak>
+            <speak chara="_Bianka">（你是怎么就从刚才的话题直接跳到自我介绍的？）</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">我是玛丽安·威廉·莎士比亚，“喀里多尼亚号”的船长，来自16世纪的英格兰。</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">如果觉得“玛丽安”这种名字实在太蠢，你们也可以直接叫我“威廉”或者“莎士比亚”。怎么着都行啦。</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">（16世纪，也就是1500年之后……咦？）</speak>
+            <show chara="lallaSmileClose" position="left" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">这位是蕾拉·塞义达·赫拉，水手长，来自和我同一时代的摩洛哥。</speak>
+            <show chara="wattShyClose" position="left" opacity="0.8"/>
+            <speak chara="_Shakespeare" remark="next">这位是詹姆斯·“吉米”·瓦特，机师，来自18世纪的苏格兰。“喀里多尼亚号”这个名字就是他帮我们取的——</speak>
+            <remark post="U2FsdGVkX1+ddeoBsDMLAmG62QhQ">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">喀里多尼亚（Caledonia）是古罗马时期的拉丁语地名，即今日的苏格兰地区。</p>
+            </remark>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">（……詹姆斯·瓦特？蒸汽机的那个？怎么看起来比我还小？）</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">——虽然继续叫“鹦鹉螺号”也不错，但水手们一致认为，我们必须尊重这位苏格兰少年整修全舰的功绩。</speak>
+            <show chara="shakesConfidentClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">……我说，明明是你自己当时想改名吧？</speak>
+            <speak chara="_Watt">再说，我也真的没做什么了不起的事情啊。按图索骥罢了。</speak>
+            <show chara="wattSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="right"/>
+            <speak chara="_Shakespeare">……</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">啊，对了。</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <show chara="ironWhiteClose" position="left" opacity="0.8"/>
+            <speak chara="_Shakespeare">这位是“铁面人”，大副。</speak>
+            <show chara="ironWhiteClose" position="left"/>
+            <speak chara="_Ironface">……请多关照。</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <show chara="ironWhiteClose" position="left" opacity="0.8"/>
+            <speak chara="_Shakespeare">我们尊重她隐姓埋名的愿望，所以希望你们也不要向她打听不必要的隐私。</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSighClose" position="left"/>
+            <speak chara="_Bianka">……喂喂，这也过于可疑了吧？</speak>
+            <show chara="biankaSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="right"/>
+            <speak chara="_Shakespeare">唔，对于你们这些陌生人而言，我倒觉得她是我们当中最诚实可靠的一员了呢。</speak>
+            <show chara="shakesSweatyClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">算了。不管这个“铁皮人”究竟如何——</speak>
+            <show chara="biankaConfidentClose" position="left"/>
+            <speak chara="_Bianka">——既然船长你介绍了自己的背景，那么对等的，我们也必须说说自己的事情了。</speak>
+            <show chara="biankaProudClose" position="left"/>
+            <show chara="rita17SquintClose" position="right" opacity="0.8"/>
+            <speak chara="_Bianka">我是比安卡·阿塔吉娜，她是副官丽塔·洛丝薇瑟；是奉天命之令，来到这个世界进行探索的女武神。</speak>
+            <show chara="biankaProudClose" position="left" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="right"/>
+            <speak chara="_Watt">……？</speak>
+            <show chara="lallaQuestionClose" position="right"/>
+            <speak chara="_Lalla">……？</speak>
+            <show chara="ironWhiteClose" position="right"/>
+            <speak chara="_Ironface">……</speak>
+            <show chara="shakesDisgustedClose" position="right"/>
+            <speak chara="_Shakespeare">……“天命”？“女武神”？那都是什么玩意儿？</speak>
+            <show chara="shakesDisgustedClose" position="right" opacity="0.8"/>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">……啊？</speak>
+            <show chara="biankaProudClose" position="left" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="right"/>
+            <speak chara="_Shakespeare">哈哈哈哈哈哈哈哈！</speak>
+            <show chara="shakesLaughClose" position="right" opacity="0.8"/>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">……？</speak>
+            <show chara="ironWhiteClose" position="left" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">你所言果然不虚啊，我亲爱的大副“先生”！</speak>
+            <show chara="shakesLaughClose" position="right"/>
+            <speak chara="_Shakespeare">哈哈哈哈哈哈哈哈！</speak>
+            <show chara="shakesLaughClose" position="right" opacity="0.8"/>
+            <show chara="ironRedClose" position="left"/>
+            <speak chara="_Ironface">……剧团长，您失态了。</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">喂！</speak>
+            <speak chara="_Bianka">你倒底在故弄玄虚些什么啊，红色的矮子？！</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="shakesDisgustedClose" position="right"/>
+            <speak chara="_Shakespeare">啧。骂人可不好哦，小妹妹。</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">……让我这么说吧。</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">起初，我完全不知道你所说的“天命”是个怎样的存在。</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">……什么？</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="shakesColdClose" position="right"/>
+            <speak chara="_Shakespeare">——但是这位“铁面人”告诉过我。</speak>
+            <speak chara="_Shakespeare">她说，在某些异世界里，有一种名为“崩坏”的能量异常充盈。</speak>
+            <show chara="shakesQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">嗯……差不多就是魔法世界的感觉吧。</speak>
+            <show chara="shakesColdClose" position="right"/>
+            <speak chara="_Shakespeare">特别地，受“崩坏”的影响，有一个世界魔物泛滥，承受了极其深重的苦难——</speak>
+            <speak chara="_Shakespeare">——而面对这些苦难，首先挺身而出的，是一个名叫“天命”的组织。</speak>
+            <speak chara="_Shakespeare">“天命”在那个世界中无人不知、无人不晓。</speak>
+            <speak chara="_Shakespeare">它从少女中遴选出能够对抗魔物的超级战士，称之为“女武神”。</speak>
+            <speak chara="_Shakespeare">这些“女武神”能够抵抗“崩坏”的侵蚀，并反过来利用它为人类而战。</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">——两位自称“女武神”的人啊，以上的这些传说，可是你们的世界里真实发生的历史？</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="rita17NormalClose" position="left"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">虽然被你这么描述显得很奇怪……</speak>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">但没错。你说的这些……确有其事。</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">那么，二位——我接下来的忠告，应该就有些意义了。</speak>
+            <show chara="shakesConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">……“忠告”？</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">啊，其实是很基本的事情。</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">一句话——想在这个世界里生存，你们以后可要好好节省弹药了。</speak>
+            <show chara="shakesConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="shakesColdClose" position="right"/>
+            <speak chara="_Shakespeare">这没什么。毕竟，你们并不是无法获得能量补充，而是补充的速率变慢了数百倍。</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">就像我们的“喀里多尼亚号”，即使经过大规模的改装，也只不过能携带六发鱼雷而已。</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">……还是说，你们从小到大接受的战斗训练，已经让你们离不开这个“崩坏”了呢？</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">喂，你少瞧不起人！</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">说了这么多……你自己，敢和我比试比试吗？我保证不使用崩坏能！</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="right"/>
+            <speak chara="_Shakespeare">哈哈哈哈哈！</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">比试什么？近身格斗术吗？</speak>
+            <show chara="shakesDisgustedClose" position="right"/>
+            <speak chara="_Shakespeare">大副，你有兴趣和这疯丫头过上几招吗？</speak>
+            <show chara="shakesDisgustedClose" position="right" opacity="0.8"/>
+            <show chara="ironWhiteClose" position="left"/>
+            <speak chara="_Ironface">……我拒绝。</speak>
+            <show chara="biankaSneerClose" position="left"/>
+            <speak chara="_Bianka">看见了吗？连你的自己人都不待见你了！</speak>
+            <show chara="ironBlueClose" position="left"/>
+            <speak chara="_Ironface">——不过，如果剧团长这个月给我发额外奖金的话……倒是可以考虑一下。</speak>
+            <show chara="ironBlueClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">啥？你这家伙，难道是雇佣兵吗？</speak>
+            <show chara="shakesLaughClose" position="right"/>
+            <speak chara="_Shakespeare">哈哈哈哈哈！</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">好说好说！会克扣加班费的剧团老板不是个好船长嘛！</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">……</speak>
+            <speak chara="_Rita">既然如此，丽塔·洛丝薇瑟有一个不情之请。</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="back"/>
+            <speak chara="_Bianka">？</speak>
+            <show chara="biankaSeriousClose" position="back" opacity="0.8"/>
+            <show chara="rita17NaughtyClose" position="left"/>
+            <speak chara="_Rita">如果莎士比亚船长选择派遣您的副官来进行比试的话——</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">——那么，同为副官，丽塔希望自己能代替比安卡大人出阵。</speak>
+            <show chara="rita17NaughtyClose" position="left"/>
+            <speak chara="_Rita">毕竟，比武讲究的是门当户对，不是吗？</speak>
+            <show chara="rita17NaughtyClose" position="left" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="right"/>
+            <speak chara="_Shakespeare">哈哈哈！有趣！</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">……那不如这样吧。</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">我和比安卡小姐，丽塔小姐和“铁面人”——</speak>
+            <speak chara="_Shakespeare">——双方捉对各来一场，怎么样？</speak>
+            <goto goto="120" clockwise="1"/>
+        </scene>
+        <scene id="120" background="beachIslandNoName.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">呼……呼……</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="rita17HesitateClose" position="right"/>
+            <speak chara="_Rita">好强……</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">不不不，各位才是真正了不起的战士。</speak>
+            <show chara="shakesColdClose" position="right"/>
+            <speak chara="_Shakespeare">虽然无法使用自己熟悉的武器和技术，却仍然表现地如此出色。值得尊敬。</speak>
+            <show chara="ironBlueClose" position="right"/>
+            <speak chara="_Ironface">……只要保持训练，你们一定能在格斗的领域远远超越我们。</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">总之，既然通过运动发泄掉了情绪——</speak>
+            <show chara="shakesConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">——那我们就来交换真正的情报吧。</speak>
+            <show chara="shakesConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
+            <show chara="shakesColdClose" position="right"/>
+            <speak chara="_Shakespeare">【你们的探险目标，究竟是什么。】</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">作为交换，我们也会告诉你，“喀里多尼亚号”的远航目的。</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">……。</speak>
+            <show chara="biankaAngryClose" position="left" opacity="0.8"/>
+            <show chara="shakesDisgustedClose" position="right"/>
+            <speak chara="_Shakespeare">“无可奉告”吗？</speak>
+            <show chara="shakesSmileClose" position="right"/>
+            <speak chara="_Shakespeare">那么你们可就要错过成为“喀里多尼亚号”乘客的机会了哦？</speak>
+            <show chara="shakesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">啧。</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">……唔。如果你们有不想让我知道的事——</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="left"/>
+            <speak chara="_Bianka">爷爷你留下！</speak>
+            <show chara="biankaShoutClose" position="left" opacity="0.8"/>
+            <show chara="cervantesNormalClose" position="right"/>
+            <speak chara="_Miguel">……！</speak>
+            <show chara="cervantesNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">……没事。</speak>
+            <speak chara="_Bianka">总之，爷爷你对我们有恩……所以，千万不要把自己当外人看。</speak>
+            <show chara="biankaProudClose" position="left"/>
+            <speak chara="_Bianka">言归正传——</speak>
+            <speak chara="_Bianka">丽塔，你来和大家说明吧。</speak>
+            <show chara="biankaConfidentClose" position="left"/>
+            <speak chara="_Bianka">我们来到这里的目的，究竟是什么。</speak>
+            <show chara="biankaConfidentClose" position="left" opacity="0.8"/>
+            <show chara="rita17SmileClose" position="right"/>
+            <speak chara="_Rita">……好的，比安卡大人。</speak>
+            <show chara="rita17SquintClose" position="right"/>
+            <bgm src="11_16_themeOtto.mp3" status="start"></bgm>
+            <speak chara="_Rita">首先——各位听说过“量子之海”这个名词吗？</speak>
+            <goto goto="130" clockwise="1"/>
+        </scene>
+        <scene id="130" background="11_15_gallery.jpg">
+            <bgm src="11_16_themeOtto.mp3" status="continue"></bgm>
+            <show chara="ottoSuitsKindFar" position="back"/>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <speak chara="_Otto">简而言之，你们的任务，是追踪名为“量子之海”的异次元位面，探索一种叫做“以太锚点”的特殊结构。</speak>
+            <speak chara="_Otto">从数学上概括的话，“量子之海”不属于已知的四维时空，是平行于我们而存在的一大类“折叠位面”；</speak>
+            <speak chara="_Otto" remark="next">而“以太锚点”，则是一种“位面流形”之间的拓扑变换，其实体可能是某种自然结构、甚或人造机械。</speak>
+            <remark post="U2FsdGVkX18NMIcI27DMkplacYO6">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">流形（Manifolds）是局部具有欧几里得性质的空间，是欧几里得空间中的曲线、曲面等概念的推广。一般的流形可以通过把许多平直的“片”“折弯”并“粘连”而成。</p>
+                <p class="article-text">黎曼（Bernhard Riemann）是第一个广泛地展开“真正需要把流形推广到高维的工作”的数学家。事实上，"Manifolds"这个名词就来自于黎曼的德文术语"Mannigfaltigkeit"（中文里“流形”的称谓，则来自江泽涵先生的创意）。</p>
+            </remark>
+            <speak chara="_Otto">和我们生存于其间的“经典时空”不同，“量子之海”在大尺度下可谓“支离破碎”——</speak>
+            <speak chara="_Otto">甚至连基本的物理参数也会随着坐标的偏移而不断变化，世界们就像肥皂泡一般毫无稳定性可言——</speak>
+            <speak chara="_Otto">——但就是在这种支离破碎之间，却也存在着无数被“以太锚点”所“锚定”的“稳定岛”；</speak>
+            <speak chara="_Otto">那里的世界，就像我们这里一样，自有一套固定的法则。</speak>
+            <speak chara="_Otto">还是直接说结论吧：</speak>
+            <speak chara="_Otto">太阳系在“量子之海”上的“投影”，距离某个“以太锚点”的“靶心”极为接近。</speak>
+            <speak chara="_Otto">这意味着，如果我们能按照这个“投影”生成的方式，转移到“量子之海”一侧……</speak>
+            <speak chara="_Otto">……我们也许会见到一个大同小异的“克隆地球”。</speak>
+            <speak chara="_Otto">——这，就很有探索的价值了。</speak>
+            <speak chara="_Otto">幸运地，在一些前文明技术资料的启发下，我们制作出了数个可以令你们往返于“量子之海”的实验装置——</speak>
+            <speak chara="_Otto">——“格尼乌斯”。</speak>
+            <speak chara="_Otto">只不过，虽然在理论上，“格尼乌斯”确实可以帮助我们从那种“投影世界”随时返回——</speak>
+            <speak chara="_Otto">但如果想从“现实”这一侧出发，由于技术的限制，它们只有在极其罕见的“时空窗口”出现时，才能使用。</speak>
+            <speak chara="_Otto">离我们最近的一个“窗口”将于2月29日11时15分~12时15分之间的某段时间，出现在东北格陵兰国家公园1054号峡湾附近，持续约100秒左右。</speak>
+            <speak chara="_Otto">这种自然机遇比“金星凌日”还要稀有——下一个类似的“窗口”，说不定又要让我们等上几个世纪。</speak>
+            <speak chara="_Otto">——怎么样，是不是干劲一下子上来了呢？</speak>
+            <goto goto="140" clockwise="1"/>
+        </scene>
+        <scene id="140" background="beachIslandNoName.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_Rita">……简单来说，就是以上这样。</speak>
+            <show chara="rita17SmileClose" position="right"/>
+            <speak chara="_Rita">我们的任务是探索“以太锚点”——关于这种存在，大家有什么能想到的线索吗？</speak>
+            <show chara="rita17SmileClose" position="right" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="left"/>
+            <speak chara="_Miguel">我反正是不行……这颗可怜的脑袋已经被绕进五里雾中啦，哈哈哈哈。</speak>
+            <show chara="cervantesLaughClose" position="left" opacity="0.8"/>
+            <show chara="shakesQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">……铁面人，这好像和你讲的那一套差不多？多重宇宙什么的。</speak>
+            <show chara="shakesQuestionClose" position="right" opacity="0.8"/>
+            <show chara="ironWhiteClose" position="left"/>
+            <speak chara="_Ironface">……或许吧。</speak>
+            <show chara="ironBlueClose" position="left"/>
+            <speak chara="_Ironface">不管怎么说……她们的这位“主教”的确有一套。</speak>
+            <show chara="ironWhiteClose" position="left"/>
+            <speak chara="_Ironface">那么……接下来就由我来讲解，“量子之海”内侧的基本情况吧。</speak>
+            <end post="U2FsdGVkX19isr5qAfmCyerhHwtc"/>
+        </scene>
+    </story>
+</data>

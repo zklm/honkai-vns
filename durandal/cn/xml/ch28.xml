@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="satelliteControlCenter.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_Michel">“圣剑”已经合体。船长她们使用锚点转移到了北大西洋的指定位置。</speak>
+            <show chara="micheSeriousClose" position="left"/>
+            <speak chara="_Michel">里希特霍芬阁下——</speak>
+            <show chara="micheSeriousClose" position="left" opacity="0.8"/>
+            <show chara="manfredColdClose" position="right"/>
+            <speak chara="_Manfred">在。</speak>
+            <show chara="manfredColdClose" position="right" opacity="0.8"/>
+            <show chara="micheDrySmileClose" position="left"/>
+            <speak chara="_Michel">你和瓦特先生可以去给飞行器暖机了。保证那个大家伙随时可以起飞，能够应对突发情况。</speak>
+            <show chara="micheDrySmileClose" position="left" opacity="0.8"/>
+            <show chara="manfredAngryClose" position="right"/>
+            <speak chara="_Manfred">是！</speak>
+            <show chara="wattSchemingClose" position="right"/>
+            <speak chara="_Watt">明白！</speak>
+            <show chara="wattSchemingClose" position="right" opacity="0.8"/>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_Michel">爱丽丝——</speak>
+            <show chara="micheArrogantClose" position="left" opacity="0.8"/>
+            <show chara="AliceCalmClose" position="right"/>
+            <speak chara="_Alice">听候指挥。</speak>
+            <show chara="AliceCalmClose" position="right" opacity="0.8"/>
+            <show chara="micheColdClose" position="left"/>
+            <speak chara="_Michel">分出你十分之一的计算资源，向平民们暗中发放补给物资。</speak>
+            <show chara="micheSeriousClose" position="left"/>
+            <speak chara="_Michel">记住，你现在名义上是我的人质：你要躲着“被我控制的”那部分机能来做这件事。</speak>
+            <show chara="micheSeriousClose" position="left" opacity="0.8"/>
+            <show chara="AliceSurprisedClose" position="right"/>
+            <speak chara="_Alice">……明白。</speak>
+            <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
+            <show chara="micheDrySmileClose" position="left"/>
+            <speak chara="_Michel">涅伊特，你去帮助她。一定要让那些普通市民意识到，爱丽丝是站在他们那一边的。</speak>
+            <show chara="micheDrySmileClose" position="left" opacity="0.8"/>
+            <show chara="neithSmileClose" position="right"/>
+            <speak chara="_Neith">没问题！</speak>
+            <show chara="neithSmileClose" position="right" opacity="0.8"/>
+            <show chara="micheRelaxClose" position="left"/>
+            <speak chara="_Michel">还有——雪莱会长阁下。</speak>
+            <show chara="micheRelaxClose" position="left" opacity="0.8"/>
+            <show chara="shelleyArrogantClose" position="right"/>
+            <speak chara="_Shelley">……呵呵，也轮到我出场了吗？</speak>
+            <show chara="shelleyArrogantClose" position="right" opacity="0.8"/>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_Michel">没错。您要“被”爱丽丝的机器人偷偷放走，等到时机成熟之后，号召大家团结起来反抗我。</speak>
+            <show chara="micheArrogantClose" position="left" opacity="0.8"/>
+            <show chara="shelleySmileClose" position="right"/>
+            <speak chara="_Shelley">小菜一碟。我也不是第一次做这种事情了。</speak>
+            <show chara="shelleyColdClose" position="right"/>
+            <speak chara="_Shelley">倒是你，如果到时候没来得及跑掉，可不要怪我哦？</speak>
+            <show chara="shelleyColdClose" position="right" opacity="0.8"/>
+            <show chara="micheRelaxClose" position="left"/>
+            <speak chara="_Michel">谢谢。这个提醒，我收下了。</speak>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_Michel">那么泰勒斯——你确实打算最后和我一起逃亡吗？</speak>
+            <show chara="micheDrySmileClose" position="left"/>
+            <speak chara="_Michel">我们要穿过沙漠，才能找到可资利用的“锚点”出口哦？</speak>
+            <show chara="micheDrySmileClose" position="left" opacity="0.8"/>
+            <show chara="thalesAngryClose" position="right"/>
+            <speak chara="_Thales">哈？馆长，事到如今你还问这些做什么？</speak>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">你要做这么大一件事，没有“一两个同党”可怎么行？</speak>
+            <show chara="thalesStoneClose" position="right"/>
+            <speak chara="_Thales">你现在可是正儿八经地在滥用自己“临时会长”的职权吧？</speak>
+            <show chara="thalesProudClose" position="right"/>
+            <speak chara="_Thales">命令城市进入紧急状态，控制全部卫星波段，扣留你面前的这些“前朝遗老”和“工具人”，派出“阳奉阴违”的机器人去维持秩序——</speak>
+            <show chara="thalesSmileClose" position="right"/>
+            <speak chara="_Thales">这么刺激的事情，你就那么不愿意让我参与到最后吗？</speak>
+            <show chara="thalesStoneClose" position="right"/>
+            <speak chara="_Thales">……而且，从阴谋论的角度来说——你现在拥有的职权，不正是因为我报告的那起案件才得来的吗？</speak>
+            <show chara="thalesStoneClose" position="right" opacity="0.8"/>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_Michel">想清楚哦？这样一来，你也就永远不能再回到这座城市了。</speak>
+            <show chara="micheRelaxClose" position="left"/>
+            <speak chara="_Michel">我可是一个“特务头子”，来自某个无尽巨浪彼岸的国家。</speak>
+            <show chara="micheRelaxClose" position="left"/>
+            <speak chara="_Michel">是为了像现在这样盗用你们独树一帜的卫星系统，才煞费苦心加入大图书馆，并一路爬升到这个位置的。</speak>
+            <show chara="micheSeriousClose" position="left"/>
+            <speak chara="_Michel">我深知这是特殊年代的特殊行为：正因为如此，我才必须在最后和你们演这样一出戏。</speak>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_Michel">……闹剧的时代就应该用闹剧来结束。</speak>
+            <show chara="micheArrogantClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">……</speak>
+            <show chara="thalesStoneClose" position="right"/>
+            <speak chara="_Thales">馆长，恕我直言——</speak>
+            <show chara="thalesEmbarrassedClose" position="right"/>
+            <speak chara="_Thales">正因为你骨子里是个这么麻烦的人，我才要跟随你把这出闹剧演到底啊。</speak>
+            <show chara="thalesLaughClose" position="right"/>
+            <speak chara="_Thales">用卫星监测锚点的结构，以此指挥圣剑，将被污染的欧洲大陆切除出世界泡——</speak>
+            <show chara="thalesProudClose" position="right"/>
+            <speak chara="_Thales">这么帅气的计划，再加上你自己内心里那充满矛盾的价值斗争——</speak>
+            <show chara="thalesStoneClose" position="right"/>
+            <speak chara="_Thales">——你就忍心只让我在一边当个看客吗？</speak>
+            <show chara="thalesAngryClose" position="right"/>
+            <speak chara="_Thales">身为哲学家，我觉得自己可是做不到袖手旁观的哦？</speak>
+            <goto goto="20" clockwise="1"/>
+        </scene>
+        <scene id="20" background="northSeaIsland.jpg">
+            <bgm src="01_04_Darken-4.mp3" status="start"></bgm>
+            <show chara="biankaDressAngryClose" position="left"/>
+            <speak chara="_Bianka">唔……都说这是个“撼天动地”的计划——</speak>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">结果没想到，就算从智利穿过锚点来到了北海，我们也还是在袖手旁观啊。</speak>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">怎么说呢……总感觉自己似乎被当成了崩坏能裂变弹之类的东西。</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">哈哈哈哈，这就是所谓“分工不同”嘛！</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">所谓“压轴好戏”，那自然要放在最后的“安可”之前啊。</speak>
+            <show chara="shakesCasualNormalClose" position="right"/>
+            <speak chara="_Shakespeare">调制遥感卫星，为折叠空间实时定位；编制巨炮阵列，轰爆将被切下的世界碎片；安排地面部队，应对各种可能发生的次生灾害——</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">这一切行动能够在半天之内就付诸实施，可都是因为你能够帮助他们完成那记无可替代的“本垒打”哦？</speak>
+            <show chara="shakesCasualDislikeClose" position="right"/>
+            <speak chara="_Shakespeare">……不像从前那个冒冒失失的我，从结果上讲只是在不自量力而已。</speak>
+            <show chara="shakesCasualDislikeClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">你之前不是质疑过我的嘛，说我一讲到自己的过去就满嘴跑火车。</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">虽说我捡到“圣剑”和潜艇的事都是真的——但这两次幸运之间的那件馊事，我确实只轻描淡写地和你们提过一次。</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……我怎么觉得你这个人的过去本来就是各种馊事的集合体呢。</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">哈哈哈哈，你这样笑话创建过“国王剧团”的人，未免有点刻薄了吧！</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">咳咳，说笑一下。我呢……你们也知道，正是让这条船上的所有人奔波大半个地球的“罪魁祸首”。</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">嗯？你是说你自己弄坏圣剑那件事吗？尝试未知的事情，结果本来就未必会尽如人意吧？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualDislikeClose" position="right"/>
+            <speak chara="_Shakespeare">这话本身大致不错……不过，如果有个人明知不可还要去强行尝试，并且其代价需要许多人随后工作许多年才能挽回——那她就有些愚蠢了。</speak>
+            <show chara="shakesCasualDislikeClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">船长是在说……你自己吗？</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">哈哈哈哈，你的熟人里，难道还有别人符合这样的描述吗？</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">你要知道，当我捡到那把剑的时候，它当时就给了我这样一个评价——</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">“你是我几万年来，遇到的最不自量力的家伙。开玩笑啦。”</speak>
+            <show chara="shakesCasualMercyClose" position="right"/>
+            <speak chara="_Shakespeare">……事后想来，那应该是指我虽然想当它的主人，却又没有办法为它提供额外的能量，来对冲使用过程中的不稳定因素吧。</speak>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">不过你也知道，那把剑自己的性格，完全可以用“作死”这样的词语来形容——</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">所以，当时我们终究还是去做了那样一次……严格说来根本不可能成功的尝试。</speak>
+            <show chara="shakesCasualQuestionClose" position="right"/>
+            <speak chara="_Shakespeare">其结果也正如你所见：圣剑四分五裂、甚至失去了对事件本身的记忆；而为了寻找、修复它的残片，我自己又花去了二十多年的光阴。</speak>
+            <show chara="shakesCasualSeriousClose" position="right"/>
+            <speak chara="_Shakespeare">对我而言，这当然是自做自受——但对于这个世界来说，它也失去了有可能提前毁灭那堵“墙壁”的二十年。</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">事实上，如果不是和薛定谔博士最终相遇，我甚至都不知道“找到勇气宝石就等于成功了99%”这种事实。</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">如果不是她……如果我终究只是像喝醉了的无头苍蝇一样吊儿郎当地找下去……我们今天就不可能并肩站在这里。</speak>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">当然，现实总是充满了巧合——在我们找到了“勇气宝石”，这趟漫长的寻剑之旅终于步入下一个阶段的时候——我们恰好遇见了你。</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">……或者说，有人用无线电波向我们预言了你们的出现。</speak>
+            <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">当时，我们也不知道对方是谁。但奇妙的是……那是一个无比准确的预言。</speak>
+            <show chara="shakesCasualSeriousClose" position="right"/>
+            <speak chara="_Shakespeare">对方精准地推算出了你们的着陆地点和着陆时间。还有你们的“崩坏能适应性”。</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="right"/>
+            <speak chara="_Shakespeare">事后想来，也许他们本来更愿意直接接触你们——但因为距离上的不便，最终改成了躲在幕后来引导我这个……相对来说哪里都能去的船长。</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="right" opacity="0.8"/>
+            <show chara="thorSmileClose" position="left"/>
+            <speak chara="_Thoreau">唉呀。终于被看穿了吗。</speak>
+            <show chara="thorSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……议长？</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">你们应该记得，共和国在这半个世纪内，都牢牢控制着那个虽然衰退、却仍然有用的“锚点”。</speak>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">从真田幸村的那起事例中你们也能知道，理论上来说，“锚点”有能力监控到除了“墙”内部以外，这个世界上任意地点的剧烈能量波动。</speak>
+            <show chara="thorSmileClose" position="left"/>
+            <speak chara="_Thoreau">因此，下面这个事实你们应该也能想象得到……</speak>
+            <show chara="thorConfidentClose" position="left"/>
+            <speak chara="_Thoreau">我们在很多年前就根据数据、证言和传说，推测出了莎士比亚船长身上发生过什么——并且以她能够修复圣剑为前提，规划出了今天我们正在实施的这个作战方案。</speak>
+            <show chara="thorConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="right"/>
+            <speak chara="_Bianka">什——</speak>
+            <show chara="biankaDressScreamClose" position="right" opacity="0.8"/>
+            <show chara="thorSmileClose" position="left"/>
+            <speak chara="_Thoreau">噗，你难道认为“帕查库特克行动”只是一个政客和几个作战参谋臆想出来的东西吗？</speak>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">——的确，我们并没有准备什么能让所有人都大吃一惊的武器。事实上，反而是你们的出现，帮助我们极大减少了“星语者”们可能出现的牺牲。</speak>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">但是，你应该也能明白，专门派出渗透专家、处心积虑地在此时此刻夺取亚历山大港卫星系统的控制权，给世界泡的切割行动提供导航支持——</speak>
+            <show chara="thorConfidentClose" position="left"/>
+            <speak chara="_Thoreau">——这也绝不是什么脑袋一热就能完成的事情。</speak>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">我们非常尊重诸位的主观意见：正因为如此，我选择只给你们提供必要的、而且我们100%掌握的信息。</speak>
+            <show chara="thorNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">……你不觉得这样太过拐弯抹角了吗？</speak>
+            <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">这一点我承认。</speak>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">但是……“己所不欲，勿施于人”，也是我一贯的处事风格。</speak>
+            <show chara="thorConfidentClose" position="left"/>
+            <speak chara="_Thoreau">我从来都认为：所谓“老年人”，是不会有什么极其重要的忠告需要对着年轻人“耳提面命”的。</speak>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">绝大多数的“老年人”，他们只不过怀揣着各种各样支离破碎的经验——</speak>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">他们的生活往往早已惨痛地失败过了，他们只知道自己过去的所作所为充满了错误，却根本不知道真正正确的道路是怎样走出来的。</speak>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">所有的生命历程都可谓一场试验——但每个人都只能体验其中极少部分的东西——</speak>
+            <speak chara="_Thoreau">——以至于即使我们坐拥一百个关于错误的经验，也仍然有数千个未知的陷阱正潜伏在历史的未来。</speak>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">所以，如果你们本来就清楚地知道，所谓“现在”不过是过去和未来的交叉点，每个人每时每刻都不过是站在新的起点上——</speak>
+            <show chara="thorConfidentClose" position="left"/>
+            <speak chara="_Thoreau">那么，人与人之间的轨迹，自然而然地就会将我们的命运联系在一起。这就是所谓“发展的眼光”。</speak>
+            <show chara="thorSmileClose" position="left"/>
+            <speak chara="_Thoreau">——具体到“改变世界”这件事情上，你们完全可以只把我们当作必要的后勤人员来看待。</speak>
+            <show chara="thorSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">……即使这件事对我来说仅仅是一个挑战，而对于你们却可能有着决定世界命运的意义？</speak>
+            <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+            <show chara="thorConfidentClose" position="left"/>
+            <speak chara="_Thoreau">嗯。</speak>
+            <show chara="thorSmileClose" position="left"/>
+            <speak chara="_Thoreau">真要说起来……我觉得贴着“救世主”标签的人，还是活得自由洒脱一点为好。</speak>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">我记得孔子是这么说的吧？</speak>
+            <show chara="thorConfidentClose" position="left"/>
+            <speak chara="_Thoreau">“吾十有五而志于学；三十而立；四十而不惑；五十而知天命；六十而耳顺；七十而从心所欲，不逾矩。”</speak>
+            <show chara="thorSmileClose" position="left"/>
+            <speak chara="_Thoreau">——按照我的理解，这位教育家真正想让他学生参悟的东西是：一个没有心灵自由的人，他不会拥有足以顶天立地的君子器量。</speak>
+            <show chara="thorSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="thorConfidentClose" position="left"/>
+            <speak chara="_Thoreau">……时间也差不多了。比安卡，向我最后复述一遍，你马上就要着手去做的事情。</speak>
+            <show chara="thorConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">是！</speak>
+            <goto goto="30" clockwise="1"/>
+        </scene>
+        <scene id="30" background="12_12_cloudSky.jpg">
+            <bgm src="12_14_Hero.mp3" status="start"></bgm>
+            <text>天空是光的深渊。</text>
+            <text>当海洋吞噬一切的时候，天空也在释放着一切。</text>
+            <text>宇宙膨胀，量子涨落。</text>
+            <text>遥相对峙的两位孤独神明，渴求着灿烂辉煌的新一轮朝阳。</text>
+            <text>托纳帝乌。朝阳也同样渴求着神明的鲜血。</text>
+            <text>圣剑哑然无声，它关闭了拟人机能，正忙于给方案做最后的迭代预演。</text>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="northSeaIsland.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <show chara="ritaVestSmileClose" position="left"/>
+            <speak chara="_Rita">注意安全，比安卡大人。</speak>
+            <show chara="ritaVestSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">嗯。我去去就来。</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="swordTrail.jpg">
+            <bgm src="11_22_Tiger.mp3.mp3" status="start"></bgm>
+            <speak chara="_Bianka">我们上，小幽。</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG28-1.jpg">
+            <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+            <text>女武神从锚点入口的正上方一跃而下。</text>
+            <text>强风吹拂。</text>
+            <text>圣剑的力量与她逐渐融合，浑然一体。</text>
+            <text>深渊中那能量起伏的永恒之井，将正午的暮色与子夜的黎明混合在了一起。</text>
+            <goto goto="70" change="#000000"/>
+        </scene>
+        <scene id="70" background="CG28-2.jpg">
+            <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+            <text>如跳水一般，自由落体的惯性将女武神助推进这光与暗的夹缝。</text>
+            <text>圣剑在漆黑中释放出令人安定的光芒。</text>
+            <text>跟随着来自遥远深空的电波指引，比安卡·阿塔吉娜到达了预定的攻击位置。</text>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="underSpaceBlue.jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <speak chara="_Bianka">那么……现在就开始吧。</speak>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="fractalBigBang.jpg">
+            <bgm src="01_04_Miracle.mp3" status="start"></bgm>
+            <text>能量在瞬间释放，女武神与圣剑化身光的飓风。</text>
+            <text>空间的根系，仿佛睡美人的荆棘一般，毫不留情地被烈火斩断。</text>
+            <text>在锚点的核心，不同维度的空间原本像纠缠的野草一样杂乱无章地绕结在一起——</text>
+            <text>然而，圣剑燃过之处，大千世界，直断如镜。</text>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="fractalBurn.jpg">
+            <bgm src="01_04_Miracle.mp3" status="continue"></bgm>
+            <text>不知穿梭了多少个令人眼花缭乱的空间。</text>
+            <text>不知冲破了多少次令人窒息的维度屏障。</text>
+            <text>体内的崩坏能仿佛在血管里沸腾，狼奔豕突般冲向手中那致命武器的尖端。</text>
+            <text>她知道自己可以坚持下来。</text>
+            <text>她知道自己必须坚持下来。</text>
+            <text>就在时间仿佛已经凝固的那一刻——</text>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="spaceHole.jpg">
+            <bgm src="12_14_Hero.mp3" status="start"></bgm>
+            <text>——一片星空在远方奇异地扩张开来。</text>
+            <text>那是世界泡的视界。</text>
+            <text>是一切扭曲维度的边界、是微缩宇宙的背景贴图。</text>
+            <text>体力渐渐不支的女武神咬紧牙关，露出了会心地微笑——</text>
+            <text>切割作业已然完成。</text>
+            <text>是时候通知地表的人们，让他们去执行那毁灭性的最后一击了。</text>
+            <goto goto="120" change="#000000"/>
+        </scene>
+        <scene id="120" background="railGun.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <show chara="rolandArmorQuestionClose" position="left"/>
+            <speak chara="_Roland">……各单位注意！指挥部收到“女武神信号”！</speak>
+            <show chara="rolandArmorSmileClose" position="left"/>
+            <speak chara="_Roland">重复一遍——各单位注意！指挥部收到“女武神信号”！</speak>
+            <show chara="rolandArmorSmileClose" position="left" opacity="0.8"/>
+            <show chara="DarwinSeriousClose" position="right"/>
+            <speak chara="_Darwin">列车炮阵列，进入零级准备状态！</speak>
+            <show chara="DarwinSeriousClose" position="right"/>
+            <speak chara="_Darwin">射击诸元，根据最新信号校准！随时准备开火！</speak>
+            <show chara="DarwinSeriousClose" position="right" opacity="0.8"/>
+            <show chara="thorAngryClose" position="left"/>
+            <speak chara="_Thoreau">10……</speak>
+            <speak chara="_Thoreau">9……</speak>
+            <show chara="thorAngryClose" position="left" opacity="0.8"/>
+            <show chara="DraculaSeriousClose" position="right"/>
+            <speak chara="_Dracula">8……</speak>
+            <speak chara="_Dracula">7……</speak>
+            <show chara="DraculaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="yukimuraSeriousClose" position="left"/>
+            <speak chara="_Yukimura">6……</speak>
+            <speak chara="_Yukimura">5……</speak>
+            <show chara="yukimuraSeriousClose" position="left" opacity="0.8"/>
+            <show chara="rolandArmorSeriousClose" position="right"/>
+            <speak chara="_Roland">4……</speak>
+            <speak chara="_Roland">3……</speak>
+            <show chara="rolandArmorSeriousClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffConfidentClose" position="left"/>
+            <speak chara="_ShigureKira">2……</speak>
+            <speak chara="_ShigureKira">1……</speak>
+            <goto goto="125" change="0"/>
+        </scene>
+        <scene id="125" background="railGunInside.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_Darwin">目标出现！开火！</speak>
+            <shake position="all" time="250"></shake>
+            <goto goto="130" change="#ffffff"/>
+        </scene>
+        <scene id="130" background="benghuai4.jpg">
+            <bgm src="11_22_Tiger.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>“你所看见的兽，先前有，如今没有，将要从无底坑里上来，又要归于沉沦。”</text>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="benghuai1.jpg">
+            <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>“凡住在地上、名字从创世以来没有记在生命册上的，见先前有、如今没有、以后再有的兽，就必希奇。”</text>
+            <goto goto="150" change="0"/>
+        </scene>
+        <scene id="150" background="benghuai0.jpg">
+            <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>“他们与羔羊争战，羔羊必胜过他们，因为羔羊是万主之主、万王之王。”</text>
+            <goto goto="160" change="0"/>
+        </scene>
+        <scene id="160" background="benghuai3.jpg">
+            <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>“同着羔羊的，就是蒙召、被选、有忠心的，也必得胜。”</text>
+            <goto goto="170" change="0"/>
+        </scene>
+        <scene id="170" background="spaceHole.jpg">
+            <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+            <text>“我观看，见天开了。有一匹白马，骑在马上的称为诚信真实，他审判，争战，都按着公义。”</text>
+            <goto goto="180" change="0"/>
+        </scene>
+        <scene id="180" background="spaceNight.jpg">
+            <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+            <text remark="next">“他的眼睛如火焰，他头上戴着许多冠冕；又有写着的名字，除了他自己没有人知道。”</text>
+            <text remark="next">“他穿着溅了血的衣服；他的名，称为神之道。”</text>
+            <remark post="U2FsdGVkX1+rDZDnzSkp+xX6SRMM">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">以上引文来自《新约圣经·启示录》。</p>
+            </remark>
+            <goto goto="190" change="0"/>
+        </scene>
+        <scene id="190" background="voidSky.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <text>……</text>
+            <text>…………</text>
+            <text>………………</text>
+            <speak chara="_Dracula">白昼的星空……</speak>
+            <speak chara="_Dracula">……这样就成功结束了吗？</speak>
+            <speak chara="_Thoreau">不知道。不过目前还没有偏离计划的事物出现。</speak>
+            <speak chara="_Thoreau">（按钮声）丽塔小姐，这里是指挥部。你是否已经接应到比安卡小姐？情况如何？</speak>
+            <speak chara="_Rita">（电波声）丽塔报告指挥部。比安卡大人已经成功着陆，平安无事。</speak>
+            <speak chara="_Thoreau">很好。她现在应该处于体力透支的状态，请你照顾好她的健康。</speak>
+            <goto goto="200" change="0"/>
+        </scene>
+        <scene id="200" background="spaceHole.jpg">
+            <bgm src="07_07_wind.mp3" status="start"></bgm>
+            <text>这个世界泡那完好的五分之四，此刻正在人们的脚下重组。</text>
+            <text>曾作为“欧洲”而存在的五分之一则被圣剑切碎，又被猛烈的炮火进一步瓦解、打散。</text>
+            <text>一切顺利，一切仿佛都在大家的掌控之中——</text>
+            <goto goto="210" change="0"/>
+        </scene>
+        <scene id="210" background="CG28-3.jpg">
+            <bgm src="01_18_horror.mp3" status="start"></bgm>
+            <text>——在这个奇异的怪物降落到地表之前。</text>
+            <end post="U2FsdGVkX1/Wk+VLMh83RsyJpkDD"/>
+        </scene>
+    </story>
+</data>

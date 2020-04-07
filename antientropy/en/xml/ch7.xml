@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <img>
+        <image src="re_doHisDuty.jpg" type="background"/>
+    </img>
+    <story title="1">
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="londonStreet.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="start"></bgm>
+            <show chara="teslaAngryGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">你们两个，说什么悄悄话呢！</speak>
+            <text>红色双马尾埋怨地将手里的东西都丢进了瓦尔特的怀里。</text>
+            <show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose" position="center"/>
+            <speak chara="weltNoFace">……危险危险！</speak>
+            <text>勉强接住了接二连三飞来的大包小包，青年惊魂未定地吐了口气——</text>
+            <show chara="weltTiredWinterClose" position="center"/>
+            <speak chara="weltNoFace">这里可是大街上耶！东西摔坏了怎么办？</speak>
+            <show chara="weltTiredWinterClose" position="center" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">你赔啊。</speak>
+            <text>特斯拉理所当然地耸了耸肩膀。</text>
+            <show chara="teslaEmbarraGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltShameWinterClose" position="center"/>
+            <speak chara="weltNoFace">……这也太欺负人了吧。</speak>
+            <show chara="weltShameWinterClose" position="center" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">哼，既然芬兰人被留在那边搞翻译了，你就自动来接盘他的男性义务呗。</speak>
+            <show chara="teslaSnickerGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">很难理解吗？</speak>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">哦，如果普朗克没有跑去维也纳的话，这些麻烦事倒也可以丢给她呢……</speak>
+            <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="center"/>
+            <speak chara="weltNoFace">（……是很难理解啊。倒不如说你这人到哪里都要买成大包小包算是怎么回事啊。）</speak>
+            <speak chara="weltNoFace">（……而且，还不是你自己言之凿凿说什么“没事没事你们先走”？）</speak>
+            <show chara="weltTiredWinterClose" position="center" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace">翻译一下——这家伙其实是在问你,【我们】刚才聊了什么。</speak>
+            <text>单独走在最前面的爱因斯坦伸了个懒腰，头也不回地解释道。</text>
+            <show chara="einNormalWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltScaredWinterClose" position="center"/>
+            <speak chara="weltNoFace">……啊？</speak>
+            <speak chara="weltNoFace">……是、是这个意思吗？</speak>
+            <show chara="weltScaredWinterClose" position="center" opacity="0.7"/>
+            <show chara="teslaAngryGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">喂，我没有那么别扭好不好！</speak>
+            <show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace">所以你应该回答她，爱茵在向你介绍爱茵很熟悉的北爱尔兰历史——</speak>
+            <text>丝毫不理会红色双马尾的抱怨，天然卷少女按部就班地自顾自说着——</text>
+            <show chara="einSmileWinterClose" position="right"/>
+            <speak chara="einNoFace">——在向你说明，凯尔特文化是怎样被盎格鲁-撒克逊文化所逐渐侵蚀的。</speak>
+            <speak chara="einNoFace">唔……刚才应该是讲到苏格兰、威尔士、爱尔兰各自的区别……</speak>
+            <show chara="einSmileWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">什么嘛……</speak>
+            <show chara="teslaSmileGlassWinterClose" position="left"/>
+            <text>听到爱因斯坦和瓦尔特的“悄悄话”不过如此之后，特斯拉的脸色瞬间明朗了起来。</text>
+            <speak chara="teslaNoFace">上次你说你去过爱尔兰，原来就是这里吗？</speak>
+            <show chara="teslaSmileGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterClose" position="right"/>
+            <speak chara="einNoFace">嗯。那会儿机票不是很好买，坐船去的纽约。</speak>
+            <show chara="einSmileWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose" position="center"/>
+            <speak chara="weltNoFace">坐船？</speak>
+            <show chara="weltNormalWinterClose" position="center" opacity="0.7"/>
+            <show chara="einSmileWinterClose" position="right"/>
+            <speak chara="einNoFace">嗯。第一次离家远行……还蛮开心的。虽然路上的时间确实比较长。</speak>
+            <show chara="einSmileWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">啊……那得是二十年前了吧？</speak>
+            <show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose" position="center"/>
+            <speak chara="weltNoFace">……啊？</speak>
+            <show chara="weltScaredWinterClose" position="center" opacity="0.7"/>
+            <show chara="einFoolWinterClose" position="right"/>
+            <speak chara="einNoFace">……</speak>
+            <speak chara="einNoFace">特斯拉，你要是把九年错算成十年也就罢了……</speak>
+            <speak chara="einNoFace">二十年前……你自己才几岁啊……</speak>
+            <goto goto="15" change="#000000"/>
+        </scene>
+        <scene id="15" background="londonStreet2.jpg">
+            <bgm src="10_20_londonderry_b.mp3" status="start"></bgm>
+            <show chara="planckSisterBlackClose-up" position="center"/>
+            <speak chara="planckSisterNoFace">根据航程安排，今天我们会在这里休息一天——然后就要横渡大西洋了。</speak>
+            <speak chara="planckSisterNoFace">难得的陆上自由日——有没有什么想去玩的？</speak>
+            <speak chara="einNoFace">……老师，怎么你反而跟学校里的小孩子似的。</speak>
+            <speak chara="einNoFace">比起这种浪费时间的事，我反倒觉得，找一个坐着舒服的地方看看闲书就很好了……</speak>
+            <speak chara="planckSisterNoFace">……爱因斯坦大小姐，你这是应该让我高兴还是难过呢？</speak>
+            <speak chara="planckSisterNoFace">……不行，你今天一定要给我活动活动！</speak>
+            <speak chara="planckSisterNoFace">……走，咱们爬城墙去！</speak>
+            <goto goto="17" change="#000000"/>
+        </scene>
+        <scene id="17" background="londonStreet.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="start"></bgm>
+            <show chara="einFoolWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">这……这种事你都还记得这么清楚啊。</speak>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">我的话……七八岁的时候外公带我去过的地方，早就没印象了。</speak>
+            <speak chara="teslaNoFace">反正横竖都是克罗地亚的乡下。鸟不拉屎的地方。没啥意思。</speak>
+            <show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousAhWinterClose" position="right"/>
+            <speak chara="einNoFace">不，我对小时候的事也没有太多印象。会留下这种碎片记忆，多半也只是巧合而已。</speak>
+            <show chara="einSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">唉？</speak>
+            <show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace">但是对一个地方产生了兴趣的话，就会查很多关于它的资料。慢慢地，说起当地风物，也就如数家珍了起来。</speak>
+            <show chara="einNormalWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">……理论学家的执念还真可怕啊。</speak>
+            <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterClose" position="right"/>
+            <speak chara="einNoFace">总比实验学家们动不动就要掀房顶来的好。</speak>
+            <show chara="einSmileWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">喂！</speak>
+            <show chara="teslaEmbarraGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einFoolWinterClose" position="right"/>
+            <speak chara="einNoFace">哦，那总比实验学家们动不动就要毁灭地球来的好。</speak>
+            <show chara="einFoolWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaAngryGlassWinterClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">……怎么更过分了啊喂！</speak>
+            <show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text">公元1955年10月的第5个周末，两女一男三个年轻人在一阵阵的嬉笑怒骂之间，登上了伦敦德里城墙——全欧洲保护最完好的启蒙时期城市防御系统。</p>
+                <br />
+                <p class="article-text">彼时，他们还不曾想到，自己会在另一座以爱尔兰人为主的城市中，遭遇到人生中最大的一场变故。</p>
+            </text>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="derryWall.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <show chara="einNormalWinterFar" position="center"/>
+            <speak chara="einNoFace">伦敦德里本来只叫做德里（Derry）。</speak>
+            <speak chara="einNoFace">当然，和印度的那个德里（Delhi）没有任何关系，是来自于爱尔兰语的Daire——橡树林的意思。</speak>
+            <speak chara="einNoFace">后来，有伦敦的商会跑来这里殖民开发，因此城市名也被他们冠上了“伦敦”。</speak>
+            <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">殖民时期的人好像是喜欢这样取名……</speak>
+            <show chara="teslaBoringGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace" remark="next">纽约（New York）还算好的，像罗德岛（Rhode Island）这种直接挪用欧洲地名的也不是少数。</speak>
+            <remark post="U2FsdGVkX19HAOD7GN9woHXyw4Jp">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">罗德岛是最初构成美国的十三州之一，全名“罗德岛与普罗维登斯庄园州”（State of Rhode Island and Providence Plantations），其“罗德岛”之名取自希腊的罗德岛（Ρόδος）。</p>
+                <p class="article-text">该州州治普罗维登斯是布朗大学的所在地，也是著名小说家、克苏鲁神话的缔造者霍华德·菲利普斯·洛夫克拉夫特（Howard Phillips Lovecraft, 1890~1937）的故乡。</p>
+            </remark>
+            <show chara="teslaBoringGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="center"/>
+            <speak chara="einNoFace">因为是伦敦人开发的城市——</speak>
+            <text>并不理会从旁分析的特斯拉，爱因斯坦继续着自己滔滔不绝的解说，</text>
+            <speak chara="einNoFace">——所以无论城市选址还是核心区域规划，都刻意模仿了伦敦。</speak>
+            <speak chara="einNoFace" remark="next">从目前来看，主要的区别倒是……福伊尔河的水质比泰晤士河干净多了。</speak>
+            <remark post="U2FsdGVkX19HAOD7GN9woHXyw4Jp">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">福伊尔河（River Foyle）是伦敦德里的母亲河，水质清澈，生物多样性丰富。</p>
+                <p class="article-text">伦敦德里相对于该河及其入海口的位置是被设计过的——设计者刻意模仿了伦敦相对于泰晤士河的位置。</p>
+            </remark>
+            <speak chara="einNoFace">与伦敦城墙类似，德里城墙也是近似方形的结构，这在欧洲城市中是相对少见的。</speak>
+            <speak chara="einNoFace">当然，比起伦敦，这里各城门的名字就取得相当随意，比如我们面前的这个叫做“船港之门”（Shipquay Gate）——因为门外直对着外洋航运的码头。</speak>
+            <speak chara="einNoFace">类似的，还有诸如“渡港之门”（Ferryquay Gate）、“主教之门”（Bishop's Gate）、“肉铺之门”（Butcher's Gate），分居东南西北。</speak>
+            <speak chara="einNoFace">德里是欧洲历史上少数自建城以来从未被攻破过的“处女城”之一——她在1689年曾经历过长达105天的围困，但还是坚持了下来。</speak>
+            <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">话虽如此……归根结底，那也和这里地处偏僻不无关系吧？</speak>
+            <text>双马尾有些不以为然地反驳道。</text>
+            <show chara="teslaBoringGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="einSeriousAhWinterFar" position="center"/>
+            <speak chara="einNoFace">不。不。不。</speak>
+            <speak chara="einNoFace">当时这里是联系不列颠本土和美洲殖民地的重要枢纽，很多爱尔兰移民都是从这里出发前往新大陆的。</speak>
+            <show chara="einSeriousEmWinterFar" position="center" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaEmbarraGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="weltShyWinterFar" position="right"/>
+            <speak chara="weltNoFace">还有这样的一段历史啊……</speak>
+            <speak chara="weltNoFace">感觉你好像一直都对爱尔兰很感兴趣的样子？</speak>
+            <show chara="weltShyWinterFar" position="right" opacity="0.7"/>
+            <show chara="einSmileWinterFar" position="center"/>
+            <speak chara="einNoFace">其实都是从这里开始的……从这个特别的城市……</speak>
+            <speak chara="einNoFace">当你意识到一种文化的美好时，你总会自发地去挖掘更多。</speak>
+            <speak chara="einNoFace">爱尔兰对于我来说就是这样的存在。应该和某人对印度的兴趣类似吧？</speak>
+            <show chara="einSmileWinterFar" position="center" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaEmbarraGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">的确，我读了很多关于印度哲学的书。</speak>
+            <speak chara="teslaNoFace">但是，和你的情况不一样，我完全不可能爱屋及乌地去喜欢印度文化。</speak>
+            <show chara="teslaEmbarraGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="weltNormalWinterFar" position="right"/>
+            <speak chara="weltNoFace">……？</speak>
+            <show chara="weltNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">很难理解吗？那种把人分成上下四等的种姓制度，当然还是毁灭了比较好。</speak>
+            <show chara="teslaEmbarraGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="einFoolWinterFar" position="center"/>
+            <speak chara="einNoFace">那个……我刚才也不是那个方面的意思啊……</speak>
+            <show chara="einFoolWinterFar" position="center" opacity="0.7"/>
+            <show chara="weltTiredWinterFar" position="right"/>
+            <speak chara="weltNoFace">呃……说的是啊，特斯拉你也不要什么话题都这么敏感吧。</speak>
+            <show chara="weltNormalWinterFar" position="right"/>
+            <speak chara="weltNoFace">话说回来，关于我们专门来找的那个线索——真的有明确的目标吗？</speak>
+            <show chara="weltNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="einSmileWinterFar" position="center"/>
+            <speak chara="einNoFace">当然有了。</speak>
+            <show chara="einSeriousAhWinterFar" position="center"/>
+            <bgm src="10_20_londonderry_p.mp3" status="stop"></bgm>
+            <speak chara="einNoFace">等等……</speak>
+            <show chara="einSeriousAhWinterClose" position="center"/>
+            <speak chara="einNoFace">就在这里！</speak>
+            <goto goto="25" change="0"/>
+        </scene>
+        <scene id="25" background="CG7-1.jpg">
+            <bgm src="themeEin.mp3" status="start"></bgm>
+            <text>原本只是在德里城周长1英里的城墙上“漫无目的”地徜徉着——</text>
+            <text>——天然卷少女现在却突然在一门加农炮前趴了下来，嘴里还叼着一个不知从哪个口袋里翻出来的手电筒。</text>
+            <speak chara="weltNoFace">怎、怎么突然……</speak>
+            <speak chara="teslaNoFace">对、对啊，这里怎么了？</speak>
+            <text>瓦尔特和特斯拉都显得不明所以。</text>
+            <speak chara="einNoFace">这种加农炮现在还留有24门。</speak>
+            <speak chara="teslaNoFace">哦……所以这一门究竟哪里特殊了？</speak>
+            <text>红色双马尾耸了耸肩膀，表示不解。</text>
+            <speak chara="einNoFace">它并没有什么特殊的。</speak>
+            <speak chara="teslaNoFace">哈？</speak>
+            <speak chara="einNoFace">但是指示针跳了。</speak>
+            <text>爱因斯坦从口袋里掏出某种军绿色的仪表。</text>
+            <speak chara="teslaNoFace" remark="next">这是……盖格计数器？</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">盖革计数器（Geiger counter）又叫盖革-米勒计数器（Geiger-Müller counter），是一种用于探测电离辐射的粒子探测器，通常用于探测α射线（质子流）和β射线（电子流），也有些型号可以探测γ射线（超高频电磁波）及X射线。</p>
+            </remark>
+            <speak chara="teslaNoFace">这里有放射源？！</speak>
+            <speak chara="einNoFace">不……</speak>
+            <speak chara="einNoFace">这是前段时间我让艾妲改造的痕量崩坏能检测器。</speak>
+            <speak chara="einNoFace">挺时髦的是不是？</speak>
+            <speak chara="teslaNoFace">……时髦？！</speak>
+            <speak chara="teslaNoFace">我看这叫吓人还差不多……</speak>
+            <text>红色双马尾对天然卷的口味嗤之以鼻。</text>
+            <speak chara="weltNoFace">等等……</speak>
+            <speak chara="weltNoFace">艾妲是谁？</speak>
+            <speak chara="teslaNoFace">助手啊助手。和那个芬兰人差不多啦。</speak>
+            <speak chara="teslaNoFace">与其八卦这个，我们还是先找到对方留下的信息再说吧。</speak>
+            <speak chara="einNoFace">嗯。</speak>
+            <text>天然卷少女原地做了一个福尔摩斯式的双手合十。</text>
+            <speak chara="einNoFace">故事也许才刚刚开始。</speak>
+            <goto goto="33" change="#ffffff"/>
+        </scene>
+        <scene id="33" background="CG7-1.jpg">
+            <bgm src="themeEin.mp3" status="continue"></bgm>
+            <speak chara="einNoFace">这里。</speak>
+            <text>不知何时，天然卷少女已经躺平在地，顺着她手指的位置，同行的两人也注意到了一处反常涂抹的沥青。</text>
+            <text>爱因斯坦瞟了一眼周围，见四下无人，便掏出小刀在炮身上刮擦了几下——</text>
+            <text>一行银色的铭文便清晰地显露了出来。</text>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">无辜的女王被蒙起双眼。</p>
+                <br />
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">H.A. </p>
+            </text>
+            <goto goto="34" change="0"/>
+        </scene>
+        <scene id="34" background="derryWall.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="start"></bgm>
+            <show chara="weltSurpriseWinterClose" position="right"/>
+            <speak chara="weltNoFace">女王？是英国历史上的某位吗？</speak>
+            <show chara="weltSurpriseWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">但是什么女王会被蒙起双眼呢……</speak>
+            <show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose" position="right"/>
+            <speak chara="weltNoFace">应该不是无知或者愚昧之类的意思吧……</speak>
+            <show chara="weltSurpriseWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">唔……</speak>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace" remark="next">难道是某种隐喻？像是“施洗者约翰”或者“玛丽·安托瓦内特”之类？</speak>
+            <remark post="U2FsdGVkX19Bg4sTQmgcZy8IrP4i">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">二人均系被斩首而亡。尤其是施洗者约翰之死，因为王尔德（Oscar Wilde, 1854 ~ 1900）在《莎乐美》中极其唯美（读作：病娇）的描写而更富传奇色彩——</p>
+                <p class="article-text">“啊！你总算要承受我吻你的唇了，约翰。好！我现在要吻你。我要用我的牙齿，如同咬着水果一般地吻你。是的，我现在要吻你的唇，约翰。我说过的；我是不是说过呢？我说过。啊，我现在要吻你……但为何你不看着我，约翰？”</p>
+            </remark>
+            <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose" position="right"/>
+            <speak chara="weltNoFace">施洗者约翰？玛丽·安托瓦内特？什么意思？</speak>
+            <show chara="weltSurpriseWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">啧……我随便乱说的。不要在意。不要在意不要在意。</speak>
+            <speak chara="teslaNoFace">才不是什么王尔德式的唯美主义图腾呢。</speak>
+            <show chara="teslaShameGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="right"/>
+            <speak chara="weltNoFace">……完全听不懂。什么乱七八糟的。</speak>
+            <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="center"/>
+            <speak chara="einNoFace">对啊。 </speak>
+            <text>在两人尴尬的气氛之外，天然卷却像听懂了什么似的，突然拍了一下手。</text>
+            <speak chara="einNoFace" remark="next">《简·格雷小姐的处刑》。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《简·格雷小姐的处刑》（The Execution of Lady Jane Grey）是保罗·德拉罗什（Paul Delaroche, 1797 ~ 1865）的油画作品，表现的是英女王简·格雷（Lady Jane Grey, 1537 ~ 1554）在16岁时即被废黜、处死的历史故事。</p>
+            </remark>
+            <show chara="einNormalWinterClose" position="center" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">？</speak>
+            <show chara="teslaStarGlassWinterClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">啊……！</speak>
+            <speak chara="teslaNoFace">好像是有这样一幅画！里面的主角——女王简·格雷——蒙着眼睛，即将被刽子手处决！</speak>
+            <show chara="teslaSmileGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterClose" position="center"/>
+            <speak chara="einNoFace">看来，今晚我们说不定要在船上过夜了。</speak>
+            <speak chara="einNoFace">——明天去一趟国家美术馆吧。</speak>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="trafalgarSquare.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="start"></bgm>
+            <text>翌日。</text>
+            <text>从查令十字地铁站窄小的出口拾级而上，映入眼帘的便是可谓帝国标志的特拉法加广场。</text>
+            <text>作为“日不落帝国”的重要象征，即便是冬日里的周一，这里依然不缺形形色色的游人。</text>
+            <speak chara="weltNoFace">这就是大伦敦的中心吗……</speak>
+            <text>望着高耸入云的纳尔逊纪念柱，瓦尔特忍不住用游客的口吻感慨了一番。</text>
+            <text>纪念柱旁的铭文表明，这是为纪念1805年在特拉法加海战中带领皇家海军击溃拿破仑的联合舰队、却不幸于此役殉国的英格兰民族英雄——霍雷肖·纳尔逊海军上将所建。</text>
+            <text>他谋略过人，又勇冠三军，在大西洋，在尼罗河，在哥本哈根，在特拉法加，屡次带领英国决战决胜，并为此先后失去右眼、右臂，直至献出自己的性命。</text>
+            <text>英国人并不都是狡猾的外交官。他们也有埋头苦干的人、拼命硬干的人——只是帝国的荣光过于闪耀，反过来竟一定程度地掩盖了这些为她造就丰功伟绩的人。</text>
+            <text remark="next">"England expects every man to do his duty."</text>
+            <remark post="U2FsdGVkX195jDOR70Cu55GKFR4g">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“英格兰期盼人人都恪尽其责”（England expects that every man will do his duty）是英国海军中将纳尔逊在特拉法加战役（1805年）开始前通过其旗舰“胜利号”发出的一条旗语信号（如下图所示）。</p>
+                <div class="article-pic" picsrc="re_doHisDuty.jpg" style="background-position:left;height:14.4rem;"/>
+                <p class="article-text">由于参考的回忆录有误，纳尔逊纪念柱上错记此句为"England expects every man to do his duty"。</p>
+            </remark>
+            <text>回想起普朗克在飞机上的告诫，名为瓦尔特的青年再次暗暗地下定决心——</text>
+            <show chara="weltSurpriseWinterFar" position="center"/>
+            <speak chara="weltNoFace">咦？人呢？</speak>
+            <show chara="weltSurpriseWinterFar" position="center" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">美术馆在北边。</speak>
+            <text>爱因斯坦无奈地拉了一把瓦尔特的袖子。</text>
+            <show chara="einSeriousAhWinterFar" position="right"/>
+            <speak chara="einNoFace">别走丢了。你背包里的东西对我们很重要。</speak>
+            <show chara="einSeriousEmWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">哼。</speak>
+            <text>似乎早已不满的特斯拉乘机落井下石。</text>
+            <show chara="teslaSnickerGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">谁让这是个没见过世面的人呢？</speak>
+            <speak chara="teslaNoFace" remark="next">我估计，让他学人家宠物企鹅去海鲜市场买鱼，他都能给你走丢了。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">现实中企鹅确实可以习得此行为。可参考曾经生活在日本鹿儿岛县志布志市的企鹅“拉拉”。</p>
+            </remark>
+            <show chara="teslaSnickerGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="weltTiredWinterFar" position="center"/>
+            <speak chara="weltNoFace">呃……</speak>
+            <goto goto="45" change="#ffffff"/>
+        </scene>
+        <scene id="45" background="trafalgarSquare.jpg">
+            <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
+            <text article="1">
+                <p class="article-text">国家美术馆坐北朝南，有些风化变黑的罗马柱们与特拉法加广场隔街相望——犹如波斯波利斯的阿帕达纳宫一般，无言地述说着老大帝国旧日的光辉。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">厚重的历史裹挟着生命的泥沙沉淀在无机质的建筑物中，这种独有的压迫感渗透在伦敦的阴冷的天气里，时时提醒着人们，名为“国家”或“组织”的暴力机构具有多么强大的力量。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">和他们周旋的人，若无斯巴达克斯的蛮勇、罗伯斯庇尔的残酷、本杰明·富兰克林的睿智、弗拉基米尔·列宁的意志，难道真的能做成什么事吗？</p>
+            </text>
+            <show chara="weltTiredWinterClose" position="center" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">喂！打起精神来啊！虽然比不上大英博物馆，但这里也是很值得参观的啊！</speak>
+            <text>不满于瓦尔特消沉的样子，特斯拉用力地拍着他的肩膀。</text>
+            <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousAhWinterClose" position="right"/>
+            <speak chara="einNoFace">还不是特斯拉说了奇怪的话。</speak>
+            <text>走在最前面的爱因斯坦似乎有些不满。</text>
+            <show chara="einSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaAngryGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">呃……哪里奇怪啦！明明就是事实嘛。</speak>
+            <show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace">情绪是兴奋与压抑的矛盾体。</speak>
+            <speak chara="einNoFace">你既然把他诱导向了其中的一端，又怎么能指责他为什么不处于另一端呢。</speak>
+            <show chara="einNormalWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">……不要讲这种莫名其妙的哲学啦。</speak>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">一点都不可爱。</speak>
+            <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace">……瓦尔特你自己觉得呢？</speak>
+            <speak chara="einNoFace">兴奋和压抑，哪个才是人生，或者说，“人类之理”的主流呢？</speak>
+            <speak chara="einNoFace">又或者说，站在审美的角度上，哪一种会更加“可爱”一点呢？</speak>
+            <show chara="einNormalWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose" position="center"/>
+            <speak chara="weltNoFace">……？</speak>
+            <text>还在走神的青年显然根本没有听全天然卷的问题——</text>
+            <show chara="weltShameWinterClose" position="center"/>
+            <speak chara="weltNoFace">我、我当然是觉得……</speak>
+            <shake position="center" time="250"></shake>
+            <speak chara="weltNoFace">女孩子怎么样都可爱啦！</speak>
+            <shake position="center" time="250"></shake>
+            <speak chara="weltNoFace">女孩子就是正义！</speak>
+            <show chara="weltShameWinterClose" position="center" opacity="0.7"/>
+            <show chara="teslaAngryGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">……</speak>
+            <text>不知为何，红色双马尾的脸上猛然红一阵紫一阵的。</text>
+            <show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace">哦……</speak>
+            <text>天然卷本人倒似乎毫不关心这种答非所问。</text>
+            <show chara="einSmileWinterClose" position="right"/>
+            <speak chara="einNoFace">本想问问瓦尔特先生对于“人之美”有何看法——不过现在这样也相当于回答了。</speak>
+            <show chara="einSmileWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose" position="center"/>
+            <speak chara="weltNoFace">……呃。</speak>
+            <show chara="weltTiredWinterClose" position="center" opacity="0.7"/>
+            <show chara="einFoolWinterClose" position="right"/>
+            <speak chara="einNoFace">差劲的男人。</speak>
+            <bgm src="10_20_PeerGynt.mp3" status="stop"></bgm>
+            <goto goto="48" change="0"/>
+        </scene>
+        <scene id="48" background="">
+            <sound src="hit man.mp3"/>
+            <text>她在他的脑门上狠狠地弹了一下。</text>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="gallery.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <show chara="staffGalleryNormalClose" position="left"/>
+            <speak chara="nekoNoFace">真没想到你们这样的研究者会对已毁的画作感兴趣。</speak>
+            <text>在国家美术馆后院的长廊里，某位管理人员一边带路一边说道。</text>
+            <text>这个大腹便便、略有谢顶的肥胖中年，手中拿着一块挂满钥匙的木牌——金属钥匙们随着他有些摇晃的步伐，不停地互相碰撞着。</text>
+            <speak chara="nekoNoFace">1928年泰晤士河的洪水毁掉了相当一部分的藏品，具体的损失程度其实到现在都没有统计清楚。</speak>
+            <speak chara="nekoNoFace">唯一能肯定的是，你们要寻找的画作就是这些被毁藏品中的一员。</speak>
+            <show chara="staffGalleryNormalClose" position="left" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">你等等……什么叫“到现在都没有统计清楚”？</speak>
+            <text>对方的这一说法，显然刷新了特斯拉对于官僚系统低下效率的认知。</text>
+            <show chara="teslaNormalGlassWinterClose" position="center" opacity="0.7"/>
+            <show chara="staffGallerySweatClose" position="left"/>
+            <speak chara="nekoNoFace">唉……毕竟光本馆就有两千多幅世界名画……</speak>
+            <text>这位管理员无奈地摊了摊手——</text>
+            <speak chara="nekoNoFace">每幅画作到底经受了多少损害，其实只有修复完成的时候才能做出评估。</speak>
+            <speak chara="nekoNoFace">你们要知道……一个老师傅一年下来也就只能修个两三张吧。很麻烦的哟。</speak>
+            <show chara="staffGallerySweatClose" position="left" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">……所以，我们要找的这幅画——它属于修复顺位比较靠后的作品？</speak>
+            <show chara="teslaNormalGlassWinterClose" position="center" opacity="0.7"/>
+            <show chara="staffGalleryNormalClose" position="left"/>
+            <speak chara="nekoNoFace">可以这样说。毕竟是近代作品，很难排在那些老家伙前面。</speak>
+            <speak chara="nekoNoFace">告诉你们吧，就连大名鼎鼎的透纳，他的画也还有好些都没修呢。</speak>
+            <text>这样说着一些有的没的，引领着众人的胖大叔，终于在一扇老旧库房的门前停了下来。</text>
+            <speak chara="nekoNoFace">就是这里了。我陪你们进去。</speak>
+            <show chara="teslaBoringGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">唔……</speak>
+            <text>特斯拉面露难色——</text>
+            <show chara="teslaEmbarraGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">我们进行的是具有保密性质的研究……</speak>
+            <show chara="teslaEmbarraGlassWinterClose" position="center" opacity="0.7"/>
+            <show chara="staffGalleryNormalClose" position="left"/>
+            <speak chara="nekoNoFace">这我听说了。</speak>
+            <text>胖大叔并不退让——</text>
+            <show chara="staffGallerySeriousClose" position="left"/>
+            <speak chara="nekoNoFace">我不管你们是军情五处还是军情六处——</speak>
+            <speak chara="nekoNoFace">或者什么别的玩意儿——</speak>
+            <speak chara="nekoNoFace">在这个博物馆里，任何非工作人员都不能处于无监管的状态。</speak>
+            <show chara="staffGallerySeriousClose" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">……</speak>
+            <show chara="teslaEmbarraGlassWinterClose" position="center" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace">无妨。</speak>
+            <text>爱因斯坦耸了耸肩膀，表示并不在意。</text>
+            <show chara="einSmileWinterClose" position="right"/>
+            <speak chara="einNoFace">我们就一起进去吧。</speak>
+            <show chara="einSmileWinterClose" position="right" opacity="0.7"/>
+            <show chara="staffGallerySmileClose" position="left"/>
+            <speak chara="nekoNoFace">哈哈，这真是帮大忙了。</speak>
+            <speak chara="nekoNoFace">还是这位小姐懂事理啊。</speak>
+            <show chara="staffGallerySmileClose" position="left" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">啧。</speak>
+            <speak chara="teslaNoFace">我才是为了你——</speak>
+            <bgm src="street.mp3" status="stop"></bgm>
+            <show chara="teslaEmbarraGlassWinterClose" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="teslaNoFace">！</speak>
+            <show chara="teslaAngryGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">这这这——哪来的这么大的味道？！</speak>
+            <goto goto="60" change="#ffffff"/>
+        </scene>
+        <scene id="60" background="storage.jpg">
+            <bgm src="serenity.mp3" status="start"></bgm>
+            <text>随着厚重的大门在一片吱吱呀呀声中缓缓开启，一股比大门还厚重的霉味瞬间窜入了每个人的鼻孔。</text>
+            <text>即使是曾经在维也纳见识过百年酒窖的特斯拉，也被这浓烈的霉味给吓了一跳。</text>
+            <show chara="staffGallerySweatClose" position="left"/>
+            <speak chara="nekoNoFace">画作受潮之后，表面会形成一定量的油水混合物……恒温仓库里又密不透风……</speak>
+            <text>固定好落地门闩的胖大叔自己也干咳了几嗓子——</text>
+            <speak chara="nekoNoFace">仔细想想，这发酵的结果，只怕是和泔水的成分也差不太多了。</speak>
+            <show chara="staffGallerySweatClose" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">……</speak>
+            <speak chara="teslaNoFace">麻烦你，请不要说的这么恶心。</speak>
+            <show chara="teslaEmbarraGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="staffGalleryNormalClose" position="left"/>
+            <speak chara="nekoNoFace">咳咳……</speak>
+            <speak chara="nekoNoFace">……是《简·格雷小姐的处刑》对吧？</speak>
+            <show chara="staffGallerySmileClose" position="left"/>
+            <speak chara="nekoNoFace">这里还没有做过索引卡——</speak>
+            <speak chara="nekoNoFace">我们只能一件一件地来核对了。</speak>
+            <text>胖大叔面带微笑地，作出了比这厚重的霉味更加令人绝望的发言。</text>
+            <goto goto="65" change="#ffffff"/>
+        </scene>
+        <scene id="65" background="storage.jpg">
+            <bgm src="serenity.mp3" status="continue"></bgm>
+            <text article="1">
+                <p class="article-text">尽管遭受过洪水侵蚀，但文物毕竟是文物。胖大叔不厌其烦地喊着号令，以便瓦尔特的行动能和自己同步。画框总归还是有相当的分量——轻拿轻放的动作重复了数十个回合，两位男士早已是腰酸背痛、大汗淋漓。</p>
+            </text>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="storage.jpg">
+            <bgm src="serenity.mp3" status="continue"></bgm>
+            <show chara="staffGalleryBlackClose-up" position="center"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(165,150,153);font-style:italic;">《纷争女神在金苹果园中挑选金苹果》……这儿也有透纳的画啊。千疮百孔的……好可惜……</p>
+            </text>
+            <goto goto="75" change="#ffffff"/>
+        </scene>
+        <scene id="75" background="storage.jpg">
+            <bgm src="serenity.mp3" status="continue"></bgm>
+            <show chara="teslaBlackGlassWinterClose-up" position="center"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(237,118,114);font-style:italic;">《庞培与赫库兰尼姆的毁灭》……这已经超过我的身高了！说起来，就没人知道我们要找的那幅画，倒底有多大吗？!</p>
+            </text>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="storage2.jpg">
+            <bgm src="serenity.mp3" status="continue"></bgm>
+            <show chara="teslaBlackGlassWinterClose-up" position="center"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(237,118,114);font-style:italic;">呃……这幅画……你们两个人行吗？</p>
+            </text>
+            <text article="1">
+                <p class="article-text">见轮到了一幅似乎有足球球门那么高的作品，红色双马尾赶紧上前帮忙。</p>
+            </text>
+            <show chara="staffGalleryBlackClose-up" position="center"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(165,150,153);font-style:italic;">小姐，往那边去一点……不要帮倒忙。</p>
+            </text>
+            <text article="1">
+                <p class="article-text" style="color:rgb(165,150,153);font-style:italic;">小伙子……我数三声……一，二，三——起！</p>
+            </text>
+            <goto goto="85" change="#ffffff"/>
+        </scene>
+        <scene id="85" background="storage2.jpg">
+            <bgm src="themeWelt.mp3" status="start"></bgm>
+            <text>比仓库门还大的板状物体被颤巍巍地从支架上抬了出来。</text>
+            <text>包裹画面的麻布扑簌扑簌地落下恼人的灰尘——腾不出双手、又努力想忍住喷嚏的瓦尔特，五官已经扭曲到了拧麻花的程度。</text>
+            <show chara="staffGallerySmileClose-up" position="center"/>
+            <speak chara="nekoNoFace">好了……继续来拆这些比说不定我还老的破布吧……</speak>
+            <text>胖大叔抹了抹额头的汗水，小心翼翼地启封着布满了污渍、水痕和灰尘的油画封套。</text>
+            <shake position="center" time="250"></shake>
+            <speak chara="nekoNoFace">这……这是？！</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="CG7-2.jpg">
+            <bgm src="themeEin.mp3" status="start"></bgm>
+            <text>陈旧的封布甫一揭开，一片晅亮的象牙白就映入了四人的眼帘。</text>
+            <text>昏暗的背景中，纯真的白裙少女被蒙住了眼睛，由一位教士打扮的老人引向冷冰冰的断头台。</text>
+            <text>这毫无疑问正是《简·格雷小姐的处刑》——而且保存得非常完好！</text>
+            <speak chara="nekoNoFace">不……不可能……</speak>
+            <speak chara="nekoNoFace">这怎么可能……</speak>
+            <text>貌似在艺术品方面见多识广的胖大叔，此刻下巴几乎要掉了下来。</text>
+            <speak chara="nekoNoFace">我的上帝啊！连一点儿霉斑都没有！！</speak>
+            <speak chara="teslaNoFace">但是这个画面……</speak>
+            <text>显然在疑惑着其他事情的双马尾，拿着放大镜绕到了巨画的背后。</text>
+            <speak chara="teslaNoFace">……签名区也一样……并没有什么奇怪之处啊？</speak>
+            <speak chara="nekoNoFace">怎么……这还不够神奇？</speak>
+            <text>胖大叔当然不会理解特斯拉的奇怪指的是什么。</text>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="storage2.jpg">
+            <bgm src="themeEin.mp3" status="continue"></bgm>
+            <show chara="teslaNormalGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">您还记得这幅画以前展出在哪里吗？</speak>
+            <show chara="teslaNormalGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="staffGallerySweatClose-up" position="left"/>
+            <speak chara="nekoNoFace">小姑娘你这问的……</speak>
+            <text>胖大叔哭笑不得地摊了摊手——</text>
+            <speak chara="nekoNoFace">1928年发洪水的时候，我还是个不懂事儿的学生呢！</speak>
+            <show chara="staffGallerySweatClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">……</speak>
+            <text>明白自己问了个白痴问题的特斯拉吐了吐舌头。</text>
+            <show chara="teslaBoringGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">线索不够啊。</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="staffGalleryNormalClose-up" position="left"/>
+            <speak chara="nekoNoFace">线索？</speak>
+            <text>胖大叔依旧一头雾水。</text>
+            <show chara="staffGalleryNormalClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="center"/>
+            <speak chara="einNoFace">……我倒是有一个猜想。</speak>
+            <text>爱因斯坦从瓦尔特的背包中取出了一个形似电子管功放器的装置。</text>
+            <show chara="einSmileWinterClose-up" position="center"/>
+            <speak chara="einNoFace">我用它在画布上扫描一下，可以吗？</speak>
+            <show chara="einSmileWinterClose-up" position="center" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">啊……难道……</speak>
+            <speak chara="teslaNoFace">不、不会吧……</speak>
+            <text>特斯拉见状，似乎也领悟到了某个难以置信的可能性。</text>
+            <show chara="teslaNormalGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="staffGallerySeriousClose-up" position="left"/>
+            <speak chara="nekoNoFace">唔……这玩意儿……不会释放什么辐射波吧？</speak>
+            <text>胖大叔有些警惕地看着这个可疑的装置。</text>
+            <show chara="staffGallerySeriousClose-up" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterClose-up" position="center"/>
+            <speak chara="einNoFace" remark="next">特定波段的微波而已。没有什么破坏力。</speak>
+            <remark post="U2FsdGVkX19HAOD7GN9woHXyw4Jp">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">根据量子理论的解释，电磁波对分子的影响能力视其频率（或者说，波长）而定。频率越高（或者说，波长越短）的电磁波越具备改变分子微观结构的能力。</p>
+                <p class="article-text">特定地，微波作为一种远红外电磁波，其频率远不足以改变分子本身，物体接收微波辐射的结果也只能是被加热——其应用，即微波炉。</p>
+            </remark>
+            <speak chara="einNoFace">它会促使某种罕见的元素活性化，从原先的混合状态中脱离出来。</speak>
+            <show chara="einSmileWinterClose-up" position="center" opacity="0.7"/>
+            <show chara="staffGalleryNormalClose-up" position="left"/>
+            <speak chara="nekoNoFace">哦……</speak>
+            <text>胖大叔摸着自己的脑门儿反应了一会儿。</text>
+            <show chara="staffGalleryScareClose-up" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="nekoNoFace">等等……你难道是要用那个玩意儿，从这画布里抽什么东西出来吗？！</speak>
+            <show chara="staffGalleryScareClose-up" position="left" opacity="0.7"/>
+            <show chara="einSmileWinterClose-up" position="center"/>
+            <speak chara="einNoFace">也可以这么理解。</speak>
+            <show chara="einSmileWinterClose-up" position="center" opacity="0.7"/>
+            <show chara="staffGalleryScareClose-up" position="left"/>
+            <speak chara="nekoNoFace">不行不行！让你们这么搞，画不就毁了？！</speak>
+            <show chara="staffGalleryScareClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="center"/>
+            <speak chara="einNoFace">……不至于。</speak>
+            <text>天然卷少女掏出电筒，从侧向照在画布上。</text>
+            <speak chara="einNoFace">……</speak>
+            <show chara="einSeriousAhWinterClose-up" position="center"/>
+            <speak chara="einNoFace">果然。</speak>
+            <show chara="einSeriousEmWinterClose-up" position="center" opacity="0.7"/>
+            <show chara="staffGalleryNormalClose-up" position="left"/>
+            <speak chara="nekoNoFace">啊？</speak>
+            <text>胖大叔丈二和尚摸不着头脑。</text>
+            <show chara="staffGalleryNormalClose-up" position="left" opacity="0.7"/>
+            <show chara="einSeriousAhWinterClose-up" position="center"/>
+            <speak chara="einNoFace">请您仔细观察。</speak>
+            <text>少女保持着电筒的角度解释道。</text>
+            <speak chara="einNoFace">看见了吗？在画作的表面有一层薄薄的膜。</speak>
+            <show chara="einSeriousEmWinterClose-up" position="center" opacity="0.7"/>
+            <show chara="staffGalleryNormalClose-up" position="left"/>
+            <speak chara="nekoNoFace">……唔……保护漆吗？</speak>
+            <speak chara="nekoNoFace">……</speak>
+            <show chara="staffGallerySeriousClose-up" position="left"/>
+            <speak chara="nekoNoFace">不对，什么保护漆也不可能让画作保持这么完美的状态啊！</speak>
+            <text>胖大叔的表情越发迷惑了起来。仔细研究一下，这层薄膜竟然还微微地泛着金属光泽！</text>
+            <speak chara="nekoNoFace">……这是……什么？</speak>
+            <speak chara="nekoNoFace">……我从没听说过还有这样的东西！</speak>
+            <show chara="staffGallerySeriousClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="center"/>
+            <speak chara="einNoFace">如果您允许的话，我们现在就可以测试。</speak>
+            <text>天然卷摇起了怀中机器的手柄。</text>
+            <show chara="einNormalWinterClose-up" position="center" opacity="0.7"/>
+            <show chara="staffGalleryScareClose-up" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="nekoNoFace">……我说了不许你们损坏画面！</speak>
+            <text>胖大叔登时着急了起来——</text>
+            <speak chara="nekoNoFace">搞出了什么幺蛾子，你我就都是全人类的罪人了！</speak>
+            <show chara="staffGalleryScareClose-up" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose-up" position="center"/>
+            <speak chara="einNoFace">……您这就说得太夸张了。</speak>
+            <speak chara="einNoFace">这幅画……只是此后会变得和其他【正常】的藏品一样脆弱而已。</speak>
+            <show chara="einNormalWinterClose-up" position="center" opacity="0.7"/>
+            <show chara="staffGallerySeriousClose-up" position="left"/>
+            <speak chara="nekoNoFace">……</speak>
+            <show chara="staffGallerySeriousClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">这种物质对我们而言非常重要。</speak>
+            <speak chara="teslaNoFace">让它仅仅是保护着这幅画，也许是价值上的巨大浪费。</speak>
+            <show chara="teslaBoringGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="staffGallerySeriousClose-up" position="left"/>
+            <speak chara="nekoNoFace">……</speak>
+            <show chara="staffGallerySeriousClose-up" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
+            <speak chara="teslaNoFace">如果您非要在此拒绝的话，我们的组织也会有别的办法。</speak>
+            <speak chara="teslaNoFace">不是我说话难听……到时候只怕是贵馆全员都要吃不了兜着走。</speak>
+            <show chara="teslaEmbarraGlassWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="staffGallerySeriousClose-up" position="left"/>
+            <speak chara="nekoNoFace">……</speak>
+            <speak chara="nekoNoFace">……唉。</speak>
+            <show chara="staffGallerySweatClose-up" position="left"/>
+            <speak chara="nekoNoFace">小姑娘，我也不是不通事理。</speak>
+            <speak chara="nekoNoFace">就算“无损”于画作本身，我想，有一点，你们必须解释清楚……</speak>
+            <show chara="staffGallerySeriousClose-up" position="left"/>
+            <speak chara="nekoNoFace">那个薄膜提取出来之后，究竟有怎样的价值？从道义上讲，我们美术馆凭什么要允许你们这样做？</speak>
+            <show chara="staffGallerySeriousClose-up" position="left" opacity="0.7"/>
+            <show chara="einSeriousAhWinterClose-up" position="center"/>
+            <speak chara="einNoFace">预言人类的命运。</speak>
+            <text>天然卷用从未有过的冰冷嗓音说道。</text>
+            <show chara="einSeriousAhWinterClose-up" position="center" opacity="0.7"/>
+            <show chara="staffGalleryScareClose-up" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="nekoNoFace">……？！</speak>
+            <show chara="staffGalleryScareClose-up" position="left" opacity="0.7"/>
+            <hide position="left"/>
+            <hide position="right"/>
+            <show chara="einSeriousEmWinterClose-up" position="center"/>
+            <text>不等管理员大叔从呆若木鸡的状态恢复过来，爱因斯坦已经用怀中的机器对准了画布的中央。</text>
+            <show chara="einSeriousAhWinterClose-up" position="center"/>
+            <speak chara="einNoFace">共振式魂钢萃取，开始。</speak>
+            <speak chara="einNoFace">请大家捂好自己的耳朵。</speak>
+            <end post="U2FsdGVkX19TjZQmi9wqji9OWE3F"/>
+        </scene>
+    </story>
+</data>

@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="lastChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="blackHole.jpg">
+            <bgm src="03_15_ruinBerlin.mp3" status="start"></bgm>
+            <text>奥托·阿波卡利斯眼中的世界扭曲了。</text>
+            <text>他察觉到万物正在自己的眼前瓦解。</text>
+            <text>他察觉到时间正在被扔进一个巨大的搅拌机里。</text>
+            <text>过去、现在、未来，一切都在无穷无尽的减速与断片中，变得模糊不清。</text>
+            <text article="1">
+                <p class="article-text">黑洞。</p>
+                <p class="article-text">他从爱因斯坦的论文里读到过这个物理学概念。</p>
+                <p class="article-text">大多数情况下，它们是质量超过太阳三倍的恒星内核，在核聚变的燃料耗尽后发生引力坍缩的结果。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">这些星体内部的引力是如此之大，以至于没有任何微观结构能够阻止它们继续向更小的体积垮塌。</p>
+                <br />
+                <p class="article-text">……所以，最终的结果只会如此：那重达数百万个地球的庞然大物，自我压缩成了一个只具有质量、电荷、角动量的——点。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">在这个点的周围，它产生的引力场是如此之强，以至于任何辐射都不能从其内部逃脱；</p>
+                <br />
+                <p class="article-text">而在外界看来，任何落入它周遭无法观测区域的过程，也都将消耗无穷长的时间。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">在这个被称作“视界”的区域之前，一切有限的过程，都将延展至无穷。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">特别地，对于正从外部悄悄接收着终端信号的他而言——</p>
+                <br />
+                <p class="article-text">意识，正逐渐被撕裂。</p>
+            </text>
+            <goto goto="20" change="#000000"/>
+        </scene>
+        <scene id="20" background="dreamSky.jpg">
+            <bgm src="11_17_memory.mp3" status="start"></bgm>
+            <show chara="kallenChristMemoryFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">“所谓人生，不过是一个行走的影子、”</speak>
+            <speak chara="kallenNoNameNoFace">“一个在舞台上指手划脚的拙劣伶人——”</speak>
+            <show chara="kallenChristMercyFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">“登场片刻，就在无声无息中悄然退下；”</speak>
+            <show chara="kallenChristDeterminedFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">“它是一个愚者所讲的故事，充满着喧哗和骚动，”</speak>
+            <speak chara="kallenNoNameNoFace">“却找不到一点儿意义。”</speak>
+            <speak chara="ottoNoFace">……</speak>
+            <speak chara="ottoNoFace">你、你、你……</speak>
+            <speak chara="ottoNoFace">我、我、我……</speak>
+            <bgm src="horror.mp3" status="start"></bgm>
+            <show chara="kallenChristMercyFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">奥托·阿波卡利斯。</speak>
+            <show chara="kallenChristDeterminedFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">“他将要藐视命运，唾弃死生，”</speak>
+            <speak chara="kallenNoNameNoFace">“超越一切的情理，排除一切的疑虑，”</speak>
+            <show chara="kallenChristMercyFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">“执着于他的不可能的希望。” </speak>
+            <speak chara="ottoNoFace">不、不对……</speak>
+            <speak chara="ottoNoFace">你……</speak>
+            <speak chara="ottoNoFace">你不是……</speak>
+            <show chara="kallenChristMemoryFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">“以不义开始的事情，必须用罪恶使它巩固。”</speak>
+            <show chara="kallenChristDeterminedFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">从一开始，这就是一条死路——</speak>
+            <show chara="kallenChristMercyFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">——我的奥托·阿波卡利斯啊。</speak>
+            <speak chara="ottoNoFace">……你倒底是谁！</speak>
+            <show chara="kallenChristDeterminedFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">你害怕这样的话题，奥托·阿波卡利斯。</speak>
+            <show chara="kallenChristMemoryFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">“我已经两足深陷于血泊之中，要是不再涉血前进，那么回头的路也是同样使人厌倦的。”</speak>
+            <show chara="kallenChristMercyFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">可是……到头来，你其实什么也改变不了。</speak>
+            <speak chara="ottoNoFace">不！不对！</speak>
+            <speak chara="ottoNoFace">一切都在按照我的计划发展！</speak>
+            <show chara="kallenChristDeterminedFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">……你的计划？</speak>
+            <show chara="kallenChristMercyFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">你从来就没有计划。</speak>
+            <speak chara="kallenNoNameNoFace">你只会停留在过去的命运里自怨自艾；</speak>
+            <show chara="kallenChristMemoryFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">“而命运也像娼妓一样，有意向这个叛徒卖弄风情，助长他的罪恶的气焰。”</speak>
+            <speak chara="ottoNoFace">我——</speak>
+            <speak chara="ottoNoFace">我的卡莲才不会这样说话！</speak>
+            <show chara="kallenChristDeterminedFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">但是你自己会，奥托·阿波卡利斯先生。</speak>
+            <show chara="kallenChristMercyFar" position="center"/>
+            <speak chara="kallenNoNameNoFace" remark="next">你的人生不过是一出没有配角的《麦克白》；</speak>
+            <remark post="U2FsdGVkX18BqSCxNHLELV1rn82a">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">“卡莲”所说的每句带引号台词，都是莎士比亚名作《麦克白》里的成句。</p>
+            </remark>
+            <show chara="kallenChristSilentFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">“你的灵魂要是找得到天堂的话，那天晚上你早就该找到了。”</speak>
+            <speak chara="ottoNoFace">……</speak>
+            <speak chara="ottoNoFace">…………</speak>
+            <speak chara="ottoNoFace">我终于明白了。</speak>
+            <speak chara="ottoNoFace">你什么都不懂——</speak>
+            <speak chara="ottoNoFace">——因为你也只是奥托·阿波卡利斯自己罢了。</speak>
+            <show chara="kallenChristDeterminedFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">……我当然不懂你。</speak>
+            <show chara="kallenChristMemoryFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">“最光明的天使也许会堕落，可是天使总是光明的”；</speak>
+            <show chara="kallenChristMercyFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">从一开始，我们就不一样。</speak>
+            <show chara="kallenChristDeterminedFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">这么多年过去了，只有你……只有你还不能接受我的死。</speak>
+            <speak chara="ottoNoFace">啊。</speak>
+            <speak chara="ottoNoFace">没错，我不能接受。</speak>
+            <speak chara="ottoNoFace">从一开始，我就是那个盼望着圣诞节的孩子。</speak>
+            <speak chara="ottoNoFace">渴求着名为卡莲·卡斯兰娜的礼物……</speak>
+            <speak chara="ottoNoFace">……不，是渴求着名为卡莲·卡斯兰娜的——圣诞老人。</speak>
+            <show chara="kallenChristMercyFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">……是啊，傻孩子。</speak>
+            <show chara="kallenChristDeterminedFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">在这件事上，你究竟要连累多少人才肯罢休？</speak>
+            <bgm src="8_24_war.mp3" status="start"></bgm>
+            <speak chara="ottoNoFace">……</speak>
+            <speak chara="ottoNoFace">你错了。</speak>
+            <speak chara="ottoNoFace">这和连累多少人根本没有关系。</speak>
+            <speak chara="ottoNoFace">就像没有观测者的宇宙，永远也不会诞生赞美它的诗篇；</speak>
+            <speak chara="ottoNoFace">没有卡莲的世界，也不可能拥有存在的意义！</speak>
+            <show chara="kallenChristMercyFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">……太可怜了。</speak>
+            <show chara="kallenChristDeterminedFar" position="center"/>
+            <speak chara="kallenNoNameNoFace">你如今，只不过是个彻头彻尾的单相思变态而已。</speak>
+            <speak chara="ottoNoFace">那又怎么样！</speak>
+            <speak chara="ottoNoFace">既然世界只留给了我一条路，那就不要怪我会清除掉所有的障碍物！</speak>
+            <speak chara="ottoNoFace">即使是我自己……</speak>
+            <speak chara="ottoNoFace">……即使是我自己，也不可能阻止这一切了！</speak>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="blackHole.jpg">
+            <bgm src="8_24_war.mp3" status="continue"></bgm>
+            <text>“奥托”的外表已经无法维持人类的形态。</text>
+            <text>在逐渐剥离的液态金属表皮之下，硬质的机械架构开始显露出来。</text>
+            <text>瓦尔特咬紧牙关，仿佛要把全身的力量都灌输到“伊甸之星”当中。</text>
+            <text>再努力一点。</text>
+            <text>再努力一点，自己就可以为这纷乱的一天画上暂时的休止符。</text>
+            <text>再努力一点，也许蕾安娜就能脱离那个人的控制。</text>
+            <text>再努力一点——</text>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="black">
+            <bgm src="8_24_war.mp3" status="stop"></bgm>
+            <speak chara="ritaFullNameNoFace">瓦尔特，当心！</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG26-2.jpg">
+            <bgm src="8_24_war.mp3" status="stop"></bgm>
+            <sound src="05_18_smash.mp3"/>
+            <cg src="CG26-2.jpg" bg="CG26-2.jpg" fadeIn="0" fadeOut="1"></cg>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="blackCloud.jpg">
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <show chara="ottoLaughChainFar" position="center"/>
+            <speak chara="ottoNoFace">制造黑洞……多么野蛮的能力啊。</speak>
+            <show chara="ottoHaughtyChainFar" position="center"/>
+            <speak chara="ottoNoFace">一旦坠入其中，那就真的连光线都无法逃脱了。</speak>
+            <show chara="ottoConfidentChainFar" position="center"/>
+            <speak chara="ottoNoFace">但反过来——只要还没跨过那不可逾越的界限，逃逸的速度就不会超过光速。</speak>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="CG26-3-1.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="ottoNoFace">……是你大意了，律者。</speak>
+            <speak chara="ottoNoFace">你什么时候产生了神之键就不会损坏的错觉呢？</speak>
+            <speak chara="ottoNoFace">这拟似的“约束之键”经过我的定向强化，可以完全封印攻击对象的崩坏能。</speak>
+            <speak chara="ottoNoFace">现在，你不过就是一个手无缚鸡之力的匹夫罢了。</speak>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="ottoNoFace">思考也没有用，我可怜的朋友。</speak>
+            <speak chara="ottoNoFace">你已经失去了制裁我的最好机会。</speak>
+            <speak chara="ottoNoFace">胜券在握时便放松警惕，完全没有注意到那个状态下的神之键毫无防御力可言……</speak>
+            <speak chara="ottoNoFace">这是战斗经验的差距——</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="CG26-3-2.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="ottoNoFace">——你一个临阵磨枪的家伙，就少给我得意忘形了！</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="blackCloud.jpg">
+            <bgm src="horror.mp3" status="start"></bgm>
+            <text article="1">
+                <p class="article-text">只需要一瞬间，</p>
+                <br />
+                <p class="article-text">天命的主教便能够反转所有人的命运。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">自己是手。</p>
+                <p class="article-text">玛格丽塔是脚。</p>
+                <p class="article-text">伤痕累累、毫无知觉的爱因斯坦和特斯拉，更是从头到脚被捆了个结结实实。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">所有的人，都被这可恶的锁链拘束了起来。</p>
+                <br />
+                <p class="article-text">无力挣脱，更无力反抗。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">等等……那是什么？</p>
+                <br />
+                <p class="article-text">……直升机？坠毁了？</p>
+            </text>
+            <text article="1">
+                <p class="article-text">又抓来了几个不省人事的受害者吗——</p>
+            </text>
+            <text article="1">
+                <p class="article-text">普朗克教授？</p>
+                <br />
+                <p class="article-text">约阿希姆？？</p>
+            </text>
+            <text article="1">
+                <p class="article-text">怎么回事？？？</p>
+                <br />
+                <p class="article-text">你们为什么会出现在这里？！</p>
+            </text>
+            <goto goto="100" change="#ffffff"/>
+        </scene>
+        <scene id="100" background="blackCloud.jpg">
+            <bgm src="horror.mp3" status="continue"></bgm>
+            <show chara="ottoLaughChainFar" position="center"/>
+            <speak chara="ottoNoFace">我记得东方有一句谚语说，“踏破铁鞋无觅处，得来全不费工夫。”</speak>
+            <show chara="ottoScornfulChainFar" position="center"/>
+            <speak chara="ottoNoFace">既然有人如此飞蛾扑火——那么不分次序一并处决，反而是我的不对了。</speak>
+            <show chara="ottoConfidentChainFar" position="center"/>
+            <speak chara="ottoNoFace">一个一个来怎么样？</speak>
+            <show chara="ottoHaughtyChainFar" position="center"/>
+            <speak chara="ottoNoFace">当然，瓦尔特要留到最后。</speak>
+            <show chara="ottoConfidentChainFar" position="center"/>
+            <speak chara="ottoNoFace">六个人，六条锁链，六种死相……</speak>
+            <show chara="ottoLaughChainFar" position="center"/>
+            <speak chara="ottoNoFace">……就从小朋友你开始吧？</speak>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="bloodWhite.jpg">
+            <bgm src="horror.mp3" status="stop"></bgm>
+            <sound src="05_18_claw.mp3"/>
+            <speak chara="ottoNoFace">……嗯？</speak>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="blackCloud.jpg">
+            <bgm src="horror.mp3" status="start"></bgm>
+            <show chara="ottoHaughtyChainFar" position="center"/>
+            <speak chara="ottoNoFace">啧，竟然拼尽全力，也要给孩子挡枪吗？</speak>
+            <show chara="ottoScornfulChainFar" position="center"/>
+            <speak chara="ottoNoFace">扫兴。</speak>
+            <show chara="ottoHaughtyChainFar" position="center"/>
+            <speak chara="ottoNoFace">不过看在你盛情难却的份上，在下就换一个人开始吧。</speak>
+            <show chara="ottoScornfulChainFar" position="center"/>
+            <speak chara="ottoNoFace">……</speak>
+            <show chara="ottoHaughtyChainFar" position="center"/>
+            <speak chara="ottoNoFace">老板娘，你还有什么大言不惭的话要说吗？</speak>
+            <speak chara="ritaFullNameNoFace">……</speak>
+            <speak chara="ottoNoFace">……声音太小我听不见啊？</speak>
+            <show chara="ottoScornfulChainFar" position="center"/>
+            <speak chara="ottoNoFace">——到面前来说吧！</speak>
+            <goto goto="125" change="0"/>
+        </scene>
+        <scene id="125" background="black">
+            <bgm src="horror.mp3" status="stop"></bgm>
+            <speak chara="ritaFullNameNoFace">（哼。）</speak>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="CG26-4-2.jpg">
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <cg src="CG26-4-1.jpg" bg="CG26-4-2.jpg" fadeIn="0" fadeOut="1"></cg>
+            <speak chara="ritaFullNameNoFace">得意忘形的人是你！奥托！</speak>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="errorBlack.jpg">
+            <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
+            <speak chara="ottoNoFace">（这、这是怎么回事！）</speak>
+            <speak chara="ottoNoFace">（发生了什么？信号中断了？）</speak>
+            <speak chara="ottoNoFace">（不……不对……）</speak>
+            <speak chara="ottoNoFace">（魂钢皮肤……发生了紊乱？）</speak>
+            <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
+            <speak chara="ritaFullNameNoFace">瓦尔特！快上！</speak>
+            <speak chara="ritaFullNameNoFace">还记得你一直揣在兜里的防狼喷雾吗？</speak>
+            <speak chara="ritaFullNameNoFace">那是魂钢抑制剂！他的液态皮肤被临时固化了！</speak>
+            <speak chara="ritaFullNameNoFace">帮我砸开这堆破铜烂铁！</speak>
+            <goto goto="150" change="#ffffff"/>
+        </scene>
+        <scene id="150" background="nebula.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <show chara="weltNakedNormalFar" position="center"/>
+            <speak chara="weltNoFace">……伤口临时止血——完毕。</speak>
+            <show chara="weltNakedCoatNormalFar" position="center"/>
+            <speak chara="weltNoFace">……进入本体拟态模式。</speak>
+            <show chara="weltNakedCoatShoutFar" position="center"/>
+            <speak chara="weltNoFace">我的双拳啊，化作真正的“犹大誓约”吧！</speak>
+            <goto goto="160" change="0"/>
+        </scene>
+        <scene id="160" background="CG26-5.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <sound src="05_18_smash.mp3"/>
+            <speak chara="weltNoFace">给我滚出蕾安娜的身体！你这个跳梁小丑！！</speak>
+            <goto goto="170" change="#ffffff"/>
+        </scene>
+        <scene id="170" background="CG26-6-1.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="ottoNoFaceRed">（……哼。愚蠢。）</speak>
+            <speak chara="ottoNoFaceRed">（只不过是个临时身体而已——）</speak>
+            <speak chara="ottoNoFaceRed">（——就算是与你们同归于尽，那又如何？）</speak>
+            <goto goto="180" change="0"/>
+        </scene>
+        <scene id="180" background="errorWhite.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="ottoNoFaceGreen">……？</speak>
+            <speak chara="ottoNoFaceGreen">（怎么回事？）</speak>
+            <speak chara="ottoNoFaceGreen">（连自爆程序也不能工作了吗？）</speak>
+            <speak chara="reannaNoNameNoFace">……你可真是干了件了不起的事情啊，我的奥托大人。</speak>
+            <speak chara="ottoNoFaceGreen">不……不可能……</speak>
+            <speak chara="ottoNoFaceGreen">你……你是……</speak>
+            <goto goto="190" change="0"/>
+        </scene>
+        <scene id="190" background="CG26-6-2.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <speak chara="reannaNoNameNoFace">怎么？直到刚才还在用人家的身体耀武扬威，却竟然不记得这个声音了吗？</speak>
+            <speak chara="reannaNoNameNoFace">……话说，在当初第一次用“虚空万藏”改造我身体的时候，你就想好了今天的这一出吧？</speak>
+            <speak chara="reannaNoNameNoFace">……整整一百年的“忒修斯之船”。</speak>
+            <speak chara="reannaNoNameNoFace">奥托大人，你可真有耐心。</speak>
+            <speak chara="reannaNoNameNoFace">不过……你知道吗？</speak>
+            <goto goto="200" change="0"/>
+        </scene>
+        <scene id="200" background="CG26-7.jpg">
+            <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
+            <sound src="05_18_claw.mp3"/>
+            <cg src="CG26-7.jpg" bg="CG26-7.jpg" fadeIn="0" fadeOut="1"></cg>
+            <speak chara="reannaNoNameNoFace" remark="next">“忒修斯之船”，是因为忒修斯，才会叫做那个名字的！</speak>
+            <remark post="U2FsdGVkX19qTSI4PtT67p6CeBN5">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">有一位雅典人的英雄叫做忒修斯。他很伟大，所以当地人把他曾经驾驶的船供奉了起来，当作纪念碑一样。</p>
+                <p class="article-text">但是时间无情，制造那艘船的木材，渐渐都腐朽不堪。为了不让这艘伟大的船最后只能当作祭品被烧掉，人们想出了一个好方法——每隔若干年，就检查一遍船上的所有部件，如果有朽烂的，就重做新的换掉。</p>
+                <p class="article-text">于是，很多年后，当一位哲学家前来参观的时候，船上的所有部件，都已经换过至少两次了。</p>
+                <p class="article-text">哲学家听说了这件事之后很沮丧，他质问当地人：“这还是原本的那艘船吗？”</p>
+                <p class="article-text">而当地人却满不在乎的回答：“如果您说不是的话，哲学家先生，您觉得它是什么时候开始不是的呢？您要知道，即使是在出海途中，船只也是需要时不时更换部件的呀。”</p>
+            </remark>
+            <goto goto="210" change="0"/>
+        </scene>
+        <scene id="210" background="blackCloud.jpg">
+            <bgm src="04_20_tank.mp3" status="start"></bgm>
+            <show chara="weltNakedCoatSurpriseClose" position="center"/>
+            <speak chara="weltNoFace">蕾……蕾安娜？！</speak>
+            <show chara="reaChangeNormalClose" position="center"/>
+            <speak chara="reannaNoFace">没事……</speak>
+            <show chara="reaChangeConfidentClose" position="center"/>
+            <speak chara="reannaNoFace">对于机器人来说，损坏一个两个零件，没有什么大不了的。</speak>
+            <show chara="reaChangeSeriousClose" position="center"/>
+            <speak chara="reannaNoFace">我倒是担心……</speak>
+            <show chara="ritaSadHeadphoneGunClose" position="center"/>
+            <speak chara="ritaFullNameNoFace">（通话中）……嗯，教授和那小子倒也也没事。</speak>
+            <show chara="ritaNervousHeadphoneGunClose" position="center"/>
+            <speak chara="ritaFullNameNoFace">……什么？</speak>
+            <speak chara="ritaFullNameNoFace">……你、你们再说一遍？</speak>
+            <show chara="weltNakedCoatNervousClose" position="center"/>
+            <speak chara="weltNoFace">发生什么了？</speak>
+            <show chara="ritaNervousHeadphoneGunClose" position="center"/>
+            <speak chara="ritaFullNameNoFace">接到了来自古巴的远洋通信，说就在刚才，天命组织进入了“零级”戒备状态。</speak>
+            <show chara="reaChangeSeriousClose" position="center"/>
+            <speak chara="reannaNoFace">……！</speak>
+            <show chara="reaChangeShoutClose" position="center"/>
+            <speak chara="reannaNoFace">瓦尔特！你会做雷达吗？！</speak>
+            <show chara="weltNakedCoatSurpriseClose" position="center"/>
+            <speak chara="weltNoFace">雷达？做？？</speak>
+            <show chara="reaChangeShoutClose" position="center"/>
+            <speak chara="reannaNoFace">别傻了！“虚空万藏”既然是“第一神之键”，那你这个“第一律者”没理由做不到！</speak>
+            <goto goto="215" change="0"/>
+        </scene>
+        <scene id="215" background="CG26-8.jpg">
+            <bgm src="04_20_tank.mp3" status="continue"></bgm>
+            <cg src="CG26-8.jpg" bg="CG26-8.jpg" fadeIn="0" fadeOut="1"></cg>
+            <speak chara="reannaNoFace">不懂的话就从我这里读取数据！</speak>
+            <goto goto="220" change="0"/>
+        </scene>
+        <scene id="220" background="dreamSky.jpg">
+            <bgm src="04_20_tank.mp3" status="continue"></bgm>
+            <text>……</text>
+            <text>地球的大气层，仿佛一张千层饼。</text>
+            <text article="1">
+                <p class="article-text">对流层。这是一层稠密的大气，其标志是纷繁变化的云朵。</p>
+                <p class="article-text">平流层。这里的大气下冷上热，所以几乎没有垂直对流存在。</p>
+                <p class="article-text">中间层。越过了那臭氧密布的分界线后，大气就变得相当稀薄了。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">这之上是增温层。</p>
+                <p class="article-text">到了这样的高度，太阳的射线可以使得空气分子充分电离——</p>
+                <p class="article-text">——从而形成了一层稀薄的等离子体。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">它被称为电离层——</p>
+                <br />
+                <p class="article-text">——就像一面包裹着整个星球的反射镜，能够帮助无线电波从地球的一端传达到另一端。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">因此，即便远在视线可及之外，人们也能够使用类似回声定位的原理，捕捉遥远的、会反射电磁波的运动物体。</p>
+            </text>
+            <text>从设计解构的角度来说，超视距雷达阵列的原理并不复杂。</text>
+            <text>需要注入的能量也并不夸张。</text>
+            <text>身为“理之律者”——</text>
+            <text>——这样的机械，瓦尔特有把握凭空制造出来。</text>
+            <goto goto="230" change="#ffffff"/>
+        </scene>
+        <scene id="230" background="radarScreen.jpg">
+            <bgm src="04_20_tank.mp3" status="continue"></bgm>
+            <speak chara="ritaFullNameNoFace">……</speak>
+            <speak chara="reannaNoFace">……</speak>
+            <goto goto="240" change="0"/>
+        </scene>
+        <scene id="240" background="blackCloud.jpg">
+            <bgm src="04_20_tank.mp3" status="continue"></bgm>
+            <show chara="ritaNervousHeadphoneGunClose" position="left"/>
+            <speak chara="ritaFullNameNoFace">这是……洲际导弹？</speak>
+            <speak chara="ritaFullNameNoFace">动能估计值有这么大吗？</speak>
+            <show chara="ritaNervousHeadphoneGunClose" position="left" opacity="0.7"/>
+            <show chara="reaChangeSeriousClose" position="right"/>
+            <speak chara="reannaNoFace">不……比那个更糟。</speak>
+            <speak chara="reannaNoFace">……这几年里，受柏林崩坏事件的启发，总部秘密开发了一种能够在瞬时再现崩坏爆发的炸弹——</speak>
+            <speak chara="reannaNoFace">——崩坏裂变弹。</speak>
+            <show chara="reaChangeSeriousClose" position="right" opacity="0.7"/>
+            <show chara="weltNakedCoatSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">那是……什么？</speak>
+            <show chara="weltNakedCoatSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="reaChangeSeriousClose" position="right"/>
+            <speak chara="reannaNoFace">……崩坏裂变弹通过物理上的连锁反应，人为将虚数侧的大量崩坏能在极短时间内聚合并释放，从而达到毁灭周遭一切物质的效果。</speak>
+            <speak chara="reannaNoFace">正因为如此，这种武器，被它的开发者们视为对抗律者和崩坏兽的终极底牌。</speak>
+            <show chara="reaChangeSeriousClose" position="right" opacity="0.7"/>
+            <show chara="weltNakedCoatSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">一旦在这里爆炸的话——</speak>
+            <show chara="weltNakedCoatSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="reaChangeSeriousClose" position="right"/>
+            <speak chara="reannaNoFace">……不仅我们所有人将自身难保；爱迪生小姐为了保护这座城市所做的全部努力，也会变得毫无意义。</speak>
+            <show chara="reaChangeSeriousClose" position="right" opacity="0.7"/>
+            <show chara="weltNakedCoatSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltNakedCoatShoutClose" position="left"/>
+            <speak chara="weltNoFace">这太荒谬了！</speak>
+            <show chara="weltNakedCoatShoutClose" position="left" opacity="0.7"/>
+            <show chara="reaChangeSeriousClose" position="right"/>
+            <speak chara="reannaNoFace">……</speak>
+            <show chara="reaChangeConfidentClose" position="right"/>
+            <speak chara="reannaNoFace">别慌。</speak>
+            <speak chara="reannaNoFace">我们至少还有一个对抗的手段。</speak>
+            <show chara="reaChangeNormalClose" position="right"/>
+            <speak chara="reannaNoFace">为了所有人的希望……瓦尔特，请你配合好我接下来的行动。</speak>
+            <goto goto="250" change="#ffffff"/>
+        </scene>
+        <scene id="250" background="blackCloud.jpg">
+            <bgm src="07_20_amazingGrace.mp3" status="start"></bgm>
+            <text article="1">
+                <p class="article-text">蕾安娜平静地叙述着她的计划。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">原理很简单——</p>
+                <br />
+                <p class="article-text">在崩坏裂变弹触地爆炸之前，用黑渊白花将炸弹的起爆装置销毁。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">她的机械身体内置了火箭推进器：只要能够精确定位导弹的位置，就能够在空中接近它。</p>
+                <br />
+                <p class="article-text">“而真正困难的”，她补充道，“在于此后。”</p>
+            </text>
+            <text article="1">
+                <p class="article-text">“销毁起爆装置的同时，我和黑渊白花也会遭受波及，失去战术价值。”</p>
+                <p class="article-text">“——准确地说，制作工艺特殊的黑渊白花虽然有可能幸存，但构成我本身的普通魂钢，会在异常的高温下直接蒸发。”</p>
+                <p class="article-text">“这是启用超额功率所必须付出的代价……就像刚才使用另一种超额功率治疗你们的薛定谔一样。”</p>
+            </text>
+            <text article="1">
+                <p class="article-text">“……但是，即便如此，由于动能太大，这颗本身就储备有不少崩坏能的导弹，仍会以它的巨大惯性继续飞行。”</p>
+                <p class="article-text">“虽然不再能引起连锁反应，但对于普通人、普通建筑物而言，仍然无异于毁天灭地的飞弹。”</p>
+            </text>
+            <text article="1">
+                <p class="article-text">“因此，瓦尔特，你的任务就是……”</p>
+                <br />
+                <p class="article-text">“……不惜一切代价，阻挡住这余波造成的破坏。”</p>
+            </text>
+            <text article="1">
+                <p class="article-text">“……使用‘伊甸之星’的原理，你可以制造出保护整座城市的护盾。”</p>
+                <p class="article-text">“……半径二十公里。把你体内以DNA形式分布存在的律者核心悉数激活，绝对能支撑起这样的规模——如果薛定谔博士的推理没有问题的话。”</p>
+                <p class="article-text">“虽然，我必须说，这对于你已经受伤的身体，是极大的负担。”</p>
+            </text>
+            <text article="1">
+                <p class="article-text">“崩坏裂变弹的制造成本极其昂贵，即使是奥托，十年内恐怕也无法生产出第二发。”</p>
+                <br />
+                <p class="article-text">“换言之，从乐观的角度考虑——他已经打出了自己最后的一张王牌——我们需要做的只是解决掉它。”</p>
+            </text>
+            <goto goto="260" change="#ffffff"/>
+        </scene>
+        <scene id="260" background="blackCloud.jpg">
+            <bgm src="07_20_amazingGrace.mp3" status="continue"></bgm>
+            <show chara="weltNakedCoatSurpriseClose" position="left"/>
+            <speak chara="weltNoFace">可是……这样一来，你……</speak>
+            <show chara="weltNakedCoatSurpriseClose" position="left" opacity="0.7"/>
+            <show chara="reaChangeConfidentClose" position="right"/>
+            <speak chara="reannaNoFace">我不重要。</speak>
+            <show chara="reaChangeSeriousClose" position="right"/>
+            <speak chara="reannaNoFace">……也许这件事有更好的解决方式。</speak>
+            <speak chara="reannaNoFace">但是导弹已经发射，十分钟之内就将击中这里。</speak>
+            <speak chara="reannaNoFace">我们没有深思熟虑的时间了。</speak>
+            <show chara="reaChangeSeriousClose" position="right" opacity="0.7"/>
+            <show chara="ritaNervousHeadphoneGunClose" position="left"/>
+            <speak chara="ritaFullNameNoFace">……</speak>
+            <show chara="ritaNervousHeadphoneGunClose" position="left" opacity="0.7"/>
+            <show chara="reaChangeConfidentClose" position="right"/>
+            <speak chara="reannaNoFace">……大家没有必要为这样的事情感伤。</speak>
+            <show chara="reaChangeSeriousClose" position="right"/>
+            <speak chara="reannaNoFace">而且……</speak>
+            <speak chara="reannaNoFace">瓦尔特，我再强调一遍——</speak>
+            <speak chara="reannaNoFace">在这个临时抱佛脚的方案里，一旦你的输出功率超过了自己能够承受的上限……</speak>
+            <speak chara="reannaNoFace">“拟似犹大”给你造成的伤口，就可能进一步恶化……</speak>
+            <speak chara="reannaNoFace">……甚至威胁到你的生命。</speak>
+            <show chara="reaChangeSeriousClose" position="right" opacity="0.7"/>
+            <show chara="weltNakedCoatShoutClose" position="left"/>
+            <speak chara="weltNoFace">但是……这、这本来就是只有我能做到的事情——</speak>
+            <show chara="weltNakedCoatShoutClose" position="left" opacity="0.7"/>
+            <show chara="reaChangeConfidentClose" position="right"/>
+            <speak chara="reannaNoFace">我也一样啊。</speak>
+            <show chara="reaChangeNormalClose" position="right"/>
+            <speak chara="reannaNoFace">在导弹落地之前解除它的起爆装置，这也是只有我能做到的事情——</speak>
+            <show chara="reaChangeConfidentClose" position="right"/>
+            <speak chara="reannaNoFace">仅此而已。</speak>
+            <goto goto="270" change="#ffffff"/>
+        </scene>
+        <scene id="270" background="blackCloud.jpg">
+            <bgm src="07_20_amazingGrace.mp3" status="continue"></bgm>
+            <text article="1">
+                <p class="article-text">蕾安娜将双手的十指，深深地插入了自己后腰位置的液态魂钢之中。</p>
+                <br />
+                <p class="article-text">随着她的双臂缓慢而坚定地用力，两只碗口大小的推进器，从水银一般的金属表皮里浮现而出。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">“之后，就拜托你了。”</p>
+            </text>
+            <speak chara="weltNoFace">啊，放心吧。</speak>
+            <speak chara="weltNoFace">这是我能做到的事情。</speak>
+            <speak chara="weltNoFace">我会把它做到最好的。</speak>
+            <goto goto="280" change="#000000"/>
+        </scene>
+        <scene id="280" background="darkEnergyFade.jpg">
+            <bgm src="07_20_amazingGrace.mp3" status="continue"></bgm>
+            <speak chara="adaNoFace">那一天，我们无论如何都要阻止那颗可怕的崩坏裂变弹。</speak>
+            <speak chara="adaNoFace">所以，无论我或者玛格丽塔——</speak>
+            <speak chara="adaNoFace">不，即使教授或博士们还意识清醒——</speak>
+            <speak chara="adaNoFace">也不会有人站出来阻止这个疯狂的应对计划。</speak>
+            <goto goto="290" change="0"/>
+        </scene>
+        <scene id="290" background="landscapeSunset.jpg">
+            <bgm src="07_20_amazingGrace.mp3" status="continue"></bgm>
+            <speak chara="adaNoFace">说它疯狂，是因为，即使在上一个文明纪元里——</speak>
+            <speak chara="adaNoFace">使用“第一律者”的核心制作了“虚空万藏”的他们，似乎也没有进行过如此大规模的、无中生有的创造。</speak>
+            <speak chara="adaNoFace">原因很简单：“虚空万藏”根本承受不起这样夸张的输出功率。</speak>
+            <speak chara="adaNoFace">瓦尔特——强行实践这一切的负伤律者——自然也很难全身而退。</speak>
+            <speak chara="adaNoFace">对于一般的纽约市民而言，这是一场意外降临的“陨石雨”。</speak>
+            <speak chara="adaNoFace">帝国大厦因之倒塌，第五大道也付之一炬。</speak>
+            <speak chara="adaNoFace">但是，市民们还活着。</speak>
+            <speak chara="adaNoFace">除了个别不属于这座城市的人，我们令人惊讶地做到了“零阵亡”。</speak>
+            <speak chara="adaNoFace">嗯……令人惊讶，但并非奇迹。</speak>
+            <speak chara="adaNoFace">因为那个人，他知道这是自己拼尽全力后能够做到的事情。</speak>
+            <goto goto="295" change="#ffffff"/>
+        </scene>
+        <scene id="295" background="callaLily.jpg">
+            <bgm src="07_20_amazingGrace.mp3" status="continue"></bgm>
+            <speak chara="adaNoFace">冬去春来，爱因斯坦和特斯拉博士相继从病床上苏醒过来。</speak>
+            <speak chara="adaNoFace">有点出乎我意料的是……</speak>
+            <speak chara="adaNoFace">……她们平静地接受了上个冬天里所发生的一切。</speak>
+            <speak chara="adaNoFace">感谢普朗克教授的“空城计”，奥托没有发动任何进一步的军事动作。</speak>
+            <speak chara="adaNoFace">约阿希姆利用理之律者的力量易容成了瓦尔特的样子，在那段时间里和教授一起，频繁接受各类新闻的采访。</speak>
+            <speak chara="adaNoFace">我们没有公开打出什么旗号——但是敌人知道，我们还好好地存在着，一点儿也没有衰弱的迹象。</speak>
+            <speak chara="adaNoFace">……这就足够了。</speak>
+            <goto goto="297" change="0"/>
+        </scene>
+        <scene id="297" background="landscapeSunset.jpg">
+            <bgm src="07_20_amazingGrace.mp3" status="continue"></bgm>
+            <speak chara="adaNoFace">然而，这么做导致的代价……就是曾经名为约阿希姆的少年……</speak>
+            <speak chara="adaNoFace">……他内心的伤口，不仅无法愈合，反而撕裂得越来越深。</speak>
+            <speak chara="adaNoFace">毕竟，在一天之内，他不仅失去了父亲，失去了拯救自己的英雄，甚至失去了原本的身份——</speak>
+            <speak chara="adaNoFace">——更失去了自己的童年。</speak>
+            <goto goto="300" change="#ffffff"/>
+        </scene>
+        <scene id="300" background="oldTVNewYork.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <speak chara="newsNoFace">今天是一个特别的日子。</speak>
+            <speak chara="newsNoFace">对于53岁的建筑设计师约翰·史密斯来说，这是他二十二年以来，庆祝的第一个感恩节。</speak>
+            <speak chara="johnSmithNoFace">作为一名土生土长的布鲁克林人……我可以自豪地告诉全世界，我们再度建成了这座大楼。</speak>
+            <speak chara="johnSmithNoFace">从前的帝国大厦（Empire State Building）——现在的世界塔（Welt Obelisk）。</speak>
+            <speak chara="johnSmithNoFace">这一刻，我感到我们终于再造了曼哈顿。</speak>
+            <speak chara="newsNoFace">世界塔是由ME建筑公司投资复建的摩天大楼，其基本设计完全继承了1930年代帝国大厦的结构。</speak>
+            <speak chara="newsNoFace">在“感恩节灾难”之后遭遇短暂低谷的通用公司，目前作为崭新的ME集团，已经重新夺回了世界五百强的首把交椅。</speak>
+            <speak chara="newsNoFace">对于同时身为纽约市民和ME集团员工的约翰·史密斯而言，这其中的酸甜苦辣，远不是“重新强大”这样的口号所能够概括的。</speak>
+            <speak chara="johnSmithNoFace">那时我还是负责大楼安全的一名电气工程师。</speak>
+            <speak chara="johnSmithNoFace">大约三四点钟的时候，那天值班的保安“咚咚咚”地开始猛敲公寓的铁门。</speak>
+            <speak chara="johnSmithNoFace">我迷迷糊糊还穿着睡衣，就被他连拉带拽地拖到了大街上。</speak>
+            <speak chara="johnSmithNoFace">那个时候我才意识到——整座城市的电网全都瘫痪了。</speak>
+            <speak chara="newsNoFace">在那个混乱而危机四伏的清晨，为了排除大楼内潜在的隐患，约翰·史密斯等人检查了大楼里的每一个角落。</speak>
+            <speak chara="johnSmithNoFace">我们只是在遵守既有的灾害处置流程。那种情况下，你的大脑根本不可能计划出什么东西来——照章办事其实是唯一能做到的事情。</speak>
+            <speak chara="johnSmithNoFace">不过……我们必须感谢当时在楼里的每一个人——感谢他们充分尊重我们的工作，感谢他们有秩序的撤离。</speak>
+            <speak chara="johnSmithNoFace">否则，这样的大楼垮塌下来，“零伤亡”是不可能做到的。</speak>
+            <speak chara="newsNoFace">正如我们每个人都知道的，那一天的正午，12时55分，在遭受陨石意外撞击的一小时后，旧帝国大厦轰然倒塌。</speak>
+            <speak chara="newsNoFace">据事后测算，“感恩节灾难”陨石雨的绝大多数组分，都在300米以上的高空燃尽——</speak>
+            <speak chara="newsNoFace">所以，除陨石主体落入拉里坦湾外，这栋大楼是纽约市唯一遭受直接影响的建筑物。</speak>
+            <speak chara="newsNoFace">但尽管如此，这场灾难带来的恐慌还是对当时的经济造成了影响，道琼斯指数曾一度跌破——</speak>
+            <goto goto="310" change="0"/>
+        </scene>
+        <scene id="310" background="hotelLivingroom.jpg">
+            <bgm src="07_20_bellaCiao.mp3" status="start"></bgm>
+            <speak chara="yangNoFace">……回去吧。</speak>
+            <speak chara="adaNoFace">……回去？</speak>
+            <speak chara="yangNoFace">嗯。</speak>
+            <speak chara="yangNoFace">回去，回那个大家共同的家。</speak>
+            <speak chara="adaNoFace">………是“逆熵”的意思吗？？</speak>
+            <speak chara="yangNoFace">……嗯。</speak>
+            <speak chara="yangNoFace">真是的，搞什么离家出走，我简直像个傻子一样……</speak>
+            <speak chara="adaNoFace">可是，需要“逆熵盟主”出面的时候就让你易容代替……我仍然觉得她们这么做是不对的。长期来说。</speak>
+            <speak chara="yangNoFace">啊。我也不喜欢那样。</speak>
+            <speak chara="yangNoFace">但是换一个角度看，就像这帝国大厦只能原样重建——</speak>
+            <speak chara="yangNoFace">以那个人的自我牺牲为基石所诞生的组织，也只能以那个人的形象作为象征吧。</speak>
+            <speak chara="yangNoFace">……历史总会翻开新的一页。</speak>
+            <speak chara="yangNoFace">不过，在那之前，我们有必要去认个错。</speak>
+            <speak chara="adaNoFace">……是对离家出走感到抱歉吗？</speak>
+            <speak chara="yangNoFace">不……不只是那样。</speak>
+            <speak chara="yangNoFace">当年的战斗改变了很多人。</speak>
+            <speak chara="yangNoFace">为了保护大家，瓦尔特牺牲了自己。</speak>
+            <speak chara="yangNoFace">在量子化中消散的薛定谔博士下落不明；黑渊白花也沉入了大西洋的深处，难觅踪迹。</speak>
+            <speak chara="yangNoFace">爱因斯坦和特斯拉……姐姐们的身体发生了永久的变化。</speak>
+            <speak chara="yangNoFace">而我，作为在场唯一适格的男性，继承了第一律者的核心。</speak>
+            <speak chara="yangNoFace">话虽如此，但我毕竟不是原模原样的第一律者本人。</speak>
+            <speak chara="yangNoFace">律者核心，这分布式的纳米机器人，把我的每一个细胞，都变成了僵尸一样的机械。</speak>
+            <speak chara="yangNoFace">只为了能够尽可能地提升战略威慑。</speak>
+            <speak chara="yangNoFace">只为了能够在需要的时候，把自己从肉体上变成那位英雄。</speak>
+            <goto goto="320" change="#ffffff"/>
+        </scene>
+        <scene id="320" background="cloudSky.jpg">
+            <bgm src="07_20_bellaCiao.mp3" status="continue"></bgm>
+            <speak chara="yangNoFace">就像离家出走那天，我对普朗克教授说的那样——</speak>
+            <speak chara="yangNoFace">这本不是我应该承担的痛苦。完全不是。</speak>
+            <speak chara="yangNoFace">但……</speak>
+            <speak chara="yangNoFace">你看，电视里的那名建筑师……</speak>
+            <speak chara="yangNoFace">在这两年的游历中，我才真真正正的意识到，那一天所造成的伤痕，在二十年后，依然遍地存在。</speak>
+            <speak chara="yangNoFace">伤口，虽然不再流血；伤疤，却不会轻易消失。</speak>
+            <speak chara="yangNoFace">只不过……有无数的人，他们都比我更勇敢。</speak>
+            <speak chara="yangNoFace">……</speak>
+            <speak chara="yangNoFace">“瓦尔特”这个名字，绝对不是一个需要抛弃的负担。</speak>
+            <speak chara="yangNoFace">绝对不是。</speak>
+            <goto goto="330" change="#ffffff"/>
+        </scene>
+        <scene id="330" background="empireStateBuilding.jpg">
+            <bgm src="07_20_bellaCiao.mp3" status="continue"></bgm>
+            <speak chara="yangNoFace">斯塔滕岛。</speak>
+            <speak chara="yangNoFace">皇后区。</speak>
+            <speak chara="yangNoFace">布鲁克林。</speak>
+            <speak chara="yangNoFace">布朗克斯。</speak>
+            <speak chara="yangNoFace">曼哈顿。</speak>
+            <speak chara="yangNoFace">……</speak>
+            <speak chara="yangNoFace">你看到这座城市了吗，艾妲。</speak>
+            <speak chara="yangNoFace">他——就是瓦尔特！</speak>
+            <end last="1" post="U2FsdGVkX1+h4mbmmvyMmba9mr1G"/>
+        </scene>
+    </story>
+</data>	

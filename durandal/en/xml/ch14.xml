@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="CG13-6.jpg">
+            <bgm src="noise.mp3" status="start"></bgm>
+            <text>女武神的大脑，此刻一片空白。</text>
+            <text>这并非因为愤怒、震惊等情绪支配了她的思考——</text>
+            <text>——而是过去在训练中形成的潜意识，正指挥着她的双手，试图为眼前的生命争取更多的时间。</text>
+            <text>对象还有微弱的脉搏。</text>
+            <text>或许还有抢救的可能。</text>
+            <text>战术用途的氧气瓶和麻醉剂正好派得上用场。</text>
+            <text>接下来就是输血，在打开伤口之前必须先匹配好血型——</text>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="starNight.jpg">
+            <bgm src="noise.mp3" status="continue"></bgm>
+            <text>——不顾周围的一切，女武神在夜空下疯狂地奔跑着。</text>
+            <speak chara="_Bianka">（快出结果啊，血型试纸！）</speak>
+            <speak chara="_Bianka">（快告诉我，我或者丽塔，可以给那个人输血！）</speak>
+            <speak chara="_Bianka">（除了我们，没有任何人能承受得起心脏手术的输血量——）</speak>
+            <speak chara="_Bianka">（——拜托了，试纸！告诉我，我们还有办法抢救她！即使希望只有万分之一！）</speak>
+            <speak chara="_Bianka">（拜托了，试纸，至少给我显示一个蓝色出来啊！）</speak>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="submarinePipe.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
+            <text>……</text>
+            <text>女武神喘着粗气，颓然地瘫坐在潜艇的内舱甲板上。</text>
+            <text>血型检测试纸的两个观察窗，无一例外地仍然保持着血液样本的红褐色。</text>
+            <text>此时此刻，距离采样已经过去了三分钟：超出了试纸反应时间的六倍。这样的结果，意味着样本是毫无疑问的——</text>
+            <text>——O型血。</text>
+            <text>这种血液的血清既会凝聚A型红细胞，也会凝聚B型红细胞。</text>
+            <text>也就是说，O型血的人只能接受O型的外来血液。</text>
+            <text>……而不幸的是，无论是她，还是丽塔，都不属于这种十个人里至少就有三、四个的血型分类。</text>
+            <text>……这张小小的试纸，从理论上，就直接给一切潜在的外科手术亮了红灯。</text>
+            <text>女武神意识到，除了那柄沉睡在遥远彼方、天命总部的神之键，黑渊白花——</text>
+            <text>——已经没有任何她或者其他船员知晓的手段，能够拯救这位少女的生命了。</text>
+            <text>女武神唯一可以做的，只能是为少女……筹备葬礼。</text>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="starNight.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <speak chara="_Rita">……接下来，受塔苏玛尔大人所托，我将为大家宣读伊柯娜尔大人留下的“最后神谕”。</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG14-1.jpg">
+            <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
+            <speak chara="_Rita">“神说，第十三个伯克盾是全新纪元的开始。”</speak>
+            <speak chara="_Rita">“在第十二个伯克盾的最后一天，神的世界将与人的世界彻底分离。”</speak>
+            <speak chara="_Rita">“神将不再祝福我们，但也不会再诅咒我们。未来的一切，都将是真真正正的，自然轮回。”</speak>
+            <speak chara="_Rita">“而在此之前，神希望把那些真正的、纯粹的、可以在神的领域安然生活的化身，都带往那个和此处截然不同的绚烂天界。”</speak>
+            <speak chara="_Rita">“各位，我发自心底爱着的所有人，大家不必愤怒，不必嫉妒，不必悲伤——”</speak>
+            <speak chara="_Rita">“因为伊诗·塔布大人已经告诉我：当天界与人界分离之后，我们的人类世界，也能够变得像神明的天界一样绚烂、一样辉煌。”</speak>
+            <speak chara="_Rita">“在那个即将来临的时代里，凡人们也可以通过努力，用自己的双手，创造出种种比肩神明的奇迹。”</speak>
+            <goto goto="60" clockwise="1"/>
+        </scene>
+        <scene id="60" background="mayanBeachMorning.jpg">
+            <bgm src="morning.mp3" status="start"></bgm>
+            <show chara="shakesCasualMercyClose" position="center"/>
+            <speak chara="_Shakespeare">……</speak>
+            <show chara="shakesCasualSeriousClose" position="center"/>
+            <speak chara="_Shakespeare">神明最纯粹的化身已经到达了她的彼岸。各位，我们走吧。</speak>
+            <hide position="center"></hide>
+            <show chara="champoSweatyClose" position="left"/>
+            <speak chara="_Champollion">有点……狼狈呢。</speak>
+            <show chara="champoSweatyClose" position="left" opacity="0.8"/>
+            <show chara="cervantesSailorUnhappyClose" position="right"/>
+            <speak chara="_Miguel">……我们自己狼狈与否，并不重要吧。</speak>
+            <show chara="cervantesSailorUnhappyClose" position="right" opacity="0.8"/>
+            <show chara="schroMemoryClose" position="left"/>
+            <speak chara="_Schrodinger">……无论如何，至少那些村民们，看起来会虔诚地遵从她留下来的“神谕”。</speak>
+            <show chara="schroMemoryClose" position="left" opacity="0.8"/>
+            <show chara="lallaSeriousClose" position="right"/>
+            <speak chara="_Lalla">肯定有更好的办法能够做到这一切……可是时间永远都不能倒流。</speak>
+            <show chara="lallaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose" position="left"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">是啊。所以走吧。</speak>
+            <show chara="biankaDressHateClose" position="right"/>
+            <speak chara="_Bianka">去南方，去那个“联邦”的地盘。</speak>
+            <show chara="biankaDressBiteClose" position="right"/>
+            <speak chara="_Bianka">……我们，应该为那个人、为这个村庄，做点什么。</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="yamTuluum.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+            <show chara="Warrior2PClose" position="left"/>
+            <speak chara="_Warrior2PNoNameShort">……纳、“纳科姆”大人来了！</speak>
+            <show chara="Warrior2PClose" position="left" opacity="0.8"/>
+            <show chara="Warrior3PClose" position="right"/>
+            <speak chara="_Warrior3PNoNameShort">快、快去禀告长官，“纳科姆”大人来了！</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……怎么回事？这里不是军营吗？他们怎么全都跑了？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualSeriousClose" position="right"/>
+            <speak chara="_Shakespeare">……或许是因为昨天已经被吓破了胆吧。</speak>
+            <show chara="shakesCasualNormalClose" position="right"/>
+            <speak chara="_Shakespeare">不过，这其实是一件再好不过的事情。</speak>
+            <show chara="shakesCasualSeriousClose" position="right"/>
+            <speak chara="_Shakespeare">那些士兵的肢体语言里，只有畏惧，没有一星半点对抗的意愿。</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">或许，是时候让你扮演一个真正的海盗了，女武神小姐。</speak>
+            <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="right"/>
+            <speak chara="_Shakespeare">不用担心，只是利用一下他们的态度而已，很简单的。</speak>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">更何况，以他们刚才畏惧你的程度，“有话直说”应该就足够解决所有的问题了。</speak>
+            <goto goto="80" clockwise="1"/>
+        </scene>
+        <scene id="80" background="yamTuluum.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="continue"></bgm>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2PNoNameShort">久等了，“纳科姆”大人。这里是图卢姆要塞 ，卑职是负责此地防卫事务的军官，名叫考阿克。</speak>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">我等“联邦”军人昨日有眼无珠，冒犯了您的威严，还请您恕罪。</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">等等等等？你这个说辞……再说一遍，我有点消化不了。</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">我等“联邦”军人昨日有眼无珠，冒犯了您的威严，还请您恕罪。</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">我说你们，这脸也变得太快了吧？之前在“埃尔·蕾”那副趾高气昂的样子上哪儿去了？</speak>
+            <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">请您恕罪。您是“纳科姆”大人，每一个联邦的军人都不得对“纳科姆”大人无礼。</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">……“纳科姆”是什么？我怎么就成了“纳科姆”了？</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">“纳科姆”是“超人”。是超越了芸芸众生，忠诚于大地而非上天的英雄。</speak>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">大祭司教诲我们，“我教你们每个人做超人。当你们还没有成为超人的时候，你们要对那些真正的超人报以最大的敬意。”</speak>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">“他们是大海，而你们只是沙砾：你们最大程度的轻蔑，也只会沉没在他们的脚下而已。”</speak>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">请理解卑职等人是在遵从大祭司的教诲，而不是对您前倨后恭。当然，让您感到尴尬的地方，还请恕罪。</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressHateClose" position="left"/>
+            <speak chara="_Bianka">那么，我如果禁止你们对“埃尔·蕾”宣称主权，你们就会放过那座村庄吗？</speak>
+            <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">是的。只要大祭司本人不推翻您的主张，卑职等人就会像法律一样去遵从它。</speak>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">我们会把“埃尔·蕾”看作独立、而且不可干涉的国家来对待——如果这是您所希望的。</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressAngryClose" position="left"/>
+            <speak chara="_Bianka">好吧，既然如此，我就认为自己是这个“纳科姆”。</speak>
+            <show chara="biankaDressHateClose" position="left"/>
+            <speak chara="_Bianka">不过，我的伙伴，我的船长，他们也都是“纳科姆”，没问题吧？</speak>
+            <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">是的。卑职能看出他们都具备强大的战斗实力和精神品格。</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">那就好办了。</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">本“纳科姆”希望你们能够安排一次会面——我和我的伙伴，与你们的“大祭司”。</speak>
+            <show chara="biankaDressHateClose" position="left"/>
+            <speak chara="_Bianka">做得到吗？</speak>
+            <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">是。卑职会立即派人全速赶往奇琴伊察城，先行通知大祭司大人。</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualSeriousClose" position="left"/>
+            <speak chara="_Shakespeare">这种信使，在路上要花多长的时间？</speak>
+            <show chara="shakesCasualSeriousClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">通过驿站接力的方式跑步传递，大致需要一天半的时间，可以把消息送到。</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualDislikeClose" position="left"/>
+            <speak chara="_Shakespeare">跑步？你们这也真够原始的。</speak>
+            <show chara="shakesCasualQuestionClose" position="left"/>
+            <speak chara="_Shakespeare">不过既然有驿站的话……你们的道路状况应该还可以吧？</speak>
+            <show chara="shakesCasualQuestionClose" position="left" opacity="0.8"/>
+            <show chara="Officer2PClose" position="right"/>
+            <speak chara="_Officer2P">联邦的军人每年都会抽出专门的时间来平整道路。</speak>
+            <show chara="Officer2PClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">那太好了。这样吧，你挑个机灵点儿的向导出来。我们可以教会他一种比跑步更快、更省力的好办法。</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">（……？）</speak>
+            <goto goto="90" clockwise="1"/>
+        </scene>
+        <scene id="90" background="mayanRoad.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <show chara="speedLine" position="back"/>
+            <show chara="vilagerManSmileClose-up" position="center"/>
+            <speak chara="_vilagerGuide">哇哦！太刺激了！痛快痛快！纳科姆大人万岁！</speak>
+            <hide position="center"></hide>
+            <show chara="biankaDressSighClose-up" position="left"/>
+            <speak chara="_Bianka">……喂，丽塔。</speak>
+            <show chara="biankaDressHesitateClose-up" position="left"/>
+            <speak chara="_Bianka">骑自行车是这么让人开心的事情吗？</speak>
+            <show chara="biankaDressHesitateClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestNormalClose-up" position="right"/>
+            <speak chara="_Rita">是的呀，比安卡大人。</speak>
+            <show chara="ritaVestSquintClose-up" position="right"/>
+            <speak chara="_Rita">这位向导先生，可是平生第一次，切身体验到比跑步还快的速度吧？</speak>
+            <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="left"/>
+            <speak chara="_Bianka">……对哦，这里是没有马的。</speak>
+            <show chara="biankaDressShockClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose-up" position="right"/>
+            <speak chara="_Rita">所以对那个人而言，此时此刻的兴奋之情，绝不会亚于那些在三更半夜鼓噪引擎的机车少年。</speak>
+            <show chara="ritaVestSmileClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose-up" position="left"/>
+            <speak chara="_Bianka">……机车少年？那是什么？</speak>
+            <show chara="biankaDressHesitateClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose-up" position="right"/>
+            <speak chara="_Rita">就是那些喜欢把摩托车骑得飞快的男孩子呀。偶尔也有女孩子就是了。</speak>
+            <show chara="ritaVestNaughtyClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose-up" position="left"/>
+            <speak chara="_Bianka">……啊，那种小混混是吗。</speak>
+            <show chara="biankaDressSighClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose-up" position="right"/>
+            <speak chara="_Rita">噗。比安卡大人，虽然的确有很多小混混喜欢飙车，但这并不代表每个钟情于此的少男少女都是小混混哦？</speak>
+            <show chara="ritaVestSquintClose-up" position="right"/>
+            <speak chara="_Rita">下次有机会的话，要不要让我带您去深夜的那不勒斯兜兜风呢？</speak>
+            <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose-up" position="left"/>
+            <speak chara="_Bianka">唔……有机会的话……</speak>
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <show chara="biankaDressSorrowClose-up" position="left"/>
+            <speak chara="_Bianka">抱歉，我今天的兴致不是很高。</speak>
+            <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose-up" position="right"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="ritaVestHesitateClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressAngryClose-up" position="left"/>
+            <speak chara="_Bianka">我们……真的是好没用啊。</speak>
+            <show chara="biankaDressAngryClose-up" position="left"/>
+            <speak chara="_Bianka">让那个人对自己做了那么过分的事情。</speak>
+            <show chara="biankaDressNormalClose-up" position="left"/>
+            <speak chara="_Bianka">还只能眼睁睁地看着她失血而死。</speak>
+            <show chara="biankaDressSorrowClose-up" position="left"/>
+            <speak chara="_Bianka">这种事情……明明肯定有……更好的解决办法的……</speak>
+            <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestHesitateClose-up" position="right"/>
+            <speak chara="_Rita">……</speak>
+            <show chara="ritaVestHesitateClose-up" position="right"/>
+            <speak chara="_Rita">或许……这就是人生吧，比安卡大人。</speak>
+            <show chara="ritaVestNormalClose-up" position="right"/>
+            <speak chara="_Rita">您或许听说过，在那不勒斯的市郊，有一处埋藏在厚厚的火山灰下、时间永远定格在了“公元79年”的遗迹——庞贝。</speak>
+            <show chara="ritaVestHesitateClose-up" position="right"/>
+            <speak chara="_Rita">庞贝的牺牲者们，在火山开始爆发时，其实也拥有过逃离的机会。</speak>
+            <speak chara="_Rita">但是，最初的地震停止之后，没有意识到火山灰正在逼近的他们，选择了返回家园、保护自己的财产。</speak>
+            <show chara="ritaVestAngryClose-up" position="right"/>
+            <speak chara="_Rita">——是的，他们中的大多数，看起来并没有去趁乱哄抢他人的金银财宝。</speak>
+            <speak chara="_Rita">他们不过是打算尽快修理倒塌的房屋、转移尚未损毁的物资，仅此而已。</speak>
+            <show chara="ritaVestAngryClose-up" position="right"/>
+            <speak chara="_Rita">然而无情的时间也就被这样浪费掉了。最终，这些不幸的人被奔腾而下的、数百度高温的火山灰层层掩埋……再也没有机会去使用自己的财富了。</speak>
+            <show chara="ritaVestHesitateClose-up" position="right"/>
+            <speak chara="_Rita">——但是他们有什么错吗？</speak>
+            <show chara="ritaVestAngryClose-up" position="right"/>
+            <speak chara="_Rita">在那个时代，他们有任何机会去了解火山活动的规律，为自己规划好逃生策略吗？</speak>
+            <show chara="ritaVestAngryClose-up" position="right"/>
+            <speak chara="_Rita">……当然不可能。没有人是全知全能的。</speak>
+            <show chara="ritaVestHesitateClose-up" position="right"/>
+            <speak chara="_Rita">用当下去批判过去，这是谁都可以做的；从现在来预判未来，这是谁都很难做的。</speak>
+            <show chara="ritaVestHesitateClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose-up" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressSorrowClose-up" position="left"/>
+            <speak chara="_Bianka">你说的……没错。但是……我……真的不能……</speak>
+            <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestTearClose-up" position="right"/>
+            <speak chara="_Rita">没关系，不需要再往下说了。我明白的，比安卡大人。</speak>
+            <show chara="ritaVestTearClose-up" position="right"/>
+            <speak chara="_Rita">因为，您……有一颗纯粹而又善良的心啊。</speak>
+            <show chara="ritaVestTearClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose-up" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressBiteClose-up" position="left"/>
+            <speak chara="_Bianka">喂！！！说什么傻话呢！快擦掉眼泪，你这个笨蛋！！</speak>
+            <show chara="biankaDressBiteClose-up" position="left" opacity="0.8"/>
+            <show chara="ritaVestSquintClose-up" position="right"/>
+            <speak chara="_Rita">噗。果然是比安卡大人，真可爱。</speak>
+            <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose-up" position="left"/>
+            <speak chara="_Bianka">喂！！！你这家伙也太恶心了吧！？</speak>
+            <goto goto="100" clockwise="1"/>
+        </scene>
+        <scene id="100" background="mayanRoad.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="vilagerManSmileClose-up" position="left"/>
+            <speak chara="_vilagerGuide">各位大人，我们现在已通过了斯卡拉库普驿站，前方这片丛林的背后，就是奇琴伊察城了。</speak>
+            <show chara="vilagerManSmileClose-up" position="left" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose-up" position="right"/>
+            <speak chara="_Shakespeare">那是一座很大的城市吗？</speak>
+            <show chara="shakesCasualNormalClose-up" position="right" opacity="0.8"/>
+            <show chara="vilagerManSmileClose-up" position="left"/>
+            <speak chara="_vilagerGuide">和之前各位大人口中的“大都市”相比，奇琴伊察应该算是“很小”了。从它的一角走到相对的另一角，大致是三千步左右的距离。</speak>
+            <show chara="vilagerManSmileClose-up" position="left" opacity="0.8"/>
+            <show chara="champoSmileClose-up" position="right"/>
+            <speak chara="_Champollion">唔，那估计和阿雅克肖（AJACCIO）的面积差不多吧。</speak>
+            <show chara="champoSmileClose-up" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose-up" position="left"/>
+            <speak chara="_Shakespeare">哈哈，考古学博士，你这个比方有几个人能听懂啊。AJACCIO？是意大利哪里的小镇吗？</speak>
+            <show chara="shakesCasualConfidentClose-up" position="left" opacity="0.8"/>
+            <show chara="champoSweatyClose-up" position="right"/>
+            <speak chara="_Champollion">不，是科西嘉的首府。属于法国。</speak>
+            <show chara="champoSweatyClose-up" position="right" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
+            <speak chara="_Shakespeare">啊，是这样吗。科西嘉属于法国了？历史还真是有趣呢。</speak>
+            <show chara="shakesCasualEmbarrassedClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose-up" position="right"/>
+            <speak chara="_Bianka">不过，对船长来说，那其实反而算“未来”吧？</speak>
+            <show chara="biankaDressHesitateClose-up" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose-up" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈，话虽如此，可如果我一旦知道了“未来”会变成什么样，那可就要想方设法去“跳过”它啦！</speak>
+            <show chara="shakesCasualLaughClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose-up" position="right"/>
+            <speak chara="_Bianka">……是因为讨厌“宿命论”吗？</speak>
+            <show chara="biankaDressNormalClose-up" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose-up" position="left"/>
+            <speak chara="_Shakespeare">唔，这的确也是一方面啦。不过，最重要的还是“预期舒适度”吧！</speak>
+            <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
+            <speak chara="_Shakespeare">举例来说的话……一个用惯了冲水马桶的人，是很难心甘情愿去天天蹲茅坑的——大致就是这样的道理。</speak>
+            <show chara="shakesCasualEmbarrassedClose-up" position="left" opacity="0.8"/>
+            <show chara="biankaDressAngryClose-up" position="right"/>
+            <speak chara="_Bianka">喂，你能换个例子吗……这听起来很恶心啊。</speak>
+            <show chara="biankaDressAngryClose-up" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose-up" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈，你刚才的这句话本身，就是“发达世界”的一个标志性特征哦？它足以将每个人都培养成“欠发达世界”眼中的“洁癖”。</speak>
+            <show chara="shakesCasualDislikeClose-up" position="left"/>
+            <speak chara="_Shakespeare">你能想象吗？在公元十三、十四世纪的欧洲，连贵族都很少洗澡。即使到了我之前生活过的那个时代，医生们也没人知道，动手术的时候要给自己和病人消毒。</speak>
+            <show chara="shakesCasualQuestionClose-up" position="left"/>
+            <speak chara="_Shakespeare">有人说那些时代富有人文气息？荒谬至极，那会儿全世界所有的书籍品类，还不够给现在的大图书馆塞牙缝呢。</speak>
+            <show chara="shakesCasualConfidentClose-up" position="left"/>
+            <speak chara="_Shakespeare">再说，如果不是有幸能在这里“遇到”未来，我又怎样才能聆听莫扎特或者贝多芬的美妙乐章呢？</speak>
+            <show chara="shakesCasualNormalClose-up" position="left"/>
+            <speak chara="_Shakespeare">人类本质上就是一种贪得无厌的动物。诚实地面对这种欲望，明天才能过得更好。</speak>
+            <show chara="shakesCasualLaughClose-up" position="left"/>
+            <speak chara="_Shakespeare">——是不是呀，那边的向导先生？你可能要花上好些年的时间才能用身边的材料复制出一辆“土产”的自行车来：但即使如此，你也愿意为了它而努力，对不对？</speak>
+            <show chara="shakesCasualLaughClose-up" position="left" opacity="0.8"/>
+            <show chara="vilagerManSmileClose-up" position="right"/>
+            <speak chara="_vilagerGuide">……大人，有何吩咐？</speak>
+            <show chara="vilagerManSmileClose-up" position="right" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
+            <speak chara="_Shakespeare">啊。我忘记他需要翻译才能听懂我们的闲聊了。</speak>
+            <goto goto="110" clockwise="1"/>
+        </scene>
+        <scene id="110" background="highTempleChichenItza.jpg">
+            <bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">哇！好高大的神庙！</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">看起来似乎很有历史呢，向导先生。</speak>
+            <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_vilagerGuide">是的，据说这是将近一千年之前的建筑了。</speak>
+            <show chara="vilagerSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="right"/>
+            <speak chara="_Bianka">一、一千年？</speak>
+            <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_vilagerGuide">是的，纳科姆大人。大祭司说，我们要尽全力保护历史留下的痕迹。</speak>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_vilagerGuide">为了保护这些远古神庙，并且让它们能够具备实际的建筑功能，大祭司规划了很多从内部翻新的工程。</speak>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_vilagerGuide">如果她邀请您到那里面做客的话，您看了就会明白的。</speak>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="castilloChichenItza.jpg">
+            <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_vilagerGuide">……而说到奇琴伊察最壮观的建筑物，各位大人，就是这座库库尔坎神庙了！</speak>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_vilagerGuide">库库尔坎是一位旧神的名字，意思是“带羽毛的蛇”——</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <speak chara="_Shakespeare">好啦好啦，我知道这个神庙很壮观；不过神庙背后的那个……是什么？大铁球吗？</speak>
+            <show chara="vilagerSeriousClose" position="left"/>
+            <speak chara="_vilagerGuide">……“大铁球”？</speak>
+            <show chara="vilagerSmileClose" position="left"/>
+            <speak chara="_vilagerGuide">啊！大人您是说“库库尔坎的心脏”吧！远处的那颗陨石，对吗？</speak>
+            <show chara="vilagerSmileClose" position="left" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="right"/>
+            <speak chara="_Shakespeare">哦？那个竟然是陨石吗？</speak>
+            <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">看起来倒是有点像澳大利亚的乌鲁汝巨岩……</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <speak chara="_ZarathustraDaughterNoNameZero" remark="next">呵呵，远道而来的参观者们，那可是专门从希克苏鲁伯挖出来的星核，如假包换的天外来客哦？</speak>
+            <remark post="U2FsdGVkX18+S4v9CKiWAD46NKkM">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">希克苏鲁伯（Chicxulub，玛雅语意为“恶魔的尾巴”）陨石坑位于尤卡坦半岛西北部，是一个埋藏在地表之下、直径约有150~180公里的陨石撞击坑。它也是地球表面最大的撞击地形之一。</p>
+                <p class="article-text">2010年3月5日，《科学》杂志上的一篇研究报告确认，在6500万年前形成希克苏鲁伯陨石坑的小行星撞击事件，是造成恐龙大灭绝的首要原因。</p>
+                <p class="article-text">p.s. 该陨石撞击时产生的爆炸，相当于百万枚人类历史上威力最强的氢弹——“沙皇炸弹”同时起爆；因此在实际情形中，这颗直径10公里以上的小行星，在撞击的瞬间就完全汽化了。</p>
+            </remark>
+            <speak chara="_vilagerGuide">啊！大祭司陛下！小民失敬！</speak>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="CG14-2.jpg">
+            <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
+            <speak chara="_ZarathustraDaughterNoName">好啦好啦，你平身吧。</speak>
+            <speak chara="_ZarathustraDaughterNoName">远道而来的诸位客人——星辰和飞鸟已经预示了你们的到来。</speak>
+            <speak chara="_ZarathustraDaughterNoName">我是“半岛联邦”的大祭司，艾丝德尔·查拉图斯特拉。我允许你们使用“艾丝德尔”这个名字来称呼我。</speak>
+            <speak chara="_ZarathustraDaughter">客人们，你们想必已经通过各种渠道，了解了我们联邦的一些基本情况。</speak>
+            <speak chara="_ZarathustraDaughter">不过，出于正式起见，我还是愿意向你们简单介绍一下，这个由我一手创立的国家。</speak>
+            <goto goto="150" change="0"/>
+        </scene>
+        <scene id="150" background="castilloChichenItza.jpg">
+            <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
+            <show chara="ZarathustraSmileClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">你们应该听说过，尤卡坦半岛上的长纪历已经马上要进入第13个“伯克盾”了。</speak>
+            <show chara="ZarathustraNormalClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">如果我们认为这套“长纪历”是为了纪念某个特殊的日子而发明的，那么这意味着玛雅人的文明社会，已经在这片土地上存在了将近五千年之久。</speak>
+            <show chara="ZarathustraSorrowClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">然而，如你们所见，他们使用的工具仍然非常原始。甚至连用来耕地的家畜都没有。</speak>
+            <show chara="ZarathustraThinkClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">当我刚刚来到这里的时候，我也像很多“漂流者”一样，不理解世界上为何能存在如此畸形的文明。</speak>
+            <show chara="ZarathustraNormalClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">不过，我可以明确地告诉你们：这并不是“人”的问题。这个尤卡坦半岛，从地理上来讲，本就是一片“穷山恶水”。</speak>
+            <show chara="ZarathustraAngerClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">没有用来耕地的家畜？是因为根本没有合适的动物能够驯化。缺乏冶炼金属的能力？是因为半岛上根本就没有什么好矿，最近的矿脉也位于遥远的墨西哥高原深处。</speak>
+            <show chara="ZarathustraSorrowClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">人们在这片土地上世世代代地辛勤劳作，可他们的生活几乎就没有多少改善。如果不知道这里的纪年有多么悠久，我甚至会以为自己“向前”漂流到了远古时期。</speak>
+            <show chara="ZarathustraSmileClose" position="center"/>
+            <speak chara="_ZarathustraDaughter">客人们，我原本可是生活在“万王之王”居鲁士大帝的时代——根据其他漂流者的说法，是距今两千五百年之前的“远古时期”。</speak>
+            <hide position="center"></hide>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……啊？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">怎么，你很惊讶吗，这位小姐。</speak>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">那当然了！既然如此，你、你为什么能把西班牙语说得这么熟练啊？</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraNormalClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">语言不就应该入乡随俗吗？当这里的大多数漂流者都在说着同一种语言的时候，你为什么要坚持去说自己那没人听得懂的家乡话呢？</speak>
+            <show chara="ZarathustraNormalClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressBiteClose" position="left"/>
+            <speak chara="_Bianka">可、可真正的当地人，原本不是在使用那种象形文字的吗？你们怎么不“入乡随俗”呢？</speak>
+            <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSorrowClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">那种语言缺乏描述先进技术的词汇。与其让漂流者们辛苦翻译，还不如反过来教其他人说西班牙语来得方便。</speak>
+            <show chara="ZarathustraSorrowClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">……竟、竟然因为这种原因？</speak>
+            <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraAngerClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">这有什么奇怪？缺乏价值的东西就应该主动淘汰掉，这是我十岁的时候就从父亲大人那里学来的道理。</speak>
+            <show chara="ZarathustraAngerClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestNormalClose" position="left"/>
+            <speak chara="_Rita">“查拉图斯特拉”……</speak>
+            <show chara="ritaVestNormalClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">嗯，这是父亲大人的名字。而我费尽心血建立的这个“联邦”，也正是按照他的理想来运作的。</speak>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">……这样吧。为了进一步解答各位的疑惑，我们可以到那颗“库库尔坎的心脏”里，坐下来慢慢谈。</speak>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……什么？到陨石里？</speak>
+            <goto goto="160" clockwise="1"/>
+        </scene>
+        <scene id="160" background="hallOfPriestChichenItza.jpg">
+            <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">这……为什么要把这样豪华的建筑修在陨石的里面？</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">呵呵，只不过是把采矿的通道来个废物利用罢了。</speak>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="ritaVestSquintClose" position="left"/>
+            <speak chara="_Rita">很有神秘感，非常适合作为艾丝德尔大人的居所呢。</speak>
+            <show chara="ritaVestSquintClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">谢谢。不过，这里与其说是“大祭司的居所”，倒不如说是“大祭司的实验室”。</speak>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="champoSmileClose" position="left"/>
+            <speak chara="_Champollion">哦？大祭司陛下是对哪些类型的实验感兴趣呢？</speak>
+            <show chara="champoSmileClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraThinkClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">在说明这些之前……各位客人，请允许我先问一个之后会无法回避的问题。</speak>
+            <show chara="ZarathustraNormalClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">你们听说过我父亲的事迹吗？</speak>
+            <show chara="ZarathustraNormalClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">“查拉图斯特拉”？是那个被希腊人称作“琐罗亚斯德”的波斯先知吧？</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraNormalClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">是的，他也是一名大祭司。</speak>
+            <show chara="ZarathustraAngerClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">以及，我必须纠正你——“波斯”是希腊人对我们的谬称，正确的名字应该是“伊朗”。</speak>
+            <show chara="ZarathustraAngerClose" position="right" opacity="0.8"/>
+            <show chara="champoNormalClose" position="left"/>
+            <speak chara="_Champollion">但无论如何，您父亲创立了祆教，帮助伊朗各民族形成了统一的价值观。这让他在后来的历史中赢得了不少崇拜者。</speak>
+            <show chara="champoNormalClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSorrowClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">……是有漂流者这样评价他。虽然这里面包含了各种各样的误会。</speak>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">——你们还知道些什么吗？</speak>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorSmileClose" position="left"/>
+            <speak chara="_Miguel">我只知道他编纂的《阿维斯塔》在神秘文学上很有启发意义……</speak>
+            <show chara="cervantesSailorNormalClose" position="left"/>
+            <speak chara="_Miguel">不过实在可惜，这部书有三分之二的内容后来都被亚历山大大帝烧掉了。</speak>
+            <show chara="cervantesSailorNormalClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">呵呵，从父亲的角度来看，他应该不会觉得这有任何可惜之处吧。</speak>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="cervantesSailorUnhappyClose" position="left"/>
+            <speak chara="_Miguel">……什么？</speak>
+            <show chara="cervantesSailorUnhappyClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraNormalClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">很简单啊，因为我的父亲，在生前从未编纂过这样一本宗教经典。</speak>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">更何况，根据我听过说的版本来看——所谓的“琐罗亚斯德教”，也早已被那些后来者篡改得面目全非了。</speak>
+            <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualSeriousClose" position="left"/>
+            <speak chara="_Shakespeare">……这段历史，和你刚才不愿直接说明的“实验”，应该是有关系的吧？</speak>
+            <show chara="shakesCasualSeriousClose" position="left" opacity="0.8"/>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">当然，船长小姐。</speak>
+            <show chara="ZarathustraNormalClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">而所有这一切……又都与那位传说中的“蛇王”，有着千丝万缕的联系。</speak>
+            <show chara="ZarathustraSmileClose" position="right"/>
+            <speak chara="_ZarathustraDaughter">来吧，我们坐下来慢慢说。</speak>
+            <end post="U2FsdGVkX1+unOFloVQ674ElPqfG"/>
+        </scene>
+    </story>
+</data>

@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newchapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="schoolDay3.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <speak chara="teslaNoFace">……世界上最难对抗的力量就是时间啊。</speak>
+            <goto goto="20" change="0"/>
+        </scene>
+        <scene id="20" background="studyDay.jpg">
+            <bgm src="lab.mp3" status="continue"></bgm>
+            <show chara="einSlyCoatClose" position="left"/>
+            <show chara="teslaNormalGlassWinterClose" position="right" opacity="0.7"/>
+            <speak chara="einNoFace">……看来有人还没有玩够呢。</speak>
+            <show chara="einSlyCoatClose" position="left" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">可不是吗？这一个月都要过完了，我们竟然还没出过市区！难得我重新拿到驾照了！</speak>
+            <show chara="teslaStarGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">出门！出门！赶紧都给我换衣服，别磨磨蹭蹭的啦！</speak>
+            <show chara="teslaStarGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseSweaterClose" position="back"/>
+            <speak chara="weltNoFace">驾照？什么时候——</speak>
+            <show chara="weltSurpriseSweaterClose" position="back" opacity="0.7"/>
+            <show chara="einFoolCoatClose" position="left"/>
+            <speak chara="einNoFace">……和你那本护照差不多的道理。</speak>
+            <speak chara="einNoFace">……被软磨硬泡的话，你懂的。</speak>
+            <show chara="einFoolCoatClose" position="left" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose" position="back"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltTiredSweaterClose" position="back" opacity="0.7"/>
+            <show chara="einSlyCoatClose" position="left"/>
+            <speak chara="einNoFace" remark="next">话说回来，特斯拉博士，我们好歹去过皇家音乐厅、露天剧院，逛过牛津街、摄政街，在斯坦福桥看过球……还和约阿希姆去了五次大英博物馆——</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">主场位于斯坦福桥球场（Stamford Bridge Stadium）的切尔西足球俱乐部（Chelsea Football Club）是1954-55赛季英格兰足球甲级联赛的冠军。这是该俱乐部在20世纪所获得的唯一的顶级联赛冠军奖杯——他们的再次问鼎，要等到整整50年后的2004-05赛季。</p>
+            </remark>
+            <show chara="einSlyCoatClose" position="left" opacity="0.7"/>
+            <show chara="teslaBiteGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">啊啊啊！你够了耶！这不全是散步就能到的地方吗？人家就是想最后几天来点像回事儿的嘛！</speak>
+            <show chara="teslaErGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">瓦尔特，你也真是，安排计划的全都和这个鸡窝头的口味一模一样——</speak>
+            <speak chara="teslaNoFace">（……虽然我不讨厌就是了。）</speak>
+            <show chara="teslaErGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltGiggleSweaterClose" position="back"/>
+            <speak chara="weltNoFace">那……要不要试试去海滨度假村？</speak>
+            <text>弥漫着慵懒气息的42实验室里，瓦尔特一边享用着温热的牛奶，一边指着报纸说道。</text>
+            <show chara="weltGiggleSweaterClose" position="back" opacity="0.7"/>
+            <show chara="teslaDisgustedGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">呃？冬天去海滩，你是不是脑筋不对劲啊。</speak>
+            <show chara="teslaDisgustedGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltTiredSweaterClose" position="back"/>
+            <speak chara="weltNoFace">……我是看这个广告说，因为是淡季，所以现在可以三折包场——</speak>
+            <show chara="weltTiredSweaterClose" position="back" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">——就算三折，你也不可能在这个温度里做日光浴吧？</speak>
+            <show chara="teslaShameGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseSweaterClose" position="back"/>
+            <speak chara="weltNoFace">广告上说，这个三折还包括保龄球联票、温泉通票和自助烧烤……</speak>
+            <show chara="weltSurpriseSweaterClose" position="back" opacity="0.7"/>
+            <show chara="teslaSurpriseGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">什么？连这个都打折？</speak>
+            <show chara="teslaSurpriseGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="einSmileCoatClose" position="left"/>
+            <speak chara="einNoFace">场地闲置不用，那也是有折旧损耗的吧。再说，它的折前价格是夏天的，“水分”本来就多。</speak>
+            <show chara="einSlyCoatClose" position="left"/>
+            <speak chara="einNoFace">话虽如此……你当然是想去的吧？</speak>
+            <show chara="einSlyCoatClose" position="left" opacity="0.7"/>
+            <show chara="teslaStarGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">那当然啦！食欲之秋，不吃白不吃！</speak>
+            <show chara="teslaStarGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="einSmileCoatClose" position="left"/>
+            <speak chara="einNoFace">可不要一下吃太多，最后进医院了哟。</speak>
+            <show chara="einSmileCoatClose" position="left" opacity="0.7"/>
+            <show chara="teslaShameGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace">谁……谁会这么傻啦！才、才不会呢！</speak>
+            <show chara="teslaShameGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="einSlyCoatClose" position="left"/>
+            <speak chara="einNoFace">哎呀，是谁这么傻过呢？</speak>
+            <text>天然卷少女，微笑着喝掉了最后一口奶茶。</text>
+            <show chara="einSlyCoatClose" position="left" opacity="0.7"/>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="westCliff.jpg">
+            <bgm src="street.mp3" status="start"></bgm>
+            <text>滨海绍森德（Southend-on-Sea）。</text>
+            <text>这个以自身的地理位置而得名的小镇，自工业革命以来，就一直是伦敦人最青睐的近郊度假区之一——</text>
+            <text>——仅限夏天。</text>
+            <text>事实上，当一行人驶达目的地时，偌大的停车场里只能看到三辆轿车……不禁让人怀疑，自己是不是来到了冰岛之类，人口密度极低的国家。</text>
+            <show chara="teslaBoringGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">……这还真是够冷清啊。</speak>
+            <show chara="teslaSnickerGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">不过空气很不错，嗯！</speak>
+            <show chara="teslaSnickerGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="weltTiredWinterFar" position="right"/>
+            <speak chara="weltNoFace">离饭点还有一段时间……</speak>
+            <speak chara="weltNoFace">手续办完以后，大家打算先去哪里玩一玩吗？</speak>
+            <show chara="weltTiredWinterFar" position="right" opacity="0.7"/>
+            <show chara="einSleepWinterFar" position="center"/>
+            <speak chara="einNoFace">我想先扑街一会儿……</speak>
+            <show chara="einFoolWinterFar" position="center"/>
+            <speak chara="einNoFace">特斯拉你……半年没开车……竟然比以前还野……</speak>
+            <show chara="einFoolWinterFar" position="center" opacity="0.7"/>
+            <show chara="teslaAstonishGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">咦？</speak>
+            <show chara="teslaAstonishGlassNoiseWinterFar" position="left"/>
+            <speak chara="teslaNoFace">不、不是吧……晕车了吗？要不要我背？</speak>
+            <show chara="teslaAstonishGlassNoiseWinterFar" position="left" opacity="0.7"/>
+            <show chara="einSleepWinterFar" position="center"/>
+            <speak chara="einNoFace">算不上……就是感觉有点恶心。</speak>
+            <show chara="einSleepWinterFar" position="center" opacity="0.7"/>
+            <show chara="weltTiredWinterFar" position="right"/>
+            <speak chara="weltNoFace">嗯……我也有点……</speak>
+            <show chara="weltTiredWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaBiteGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">谁管你啦！豆芽菜！</speak>
+            <show chara="teslaBiteGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterFar" position="right"/>
+            <speak chara="weltNoFace">豆、豆芽菜？！</speak>
+            <goto goto="40" change="#ffffff"/>
+        </scene>
+        <scene id="40" background="westCliff.jpg">
+            <bgm src="street.mp3" status="continue"></bgm>
+            <show chara="ritaNormalAhFar" position="left"/>
+            <speak chara="ritaNoNameNoFace">各位！……请问是瓦尔特·乔伊斯先生一行吗？</speak>
+            <show chara="ritaNormalFar" position="left" opacity="0.7"/>
+            <show chara="weltShyWinterFar" position="right"/>
+            <speak chara="weltNoFace">啊……是的！帝国研究所，一行三人。</speak>
+            <show chara="weltTiredWinterFar" position="right"/>
+            <speak chara="weltNoFace">不好意思，让您见笑了。</speak>
+            <show chara="weltTiredWinterFar" position="right" opacity="0.7"/>
+            <show chara="ritaSmileLeftFar" position="left"/>
+            <speak chara="ritaNoNameNoFace">哪里哪里……客人你们明明相处得这么融洽……</speak>
+            <text>女侍者礼貌地提过了瓦尔特手中的行李箱——</text>
+            <show chara="ritaSmileFar" position="left"/>
+            <speak chara="ritaNoNameNoFace">我是玛格丽塔·阿耶特，你们称呼我“丽塔”就可以了。</speak>
+            <show chara="ritaSmileLeftFar" position="left"/>
+            <speak chara="ritaNoFace">——欢迎来到“西崖·丽塔”！</speak>
+            <show chara="ritaSmileLeftFar" position="left" opacity="0.7"/>
+            <show chara="weltGiggleWinterFar" position="right"/>
+            <speak chara="weltNoFace">唉？……是老板娘吗？</speak>
+            <show chara="weltGiggleWinterFar" position="right" opacity="0.7"/>
+            <show chara="ritaSmileFar" position="left"/>
+            <speak chara="ritaNoFace">哈哈，这个季节没什么人手，让你们见笑了。</speak>
+            <show chara="ritaSmileLeftFar" position="left"/>
+            <speak chara="ritaNoFace">不过……反过来说，也帮你们省了小费，不是么？</speak>
+            <goto goto="50" change="#ffffff"/>
+        </scene>
+        <scene id="50" background="westCliffWindow.jpg">
+            <bgm src="themeWelt.mp3" status="start"></bgm>
+            <text article="1">
+                <p class="article-text">“西崖·丽塔”提供的住处是一座海景小别墅，从二楼就可以看到泰晤士河口络绎不绝的商船。别墅中的陈设兼有维多利亚时代和殖民地的风味，浅色墙纸上悬挂着一些来历不明的肖像画——看起来像是十英镑一张的三流作品。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">独自在窗边眺望着海岸，一股沧桑之感不禁涌上瓦尔特的心头。</p>
+                <br />
+                <p class="article-text">最近一段时间，他认识了不少有趣的人。虽然没有一位能让他搞得清底细——但毫无疑问，他们都是真诚的人。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">正因此，瓦尔特能够明白，他们有着各自不同的立场。爱迪生是北美支部的核心；普朗克似乎是她和总部之间的润滑剂——虽然明显有所偏袒；而蕾安娜，则是一个“以服从命令为天职”的军人。</p>
+            </text>
+            <text article="1">
+                <p class="article-text">在未来，如果北美支部和总部之间潜在的矛盾终究爆发，那么，不像他们这些立场已然鲜明的家伙……自己也好，爱因斯坦、特斯拉这些普通的研究者也好，究竟应该如何自处呢？</p>
+            </text>
+            <text article="1">
+                <p class="article-text">在先前收集到的魂钢信息中，自称“H.A.”的神秘人物，对天命组织视若仇寇。她到底发现了什么、经历了什么？当艾妲破译好她加密的信息之时，我们又应该如何面对？爱因斯坦和特斯拉相信“没有调查研究就没有发言权”——但可能瞬息万变的外界局势，又真的能给她们足够的时间吗？</p>
+            </text>
+            <goto goto="55" change="#ffffff"/>
+        </scene>
+        <scene id="55" background="planeNightRem.jpg">
+            <bgm src="themeWelt.mp3" status="continue"></bgm>
+            <text>一个月前·某架航班上</text>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="CG6-3_Rem.jpg">
+            <bgm src="themeWelt.mp3" status="continue"></bgm>
+            <speak chara="weltNoFace">呃……所谓“悄悄话”是指……</speak>
+            <text>小心地避免直视对方的红唇，名为瓦尔特的青年尴尬地问道。</text>
+            <speak chara="planckNoFace">噗……这个反应也不错呢。</speak>
+            <speak chara="planckNoFace">总而言之，答应你的当然要告诉你。</speak>
+            <text>名为普朗克的教授调皮地挤了挤眼睛。</text>
+            <goto goto="70" change="0"/>
+        </scene>
+        <scene id="70" background="planeNightRem.jpg">
+            <bgm src="themeWelt.mp3" status="continue"></bgm>
+            <show chara="weltNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">……就从“南希公主”和组织的合作说起吧。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">你可能知道，她是通用机电联合体“GME”的董事长。从17岁开始。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……17岁？</speak>
+            <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">嗯。那年她的双亲丧生于一次崩坏事件。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">虽然那个时候，她对于崩坏一无所知、还被明确告知“不要深入调查”——</speak>
+            <speak chara="planckNoFace">——但这个人很会利用自己的资源。</speak>
+            <speak chara="planckNoFace">当时的情况，是世界大战刚刚结束，世界绝大多数地方的经济都因为战乱破坏而一塌糊涂。</speak>
+            <speak chara="planckNoFace">于是，她很直接地，利用高薪和实验经费为诱饵，开始向组织展开挖角。</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……这是可以办到的事？</speak>
+            <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">当然不可能顺利。</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">但大家都没有想到的是，挖角不成的她，亲自来到总部拜访，提出了帮助组织成立北美支部的请求。</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">虽然我对组织了解的不多……但这种事情他们竟然同意了？</speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">没办法。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">对方开出的价码是合计130亿美元的分阶段赞助费。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">一……一百三十亿？</speak>
+            <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace" remark="next">名义上的说法是——“欧洲复兴计划”。</speak>
+            <remark>
+                <p class="article-text-h">注：</p>
+                <p class="article-text">欧洲复兴计划（European Recovery Program），亦称马歇尔计划（The Marshall Plan），是二战结束后，美国对遭受战争破坏后的西欧（北约）各国进行经济援助、协助重建的计划。在这段时期内，西欧各国获得的各种形式援助合计约130亿美元（考虑通胀因素，这笔援助在今天的价值，相当于当年面值的十倍以上）。</p>
+            </remark>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">这……</speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">所以说，有些东西不是拿钱买不来——而只是出钱不够多罢了。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">但是为什么从前一直没有北美支部——</speak>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">啊。</speak>
+            <text>瓦尔特猛然想起，芬兰人曾经介绍过，北美地区此前并没有多少前文明活动的迹象。</text>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">看来你自己已经意识到了。</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">没错，在当时的评议会看来，这简直就是一个天上掉下的馅饼。</speak>
+            <speak chara="planckNoFace">辖区内没有前文明遗迹，北美支部在他们眼中不过无本之木，不可能成为总部的威胁。</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">但事实上……</speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">没错。我们现代人，可不比什么前文明的老古董差。我们自己干，一样能行。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">更何况，黄石遗迹的规模一旦为总部所知晓，双方之间大概又要摩擦一番了。</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">又或者……总部其实已经掌握了比我们还要多的情报，正在暗中发力？</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……那现在的状况岂不是很危险？</speak>
+            <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">呵呵，如果你们万一找到了所谓“最后的魂钢”，那才是有好戏看了呢。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">好、好戏？</speak>
+            <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">……你不觉得，如果我们最后能够有所发现，那就必然会是爆炸性的事实么？</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">从最坏的角度考虑，到时候，也许我们必须做出某种选择。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltDarkWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">这个问题我从很久以前就想问了……</speak>
+            <speak chara="weltNoFace">组织的目的究竟是什么？</speak>
+            <speak chara="weltNoFace">真的仅仅是对抗崩坏吗？</speak>
+            <show chara="weltNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">……</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">你这个问题我可没有办法回答。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">别担心，不是说要把你当外人。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">组织很庞大。对于不同的成员来说，组织存在的意义可谓是天差地别吧。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">普通办事员，女武神，研究者，赞助者，评议会……每一方眼中看到的，都只是组织的一个侧面。</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">与怀疑论者的想法截然相反，世界性组织并不存在“表面目的”以外的动力——</speak>
+            <speak chara="planckNoFace">——它的复杂性，是由组成它的一个个活生生的人所带来的。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">比如说……我有时候也会讨厌那个刚愎自用的“公主”。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">你要知道，特斯拉的才能就险些浪费在她的手上——尽管她的动机是好的。</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">但是，如果要是把她和评议会放在一起衡量……那么对不起，我会不遗余力的支持她。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">她至少尊重科学研究的客观规律。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">唉？我以为评议会是一个技术氛围相当浓厚的机关……</speak>
+            <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">但他们的军事色彩更重。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">评议会优先考量的，永远不是一件事是否真的正确……而是这件事是否能在他们的掌控之中。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">评议会的技术实力其实很强……但当他们试图掌控一切的时候，对于科学研究的影响，就非常负面。</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">最明显的例子就是魂钢。</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">魂钢？我们要找的那个？</speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">没错。有些魂钢是存储有来自上个世代的信息的。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">评议会对于这类魂钢有着异乎寻常的兴趣，原则上不允许各支部开发技术、自行解读。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">你觉得这是为什么呢？</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">因为……害怕其中蕴含的武器技术被滥用？</speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">这的确是原因之一……但他们其实还有更担心的事情。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">前世代的武器技术，对操纵者的崩坏能适应性有着极为苛刻的要求。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">换言之，如果想使用这些技术，首先，必须要让女武神站在自己这边。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltScaredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">你是想说……</speak>
+            <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">是的。女武神也是人，她们自然有可能会背叛组织。</speak>
+            <speak chara="planckNoFace">而且，历史上，确实也不乏战斗人员背叛天命的记录。在这些记录中……</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">除了私人恩怨之外，另一个普遍的因素，就是来自过去的信息。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">这些源自那个对抗崩坏失败了的世代的思想，五花八门，自然有些理念与天命的信仰向左。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">更成问题的是，这些“过来人”的言论，会被同理心过强的孩子，轻易地当作真理来接受。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">概括来说，从逻辑上讲，你很难判断这些古人的思想有多少是可信、乃至可用的。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">技术可以通过实验来检验，问题可以通过数学来求解；但是不可证伪的东西……很难办。</speak>
+            <speak chara="planckNoFace">它们可能在这个人眼中有道理，在另一个人眼中没道理——正所谓“一千个读者有一千个哈姆雷特”。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">正因为如此，一旦你用居高临下的态度去看待这些伙伴，就容易觉得他们“易受摆布”、“愚不可及”。</speak>
+            <speak chara="planckNoFace">这种情况下，你作为领导者，最省事的办法，就是限制他们的“权限”。</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">但是呢，反过来，这样偷懒的结果，就是以你为首，黑箱操作的情况必然比比皆是……</speak>
+            <speak chara="planckNoFace">……整个组织，变得只能依靠军事化管理维持团结。变得只能用进一步“收缩权限”来保持效率。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">要说，在一般的军队里，这倒也没什么。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">毕竟，大家都认可“军人以服从命令为天职”。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">但问题在于，天命不单单是一个军队。</speak>
+            <speak chara="planckNoFace">“收缩权限”，从培养科研人员的角度来讲，是非常不利于人才成长的。</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">你去过组织的很多实验室。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">你应该知道42实验室有多么特殊。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">如果全世界只有一个42实验室，能满足人才成长真正所需的自由度——</speak>
+            <speak chara="planckNoFace">——那我觉得，对抗崩坏，我们是没有什么胜算的。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">你说呢？</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <bgm src="11_17_tatakau.mp3" status="start"></bgm>
+            <show chara="weltDarkWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace">那个……</speak>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace">……无论如何，请不要将爱因斯坦她们置于危险之中。</speak>
+            <show chara="weltNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">……嗯？</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">虽然我不知道，像天命这样庞大的组织，究竟怎么做才是对的……</speak>
+            <speak chara="weltNoFace">但我能感觉到，在未来的某一天，你们，和欧洲总部，终究是要分道扬镳的。</speak>
+            <show chara="weltDarkWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">我不知道那意味着什么……</speak>
+            <show chara="weltNormalWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">但是，当它发生的时候，身为老师，请不要将你的学生们卷入其中！</speak>
+            <speak chara="weltNoFace">……那肯定是不对的、不好的、不应该的！</speak>
+            <show chara="weltNormalWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">呵……我还以为你要说什么呢……</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltShameWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……怎么，做不到吗？</speak>
+            <show chara="weltShameWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">噗！</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">你以为我是打算说服你，让你无原则地支持北美支部？</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">你这个小傻瓜！</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltShameWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">谁、谁是傻瓜啦！</speak>
+            <speak chara="weltNoFace">……而且“小”也是多余的！</speak>
+            <show chara="weltShameWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">哈哈，瓦尔特就是这种时候会变得特别有趣呢。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
+            <show chara="weltTiredWinterClose-up" position="right"/>
+            <speak chara="weltNoFace">……</speak>
+            <show chara="weltTiredWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">总之，你给我听好了。</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">这世界上，总有些因果，是我们无法阻止的。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">万一……万一你们前往寻找的魂钢，就是那根导火索……</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">……到时候你们一定要听从自己内心的判断。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">不要考虑我们，不要考虑任何一个组织……</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">你一定要倾听自己内心深处的，作为一个普通人，最朴素的那些观念。</speak>
+            <show chara="planckSeriousCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">任何事物都有它的两面性……所以关键反而在于，你是否发自内心地认可自己的行为。</speak>
+            <show chara="planckNormalCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">然后……</speak>
+            <show chara="planckSmileCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">……保护好，真正值得你保护的人。</speak>
+            <show chara="planckSlyCoatClose-upSymme" position="left"/>
+            <speak chara="planckNoFace">别忘记了，你的崩坏能抗性……可是连我们这些科学家都无法解释的。</speak>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="westCliffWindow.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="start"></bgm>
+            <text>当瓦尔特将自己的思绪从回忆中抽回的时候，美妙的钢琴声已不知何时在身后响起。</text>
+            <goto goto="90" change="0"/>
+        </scene>
+        <scene id="90" background="CG12-2.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <text>爱因斯坦的十指灵活地敲击着琴键，钢琴特有的清脆音色仿佛从她的指尖滑出。</text>
+            <text>有那么一瞬间，瓦尔特感觉自己浑身都起了鸡皮疙瘩。</text>
+            <text>他不记得自己学过任何民歌，然而这首音乐的旋律令他异样地熟悉。</text>
+            <text>不，不只是熟悉的程度……</text>
+            <speak chara="weltNoFace">Oh, Danny Boy, the pipes, the pipes are calling （哦，丹尼少年，风笛回响）</speak>
+            <speak chara="weltNoFace">From glen to glen, and down the mountain side, （穿梭在幽谷，消逝于山间）</speak>
+            <speak chara="weltNoFace">The summer's gone, and all the roses falling, （夏日已远，百花渐凋零）</speak>
+            <speak chara="weltNoFace">It's you, it's you must go and I must bide.（是你，你必须离开而我必须等待）</speak>
+            <goto goto="95" change="0"/>
+        </scene>
+        <scene id="95" background="CG12-1.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <speak chara="einNoFace">But come ye back when summer's in the meadow, （但你会回来，当夏日重临牧场）</speak>
+            <speak chara="einNoFace">Or when the valley's hushed and white with snow, （或是万籁俱静，那时白雪满川）</speak>
+            <speak chara="einNoFace">It's I'll be here in sunshine or in shadow, （是我，我无论光影都在）</speak>
+            <speak chara="einNoFace">Oh, Danny Boy, oh Danny Boy, I love you so!（哦，丹尼少年，我是如此爱你）</speak>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="CG12-2.jpg">
+            <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
+            <speak chara="einNoFace" remark="next">瓦尔特……也熟悉这首歌吗？</speak>
+            <remark post="U2FsdGVkX19ZdL7hDqev2Mrxfcrrag==">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《丹尼少年》（Danny Boy）是由英格兰作曲家弗雷德里克·威德里（Frederic Weatherly ）编写的民歌，通常使用《伦敦德里小调》（Londonderry Air）来演唱。关于这首歌的寓意历来有不同的说法，如情歌、挽歌、家父写给出征的儿子等等。</p>
+            </remark>
+            <speak chara="einNoFace">这是……</speak>
+            <speak chara="einNoFace">很久以前……</speak>
+            <speak chara="einNoFace">某个人……</speak>
+            <speak chara="einNoFace">他教给我的……</speak>
+            <end post="U2FsdGVkX1+r++fvlcKhEiAARLoGiw=="/>
+        </scene>
+    </story>
+</data>		

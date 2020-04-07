@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="chileRiverMountain.jpg">
+            <bgm src="seaAndSky.mp3" status="start"></bgm>
+            <text>比安卡·阿塔吉娜与丽塔·洛丝薇瑟迎来了在量子之海冒险的第18天。</text>
+            <text>今天恰好是一个风和日丽的日子，海浪在南部智利的峡湾间拍打出空旷的涛声。</text>
+            <text remark="next">日出之时，共和国的议长就来到了奇洛埃岛的军港，准备亲自迎接从拉帕努伊岛救回了“星语者”真田幸村的“喀里多尼亚号”一行。</text>
+            <remark post="U2FsdGVkX18G7vQ4I8K1+0Z6qTT+">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">奇洛埃岛（Isla de Chiloé，意为“海鸥之地”）是智利东南部的一座岛屿，地属南温带，气候、风光均与北欧类似。</p>
+                <p class="article-text">p.s. 据考证，奇洛埃岛为马铃薯的主要原产地之一。</p>
+            </remark>
+            <text>红发船长的潜水艇还没有靠岸，议长正一脸轻松地带着她的土拨鼠在海滩上散步。</text>
+            <text>此时此刻，绝大多数人还并不知道——</text>
+            <text>一个即将改变世界的行动计划，已经在暗中争分夺秒地运转起来了。</text>
+            <goto goto="20" change="#ffffff"/>
+        </scene>
+        <scene id="20" background="palaceMeetingQuito.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>4天之前，基多市，共和国议长官邸——</text>
+            <show chara="thorSmileClose" position="back"/>
+            <speak chara="_Thoreau">……在具体展开之前，我先说一下结论吧。</speak>
+            <show chara="thorConfidentClose" position="back"/>
+            <speak chara="_Thoreau">面对崩坏的威胁，共和国在很久以前就准备好了一个积极进攻、彻底拯救这个世界的计划。</speak>
+            <show chara="thorNormalClose" position="back"/>
+            <speak chara="_Thoreau">这是一个非常大胆的计划，它几乎没有缺点——</speak>
+            <show chara="thorSighClose" position="back"/>
+            <speak chara="_Thoreau">——除了缺乏必要的执行人。</speak>
+            <show chara="thorSmileClose" position="back"/>
+            <speak chara="_Thoreau">当然，现在一切都不同了。命运让你们与共和国不期而遇。</speak>
+            <show chara="thorConfidentClose" position="back"/>
+            <speak chara="_Thoreau">好了，前言完毕。准确地说，我们希望你能够扮演这样一个角色——</speak>
+            <show chara="thorConfidentClose" position="back"/>
+            <speak chara="_Thoreau">——去成为“世界切割者”吧。</speak>
+            <show chara="thorSmileClose" position="back"/>
+            <speak chara="_Thoreau">你们的莎士比亚船长似乎有一个使用“幽兰黛尔”破坏崩坏能障壁的计划。</speak>
+            <show chara="thorNormalClose" position="back"/>
+            <speak chara="_Thoreau">我们想做的事情本质上与此相同——</speak>
+            <show chara="thorConfidentClose" position="back"/>
+            <speak chara="_Thoreau">——只不过是把破坏的对象放大到了【世界】本身而已。</speak>
+            <speak chara="_Bianka">……“破坏世界本身”？这是什么意思？</speak>
+            <show chara="thorNormalClose" position="back"/>
+            <speak chara="_Thoreau">字面的意思。</speak>
+            <goto goto="30" change="0"/>
+        </scene>
+        <scene id="30" background="fractalWorld.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <speak chara="_Thoreau">第一步，用你们的“圣剑”切下这个世界泡被污染的那部分——也就是所谓“欧洲大陆”以及它对应的高维结构；</speak>
+            <goto goto="40" change="0"/>
+        </scene>
+        <scene id="40" background="fractalBigBang.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <speak chara="_Thoreau">第二步，轰飞这些切下来的残渣，让它们彻底从这个世界泡里消失。</speak>
+            <goto goto="50" change="0"/>
+        </scene>
+        <scene id="50" background="CG27-1.jpg">
+            <bgm src="bigTask.mp3" status="continue"></bgm>
+            <speak chara="_Thoreau">我想你们已经了解过，世界泡的结构，本质上是高维空间中的一组“流形”。</speak>
+            <speak chara="_Thoreau">乍一看，它似乎是一个完整的宇宙；实际上，它却是一本漂浮在量子之海中、按不同地域装订在一起的“地图册”。</speak>
+            <speak chara="_Thoreau">在这个比喻中，那堵崩坏能的墙，以及它背后的欧洲大陆，正是这本地图册上生长出来的霉菌、肿瘤。</speak>
+            <speak chara="_Thoreau">女武神们，你们或许初来乍到——但共和国已经和这些恶性寄生虫战斗了半个多世纪。</speak>
+            <speak chara="_Thoreau">如果说我们是凭借着根植于这片土地，才能在这场持久战当中坚持到现在：那么对方同样如此。</speak>
+            <speak chara="_Thoreau">敌人早已把它们的世界改造成了崩坏的乐园；并且有朝一日，要把这整个世界泡都变成怪物横行的魔境。</speak>
+            <speak chara="_Thoreau">所以，假使我们还有办法赢得最终的胜利——那么这个方法，一定是将对方的整个势力，连同其赖以生存的土壤，一并从这个世界清除出去。</speak>
+            <speak chara="_Thoreau">……幸运的是，我们是生活在一个世界泡，而不是完整的星球世界当中。</speak>
+            <speak chara="_Thoreau">在我们这个折叠的“地图册”里，我们有机会将那几页“恶魔的插画”彻底从书本中撕去。</speak>
+            <speak chara="_Thoreau">……而能做到这一点的“裁纸刀”，正是你们手中那柄跨越了数个世界才来到此处的圣剑。</speak>
+            <speak chara="_Thoreau">——是的，比安卡你不必惊讶，完整的“幽兰黛尔”是一柄能够切割空间本身的武器。</speak>
+            <speak chara="_Thoreau">在很多年前，有人就已经从其他角度论证过这一点，而且把它付诸于实践——</speak>
+            <speak chara="_Thoreau">只不过，十分可惜，那次的实验失败了。</speak>
+            <speak chara="_Thoreau">当时，她们并没有一位足够强大的“圣剑使”。</speak>
+            <goto goto="60" change="0"/>
+        </scene>
+        <scene id="60" background="palaceMeetingQuito.jpg">
+            <bgm src="legion.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <show chara="thorSighClose" position="back"/>
+            <speak chara="_Thoreau">我们必须承认……普通人或者星语者都不大可能支撑住完全体圣剑的超负荷运转。即使是罗兰也不行——那孩子是个可怜的不完全者。</speak>
+            <show chara="thorConfidentClose" position="back"/>
+            <speak chara="_Thoreau">不过，你们女武神是真正的抗崩坏战士：你们的身上很可能具有与我们、莎士比亚船长、或者薛定谔博士完全不同的可能性。</speak>
+            <show chara="thorConfidentClose" position="back"/>
+            <speak chara="_Thoreau">……比安卡·阿塔吉娜。我相信你就是我们一直缺失的那块特殊拼图。</speak>
+            <show chara="thorNormalClose" position="back"/>
+            <speak chara="_Thoreau">所以，我会告诉你“幽兰黛尔”最后一块宝石的下落——</speak>
+            <speak chara="_Thoreau">除了我手中的这两颗、以及时雨绮罗小姐的那一颗之外，你们所寻找的第七颗宝石——</speak>
+            <speak chara="_Thoreau">它远在南太平洋的拉帕努伊岛。</speak>
+            <show chara="thorConfidentClose" position="back"/>
+            <speak chara="_Thoreau">不论你们在取回那颗宝石之后是否同意我们的计划：当你们返航之时，我都会将手中的这两颗宝石物归原主。</speak>
+            <show chara="thorSmileClose" position="back"/>
+            <speak chara="_Thoreau">毕竟，比起各怀心思的人们单独使用这些宝石，我认为，还是让它们集合在正确的人手中更有价值。</speak>
+            <show chara="thorSmileClose" position="back"/>
+            <speak chara="_Thoreau">再说，我之前也说过，计划成功后，我完全可以给你们提供比这些宝石更有价值的东西作为回报。</speak>
+            <show chara="thorConfidentClose" position="back"/>
+            <speak chara="_Thoreau">怎么样，要不要认真考虑一下呢？女武神们？莎士比亚船长？</speak>
+            <goto goto="70" clockwise="1"/>
+        </scene>
+        <scene id="70" background="submarineDoctorRoom.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <show chara="biankaDressSmileClose" position="left"/>
+            <speak chara="_Bianka">小幽，你现在感觉如何？一个小时之后，你应该就可以恢复到当初的完美形态了。</speak>
+            <show chara="biankaDressSmileClose" position="left" opacity="0.8"/>
+            <show chara="durandalOpen" position="right"/>
+            <speak chara="_SwordDurandalQ">唔……你问我吗？说实话，我觉得这很没有真实感。</speak>
+            <show chara="durandalClose" position="right"/>
+            <speak chara="_SwordDurandalQ">也许是因为我完整的机能被分散储存在各个不同的结晶里吧……</speak>
+            <show chara="durandalWhite" position="right"/>
+            <speak chara="_SwordDurandalQ">我发现自己很难想象，“切割空间本身”，倒底是怎样的一种感觉。</speak>
+            <show chara="durandalOpen" position="right"/>
+            <speak chara="_SwordDurandalQ">不过，既然薛定谔博士没有反驳那位议长的说法——我想，完整的我，大概是能做到那种事情的吧。</speak>
+            <show chara="durandalStare" position="right"/>
+            <speak chara="_SwordDurandalQ">话说回来，新主人你——平常可是很少主动找我说话的吧？</speak>
+            <show chara="durandalSquint" position="right"/>
+            <speak chara="_SwordDurandalQ">怎么，其实是你自己紧张了吗？</speak>
+            <show chara="durandalSquint" position="right" opacity="0.8"/>
+            <show chara="biankaDressShoutClose" position="left"/>
+            <speak chara="_Bianka">喂！你可不要胡说啊！</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">我为什么会紧张？我可是A级女武神，什么大风大浪我没有见过？</speak>
+            <show chara="biankaDressShyClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">唔。这种说法未免也太逞强了。忘了它吧。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <bgm src="05_01_themeEin.mp3" status="start"></bgm>
+            <speak chara="_SchrodingerNoName">“你要知道：”</speak>
+            <speak chara="_SchrodingerNoName">“不灭者遍及一切；”</speak>
+            <speak chara="_SchrodingerNoName">“永恒长存者，”</speak>
+            <speak chara="_SchrodingerNoName">“谁也不能把它毁灭。”</speak>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">——咦，薛定谔博士？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">“它孕育了世间万有，”</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">“这一点你应当了解：”</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">“我既是全世界的起源，”</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">“又是全世界的毁灭。”</speak>
+            <show chara="schroNoSwordTalkClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">呃……您是在……背诗吗？</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger" remark="next">它们都是《薄伽梵歌》里的章节——是很久以前，一个喜欢印度文化的同学硬读给我听的。</speak>
+            <remark post="U2FsdGVkX18q0ylbT3AnO+SGT5Pt">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《薄伽梵歌》（भगवद् गीता，意为“至尊神的赞歌”），是印度教的重要经典，叙述了阿周那与黑天（奎师那）在俱卢之野战争打响前的一段长谈——因此，史诗《摩诃婆罗多》对它也进行了全文引用。（学术界认为《薄伽梵歌》全篇于公元前五世纪到公元后三世纪之间陆续写成，其起源早于《摩诃婆罗多》的成书时间。）</p>
+                <p class="article-text">p.s. 《薄伽梵歌》是唯一一本记录【神本人】而不是【神的代言人】或者【先知】言论的印度教经典，因此在印度教与印度文化中都具有独一无二的特殊地位（可以类比东亚文化圈的《论语》）。</p>
+            </remark>
+            <show chara="schroNoSwordCalmClose" position="right"/>
+            <speak chara="_Schrodinger">……我觉得，你现在的心情，也许和诗歌里那个“大战之前的阿周那”有几分相似之处。</speak>
+            <show chara="schroNoSwordCalmClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……阿周那是谁？</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">是印度神话里的一位王子。也是一位大英雄。</speak>
+            <show chara="schroNoSwordSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">他在俱卢之野的大战开始前看到自己的许多亲朋好友站在了敌人那一边，因此心灰意冷不愿上阵。</speak>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">而《薄伽梵歌》，就是被称为“薄伽梵”的奎师那神，劝说阿周那打起精神参战的演讲内容。</speak>
+            <show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……可是我并没有要在战场上面对什么亲朋好友啊？</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">是的。你应该不可能在这里遇见什么亲朋好友。</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">比安卡，你的遇到问题和阿周那正相反——</speak>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">——正因为如此，你和他的心情却反而有了几分相似之处。</speak>
+            <show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……我不是很懂你在说些什么。</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">我是说——你和你即将面对的敌人，在本质上并没有任何交集或冲突。</speak>
+            <show chara="schroNoSwordSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">而你，反倒正因此畏首畏尾。你的心中仍然存在着犹豫、迷茫、甚至恐惧。</speak>
+            <show chara="schroNoSwordSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">你们女武神只是这个世界的过客；而那个跨越量子之海的行动，其初衷也并不是【帮助这个世界】。</speak>
+            <show chara="schroNoSwordCalmClose" position="right"/>
+            <speak chara="_Schrodinger">恰恰相反——根据我对天命的理解，他们恐怕会非常希望你从这个世界【带回去】一些什么东西。</speak>
+            <show chara="schroNoSwordCalmClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressAngryClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressAngryClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">没事。你完全可以带回去小幽——只要它本人乐意的话。</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">而且，如果议长的计划执行顺利——拜托她把“以太锚点”的信息全盘复制一份给你，应该也不是什么难题。</speak>
+            <show chara="schroNoSwordSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">所以，这方面的事情你可以放宽心——尽管我个人可以说和【奥托·阿波卡利斯】有不共戴天之仇，但我并不会因此去妨碍你们执行任务。</speak>
+            <show chara="schroNoSwordSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">等等……“不共戴天”？和那个……吊儿郎当的奥托？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordCalmClose" position="right"/>
+            <speak chara="_Schrodinger">是的。【不共戴天】。【水火不容】。【势不两立】。【必欲除之而后快】。</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">不过，告诉你这些历史的细节，对你而言并没有任何好处——而且我要说的重点也和它没有任何关系。</speak>
+            <show chara="schroNoSwordSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">比安卡，到目前为止，你只是在顺着船长或者议长的计划行动——你并没有认真思考过，你本人在整个事件中究竟有着怎样的意义。</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">无处安放的责任感——这才是你当下紧张情绪的本源所在。</speak>
+            <show chara="schroNoSwordSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">你始终觉得自己是一个外来者。你生怕自己辜负了这些异世界人殷切的期待。</speak>
+            <show chara="schroNoSwordSeriousClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHateClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">我向丽塔打听过一些你以前的事。你是一个非常上进的女武神——</speak>
+            <show chara="schroNoSwordSeriousClose" position="right"/>
+            <speak chara="_Schrodinger">——但是能给你带来喜悦的，却永远只是任务和事件的结果，而不是它们的过程本身。</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">……我觉得，这样很辛苦，而且也没有必要。</speak>
+            <show chara="schroNoSwordTalkClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="left"/>
+            <speak chara="_Bianka">可是——</speak>
+            <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">比安卡，从结果上看，这世界上有不计其数的事情都没有意义。……或者至少说不清意义。</speak>
+            <show chara="schroNoSwordCalmClose" position="right"/>
+            <speak chara="_Schrodinger">出生有什么意义？死亡有什么意义？自我有什么意义？人类、世界、宇宙又分别有什么意义？</speak>
+            <show chara="schroNoSwordCalmClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="left"/>
+            <speak chara="_Bianka">……你是想说这些事情本来就没有意义吗。</speak>
+            <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">不，它们有意义。只是那不属于结果论，仅此而已。</speak>
+            <show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">举例来说，你，比安卡·阿塔吉娜，你的存在意义就是【你自己本身】。</speak>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">对于女武神前辈们来说，你是一种“后生可畏”的激励；</speak>
+            <show chara="schroNoSwordCalmClose" position="right"/>
+            <speak chara="_Schrodinger">对于那个主教来说，你是难得的锻炼样本；</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">对于这个世界泡里的人们来说，你是行侠仗义的超人；</speak>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">对于你自己来说，你从零开始，以“比安卡”之名重新书写了自己的人生。</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">所有的这一切都不是什么“结果”，它们只会起始与“无”，又消失于“无”。</speak>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">比安卡。这个世界泡所期待的“拯救”，不是一个结果，而是一段过程、一篇乐章。</speak>
+            <show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……乐章？</speak>
+            <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">是的。那是一种名为“超级英雄”的精神图腾，一座活在大家心中的精神圣殿。</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">——就像瓦格纳或者理查·施特劳斯的乐章一样。</speak>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">……换个角度来说，这和时雨绮罗小姐的偶像工作，也颇有相似之处。</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">女武神，你有能力在“世界舞台”上完成属于自己的“世界级表演”——</speak>
+            <show chara="schroNoSwordCalmClose" position="right"/>
+            <speak chara="_Schrodinger">这和你是不是这个世界的一员，根本没有哪怕一个基本粒子的关系。</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">明白了吗？按博伽梵的说法，我们每个人都是一位被名为“命运”的【导演】所选中的【演员】——</speak>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">——只要在舞台上尽情释放自己的能量就可以了！用我们每个人最熟悉的方式就可以！</speak>
+            <show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressScreamClose" position="left"/>
+            <speak chara="_Bianka">……就、就这么简单？</speak>
+            <show chara="biankaDressScreamClose" position="left" opacity="0.8"/>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">就这么简单。这就是所谓“命运的剧本”。</speak>
+            <show chara="schroNoSwordCalmClose" position="right"/>
+            <speak chara="_Schrodinger">在这里从来都没有什么“天命的女武神”；有的只是“精神圣殿”里的“艺术家”，或者“世界舞台”上的“偶像明星”。</speak>
+            <show chara="schroNoSwordTalkClose" position="right"/>
+            <speak chara="_Schrodinger">记住：只要做好你自己，你就是最完美的。</speak>
+            <show chara="schroNoSwordSmileClose" position="right"/>
+            <speak chara="_Schrodinger">而且，“做好自己”也恰恰是一种最符合“导演预期”的行为——我这样从执行层面上来解释，你会更明白一点吗？</speak>
+            <show chara="schroNoSwordSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="left"/>
+            <speak chara="_Bianka">……！</speak>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">是的！您这样说，我非常明白！</speak>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">不管怎么说，凡事都勇往直前才是我自己真正的作风嘛！</speak>
+            <show chara="biankaDressSmileAhClose" position="left"/>
+            <speak chara="_Bianka">谢谢你，薛定谔博士！现在我好像一下子就全想明白了！</speak>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="chileRiverMountain.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <text>一小时后——</text>
+            <show chara="biankaDressSneerClose" position="left"/>
+            <speak chara="_Bianka">议长！这个红色的武士，一根头发都不少——我现在把她还给你啦！</speak>
+            <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
+            <show chara="thorSmileClose" position="right"/>
+            <speak chara="_Thoreau">噗。谢谢你，女武神。你们果然找到了一个两全齐美的解决方法。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="thorConfidentClose" position="left"/>
+            <speak chara="_Thoreau">……真田。这些年辛苦你了。</speak>
+            <show chara="thorConfidentClose" position="left" opacity="0.8"/>
+            <show chara="yukimuraColdClose" position="right"/>
+            <speak chara="_Yukimura">“辛苦”是武士与真田家的宿命。在下不敢当。</speak>
+            <show chara="yukimuraSmileClose" position="right"/>
+            <speak chara="_Yukimura">不过，话虽这样说……如果现在有热腾腾的荞麦可以吃，那就真的再好不过啦。</speak>
+            <show chara="yukimuraSmileClose" position="right" opacity="0.8"/>
+            <show chara="thorSmileClose" position="left"/>
+            <speak chara="_Thoreau">荞麦有点难……年轮蛋糕你介意吗？</speak>
+            <show chara="thorSmileClose" position="left" opacity="0.8"/>
+            <show chara="yukimuraTalkClose" position="right"/>
+            <speak chara="_Yukimura">什么？年轮蛋糕？那不是难得的绝品吗？</speak>
+            <show chara="yukimuraTalkClose" position="right" opacity="0.8"/>
+            <show chara="thorConfidentClose" position="left"/>
+            <speak chara="_Thoreau">当然是特地为你准备的呀。怎么，你会下不了口吗？</speak>
+            <show chara="thorConfidentClose" position="left" opacity="0.8"/>
+            <show chara="yukimuraSmileClose" position="right"/>
+            <speak chara="_Yukimura">哈哈，那怎么会。武士就算到死前最后一刻都不应该亏待自己的胃口——这很久以前治部大人教给我的道理。</speak>
+            <show chara="yukimuraTalkClose" position="right"/>
+            <speak chara="_Yukimura">啊，你们应该不太清楚我过去的事吧……</speak>
+            <show chara="yukimuraTalkClose" position="right" opacity="0.8"/>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">你是说石田三成吗？</speak>
+            <show chara="thorNormalClose" position="left" opacity="0.8"/>
+            <show chara="yukimuraTalkClose" position="right"/>
+            <speak chara="_Yukimura">咦？</speak>
+            <show chara="yukimuraTalkClose" position="right" opacity="0.8"/>
+            <show chara="thorSighClose" position="left"/>
+            <speak chara="_Thoreau">唉，你应该对自己的名气更自信一点啊，极东之地最富盛名的红色武士。</speak>
+            <show chara="thorNormalClose" position="left"/>
+            <speak chara="_Thoreau">言归正传，比安卡——</speak>
+            <show chara="thorNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……是？</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="thorConfidentClose" position="left"/>
+            <speak chara="_Thoreau">这是我许诺的两块宝石。请收下。</speak>
+            <show chara="thorSmileClose" position="left"/>
+            <speak chara="_Thoreau">至于那位见证了你们行动的偶像小姐——</speak>
+            <show chara="ShigureKiraSunGlassesOffConfidentClose" position="left"/>
+            <speak chara="_ShigureKira">——我当然也没有问题。</speak>
+            <show chara="ShigureKiraSunGlassesOffTalkingClose" position="left"/>
+            <speak chara="_ShigureKira">比安卡，这是代表了爱与完美的“偶像之石”。</speak>
+            <show chara="ShigureKiraSunGlassesOffConfidentClose" position="left"/>
+            <speak chara="_ShigureKira">我现在正式把它借给你。</speak>
+            <show chara="ShigureKiraSunGlassesOffConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">……谢谢。</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="durandalOutstretchOpen" position="left"/>
+            <speak chara="_SwordDurandalQ">那么各位——事不宜迟，我现在就不客气地把它们照单全收了？</speak>
+            <show chara="durandalOutstretchOpen" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">嗯。七颗宝石，此时此刻，全部物归原主。</speak>
+            <show chara="shakesCasualLaughClose" position="right"/>
+            <speak chara="_Shakespeare">传说中的圣剑！让大家再次看看你真正的样子吧！</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="CG1.jpg">
+            <bgm src="11_22_Tiger.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>红色的勇气结晶，象征勇敢与冒险的决心；</text>
+            <goto goto="100" change="0"/>
+        </scene>
+        <scene id="100" background="CG2-3.jpg">
+            <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>橙色的直觉结晶，象征自信与探索的梦想；</text>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="CG4-3.jpg">
+            <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>金色的自由结晶，象征博爱与自我的完美；</text>
+            <goto goto="120" change="0"/>
+        </scene>
+        <scene id="120" background="CG7-2.jpg">
+            <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>绿色的伦理结晶，象征善良与正义的力量；</text>
+            <goto goto="130" change="0"/>
+        </scene>
+        <scene id="130" background="CG16-1-2.jpg">
+            <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>青色的繁盛结晶，象征活力与生命的顽强；</text>
+            <goto goto="140" change="0"/>
+        </scene>
+        <scene id="140" background="CG21-1.jpg">
+            <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>蓝色的理智结晶，象征理性与洞察的智慧；</text>
+            <goto goto="150" change="0"/>
+        </scene>
+        <scene id="150" background="CG25-2.jpg">
+            <bgm src="11_22_Tiger.mp3" status="continue"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>紫色的支配结晶，象征高贵与万物一统的彼方。</text>
+            <goto goto="160" change="0"/>
+        </scene>
+        <scene id="160" background="CG27-2.jpg">
+            <bgm src="12_14_Hero.mp3" status="start"></bgm>
+            <text>“平息吧！宇宙之归宿！”</text>
+            <text>“我是时空本身，”</text>
+            <text>“是摧毁一切的力量之源，”</text>
+            <text>“我的责任就是将诸般世界归于湮灭。”</text>
+            <goto goto="170" change="0"/>
+        </scene>
+        <scene id="170" background="CG27-3.jpg">
+            <bgm src="12_14_Hero.mp3" status="continue"></bgm>
+            <speak chara="_Bianka">你……原来是一柄这么强大的武器吗，“小幽”？</speak>
+            <speak chara="_HolySwordDurandal">这是因为我有一个强大的主人，比安卡·阿塔吉娜小姐。</speak>
+            <speak chara="_HolySwordDurandal">在您的手中，我无疑具备毁灭这个世界泡里任意一片土地的力量。</speak>
+            <speak chara="_HolySwordDurandal">我希望您明白：一切武器，它的职能都是毁灭与暴力——即使是所谓的“圣剑”也不例外。</speak>
+            <speak chara="_Bianka">……我明白。</speak>
+            <speak chara="_Bianka">女武神的教育让我从很早之前就了解：暴力具有自己的原罪，但除此之外，它本身并没有什么额外的善恶。</speak>
+            <speak chara="_Bianka">……真正的善恶在于暴力的动机与暴力的结果。</speak>
+            <goto goto="180" change="0"/>
+        </scene>
+        <scene id="180" background="chileRiverMountain.jpg">
+            <bgm src="12_21_dannyBoy_p.mp3" status="start"></bgm>
+            <show chara="champoBlanketSmileClose" position="left"/>
+            <speak chara="_Champollion">子曰，“唯仁者能好人，能恶人。”</speak>
+            <show chara="champoBlanketSmileClose" position="left"/>
+            <speak chara="_Champollion">“苟志于仁矣，无恶也。”</speak>
+            <show chara="champoBlanketNormalClose" position="left"/>
+            <speak chara="_Champollion">伏尔泰之所以推崇孔子，就是因为他在孔子的身上看到了他理想中“人类立法者”的影子。</speak>
+            <show chara="champoBlanketSmileClose" position="left"/>
+            <speak chara="_Champollion">他认为，孔子的“仁”象征着个人与社会在道德上的调和，代表着人类最真实的善意和自由。</speak>
+            <show chara="champoBlanketSmileClose" position="left"/>
+            <speak chara="_Champollion">比安卡……现在的你，就代表着这种“仁义”的力量；伏尔泰一定会觉得你是最完美的一位“女武神”。</speak>
+            <show chara="champoBlanketSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">商博良博士……你、你不要突然这样抬举我啊。太不好意思了。</speak>
+            <speak chara="_Bianka">我……我几乎什么都还没有做啊。</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="champoBlanketLaughClose" position="left"/>
+            <speak chara="_Champollion">哈哈哈哈，原谅我吧。我的心情实在是有些激动，一不小心就带上了某个时代的吹牛风气。</speak>
+            <show chara="thorConfidentClose" position="left"/>
+            <speak chara="_Thoreau">“于万物主宰有大信心者，可以吃一切存在之事物。”</speak>
+            <show chara="thorSmileClose" position="left"/>
+            <speak chara="_Thoreau">太阳只不过是一颗晨星；而反过来，你也不必太在意他人的溢美之词。</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="thorConfidentClose" position="center"/>
+            <speak chara="_Thoreau">此时此刻，真正重要的事实其实只有一点：</speak>
+            <show chara="thorAngryClose" position="center"/>
+            <speak chara="_Thoreau">五十多年来——不，有史以来，我们第一次拥有了那个能在战略上消灭敌人的力量。</speak>
+            <show chara="thorNormalClose" position="center"/>
+            <speak chara="_Thoreau">——因此，事不宜迟，我现在将宣布“帕查库特克行动”的具体战术计划。</speak>
+            <show chara="thorConfidentClose" position="center"/>
+            <speak chara="_Thoreau" remark="next">各位，以“大地震撼者”之名，让我们给这个世界动一个大手术吧！</speak>
+            <remark post="U2FsdGVkX19MJFfogqWmorFMiux7">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">帕查库特克（Pachakutiq，直译“翻转天地的人”，通译“大地震撼者”）是印加帝国最伟大的一位“萨帕·印卡”（相当于“皇帝”）：“他登基前，印加人还只是生活在简朴的村社群落里；到他去世时，印加人已管理着一个扩张主义的大帝国了”。</p>
+            </remark>
+            <end post="U2FsdGVkX1+rrYOcUkuxFXqZbI1s"/>
+        </scene>
+    </story>
+</data>

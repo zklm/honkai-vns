@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="11_15_gallery.jpg">
+            <bgm src="11_16_themeOtto.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_OttoPapa">丽塔。第一次见过比安卡，你有什么感想吗？</speak>
+            <speak chara="_Rita">……我觉得她是个很特别的人。</speak>
+            <show chara="ottoSuitsSad" position="back"/>
+            <speak chara="_OttoPapa">继续。</speak>
+            <speak chara="_Rita">只是一种直觉……但我觉得，她年纪虽小，却意外地属于那类“恋旧”的人。</speak>
+            <speak chara="_Rita">我的意思是，她一旦认准了某件事，就不会轻易改变自己的想法和做法。</speak>
+            <speak chara="_Rita">这个世界上有很多人声称自己的想法不会轻易被改变……</speak>
+            <speak chara="_Rita">……但他们朝秦暮楚的行为早已出卖了自己。</speak>
+            <speak chara="_Rita">从这个角度来说，我认为只要栽培得当，比安卡小姐在将来必将成为天命组织的中坚力量。</speak>
+            <show chara="ottoSuitsFun" position="back"/>
+            <speak chara="_OttoPapa">……但是站在这边的奥托先生，他可并不是一个擅长栽培女武神的领袖哦？</speak>
+            <speak chara="_Rita">主教您说笑了。</speak>
+            <show chara="ottoSuitsSad" position="back"/>
+            <speak chara="_OttoPapa">不，我没有开玩笑。</speak>
+            <speak chara="_OttoPapa">天命这种组织并不适合中层人员的成长……毕竟什么都是我本人说了算。</speak>
+            <show chara="ottoSuitsFun" position="back"/>
+            <speak chara="_OttoPapa">当然，这样做自有其好处，所以我也不打算从根本上改变它。</speak>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_OttoPapa">——如果说即使如此，我也想为这个世界打造出一个能在未来守护她的超级战士：你认为有可能吗？</speak>
+            <speak chara="_Rita">主教大人……您是在……问我吗？</speak>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_OttoPapa">我认为你是目前唯一有能力帮助我做到这件事的人——在身份合适的人当中。</speak>
+            <show chara="ottoSuitsSad" position="back"/>
+            <speak chara="_OttoPapa">迟早有一天，像她的前辈们一样，比安卡也会意识到她的主教并不是自己在表面看到的那种人——他在骨子里甚至完全相反。</speak>
+            <show chara="ottoSuitsConfident" position="back"/>
+            <speak chara="_OttoPapa">当那个时刻到来的时候，她是否还能保持足够的冷静……这件事就交给你了，丽塔·洛丝薇瑟。</speak>
+            <goto goto="20" clockwise="1"/>
+        </scene>
+        <scene id="20" background="submarineDoctorRoom.jpg">
+            <bgm src="11_16_themeOtto.mp3" status="continue"></bgm>
+            <text>一开始，我几乎没有理解主教在说什么。</text>
+            <text>他给了我几份截然不同的人物资料：</text>
+            <text>埃莉诺、奥托薇拉、蕾安娜、德丽莎。</text>
+            <text>她们当中有拒绝了S级女武神的头衔并离开了总部的；</text>
+            <text>有不幸在激进的实验中蜕化为崩坏兽，只能被同伴当场击杀的；</text>
+            <text>甚至还有直接背叛了天命本身，死后被判处“抹煞记录”的。</text>
+            <text>而剩下的唯一例外……她甚至都不是女武神。</text>
+            <text>似乎,在天命的治下……如果你想要成长到能够以一己之力拯救世界的程度，你就一定会和这个组织本身产生各种各样意想不到的冲突。</text>
+            <text>而主教自身，他真正希望我去完成的工作，又是什么呢……</text>
+            <goto goto="30" change="#ffffff"/>
+        </scene>
+        <scene id="30" background="CG26-1.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
+            <speak chara="_Bianka">唔……拉格纳老师……</speak>
+            <speak chara="_Rita">（……梦话？）</speak>
+            <speak chara="_Bianka">我……很多地方……都和她们不一样……</speak>
+            <speak chara="_Bianka">虽然我自己无所谓……</speak>
+            <speak chara="_Bianka">但是已经有羡慕或者嫉妒我的人开始模仿我……</speak>
+            <speak chara="_Bianka">我能看得出来……她们只是在逼迫自己……</speak>
+            <speak chara="_Bianka">所以很辛苦……又不得要领……</speak>
+            <speak chara="_Rita">（……）</speak>
+            <speak chara="_Bianka">老师……我觉得丽塔也很强……她又是用什么办法做到的呢？</speak>
+            <speak chara="_Rita">（！）</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">是吗，是这样啊。</speak>
+            <speak chara="_Bianka">强者的日常……就是弱者的浪漫……吗。</speak>
+            <speak chara="_Bianka">无论是喜悦，还是痛苦……都是浪漫……</speak>
+            <speak chara="_Bianka">……可是，也总有无法享受这些“浪漫”的人吧？她们怎么办呢？</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">对哦。</speak>
+            <speak chara="_Bianka">您说得对……不浪漫的人，是没有办法一直做一名女武神的……</speak>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">咦？</speak>
+            <speak chara="_Bianka">总有一天……她们也会用自己的方式……来保护我吗？</speak>
+            <speak chara="_Rita">（……）</speak>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="submarineCabinBlur.jpg">
+            <bgm src="12_14_Sonnet_18.mp3" status="continue"></bgm>
+            <show chara="yukimuraTalkClose" position="left"/>
+            <speak chara="_Yukimura">丽塔小姐，情况……现在怎么样？</speak>
+            <show chara="yukimuraTalkClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">没关系，她睡得很安稳，甚至还说了一段梦话呢。</speak>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">倒是幸村小姐……您已经整夜没合眼了吧？虽说“星语者”身体强健，但您也要注意自己刚刚恢复的健康啊。</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="yukimuraColdClose" position="left"/>
+            <speak chara="_Yukimura">神州的古话说，“滴水之恩当涌泉相报”——更何况这是救命之恩呢。</speak>
+            <show chara="yukimuraSmileClose" position="left"/>
+            <speak chara="_Yukimura">再说，丽塔小姐——您其实也没有好好休息吧？</speak>
+            <show chara="yukimuraSmileClose" position="left" opacity="0.8"/>
+            <show chara="ritaVestNaughtyClose" position="right"/>
+            <speak chara="_Rita">我是比安卡大人的副官。这是我的分内之事。</speak>
+            <show chara="ritaVestSmileClose" position="right"/>
+            <speak chara="_Rita">幸村小姐想要报恩的心情我非常理解和感动……但也请您务必照料好自己。</speak>
+            <show chara="ritaVestSquintClose" position="right"/>
+            <speak chara="_Rita">再过几个小时，比安卡大人应该就完全康复了——在此之前，如果您想抓紧时间休息一下，我可以为您准备一点安眠药。</speak>
+            <show chara="ritaVestSquintClose" position="right" opacity="0.8"/>
+            <show chara="yukimuraTalkClose" position="left"/>
+            <speak chara="_Yukimura">……</speak>
+            <show chara="yukimuraSmileClose" position="left"/>
+            <speak chara="_Yukimura">也好，那么我就“恭敬不如从命”了。</speak>
+            <goto goto="50" clockwise="1"/>
+        </scene>
+        <scene id="50" background="cafeAbyssAngel.jpg">
+            <bgm src="12_29_street.mp3" status="start"></bgm>
+            <show chara="memoryLoading" position="center" opacity="0.6"/>
+            <text>拉格纳前辈曾经说，女仆是无敌的。</text>
+            <text>一开始，我只以为这是句玩笑话，或者她个人的兴趣……</text>
+            <text>但现在，我渐渐有些明白这句话的真正含义了。</text>
+            <text>它不是说一个人因为成为女仆而变得无敌；它是在说，一个人只有在万全的状态下才能当好一个女仆。</text>
+            <text>——就像所谓“母亲是无敌的”一样。</text>
+            <text>如果没有睡四个小时就能清醒一天的体质，想必我也扮演不好这个角色吧。</text>
+            <text>……不知为何，我想起了留在那些女武神档案里的一片书本残页。</text>
+            <text>它是从一本小说上裁下来的，边缘切割得平滑而工整——</text>
+            <text remark="next">“我脑海中不停地出现着一个画面，有一大群孩子在一大块麦田里玩。”</text>
+            <text remark="next">“几千几万的小孩子，附近没有一个大人，我是说——除了我。”</text>
+            <text remark="next">“我呢，就在那混账的悬崖边；我的职务，就是在那儿守望，要是有哪个孩子往悬崖边来，我就负责把他捉住——”</text>
+            <text remark="next">“我是说，孩子们都是在狂奔，也不知道自己是在往哪儿跑——我得从什么地方出来，把他们捉住。”</text>
+            <text remark="next">“我整天就干这样的事，我只想做个麦田里的守望者。”</text>
+            <text remark="next">“我知道这很疯狂，但是这也是我唯一真正想做的事。”</text>
+            <remark post="U2FsdGVkX1837JTjrcOLdwgLDIYj">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《麦田里的守望者》（The Catcher in the Rye），又译为《麦田捕手》，是美国作家J.D.塞林格于1951年发表的长篇小说。</p>
+                <p class="article-text">《麦田里的守望者》刚出版时，许多学校和图书馆将这本书列为禁书；但现在，它却是许多美国学校的指定读物。有的评论家说，它“大大地影响了好几代美国青年”。</p>
+            </remark>
+            <text>——这片书页的主人，最终背叛了天命。</text>
+            <text>在未来，我和她的人生轨迹多半不会有任何相似之处……</text>
+            <text>……但是我也不是不能够理解这种心情。</text>
+            <text>何况，她虽是一个背叛者，却也是一个强者。</text>
+            <text>如果，她活到了我们的这个时代——</text>
+            <text>也许比安卡就不会那么孤独了吧。</text>
+            <text>……不，对于那孩子而言，孤独从来都不是一种寂寞。</text>
+            <text>她需要的不是那种比较之下的强大——</text>
+            <text>——她需要的是自己在“不断变强”的事实。</text>
+            <text>她就是一个如此特别的人。</text>
+            <text>……</text>
+            <goto goto="60" clockwise="1"/>
+        </scene>
+        <scene id="60" background="submarineDoctorRoom.jpg">
+            <bgm src="theme.mp3" status="start"></bgm>
+            <text>我好像做了一串很长的梦。</text>
+            <text>破碎、混乱、如同走马灯……可是细节我一点也想不起来。</text>
+            <text>阳光透过舷窗照进房间——这里应该是医务室，而船员们也许正在午休。</text>
+            <text>没错，我之前的尝试应该是成功了。所以他们才会这样不紧不慢地返航。</text>
+            <text>要说有什么奇怪之处的话……</text>
+            <text>奇迹一般地——</text>
+            <text>在我独自睡醒的时候，被子还整整齐齐地盖在身上。</text>
+            <text>……咦？</text>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="CG26-2.jpg">
+            <bgm src="theme.mp3" status="continue"></bgm>
+            <text>从病床上坐起的那一瞬间，我就明白了这小小“奇迹”的由来。</text>
+            <text>……她正靠在我的床尾熟睡。</text>
+            <text>毫无防备，让人感到既熟悉、又陌生。</text>
+            <text>……</text>
+            <text>最开始的时候，说实话，我只是把她当作一个怪胎。</text>
+            <text>不知道奥托那家伙的葫芦里又卖的什么药，明明是如此重要的任务，却给我安排了这样一位和“严肃”沾不上边的副官。</text>
+            <text>再后来，我意识到这家伙也有自己的坚持……比起任务本身，她似乎更看重“比安卡”这个【个人】的存在。</text>
+            <text>虽说副官的义务往往就是如此……</text>
+            <text>但是她后来拯救过我，拯救过我们所有人——即使那只是一个事先就计划好并且只瞒着我本人的预案而已。</text>
+            <text>……</text>
+            <text>奇怪，我为什么要思考这种问题？</text>
+            <text>这一切不都只是她的工作而已吗？</text>
+            <text>她的自我、她的追求，我其实根本没有必要打破砂锅问到底……</text>
+            <text>可是——</text>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="submarineDoctorRoom.jpg">
+            <bgm src="10_10_kalinka.mp3" status="start"></bgm>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="left"/>
+            <speak chara="_ShigureKira">打搅了，我进——</speak>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">（嘘——）</speak>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">（让她睡一会儿吧。）</speak>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">（有什么事我们出去聊。）</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="submarineCabinBlurSunset.jpg">
+            <bgm src="10_10_kalinka.mp3" status="continue"></bgm>
+            <show chara="ShigureKiraSunGlassesOffSunshineClose" position="left"/>
+            <speak chara="_ShigureKira">太棒了，你终于醒过来了！</speak>
+            <speak chara="_ShigureKira">身体有没有哪里不舒服？</speak>
+            <speak chara="_ShigureKira">还认得我们都是谁吧？</speak>
+            <show chara="ShigureKiraSunGlassesOffSunshineClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">唔……</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">与其说有什么不舒服，不如说精力前所未有地充沛吧？</speak>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">倒是那个武士后来怎么样？人没什么问题吧？</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
+            <speak chara="_ShigureKira">没事，她现在正在水手室里靠安眠药补觉呢。</speak>、
+            <show chara="ShigureKiraSunGlassesOffTalkingClose" position="left"/>
+            <speak chara="_ShigureKira">那个人很担心你，据说昨天晚上在这外面守了整整一夜——甚至还为了你，拿海水去做“水垢离”。</speak>
+            <show chara="ShigureKiraSunGlassesOffTalkingClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……那是什么？</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="left"/>
+            <speak chara="_ShigureKira">是古代极东之地的一种祈祷方式：脱光衣服，用冷水泼自己全身，以此为他人祈福。</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
+            <speak chara="_ShigureKira">不过，反正星语者是不会感冒的，所以你也不用反过来为她担心啦。</speak>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">噗。……船长呢？</speak>
+            <show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="left"/>
+            <speak chara="_ShigureKira">在舰桥外面。你要上去找她吗？</speak>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">嗯。之前议长提到的那个方案……我想为这个世界，去尝试一次。</speak>
+            <show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffShockClose" position="left"/>
+            <speak chara="_ShigureKira">……不再考虑一下吗？那个项目的执行者，会冒不小的生命风险吧？</speak>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="left"/>
+            <speak chara="_ShigureKira">你……真的没睡糊涂？</speak>
+            <show chara="ShigureKiraSunGlassesOffColdClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">……当然没有啦。</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">你忘了吗？我和丽塔，可都是戴着“格尼乌斯”的。</speak>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">在两个世界互相接近的这段时间里，我们随时、随地都可以撤退回原本的世界中去。</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">——你觉得还有人比我们更适合承担那种风险吗？</speak>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">再说，从昨天到今天的情况来看，我的崩坏能抗性也绝对没有问题吧？</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="left"/>
+            <speak chara="_ShigureKira">你……该不会也是为了证明这一点……</speak>
+            <show chara="ShigureKiraSunGlassesOffThinkClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="ShigureKiraSunGlassesOffSmileClose" position="left"/>
+            <speak chara="_ShigureKira">啊，没什么。我想到不相关的事情上去了。</speak>
+            <show chara="ShigureKiraSunGlassesOffConfidentClose" position="left"/>
+            <speak chara="_ShigureKira">（如果做事会想得那么复杂，她也就不是现在的比安卡了吧……哈哈。）</speak>
+            <goto goto="100" clockwise="1"/>
+        </scene>
+        <scene id="100" background="seaWaveSunset.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">哟。你来啦。</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈，听到刚才那上梯子的声音，我就觉得肯定是你啦。</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka">船长在这里看风景吗？</speak>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">是呀。</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">……你呢？是来告诉我你决定加入议长的那个计划吗？</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">咦？你……你怎么知道？</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈，你就原谅我比你多吃了二十年的面包吧。</speak>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">刚才，你还没来的时候——我一直在回忆大图书馆里的一本书。</speak>
+            <speak chara="_Shakespeare">它的开头是这样的：</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare" remark="next">“他是一个老人：孑然一身，驾着小船，在墨西哥湾流里钓鱼，如今已经连续八十四天一无所获了。”</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileAhClose" position="right"/>
+            <speak chara="_Bianka" remark="next">……“人可以被毁灭，但不能被打败？”</speak>
+            <remark post="U2FsdGVkX1+0S+Ev9NslvrDBBkgH">
+                <p class="article-text-h">注：</p>
+                <p class="article-text">《老人与海》（The Old Man and the Sea），是海明威（Ernest Miller Hemingway）生前最后也是最重要的一部作品：用他自己的话说，是“他这辈子最好的作品”。</p>
+                <p class="article-text">p.s. 以下两段都是作者本人的总结，而它们【并不矛盾】——</p>
+                <p class="article-text">“象征主义是学究们的新花样。没有什么象征主义的东西。大海就是大海。老人就是老人。孩子就是孩子。鱼就是鱼。鲨鱼全是鲨鱼，不比别的鲨鱼好，也不比别的鲨鱼坏。人们说什么象征主义，全是胡说。”</p>
+                <p class="article-text">“我试着描写一个真正的老人，一个真正的男孩，一个真正的海，一条真正的鱼和真正的鲨鱼们。但如果我把它们写得够好够真实，它们就能象征着很多事情。”</p>
+            </remark>
+            <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈，来自“未来”的你果然很熟悉这部作品呢。</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">不过……如果有人不曾认真体味过“捕鱼”的经历——那么对他来说，这句总结性质的话，只不过是一句可以拿来掩耳盗铃的装饰品罢了。</speak>
+            <show chara="shakesCasualDislikeClose" position="left"/>
+            <speak chara="_Shakespeare">年轻人最容易喊出“不怕失败”的口号……但不幸的是，年轻人做事，也往往最容易半途而废。</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">——所以，你才是特例中的特例。如果大家都能像你一样目标明确，这个世界想必会运转得更有效率。</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">可是，“没有毅力”也是他们的自由，对吧？</speak>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">虽然我不知道“三心二意”究竟是怎么办到的……但我明白，那也是一种能让人乐在其中的生活方式。</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualMercyClose" position="left"/>
+            <speak chara="_Shakespeare">“有个女人从一堆空啤酒罐和死梭子鱼之间朝下面的海水望去，她看到一条又粗又长的白色脊骨，”</speak>
+            <speak chara="_Shakespeare">“它的末端，连着一个巨大的尾巴，当强劲的东风在港湾的入口外面不断掀起大浪，那尾巴就随着潮水起伏摇摆。”</speak>
+            <speak chara="_Shakespeare">“‘那是什么呀？’她指着大鱼留下的长长脊骨问一名服务生。那脊骨如今只不过是垃圾，等着被潮水带走。”</speak>
+            <speak chara="_Shakespeare">“‘鲨鱼，’服务生说，‘唉，鲨鱼。’他本来是想解释一下事情的前因后果。”</speak>
+            <speak chara="_Shakespeare">“‘哦，我还从来都不知道鲨鱼会有这么气派、造型这么优雅的尾巴呢。’”</speak>
+            <speak chara="_Shakespeare">“‘我也不知道啊。’她的男伴说。”</speak>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">——三心二意的人是看不见鱼的。他们只能看见餐盘里的肉，以及垃圾一样的残骸。</speak>
+            <show chara="shakesCasualDislikeClose" position="left"/>
+            <speak chara="_Shakespeare">你觉得，即使这些人命中注定只能如此，也无所谓吗？</speak>
+            <show chara="shakesCasualDislikeClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">无所谓啊。</speak>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">你想，这个世界上不可能每个人都是渔夫吧？</speak>
+            <show chara="biankaDressSneerClose" position="right"/>
+            <speak chara="_Bianka">渔夫这个职业之所以存在，不就是可以让大家的餐盘里出现难得一见的好肉，并且让他们可以对着残骸、标本和录像，想象出他们心目中的大鱼吗？</speak>
+            <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈，但是那根本不可能是真正的【鱼】吧？他们连见都没见过呢！</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressSighClose" position="right"/>
+            <speak chara="_Bianka">……这也是没办法的吧。毕竟，每个人都有自己的极限嘛。</speak>
+            <show chara="biankaDressSmileClose" position="right"/>
+            <speak chara="_Bianka">再说，当我一心一意追逐目标的时候，想必也错过了许多其他领域的美丽风光吧？</speak>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">虽然人们常说“无限风光在险峰”……</speak>
+            <show chara="biankaDressShyClose" position="right"/>
+            <speak chara="_Bianka">……但每个人自己，终究也只能选择一条自己可以【身体力行】的观光路线吧？</speak>
+            <show chara="biankaDressShyClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualSeriousClose" position="left"/>
+            <speak chara="_Shakespeare">……</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈，你说的对。</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">只不过，也总有些自命不凡的人，偏会去尝试那些他们似乎根本做不到的事情。</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">有时候他们会侥幸成功；更多的时候，则是不出意外地一败涂地。</speak>
+            <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressNormalClose" position="right"/>
+            <speak chara="_Bianka">……但即使如此，他们也像那个渔夫一样，至少见过真正的、鲜活的大鱼了吧？</speak>
+            <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈！说得好！</speak>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">是我妄自菲薄了。的确，大家都不能随便以成败论英雄。</speak>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">即使是我，也必须尊重自己的过去呢。</speak>
+            <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressShockClose" position="right"/>
+            <speak chara="_Bianka">……嗯？船长的过去？你身为剧作家，难道不是世界级的吗？</speak>
+            <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualEmbarrassedClose" position="left"/>
+            <speak chara="_Shakespeare">……啊。不是指这个啦。</speak>
+            <show chara="shakesCasualNormalClose" position="left"/>
+            <speak chara="_Shakespeare">不久之后，我们会有真正适合谈到它的机会的。</speak>
+            <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
+            <show chara="biankaDressHesitateClose" position="right"/>
+            <speak chara="_Bianka">……？</speak>
+            <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
+            <show chara="shakesCasualConfidentClose" position="left"/>
+            <speak chara="_Shakespeare">没什么。此时此刻，你就姑且把它当作是……</speak>
+            <show chara="shakesCasualLaughClose" position="left"/>
+            <speak chara="_Shakespeare">……“老人正梦见狮子”吧！</speak>
+            <goto goto="110" clockwise="1"/>
+        </scene>
+        <scene id="110" background=".jpg">
+            <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
+            <text>次日凌晨。埃及，亚历山大港，卫星控制中心——</text>
+            <goto goto="120" change="#ffffff"/>
+        </scene>
+        <scene id="120" background="satelliteControlCenter.jpg">
+            <bgm src="bigTask.mp3" status="start"></bgm>
+            <show chara="micheDrySmileClose" position="left"/>
+            <speak chara="_Michel">……很好，万事俱备。</speak>
+            <show chara="micheDrySmileClose" position="left" opacity="0.8"/>
+            <show chara="shelleyBoredClose" position="right"/>
+            <speak chara="_Shelley">你真的决定要这么做？</speak>
+            <show chara="shelleyBoredClose" position="right" opacity="0.8"/>
+            <show chara="micheFocusClose" position="left"/>
+            <speak chara="_Michel">当然。“馆长”的使命即将在这里结束——我总不能给你们留下一个烫手山芋般的烂摊子吧？</speak>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_Michel">……这也是鸠占鹊巢的我，唯一能补偿给你们的东西。</speak>
+            <show chara="micheArrogantClose" position="left" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="right"/>
+            <speak chara="_Thales">你对自己还真狠啊，馆长。</speak>
+            <show chara="AliceSilentClose" position="right"/>
+            <speak chara="_Alice">……</speak>
+            <show chara="wattRelievedClose" position="right"/>
+            <speak chara="_Watt">……但是，反过来说，我们也可以帮助你吧？</speak>
+            <show chara="manfredSmileClose" position="right"/>
+            <speak chara="_Manfred">是啊。根据你的说法，这可是一次拯救世界的行动呢。</speak>
+            <show chara="neithComplainClose" position="right"/>
+            <speak chara="_Neith">不让我们帮忙可就说不过去了哦？</speak>
+            <show chara="neithComplainClose" position="right" opacity="0.8"/>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_Michel">噗。当然。不如说，我也正需要你们的帮助。</speak>
+            <show chara="micheDrySmileClose" position="left"/>
+            <speak chara="_Michel">只不过——别留下什么太明显的证据哦？名义上，你们可都是我宝贵的“人质”呢。</speak>
+            <show chara="micheArrogantClose" position="left"/>
+            <speak chara="_Michel">——各位，让我们来一次史无前例的大博弈吧！</speak>
+            <end post="U2FsdGVkX19Jw9hQNH6qmTwkbqDR"/>
+        </scene>
+    </story>
+</data>

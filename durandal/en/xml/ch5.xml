@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story>
+        <scene id="0" background="bg.jpg">
+            <bgm src="11_12_mid-lude.mp3" status="start"></bgm>
+            <cg src="11_12_newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="deepWater.jpg">
+            <bgm src="12_14_moonLight.mp3" status="start"></bgm>
+            <text>I am dreaming. A dream of when I still lived in a Russian orphanage.</text>
+            <text>The city is called Sochi. It has a warm climate, and it's surrounded by mountains and facing the sea.</text>
+            <text>I ran freely through the alleys, inhaling fresh air into my lungs. As I slowly exhale I feel like I was able to get out something melancholic within me.</text>
+            <text>Cirsium bloomed in the weathered road under the lovely sunlight of June.</text>
+            <text>They are purple, thorny, arrogant and stubborn flowers, able to grown freely in the most barren lands.</text>
+            <text>Just like all the hardworking poor humans.</text>
+            <text>Bees fly around the flowers. A familiar smell tickles my nose.</text>
+            <text>I don't know where or when was this. It could all be a weird hallucination.</text>
+            <text>But I know one thing for sure. There is something I've lost and is still missing, buried here like a time capsule.</text>
+            <text>Walking past the steam of the hot springs, I arrive at the shore of the Black Sea.</text>
+            <text remark="next">From the Argonauts to Nikolai Ostrovsky, countless known and unknown heroes have stopped here to listen to the sound of the waves.</text>
+            <remark post="U2FsdGVkX18Hb7L85UTiSUAt87Ml">
+                <p class="article-text-h">Note：</p>
+                <!-- TODO -->
+                <p class="article-text">尼古拉·阿列克谢耶维奇·奥斯特洛夫斯基（Николай Алексеевич Островский, 1904 - 1936）是一位传奇式的苏联作家。他15岁参军入伍，16岁时在战斗中头部负伤、右眼失明，23岁时全身瘫痪、双目失明；然而，就是在这种状况下，他坚持口述（由妻子整理）并在29岁时完成了一部讲述信念、毅力、自我认同的自传体小说——《钢铁是怎样炼成的》。</p>
+            </remark>
+            <text>The Petrel is free to roam the sky. A familiar smell tickles my nose.</text>
+            <text>I don't know where or when was this. It could all be a weird hallucination.</text>
+            <goto goto="20" change="#000000"/>
+        </scene>
+        <scene id="20" background="submarineCabinBlurDeep.jpg">
+            <!-- 
+                Bianka wakes up and greets Shakespeare. 
+                She claims Valkyrie are trained to be able to sleep well under any circumstances, but that isn't what exactly Rita told her. 
+                She falls asleep with her head buried in the pillows, she kicks the sheets out of the bed at least five times throughout the night and when you think she's done you find out the sheets are drenched in saliva. 
+                Bianka wants to die of embarrassment. Shakespeare suggest she should ask Rita why she told her those things. 
+                Rita brought breakfast to smoothly switch the topic to how good it tastes and make Bianka forgive her for it. 
+            -->
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">哟，早上好。</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">在这个与自然隔绝的船舱里，想保持早睡早起其实还蛮困难的。</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">嘛，对于闹钟响了十遍才爬起来的船长来说，大概的确是这样吧？</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">当然，任何一个合格的女武神，都不可能会因为作息上的不良习惯而让同伴产生困扰！</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">但是，我从丽塔小姐那里听来的，可似乎有点不一样啊？</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">…………</speak>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">……喂。她、她都说什么了？</speak>
+            <show chara="biancaShyClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">她也没说什么啊？只不过是——</speak>
+            <show chara="shakesBagaLeftClose" position="left"/>
+            <speak chara="_Shakespeare">“睡着睡着脑袋被枕头埋起来了”啊——</speak>
+            <show chara="shakesBagaRightClose" position="left"/>
+            <speak chara="_Shakespeare">“一夜里被子会被踢下床五次”啊——</speak>
+            <show chara="shakesBagaLeftClose" position="left"/>
+            <speak chara="_Shakespeare">“终于不乱滚了，早上醒来却发现口水把床单都湿透了”啊——</speak>
+            <show chara="shakesBagaLeftClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">停！停！停！</speak>
+            <show chara="biankaChayaoClose" position="right"/>
+            <speak chara="_Bianka">为什么她会给你讲——不对，为什么她会给你胡扯这种不存在的事情啊！</speak>
+            <show chara="biankaChayaoClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">哈哈哈哈！这个，你难道不应该去问她本人吗？</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">唔唔唔唔唔唔唔……</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">比安卡大人、莎士比亚船长，打搅了。</speak>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">这是今天的早餐：主食是鲸脂炸面包片，配菜是培根煎蛋、腌芦笋煎虾仁、苹果沙拉，汤品是奶油蘑菇浓汤——</speak>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">——请慢用。</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">（可恶，完美地无视了刚才的话题！可是……）</speak>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">……闻起来好香！</speak>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">（咀嚼咀嚼）</speak>
+            <show chara="biankaChayaoClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">这、这个油炸面包超好吃啊？！！</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">丽塔，你怎么这么能干的？</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="rita17SmileClose" position="left"/>
+            <speak chara="_Rita">能得到比安卡大人的称赞，是我的荣幸。</speak>
+            <show chara="rita17SmileClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">……不、不要以为这样贿赂我，我、我就原谅你了啊？</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">随、随便和别人讲队长的私生活那是不好的！知道了吗，副官？！</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="left"/>
+            <speak chara="_Rita">噗，丽塔会铭记在心的。</speak>
+            <show chara="rita17SquintClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">……明明看起来根本就不打算记住吧？！</speak>
+            <goto goto="30" clockwise="1"/>
+        </scene>
+        <scene id="30" background="submarineCabinBlurSunset.jpg">
+            <bgm src="11_29_lab.mp3" status="start"></bgm>
+            <text>Someone somewhere once said——</text>
+            <text>「The way to someone's heart is through their stomach」</text>
+            <text>Such random thought popped up in my head as I was stuffing breakfast down my mouth.</text>
+            <show chara="shakesConfidentClose" position="center"/>
+            <speak chara="_Shakespeare">Seems everyone is done eating breakfast. The 「Caledonia」 has surfaced and will soon deck on Alexandria's port.</speak>
+            <show chara="shakesSmileClose" position="center"/>
+            <speak chara="_Shakespeare">On this eventful day your captain has a selfish order for all of you——</speak>
+            <show chara="shakesLaughClose" position="center"/>
+            <speak chara="_Shakespeare">——Everyone gets a 24 hours vacation!!</speak>
+            <hide position="center"></hide>
+            <show chara="pirateGirlClose" position="left"/>
+            <speak chara="_pirateFollower">Woooah!</speak>
+            <show chara="pirateGirlClose" position="left" opacity="0.8"/>
+            <show chara="pirateBoyClose" position="right"/>
+            <speak chara="_pirateFollower">Heck yeah!!!</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="shakesSmileClose" position="center"/>
+            <speak chara="_Shakespeare">Your dear captain will help those who want to go to Alexandria.</speak>
+            <show chara="shakesLaughClose" position="center"/>
+            <speak chara="_Shakespeare">Go and have fun! Except gambling I'll cover all the costs!</speak>
+            <hide position="center"></hide>
+            <show chara="pirateGirlClose" position="left"/>
+            <speak chara="_pirateFollower">Long live our captain!!</speak>
+            <show chara="pirateGirlClose" position="left" opacity="0.8"/>
+            <show chara="pirateBoyClose" position="right"/>
+            <speak chara="_pirateFollower">Long live vacations!!!</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="shakesConfidentClose" position="center"/>
+            <speak chara="_Shakespeare">Cough. Those who have been tagging along with me for a while already know what's going on with the 「locals」, but we got some new people aboard this time.</speak>
+            <show chara="shakesSmileClose" position="center"/>
+            <speak chara="_Shakespeare">Thus, I'm giving another order, one of upmost importance——</speak>
+            <show chara="shakesLaughClose" position="center"/>
+            <speak chara="_Shakespeare">Old and new sailors must form pairs decided by a lottery, and stick together the entire day! Forming groups of three or more people is forbidden. It has to be two! Yes, like a date!</speak>
+            <hide position="center"></hide>
+            <show chara="lallaSmileClose" position="right"/>
+            <speak chara="_Lalla">Heh.</speak>
+            <show chara="lallaSmileClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka">Huh?</speak>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="wattScaredClose" position="right"/>
+            <speak chara="_Watt">Ehh...</speak>
+            <show chara="wattScaredClose" position="right" opacity="0.8"/>
+            <show chara="ironWhiteClose" position="left"/>
+            <speak chara="_Ironface">.....</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="shakesSweatyClose" position="center"/>
+            <speak chara="_Shakespeare">Look, the lottery is all ready.</speak>
+            <show chara="shakesSmileClose" position="center"/>
+            <speak chara="_Shakespeare">Will you seize your own fate with your own hands—— Or should I do it for you?</speak>
+            <show chara="shakesBagaLeftClose" position="center"/>
+            <speak chara="_Shakespeare">Don't come crying later if I cheat.</speak>
+            <hide position="center"></hide>
+            <show chara="biankaBiteClose" position="left"/>
+            <speak chara="_Bianka">Sigh... Being the 「Director of a Theater Company」 means you can't behave like a normal person?</speak>
+            <show chara="biankaBiteClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">Hahaha, sounds fun.</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Since no one wants to go first let this old man take the lead.</speak>
+            <show chara="cervantesGazeClose" position="right"/>
+            <speak chara="_Miguel">(Chooses a piece of paper)</speak>
+            <show chara="cervantesShoutClose" position="right"/>
+            <speak chara="_Miguel">Alright, this one!!</speak>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">Ohh! It says 「S」! That's you isn't it, captain?</speak>
+            <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Hahaha, that's me! You're gonna have to wait a little bit until all the pairs are decided, old man.</speak>
+            <show chara="shakesLaughClose" position="left" opacity="0.8"/>
+            <show chara="cervantesLaughClose" position="right"/>
+            <speak chara="_Miguel">No worries! You're taking care of me, it's the least I can do.</speak>
+            <show chara="cervantesSmileClose" position="right"/>
+            <speak chara="_Miguel">Well then... Who's next?</speak>
+            <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
+            <show chara="manfredSmileClose" position="left"/>
+            <speak chara="_Manfred">...Sorry for the trouble I caused yesterday.</speak>
+            <show chara="manfredColdClose" position="left"/>
+            <speak chara="_Manfred">(Chooses a piece of paper)</speak>
+            <show chara="manfredQuestionClose" position="left"/>
+            <speak chara="_Manfred">「I」...?</speak>
+            <show chara="manfredQuestionClose" position="left" opacity="0.8"/>
+            <show chara="ironWhiteClose" position="right"/>
+            <speak chara="_Ironface">Seems we're a pair.</speak>
+            <show chara="ironBlueClose" position="right"/>
+            <speak chara="_Ironface">I dislike soldiers—— But our mother tongue is the same. At least I can be your guide.</speak>
+            <show chara="ironBlueClose" position="right" opacity="0.8"/>
+            <show chara="manfredSmileClose" position="left"/>
+            <speak chara="_Manfred">...I'll be counting on you.</speak>
+            <show chara="manfredSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">(Chooses a piece of paper)</speak>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">「W」.</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">A-Ah... That's me.</speak>
+            <show chara="wattInspiredClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">...Hm.</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Well, why not. You're kinda irritating, but you don't seem to be the type of person who would cause serious trouble.</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">A pleasure to be your partner.</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_Watt">Umm... thank you? That was a compliment, wasn't it...?</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="right"/>
+            <speak chara="_Shakespeare">Heh... You're too much of a good boy, engineer.</speak>
+            <show chara="shakesSweatyClose" position="right" opacity="0.8"/>
+            <show chara="lallaSmileClose" position="left"/>
+            <speak chara="_Lalla">...Then only Rita and me are left.</speak>
+            <show chara="lallaSmileClose" position="left" opacity="0.8"/>
+            <show chara="rita17SquintClose" position="right"/>
+            <speak chara="_Rita">It seems so. Do you have any recommendation regarding souvenirs?</speak>
+            <show chara="lallaSighClose" position="left"/>
+            <speak chara="_Lalla">Mmm... a souvenir... Hard question.</speak>
+            <show chara="lallaSmileClose" position="left"/>
+            <speak chara="_Lalla">I can think of many I can't decide which one.</speak>
+            <goto goto="40" clockwise="1"/>
+        </scene>
+        <scene id="40" background="alexandriaHarbor.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="start"></bgm>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">Well? What do you think of the world's largest city?</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Hm. For a big city it has a retro feel, kinda like Aden or Kolkata.</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">Oh, those are places I've never been to—— In any world.</speak>
+            <show chara="shakesSweatyClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Then... What about Florence or Istanbul?</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="shakesSweatyClose" position="left"/>
+            <speak chara="_Shakespeare">...Haven't been there either, but I get your point.</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Shakespeare">Ahh—— The information society of the 21st century must be wonderful. You can know all about the beautiful history of past civilizations!</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">I'm so jealous! Can you take me there someday?</speak>
+            <show chara="shakesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">Um, that's...</speak>
+            <show chara="biancaShyClose" position="right" opacity="0.8"/>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Hahaha, don't take it so seriously! Let this person from the past envy you earnestly!</speak>
+            <show chara="shakesSmileClose" position="left"/>
+            <speak chara="_Shakespeare">Anyway—— Today is your day off!</speak>
+            <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">Don't stand there! Everyone, get out of here! Hahaha!</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <text>The captain of the Caledonia laughed as she pushed her crew members and guests out of the ship.</text>
+            <speak chara="_Shakespeare">Each group must be of two people! Prepare to receive the captain's 「special punishment」 later if you don't comply with this 「forced date」! Hahaha!</speak>
+            <goto goto="60" clockwise="1"/>
+        </scene>
+        <scene id="60" background="alexandriaLighthouse.jpg">
+            <!-- 
+                Bianca and Jimmy's date starts. Soon after entering Alexandria they meet a little red robot. 
+                He's a policeman and needs Bianka to complete the city's registration form. 
+                Jimmy is already registered so he doesn't have to. 
+            -->
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">好了，算是上岸了。这座城市的管理还真是随便啊，连个摆摆样子的海关都没有。</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">唔……那、那个……关于这座城市的管理方式——</speak>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">——啊，已经来了。</speak>
+            <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">什么来了？你能不能把话说清——</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="mailboxFar" position="left"/>
+            <speak chara="_mechineRed">詹姆斯·瓦特先生，以及不知名的小姐——欢迎光临亚历山德里亚。</speak>
+            <show chara="mailboxFar" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">……</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="mailboxClose" position="left"/>
+            <speak chara="_mechineRed">不知名的小姐，本机是这座城市的警察。由于您是初次来到本市，本机需要您录入一些基本信息。</speak>
+            <show chara="mailboxClose" position="left" opacity="0.8"/>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">哈。所以这就是你想说的“管理方式”喽，吉米？</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">是、是的！很厉害吧！！</speak>
+            <show chara="mailboxClose" position="left"/>
+            <speak chara="_policeRed">请您录入基本信息。</speak>
+            <show chara="mailboxClose" position="left" opacity="0.8"/>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">Name: Bianka Atagina</speak>
+            <speak chara="_Bianka">Gender: Female</speak>
+            <speak chara="_Bianka">Age: 12</speak>
+            <speak chara="_Bianka">Birthday: January 1st ...not that I know what calendar system this places is using.</speak>
+            <speak chara="_Bianka">And lastly a fingerprint. Is that enough?</speak>
+            <show chara="biankaConfidentClose" position="right" opacity="0.8"/>
+            <show chara="mailboxClose" position="left"/>
+            <speak chara="_policeRed">Yes. Thank you for your cooperation. Have a nice trip!</speak>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">Even though a year only has 365 days... this is the first time I see someone born on New Year's Day....</speak>
+            <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">Gosh, it's not good manners to peek at a lady's private information, you know!?</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_Watt">I-I-I-I-I'm so s-sorry! I-It wasn't on p-purpose.</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">Sigh...</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Well, it's no big deal. Don't lose your composure so easily.</speak>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">And it's not my real birthday anyway... It's what a teacher at the orphanage decided for me.</speak>
+            <show chara="biankaConfidentClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="left"/>
+            <speak chara="_Watt">T-They decided it without your permission?</speak>
+            <show chara="wattScaredClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Yes. I don't know when I was born—— And New Year's Day is easy to remember.</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">...Makes sense.</speak>
+            <show chara="wattSighClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Well? Where are we going now?</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">Hmmm.</speak>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">Ah, I know!</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">W-We could hire a robot guide since the captain said she would pay for it.</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">Please wait. Not only the police are robots, but also the tour guides?</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">Y-Yes. Isn't this city amazing?</speak>
+            <show chara="wattInspiredClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">Hm... I'm curious about who's managing these robots. If it is...</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="wattSmileClose" position="left"/>
+            <speak chara="_Watt">The 「City Administration Group」 is in charge of them—— They do it from a place called 「City Hall」—— They also use robots to maintain safety and collect taxes.</speak>
+            <show chara="wattSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">...Who are the members of this group?</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">An election is held each year to select people from among the citizens.</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">Actually, the system is self-maintained so anyone can do it. The job is akin to jury duty in a British court.</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">I-Is that so. Surprisingly advanced.</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Shall we move on?</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">R-Right.</speak>
+            <show chara="wattShyClose" position="left"/>
+            <speak chara="_Watt">I-I'm not sure where to go...</speak>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">Oh, look! I-It's a guide robot!</speak>
+            <goto goto="70" change="#ffffff"/>
+        </scene>
+        <scene id="70" background="alexandriaStreetCenter.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <show chara="beaconFar" position="center"/>
+            <speak chara="_guideLighthouse">Welcome to Alexandria.</speak>
+            <show chara="beaconFar" position="center"/>
+            <speak chara="_guideLighthouse">Information on basic services is free. If you need a tour guide, please provide your ID and insert 3 Drachma.</speak>
+            <hide position="center"></hide>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Drachma? What's that?</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">M-Money. Money is called 「Drachma」 here, it's a Greek word.</speak>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">It may not look like it, but each Drachma is equal to 10 grains of gold—— Surprisingly expensive.</speak>
+            <show chara="wattInspiredClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">And what does this 「10 grain」 refer to?</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_ThalesNoName">「Grain」 is the average weight of 「1 gram of wheat」. Gold is precious so we use small quantities.</speak>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_ThalesNoName">And now... the opportunity to save money has presented itself!</speak>
+            <show chara="thalesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">...What do you mean? Rather, who are you?</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_ThalesNoName">Me? I'm someone who can give you a better tour than any robot—— For the mere price of 2 Drachma!</speak>
+            <show chara="thalesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">...So you're also a tour guide?</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_ThalesNoName">Guide? No way, that line of work is too much work for me.</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_ThalesNoName">My tour is fundamentally different because my train of thought is fundamentally different than that of a robot.</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_ThalesNoName">In short, I'm a philosopher and I don't see things the same way as them.</speak>
+            <show chara="thalesStoneClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">Err... what are you going on about?</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_ThalesNoName">Hmph. Seems there is a small difference in our perception——</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_ThalesNoName">It means I must prove my value for you to recognize it!</speak>
+            <show chara="thalesProudClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Like I'm saying... I don't know where to start with you—— Can't you do something about how you talk!?</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_ThalesNoName">I know what you mean! But I can't!</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_ThalesNoName">I am Thales of Miletus, Director of the Metaphysics Institute of the Great Library and Commander of the Three Forces—— A true philosopher.</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">Here's my business card.</speak>
+            <show chara="thalesSmileClose" position="left" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="right"/>
+            <speak chara="_Watt">...Wow, it's really someone from the 「Great Library」! Awesome!</speak>
+            <show chara="wattSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="left"/>
+            <speak chara="_Bianka" remark="next">Great library? You mean the one that was burned several times in history——</speak>
+            <remark post="U2FsdGVkX19gYEf0Fz9CByG4C5ci">
+                <p class="article-text-h">Note：</p>
+                <!-- TODO -->
+                <p class="article-text">大图书馆在历史上曾遭受过两次灾难性的焚毁：于公元前47年凯撒征服埃及时、以及公元3世纪末叶的内战时期。根据爱德华·吉本 (Edward Gibbon) 的说法，公元391年，大图书馆位于塞拉比斯神庙的分馆也毁于基督徒之手，导致其藏书和建筑最终无一幸存。</p>
+            </remark>
+            <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="wattSchemingClose" position="right"/>
+            <speak chara="_Watt">That's not the case here! The 「Great Library」 is the best research institute in the world! It is said it has been active for over 2000 years!</speak>
+            <show chara="wattJihuatongClose" position="right"/>
+            <speak chara="_Watt">Also, all the robots in the city are manufactured by the 「Great Library」!</speak>
+            <show chara="wattJihuatongClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">Oh my, there sure is a lot of rumors about us.</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">The 「Great Library」 has only existed for less than 200 years—— Sorry to disappoint, boy.</speak>
+            <show chara="thalesSmileClose" position="left" opacity="0.8"/>
+            <show chara="wattScaredClose" position="right"/>
+            <speak chara="_Watt">S-Still, studying m-metaphysics at the Great Library is a-awesome!</speak>
+            <show chara="wattScaredClose" position="right" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="left"/>
+            <speak chara="_Bianka">...By the way, what is 「metaphysics」? Is it something that important that you praise it so much?</speak>
+            <show chara="biankaHesitateClose" position="left" opacity="0.8"/>
+            <show chara="wattSmileClose" position="right"/>
+            <speak chara="_Watt">Umm, if the engineering science I'm studying is 「learning to deal with limited material」...</speak>
+            <show chara="wattInspiredClose" position="right"/>
+            <speak chara="_Watt">...then 「metaphysics」 is the study of 「something infinite」. Philosophy within philosophy!</speak>
+            <show chara="wattInspiredClose" position="right" opacity="0.8"/>
+            <show chara="biankaAngryClose" position="left"/>
+            <speak chara="_Bianka">...I didn't understand a word of that.</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">In general science studies things and their behavior in the real world, while 「metaphysics」 studies abstract concepts and their relationships.</speak>
+            <speak chara="_Thales">Because reality is ultimately limited and the potential of the abstract is limitless, that's the best analogy he could think of.</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">Incidentally, I don't agree with 「metaphysics」 being a 「philosophy within a philosophy」.</speak>
+            <speak chara="_Thales">That is a prejudice made by our predecessors who's development level was too low and brought in non-philosophy into philosophy.</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">Which is why I think 「philosophy is a part of metaphysics that cannot be proved by a logical argument」.</speak>
+            <speak chara="_Thales">In terms of subset, it's actually the opposite of what he said.</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">As science gains ground, the 「position」 of 「philosophy」 shrinks. You could say it's proof of the development of science and mankind's progress.</speak>
+            <show chara="thalesStoneClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">The more you explain the less I understand!</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">More importantly, I'm curious about something you said earlier—— 「Commander of the Three Forces」 was it? Are you a 「philosopher」 but also in the military?</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">Ah, that. It was a joke.</speak>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">The 「Metaphysics Institute」 only has 3 members, thus 「Commander of the Three Forces」.</speak>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">If I phrase it like that I sound important! Hahaha!</speak>
+            <show chara="thalesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Only 「3 members」 you say—— It must be tough. Is that's why you're making money by working as a tour guide?</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">.....</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">Boy, you that you're familiar with this city, do us a favor——</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">——Tell us what you can buy with 100 Drachma.</speak>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">Umm, with 100 Drachma...</speak>
+            <show chara="wattInspiredClose" position="left"/>
+            <speak chara="_Watt">P-Probably a drum oil! One big enough that needs to be carried by two strong sailors!</speak>
+            <show chara="wattInspiredClose" position="left" opacity="0.8"/>
+            <show chara="biankaSighClose" position="right"/>
+            <speak chara="_Bianka">T-That example is hard to follow...</speak>
+            <show chara="biankaSighClose" position="right" opacity="0.8"/>
+            <show chara="wattSighClose" position="left"/>
+            <speak chara="_Watt">Umm... T-Then if I use food...</speak>
+            <show chara="wattRelievedClose" position="left"/>
+            <speak chara="_Watt">M-Maybe half a cow... I think? Or a pig?</speak>
+            <show chara="wattRelievedClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">(So approximately 2000 Euros? Or maybe a little less?)</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">That's certainly 「a lot of money」. How long does it take to get 「100 Drachma」? One week?</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">One week?</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">At the Great Library you can make that in half a day.</speak>
+            <show chara="thalesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">...?</speak>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">100 Drachma in half a day, 200 per day, that's 4000 Euros...</speak>
+            <speak chara="_Bianka">Your monthly income is 120.000 Euros and your yearly income is...</speak>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">1.44 million Euros!? But that's even higher than the salary of a Rank A Valkyrie!</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="left"/>
+            <speak chara="_Watt">A Rank Valkyrie? 「Valkyries」 have a rank?</speak>
+            <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
+            <show chara="biancaShyClose" position="right"/>
+            <speak chara="_Bianka">A-Apologies, I lost my composure. Please forget I mentioned any rank.</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Cough. Now I see, Thales-san, you didn't approach us because you were in need of money.</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">Now you get it! I wanted to talk with you because you seemed interesting!</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">What do you say? You don't get the chance to explore the city guided by a 「philosopher」 often.</speak>
+            <show chara="thalesProudClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">It certainly doesn't sound like a bad idea but——</speak>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">——If you're so rich, why did you want to charge us for your services?</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">.....</speak>
+            <show chara="thalesLaughClose" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="_Thales">Hahaha! You're an interesting one!</speak>
+            <goto goto="80" change="#ffffff"/>
+        </scene>
+        <scene id="80" background="CG5-1.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <speak chara="_guideLighthouse">Fingerprint confirmed.</speak>
+            <speak chara="_guideLighthouse">Thank you for choosing the 「Lighthouse」 guide system, Director Thales of the Great Library.</speak>
+            <speak chara="_Thales">Interesting kids——</speak>
+            <speak chara="_Thales">——I will take over as your tour guide.</speak>
+            <goto goto="90" change="#ffffff"/>
+        </scene>
+        <scene id="90" background="alexandriaStreetCenter.jpg">
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">Huh...? You paid the robot yourself?</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales" remark="next">「Rational thinking is trapped in contradictions and as such it will lead to its own denial」.</speak>
+            <remark post="U2FsdGVkX1+1SGRcprmKJPs15qgC">
+                <p class="article-text-h">Note：</p>
+                <!-- TODO -->
+                <p class="article-text">出自黑格尔 (G. W. F. Hegel) 《哲学全书》的《逻辑学》分册。因作者早年还出版过同名的另一本书，故此册俗称《小逻辑》。</p>
+            </remark>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">When you reach a dead end reverse your line of thinking to see what both parties really want.</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">In our current situation—— You want a guide, but you don't want to be deceived. I want to talk with you, but you don't know me.</speak>
+            <speak chara="_Thales">Basically, since if you hire me or not is irrelevant, there is a way for me to leave this predicament.</speak>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">I must reverse 「receiving money」 to 「paying money」. That way, both parties get what they want!</speak>
+            <show chara="thalesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">...We can be friends. As long as you pay, that is.</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">Heh, look at you. You look so 「serious」 but you can joke too.</speak>
+            <show chara="thalesEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">...Hey! Aren't you being a little rude?</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">Anyway, 「metaphysics」 is the study of the nature of reality. It examines thinking itself, its ability and limits to grasp the 「truth」. It would take an entire semester of classes to explain it in detail so let's not go there now.</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">(Enters commands into the robot)</speak>
+            <hide position="left"></hide>
+            <hide position="right"></hide>
+            <show chara="beaconClose" position="center"/>
+            <speak chara="_guideLighthouse">Input confirmed. Starting tour.</speak>
+            <show chara="beaconFar" position="center"/>
+            <speak chara="_guideLighthouse">We are now in the heart of the bay area: for travellers, this is a good area for souvenirs.</speak> <!-- zklm -->
+            <speak chara="_guideLighthouse">The harbor isn't just full of stores, it's also a duty-free area: you can buy high quality goods at low prices.</speak> <!-- zklm -->
+            <speak chara="_guideLighthouse">Today's recommendations：rice noodles and chiffon cakes from 「Nile River Orchard」, canned sea urchins from 「Memories of Nicosia」, and glass crafts from 「Copenhagen Mermaid」! Welcome!</speak> <!-- zklm -->
+            <hide position="center"></hide>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">It speaks like a salesman...</speak> <!-- zklm -->
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">Oops, it is a commercial city after all. Forgive me?</speak> <!-- zklm -->
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">Speaking of products—— Do you know what's the aesthetic difference between food, clothing and buildings?</speak>
+            <show chara="thalesProudClose" position="left" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="right"/>
+            <speak chara="_Watt">...I-I don't know.</speak>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Seriously—— If it isn't the 「Bishop」 it's you—— Do all 「philosophers」 take pleasure in presenting a question they themselves can answer?</speak>
+            <show chara="biankaSneerClose" position="right" opacity="0.8"/>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">Haha, you presented an interesting idea. Well done, kid.</speak>
+            <show chara="thalesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">P-Please don't treat me like a child! I must let you know I'm a great Valkyrie!</speak>
+            <show chara="biankaChayaoClose" position="right"/>
+            <speak chara="_Bianka">A-And you don't look too much like an adult yourself, shorty Director-san.</speak>
+            <show chara="biankaChayaoClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">Yes yes, I got it——</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">——Let's get back on track. I will teach you the difference between food, clothing and buildings.</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">Cough. The answer is their 「shelf life」.</speak>
+            <show chara="thalesSmileClose" position="left" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="right"/>
+            <speak chara="_Watt">...S-Shelf life?</speak>
+            <show chara="wattSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">Yes. Food has the shortest shelf life, it doesn't last very long and once you eat it it's gone.</speak>
+            <speak chara="_Thales">Clothing is the middle ground. They can be used for several years, even decades. If preserved well enough, they can be passed down from a generation to another.</speak>
+            <speak chara="_Thales">Buildings, of course, have the longest shelf life. The cost of making one is high, but once built it can be used for centuries.</speak>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">In short, you can eat 3 meals a day, wear a different piece of clothing each day, but if the building you live in is old, there is no choice but to endure it.</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">Unlike food or fashion trends that change in a short time or in spiral,</speak>
+            <speak chara="_Thales">Architecture represent the transition of aesthetics in history. 「Revolutions」 are 「changes」 that come at the price of destroying the previous history.</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">Those who are aware of history's value will only repurpose the inside of a historical building while preserving its appearance and value.</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">For example, this central square—— Until 200 years ago it was a 「slave market」 and not the 「tax-free area」 that is today.</speak>
+            <show chara="thalesStoneClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">...Slave market!?</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">Yes, a place to buy and sell living humans.</speak>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_Thales">You probably don't know about it, but this city still has a certain degree of slavery in the form of liabilities.</speak>
+            <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaShoutClose" position="right"/>
+            <speak chara="_Bianka">...What did you say?</speak>
+            <show chara="biankaShoutClose" position="right" opacity="0.8"/>
+            <show chara="wattScaredClose" position="right"/>
+            <speak chara="_Watt">I-It's true. If you go bankrupt in Alexandria you'll be listed as a 「Community Contracted Slave」 by the government.</speak>
+            <show chara="wattScaredClose" position="right" opacity="0.8"/>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">Well, you could call them free prisoners—— In the case of bankruptcy, the government will pay the money including interests.</speak>
+            <speak chara="_Thales">——Your salary during the duration of the contract will be used to repay your debt, or you can get someone else to pay it for you.</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">If the parents can't pay it during their lifetime, their children will take over their debt. And the interest rate is barely 7.5%, not too high.</speak>
+            <show chara="thalesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaBiteClose" position="right"/>
+            <speak chara="_Bianka">...Isn't it too much of a tyranny?</speak>
+            <show chara="biankaBiteClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">Tyranny, huh. From your point of view it might look like that.</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">But this city has no prison or death penalty, there is only 「confiscation of property」 and 「complete exile」.</speak>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_Thales">Looking at the history of this place, slavery was inevitable. The fact that slavery has been reduced to 「Community Contracted Slaves」 is already a huge improvement.</speak>
+            <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">...I can't accept it. I have been taught that slavery and joint and several liability are unacceptable barbaric laws.</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">Yes. It's obvious someone from a more advanced society wouldn't agree with it.</speak>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">But you're here today as a tourist to enjoy the city, don't worry about those things right now!</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">——You can't judge this city without knowing every aspect of it.</speak>
+            <goto goto="100" clockwise="1"/>
+        </scene>
+        <scene id="100" background="alexandriaCityHall.jpg">
+            <!-- 
+                The party arrived at the City Hall. The City Hall of Alexandria was established in the first year of the Republican Calendar 165 years ago. 
+                The place was confiscated from its owner by a group of pirate revolutionaries and then was used by the City Administration Group and the Public Council. 
+                It was built with a Greek style in mind, there are statues of various important figures such as Aristotle, Alexander The Great, Solon, Pericles, Leonidas I, Spartacus, Gracchus, Caesar, Cicero and Augustus. 
+            -->
+            <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
+            <show chara="thalesSmileClose" position="right"/>
+            <speak chara="_Thales">这里就是我们刚才提到的“市政厅”了。来听听机器人是怎么介绍的吧？</speak>
+            <show chara="thalesSmileClose" position="right" opacity="0.8"/>
+            <show chara="beaconFar" position="left"/>
+            <speak chara="_guideLighthouse">亚历山德里亚的市政厅建立于165年之前的共和历元年，由革命者没收僭主的财产建成，随后兼用作立法机关“公决会议”、行政机关“城市管理协会”的办公场所。</speak>
+            <speak chara="_guideLighthouse">市政厅采用希腊风格的设计，其拱桥两侧分列有外部世界的伟人雕像，分别是亚里士多德、亚历山大大帝、梭伦、伯里克利、列奥尼达一世，以及斯巴达克斯、格拉古、凯撒、西塞罗、奥古斯都。</speak>
+            <speak chara="_guideLighthouse">如果您希望进一步了解他们中的某一位，请将雕像下的编号输入本机，本机可以提供详细的讲解说明。</speak>
+            <show chara="beaconFar" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">I'm more interested in that 「Public Council」 rather than in those extraordinary people right now. Such a strange name.</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">Basically, it's an organization in charge of making all citizens vote to change or enact laws.</speak>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">Just in case I'll clarify, 「slaves」 and 「outsiders」 don't posses citizenship so they can't participate in this vote.</speak>
+            <show chara="thalesEmbarrassedClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">A group of revolutionaries 100 years ago took control from a 「Tyrant」 pirate.</speak>
+            <show chara="thalesSeriousClose" position="left"/>
+            <speak chara="_Thales">But the revolutionaries were pirates themselves, so a war between 「Commoner Pirates」 and 「Aristocrat Pirates」 broke out.</speak>
+            <show chara="thalesSeriousClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">That's...</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">The city has a deep trench at the North, an oasis at the South, and an affluent of the Nile River flowing from East to West—— Which means it's easy to defend, so many people were interested in controlling it.</speak>
+            <show chara="thalesProudClose" position="left" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="right"/>
+            <speak chara="_Watt">S-So how did it become a commercial city and not a military stronghold?</speak>
+            <show chara="wattSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">Haha, that's because the location was perfect to be a commercial hub. Merchants aren't afraid of pirates—— As long as the other party likes money!</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">In the end all came down to a 「government」, a 「state」, or you could call it 「a tool to let one class exploit another」 as well.</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">The self imposed 「peace」 of a 「barbaric society」 is a social auto regression. While it's a good thing, often enough it leaves bad customs in that society's culture.</speak>
+            <show chara="thalesStoneClose" position="left" opacity="0.8"/>
+            <show chara="biankaSeriousClose" position="right"/>
+            <speak chara="_Bianka">...You mean slavery.</speak>
+            <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">Exactly. Ironically, due to the high level of development of this city—— Even slaves are living better than anywhere else.</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">Public baths, flushing toilets, basic medical insurance, social security. These are things you can't get anywhere else.</speak>
+            <show chara="thalesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaHesitateClose" position="right"/>
+            <speak chara="_Bianka">.....</speak>
+            <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">Ah, my workplace is nearby! Why don't we visit the Great Library next?</speak>
+            <goto goto="110" clockwise="1"/>
+        </scene>
+        <scene id="110" background="alexandriaLibraryYard.jpg">
+            <bgm src="12_29_street.mp3" status="start"></bgm>
+            <show chara="beaconClose" position="center"/>
+            <!-- 
+                The party arrived at the Great Library. 
+                In the second year of the Republic Calendar it was converted into a scientific research institute. 
+                The citizens of Alexandria value scientific innovation so much the Great Library has the same government status as the Public Council and the City Administration Group. 
+                Although it has Asian elements on the outside, the interior has a Greek style similar to the City Hall. 
+                The connection between the two styles is a rare example of architectural transformation. 
+            -->
+            <speak chara="_guideLighthouse">“大图书馆”过去是僭主的私人博物馆，最早则可以追溯到蛮荒时期的城市神庙。在共和历二年，它被改建为科学研究与普及机关。</speak>
+            <speak chara="_guideLighthouse">亚历山德里亚的市民们非常重视科学创新在整个社会发展中的地位，他们给予了“大图书馆”与“公决会议”、“城市管理协会”同等的政府地位。在机器人公务员普及之后，“大图书馆”又合并了“审判庭”的职能，成为了城市权力结构中极为重要的一极。</speak>
+            <speak chara="_guideLighthouse">大图书馆的建筑外观虽然包含了浓郁的亚洲元素，但其内部装潢其实与市政厅类似，都是共和历早期规划确定的希腊风格。</speak>
+            <speak chara="_guideLighthouse">虽然同一建筑的内外使用了两种截然不同的艺术流派：但令人惊奇的是，两者的衔接极为自然，是建筑改造中不可多得的优秀范例。</speak>
+            <speak chara="_guideLighthouse">Use of the Great Library is free to those registered in the city. Outsiders must provide a citizen guarantee or make a payment in advance.</speak>
+            <hide position="center"></hide>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">——Do you understand what the robot meant by that?</speak>
+            <show chara="thalesProudClose" position="left" opacity="0.8"/>
+            <show chara="wattSurpriseClose" position="right"/>
+            <speak chara="_Watt">You mean the difference between a 「person registered in the city」 and a 「citizen」?</speak>
+            <show chara="wattSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">That's right. The former includes slaves without citizenship, and the later is limited to citizens with citizenship.</speak>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">But don't get hung up on those social issues! Let's go inside!</speak>
+            <goto goto="120" clockwise="1"/>
+        </scene>
+        <scene id="120" background="alexandriaLibraryInside.jpg">
+            <bgm src="12_29_street.mp3" status="continue"></bgm>
+            <show chara="wattSmileClose" position="left"/>
+            <speak chara="_Watt">A-Amazing...</speak>
+            <show chara="wattSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaSurpriseClose" position="right"/>
+            <speak chara="_Bianka">I-Impressive... Does it go 10 layers underground?</speak>
+            <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">The underground segment was recently built while the upper segment was the personal collections of the tyrants of the past—— Nothing but a storage.</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">That said, not everything disappeared along with them. For example, the 『Greek Military Junta』 and the 『Complete Comedy Works of Aristophanes』.</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">Of course, we also have titles such as 『Homu's Hyper Adventure』 and 『Records of the Three Homu Kingdoms』.</speak>
+            <show chara="thalesProudClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">...Why is there a 「Homu」 in their names!?</speak>
+            <show chara="biankaAngryClose" position="right"/>
+            <speak chara="_Bianka">——And does this say 「novel edition」!?</speak>
+            <show chara="biankaAngryClose" position="right" opacity="0.8"/>
+            <show chara="thalesEmbarrassedClose" position="left"/>
+            <speak chara="_Thales">They are works reproduced by 「outsiders」. Most of the works here are 「memoirs」 rather than the 「originals」.</speak>
+            <show chara="thalesLaughClose" position="left"/>
+            <speak chara="_Thales">If you spot any inconsistency with the version you know please point it out! With any luck you'll get rewarded!</speak>
+            <show chara="thalesLaughClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">Heh... There are two great writers aboard my ship, Shakespeare and Cervantes—— Maybe I'll tell them to drop by later.</speak>
+            <goto goto="130" clockwise="1"/>
+        </scene>
+        <scene id="130" background="alexandriaCityLandscape.jpg">
+            <bgm src="peerGynt.mp3" status="start"></bgm>
+            <show chara="biankaConfidentClose" position="right"/>
+            <speak chara="_Bianka">Oh, the scenery from the back side is wonderful.</speak>
+            <show chara="biankaConfidentClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">Haha, it's a nice place to relax and cool down your head.</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">Well, have you managed to grasp the beauty of 「civilization」?</speak>
+            <show chara="thalesSmileClose" position="left" opacity="0.8"/>
+            <show chara="biankaProudClose" position="right"/>
+            <speak chara="_Bianka">...You mean 「architectural art」?</speak>
+            <show chara="biankaProudClose" position="right" opacity="0.8"/>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">...Not only that.</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">If it wasn't for humanity's constant 「living」, the pyramids or the Parthenon would be meaningless geometric figures.</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">And let me add, aesthetics is a process in which free will is self sublimated by emotion.</speak>
+            <show chara="thalesSmileClose" position="left"/>
+            <speak chara="_Thales">Deep in one's heart all external information comes together transcending spacetime, and synchronizes with a 「mental wavelength」, giving birth to a profound emotion.</speak>
+            <show chara="thalesProudClose" position="left"/>
+            <speak chara="_Thales">The beauty of 「civilization」 lies within little countless things that interwoven to form a larger and complex picture. Each free will is one line, one point of color in that picture.</speak>
+            <show chara="thalesStoneClose" position="left"/>
+            <speak chara="_Thales">Apart it may be ugly, but pieced together it can form something beautiful.</speak>
+            <show chara="thalesStoneClose" position="left" opacity="0.8"/>
+            <show chara="biankaSneerClose" position="right"/>
+            <speak chara="_Bianka">...Yes yes, there you go again with the complicated talk. Jimmy, it's about time we——</speak>
+            <bgm src="noise.mp3" status="start"></bgm>
+            <show chara="biankaShoutClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="_Bianka">——He's gone! Jimmy, where are you!?</speak>
+            <end post="U2FsdGVkX1+HS4JRVLrlm+kkEYhn"/>
+        </scene>
+    </story>
+</data>
