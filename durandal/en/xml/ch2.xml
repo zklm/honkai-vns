@@ -133,7 +133,7 @@
             <show chara="biankaSeriousClose" position="left"/>
             <speak chara="_Bianka">Late 19th and early 20th century designs...</speak>
             <show chara="biankaSneerClose" position="left"/>
-            <speak chara="_Bianka">...Where did this 「amphibious ship」 came from?</speak>
+            <speak chara="_Bianka">...Where did this 「amphibious ship」 come from?</speak>
             <show chara="biankaSneerClose" position="left" opacity="0.8"/>
             <show chara="lallaSighClose" position="right"/>
             <speak chara="_Lalla">Err... are you asking me?</speak>
@@ -147,7 +147,7 @@
             <speak chara="_Watt">Y-Yeah... I-I think so.</speak>
             <show chara="wattShyClose" position="right" opacity="0.8"/>
             <show chara="biankaBiteClose" position="left"/>
-            <speak chara="_Bianka">...So, where did this submarine came from?</speak>
+            <speak chara="_Bianka">...So, where did this submarine come from?</speak>
             <show chara="biankaShoutClose" position="left"/>
             <speak chara="_Bianka">Going by your clothes you don't look like you're from the 20th century to me.</speak>
             <show chara="biankaShoutClose" position="left" opacity="0.8"/>

@@ -170,7 +170,6 @@
             <speak chara="_Bianka">...What's so funny?</speak>
             <show chara="biankaAngryClose" position="left" opacity="0.8"/>
             <show chara="cervantesSmileClose" position="right"/>
-            <!-- TYPO: My apologies! Us the elderly just like to laugh. Please don't mind it, miss explorer. -->
             <speak chara="_MiguelNoName">My apologies! We the elderly just like to laugh. Please don't mind it, miss explorer.</speak>
             <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
             <show chara="biankaAngryClose" position="left"/>

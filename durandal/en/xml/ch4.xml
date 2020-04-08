@@ -48,15 +48,6 @@
             <goto goto="50" clockwise="1"/>
         </scene>
         <scene id="50" background="submarineCabinBlurSunset.jpg">
-            <!--
-                When he attempted to fly over the Wall of Asgard his plane was deviated by a mysterious force as if there was a spatial curvature above the wall. 
-                In short, flying to get past the wall won't work. The plane can still be used for other purposes so Jimmy will repair it. 
-                Shakespeare wants to persuade him to join them, but before they can talk about cooperation they need to get him out of his depression first. 
-                Bianka offers to be the one to do it and orders Rita to prepare something delicious to eat. 
-                Bianka goes to talk to the man, from soldier to soldier, from Ace Valkyrie to Ace Pilot.
-    
-                Rita prepared whale steak for them, however the man has no appetite.  
-            -->
             <bgm src="11_29_lab.mp3" status="start"></bgm>
             <show chara="shakesSmileClose" position="left"/>
             <speak chara="_Shakespeare">Well? What kind of person was our new drifter?</speak>
@@ -153,7 +144,6 @@
             <text>A clean and well groomed man is staring silently at the dark red meat in front of him.</text>
             <show chara="manfredQuestionClose" position="left" opacity="0.8"/>
             <show chara="biankaConfidentClose" position="right"/>
-            <!-- TODO -->
             <speak chara="_Bianka">It's 「whale steak」.</speak>
             <show chara="biankaProudClose" position="right"/>
             <speak chara="_Bianka">Eat it while it's hot or it'll lose its good taste.</speak>
@@ -202,7 +192,6 @@
             <speak chara="_ManfredNoName">.....</speak>
             <show chara="manfredAngryClose" position="left" opacity="0.8"/>
             <show chara="biankaSneerClose" position="right"/>
-            <!-- TYPO: Do you intent to remain anonymous in front of the people who saved you? -->
             <speak chara="_Bianka">Do you intend to remain anonymous in front of the people who saved you?</speak>
             <show chara="biankaSneerClose" position="right" opacity="0.8"/>
             <show chara="manfredAngryClose" position="left"/>

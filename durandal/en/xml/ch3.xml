@@ -262,8 +262,7 @@
             <show chara="biankaSurpriseClose" position="right"/>
             <speak chara="_Bianka">We're really at Gibraltar...</speak>
             <show chara="biankaShoutClose" position="right"/>
-            <!-- TYPO: But that wall—— What's going on with that wall1? -->
-            <speak chara="_Bianka">But that wall—— What's going on with that wall?</speak>
+            <speak chara="_Bianka">But that wall—— What's going on with that wall!?</speak>
             <show chara="biankaBiteClose" position="right"/>
             <speak chara="_Bianka">It's surrounding the entire coastline!</speak>
             <show chara="biankaBiteClose" position="right" opacity="0.8"/>
