@@ -29,89 +29,82 @@
             <goto goto="20" change="#000000"/>
         </scene>
         <scene id="20" background="submarineCabinBlurDeep.jpg">
-            <!-- 
-                Bianka wakes up and greets Shakespeare. 
-                She claims Valkyrie are trained to be able to sleep well under any circumstances, but that isn't what exactly Rita told her. 
-                She falls asleep with her head buried in the pillows, she kicks the sheets out of the bed at least five times throughout the night and when you think she's done you find out the sheets are drenched in saliva. 
-                Bianka wants to die of embarrassment. Shakespeare suggest she should ask Rita why she told her those things. 
-                Rita brought breakfast to smoothly switch the topic to how good it tastes and make Bianka forgive her for it. 
-            -->
             <bgm src="peerGynt.mp3" status="start"></bgm>
             <show chara="shakesSmileClose" position="left"/>
-            <speak chara="_Shakespeare">哟，早上好。</speak>
+            <speak chara="_Shakespeare">Hey. Good morning.</speak>
             <show chara="shakesLaughClose" position="left"/>
-            <speak chara="_Shakespeare">在这个与自然隔绝的船舱里，想保持早睡早起其实还蛮困难的。</speak>
+            <speak chara="_Shakespeare">Going to bed and getting up early can be difficult in a ship isolated from the outside world.</speak>
             <show chara="shakesLaughClose" position="left" opacity="0.8"/>
             <show chara="biankaSighClose" position="right"/>
-            <speak chara="_Bianka">嘛，对于闹钟响了十遍才爬起来的船长来说，大概的确是这样吧？</speak>
+            <speak chara="_Bianka">Well, that might be true for the captain who went through 10 alarms before waking up.</speak>
             <show chara="biankaProudClose" position="right"/>
-            <speak chara="_Bianka">当然，任何一个合格的女武神，都不可能会因为作息上的不良习惯而让同伴产生困扰！</speak>
+            <speak chara="_Bianka">Us Valkyries are trained in a way our life rhythm will not disrupt those around us!</speak>
             <show chara="biankaProudClose" position="right" opacity="0.8"/>
             <show chara="shakesSmileClose" position="left"/>
-            <speak chara="_Shakespeare">但是，我从丽塔小姐那里听来的，可似乎有点不一样啊？</speak>
+            <speak chara="_Shakespeare">Is that so? Quite different from what Rita-san told me.</speak>
             <show chara="shakesSmileClose" position="left" opacity="0.8"/>
             <show chara="biankaProudClose" position="right"/>
-            <speak chara="_Bianka">……</speak>
-            <speak chara="_Bianka">…………</speak>
+            <speak chara="_Bianka">...</speak>
+            <speak chara="_Bianka">.....</speak>
             <show chara="biancaShyClose" position="right"/>
-            <speak chara="_Bianka">……喂。她、她都说什么了？</speak>
+            <speak chara="_Bianka">...Wait. What did you hear?</speak>
             <show chara="biancaShyClose" position="right" opacity="0.8"/>
             <show chara="shakesLaughClose" position="left"/>
-            <speak chara="_Shakespeare">她也没说什么啊？只不过是——</speak>
+            <speak chara="_Shakespeare">Nothing big. Just...</speak>
             <show chara="shakesBagaLeftClose" position="left"/>
-            <speak chara="_Shakespeare">“睡着睡着脑袋被枕头埋起来了”啊——</speak>
+            <speak chara="_Shakespeare">When you sleep you put your head under the pillow——</speak>
             <show chara="shakesBagaRightClose" position="left"/>
-            <speak chara="_Shakespeare">“一夜里被子会被踢下床五次”啊——</speak>
+            <speak chara="_Shakespeare">You kick the sheets out of the bed at least 5 times throughout the night——</speak>
             <show chara="shakesBagaLeftClose" position="left"/>
-            <speak chara="_Shakespeare">“终于不乱滚了，早上醒来却发现口水把床单都湿透了”啊——</speak>
+            <speak chara="_Shakespeare">And when it seems you're done one finds the sheets are drenched in saliva——</speak>
             <show chara="shakesBagaLeftClose" position="left" opacity="0.8"/>
             <show chara="biankaBiteClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">停！停！停！</speak>
+            <speak chara="_Bianka">Stop! Don't say anything else!!</speak>
             <show chara="biankaChayaoClose" position="right"/>
-            <speak chara="_Bianka">为什么她会给你讲——不对，为什么她会给你胡扯这种不存在的事情啊！</speak>
+            <speak chara="_Bianka">Why did she share so—— I mean, why did she tell you so many lies!?</speak>
             <show chara="biankaChayaoClose" position="right" opacity="0.8"/>
             <show chara="shakesLaughClose" position="left"/>
-            <speak chara="_Shakespeare">哈哈哈哈！这个，你难道不应该去问她本人吗？</speak>
+            <speak chara="_Shakespeare">Ahahaha! Better ask her yourself!</speak>
             <show chara="shakesLaughClose" position="left" opacity="0.8"/>
             <show chara="biankaAngryClose" position="right"/>
-            <speak chara="_Bianka">唔唔唔唔唔唔唔……</speak>
+            <speak chara="_Bianka">Ugh...!!!</speak>
             <show chara="biankaAngryClose" position="right" opacity="0.8"/>
             <show chara="rita17SquintClose" position="left"/>
-            <speak chara="_Rita">比安卡大人、莎士比亚船长，打搅了。</speak>
+            <speak chara="_Rita">Bianka-sama, Shakespeare-san, I apologize for interrupting your conversation.</speak>
             <show chara="rita17SmileClose" position="left"/>
-            <speak chara="_Rita">这是今天的早餐：主食是鲸脂炸面包片，配菜是培根煎蛋、腌芦笋煎虾仁、苹果沙拉，汤品是奶油蘑菇浓汤——</speak>
+            <speak chara="_Rita">Today's breakfast is fried bread made with whale fat, bacon egg, fried shrimp and asparagus, apple salad and a mushroom cream soup——</speak>
             <show chara="rita17SquintClose" position="left"/>
-            <speak chara="_Rita">——请慢用。</speak>
+            <speak chara="_Rita">——Please enjoy.</speak>
             <show chara="rita17SquintClose" position="left" opacity="0.8"/>
             <show chara="biankaHesitateClose" position="right"/>
-            <speak chara="_Bianka">（可恶，完美地无视了刚才的话题！可是……）</speak>
+            <speak chara="_Bianka">(Grrr... she changed the topic so smoothly! But...)</speak>
             <show chara="biancaShyClose" position="right"/>
-            <speak chara="_Bianka">……闻起来好香！</speak>
+            <speak chara="_Bianka">...this looks delicious!</speak>
             <show chara="biankaConfidentClose" position="right"/>
-            <speak chara="_Bianka">（咀嚼咀嚼）</speak>
+            <speak chara="_Bianka">(munch munch)</speak>
             <show chara="biankaChayaoClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">这、这个油炸面包超好吃啊？！！</speak>
+            <speak chara="_Bianka">T-This fried bread is delicious!!</speak>
             <show chara="biankaProudClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">丽塔，你怎么这么能干的？</speak>
+            <speak chara="_Bianka">Rita, aren't you a little too good at this!?</speak>
             <show chara="biankaProudClose" position="right" opacity="0.8"/>
             <show chara="rita17SmileClose" position="left"/>
-            <speak chara="_Rita">能得到比安卡大人的称赞，是我的荣幸。</speak>
+            <speak chara="_Rita">I'm honored by your praise, Bianka-sama.</speak>
             <show chara="rita17SmileClose" position="left" opacity="0.8"/>
             <show chara="biancaShyClose" position="right"/>
-            <speak chara="_Bianka">……不、不要以为这样贿赂我，我、我就原谅你了啊？</speak>
+            <speak chara="_Bianka">...D-Don't think I-I'm letting you off the hook just yet.</speak>
             <show chara="biankaBiteClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">随、随便和别人讲队长的私生活那是不好的！知道了吗，副官？！</speak>
+            <speak chara="_Bianka">D-Don't go babbling about your leader's private life to strangers! Is that clear, adjutant?</speak>
             <show chara="biankaBiteClose" position="right" opacity="0.8"/>
             <show chara="rita17SquintClose" position="left"/>
-            <speak chara="_Rita">噗，丽塔会铭记在心的。</speak>
+            <speak chara="_Rita">Hehe. I will keep it in mind.</speak>
             <show chara="rita17SquintClose" position="left" opacity="0.8"/>
             <show chara="biankaShoutClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">……明明看起来根本就不打算记住吧？！</speak>
+            <speak chara="_Bianka">...Geez! You have no intention of listening to me!</speak>
             <goto goto="30" clockwise="1"/>
         </scene>
         <scene id="30" background="submarineCabinBlurSunset.jpg">
@@ -284,39 +277,34 @@
             <goto goto="60" clockwise="1"/>
         </scene>
         <scene id="60" background="alexandriaLighthouse.jpg">
-            <!-- 
-                Bianca and Jimmy's date starts. Soon after entering Alexandria they meet a little red robot. 
-                He's a policeman and needs Bianka to complete the city's registration form. 
-                Jimmy is already registered so he doesn't have to. 
-            -->
             <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
             <show chara="biankaSneerClose" position="right"/>
-            <speak chara="_Bianka">好了，算是上岸了。这座城市的管理还真是随便啊，连个摆摆样子的海关都没有。</speak>
+            <speak chara="_Bianka">We're finally on land again. The management of this place is sloppy, no one asked us for clearance.</speak>
             <show chara="biankaSneerClose" position="right" opacity="0.8"/>
             <show chara="wattSighClose" position="left"/>
-            <speak chara="_Watt">唔……那、那个……关于这座城市的管理方式——</speak>
+            <speak chara="_Watt">U-Umm... about the management——</speak>
             <show chara="wattSurpriseClose" position="left"/>
-            <speak chara="_Watt">——啊，已经来了。</speak>
+            <speak chara="_Watt">——Ah, they're here.</speak>
             <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
             <show chara="biankaAngryClose" position="right"/>
-            <speak chara="_Bianka">什么来了？你能不能把话说清——</speak>
+            <speak chara="_Bianka">What came here? Please be clear——</speak>
             <show chara="biankaAngryClose" position="right" opacity="0.8"/>
             <show chara="mailboxFar" position="left"/>
-            <speak chara="_mechineRed">詹姆斯·瓦特先生，以及不知名的小姐——欢迎光临亚历山德里亚。</speak>
+            <speak chara="_mechineRed">Welcome to Alexandria—— James Watt-san and unnamed young lady.</speak>
             <show chara="mailboxFar" position="left" opacity="0.8"/>
             <show chara="biankaSurpriseClose" position="right"/>
-            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">.....</speak>
             <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
             <show chara="mailboxClose" position="left"/>
-            <speak chara="_mechineRed">不知名的小姐，本机是这座城市的警察。由于您是初次来到本市，本机需要您录入一些基本信息。</speak>
+            <speak chara="_mechineRed">Young lady, I am the police of this city. For your first visit you are required to enter various basic information.</speak>
             <show chara="mailboxClose" position="left" opacity="0.8"/>
             <show chara="biankaProudClose" position="right"/>
-            <speak chara="_Bianka">哈。所以这就是你想说的“管理方式”喽，吉米？</speak>
+            <speak chara="_Bianka">Oh, so this is what you were talking about, Jimmy.</speak>
             <show chara="biankaProudClose" position="right" opacity="0.8"/>
             <show chara="wattRelievedClose" position="left"/>
-            <speak chara="_Watt">是、是的！很厉害吧！！</speak>
+            <speak chara="_Watt">Y-Yeah! Amazing, isn't it!?</speak>
             <show chara="mailboxClose" position="left"/>
-            <speak chara="_policeRed">请您录入基本信息。</speak>
+            <speak chara="_policeRed">Please enter the required information.</speak>
             <show chara="mailboxClose" position="left" opacity="0.8"/>
             <show chara="biankaConfidentClose" position="right"/>
             <!-- RENAME: Name: Bianka Atagina -->
@@ -627,15 +615,15 @@
             <show chara="beaconClose" position="center"/>
             <speak chara="_guideLighthouse">Input confirmed. Starting tour.</speak>
             <show chara="beaconFar" position="center"/>
-            <speak chara="_guideLighthouse">We are now in the heart of the bay area: for travellers, this is a good area for souvenirs.</speak> <!-- zklm -->
-            <speak chara="_guideLighthouse">The harbor isn't just full of stores, it's also a duty-free area: you can buy high quality goods at low prices.</speak> <!-- zklm -->
-            <speak chara="_guideLighthouse">Today's recommendations：rice noodles and chiffon cakes from 「Nile River Orchard」, canned sea urchins from 「Memories of Nicosia」, and glass crafts from 「Copenhagen Mermaid」! Welcome!</speak> <!-- zklm -->
+            <speak chara="_guideLighthouse">This is the central square of the Harbor District. It's a great place for travelers to buy souvenirs.</speak>
+            <speak chara="_guideLighthouse">Many different stores can be found here and this zone is also a tax-free area. You will be able to find high quality products at a reasonable price.</speak>
+            <speak chara="_guideLighthouse">Today we recommend Rice Flour Chiffon Cake from 「Nile River Orchard」, canned Sea Urchin from 「Memories of Nicosia」, and glass art from 「Copenhagen's Mermaid」.</speak>
             <hide position="center"></hide>
             <show chara="biankaAngryClose" position="right"/>
-            <speak chara="_Bianka">It speaks like a salesman...</speak> <!-- zklm -->
+            <speak chara="_Bianka">He... sounds like a salesman.</speak>
             <show chara="biankaAngryClose" position="right" opacity="0.8"/>
             <show chara="thalesEmbarrassedClose" position="left"/>
-            <speak chara="_Thales">Oops, it is a commercial city after all. Forgive me?</speak> <!-- zklm -->
+            <speak chara="_Thales">Well, this is a commercial city after all, please overlook it.</speak>
             <show chara="thalesProudClose" position="left"/>
             <speak chara="_Thales">Speaking of products—— Do you know what's the aesthetic difference between food, clothing and buildings?</speak>
             <show chara="thalesProudClose" position="left" opacity="0.8"/>
@@ -718,19 +706,14 @@
             <goto goto="100" clockwise="1"/>
         </scene>
         <scene id="100" background="alexandriaCityHall.jpg">
-            <!-- 
-                The party arrived at the City Hall. The City Hall of Alexandria was established in the first year of the Republican Calendar 165 years ago. 
-                The place was confiscated from its owner by a group of pirate revolutionaries and then was used by the City Administration Group and the Public Council. 
-                It was built with a Greek style in mind, there are statues of various important figures such as Aristotle, Alexander The Great, Solon, Pericles, Leonidas I, Spartacus, Gracchus, Caesar, Cicero and Augustus. 
-            -->
             <bgm src="12_29_busyHarbor.mp3" status="continue"></bgm>
             <show chara="thalesSmileClose" position="right"/>
-            <speak chara="_Thales">这里就是我们刚才提到的“市政厅”了。来听听机器人是怎么介绍的吧？</speak>
+            <speak chara="_Thales">This is the 「City Hall」 mentioned earlier. Hear more about it from the robot.</speak>
             <show chara="thalesSmileClose" position="right" opacity="0.8"/>
             <show chara="beaconFar" position="left"/>
-            <speak chara="_guideLighthouse">亚历山德里亚的市政厅建立于165年之前的共和历元年，由革命者没收僭主的财产建成，随后兼用作立法机关“公决会议”、行政机关“城市管理协会”的办公场所。</speak>
-            <speak chara="_guideLighthouse">市政厅采用希腊风格的设计，其拱桥两侧分列有外部世界的伟人雕像，分别是亚里士多德、亚历山大大帝、梭伦、伯里克利、列奥尼达一世，以及斯巴达克斯、格拉古、凯撒、西塞罗、奥古斯都。</speak>
-            <speak chara="_guideLighthouse">如果您希望进一步了解他们中的某一位，请将雕像下的编号输入本机，本机可以提供详细的讲解说明。</speak>
+            <speak chara="_guideLighthouse">The City Hall of Alexandria was established 165 years ago in the Year 1 of the Republic Calendar, it was confiscated from its previous owner by a group of revolutionaries. Since then the building has been the headquarters of the legislature 「Public Council」 and the executive branch 「City Administration Group」.</speak>
+            <speak chara="_guideLighthouse">It was built with a Greek style in mind, and both sides of the arch are decorated with statues of important figures of the outside world such as Aristotle, Alexander The Great, Solon, Pericles, Leonidas I, Spartacus, Gracchus, Caesar, Cicero and Augustus.</speak>
+            <speak chara="_guideLighthouse">Those who wish to hear a more detailed explanation about any of them, please input the number below the statue.</speak>
             <show chara="beaconFar" position="left" opacity="0.8"/>
             <show chara="biankaHesitateClose" position="right"/>
             <speak chara="_Bianka">I'm more interested in that 「Public Council」 rather than in those extraordinary people right now. Such a strange name.</speak>
@@ -782,17 +765,10 @@
         <scene id="110" background="alexandriaLibraryYard.jpg">
             <bgm src="12_29_street.mp3" status="start"></bgm>
             <show chara="beaconClose" position="center"/>
-            <!-- 
-                The party arrived at the Great Library. 
-                In the second year of the Republic Calendar it was converted into a scientific research institute. 
-                The citizens of Alexandria value scientific innovation so much the Great Library has the same government status as the Public Council and the City Administration Group. 
-                Although it has Asian elements on the outside, the interior has a Greek style similar to the City Hall. 
-                The connection between the two styles is a rare example of architectural transformation. 
-            -->
-            <speak chara="_guideLighthouse">“大图书馆”过去是僭主的私人博物馆，最早则可以追溯到蛮荒时期的城市神庙。在共和历二年，它被改建为科学研究与普及机关。</speak>
-            <speak chara="_guideLighthouse">亚历山德里亚的市民们非常重视科学创新在整个社会发展中的地位，他们给予了“大图书馆”与“公决会议”、“城市管理协会”同等的政府地位。在机器人公务员普及之后，“大图书馆”又合并了“审判庭”的职能，成为了城市权力结构中极为重要的一极。</speak>
-            <speak chara="_guideLighthouse">大图书馆的建筑外观虽然包含了浓郁的亚洲元素，但其内部装潢其实与市政厅类似，都是共和历早期规划确定的希腊风格。</speak>
-            <speak chara="_guideLighthouse">虽然同一建筑的内外使用了两种截然不同的艺术流派：但令人惊奇的是，两者的衔接极为自然，是建筑改造中不可多得的优秀范例。</speak>
+            <speak chara="_guideLighthouse">The 「Great Library」 was once the personal museum of a previous ruler. Its origin can be traced back to an ancient temple. In the Year 2 of the Republic Calendar it was rebuilt as a scientific research institute.</speak>
+            <speak chara="_guideLighthouse">The citizens of Alexandria believe science to be very important. For that reason the 「Great Library」 has been given the same social status as the 「Public Council」 and the 「City Administration Group」. Thanks to the widespread use of robots as public servants, the 「Great Library」 has taken over the duties of the 「courtroom」 and has become a pillar of society as a legal institution.</speak>
+            <speak chara="_guideLighthouse">The external side of the building has been heavily influenced by Asian culture, but the interior remains Greek in style, similar to the 「City Hall」.</speak>
+            <speak chara="_guideLighthouse">The interior and exterior belong to different cultures, but their nature matches so well it can be seen as a rare example of architectural transformation.</speak>
             <speak chara="_guideLighthouse">Use of the Great Library is free to those registered in the city. Outsiders must provide a citizen guarantee or make a payment in advance.</speak>
             <hide position="center"></hide>
             <show chara="thalesProudClose" position="left"/>

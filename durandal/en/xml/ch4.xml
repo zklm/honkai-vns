@@ -59,128 +59,128 @@
             -->
             <bgm src="11_29_lab.mp3" status="start"></bgm>
             <show chara="shakesSmileClose" position="left"/>
-            <speak chara="_Shakespeare">怎么样？这次的漂流幸存者是个什么人？</speak>
+            <speak chara="_Shakespeare">Well? What kind of person was our new drifter?</speak>
             <show chara="shakesSmileClose" position="left" opacity="0.8"/>
             <show chara="ironWhiteClose" position="right"/>
-            <speak chara="_Ironface">“飞行员”。操纵机械翱翔于蓝天的一种职业。</speak>
+            <speak chara="_Ironface">He's a 「Pilot」. Someone who operates machines that fly in the sky.</speak>
             <show chara="ironWhiteClose" position="right" opacity="0.8"/>
             <show chara="shakesLaughClose" position="left"/>
-            <speak chara="_Shakespeare">哇哦！那我们岂不是可以从空中绕开那堵破墙了？</speak>
+            <speak chara="_Shakespeare">Wow! Think we can cross over the wall with one of those?</speak>
             <show chara="shakesLaughClose" position="left" opacity="0.8"/>
             <show chara="lallaSighClose" position="right"/>
-            <speak chara="_Lalla">这个……您最好不要抱太大希望。</speak>
+            <speak chara="_Lalla">About that... It's best if you don't get your hopes up.</speak>
             <show chara="lallaSighClose" position="right" opacity="0.8"/>
             <show chara="shakesQuestionClose" position="left"/>
-            <speak chara="_Shakespeare">……为什么啊？</speak>
+            <speak chara="_Shakespeare">...Why?</speak>
             <show chara="shakesQuestionClose" position="left" opacity="0.8"/>
             <show chara="ironWhiteClose" position="right"/>
-            <speak chara="_Ironface">他的飞行器在试图飞跃“阿斯加德之壁”时受到“神秘力量”的作用，大角度偏离了预定航向。</speak>
-            <speak chara="_Ironface">结合之前做过的鸟类观测，可以认为“壁”的上方确实存在着空间曲率的断层。</speak>
+            <speak chara="_Ironface">We believe his plane was suddenly deviated from its course by a 「mysterious power」 when he tried to fly over the「Wall of Asgard」.</speak>
+            <speak chara="_Ironface">Going by what we know so far, I speculate there is a spatial distortion above the 「wall」.</speak>
             <show chara="ironWhiteClose" position="right" opacity="0.8"/>
             <show chara="shakesConfidentClose" position="left"/>
-            <speak chara="_Shakespeare">……虽然果真听不太懂你在说什么——</speak>
+            <speak chara="_Shakespeare">...I don't get it but——</speak>
             <show chara="shakesSweatyClose" position="left"/>
-            <speak chara="_Shakespeare">就结论来说，你是指“飞行”不能作为突破“墙”的手段，对吧？</speak>
+            <speak chara="_Shakespeare">Basically, 「flying」 won't get us past the 「wall」, correct?</speak>
             <show chara="shakesSweatyClose" position="left" opacity="0.8"/>
             <show chara="ironWhiteClose" position="right"/>
-            <speak chara="_Ironface">是。不过，如果可以在通常的作战中使用飞行器，肯定还是很有利的。</speak>
+            <speak chara="_Ironface">Exactly. That said, his plane can still be of use to us for other purposes.</speak>
             <show chara="ironWhiteClose" position="right" opacity="0.8"/>
             <show chara="wattRelievedClose" position="left"/>
-            <speak chara="_Watt">逆向工程就交给我吧。</speak>
+            <speak chara="_Watt">Leave the repairs to me.</speak>
             <show chara="wattRelievedClose" position="left" opacity="0.8"/>
             <show chara="ironBlueClose" position="right"/>
-            <speak chara="_Ironface">辛苦了。如果需要复杂的计算，尽管找我帮忙。</speak>
+            <speak chara="_Ironface">Thank you. Call me if you need to do any complex calculations.</speak>
             <show chara="ironBlueClose" position="right" opacity="0.8"/>
             <show chara="shakesLaughClose" position="left"/>
-            <speak chara="_Shakespeare">哈哈哈哈，这些细节问题，你们之后可以慢慢协调。</speak>
+            <speak chara="_Shakespeare">Hahahaha, I'll ask you to dumb it down for me later.</speak>
             <show chara="shakesSmileClose" position="left"/>
-            <speak chara="_Shakespeare">当务之急是——有谁能去说服飞行员先生，让他加入我们呢？</speak>
+            <speak chara="_Shakespeare">More importantly—— Our priority is to persuade that pilot and have him join our crew.</speak>
             <show chara="shakesSmileClose" position="left" opacity="0.8"/>
             <show chara="lallaSighClose" position="right"/>
-            <speak chara="_Lalla">的确。他那个样子……与其说是“配合”，还不如说是“意志消沉”。</speak>
+            <speak chara="_Lalla">You're right. Before we can talk about 「cooperation」 we need to get him out of his 「depression」 first.</speak>
             <show chara="ironRedClose" position="right"/>
-            <speak chara="_Ironface">……事先声明，我可没有兴趣去鼓励失魂落魄的小鬼。</speak>
+            <speak chara="_Ironface">...Let me say it now, helping children who lost their will to live is not my job.</speak>
             <show chara="wattScaredClose" position="right"/>
-            <speak chara="_Watt">别、别看着我啊……这、这种事我肯定不擅长……</speak>
+            <speak chara="_Watt">D-Don't count on me either... I'm not g-good at this kind of stuff...</speak>
             <show chara="biankaSneerClose" position="right"/>
-            <speak chara="_Bianka">——那就交给我吧？</speak>
+            <speak chara="_Bianka">——Would you leave it to me, then?</speak>
             <show chara="biankaSneerClose" position="right" opacity="0.8"/>
             <show chara="shakesLaughClose" position="left"/>
-            <speak chara="_Shakespeare">……哇哦。</speak>
+            <speak chara="_Shakespeare">...Unexpected.</speak>
             <show chara="shakesSmileClose" position="left"/>
-            <speak chara="_Shakespeare">你不是刚才还对我满腹狐疑，甚至不愿意收下宝剑“幽兰黛尔”的么？</speak>
+            <speak chara="_Shakespeare">You, the one who was doubting me moments ago and didn't want to take the sword 「Durandal」?</speak>
             <show chara="shakesSmileClose" position="left" opacity="0.8"/>
             <show chara="biankaBiteClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">……这有什么啦！再说，那些事情上我也并没有承认“你就是对的”，好吗？</speak>
+            <speak chara="_Bianka">...That's a separated matter! Also this doesn't mean I accepted that 「you're telling the truth」.</speak>
             <show chara="biankaBiteClose" position="right" opacity="0.8"/>
             <show chara="shakesConfidentClose" position="left"/>
-            <speak chara="_Shakespeare">哦？</speak>
+            <speak chara="_Shakespeare">Oh my.</speak>
             <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
             <show chara="biankaConfidentClose" position="right"/>
-            <speak chara="_Bianka">一码归一码啊。</speak>
+            <speak chara="_Bianka">This is this, that is that.</speak>
             <show chara="biancaShyClose" position="right"/>
-            <speak chara="_Bianka">毕、毕竟坐在你们的船上——</speak>
+            <speak chara="_Bianka">Y-You let us sail on your ship——</speak>
             <show chara="biankaConfidentClose" position="right"/>
-            <speak chara="_Bianka">——如果能还回去一些人情，那不也挺好吗？</speak>
+            <speak chara="_Bianka">——There is nothing wrong with wanting to repay the favor, right?</speak>
             <show chara="biankaSighClose" position="right"/>
-            <speak chara="_Bianka">而且，那个人自称是军人吧？还是个来自第一次世界大战末期的死硬脑袋小贵族，什么“王牌飞行员”。</speak>
+            <speak chara="_Bianka">Also, I heard he was a soldier. Not a regular one either, but an aristocrat stubborn 「Ace Pilot」 from the end of World War I.</speak>
             <show chara="biankaProudClose" position="right"/>
-            <speak chara="_Bianka">这样的人，比起跟你们“海盗”，肯定更愿意和我这样的“王牌女武神”说话吧？</speak>
+            <speak chara="_Bianka">Then it's obvious it would be better if an 「Ace Valkyrie」 talks to him rather than a 「Pirate」!</speak>
             <show chara="biankaProudClose" position="right" opacity="0.8"/>
             <show chara="shakesLaughClose" position="left"/>
-            <speak chara="_Shakespeare">哈哈哈哈哈哈！</speak>
+            <speak chara="_Shakespeare">Hahahahaha!</speak>
             <show chara="shakesSmileClose" position="left"/>
-            <speak chara="_Shakespeare">好玩儿！有意思！</speak>
+            <speak chara="_Shakespeare">As expected! You're truly interesting!</speak>
             <show chara="shakesLaughClose" position="left"/>
-            <speak chara="_Shakespeare">哈哈哈哈哈哈！</speak>
+            <speak chara="_Shakespeare">Hahahahaha!</speak>
             <show chara="shakesLaughClose" position="left" opacity="0.8"/>
             <show chara="biankaHesitateClose" position="right"/>
-            <speak chara="_Bianka">哼，你可别小看我。</speak>
+            <speak chara="_Bianka">Hmph. Please don't underestimate me.</speak>
             <show chara="biankaSneerClose" position="right"/>
-            <speak chara="_Bianka">至少在消灭了多少敌人这件事情上——我想我还是会和他有一点共同语言的。</speak>
+            <speak chara="_Bianka">At least we should be able to understand each other—— As soldiers who have defeated many enemies.</speak>
             <show chara="biankaProudClose" position="right"/>
-            <speak chara="_Bianka">总之……</speak>
-            <speak chara="_Bianka">丽塔，先去给这人准备点好吃的！高热量，看着就让人流口水的那种！</speak>
+            <speak chara="_Bianka">Anyway...</speak>
+            <speak chara="_Bianka">Rita, please make something delicious! A high calorie dish that would make someone drool just by looking at it!</speak>
             <show chara="biankaProudClose" position="right" opacity="0.8"/>
             <show chara="rita17SquintClose" position="left"/>
-            <speak chara="_Rita">遵命，比安卡大人。</speak>
+            <speak chara="_Rita">Understood, Bianka-sama.</speak>
             <goto goto="60" clockwise="1"/>
         </scene>
         <scene id="60" background="submarineCabinBlurDeep.jpg">
             <bgm src="12_14_moonLight.mp3" status="start"></bgm>
             <show chara="manfredQuestionClose" position="left"/>
-            <text>The man was worried, staring at the meat in front of him.</text>
+            <text>A clean and well groomed man is staring silently at the dark red meat in front of him.</text>
             <show chara="manfredQuestionClose" position="left" opacity="0.8"/>
             <show chara="biankaConfidentClose" position="right"/>
             <!-- TODO -->
-            <speak chara="_Bianka">这是“鲸排”。</speak>
+            <speak chara="_Bianka">It's 「whale steak」.</speak>
             <show chara="biankaProudClose" position="right"/>
-            <speak chara="_Bianka">不趁热吃的话，可是会变腻的。</speak>
+            <speak chara="_Bianka">Eat it while it's hot or it'll lose its good taste.</speak>
             <show chara="biankaProudClose" position="right" opacity="0.8"/>
             <show chara="manfredColdClose" position="left"/>
-            <speak chara="_ManfredNoName">……</speak>
+            <speak chara="_ManfredNoName">.....</speak>
             <show chara="manfredColdClose" position="left" opacity="0.8"/>
             <show chara="biankaConfidentClose" position="right"/>
-            <speak chara="_Bianka">虽然准确的品种并不是抹香鲸、露脊鲸、长须鲸这些很多人都知道的类别就是啦。</speak>
+            <speak chara="_Bianka">This steak is not made from any whale we know of like sperm whale, right whale or fin whale.</speak>
             <show chara="biankaConfidentClose" position="right" opacity="0.8"/>
             <show chara="manfredQuestionClose" position="left"/>
-            <speak chara="_ManfredNoName">……</speak>
+            <speak chara="_ManfredNoName">.....</speak>
             <show chara="manfredQuestionClose" position="left" opacity="0.8"/>
             <show chara="biankaProudClose" position="right"/>
-            <speak chara="_Bianka">没有其他海产品的腥味，嫩而不散、肥而不腻，比小牛肉还好吃的——“鲸排”！</speak>
+            <speak chara="_Bianka">It doesn't have that fishy smell other seafood has and the meat is tender and juicy. This 「whale steak」 is—— More delicious than any beef stake!</speak>
             <show chara="biankaProudClose" position="right" opacity="0.8"/>
             <show chara="manfredColdClose" position="left"/>
-            <speak chara="_ManfredNoName">……不。</speak>
+            <speak chara="_ManfredNoName">..I'll pass.</speak>
             <show chara="manfredColdClose" position="left" opacity="0.8"/>
             <show chara="biankaBiteClose" position="right"/>
-            <speak chara="_Bianka">……啊？你尝都没尝——</speak>
+            <speak chara="_Bianka">...Oh? You still don't want to eat it even after learning that——</speak>
             <show chara="manfredSeriousClose" position="left"/>
-            <speak chara="_ManfredNoName">我是说！……我只是自己没有胃口罢了。</speak>
+            <speak chara="_ManfredNoName">Get it already! ...I don't have any appetite.</speak>
             <show chara="manfredSeriousClose" position="left" opacity="0.8"/>
             <show chara="biankaShoutClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">What?</speak>
+            <speak chara="_Bianka">Excuse me?</speak>
             <show chara="biankaSurpriseClose" position="right"/>
             <speak chara="_Bianka">You were saved from such extreme conditions—— Yet you don't have any appetite?</speak>
             <show chara="biankaSighClose" position="right"/>
@@ -202,7 +202,8 @@
             <speak chara="_ManfredNoName">.....</speak>
             <show chara="manfredAngryClose" position="left" opacity="0.8"/>
             <show chara="biankaSneerClose" position="right"/>
-            <speak chara="_Bianka">Do you intent to remain anonymous in front of the people who saved you?</speak>
+            <!-- TYPO: Do you intent to remain anonymous in front of the people who saved you? -->
+            <speak chara="_Bianka">Do you intend to remain anonymous in front of the people who saved you?</speak>
             <show chara="biankaSneerClose" position="right" opacity="0.8"/>
             <show chara="manfredAngryClose" position="left"/>
             <speak chara="_ManfredNoName">.....</speak>
@@ -289,7 +290,8 @@
         </scene>
         <scene id="80" background="benghuai0.jpg">
             <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
-            <speak chara="_Bianka">That is the Houkai——A natural disaster specialized in killing.</speak>
+            <!-- RENAME: That is the Houkai——A natural disaster specialized in killing. -->
+            <speak chara="_Bianka">That is the Honkai——A natural disaster specialized in killing.</speak>
             <goto goto="90" change="0"/>
         </scene>
         <scene id="90" background="benghuai1.jpg">
@@ -309,12 +311,14 @@
         </scene>
         <scene id="120" background="benghuai4.jpg">
             <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
-            <speak chara="_Bianka">The Houkai won't stop until our civilization is completely destroyed.</speak>
+            <!-- RENAME: The Houkai won't stop until our civilization is completely destroyed. -->
+            <speak chara="_Bianka">The Honkai won't stop until our civilization is completely destroyed.</speak>
             <goto goto="130" change="#000000"/>
         </scene>
         <scene id="130" background="12_12_blackCloud.jpg">
             <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
-            <speak chara="_Bianka">From what I've been told... I'm the survivor of a Houkai attack.</speak>
+            <!-- RENAME: From what I've been told... I'm the survivor of a Houkai attack. -->
+            <speak chara="_Bianka">From what I've been told... I'm the survivor of a Honkai attack.</speak>
             <speak chara="_Bianka">——One of the few survivors among hundreds of millions of dead.</speak>
             <speak chara="_Bianka">But that has no effect on me. After all, I have no memory of any of that.</speak>
             <speak chara="_Bianka">As far as I know, 「Bianka」 has always been alone.</speak>

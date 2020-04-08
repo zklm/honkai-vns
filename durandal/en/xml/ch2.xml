@@ -131,44 +131,38 @@
         <scene id="90" background="submarineCorridor.jpg">
             <bgm src="legion.mp3" status="continue"></bgm>
             <show chara="biankaSeriousClose" position="left"/>
-            <!-- 
-				The mechanical design of the ship seems late 19th or early 20th century. 
-		  		Bianka asked Lalla where this ship came from since apparently Jimmy isn't good at talking. 
-		  		She'll let the captain explain it instead, can't go stealing her spotlight. 
-		  		She's waiting for them in the bridge. 
-		  	-->
-            <speak chara="_Bianka">The mechanical design of the ship seems late 19th or early 20th century.</speak>
+            <speak chara="_Bianka">Late 19th and early 20th century designs...</speak>
             <show chara="biankaSneerClose" position="left"/>
-            <speak chara="_Bianka">...Where did this ship come from?</speak>
+            <speak chara="_Bianka">...Where did this 「amphibious ship」 came from?</speak>
             <show chara="biankaSneerClose" position="left" opacity="0.8"/>
             <show chara="lallaSighClose" position="right"/>
-            <speak chara="_Lalla">Are you... asking me?</speak>
+            <speak chara="_Lalla">Err... are you asking me?</speak>
             <show chara="lallaSighClose" position="right" opacity="0.8"/>
             <show chara="biankaBiteClose" position="left"/>
-            <speak chara="_Bianka">Who else should I ask? Your pilot doesn't seem to speak well.</speak>
+            <speak chara="_Bianka">Who else? Your engineer doesn't seem to be able to hold a conversation, there is no use in asking him.</speak>
             <show chara="biankaBiteClose" position="left" opacity="0.8"/>
             <show chara="lallaSmileClose" position="right"/>
-            <speak chara="_Lalla">Pff.. Jimmy's actually very talkative—— you're just not familiar yet, right?</speak>
+            <speak chara="_Lalla">Hehe... Jimmy loves to talk—— But he's not confident enough around you yet. Right?</speak>
             <show chara="wattShyClose" position="right"/>
-            <speak chara="_Watt">Um.. well. Yeah, probably.</speak>
+            <speak chara="_Watt">Y-Yeah... I-I think so.</speak>
             <show chara="wattShyClose" position="right" opacity="0.8"/>
             <show chara="biankaBiteClose" position="left"/>
-            <speak chara="_Bianka">...So where did your submarine come from?</speak>
+            <speak chara="_Bianka">...So, where did this submarine came from?</speak>
             <show chara="biankaShoutClose" position="left"/>
-            <speak chara="_Bianka">Looking at your dress, does it really look like 20th century attire?</speak>
+            <speak chara="_Bianka">Going by your clothes you don't look like you're from the 20th century to me.</speak>
             <show chara="biankaShoutClose" position="left" opacity="0.8"/>
             <show chara="lallaNormalClose" position="right"/>
-            <speak chara="_Lalla">It really isn't.</speak>
+            <speak chara="_Lalla">Yes, we actually aren't.</speak>
             <show chara="lallaSighClose" position="right"/>
-            <speak chara="_Lalla">However, you don't have be so worried——</speak>
+            <speak chara="_Lalla">But don't be in such a rush——</speak>
             <show chara="lallaSmileClose" position="right"/>
-            <speak chara="_Lalla">The captain can answer your questions later—— I don't want to steal her spotlight.</speak>
+            <speak chara="_Lalla">From now on the captain will answer all your question—— I can't go stealing the spotlight from her.</speak>
             <show chara="lallaSmileClose" position="right" opacity="0.8"/>
             <show chara="biankaBiteClose" position="left"/>
             <speak chara="_Bianka">...</speak>
             <show chara="biankaBiteClose" position="left" opacity="0.8"/>
             <show chara="lallaSmileClose" position="right"/>
-            <speak chara="_Lalla">Come on, the captain's already waiting for us on the bridge.</speak>
+            <speak chara="_Lalla">Come, the captain is waiting for you at the bridge.</speak>
             <bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
             <goto goto="100" clockwise="1"/>
         </scene>
@@ -302,56 +296,58 @@
             <show chara="ironWhiteClose" position="right"/>
             <speak chara="_Ironface">.....</speak>
             <show chara="shakesDisgustedClose" position="right"/>
-            <!-- 
-				Shakespeare laughs. What "Iron Mask" told her was true. 
-				She told her in another world there is some kind of energy called "Houkai", and that it brings suffering to that world. 
-				An organization called "Destiny" rose up to fight against that threat. 
-				The main force of said organization are female soldiers called Valkyrie, who have resistance to this so called Houkai energy. 
-				In that world the Valkyries fight monsters to protect humanity. 
-			-->
-            <speak chara="_Shakespeare">Schicksal? Valkyries? What are those?</speak>
+            <!-- RENAME: ...「Destiny」? 「Valkyrie」? What's that? -->
+            <speak chara="_Shakespeare">...「Schicksal」? 「Valkyrie」? What's that?</speak>
             <show chara="shakesDisgustedClose" position="right" opacity="0.8"/>
             <show chara="biankaProudClose" position="left"/>
-            <speak chara="_Bianka">...what?</speak>
+            <speak chara="_Bianka">...Huh?</speak>
             <show chara="biankaProudClose" position="left" opacity="0.8"/>
             <show chara="shakesLaughClose" position="right"/>
-            <speak chara="_Shakespeare">Hahahaha!</speak>
+            <speak chara="_Shakespeare">Ahahahahaha!</speak>
             <show chara="shakesLaughClose" position="right" opacity="0.8"/>
             <show chara="rita17NormalClose" position="left"/>
             <speak chara="_Rita">...?</speak>
             <show chara="ironWhiteClose" position="left" opacity="0.8"/>
             <show chara="shakesSmileClose" position="right"/>
-            <speak chara="_Shakespeare">你所言果然不虚啊，我亲爱的大副“先生”！</speak>
+            <speak chara="_Shakespeare">It seems your words were true, my dear adjutant, or should I say “teacher”!</speak>
             <show chara="shakesLaughClose" position="right"/>
             <speak chara="_Shakespeare">Ahahahaha!</speak>
             <show chara="shakesLaughClose" position="right" opacity="0.8"/>
             <show chara="ironRedClose" position="left"/>
-            <speak chara="_Ironface">……剧团长，您失态了。</speak>
+            <speak chara="_Ironface">...Director, have some moderation.</speak>
             <show chara="biankaBiteClose" position="left"/>
-            <speak chara="_Bianka">喂！</speak>
-            <speak chara="_Bianka">你倒底在故弄玄虚些什么啊，红色的矮子？！</speak>
+            <speak chara="_Bianka">Hey!</speak>
+            <!-- RENAME: What is this red haired shorty saying!? How can you not know Destiny? -->
+            <speak chara="_Bianka">What is this red haired shorty saying!? How can you not know Schicksal?</speak>
             <show chara="biankaBiteClose" position="left" opacity="0.8"/>
             <show chara="shakesDisgustedClose" position="right"/>
-            <speak chara="_Shakespeare">啧。骂人可不好哦，小妹妹。</speak>
+            <speak chara="_Shakespeare">Oh my. Don't scold me, young lady.</speak>
             <show chara="shakesConfidentClose" position="right"/>
-            <speak chara="_Shakespeare">……让我这么说吧。</speak>
+            <speak chara="_Shakespeare">What I'm saying... is the truth.</speak>
             <show chara="shakesSmileClose" position="right"/>
-            <speak chara="_Shakespeare">起初，我完全不知道你所说的“天命”是个怎样的存在。</speak>
+            <!-- RENAME: I've never met any 「Destiny」 and there is no one who goes by that name here. -->
+            <speak chara="_Shakespeare">I've never met any 「Schicksal」 and there is no one who goes by that name here.</speak>
             <show chara="shakesSmileClose" position="right" opacity="0.8"/>
             <show chara="biankaBiteClose" position="left"/>
-            <speak chara="_Bianka">……什么？</speak>
+            <speak chara="_Bianka">...What!?</speak>
             <show chara="biankaBiteClose" position="left" opacity="0.8"/>
             <show chara="shakesColdClose" position="right"/>
-            <speak chara="_Shakespeare">——但是这位“铁面人”告诉过我。</speak>
-            <speak chara="_Shakespeare">她说，在某些异世界里，有一种名为“崩坏”的能量异常充盈。</speak>
+            <speak chara="_Shakespeare">——But I know a little about them thanks to what 「Iron Mask」 told me.</speak>
+            <!-- RENAME: There are many worlds out there who are unusually full of an energy called 「Houkai」—— -->
+            <speak chara="_Shakespeare">There are many worlds out there who are unusually full of an energy called 「Honkai」——</speak>
             <show chara="shakesQuestionClose" position="right"/>
-            <speak chara="_Shakespeare">嗯……差不多就是魔法世界的感觉吧。</speak>
+            <speak chara="_Shakespeare">Ah~ Is it some kind of magical world?</speak>
             <show chara="shakesColdClose" position="right"/>
-            <speak chara="_Shakespeare">特别地，受“崩坏”的影响，有一个世界魔物泛滥，承受了极其深重的苦难——</speak>
-            <speak chara="_Shakespeare">——而面对这些苦难，首先挺身而出的，是一个名叫“天命”的组织。</speak>
-            <speak chara="_Shakespeare">“天命”在那个世界中无人不知、无人不晓。</speak>
-            <speak chara="_Shakespeare">它从少女中遴选出能够对抗魔物的超级战士，称之为“女武神”。</speak>
-            <speak chara="_Shakespeare">这些“女武神”能够抵抗“崩坏”的侵蚀，并反过来利用它为人类而战。</speak>
+            <!-- RENAME: Worlds affected by this so called 「Houkai」 are under the constant threat of monsters and calamities—— -->
+            <speak chara="_Shakespeare">Worlds affected by this so called 「Honkai」 are under the constant threat of monsters and calamities——</speak>
+            <!-- RENAME: ——And the one who rose against it is an organization called 「Destiny」. -->
+            <speak chara="_Shakespeare">——And the one who rose against it is an organization called 「Schicksal」.</speak>
+            <!-- RENAME: There is no one who hasn't heard of 「Destiny」 in those worlds. -->
+            <speak chara="_Shakespeare">There is no one who hasn't heard of 「Schicksal」 in those worlds.</speak>
+            <!-- RENAME: To fight against the monsters, Destiny selects women with potential and turns them into soldiers, who they call 「Valkyries」. -->
+            <speak chara="_Shakespeare">To fight against the monsters, Schicksal selects women with potential and turns them into soldiers, who they call 「Valkyries」.</speak>
+            <!-- RENAME: Said 「Valkyries」 can resist the corruption caused by the 「Honkai」, and use its power to fight for humanity. -->
+            <speak chara="_Shakespeare">Said 「Valkyries」 can resist the corruption caused by the 「Honkai」, and use its power to fight for humanity.</speak>
             <show chara="shakesSmileClose" position="right"/>
             <speak chara="_Shakespeare">——Self-proclaimed 「Valkyries」, are those things really true in your world?</speak>
             <show chara="shakesSmileClose" position="right" opacity="0.8"/>
@@ -383,12 +379,14 @@
             <show chara="shakesConfidentClose" position="right"/>
             <speak chara="_Shakespeare">Similar to how the 「Caledonia」 can only carry six torpedoes even after its renovation.</speak>
             <show chara="shakesSmileClose" position="right"/>
-            <speak chara="_Shakespeare">...Or perhaps did the training you've undergone since a young age made it so you can't do anything without 「Houkai」?</speak>
+            <!-- RENAME: ...Or perhaps did the training you've undergone since a young age made it so you can't do anything without 「Houkai」? -->
+            <speak chara="_Shakespeare">...Or perhaps did the training you've undergone since a young age made it so you can't do anything without 「Honkai」?</speak>
             <show chara="shakesSmileClose" position="right" opacity="0.8"/>
             <show chara="biankaShoutClose" position="left"/>
             <speak chara="_Bianka">I'd appreciate if you didn't underestimate me!</speak>
             <show chara="biankaBiteClose" position="left"/>
-            <speak chara="_Bianka">If you go that far... would you like to spar with me? I promise I won't use Houkai energy!</speak>
+            <!-- RENAME: If you go that far... would you like to spar with me? I promise I won't use Houkai energy! -->
+            <speak chara="_Bianka">If you go that far... would you like to spar with me? I promise I won't use Honkai energy!</speak>
             <show chara="biankaBiteClose" position="left" opacity="0.8"/>
             <show chara="shakesLaughClose" position="right"/>
             <speak chara="_Shakespeare">Hahahaha!</speak>
@@ -501,18 +499,12 @@
             <goto goto="130" clockwise="1"/>
         </scene>
         <scene id="130" background="11_15_gallery.jpg">
-            <!-- 
-                Rita repeats to them what the Bishop told them during a briefing. 
-                Their mission is to explore a special structure called "Ether Anchor Point" located within a dimension in the Quantum Sea. 
-                The Quantum Sea doesn't belong to any four dimensional space in particular, instead it's a bunch of "folded worlds" that exist in parallel. 
-                The Ether Anchor is a strange topological formation between the "dimensional manifolds", it could be a natural structure or a machine, there's not enough evidence to say for sure. 
-            -->
             <bgm src="11_16_themeOtto.mp3" status="continue"></bgm>
             <show chara="ottoSuitsKindFar" position="back"/>
             <show chara="memoryLoading" position="center" opacity="0.6"/>
-            <speak chara="_Otto">简而言之，你们的任务，是追踪名为“量子之海”的异次元位面，探索一种叫做“以太锚点”的特殊结构。</speak>
-            <speak chara="_Otto">从数学上概括的话，“量子之海”不属于已知的四维时空，是平行于我们而存在的一大类“折叠位面”；</speak>
-            <speak chara="_Otto" remark="next">而“以太锚点”，则是一种“位面流形”之间的拓扑变换，其实体可能是某种自然结构、甚或人造机械。</speak>
+            <speak chara="_Otto">In simpler terms, your mission is to enter a different dimension called the 「Quantum Sea」 and explore a special structure known as the 「Ether Anchor Point」.</speak>
+            <speak chara="_Otto">Mathematically speaking, the 「Quantum Sea」 doesn't belong to the known four dimensional space, instead our “here” is a 「Parallel World」 that exists in parallel to it.</speak>
+            <speak chara="_Otto" remark="next">The 「Ether Anchor Point」 is a topological formation that exists between the 「dimensional manifolds」, and whether its origin is natural or man-made has yet to be discovered.</speak>
             <remark post="U2FsdGVkX18NMIcI27DMkplacYO6">
                 <p class="article-text-h">Note：</p>
                 <p class="article-text">流形（Manifolds）是局部具有欧几里得性质的空间，是欧几里得空间中的曲线、曲面等概念的推广。一般的流形可以通过把许多平直的“片”“折弯”并“粘连”而成。</p>

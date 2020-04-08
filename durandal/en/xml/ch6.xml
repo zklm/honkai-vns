@@ -42,43 +42,36 @@
             <goto goto="20" clockwise="1"/>
         </scene>
         <scene id="20" background="libraryCenter.jpg">
-            <!-- 
-                Bianka and Thales are searching for Jimmy everywhere, even the bathroom, but they can't find him. 
-                He should be in the lobby if he got immersed reading a book and got left behind, but he's not there either. 
-                Bianka suggest using the radio to call for him, close all doors and search every corner of the library. 
-                Someone timid like him wouldn't go out on his own knowing this city used to sell slaves. 
-                She believes she isn't lost, he must have been kidnapped or something. 
-            -->
             <bgm src="noise.mp3" status="start"></bgm>
             <show chara="biankaShoutClose" position="left"/>
             <shake position="left" time="250"></shake>
-            <speak chara="_Bianka">这是怎么回事！？</speak>
+            <speak chara="_Bianka">What is the meaning of this!?</speak>
             <show chara="biankaBiteClose" position="left"/>
             <shake position="left" time="250"></shake>
-            <speak chara="_Bianka">你刚才不是言之凿凿，说他肯定还留在这个“后现代科学资料馆”的吗？！</speak>
+            <speak chara="_Bianka">He should be somewhere in this「postmodern scientific museum」!</speak>
             <show chara="biankaShoutClose" position="left"/>
             <shake position="left" time="250"></shake>
-            <speak chara="_Bianka">结果呢？连洗手间里都没有一个人影！！</speak>
+            <speak chara="_Bianka">We even searched the bathroom but he's nowhere to be found!</speak>
             <show chara="biankaShoutClose" position="left" opacity="0.8"/>
             <show chara="thalesSeriousClose" position="right"/>
-            <speak chara="_Thales">奇怪，一个书呆子能跑到哪里去呢……</speak>
-            <speak chara="_Thales">当时，我们沿着大堂通道一路走到这里……我确实在这里向你们【两个】介绍了什么是“后现代科学”——也就是那些我们还没有系统掌握的外部世界知识；</speak>
-            <speak chara="_Thales">之后，我们就上楼梯去了后门的大厅，走出建筑、眺望风景……</speak>
-            <speak chara="_Thales">他和我们走失，最大的可能，确实是“还在这里埋头看书”啊……</speak>
+            <speak chara="_Thales">It's strange, that geek boy shouldn't have been able to go too far...</speak>
+            <speak chara="_Thales">We were together for sure at the lobby... where I introduced you two to 「Postmodern Science」—— The knowledge of the external world we haven't mastered yet.</speak>
+            <speak chara="_Thales">Afterwards we climbed the stairs, left the building through the back door and looked at the scenery...</speak>
+            <speak chara="_Thales">If we got separated at any point, him 「being immersed reading a book here」would be the most likely cause, but...</speak>
             <show chara="thalesSeriousClose" position="right" opacity="0.8"/>
             <show chara="biankaBiteClose" position="left"/>
-            <speak chara="_Bianka">现在再分析这些还有什么用！</speak>
+            <speak chara="_Bianka">This is not the time for a carefree analysis!</speak>
             <show chara="biankaShoutClose" position="left"/>
-            <speak chara="_Bianka">广播找人！封锁大门！逐层筛查！</speak>
+            <speak chara="_Bianka">Call him through the radio! Close all doors! Search every corner of this place!</speak>
             <show chara="biankaBiteClose" position="left"/>
-            <speak chara="_Bianka">你不是说这座城市的历史充斥着买卖人口的恶行吗？他那种胆小怕事的家伙，凭自己能跑到哪里去？！</speak>
+            <speak chara="_Bianka">This city used to dabble in slave trading. Knowing that a timid boy like him would never leave on his own!</speak>
             <show chara="biankaShoutClose" position="left"/>
-            <speak chara="_Bianka">这肯定不是一般的走失——是诱拐、是绑架！</speak>
+            <speak chara="_Bianka">He didn't get lost—— He must have been kidnapped or something!</speak>
             <show chara="biankaShoutClose" position="left" opacity="0.8"/>
             <show chara="thalesSeriousClose" position="right"/>
-            <speak chara="_Thales">……</speak>
-            <speak chara="_Thales">…………</speak>
-            <speak chara="_Thales">我承认你说的“最坏情况”不无可能。</speak>
+            <speak chara="_Thales">...</speak>
+            <speak chara="_Thales">.....</speak>
+            <speak chara="_Thales">That 「worse case scenario」 is not entirely impossible. I'll admit that much.</speak>
             <show chara="thalesEmbarrassedClose" position="right"/>
             <speak chara="_Thales">I will arrange immediately the use of the radio. However, the other two actions will disrupt the order of the library. First we need the permission of the Curator.</speak>
             <show chara="thalesEmbarrassedClose" position="right" opacity="0.8"/>

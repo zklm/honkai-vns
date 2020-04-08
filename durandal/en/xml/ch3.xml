@@ -37,87 +37,79 @@
             <goto goto="30" change="0"/>
         </scene>
         <scene id="30" background="submarineCabinBlurDeep.jpg">
-            <!-- 
-                Bianka is stressed over the current situation. 
-                Rita tells her the refugees on the island have calmed down, and although the pirate crew complained a bit, they made a place for them to rest for the moment. Rita was impressed by Bianka's behavior earlier. 
-                She always makes decisions instantly and takes action without hesitation. 
-                About that, once in the orphanage a counselor told her 「By the love of God! You idiot! Would it kill you to use your head for a little bit!?」 and 「Don't trust someone so easily! Think things twice!」. 
-                Rita thinks someone who is moderately reckless is much better than someone who doesn't hesitate at all, is too indecisive, or tries to escape from all responsibility. 
-                In her own way she's praising Bianka, which bothers her because now their roles have been reversed. 
-            -->
             <bgm src="11_29_lab.mp3" status="start"></bgm>
             <show chara="biankaBiteClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">真是的！我瞎琢磨这些云里雾里的东西干什么啦！</speak>
+            <speak chara="_Bianka">Agh! I can't wrap my head around this situation! </speak>
             <show chara="biankaSeriousClose" position="right"/>
             <show chara="rita17SquintClose" position="left" opacity="0.8"/>
-            <speak chara="_Bianka">啊……</speak>
+            <speak chara="_Bianka">Oh...</speak>
             <show chara="biankaConfidentClose" position="right"/>
-            <speak chara="_Bianka">你原来在啊，丽塔。</speak>
+            <speak chara="_Bianka">Y-You were there, Rita.</speak>
             <show chara="biankaConfidentClose" position="right" opacity="0.8"/>
             <show chara="rita17SmileClose" position="left"/>
-            <speak chara="_Rita">从岛上来的难民都已经安顿好了。</speak>
+            <speak chara="_Rita">The island refugees seem to have calmed down.</speak>
             <show chara="rita17SquintClose" position="left"/>
-            <speak chara="_Rita">海盗们虽然满口抱怨，但还是配合地腾出了地方，供大家休息。</speak>
+            <speak chara="_Rita">There were a few complains by the pirates, but they still made room for everyone to rest.</speak>
             <show chara="rita17HesitateClose" position="left"/>
-            <speak chara="_Rita">……话虽如此，但至少最近的几个晚上，大多数人都没有办法在床上睡觉了。</speak>
+            <speak chara="_Rita">...But I doubt they'll be able to lie down in bed and relax for a while.</speak>
             <show chara="rita17HesitateClose" position="left" opacity="0.8"/>
             <show chara="biankaSeriousClose" position="right"/>
-            <speak chara="_Bianka">无妨。无论是为了搭乘交通工具的一方，还是同意了搭救别人的一方，应该都没什么好抱怨的。</speak>
+            <speak chara="_Bianka">That's fine, no one is in a position to complain.</speak>
             <show chara="biankaProudClose" position="right"/>
-            <speak chara="_Bianka">再说，有我们的米格尔老爷爷在，气氛肯定不会糟糕到哪里去的，不是吗？</speak>
+            <speak chara="_Bianka">And that old man Miguel is here too, I don't think the air will be too tense with him around.</speak>
             <show chara="biankaProudClose" position="right" opacity="0.8"/>
             <show chara="rita17SmileClose" position="left"/>
-            <speak chara="_Rita">啊，这倒也是。</speak>
+            <speak chara="_Rita">Yes, I agree.</speak>
             <show chara="rita17NormalClose" position="left"/>
-            <speak chara="_Rita">……</speak>
-            <speak chara="_Rita">说实话，我非常佩服比安卡大人的这一点。</speak>
+            <speak chara="_Rita">.....</speak>
+            <speak chara="_Rita">Actually, I can't help but feel impressed by that side of you.</speak>
             <show chara="rita17NormalClose" position="left" opacity="0.8"/>
             <show chara="biankaSurpriseClose" position="right"/>
-            <speak chara="_Bianka">啊？你佩服我什么？</speak>
+            <speak chara="_Bianka">Eh? My what?</speak>
             <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
             <show chara="rita17SmileClose" position="left"/>
-            <speak chara="_Rita">总是能很快速地对事情做出判断，而且执行起来也很坚决。</speak>
+            <speak chara="_Rita">The side of you that swiftly makes decisions and takes action.</speak>
             <show chara="rita17SmileClose" position="left" opacity="0.8"/>
             <show chara="biankaHesitateClose" position="right"/>
-            <speak chara="_Bianka">呃……</speak>
+            <speak chara="_Bianka">Ahaha...</speak>
             <show chara="biankaAngryClose" position="right"/>
-            <speak chara="_Bianka">你知道吗，以前在孤儿院里的时候，可是有辅导员这样批评我——</speak>
+            <speak chara="_Bianka">About that, once in the orphanage a counselor told me——</speak>
             <show chara="biankaShoutClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">“天啊！你这个笨蛋！脑筋都不动一下的吗？！”</speak>
+            <speak chara="_Bianka">「By the love of God! You idiot! Would it kill you to use your head for a little bit!?」</speak>
             <show chara="biankaAngryClose" position="right"/>
-            <speak chara="_Bianka">还有——</speak>
+            <speak chara="_Bianka">And——</speak>
             <show chara="biankaShoutClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">“不要这么快就相信啊！转两下脑子再行动不好吗？！”</speak>
+            <speak chara="_Bianka">「Don't trust so quickly！Think things twice!」</speak>
             <show chara="biankaHesitateClose" position="right"/>
-            <speak chara="_Bianka">——怎么看都是缺点的事情，怎么到了你那里，就摇身一变，成了难能可贵的优点了？</speak>
+            <speak chara="_Bianka">——For most that would be a disadvantage, but in the right hands it can turn into an important advantage.</speak>
             <show chara="biankaHesitateClose" position="right" opacity="0.8"/>
             <show chara="rita17SmileClose" position="left"/>
-            <speak chara="_Rita">呵呵。这并不是什么“摇身一变”呀。</speak>
+            <speak chara="_Rita">Hehe. I wouldn't say it has turned into an advantage.</speak>
             <show chara="rita17NormalClose" position="left"/>
-            <speak chara="_Rita">实话实说，我是觉得——适度的鲁莽，远比犹豫不决、优柔寡断、甚至为了逃避责任而不作为，要好得多。</speak>
+            <speak chara="_Rita">——I think someone who is moderately reckless is better than someone who doesn't hesitate at all, is too indecisive, or doesn't do anything at all to escape responsibility.</speak>
             <show chara="rita17NormalClose" position="left" opacity="0.8"/>
             <show chara="biankaSneerClose" position="right"/>
-            <speak chara="_Bianka">……喂喂，你后面说的这些——哪里会有这么差劲的女武神啊？总不可能是你自己吧？</speak>
+            <speak chara="_Bianka">...About that last one—— I don't think there is a Valkyrie like that anywhere. Of course, I'm aware it also doesn't apply to you.</speak>
             <show chara="biankaSneerClose" position="right" opacity="0.8"/>
             <show chara="rita17SquintClose" position="left"/>
-            <speak chara="_Rita">噗，我只是想认真地吹捧一下比安卡大人啊。</speak>
+            <speak chara="_Rita">Hehe. I just wanted to compliment you earnestly.</speak>
             <show chara="rita17SquintClose" position="left" opacity="0.8"/>
             <show chara="biancaShyClose" position="right"/>
-            <speak chara="_Bianka">吹……吹捧什么的……</speak>
+            <speak chara="_Bianka">C-Compliment me...</speak>
             <show chara="biankaHesitateClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">……这样不就被你抢了先吗！</speak>
+            <speak chara="_Bianka">...I guess you took the lead on that.</speak>
             <show chara="biankaShoutClose" position="right"/>
-            <speak chara="_Bianka">反了、反了、完全反了啊！</speak>
+            <speak chara="_Bianka">Our roles are backwards now!</speak>
             <show chara="biankaShoutClose" position="right" opacity="0.8"/>
             <show chara="rita17NormalClose" position="left"/>
-            <speak chara="_Rita">……反了？</speak>
+            <speak chara="_Rita">Backwards, you say?</speak>
             <show chara="rita17NormalClose" position="left" opacity="0.8"/>
             <show chara="biancaShyClose" position="right"/>
-            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">.....</speak>
             <goto goto="40" change="0"/>
         </scene>
         <scene id="40" background="CG3-2.jpg">
@@ -140,101 +132,92 @@
             <goto goto="60" change="0"/>
         </scene>
         <scene id="60" background="submarineCabinBlurDeep.jpg">
-            <!-- 
-                Rita never mentioned when her birthday was and they've only met recently, so how did Bianka know? 
-                Bishop Otto 「sold her out」 accidentally when he was telling Bianka they were going to partner up. 
-                He said 「Rita Rossweisse, born on March 1st 1995...」. Shakespeare comes in to interrupt this precious moment. 
-                When they exchanged information she mentioned 「Europe」 is currently 「blocked」, and that it could have something to do with its ruler. 
-                The Caledonia has arrived at the perfect spot to see solid proof of what she was talking about. 
-                This place has many nicknames: 「Pillars of Hercules」, 「Mount of Tarik」, 「The World's End」. Its name is 「Gibraltar」. 
-                In just a few hours the Caledonia has traveled over 1000km despite moving at the speed of 5 knots. How is that possible? 
-            -->
             <bgm src="11_29_lab.mp3" status="start"></bgm>
             <show chara="biankaBiteClose" position="right"/>
             <show chara="rita17SquintClose" position="left" opacity="0.8"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">珍、珍藏什么的就不用啦！</speak>
+            <speak chara="_Bianka">Y-You don't have to cherish it!</speak>
             <show chara="biankaBiteClose" position="right" opacity="0.8"/>
             <show chara="rita17NaughtyClose" position="left"/>
-            <speak chara="_Rita">欸嘿嘿……不要害羞嘛，比安卡大人。</speak>
+            <speak chara="_Rita">Hehehe... no need to be shy, Bianka-sama.</speak>
             <show chara="rita17NaughtyClose" position="left" opacity="0.8"/>
             <show chara="biankaShoutClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">谁、谁害羞了啦！</speak>
+            <speak chara="_Bianka">I-I'm not shy!</speak>
             <show chara="biancaShyClose" position="right"/>
-            <speak chara="_Bianka">呃……抱歉，我、我不是故意要吼你……</speak>
+            <speak chara="_Bianka">Ah... I'm sorry. I-I didn't mean to raise my voice...</speak>
             <show chara="biancaShyClose" position="right" opacity="0.8"/>
             <show chara="rita17SquintClose" position="left"/>
-            <speak chara="_Rita">呵呵，我知道的，比安卡大人。</speak>
+            <speak chara="_Rita">Hehe. I'm aware, Bianka-sama.</speak>
             <show chara="rita17NormalClose" position="left"/>
-            <speak chara="_Rita">不过，话说起来……</speak>
-            <speak chara="_Rita">……您为什么知道我的生日是明天……3月1日呢？</speak>
-            <speak chara="_Rita">……我好像……还没有对任何人提起过呀？</speak>
+            <speak chara="_Rita">If I may ask...</speak>
+            <speak chara="_Rita">How did you know my birthday was tomorrow... on March 1st?</speak>
+            <speak chara="_Rita">...I don't... recall telling anyone.</speak>
             <show chara="rita17NormalClose" position="left" opacity="0.8"/>
             <show chara="biankaProudClose" position="right"/>
-            <speak chara="_Bianka">……哈哈哈哈，这当然是主教大人“出卖”了你啊。</speak>
+            <speak chara="_Bianka">...Ahahaha, I know because the Bishop 「sold you out」.</speak>
             <show chara="biankaConfidentClose" position="right"/>
-            <speak chara="_Bianka">丽塔·洛丝薇瑟，1995年3月1日出生于——</speak>
+            <speak chara="_Bianka">Rita Rossweisse, born on March 1st 1995——</speak>
             <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
             <show chara="shakesConfidentClose" position="left"/>
-            <speak chara="_Shakespeare">啊。</speak>
+            <speak chara="_Shakespeare">Oops...</speak>
             <show chara="shakesSmileClose" position="left"/>
-            <speak chara="_Shakespeare">看起来我好像打断了什么好事的样子啊。</speak>
+            <speak chara="_Shakespeare">Hope I didn't interrupt something nice.</speak>
             <show chara="shakesSmileClose" position="left" opacity="0.8"/>
             <show chara="biancaShyClose" position="right"/>
-            <speak chara="_Bianka">好、好事？哪、哪有什么好事……</speak>
+            <speak chara="_Bianka">N-Nice? I-It's nothing like that...</speak>
             <show chara="biancaShyClose" position="right" opacity="0.8"/>
             <bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
             <show chara="shakesSweatyClose" position="left"/>
-            <speak chara="_Shakespeare">……咳咳。</speak>
+            <speak chara="_Shakespeare">...Cough.</speak>
             <show chara="shakesColdClose" position="left"/>
-            <speak chara="_Shakespeare">总之，之前介绍情况的时候和你们说过，在这个世界里，“欧洲”处于“被封锁”的状态。</speak>
+            <speak chara="_Shakespeare">As I said during my introduction, in this world the continent known as 「Europe」 is currently 「blocked」.</speak>
             <show chara="shakesColdClose" position="left" opacity="0.8"/>
             <show chara="biankaSeriousClose" position="right"/>
-            <speak chara="_Bianka">嗯，你们还说，从其他世界流落来的难民越来越多，这也很可能和“欧洲”的统治者有关。</speak>
+            <speak chara="_Bianka">Yes, you said the amount of refugees from other worlds are increasing and that it might be connected with whoever is ruling 「Europe」 right now.</speak>
             <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
             <show chara="shakesColdClose" position="left"/>
-            <speak chara="_Shakespeare">没错。我当时说，之后要给你们看这种论点的“直接论据”——</speak>
+            <speak chara="_Shakespeare">Yeah, and also that I would show you 「solid proof」 of that——</speak>
             <show chara="shakesConfidentClose" position="left"/>
-            <speak chara="_Shakespeare">——现在正好就到了那个最合适的观察地点。</speak>
+            <speak chara="_Shakespeare">——We've just arrived at the perfect place to see it.</speak>
             <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
             <show chara="biankaSurpriseClose" position="right"/>
-            <speak chara="_Bianka">……？</speak>
+            <speak chara="_Bianka">...?</speak>
             <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>
             <show chara="shakesSmileClose" position="left"/>
-            <speak chara="_Shakespeare">“赫拉克勒斯之柱”，“塔里克的山峰”，“世界的尽头”，拥有诸般称谓的弹丸之地——</speak>
+            <speak chara="_Shakespeare">A land called by many names such as 「Pillars of Hercules」, 「Mount of Tarik」 and 「The World's End」——</speak>
             <show chara="shakesConfidentClose" position="left"/>
-            <speak chara="_Shakespeare">——直布罗陀。</speak>
+            <speak chara="_Shakespeare">——Gibraltar.</speak>
             <show chara="shakesConfidentClose" position="left" opacity="0.8"/>
             <show chara="rita17NormalClose" position="right"/>
-            <speak chara="_Rita">……？！</speak>
+            <speak chara="_Rita">...!?</speak>
             <show chara="biankaShoutClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">……直布罗陀？？</speak>
+            <speak chara="_Bianka">...Gibraltar??</speak>
             <show chara="biankaBiteClose" position="right"/>
-            <speak chara="_Bianka">我们出发的地方，不是说在加那利群岛和马德拉岛之间的大西洋上吗？</speak>
+            <speak chara="_Bianka">Didn't we leave from a place between the Canary Islands and Madeira in the Atlantic Ocean?</speak>
             <show chara="biankaBiteClose" position="right" opacity="0.8"/>
             <show chara="shakesSmileClose" position="left"/>
-            <speak chara="_Shakespeare">是这样啊。又没有骗你们。</speak>
+            <speak chara="_Shakespeare">That's right. I'm not lying.</speak>
             <show chara="shakesSmileClose" position="left" opacity="0.8"/>
             <show chara="biankaBiteClose" position="right"/>
-            <speak chara="_Bianka">那么，从出航到现在不过4个小时，按照你的说法，我们已经来到了上千公里以外——</speak>
+            <speak chara="_Bianka">Then if you're telling the truth, we traveled over 1000 kilometers in barely 4 hours——</speak>
             <show chara="biankaSneerClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Bianka">——靠这艘古董潜艇？航速飙到100节以上？</speak>
+            <speak chara="_Bianka">——On this old submarine? Can it even move at over 100 knots? </speak>
             <show chara="biankaShoutClose" position="right"/>
-            <speak chara="_Bianka">打个对折再对折，25节，每小时50公里不到——恐怕也是天方夜谭吧！</speak>
+            <speak chara="_Bianka">Even at 1/4 of that, 25 knots, it would be less 50 kilometers per hour—— What you're saying can't be true!</speak>
             <show chara="biankaShoutClose" position="right" opacity="0.8"/>
             <show chara="shakesLaughClose" position="left"/>
-            <speak chara="_Shakespeare">哈哈哈哈！你们女武神，在地理交通的知识方面，难道也是专家吗？</speak>
+            <speak chara="_Shakespeare">Hahahaha! Are all Valkyries this good at geography?</speak>
             <show chara="shakesSmileClose" position="left"/>
-            <speak chara="_Shakespeare">的确，“喀里多尼亚号”现在只是以5节的对应马力进行潜航——一般来说，这也就相当于普通人跑步的速度吧。</speak>
+            <speak chara="_Shakespeare">The 「Caledonia」 is moving at 5 knots—— Approximately the speed of a normal person running.</speak>
             <show chara="shakesSmileClose" position="left" opacity="0.8"/>
             <show chara="biankaBiteClose" position="right"/>
-            <speak chara="_Bianka">那你怎么好意思——</speak>
+            <speak chara="_Bianka">Then——</speak>
             <show chara="biankaBiteClose" position="right" opacity="0.8"/>
             <show chara="shakesConfidentClose" position="left"/>
-            <speak chara="_Shakespeare">稍安勿躁，稍安勿躁。</speak>
+            <speak chara="_Shakespeare">Well, calm down and listen.</speak>
             <show chara="shakesSmileClose" position="left"/>
             <speak chara="_Shakespeare">The 「Caledonia」 isn't particularly fast, but what if there is a shortcut?</speak>
             <show chara="shakesSmileClose" position="left" opacity="0.8"/>
@@ -321,7 +304,8 @@
             <speak chara="_Shakespeare">Of course.</speak>
             <show chara="shakesSmileClose" position="left" opacity="0.8"/>
             <show chara="biankaSeriousClose" position="right"/>
-            <speak chara="_Bianka">That 「Wall of Asgard」... is it made of Houkai energy?</speak>
+            <!-- RENAME: That 「Wall of Asgard」... is it made of Houkai energy? -->
+            <speak chara="_Bianka">That 「Wall of Asgard」... is it made of Honkai energy?</speak>
             <show chara="biankaSeriousClose" position="right" opacity="0.8"/>
             <show chara="shakesColdClose" position="left"/>
             <speak chara="_Shakespeare">That seems to be the case according to my adjutant's observations.</speak>
@@ -329,10 +313,12 @@
             <speak chara="_Shakespeare">「The average density is approximately 1000HW per meter, touch it and you die」—— I don't understand well the terms she uses, but it sounds horrible.</speak>
             <show chara="shakesSweatyClose" position="left" opacity="0.8"/>
             <show chara="rita17HesitateClose" position="right"/>
-            <speak chara="_Rita">...However there hasn't been any sightings of 「Houkai Beasts」 correct?</speak>
+            <!-- RENAME: ...However there hasn't been any sightings of 「Houkai Beasts」 correct? -->
+            <speak chara="_Rita">...However there hasn't been any sightings of 「Honkai Beasts」 correct?</speak>
             <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
             <show chara="shakesQuestionClose" position="left"/>
-            <speak chara="_Shakespeare">Houkai beast? What's that?</speak>
+            <!-- RENAME: Houkai beast? What's that? -->
+            <speak chara="_Shakespeare">Honkai beast? What's that?</speak>
             <show chara="shakesQuestionClose" position="left" opacity="0.8"/>
             <show chara="biankaSighClose" position="right"/>
             <speak chara="_Bianka">The 「monsters」 Iron Mask-san mentioned earlier.</speak>
@@ -347,7 +333,8 @@
             <show chara="biankaSurpriseClose" position="right"/>
             <speak chara="_Bianka">They went up in smoke...</speak>
             <show chara="rita17HesitateClose" position="right"/>
-            <speak chara="_Rita">It appears that besides Houkai energy, there is another kind of energy at play...</speak>
+            <!-- RENAME: It appears that besides Houkai energy, there is another kind of energy at play... -->
+            <speak chara="_Rita">It appears that besides Honkai energy, there is another kind of energy at play...</speak>
             <show chara="rita17HesitateClose" position="right" opacity="0.8"/>
             <show chara="shakesPityClose" position="left"/>
             <speak chara="_Shakespeare">...Once I thought that if I obtained the means, I could change everything.</speak>
@@ -516,7 +503,8 @@
             <show chara="biankaSeriousClose" position="right"/>
             <speak chara="_Bianka">.....</speak>
             <show chara="biankaConfidentClose" position="right"/>
-            <speak chara="_Bianka">Yes, she's quite famous as a hero who fought the Houkai—— And although she wasn't a Valkyrie herself, there is no Valkyrie who hasn't heard of her.</speak>
+            <!-- RENAME: Yes, she's quite famous as a hero who fought the Houkai—— And although she wasn't a Valkyrie herself, there is no Valkyrie who hasn't heard of her. -->
+            <speak chara="_Bianka">Yes, she's quite famous as a hero who fought the Honkai—— And although she wasn't a Valkyrie herself, there is no Valkyrie who hasn't heard of her.</speak>
             <show chara="biankaBiteClose" position="right"/>
             <speak chara="_Bianka">But what's the relationship between 「Durindana」 and Roland? Her sword was named 「Durandal」——</speak>
             <show chara="biankaSurpriseClose" position="right"/>
@@ -537,17 +525,17 @@
             <show chara="shakesSmileClose" position="left"/>
             <speak chara="_Shakespeare">But that's——</speak>
             <show chara="shakesSmileClose" position="left" opacity="0.8"/>
-            <bgm src="noise.mp3" status="start">Captain! We got a drifter on the 「Caledonia」's course!</bgm>
+            <bgm src="noise.mp3" status="start"></bgm>
             <show chara="lallaSeriousClose" position="right"/>
-            <speak chara="_Lalla">Just when things were about to get interesting——</speak>
+            <speak chara="_Lalla">Captain! We got a drifter on the 「Caledonia」's course!</speak>
             <show chara="lallaSeriousClose" position="right" opacity="0.8"/>
             <show chara="shakesQuestionClose" position="left"/>
-            <speak chara="_Shakespeare">——But saving lives is more important!</speak>
+            <speak chara="_Shakespeare">Just when things were about to get interesting——</speak>
             <show chara="shakesSmileClose" position="left"/>
-            <speak chara="_Shakespeare">We might be getting a new crew member, people! Hahaha!</speak>
+            <speak chara="_Shakespeare">——But saving lives is more important!</speak>
             <show chara="shakesLaughClose" position="left"/>
+            <speak chara="_Shakespeare">We might be getting a new crew member, people! Hahaha!</speak>
             <speak chara="_Shakespeare">Come with me!</speak>
-            <speak chara="_Shakespeare">大家跟我上！</speak>
             <end post="U2FsdGVkX19LI5+XVKTLDbEhVqlH"/>
         </scene>
     </story>

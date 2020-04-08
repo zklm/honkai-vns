@@ -1,46 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
     <story>
-        <!-- 
-            A young girl is inside the ИНТЕРКОСМОС (INTERKOSMOS), a machine that once helped astronauts get to the Moon nearly half a century ago. 
-            By adjusting the gravity settings, she's able to train for longer periods while reducing the damage and tear done to her joints. 
-            Valkyrie Durandal begins a new day of training.
-    
-            Rita comes to tell Durandal breakfast is ready. Today's dessert is Mille-feuille, known as the Napoleon. 
-            Durandal is startled Rita called her using her real name, Bianka. Today, February 29th, is a special day worth commemorating, hence the name and the cake. 
-            It's been 4 years since that fateful day when she met her and them. It's been so long she even has gotten used to be called "Durandal". 
-            Soon Bishop Otto will put in motion his plan, and eventually they'll be able to make good on the promise they made. 
-            Fulfilling that promise is the top priority of the girl known as Bianka. 
-	    -->
         <scene id="0" background="dashboard.jpg">
             <bgm src="morning.mp3" status="start"></bgm>
-            <text>It's 5 in the morning.</text>
-            <text>Inside a large device, a girl fastens her seat belt and turns on the power.</text>
-            <text>Above the power button is a badge: a string of Russian letters surrounding a rocket.</text>
+            <text>5 in the morning.</text>
+            <text>Inside a device wider than the driver seat of a truck, a young girl strapped with a belt turns on a machine.</text>
+            <text>Above the power button there is a mottled lamp. The abstract meter is surrounded by hard to read Cyrillic letters.</text>
             <bgm src="peerGynt.mp3" status="start"></bgm>
             <text>И...Н...Т...Е...Р...К...О...С...М...О...С...</text>
             <text>ИНТЕРКОСМОС (INTERKOSMOS)</text>
-            <text>Nearly half a century ago, with the help of Schicksal, humans had successfully sent several astronauts from different countries to the Moon.</text>
-            <text>This machine is part of the legacy of that glorious era.</text>
-            <speak chara="_mechanicalSound">Warm up complete.</speak>
-            <speak chara="_mechanicalSound">Current analog magnification，0.2.</speak>
+            <!-- RENAME: Approximately half a century ago, the organization 「Destiny」 helped humanity send several astronauts of many different nationalities to the Moon. -->
+            <text>Approximately half a century ago, the organization 「Schicksal」 helped humanity send several astronauts of many different nationalities to the Moon.</text>
+            <text>This machine is a relic of that glorious era.</text>
+            <speak chara="_mechanicalSound">Warm-up is over.</speak>
+            <speak chara="_mechanicalSound">Current simulation magnification, 0.2.</speak>
             <speak chara="_mechanicalSound">Starting operation.</speak>
-            <text>伴随着古老机械那透着机油气味的噪音，从少女的腰部向下，空气增压系统开始为她平衡地球的重力。</text>
-            <text>现在，她的脚踝和膝盖只需要承受20%的体重负荷——</text>
-            <text>This way, the girl is able to run for dozens of kilometres without risking damaging and tear done to her joints.</text>
-            <text>The sun rises early.</text>
-            <text>Valkyrie Durandal begins a new day of training.</text>
+            <text>The smell of oil, the sound of machinery and the movement of the girl's hips serve as a signal to know the air pressurization system has begun to adjust the gravity.</text>
+            <text>Now her ankles and knees are only supporting 20% of her weight——</text>
+            <text>This will let the young girl run tens of kilometers continuously without risking damage to her joints.</text>
+            <text>The morning sun rises in the distance.</text>
+            <text>Valkyrie Durandal has begun another day of training.</text>
             <goto goto="10" clockwise="1"/>
         </scene>
         <scene id="10" background="gymnasium.jpg">
             <bgm src="peerGynt.mp3" status="continue"></bgm>
             <show chara="biankaSportSmileClose" position="right"/>
-            <speak chara="_Durandal">平均心率125……很好，锻炼效果不错。</speak>
+            <speak chara="_Durandal">Average heart rate is 125... Good, this is perfect.</speak>
             <show chara="biankaSportSmileClose" position="right" opacity="0.8"/>
             <show chara="ritaMaidSmileClose" position="left"/>
-            <speak chara="_Rita">那么【比安卡】大人，您的早餐可以端上来了吗？</speak>
+            <speak chara="_Rita">In that case, 「Bianka」-sama, shall we have breakfast?</speak>
             <show chara="ritaMaidSquintClose" position="left"/>
-            <speak chara="_Rita" remark="next">今天的甜点，是新鲜出炉的乳酪拿破仑哦。</speak>
+            <speak chara="_Rita" remark="next">Today's dessert is a freshly baked Cheese Mille-feuille.</speak>
             <remark post="U2FsdGVkX18du3l7nMcHK1ORJgIy">
                 <p class="article-text-h">Note：</p>
                 <p class="article-text">法式千层酥（mille-feuille）是由三层酥皮夹两层奶油或果酱制成的一类蛋糕，其发明灵感可能源自那不勒斯的披萨。</p>
@@ -49,56 +39,57 @@
             </remark>
             <show chara="ritaMaidSquintClose" position="left" opacity="0.8"/>
             <show chara="biankaSportSurprisedClose" position="right"/>
-            <speak chara="_Durandal">咦？丽塔？今天怎么突然想起做这种高热——</speak>
-            <speak chara="_Durandal">——等等。</speak>
-            <speak chara="_Durandal">刚才，你叫我……“比安卡”？</speak>
+            <speak chara="_Durandal">Hm? Rita? What's up with you today, why such a high calorie——</speak>
+            <speak chara="_Durandal">——Wait.</speak>
+            <speak chara="_Durandal">Did you call me... 「Bianka」?</speak>
             <show chara="biankaSportSurprisedClose" position="right" opacity="0.8"/>
             <show chara="ritaMaidNaughtyClose" position="left"/>
-            <speak chara="_Rita">诶嘿嘿。没错哦。</speak>
+            <speak chara="_Rita">Hehehe. Correct.</speak>
             <show chara="ritaMaidSquintClose" position="left"/>
-            <speak chara="_Rita">因为今天是一个值得用蛋糕纪念的特别日子嘛。</speak>
+            <speak chara="_Rita">Today is a special day that should be celebrated with a cake.</speak>
             <show chara="ritaMaidSquintClose" position="left" opacity="0.8"/>
             <show chara="biankaSportSurprisedClose" position="right"/>
-            <speak chara="_Durandal">今天？2月28……不对，29？</speak>
-            <speak chara="_Durandal">啊。</speak>
+            <speak chara="_Durandal">Today? February 28th... No, it's already 29th?</speak>
+            <speak chara="_Durandal">Ah.</speak>
             <show chara="biankaSportHesitateClose" position="right"/>
-            <speak chara="_Durandal">……</speak>
-            <speak chara="_Durandal">已经四年了吗。</speak>
+            <speak chara="_Durandal">.....</speak>
+            <speak chara="_Durandal">It's been 4 years already.</speak>
             <show chara="biankaSportSmileClose" position="right"/>
-            <speak chara="_Durandal">认识你也好……认识他们也好。</speak>
+            <speak chara="_Durandal">From the day I met you... and the day I met them.</speak>
             <show chara="biankaSportHesitateClose" position="right"/>
-            <speak chara="_Durandal">……连我自己都已经习惯于“幽兰黛尔”这个名字了。</speak>
-            <speak chara="_Durandal">……</speak>
+            <speak chara="_Durandal">...Even I have gotten used to the name 「Durandal」.</speak>
+            <speak chara="_Durandal">.....</speak>
             <show chara="biankaSportHesitateClose" position="right" opacity="0.8"/>
             <show chara="ritaMaidNormalClose" position="left"/>
-            <speak chara="_Rita">主教大人会择机实施他的计划。</speak>
-            <speak chara="_Rita">而我们，也终将有机会兑现自己的承诺。</speak>
+            <speak chara="_Rita">The Bishop will put his plan in motion at the right moment.</speak>
+            <speak chara="_Rita">The day when we can finally fulfill our promise will certainly come.</speak>
             <show chara="ritaMaidNormalClose" position="left" opacity="0.8"/>
             <show chara="biankaSportSmileClose" position="right"/>
-            <speak chara="_Durandal">……当然。</speak>
-            <speak chara="_Durandal">那可是少女比安卡的头等大事。</speak>
+            <speak chara="_Durandal">...Yeah.</speak>
+            <speak chara="_Durandal">Keeping that promise is very important for the girl called Bianka.</speak>
             <goto goto="20" change="#ffffff"/>
         </scene>
         <scene id="20" background="libraryDay.jpg">
             <bgm src="peerGynt.mp3" status="continue"></bgm>
-            <text>In the valkyrie archives of Schicksal, a stack of now yellowed paper lay quietly.</text> <!-- zklm -->
-            <text>This declassified document begins with——</text> <!-- zklm -->
+            <!-- RENAME: A now yellow colored piece of paper sits quietly in the archives of Destiny Organization. -->
+            <text>A now yellow colored piece of paper sits quietly in the archives of Schicksal.</text>
+            <text>The following is written on the first page of this confidential document——</text>
             <text>Top Secret Mission："LONELY PANTHALASSA" </text>
             <text>Start Time: February 29th 2012</text>
             <text>Location: ██████████ - The Quantum Sea  </text>
             <text>Target: ██████████</text>
             <!-- RENAME: Members: Bianka "Durandal" Atagina (12), Rita Rossweisse (16) -->
-            <text>Members: Bianka "Durandal" Ataegina (12), Rita Rossweisse (16)</text> 
+            <text>Members: Bianka "Durandal" Ataegina (12), Rita Rossweisse (16)</text>
             <text>Status: Closed</text>
             <text>Reviewed by: Otto Apocalypse</text>
             <goto goto="30" change="#ffffff"/>
         </scene>
         <scene id="30" background="black">
             <bgm src="peerGynt.mp3" status="continue"></bgm>
-            <text>Yes.</text>
-            <text>This story will now go back in time 1461 days before February 29th 2016——</text>
-            <!-- RENAME: to the moment when Bianka Atagina and Rita Rossweisse arrived at the Quantum Sea. -->
-            <text>to the moment when Bianka Ataegina and Rita Rossweisse arrived at the Quantum Sea.</text>
+            <text>And now...</text>
+            <text>The story will go back in time 1461 days from February 29th 2016——</text>
+            <!-- RENAME: To the moment when Bianka Atagina and Rita Rossweisse arrived at the 「Quantum Sea」. -->
+            <text>To the moment when Bianka Ataegina and Rita Rossweisse arrived at the 「Quantum Sea」.</text>
             <goto goto="40" change="#ffffff"/>
         </scene>
         <scene id="40" background="fishingVillage.jpg">
@@ -221,97 +212,87 @@
             <speak chara="_Miguel">——Though all I have is a reed boat! Hahaha!</speak>
             <goto goto="50" clockwise="1"/>
         </scene>
-
-        <!-- 
-			The Leviathan has made its nest somewhere nearby, making it very hard for the people of the island to go fishing. 
-			They're so afraid they haven't been able to group together and build a ship big enough to deal with it. 
-			It may be strong, but there is nothing humans can't overcome. 
-			After all a few hundred soldiers were able to win against 100.000 enemies in the Spanish Conquest of Peru. 
-			Miguel is from Spain, before he came to this world by accident he was not only a veteran soldier who fought in the Battle of Lepanto, but also a cultured person who published several books. 
-			He's not sure if they are still popular 400 years later, but some of his books were "La Galatea", "The Travails of Persiles and Sigismunda" and "Don Quixote of La Mancha". 
-			He's Miguel de Cervantes Saavedra, the greatest Spanish writer in the world and one of the most important figures in the history of literature. 
-		-->
         <scene id="50" background="beachIslandNoName.jpg">
             <bgm src="peerGynt.mp3" status="start"></bgm>
             <show chara="cervantesLaughClose" position="right"/>
-            <speak chara="_Miguel">哦，大海，我的老朋友！</speak>
-            <speak chara="_Miguel">多谢你高抬贵手，让我这条发了霉的老破船，到今天也没有散架！</speak>
+            <speak chara="_Miguel">O sea, my old friend!</speak>
+            <speak chara="_Miguel">I thank you for not breaking this tattered ship so that we may sail again today!</speak>
             <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
             <show chara="biankaSighClose" position="left"/>
-            <speak chara="_Bianka">……怎么了，突然诗兴大发的样子。</speak>
+            <speak chara="_Bianka">...What's up with you?</speak>
             <show chara="biankaSighClose" position="left" opacity="0.8"/>
             <show chara="cervantesLaughClose" position="right"/>
-            <speak chara="_Miguel">哈哈哈……看啊，这条芦苇船吃了三年的灰，竟然还这么结实！</speak>
+            <speak chara="_Miguel">Hahaha... Look, this reed boat hasn't seen any action in 3 years but it's still ready to go!</speak>
             <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
             <show chara="biankaSeriousClose" position="left"/>
-            <speak chara="_Bianka">……“利维坦”已经围困岛屿这么久了吗？</speak>
+            <speak chara="_Bianka">Has the 「Leviathan」 kept people trapped on the island for that long?</speak>
             <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
             <show chara="cervantesNormalClose" position="right"/>
-            <speak chara="_Miguel">唔，可能还更久也说不定。总之，它似乎在这附近筑了巢，不肯走了。</speak>
+            <speak chara="_Miguel">Hmm, it could be even longer. Seems to have made a nest near the coast and refuses to go away.</speak>
             <show chara="cervantesSeriousClose" position="right"/>
-            <speak chara="_Miguel">唉。第一年到这里的时候，我们可是能打上来不少好鱼呢！</speak>
+            <speak chara="_Miguel">Though the first year after I came here I was still catching plenty of fish.</speak>
             <show chara="cervantesSeriousClose" position="right" opacity="0.8"/>
             <show chara="rita17NormalClose" position="left"/>
-            <speak chara="_Rita">……那时候，您在周围发现过其他的岛屿吗？</speak>
+            <speak chara="_Rita">...You didn't see any other people out in the sea when you went out fishing?</speak>
             <show chara="rita17NormalClose" position="left" opacity="0.8"/>
             <show chara="cervantesNormalClose" position="right"/>
-            <speak chara="_Miguel">唔，那倒是没有。</speak>
+            <speak chara="_Miguel">None. Just look at it.</speak>
             <show chara="cervantesSeriousClose" position="right"/>
-            <speak chara="_Miguel">这附近瞭望不到别的陆地——没有充足的准备，就算是哥伦布也不敢轻率启航的。</speak>
+            <speak chara="_Miguel">There is no other land nearby—— Not even Columbus himself would sail without making the necessary preparations.</speak>
             <show chara="cervantesSeriousClose" position="right" opacity="0.8"/>
             <show chara="biankaSeriousClose" position="left"/>
-            <speak chara="_Bianka">……是指淡水和干粮吗？</speak>
+            <speak chara="_Bianka">...By preparation you mean enough food and water?</speak>
             <show chara="biankaSeriousClose" position="left" opacity="0.8"/>
             <show chara="cervantesSmileClose" position="right"/>
-            <speak chara="_Miguel">唔，那些当然也是必不可少的——</speak>
+            <speak chara="_Miguel">Yeah, you need those too but——</speak>
             <show chara="cervantesGazeClose" position="right"/>
-            <speak chara="_Miguel">——但关键在于，你需要一艘“强壮”的船。</speak>
+            <speak chara="_Miguel">——The most important thing is to have a 「strong ship」.</speak>
             <show chara="cervantesShoutClose" position="right"/>
-            <speak chara="_Miguel">龙骨！三角帆和四角帆！这些才是最重要的。</speak>
+            <speak chara="_Miguel">Keels! Triangle and square sails! That's what matters the most.</speak>
             <show chara="cervantesLaughClose" position="right"/>
-            <speak chara="_Miguel">靠面前这条独木舟一样的家伙？没门。这里可不是风平浪静的太平洋。</speak>
+            <speak chara="_Miguel">Do you think anyone would look for new lands on an unreliable wooden boat? It's impossible, the sea is not so soft.</speak>
             <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
             <show chara="biankaAngryClose" position="left"/>
-            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">.....</speak>
             <show chara="biankaAngryClose" position="left" opacity="0.8"/>
             <show chara="cervantesSmileClose" position="right"/>
-            <speak chara="_Miguel">不过，如果我们能干掉“利维坦”，那肯定有足够的人手愿意听我们的调遣，去建造大船。</speak>
+            <speak chara="_Miguel">But if you can defeat the 「Leviathan」, then I'm sure everyone will start listening to you and build a ship strong enough to sail across the sea.</speak>
             <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
             <show chara="biankaShoutClose" position="left"/>
-            <speak chara="_Bianka">真的假的？</speak>
+            <speak chara="_Bianka">Are you sure about that?</speak>
             <show chara="biankaShoutClose" position="left" opacity="0.8"/>
             <show chara="cervantesSmileClose" position="right"/>
-            <speak chara="_Miguel">哈哈。人类呐，不就是一种凭借信心来生存的物种吗？</speak>
+            <speak chara="_Miguel">Hahaha, isn't humanity a creature that lives on faith?</speak>
             <show chara="cervantesNormalClose" position="right"/>
-            <speak chara="_Miguel">举例来说，西班牙的士兵，面对着那些野蛮人，为什么常常能以少胜多？</speak>
+            <speak chara="_Miguel">For example, do you know why a small group of Spanish soldiers was able to win against an immeasurable number of barbarians?</speak>
             <show chara="cervantesGazeClose" position="right"/>
-            <speak chara="_Miguel">不是我们真的强大到无法战胜——而是我们让敌人感受不到获胜的希望。</speak>
+            <speak chara="_Miguel">It wasn't because they had enormous power on their side—— But because they never let the enemy feel they had a chance of winning.</speak>
             <show chara="cervantesSmileClose" position="right"/>
-            <speak chara="_Miguel">若不然，仅凭一两百号冒险者，怎么能征服人口有数百万之多的秘鲁？</speak>
+            <speak chara="_Miguel">That's how a mere 200 adventurers were able to fight against thousands and conquer Peru.</speak>
             <show chara="cervantesLaughClose" position="right"/>
-            <speak chara="_Miguel">勒班陀海战以少胜多，那也是因为大家从气势上将敌人踩在了脚下——而不是靠什么临阵磨枪的威尼斯战船。</speak>
+            <speak chara="_Miguel">The Battle of Lepanto was won also by a small number and it wasn't thanks to the Galleass—— The enemy was beaten by their momentum.</speak>
             <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
             <show chara="rita17NormalClose" position="left"/>
-            <speak chara="_Rita">您……来自帝国时期的西班牙吗？</speak>
+            <speak chara="_Rita">Could it be... You are from the imperial age of Spain?</speak>
             <show chara="rita17NormalClose" position="left" opacity="0.8"/>
             <show chara="cervantesSmileClose" position="right"/>
-            <speak chara="_Miguel">噢，小姐好眼光啊。</speak>
+            <speak chara="_Miguel">Oh, you could tell?</speak>
             <show chara="cervantesLaughClose" position="right"/>
-            <speak chara="_Miguel">这可不是吹牛——在误打误撞闯进这个异世界之前，我可不光是退伍战士，还是个出了好几本书的文化人咧！</speak>
+            <speak chara="_Miguel">I'm not one to brag—— But before I came here I wasn't just a veteran soldier, but a cultured person who wrote many books too!</speak>
             <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
             <show chara="biankaSneerClose" position="left"/>
-            <speak chara="_Bianka">哼，听你这口气，多半也就是些卖不出去的孤芳自赏之作吧？</speak>
+            <speak chara="_Bianka">Heh, that attitude makes me think your books didn't sell well.</speak>
             <show chara="biankaSneerClose" position="left" opacity="0.8"/>
             <show chara="cervantesSeriousClose" position="right"/>
-            <speak chara="_Miguel">唔……我的确不知道它们在你们那个四百年后的时代还流行不流行了。</speak>
+            <speak chara="_Miguel">Hmmm... You got a point. I don't know if I'm famous 400 years in the future.</speak>
             <show chara="cervantesNormalClose" position="right"/>
-            <speak chara="_Miguel">《伽拉泰亚》，《贝尔西雷斯和西希斯蒙达》——</speak>
+            <speak chara="_Miguel">Some of the books I wrote are 《La Galatea》, 《The Travails of Persiles and Sigismunda》——</speak>
             <show chara="cervantesSmileClose" position="right"/>
-            <speak chara="_Miguel">——以及，《堂·吉诃德·德·拉曼恰》。</speak>
+            <speak chara="_Miguel">——And 《Don Quixote》.</speak>
             <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
             <show chara="rita17NormalClose" position="left"/>
-            <speak chara="_Rita">您……</speak>
-            <speak chara="_Rita" remark="next">您是……塞万提斯？</speak>
+            <speak chara="_Rita">You are...</speak>
+            <speak chara="_Rita" remark="next">Could it be you are... Miguel De Cervantes?</speak>
             <remark post="U2FsdGVkX19Bo9kqC3iZolEItRdA">
                 <p class="article-text-h">Note：</p>
                 <p class="article-text">米格尔·德·塞万提斯·萨维德拉（Miguel de Cervantes Saavedra, 1547 ~ 1616）是西班牙文学世界里最伟大的作家，甚至连西班牙语都被称为“塞万提斯的语言”。他的《堂吉诃德》，被认为是文学史上的第一部“现代小说”。</p>
@@ -402,13 +383,13 @@
         <scene id="70" background="seaWaveIslandNoName.jpg">
             <bgm src="seaAndSky.mp3" status="start"></bgm>
             <text article="1">
-                <p class="article-text">尽管之前徒步丈量过小岛的周长，也曾在岩山上的制高点俯瞰观察；但直到身处一片汪洋之中，两位女武神才真正感受到了她们“登陆场”的渺小。</p>
+                <p class="article-text">They walked around to measure the length of the island and looked at it from the top of many rocky mountains, but now that they are out in the sea, the two Valkyries realize how small the 「harbor」 truly was.</p>
             </text>
             <text article="1">
-                <p class="article-text">芦苇船只不过驶出了一刻钟的光景，身后这座容纳了数十人的“避难所”，便已经退化为一块难以辨识的绿色礁石，仿佛抬一抬手就能将它从天边抹去。</p>
+                <p class="article-text">Even though it's only been a few minutes since the reed boat left the port, the island they were moments ago can't be seen anymore. The 「shelter」 that was large enough to house dozens of people could be covered with the palm of a hand.</p>
             </text>
-            <text>正午的阳光洒在海面上，粼粼的反光刺得人有些睁不开眼睛。</text>
-            <text>老人轻摇长橹，将一叶扁舟稳定在翻滚的波浪之间。</text>
+            <text>The midday sun shines on the surface of the sea. The light reflected is so dazzling it's hard to keep one's eyes open.</text>
+            <text>The old man kept rowing the boat with his long oars, steadily advancing in the undulating waves.</text>
             <show chara="cervantesGazeClose" position="right"/>
             <speak chara="_Miguel">Careful. He's coming.</speak>
             <show chara="cervantesGazeClose" position="right" opacity="0.8"/>
