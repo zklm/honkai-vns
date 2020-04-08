@@ -20,8 +20,8 @@
             <bgm src="peerGynt.mp3" status="start"></bgm>
             <text>И...Н...Т...Е...Р...К...О...С...М...О...С...</text>
             <text>ИНТЕРКОСМОС (INTERKOSMOS)</text>
-            <text>Nearly half a century ago, with the help of Destiny, humans had successfully sent several astronauts from different countries to the Moon.</text>
-            <text>And this machine is part of the legacy of that glorious era.</text>
+            <text>Nearly half a century ago, with the help of Schicksal, humans had successfully sent several astronauts from different countries to the Moon.</text>
+            <text>This machine is part of the legacy of that glorious era.</text>
             <speak chara="_mechanicalSound">Warm up complete.</speak>
             <speak chara="_mechanicalSound">Current analog magnification，0.2.</speak>
             <speak chara="_mechanicalSound">Starting operation.</speak>
@@ -87,7 +87,8 @@
             <text>Start Time: February 29th 2012</text>
             <text>Location: ██████████ - The Quantum Sea  </text>
             <text>Target: ██████████</text>
-            <text>Members: Bianka "Durandal" Atagina (12), Rita Rossweisse (16)</text>
+            <!-- RENAME: Members: Bianka "Durandal" Atagina (12), Rita Rossweisse (16) -->
+            <text>Members: Bianka "Durandal" Ataegina (12), Rita Rossweisse (16)</text> 
             <text>Status: Closed</text>
             <text>Reviewed by: Otto Apocalypse</text>
             <goto goto="30" change="#ffffff"/>
@@ -96,7 +97,8 @@
             <bgm src="peerGynt.mp3" status="continue"></bgm>
             <text>Yes.</text>
             <text>This story will now go back in time 1461 days before February 29th 2016——</text>
-            <text>to the moment when Bianka Atagina and Rita Rossweisse arrived at the Quantum Sea.</text>
+            <!-- RENAME: to the moment when Bianka Atagina and Rita Rossweisse arrived at the Quantum Sea. -->
+            <text>to the moment when Bianka Ataegina and Rita Rossweisse arrived at the Quantum Sea.</text>
             <goto goto="40" change="#ffffff"/>
         </scene>
         <scene id="40" background="fishingVillage.jpg">
@@ -166,7 +168,8 @@
             <show chara="biankaSeriousClose" position="left"/>
             <speak chara="_Bianka">Needless to say, until our mission is completed—— We plan to involve ourselves in all your joys and sorrows.</speak>
             <show chara="biankaConfidentClose" position="left"/>
-            <speak chara="_Bianka">I am Bianka Atagina, and this my adjutant, Rita Rossweisse—— How can we help you?</speak>
+            <!-- RENAME: I am Bianka Atagina, and this my adjutant, Rita Rossweisse—— How can we help you? -->
+            <speak chara="_Bianka">I am Bianka Ataegina, and this my adjutant, Rita Rossweisse—— How can we help you?</speak>
             <show chara="biankaConfidentClose" position="left" opacity="0.8"/>
             <show chara="cervantesLaughClose" position="right"/>
             <speak chara="_MiguelNoName">Hahahaha!</speak>
@@ -176,7 +179,8 @@
             <speak chara="_Bianka">...What's so funny?</speak>
             <show chara="biankaAngryClose" position="left" opacity="0.8"/>
             <show chara="cervantesSmileClose" position="right"/>
-            <speak chara="_MiguelNoName">My apologies! Us the elderly just like to laugh. Please don't mind it, miss explorer.</speak>
+            <!-- TYPO: My apologies! Us the elderly just like to laugh. Please don't mind it, miss explorer. -->
+            <speak chara="_MiguelNoName">My apologies! We the elderly just like to laugh. Please don't mind it, miss explorer.</speak>
             <show chara="cervantesSmileClose" position="right" opacity="0.8"/>
             <show chara="biankaAngryClose" position="left"/>
             <speak chara="_Bianka">.....</speak>
@@ -387,7 +391,8 @@
             <speak chara="_Miguel">Now! Let's kill him!</speak>
             <show chara="cervantesLaughClose" position="right" opacity="0.8"/>
             <show chara="biankaSneerClose" position="left"/>
-            <speak chara="_Bianka">Look closely, old man. This is how a Valkyrie from 「Destiny」 fights!</speak>
+            <!-- RENAME: Look closely, old man. This is how a Valkyrie from 「Destiny」 fights! -->
+            <speak chara="_Bianka">Look closely, old man. This is how a Valkyrie from 「Schicksal」 fights!</speak>
             <show chara="biankaSneerClose" position="left" opacity="0.8"/>
             <show chara="rita17NormalClose" position="right"/>
             <speak chara="_Rita">(....)</speak>

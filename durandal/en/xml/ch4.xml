@@ -210,10 +210,12 @@
             <speak chara="_ManfredNoName">Manfred Albrecht von Richthofen. Pilot. Fighter pilot of the German Air Force.</speak>
             <show chara="manfredColdClose" position="left" opacity="0.8"/>
             <show chara="biankaProudClose" position="right"/>
-            <speak chara="_Bianka">Bianka Atagina. Valkyrie. Squad Leader of Destiny's special exploration unit 「LONELY PANTHALASSA」.</speak>
+            <!-- RENAME: Bianka Atagina. Valkyrie. Squad Leader of Destiny's special exploration unit 「LONELY PANTHALASSA」. -->
+            <speak chara="_Bianka">Bianka Ataegina. Valkyrie. Squad Leader of Schicksal's special exploration unit 「LONELY PANTHALASSA」.</speak>
             <show chara="biankaProudClose" position="right" opacity="0.8"/>
             <show chara="manfredQuestionClose" position="left"/>
-            <speak chara="_Manfred">...「Destiny」 and 「Valkyrie」.</speak>
+            <!-- RENAME: ...「Destiny」 and 「Valkyrie」. -->
+            <speak chara="_Manfred">...「Schicksal」 and 「Valkyrie」.</speak>
             <show chara="manfredColdClose" position="left"/>
             <speak chara="_Manfred">...As I thought, those terms mean nothing to me.</speak>
             <show chara="manfredColdClose" position="left" opacity="0.8"/>

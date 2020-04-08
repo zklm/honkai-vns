@@ -319,7 +319,8 @@
             <speak chara="_policeRed">请您录入基本信息。</speak>
             <show chara="mailboxClose" position="left" opacity="0.8"/>
             <show chara="biankaConfidentClose" position="right"/>
-            <speak chara="_Bianka">Name: Bianka Atagina</speak>
+            <!-- RENAME: Name: Bianka Atagina -->
+            <speak chara="_Bianka">Name: Bianka Ataegina</speak>
             <speak chara="_Bianka">Gender: Female</speak>
             <speak chara="_Bianka">Age: 12</speak>
             <speak chara="_Bianka">Birthday: January 1st ...not that I know what calendar system this places is using.</speak>

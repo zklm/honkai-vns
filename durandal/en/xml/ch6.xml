@@ -168,7 +168,8 @@
             <speak chara="_MichelNoName">During that time, the entire staff and robots will search for the missing boy—— Are you okay with that, young lady?</speak>
             <show chara="micheSeriousClose" position="left" opacity="0.8"/>
             <show chara="biankaAngryClose" position="right"/>
-            <speak chara="_Bianka">I'm Bianka. Bianka Atagina. Rank A Valkyrie.</speak>
+            <!-- RENAME: I'm Bianka. Bianka Atagina. Rank A Valkyrie. -->
+            <speak chara="_Bianka">I'm Bianka. Bianka Ataegina. Rank A Valkyrie.</speak>
             <show chara="biankaAngryClose" position="right" opacity="0.8"/>
             <show chara="micheArrogantClose" position="left"/>
             <speak chara="_MichelNoName">I'm the Curator of the Great Library, Caterina Michelangelo Buonarroti. You can call me Michelangelo.</speak>

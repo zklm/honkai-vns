@@ -123,7 +123,8 @@
         </scene>
         <scene id="80" background="submarineEngine.jpg">
             <bgm src="legion.mp3" status="continue"></bgm>
-            <text>For Bianka Atagina and Rita Rossweisse the 「Caledonia」 was a giant time capsule——</text>
+            <!-- RENAME: For Bianka Atagina and Rita Rossweisse the 「Caledonia」 was a giant time capsule—— -->
+            <text>For Bianka Ataegina and Rita Rossweisse the 「Caledonia」 was a giant time capsule——</text>
             <text>——As if they had stepped into a novel by Jules Verne.</text>
             <goto goto="90" change="0"/>
         </scene>
@@ -291,7 +292,8 @@
             <speak chara="_Bianka">——You and your crew introduced yourselves, I suppose it's now our turn.</speak>
             <show chara="biankaProudClose" position="left"/>
             <show chara="rita17SquintClose" position="right" opacity="0.8"/>
-            <speak chara="_Bianka">I am Bianka Atagina, and this is my adjutant Rita Rossweisse. We're Valkyries, who under the orders of Destiny, came to explore this world.</speak>
+            <!-- RENAME: I am Bianka Atagina, and this is my adjutant Rita Rossweisse. We're Valkyries, who under the orders of Destiny, came to explore this world. -->
+            <speak chara="_Bianka">I am Bianka Ataegina, and this is my adjutant Rita Rossweisse. We're Valkyries, who under the orders of Schicksal, came to explore this world.</speak>
             <show chara="biankaProudClose" position="left" opacity="0.8"/>
             <show chara="wattSurpriseClose" position="right"/>
             <speak chara="_Watt">.....?</speak>
@@ -307,7 +309,7 @@
 				The main force of said organization are female soldiers called Valkyrie, who have resistance to this so called Houkai energy. 
 				In that world the Valkyries fight monsters to protect humanity. 
 			-->
-            <speak chara="_Shakespeare">Destiny? Valkyries? What are those?</speak>
+            <speak chara="_Shakespeare">Schicksal? Valkyries? What are those?</speak>
             <show chara="shakesDisgustedClose" position="right" opacity="0.8"/>
             <show chara="biankaProudClose" position="left"/>
             <speak chara="_Bianka">...what?</speak>
