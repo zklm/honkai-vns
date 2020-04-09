@@ -7,11 +7,11 @@
         <character name="Mechanical Sound" color="#dddddd" id="_mechanicalSound" src=""/>
         <character name="Narrator" color="#dddddd" id="_NarrationVenice" src=""/>
         <character name="Curtain" color="#dddddd" id="0curtain" src="0curtain.png"/>
-        <character name="其他女仆" color="#dddddd" id="_NPCMaidNoName" src=""/>
+        <character name="Other Maid" color="#dddddd" id="_NPCMaidNoName" src=""/>
         <character name="速度线" color="#dddddd" id="speedLine" src="06_01_speedLine.png"/>
-        <character name="犹豫不决的声音" color="#dddddd" id="_ShadowA" src=""/>
-        <character name="充满信心的声音" color="#dddddd" id="_ShadowB" src=""/>
-        <character name="渴望复仇的声音" color="#dddddd" id="_ShadowC" src=""/>
+        <character name="Worried Voice" color="#dddddd" id="_ShadowA" src=""/>
+        <character name="Reassuring Voice" color="#dddddd" id="_ShadowB" src=""/>
+        <character name="Angry Voice" color="#dddddd" id="_ShadowC" src=""/>
         <character name="场下观众" color="#dddddd" id="_AudienceLot" src=""/>
         <character name="Librarian" color="#dddddd" id="_Librarian" src=""/>
         <character name="Librarian" color="#dddddd" id="cowGirlLibrarian" src="01_18_cowGirlLibrarian.png"/>
@@ -24,24 +24,24 @@
         <character name="Durandal" color="#ffffff" id="biankaSportHesitateClose" src="biankaSportHesitateClose.png"/>
         <character name="Sword" color="#ffffff" id="swordRedClose-up" src="11_29_swordRedClose-up.png"/>
         <character name="Rita" color="#ddcab3" id="_Rita" src=""/>
-        <character name="鲍茜娅" color="#ddcab3" id="_RitaVeniceM" src=""/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="_RitaVeniceMSelf" src=""/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="PortiaSmile" src="PortiaSmile.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="PortiaNormal" src="PortiaNormal.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="PortiaThink" src="PortiaThink.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="PortiaPersuade" src="PortiaPersuade.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="PortiaSerious" src="PortiaSerious.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="PortiaSneer" src="PortiaSneer.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="PortiaShock" src="PortiaShock.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="PortiaAngry" src="PortiaAngry.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="DressPortiaShock" src="DressPortiaShock.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="DressPortiaFalseShock" src="DressPortiaFalseShock.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="DressPortiaThink" src="DressPortiaThink.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="DressPortiaSmile" src="DressPortiaSmile.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="DressPortiaHappy" src="DressPortiaHappy.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="DressPortiaSneer" src="DressPortiaSneer.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="DressPortiaAngry" src="DressPortiaAngry.png"/>
-        <character name="鲍茜娅 (丽塔)" color="#ddcab3" id="DressPortiaSerious" src="DressPortiaSerious.png"/>
+        <character name="Portia" color="#ddcab3" id="_RitaVeniceM" src=""/>
+        <character name="Portia (Rita)" color="#ddcab3" id="_RitaVeniceMSelf" src=""/>
+        <character name="Portia (Rita)" color="#ddcab3" id="PortiaSmile" src="PortiaSmile.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="PortiaNormal" src="PortiaNormal.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="PortiaThink" src="PortiaThink.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="PortiaPersuade" src="PortiaPersuade.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="PortiaSerious" src="PortiaSerious.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="PortiaSneer" src="PortiaSneer.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="PortiaShock" src="PortiaShock.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="PortiaAngry" src="PortiaAngry.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="DressPortiaShock" src="DressPortiaShock.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="DressPortiaFalseShock" src="DressPortiaFalseShock.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="DressPortiaThink" src="DressPortiaThink.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="DressPortiaSmile" src="DressPortiaSmile.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="DressPortiaHappy" src="DressPortiaHappy.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="DressPortiaSneer" src="DressPortiaSneer.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="DressPortiaAngry" src="DressPortiaAngry.png"/>
+        <character name="Portia (Rita)" color="#ddcab3" id="DressPortiaSerious" src="DressPortiaSerious.png"/>
         <character name="Girl" color="#ddcab3" id="_RitaChildNoName" src=""/>
         <character name="Girl" color="#ddcab3" id="ritaChildShyClose" src="08_03_ritaChildShyClose.png"/>
         <character name="Girl" color="#ddcab3" id="ritaChildShyMoreClose" src="08_03_ritaChildShyMoreClose.png"/>
@@ -80,8 +80,8 @@
         <character name="Rita" color="#ddcab3" id="ritaVestNaughtyClose-up" src="05_31_ritaVestNaughtyClose-up.png"/>
         <character name="Rita" color="#ddcab3" id="ritaVestTearClose-up" src="06_01_ritaVestTearClose-up.png"/>
         <character name="Girl" color="#ffffff" id="_BiankaNoName" src=""/>
-        <character name="比安卡" color="#ffffff" id="_Bianka" src=""/>
-        <character name="??? (比安卡)" color="#ffffff" id="_BiankaVeniceNoName" src=""/>
+        <character name="Bianka" color="#ffffff" id="_Bianka" src=""/>
+        <character name="??? (Bianka)" color="#ffffff" id="_BiankaVeniceNoName" src=""/>
         <character name="Bassanio" color="#ffffff" id="_BiankaVenice" src=""/>
         <character name="Bassanio (?)" color="#ffffff" id="_BiankaVeniceQ" src=""/>
         <character name="Bassanio (Bianka)" color="#ffffff" id="_BiankaVeniceSelf" src=""/>
@@ -305,24 +305,24 @@
         <character name="Manfred" color="#ccc8b5" id="manfredSmileClose" src="12_28_manfredSmileClose.png"/>
         <character name="Ragna" color="#cb958b" id="_Ragna" src=""/>
         <character name="Maid (?)" color="#cb958b" id="_RagnaNoName" src=""/>
-        <character name="亚丝拉琪 (?)" color="#cb958b" id="_RagnaFalseName" src=""/>
+        <character name="Aslaug (?)" color="#cb958b" id="_RagnaFalseName" src=""/>
         <character name="Ragna" color="#cb958b" id="ragnaMaidNormalClose" src="08_03_ragnaMaidNormalClose.png"/>
         <character name="Ragna" color="#cb958b" id="ragnaMaidCareClose" src="08_03_ragnaMaidCareClose.png"/>
         <character name="Ragna" color="#cb958b" id="ragnaMaidLaughClose" src="08_03_ragnaMaidLaughClose.png"/>
         <character name="Ragna" color="#cb958b" id="ragnaMaidSmileClose" src="08_03_ragnaMaidSmileClose.png"/>
         <character name="Ragna" color="#cb958b" id="ragnaMaidHoweverClose" src="08_03_ragnaMaidHoweverClose.png"/>
         <character name="Ragna" color="#cb958b" id="ragnaMaidThinkClose" src="08_03_ragnaMaidThinkClose.png"/>
-        <character name="无量塔 姬子" color="#b23b3d" id="_Hemiko" src=""/>
-        <character name="部下" color="#dddddd" id="_pirateFollower" src=""/>
+        <character name="Himeko" color="#b23b3d" id="_Hemiko" src=""/>
+        <character name="Pirates" color="#dddddd" id="_pirateFollower" src=""/>
         <character name="海盗男" color="#dddddd" id="pirateBoyClose" src="12_28_pirateBoyClose.png"/>
         <character name="海盗女" color="#dddddd" id="pirateGirlClose" src="12_28_pirateGirlClose.png"/>
-        <character name="机器人" color="#cf3d48" id="_mechineRed" src=""/>
+        <character name="Red Machine" color="#cf3d48" id="_mechineRed" src=""/>
         <character name="Policeman" color="#cf3d48" id="_policeRed" src=""/>
         <character name="Policeman" color="#cf3d48" id="mailboxFar" src="12_28_mailboxFar.png"/>
         <character name="Policeman" color="#cf3d48" id="mailboxClose" src="12_28_mailboxClose.png"/>
-        <character name="导游" color="#dbd9dc" id="_guideLighthouse" src=""/>
-        <character name="导游" color="#dbd9dc" id="beaconFar" src="12_28_beaconFar.png"/>
-        <character name="导游" color="#dbd9dc" id="beaconClose" src="12_28_beaconClose.png"/>
+        <character name="Guide" color="#dbd9dc" id="_guideLighthouse" src=""/>
+        <character name="Guide" color="#dbd9dc" id="beaconFar" src="12_28_beaconFar.png"/>
+        <character name="Guide" color="#dbd9dc" id="beaconClose" src="12_28_beaconClose.png"/>
         <character name="???" color="#f3d789" id="_ThalesNoName" src=""/>
         <character name="Thales" color="#f3d789" id="_Thales" src=""/>
         <character name="Antonio" color="#f3d789" id="_ThalesVenice" src=""/>
