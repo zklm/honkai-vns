@@ -63,8 +63,8 @@ const rx = new RegExp(`<(${elString})[^>]*>([^<]+)</[^>]+>$`, 'gm')
 
 let tlIndex = 0
 let formatted = fs.readFileSync(args[1]).toString().replace(rx, function(match, el, text) {
-    if (tlIndex + 1 > tls.length || tls[tlIndex] === '_') return match
-    return match.replace(text, tls[tlIndex++])
+    if (tlIndex + 1 > tls.length || tls[tlIndex++] === '_') return match
+    return match.replace(text, tls[tlIndex - 1])
 })
 
 let outFile = getArg('-o')
