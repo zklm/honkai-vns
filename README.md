@@ -1,8 +1,8 @@
 # Honkai VNs
 Structured translations of HI3 VNs so that they can be loaded in to VN via userscripts, extensions, standalone versions, etc.
 
-Standalone Anti-Entropy VN: https://zklm.github.io/honkai-vn-antientropy/
-Standalone Durandal VN: https://zklm.github.io/honkai-vn-durandal/
+* Anti-Entropy: https://zklm.github.io/honkai-vn-antientropy/ (Standalone)
+* Durandal: https://zklm.github.io/honkai-vn-durandal/ (Standalone)
 
 ## Translators
 The goal is to give contributor permissions of this repo to any active competent translator. Userscripts and so on would all then query from here to load translations. Full credit given of course. If anyone's keen, I guess just submit an issue, lemme know if you wanna discuss through email/whatever.
