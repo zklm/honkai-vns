@@ -8,272 +8,272 @@
         </scene>
         <scene id="10" background="CG15-0.jpg">
             <bgm src="11_3_themeOtto.mp3" status="start"></bgm>
-            <speak chara="weltNoFace">你……你是那个寄信的……</speak>
+            <speak chara="weltNoFace">You're... The one from the letters...?</speak>
             <goto goto="20" change="0"/>
         </scene>
         <scene id="20" background="CG14-2.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoNameNoFace">啊。没错。“小丑α”。</speak>
-            <speak chara="ottoNoNameNoFace">不过……既然我们见面了，果然还是需要“正确地”自我介绍一下。</speak>
-            <speak chara="ottoNoNameNoFace">我的名字是【奥托·阿波卡利斯】。</speak>
-            <speak chara="ottoNoFace">“天命”的现任主教。</speak>
-            <speak chara="ottoNoFace">别干杵着了，先进来暖暖身子如何？</speak>
+            <speak chara="ottoNoNameNoFace">Indeed. I am 「Clown Alpha」.</speak>
+            <speak chara="ottoNoNameNoFace">But now that we are meeting like this... I guess a proper introduction is in order.</speak>
+            <speak chara="ottoNoNameNoFace">My name is 「Otto Apocalypse」.</speak>
+            <speak chara="ottoNoFace">The current Bishop of Destiny.</speak>
+            <speak chara="ottoNoFace">Don't stay there. How about you come in and warm yourself?</speak>
             <goto goto="30" change="#ffffff"/>
         </scene>
         <scene id="30" background="CG15-1.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">奥托……阿波卡利斯？</speak>
-            <speak chara="ottoNoFace">哈哈哈，没错，真名实姓，如假包换。</speak>
-            <speak chara="ottoNoFace">“奥托·阿波卡利斯”。</speak>
-            <speak chara="ottoNoFace">虽然在组织里，大家并不太提我的名字就是了……哈哈哈哈。</speak>
-            <speak chara="weltNoFace">（难道是H.A在魂钢记录里提到的那个……？）</speak>
-            <speak chara="weltNoFace">（不，不对……那不是上百年前的人了吗？）</speak>
-            <speak chara="weltNoFace">（那这位是……二世、三世什么的吗？）</speak>
-            <speak chara="weltNoFace">（毕竟，看起来这么年轻……）</speak>
+            <speak chara="weltNoFace">Otto... Apocalypse?</speak>
+            <speak chara="ottoNoFace">Hahaha, that's right. If I am lying I give you permission to hit me.</speak>
+            <speak chara="ottoNoFace">Otto Apocalypse.</speak>
+            <speak chara="ottoNoFace">Within my organization no one dares to say my name... hahaha.</speak>
+            <speak chara="weltNoFace">(He's the person H.A. was talking about in her Soulium Sphere recording...?)</speak>
+            <speak chara="weltNoFace">(But... wasn't that over 100 years ago?)</speak>
+            <speak chara="weltNoFace">(Then he is... the second or third generation?)</speak>
+            <speak chara="weltNoFace">(Also he looks incredibly young...)</speak>
             <goto goto="40" change="0"/>
         </scene>
         <scene id="40" background="CG15-2.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">……我猜想你听到过一些负面的传言。</speak>
-            <speak chara="ottoNoFace">关于我的。</speak>
-            <speak chara="ottoNoFace">它们有些确有其事，有些则不过是纯粹的捕风捉影。</speak>
-            <speak chara="ottoNoFace">不过这些都不重要。</speak>
+            <speak chara="ottoNoFace">...You've probably heard nasty rumors about me, yes?</speak>
+            <speak chara="ottoNoFace">That's the sort of rumors that follow me.</speak>
+            <speak chara="ottoNoFace">Of course some of them are true, but others are like smoke without fire.</speak>
+            <speak chara="ottoNoFace">But none of that matters.</speak>
             <goto goto="50" change="0"/>
         </scene>
         <scene id="50" background="CG15-3.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">我今天，并不是以主教的身份来到这里的——</speak>
-            <speak chara="ottoNoFace">——只不过，你我坦诚相见，若还用笔名互相称呼，未免也太见外了。</speak>
+            <speak chara="ottoNoFace">I didn't come here to see you as the Bishop――</speak>
+            <speak chara="ottoNoFace">――But to leave the pen names behind and expose it all.</speak>
             <goto goto="60" change="0"/>
         </scene>
         <scene id="60" background="CG15-4.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="weltNoFace">你……你打算做什么？</speak>
+            <speak chara="weltNoFace">.....</speak>
+            <speak chara="weltNoFace">Then, what do you want?</speak>
             <goto goto="70" change="0"/>
         </scene>
         <scene id="70" background="CG15-5.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">“啊，我亲爱的朋友，你何必如此紧张。”</speak>
+            <speak chara="ottoNoFace">「O dear friend, do not be nervous.」</speak>
             <goto goto="80" change="0"/>
         </scene>
         <scene id="80" background="CG15-6.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">……噗，这时候好像不应该用剧作家的腔调来调侃呢。</speak>
-            <speak chara="ottoNoFace">如果明确告知你我的目的，可以消除你的紧张——那就这么办吧。</speak>
-            <speak chara="ottoNoFace">我想让你，“瓦尔特”，来当我奥托·阿波卡利斯的继承人。</speak>
-            <speak chara="ottoNoFace">也就是说，由我来培养你，让你能够在我卸任之后……成为天命的下一任主教。</speak>
-            <speak chara="ottoNoFace">意下如何？</speak>
+            <speak chara="ottoNoFace">...Haha, I shouldn't be talking like a playwright right now.</speak>
+            <speak chara="ottoNoFace">I believe it'll help you relax a little if I tell you my intentions directly――</speak>
+            <speak chara="ottoNoFace">「Welt」, I want you to be Otto Apocalypse's successor.</speak>
+            <speak chara="ottoNoFace">What I mean by that, is that once I retire I want you to become the next Bishop of Destiny.</speak>
+            <speak chara="ottoNoFace">What do you say?</speak>
             <goto goto="90" change="0"/>
         </scene>
         <scene id="90" background="CG15-7.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">什……</speak>
-            <speak chara="weltNoFace">什么？</speak>
+            <speak chara="weltNoFace">Wha...</speak>
+            <speak chara="weltNoFace">What are you saying?</speak>
             <goto goto="100" change="0"/>
         </scene>
         <scene id="100" background="CG15-8.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">啊。</speak>
-            <speak chara="ottoNoFace">开门见山，果然还是吓了你一大跳吧。</speak>
+            <speak chara="ottoNoFace">Ah...</speak>
+            <speak chara="ottoNoFace">I can't blame you for being surprised by such a blunt request.</speak>
             <goto goto="110" change="0"/>
         </scene>
         <scene id="110" background="CG15-7.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">不过，你要知道……“阿波卡利斯”，从来都不是被血缘所束缚的家族。</speak>
-            <speak chara="ottoNoFace">从古至今，她都在不断吸纳这个世界上最富有潜力的人。</speak>
-            <speak chara="ottoNoFace">所以，如果你愿意……今天就可以入籍改姓，做我的兄弟。</speak>
+            <speak chara="ottoNoFace">You must know the 「Apocalypse」 family doesn't care about blood bonds.</speak>
+            <speak chara="ottoNoFace">From ancient times to the present, the Apocalypse have taken in the most powerful people in the world.</speak>
+            <speak chara="ottoNoFace">So if you wanted... You could join the Apocalypse family right now and become my sworn brother.</speak>
             <goto goto="120" change="0"/>
         </scene>
         <scene id="120" background="CG15-6.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">呃……</speak>
-            <speak chara="weltNoFace">……什么？</speak>
+            <speak chara="weltNoFace">Eh...?</speak>
+            <speak chara="weltNoFace">...Are you serious?</speak>
             <goto goto="125" change="0"/>
         </scene>
         <scene id="125" background="CG15-9.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">第一次见面就提出这样的请求，你会奇怪也是在所难免的。</speak>
+            <speak chara="ottoNoFace">It's natural for you think it's weird given that this is our first meeting.</speak>
             <goto goto="130" change="0"/>
         </scene>
         <scene id="130" background="CG15-3.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">不过，从我的角度来说……</speak>
-            <speak chara="ottoNoFace">我，身为阿波卡利斯家族的族长，已经观察你很长时间了。</speak>
-            <speak chara="ottoNoFace">我认为，你，与我相反，会成长为一个真正伟大的领袖。</speak>
+            <speak chara="ottoNoFace">But I don't care about that sort of things...</speak>
+            <speak chara="ottoNoFace">I've been observing you all this time as the head of the Apocalypse family.</speak>
+            <speak chara="ottoNoFace">You are my opposite. There is no doubt you'll become a great leader one day.</speak>
             <goto goto="140" change="0"/>
         </scene>
         <scene id="140" background="CG15-4.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">……与你相反？这是什么意思？</speak>
+            <speak chara="weltNoFace">...The opposite? What do you mean?</speak>
             <goto goto="150" change="0"/>
         </scene>
         <scene id="150" background="CG15-1.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">哈哈哈哈，你的关注点果然和其他人不一样。</speak>
+            <speak chara="ottoNoFace">Hahaha. Your perspective is truly interesting, unlike everyone else's.</speak>
             <goto goto="160" change="0"/>
         </scene>
         <scene id="160" background="CG15-8.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">直白的说，我认为我自己并不是一个合格的主教。</speak>
-            <speak chara="ottoNoFace">我之所以会成为主教，完全是基于私人欲望的驱使——不过这个并不是重点。</speak>
+            <speak chara="ottoNoFace">To be honest, I believe I'm a failure as the Bishop.</speak>
+            <speak chara="ottoNoFace">Because I became the Bishop for my own personal gain―― But that doesn't matter now.</speak>
             <goto goto="170" change="0"/>
         </scene>
         <scene id="170" background="CG15-3.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">今天的重点是……我希望能拥有一位，真正具有“伟大的天赋”的，继承人。</speak>
-            <speak chara="weltNoFace">……我？伟大的天赋？</speak>
+            <speak chara="ottoNoFace">What matters now is... you, the 「exceptionally talented」 successor I am looking for.</speak>
+            <speak chara="weltNoFace">...Me? talented?</speak>
             <goto goto="180" change="0"/>
         </scene>
         <scene id="180" background="CG15-6.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">是的。伟大的天赋。</speak>
-            <speak chara="ottoNoFace">所谓天赋，是尚未兑现的才能——所以你觉得你自己并没有什么特殊之处，这很正常。</speak>
-            <speak chara="ottoNoFace">这样吧。</speak>
+            <speak chara="ottoNoFace">Yes. You're exceptionally talented.</speak>
+            <speak chara="ottoNoFace">Your talent is one that hasn't bloomed yet―― It's natural that you would think of yourself as such a hopeless person.</speak>
+            <speak chara="ottoNoFace">Now let me ask you a question.</speak>
             <goto goto="190" change="0"/>
         </scene>
         <scene id="190" background="CG15-10.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">我听说这两年你读了不少书——</speak>
-            <speak chara="ottoNoFace">——你觉得，在人类数千年的文明史上，什么样的人可以称得上“伟大”呢？</speak>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="ottoNoFace">没关系，想到什么就可以说什么。</speak>
-            <speak chara="ottoNoFace">这只是笔友之间的交流而已，不要担心对错什么的。</speak>
+            <speak chara="ottoNoFace">You've read a lot of books over the past two years――</speak>
+            <speak chara="ottoNoFace">――So in your opinion, among our long lasting civilization, who deserves to be truly called 「exceptional」?</speak>
+            <speak chara="weltNoFace">.....</speak>
+            <speak chara="ottoNoFace">Don't think too deeply about it, just say what comes to your mind.</speak>
+            <speak chara="ottoNoFace">There is no right or wrong answer in a talk between friends.</speak>
             <goto goto="200" change="0"/>
         </scene>
         <scene id="200" background="CG15-11.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="weltNoFace">要说我读书多，那肯定是夸张了。既然你非要我说，那我也只能列举一些名人而已。</speak>
-            <speak chara="weltNoFace">“如果我比别人看得更远，那是因为我站在巨人的肩上。”</speak>
-            <speak chara="weltNoFace">——牛顿怎么样？</speak>
+            <speak chara="weltNoFace">.....</speak>
+            <speak chara="weltNoFace">I think you overestimate me but if you really want me to answer, I could name countless celebrities.</speak>
+            <speak chara="weltNoFace">「If I have seen further it is by standing on the shoulders of Giants.」</speak>
+            <speak chara="weltNoFace">―How's Newton?</speak>
             <goto goto="210" change="0"/>
         </scene>
         <scene id="210" background="CG15-12.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">哈哈哈，这不是她拿来讽刺别人的话吗？</speak>
-            <speak chara="ottoNoFace">牛顿这家伙，在数学上的洞察力确实无人能出其右……</speak>
-            <speak chara="ottoNoFace">但要论通达万物的“伟大”，依我看，她还不如莎士比亚呢。</speak>
+            <speak chara="ottoNoFace">Hahaha. Wasn't she just making fun of others?</speak>
+            <speak chara="ottoNoFace">Newton's insight into mathematics was certainly unparalleled...</speak>
+            <speak chara="ottoNoFace">But in terms of being 「exceptional」, I think she doesn't even come close to Shakespeare.</speak>
             <goto goto="220" change="0"/>
         </scene>
         <scene id="220" background="CG15-11.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="weltNoFace">既然你提到了莎士比亚，那这位写出“To be, or not to be”的作家，你觉得又如何呢？</speak>
+            <speak chara="weltNoFace">.....</speak>
+            <speak chara="weltNoFace">Shakespeare? You think the person who wrote 「To Be or Not to Be」 is worthy of being called exceptional?</speak>
             <goto goto="230" change="0"/>
         </scene>
         <scene id="230" background="CG15-12.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">哈哈……她不过是把世间的各种苦难，排列组合以后展示给你看罢了。</speak>
-            <speak chara="ottoNoFace">视野的确出众，但是骨子里，没有同情心。</speak>
+            <speak chara="ottoNoFace">Hahaha... All she did was to line up the world's suffering in a neat manner and showed it to the people.</speak>
+            <speak chara="ottoNoFace">Her way of looking at things was different from everyone else, but she didn't have a single bit of sympathy within her.</speak>
             <goto goto="240" change="0"/>
         </scene>
         <scene id="240" background="CG15-11.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="weltNoFace">照你这么说，理论家往往局限于自己的领域，创作家又因为要彰显冲突的缘故而必须铁石心肠……</speak>
-            <speak chara="weltNoFace">那么劝人行善的宗教领袖……比如佛陀释迦摩尼，他又如何？</speak>
+            <speak chara="weltNoFace">......</speak>
+            <speak chara="weltNoFace">Going by your logic, theorists don't leave their own fields, while writers are cold hearted to be able to come up with many different conflicts...</speak>
+            <speak chara="weltNoFace">In that case, what about religious leaders who encourage people to do good... for example, Gautama Buddha?</speak>
             <goto goto="250" change="0"/>
         </scene>
         <scene id="250" background="CG15-13.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">哈……提来提去，竟然提到我们阿波卡利斯的老祖宗了么？</speak>
+            <speak chara="ottoNoFace">Sigh... So in the end we end up with the ancestors of the Apocalypse family.</speak>
             <goto goto="260" change="0"/>
         </scene>
         <scene id="260" background="CG15-2.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">老、老祖宗？</speak>
-            <speak chara="ottoNoFace">唉……真要给你讲这件事的来龙去脉，那怕是三天三夜也讲不完。</speak>
+            <speak chara="weltNoFace">H-He's your ancestor?</speak>
+            <speak chara="ottoNoFace">Yes... but if I tell you all about it, we won't be done even after three days and three nights.</speak>
             <goto goto="270" change="0"/>
         </scene>CG15-14.jpg
         <scene id="270" background="CG15-2.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">不过，单从结论来说……有心无力，看得见远方却看不见脚下——我不能说这样的人是伟大的。</speak>
+            <speak chara="ottoNoFace">In short, he couldn't keep up with his own feelings, he couldn't see the big picture or even what was below him―― I couldn't possibly call someone like that exceptional.</speak>
             <goto goto="280" change="0"/>
         </scene>
         <scene id="280" background="CG15-15.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">……感觉你的标准还真高啊。</speak>
-            <speak chara="weltNoFace">那么，脚踏实地、胸怀世界——现代俄国之父，彼得大帝，这个又如何？</speak>
-            <speak chara="ottoNoFace">彼得固然很有魄力……但滥杀无辜是这位沙皇洗不掉的污点。</speak>
-            <speak chara="ottoNoFace">真正伟大的人，应该能阻止不必要的流血。</speak>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="weltNoFace">那改革医院卫生制度，挽救无数伤患性命的“白衣天使”，南丁格尔呢？</speak>
-            <speak chara="ottoNoFace">她倒是有伟大的天分……不过毕生致力于医护事业，实际上倒也限制了这种天分的成长。</speak>
-            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace">...You sure have high standards.</speak>
+            <speak chara="weltNoFace">Then what about the father of modern Russia, Peter 1―― He earnestly tried to make his country a better place.</speak>
+            <speak chara="ottoNoFace">Peter was certainly a strong willed person... but it was his fault many innocent people died.</speak>
+            <speak chara="ottoNoFace">A truly exceptional person must avoid all unnecessary bloodshed.</speak>
+            <speak chara="weltNoFace">.....</speak>
+            <speak chara="weltNoFace">Nightingale, the woman known as the 「The White Angel」 who reformed the medical system.</speak>
+            <speak chara="ottoNoFace">She had indeed exceptional qualities... but working in her area of expertise for her entire life prevented her from growing in other areas.</speak>
+            <speak chara="weltNoFace">.....</speak>
             <goto goto="290" change="0"/>
         </scene>
         <scene id="290" background="CG15-14.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">虽然我还能想到诸如斯密、达尔文、克劳塞维茨等等名字……</speak>
-            <speak chara="weltNoFace">不过按你如此之高的标准，她们也算不得“真正伟大的人”吧？</speak>
-            <speak chara="ottoNoFace">没错。</speak>
-            <speak chara="ottoNoFace">这些家伙都是聪明人，能够凭一己之力改变某一领域内的现状……</speak>
-            <speak chara="ottoNoFace">但是她们缺乏足够的力量，在更多的领域内，去实践理性的思想。</speak>
-            <speak chara="weltNoFace">……她们都做不到的事，难道你觉得我可以做到？</speak>
+            <speak chara="weltNoFace">I can think of many others like Adam Smith, Darwin, Carl Clausewitz...</speak>
+            <speak chara="weltNoFace">But due to your impossibly high standards no one can be called an 「exceptionally talented person」.</speak>
+            <speak chara="ottoNoFace">Exactly.</speak>
+            <speak chara="ottoNoFace">All of them were smart individuals capable of shacking the status quo within their specialty....</speak>
+            <speak chara="ottoNoFace">But when it came to other fields, they were unable to put their knowledge to good use.</speak>
+            <speak chara="weltNoFace">...Do you think I can do what those people couldn't?</speak>
             <goto goto="300" change="0"/>
         </scene>
         <scene id="300" background="CG15-10.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">我当然不能保证你可以做到。</speak>
-            <speak chara="ottoNoFace">而且从智力上讲，你也确实比不上她们。</speak>
-            <speak chara="ottoNoFace">但是……你却有她们都不具备的优点。</speak>
-            <speak chara="weltNoFace">她们都不具备的……优点？</speak>
+            <speak chara="ottoNoFace">I can't guarantee it, but yes.</speak>
+            <speak chara="ottoNoFace">As far as intellect is concerned, you're certainly not a match for any of them.</speak>
+            <speak chara="ottoNoFace">But you posses something none of them had.</speak>
+            <speak chara="weltNoFace">Something they didn't have...?</speak>
             <goto goto="310" change="0"/>
         </scene>
         <scene id="310" background="CG15-12.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">哈哈哈哈……</speak>
-            <speak chara="ottoNoFace">想想近日以来，你都在和什么样的人打交道吧。</speak>
-            <speak chara="ottoNoFace">爱因斯坦，有记录以来智商最高的人。</speak>
-            <speak chara="ottoNoFace">特斯拉，有史以来破坏力最强的发明家。</speak>
-            <speak chara="ottoNoFace">普朗克，当代最不循规蹈矩的物理学家。</speak>
-            <speak chara="ottoNoFace">布里甘缇亚，我们天命的最强女武神。</speak>
-            <speak chara="ottoNoFace">哦，还有你今天刚刚见过的，“世外仙人”，符华。</speak>
-            <speak chara="ottoNoFace">她们对你的评价，可都是很不错的吧？</speak>
-            <speak chara="weltNoFace">呃……有、有吗……</speak>
-            <speak chara="ottoNoFace">哈哈哈……</speak>
-            <speak chara="ottoNoFace">你还真是不自知啊。</speak>
+            <speak chara="ottoNoFace">Yes...</speak>
+            <speak chara="ottoNoFace">Think about who you are surrounding yourself with these days.</speak>
+            <speak chara="ottoNoFace">The most intelligent person ever recorded, Einstein.</speak>
+            <speak chara="ottoNoFace">The most destructive inventor ever known, Tesla.</speak>
+            <speak chara="ottoNoFace">The most unconventional physicist of our time, Planck.</speak>
+            <speak chara="ottoNoFace">The most powerful Valkyrie of Destiny Organization, Brigantia.</speak>
+            <speak chara="ottoNoFace">And there is also the 「Sage」 you've met today, Fuka.</speak>
+            <speak chara="ottoNoFace">They all think highly of you, don't you think so?</speak>
+            <speak chara="weltNoFace">E-Eh... Do they really...</speak>
+            <speak chara="ottoNoFace">Haha...</speak>
+            <speak chara="ottoNoFace">Seriously, you yourself is the only one who hasn't noticed.</speak>
             <goto goto="320" change="0"/>
         </scene>
         <scene id="320" background="CG15-14.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">这么说吧……</speak>
-            <speak chara="ottoNoFace">在我们这里，和那五个家伙全都聊得上话……</speak>
-            <speak chara="ottoNoFace">你还是第一个哦？</speak>
-            <speak chara="weltNoFace">呃……？</speak>
+            <speak chara="ottoNoFace">How should I phrase this...</speak>
+            <speak chara="ottoNoFace">Among us, the only one who can connect with all 5 of them....</speak>
+            <speak chara="ottoNoFace">Is none other than you.</speak>
+            <speak chara="weltNoFace">Eh...?</speak>
             <goto goto="330" change="0"/>
         </scene>
         <scene id="330" background="CG15-10.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">不明白我的意思吗？</speak>
-            <speak chara="ottoNoFace">真正的伟人，并不是那些各行各业的杰出人物……</speak>
-            <speak chara="ottoNoFace">而是能和这些杰出人物谈笑风生，让他们各自发挥出最大潜能的存在。</speak>
+            <speak chara="ottoNoFace">You don't get it?</speak>
+            <speak chara="ottoNoFace">A truly exceptional person is not one who stands out in one particular area...</speak>
+            <speak chara="ottoNoFace">But one who can connect with those outstanding people to bring forth their true potential.</speak>
             <goto goto="340" change="0"/>
         </scene>
         <scene id="340" background="CG15-3.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">而你，就是我所知道的，最适合培养成这种伟大存在的人。</speak>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="weltNoFace">像我这样的人，难道不是要多少有多少才对么？</speak>
+            <speak chara="ottoNoFace">And you, as far as I'm aware, are the closest to be that kind of exceptional person. You're a person worth nurturing.</speak>
+            <speak chara="weltNoFace">.....</speak>
+            <speak chara="weltNoFace">Shouldn't a person like me know their place and live within his limits?</speak>
             <goto goto="350" change="0"/>
         </scene>
         <scene id="350" background="CG15-16.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace" remark="next">哈哈哈……如果说我是肉食系当中的肉食系，那你可就是草食系当中的草食系啊！</speak>
+            <speak chara="ottoNoFace" remark="next">Ahahaha... if I'm the most carnivorous of all, you are the most herbivorous of all!</speak>
             <remark>
                 <p class="article-text-h">注：</p>
                 <p class="article-text">肉食系，是指热心于追求社会成就，积极于追名逐利、对感情投入很多的一类人。</p>
                 <p class="article-text">草食系，则是指性格内向，消费节俭，没有野心，不问世事，乐于安逸平淡的另一类人。</p>
             </remark>
-            <speak chara="weltNoFace">草食系……？肉食系……？</speak>
-            <speak chara="ottoNoFace">哈哈哈……这种比喻，不懂也没什么关系。</speak>
+            <speak chara="weltNoFace">Herbivore...? Carnivore...?</speak>
+            <speak chara="ottoNoFace">Haha... Nevermind that.</speak>
             <goto goto="360" change="0"/>
         </scene>
         <scene id="360" background="CG15-10.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">我是想提醒你，人的内在，可不光包括性格气质这些东西——</speak>
-            <speak chara="ottoNoFace" remark="next">在它们之前，人的内在，首先是由他的“本体”（Ontology）所决定的。</speak>
+            <speak chara="ottoNoFace">What I'm trying to say is, the intrinsic factors humans beings are made of is not only their personality and disposition――</speak>
+            <speak chara="ottoNoFace" remark="next">Human nature is determined mostly by ontology.</speak>
             <remark post="U2FsdGVkX18tR4+bS6CJ6pZEYeP1">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">本体论（Ontology）是形而上学（Metaphysics）的基本分支，主要探讨存在本身，即一切现实事物的本质特征。</p>
@@ -283,55 +283,55 @@
         </scene>
         <scene id="370" background="CG15-9.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">本体？</speak>
-            <speak chara="ottoNoFace">本体不是什么神秘的东西。</speak>
+            <speak chara="weltNoFace">Ontology?</speak>
+            <speak chara="ottoNoFace">Despite its name it's nothing too mysterious.</speak>
             <goto goto="380" change="0"/>
         </scene>
         <scene id="380" background="CG15-14.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">我已经活了五百多年了……而我的本体，自始至终，也不过是一个，名为“圣女”的，虚无缥缈的影子而已。</speak>
+            <speak chara="ottoNoFace">I've been alive for over 500 years.... and after all this time my ontology is insignificant compared to the one of the 「Saint」.</speak>
             <goto goto="390" change="0"/>
         </scene>
         <scene id="390" background="CG15-2.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">五、五百多年？</speak>
+            <speak chara="weltNoFace">5-500 years?</speak>
             <goto goto="400" change="0"/>
         </scene>
         <scene id="400" background="CG15-8.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">没什么……不过是和恶魔订立了一个契约罢了。</speak>
-            <speak chara="ottoNoFace">况且，如果是你的话……根本就不需要这么麻烦。</speak>
+            <speak chara="ottoNoFace">Nothing to be surprised about... All I did was to make a deal with the devil.</speak>
+            <speak chara="ottoNoFace">Besides... You won't need to make a deal like that in the first place.</speak>
             <goto goto="410" change="0"/>
         </scene>
         <scene id="410" background="CG15-8.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">呃……你、你的意思是……</speak>
-            <speak chara="ottoNoFace">我的意思是，你其实比我更容易去活个五百年。容易得多。</speak>
-            <speak chara="ottoNoFace">不过这并不是今天的重点。</speak>
+            <speak chara="weltNoFace">Y-You mean...</speak>
+            <speak chara="ottoNoFace">Yes, you'll be able to live for 500 years much easier than me.</speak>
+            <speak chara="ottoNoFace">But that's a talk for another day.</speak>
             <goto goto="420" change="0"/>
         </scene>
         <scene id="420" background="CG15-10.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">我真正想说的是，你的本体——如果引导正确的话——比我要强出百倍。</speak>
-            <speak chara="weltNoFace">我？比你？</speak>
+            <speak chara="ottoNoFace">What I want you to know, is that under the right guidance―― Your ontology can be 100 times stronger than mine.</speak>
+            <speak chara="weltNoFace">Mine? stronger than yours?</speak>
             <goto goto="430" change="0"/>
         </scene>
         <scene id="430" background="CG15-10.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">嗯。你，比我。</speak>
-            <speak chara="ottoNoFace">没有自觉吗？你的本体……不是某个单独的憧憬对象……</speak>
-            <speak chara="ottoNoFace">……却是“人类”整体啊。</speak>
-            <speak chara="weltNoFace">……本体……是人类整体？</speak>
+            <speak chara="ottoNoFace">That's right. You are, indeed, stronger than me.</speak>
+            <speak chara="ottoNoFace">Are you not aware? Your ontology no longer... belongs to a single person...</speak>
+            <speak chara="ottoNoFace">...But to humanity as a 「whole」.</speak>
+            <speak chara="weltNoFace">My ontology... humanity as a 「whole」?</speak>
             <goto goto="440" change="0"/>
         </scene>
         <scene id="440" background="CG15-3.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace" remark="next">“如果我们选择了最能为人类福利而劳动的职业，”</speak>
-            <speak chara="ottoNoFace" remark="next">“那么，重担就不能把我们压倒，因为这是为大家而献身；”</speak>
-            <speak chara="ottoNoFace" remark="next">“那时我们所感到的就不是可怜的、有限的、自私的乐趣,”</speak>
-            <speak chara="ottoNoFace" remark="next">“我们的幸福将属于千百万人，”</speak>
-            <speak chara="ottoNoFace" remark="next">“我们的事业将默默地，但是永恒发挥作用地存在下去，”</speak>
-            <speak chara="ottoNoFace" remark="next">“而面对我们的骨灰，高尚的人们将洒下热泪。”</speak>
+            <speak chara="ottoNoFace" remark="next">「If we have chosen the position in life in which we can most of all work for mankind,」</speak>
+            <speak chara="ottoNoFace" remark="next">「No burdens can bow us down, because they are sacrifices for the benefit of all.」</speak>
+            <speak chara="ottoNoFace" remark="next">「Then we shall experience no petty, limited, selfish joy」</speak>
+            <speak chara="ottoNoFace" remark="next">「But our happiness will belong to millions.」</speak>
+            <speak chara="ottoNoFace" remark="next">「Our deeds will live on quietly but perpetually at work,」</speak>
+            <speak chara="ottoNoFace" remark="next">「And over our ashes will be shed the hot tears of noble people」</speak>
             <remark post="U2FsdGVkX19fqm4S6R03iCxtPxrm">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">这段文字是《青年在选择职业时的考虑》的最后一段。</p>
@@ -341,46 +341,46 @@
         </scene>
         <scene id="450" background="CG15-10.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">——我想说的是，你有没有，打心底里羡慕过，能说出这种豪言壮语的人呢？</speak>
-            <speak chara="ottoNoFace">有没有觉得，无论轮回多少次，自己都要做，【正义的伙伴】呢？</speak>
+            <speak chara="ottoNoFace">――Doesn't it make you jealous someone is able to spout such inspiring words?</speak>
+            <speak chara="ottoNoFace">Doesn't it make you want to be an 「Ally of Justice」 and keep the cycle going?</speak>
             <goto goto="460" change="0"/>
         </scene>
         <scene id="460" background="black">
             <bgm src="11_3_themeOtto.mp3" status="stop"></bgm>
-            <speak chara="ottoNoFace">……</speak>
+            <speak chara="ottoNoFace">.....</speak>
             <bgm src="themeWelt.mp3" status="start"></bgm>
-            <speak chara="ottoNoFace">呵……世界大战都打完十年了吧……</speak>
-            <speak chara="ottoNoFace">伦敦市郊的电力供应，还是这么不解风情么？</speak>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="ottoNoFace">你就待在此地，不要走动——我去问老板娘要点照明的东西。</speak>
-            <speak chara="weltNoFace">……不必了。</speak>
+            <speak chara="ottoNoFace">Ah... It's been 10 years since the World War ended...</speak>
+            <speak chara="ottoNoFace">Places outside of London are still having electrical problems?</speak>
+            <speak chara="weltNoFace">.....</speak>
+            <speak chara="ottoNoFace">Wait here―― I'll go ask the owner for something to light up the place.</speak>
+            <speak chara="weltNoFace">...No need.</speak>
             <goto goto="470" change="0"/>
         </scene>
         <scene id="470" background="CG15-II.jpg">
             <bgm src="themeWelt.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">……嗯？</speak>
-            <speak chara="weltNoFace">如果你真的打算说服我去做什么的话……</speak>
-            <speak chara="weltNoFace">下次请不要过于自说自话了。</speak>
-            <speak chara="weltNoFace">你根本什么都不懂，主教大人。</speak>
-            <speak chara="ottoNoFace">……</speak>
-            <speak chara="ottoNoFace">我哪里……说错了什么吗？</speak>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="weltNoFace">不，你其实什么也没有说错。</speak>
-            <speak chara="weltNoFace">但正因为如此——</speak>
-            <speak chara="weltNoFace">——才让我更加……无法在此时此刻，去相信你。</speak>
-            <speak chara="ottoNoFace">……</speak>
-            <speak chara="ottoNoFace">这样吗。</speak>
-            <speak chara="ottoNoFace">那么……希望时间能给你答案吧。</speak>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="weltNoFace">告辞。</speak>
-            <speak chara="ottoNoFace">……</speak>
-            <speak chara="ottoNoFace">再会了，我的朋友。</speak>
+            <speak chara="ottoNoFace">...Hm?</speak>
+            <speak chara="weltNoFace">If you are really trying to convince me to do something...</speak>
+            <speak chara="weltNoFace">Stop only concerning about yourself.</speak>
+            <speak chara="weltNoFace">You don't understand anything, Bishop-san.</speak>
+            <speak chara="ottoNoFace">.....</speak>
+            <speak chara="ottoNoFace">Did I... say something that offended you?</speak>
+            <speak chara="weltNoFace">.....</speak>
+            <speak chara="weltNoFace">No, you didn't say anything wrong.</speak>
+            <speak chara="weltNoFace">But that's precisely why――</speak>
+            <speak chara="weltNoFace">――That I find it hard to believe you.</speak>
+            <speak chara="ottoNoFace">.....</speak>
+            <speak chara="ottoNoFace">I see.</speak>
+            <speak chara="ottoNoFace">Then... I hope time will give us the answers we seek.</speak>
+            <speak chara="weltNoFace">.....</speak>
+            <speak chara="weltNoFace">Well then.</speak>
+            <speak chara="ottoNoFace">.....</speak>
+            <speak chara="ottoNoFace">Let us meet again, my friend.</speak>
             <goto goto="480" change="#ffffff"/>
         </scene>
         <scene id="480" background="black">
             <bgm src="horror.mp3" status="start"></bgm>
-            <speak chara="ritaNoNameNoFace">（……瓦尔特先生，请留步。）</speak>
-            <speak chara="weltNoFace">……谁？</speak>
+            <speak chara="ritaNoNameNoFace">(...Welt-sama, please wait a moment.)</speak>
+            <speak chara="weltNoFace">...Who's there?</speak>
             <end post="U2FsdGVkX1+AlvvhouB8t0rZkK+K"/>
         </scene>
     </story>

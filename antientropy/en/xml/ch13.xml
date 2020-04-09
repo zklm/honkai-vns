@@ -8,223 +8,223 @@
         </scene>
         <scene id="10" background="westCliffWindow.jpg">
             <bgm src="12_15_1946.mp3" status="start"></bgm>
-            <text>很久很久以前。</text>
-            <text remark="next">久到“罗斯维尔”还仅仅是佩科斯河沿岸的不知名小城。</text>
+            <text>A story from a long time ago.</text>
+            <text remark="next">From when 「Roswell」 was merely a small town next to the Pecos River.</text>
             <remark>
                 <p class="article-text-h">注：</p>
                 <p class="article-text">罗斯威尔（Roswell）为美国新墨西哥州的一座城市，1947年7月4日，这里发生了一起不明飞行物坠毁事件。</p>
                 <p class="article-text">阴谋论者认为，美国政府当时掩盖了事件的真相；他们相信这是一起飞碟坠毁事故，而不是探空气球坠毁事故。</p>
             </remark>
-            <text remark="next">久到“比基尼”还仅仅是一个环礁的名字。</text>
+            <text remark="next">From when 「Bikini」 was merely the name of a small Atoll.</text>
             <remark>
                 <p class="article-text-h">注：</p>
                 <p class="article-text">比基尼环礁（Bikini Atoll）是马绍尔群岛的一组珊瑚礁岛。从1946年起，这里进行了多达20余次的核武器爆炸试验。</p>
                 <p class="article-text">“比基尼”是核爆的象征——当某款划时代的泳装设计被时装界推出时，他们顺理成章地借用了这个地理名词。</p>
             </remark>
-            <text>久到我当时的年龄只有现在的一半。</text>
+            <text>From when I was half of my current age.</text>
             <goto goto="20" change="#ffffff"/>
         </scene>
         <scene id="20" background="einHomeSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>1946年·瑞士·苏黎世</text>
+            <text>1946. Zürich, Switzerland.</text>
             <show chara="fatherEmbarraClose" position="right" opacity="0.7"/>
             <show chara="motherSeriousClose" position="left"/>
-            <speak chara="motherNoFace">……</speak>
+            <speak chara="motherNoFace">.....</speak>
             <show chara="motherNormalClose" position="left"/>
-            <speak chara="motherNoFace">丽瑟尔，今天会有个很有水平叔叔来和你聊。</speak>
-            <speak chara="motherNoFace">不是之前那些不学无术的精神科医生能比的——好好配合人家。</speak>
-            <speak chara="meEinNoFace">……</speak>
+            <speak chara="motherNoFace">A nice man is coming to talk with you today, Lieserl.</speak>
+            <speak chara="motherNoFace">He's different from the previous ones―― Try to get along with him.</speak>
+            <speak chara="meEinNoFace">.....</speak>
             <show chara="motherNormalClose" position="left" opacity="0.7"/>
             <show chara="fatherSmileClose" position="right"/>
-            <speak chara="fatherNoFace">别担心，他说，他不会劝你回学校，上那些无聊课程的。</speak>
-            <speak chara="fatherNoFace">他是很有名的专家，和其他那些人不一样的。</speak>
-            <speak chara="meEinNoFace">……</speak>
+            <speak chara="fatherNoFace">Don't worry, he said he won't tell you to go back to school and take those boring classes.</speak>
+            <speak chara="fatherNoFace">He's a well known expert, different from the others.</speak>
+            <speak chara="meEinNoFace">.....</speak>
             <goto goto="25" change="#ffffff"/>
         </scene>
         <scene id="25" background="westCliffWindow.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>嗯……补充说明一下。</text>
+            <text>Also, let me clarify.</text>
             <show chara="motherSeriousClose-up" position="center"/>
-            <text>这个是我的妈妈。她是一名审计师，平常工作很忙，只有周日和圣诞节的时候才能在家。</text>
-            <text>很无聊的工作，对吧？</text>
+            <text>This person is my mom. She's a very busy accountant. She's only really at home on Sunday and Christmas.</text>
+            <text>A very boring job, don't you think so?</text>
             <show chara="fatherEmbarraClose-up" position="center"/>
-            <text>这个是我的爸爸。他是一名设计师，准确地说，是给钟表设计指针形状的。</text>
-            <text>……更无聊的工作，不是么？</text>
+            <text>This person is my dad. He's a designer. To be precise, he makes clock hands.</text>
+            <text>An even more boring job, right?</text>
             <hide position="center"/>
-            <text>所以，你可以想象，作为这个家庭中，唯一热衷于思考METAPHYSICS的人，我过得有多么痛苦。</text>
-            <text>所以，你可以想象，在我主动辍学之后，他们在三个月里，前后找了五名“心理医生”来看我。</text>
-            <text>啊……是的，METAPHYSICS（形而上学）。</text>
-            <text>我们既然在讲当时的故事，那么我也应该用我当时的方式来思考。</text>
+            <text>Please try to imagine. How hard was it for me, the only person in this family who liked metaphysics.</text>
+            <text>Please try to imagine. I stopped going to school and was forced to meet with five different 「psychologist」 over the course of three months.</text>
+            <text>Ah... Metaphysics.</text>
+            <text>Since I'm talking about back then, I should adjust my thoughts to match my old self.</text>
             <goto goto="30" change="#ffffff"/>
         </scene>
         <scene id="30" background="einRoomSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <show chara="einNormalLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoNameNoFace">嗨。我是卡尔……卡尔·古斯塔夫。</speak>
+            <speak chara="karlNoNameNoFace">Hello there! I'm Carl... Carl Gustav.</speak>
             <show chara="karlSlyClose" position="left"/>
-            <speak chara="karlNoFace">叫我“卡尔”或者“古斯塔夫”都可以哦。</speak>
+            <speak chara="karlNoFace">You can call me 「Carl」 or 「Gustav」, I don't mind either.</speak>
             <show chara="karlSlyClose" position="left" opacity="0.7"/>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……</speak>
+            <speak chara="meEinNoFace">.....</speak>
             <show chara="einBoringLittleClose" position="right"/>
-            <speak chara="meEinNoFace">又是“卡尔”、又是“古斯塔夫”……你是哪里来的瑞典国王吗？</speak>
+            <speak chara="meEinNoFace">「Carl Gustav」... are you supposed to be the King of Sweden?</speak>
             <show chara="einBoringLittleClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">啊哈哈……是经常有人这么拿我开涮呢……</speak>
+            <speak chara="karlNoFace">Hahaha... people always joke about that.</speak>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">话说回来，我听说，你最近在做一些很有趣的个人研究。能和我分享一下吗？</speak>
+            <speak chara="karlNoFace">...By the way, I heard you were doing some interesting research lately. Would you mind filling me in?</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……</speak>
+            <speak chara="meEinNoFace">.....</speak>
             <show chara="einFretfulLittleClose" position="right" opacity="0.7"/>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">……啊。</speak>
+            <speak chara="karlNoFace">...Hm.</speak>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">“这个干瘪大叔怎么可能听得懂”——</speak>
+            <speak chara="karlNoFace">「This old man won't get it」――</speak>
             <show chara="karlSlyClose" position="left"/>
-            <speak chara="karlNoFace">——对不对？</speak>
+            <speak chara="karlNoFace">―― Is what you're thinking, right?</speak>
             <show chara="karlSlyClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……</speak>
+            <speak chara="meEinNoFace">.....</speak>
             <show chara="einFretfulLittleClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">……我觉得你可以先试着考考我嘛。</speak>
+            <speak chara="karlNoFace">...I think it'll be a good idea to give it a try first.</speak>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">凡事不都是需要探探虚实，才能下结论的吗？</speak>
+            <speak chara="karlNoFace">One should explore all their options before coming to a conclusion. Don't you agree?</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……</speak>
+            <speak chara="meEinNoFace">.....</speak>
             <show chara="einFretfulLittleClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">这不是自吹——上大学的时候，我的理科成绩可是很好的哦！</speak>
+            <speak chara="karlNoFace">I'm not one to brag―― But I had pretty good grades in science at my university.</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einBoringLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……</speak>
+            <speak chara="meEinNoFace">.....</speak>
             <show chara="einBoringLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSlyClose" position="left"/>
-            <speak chara="karlNoFace">真的真的。我分数最高的一门课程，还是希尔伯特亲自授课的《几何学》呢！</speak>
+            <speak chara="karlNoFace">I swear it's true. I excelled the most at Professor Hilbert's class, 『Geometry』.</speak>
             <show chara="karlSlyClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……</speak>
+            <speak chara="meEinNoFace">.....</speak>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">那。</speak>
+            <speak chara="meEinNoFace">Then.</speak>
             <show chara="einProvocativeLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……你知道空间中，最多可以有多少条直线两两垂直吗？</speak>
-            <speak chara="meEinNoFace">答错了，就请你走人好不好？</speak>
+            <speak chara="meEinNoFace">...What is the maximum number of straight vertical lines that can exist in space?</speak>
+            <speak chara="meEinNoFace">Will you please leave if you can't answer correctly?</speak>
             <goto goto="40" change="#ffffff"/>
         </scene>
         <scene id="40" background="westCliffWindow.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>事后想来……这个男人还真不简单。</text>
-            <text>我以为自己能用这个方便篡改答案的问题，将他轻松打发回去——</text>
-            <text>——却没有想到，能让我开口，向他提出问题……他其实已经赢了。</text>
-            <text>至少，已经远远胜过，前面四个，那些所谓的“专家”了。</text>
+            <text>When I thought about it later... I realized that man wasn't an ordinary person.</text>
+            <text>I thought that by presenting this problem which answer I could change on the fly I could chase him out.</text>
+            <text>――But by the time I opened my mouth and gave him the problem, he had already won.</text>
+            <text>At the very least, he was certainly better than the four previous 「professionals」.</text>
             <goto goto="50" change="#ffffff"/>
         </scene>
         <scene id="50" background="einRoomSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <show chara="einProvocativeLittleClose" position="right" opacity="0.7"/>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">正交的直线吗……</speak>
+            <speak chara="karlNoFace">Orthogonal straight lines...?</speak>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">那不是想要多少，就有多少嘛。</speak>
+            <speak chara="karlNoFace">Then you can make any number of vertical lines you want.</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……！</speak>
+            <speak chara="meEinNoFace">...!</speak>
             <show chara="einNormalLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">空间的维度可以是无限的。这时候，光是它们的坐标轴，就是已经是无限条两两垂直的直线了。</speak>
+            <speak chara="karlNoFace">There is no limit to the dimension of space. The coordinate axes themselves are already two infinite straight lines.</speak>
             <show chara="karlSlyClose" position="left"/>
-            <speak chara="karlNoFace">——说到底，所谓空间啊、直线啊，都不过是人为规定的虚构概念罢了。</speak>
+            <speak chara="karlNoFace">――In short, space and straight lines are artificially determined concepts.</speak>
             <show chara="karlSlyClose" position="left" opacity="0.7"/>
             <show chara="einCryLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……</speak>
+            <speak chara="meEinNoFace">.....</speak>
             <show chara="einCryLittleClose" position="right" opacity="0.7"/>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">呃……怎、怎么了？</speak>
+            <speak chara="karlNoFace">Um... W-What happened?</speak>
             <show chara="karlThinkingClose" position="left" opacity="0.7"/>
             <show chara="einHappyLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……</speak>
+            <speak chara="meEinNoFace">.....</speak>
             <show chara="einHappyLittleClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">别、别这样盯着我傻笑啊……我、我哪里班门弄斧了吗？</speak>
+            <speak chara="karlNoFace">D-Don't look at me with that smirk... I-I am getting fired?</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einHappyLittleClose" position="right"/>
-            <speak chara="meEinNoFace">不……</speak>
-            <speak chara="meEinNoFace">不是的……</speak>
+            <speak chara="meEinNoFace">No...</speak>
+            <speak chara="meEinNoFace">It's just...</speak>
             <show chara="einCryLittleClose" position="right"/>
-            <speak chara="meEinNoFace">我、我……</speak>
+            <speak chara="meEinNoFace">I-I...</speak>
             <goto goto="60" change="0"/>
         </scene>
         <scene id="60" background="">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <speak chara="meEinNoFace">呜哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇哇——</speak>
+            <speak chara="meEinNoFace">Uwaaaaaaaaa~~~~――</speak>
             <goto goto="65" change="#ffffff"/>
         </scene>
         <scene id="65" background="westCliffWindow.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>是的，那个时候，我很不争气的哭了。</text>
-            <text>小女孩那副“他乡遇故知”的样子，如果让现在的我看到，一定会忍不住去调戏一番的。</text>
-            <text>不过……谁都有这样情感奔放的年纪，不是么？</text>
-            <text>它并不丑陋……相反，很美好。是那种铭刻在生命的时钟上的，你无法刻意强求的美好。</text>
-            <text>这个时刻，对于有些人是18岁，对于有些人是80岁……在我这里，则是8岁。仅此而已。</text>
-            <text>从这个角度说，能陪着我一起疯狂的那家伙……他才是真正厉害的人吧。</text>
+            <text>Yes, I started bawling uncontrollably.</text>
+            <text>「That smart girl」 was reduced to that. If I were to see my young self I won't be able to not make fun of her.</text>
+            <text>But... everyone has a moment in their life when they need to let out their intense emotions, right?</text>
+            <text>It's not an ugly thing... On the contrary, it's beautiful. A beautiful time engraved in your personal clock of life you can't avoid.</text>
+            <text>For some it comes at the age of 18, some others at 80. And in my case... I was 8 years old, that's all.</text>
+            <text>Keeping that in mind, he was the only one who managed to keep up with my craziness... he was truly exceptional.</text>
             <goto goto="70" change="#ffffff"/>
         </scene>
         <scene id="70" background="einRoomSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <show chara="einNormalLittleClose" position="right" opacity="0.7"/>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">“找出两个具有相同底面积和高的四面体，它们不能被分割成两组对应全等的四面体”……</speak>
+            <speak chara="karlNoFace">「Given any two polyhedra of equal volume, is it always possible to cut the first into finitely many polyhedral pieces which can be reassembled to yield the second?」.</speak>
             <show chara="karlThinkingClose" position="left" opacity="0.7"/>
             <show chara="einBoringLittleClose" position="right"/>
-            <speak chara="meEinNoFace">我感觉你就算对着它再读一个小时，也不会有进展的。</speak>
+            <speak chara="meEinNoFace">I think we won't make any progress even if we read it for another hour.</speak>
             <show chara="einBoringLittleClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">那你有什么特别的想法么？</speak>
+            <speak chara="karlNoFace">Any particular thoughts?</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……闭嘴。我正在思考呢。</speak>
+            <speak chara="meEinNoFace">...Silence. I'm thinking.</speak>
             <show chara="einFretfulLittleClose" position="right" opacity="0.7"/>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">唔……那就是我们都想不出来呗。</speak>
+            <speak chara="karlNoFace">Oh... then that means neither you nor me know.</speak>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">来看答案吧！</speak>
+            <speak chara="karlNoFace">Let's see the answer!</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einSurpriseLittleClose" position="right"/>
-            <speak chara="meEinNoFace">唉？！</speak>
+            <speak chara="meEinNoFace">What!?</speak>
             <show chara="einSurpriseLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">没什么不好吧？我们是为了探求未知，又不是做智力竞赛。</speak>
+            <speak chara="karlNoFace">Don't want to? We're exploring the unknown, not taking part in a quiz game.</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
-            <speak chara="meEinNoFace">可是……</speak>
+            <speak chara="meEinNoFace">But...</speak>
             <show chara="einFretfulLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">别那么不甘心。每个人的想象力都有自己的极限。</speak>
-            <speak chara="karlNoFace">只有学会借助别人的想象力，你才能看到更多、更好的风景。</speak>
+            <speak chara="karlNoFace">Don't feel frustrated. Everyone's imagination has its limits.</speak>
+            <speak chara="karlNoFace">Which is why it's important to learn using your imagination, this way we'll be able to reach amazing sceneries we've never seen before.</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……</speak>
+            <speak chara="meEinNoFace">.....</speak>
             <show chara="einFretfulLittleClose" position="right" opacity="0.7"/>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">我看看啊……</speak>
-            <speak chara="karlNoFace">这里面说，可以根据多面体的边长和二面角定义一个不变量……</speak>
+            <speak chara="karlNoFace">Let's see...</speak>
+            <speak chara="karlNoFace">Define a variable based on the length and diherdral angle of the polyhedron...</speak>
             <show chara="karlThinkingClose" position="left" opacity="0.7"/>
             <show chara="einSurpriseLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……什么？快给我看看！</speak>
+            <speak chara="meEinNoFace">...What? Let me see it!</speak>
             <show chara="einSurpriseLittleClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">慢、慢点儿！别、别突然抢啊！书要被你撕坏啦！</speak>
+            <speak chara="karlNoFace">Hey! Don't pull so hard! You're going to break the book!</speak>
             <goto goto="80" change="#ffffff"/>
         </scene>
         <scene id="80" background="westCliffWindow.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>说实话，当时和他一起研究过的问题，我只记得这个了。</text>
-            <text>倒不只是解法令人印象深刻。你要知道，不久之后，当我和普朗克提起这个问题的时候——</text>
+            <text>To tell you the truth, from all the time I spent with that old man solving problems this one is the one I remember the most.</text>
+            <text>It isn't only because the answer was impressive. When I told Planck about it later――</text>
             <show chara="emmaBlackClose-up" position="center"/>
-            <text remark="next">“啥？这家伙直接拿希尔伯特第三问题去考你？他没疯吧？！”</text>
+            <text remark="next">「Huh? He used Hilbert's third problem to test you? Is he insane!?」</text>
             <remark>
                 <p class="article-text-h">注：</p>
                 <p class="article-text">希尔伯特的23个问题是德国数学家大卫·希尔伯特（David Hilbert）于1900年在巴黎举行的第二届国际数学家大会上演讲时，提出的“当代23道最重要的数学问题”。</p>
@@ -237,279 +237,279 @@
                 <p class="article-text">18.球体的最密排列</p>
             </remark>
             <hide position="center"/>
-            <text>——喏，这么可怕的事情，理所当然会让人记一辈子的吧？</text>
-            <text>啊。你问我为什么那个时候就能认识普朗克？</text>
-            <text>这个嘛……</text>
+            <text>――Of course I would remember something like that.</text>
+            <text>Ah, you want to know how I knew Planck back then?</text>
+            <text>About that...</text>
             <goto goto="100" change="#ffffff"/>
         </scene>
         <scene id="100" background="einHomeSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <show chara="emmaNormalClose" position="left" opacity="0.7"/>
             <show chara="karlSmileClose" position="right"/>
-            <speak chara="karlNoFace">各位，我来介绍一下。</speak>
-            <speak chara="karlNoFace">这位是埃玛·普朗克小姐……普林斯顿大学有史以来最年轻的物理学教授。</speak>
+            <speak chara="karlNoFace">Everyone, let me introduce you to someone.</speak>
+            <speak chara="karlNoFace">This is Emma Planck... the youngest physics professor at Princeton University.</speak>
             <show chara="karlSmileClose" position="right" opacity="0.7"/>
             <show chara="emmaPromiseSmileClose" position="left"/>
-            <speak chara="emmaNoFace">嗨！我是埃玛！卡尔的表妹！</speak>
+            <speak chara="emmaNoFace">Hi! I'm Emma, Carl's cousin.</speak>
             <show chara="emmaSmileClose" position="left"/>
-            <speak chara="emmaNoFace">——他跟别人介绍我时总是有意无意忽视这个。</speak>
+            <speak chara="emmaNoFace">――I don't know if he does it on purpose or not, but he always forgets to mention we're cousins.</speak>
             <show chara="emmaPromiseSmileClose" position="left"/>
-            <speak chara="emmaNoFace">不过我从来都不在意的，对吧？</speak>
+            <speak chara="emmaNoFace">Well, not that I really care~</speak>
             <show chara="emmaPromiseSmileClose" position="left" opacity="0.7"/>
             <show chara="karlFoolClose" position="right"/>
-            <speak chara="karlNoFace">啊哈哈……</speak>
+            <speak chara="karlNoFace">Ahaha...</speak>
             <show chara="fatherEmbarraClose" position="right" opacity="0.7"/>
             <show chara="motherSeriousClose" position="left"/>
-            <speak chara="motherNoFace">……咳咳。</speak>
+            <speak chara="motherNoFace">...Cough.</speak>
             <show chara="karlFoolClose" position="right"/>
             <show chara="emmaNormalClose" position="left" opacity="0.7"/>
-            <speak chara="karlNoFace">啊……言归正传，言归正传。</speak>
+            <speak chara="karlNoFace">Err... back to the topic at hand.</speak>
             <show chara="karlNormalClose" position="right"/>
-            <speak chara="karlNoFace">之前，我们初步讨论过，让您家孩子直接去读大学的可能性。</speak>
+            <speak chara="karlNoFace">After you consulted me about letting your daughter enter college,</speak>
             <show chara="karlSmileClose" position="right"/>
-            <speak chara="karlNoFace">在你们点头同意之后，我第一时间联系了埃玛。</speak>
-            <speak chara="karlNoFace">从教育未成年人的角度讲，她的性别和年龄，应该都是很大的优势。</speak>
+            <speak chara="karlNoFace">I got permission and contacted Emma immediately.</speak>
+            <speak chara="karlNoFace">I think having a young woman like Emma nearby is great for a child's education.</speak>
             <show chara="karlSmileClose" position="right" opacity="0.7"/>
             <show chara="emmaPromiseSmileClose" position="left"/>
-            <speak chara="emmaNoFace">而且我对您家的女儿真的很感兴趣！</speak>
-            <speak chara="emmaNoFace">请务必让她和我一起，去追寻这个世界的奥秘！</speak>
+            <speak chara="emmaNoFace">And that's not all! I'm very interested in her too!</speak>
+            <speak chara="emmaNoFace">I would love to explore the truth of this universe together with her!</speak>
             <show chara="fatherEmbarraClose" position="right" opacity="0.7"/>
             <show chara="motherNormalClose" position="left"/>
-            <speak chara="motherNoFace">……</speak>
+            <speak chara="motherNoFace">.....</speak>
             <show chara="emmaPromiseSeriousClose" position="left" opacity="0.7"/>
             <show chara="karlSmileClose" position="right"/>
-            <speak chara="karlNoFace">哈哈……抱歉，埃玛她在什么场合都会有点儿活力过剩。</speak>
+            <speak chara="karlNoFace">Hahaha... I'm very sorry. When Emma gets excited she forgets her manners.</speak>
             <show chara="fatherSmileClose" position="right"/>
             <show chara="motherNormalClose" position="left" opacity="0.7"/>
-            <speak chara="fatherNoFace">不，这不是挺好嘛……我想，我们家女儿肯定能和她合得来的。</speak>
+            <speak chara="fatherNoFace">No, I think that's a good thing... It'll be good for our daughter.</speak>
             <show chara="fatherSmileClose" position="right" opacity="0.7"/>
             <show chara="motherSlyClose" position="left"/>
-            <speak chara="motherNoFace">……</speak>
-            <speak chara="motherNoFace">……这一点上，我倒是不反对。</speak>
+            <speak chara="motherNoFace">.....</speak>
+            <speak chara="motherNoFace">...I agree as well.</speak>
             <goto goto="110" change="#ffffff"/>
         </scene>
         <scene id="110" background="westCliffWindow.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>如果说卡尔是让我看见新世界的人，那埃玛就是一个不折不扣的领航员。</text>
-            <text>……虽然，后来为了好玩，不知从哪年开始，就改叫她“普朗克教授”了。</text>
-            <text>那个时候的埃玛……怎么说，还没有现在这种略带“中年危机”的气质。</text>
-            <text>纯粹的学者。纯粹的美人。永远都会用她自己的阳光照亮你。</text>
-            <text>带着你弹琴，带着你唱歌，带着你看星星。</text>
-            <text>比起血缘关系上的那位……反倒是她，更像是我的妈妈吧。</text>
-            <text>……当然了，我并不是说卡尔有什么不好。这纯属“性别优势”而已。</text>
+            <text>If Carl was the one who introduced me to a new world, Emma was my Sailing Master.</text>
+            <text>...At some point I started to call her 「Professor Planck」.</text>
+            <text>Emma back then... how should I put it, was a woman who didn't show any signs of a 「midlife crisis」.</text>
+            <text>A genuine scholar, a genuine beauty. A light that illuminated me like sunshine――</text>
+            <text>一We played the piano, we sang songs, we watched the stars at night together.</text>
+            <text>I was closer to her... than I was to my real mother.</text>
+            <text>...Of course, I don't mean to imply there was something wrong with Carl. This was simply a 「gender advantage」.</text>
             <goto goto="120" change="#ffffff"/>
         </scene>
         <scene id="120" background="einRoomSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">卡尔，你明天就要回德国了吗？</speak>
+            <speak chara="meEinNoFace">Carl, are you going back to Germany tomorrow?</speak>
             <show chara="einNormalLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">是啊……</speak>
+            <speak chara="karlNoFace">Yeah...</speak>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">这个周末就是我假期的最后一天了，必须回司令部报到呢。</speak>
+            <speak chara="karlNoFace">This is my last free weekend so I have to return to HQ.</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einSurpriseLittleClose" position="right"/>
-            <speak chara="meEinNoFace">司令部？</speak>
+            <speak chara="meEinNoFace">HQ?</speak>
             <show chara="einSurpriseLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">同盟国柏林城防司令部，心理咨询处。</speak>
+            <speak chara="karlNoFace">The Mental Health Center of Berlin's Defense Force.</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">唔……所以你是货真价实的“专家”？</speak>
+            <speak chara="meEinNoFace">Hehe... so you really were a 「professional」?</speak>
             <show chara="einNormalLittleClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">哈哈……你要是事到如今才真的相信，那我的个人形象还真够糟糕的啊。</speak>
+            <speak chara="karlNoFace">Hahaha... only now you believe me, what a wrong first impression I must have given you.</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einProvocativeLittleClose" position="right"/>
-            <speak chara="meEinNoFace">嘛，肯定没有你自我感觉那么好就是了。</speak>
+            <speak chara="meEinNoFace">Well, it certainly wasn't as good as you thought it was.</speak>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">不过……在司令部工作……负责治疗战后创伤吗？</speak>
+            <speak chara="meEinNoFace">Working on HQ means you're treating soldiers who suffer PTSD from the war?</speak>
             <show chara="einNormalLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">差不多……如果是非专业的人来做，应该会相当辛苦吧。</speak>
+            <speak chara="karlNoFace">Yeah... it's a tough job if you're not a professional.</speak>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">毕竟，绝大多数人都不喜欢听别人诉苦——那会让他们感同身受。</speak>
+            <speak chara="karlNoFace">Most people are unable to stand the pain coming from others―― Before long they start to feel that way themselves.</speak>
             <show chara="karlThinkingClose" position="left" opacity="0.7"/>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">专业的人有什么特殊之处吗？</speak>
+            <speak chara="meEinNoFace">So what makes a professional different?</speak>
             <show chara="einNormalLittleClose" position="right" opacity="0.7"/>
             <show chara="karlNormalClose" position="left"/>
-            <speak chara="karlNoFace">专业的人会把对方当作分析的对象。</speak>
+            <speak chara="karlNoFace">A professional looks at people in a different way.</speak>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">我们分析他的痛苦、治疗他的痛苦、但决不让自己体验他的痛苦。</speak>
+            <speak chara="karlNoFace">They analyze and treat their suffering, but don't project it onto themselves.</speak>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">一旦产生了私人方面的感情，就必须把患者转给其他人治疗。</speak>
+            <speak chara="karlNoFace">If personal feelings do show up, they need someone else to take care of the patient.</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einProvocativeLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……那卡尔算是把我交给埃玛了吗？</speak>
+            <speak chara="meEinNoFace">...So you're handing me over to Emma?</speak>
             <show chara="einProvocativeLittleClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">……不不不这哪里都不对吧！</speak>
-            <speak chara="karlNoFace">首先，你不是病人；其次，我也不是在治疗你；最后，埃玛她也不是医生啊！</speak>
+            <speak chara="karlNoFace">...No no, that's not the case at all.</speak>
+            <speak chara="karlNoFace">First, you're not my patient. I'm not giving you any treatment. And second, Emma is not a psychologist.</speak>
             <show chara="karlShameClose" position="left" opacity="0.7"/>
             <show chara="einSmileLittleClose" position="right"/>
-            <speak chara="meEinNoFace">哈哈，卡尔慌张的样子真有趣！</speak>
+            <speak chara="meEinNoFace">Hehehe, seeing your panicking face was funny!</speak>
             <show chara="einSmileLittleClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">……哈？你是在耍我玩吗？</speak>
+            <speak chara="karlNoFace">...Eh? You were teasing me?</speak>
             <show chara="karlSlyClose" position="left"/>
-            <speak chara="karlNoFace">小机灵鬼，看我怎么收拾你！</speak>
+            <speak chara="karlNoFace">You bad kid, prepare yourself!</speak>
             <show chara="karlSlyClose" position="left" opacity="0.7"/>
             <show chara="einCryLittleClose" position="right"/>
-            <speak chara="meEinNoFace">啊！卡尔叔叔要打人啦！</speak>
+            <speak chara="meEinNoFace">Oh no! The old man raised his hand!</speak>
             <show chara="einCryLittleClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">不、不要给我胡喊啊！</speak>
+            <speak chara="karlNoFace">H-Hey! Don't lie!</speak>
             <hide position="left"/>
             <hide position="right"/>
             <show chara="karlShameClose" position="center"/>
-            <speak chara="karlNoFace">你给我站住！</speak>
+            <speak chara="karlNoFace">Come here!</speak>
             <goto goto="130" change="#ffffff"/>
         </scene>
         <scene id="130" background="einHomeSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <show chara="karlTiredClose" position="left"/>
-            <speak chara="karlNoFace">呼……累死我了……</speak>
+            <speak chara="karlNoFace">Ha... I-I'm tired...</speak>
             <show chara="karlTiredClose" position="left" opacity="0.7"/>
             <show chara="einProvocativeLittleClose" position="right"/>
-            <speak chara="meEinNoFace">卡尔明明还算是个青年，没想到其实和老爷爷一样不耐跑呐。</speak>
+            <speak chara="meEinNoFace">You look young but you have the stamina of an old man.</speak>
             <show chara="einProvocativeLittleClose" position="right" opacity="0.7"/>
             <show chara="karlTiredClose" position="left"/>
-            <speak chara="karlNoFace">要、要你管……</speak>
+            <speak chara="karlNoFace">S-Shut up...</speak>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">还不是瑞士这地方，生活起来舒服过头了……</speak>
+            <speak chara="karlNoFace">Anyway, Switzerland sure is great...</speak>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">可恶，我都不想回柏林了啊！</speak>
+            <speak chara="karlNoFace">I hate having to return to Berlin!</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……</speak>
+            <speak chara="meEinNoFace">.....</speak>
             <show chara="einHappyLittleClose" position="right"/>
-            <speak chara="meEinNoFace">……以后，还会见面吗？</speak>
+            <speak chara="meEinNoFace">...Will you come back someday?</speak>
             <show chara="einHappyLittleClose" position="right" opacity="0.7"/>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">……</speak>
+            <speak chara="karlNoFace">.....</speak>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">啊，如果我们都放假的话。</speak>
+            <speak chara="karlNoFace">Yeah, if I can get another vacation.</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einSmileLittleClose" position="right"/>
-            <speak chara="meEinNoFace">卡尔要是再年轻几岁就好了呢。</speak>
+            <speak chara="meEinNoFace">I wish you were a little younger.</speak>
             <show chara="einSmileLittleClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">啊？</speak>
+            <speak chara="karlNoFace">Huh?</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einHappyLittleClose" position="right"/>
-            <speak chara="meEinNoFace">如果卡尔年轻个……十岁？我就要撮合你和埃玛姐姐！</speak>
+            <speak chara="meEinNoFace">If you were 10 years younger I could pair you with Emma.</speak>
             <show chara="einHappyLittleClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">噫！</speak>
-            <speak chara="karlNoFace">你这小鬼头，肚子里坏水越来越多了啊！</speak>
+            <speak chara="karlNoFace">That's enough!</speak>
+            <speak chara="karlNoFace">I've had enough of this bad kid!</speak>
             <show chara="karlShameClose" position="left" opacity="0.7"/>
             <show chara="einHappyLittleClose" position="right"/>
-            <speak chara="meEinNoFace">哼哼……</speak>
+            <speak chara="meEinNoFace">Haha...</speak>
             <show chara="einSmileLittleClose" position="right"/>
-            <speak chara="meEinNoFace">埃玛可是告诉我——</speak>
+            <speak chara="meEinNoFace">Emma said――</speak>
             <show chara="einProvocativeLittleClose" position="right"/>
-            <speak chara="meEinNoFace">“男人们嘴上说着别人坏，其实内心里巴不得自己能更坏！”</speak>
+            <speak chara="meEinNoFace">「Men call others bad, but secretly they themselves want to be the bad ones!」.</speak>
             <show chara="einProvocativeLittleClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">喂！她这都教了你些什么啊！</speak>
+            <speak chara="karlNoFace">Hey! What are you teaching her, Emma!?</speak>
             <show chara="karlShameClose" position="left" opacity="0.7"/>
             <show chara="einHappyLittleClose" position="right"/>
-            <speak chara="meEinNoFace">哼……你以为我会告诉你嘛？</speak>
+            <speak chara="meEinNoFace">Hehe... what did you think I was talking about?</speak>
             <show chara="einProvocativeLittleClose" position="right"/>
-            <speak chara="meEinNoFace">有本事，你自己缩小个二十岁，咱们一起来做埃玛的学生呀！</speak>
+            <speak chara="meEinNoFace">Try to become 20 years younger so you can teach me together with Emma!</speak>
             <hide position="left"/>
             <hide position="right"/>
             <show chara="emmaPromiseSmileClose" position="center"/>
-            <speak chara="emmaNoFace">唉呀，这不错耶！卡尔，你可要加油啊！</speak>
+            <speak chara="emmaNoFace">Oh, that sounds nice! Do your best, Carl!</speak>
             <hide position="center"/>
             <show chara="emmaPromiseSmileClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">埃、埃玛！？你什么时候——</speak>
+            <speak chara="karlNoFace">E-Emma!? When did you――</speak>
             <show chara="karlShameClose" position="left" opacity="0.7"/>
             <show chara="emmaSmileClose" position="right"/>
-            <speak chara="emmaNoFace">哼哼，“卡尔要是再年轻十岁就好了呢……”</speak>
+            <speak chara="emmaNoFace">From around 「if only you were 10 years younger...」.</speak>
             <show chara="emmaPromiseSmileClose" position="right"/>
-            <speak chara="emmaNoFace">不年轻十岁也没有关系哦！？</speak>
+            <speak chara="emmaNoFace">I don't mind that you aren't 10 years younger, by the way.</speak>
             <show chara="emmaPromiseSmileClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">啊啊啊啊这哪跟哪啊！！！</speak>
+            <speak chara="karlNoFace">W-W-What are you saying!!!!</speak>
             <goto goto="140" change="#ffffff"/>
         </scene>
         <scene id="140" background="westCliffWindow.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>当时，虽然年纪还小，但自己也有一定的预感。</text>
-            <text>“以后，大概很难再见到他了吧。”</text>
-            <text>只是，那个时候，任谁也不可能想到……</text>
-            <text>那个夏日的最后一天，也是我们人生轨迹有所重叠的最后一天。</text>
-            <text>卡尔是个大忙人，几乎就没有真正的假期；而跟着普朗克做研究，我自己也绝对说不上清闲。</text>
-            <text>大家也许都想着，“反正以后总会有时间的”。</text>
-            <text>直到三年前。</text>
-            <text>没错，1952年的1月1日。那个摧毁了整个城市的崩坏事件，突然爆发的日子。</text>
-            <text>他当时正在柏林。</text>
-            <text>没错，柏林，市中心。</text>
+            <text>I was still young, but I had a feeling I couldn't shake off.</text>
+            <text>「We probably won't see each other again」.</text>
+            <text>But I was unable to say it out loud...</text>
+            <text>That Summer became the last day of our life together.</text>
+            <text>Carl was very busy and had almost no time to rest. And me who was studying under Planck and doing research on the side, can't say I had free time either.</text>
+            <text>Everyone thought 「we'll meet again」.</text>
+            <text>Until 3 years ago.</text>
+            <text>January 1, 1952. The day a Houkai Impact that destroyed an entire city occurred.</text>
+            <text>Carl was in Berlin.</text>
+            <text>Not anywhere else, but right there in Berlin. In its epicenter.</text>
             <goto goto="150" change="#ffffff"/>
         </scene>
         <scene id="150" background="hotelSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="emmaNormalClose" position="right"/>
-            <speak chara="emmaNoFace">卡尔……下一个假期，你还要去帮助其他地方的孩子们，对不对？</speak>
+            <speak chara="emmaNoFace">Carl... are you going to see another kid on your next break?</speak>
             <show chara="emmaNormalClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">嘛……大致就是这样的吧。</speak>
-            <speak chara="karlNoFace">小鬼头已经找到自己的路了，不是吗？</speak>
-            <speak chara="karlNoFace">而在这世界上，还有更多找不到路的人，需要我来帮助他们寻找。</speak>
+            <speak chara="karlNoFace">Yeah... probably.</speak>
+            <speak chara="karlNoFace">That girl already found her path in life, hasn't she?</speak>
+            <speak chara="karlNoFace">There are still so many lost people in the world who need our help.</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="emmaSmileClose" position="right"/>
-            <speak chara="emmaNoFace">哈哈……这还真有你的风格。</speak>
+            <speak chara="emmaNoFace">Hahaha... that's so like you.</speak>
             <show chara="emmaSmileClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">……</speak>
+            <speak chara="karlNoFace">.....</speak>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">那，埃玛，我这就出发了。</speak>
+            <speak chara="karlNoFace">Later, Emma. I'm leaving.</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="emmaNormalClose" position="right"/>
-            <speak chara="emmaNoFace">……</speak>
-            <speak chara="emmaNoFace">不，你给我等等。</speak>
+            <speak chara="emmaNoFace">.....</speak>
+            <speak chara="emmaNoFace">Ah, wait a minute.</speak>
             <show chara="emmaNormalClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">唉？</speak>
+            <speak chara="karlNoFace">What is it?</speak>
             <show chara="karlShameClose" position="left" opacity="0.7"/>
             <show chara="emmaSmileClose" position="right"/>
-            <speak chara="emmaNoFace">哪里，不是什么大事。</speak>
+            <speak chara="emmaNoFace">It's nothing big but...</speak>
             <show chara="emmaSmileClose" position="right"/>
-            <speak chara="emmaNoFace">我记得……你上学的时候，参加过合唱团吧？</speak>
+            <speak chara="emmaNoFace">Weren't you in the choir when you were in college?</speak>
             <goto goto="160" change="#ffffff"/>
         </scene>
         <scene id="160" background="hotelSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <show chara="emmaBlackClose-up" position="center"/>
-            <speak chara="emmaNoFace">嗯，顺利借来乐器了。</speak>
-            <speak chara="emmaNoFace">曲子我就擅自决定了——反正是你知道词儿的。</speak>
-            <speak chara="emmaNoFace">愣着干嘛？赶紧去吧坐那边的小鬼头拉过来啊！她还傻乎乎地给咱们制造“二人空间”呢！</speak>
+            <speak chara="emmaNoFace">Alright, I brought the instruments.</speak>
+            <speak chara="emmaNoFace">I chose the song myself―― I'm sure you know the lyrics.</speak>
+            <speak chara="emmaNoFace">What are you spacing out for? Go get her. That meddlesome girl tried to give us some 「time alone」!</speak>
             <goto goto="170" change="#ffffff"/>
         </scene>
         <scene id="170" background="CG13-1.jpg">
             <bgm src="10_20_londonderry_p.mp3" status="start"></bgm>
-            <speak chara="emmaNoFace">Oh, Danny Boy, the pipes, the pipes are calling （哦，丹尼少年，风笛回响）</speak>
-            <speak chara="emmaNoFace">From glen to glen, and down the mountain side, （穿梭在幽谷，消逝于山间）</speak>
-            <speak chara="emmaNoFace">The summer's gone, and all the roses falling, （夏日已远，百花渐凋零）</speak>
-            <speak chara="emmaNoFace">It's you, it's you must go and I must bide.（是你，你必须离开而我必须等待）</speak>
-            <speak chara="emmaNoFace">But come ye back when summer's in the meadow, （但你会回来，当夏日重临牧场）</speak>
-            <speak chara="emmaNoFace">Or when the valley's hushed and white with snow, （或是万籁俱静，那时白雪满川）</speak>
-            <speak chara="emmaNoFace">It's I'll be here in sunshine or in shadow, （是我，我无论光影都在）</speak>
-            <speak chara="emmaNoFace">Oh, Danny Boy, oh Danny Boy, I love you so!（哦，丹尼少年，我是如此爱你）</speak>
-            <speak chara="karlNoFace">But when ye come, and all the flowers are dying,（但当你回来，百花或已凋零）</speak>
-            <speak chara="karlNoFace">And I am dead, as dead I well may be,（而我亦离世，踏上宿命归途）</speak>
-            <speak chara="karlNoFace">Ye'll come and find the place where I am lying,（你会回来，并找到我安息之地）</speak>
-            <speak chara="karlNoFace">And kneel and say an "Avé" there for me;（在那里俯身轻语，向我道一声“再会”）</speak>
-            <speak chara="karlNoFace">And I shall hear, though soft you tread above me,（那时我必将听见，尽管你脚步轻盈）</speak>
-            <speak chara="karlNoFace">And all my grave will warmer, sweeter be,（我的坟茔将充满温情，充满甜蜜）</speak>
-            <speak chara="karlNoFace">For you will bend and tell me that you love me,（因你俯身轻语，向我倾诉爱意）</speak>
-            <speak chara="karlNoFace">and I shall sleep in peace until you come to me...（而我将安然长眠，直到某日与你再会）</speak>
+            <speak chara="emmaNoFace">Oh, Danny Boy, the pipes, the pipes are calling</speak>
+            <speak chara="emmaNoFace">From glen to glen, and down the mountain side,</speak>
+            <speak chara="emmaNoFace">The summer's gone, and all the roses falling,</speak>
+            <speak chara="emmaNoFace">It's you, it's you must go and I must bide.</speak>
+            <speak chara="emmaNoFace">But come ye back when summer's in the meadow,</speak>
+            <speak chara="emmaNoFace">Or when the valley's hushed and white with snow,</speak>
+            <speak chara="emmaNoFace">It's I'll be here in sunshine or in shadow,</speak>
+            <speak chara="emmaNoFace">Oh, Danny Boy, oh Danny Boy, I love you so!</speak>
+            <speak chara="karlNoFace">But when ye come, and all the flowers are dying,</speak>
+            <speak chara="karlNoFace">And I am dead, as dead I well may be,</speak>
+            <speak chara="karlNoFace">Ye'll come and find the place where I am lying,</speak>
+            <speak chara="karlNoFace">And kneel and say an "Avé" there for me;</speak>
+            <speak chara="karlNoFace">And I shall hear, though soft you tread above me,</speak>
+            <speak chara="karlNoFace">And all my grave will warmer, sweeter be,</speak>
+            <speak chara="karlNoFace">For you will bend and tell me that you love me,</speak>
+            <speak chara="karlNoFace">and I shall sleep in peace until you come to me...</speak>
             <end post="U2FsdGVkX1+xkpSdMeRC3Mean98cjWF96OT3Viw3ijY="/>
         </scene>
 

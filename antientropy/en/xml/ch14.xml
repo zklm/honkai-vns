@@ -9,9 +9,9 @@
         <scene id="10" background="westCliffBossRoom.jpg">
             <bgm src="horror.mp3" status="start"></bgm>
             <show chara="ritaAgentClose-up" position="center"/>
-            <speak chara="ritaNoFace">我是“女侯爵”。</speak>
-            <speak chara="ritaNoFace">本想招待一下“亚当”，没想到却跟着来了“乔治”。</speak>
-            <speak chara="ritaNoFace">应当如何准备“主菜”，请指示。</speak>
+            <speak chara="ritaNoFace">This is the 「Marquis」.</speak>
+            <speak chara="ritaNoFace">I was ready to welcome 「Adam」, but 「George」 showing himself was unexpected.</speak>
+            <speak chara="ritaNoFace">What should I prepare for the 「main dish」? Please give further instructions.</speak>
             <goto goto="20" change="#ffffff"/>
         </scene>
         <scene id="20" background="westCliffDinnerRoom.jpg">
@@ -53,10 +53,10 @@
             <speak chara="teslaNoFace">我们的人生都没有什么值得回忆的……</speak>
             <speak chara="teslaNoFace">……不需要为过去再留恋什么。</speak>
             <show chara="teslaShameGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">While worldly matters take their turn, （人世有代谢）</speak>
-            <speak chara="teslaNoFace">Ancient, modern, to and fro, （往来成古今）</speak>
-            <speak chara="teslaNoFace">Rivers and mountains are changeless in their glory （江山留胜迹）</speak>
-            <speak chara="teslaNoFace">And still to be witnessed from this trail. （我辈复登临）</speak>
+            <speak chara="teslaNoFace">While worldly matters take their turn,</speak>
+            <speak chara="teslaNoFace">Ancient, modern, to and fro,</speak>
+            <speak chara="teslaNoFace">Rivers and mountains are changeless in their glory,</speak>
+            <speak chara="teslaNoFace">And still to be witnessed from this trail.</speak>
             <show chara="teslaSnickerGlassWinterClose" position="left"/>
             <speak chara="teslaNoFace">——这是东方诗人孟浩然的诗句。</speak>
             <speak chara="teslaNoFace">你懂汉语……所以，大概比我更能理解其中的意味吧。</speak>
@@ -150,124 +150,124 @@
             <text>沧桑，孤寂，令人平静。</text>
             <show chara="weltSurpriseWinterFar" position="left"/>
             <show chara="einSmileWinterFar" position="center" opacity="0.7"/>
-            <speak chara="weltNoFace">啊。</speak>
+            <speak chara="weltNoFace">That was...</speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="einSmileWinterFar" position="center"/>
-            <speak chara="einNoFace">嗯？</speak>
+            <speak chara="einNoFace">Hm?</speak>
             <show chara="einSmileWinterFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">那边的那个人……刚才吃饭的时候，好像见过？</speak>
+            <speak chara="weltNoFace">That person over there... wasn't she there when we were eating too?</speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="center"/>
-            <speak chara="einNoFace">是……怎么了？</speak>
+            <speak chara="einNoFace">Yeah. What about it?</speak>
             <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">……我也说不上。</speak>
+            <speak chara="weltNoFace">...Not sure. I feel like...</speak>
             <show chara="weltGiggleWinterFar" position="left"/>
-            <speak chara="weltNoFace">就是总有一股……“这个人很危险”的感觉……</speak>
+            <speak chara="weltNoFace">She gives off a 「dangerous aura」...</speak>
             <show chara="weltGiggleWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaWatchingYouBack" position="back"/>
-            <speak chara="fuhuaNoNameNoFace">……</speak>
+            <speak chara="fuhuaNoNameNoFace">.....</speak>
             <show chara="weltShameWinterFar" position="left"/>
-            <speak chara="weltNoFace">（糟糕……她不会是听见了？）</speak>
+            <speak chara="weltNoFace">(Crap... she heard me?)</speak>
             <show chara="weltShameWinterFar" position="left" opacity="0.7"/>
             <hide position="back"/>
             <hide position="center"/>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">……</speak>
+            <speak chara="fuhuaNoNameNoFace">.....</speak>
             <show chara="fuhuaSmileCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">水落鱼梁浅，</speak>
-            <speak chara="fuhuaNoNameNoFace">天寒梦泽深。</speak>
-            <speak chara="fuhuaNoNameNoFace">羊公碑尚在，</speak>
-            <speak chara="fuhuaNoNameNoFace">读罢泪沾襟。</speak>
+            <speak chara="fuhuaNoNameNoFace">Where a fisher-boat dips by a waterfall,</speak>
+            <speak chara="fuhuaNoNameNoFace">Where the air grows colder, deep in the valley,</speak>
+            <speak chara="fuhuaNoNameNoFace">The monument of Yang remains;</speak>
+            <speak chara="fuhuaNoNameNoFace">And we have wept, reading the words.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">这是之前那首诗的后半阙——你能听懂汉语吧？</speak>
+            <speak chara="fuhuaNoNameNoFace">It's the second half of the poem from earlier―― You know Chinese, don't you?</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">只能说懂一点……</speak>
-            <speak chara="weltNoFace">……您是东方人？</speak>
+            <speak chara="weltNoFace">Just a little...</speak>
+            <speak chara="weltNoFace">Are you from the Orient?</speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaSmileCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">算是吧。从这里的角度看，神州的确是“东方”。</speak>
+            <speak chara="fuhuaNoNameNoFace">Yes. If this is our starting point, then it's correct that China is considered to be the "Orient".</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">啊，对了。这本书就送你吧。</speak>
+            <speak chara="fuhuaNoNameNoFace">Let me give you this book.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">送、送我？</speak>
+            <speak chara="weltNoFace">To me?</speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">没什么，一本诗集罢了。</speak>
+            <speak chara="fuhuaNoNameNoFace">It's nothing important, just a collection of poems.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">看完了，你也可以像我刚才那样，现学现卖。</speak>
+            <speak chara="fuhuaNoNameNoFace">With this in your hands you can pretend to be a poet like me earlier.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7"/>
             <show chara="weltNormalWinterFar" position="left"/>
-            <speak chara="weltNoFace">可、可是……</speak>
+            <speak chara="weltNoFace">B-But...</speak>
             <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaSmileCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">没什么。我也就是一时兴起乱买的。</speak>
+            <speak chara="fuhuaNoNameNoFace">It's okay. I bought it on impulse.</speak>
             <show chara="fuhuaNormalCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">最近脑子里的东西已经太多了，其实根本装不下这种乱七八糟的知识。</speak>
+            <speak chara="fuhuaNoNameNoFace">Recently, I have too many unwanted thoughts in my head I need to clear up.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">况且……</speak>
-            <speak chara="fuhuaNoNameNoFace">……能让它跨越半个地球，来到你的手上，这不也是一种缘分么？</speak>
+            <speak chara="fuhuaNoNameNoFace">Also...</speak>
+            <speak chara="fuhuaNoNameNoFace">...For us to meet on the other side of the globe, this is probably fate.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">缘分……吗。</speak>
+            <speak chara="weltNoFace">Fate... you say.</speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">嗯。</speak>
-            <speak chara="fuhuaNoNameNoFace">比如，刚才那首诗，《与诸子登岘山》。</speak>
+            <speak chara="fuhuaNoNameNoFace">Yes.</speak>
+            <speak chara="fuhuaNoNameNoFace">For instance, in the title of the poem mentioned earlier there is a mountain called 「Xianshan」.</speak>
             <show chara="fuhuaNormalCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">从地理上看，岘山不过是神州腹地的一个小土丘。比不了五岳，比不了雪山，比不了世界屋脊。</speak>
+            <speak chara="fuhuaNoNameNoFace">Geographically it's just a small mountain in China. There is nothing special about it.</speak>
             <show chara="fuhuaSeriousFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">但是有位朋友告诉过我，这小小的岘山，却是“龙脉”相交、关乎神州安危的关键之处。</speak>
-            <speak chara="fuhuaNoNameNoFace">传说中，神州始祖之一，伏羲，就埋葬在那里——用她自己的身体，镇守“龙脉”，守护那片土地。</speak>
+            <speak chara="fuhuaNoNameNoFace">But a friend told me that it is said there is a 「Dragon Vein」 passing through that mountain which is a key element to the safety of China.</speak>
+            <speak chara="fuhuaNoNameNoFace">According to the story, a person named Fuxi was buried there―― And to this day she is guarding the 「Dragon Vein」 and protecting the country.</speak>
             <show chara="fuhuaSeriousFar" position="right" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="back"/>
-            <speak chara="einNoFace">……瓦尔特，能翻译一下她在说什么吗？</speak>
+            <speak chara="einNoFace">...Welt, could you translate for me?</speak>
             <show chara="einNormalWinterFar" position="back" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">唔……就是想把这本诗集送我……还讲了一个东方的传说故事……</speak>
+            <speak chara="weltNoFace">Ah, yes... She gave me a collection of poems... and told me about an Eastern legend...</speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaNormalCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">Nein, ist es nicht.（不，不是的。）</speak>
+            <speak chara="fuhuaNoNameNoFace">Nein, ist es nicht.</speak>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">这不是什么传说。</speak>
-            <speak chara="fuhuaNoNameNoFace">所谓“龙脉”，用今天的话说，就是崩坏能自然泄漏形成的“暗河”。</speak>
+            <speak chara="fuhuaNoNameNoFace">It's not a legend.</speak>
+            <speak chara="fuhuaNoNameNoFace">The 「Dragon Vein」 is a 「subterranean river」 full of Houkai energy.</speak>
             <show chara="fuhuaNormalCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">传说总是有它的由来的。</speak>
+            <speak chara="fuhuaNoNameNoFace">When it comes to legends, you can be sure each one has an origin point somewhere.</speak>
             <show chara="fuhuaNormalCloseEyeFar" position="right" opacity="0.7"/>
             <show chara="einSeriousAhWinterFar" position="back"/>
-            <speak chara="einNoFace">你……是什么人？</speak>
+            <speak chara="einNoFace">Who are you?</speak>
             <show chara="einSeriousEmWinterFar" position="back" opacity="0.7"/>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">女武神·符华。</speak>
+            <speak chara="fuhuaNoNameNoFace">I'm the Valkyrie Fuka.</speak>
             <show chara="fuhuaSmileCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">算是你们认识的蕾安娜的同事吧。</speak>
+            <speak chara="fuhuaNoFace">You could say I'm Reanna-san's colleague.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">她对你们的评价很不错哦？</speak>
+            <speak chara="fuhuaNoFace">Ah right, Reanna-san was praising you earlier.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">呃……谢谢……？</speak>
+            <speak chara="weltNoFace">U-Umm... thanks?</speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">今天你们也许会遇到一个有点麻烦的危险人物。</speak>
+            <speak chara="fuhuaNoFace">I may have come off as a meddlesome person today.</speak>
             <show chara="fuhuaSmileCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">不过别担心——至少我能保证，不会有任何危及人身安全的事情发生。</speak>
+            <speak chara="fuhuaNoFace">But please relax―― I assure you I'm not a threat to you.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">Adieu.（再见了。）</speak>
+            <speak chara="fuhuaNoFace">Adieu.</speak>
             <hide position="back"/>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">（瓦尔特先生。）</speak>
+            <speak chara="fuhuaNoFace">(Welt-san.)</speak>
             <show chara="fuhuaSmileCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace" remark="next">（中文）相濡以沫，不如相忘于江湖。</speak>
+            <speak chara="fuhuaNoFace" remark="next">「It would be much better if they could forget each other in the rivers and lakes」.</speak>
             <remark>
                 <p class="article-text-h">注：</p>
                 <p class="article-text">本句出自《庄子·内篇·大宗师》：“泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。”</p>
                 <p class="article-text">庄子是借此表达：与其在艰难困苦中同舟共济，不如从一开始就杜绝灾难的发生，太平无事。</p>
             </remark>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">未来的事情……愿你们好自为之。</speak>
+            <speak chara="fuhuaNoFace">I hope everything goes well for you.</speak>
             <hide position="right"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
             <speak chara="weltNoFace">……</speak>
@@ -315,7 +315,7 @@
         </scene>
         <scene id="55" background="westCliffSkyNorth.jpg">
             <bgm src="11_17_memory.mp3" status="start"></bgm>
-            <text>深夜。</text>
+            <text>Night.</text>
             <text>摆脱了特斯拉劝酒的纠缠，爱因斯坦和瓦尔特两人在海滩上慵懒地躺成了两个“大”字。</text>
             <speak chara="weltNoFace">……好冷。</speak>
             <speak chara="weltNoFace">……明明躺下之前还很暖和。</speak>
@@ -569,10 +569,10 @@
         </scene>
         <scene id="170" background="CG14-2.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoNameNoFace">嗨。</speak>
-            <speak chara="ottoNoNameNoFace">最近过得还好吗，Ω？</speak>
-            <text>你瞧……即使一整天没有见到哪怕一个男人，晚上在公共浴室里，也是不能掉以轻心的。</text>
-            <text>不是么？</text>
+            <speak chara="ottoNoNameNoFace">Hey.</speak>
+            <speak chara="ottoNoNameNoFace">How have you been lately, Ω?</speak>
+            <text>...Just because you didn't see a single man during the entire day doesn't mean the night bath will be all yours.</text>
+            <text>Right?</text> <!-- zklm-->
             <end post="U2FsdGVkX1+oux9WBwhQORIDDRFn"/>
         </scene>
     </story>

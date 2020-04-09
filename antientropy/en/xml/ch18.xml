@@ -8,33 +8,34 @@
         </scene>
         <scene id="10" background="ruinHouseBerlin.jpg">
             <bgm src="03_15_ruinBerlin.mp3" status="start"></bgm>
-            <text>你躺在地上的一条裂缝里。</text>
-            <text remark="next">挣扎着、勉强爬起来，你意识到自己的左手边是施普雷河。</text>
+            <text>You are lying next to a tear in the ground.</text>
+            <text remark="next">You struggle to get up. As you move you look to your left, and notice the Spree River flowing.</text>
             <remark>
                 <p class="article-text-h">注：</p>
                 <p class="article-text">施普雷河（Spree）发源于捷克境内，从德国首都柏林穿城而过，之后汇入易北河，注入北海。</p>
                 <p class="article-text">p.s. 冷战时期，施普雷河与哈弗尔河（Havel）的河面是“柏林墙”的少数几个缺口之一。</p>
             </remark>
-            <text>你隔河望去。</text>
-            <text remark="next">南方，勃兰登堡门的方向——</text>
+            <!-- SPLIT: You look across the river, towards the Brandenburg Gate at the South—— -->
+            <text>You look across the river.</text> 
+            <text remark="next">South, towards the Brandenburg Gate——</text>
             <remark post="U2FsdGVkX1984mCWWkKDy8j7g660">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">勃兰登堡门（Brandenburger Tor）位于柏林市中心，是柏林的象征。它由腓特烈“大帝”下令建造，以纪念普鲁士在七年战争（1754 - 1763）中取得的奇迹般胜利。</p>
                 <p class="article-text">p.s. 冷战时期，勃兰登堡门本身即为“柏林墙”的一部分，只有东德边防军可以接近。</p>
             </remark>
-            <text>火焰形成的浓雾，像沾满血污的黑泥一般，来回翻滚。</text>
-            <text>今天是1952年1月1日。</text>
-            <text>现在是正午时分。</text>
-            <text>乌云密布的天空下，死神正降临在柏林。</text>
+            <text>The fire created black smoke, swaying in the air like black mud.</text>
+            <text>January 1st of 1952.</text>
+            <text>Noon.</text>
+            <text>The Reaper descended into Berlin from its cloudy sky.</text>
             <goto goto="20" change="#ffffff"/>
         </scene>
         <scene id="20" background="ruinHallBerlin.jpg">
             <bgm src="03_15_ruinBerlin.mp3" status="continue"></bgm>
-            <text>街道上满是碎石瓦砾。</text>
-            <text>建筑物和车辆，如重病将死的人，有一下没一下地吞吐着浓烟。</text>
-            <text>时隐时现的火苗，仿佛跳着神经质的舞蹈，猛地一下窜上高空，又忽地一下落到地面。</text>
-            <text>一个四方形的东西被炸上天空，重重地砸在你的前方。</text>
-            <text remark="next">那是一辆底盘朝天的T-54，占领军最强大的战车之一。</text>
+            <text>The streets were full of rubble.</text>
+            <text>Buildings and vehicles had their shape changed, and are exhaling black smoke.</text>
+            <text>Fire comes and goes, as if it was performing a neurotic dance. It soars the sky and immediately descends to the grund.</text>
+            <text>Suddenly, something big was blown out to the sky by an explosion, and made a loud noise as it fell near you.</text>
+            <text remark="next">It was a T-54, one of the best Soviet tanks, turned upside down.</text>
             <remark>
                 <p class="article-text-h">注：</p>
                 <p class="article-text">“T-54”（这里的“T”是西里尔字母，读作“te”）是由苏联设计的中型坦克，于1947年开始量产。此后，T-54及其姊妹型T-55，迅速成为华约各国的装甲主力，并被输出到众多国家，参加了20世纪后半叶的几乎所有武装冲突。T-54/55是被认为是历史上产量最大的坦克，其总数可能高达十万辆左右。</p>
@@ -44,102 +45,102 @@
         </scene>
         <scene id="30" background="ruinHouseBerlin.jpg">
             <bgm src="03_15_ruinBerlin.mp3" status="continue"></bgm>
-            <text>你麻木地继续向前走着。</text>
-            <text>视野之中，看不到一个活人。</text>
-            <text>带着木桩的铁丝栅栏像一张大网，从空中落了下来。</text>
-            <text remark="next">那曾经是分隔占领区的隔离墙——</text>
+            <text>You keep walking forward, slowly, as if you were paralyzed.</text>
+            <text>As far as your eyes could see, there was no one alive.</text>
+            <text>A piece of barbed wire attached to wooden piles fell from the sky.</text>
+            <text remark="next">It originally belonged to a fence which divided the occupied area——</text>
             <remark post="U2FsdGVkX19jzpMoIyJvJmTjXOLz">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">1945年5月8日纳粹德国向盟军宣告无条件投降后，盟军将德国分为四个占领区，分别归苏、美、英、法四国管制，在占领区内实施民主化、非军事化和非纳粹化。</p>
                 <p class="article-text">冷战开始后，美、英、法三国管区合称为“西柏林”，被东德建设的“柏林墙”团团围住，是西方阵营在东方阵营中的孤岛。</p>
             </remark>
-            <text>而现在，已经没有什么生命，还需要隔离了。</text>
-            <text>折断的■■刺穿了裤子，白森森地露在外面。</text>
-            <text>漆黑的■■从衬衫底下流了出来，连苍蝇都不来光顾。</text>
-            <text remark="next">即使是7年前的4月底，柏林也远不像今天这样了无生气。</text>
+            <text>There are no more living beings here, there is no need for fences anymore.</text>
+            <text>A broken ■■ pierced through a pair of pants, revealing its white figure.</text>
+            <text>Jet-black ■■ flows from under a shirt. Not even the flies dare to look at it.</text>
+            <text remark="next">Not even 7 years ago, at the end of the Battle of Berlin, this city was as desolated as it was today.</text>
             <remark>
                 <p class="article-text-h">注：</p>
                 <p class="article-text">柏林战役（1945年4月16日 - 1945年5月2日），是第二次世界大战中，欧洲战场的最后一场重大战役。是役苏波联军伤亡三十六万余人；德军伤亡三十一万余人，另有四十八万余人投降或被俘。</p>
                 <p class="article-text">4月30日21时50分，红军将胜利旗插上了柏林国会大厦圆顶，这标志着纳粹的彻底战败。</p>
                 <p class="article-text">5月8日，德国正式签署无条件投降协议，欧洲战事宣告结束。</p>
             </remark>
-            <text>如果说战争制造的是人间地狱……</text>
-            <text>那么，现在的柏林，就是一个连孤魂野鬼都不存在的坟场。</text>
+            <text>If war is what creates hell on Earth...</text>
+            <text>Then Berlin today is a graveyard where not even wandering lost souls remain.</text>
             <goto goto="40" change="#ffffff"/>
         </scene>
         <scene id="40" background="ruinHallBerlin.jpg">
             <bgm src="03_15_ruinBerlin.mp3" status="continue"></bgm>
-            <text>你麻木的继续向前走着。</text>
-            <text>视野之中，仿佛又看到了生命。</text>
-            <text>“你希望有个救世主吗？”</text>
-            <text>——你感到喉咙里发出了不属于自己的声音。</text>
-            <text>“是的！当然是的！”</text>
-            <text>——那些在烟尘与黑泥中闪闪发光的眼睛看着你。</text>
-            <text>在你为他们祈祷，祝福的手接触到他们的额头时——</text>
-            <text>你猛然意识到，他们放大的瞳孔中，早已无法浮现出任何东西。</text>
-            <text>那不过是与死亡同化的遗存。</text>
+            <text>You keep walking forward, slowly, as if you were paralyzed.</text>
+            <text>You could feel life in the distance.</text>
+            <text>「Do you wish for a savior?」</text>
+            <text>——You felt a voice that didn't belong to you coming from the back of your throat.</text>
+            <text>「Yes! Of course I do!」</text>
+            <text>——Gleaming eyes covered in mud and smoke looked at you.</text>
+            <text>When you prayed for them and placed your hand on their forehead——</text>
+            <text>You suddenly noticed. Nothing was coming off their enlarged pupils anymore.</text>
+            <text>As if they were remains that had accepted death.</text>
             <goto goto="50" change="#ffffff"/>
         </scene>
         <scene id="50" background="ruinHouseBerlin.jpg">
             <bgm src="03_15_ruinBerlin.mp3" status="continue"></bgm>
-            <text>“救世主”。</text>
-            <text>你看见这串诡异的文字熊熊燃烧着，从冰天雪地之中直插云霄。</text>
-            <text>你失去了理智，拼了命地向着这个符号冲过去。</text>
-            <text>但是，很快，一堵墙就挡住了你。</text>
-            <text>冰冷的一堵墙，封住了所有的去路。</text>
-            <text>大口呼着白汽的你，见到了连地狱中都未必会有的光景。</text>
-            <text>没有铁丝网，没有岗哨，这里只有一层又一层、紧紧堆积在一起的，冰冷坚硬的■■。</text>
-            <text>■■上结着一层薄霜，仿佛刚买到的雪糕，闪着星星点点的寒光。</text>
-            <text>耳中听不到爆炸。</text>
-            <text>只有冷入骨髓的火焰，在安静地燃烧。</text>
+            <text>"Savior".</text>
+            <text>You see this suspicious word burn fiercely, and fly high into the sky from the cold ground.</text>
+            <text>You lose your reason, and run towards that word as fast as you can.</text>
+            <text>However, a wall suddenly blocked your way.</text>
+            <text>Cold walls, as if they were made of ice, were blocking your path from all directions.</text>
+            <text>You take a deep breath, and see a sight more terrifying than hell.</text>
+            <text>There were no fences or lookouts. There was only a pile of hard and cold ■■ stacked together.</text>
+            <text>On top of the ■■ there was something akin to frost. It sparkled with a cold light like a freshly bought ice cream.</text>
+            <text>You can't hear the sound of explosions.</text>
+            <text>Only a silently burning flame that calms you down to your very core.</text>
             <goto goto="60" change="#ffffff"/>
         </scene>
         <scene id="60" background="ruinHallBerlin.jpg">
             <bgm src="03_15_ruinBerlin.mp3" status="continue"></bgm>
-            <text>你看到了数公里之外惊慌的人们。</text>
-            <text>在神秘团体的带领下，占领军正在紧张地进行疏散。</text>
-            <text>每一条通往市中心的道路都被路障封锁。</text>
-            <text>路障的原材料五花八门。</text>
-            <text>你看到了军用的沙袋、</text>
-            <text>路灯的柱子、</text>
-            <text>阳台的栏杆、</text>
-            <text>机器的零部件、</text>
-            <text>T字型的钢梁、</text>
-            <text>变型的汽车和坦克、</text>
-            <text>还有从隔离墙上拆下来的铁丝网。</text>
-            <text>那些路障上面，还挂着几具■■的■■。</text>
-            <text>■■伸开双臂、张开双手，仿佛还要用那僵硬的■■去保护什么。</text>
+            <text>When you looked to your side, you saw people running a few kilometers away.</text>
+            <text>They're being guided by a strange group. Are the occupying forces scattering, or perhaps are they evacuating people?</text>
+            <text>Every road leading to the city's center is blocked by barricades.</text>
+            <text>There are many types of barricades.</text>
+            <text>Military sandbags,</text>
+            <text>streetlights,</text>
+            <text>handrails,</text>
+            <text>machine parts,</text>
+            <text>a T-shaped steel frame,</text>
+            <text>twisted cars and tanks,</text>
+            <text>and the barbed wire stripped from the fences.</text>
+            <text>On top of the barricades there were several ■■'s ■■ hanging.</text>
+            <text>One ■■ had its arms stretched out. As if it was trying to protect something with its hardened ■■.</text>
             <goto goto="70" change="#ffffff"/>
         </scene>
         <scene id="70" background="ruinHouseBerlin.jpg">
             <bgm src="03_15_ruinBerlin.mp3" status="continue"></bgm>
-            <text>你很清楚，你的脚下，只有灰烬。</text>
+            <text>You should have realized it already. Below your feet only ashes could be found.</text>
             <text>但是你不甘心。</text>
-            <text>在“救世主”的幻影下，你拼命地捡拾着心灵的碎片。</text>
-            <text>你叫不出她们的名字。</text>
-            <text>你不知道他们的经历。</text>
-            <text>你甚至不能理解，看起来不属于地球的怪物，为何会四下出没——</text>
-            <text>你只是固执地，不断地捡拾着。</text>
-            <text>你听到祂说——</text>
-            <text>“将他们的思念，铭刻进你的灵魂。”</text>
-            <text>仿佛，那就是，一切的救赎。</text>
-            <text>仿佛，你自己就是，“救世主”。</text>
+            <text>Under the illusion of being a 「Savior」, you desperately keep picking up the fragments of their souls.</text>
+            <text>You don't know their names.</text>
+            <text>You don't know their pasts.</text>
+            <text>You don't even know why there are monsters that don't seem to belong to this planet here——</text>
+            <text>Stubbornly, you just keep picking them up.</text>
+            <text>Then, you heard 「It」 speak——</text>
+            <text>「Engrave their feelings into your soul.」</text>
+            <text>As if that would bring salvation.</text>
+            <text>As if you were a 「Savior」.</text>
             <goto goto="80" change="#ffffff"/>
         </scene>
         <scene id="80" background="ruinHallBerlin.jpg">
             <bgm src="03_15_ruinBerlin.mp3" status="continue"></bgm>
-            <text>你躺在地上的一条裂缝里。</text>
-            <text>你累极了，累到脑筋反而清醒了过来。</text>
-            <text>累到你终于发现，自己的所作所为，毫无意义。</text>
-            <text>你不是■■，不是■■，更不是■■■——</text>
-            <text>但是，你已经累极了。</text>
-            <text>疲劳，充斥着你的每一个细胞。</text>
-            <text>意识……渐渐无法维持。</text>
-            <text>在陷入长眠之前的朦胧中——</text>
-            <text>你莫名其妙地开始相信，自己，其实做了一件了不起的事情。</text>
-            <text>只是……不知是在过去、现在、还是将来。</text>
-            <text>蝴蝶跌落在你的指尖。</text>
-            <text>你修好了它的翅膀。</text>
+            <text>You are lying next to a tear in the ground.</text>
+            <text>You are exhausted. Fatigue has reached its max and your mind has stopped thinking clearly.</text>
+            <text>Now that you are tired you finally notice. What you are doing is completely meaningless.</text>
+            <text>You are not ■■ or ■■, and much less ■■■——</text>
+            <text>But you are already too tired.</text>
+            <text>Fatigue is taking over every cell in your body.</text>
+            <text>Your consciousness is slowly fading...</text>
+            <text>Before you fall into a deep slumber amidst the mud——</text>
+            <text>You started to think that, in fact, you have accomplished something amazing.</text>
+            <text>Although you don't know whether this is the past, the present, or the future.</text>
+            <text>A butterfly landed on your fingertips.</text>
+            <text>You will fix its broken wings.</text>
             <goto goto="90" change="#ffffff"/>
         </scene>
         <scene id="90" background="carNight.jpg">

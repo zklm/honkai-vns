@@ -8,28 +8,28 @@
         </scene>
         <scene id="10" background="CG22-2.jpg">
             <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
-            <speak chara="schroCatNoFace">……这力量……的确和刚才判若两人……</speak>
+            <speak chara="schroCatNoFace">...This power... it's certainly different than before...</speak>
             <goto goto="20" change="0"/>
         </scene>
         <scene id="20" background="schroFadeAway1.jpg">
             <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
-            <speak chara="schroCatNoFace">呵……赌上这所剩无几的时间，果然是正确的……</speak>
+            <speak chara="schroCatNoFace">Heh... Betting on what little time we had left was the right move...</speak>
             <goto goto="30" change="0"/>
         </scene>
         <scene id="30" background="schroFadeAway2.jpg">
             <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
-            <speak chara="schroCatNoFace">本世代的第一律者啊……恭喜你……你已经不是“祂”的傀儡了……</speak>
+            <speak chara="schroCatNoFace">The first Herrscher of this era has been born... Congratulations... You are no longer 「Its」 puppet...</speak>
             <goto goto="40" change="0"/>
         </scene>
         <scene id="40" background="schroFadeAway3.jpg">
             <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
-            <speak chara="schroCatNoFace">呵呵……这样的话，我也算是赌赢了吧……</speak>
+            <speak chara="schroCatNoFace">Hehe... which means I won this bet...</speak>
             <goto goto="50" change="#ffffff"/>
         </scene>
         <scene id="50" background="white.jpg">
             <bgm src="04_20_Brigantia.mp3" status="stop"></bgm>
             <sound src="04_20_fell.mp3"/>
-            <speak chara="reannaNoNameNoFace">——胡闹什么，小屁孩们！</speak>
+            <speak chara="reannaNoNameNoFace">——That's enough, you two!</speak>
             <goto goto="60" change="0"/>
         </scene>
         <scene id="60" background="white.jpg">
@@ -39,17 +39,17 @@
         </scene>
         <scene id="70" background="CG23-2-1.jpg">
             <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
-            <speak chara="reannaNoFace">我是前往地狱的黑；</speak>
+            <speak chara="reannaNoFace">Darker than Hell.</speak>
             <goto goto="72" change="0"/>
         </scene>
         <scene id="72" background="CG23-2-2.jpg">
             <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
-            <speak chara="reannaNoFace">我是来自天堂的白；</speak>
+            <speak chara="reannaNoFace">Whiter than Heaven.</speak>
             <goto goto="74" change="0"/>
         </scene>
         <scene id="74" background="CG23-2.jpg">
             <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
-            <speak chara="reannaNoFace">神之键·黑渊白花，第二额定功率——</speak>
+            <speak chara="reannaNoFace">Divine Key 「Abyss Flower」, 2nd level output——</speak>
             <goto goto="80" change="0"/>
         </scene>
         <scene id="80" background="white.jpg">
@@ -76,9 +76,9 @@
         </scene>
         <scene id="100" background="CG23-3.jpg">
             <bgm src="11_17_memory.mp3" status="start"></bgm>
-            <speak chara="schroCatNoFace">你……为何要……</speak>
-            <speak chara="reannaNoFace">嘘……别动。</speak>
-            <speak chara="reannaNoFace">很快……就会结束的。</speak>
+            <speak chara="schroCatNoFace">W-Why... are you here?</speak>
+            <speak chara="reannaNoFace">Shhh... stay still.</speak>
+            <speak chara="reannaNoFace">Soon... it'll be all over.</speak>
             <goto goto="110" change="#ffffff"/>
         </scene>
         <scene id="110" background="cloudSky.jpg">
@@ -236,100 +236,100 @@
         <scene id="140" background="connecticutRoad.jpg">
             <bgm src="11_17_memory.mp3" status="start"></bgm>
             <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
-            <speak chara="reannaNoFace">这么说……爱迪生小姐她，在事故发生时，是成功躲进了避难室的？</speak>
+            <speak chara="reannaNoFace">So did Edison-san escape to the shelter before the incident happened?</speak>
             <show chara="reaNormalArmedNoLanceClose-up" position="left" opacity="0.7"/>
             <show chara="schroNormalLanceClose-up" position="right"/>
-            <speak chara="schroNoFace">……不，并没有。</speak>
+            <speak chara="schroNoFace">...No, she wasn't able to evacuate.</speak>
             <show chara="schroNormalLanceClose-up" position="right" opacity="0.7"/>
             <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
-            <speak chara="reannaNoFace">唉？她不是强推着诺基安维塔宁博士一起进去的吗？</speak>
+            <speak chara="reannaNoFace">What? Didn't she go inside the shelter together with Nokianvirtanen?</speak>
             <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
             <show chara="schroNormalLanceClose-up" position="right"/>
-            <speak chara="schroNoFace">……是的。但是她又冲出来了。</speak>
+            <speak chara="schroNoFace">...She did. But then she left right after.</speak>
             <show chara="schroNormalLanceClose-up" position="right" opacity="0.7"/>
             <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
-            <speak chara="reannaNoFace">……</speak>
+            <speak chara="reannaNoFace">.....</speak>
             <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
             <show chara="schroShrinkLanceClose-up" position="right"/>
-            <speak chara="schroNoFace">……为了保护我。</speak>
+            <speak chara="schroNoFace">...to help me.</speak>
             <show chara="schroShrinkLanceClose-up" position="right" opacity="0.7"/>
             <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
-            <speak chara="reannaNoFace">……等等。我没理解错的话，你是因为距离反应堆过近，所以无处可逃的？</speak>
+            <speak chara="reannaNoFace">...Wait. You were too close to the reactor so there was nowhere to run, right?</speak>
             <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
             <show chara="schroNormalLanceClose-up" position="right"/>
-            <speak chara="schroNoFace">……是的。</speak>
+            <speak chara="schroNoFace">...That's correct.</speak>
             <show chara="schroNormalLanceClose-up" position="right" opacity="0.7"/>
             <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
-            <speak chara="reannaNoFace">……那爱迪生小姐究竟是用什么保护了你？</speak>
+            <speak chara="reannaNoFace">...Then what did Edison-san do to protect you?</speak>
             <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
             <show chara="schroNormalLanceClose-up" position="right"/>
-            <speak chara="schroNoFace">……不清楚。</speak>
+            <speak chara="schroNoFace">...I don't know.</speak>
             <show chara="schroNormalLanceClose-up" position="right" opacity="0.7"/>
             <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
-            <speak chara="reannaNoFace">……唉？</speak>
+            <speak chara="reannaNoFace">...What?</speak>
             <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
             <show chara="schroNormalLanceClose-up" position="right"/>
-            <speak chara="schroNoFace">但我能肯定，那不是人类会有的力量。</speak>
+            <speak chara="schroNoFace">But what can I say is, that wasn't power a human could have obtained by themselves.</speak>
             <show chara="schroSmileLanceClose-up" position="right"/>
-            <speak chara="schroNoFace">不过，那也绝不是与崩坏完全同源的东西。</speak>
+            <speak chara="schroNoFace">However it doesn't belong to the same system as the Houkai.</speak>
             <show chara="schroNormalLanceClose-up" position="right"/>
-            <speak chara="schroNoFace">我能感受到，凭借着那个力量，此时此刻，她仍在和崩坏战斗着。</speak>
+            <speak chara="schroNoFace">I can tell. Even now Edison-san is fighting against the Houkai using that power.</speak>
             <show chara="schroShrinkLanceClose-up" position="right"/>
-            <speak chara="schroNoFace">……但恐怕，那早已是我们任何人，都无力介入的领域了。</speak>
+            <speak chara="schroNoFace">...But I believe she has reached a domain none of us can get close to.</speak>
             <goto goto="150" change="#ffffff"/>
         </scene>
         <scene id="150" background="cloudSky.jpg">
             <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
-            <text>与此同时，某地上空——</text>
+            <text>At the same time, in a certain place——</text>
             <show chara="edisonAngelHelplessFar" position="center"/>
-            <speak chara="edisonAngelNoNameNoFace">可恶……这个样子，根本没办法把消息传递出去！</speak>
-            <speak chara="edisonAngelNoNameNoFace">一旦我撑不住的话……</speak>
+            <speak chara="edisonAngelNoNameNoFace">Damn... At this rate I won't be able to let everyone know!</speak>
+            <speak chara="edisonAngelNoNameNoFace">If I can't withstand this long enough...</speak>
             <show chara="edisonAngelAngryFar" position="center"/>
-            <speak chara="edisonAngelNoNameNoFace">喂！只会附在钞票上说话的胆小鬼！你倒是给我想个办法啊！</speak>
+            <speak chara="edisonAngelNoNameNoFace">Hey! Useless coward attached to the dollar bill! Do something!</speak>
             <show chara="dollarFranklinAhFar" position="center"/>
-            <speak chara="dollarFranklinNoFace">……你已经很努力了，爱迪生小姐。</speak>
+            <speak chara="dollarFranklinNoFace">...You've done everything you could, Edison-san.</speak>
             <show chara="dollarFranklinEmFar" position="center"/>
-            <speak chara="dollarFranklinNoFace" remark="next">但我必须要指出的是，当你决定借助■■■■的力量，使用“干涉仪”的那一刻，它就不再与“那个”十一维时空有任何的关联——而正是如此，我才会出现，才会这样和你对话。</speak>
+            <speak chara="dollarFranklinNoFace" remark="next">It'll be problematic if you forget. The moment you borrowed the power of ■■■■ and decided to use the 「Interferometer」, it stopped being connected to "that" 11-dimensional space—— That's why I can have a conversation with you like this.</speak>
             <remark post="U2FsdGVkX1+X733EXSLz1fznthEa">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">理论物理中的“弦理论”（后发展为“M理论”）认为，所有的基本粒子都可以【表述】为某种特殊空间（十维）上的特殊【波动】（称之为“弦”，“弦”在M理论中被更本质的“膜”所表示）。因此，它是建立在十一维时空（十维空间加一维时间）上的。</p>
                 <p class="article-text">“人们非常幸运地发现了一种崭新的对称。……一种方式是讲，时空除了我们所体验到的维以外还有额外的维。这些维被称为格拉斯曼维，因为它们是用所谓的格拉斯曼变量的数而不用通常的实数来度量。……对于我这样的一名实证主义者而言，‘额外维的确存在吗？’的问题是没有意义的。人们最多只能问：具有额外维的数学模型能很好地描述宇宙吗？”——史蒂芬·霍金，《果壳中的宇宙》</p>
             </remark>
             <show chara="dollarFranklinAhFar" position="center"/>
-            <speak chara="dollarFranklinNoFace">我代表着你所能够理解的思维方式；我再强调一遍，我也只不过是■■■■的一个造物而已，和如今的你没有任何区别。</speak>
+            <speak chara="dollarFranklinNoFace">I intend to convey my thoughts in a way even you can understand. I'll say it again, I'm just one of ■■■■'s creations. I'm not any different than you right now.</speak>
             <show chara="dollarFranklinEmFar" position="center"/>
-            <speak chara="dollarFranklinNoFace">至于你……你现在具备的能力，已经是你这个生命，透支了各种各样的可能性所换来的结果。</speak>
+            <speak chara="dollarFranklinNoFace">...The power you posses right now was obtained by crushing the many possibilities of your life.</speak>
             <show chara="dollarFranklinAhFar" position="center"/>
-            <speak chara="dollarFranklinNoFace">如果你对此有怨言的话，那只能说，你过于急躁地使用了“干涉仪”，拔苗助长，结果限制了更多潜力的表达。</speak>
+            <speak chara="dollarFranklinNoFace">If you are dissatisfied, remember that it was you the one who rushed to use the 「Interferometer」 to boost your abilities. Because of that it was difficult to bring forth your latent potential.</speak>
             <show chara="edisonAngelQuestionFar" position="center"/>
-            <speak chara="edisonAngelNoFace">什么？我急躁？那种状况下，是个人都会这么做吧！</speak>
+            <speak chara="edisonAngelNoFace">What? I was too impatient? In the situation we were in anyone would had done the same thing!</speak>
             <show chara="dollarFranklinAhFar" position="center"/>
-            <speak chara="dollarFranklinNoFace">……所以我说，你已经很努力了啊，爱迪生小姐。</speak>
+            <speak chara="dollarFranklinNoFace">...Which is why I've been telling you that you've done what you could, Edison-san.</speak>
             <show chara="dollarFranklinEmFar" position="center"/>
-            <speak chara="dollarFranklinNoFace">“祂们”确实不会对这颗行星上的异常放任不管……</speak>
+            <speak chara="dollarFranklinNoFace">「They」 definitely can't ignore the anomalies on this planet...</speak>
             <show chara="dollarFranklinAhFar" position="center"/>
-            <speak chara="dollarFranklinNoFace">但是，那一定不是通过我们可以理解的方式进行的。</speak>
+            <speak chara="dollarFranklinNoFace">But their actions are done in such a way we can't comprehend.</speak>
             <show chara="dollarFranklinEmFar" position="center"/>
-            <speak chara="dollarFranklinNoFace">想必，对“祂们”来说，人类的存亡兴废，根本就无关紧要。</speak>
+            <speak chara="dollarFranklinNoFace">Presumably, to 「Them」 the survival of mankind is completely irrelevant.</speak>
             <show chara="dollarFranklinAhFar" position="center"/>
-            <speak chara="dollarFranklinNoFace">“祂们”真正感兴趣的，是十一维时空中我们尚不能理解的某些涟漪——</speak>
+            <speak chara="dollarFranklinNoFace">What 「They」 are really interested in is the ripples inside the 11-dimensional space we have yet to understand——</speak>
             <show chara="dollarFranklinEmFar" position="center"/>
-            <speak chara="dollarFranklinNoFace">——而这颗行星上的异常，不过是其中恼人的几声蛙叫罢了。</speak>
+            <speak chara="dollarFranklinNoFace">——And the anomalies on this planet are akin to the annoying screams of a frog.</speak>
             <show chara="edisonAngelAngryFar" position="center"/>
-            <speak chara="edisonAngelNoFace">……告诉我这些能解决什么？无用的废话！</speak>
+            <speak chara="edisonAngelNoFace">...And how is any of that going to help me? What a bunch of useless information!</speak>
             <show chara="dollarFranklinEmFar" position="center"/>
-            <speak chara="dollarFranklinNoFace">我只是一张钞票而已，你指望我能给出什么建设性的意见呢？</speak>
+            <speak chara="dollarFranklinNoFace">I'm just a dollar bill. What constructive opinion were you expecting from me?</speak>
             <show chara="dollarFranklinAhFar" position="center"/>
-            <speak chara="dollarFranklinNoFace">……再说，就算是真正的本杰明·富兰克林，在这种状况下，就能真的想出什么高招吗？</speak>
+            <speak chara="dollarFranklinNoFace">...And even if I were the real Benjamin Franklin, do you really think he could come up with a plan to get out of this situation?</speak>
             <show chara="edisonAngelSeriousFar" position="center"/>
-            <speak chara="edisonAngelNoFace">……</speak>
+            <speak chara="edisonAngelNoFace">.....</speak>
             <show chara="edisonAngelSmileFar" position="center"/>
-            <speak chara="edisonAngelNoFace">……是呢。没想到我竟然也一时糊涂，去希望一张钞票直接告诉我答案。</speak>
+            <speak chara="edisonAngelNoFace">...You're right. Can't believe I lost my cool and counted on a dollar bill for answers.</speak>
             <show chara="edisonAngelSeriousFar" position="center"/>
-            <speak chara="edisonAngelNoFace">也好……我这就给祂们——那些高高在上的家伙——证明一下……</speak>
+            <speak chara="edisonAngelNoFace">Whatever... I'll prove to those watching from above...</speak>
             <show chara="edisonAngelAngryFar" position="center"/>
-            <speak chara="edisonAngelNoFace">人类的事情，到头来，还是要由人类自己来作主！</speak>
-            <speak chara="edisonAngelNoFace">南希·托马斯·爱迪生，就算是粉身碎骨，也绝不会让纽约这座城市，重蹈柏林的覆辙！</speak>
+            <speak chara="edisonAngelNoFace">Mankind will be in control of its own fate right until the end!</speak>
+            <speak chara="edisonAngelNoFace">Nancy Thomas Edison swears, even if her life comes to an end, she won't let New York become another Berlin!</speak>
             <end post="U2FsdGVkX1+x3U0ZNdcph971qhGD"/>
         </scene>
     </story>

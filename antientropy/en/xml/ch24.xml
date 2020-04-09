@@ -9,94 +9,94 @@
         <scene id="10" background="roadNewYork.jpg">
             <bgm src="04_20_tank.mp3" status="start"></bgm>
             <show chara="starFallUp" position="back"/>
-            <text>当日11时，纽约市郊区——</text>
+            <text>Same day. 11:00. New York suburbs.</text>
             <show chara="reaNormalArmedNoLanceClose-up" position="left"/>
-            <speak chara="reannaNoFace">天上的……那是什么？</speak>
+            <speak chara="reannaNoFace">That thing in the sky... what was it?</speak>
             <show chara="reaSeriousArmedNoLanceClose-up" position="left"/>
-            <speak chara="reannaNoFace">紫色的……流星？</speak>
+            <speak chara="reannaNoFace">A purple... meteorite?</speak>
             <show chara="reaSeriousArmedNoLanceClose-up" position="left" opacity="0.7"/>
             <show chara="schroNormalLanceClose-up" position="right"/>
-            <speak chara="schroNoFace">不……那……那是……</speak>
+            <speak chara="schroNoFace">No... that was...!</speak>
             <goto goto="20" change="0"/>
         </scene>
         <scene id="20" background="tankInside.jpg">
             <bgm src="04_20_tank.mp3" status="continue"></bgm>
             <show chara="adaNormalRadioFar" position="center" opacity="0.95"/>
-            <speak chara="adaNoFace">爱因斯坦博士、特斯拉博士。</speak>
-            <speak chara="adaNoFace">检测到电磁发信源。使用公开信道。信号形式是……</speak>
-            <speak chara="adaNoFace" remark="next">……模拟信号。</speak>
+            <speak chara="adaNoFace">Professor Einstein, Professor Tesla.</speak>
+            <speak chara="adaNoFace">Detecting an electromagnetic wave transmission through an open channel. The format is——</speak>
+            <speak chara="adaNoFace" remark="next">——Analog signal.</speak>
             <remark post="U2FsdGVkX1+unhzSzQEIRkMDDNP3">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">模拟信号（analog signal），是指在时域上数学形式为连续函数的信号。与模拟信号对应的是数字信号，只取二元对立的逻辑值。</p>
                 <p class="article-text">和数字信号相比，模拟信号主要用于记录原始信息（如音频、视频等），或具有连续变动范围的测量值（如温度、压强、位移等）。其缺点是无法抵抗信道噪声的影响，在多次复制或长距离传输之后会逐渐失真。</p>
             </remark>
-            <speak chara="adaNoFace">……降噪处理中，推测语言：英语。</speak>
+            <speak chara="adaNoFace">...Processing noise. Language: English.</speak>
             <show chara="einShockWinterClose-up" position="center"/>
-            <speak chara="einNoFace">……</speak>
+            <speak chara="einNoFace">.....</speak>
             <show chara="adaNormalRadioFar" position="center" opacity="0.95"/>
-            <speak chara="adaNoFace">……声纹拟合：南希·托马斯·爱迪生董事长。</speak>
+            <speak chara="adaNoFace">...Voiceprint match: CEO Nancy Thomas Edison.</speak>
             <show chara="teslaAstonishGlassWinterClose-up" position="center"/>
-            <speak chara="teslaNoFace">……什么？！</speak>
+            <speak chara="teslaNoFace">...What!?</speak>
             <goto goto="30" change="#ffffff"/>
         </scene>
         <scene id="30" background="cloudSky.jpg">
             <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
-            <speak chara="edisonNoNameNoFace">░▒░▒░▒论如何，我会尽自己最大的努力，不让任何无辜者，因为我们的实验事故而遭受损失。</speak>
-            <speak chara="teslaNoFace">……爱迪生？</speak>
-            <speak chara="teslaNoFace">……你能听到我吗，爱迪生？！</speak>
+            <speak chara="edisonNoNameNoFace">░▒░▒░▒ so I'm gonna do what I can. We can't sacrifice innocent people for the sake of our experiment.</speak>
+            <speak chara="teslaNoFace">...Edison?</speak>
+            <speak chara="teslaNoFace">...Can you hear me? Edison!?</speak>
             <goto goto="40" change="0"/>
         </scene>
         <scene id="40" background="tankInside.jpg">
             <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
             <show chara="edisonWhiteWinterClose-up" position="center" opacity="0.95"/>
-            <speak chara="edisonNoFace">……特斯拉？</speak>
+            <speak chara="edisonNoFace">...Tesla?</speak>
             <show chara="teslaShoutWinterClose-up" position="center"/>
-            <speak chara="teslaNoFace">没错，是我！你被困在哪里了吗？我们这就去救你！</speak>
+            <speak chara="teslaNoFace">The one and only! Are you in trouble somewhere? I'm coming to help you!</speak>
             <show chara="edisonWhiteWinterClose-up" position="center" opacity="0.95"/>
-            <speak chara="edisonNoFace">……这不是目前的优先事项，尼古拉。</speak>
-            <speak chara="edisonNoFace">尽你的力量通知下纽约湾的船只和沿岸居民：可能有小型海啸发生，保险起见，请远离滩涂地区。</speak>
+            <speak chara="edisonNoFace">...That shouldn't be your priority, Nikola.</speak>
+            <speak chara="edisonNoFace">I've informed all ships and coastal residents of New York Bay that there may be a tsunami heading their way, so make sure to evacuate to higher ground.</speak>
             <show chara="teslaAstonishGlassWinterClose-up" position="center"/>
-            <speak chara="teslaNoFace">……什——</speak>
+            <speak chara="teslaNoFace">What are y——</speak>
             <show chara="teslaEmbarraGlassWinterClose-up" position="center"/>
-            <speak chara="teslaNoFace">——不，明白了。</speak>
-            <speak chara="teslaNoFace">我们即将抵达长岛海峡的尽头，全速前进的话，预计半个小时可以抵达曼哈顿海滩！</speak>
+            <speak chara="teslaNoFace">——No, got it.</speak>
+            <speak chara="teslaNoFace">We are almost at Long Island's Strait. We should be arriving at Manhattan in 30 minutes at full speed.</speak>
             <goto goto="50" change="0"/>
         </scene>
         <scene id="50" background="CG24-1-0.jpg">
             <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
-            <speak chara="edisonNoFace">……半个小时吗。我的电力，怕是没办法支撑那么久了。</speak>
-            <speak chara="teslaNoFace">没关系！告诉我们你的坐标，我们通知完民众就来支援！</speak>
-            <speak chara="edisonNoFace">……情况有点复杂。</speak>
-            <speak chara="edisonNoFace">总而言之：我目前唯一能够做的，是尽力向外海推进，尽量减少海啸的规模。</speak>
-            <speak chara="teslaNoFace">……向外海推进？！你、你在说什么啊！？</speak>
-            <speak chara="edisonNoFace">我目前勉强控制着一颗爆炸当量超过两万吨TNT的崩坏能集束球——徒手。</speak>
-            <speak chara="edisonNoFace">只有在远离人群的地方将它摧毁，民众才能够得到最大程度的保全。</speak>
-            <speak chara="teslaNoFace">可是——</speak>
-            <speak chara="edisonNoFace">……这是我的选择。</speak>
-            <speak chara="edisonNoFace">我必须用最有把握的手段解决这个问题。</speak>
-            <speak chara="edisonNoFace">这是我自己制造的麻烦，我必须对它负责。</speak>
-            <speak chara="teslaNoFace">可是——</speak>
+            <speak chara="edisonNoFace">...30 minutes? I don't think I have enough power to last that long.</speak>
+            <speak chara="teslaNoFace">Don't worry! Tell me your coordinates. We'll tell everyone to evacuate and go help you right away!</speak>
+            <speak chara="edisonNoFace">...This is gonna be a bit complicated.</speak>
+            <speak chara="edisonNoFace">All I can do is to push it into the ocean as much as I can to reduce the size of the tsunami.</speak>
+            <speak chara="teslaNoFace">...Pushing it into the open sea!? What are you saying?</speak>
+            <speak chara="edisonNoFace">I'm currently holding a ball of Houkai energy equal to a 20.000 TNT bomb... with my bare hands.</speak>
+            <speak chara="edisonNoFace">Unless it's destroyed in a far away place the citizen's safety can't be guaranteed.</speak>
+            <speak chara="teslaNoFace">But——</speak>
+            <speak chara="edisonNoFace">...This is my will.</speak>
+            <speak chara="edisonNoFace">The only way to solve this is for the person who understands it the most to move it.</speak>
+            <speak chara="edisonNoFace">This is my punishment for what I've done. I have to take responsibility for it.</speak>
+            <speak chara="teslaNoFace">But——！</speak>
             <goto goto="60" change="0"/>
         </scene>
         <scene id="60" background="roadNewYork.jpg">
             <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
             <show chara="starFallDown" position="back"/>
-            <speak chara="edisonNoFace">抱歉。我不能坐等这些崩坏能完全失去控制。</speak>
-            <speak chara="edisonNoFace">对了……</speak>
-            <speak chara="edisonNoFace">你离职时我扣下的那笔专利费……</speak>
-            <speak chara="edisonNoFace">……公司会支付给你的。</speak>
+            <speak chara="edisonNoFace">I'm sorry. I can't let this Houkai energy go out of control.</speak>
+            <speak chara="edisonNoFace">Ah right...</speak>
+            <speak chara="edisonNoFace">The patent fee from back then...</speak>
+            <speak chara="edisonNoFace">...The company should pay you for it.</speak>
             <goto goto="65" change="0"/>
         </scene>
         <scene id="65" background="cloudSky.jpg">
             <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
             <show chara="teslaTearsBigHead" position="center"/>
-            <speak chara="teslaNoFace">……</speak>
+            <speak chara="teslaNoFace">...</speak>
             <show chara="teslaTearsBigHeadCloseEye" position="center"/>
-            <speak chara="teslaNoFace">铁公鸡！我要你亲手给我！</speak>
+            <speak chara="teslaNoFace">Tch! I don't want it unless it's you who pays it!</speak>
             <show chara="teslaTearsBigHeadShout" position="center"/>
-            <speak chara="teslaNoFace">不然我丢不起那个面子！听到没有！</speak>
-            <speak chara="edisonNoFace">啊啊……</speak>
-            <speak chara="edisonNoFace">如果我下周……不会迟到的话。</speak>
+            <speak chara="teslaNoFace">Otherwise my honor will never recover! Hey, are you listening!?</speak>
+            <speak chara="edisonNoFace">Hehe...</speak>
+            <speak chara="edisonNoFace">Next week, if I'm not late then... I'll pay you.</speak>
             <goto goto="70" change="#ffffff"/>
         </scene>
         <scene id="70" background="CG24-1-1.jpg">
@@ -211,230 +211,230 @@
         <scene id="110" background="brightonBeach.jpg">
             <bgm src="morning.mp3" status="start"></bgm>
             <speak chara="radioNoNameNoFace">░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒░▒</speak>
-            <speak chara="schroNoFace">……</speak>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="einNoFace">……</speak>
-            <speak chara="teslaNoFace">……</speak>
+            <speak chara="schroNoFace">.....</speak>
+            <speak chara="weltNoFace">.....</speak>
+            <speak chara="einNoFace">.....</speak>
+            <speak chara="teslaNoFace">.....</speak>
             <show chara="reaSeriousArmedNoLanceFar" position="right"/>
             <bgm src="horror.mp3" status="start"></bgm>
-            <speak chara="reannaNoFace">……你们留在安全的地带。</speak>
-            <speak chara="reannaNoFace">我去高空侦察一下。</speak>
+            <speak chara="reannaNoFace">...You all head to a safe place.</speak>
+            <speak chara="reannaNoFace">I'll go do some recon.</speak>
             <show chara="reaSeriousArmedNoLanceFar" position="right" opacity="0.7"/>
             <show chara="teslaDisgustedGlassWinterFar" position="left"/>
-            <speak chara="teslaNoFace">等等，你要怎么——</speak>
+            <speak chara="teslaNoFace">Wait a moment, what are you——</speak>
             <hide position="right"></hide>
             <hide position="left"></hide>
             <show chara="weltQuestionNewFar" position="center"/>
-            <speak chara="weltNoFace">——喂。那是……</speak>
+            <speak chara="weltNoFace">——H-Hey, is that...</speak>
             <goto goto="120" change="#ffffff"/>
         </scene>
         <scene id="120" background="brightonBeach.jpg">
             <bgm src="horror.mp3" status="continue"></bgm>
             <show chara="nokiaDepressedWinterFar" position="right"/>
-            <speak chara="nokiaNoFace">……</speak>
-            <speak chara="nokiaNoFace">……各位。</speak>
+            <speak chara="nokiaNoFace">.....</speak>
+            <speak chara="nokiaNoFace">...Everyone.</speak>
             <show chara="nokiaDepressedWinterFar" position="right" opacity="0.7"/>
             <show chara="teslaShoutGlassWinterFar" position="left"/>
-            <speak chara="teslaNoFace">天啊！这不是芬兰人吗？！你怎么了？！没事吧？？</speak>
+            <speak chara="teslaNoFace">Hey! It's Finn! It's everything alright!?</speak>
             <show chara="teslaShoutGlassWinterFar" position="left" opacity="0.7"/>
             <show chara="nokiaAnnoyedWinterFar" position="right"/>
-            <speak chara="nokiaNoFace">我也收到了爱迪生的信号……</speak>
+            <speak chara="nokiaNoFace">I also received Edison-san's signal...</speak>
             <show chara="nokiaDepressedWinterFar" position="right"/>
-            <speak chara="nokiaNoFace">……用避难室里翻出来的设备。</speak>
+            <speak chara="nokiaNoFace">...by using a machine from the shelter.</speak>
             <show chara="nokiaDepressedWinterFar" position="right" opacity="0.7"/>
             <show chara="schroNormalLanceFar" position="left"/>
-            <speak chara="schroNoFace">大家……还好吗？</speak>
+            <speak chara="schroNoFace">Is everyone... okay?</speak>
             <show chara="schroNormalLanceFar" position="left" opacity="0.7"/>
             <show chara="nokiaDepressedWinterFar" position="right"/>
-            <speak chara="nokiaNoFace">……没问题。都还活着。</speak>
+            <speak chara="nokiaNoFace">...Yes. They're all alive.</speak>
             <show chara="nokiaAnnoyedWinterFar" position="right"/>
-            <speak chara="nokiaNoFace">……</speak>
+            <speak chara="nokiaNoFace">.....</speak>
             <show chara="nokiaCrazyWinterFar" position="right"/>
-            <speak chara="nokiaNoFace">——不对！</speak>
+            <speak chara="nokiaNoFace">——No, that's not it!</speak>
             <show chara="nokiaCrazyWinterFar" position="right" opacity="0.7"/>
             <show chara="einShockWinterFar" position="left"/>
-            <speak chara="einNoFace">……怎么了？</speak>
+            <speak chara="einNoFace">...What's going on with you?</speak>
             <show chara="einShockWinterFar" position="left" opacity="0.7"/>
             <show chara="nokiaCrazyWinterFar" position="right"/>
-            <speak chara="nokiaNoFace">……我要说的，不是这个！</speak>
+            <speak chara="nokiaNoFace">...I didn't came here to tell you that!</speak>
             <show chara="nokiaAnnoyedWinterFar" position="right"/>
-            <speak chara="nokiaNoFace">我……</speak>
+            <speak chara="nokiaNoFace">I...</speak>
             <show chara="nokiaAnnoyedWinterFar" position="right" opacity="0.7"/>
             <show chara="teslaBiteGlassWinterFar" position="left"/>
-            <speak chara="teslaNoFace">……你？你怎么了？说话利索点！</speak>
+            <speak chara="teslaNoFace">Hm? What is it? If you have something to say, say it clearly!</speak>
             <show chara="teslaBiteGlassWinterFar" position="left" opacity="0.7"/>
             <show chara="nokiaCrazyWinterFar" position="right"/>
-            <speak chara="nokiaNoFace">这一切都是因为我！因为我受到了那个人的威胁！</speak>
+            <speak chara="nokiaNoFace">This is all my fault! Because I fell for his threat...!</speak>
             <shake position="right" time="250"></shake>
-            <speak chara="nokiaNoFace">他拿我的孩子来威胁！</speak>
+            <speak chara="nokiaNoFace">J-Joachim... He threatened to take my son hostage!</speak>
             <show chara="nokiaCrazyWinterFar" position="right" opacity="0.7"/>
             <show chara="schroShockLanceFar" position="left"/>
-            <speak chara="schroNoFace">……？！</speak>
+            <speak chara="schroNoFace">...!?</speak>
             <show chara="schroShockLanceFar" position="left" opacity="0.7"/>
             <show chara="nokiaCrazyWinterFar" position="right"/>
-            <speak chara="nokiaNoFace">我不是故意的！我也想不到实验会产生这么严重的后果！</speak>
-            <speak chara="nokiaNoFace">主教只是告诉我，他修改过古卷里的后期数据，会白白浪费爱迪生的时间！</speak>
-            <speak chara="nokiaNoFace">他只是轻描淡写地和我说，不希望爱迪生“将划时代的突破据为己有”！</speak>
-            <speak chara="nokiaNoFace">我……我怎么能想到会发展成现在这样？！</speak>
+            <speak chara="nokiaNoFace">I never wanted this! I never thought this would end this way!</speak>
+            <speak chara="nokiaNoFace">I-I got told by the B-Bishop to tamper with Edison's calculations so that the experiment would take a little longer. That was all.</speak>
+            <speak chara="nokiaNoFace">He only said jokingly 「I don't want Edison to make a technological breakthrough that will change the world」!</speak>
+            <speak chara="nokiaNoFace">I-I never thought this was going to happen.</speak>
             <shake position="right" time="250"></shake>
-            <speak chara="nokiaNoFace">……我怎么知道实验失败的后果会这么严重？！！</speak>
+            <speak chara="nokiaNoFace">...No one could had predicted the experiment being a failure would had resulted in this, right!?</speak>
             <show chara="nokiaCrazyWinterFar" position="right" opacity="0.7"/>
             <show chara="weltSBDNewFar" position="left"/>
-            <speak chara="weltNoFace">你说——</speak>
+            <speak chara="weltNoFace">You are saying——</speak>
             <goto goto="130" change="0"/>
         </scene>
         <scene id="130" background="CG24-2-0.jpg">
             <bgm src="horror.mp3" status="stop"></bgm>
             <sound src="05_18_claw.mp3"/>
-            <speak chara="ottoNoNameNoFace">……你说漏嘴的太多了，愚蠢的人。</speak>
-            <speak chara="nokiaNoFace">什——</speak>
+            <speak chara="ottoNoNameNoFace">...You babble too much, fool.</speak>
+            <speak chara="nokiaNoFace">Wh——</speak>
             <goto goto="135" change="0"/>
         </scene>
         <scene id="135" background="CG24-2-1.jpg">
             <bgm src="horror.mp3" status="stop"></bgm>
             <sound src="04_20_fell.mp3"/>
-            <speak chara="ottoNoNameNoFace">安静地去和你的家人团聚吧。</speak>
+            <speak chara="ottoNoNameNoFace">Go meet your maker in silence.</speak>
             <goto goto="140" change="#ffffff"/>
         </scene>
         <scene id="140" background="brightonBeach.jpg">
             <bgm src="horror.mp3" status="start"></bgm>
             <show chara="teslaAstonishGlassWinterFar" position="left"/>
-            <speak chara="teslaNoFace">……</speak>
+            <speak chara="teslaNoFace">.....</speak>
             <show chara="teslaAstonishGlassWinterFar" position="left" opacity="0.7"/>
             <show chara="schroShockLanceFar" position="right"/>
-            <speak chara="schroNoFace">你……为什么……</speak>
+            <speak chara="schroNoFace">You... why...</speak>
             <show chara="einShockWinterFar" position="right"/>
-            <speak chara="einNoFace">不对……你……是什么？！</speak>
+            <speak chara="einNoFace">No... just... who are you!?</speak>
             <hide position="right"></hide>
             <hide position="left"></hide>
             <show chara="ottoChangeFar" position="center"/>
-            <speak chara="ottoNoNameNoFace">我？从物理关系上讲，我不就是和你们一同行动的女武神，蕾安娜·布里甘缇亚吗？</speak>
-            <speak chara="ottoNoNameNoFace">——虽然外形和人格的确都不是一个。</speak>
-            <speak chara="ottoNoNameNoFace">……也罢，就让你们看清楚一点儿好了。</speak>
+            <speak chara="ottoNoNameNoFace">Me? From a physical point of view, I'm the Valkyrie who's been helping you, Reanna Brigantia.</speak>
+            <speak chara="ottoNoNameNoFace">——Though the mind doesn't match the body anymore.</speak>
+            <speak chara="ottoNoNameNoFace">...Oh well. I'll show it to you.</speak>
             <goto goto="150" change="#ffffff"/>
         </scene>
         <scene id="150" background="brightonBeach.jpg">
             <bgm src="horror.mp3" status="continue"></bgm>
             <show chara="ottoConfidentLanceFar" position="center"/>
-            <speak chara="ottoNoNameNoFace">……机械海马体接管率，99.993666%。魂钢皮肤拟合完成。</speak>
+            <speak chara="ottoNoNameNoFace">...Mechanical hippocampus connection rate 99.993666%. Soulium skin updated.</speak>
             <show chara="ottoRidiculingLanceFar" position="center"/>
-            <speak chara="ottoNoNameNoFace">好了。虽然你们中的某些人本来就认识我……</speak>
+            <speak chara="ottoNoNameNoFace">Much better. Some of you already know me...</speak>
             <show chara="ottoConfidentLanceFar" position="center"/>
-            <speak chara="ottoNoNameNoFace">不过出于礼貌起见，还是自我介绍一下吧。</speak>
+            <speak chara="ottoNoNameNoFace">But it's good manners to introduce oneself.</speak>
             <show chara="ottoFrivolousLanceFar" position="center"/>
-            <speak chara="ottoNoFace">在下奥托·阿波卡利斯。权且担任“天命”的“主教”一职。</speak>
+            <speak chara="ottoNoFace">I am Otto Apocalypse, the 「Bishop」 of 「Destiny」.</speak>
             <show chara="weltSBDNewFar" position="center"/>
-            <speak chara="weltNoFace">……奥托！</speak>
-            <speak chara="weltNoFace">你……你在变什么戏法？！</speak>
-            <speak chara="weltNoFace">混账东西！！！</speak>
+            <speak chara="weltNoFace">...Otto!</speak>
+            <speak chara="weltNoFace">W-What kind of magic trick was that!?</speak>
+            <speak chara="weltNoFace">And what have you done... Do you realize what have you've done!?</speak>
             <show chara="ottoRidiculingLanceFar" position="center"/>
-            <speak chara="ottoNoFace">稍安勿躁，亲爱的笔友。</speak>
+            <speak chara="ottoNoFace">Calm down, my dear friend.</speak>
             <show chara="ottoConfidentLanceFar" position="center"/>
-            <speak chara="ottoNoFace">在下出现在自己的某一个机械身体里，这应该不算什么“魔术”吧？</speak>
+            <speak chara="ottoNoFace">I just appeared in a machine body that I made myself. There is no 「magic trick」 here.</speak>
             <show chara="ottoFrivolousLanceFar" position="center"/>
-            <speak chara="ottoNoFace">……蕾安娜·布里甘缇亚。</speak>
+            <speak chara="ottoNoFace">...Reanna Brigantia.</speak>
             <show chara="ottoRidiculingLanceFar" position="center"/>
-            <speak chara="ottoNoFace">一百多年来，最强大、也是我最为倚重的女武神。</speak>
+            <speak chara="ottoNoFace">My most trusted Valkyrie who remained at the top as the strongest for 100 years.</speak>
             <show chara="ottoConfidentLanceFar" position="center"/>
-            <speak chara="ottoNoFace">让她如此强大而可靠的，不是什么看不见摸不着的精神品质……</speak>
+            <speak chara="ottoNoFace">It wasn't due to her unparalleled willpower that she was at the top.</speak>
             <show chara="ottoLaughLanceFar" position="center"/>
-            <speak chara="ottoNoFace">——而正是我拣选无数前文明遗产，亲手为她打造的这具不朽之身啊！</speak>
+            <speak chara="ottoNoFace">——I actually picked her for her lineage connected to an ancient civilization and gave her a more durable, stronger body with my own hands!</speak>
             <show chara="teslaAstonishGlassWinterFar" position="center"/>
-            <speak chara="teslaNoFace">你……你究竟在说什么？！</speak>
+            <speak chara="teslaNoFace">W-What the hell are you talking about!?</speak>
             <show chara="ottoConfidentLanceFar" position="center"/>
-            <speak chara="ottoNoFace">……特斯拉小姐。</speak>
+            <speak chara="ottoNoFace">...Tesla-san.</speak>
             <show chara="ottoRidiculingLanceFar" position="center"/>
-            <speak chara="ottoNoFace">你已经猜到了答案，却不愿直面它吗？</speak>
+            <speak chara="ottoNoFace">You've already noticed, haven't you? But you don't want to admit it.</speak>
             <show chara="ottoFrivolousLanceFar" position="center"/>
-            <speak chara="ottoNoFace">……也罢。</speak>
-            <speak chara="ottoNoFace">我就浪费一点时间，为你们说明一下好了。</speak>
+            <speak chara="ottoNoFace">...Oh well.</speak>
+            <speak chara="ottoNoFace">I'll take a moment to explain it to you all.</speak>
             <show chara="ottoConfidentLanceFar" position="center"/>
-            <speak chara="ottoNoFace">从前有这样一个故事。</speak>
-            <speak chara="ottoNoFace">有一位雅典人的英雄……哈，其实他来自哪里并不重要。</speak>
-            <speak chara="ottoNoFace">总之，他很伟大，所以当地人把他曾经驾驶的船供奉了起来，当作纪念碑一样。</speak>
-            <speak chara="ottoNoFace">但是时间无情，制造那艘船的木材，渐渐都腐朽不堪。</speak>
-            <speak chara="ottoNoFace">为了不让这艘伟大的船最后只能当作祭品被烧掉，人们想出了一个好方法——</speak>
-            <speak chara="ottoNoFace">每隔若干年，就检查一遍船上的所有部件，如果有朽烂的，就重做新的换掉。</speak>
-            <speak chara="ottoNoFace">于是，很多年后，当一位哲学家前来参观的时候，船上的所有部件，都已经换过至少两次了。</speak>
+            <speak chara="ottoNoFace">This happened sometime somewhere.</speak>
+            <speak chara="ottoNoFace">A certain Greek hero... Haha, his name is not important.</speak>
+            <speak chara="ottoNoFace">Anyway, he was a great man. The locals worshiped his ship and made it into a monument of sorts.</speak>
+            <speak chara="ottoNoFace">But time is cruel and the ship's wood slowly decayed.</speak>
+            <speak chara="ottoNoFace">And so the locals came up with a way to preserve their precious ship——</speak>
+            <speak chara="ottoNoFace">Every few years the ship would be inspected, and if a part was rotten it would be replaced.</speak>
+            <speak chara="ottoNoFace">Much later a philosopher came to visit the town. By then each of the ship's parts had been replaced two times.</speak>
             <show chara="ottoFrivolousLanceFar" position="center"/>
-            <speak chara="ottoNoFace">哲学家听说了这件事之后很沮丧，他质问当地人：“这还是原本的那艘船吗？”</speak>
+            <speak chara="ottoNoFace">The philosopher was saddened about it and asked the locals 「Is this still the original ship?」.</speak>
             <show chara="ottoRidiculingLanceFar" position="center"/>
-            <speak chara="ottoNoFace">而当地人却满不在乎的回答：“如果您说不是的话，哲学家先生，您觉得它是什么时候开始不是的呢？”</speak>
-            <speak chara="ottoNoFace">“您要知道，即使是在出海途中，船只也是需要时不时更换部件的呀。”</speak>
+            <speak chara="ottoNoFace">And the locals told him 「Philosopher, if you believe this ship is different, then when did it stop being the original?」</speak>
+            <speak chara="ottoNoFace">「Because even during its voyage the ship had its parts replaced.」</speak>
             <show chara="weltSBDNewFar" position="center"/>
-            <speak chara="weltNoFace">这是什么狗屁故事？！</speak>
-            <speak chara="weltNoFace">你究竟想说什么？！</speak>
+            <speak chara="weltNoFace">Stop this crap already!</speak>
+            <speak chara="weltNoFace">What are you trying to say!?</speak>
             <show chara="ottoLaughLanceFar" position="center"/>
-            <speak chara="ottoNoFace">哈哈……经过这百余年来，大大小小上千次的人体改造——</speak>
-            <speak chara="ottoNoFace">——你们觉得，这具身体，究竟是一名女武神，还是一台机器呢？</speak>
+            <speak chara="ottoNoFace">Haha... Over the course of 100 years, 1000 modifications were made to her——</speak>
+            <speak chara="ottoNoFace">——Does that body still belong to the Valkyrie or is it a robot now?</speak>
             <show chara="weltSBDNewFar" position="center"/>
-            <speak chara="weltNoFace">你——</speak>
+            <speak chara="weltNoFace">Stop playing around——</speak>
             <show chara="ottoRidiculingLanceFar" position="center"/>
-            <speak chara="ottoNoFace">当然，其实答案很简单。</speak>
+            <speak chara="ottoNoFace">Obviously, the answer is very simple.</speak>
             <show chara="ottoConfidentLanceFar" position="center"/>
-            <speak chara="ottoNoFace">——刚才的问题，根本就不重要。</speak>
+            <speak chara="ottoNoFace">——The previous problem is now irrelevant.</speak>
             <show chara="ottoLaughLanceFar" position="center"/>
-            <speak chara="ottoNoFace">因为，在实验的最后，这具身体，终究是属于我的。</speak>
+            <speak chara="ottoNoFace">Because this body now belongs to me.</speak>
             <show chara="weltSBDNewFar" position="center"/>
-            <speak chara="weltNoFace">……你？！</speak>
+            <speak chara="weltNoFace">...Damn you!</speak>
             <show chara="ottoFrivolousLanceFar" position="center"/>
-            <speak chara="ottoNoFace">律者。如果你活得足够久，你也会明白——确保自己的战斗力，对于永生者而言，有多么重要。</speak>
+            <speak chara="ottoNoFace">Herrscher. Once you live long enough you will come to understand—— How important is for those who dabble in eternity to be able to maintain their power.</speak>
             <show chara="ottoRidiculingLanceFar" position="center"/>
-            <speak chara="ottoNoFace">……再说，你们面前的这个实验体，今天的确太不规矩了点儿。</speak>
+            <speak chara="ottoNoFace">...And this experiment in front of you all today broke the rules.</speak>
             <show chara="ottoFrivolousLanceFar" position="center"/>
-            <speak chara="ottoNoFace">……还真是可悲啊。我的蕾安娜。</speak>
+            <speak chara="ottoNoFace">...How sad. My poor Reanna.</speak>
             <show chara="ottoRidiculingLanceFar" position="center"/>
-            <speak chara="ottoNoFace">……她难道以为，身为首席女武神，就已经可以和主教平起平坐了吗？</speak>
-            <speak chara="ottoNoFace">……就这么天真的以为，我在进行实验的时候，不会留几个后门接口？</speak>
+            <speak chara="ottoNoFace">...I wonder if you thought you were my equal just because you were at the top of the Valkyries?</speak>
+            <speak chara="ottoNoFace">...Perhaps you never thought I would put a hidden backdoor in one of my experiments. It was all too simple.</speak>
             <show chara="ottoLaughLanceFar" position="center"/>
-            <speak chara="ottoNoFace">……哈哈哈哈哈！</speak>
+            <speak chara="ottoNoFace">...Hahahahaha!</speak>
             <show chara="schroShockLanceFar" position="center"/>
-            <speak chara="schroNoFace">怎……怎么可以……</speak>
+            <speak chara="schroNoFace">W-Why... Would you do this...</speak>
             <show chara="ottoRidiculingLanceFar" position="center"/>
-            <speak chara="ottoNoFace">哦，对了——</speak>
-            <speak chara="ottoNoFace">我的话已经说完了。认真地讲，你们应该感到荣幸才对。</speak>
+            <speak chara="ottoNoFace">That's enough——</speak>
+            <speak chara="ottoNoFace">My explanation is over. Honestly, you all should feel honored.</speak>
             <show chara="ottoLaughLanceFar" position="back"/>
             <show chara="speedLine" position="center"/>
-            <speak chara="ottoNoFace">——没有多少敌人，值得如今的奥托·阿波卡利斯亲手处刑！</speak>
+            <speak chara="ottoNoFace">——There are only a few enemies worthy of being killed by Otto Apocalypse himself!</speak>
             <goto goto="160" change="0"/>
         </scene>
         <scene id="160" background="white.jpg">
             <bgm src="horror.mp3" status="stop"></bgm>
-            <speak chara="schroNoFace">——快闪开！</speak>
+            <speak chara="schroNoFace">——He's too dangerous!</speak>
             <goto goto="170" change="0"/>
         </scene>
         <scene id="170" background="CG24-3-0.jpg">
             <bgm src="horror.mp3" status="stop"></bgm>
             <sound src="05_18_claw.mp3"/>
-            <speak chara="schroNoFace">……</speak>
+            <speak chara="schroNoFace">...!</speak>
             <bgm src="04_20_Brigantia.mp3" status="start"></bgm>
             <show chara="speedLine" position="center"/>
-            <speak chara="schroNoFace">啊啊啊啊啊啊啊啊！！！！！！！！</speak>
+            <speak chara="schroNoFace">Uwaaaahhh!!!</speak>
             <goto goto="180" change="0"/>
         </scene>
         <scene id="180" background="CG24-4-0.jpg">
             <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">……飞蛾扑火。</speak>
-            <speak chara="ottoNoFace">与崩坏兽同化的你，又能做到什么？</speak>
-            <speak chara="schroNoFace">只要我……还没有倒下……</speak>
-            <speak chara="schroNoFace">你……就别想再谋害任何人……</speak>
-            <speak chara="ottoNoFace">唔。你说得的确有道理。</speak>
-            <speak chara="ottoNoFace">不过……不要紧吗？只是接触到这把“黑渊”，你的“武器”可就已经开始崩裂了哦？</speak>
-            <speak chara="schroNoFace">我会怎么样……那根本不重要。</speak>
-            <speak chara="schroNoFace">但是……</speak>
+            <speak chara="ottoNoFace">...Hmph. Like an insect flying into a flame.</speak>
+            <speak chara="ottoNoFace">What do you think you can do? You only assimilated yourself with a Houkai beast.</speak>
+            <speak chara="schroNoFace">As long as... I live...</speak>
+            <speak chara="schroNoFace">You won't... be able to hurt anyone else... </speak>
+            <speak chara="ottoNoFace">Indeed. You're correct.</speak>
+            <speak chara="ottoNoFace">But... will you be able to keep up with me? Just by touching 「Black Orchid」 that 「weapon」 of yours is starting to fall apart.</speak>
+            <speak chara="schroNoFace">I don't care... what happens to me.</speak>
+            <speak chara="schroNoFace">But...</speak>
             <goto goto="185" change="0"/>
         </scene>
         <scene id="185" background="CG24-4-1.jpg">
             <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
-            <speak chara="schroNoFace">我绝对不允许你，就这样肆无忌惮地玷污这个身体！还用它去伤害我的伙伴们！</speak>
-            <speak chara="schroNoFace">它不属于你！！</speak>
-            <speak chara="schroNoFace">它唯一的主人是——</speak>
+            <speak chara="schroNoFace">I'll never forgive you for sullying that body! And not only that, but you tried to hurt my friends!</speak>
+            <speak chara="schroNoFace">That body isn't yours!!</speak>
+            <speak chara="schroNoFace">The only owner of that body is——</speak>
             <goto goto="190" change="0"/>
         </scene>
         <scene id="190" background="CG24-4-2.jpg">
             <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
             <shake position="all" time="250"></shake>
-            <speak chara="schroNoFace">——蕾安娜！！！</speak>
+            <speak chara="schroNoFace">——Reanna-san!!!</speak>
             <end post="U2FsdGVkX1+xP0LTQC+x1lfTNrBM"/>
         </scene>
     </story>

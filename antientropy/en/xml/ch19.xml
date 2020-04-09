@@ -247,95 +247,95 @@
             <text>第一次亲临“战场”的他，脑海中浮现出父亲的身影。</text>
             <text>那是十年前的一个夏天。他拉着刚刚复员回家的父亲，想听他亲口讲讲关于诺曼底的故事。</text>
             <text>然而，父亲却冷冷地反问了一句——</text>
-            <text>“在一片黑暗中，当我们只能看到高射炮的火光——你知道我们为什么能说服自己跳下去吗？”</text>
-            <text>“……”</text>
-            <text>“是因为在此之前的两年里，我们接受了上百次的训练。”</text>
-            <text>“除此之外，再没有什么‘为什么’。”</text>
-            <text>“这是现实生活，没有人是像‘美国队长’那样的超级英雄。”</text>
-            <text>“第一次跳伞的时候，我甚至吓得小腿抽筋，还尿了裤子。”</text>
-            <text>“……所谓职业军人，他们只是接受了长久的锻炼，将不必要的情绪统统都忘在了脑后——仅此而已。”</text>
+            <text>「It was so dark the only thing we could see was the light coming from the enemy's barrels—— What do you think we told ourselves to get the courage to jump in under those conditions?」</text>
+            <text>「.....」</text>
+            <text>「Nothing. It's because we've trained for that moment over a hundred times during the past 2 years that we were able to do it.」</text>
+            <text>「I've stopped asking myself 『Why』.」</text>
+            <text>「This is our reality. There are no superheroes in our world.」</text>
+            <text>「The first time I dropped from a parachute I was so terrified my legs wouldn't stop shaking, I was back to being a pipsqueak.」</text>
+            <text>「...A professional soldier, with enough training, will leave all unnecessary emotions behind—— That's all.」</text>
             <show chara="yuriSeriousClose-up" position="left"/>
-            <speak chara="yuriNoFace">（将不必要的情绪都忘在脑后——仅此而已。）</speak>
+            <speak chara="yuriNoFace">(Leave all unnecessary emotions behind—— That's all.)</speak>
             <show chara="yuriSeriousClose-up" position="left" opacity="0.7"/>
             <show chara="mbembaClose-up" position="right"/>
-            <speak chara="mbembaNoFace">……尤里。</speak>
+            <speak chara="mbembaNoFace">...Yuri.</speak>
             <show chara="mbembaClose-up" position="right" opacity="0.7"/>
             <show chara="yuriSadClose-up" position="left"/>
-            <speak chara="yuriNoFace">……很逊吧？我现在的脸色一定很苍白。</speak>
+            <speak chara="yuriNoFace">...Pathetic, isn't it? I bet my face is all pale right now.</speak>
             <show chara="yuriSadClose-up" position="left" opacity="0.7"/>
             <show chara="mbembaClose-up" position="right"/>
-            <speak chara="mbembaNoFace">……不。</speak>
-            <speak chara="mbembaNoFace">……我比你逊多了。</speak>
-            <speak chara="mbembaNoFace">……你马上就要闻到味道了。不好意思。</speak>
+            <speak chara="mbembaNoFace">...No.</speak>
+            <speak chara="mbembaNoFace">...I'm feeling worse than you.</speak>
+            <speak chara="mbembaNoFace">...That smell will be coming out soon. I'm sorry.</speak>
             <show chara="mbembaClose-up" position="right" opacity="0.7"/>
             <show chara="yuriSadClose-up" position="left"/>
-            <speak chara="yuriNoFace">？？？</speak>
+            <speak chara="yuriNoFace">???</speak>
             <show chara="yuriSeriousClose-up" position="left"/>
-            <speak chara="yuriNoFace">唔……</speak>
-            <text>一股浓烈的、类似氨水的气味开始在车厢里弥漫。</text>
-            <text>那是哺乳动物，在极端恐惧时，有可能会散发出的味道。</text>
+            <speak chara="yuriNoFace">Yeah...</speak>
+            <text>A very strong smell similar to ammonia began to make its way into the vehicle.</text>
+            <text>Perhaps it's the smell emitted by animals when they feel extreme fear.</text>
             <show chara="yuriSeriousClose-up" position="left" opacity="0.7"/>
             <show chara="mbembaClose-up" position="right"/>
-            <speak chara="mbembaNoFace">我……看到了……</speak>
-            <speak chara="mbembaNoFace">不，我是说……</speak>
-            <speak chara="mbembaNoFace">它好像也看到我们了。</speak>
+            <speak chara="mbembaNoFace">I... found it...</speak>
+            <speak chara="mbembaNoFace">No, I should say...</speak>
+            <speak chara="mbembaNoFace">It found us.</speak>
             <hide position="left"/>
             <hide position="right"/>
             <show chara="peduncle" position="center"/>
-            <text>怪物用触腕上橄榄球一般大的眼睛，疑惑地盯着他们乘坐的、会移动的铁块。</text>
-            <text>你很难去描述它的构造……不，也许，是根本无法理解。</text>
-            <text>有些触腕上长着一连串的眼睛、有些触腕上长着一连串的钳子、有些触腕上长着一连串不可名状的口器……</text>
-            <text>这些触腕像藤壶一样固着在一块长方体的花岗岩上——也许是墓碑——它们就这样组成了一个整体，像只蠕虫一般，漫无目的、悄无声息地挪动着。</text>
-            <text>你唯一能确定的是……它，是这里独一无二的主宰。</text>
+            <text>With its rugby ball-like eyes the monster stared puzzled at the moving iron block they were riding on.</text>
+            <text>Its structure is difficult to explain... Or perhaps it's impossible to understand.</text>
+            <text>Its tentacle-like arms had something in them. Some had an eye, a blade, and even a mouth...</text>
+            <text>The tentacles, like barnacles, were attached to a rectangular piece of granite—— Perhaps a tombstone. They move like a worm, aimlessly and silently.</text>
+            <text>The one thing that was clear... is that this creature was the apex predator of this area.</text>
             <hide position="center"/>
             <show chara="mbembaClose-up" position="right"/>
-            <speak chara="mbembaNoFace">我们……应该做什么来着？喷火吗？把、把这些恶心的东西都烧掉吧？</speak>
+            <speak chara="mbembaNoFace">W-What do we do? The flamethrower? Do we try burning it to death?</speak>
             <show chara="mbembaClose-up" position="right" opacity="0.7"/>
             <show chara="yuriSeriousClose-up" position="left"/>
-            <speak chara="yuriNoFace">……别。</speak>
+            <speak chara="yuriNoFace">...Negative.</speak>
             <show chara="yuriSadClose-up" position="left"/>
-            <speak chara="yuriNoFace">……千万别。</speak>
-            <speak chara="yuriNoFace">你……冷静一点。</speak>
-            <speak chara="yuriNoFace">别碰那个红色的面板……把手放到蓝色的那个上面去……</speak>
-            <speak chara="yuriNoFace">对……就在这个蓝色的面板上操作……</speak>
+            <speak chara="yuriNoFace">...Don't you dare.</speak>
+            <speak chara="yuriNoFace">You need to... calm down.</speak>
+            <speak chara="yuriNoFace">Do not touch the red panel... move your hand to the blue panel...</speak>
+            <speak chara="yuriNoFace">That's right... use the blue panel...</speak>
             <show chara="yuriSeriousClose-up" position="left"/>
-            <text>黑眼圈的棕发青年深吸了一口气。</text>
-            <text>虽然那股氨水一样的味道很想让人摈住呼吸。</text>
+            <text>The young man took a deep breath.</text>
+            <text>The smell of ammonia was on the verge of making him tear up.</text>
             <bgm src="11_17_tatakau.mp3" status="start"></bgm>
-            <speak chara="yuriNoFace">这里是“蓝色方面军”！我们已经发现了敌人！现在开始喷洒化学药剂！</speak>
-            <speak chara="yuriNoFace">重复一遍，“蓝色方面军”，已经发现敌人，开始喷洒化学药剂！</speak>
+            <speak chara="yuriNoFace">This is 「Blue Team」! Enemy spotted! Proceeding to inject the chemicals!</speak>
+            <speak chara="yuriNoFace">I repeat. 「Blue Team」 has spotted the enemy, injecting chemicals now!</speak>
             <goto goto="70" change="0"/>
         </scene>
         <scene id="70" background="graveMorning.jpg">
             <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
             <show chara="teslaDisgustedGlassWinterClose-up" position="center"/>
-            <speak chara="teslaNoFace">蕾安娜！</speak>
+            <speak chara="teslaNoFace">Reanna!</speak>
             <show chara="reaSeriousArmedClose-up" position="center"/>
-            <speak chara="reannaNoFace">……</speak>
-            <speak chara="reannaNoFace">…………</speak>
+            <speak chara="reannaNoFace">...</speak>
+            <speak chara="reannaNoFace">.....</speak>
             <show chara="teslaDisgustedGlassWinterClose-up" position="center"/>
-            <speak chara="teslaNoFace">蕾安娜！!</speak>
+            <speak chara="teslaNoFace">Reanna!!</speak>
             <show chara="reaSeriousArmedClose-up" position="center"/>
-            <speak chara="reannaNoFace">………………</speak>
+            <speak chara="reannaNoFace">.......</speak>
             <show chara="reaNormalArmedClose-up" position="center"/>
-            <speak chara="reannaNoFace">定位完毕！请立即做战术机动，敌人由我来消灭！</speak>
+            <speak chara="reannaNoFace">Check your position! Take evasive maneuvers immediately! I will eliminate the enemy!</speak>
             <show chara="yuriSeriousClose-up" position="center"/>
-            <speak chara="yuriNoFace">明白！</speak>
+            <speak chara="yuriNoFace">Roger!</speak>
             <goto goto="80" change="#ffffff"/>
         </scene>
         <scene id="80" background="CG19-0-1.jpg">
             <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
-            <text>最强的女武神。</text>
+            <text>The strongest Valkyrie.</text>
             <goto goto="82" change="0"/>
         </scene>
         <scene id="82" background="CG19-0-2.jpg">
             <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
-            <text>她不仅能在必要的时候，仅靠双腿，每分钟就跑一公里——</text>
+            <text>She can run over 1km in one minute using her legs alone——</text>
             <goto goto="84" change="0"/>
         </scene>
         <scene id="84" background="CG19-0-3.jpg">
             <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
-            <text>她的身体里，还蕴藏着另一种，任何武器都无法比拟的巨大潜能。</text>
+            <text>She posses potential that can't be matched by any weapon.</text>
             <goto goto="90" change="0"/>
         </scene>
         <scene id="90" background="CG19-0-4.jpg">
@@ -346,9 +346,9 @@
         </scene>
         <scene id="95" background="CG19.jpg">
             <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
-            <speak chara="reannaNoFace">我是吞噬一切的黑，我是孕育一切的白；</speak>
-            <speak chara="reannaNoFace">诞生自创世之前，存在于湮灭之后；</speak>
-            <speak chara="reannaNoFace">神之键·黑渊白花，第一额定功率——</speak>
+            <speak chara="reannaNoFace">I am the black that devours everything. I am the white that nurtures everything.</speak>
+            <speak chara="reannaNoFace">I exist before creation. I exist after annihilation.</speak>
+            <speak chara="reannaNoFace">Divine Key 「Abyss Flower」, 2nd level output——</speak>
             <goto goto="100" change="0"/>
         </scene>
         <scene id="100" background="parkWaterTree.jpg">

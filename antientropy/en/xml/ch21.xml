@@ -9,37 +9,37 @@
         <scene id="10" background="dreamSky.jpg">
             <bgm src="03_03_bostonNight.mp3" status="start"></bgm>
             <show chara="ottoShadowClose-up" position="center"/>
-            <speak chara="ottoShadowNoFace">让我讲一个故事吧。</speak>
-            <speak chara="ottoShadowNoFace">有一位希腊人的英雄……哈，其实他来自哪里并不重要。</speak>
-            <speak chara="ottoShadowNoFace">总之，他很伟大，所以人们把他从前冒险时用的船供奉了起来，当作纪念碑一样。</speak>
-            <speak chara="ottoShadowNoFace">但是时间无情，制造那艘船的木材，渐渐都腐朽不堪。</speak>
-            <speak chara="ottoShadowNoFace">为了不让这艘伟大的船最后只能当作祭品被烧掉，当地人想出了一个好方法——</speak>
-            <speak chara="ottoShadowNoFace">每年都检查一遍船上的所有部件：如果有朽烂严重的，就重做新的换掉。</speak>
-            <speak chara="ottoShadowNoFace">于是，一百年后，当一位哲学家前来参观的时候，船上的所有部件，都已经至少换过一次了。</speak>
-            <speak chara="ottoShadowNoFace">哲学家听说了这个情况后很沮丧，他质问当地人：“这还是原本的那艘船吗？”</speak>
-            <speak chara="ottoShadowNoFace">而当地人却满不在乎的回答——</speak>
-            <speak chara="ottoShadowNoFace">“如果您说不是的话，哲学家先生，您觉得它从什么时候开始不是的呢？”</speak>
-            <speak chara="ottoShadowNoFace">“您要知道，即使是在大英雄冒险的途中，船只也是需要时不时更换部件的呀。”</speak>
+            <speak chara="ottoShadowNoFace">Let's talk about the past.</speak>
+            <speak chara="ottoShadowNoFace">There was a certain Greek hero... Well, it doesn't really matter where he came from.</speak>
+            <speak chara="ottoShadowNoFace">Anyway, he was a great man and his ship was turned into a monument of sorts, and was worshiped by people.</speak>
+            <speak chara="ottoShadowNoFace">But time is cruel and the ship's wood slowly decayed.</speak>
+            <speak chara="ottoShadowNoFace">The locals came up with a plan to preserve their precious ship——</speak>
+            <speak chara="ottoShadowNoFace">Every year each part of the ship would be inspected, and if any part was rotten it would be rebuilt.</speak>
+            <speak chara="ottoShadowNoFace">A few hundred years later a philosopher came to see the ship, and by then each part had been replaced at least once.</speak>
+            <speak chara="ottoShadowNoFace">The philosopher was very saddened to hear that and asked the locals 「Is this still the original ship?」.</speak>
+            <speak chara="ottoShadowNoFace">And the locals told him in a thoughtless manner——</speak>
+            <speak chara="ottoShadowNoFace">「Philosopher, if you believe this ship is different, then when did it stop being the original?」</speak>
+            <speak chara="ottoShadowNoFace">「As you must know, even during the great hero's voyage the ship had its parts replaced.」</speak>
             <goto goto="20" change="#ffffff"/>
         </scene>
         <scene id="20" background="benchClinic.jpg">
             <bgm src="morning.mp3" status="start"></bgm>
-            <speak chara="reannaNoNameNoFace">……</speak>
-            <text>梦醒了。</text>
-            <text>不知为何，你坐在一间诊所的长椅上。</text>
-            <text>啊……</text>
-            <text>……想起来了，是那个红发的牛仔带你们来的。</text>
-            <text>因为你救了她的命。</text>
-            <text>……来到这里以后，不知何时，你就坐着睡着了。</text>
-            <text>……真是丢脸。对现在的你来说，“零式”的消耗应该微不足道才对。</text>
-            <text>果然……</text>
-            <text>……是和这些人在一起，精神上太放松了吗？</text>
-            <text remark="next">好在时间并没有流逝多少，潮湿阴冷的空气里，依旧充斥着石炭酸的味道。</text>
+            <speak chara="reannaNoNameNoFace">.....</speak>
+            <text>I woke up from a dream.</text>
+            <text>For some reason I'm sitting on a bench.</text>
+            <text>Ah...</text>
+            <text>...I remember now. That red haired cowgirl brought me here.</text>
+            <text>Because I saved her life.</text>
+            <text>...I fell asleep shortly after arriving here.</text>
+            <text>...How embarrassing. Even though the energy consumption from 「Zero Level」 should be insignificant.</text>
+            <text>I guess...</text>
+            <text>...I am lowering my guard around these people?</text>
+            <text remark="next">Thankfully, it hasn't been that long since I passed out. After taking a short breath, I noticed the smell of carbolic acid in the air.</text>
             <remark post="U2FsdGVkX195uGGwk19hRG2IpYlg">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">石炭酸（Carbolic acid），即苯酚（化学式：PhOH），是最简单的酚类有机物；其稀溶液是现代医学中最早投入使用的消毒药剂。苯酚是一种不安全的消毒剂，它的浓溶液对皮肤具有极强的渗透、腐蚀能力，且毒性较强；在当代，其主要用途在于化工合成，如制造阿司匹林、酚醛树脂等。</p>
             </remark>
-            <text>午前璀耀的日光从走廊尽头窄小的窗户倾泻而下：明暗之间强烈的对比，为这间普通的诊所，平添了一股吊诡的气息。</text>
+            <text>The bright light from the morning Sun entered diagonally from a small window at the end of the hallway. The strong contrast of light and darkness gave this questionable clinic a strange atmosphere.</text>
             <goto goto="30" change="0"/>
         </scene>
         <scene id="30" background="wallClinic.jpg">
@@ -295,97 +295,97 @@
             </remark>
             <show chara="mbembaClose" position="right" opacity="0.7"/>
             <show chara="weltAstonishNewClose" position="left"/>
-            <speak chara="weltNoFace">……这是冲锋枪吧？我们有那么多的弹药吗？</speak>
+            <speak chara="weltNoFace">...That's a submachine, right? Do we have that many bullets?</speak>
             <show chara="weltAstonishNewClose" position="left" opacity="0.7"/>
             <show chara="teslaShameGlassWinterClose" position="right"/>
-            <speak chara="teslaNoFace">这个你就放心好啦！我们开过来的那辆跑车里，可是屯着满满一箱的哦？</speak>
+            <speak chara="teslaNoFace">Damn right we do! There's an entire case in that sports cars we've been riding on.</speak>
             <show chara="teslaShameGlassWinterClose" position="right" opacity="0.7"/>
             <show chara="weltEmbarraNewClose" position="left"/>
-            <speak chara="weltNoFace">满……满满一箱？！</speak>
+            <speak chara="weltNoFace">A-An entire case!?</speak>
             <show chara="weltEmbarraNewClose" position="left" opacity="0.7"/>
             <show chara="teslaErGlassWinterClose" position="right"/>
-            <speak chara="teslaNoFace">……怎么，你不觉得这很符合那家伙的风格吗？大量生产，然后在各种地方都预留一手？</speak>
+            <speak chara="teslaNoFace">What? Isn't it very much like her? Mass produce something and keep it stashed in many different places.</speak>
             <show chara="teslaErGlassWinterClose" position="right" opacity="0.7"/>
             <show chara="weltAstonishNewClose" position="left"/>
-            <speak chara="weltNoFace">那家伙……？</speak>
+            <speak chara="weltNoFace">She...?</speak>
             <show chara="weltAstonishNewClose" position="left" opacity="0.7"/>
             <bgm src="04_20_tank.mp3" status="stop"></bgm>
             <show chara="teslaBoringGlassWinterClose" position="right"/>
-            <speak chara="teslaNoFace">……</speak>
+            <speak chara="teslaNoFace">.....</speak>
             <bgm src="10_25_noise.mp3" status="start"></bgm>
             <show chara="teslaDisgustedGlassWinterClose" position="right"/>
-            <speak chara="teslaNoFace">爱迪生啦！</speak>
+            <speak chara="teslaNoFace">Edison!</speak>
             <show chara="teslaEmbarraGlassWinterClose" position="right"/>
-            <speak chara="teslaNoFace">……</speak>
+            <speak chara="teslaNoFace">.....</speak>
             <show chara="teslaEmbarraGlassWinterClose" position="right" opacity="0.7"/>
             <show chara="weltAstonishNewClose" position="left"/>
-            <speak chara="weltNoFace">呃……你、你在生南希小姐的气吗？</speak>
+            <speak chara="weltNoFace">A-Ah, you meant Nancy. W-Why are you angry?</speak>
             <show chara="weltAstonishNewClose" position="left" opacity="0.7"/>
             <show chara="teslaNormalGlassWinterClose" position="right"/>
-            <speak chara="teslaNoFace">……</speak>
+            <speak chara="teslaNoFace">.....</speak>
             <show chara="teslaSmileGlassWinterClose" position="right"/>
-            <speak chara="teslaNoFace">……你，今天，能不能给我少提几次这个名字，啊？</speak>
+            <speak chara="teslaNoFace">You can't say her name anymore today, got it?</speak>
             <show chara="teslaAngryGlassWinterClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="teslaNoFace">……想起来就超烦！</speak>
+            <speak chara="teslaNoFace">...Just hearing it pisses me off!</speak>
             <show chara="teslaBiteGlassWinterClose" position="right"/>
-            <speak chara="teslaNoFace">比蚊子还烦比跳蚤更烦比绿头苍蝇十万倍的烦！</speak>
+            <speak chara="teslaNoFace">It's more annoying than 100.000 mosquitoes, fleas and flies!</speak>
             <show chara="teslaBiteGlassWinterClose" position="right" opacity="0.7"/>
             <show chara="weltSorryNewClose" position="left"/>
-            <speak chara="weltNoFace">对……对不起。</speak>
+            <speak chara="weltNoFace">S-Sorry.</speak>
             <show chara="weltSorryNewClose" position="left" opacity="0.7"/>
             <show chara="teslaEmbarraGlassWinterClose" position="right"/>
-            <speak chara="teslaNoFace">……</speak>
+            <speak chara="teslaNoFace">.....</speak>
             <show chara="teslaBiteGlassWinterClose" position="right"/>
-            <speak chara="teslaNoFace">啧。笨蛋吗你。</speak>
+            <speak chara="teslaNoFace">Tch. Are you stupid?</speak>
             <show chara="teslaBiteGlassWinterClose" position="right" opacity="0.7"/>
             <show chara="weltAstonishNewClose" position="left"/>
-            <speak chara="weltNoFace">呃……？</speak>
+            <speak chara="weltNoFace">Eh...?</speak>
             <show chara="weltAstonishNewClose" position="left" opacity="0.7"/>
             <show chara="teslaNormalGlassWinterClose" position="right"/>
-            <speak chara="teslaNoFace">这不是你能“对得起”的事情。</speak>
-            <speak chara="teslaNoFace">……</speak>
+            <speak chara="teslaNoFace">You apologizing won't do anything.</speak>
+            <speak chara="teslaNoFace">.....</speak>
             <show chara="teslaAstonishGlassWinterClose" position="right"/>
-            <speak chara="teslaNoFace">要是那些家伙有啥三长两短，你还能给我变回来几个活蹦乱跳的不成？</speak>
+            <speak chara="teslaNoFace">If something were to happen to us, would you apologizing make everything okay again?</speak>
             <show chara="teslaDisgustedGlassWinterClose" position="right"/>
-            <speak chara="teslaNoFace">能吗？</speak>
+            <speak chara="teslaNoFace">Will it?</speak>
             <show chara="teslaAstonishGlassWinterClose" position="right"/>
-            <speak chara="teslaNoFace">你说啊，嗯？！</speak>
+            <speak chara="teslaNoFace">Well? Huh!?</speak>
             <goto goto="90" change="0"/>
         </scene>
         <scene id="90" background="backdoorClinic.jpg">
             <bgm src="10_25_noise.mp3" status="stop"></bgm>
             <sound src="8_24_knock_door.mp3"/>
-            <text>砰。</text>
+            <text>Knock.</text>
             <sound src="8_24_knock_door.mp3"/>
-            <text>砰砰。</text>
+            <text>Knock Knock.</text>
             <sound src="8_24_knock_door.mp3"/>
-            <text>砰砰砰。</text>
+            <text>Knock Knock Knock.</text>
             <goto goto="100" change="0"/>
         </scene>
         <scene id="100" background="livingroomClinic.jpg">
             <bgm src="10_25_noise.mp3" status="stop"></bgm>
             <show chara="elaineNormalClose" position="right"/>
-            <speak chara="elaineNoFace">……有人敲门？</speak>
+            <speak chara="elaineNoFace">...Isn't someone knocking?</speak>
             <show chara="elaineNormalClose" position="right" opacity="0.7"/>
             <show chara="mbembaClose" position="left"/>
-            <speak chara="mbembaNoFace">……我去看看吧。</speak>
+            <speak chara="mbembaNoFace">...I'll go check it out.</speak>
             <goto goto="105" change="#ffffff"/>
         </scene>
         <scene id="105" background="white">
             <bgm src="10_25_noise.mp3" status="stop"></bgm>
             <sound src="hit man.mp3"/>
-            <speak chara="mbembaNoFace">呜哇！</speak>
+            <speak chara="mbembaNoFace">Woah!</speak>
             <goto goto="110" change="0"/>
         </scene>
         <scene id="110" background="CG21.jpg">
             <bgm src="8_24_war.mp3" status="start"></bgm>
-            <speak chara="mbembaNoFace">做……做什么……？</speak>
-            <speak chara="schroCatNoNameNoFace">让开，杂鱼。</speak>
-            <speak chara="schroCatNoNameNoFace">我是来找后面那个小白脸的。</speak>
-            <speak chara="schroCatNoNameNoFace">……没错，说的就是你。</speak>
-            <speak chara="schroCatNoNameNoFace">……站出来，“瓦尔特”。</speak>
-            <speak chara="schroCatNoNameNoFace">……然后，去死吧。</speak>
+            <speak chara="mbembaNoFace">W-What are you doing...?</speak>
+            <speak chara="schroCatNoNameNoFace">Out of my way, weaklings.</speak>
+            <speak chara="schroCatNoNameNoFace">I have business with that harem lead over there.</speak>
+            <speak chara="schroCatNoNameNoFace">Yes, you.</speak>
+            <speak chara="schroCatNoNameNoFace">...Come out, 「Welt」.</speak>
+            <speak chara="schroCatNoNameNoFace">...And die.</speak>
             <end post="U2FsdGVkX18B8yapKZq9zigEFiYZ"/>
         </scene>
     </story>

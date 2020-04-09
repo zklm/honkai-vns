@@ -37,14 +37,14 @@
         </scene>
         <scene id="20" background="bostonCommon.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">……</speak>
-            <speak chara="oldTapeNoFace">如果未来有其他文明的人发现了这些资料的话，我希望能给他们留下一个完整的故事。</speak>
-            <speak chara="oldTapeNoFace">在这个星球上，崩坏，伴随着文明而生。</speak>
-            <speak chara="oldTapeNoFace">人类的文明越是发展，崩坏的力量，也越是强大。</speak>
-            <speak chara="oldTapeNoFace">崩坏每催生出一个律者，人类都需要花费巨大的代价去击败它。</speak>
-            <speak chara="oldTapeNoFace">理之律者，空之律者，雷之律者，风之律者……创生与毁灭，支配与约束……</speak>
-            <speak chara="oldTapeNoFace">在最近的事件发生之前，经过十余场世界大战一般的摧残，我们，有近七成的都市，都已经毁灭了。</speak>
-            <speak chara="oldTapeNoFace">不过……和我要记录的这个事件比起来，之前的一切，都不过是小巫见大巫罢了。</speak>
+            <speak chara="oldTapeNoFace">.....</speak>
+            <speak chara="oldTapeNoFace">If people from a future civilization find this recording, I want you to learn the truth.</speak>
+            <speak chara="oldTapeNoFace">The Houkai of this planet are born from civilization.</speak>
+            <speak chara="oldTapeNoFace">As human civilization develops, so does the power of the Houkai.</speak>
+            <speak chara="oldTapeNoFace">Every time the Houkai gave birth to a Herrscher, humanity defeated by paying a huge price.</speak>
+            <speak chara="oldTapeNoFace">Herrscher of Reason, Herrscher of The Void, Herrscher of Lightning, Herrscher of Wind... Creation and Destruction, Domination and Restraint...</speak>
+            <speak chara="oldTapeNoFace">Each one of these 12 past incidents caused damage comparable to that of a World War. As a result, almost 70% of cities around the world have been destroyed.</speak>
+            <speak chara="oldTapeNoFace">But... everything that happened in the past pales in comparison to what I will talk about.</speak>
             <goto goto="25" change="#ffffff"/>
         </scene>
         <scene id="25" background="bostonCommon.jpg">
@@ -99,122 +99,122 @@
         </scene>
         <scene id="40" background="massachusettsStateHouse.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">在某个军事基地的三十三层，关押着一位特殊的少女。</speak>
-            <speak chara="oldTapeNoFace">她虽然在体内持有剧烈的崩坏能反应，却没有任何特殊的能力。</speak>
-            <speak chara="oldTapeNoFace">当然，她也依然保有着，人类的意识。</speak>
-            <speak chara="oldTapeNoFace">面对着测谎仪，她发自肺腑的真心话，仅仅是……</speak>
-            <speak chara="oldTapeNoFace">“我想回家”。</speak>
+            <speak chara="oldTapeNoFace">A certain girl was held prisoner on the 33rd floor of a military base.</speak>
+            <speak chara="oldTapeNoFace">Although she emitted a strong Houkai energy signal, she didn't posses any special ability.</speak>
+            <speak chara="oldTapeNoFace">Needless to say, she also kept her consciousness as a human.</speak>
+            <speak chara="oldTapeNoFace">Her real intention, which was brought up by a polygraph was just——</speak>
+            <speak chara="oldTapeNoFace">「I want to go home.」</speak>
             <goto goto="45" change="#ffffff"/>
         </scene>
         <scene id="45" background="massachusettsStateHouse.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
             <show chara="teslaEmbarraGlassWinterFar" position="left"/>
-            <speak chara="teslaNoFace" remark="next">……“恐惧是所有不宽容的起因”。我已经能猜到这个少女的悲惨命运了。</speak>
+            <speak chara="teslaNoFace" remark="next">.....「For fear, I repeat it, is at the bottom of all intolerance.」 I can already guess what happened to her.</speak>
             <remark post="U2FsdGVkX18FMez2JjeaxPpFtfL8">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">“我重复一遍，恐惧是所有不宽容的起因”——这是亨德里克·威廉·房龙（Hendrik Willem van Loon）在他的著作《宽容》（Tolerance）中写下的名句。尽管出生在荷兰，但知识界一般认为，他是属于美国的作家。</p>
             </remark>
             <show chara="teslaShameGlassWinterFar" position="left"/>
-            <speak chara="teslaNoFace">但是H.A.的用意又是什么呢？毕竟，这些信息，都是她人为布置好的啊。</speak>
+            <speak chara="teslaNoFace">但是H.A.What could it be H.A.'s goal? For all we know, she could have manufactured all this information.</speak>
             <show chara="teslaShameGlassWinterFar" position="left" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="right"/>
-            <speak chara="einNoFace">……接下来是公园街教堂。在前面的路口右转就是。</speak>
+            <speak chara="einNoFace">...Next one is at Park Street Church. Turn right at the next corner.</speak>
             <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
             <show chara="teslaErGlassWinterFar" position="left"/>
-            <speak chara="teslaNoFace">呃。你不发表任何意见吗？</speak>
+            <speak chara="teslaNoFace">Ho. So you can't come up with anything?</speak>
             <show chara="teslaErGlassWinterFar" position="left" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="right"/>
-            <speak chara="einNoFace">……为什么要着急。</speak>
-            <speak chara="einNoFace">走完“自由之路”的时候，我们自然能够听到完整的录音。</speak>
+            <speak chara="einNoFace">...I won't get ahead of myself.</speak>
+            <speak chara="einNoFace">If we get to the end of the 「Freedom Trail」 we should be able to listen to the full recording.</speak>
             <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
             <show chara="teslaErGlassWinterFar" position="left"/>
-            <speak chara="teslaNoFace">呃。你还真是沉得住气啊。</speak>
+            <speak chara="teslaNoFace">Right. I'm surprised you can remain this calm.</speak>
             <show chara="teslaErGlassWinterFar" position="left" opacity="0.7"/>
             <show chara="einSlyWinterFar" position="right"/>
-            <speak chara="einNoFace">谢谢夸奖。不轻下判断是身为研究者的优点。</speak>
+            <speak chara="einNoFace">I'll take that as a compliment. Not passing judgement lightly is one of my strengths as a researcher.</speak>
             <goto goto="50" change="#ffffff"/>
         </scene>
         <scene id="50" background="ParkStreet.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">后来的某一天，自作主张的杀手冲进了牢房，残忍地杀害了她。</speak>
-            <speak chara="oldTapeNoFace">然而，谁也没有想到，第十二律者的力量，从她死去的瞬间，开始显现了。</speak>
-            <speak chara="oldTapeNoFace">“侵蚀之律者”。</speak>
-            <speak chara="oldTapeNoFace">一种拥有自我意识的传染源、病毒。</speak>
-            <speak chara="oldTapeNoFace">不仅仅是生物性的，也同样是电子性的。</speak>
+            <speak chara="oldTapeNoFace">One day, an assassin broke into her jail cell and mercilessly killed her.</speak>
+            <speak chara="oldTapeNoFace">No one could have predicted that, at the moment of her death, her power as the 12th Herrscher would manifest.</speak>
+            <speak chara="oldTapeNoFace">「Herrscher of Corruption」.</speak>
+            <speak chara="oldTapeNoFace">It was a virus, the source of an infection who had its own ego.</speak>
+            <speak chara="oldTapeNoFace">It didn't only affect living things but machinery as well.</speak>
             <goto goto="60" change="#ffffff"/>
         </scene>
         <scene id="60" background="ParkStreet.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
             <show chara="teslaShameGlassWinterFar" position="left"/>
-            <speak chara="teslaNoFace">唔。竟然还有这种类型的特殊存在啊。</speak>
-            <speak chara="teslaNoFace">不过理论上也不是不可能，毕竟像“黑渊白花”那样“作弊”的武器都是存在的——</speak>
+            <speak chara="teslaNoFace">Hmm. So a unique virus like that exists.</speak>
+            <speak chara="teslaNoFace">I suppose it's not theoretically impossible, considering we know of 「cheating」 weapons like 「Abyss Flower」——</speak>
             <show chara="einNormalWinterFar" position="right"/>
-            <speak chara="einNoFace">接下来是谷仓墓地。转过这个街角应该就是。</speak>
+            <speak chara="einNoFace">Next is Granary Burying Ground. It should be around the corner.</speak>
             <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
             <show chara="teslaErGlassWinterFar" position="left"/>
-            <speak chara="teslaNoFace">呃……</speak>
-            <speak chara="teslaNoFace">算了，就这样吧……</speak>
+            <speak chara="teslaNoFace">Yeah...</speak>
+            <speak chara="teslaNoFace">Well, whatever. Let's go...</speak>
             <goto goto="70" change="#ffffff"/>
         </scene>
         <scene id="70" background="chapelBuryingGround.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">它首先感染了那些杀手，又通过他们体内的生物芯片，侵入了各式各样的电子系统。</speak>
-            <speak chara="oldTapeNoFace">当然，这也包括，军事基地的作战系统。</speak>
-            <speak chara="oldTapeNoFace">理所当然地，基地中所有的导弹，带着少女的怒火，被发射向了我们那些仅存的都市。</speak>
-            <speak chara="oldTapeNoFace">理所当然地，这些城市都被毁灭了……</speak>
-            <speak chara="oldTapeNoFace">人也好，机器也好，在爆炸的高温中，一瞬间，就被汽化了。</speak>
+            <speak chara="oldTapeNoFace">It first infected the assassin, and through its biochip it gained access to various electronic systems.</speak>
+            <speak chara="oldTapeNoFace">Including the military base's system.</speak>
+            <speak chara="oldTapeNoFace">All the missiles on the base, fueled by her anger, were fired at the few remaining cities.</speak>
+            <speak chara="oldTapeNoFace">Needless to say, those cities were destroyed.</speak>
+            <speak chara="oldTapeNoFace">People and machines, both were equally instantly vaporized due to the high temperature of the explosions.</speak>
             <goto goto="80" change="#ffffff"/>
         </scene>
         <scene id="80" background="kingsChapel.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">理所当然地，我们基地对外的通道，也被律者关闭了。</speak>
-            <speak chara="oldTapeNoFace">每分每秒，都有新的系统被控制。</speak>
-            <speak chara="oldTapeNoFace">每分每秒，都有新的同胞被侵蚀。</speak>
-            <speak chara="oldTapeNoFace">他们被无法打开的大门所分隔，在绝望中，眼睁睁地看着自己，化为行尸走肉。</speak>
-            <speak chara="oldTapeNoFace">字面意思的，行尸走肉。</speak>
+            <speak chara="oldTapeNoFace">The base was closed off from the outside by the Herrscher.</speak>
+            <speak chara="oldTapeNoFace">With every minute that went by the Herrscher gained more control.</speak>
+            <speak chara="oldTapeNoFace">With every minute that went by more of my companions were infected.</speak>
+            <speak chara="oldTapeNoFace">They were isolated by a gate that wouldn't open, and in their despair, became living corpses.</speak>
+            <speak chara="oldTapeNoFace">Quite literally living corpses.</speak>
             <goto goto="90" change="#ffffff"/>
         </scene>
         <scene id="90" background="campusMassachusetts.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">我们的基地共计失去控制，一小时，零八分，二十秒。</speak>
-            <speak chara="oldTapeNoFace">人类历史上，最漫长的，一小时，零八分，二十秒。</speak>
-            <speak chara="oldTapeNoFace">我们这些还来得及思考对策的幸运儿，毁掉了自己体内的生物芯片，牺牲了几乎所有的电子终端……</speak>
-            <speak chara="oldTapeNoFace">最终，利用某位博士搭设的陷阱，将这个恐怖的律者封印在了“盒子”里。</speak>
-            <speak chara="oldTapeNoFace">代价是……文明的断绝。</speak>
+            <speak chara="oldTapeNoFace">We lost control for 1 hour, 8 minutes and 20 seconds.</speak>
+            <speak chara="oldTapeNoFace">They were the longest 1 hour, 8 minutes and 20 seconds in human history.</speak>
+            <speak chara="oldTapeNoFace">But we were fortunate to have enough time to think of a countermeasure. We destroyed the biochips inside our bodies and destroyed most of our electronic devices...</speak>
+            <speak chara="oldTapeNoFace">Then a certain Professor managed to set up a trap to seal this terrifying Herrscher inside a 「box」.</speak>
+            <speak chara="oldTapeNoFace">The price we paid was... the decline of humanity.</speak>
             <goto goto="100" change="#ffffff"/>
         </scene>
         <scene id="100" background="oldCornerBookstore.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">从知识的角度上来说，我们的衰退尚不严重。</speak>
-            <speak chara="oldTapeNoFace">幸存者里还有很多学识渊博的人，他们绝不会放弃战斗。</speak>
-            <speak chara="oldTapeNoFace">从技术的角度上来说，那些因为空无一人而躲过灾难的基地、避难所，或许还能重新运转起来。</speak>
-            <speak chara="oldTapeNoFace">运气好的话，我们还能找到新的战斗力，再次壮大自己。</speak>
-            <speak chara="oldTapeNoFace">但是，从文明的角度上说……人类的文明，已经不复存在了。</speak>
-            <speak chara="oldTapeNoFace">那些上百年积累下来工业生产线、上千年传承下来的艺术瑰宝、上亿人分工合作构筑的城市社会……</speak>
-            <speak chara="oldTapeNoFace">……所有这些，都不存在了。</speak>
-            <speak chara="oldTapeNoFace">我们，其实已经输了。</speak>
+            <speak chara="oldTapeNoFace">From a knowledge perspective, you could say it wasn't a painful loss.</speak>
+            <speak chara="oldTapeNoFace">Thankfully there were many scholars among the survivors. They never gave up and continued fighting.</speak>
+            <speak chara="oldTapeNoFace">From a technical perspective, we had many bases and shelters left intact due to the lack of people, so it was possible to reuse them.</speak>
+            <speak chara="oldTapeNoFace">If luck is on our side, we'll be able to regain our military strength and come back stronger.</speak>
+            <speak chara="oldTapeNoFace">But from a civilization perspective... human civilization is done for.</speak>
+            <speak chara="oldTapeNoFace">Factories that existed for over 100 years, pieces of art that have been passed down through generations for more than 1000 years, urban societies housing over 100 million people...</speak>
+            <speak chara="oldTapeNoFace">...They're all gone.</speak>
+            <speak chara="oldTapeNoFace">We lost, plain and simple.</speak>
             <goto goto="110" change="#ffffff"/>
         </scene>
         <scene id="110" background="oldSouthMeetinghouse.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">以上，就是我们之所以放弃这个千疮百孔的基地，开始逃亡的原因。</speak>
-            <speak chara="oldTapeNoFace">北美洲、南美洲、远离大陆的海岛……</speak>
-            <speak chara="oldTapeNoFace">在博士的带领下，大家勉强拼凑了几支“舰队”，带着仅剩的物资，向着那些躲过了袭击的避难所出发。</speak>
-            <speak chara="oldTapeNoFace">她鼓励大家说，“我们的家乡，从来都不是一个地理概念。”</speak>
-            <speak chara="oldTapeNoFace">“家乡可以是任何地方——事实上它是因为人而存在的，是因为同胞而存在的。”</speak>
-            <speak chara="oldTapeNoFace">“同胞在哪里，哪里就是家乡。”</speak>
-            <speak chara="oldTapeNoFace">……也许博士是对的。</speak>
-            <speak chara="oldTapeNoFace">但这些“荒岛”，确实是我们仅剩的“应许之地”了。</speak>
+            <speak chara="oldTapeNoFace">Which is why we plan to abandon this base and spread out.</speak>
+            <speak chara="oldTapeNoFace">North America, South America, islands far away from any continent.</speak>
+            <speak chara="oldTapeNoFace">Under the leadership of a certain Professor, we are amassing what little power we have left. Several 「fleets」 were formed and using our few remaining supplies, we are going to leave this base and head to another shelter.</speak>
+            <speak chara="oldTapeNoFace">The Professor kept telling us 「Our home isn't a particular geographical location」.</speak>
+            <speak chara="oldTapeNoFace">「Home can be anywhere—— Because our people and comrades will be there」.</speak>
+            <speak chara="oldTapeNoFace">「My home is wherever my comrades are」.</speak>
+            <speak chara="oldTapeNoFace">...Perhaps what she said was true.</speak>
+            <speak chara="oldTapeNoFace">Because that 「devastated island」 became a 「promised land」 for us.</speak>
             <goto goto="120" change="#ffffff"/>
         </scene>
         <scene id="120" background="oldStateHouse.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">今天是我们出发的日子。</speak>
-            <speak chara="oldTapeNoFace">基地中的死难人数是15626人——广播中，正播放着他们的名单。</speak>
-            <speak chara="oldTapeNoFace">有本来就认识的人。</speak>
-            <speak chara="oldTapeNoFace">也有安葬时才初次了解的人。</speak>
-            <speak chara="oldTapeNoFace">无论如何，只要我知道你们的故事……我就会把你们记录在这里。</speak>
-            <speak chara="oldTapeNoFace">作为，你们，最后的遗产。</speak>
+            <speak chara="oldTapeNoFace">Today is the day we depart.</speak>
+            <speak chara="oldTapeNoFace">We had a total of 15.626 casualties at the base—— All of their names were read aloud before we left.</speak>
+            <speak chara="oldTapeNoFace">There were some I knew.</speak>
+            <speak chara="oldTapeNoFace">There were some I only learned of at the time of their burial.</speak>
+            <speak chara="oldTapeNoFace">I want to record their story here as best as I can.</speak>
+            <speak chara="oldTapeNoFace">For that will be the only thing left behind of them.</speak>
             <goto goto="130" change="#ffffff"/>
         </scene>
         <scene id="130" background="bostonMassacreSite.jpg">
@@ -241,77 +241,77 @@
         </scene>
         <scene id="140" background="bostonMassacreSite.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">No.289 巴卡布·苏利文</speak>
-            <speak chara="oldTapeNoFace">No.290 胡纳布·库·苏利文</speak>
-            <speak chara="oldTapeNoFace">No.291 卡玛索茨·苏利文</speak>
-            <speak chara="oldTapeNoFace">No.292 伊扎姆纳·苏利文</speak>
-            <speak chara="oldTapeNoFace">No.293 诗琪柯·苏利文</speak>
-            <speak chara="oldTapeNoFace">苏利文五兄妹都是战士。</speak>
-            <speak chara="oldTapeNoFace">胡纳布、卡玛索茨、伊扎姆纳三兄弟，是作战中不慎被侵蚀的。</speak>
-            <speak chara="oldTapeNoFace">巴卡布当时也在现场，他死于弟弟们的攻击。</speak>
-            <speak chara="oldTapeNoFace">妹妹诗琪柯幸存到了战斗结束……但是在三天后，因为药品短缺，她不幸死于伤口感染。</speak>
-            <speak chara="oldTapeNoFace">五兄妹在生前并不认识我……</speak>
-            <speak chara="oldTapeNoFace">我只是那个负责安葬他们遗体的人。</speak>
-            <speak chara="oldTapeNoFace">妹妹的身体上有很多抓伤……据说在弥留之际，出现过精神错乱的症状。</speak>
+            <speak chara="oldTapeNoFace">No.289 Bacab Sullivan</speak>
+            <speak chara="oldTapeNoFace">No.290 Huunab Sullivan</speak>
+            <speak chara="oldTapeNoFace">No.291 Kamassozzi Sullivan</speak>
+            <speak chara="oldTapeNoFace">No.292 Izamna Sullivan</speak>
+            <speak chara="oldTapeNoFace">No.293 Shichiku Sullivan</speak>
+            <speak chara="oldTapeNoFace">The Sullivan siblings were warriors.</speak>
+            <speak chara="oldTapeNoFace">Huunab, Kamassozzi and Izamna were infected in battle.</speak>
+            <speak chara="oldTapeNoFace">Bacab was also there. He was killed by his own brothers.</speak>
+            <speak chara="oldTapeNoFace">Their little sister, Shichiku, survived until the end of the battle... but 3 days later she ran out of medicine and, unfortunately, died from her wounds.</speak>
+            <speak chara="oldTapeNoFace">Those five siblings didn't know me...</speak>
+            <speak chara="oldTapeNoFace">All I did was to bury their bodies.</speak>
+            <speak chara="oldTapeNoFace">There were countless scratches on Shichiku's body... It seems she lost her mind before she died.</speak>
             <goto goto="150" change="#ffffff"/>
         </scene>
         <scene id="150" background="faneuilHall.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">No.3426 哈斯塔·柯尔特</speak>
-            <speak chara="oldTapeNoFace">哈斯塔是一个极富感染力的演说家，经常去各军事基地开展慰问工作。</speak>
-            <speak chara="oldTapeNoFace">当我看到他时，这具尸体正四肢扭曲地躺在地上，眼睛空洞地瞪着摇曳的吊灯。</speak>
-            <speak chara="oldTapeNoFace">现场的迹象表明，在被律者侵蚀后，他并没有停下演讲，反而越来越兴奋。</speak>
-            <speak chara="oldTapeNoFace">似乎他的演讲也具有了侵蚀的能力，他和听众无法克制地陶醉于某种氛围里，手舞足蹈直至力竭而死。</speak>
-            <speak chara="oldTapeNoFace">我在其他地方听过哈斯塔的演讲。不幸中的万幸是，我不是他的粉丝。</speak>
+            <speak chara="oldTapeNoFace">No.3426 Hastur Colt</speak>
+            <speak chara="oldTapeNoFace">Hastur was a capable orator. He often visited military bases around the country.</speak>
+            <speak chara="oldTapeNoFace">When I found him, his corpse was lying on the ground, his arms were bent, staring at a swaying lamp with empty eyes.</speak>
+            <speak chara="oldTapeNoFace">Going by the scene, he probably didn't stop preaching after being attacked by the Herrscher. On the contrary, he must have turned it up to eleven.</speak>
+            <speak chara="oldTapeNoFace">As if his own speech had the power to corrupt as well, he and his audience gave in to the euphoria and died from exhaustion.</speak>
+            <speak chara="oldTapeNoFace">I've heard Hastur's speeches before. Thankfully I wasn't a fan of him.</speak>
             <goto goto="160" change="#ffffff"/>
         </scene>
         <scene id="160" background="paulRevereHouse.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">No.5390 安布罗基诺·莫罗</speak>
-            <speak chara="oldTapeNoFace">安布罗基诺是被枪杀的。</speak>
-            <speak chara="oldTapeNoFace">他并没有被律者侵蚀；枪杀他的人也没有失去理智的迹象，甚至还细心地抹除了指纹证据。</speak>
-            <speak chara="oldTapeNoFace">所以，我们只能推测，这是一起酝酿已久的谋杀，对方利用了律者出现时的混乱，成功地完成了犯罪。</speak>
-            <speak chara="oldTapeNoFace">安布罗基诺本人是个脾气古怪又吝啬的小老头；我和他打过几次交道，说实话，他很讨人厌。</speak>
-            <speak chara="oldTapeNoFace">这家伙没有家人，是因为家乡被毁灭，而被接进基地临时安置的。</speak>
-            <speak chara="oldTapeNoFace">从这个角度来看，我又想不出，会有什么样的人，处心积虑要杀他。</speak>
+            <speak chara="oldTapeNoFace">No.5390 Ambrokino Moreau</speak>
+            <speak chara="oldTapeNoFace">Ambrokino was shot dead.</speak>
+            <speak chara="oldTapeNoFace">He wasn't attacked by the Herrscher. The man who shot him didn't lose his reason either. On the contrary, he was completely sane. His fingerprints on the murder weapon had been carefully wiped off.</speak>
+            <speak chara="oldTapeNoFace">This was a planned homicide. The assassin took advantage of the chaos to commit his crime.</speak>
+            <speak chara="oldTapeNoFace">Ambrokino was a perverse, stingy old man. I've exchanged greetings with him a few times, but honestly he was an antipathetic person.</speak>
+            <speak chara="oldTapeNoFace">He had no family left and lost his hometown so he was relocated temporarily to the base.</speak>
+            <speak chara="oldTapeNoFace">I wonder what kind of person wanted to kill him.</speak>
             <goto goto="170" change="#ffffff"/>
         </scene>
         <scene id="170" background="oldNorthChurch.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">No.8421 温迪戈·卡利伊</speak>
-            <speak chara="oldTapeNoFace">No.8422 罗薇娜·莱洛伊尔</speak>
-            <speak chara="oldTapeNoFace">No.8594 乔克沙·马提尼斯</speak>
-            <speak chara="oldTapeNoFace">No.8595 库克·李</speak>
-            <speak chara="oldTapeNoFace">温迪戈是牧师。他是祷告室内唯一未被律者侵蚀的……却也是第一个死掉的。</speak>
-            <speak chara="oldTapeNoFace">根据我们掌握的情况，在信徒们被律者侵蚀、出现精神错乱并将温迪戈团团围住时……</speak>
-            <speak chara="oldTapeNoFace">他没有逃跑，或许是还在为他们祷告——直至信徒们将他撕碎，并分了他的肉。</speak>
-            <speak chara="oldTapeNoFace">我听说过温迪戈的名字，他是一个虔诚的人，不知道他临死前，他的“神”和他说了什么。</speak>
-            <speak chara="oldTapeNoFace">编号8422到编号8595都是这个收容站里的平民信徒，他们在分食了温迪戈后，也自相残杀而死。</speak>
-            <speak chara="oldTapeNoFace">罗薇娜是一位金发小女孩。</speak>
-            <speak chara="oldTapeNoFace">乔克沙是一位耄耋之年的老人。</speak>
-            <speak chara="oldTapeNoFace">库克是个本分的生意人。</speak>
-            <speak chara="oldTapeNoFace">在“侵蚀之律者”面前，他们没有任何差别……</speak>
+            <speak chara="oldTapeNoFace">No.8421 Wendigo Karie.</speak>
+            <speak chara="oldTapeNoFace">No.8422 Rowena Lauroyl.</speak>
+            <speak chara="oldTapeNoFace">No.8594 Yorkshire Martinez.</speak>
+            <speak chara="oldTapeNoFace">No.8595 Cook Lee.</speak>
+            <speak chara="oldTapeNoFace">Wendigo was a pastor. He was in a prayer room that wasn't directly attacked by the Herrscher... but he ended up dying first.</speak>
+            <speak chara="oldTapeNoFace">According to our intel, many believers were infected by the Herrscher, fell into confusion and surrounded Wendigo. </speak>
+            <speak chara="oldTapeNoFace">Instead of running away he stood where he was and started praying for them. The believers teared him apart, and consumed his flesh.</speak>
+            <speak chara="oldTapeNoFace">I've heard of him before. He was a very religious person. I can't even imagine what he prayed to his 「God」 moments before his death.</speak>
+            <speak chara="oldTapeNoFace">No.8422 to No.8592 were all civilians. After they were done eating Wendigo, they began to kill each other.</speak>
+            <speak chara="oldTapeNoFace">Rowena was a blonde woman.</speak>
+            <speak chara="oldTapeNoFace">Yorkshire was a very old man.</speak>
+            <speak chara="oldTapeNoFace">Cook ran a business.</speak>
+            <speak chara="oldTapeNoFace">Before the 「Herrscher of Corruption」 appeared, they were all equal...</speak>
             <goto goto="180" change="#ffffff"/>
         </scene>
         <scene id="180" background="coppsHillBuryingGround.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">No.12687 爱德华兹·曼纳海姆</speak>
-            <speak chara="oldTapeNoFace">No.12688 雪莉·曼纳海姆</speak>
-            <speak chara="oldTapeNoFace">爱德华兹是旧贵族——曼纳海姆家族的最后成员，而雪莉则是他的新婚妻子。</speak>
-            <speak chara="oldTapeNoFace">雪莉之所以会来到我们的基地，就是为了和爱德华兹举行婚礼。</speak>
-            <speak chara="oldTapeNoFace">战斗爆发时，爱德华兹身穿着白色礼服，雪莉撕掉了婚纱的裙摆，他们一起拿起了武器。</speak>
-            <speak chara="oldTapeNoFace">两人最终的死因都是失血过多和伤口感染。</speak>
-            <speak chara="oldTapeNoFace">我保持了雪莉临终时怀抱爱德华兹尸体的姿势，就这样将他们下葬了。</speak>
-            <speak chara="oldTapeNoFace">很遗憾，没有条件给他们制作曼纳海姆家族特有的七边形墓碑。</speak>
+            <speak chara="oldTapeNoFace">No.12687 Edwards Mannerheim</speak>
+            <speak chara="oldTapeNoFace">No.12688 Shelly Mannerheim</speak>
+            <speak chara="oldTapeNoFace">Edwards was a noble. He was the last man of the Mannerheim family, and Shelly was his wife.</speak>
+            <speak chara="oldTapeNoFace">Shelly came to our base to marry Edwards.</speak>
+            <speak chara="oldTapeNoFace">Edwards was wearing a white tuxedo and Shelly a wedding dress before the battle began. Shelly had to cut up the skirt of her dress, and together they took up arms.</speak>
+            <speak chara="oldTapeNoFace">Their cause of death was blood loss and infection from their wounds.</speak>
+            <speak chara="oldTapeNoFace">Shelly was hugging Edwards' body when she died. I decided to keep them in that position when it was time to bury them.</speak>
+            <speak chara="oldTapeNoFace">Unfortunately, we weren't able to make the typical tombstone of the Mannerheim family for them.</speak>
             <goto goto="190" change="#ffffff"/>
         </scene>
         <scene id="190" background="bunkerHill.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <speak chara="oldTapeNoFace">No.14936 帕特莉夏·辛格</speak>
-            <speak chara="oldTapeNoFace">帕特莉夏和我有过一面之缘，她是基地当时的值班医生之一。</speak>
-            <speak chara="oldTapeNoFace">在那漫长的一个多小时里，她不顾自己身受的数处枪伤，坚持在第一线救死扶伤。</speak>
-            <speak chara="oldTapeNoFace">就在我们夺回基地的控制权后不久……我亲眼看着她，倒在控制台前红色地砖的尽头。</speak>
-            <speak chara="oldTapeNoFace">她身下的鲜血像是成为了红砖的延续……而我们，必须踩着鲜血继续前进。</speak>
+            <speak chara="oldTapeNoFace">No.14936 Patrecia Singer</speak>
+            <speak chara="oldTapeNoFace">I knew Patrecia personally. She was one of the few military doctors stationed at the base.</speak>
+            <speak chara="oldTapeNoFace">During that endless hour, she was willing to put herself in danger and stood on the frontlines treating everyone's wounds.</speak>
+            <speak chara="oldTapeNoFace">As soon as we regained control of the base... I saw her body with my own eyes. She collapsed in front of the Control Center.</speak>
+            <speak chara="oldTapeNoFace">The blood coming from her body was mixing with the red bricked floor... but we had to keep moving forward.</speak>
             <goto goto="200" change="#ffffff"/>
         </scene>
         <scene id="200" background="bunkerHill.jpg">
@@ -340,29 +340,29 @@
         </scene>
         <scene id="210" background="ussConstitution.jpg">
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
-            <text>正如爱因斯坦推测的那样，留在“宪法号”附近的录音，是“H.A.”本人的记录。</text>
-            <speak chara="haNoFace">我是H.A.……可能，你们已经很熟悉我的声音了。</speak>
-            <speak chara="haNoFace">我曾经也是“天命”这个组织的一名“女武神”。</speak>
-            <speak chara="haNoFace">当我在黄石遗迹找到这份五万年前流传下来的资料时，我无法抑制自己的好奇心。</speak>
-            <speak chara="haNoFace">我用就地找到的装置播放了全部的内容……你们应该庆幸，我只给你们留下了6组牺牲者的故事。</speak>
-            <speak chara="haNoFace">我发誓，将数百个死亡案例一一听个遍，绝对不是什么好主意。</speak>
-            <speak chara="haNoFace">对过去的语言不够精通的我，为了稳妥起见，私下里拜托了一位学者，来翻译整理这些资料。</speak>
-            <speak chara="haNoFace">然而……这个人，却突然被天命的走狗诬告，进了牢房。</speak>
-            <speak chara="haNoFace">这是1829年的事……学者，名叫“尼尔斯·亨利克·阿贝尔”。</speak>
-            <speak chara="haNoFace">如果你们有条件的话，可以验证一下此事的真伪。</speak>
-            <speak chara="haNoFace">后来，我自己也同样被人诬告；只是因为前来抓捕我的女武神睁一只眼闭一只眼，才没有遭受同样的命运。</speak>
-            <speak chara="haNoFace">我从魂钢中摘出了最关键的十几条信息，而把剩下的条目都留给了“天命”。</speak>
-            <speak chara="haNoFace">……或许我从很久以前开始，就已经不信任他们了吧。</speak>
-            <speak chara="haNoFace">他们对待敌人，永远都只有一种偏执的态度，“务求消灭”。</speak>
-            <speak chara="haNoFace">偏执到，让人不由得怀疑，是不是有人，在借此掩盖，自己肮脏的企图。</speak>
-            <speak chara="haNoFace">偏执到，没被我带走的魂钢被主教销毁，研究它的学者，在饥寒交迫中被肉体消灭。</speak>
-            <speak chara="haNoFace">无论是“天命”，还是它的主教，都不可能真正战胜崩坏。</speak>
-            <speak chara="haNoFace">即使他们有朝一日能够达到甚至超过前一个世代的技术水平……</speak>
-            <speak chara="haNoFace">……至少，面对能力不可逆料的“律者”，按照他们一贯做法，只能是束手无策。</speak>
-            <speak chara="haNoFace">让世界的命运维系在这种组织的身上，绝对，不是什么正确的事情。</speak>
-            <speak chara="haNoFace">在列克星敦，我给你们留下了足以对抗那位主教的武器。</speak>
-            <speak chara="haNoFace">善加利用吧……但是切记，“最好的威胁是不采取行动”。</speak>
-            <speak chara="haNoFace">因为，一旦采取行动却没收到效果——人们就再也不怕威胁了。</speak>
+            <text>The last stop is the ship USS Constitution. Here H.A. left her personal thoughts.</text>
+            <speak chara="haNoFace">I am H.A.... I am sure you have heard my voice before.</speak>
+            <speak chara="haNoFace">I used to be a 「Valkyrie」 of the organization known as 「Destiny」.</speak>
+            <speak chara="haNoFace">When I found this peculiar material in Yellowstone that survived 50.000 years, I could not control my curiosity.</speak>
+            <speak chara="haNoFace">I listened to all the recordings using the equipment I found here... You are blessed. I left you only 6 out of those heartbreaking stories.</speak>
+            <speak chara="haNoFace">I swear to you, listening to hundreds of those stories of death is not a good idea.</speak>
+            <speak chara="haNoFace">Since I was unfamiliar with the old language, I asked a certain scholar to secretly translate them for me.</speak>
+            <speak chara="haNoFace">But... out of nowhere, he was accused of false charges and imprisoned by Destiny.</speak>
+            <speak chara="haNoFace">This happened in 1829. His name is 「Niels Henrik Abel」.</speak>
+            <speak chara="haNoFace">If possible, please investigate the truth of that incident.</speak>
+            <speak chara="haNoFace">Soon afterwards I was falsely accused as well. In my case, the Valkyrie who came to arrest me decided to look the other way, so I did not meet the same end as him.</speak>
+            <speak chara="haNoFace">I kept to myself the most important pieces of information from my Soulium Sphere, and handed over the rest to Destiny.</speak>
+            <speak chara="haNoFace">...Perhaps I stopped trusting them long before that.</speak>
+            <speak chara="haNoFace">They continued to take the same approach towards the enemy. Any enemy must be 「thoroughly exterminated」.</speak>
+            <speak chara="haNoFace">That determination to eliminate any opposition made me question if it was not being used as an excuse to cover up their own dirty deeds.</speak>
+            <speak chara="haNoFace">The Soulium Sphere I could not keep with me was destroyed by the Bishop, and the scholars who tried to study it where dealt with by depriving them of food and warm.</speak>
+            <speak chara="haNoFace">Neither 「Destiny」 nor its Bishop can exterminate the Houkai in the real sense of the word.</speak>
+            <speak chara="haNoFace">Even if they could catch up or even surpass the technological level of the previous civilization...</speak>
+            <speak chara="haNoFace">...Specially when taking into account the 「Herrscher」 and their mysterious abilities,、if they do not change their methods the future of humanity will remain bleak.</speak>
+            <speak chara="haNoFace">Entrusting the fate of the world to an organization such as Destiny is a complete mistake.</speak>
+            <speak chara="haNoFace">I have left behind a weapon in Lexington that can pose a threat to that Bishop.</speak>
+            <speak chara="haNoFace">Use it wisely... but keep in mind that 「no action is the best threat」.</speak>
+            <speak chara="haNoFace">Because if you take action and your plan does not work, nobody will be afraid of you anymore.</speak>
             <goto goto="220" change="#ffffff"/>
         </scene>
         <scene id="220" background="ussConstitution.jpg">
@@ -458,9 +458,9 @@
         </scene>
         <scene id="250" background="CG17-1.jpg">
             <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
-            <text>实在是太显而易见了——</text>
-            <text>就像月亮一样。</text>
-            <text>伴随着“超次元迷彩”的解除，一个黄白色的光球凭空出现，徐徐降落在了众人的面前。</text>
+            <text>It stood out greatly——</text>
+            <text>It was as bright as the Moon.</text>
+            <text>After deactivating the 「Hyperdimensional Camouflage」, a golden sphere of light appeared in the air, and slowly descended in front of Welt.</text>
             <speak chara="teslaNoFace">艾妲！那个是什么？！</speak>
             <speak chara="adaNoFace">1625型浮空储藏室。具备超次元迷彩，可以悬浮在固定地点的上空，长久不被发现。</speak>
             <speak chara="einNoFace">打开它，艾妲。</speak>
@@ -469,15 +469,15 @@
         </scene>
         <scene id="260" background="CG17-2.jpg">
             <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
-            <text>黄白色的光球，以类似树叶飘落的速度，缓缓展开了自己的球壳。</text>
-            <text>约有一人高的这个大家伙，如同盛开的莲花一般，四散打开，露出了内部的透明置物柜。</text>
-            <speak chara="weltNoFace">这是……</speak>
-            <text>透明置物柜的内部，静静地悬浮着一颗直径大约十厘米的蓝色球体。</text>
-            <speak chara="adaNoFace">ⴳⴽⵓ ⵐ ⵋⵓ（Balu zha Shu）！</speak>
-            <speak chara="weltNoFace">嗯？！</speak>
-            <speak chara="teslaNoFace">艾妲，你在说什么？</speak>
-            <speak chara="adaNoFace">神之键！特斯拉博士，是神之键！</speak>
-            <speak chara="adaNoFace">目标物体的识别码，是“神之键·第九号·伊甸之星”！</speak>
+            <text>The golden sphere opened slowly.</text>
+            <text>It was about the size of a single person, and opened outwards as if it were a lotus flower. The transparent case inside was gradually exposed.</text>
+            <speak chara="weltNoFace">This is...</speak>
+            <text>In a transparent case, a blue sphere of about 10 centimeters in diameter floated quietly.</text>
+            <speak chara="adaNoFace">ⴳⴽⵓ ⵐ ⵋⵓ (Baru Za Su)!</speak>
+            <speak chara="weltNoFace">Eh!?</speak>
+            <speak chara="teslaNoFace">Ada, what does that mean?</speak>
+            <speak chara="adaNoFace">It is a Divine Key, Professor Tesla.</speak>
+            <speak chara="adaNoFace">Identification code of target object: 「9th Divine Key - Eden's Star」!</speak>
             <end post="U2FsdGVkX18OCUSLhPy1oDwFhkQc"/>
         </scene>
     </story>

@@ -28,101 +28,101 @@
         </scene>
         <scene id="20" background="westCliffBeach.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text remark="next">“我们认为下面这些真理是不言而喻的：造物者创造了平等的个人，并赋予他们若干不可剥夺的权利——其中包括生命权、自由权和追求幸福的权利。”</text>
+            <text remark="next">「We hold these truths to be self-evident, that all men are created equal, that they are endowed by their Creator with certain unalienable Rights, that among these are Life, Liberty and the pursuit of Happiness.」 - United States Declaration of Independence.</text>
             <remark post="U2FsdGVkX1+V00C1bWCZ1mItXrxvd2HnHUK+zfphgA4=">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">此句出自《美国独立宣言》。</p>
             </remark>
-            <text remark="next">“每个人的自由发展是一切人的自由发展的条件。”</text>
+            <text remark="next">「In place of the old bourgeois society, with its classes and class antagonisms, we shall have an association, in which the free development of each is the condition for the free development of all.」 - Communist Party Declaration.</text>
             <remark post="U2FsdGVkX19DUpbEWgHXgh+oWXOF9WuI5jO6G9PaEd0=">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">此句出自《共产党宣言》。</p>
                 <p class="article-text">全句为：“代替那存在着阶级和阶级对立的资产阶级旧社会的，将是这样一个联合体，在那里，每个人的自由发展是一切人的自由发展的条件。”</p>
             </remark>
-            <text>然而，天命这样的军事组织，很容易就会倾向于践踏生命权以外的一切。</text>
+            <text>Military organizations such as Destiny tend to easily trample over anything besides the right to live.</text>
             <text>在生死攸关的时刻，这也的确是无可奈何的事情。</text>
-            <text>但是，对一种权利的片面强调，往往也会殃及这种权利自身。</text>
-            <text>如果一个军事组织，它根本性的“法理”因为这种反噬而遭到颠覆——</text>
-            <text>——那么它就会逐渐化为，与从前它消灭的敌人，同样可鄙的存在。</text>
-            <text>无论它的领袖，是文治武功的乔治三世、拿破仑一世；还是昏聩无能的查理一世、路易十六。</text>
+            <text>But also unilaterally enforcing such rights will make them lose their value.</text>
+            <text>When it comes to military organizations, if one were to turn upside down the 「rules」 at its core——</text>
+            <text>——They will gradually turn evil, in a similar way to the enemies they once destroyed.</text>
+            <text>Even if its leader excels in both civil and military areas, like George III or Napoleon I, or is a complete incompetent like Charles I or Louis XVI.</text>
             <goto goto="30" change="0"/>
         </scene>
         <scene id="30" background="westCliff.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>那个人，“H.A.”，在影像中传达着她的见解。</text>
-            <text>她说，天命组织的理想，从根本上就有问题。</text>
-            <text>如果这个“天命”，真的也和历史上的诸多帝国一样——</text>
-            <text>最终，被证明是一个，由少数人的欲望凝结而成的怪胎……</text>
-            <text>作为一个有良知的人，自己就必须站到它的对立面去。</text>
-            <text>但是……</text>
-            <text>那个对立面，似乎是更加赤裸裸的、由复仇之火驱动着的引擎。</text>
-            <text>南希公主……</text>
-            <text>不。</text>
-            <text>哈姆雷特。</text>
-            <text>第一次见到GE机电联合体的董事长时，她就给自己留下了这样印象。</text>
-            <text>南希·托马斯·爱迪生，一个活脱脱的、现实版的哈姆雷特。</text>
-            <text>她不是没有七情六欲。</text>
-            <text>她不是没有人之常情。</text>
-            <text>只不过，一旦涉及到具体的事物，她便强行把它们遗忘，只剩下利害取舍——</text>
-            <text>——为自己的家人，乃至为了整个人类，亲手向崩坏复仇。</text>
-            <text>为此，她会不惜排除掉任何“障碍物”。</text>
-            <text>不达目的，誓不罢休。</text>
-            <text>自己本身、自己的公司、自己的国家、天命这个组织……对她来说，都不过是实现目标的筹码而已。</text>
+            <text>That person, 「H.A」, conveyed her views through her videos.</text>
+            <text>She believed Destiny's philosophy is fundamentally problematic.</text>
+            <text>If 「Destiny」 goes down the same path as many other empires in history——</text>
+            <text>一If it turns to be an organization formed to fulfill the ambitions of a few...</text>
+            <text>Then any person with common sense must stand on the opposite side against it.</text>
+            <text>However...</text>
+            <text>The other side is like an engine fueled by the flames of revenge, not even trying to hide their intentions.</text>
+            <text>Princess Nancy...</text>
+            <text>No.</text>
+            <text>Hamlet.</text>
+            <text>When I first met the CEO of General Mechatronics 「GME」, she left that kind of impression on me.</text>
+            <text>Nancy Thomas Edison. A real life version of Hamlet.</text>
+            <text>It's not like she's lacking feelings or desires.</text>
+            <text>It's not like she's lacking humanity.</text>
+            <text>But when it comes to very specific matters, she puts her emotions aside and makes choices based on her own interests.</text>
+            <text>That being revenge against the Houkai with her own hands, for her own family or maybe for all of humanity.</text>
+            <text>And to do so, she won't hesitate to eliminate any 「obstacles」 that get in her way.</text>
+            <text>She won't rest until her goal is achieved.</text>
+            <text>Herself, her company, her country, Destiny Organization... They're all pawns she's willing to use to fulfill her goals.</text>
             <goto goto="40" change="0"/>
         </scene>
         <scene id="40" background="westCliffWomenRoom.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>太别扭了。</text>
-            <text>这样的人生一点儿也不快乐。</text>
-            <text>为了实现目的，她把自己异化成了实现愿望的工具。</text>
-            <text>……更不用说周围的人了。</text>
-            <text>特斯拉虽然也是个意气用事的家伙……但方向，就和她完全不同。</text>
+            <text>It's weird.</text>
+            <text>What's so good about living that kind of life?</text>
+            <text>To fulfill her goals she turned herself into a tool who's only purpose is to fulfill her own wishes.</text>
+            <text>...She's different compared to everyone else.</text>
+            <text>Tesla is also the type to get emotional... but in a completely different direction.</text>
             <goto goto="50" change="0"/>
         </scene>
         <scene id="50" background="CG16-1-1.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>相比之下，也就可爱得多。</text>
-            <text>……</text>
-            <text>多睡一会儿吧。</text>
-            <text>今天，也许会很漫长。</text>
+            <text>I think it's much cuter than her.</text>
+            <text>.....</text>
+            <text>I should sleep some more.</text>
+            <text>Today could be a long day.</text>
             <goto goto="60" change="#ffffff"/>
         </scene>
         <scene id="60" background="CG16-1-2.jpg">
             <bgm src="morning.mp3" status="start"></bgm>
             <sound src="8_24_knock_door.mp3"/>
-            <speak chara="someoneNoFace">咚咚……咚咚……</speak>
+            <speak chara="someoneNoFace">Knock... Knock...</speak>
             <goto goto="63" change="0"/>
         </scene>
         <scene id="63" background="CG16-1-3.jpg">
             <bgm src="morning.mp3" status="continue"></bgm>
             <sound src="Hah.mp3"/>
-            <speak chara="teslaNoFace">唔……几点啊……怎么就摁门铃……</speak>
-            <speak chara="teslaNoFace">鸡窝头……你去开一下……</speak>
-            <speak chara="teslaNoFace">……</speak>
-            <speak chara="teslaNoFace">……嗯？</speak>
-            <speak chara="teslaNoFace">已经起床出去了么……</speak>
-            <speak chara="teslaNoFace">又不是八十岁的老太太，起那么早干嘛啊……</speak>
+            <speak chara="teslaNoFace">Hmm... what time is it... who's knocking at this hour...</speak>
+            <speak chara="teslaNoFace">Hey mophead go see...</speak>
+            <speak chara="teslaNoFace">.....</speak>
+            <speak chara="teslaNoFace">...?</speak>
+            <speak chara="teslaNoFace">What, she already got up and left...?</speak>
+            <speak chara="teslaNoFace">You're not some 80 years old grandma, stop waking up so early...</speak>
             <goto goto="66" change="0"/>
         </scene>
         <scene id="66" background="westCliffWomenRoom2.jpg">
             <bgm src="morning.mp3" status="continue"></bgm>
             <sound src="8_24_knock_door.mp3"/>
-            <speak chara="someoneNoFace">咚咚……咚咚……</speak>
+            <speak chara="someoneNoFace">Knock... Knock...</speak>
             <goto goto="68" change="0"/>
         </scene>
         <scene id="68" background="">
             <bgm src="themeTesla.mp3" status="start"></bgm>
             <sound src="8_24_mess.mp3"/>
-            <speak chara="teslaNoFace">吵死啦！</speak>
-            <speak chara="teslaNoFace">让我起个床啊，你个笨蛋！</speak>
+            <speak chara="teslaNoFace">Agh you're annoying!</speak>
+            <speak chara="teslaNoFace">I'll open up in a sec, idiot!</speak>
             <goto goto="70" change="#ffffff"/>
         </scene>
         <scene id="70" background="westCliffWomenRoom2.jpg">
             <bgm src="themeTesla.mp3" status="continue"></bgm>
             <show chara="weltLaughNewFar" position="center"/>
-            <speak chara="someoneNoFace">早上好，特斯拉博士。</speak>
-            <speak chara="teslaNoFace">……</speak>
-            <speak chara="teslaNoFace">……你谁啊？</speak>
+            <speak chara="someoneNoFace">Good morning, Professor Tesla.</speak>
+            <speak chara="teslaNoFace">.....</speak>
+            <speak chara="teslaNoFace">...Who are you?</speak>
             <goto goto="80" change="#ffffff"/>
         </scene>
         <scene id="80" background="">
@@ -320,35 +320,35 @@
             <text>影像里的人，显然还是那个神秘的H.A.——</text>
             <text>不过，她似乎要比录制上一段视频的时候，年长了一些。</text>
             <bgm src="11_17_tatakau.mp3" status="start"></bgm>
-            <speak chara="haNoFace">首先，恭喜你破译成功，遥远未来的探险家们。</speak>
-            <speak chara="haNoFace">我不知道在你们的时代，往返大洋之间是一种怎样的体验。也许很轻松吧。</speak>
-            <speak chara="haNoFace">不过，即便如此，我也希望你们再花时间思考一番……</speak>
-            <speak chara="haNoFace">在寻找到最后的魂钢之后，你们，究竟要用这份资料，来做什么。</speak>
-            <speak chara="haNoFace">还记得我曾经说过的结论吗？</speak>
-            <speak chara="haNoFace">天命那种硬桥硬马的做法，是不可能战胜崩坏的。</speak>
-            <speak chara="haNoFace">在这里，我要承认……这是我的一家之言。</speak>
-            <speak chara="haNoFace">虽然，我依然认为，这个判断是正确的——</speak>
-            <speak chara="haNoFace">但我也不强求你们，一定要赞同我的观点。人无完人嘛。</speak>
-            <speak chara="haNoFace">在之前的影像中你应该见过年轻时我——</speak>
-            <speak chara="haNoFace">血气方刚、嫉恶如仇、只争朝夕。</speak>
-            <speak chara="haNoFace">我不会说自己变了——</speak>
-            <speak chara="haNoFace">但至少，在隐姓埋名的生活中，我学会了用更开放的视角，去观察这个世界。</speak>
-            <speak chara="haNoFace">不去盲目地敌视任何人，而是专注于判断力的提升。</speak>
-            <speak chara="haNoFace">我希望你们也是如此。</speak>
-            <speak chara="haNoFace">不论你们的主张为何，我都希望——</speak>
-            <speak chara="haNoFace">你们，能够聆听自己内心最深处的声音。</speak>
-            <speak chara="haNoFace">要知道，这个世界上最无可挽回的事情，就是一个人南辕北辙，虚度光阴。</speak>
-            <speak chara="haNoFace">行动不过是手段……理想才是真正的纲领。</speak>
-            <speak chara="haNoFace">正因为如此……</speak>
-            <speak chara="haNoFace">我希望你们，能够不辞辛劳，再次造访我们这个，不存在于古代史之中的国家。</speak>
-            <speak chara="haNoFace">美利坚合众国。</speak>
-            <speak chara="haNoFace">她的成立，就来自于这样的一批人——</speak>
-            <speak chara="haNoFace">他们尊重自己的内心……并勇敢地去捍卫这份正义。</speak>
-            <speak chara="haNoFace">是时候告诉你我真正的名字了。</speak>
-            <speak chara="haNoFace">我是阿默妮（Harmony）·阿耶特（Ayette）。本姓莫提耶（Motier）。</speak>
-            <speak chara="haNoFace">拉法耶特侯爵，吉尔伯特·杜·莫提耶的后人。</speak>
-            <speak chara="haNoFace">或者，你也可以用商业世界的外号来称呼我——</speak>
-            <speak chara="haNoFace">“教父”。</speak>
+            <speak chara="haNoFace">First, let me congratulate you for decrypting my message, explorers of a distant future.</speak>
+            <speak chara="haNoFace">I do not know how difficult it is to cross the ocean in your era, maybe it is a trivial thing.</speak>
+            <speak chara="haNoFace">But still, I would like you to take your time and think carefully...</speak>
+            <speak chara="haNoFace">About what you will do with the information after you have found the last Soulium Sphere.</speak>
+            <speak chara="haNoFace">I trust you remember the conclusion I mentioned earlier, yes?</speak>
+            <speak chara="haNoFace">Destiny cannot beat the Houkai by relying on brute force alone.</speak>
+            <speak chara="haNoFace">I will admit this is merely my personal opinion.</speak>
+            <speak chara="haNoFace">But I truly believe the conclusion I have reached is the correct one.</speak>
+            <speak chara="haNoFace">Of course, it is not my intention to force my opinion on you all. There are no two people who think the exact same way.</speak>
+            <speak chara="haNoFace">You should have seen me in my younger days in a previous video.</speak>
+            <speak chara="haNoFace">I wonder if I seemed like I deeply despised evil and would not stop to rest even for a moment.</speak>
+            <speak chara="haNoFace">I would not say something changed within me——</speak>
+            <speak chara="haNoFace">But as I continued with my secluded life style, I learned to see the world with a broader perspective.</speak>
+            <speak chara="haNoFace">Rather than blindly hating someone, one must work hard to improve their judgment.</speak>
+            <speak chara="haNoFace">I want you all to do the same.</speak>
+            <speak chara="haNoFace">Whatever your final opinion may be, I——</speak>
+            <speak chara="haNoFace">I want you to listen to the voice deep inside your hearts.</speak>
+            <speak chara="haNoFace">One thing you cannot take back in this world is misjudgment and wasted time. Please understand that.</speak>
+            <speak chara="haNoFace">Actions are just means to an end... what we must look at are the ideals behind them.</speak>
+            <speak chara="haNoFace">Which is why...</speak>
+            <speak chara="haNoFace">I want you to go travel to a country that never appeared in the history of ancient civilizations.</speak>
+            <speak chara="haNoFace">The United States of America.</speak>
+            <speak chara="haNoFace">America was founded by people like that.</speak>
+            <speak chara="haNoFace">They listened to their inner voices... and bravely stood up to protect the justice they believed in.</speak>
+            <speak chara="haNoFace">Ah, it is about time I tell you my real name.</speak>
+            <speak chara="haNoFace">Harmony Ayette. My original surname was Motier.</speak>
+            <speak chara="haNoFace">I am a descendant of Gilbert du Motier, Marquis de Lafayette.</speak>
+            <speak chara="haNoFace">Also known in the business world as——</speak>
+            <speak chara="haNoFace">「Godfather」.</speak>
             <goto goto="150" change="#ffffff"/>
         </scene>
         <scene id="150" background="adaRoomRVS.jpg">

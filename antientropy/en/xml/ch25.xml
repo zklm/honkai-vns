@@ -9,75 +9,75 @@
         <scene id="10" background="beachNorfolk.jpg">
             <bgm src="10_25_noise.mp3" status="start"></bgm>
             <sound src="8_24_launch.mp3"/>
-            <text remark="next">受突发大规模电磁脉冲的遗留影响，你所搭乘的专机备降在了诺福克海军基地的军用机场。</text>
+            <text remark="next">Due to the sudden electromagnetic pulse, the aircraft had to land at the Naval Station Norfolk.</text>
             <remark>
                 <p class="article-text-h">注：</p>
                 <p class="article-text">诺福克海军基地（Naval Station Norfolk）是美国海军设于弗吉尼亚州诺福克的一处军港，是美国“大西洋舰队”的母港，也是全世界最大的一座海军基地。</p>
             </remark>
-            <text>根据监测到的数据，电磁脉冲的中心，应当来自纽约市附近——并且伴随着灾难级的崩坏脉冲。</text>
-            <text>你来不及震惊，更来不及悲伤——身为“紧急咨询名单”上能联系到的最高领导人，你有责任亲临现场统筹救灾事宜。</text>
-            <text>原本，你们只是为了最有效地掩人耳目，才决定在预定日程之前，提前行动，撤出所有可能沦为奥托人质的潜在对象——</text>
-            <text>——甚至为了迷惑潜在的敌人，专门用伪造的发信基站和自己的学生通信，仿佛计划只是刚刚开始执行而已。</text>
-            <text>然而，阴差阳错之下，在可知的范围内，你竟然成了世界上头号强国的临时掌控者。</text>
-            <text>随行的非战斗人员可以暂时安置在基地中。载有其他重要“客人”的后续专机也会陆续来此降落。</text>
-            <text>就事论事之下，你暗自庆幸——这是一个幅员辽阔的国家。</text>
-            <text>在任何灾难面前，人们总能找到稳定的后方。</text>
+            <text>According to the reports, the center of the pulse is New York city, and said pulse is very similar to a Houkai energy pulse.</text>
+            <text>However, there was no time to be amazed or worried.According to the 「Urgent Inquiry List」, she has been assigned as the Chief Commander and must oversee all rescue operations.</text>
+            <text>She was always planning to act in the shadows so all this did was to speed up the schedule. She has to do what she can to evacuate all potential people that could turn into Otto's hostages.</text>
+            <text>——To confuse a potential hidden enemy, she used a double to pretend she had just left the base station and contacted her students as if the plan had just been put in motion now.</text>
+            <text>Who could have guessed two conflicting opinions would lead to her becoming the commander of the strongest country in the world, albeit temporarily.</text>
+            <text>For now, all non-combatants working in the base must evacuate. The most 「important guests」 should be coming here shortly.</text>
+            <text>Looking at the results alone, seems she was very lucky—— This is a very large country after all.</text>
+            <text>No matter the disaster, people will be able to find a place that isn't affected by it.</text>
             <goto goto="20" change="#ffffff"/>
         </scene>
         <scene id="20" background="aircraftCockpit.jpg">
             <bgm src="04_20_tank.mp3" status="start"></bgm>
-            <speak chara="ritaFullNameNoFace">教授，我们已经抵达拉里坦湾上空。</speak>
-            <speak chara="ritaFullNameNoFace">是否改为侦察队形？</speak>
-            <text>经过两次加油、前后超过四个小时的长途飞行，在你的“王牌特工”带领下，作为先锋的直升机编队即将抵达灾难的中心地区。</text>
-            <text>地面上找不到遭受侵害的迹象，除了部分公路出现了堵车，从高空看去，并没有其他显而易见的异常。</text>
-            <speak chara="planckYourNameNoFace">进入侦察模式。</speak>
-            <speak chara="planckYourNameNoFace">目前的情形十分反常，通知大家执行最高程度的戒备，不要放过任何蛛丝马迹。</speak>
-            <speak chara="ritaFullNameNoFace">是，教授。</speak>
-            <speak chara="planckYourNameNoFace">保持敏锐。我去冲一杯咖啡。</speak>
+            <speak chara="ritaFullNameNoFace">Professor, we seem to have passed over Raritan Bay.</speak>
+            <speak chara="ritaFullNameNoFace">Do you wish to perform recon?</speak>
+            <text>Under the command of 「Agent」, after two refueling spots and two long distance trips over 4 hours the helicopter will reach the center of this calamity.</text>
+            <text>Looking down at the surface, there doesn't seem to be any apparent damage. As far as they can see, the only thing worth nothing is the streets being congested.</text>
+            <speak chara="planckYourNameNoFace">Please.</speak>
+            <speak chara="planckYourNameNoFace">This situation is too strange. Raise the alert level to the maximum and tell everyone to not ignore anything no matter how small.</speak>
+            <speak chara="ritaFullNameNoFace">Roger, Professor.</speak>
+            <speak chara="planckYourNameNoFace">Just keep being on alert. I'll go brew some coffee.</speak>
             <hide position="center"></hide>
-            <speak chara="crewNoNameNoFace">……流星！2点钟方向，天空中出现了流星！</speak>
-            <speak chara="planckYourNameNoFace">……？！</speak>
+            <speak chara="crewNoNameNoFace">...A meteorite? We have a meteorite at 2 O'Clock in the sky!</speak>
+            <speak chara="planckYourNameNoFace">...!?</speak>
             <goto goto="30" change="0"/>
         </scene>
         <scene id="30" background="CG25-1.jpg">
             <bgm src="04_20_tank.mp3" status="continue"></bgm>
-            <text>流星的蹊跷出现，当然令人意外。</text>
-            <text>然而，更加令你惊诧的是，这个在杂物箱里不声不响藏了一路的孩子。</text>
+            <text>The meteorite that suddenly appeared was certainly interesting.</text>
+            <text>But what surprised me the most was this kid who came all the way here without making a sound hidden in a box.</text>
             <goto goto="40" change="#ffffff"/>
         </scene>
         <scene id="40" background="darkEnergy.jpg">
             <bgm src="04_20_tank.mp3" status="stop"></bgm>
-            <text>……</text>
+            <text>.....</text>
             <bgm src="03_03_bostonNight.mp3" status="start"></bgm>
-            <text>你知道，无论如何，自己必须转移这个邪恶主教的注意力。</text>
-            <text>如果是一般的伤员，现在的你可以量子化，所以浑水摸鱼把你的朋友们转移出去，完全可行。</text>
-            <text>但是在目前的状况下……那可以说毫无用处。</text>
-            <text>你明白，“黑渊”给他们造成的致命伤，不是一般的医疗手段能够治疗的。</text>
-            <text>更糟糕的是，唯一能做到这一点的“白花”，必须要和“黑渊”结合，才能达成足够的创生效果。</text>
-            <text>但你并不是这对双子神之键所认可的主人……</text>
-            <text>究竟要如何——</text>
-            <text>……</text>
-            <text>不，机会也许会有一次。</text>
-            <text>……</text>
-            <text>爱因斯坦。</text>
-            <text>特斯拉。</text>
-            <text>瓦尔特。</text>
-            <text>他们的光辉不能就这样湮灭于黑暗之中。</text>
-            <text>为此，现在唯一能战斗的人，责无旁贷。</text>
+            <text>I know what I must do. At all costs I must get the attention of that wicked Bishop.</text>
+            <text>If it were an ordinary wounded person, I could quantize them to get them out of trouble.</text>
+            <text>But in this case... that won't do anything.</text>
+            <text>The wounds inflicted by 「Black Orchid」 can't be healed by normal means.</text>
+            <text>And to make things worse, enough creation effect can only be generated when 「Black Orchid」 is used together with 「White Lily」.</text>
+            <text>But these twin Divine Keys don't recognize me as their master...</text>
+            <text>What should I do——</text>
+            <text>.....</text>
+            <text>No, we might still have a chance.</text>
+            <text>.....</text>
+            <text>Einstein.</text>
+            <text>Tesla.</text>
+            <text>Welt.</text>
+            <text>Their light won't be extinguished so easily.</text>
+            <text>As the only person left standing I have the responsibility to keep fighting.</text>
             <goto goto="50" change="#ffffff"/>
         </scene>
         <scene id="50" background="CG25-2.jpg">
             <bgm src="8_24_war.mp3" status="start"></bgm>
-            <speak chara="ottoNoFace">……大言不惭的家伙。</speak>
-            <speak chara="ottoNoFace">……近身攻击不成，便想用分身来迷惑我吗。</speak>
-            <speak chara="ottoNoFace">好啊，那我们就比拼一下，谁才是真正拥有无限可能性的存在吧。</speak>
+            <speak chara="ottoNoFace">...Fool.</speak>
+            <speak chara="ottoNoFace">...Your direct attack failed so now you are trying to deceive me with clones?</speak>
+            <speak chara="ottoNoFace">Very well. Let's settle this. Let's see for ourselves who is worthy of obtaining infinite possibilities.</speak>
             <goto goto="60" change="0"/>
         </scene>
         <scene id="60" background="CG25-3.jpg">
             <bgm src="8_24_war.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">此世无需永恒之物；</speak>
-            <speak chara="ottoNoFace">梦幻泡影，刹那无常，反是真实。</speak>
-            <speak chara="ottoNoFace">第一神之键，第七复数拟态——</speak>
+            <speak chara="ottoNoFace">There is no need for eternity in this world.</speak>
+            <speak chara="ottoNoFace">The dream turns into bubbles, and bursts in the blink of an eye. Everything is true.</speak>
+            <speak chara="ottoNoFace">「1st Divine Key」, 7th Divine Key Reproduction——</speak>
             <goto goto="70" change="0"/>
         </scene>
         <scene id="70" background="CG25-3.jpg">
@@ -91,7 +91,7 @@
         <scene id="90" background="brightonBeach.jpg">
             <bgm src="04_20_tank.mp3" status="start"></bgm>
             <show chara="ottoScornfulGunFar" position="center"/>
-            <speak chara="ottoNoFace">……不堪一击。</speak>
+            <speak chara="ottoNoFace">...Was that all you can do?</speak>
             <goto goto="100" change="0"/>
         </scene>
         <scene id="100" background="CG25-5.jpg">
@@ -102,71 +102,71 @@
         </scene>
         <scene id="110" background="brightonBeach.jpg">
             <bgm src="morning.mp3" status="start"></bgm>
-            <speak chara="ritaNoNameNoFace">……啧。果然没有用吗。</speak>
+            <speak chara="ritaNoNameNoFace">...Tch. So it didn't work.</speak>
             <goto goto="120" change="0"/>
         </scene>
         <scene id="120" background="brightonBeach.jpg">
             <bgm src="morning.mp3" status="continue"></bgm>
             <show chara="ottoChangeGunFar" position="center"/>
-            <speak chara="ottoNoFace">……哟。</speak>
+            <speak chara="ottoNoFace">...Hmph.</speak>
             <bgm src="04_20_tank.mp3" status="start"></bgm>
             <show chara="ottoScornfulGunFar" position="center"/>
-            <speak chara="ottoNoFace">站出来，老鼠。</speak>
+            <speak chara="ottoNoFace">Come out, little rat.</speak>
             <show chara="ottoHaughtyGunFar" position="center"/>
-            <speak chara="ottoNoFace">不要以为打搅了我的兴致，你还能全身而退。</speak>
+            <speak chara="ottoNoFace">Don't think you'll leave after interrupting my fun.</speak>
             <hide position="center"></hide>
-            <speak chara="ritaNoNameNoFace">……呵呵。你不知道吗，主教大人？</speak>
+            <speak chara="ritaNoNameNoFace">...Hehe. Esteemed Bishop, have you ever heard of this before?</speak>
             <show chara="ritaSmileGunFar" position="center"/>
-            <speak chara="ritaFullNameNoFace">历史上最伟大的一些哲学家是这样说的：</speak>
+            <speak chara="ritaFullNameNoFace">The greatest philosopher in history once said:</speak>
             <show chara="ritaNormalGunFar" position="center"/>
-            <speak chara="ritaFullNameNoFace" remark="next">“一切伟大的世界历史事变和人物，可以说都要出现两次——”</speak>
-            <speak chara="ritaFullNameNoFace" remark="next">“第一次是悲剧，而第二次是笑剧。”</speak>
+            <speak chara="ritaFullNameNoFace" remark="next">「All great world events happen twice——」</speak>
+            <speak chara="ritaFullNameNoFace" remark="next">「Once as tragedy and secondly as a farce.」</speak>
             <remark>
                 <p class="article-text-h">注：</p>
                 <p class="article-text">这是马克思《路易·波拿巴的雾月十八日》的开篇之言（与原文略有出入）。</p>
             </remark>
             <show chara="ottoConfidentGunFar" position="center"/>
-            <speak chara="ottoNoFace">……哦？</speak>
+            <speak chara="ottoNoFace">...Ho?</speak>
             <show chara="ritaTalkGunFar" position="center"/>
-            <speak chara="ritaFullNameNoFace">奥托先生……我们国家的《独立宣言》里有这样的一段话——</speak>
+            <speak chara="ritaFullNameNoFace">And our country's Declaration of Independence has a passage that says the following——</speak>
             <show chara="ritaNormalGunFar" position="center"/>
-            <speak chara="ritaFullNameNoFace">“当今大不列颠国王的历史，是一再损人利己和强取豪夺的历史，所有这些暴行的直接目的，就是想在这些邦建立一种绝对的暴政。”</speak>
+            <speak chara="ritaFullNameNoFace">「The history of the present King of Great Britain is a history of repeated injuries and usurpations, all having in direct object the establishment of an absolute Tyranny over these States.」</speak>
             <show chara="ritaSmileGunFar" position="center"/>
-            <speak chara="ritaFullNameNoFace">您如果想模仿“乔治三世”的所作所为……</speak>
+            <speak chara="ritaFullNameNoFace">If you are trying to be like 「George III」——</speak>
             <show chara="ritaNodGunFar" position="center"/>
-            <speak chara="ritaFullNameNoFace">……那不过是把您自己变成真正的“小丑”而已。</speak>
+            <speak chara="ritaFullNameNoFace">——You'll turn into a 「clown」 for real.</speak>
             <show chara="ottoLaughGunFar" position="center"/>
-            <speak chara="ottoNoFace">……哈。我还以为你突然出现在这里，是要说什么引领时代的高论呢，度假村的老板娘。</speak>
+            <speak chara="ottoNoFace">Heh. A mere hotel owner appearing out of nowhere thinks she can lecture me about the pioneers.</speak>
             <show chara="ottoHaughtyGunFar" position="center"/>
-            <speak chara="ottoNoFace">让我这么回答你吧——</speak>
+            <speak chara="ottoNoFace">Then, this is my answer——</speak>
             <show chara="ottoConfidentGunFar" position="center"/>
-            <speak chara="ottoNoFace">任何统治都是一种暴政。只有缺乏担当的人才会巧言令色，贼喊捉贼。</speak>
+            <speak chara="ottoNoFace">All forms of ruling are a tyranny. Only those who aren't responsible try to deceive others by sugarcoating it with sweet words.</speak>
             <show chara="ottoHaughtyGunFar" position="center"/>
-            <speak chara="ottoNoFace">所以，你们大可不必上升到哲学的高度——</speak>
+            <speak chara="ottoNoFace">So you don't have to get all philosophical——</speak>
             <show chara="ottoScornfulGunFar" position="center"/>
-            <speak chara="ottoNoFace">——今天，我只是打算清除一些绊脚石而已。</speak>
+            <speak chara="ottoNoFace">——All I'm trying to do today is to get rid of an obstacle.</speak>
             <goto goto="150" change="#ffffff"/>
         </scene>
         <scene id="150" background="darkEnergy.jpg">
             <bgm src="11_17_tatakau.mp3" status="start"></bgm>
-            <text>很好……完美地拖延了时间。</text>
-            <text>尽管我完全没有预期到还有像你这样的帮手……</text>
-            <text>但是，谢谢。</text>
-            <text>当然，还有帮助我们，在敌人眼皮子底下完成沟通的——艾妲。</text>
-            <text>总之，这样一来……</text>
-            <text>……接力棒，就可以安稳地交到那个人的手上了吧。</text>
+            <text>Alright... We managed to buy enough time.</text>
+            <text>I didn't think I would receive help from such an unexpected helper...</text>
+            <text>I sincerely thank you.</text>
+            <text>Of course, I must also thank Ada too for letting us communicate under the enemy's nose.</text>
+            <text>Anyway, now I can...</text>
+            <text>...Pass the baton to him.</text>
             <goto goto="160" change="#ffffff"/>
         </scene>
         <scene id="160" background="CG25-6.jpg">
             <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">……嗯？</speak>
+            <speak chara="ottoNoFace">...Hm?</speak>
             <goto goto="170" change="0"/>
         </scene>
         <scene id="170" background="CG25-7.jpg">
             <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
-            <speak chara="schroPlasmaNoFace">意识重构完成，采用崩坏能表达。</speak>
-            <speak chara="schroPlasmaNoFace">全体粒子，脱离麦克斯韦-玻尔兹曼分布。</speak>
-            <speak chara="schroPlasmaNoFace">基础次元幺正性取消。</speak>
+            <speak chara="schroPlasmaNoFace">Reconstruction of consciousness completed. Expressing Houkai energy.</speak>
+            <speak chara="schroPlasmaNoFace">Defining Maxwell distribution and detaching all particles.</speak>
+            <speak chara="schroPlasmaNoFace">Performing unitary elimination of basic dimensions.</speak>
             <goto goto="180" change="0"/>
         </scene>
         <scene id="180" background="CG25-8.jpg">
@@ -179,22 +179,22 @@
         </scene>
         <scene id="900" background="cloudSky.jpg">
             <bgm src="themeWelt.mp3" status="start"></bgm>
-            <text>你从一片朦胧之中苏醒。</text>
-            <text>你感到有一股熟悉的气息，不，能量，在快速消散。</text>
-            <text>和你体内的那些灵魂残渣不同——</text>
-            <text>她并非死去；却也绝不能称为活着。</text>
-            <text>……但比起关心她的下落，你明白自己还有更重要的事情要做。</text>
-            <text>她留给你的等离子防护罩，让气急败坏的主教，暂时无可奈何。</text>
-            <text>此时此刻，你明白无误地确信——</text>
-            <text>爱因斯坦和特斯拉博士，她们的生命，不会就此终结。</text>
-            <text>仿佛她们从未受伤。</text>
-            <text>仿佛她们就是不死之身。</text>
-            <text>……你知道自己已经掌握了生命创生的秘密。</text>
-            <text>尽管你不知道这些知识来自何方——</text>
-            <text>但咒语的咏唱，能量的调度，基因的重置……一切都是那样的自然、流畅。</text>
-            <text>你根本不需要评估这样做的代价……</text>
-            <text>因为……</text>
-            <text>这一个多月来的种种经历，已经成为了你的无价之宝。</text>
+            <text>You wake up from your sleep.</text>
+            <text>You feel a familiar breathing in you. No, it's energy. It's disappearing as fast as it came.</text>
+            <text>It's different from the soul remnants in your body——</text>
+            <text>She is not dead, but I can't exactly say she's alive.</text>
+            <text>...but I knew there was something more important than worrying about her that I had to do.</text>
+            <text>Thanks to the Plasma Shield she left us the Bishop can't make a move on us for a while.</text>
+            <text>I'm certain now——</text>
+            <text>Einstein and Tesla's lives will not meet an ordinary end. </text>
+            <text>It's as if they were not injured.</text>
+            <text>It's as if they were immortal.</text>
+            <text>...I now have the knowledge necessary to create life.</text>
+            <text>Even if I don't know where this knowledge came from——</text>
+            <text>The words are spoken properly, the energy is adjusted and the genes are reset... everything is flowing smoothly.</text>
+            <text>I never once had to think about the price I'll have to pay...</text>
+            <text>Because...</text>
+            <text>Everything that has happened over the past month has become an irreplaceable treasure to me.</text>
             <goto goto="1000" change="#ffffff"/>
         </scene>
         <scene id="1000" background="studyNight.jpg">
@@ -294,9 +294,9 @@
         </scene>
         <scene id="1100" background="cloudSky.jpg">
             <bgm src="10_20_londonderry_p.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">“我要将生命泉的水，”</speak>
-            <speak chara="weltNoFace">“白白赐给那口渴的人喝。”</speak>
-            <speak chara="weltNoFace">……不，这还远远不够。</speak>
+            <speak chara="weltNoFace">「To the thirsty I will freely give」</speak>
+            <speak chara="weltNoFace">「From the fountain of the water of life.」</speak>
+            <speak chara="weltNoFace">...This won't be enough.</speak>
             <goto goto="1120" change="0"/>
         </scene>
         <scene id="1120" background="cloudSky.jpg">
@@ -396,14 +396,14 @@
         </scene>
         <scene id="1200" background="CG25-9.jpg">
             <bgm src="04_20_Brigantia.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace" remark="next">——其时已至，此为吞噬天上暴君之日。</speak>
+            <speak chara="weltNoFace" remark="next">——This is the day, which the Earth-born's spell yawns for Heaven's despotism.</speak>
             <remark post="U2FsdGVkX18o9ZihHoexEPzjpmN9">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">引自雪莱（P. B. Shelley）《解放了的普罗米修斯》（Prometheus Unbound）的结尾部分。</p>
             </remark>
-            <speak chara="weltNoFace">奥托·阿波卡利斯……</speak>
-            <speak chara="weltNoFace">不，小丑α——</speak>
-            <speak chara="weltNoFace">见识一下星星粉碎的样子吧！</speak>
+            <speak chara="weltNoFace">Otto Apocalypse...</speak>
+            <speak chara="weltNoFace">No, Clown Alpha——</speak>
+            <speak chara="weltNoFace">Watch the stars shatter!!</speak>
             <end post="U2FsdGVkX18FjFK3VUd0XhOzu9el"/>
         </scene>
     </story>
