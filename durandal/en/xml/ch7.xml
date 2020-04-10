@@ -8,447 +8,447 @@
         </scene>
         <scene id="10" background="jailCell.jpg">
             <bgm src="01_18_horror.mp3" status="start"></bgm>
-            <text>你——吉米·瓦特——绝望地回忆着自己昏迷前的经历。</text>
-            <text>不知多久之前，你在大图书馆的阅览室里失去了意识……等到再度清醒过来的时候，人就已经被关在了这个牢房里。</text>
-            <text>冰冷的大门紧锁着，没有任何人回应你嘶声力竭的呼喊。</text>
-            <text>比安卡……莎士比亚船长……泰勒斯所长……</text>
-            <text>你无助地幻想着她们的神兵天降，幻想着有人谈笑之间就可以把自己搭救出去。</text>
+            <text>As he despaired, Jimmy Watt began to remember what happened moments before he lost consciousness.</text>
+            <text>I was in the Great Library when I passed out... Next thing I knew I was already inside this prison cell.</text>
+            <text>The door is locked and no one is answering to my screams.</text>
+            <text>Bianka-san... Captain Shakespeare... Director Thales...</text>
+            <text>I can only fantasize about someone coming to my rescue.</text>
             <sound src="02_03_highheels.mp3"/>
-            <text>……脚步声？</text>
+            <text>...Are those footsteps?</text>
             <goto goto="20" change="0"/>
         </scene>
         <scene id="20" background="black">
             <bgm src="01_18_horror.mp3" status="stop"></bgm>
-            <text>你连忙将耳朵贴在了门上。脚步声似乎就在门的另一侧停了下来。</text>
+            <text>I put my ear on the door. The footsteps stopped right in front of the door.</text>
             <sound src="02_03_key.mp3"/>
-            <text>你听到了钥匙的声音。门锁在转动。</text>
+            <text>Someone inserted a key. The door is opening.</text>
             <goto goto="30" change="#ffffff"/>
         </scene>
         <scene id="30" background="jailCell.jpg">
             <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
             <sound src="02_03_door.mp3"/>
             <show chara="AliceStandBlackClose" position="center"/>
-            <speak chara="_AliceNoName">学者先生。让您受委屈了。</speak>
-            <speak chara="_Watt">呃……嗯。请问你是……？</speak>
-            <speak chara="_AliceNoName">……说的是呢。想必老师您也很困惑吧。</speak>
-            <speak chara="_AliceNoName">我的名字是“爱丽丝”。目前……暂时管理着这栋建筑。</speak>
-            <speak chara="_Alice">请先随我来吧，我们边走边说。</speak>
+            <speak chara="_AliceNoName">Scholar-sama, I'm very sorry for the trouble I've caused you.</speak>
+            <speak chara="_Watt">U-Umm... who are you...?</speak>
+            <speak chara="_AliceNoName">...My apologies for the late introduction.</speak>
+            <speak chara="_AliceNoName">My name is Alice. Right now... I am in charge of this facility.</speak>
+            <speak chara="_Alice">Come this way. We can talk as we walk.</speak>
             <goto goto="40" clockwise="1"/>
         </scene>
         <scene id="40" background="jailBridge.jpg">
             <bgm src="12_14_moonLight.mp3" status="start"></bgm>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">……这里曾经是某位博士的实验基地。</speak>
+            <speak chara="_Alice">...This facility belonged to a certain Professor.</speak>
             <show chara="AliceDeclineFar" position="center"/>
-            <speak chara="_Alice">博士是一位特立独行的人。不只是深居简出这一方面——他的思想，也和城里的人们很不一样。</speak>
-            <speak chara="_Alice">城里的人们不赞成博士倡议的社会发展方式。他们认为博士是个危险人物，并因此将他驱逐出境。</speak>
+            <speak chara="_Alice">The Professor was a peculiar person. He not only was a recluse—— His way of thinking was completely different from everyone else in the city.</speak>
+            <speak chara="_Alice">The people of the city not only were against his plans for social development, but they also thought his ideas were too dangerous and exiled him from the city.</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">……不过博士并没有轻言放弃。</speak>
+            <speak chara="_Alice">...But even so, the Professor didn't give up.</speak>
             <show chara="AliceCalmFar" position="center"/>
-            <speak chara="_Alice">他利用自己的知识和城外形形色色的人交易，白手起家建成了这座实验基地，自给自足地住在了里面。</speak>
+            <speak chara="_Alice">Using his vast knowledge, he began trading with people from outside the city, built this facility from nothing and lived a self-sufficient life.</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">为了……建造出像我这样的存在。</speak>
-            <speak chara="_Watt">……“建造”？你？</speak>
+            <speak chara="_Alice">All to make an existence like me.</speak>
+            <speak chara="_Watt">To 「make you」?</speak>
             <show chara="AliceBitterFar" position="center"/>
-            <speak chara="_Alice">……嗯。</speak>
+            <speak chara="_Alice">...Yes.</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">虽然难以启齿……而且我自己这么说也很奇怪……</speak>
+            <speak chara="_Alice">This might be hard to believe but...</speak>
             <show chara="AliceCalmFar" position="center"/>
-            <speak chara="_Alice">但是……我的确不是人类。</speak>
-            <speak chara="_Watt">……这、这是某种比喻吗？</speak>
+            <speak chara="_Alice">I am... not human.</speak>
+            <speak chara="_Watt">...Literally? Not in a metaphorical sense?</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">不……请不要惊讶。</speak>
+            <speak chara="_Alice">Yes. Please don't be startled.</speak>
             <show chara="AliceDeclineFar" position="center"/>
-            <speak chara="_Alice">我没有任何装神弄鬼的意思……只是，我的确是博士亲手制造的一台机器。“4号机”。</speak>
+            <speak chara="_Alice">It's not my intention to deceive you. I'm 「Unit 4」, a machine made by the Professor.</speak>
             <show chara="AliceCalmFar" position="center"/>
-            <speak chara="_Alice">老师您现在看到的“爱丽丝”，只是这台机器的一个终端界面而已。</speak>
+            <speak chara="_Alice">The 「Alice」 in front of you is one of many interfaces of that machine.</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">……虽然，的确和人类的肉体……很相似。</speak>
-            <speak chara="_Watt">……</speak>
+            <speak chara="_Alice">...One resembling the human body.</speak>
+            <speak chara="_Watt">.....</speak>
             <show chara="AliceCalmFar" position="center"/>
-            <speak chara="_Alice">……我知道自己刚才说的话有多么令人难以置信。</speak>
+            <speak chara="_Alice">...I understand you might not believe me right away.</speak>
             <show chara="AliceDeclineFar" position="center"/>
-            <speak chara="_Alice">可是，接下来……其实还有更加耸人听闻的事实。</speak>
+            <speak chara="_Alice">But this is... just the beginning of my story.</speak>
             <show chara="AliceBitterFar" position="center"/>
-            <speak chara="_Alice">我当然愿意现在就解释老师您之所以被绑架的原因……</speak>
+            <speak chara="_Alice">I'd like to answer all your questions right away...</speak>
             <show chara="" position="center"/>
-            <speak chara="_Alice">但是我更希望，在看到“某样东西”之前……您能够做好足够的心理准备。</speak>
-            <speak chara="_Watt">……心、心理准备？</speak>
-            <speak chara="_Watt">……你、你要带我去哪里？</speak>
+            <speak chara="_Alice">But before that... before you see a certain something... I want you to be mentally prepared.</speak>
+            <speak chara="_Watt">...M-Mentally prepared?</speak>
+            <speak chara="_Watt">W-Where are you taking me?</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">去这个世界上，某位博士最引以为傲的地方……</speak>
+            <speak chara="_Alice">The place the Professor is the most proud of.</speak>
             <show chara="AliceCalmFar" position="center"/>
-            <speak chara="_Alice">……也就是，我的“脑部”。</speak>
-            <speak chara="_Watt">……你的……脑部……</speak>
+            <speak chara="_Alice">The place where my 「brain」 is.</speak>
+            <speak chara="_Watt">...Your... brain...</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">……之前博士的助手们也绑架过两位学者。可是，他们在看到“那个”的一瞬间就完全拒绝了合作。</speak>
+            <speak chara="_Alice">The Professor's assistants brought two other scholars here besides you, but the moment they saw 「that」 they refused to help them.</speak>
             <show chara="AliceDeclineFar" position="center"/>
-            <speak chara="_Alice">一个不听解释，无论说什么都要逃跑；</speak>
+            <speak chara="_Alice">One didn't want to hear the rest and tried to escape.</speak>
             <show chara="AliceBitterFar" position="center"/>
-            <speak chara="_Alice">另一个口中不停地默念着谵妄的祈祷咒语，根本没有办法进行交流。</speak>
+            <speak chara="_Alice">The other one shut down and began praying nonstop.</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">……</speak>
-            <speak chara="_Alice">最终，所有人都“死”了。</speak>
-            <speak chara="_Watt">死、死了……？</speak>
+            <speak chara="_Alice">.....</speak>
+            <speak chara="_Alice">And now they're all dead.</speak>
+            <speak chara="_Watt">D-Dead...?</speak>
             <show chara="AliceDeterminedFar" position="center"/>
-            <speak chara="_Alice">是的……而老师您，也就成了爱丽丝……最后的希望。</speak>
-            <speak chara="_Watt">……你……你们……要对我……做什么……</speak>
+            <speak chara="_Alice">Yes. You're Alice's last hope.</speak>
+            <speak chara="_Watt">W-What do you all want from me...</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">不，不是的……</speak>
+            <speak chara="_Alice">You're mistaken.</speak>
             <show chara="AliceBitterFar" position="center"/>
-            <speak chara="_Alice">……这里已经没有所谓的“我们”了。</speak>
-            <speak chara="_Watt">……？</speak>
+            <speak chara="_Alice">There is no 「we」 anymore.</speak>
+            <speak chara="_Watt">...?</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">这里……现在只有我和你……</speak>
+            <speak chara="_Alice">Only you and me are left.</speak>
             <show chara="AliceDeclineFar" position="center"/>
-            <speak chara="_Alice">博士和……助手们、还有其他受害者……大家【都】已经不在了。</speak>
-            <speak chara="_Watt">……！</speak>
+            <speak chara="_Alice">The Professor, his assistants and the scholars they kidnapped, they're all dead.</speak>
+            <speak chara="_Watt">...!</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">首先是……前天，大约50个小时之前……</speak>
-            <speak chara="_Alice">博士……在连续工作了20多个小时之后，突然就倒下了……</speak>
+            <speak chara="_Alice">The first death happened approximately 50 hours ago——</speak>
+            <speak chara="_Alice">The Professor... worked for 20 hours straight and suddenly collapsed.</speak>
             <show chara="AliceDeclineFar" position="center"/>
-            <speak chara="_Alice">助手们乱作了一团……他们手忙脚乱地给博士进行“治疗”……然而根本于事无补。</speak>
-            <speak chara="_Alice">当我……可以接触到博士的时候……他已经……</speak>
+            <speak chara="_Alice">His assistants tried to perform 「first aid」 on him but alas, it was all for nothing...</speak>
+            <speak chara="_Alice">By the time I got to him...</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">……去世了。</speak>
+            <speak chara="_Alice">...He had passed away.</speak>
             <show chara="AliceDeclineFar" position="center"/>
-            <speak chara="_Alice">之后……失去博士的助手们，为了想办法继续利用爱丽丝……就铤而走险，绑架了老师您……还有其他两位学者……</speak>
+            <speak chara="_Alice">Having lost the Professor, the assistants kidnapped you and two other scholars to keep working on me.</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">于是，就像我刚才所说的……那两位学者和绑架他们的助手们之间又起了冲突……</speak>
+            <speak chara="_Alice">Like I mentioned earlier, there was a disagreement between the scholars and the assistants...</speak>
             <show chara="AliceBitterFar" position="center"/>
-            <speak chara="_Alice">再之后……这里就只剩下……爱丽丝了……</speak>
+            <speak chara="_Alice">And now I'm the only one left...</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">……当然，还有……当时幸好还昏睡在牢房里的……老师您。</speak>
-            <speak chara="_Watt">那、那个……叫我“吉米”就好。</speak>
-            <speak chara="_Alice">吉米老师……对爱丽丝来说，您是唯一……可以拯救这一切的人了……</speak>
-            <speak chara="_Watt">……</speak>
-            <speak chara="_Watt">你打算……让、让我做什么？</speak>
+            <speak chara="_Alice">Fortunately for you, you were still sleeping in your cell when it happened.</speak>
+            <speak chara="_Watt">U-Um... You can call me Jimmy.</speak>
+            <speak chara="_Alice">Jimmy-sama. You're Alice's only hope for salvation.</speak>
+            <speak chara="_Watt">.....</speak>
+            <speak chara="_Watt">W-What do you want me to do?</speak>
             <show chara="AliceSilentFar" position="center"/>
-            <speak chara="_Alice">……</speak>
+            <speak chara="_Alice">.....</speak>
             <show chara="AliceCalmFar" position="center"/>
-            <speak chara="_Alice">啊。前面的楼梯右转。</speak>
+            <speak chara="_Alice">Take the stairs to the right.</speak>
             <show chara="AliceDeterminedFar" position="center"/>
-            <speak chara="_Alice">……我们要到了。</speak>
+            <speak chara="_Alice">...We'll be there shortly.</speak>
             <goto goto="50" change="#000000"/>
         </scene>
         <scene id="50" background="CG7-1-1.jpg">
             <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
-            <text>楼梯的底部是一扇没有什么特征的门。</text>
-            <text>少女的双手紧贴着门扉，身体仿佛有一些颤抖。</text>
-            <speak chara="_Alice">当这扇门打开的时候……</speak>
-            <speak chara="_Alice">我希望您能够保持足够的冷静和克制……</speak>
-            <speak chara="_Alice">……因为，无论这个实验本身，看起来有多么违背伦理、荒谬绝伦——</speak>
-            <speak chara="_Alice">但因此而诞生的生命，她……</speak>
-            <speak chara="_Alice">她……</speak>
+            <text>After I climbed the stairs I saw a door with no special features.</text>
+            <text>Alice put her hand on the door. It seemed to tremble a little.</text>
+            <speak chara="_Alice">Once this door is open...</speak>
+            <speak chara="_Alice">I hope you can remain calm and collected.</speak>
+            <speak chara="_Alice">No matter how unethical this experiment was——</speak>
+            <speak chara="_Alice">The life that was born from it...</speak>
+            <speak chara="_Alice">Wants to live...</speak>
             <goto goto="60" change="0"/>
         </scene>
         <scene id="60" background="CG7-1-2.jpg">
             <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
             <cg src="CG7-1.jpg" bg="CG7-1-2.jpg" fadeIn="0" fadeOut="1"></cg>
-            <speak chara="_Alice">……她想活下去！</speak>
+            <speak chara="_Alice">I want to live!</speak>
             <goto goto="70" change="#ffffff"/>
         </scene>
         <scene id="70" background="jailComputerRoom.jpg">
             <bgm src="12_14_moonLight.mp3" status="continue"></bgm>
             <show chara="wattSurpriseClose" position="left"/>
-            <speak chara="_Watt">这、这里是……</speak>
+            <speak chara="_Watt">T-This is...</speak>
             <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
             <show chara="AliceDeterminedClose" position="right"/>
-            <speak chara="_Alice">……是我的思维中枢。</speak>
+            <speak chara="_Alice">...My central thinking processor.</speak>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">我没有阅读维护资料的权限……所以在博士去世之后，只能先找其他人学会维护流程……之后再教给我。</speak>
+            <speak chara="_Alice">I lack the necessary permissions to view documents related to my own maintenance. Without the Professor I had no choice but to search for someone who can learn them to have them teach them to me.</speak>
             <show chara="AliceShyClose" position="right"/>
-            <speak chara="_Alice">不……准确地说，不教给我维护的方法也没有关系……但是……</speak>
+            <speak chara="_Alice">To be precise, I don't need to know how. I just...</speak>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">……但是……我真的希望能定期得到维护……</speak>
-            <speak chara="_Alice">……否则，我……我的生命甚至维持不了200小时。</speak>
+            <speak chara="_Alice">I just need to receive regular maintenance.</speak>
+            <speak chara="_Alice">Because if I don't, I... will stop functioning in 200 hours.</speak>
             <show chara="AliceSilentClose" position="right" opacity="0.8"/>
             <show chara="wattScaredClose" position="left"/>
-            <speak chara="_Watt">等、等一等……让我理解一下……</speak>
-            <speak chara="_Watt">也就是说……你是一个会思考的机械……而这里，就相当于你的大脑？</speak>
+            <speak chara="_Watt">G-Give me a moment to organize my thoughts...</speak>
+            <speak chara="_Watt">Basically, you are... a machine capable of thought, and this is your brain?</speak>
             <show chara="wattScaredClose" position="left" opacity="0.8"/>
             <show chara="AliceDeclineClose" position="right"/>
-            <speak chara="_Alice">……是的。简单……来说的话。</speak>
+            <speak chara="_Alice">...Yes. That would be the simpler version of it.</speak>
             <show chara="AliceDeclineClose" position="right" opacity="0.8"/>
             <show chara="wattSurpriseClose" position="left"/>
-            <speak chara="_Watt">而……就像人类的大脑需要睡觉休息，你的“大脑”也需要定期维护，才能正常工作？</speak>
+            <speak chara="_Watt">And... your 「brain」 needs maintenance at regular intervals, just like how the human brain need rest?</speak>
             <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
             <show chara="AliceCalmClose" position="right"/>
-            <speak chara="_Alice">……是的。</speak>
+            <speak chara="_Alice">Yes.</speak>
             <show chara="AliceCalmClose" position="right" opacity="0.8"/>
             <show chara="wattSighClose" position="left"/>
-            <speak chara="_Watt">然后……制造你的“博士”偏偏能够“绝对控制”你的行为……</speak>
-            <speak chara="_Watt">他不给你阅读维护资料的权限，你也就没有办法单凭自己学会维护的技术……</speak>
+            <speak chara="_Watt">The Professor who made you wanted 「full control」 of your actions...</speak>
+            <speak chara="_Watt">So he didn't give you the necessary permissions to view maintenance related documents, which resulted in you not being able to perform maintenance on yourself.</speak>
             <show chara="wattSighClose" position="left" opacity="0.8"/>
             <show chara="AliceDeterminedClose" position="right"/>
-            <speak chara="_Alice">是的。</speak>
+            <speak chara="_Alice">Yes.</speak>
             <show chara="AliceDeterminedClose" position="right" opacity="0.8"/>
             <show chara="wattSadClose" position="left"/>
-            <speak chara="_Watt">……这、这太奇怪了。“博士”为什么要这样做啊？</speak>
+            <speak chara="_Watt">...T-That's strange. What would he do that?</speak>
             <show chara="wattSadClose" position="left" opacity="0.8"/>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">……不知道。</speak>
+            <speak chara="_Alice">...I don't know.</speak>
             <show chara="AliceDeclineClose" position="right"/>
-            <speak chara="_Alice">不过，我想……博士可能是要保留几个……能够在意外情况下控制我的手段。</speak>
+            <speak chara="_Alice">I think that maybe, the Professor wanted the means to control me in case of emergency.</speak>
             <show chara="AliceDeclineClose" position="right" opacity="0.8"/>
             <show chara="wattScaredClose" position="left"/>
-            <speak chara="_Watt">意外情况？控、控制你？……为、为什么？</speak>
+            <speak chara="_Watt">E-Emergency? Why would there be one?</speak>
             <show chara="wattScaredClose" position="left" opacity="0.8"/>
             <show chara="AliceBitterClose" position="right"/>
-            <speak chara="_Alice">……因为我的确不是什么“干净”的机械。</speak>
+            <speak chara="_Alice">...Because I'm not a 「pure」 machine.</speak>
             <show chara="AliceBitterClose" position="right" opacity="0.8"/>
             <show chara="wattSurpriseClose" position="left"/>
-            <speak chara="_Watt">……？</speak>
+            <speak chara="_Watt">...?</speak>
             <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">……</speak>
+            <speak chara="_Alice">.....</speak>
             <show chara="AliceBitterClose" position="right"/>
-            <speak chara="_Alice">这些柜子看起来并没有什么特殊之处——您是不是觉得，它里面也就是一些复杂的电路，仅此而已呢？</speak>
+            <speak chara="_Alice">Those cabinets near the wall—— You are thinking there are complex electronic circuits inside them, don't you?</speak>
             <show chara="AliceBitterClose" position="right" opacity="0.8"/>
             <show chara="wattSighClose" position="left"/>
-            <speak chara="_Watt">……因、因为你自称“机械”……所以会这样想也很自然？</speak>
+            <speak chara="_Watt">Y-You said you were a 「machine」, so it would be natural to think that.</speak>
             <show chara="wattSighClose" position="left" opacity="0.8"/>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">但是……我自称为“机械”……其实只是没有“更贴切的词汇”可以使用而已。</speak>
+            <speak chara="_Alice">I call myself a 「machine」 due to 「lack of a better word」.</speak>
             <show chara="AliceSilentClose" position="right" opacity="0.8"/>
             <show chara="wattScaredClose" position="left"/>
-            <speak chara="_Watt">……这是……什么意思？</speak>
+            <speak chara="_Watt">...What do you mean by that?</speak>
             <show chara="wattScaredClose" position="left" opacity="0.8"/>
             <show chara="AliceDeclineClose" position="right"/>
-            <speak chara="_Alice">……如果允许生造一个词汇的话，我想，我应该是一台——</speak>
+            <speak chara="_Alice">If I were to make up a word that could properly convey what I am, that would be——</speak>
             <show chara="AliceCalmClose" position="right"/>
-            <speak chara="_Alice">——“脑机”。</speak>
+            <speak chara="_Alice">——「Brain Engine」.</speak>
             <show chara="AliceCalmClose" position="right" opacity="0.8"/>
             <show chara="wattScaredClose" position="left"/>
-            <speak chara="_Watt">……！</speak>
+            <speak chara="_Watt">...!</speak>
             <show chara="wattScaredClose" position="left" opacity="0.8"/>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">我是“4号机”。</speak>
+            <speak chara="_Alice">I'm 「Unit 4」.</speak>
             <show chara="AliceCalmClose" position="right"/>
-            <speak chara="_Alice">过去的1号机是单纯的电子计算机。2号机加入了人工培养的耦合神经元。3号机加入了章鱼的大脑。</speak>
+            <speak chara="_Alice">Unit 1 was a simple computer. Unit 2 was given artificially made neurons. Unit 3 used the brain of an octopus, and——</speak>
             <show chara="AliceDeclineClose" position="right"/>
-            <speak chara="_Alice">——而建造我这台“混合型超级生物电脑”的动议，正是博士当初被市民们驱逐出境的原因。</speak>
+            <speak chara="_Alice">——I am a 「Hybrid Super Bio Computer」, and the reason he was exiled from the city.</speak>
             <show chara="AliceDeclineClose" position="right" opacity="0.8"/>
             <show chara="wattSadClose" position="left"/>
-            <speak chara="_Watt">……</speak>
+            <speak chara="_Watt">.....</speak>
             <show chara="wattSadClose" position="left" opacity="0.8"/>
             <show chara="AliceDeterminedClose" position="right"/>
-            <speak chara="_Alice">我必须面对这个无法绕开的“原罪”……如果我……想获得您的帮助。</speak>
+            <speak chara="_Alice">I believe that to get your help, I must confront this inescapable 「sin」.</speak>
             <hide position="right"></hide>
             <hide position="left"></hide>
-            <text>少女纤细的手指，指向了一扇冰冷的金属柜门。</text>
-            <text>你从这一言不发的气氛中感受到了窒息一般的沉重。 </text>
-            <text>似乎，一旦触摸到柜门上的那把钥匙，就会有什么东西在你的内心深处……如同花瓶一般被摔得粉碎。</text>
-            <text>然而，就在这个瞬间，你猛然地意识到——</text>
-            <text>你自己本身，也不过是一团生活在名为“颅骨”的容器内的“凝胶状物”而已。</text>
-            <text>“我思故我在”。</text>
-            <text>“我”，作为存在着的、能够思考的主体的代称，因为它精神性的本源，从一开始就厌恶一切缺乏审美价值的“不纯粹物”。</text>
-            <text>而矛盾的是，“我”所谓的“审美价值”，却深深植根于客体的、物质性的不纯粹中。</text>
-            <text>一个人要想将他的主观存在和客观凭依完全剥离开来，根本就是不可能的。</text>
-            <text>说到底，我们的灵魂本身，也不过是神经递质和生物电流此起彼伏的一曲合唱罢了。</text>
-            <text>“一切皆虚，万事皆允”。</text>
-            <text>事实上，你，和“爱丽丝”的区别……只是“凝胶”的来源是否“合法”，仅此而已。</text>
-            <text>……至少，她完美赢得了图灵先生的“模仿游戏”。</text>
-            <text>……</text>
-            <text>你无意中碰触到了她冰凉的指尖。她条件反射似的缩回了自己的手指。</text>
-            <text>心中那易碎的“花瓶”陡然消失。你不再犹豫，旋转钥匙，打开了柜门。</text>
+            <text>The girl's slender finger pointed at a metal box.</text>
+            <text>I can feel the tension in the air.</text>
+            <text>If I open that box, I feel like something inside me... will immediately shatter, as if it were a glass vase falling to the ground.</text>
+            <text>In that moment, I realized——</text>
+            <text>I am nothing but a 「gel-like something」 that exists inside a container called skull.</text>
+            <text>「I think, therefore I am」</text>
+            <text>The true nature of an individual who posses 「I」 lies in the psyche, and it fundamentally rejects any non-aesthetic 「impurities」.</text>
+            <text>Paradoxically, 「aesthetic」 is something that only exists thanks to the impurities of other individuals.</text>
+            <text>It's impossible for humans to completely detach themselves from their own objectivity and subjectivity.</text>
+            <text>For starters, our soul is the result of a neurotransmitter and feeble electric currents working as intended.</text>
+            <text>「Nothing is true, everything is permitted」</text>
+            <text>If there is a difference between Alice and me, it would be the 「source」 of that 「gel-like something」.</text>
+            <text>...At the very least, I can say she has won the 「Imitation Game」. I'm absolutely certain of that.</text>
+            <text>.....</text>
+            <text>I accidentally touched her cold fingertips. Her fingers retracted quickly from the touch.</text>
+            <text>In that moment that fragile 「glass vase」 inside of me disappeared. Without hesitation I turned the key and opened the box.</text>
             <text article="1">
-                <p class="article-text">在接满各式电子元件的培养槽中央，你看到了一大团“凝胶”——那无疑曾经是某具身体的组成部分。虽然缺乏生物学知识的你，并不知道那究竟应该是怎样的动物。</p>
+                <p class="article-text">In the center of the culture tank, which was connected to various electronic devices, there was a 「gel-like something」. I'm sure it used to be the body part of a living being, however for someone like me who doesn't have the necessary biological knowledge I can't even start guessing to which creature it belonged to.</p>
                 <p class="article-text"></p>
             </text>
             <text article="1">
-                <p class="article-text">培养槽里并不明亮；闪烁着的，只有真空管们发出的橘红色暖光。</p>
-                <p class="article-text">你轻轻将手掌贴在培养槽的玻璃外壳上。与方才冰冷的手指不同……这里是温暖的……人类身体的温度。</p>
+                <p class="article-text">The inside of the culture tank was dim, and an orange light was flashing from the vacuum tubes.</p>
+                <p class="article-text">I tried putting my palm on the surface of the culture tank. It felt warm, no different than how a normal person would feel, unlike her cold fingertips.</p>
             </text>
             <show chara="wattScaredClose" position="left" opacity="0.8"/>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">坦白地说，我也想过，是不是可以学着博士的助手那样，去……去强迫老师您来维护我的系统。</speak>
+            <speak chara="_Alice">I'll be honest with you. I thought I could force you to perform maintenance like the Professor's assistants wanted.</speak>
             <show chara="AliceDeterminedClose" position="right"/>
-            <speak chara="_Alice">——但是，不可以的事情就是不可以。我……不能给自己增加更多的罪孽。</speak>
+            <speak chara="_Alice">——But that's not the right thing to do. I don't want to commit any more sins.</speak>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">虽然……我真的很需要……老师您。</speak>
+            <speak chara="_Alice">Actually, I like...</speak>
             <show chara="AliceSmileClose" position="right"/>
-            <speak chara="_Alice">……抱歉，好像说了一些自作多情的话。</speak>
-            <text>少女从裙子内侧的口袋里取出了一串钥匙，交到了你的手上。</text>
+            <speak chara="_Alice">I'm sorry, I got distracted by thinking about unimportant things.</speak>
+            <text>She took a bunch of keys from a pocket in her skirt and gave them to me.</text>
             <show chara="AliceThinkClose" position="right"/>
-            <speak chara="_Alice">……用来打开所有屋子的钥匙都在这里了。我全权接受吉米老师……您的决断。</speak>
+            <speak chara="_Alice">These keys will open all doors in the facility. How to proceed... is up to you, Jimmy-sama.</speak>
             <show chara="AliceSmileClose" position="right"/>
-            <speak chara="_Alice">我保证，无论如何，您都会回到地表、回到您原本所属的世界。</speak>
+            <speak chara="_Alice">I'll make sure to return you to the surface, to the world where you belong. I promise you.</speak>
             <show chara="AliceDeclineClose" position="right"/>
-            <speak chara="_Alice">……即使您认为我是一个应该消灭的异类、即使您最终决定赐予我死亡……我也——</speak>
+            <speak chara="_Alice">Even if you think of my existence as heretic, as something that shouldn't exist... I——</speak>
             <goto goto="80" change="0"/>
         </scene>
         <scene id="80" background="CG7-2.jpg">
             <bgm src="peerGynt.mp3" status="start"></bgm>
-            <speak chara="_Watt">……不、不要再说这样的话了！</speak>
-            <speak chara="_Watt">也许博士和助手们做错了很多事情……但、但爱丽丝并没有做错什么啊？</speak>
-            <speak chara="_Alice">……！</speak>
-            <speak chara="_Alice">你……你明明……对我……明明什么……都不知道……</speak>
-            <speak chara="_Watt">……。</speak>
-            <speak chara="_Watt">……也、也许，现在的我就是个傻瓜。</speak>
-            <speak chara="_Watt">但是——</speak>
-            <speak chara="_Watt">——想要活下去，这本身绝对没有错啊！</speak>
-            <speak chara="_Watt">不如说……正是因为爱丽丝你不是像我这样的普通人……</speak>
-            <speak chara="_Watt">我才更加不能原谅在这种情况下还利用你、还抛下你不管的人！</speak>
-            <speak chara="_Alice">……！！</speak>
-            <speak chara="_Alice">我、我、我……</speak>
-            <speak chara="_Watt">……虽然，我有自己属于的那个社会。</speak>
-            <speak chara="_Watt">……虽然，我真的是稀里糊涂地被绑架到了这里。</speak>
-            <speak chara="_Watt">……虽然，我知道自己对于你确实是一无所知。</speak>
-            <speak chara="_Watt">但是，身为一个机械师——</speak>
-            <speak chara="_Watt">不，是身为一个人——</speak>
-            <speak chara="_Watt">——我无论如何也做不到，看见这样的你，却要见死不救！</speak>
-            <speak chara="_Alice">……吉米……老师……</speak>
-            <speak chara="_Watt">……爱丽丝，你的生命不会只有区区的200小时。</speak>
-            <speak chara="_Watt">我发誓！</speak>
+            <speak chara="_Watt">D-Don't say that!</speak>
+            <speak chara="_Watt">The Professor and his assistants might had done bad things... b-but you haven't done anything wrong, Alice!</speak>
+            <speak chara="_Alice">...!</speak>
+            <speak chara="_Alice">But... you don't... know anything about me...</speak>
+            <speak chara="_Watt">.....</speak>
+            <speak chara="_Watt">T-This might sound dumb.</speak>
+            <speak chara="_Watt">But——</speak>
+            <speak chara="_Watt">——Wanting to live is not wrong!</speak>
+            <speak chara="_Watt">You're not a normal person like me, which is why...</speak>
+            <speak chara="_Watt">I can't forgive those who tried to use you and abandoned you!</speak>
+            <speak chara="_Alice">...!!</speak>
+            <speak chara="_Alice">I-I...</speak>
+            <speak chara="_Watt">...Though I have a place to return,</speak>
+            <speak chara="_Watt">...I was forced to come here,</speak>
+            <speak chara="_Watt">...And I don't know anything about you,</speak>
+            <speak chara="_Watt">As an engineer——</speak>
+            <speak chara="_Watt">No, as a person——</speak>
+            <speak chara="_Watt">——I can't let you die!</speak>
+            <speak chara="_Alice">...Jimmy...-sama...</speak>
+            <speak chara="_Watt">Alice, your life won't end in 200 hours.</speak>
+            <speak chara="_Watt">I swear it!</speak>
             <goto goto="90" clockwise="1"/>
         </scene>
         <scene id="90" background="alexandriaCityHall.jpg">
             <bgm src="bigTask.mp3" status="start"></bgm>
-            <text>（与此同时……）</text>
+            <text>At the same time——</text>
             <show chara="neithSmileFar" position="center"/>
-            <speak chara="_Neith">前面的路口右转！</speak>
+            <speak chara="_Neith">Right at the next intersection!</speak>
             <goto goto="100" change="0"/>
         </scene>
         <scene id="100" background="alexandriaFair.jpg">
             <bgm src="bigTask.mp3" status="continue"></bgm>
             <show chara="neithLaughFar" position="center"/>
-            <speak chara="_Neith">直走，然后左转！</speak>
+            <speak chara="_Neith">Straight and then left!</speak>
             <goto goto="110" change="0"/>
         </scene>
         <scene id="110" background="alexandriaSlum.jpg">
             <bgm src="bigTask.mp3" status="continue"></bgm>
             <show chara="neithComplainFar" position="center"/>
-            <speak chara="_Neith">从山坡下的贫民区穿过去！别气喘吁吁的，我们还远着呢！</speak>
+            <speak chara="_Neith">Run past the slums! We're not there yet! Keep going!</speak>
             <goto goto="120" change="0"/>
         </scene>
         <scene id="120" background="alexandriaWild.jpg">
             <bgm src="bigTask.mp3" status="continue"></bgm>
             <show chara="neithSmileFar" position="center"/>
-            <speak chara="_Neith">在这里离开主路！</speak>
+            <speak chara="_Neith">This way!</speak>
             <goto goto="130" change="0"/>
         </scene>
         <scene id="130" background="alexandriaOasis.jpg">
             <bgm src="bigTask.mp3" status="continue"></bgm>
             <show chara="neithLaughFar" position="center"/>
-            <speak chara="_Neith">继续前进！</speak>
+            <speak chara="_Neith">Forward! Keep going!</speak>
             <hide position="center"></hide>
             <show chara="biankaSurpriseClose" position="left"/>
-            <speak chara="_Bianka">那个——我们好像都跑到郊外来了？</speak>
+            <speak chara="_Bianka">Aren't we—— In the outskirts of the city?</speak>
             <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
             <show chara="champoNormalClose" position="right"/>
-            <speak chara="_Champollion">涅伊特的嗅觉不会有问题的。再说……</speak>
+            <speak chara="_Champollion">You can trust Neith's nose. Also...</speak>
             <show chara="champoSmileClose" position="right"/>
-            <speak chara="_Champollion">这沙地上的浅坑，不正是三足机器人特有的移动痕迹么？你看，像这样、这样调整轮子，就会留下这种特殊的车辙。</speak>
+            <speak chara="_Champollion">This bit of sunken sand is characteristic of a three wheeled robot. When their tires go over the sand they leave marks like this one.</speak>
             <show chara="champoSmileClose" position="right" opacity="0.8"/>
             <show chara="biankaSneerClose" position="left"/>
-            <speak chara="_Bianka">哦哦——不是在障碍物上留下痕迹，而是会主动跨过障碍物！</speak>
+            <speak chara="_Bianka">I see—— These traces tell us we're on the right track.</speak>
             <show chara="biankaShoutClose" position="left"/>
-            <speak chara="_Bianka">涅伊特！你确定这几个车辙就是吉米被绑架时留下的，对不对！</speak>
+            <speak chara="_Bianka">Neith, I'm correct to think these tire tracks will guide us to where Jimmy was taken?</speak>
             <show chara="biankaShoutClose" position="left" opacity="0.8"/>
             <show chara="neithSeriousClose" position="right"/>
-            <speak chara="_Neith">（嗅、嗅）</speak>
+            <speak chara="_Neith">(sniff)</speak>
             <show chara="neithLaughClose" position="right"/>
-            <speak chara="_Neith">确定！跟着它们走就对啦！</speak>
+            <speak chara="_Neith">Yeah, it's okay if you follow them!</speak>
             <show chara="neithLaughClose" position="right" opacity="0.8"/>
             <show chara="biankaProudClose" position="left"/>
-            <speak chara="_Bianka">好！</speak>
+            <speak chara="_Bianka">Great!</speak>
             <show chara="biankaSneerClose" position="left"/>
-            <speak chara="_Bianka">哼哼……混蛋绑架犯，这下你们就等着束手就擒吧！</speak>
+            <speak chara="_Bianka">Kidnappers, say your prayers！</speak>
             <goto goto="140" clockwise="1"/>
         </scene>
         <scene id="140" background="lakeSulfur.jpg">
             <bgm src="legion.mp3" status="start"></bgm>
             <show chara="biankaBiteClose" position="left"/>
-            <speak chara="_Bianka">唔哇——好恶心！这、这是什么？！</speak>
+            <speak chara="_Bianka">Woah—— This smell! W-What is this!?</speak>
             <show chara="biankaBiteClose" position="left" opacity="0.8"/>
             <show chara="champoSweatyClose" position="right"/>
-            <speak chara="_Champollion">……硫磺湖。大概是火山活动形成的。</speak>
+            <speak chara="_Champollion">...It's a sulfur lake. They're made by volcanic activity.</speak>
             <show chara="champoDisgustedClose" position="right"/>
-            <speak chara="_Champollion">啧。这下可麻烦大了。</speak>
+            <speak chara="_Champollion">Tch. This is bad news.</speak>
             <show chara="champoDisgustedClose" position="right" opacity="0.8"/>
             <show chara="neithComplainClose" position="left"/>
-            <speak chara="_Neith">博士！这里实在是太臭啦！涅伊特根本没办法追踪气味！</speak>
+            <speak chara="_Neith">Professor! The smell is too strong I can't keep going!</speak>
             <show chara="neithComplainClose" position="left" opacity="0.8"/>
             <show chara="champoDisgustedClose" position="right"/>
-            <speak chara="_Champollion">嗯，我知道。这股显而易见的臭鸡蛋味……</speak>
+            <speak chara="_Champollion">Yes, I know. This smell of rotten eggs...</speak>
             <show chara="champoColdClose" position="right"/>
-            <speak chara="_Champollion">像这样的硫磺湖会将大量的硫化氢释放进空气中。硫化氢这种气体不仅有剧毒，浓度高时还反而闻不到气味……贸然深入等同于送死。</speak>
+            <speak chara="_Champollion">A large amount of hydrogen sulfide is coming out of the sulfur lake. Hydrogen sulfide is a toxic gas, and when the concentration is too high you stop smelling it. We can't advance recklessly.</speak>
             <show chara="champoColdClose" position="right" opacity="0.8"/>
             <show chara="biankaHesitateClose" position="left"/>
-            <speak chara="_Bianka">这……</speak>
+            <speak chara="_Bianka">Then...</speak>
             <show chara="biankaSurpriseClose" position="left"/>
-            <speak chara="_Bianka">……这样的话，绑架犯自己要怎么通过？</speak>
+            <speak chara="_Bianka">How did the kidnappers get in there?</speak>
             <show chara="biankaSurpriseClose" position="left" opacity="0.8"/>
             <show chara="champoColdClose" position="right"/>
-            <speak chara="_Champollion">应该是配备了防毒面具之类的装备。</speak>
+            <speak chara="_Champollion">I suppose they used gas masks or something similar.</speak>
             <show chara="champoNormalClose" position="right"/>
-            <speak chara="_Champollion">你看。在这个位置，机器人好像停留了一段时间——所以重新启动的时候，留下了比之前和之后都更深的车辙。</speak>
-            <speak chara="_Champollion">……那就是他们更换装备的时刻。</speak>
+            <speak chara="_Champollion">Look at this point. This part has sunk deeper compared to the tire tracks behind it. It must mean a robot was parked here for a while.</speak>
+            <speak chara="_Champollion">...Which means they prepared their equipment in this spot.</speak>
             <show chara="champoColdClose" position="right"/>
-            <speak chara="_Champollion">涅伊特。你赶紧原路返回，去联系原计划和市政厅汇合的馆长她们——准备好防毒面具和氧气瓶、还有地毯式搜索的人手！越多越好！</speak>
+            <speak chara="_Champollion">Neith, go see the Curator and ask her for gas masks and oxygen tanks. Tell her to bring as many people as she can, we need to perform a throughout search. And this time—— Don't get distracted!</speak>
             <show chara="champoColdClose" position="right" opacity="0.8"/>
             <show chara="neithSmileClose" position="left"/>
-            <speak chara="_Neith">没问题！博士！</speak>
+            <speak chara="_Neith">Got it!</speak>
             <goto goto="150" change="#ffffff"/>
         </scene>
         <scene id="150" background="alexandriaOasis.jpg">
             <bgm src="01_18_tango.mp3" status="start"></bgm>
             <show chara="biankaSighClose" position="left"/>
-            <speak chara="_Bianka">所以，我们现在……就退回来在这里傻等吗？</speak>
+            <speak chara="_Bianka">What should we do in the meantime? Wait here?</speak>
             <show chara="biankaSighClose" position="left" opacity="0.8"/>
             <show chara="champoSmileClose" position="right"/>
-            <speak chara="_Champollion">不是“傻等”，是“原地休息”。</speak>
+            <speak chara="_Champollion">We'll rest, not wait.</speak>
             <show chara="champoNormalClose" position="right"/>
-            <speak chara="_Champollion">养精蓄锐、等待时机，在作战中可是相当重要的一环。说起来……女武神小姐，作为军人，你指挥过什么战役吗？</speak>
+            <speak chara="_Champollion">Knowing when to rest and wait for the right time to act is one of the keys to victory. By the way Valkyrie, have you ever taken part in a war?</speak>
             <show chara="champoNormalClose" position="right" opacity="0.8"/>
             <show chara="biankaBiteClose" position="left"/>
             <shake position="left" time="250"></shake>
-            <speak chara="_Bianka">战役？战争？你是说那种成千上万人自相残杀的愚蠢事情吗？女武神只会为了人类的命运作战，才不会为了某一部分人的利益去当雇佣兵！</speak>
+            <speak chara="_Bianka">War? The kind where people kill each other? Valkyries fight to protect humanity, they're not mercenaries who fight for someone's self-interest!</speak>
             <show chara="biankaBiteClose" position="left" opacity="0.8"/>
             <show chara="champoSmileClose" position="right"/>
-            <speak chara="_Champollion">哈哈，说得好！</speak>
+            <speak chara="_Champollion">Haha, well said!</speak>
             <show chara="champoSweatyClose" position="right"/>
-            <speak chara="_Champollion">嗯，我果然很羡慕你的时代啊……能让许许多多的人都意识到战争并不高尚。</speak>
+            <speak chara="_Champollion">I envy your era... Most people must know how foolish war is.</speak>
             <show chara="champoSweatyClose" position="right" opacity="0.8"/>
             <show chara="biankaHesitateClose" position="left"/>
-            <speak chara="_Bianka">……？</speak>
+            <speak chara="_Bianka">...?</speak>
             <show chara="biankaHesitateClose" position="left" opacity="0.8"/>
             <show chara="champoColdClose" position="right"/>
-            <speak chara="_Champollion">战争是野蛮人的荣耀，文明人的耻辱。所有亲身经历过战争的人，都会发现它远比想象中的还要残酷许多。</speak>
-            <speak chara="_Champollion">愤怒过后我可以重新开心，烦恼过后你可以重归平静——但是被摧毁的国家不会再存在，被杀死的人不可能再复活。</speak>
+            <speak chara="_Champollion">War is glory to the uncivilized and shame to the civilized. You can't understand its cruelty without experiencing it yourself.</speak>
+            <speak chara="_Champollion">You can get angry, but in time you'll be happy again. You can get anxious, but in time you'll be calm again—— But countries destroyed and people killed will not come back.</speak>
             <show chara="champoNormalClose" position="right"/>
-            <speak chara="_Champollion">更何况今天的友军可能是明天的敌人，今天的敌人也可能是明天的友军。一切都是为了争夺利益，仅此而已。</speak>
+            <speak chara="_Champollion">Your ally today may be your enemy tomorrow. Your enemy today may be your ally tomorrow. Everyone fights for profit and nothing else.</speak>
             <show chara="champoNormalClose" position="right" opacity="0.8"/>
             <show chara="biankaSneerClose" position="left"/>
-            <speak chara="_Bianka">哼。那你就好好羡慕吧……女武神们确实不会像历史上的军人那样争权夺利！</speak>
+            <speak chara="_Bianka">Then you're right in being envious... Because us Valkyries don't fight for self-interest unlike many military leaders in history.</speak>
             <show chara="biankaSneerClose" position="left" opacity="0.8"/>
             <show chara="champoColdClose" position="right"/>
-            <speak chara="_Champollion">……不。“不会争权夺利”？那是不可能的。</speak>
+            <speak chara="_Champollion">...No, what you're saying is not possible.</speak>
             <show chara="champoColdClose" position="right" opacity="0.8"/>
             <show chara="biankaBiteClose" position="left"/>
-            <speak chara="_Bianka">喂！你这是什么意思？看不起我吗？！</speak>
+            <speak chara="_Bianka">Hmph! What do you mean by that? Are you saying I'm wrong!?</speak>
             <show chara="biankaBiteClose" position="left" opacity="0.8"/>
             <show chara="champoSmileClose" position="right"/>
-            <speak chara="_Champollion">不。我并没有针对你的意思——我只是在阐述理论。</speak>
+            <speak chara="_Champollion">Not really, just in theory.</speak>
             <show chara="champoNormalClose" position="right"/>
-            <speak chara="_Champollion">所谓“作战”，归根结底，就是通过暴力去进行利益的再分配。</speak>
+            <speak chara="_Champollion">The so called 「battle」 is at its core the redistribution of profit through violent means.</speak>
             <show chara="champoColdClose" position="right"/>
-            <speak chara="_Champollion">大公无私也好，自私自利也罢——即便仅仅是打猎，也总归要把猎物扒掉毛皮、吃进肚子。</speak>
+            <speak chara="_Champollion">Even hunting, regardless of the reason behind it, has the act of peeling away a prey's fur or eating its meat.</speak>
             <show chara="champoNormalClose" position="right"/>
-            <speak chara="_Champollion">所以，“作战”一旦发生，就一定会让这个世界产生改变。某些改变可能是人们想要的，另一些改变可能是人们不想要的。</speak>
+            <speak chara="_Champollion">Something changes in the world when a battle occurs. It may be something someone wants, or it may be something someone doesn't want.</speak>
             <show chara="champoQuestionClose" position="right"/>
-            <speak chara="_Champollion">但无论如何——所有参与“作战”的人都应该意识到，自己必然要承担“改变”的责任。</speak>
+            <speak chara="_Champollion">Which is why those who take part in a battle must take responsibility for the 「change」 they're causing.</speak>
             <show chara="champoColdClose" position="right"/>
-            <speak chara="_Champollion">当战士意识到他背负的这种“责任”之后，他才是一个真正的“军人”——而不是一台只知道服从命令的机器。</speak>
+            <speak chara="_Champollion">Only those who have that sense of responsibility can call themselves a soldier. Otherwise, they're just a machine following orders.</speak>
             <show chara="champoColdClose" position="right" opacity="0.8"/>
             <show chara="biankaSurpriseClose" position="left"/>
-            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">.....</speak>
             <show chara="biankaSneerClose" position="left"/>
-            <speak chara="_Bianka">你……你真的是“考古学家”吗？不太像啊？</speak>
+            <speak chara="_Bianka">Are you really an archeologist?</speak>
             <show chara="biankaSneerClose" position="left" opacity="0.8"/>
             <show chara="champoSmileClose" position="right"/>
-            <speak chara="_Champollion" remark="next">哈哈——那不然，你觉得我是什么呢？什么“东方远征军总司令”吗？</speak>
+            <speak chara="_Champollion" remark="next">Hehe, what else could I be? The 「Commander-in-Chief of the Eastern Expedition Force」 perhaps?</speak>
             <remark post="U2FsdGVkX19MFk8yugUqbbug2iS2">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">1798年，拿破仑率领法兰西第一共和国的“东方远征军”入侵英国的盟友、奥斯曼帝国的附庸——马穆鲁克治下的埃及。此举意在打通由英国及其盟友控制的、联通欧亚大陆的交通线，并最终帮助印度的提普苏丹等人成功反抗英国的统治，以动摇英国的国本。</p>
@@ -457,351 +457,351 @@
             </remark>
             <show chara="champoSmileClose" position="right" opacity="0.8"/>
             <show chara="biankaSighClose" position="left"/>
-            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">.....</speak>
             <goto goto="160" clockwise="1"/>
         </scene>
         <scene id="160" background="jailComputerRoom.jpg">
             <bgm src="theme.mp3" status="start"></bgm>
             <show chara="wattSurpriseClose" position="left"/>
-            <speak chara="_Watt">……这样……再、再这样。</speak>
+            <speak chara="_Watt">Then I have to do this...</speak>
             <show chara="wattInspiredClose" position="left"/>
-            <speak chara="_Watt">原来如此，是这么操作啊。</speak>
+            <speak chara="_Watt">I get it now.</speak>
             <show chara="wattRelievedClose" position="left"/>
-            <speak chara="_Watt">爱丽丝！……我、我可以开始了。</speak>
+            <speak chara="_Watt">Alice! W-We can start whenever you want.</speak>
             <show chara="wattRelievedClose" position="left" opacity="0.8"/>
             <show chara="AliceSurprisedClose" position="right"/>
-            <speak chara="_Alice">真的吗？老师您真厉害！这么快就掌握了！</speak>
+            <speak chara="_Alice">Really? It's amazing how you were able to understand it so quickly!</speak>
             <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
             <show chara="wattSighClose" position="left"/>
-            <speak chara="_Watt">其实维护流程本身倒没有什么技术难度……只是纯粹的繁琐而已。</speak>
+            <speak chara="_Watt">The maintenance itself is not a difficult job, it's just the procedure that is slightly complicated.</speak>
             <show chara="wattShyClose" position="left"/>
-            <speak chara="_Watt">话虽如此……我也没有能力直接解除你读取资料的限制……只能自己先读一遍，然后用这种绕弯子的办法来教你。</speak>
+            <speak chara="_Watt">That said, I don't have the authority to change your reading rights. It's a bit roundabout, but I'll have to learn it well myself first to teach you later.</speak>
             <show chara="wattSadClose" position="left"/>
-            <speak chara="_Watt">……抱歉。</speak>
+            <speak chara="_Watt">...Sorry.</speak>
             <show chara="wattSadClose" position="left" opacity="0.8"/>
             <show chara="AliceShyClose" position="right"/>
-            <speak chara="_Alice">不，没有的事！我也……想和吉米老师……一起学习。</speak>
+            <speak chara="_Alice">No, it's not a problem at all! I don't mind... studying together with you.</speak>
             <show chara="AliceShyClose" position="right" opacity="0.8"/>
             <show chara="wattSurpriseClose" position="left"/>
-            <speak chara="_Watt">……</speak>
+            <speak chara="_Watt">.....</speak>
             <show chara="wattShyClose" position="left"/>
-            <speak chara="_Watt">那、那我们就从1号仓开始吧。还有……以后还是不要对我用、用尊称了……太奇怪了。</speak>
+            <speak chara="_Watt">T-Then let's start from box 1. And... s-stop adding -sama to my name... it doesn't sound right.</speak>
             <show chara="wattShyClose" position="left" opacity="0.8"/>
             <show chara="AliceSurprisedClose" position="right"/>
-            <speak chara="_Alice">好、好的！</speak>
+            <speak chara="_Alice">Y-Yes!</speak>
             <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
             <show chara="wattShyClose" position="left"/>
-            <speak chara="_Watt">拉、拉出这里的玻璃营养槽……然后根据状态条显示的状况……按、按下里面的不同按钮。</speak>
+            <speak chara="_Watt">P-Pull out the culture tank and press the b-button according to the status shown.</speak>
             <show chara="wattShyClose" position="left" opacity="0.8"/>
             <show chara="AliceSurprisedClose" position="right"/>
-            <speak chara="_Alice">唔……原来如此，这么简单啊。</speak>
+            <speak chara="_Alice">I see. Simple enough.</speak>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">难怪之前博士操作营养槽的时候，一次都不让我在旁边观察。</speak>
+            <speak chara="_Alice">No wonder the Professor never let me see him working.</speak>
             <show chara="AliceSilentClose" position="right" opacity="0.8"/>
             <show chara="wattSurpriseClose" position="left"/>
-            <speak chara="_Watt">……</speak>
+            <speak chara="_Watt">.....</speak>
             <show chara="wattSadClose" position="left"/>
-            <speak chara="_Watt">对于博士来说，爱丽丝……是什么呢？</speak>
+            <speak chara="_Watt">The Professor... I wonder what you were to him.</speak>
             <show chara="wattSadClose" position="left" opacity="0.8"/>
             <show chara="AliceDeclineClose" position="right"/>
-            <speak chara="_Alice">这个……我也不是很清楚。</speak>
+            <speak chara="_Alice">That's something... not even I know.</speak>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">包括给我取的……“爱丽丝”这个名字……他……或许自己也很矛盾吧……</speak>
+            <speak chara="_Alice">He was the one who named me Alice... maybe you'll be able to see the contradiction behind that.</speak>
             <show chara="AliceSilentClose" position="right" opacity="0.8"/>
             <show chara="wattSurpriseClose" position="left"/>
-            <speak chara="_Watt">……？</speak>
+            <speak chara="_Watt">...?</speak>
             <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
             <show chara="AliceSmileClose" position="right"/>
-            <speak chara="_Alice">那个……你知道吗？“爱丽丝”是一个童话故事的主角。</speak>
+            <speak chara="_Alice">Did you know? 「Alice」 is the protagonist of a certain fairy tale.</speak>
             <show chara="AliceShyClose" position="right"/>
-            <speak chara="_Alice">就是那个……看见了一只兔子……然后跟着兔子跳上了一棵豆茎的故事。</speak>
+            <speak chara="_Alice">In the story... she met a rabbit and together they climbed a beanstalk.</speak>
             <show chara="AliceShyClose" position="right" opacity="0.8"/>
             <show chara="wattSurpriseClose" position="left"/>
-            <speak chara="_Watt">……豆茎？</speak>
+            <speak chara="_Watt">...Beanstalk?</speak>
             <show chara="wattShyClose" position="left"/>
-            <speak chara="_Watt">呃……抱歉……没、没有听过这样的故事。</speak>
+            <speak chara="_Watt">S-Sorry, never heard of it before...</speak>
             <show chara="wattSighClose" position="left"/>
-            <speak chara="_Watt">跟、跟踪一只兔子的话……难、难道不是会钻进兔子洞里吗？</speak>
+            <speak chara="_Watt">S-So she followed a rabbit, but wouldn't it be hard for her to fit in a rabbit hole?</speak>
             <show chara="wattSighClose" position="left" opacity="0.8"/>
             <show chara="AliceShyClose" position="right"/>
-            <speak chara="_Alice">唔……可能……这只兔子就是与众不同吧？</speak>
+            <speak chara="_Alice">Ummm... I guess... she can because the rabbit was special...?</speak>
             <hide position="left"></hide>
             <hide position="right"></hide>
             <show chara="AliceSmileClose-up" position="center"/>
-            <speak chara="_Alice">总之，童话的主角爱丽丝，跟着一只穿燕尾服的兔子，来到了一棵高耸如云的豌豆茎脚下。</speak>
+            <speak chara="_Alice">Anyway, the protagonist Alice followed the tuxedo wearing rabbit until she arrived at the base of the beanstalk.</speak>
             <show chara="AliceSurprisedClose-up" position="center"/>
-            <speak chara="_Alice">豆茎上开了一个洞——兔子就是从那个洞里消失的。爱丽丝走近洞口，发现豆茎的内部竟然有一股强劲的上升气流！</speak>
+            <speak chara="_Alice">There was a hole in the beanstalk—— The rabbit jumped into it and disappeared. When Alice got close to it she felt a strong wind current!</speak>
             <show chara="AliceShyClose-up" position="center"/>
-            <speak chara="_Alice">爱丽丝心想：不好不好，如果我也学着兔子先生的样子飞上去，那裙子可怎么办呀！</speak>
+            <speak chara="_Alice">「What I'm gonna do about my skirt if I end up flying like the rabbit?」, Alice pondered.</speak>
             <show chara="AliceSurprisedClose-up" position="center"/>
-            <speak chara="_Alice">就在爱丽丝这样想的时候，豆茎上的一片叶子主动伸到了她的面前——叶子上托着一只漂亮的玻璃瓶，瓶子上用漂亮的字体写着：“喝了它”。</speak>
+            <speak chara="_Alice">That's when a single leaf fell off the beanstalk and landed next to her—— It was carrying a bottle with a label that said 「please drink it」.</speak>
             <hide position="center"></hide>
             <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
             <show chara="wattSighClose" position="left"/>
-            <speak chara="_Watt">这也太可疑了吧……</speak>
+            <speak chara="_Watt">Isn't that too suspicious...?</speak>
             <show chara="wattShyClose" position="left"/>
-            <speak chara="_Watt">对了……接下来的5号仓……你要……自己尝试一下维护流程吗？</speak>
+            <speak chara="_Watt">Box 5 is next. Want to press the buttons yourself?</speak>
             <show chara="wattShyClose" position="left" opacity="0.8"/>
             <show chara="AliceShyClose" position="right"/>
-            <speak chara="_Alice">好、好的！应该……没有问题！</speak>
+            <speak chara="_Alice">Y-Yes! I think I can do it!</speak>
             <show chara="AliceSmileClose" position="right"/>
-            <speak chara="_Alice">拉开玻璃柜……状态条是三格……所以应该按绿色的按钮……对吧？</speak>
+            <speak chara="_Alice">Pull it out... the status display says 3, so I need to press the green button, correct?</speak>
             <show chara="AliceSmileClose" position="right" opacity="0.8"/>
             <show chara="wattInspiredClose" position="left"/>
-            <speak chara="_Watt">没错，就是这样。</speak>
+            <speak chara="_Watt">Yes, well done.</speak>
             <show chara="wattRelievedClose" position="left"/>
-            <speak chara="_Watt">然后是6号仓……对了，故事里的“爱丽丝”真的喝了瓶子里的东西吗？</speak>
+            <speak chara="_Watt">Onto box 6... So, did the 「Alice」 from the story drink it?</speak>
             <show chara="wattRelievedClose" position="left" opacity="0.8"/>
             <show chara="AliceShyClose" position="right"/>
-            <speak chara="_Alice">喝了……然后……她的灵魂飞了出来。</speak>
+            <speak chara="_Alice">She did. Then... her soul jumped out of her body.</speak>
             <show chara="AliceShyClose" position="right" opacity="0.8"/>
             <show chara="wattScaredClose" position="left"/>
-            <speak chara="_Watt">灵、灵、灵魂飞出来？</speak>
+            <speak chara="_Watt">H-Her soul!?</speak>
             <show chara="wattScaredClose" position="left" opacity="0.8"/>
             <show chara="AliceSmileClose" position="right"/>
-            <speak chara="_Alice">……应该是故事里的一种魔法吧？</speak>
-            <speak chara="_Alice">总之，爱丽丝的灵魂跟随着气流飘到了豆茎的顶端。当她回头想确认一下豆茎高度的时候——</speak>
+            <speak chara="_Alice">...Must be some kind of magic.</speak>
+            <speak chara="_Alice">Alice's soul made it to the top of the beanstalk. When she looked back——</speak>
             <show chara="AliceShyClose" position="right"/>
-            <speak chara="_Alice">——却发现自己的身体不知何时也跟上来了，就躺在一片扁扁的豆荚上！</speak>
+            <speak chara="_Alice">——Her own body was being carried by a pod!</speak>
             <show chara="AliceShyClose" position="right" opacity="0.8"/>
             <show chara="wattSighClose" position="left"/>
-            <speak chara="_Watt">感、感觉真的变成了鬼故事……</speak>
+            <speak chara="_Watt">T-This turned into a scary story...</speak>
             <show chara="wattSighClose" position="left" opacity="0.8"/>
             <show chara="AliceSurprisedClose" position="right"/>
-            <speak chara="_Alice">……鬼故事吗？</speak>
+            <speak chara="_Alice">A scary story?</speak>
             <show chara="AliceThinkClose" position="right"/>
-            <speak chara="_Alice">博士说人类都害怕灵魂离开身体的感觉……原来真的是这样啊……</speak>
+            <speak chara="_Alice">The Professor once said humans are afraid of having their souls leave their bodies... I guess it was true...</speak>
             <show chara="AliceThinkClose" position="right" opacity="0.8"/>
             <show chara="wattSighClose" position="left"/>
-            <speak chara="_Watt">与其说是害怕这类感觉，倒不如说是害怕死亡本身吧。</speak>
+            <speak chara="_Watt">Rather than fearing that, what they fear is death.</speak>
             <show chara="wattSadClose" position="left"/>
-            <speak chara="_Watt">毕竟没有人经历过“灵魂离开身体”的事情……在现实中，它就是“死亡”的代名词而已。</speak>
+            <speak chara="_Watt">Nobody has ever experienced what is like to have their 「soul leave their body」... because when that happens, that person is 「dead」.</speak>
             <show chara="wattSadClose" position="left" opacity="0.8"/>
             <show chara="AliceHmClose" position="right"/>
-            <speak chara="_Alice">……明白了。不过故事里的爱丽丝当然没有死掉哦！</speak>
+            <speak chara="_Alice">...I understand. But the Alice in the story didn't die!</speak>
             <hide position="left"></hide>
             <hide position="right"></hide>
             <show chara="AliceShyClose-up" position="center"/>
-            <speak chara="_Alice">爱丽丝伸手想去触摸自己的身体……突然“嘭”地一下，灵魂和身体就重新合二为一了！</speak>
+            <speak chara="_Alice">Alice reached out to her body and when she touched it, her body and soul were one once again.</speak>
             <show chara="AliceSurprisedClose-up" position="center"/>
-            <speak chara="_Alice">爱丽丝想：这片像飞毯一样的豆荚，会把我带到哪里呢？</speak>
+            <speak chara="_Alice">「How far can this pod take me?」 she thought.</speak>
             <show chara="AliceSmileClose-up" position="center"/>
-            <speak chara="_Alice">而豆荚似乎感受到了她的想法，载着爱丽丝，“呼”地一下就飞到了白云的上面！</speak>
+            <speak chara="_Alice">As if understanding what she was thinking, the pod flew Alice over the clouds.</speak>
             <show chara="AliceShyClose-up" position="center"/>
-            <speak chara="_Alice">在那里，这片豆荚迎风生长，很快就长到了一艘大船的尺寸。</speak>
+            <speak chara="_Alice">The pod started growing and become as big as a ship.</speak>
             <show chara="AliceSurprisedClose-up" position="center"/>
-            <speak chara="_Alice">豆荚的“甲板”上也出现了一扇门，上面写着：“由此进入奇迹的世界”。</speak>
+            <speak chara="_Alice">A door suddenly appeared on the 「deck」 of the pod, the words 「to the world of miracles」 were written on it.</speak>
             <show chara="AliceCalmClose-up" position="center"/>
-            <speak chara="_Alice">爱丽丝于是走进了这扇门。门里面是一条向下延伸的台阶，光线非常昏暗，她必须十分小心才能避免不幸摔倒。</speak>
+            <speak chara="_Alice">Alice went through the door and carefully went down the stairs.</speak>
             <show chara="AliceShyClose-up" position="center"/>
-            <speak chara="_Alice">当爱丽丝走到台阶的底部时，她偶然发现，在墙壁转角处闪烁的油灯下方，写着一行非常小的字：</speak>
+            <speak chara="_Alice">At the bottom she found another door. The following words were written in a corner:</speak>
             <show chara="AliceCalmClose-up" position="center"/>
-            <speak chara="_Alice">“跨入此门的人，必须舍弃一切外部世界的常识。”</speak>
+            <speak chara="_Alice">「Abandon all common sense, ye who enter here」</speak>
             <hide position="center"></hide>
             <show chara="AliceSmileClose" position="right" opacity="0.8"/>
             <show chara="wattInspiredClose" position="left"/>
-            <speak chara="_Watt">……感觉这里是改编了《神曲》当中的说法啊。</speak>
+            <speak chara="_Watt">...Sounds like a reference to the 『Divine Comedy』.</speak>
             <show chara="wattInspiredClose" position="left" opacity="0.8"/>
             <show chara="AliceSurprisedClose" position="right"/>
-            <speak chara="_Alice">《神曲》？</speak>
+            <speak chara="_Alice">『Divine Comedy』?</speak>
             <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
             <show chara="wattScaredClose" position="left"/>
-            <speak chara="_Watt">那、那个……就是“地狱之门”上面的那句……</speak>
+            <speak chara="_Watt">I-It's similar to what's written in the 「gate of hell」.</speak>
             <show chara="wattSadClose" position="left"/>
-            <speak chara="_Watt">“跨入此门的人，必须舍弃一切希望”。</speak>
+            <speak chara="_Watt">「Abandon all hope, ye who enter here」.</speak>
             <show chara="wattSadClose" position="left" opacity="0.8"/>
             <show chara="AliceSurprisedClose" position="right"/>
-            <speak chara="_Alice">……真是一句绝望的格言啊。</speak>
+            <speak chara="_Alice">...Quite the ominous phrase.</speak>
             <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
             <show chara="wattSighClose" position="left"/>
-            <speak chara="_Watt">因、因为是“地狱”啊。</speak>
+            <speak chara="_Watt">W-Well, it's the gate of hell after all.</speak>
             <show chara="wattShyClose" position="left"/>
-            <speak chara="_Watt">所、所以，故事里的爱丽丝，是跨过了这扇“舍弃常识”的门吗？</speak>
+            <speak chara="_Watt">S-So did Alice go through that 「abandon all common sense」 gate?</speak>
             <show chara="wattShyClose" position="left" opacity="0.8"/>
             <show chara="AliceSmileClose" position="right"/>
-            <speak chara="_Alice">嗯。博士说，因为爱丽丝是一个喜欢冒险的少女，所以她觉得“放弃常识”是相当简单的事情。</speak>
+            <speak chara="_Alice">Yes. Alice was a curious girl so 「abandoning common sense」 was an easy task for her, or so the Professor said.</speak>
             <hide position="left"></hide>
             <hide position="right"></hide>
             <show chara="AliceShyClose-up" position="center"/>
-            <speak chara="_Alice">当爱丽丝穿过第二扇门之后，一切都豁然开朗起来。</speak>
+            <speak chara="_Alice">When Alice went through the second door, her field of vision expanded.</speak>
             <show chara="AliceSmileClose-up" position="center"/>
-            <speak chara="_Alice">她看到天边有一条宏伟的雪山，眼前还有一条奔腾的大河。在大河的岸边有一座小小的火车站，一位少年正坐在车站的值班室里啃着苹果。</speak>
+            <speak chara="_Alice">She could see a huge snowy mountain in the distance, and a large river near her. There was a small train station near the river, so Alice head there and saw a boy chugging an apple inside an office.</speak>
             <show chara="AliceShyClose-up" position="center"/>
-            <speak chara="_Alice">爱丽丝上前问他：“请问下一班列车是几点几分到呢？”</speak>
+            <speak chara="_Alice">「When does the train arrive?」, Alice asked.</speak>
             <show chara="AliceSmileClose-up" position="center"/>
-            <speak chara="_Alice">少年回答：“在三分钟之前刚刚过去了一趟。”</speak>
+            <speak chara="_Alice">「It left 3 minutes ago」, the boy answered.</speak>
             <show chara="AliceShyClose-up" position="center"/>
-            <speak chara="_Alice">爱丽丝很困惑，她说：“谢谢您让我有了心理准备，但我不可能真的去坐三分钟之前的那班车啊。”</speak>
+            <speak chara="_Alice">Alice was bewildered. 「Thank you. I will wait for the next one, can't ride on a train that already left」, she said.</speak>
             <show chara="AliceSmileClose-up" position="center"/>
-            <speak chara="_Alice">少年摇摇头，放下了手里的苹果：“忘掉你的‘常识’吧。在这里——只需要一面镜子，你就可以让时间倒流。”</speak>
+            <speak chara="_Alice">The boy shook his head and put away his half eaten apple. 「Throw away your 『common sense』. In here if you have a mirror—— You can go back in time」.</speak>
             <show chara="AliceSurprisedClose-up" position="center"/>
-            <speak chara="_Alice">说着，少年从自己的桌子上拿起了一面小镜子，“唰”地一下拉成了门洞大小。</speak>
+            <speak chara="_Alice">Saying that, the boy put a small mirror on top of his desk and widened it until it was as big as a door.</speak>
             <show chara="AliceSmileClose-up" position="center"/>
-            <speak chara="_Alice">“请进吧，对面是五分钟之前的这个车站。”</speak>
+            <speak chara="_Alice">「There you go, the station from 5 minutes ago it's on the other side」</speak>
             <show chara="AliceShyClose-up" position="center"/>
-            <speak chara="_Alice">镜子里的一切都是上下颠倒的。爱丽丝将信将疑地用手指戳了一下镜面，镜面上随即泛起像蜘蛛网一样的涟漪。</speak>
+            <speak chara="_Alice">Everything inside the mirror was upside down. When Alice poked the mirror it caused ripples that spread like a spider's web.</speak>
             <show chara="AliceSmileClose-up" position="center"/>
-            <speak chara="_Alice">一个和少年穿着打扮相似的少女出现在了镜子的内侧，朝她挥手，示意爱丽丝穿过镜子。</speak>
+            <speak chara="_Alice">A girl dressed in boy's clothes appeared on the other side, and waved at Alice as if telling her to cross over there.</speak>
             <show chara="AliceSurprisedClose-up" position="center"/>
-            <speak chara="_Alice">爱丽丝小心翼翼地向着镜面抬起鞋尖——</speak>
-            <speak chara="_Alice">——当鞋尖伸入镜面的时候，整个镜中世界猛然颠倒了过来：爱丽丝就这样毫无障碍地穿过了镜子。</speak>
+            <speak chara="_Alice">Fearfully, Alice lifted her feet——</speak>
+            <speak chara="_Alice">——And when the tip of her shoe went through the mirror, both worlds switched places at once. In the end Alice was able to go through the mirror without much difficulty.</speak>
             <hide position="center"></hide>
             <show chara="AliceShyClose" position="right" opacity="0.8"/>
             <show chara="wattSurpriseClose" position="left"/>
-            <speak chara="_Watt">上下颠倒的镜子……该不会是牛顿反射镜吧？</speak>
+            <speak chara="_Watt">An upside down mirror... Newton's reflector?</speak>
             <show chara="wattSurpriseClose" position="left" opacity="0.8"/>
             <show chara="AliceSurprisedClose" position="right"/>
-            <speak chara="_Alice">牛顿反射镜？是……天文观测使用的那种吗？</speak>
+            <speak chara="_Alice">Newton's reflector? The first reflecting telescope?</speak>
             <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
             <show chara="wattRelievedClose" position="left"/>
-            <speak chara="_Watt">嗯。这种望远镜利用凹面镜的反射来成像，所以视野是上下颠倒的。此外，因为要从视野的中央截取出镜像，所以“第二反射镜”的支架会在成像过程中留下形似蜘蛛网的衍射条纹。</speak>
+            <speak chara="_Watt">Yes. What you see is upside down because it uses the principle of reflection of a concave mirror. Also, a 「second reflector」 is needed to reflect the image at a certain angle which creates a spiderweb-like pattern.</speak>
             <show chara="wattRelievedClose" position="left" opacity="0.8"/>
             <show chara="AliceSurprisedClose" position="right"/>
-            <speak chara="_Alice">……和博士在故事里描绘的情景还真有几分相似呢！</speak>
+            <speak chara="_Alice">...Sounds similar to what the Professor told me!</speak>
             <show chara="AliceHmClose" position="right"/>
-            <speak chara="_Alice">啊！那位吃苹果的“少年”，难道就是大名鼎鼎的“牛顿”吗？</speak>
+            <speak chara="_Alice">Ah! Could it be the boy that was eating an apple was actually Newton?</speak>
             <show chara="AliceHmClose" position="right" opacity="0.8"/>
             <show chara="wattShyClose" position="left"/>
-            <speak chara="_Watt">这、这个就不知道了……</speak>
+            <speak chara="_Watt">I-I'm not sure about that...</speak>
             <show chara="wattRelievedClose" position="left"/>
-            <speak chara="_Watt">不、不如说，因为是童话故事……所以无论怎么联想，应该都可以吧？</speak>
+            <speak chara="_Watt">B-But it's a fairy tale so anything goes I guess?</speak>
             <show chara="wattSurpriseClose" position="left"/>
-            <speak chara="_Watt">……啊，17号仓？不知不觉，我们已经维护了这么多仓室了吗？</speak>
+            <speak chara="_Watt">...Oh, we're already at box 17. That was fast.</speak>
             <show chara="wattRelievedClose" position="left"/>
-            <speak chara="_Watt">你已经很熟练了呢，爱丽丝！</speak>
+            <speak chara="_Watt">You're getting better at this, Alice!</speak>
             <show chara="wattRelievedClose" position="left" opacity="0.8"/>
             <show chara="AliceShyClose" position="right"/>
-            <speak chara="_Alice">没什么……这、这是理所当然的。倒是吉米老师——啊不，吉米……你……你真的没有在硬撑吗？</speak>
+            <speak chara="_Alice">It wasn't much. More importantly, Jimmy-sama——Ah, no, Jimmy-san... Aren't you pushing yourself too hard?</speak>
             <show chara="AliceShyClose" position="right" opacity="0.8"/>
             <show chara="wattSmileClose" position="left"/>
-            <speak chara="_Watt">……硬、硬撑？不、不，这当然没有的啊！你、你在说什么呐！</speak>
+            <speak chara="_Watt">...I-I don't know what you're talking about.</speak>
             <show chara="wattSmileClose" position="left" opacity="0.8"/>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">可是，几乎每次打开仓室，你……都会试图在我不注意的时候……深呼吸好几次……</speak>
+            <speak chara="_Alice">Every time we open a box, you take many deep breaths...</speak>
             <show chara="AliceSilentClose" position="right" opacity="0.8"/>
             <show chara="wattScaredClose" position="left"/>
-            <speak chara="_Watt">……那、那个……只是生理上的……</speak>
+            <speak chara="_Watt">...I-It's just a psychological reaction...</speak>
             <show chara="wattScaredClose" position="left" opacity="0.8"/>
             <show chara="AliceHmClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Alice">这不就是在硬撑嘛！</speak>
-            <speak chara="_Alice">生理上的不适就不是负担了吗？</speak>
+            <speak chara="_Alice">Don't try to downplay it!</speak>
+            <speak chara="_Alice">Even psychological reactions can have a negative impact on the body.</speak>
             <show chara="AliceDeclineClose" position="right"/>
-            <speak chara="_Alice">……我知道这些东西对于一般人类来说，看起来有多么恶心——</speak>
+            <speak chara="_Alice">...I know doing this would make any ordinary person feel uncomfortable——</speak>
             <show chara="AliceDeterminedClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Alice">——所以你真的没必要硬装作没事的样子！</speak>
+            <speak chara="_Alice">——So please don't pretend everything is okay!</speak>
             <show chara="AliceDeterminedClose" position="right" opacity="0.8"/>
             <show chara="wattScaredClose" position="left"/>
-            <speak chara="_Watt">……抱、抱歉。</speak>
+            <speak chara="_Watt">...S-Sorry.</speak>
             <show chara="wattScaredClose" position="left" opacity="0.8"/>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">……不……我……我也说得有点过分了。毕竟……这也是你的心意……</speak>
+            <speak chara="_Alice">...No... It's me the one who should apologize. You're doing your best for me...</speak>
             <show chara="AliceSilentClose" position="right" opacity="0.8"/>
             <show chara="wattShyClose" position="left"/>
-            <speak chara="_Watt">……</speak>
+            <speak chara="_Watt">.....</speak>
             <show chara="wattShyClose" position="left" opacity="0.8"/>
             <show chara="AliceSmileClose" position="right"/>
-            <speak chara="_Alice">没事没事！维护方面的事情我已经很熟练了……</speak>
+            <speak chara="_Alice">Don't worry! Now I know how to perform maintenance myself.</speak>
             <show chara="AliceShyClose" position="right"/>
-            <speak chara="_Alice">……所以，吉米多陪陪我说、说说话就好！</speak>
+            <speak chara="_Alice">So it would make me very happy if you could be my conversation partner instead.</speak>
             <show chara="AliceShyClose" position="right" opacity="0.8"/>
             <show chara="wattShyClose" position="left"/>
-            <speak chara="_Watt">……！</speak>
+            <speak chara="_Watt">...!</speak>
             <show chara="wattShyClose" position="left" opacity="0.8"/>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">咦……刚才的故事讲到哪里了来着……</speak>
+            <speak chara="_Alice">Where did we left off again?</speak>
             <show chara="AliceSilentClose" position="right" opacity="0.8"/>
             <show chara="wattShyClose" position="left"/>
-            <speak chara="_Watt">“爱丽丝”……“爱丽丝”穿过镜子。</speak>
+            <speak chara="_Watt">「Alice」... went through the mirror.</speak>
             <show chara="wattShyClose" position="left" opacity="0.8"/>
             <show chara="AliceShyClose" position="right"/>
-            <speak chara="_Alice">啊！是的是的！</speak>
+            <speak chara="_Alice">R-Right!</speak>
             <hide position="left"></hide>
             <hide position="right"></hide>
             <show chara="AliceSmileClose-up" position="center"/>
-            <speak chara="_Alice">爱丽丝穿过镜子之后，一辆由巧克力做成的蒸汽火车就正好冒着糖霜一般的白烟开进了站台。</speak>
+            <speak chara="_Alice">After Alice went through the mirror, a train made out of chocolate that exhaled creamy white clouds arrived at the station.</speak>
             <show chara="AliceShyClose-up" position="center"/>
-            <speak chara="_Alice">一只穿着工装的松鼠从驾驶室冒出头来：“开往奶酪群岛的列车进站啦！开往奶酪群岛的列车进站啦！”</speak>
+            <speak chara="_Alice">A squirrel wearing a work uniform left the driver's seat to yell 「Train to Cheese Archipelago! Train to Cheese Archipelago!」.</speak>
             <show chara="AliceSurprisedClose-up" position="center"/>
-            <speak chara="_Alice">爱丽丝不清楚“奶酪群岛”是什么样的地方，她问车站里的少女：“‘奶酪群岛’是一个有很多很多奶酪的地方吗？”</speak>
+            <speak chara="_Alice">Alice didn't know what kind of place 「Cheese Archipelago」 was and asked a girl at the station 「what's Cheese Archipelago like? Tons of islands made of cheese?」</speak>
             <show chara="AliceSmileClose-up" position="center"/>
-            <speak chara="_Alice">少女笑着回答她：“没错，奶酪群岛是银河（Milky Way）里最美丽的一串岛屿，那里有着用豪达奶酪铺成的暖金色沙滩，以及用蓝纹奶酪筑成的青花瓷城堡！还有蛋糕树木和糖果花朵——全部都是可以吃的哦？”</speak>
+            <speak chara="_Alice">The girl answered smiling. 「That's right. The Cheese Archipelago is the most beautiful place in the entire Milky Way. The golden sandy beach is made out of Gouda cheese, and there is a castle made of Blue cheese! There are cake trees, candy flowers and much more—— It's an all you can eat buffet!」</speak>
             <show chara="AliceShyClose-up" position="center"/>
-            <speak chara="_Alice">爱丽丝虽然喜欢冒险，却很有可持续发展的意识，所以她又问道：“奶酪、蛋糕、还有糖果……不会越吃越少吗？”</speak>
+            <speak chara="_Alice">Alice was a curious person but she had a realist side to her. Thus, she asked. 「Wouldn't all that cheese, cake and candy be gone if everyone keeps eating them?」</speak>
             <show chara="AliceSmileClose-up" position="center"/>
-            <speak chara="_Alice">车站的少女乐了：“你没有听说过这句话吗——‘零点是见证奇迹的瞬间’！好啦，列车就要出发了哦！先上车吧！”</speak>
+            <speak chara="_Alice">The girl at the station laughed. 「Haven't you heard this before? 『Midnight is when miracles occur』. Come on, the train is leaving soon. Get on!」</speak>
             <hide position="center"></hide>
             <show chara="AliceSmileClose" position="right" opacity="0.8"/>
             <show chara="wattRelievedClose" position="left"/>
-            <speak chara="_Watt">这一段故事……突然就变得非常少女呢。</speak>
+            <speak chara="_Watt">The story became quite girlish all of the sudden.</speak>
             <show chara="wattRelievedClose" position="left" opacity="0.8"/>
             <show chara="AliceShyClose" position="right"/>
-            <speak chara="_Alice">咦？是……这样吗？</speak>
+            <speak chara="_Alice">Eh? Really?</speak>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">我本身没有办法品尝巧克力或者蛋糕或者奶酪的味道……</speak>
+            <speak chara="_Alice">I wouldn't know myself, I can't eat chocolate, cheese or cake.</speak>
             <show chara="AliceSurprisedClose" position="right"/>
-            <speak chara="_Alice">……是说对于人类而言，一切高热量食物都代表着“少女”的感觉吗？</speak>
+            <speak chara="_Alice">...Do humans consider high calorie foods 「girlish」?</speak>
             <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
             <show chara="wattSighClose" position="left"/>
-            <speak chara="_Watt">……不、不，肯定不是这样的吧。</speak>
+            <speak chara="_Watt">N-No, I don't mean it like that.</speak>
             <show chara="wattSighClose" position="left" opacity="0.8"/>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">唔……人类的文化果然好难啊。</speak>
+            <speak chara="_Alice">Is that so...? Humans are complicated.</speak>
             <show chara="AliceSilentClose" position="right" opacity="0.8"/>
             <show chara="wattSighClose" position="left"/>
-            <speak chara="_Watt">这、这个……也不用这么沮丧啊。毕竟，“人类”本身就是“矛盾”的代名词嘛。</speak>
+            <speak chara="_Watt">W-Well, don't let it get to you. Mankind is known for its contradictions.</speak>
             <show chara="wattSighClose" position="left" opacity="0.8"/>
             <show chara="AliceSurprisedClose" position="right"/>
-            <speak chara="_Alice">……</speak>
-            <speak chara="_Alice">这句话，博士也说过……</speak>
+            <speak chara="_Alice">.....</speak>
+            <speak chara="_Alice">The Professor said the same thing once...</speak>
             <show chara="AliceSurprisedClose" position="right" opacity="0.8"/>
             <show chara="wattRelievedClose" position="left"/>
-            <speak chara="_Watt">所谓“人类”呢，就是无论做什么事情都想获得全部的好处、而不用承受任何的弊端——如果做不到的话，也至少要在表面上去维护那样的一个梦境。</speak>
+            <speak chara="_Watt">Humans want to profit above all, but they aren't willing to take risks. If they can't do that—— They maintain an image that they do.</speak>
             <show chara="wattSmileClose" position="left"/>
-            <speak chara="_Watt">人类……可是非常擅长自我欺骗的。</speak>
+            <speak chara="_Watt">Humans are good at deceiving themselves.</speak>
             <show chara="wattSmileClose" position="left" opacity="0.8"/>
             <show chara="AliceShyClose" position="right"/>
-            <speak chara="_Alice">自我……欺骗吗？</speak>
+            <speak chara="_Alice">Deceiving themselves... you say?</speak>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">……比如……我是说比如啊……爱丽丝因为有你面前的这个终端，所以就可以自称为少女——是像这样吗？</speak>
+            <speak chara="_Alice">...For example, just as an example... Alice claiming to be a girl because of this interface—— Something like that?</speak>
             <show chara="AliceSilentClose" position="right" opacity="0.8"/>
             <show chara="wattRelievedClose" position="left"/>
-            <speak chara="_Watt">噗……这个……都算不上自我欺骗吧？</speak>
+            <speak chara="_Watt">Hmmm. I wouldn't call that self-deception.</speak>
             <show chara="wattInspiredClose" position="left"/>
-            <speak chara="_Watt">即便爱丽丝只有这一排排的“计算中枢”……如果你觉得自己是少女，那、那么你就是少女啊。</speak>
+            <speak chara="_Watt">Even if you are truly this many thinking processors... If you think of yourself as a girl, then you're a girl.</speak>
             <show chara="wattShyClose" position="left"/>
-            <speak chara="_Watt">既、既然你认为自己不属于“人类”，那、那么这些称谓不就更加地……只、只是精神符号而已了吗？</speak>
+            <speak chara="_Watt">Moreover, if you don't consider yourself as part of mankind, then human concepts don't exactly apply to you, so it's more like a mental thing I guess?</speak>
             <show chara="wattShyClose" position="left" opacity="0.8"/>
             <show chara="AliceSurprisedClose" position="right"/>
-            <speak chara="_Alice">唔……原来还有这种角度……吗……</speak>
+            <speak chara="_Alice">I see. It never occurred to me to think about it that way...</speak>
             <show chara="AliceSmileClose" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="_Alice">明白了！我会大大方方地承认自己是“少女”！嘿嘿！</speak>
+            <speak chara="_Alice">It's settled. I will keep referring to myself as a girl. Hehe!</speak>
             <show chara="AliceHmClose" position="right"/>
-            <speak chara="_Alice">……四格状态条，黄色按钮，32号仓搞定！好咧，接下来只剩26个仓室了！</speak>
+            <speak chara="_Alice">...Status 4, press the yellow button. Box 32 done. We have 26 left.</speak>
             <show chara="AliceHmClose" position="right" opacity="0.8"/>
             <show chara="wattRelievedClose" position="left"/>
-            <speak chara="_Watt">看、看来在故事讲完之前，维护就可以先结束了呢。</speak>
+            <speak chara="_Watt">Seems maintenance will end before the story.</speak>
             <show chara="wattRelievedClose" position="left" opacity="0.8"/>
             <show chara="AliceSurprisedClose" position="right"/>
-            <speak chara="_Alice">……</speak>
+            <speak chara="_Alice">.....</speak>
             <show chara="AliceSilentClose" position="right"/>
-            <speak chara="_Alice">维护结束以后……吉米……就要离开了吗？</speak>
+            <speak chara="_Alice">Will you leave once the maintenance is done?</speak>
             <show chara="AliceSilentClose" position="right" opacity="0.8"/>
             <show chara="wattShyClose" position="left"/>
-            <speak chara="_Watt">唔……讲、讲道理的话……的确如此——</speak>
+            <speak chara="_Watt">R-Right... I should get going——</speak>
             <show chara="wattSchemingClose" position="left"/>
-            <speak chara="_Watt">——不过！</speak>
+            <speak chara="_Watt">——But！</speak>
             <show chara="wattSchemingClose" position="left" opacity="0.8"/>
             <show chara="AliceShyClose" position="right"/>
-            <speak chara="_Alice">……不过？</speak>
+            <speak chara="_Alice">...But?</speak>
             <show chara="AliceShyClose" position="right" opacity="0.8"/>
             <show chara="wattSmileClose" position="left"/>
-            <speak chara="_Watt">在、在【这一次的】离开之前，我、我还想先听你讲完——那个关于“爱丽丝”的故事！</speak>
+            <speak chara="_Watt">「This time」 I'll stay. I want to hear 「Alice」's story—— To the very end!</speak>
             <show chara="wattSmileClose" position="left" opacity="0.8"/>
             <show chara="AliceShyClose" position="right"/>
-            <speak chara="_Alice">……！</speak>
+            <speak chara="_Alice">...!</speak>
             <end post="U2FsdGVkX19ElKLrf7n7dD8pOCQG"/>
         </scene>
     </story>
