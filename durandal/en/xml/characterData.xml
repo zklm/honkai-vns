@@ -189,12 +189,12 @@
         <character name="Jimmy" color="#93ae75" id="wattSchemingClose" src="12_28_wattSchemingClose.png"/>
         <character name="Jimmy" color="#93ae75" id="wattJihuatongClose" src="12_28_wattJihuatongClose.png"/>
         <character name="Jimmy" color="#93ae75" id="wattSadClose" src="02_02_wattSadClose.png"/>
-        <character name="Leila" color="#bc7db4" id="_Lalla" src=""/>
-        <character name="Leila" color="#bc7db4" id="lallaSighClose" src="11_15_lallaSighClose.png"/>
-        <character name="Leila" color="#bc7db4" id="lallaNormalClose" src="11_15_lallaNormalClose.png"/>
-        <character name="Leila" color="#bc7db4" id="lallaSmileClose" src="11_15_lallaSmileClose.png"/>
-        <character name="Leila" color="#bc7db4" id="lallaQuestionClose" src="11_15_lallaQuestionClose.png"/>
-        <character name="Leila" color="#bc7db4" id="lallaSeriousClose" src="11_29_lallaSeriousClose.png"/>
+        <character name="Lalla" color="#bc7db4" id="_Lalla" src=""/>
+        <character name="Lalla" color="#bc7db4" id="lallaSighClose" src="11_15_lallaSighClose.png"/>
+        <character name="Lalla" color="#bc7db4" id="lallaNormalClose" src="11_15_lallaNormalClose.png"/>
+        <character name="Lalla" color="#bc7db4" id="lallaSmileClose" src="11_15_lallaSmileClose.png"/>
+        <character name="Lalla" color="#bc7db4" id="lallaQuestionClose" src="11_15_lallaQuestionClose.png"/>
+        <character name="Lalla" color="#bc7db4" id="lallaSeriousClose" src="11_29_lallaSeriousClose.png"/>
         <character name="Red-haired Woman" color="#d25242" id="_ShakespeareNoName" src=""/>
         <character name="“Barbarossa”" color="#d25242" id="_ShakespeareBarbarossa" src=""/>
         <character name="Shakespeare" color="#d25242" id="_Shakespeare" src=""/>
@@ -221,7 +221,7 @@
         <character name="Shylock (Shakespeare)" color="#d25242" id="ShylockFury" src="ShylockFury.png"/>
         <character name="Shylock (Shakespeare)" color="#d25242" id="ShylockHysteria" src="ShylockHysteria.png"/>
         <character name="Shylock (Shakespeare)" color="#d25242" id="ShylockDisheartened" src="ShylockDisheartened.png"/>
-        <character name="奇怪的红发船长" color="#d25242" id="_ShakespeareCareer" src=""/>
+        <character name="Strange Red-Haired Captain" color="#d25242" id="_ShakespeareCareer" src=""/>
         <character name="船内广播" color="#d25242" id="_ShakespeareRadio" src=""/>
         <character name="Shakespeare" color="#d25242" id="shakesSmileClose" src="11_15_shakesSmileClose.png"/>
         <character name="Shakespeare" color="#d25242" id="shakesConfidentClose" src="11_15_shakesConfidentClose.png"/>
@@ -345,7 +345,7 @@
         <character name="Thales" color="#f3d789" id="thalesAngryClose" src="01_17_thalesAngryClose.png"/>
         <character name="???" color="#e7dedb" id="_MichelNoName" src=""/>
         <character name="Michelangelo" color="#e7dedb" id="_Michel" src=""/>
-        <character name="大图书馆馆长" color="#e7dedb" id="_MichelCareer" src=""/>
+        <character name="Curator of the Great Library" color="#e7dedb" id="_MichelCareer" src=""/>
         <character name="Michelangelo" color="#e7dedb" id="micheArrogantClose" src="01_17_micheArrogantClose.png"/>
         <character name="Michelangelo" color="#e7dedb" id="micheFocusClose" src="01_17_micheFocusClose.png"/>
         <character name="Michelangelo" color="#e7dedb" id="micheSeriousClose" src="01_17_micheSeriousClose.png"/>
@@ -423,7 +423,7 @@
         <character name="Alice" color="#ffd0d1" id="AliceSmileCloseE" src="05_01_AliceSmileCloseE.png"/>
         <character name="Alice" color="#ffd0d1" id="AliceShyCloseE" src="08_17_AliceShyCloseE.png"/>
         <character name="Shelley" color="#9f732b" id="_Shelley" src=""/>
-        <character name="城市管理协会会长" color="#9f732b" id="_ShelleyCareer" src=""/>
+        <character name="Head of the City Administration Group" color="#9f732b" id="_ShelleyCareer" src=""/>
         <character name="Shelley" color="#9f732b" id="shelleyAngryClose" src="02_22_shelleyAngryClose.png"/>
         <character name="Shelley" color="#9f732b" id="shelleyAngryFar" src="02_22_shelleyAngryFar.png"/>
         <character name="Shelley" color="#9f732b" id="shelleyArrogantFar" src="02_22_shelleyArrogantFar.png"/>
