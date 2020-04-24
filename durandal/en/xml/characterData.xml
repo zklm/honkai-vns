@@ -451,13 +451,13 @@
         <character name="棋盘" color="#ffffff" id="chess9" src="chessboard_09.png"/>
         <character name="棋盘" color="#ffffff" id="chess10" src="chessboard_10.png"/>
         <character name="棋盘" color="#ffffff" id="chess11" src="chessboard_11.png"/>
-        <character name="被放逐之人" color="#b4b4b4" id="_FaustNoName" src=""/>
-        <character name="被放逐之人" color="#b4b4b4" id="faustDisdainClose" src="03_08_faustDisdainClose.png"/>
-        <character name="被放逐之人" color="#b4b4b4" id="faustLaughClose" src="03_08_faustLaughClose.png"/>
-        <character name="被放逐之人" color="#b4b4b4" id="faustQuestionClose" src="03_08_faustQuestionClose.png"/>
-        <character name="被放逐之人" color="#b4b4b4" id="faustSadClose" src="03_08_faustSadClose.png"/>
-        <character name="被放逐之人" color="#b4b4b4" id="faustSmileClose" src="03_08_faustSmileClose.png"/>
-        <character name="被放逐之人" color="#b4b4b4" id="faustTalkClose" src="03_08_faustTalkClose.png"/>
+        <character name="Exiled Man" color="#b4b4b4" id="_FaustNoName" src=""/>
+        <character name="Exiled Man" color="#b4b4b4" id="faustDisdainClose" src="03_08_faustDisdainClose.png"/>
+        <character name="Exiled Man" color="#b4b4b4" id="faustLaughClose" src="03_08_faustLaughClose.png"/>
+        <character name="Exiled Man" color="#b4b4b4" id="faustQuestionClose" src="03_08_faustQuestionClose.png"/>
+        <character name="Exiled Man" color="#b4b4b4" id="faustSadClose" src="03_08_faustSadClose.png"/>
+        <character name="Exiled Man" color="#b4b4b4" id="faustSmileClose" src="03_08_faustSmileClose.png"/>
+        <character name="Exiled Man" color="#b4b4b4" id="faustTalkClose" src="03_08_faustTalkClose.png"/>
         <character name="民兵" color="#b49680" id="_militiaA" src=""/>
         <character name="民兵" color="#b49680" id="cowboy1Close" src="03_08_cowboy1Close.png"/>
         <character name="民兵" color="#bcbfb0" id="_militiaB" src=""/>
