@@ -458,30 +458,30 @@
         <character name="Exiled Man" color="#b4b4b4" id="faustSadClose" src="03_08_faustSadClose.png"/>
         <character name="Exiled Man" color="#b4b4b4" id="faustSmileClose" src="03_08_faustSmileClose.png"/>
         <character name="Exiled Man" color="#b4b4b4" id="faustTalkClose" src="03_08_faustTalkClose.png"/>
-        <character name="民兵" color="#b49680" id="_militiaA" src=""/>
-        <character name="民兵" color="#b49680" id="cowboy1Close" src="03_08_cowboy1Close.png"/>
-        <character name="民兵" color="#bcbfb0" id="_militiaB" src=""/>
-        <character name="民兵" color="#bcbfb0" id="cowgirl1Close" src="03_08_cowgirl1Close.png"/>
-        <character name="民兵" color="#a97162" id="_militiaC" src=""/>
-        <character name="民兵" color="#a97162" id="cowboy2Close" src="03_08_cowboy2Close.png"/>
-        <character name="谜之物体" color="#d4dbec" id="_SwordDurandalQNoName" src=""/>
+        <character name="Militia" color="#b49680" id="_militiaA" src=""/>
+        <character name="Militia" color="#b49680" id="cowboy1Close" src="03_08_cowboy1Close.png"/>
+        <character name="Militia" color="#bcbfb0" id="_militiaB" src=""/>
+        <character name="Militia" color="#bcbfb0" id="cowgirl1Close" src="03_08_cowgirl1Close.png"/>
+        <character name="Militia" color="#a97162" id="_militiaC" src=""/>
+        <character name="Militia" color="#a97162" id="cowboy2Close" src="03_08_cowboy2Close.png"/>
+        <character name="Mysterious Object" color="#d4dbec" id="_SwordDurandalQNoName" src=""/>
         <character name="???" color="#fcf1a2" id="_eyeDurandalQNoName" src=""/>
-        <character name="小幽" color="#d4dbec" id="_SwordDurandalQ" src=""/>
+        <character name="Du" color="#d4dbec" id="_SwordDurandalQ" src=""/>
         <character name="圣剑幽兰黛尔" color="#fcf1a2" id="_HolySwordDurandal" src=""/>
-        <character name="小幽" color="#fcf1a2" id="_eyeDurandalQDurandal" src=""/>
-        <character name="小幽" color="#fcf1a2" id="eyeSwordShock" src="x_eyeSwordShock.png"/>
-        <character name="小幽" color="#fcf1a2" id="eyeSwordNormal" src="x_eyeSwordNormal.png"/>
-        <character name="小幽" color="#fcf1a2" id="eyeSwordSmile" src="x_eyeSwordSmile.png"/>
-        <character name="小幽" color="#d4dbec" id="durandalOpen" src="03_22_durandalOpen.png"/>
-        <character name="小幽" color="#d4dbec" id="durandalOutstretchOpen" src="03_22_durandalOutstretchOpen.png"/>
-        <character name="小幽" color="#d4dbec" id="durandalWhite" src="03_22_durandalWhite.png"/>
-        <character name="小幽" color="#d4dbec" id="durandalOutstretchStare" src="03_22_durandalOutstretchStare.png"/>
-        <character name="小幽" color="#d4dbec" id="durandalStare" src="03_22_durandalStare.png"/>
-        <character name="小幽" color="#d4dbec" id="durandalSquint" src="03_22_durandalSquint.png"/>
-        <character name="小幽" color="#d4dbec" id="durandalDeadfish" src="03_22_durandalDeadfish.png"/>
-        <character name="小幽" color="#d4dbec" id="durandalOutstretchWhite" src="03_22_durandalOutstretchWhite.png"/>
-        <character name="小幽" color="#d4dbec" id="durandalClose" src="04_12_durandalClose.png"/>
-        <character name="小幽" color="#d4dbec" id="durandalOutstretchSquint" src="04_12_durandalOutstretchSquint.png"/>
+        <character name="Du" color="#fcf1a2" id="_eyeDurandalQDurandal" src=""/>
+        <character name="Du" color="#fcf1a2" id="eyeSwordShock" src="x_eyeSwordShock.png"/>
+        <character name="Du" color="#fcf1a2" id="eyeSwordNormal" src="x_eyeSwordNormal.png"/>
+        <character name="Du" color="#fcf1a2" id="eyeSwordSmile" src="x_eyeSwordSmile.png"/>
+        <character name="Du" color="#d4dbec" id="durandalOpen" src="03_22_durandalOpen.png"/>
+        <character name="Du" color="#d4dbec" id="durandalOutstretchOpen" src="03_22_durandalOutstretchOpen.png"/>
+        <character name="Du" color="#d4dbec" id="durandalWhite" src="03_22_durandalWhite.png"/>
+        <character name="Du" color="#d4dbec" id="durandalOutstretchStare" src="03_22_durandalOutstretchStare.png"/>
+        <character name="Du" color="#d4dbec" id="durandalStare" src="03_22_durandalStare.png"/>
+        <character name="Du" color="#d4dbec" id="durandalSquint" src="03_22_durandalSquint.png"/>
+        <character name="Du" color="#d4dbec" id="durandalDeadfish" src="03_22_durandalDeadfish.png"/>
+        <character name="Du" color="#d4dbec" id="durandalOutstretchWhite" src="03_22_durandalOutstretchWhite.png"/>
+        <character name="Du" color="#d4dbec" id="durandalClose" src="04_12_durandalClose.png"/>
+        <character name="Du" color="#d4dbec" id="durandalOutstretchSquint" src="04_12_durandalOutstretchSquint.png"/>
         <character name="???" color="#dddddd" id="_SomeOneTalking" src=""/>
         <character name="戴鹦鹉头盔的将军" color="#4db766" id="_OfficerNoName" src=""/>
         <character name="将军" color="#4db766" id="_OfficerNoNameShort" src=""/>
