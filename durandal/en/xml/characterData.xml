@@ -222,7 +222,7 @@
         <character name="Shylock (Shakespeare)" color="#d25242" id="ShylockHysteria" src="ShylockHysteria.png"/>
         <character name="Shylock (Shakespeare)" color="#d25242" id="ShylockDisheartened" src="ShylockDisheartened.png"/>
         <character name="Strange Red-Haired Captain" color="#d25242" id="_ShakespeareCareer" src=""/>
-        <character name="船内广播" color="#d25242" id="_ShakespeareRadio" src=""/>
+        <character name="Shakespeare (Radio)" color="#d25242" id="_ShakespeareRadio" src=""/>
         <character name="Shakespeare" color="#d25242" id="shakesSmileClose" src="11_15_shakesSmileClose.png"/>
         <character name="Shakespeare" color="#d25242" id="shakesConfidentClose" src="11_15_shakesConfidentClose.png"/>
         <character name="Shakespeare" color="#d25242" id="shakesQuestionClose" src="11_15_shakesQuestionClose.png"/>
@@ -256,7 +256,7 @@
         <character name="Shakespeare" color="#d25242" id="shakesCasualQuestionClose-up" src="05_31_shakesCasualQuestionClose-up.png"/>
         <character name="Shakespeare" color="#d25242" id="shakesCasualDislikeClose-up" src="05_31_shakesCasualDislikeClose-up.png"/>
         <character name="“Iron Mask”" color="#8a58f0" id="_Ironface" src=""/>
-        <character name="船内广播" color="#8a58f0" id="_IronfaceRadio" src=""/>
+        <character name="Iron Mask (Radio)" color="#8a58f0" id="_IronfaceRadio" src=""/>
         <character name="“Iron Mask”" color="#8a58f0" id="ironWhiteClose" src="11_15_ironWhiteClose.png"/>
         <character name="“Iron Mask”" color="#8a58f0" id="ironBlueClose" src="11_15_ironBlueClose.png"/>
         <character name="“Iron Mask”" color="#8a58f0" id="ironRedClose" src="11_15_ironRedClose.png"/>
@@ -467,7 +467,7 @@
         <character name="Mysterious Object" color="#d4dbec" id="_SwordDurandalQNoName" src=""/>
         <character name="???" color="#fcf1a2" id="_eyeDurandalQNoName" src=""/>
         <character name="Du" color="#d4dbec" id="_SwordDurandalQ" src=""/>
-        <character name="圣剑幽兰黛尔" color="#fcf1a2" id="_HolySwordDurandal" src=""/>
+        <character name="Holy Sword Durandal" color="#fcf1a2" id="_HolySwordDurandal" src=""/>
         <character name="Du" color="#fcf1a2" id="_eyeDurandalQDurandal" src=""/>
         <character name="Du" color="#fcf1a2" id="eyeSwordShock" src="x_eyeSwordShock.png"/>
         <character name="Du" color="#fcf1a2" id="eyeSwordNormal" src="x_eyeSwordNormal.png"/>
