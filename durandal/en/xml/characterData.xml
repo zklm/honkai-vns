@@ -483,23 +483,23 @@
         <character name="Du" color="#d4dbec" id="durandalClose" src="04_12_durandalClose.png"/>
         <character name="Du" color="#d4dbec" id="durandalOutstretchSquint" src="04_12_durandalOutstretchSquint.png"/>
         <character name="???" color="#dddddd" id="_SomeOneTalking" src=""/>
-        <character name="戴鹦鹉头盔的将军" color="#4db766" id="_OfficerNoName" src=""/>
+        <character name="Parrot Helmet Officer" color="#4db766" id="_OfficerNoName" src=""/>
         <character name="将军" color="#4db766" id="_OfficerNoNameShort" src=""/>
         <character name="戴鹦鹉头盔的将军" color="#4db766" id="OfficerClose" src="05_16_OfficerClose.png"/>
-        <character name="看起来像祭司的老妇人" color="#b1a749" id="_PriestNoName" src=""/>
+        <character name="Priest-looking Woman" color="#b1a749" id="_PriestNoName" src=""/>
         <character name="塔苏玛尔" color="#b1a749" id="_PriestTrueName" src=""/>
         <character name="看起来像祭司的老妇人" color="#b1a749" id="PriestAngryClose" src="05_16_PriestAngryClose.png"/>
         <character name="看起来像祭司的老妇人" color="#b1a749" id="PriestSeriousClose" src="05_16_PriestSeriousClose.png"/>
         <character name="看起来像祭司的老妇人" color="#b1a749" id="PriestCalmClose" src="05_16_PriestCalmClose.png"/>
         <character name="看起来像祭司的老妇人" color="#b1a749" id="PriestSmileClose" src="05_16_PriestSmileClose.png"/>
-        <character name="戴鬼怪面具的士兵" color="#a79f9b" id="_WarriorNoName" src=""/>
+        <character name="Demon Mask Warrior" color="#a79f9b" id="_WarriorNoName" src=""/>
         <character name="士兵" color="#a79f9b" id="_WarriorNoNameShort" src=""/>
         <character name="士兵·甲" color="#a79f9b" id="_Warrior2PNoNameShort" src=""/>
         <character name="士兵·乙" color="#a79f9b" id="_Warrior3PNoNameShort" src=""/>
         <character name="戴鬼怪面具的士兵" color="#a79f9b" id="WarriorClose" src="05_16_WarriorClose.png"/>
         <character name="戴鬼怪面具的士兵" color="#a79f9b" id="Warrior3PClose" src="04_30_WarriorClose.png"/>
         <character name="戴鬼怪面具的士兵" color="#a79f9b" id="Warrior2PClose" src="05_31_Warrior2PClose.png"/>
-        <character name="穿着华丽的少女" color="#f6deb8" id="_WitchNoName" src=""/>
+        <character name="Girl in fancy clothes" color="#f6deb8" id="_WitchNoName" src=""/>
         <character name="伊柯娜尔" color="#f6deb8" id="_WitchTrueName" src=""/>
         <character name="伊柯娜尔" color="#f6deb8" id="WitchShockClose" src="05_16_WitchShockClose.png"/>
         <character name="伊柯娜尔" color="#f6deb8" id="WitchSadClose" src="05_16_WitchSadClose.png"/>
@@ -513,8 +513,8 @@
         <character name="伊柯娜尔" color="#f6deb8" id="WitchShyClose-up" src="05_16_WitchShyClose-up.png"/>
         <character name="伊柯娜尔" color="#f6deb8" id="WitchSadClose-up" src="05_16_WitchSadClose-up.png"/>
         <character name="穿着华丽的少女" color="#f6deb8" id="WitchSeriousClose" src="05_16_WitchSeriousClose.png"/>
-        <character name="神秘的外来者" color="#ffffff" id="_BiankaOutsiderNoName" src=""/>
-        <character name="神秘的外来者·贰" color="#d25242" id="_ShakespeareOutsiderNoName" src=""/>
+        <character name="Mysterious Blonde Girl" color="#ffffff" id="_BiankaOutsiderNoName" src=""/>
+        <character name="Mysterious Red-Haired Woman" color="#d25242" id="_ShakespeareOutsiderNoName" src=""/>
         <character name="神秘的外来者·女仆" color="#ddcab3" id="_RitaOutsiderNoName" src=""/>
         <character name="军官" color="#c2b5ff" id="_Officer2PNoNameShort" src=""/>
         <character name="考阿克" color="#c2b5ff" id="_Officer2P" src=""/>

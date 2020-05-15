@@ -22,6 +22,6 @@ Examples of official EN name changes:
 For transparency, modified translations will have a comment alongside them containing the original line.
 
 ## Current Progress
-* Durandal: CH1-11 done (Aiatar), C12-31 untranslated
 * Anti-Entropy: CH1-12 untranslated, CH13-26 mostly done (Aiatar)
+* Durandal: CH1-12 done (Aiatar), C13-31 untranslated
 * Seven Swords: 0
