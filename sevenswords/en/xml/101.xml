@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+  <scripts>
+    <scene id="000" title="连载预热！">
+      <bg img="Q版道馆" duration="0"/>
+      <bgm id="游江湖"/>
+      <text inline="true">                    ～『神州折剑录』预告小剧场～</text>
+      <text>
+        <p/>
+        <p>                            [em action=shake duration=1 range=2 looptimes=-1 size=76]开幕啦！[/em]</p>
+      </text>
+      <event action="hide_ui" duration="1.5"/>
+      <motion chara="091" action="show" pos="-730,0" img="Q版-素裳-迷糊" duration="1.5"/>
+      <delay t="1.5"/>
+      <event action="show_ui"/>
+      <dialog chara="091">「这、这是什么地方……」</dialog>
+      <event action="hide_ui" duration="3"/>
+      <motion chara="091" action="move" pos="left" duration="2"/>
+      <delay t="2"/>
+      <motion chara="091" action="img_trans" reversex="true" img="Q版-素裳-迷糊" duration="0"/>
+      <delay t="0.5"/>
+      <motion chara="091" action="img_trans" img="Q版-素裳-迷糊" duration="0"/>
+      <delay t="0.5"/>
+      <event action="show_ui"/>
+      <dialog chara="091">「…………」</dialog>
+      <motion chara="092" action="show" pos="right" img="Q版-奥托-标准"/>
+      <motion chara="091" action="img_trans" duration="0" img="Q版-素裳-震惊"/>
+      <motion chara="091" action="shake" duration="0.5" range="80" direction="vertical"/>
+      <dialog chara="091">「呀～！」</dialog>
+      <dialog chara="092">「……你吓我一跳。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-哭哭"/>
+      <dialog chara="091">「被吓到的明明是我好嘛！」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-尴尬" duration="0"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-微笑" duration="0"/>
+      <dialog chara="091">「啊不……没什么。我很镇静。嗯。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-摊手" duration="0"/>
+      <motion chara="091" action="img_trans" img="Q版-素裳-标准" duration="0"/>
+      <dialog chara="091">「对了对了，罗刹人，我们为什么会在这儿呀？」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-微笑"/>
+      <dialog chara="092">「似乎是因为预告已久的『神州折剑录』快要正式发布了。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-叹气"/>
+      <dialog chara="092">「为了挽回咕咕太久而濒临冰点的人气，于是安排你我出来宣传一下。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-尴尬"/>
+      <dialog chara="091">
+        <p>「咕咕？人气？……罗刹人，你又讲些我听不懂的词儿了。</p>
+        <p>那个『神州折剑录』……又是啥？」</p>
+      </dialog>
+      <dialog chara="092">「哦，它是——」</dialog>
+      <motion chara="092" action="hide"/>
+      <motion chara="091" action="hide"/>
+      <transition mode="fade" in="0.3" stop="0.5" out="1" color="#000000"/>
+      <bg img="PureBlack"/>
+      <mono inline="true">
+        <p/>
+        <p>                     [em size=99]～第壹问～[/em]</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p/>
+        <p>                [em size=70]『神州折剑录』是什么？[/em]</p>
+      </mono>
+      <transition mode="fade" in="1" stop="0.5" out="2" color="#000000"/>
+      <bg img="Q版道馆" duration="0"/>
+      <motion chara="091" action="show" pos="left" img="Q版-素裳-无语"/>
+      <motion chara="092" action="show" pos="right" img="Q版-奥托-标准"/>
+      <dialog chara="091">「……刚刚，天是不是黑了一下子？」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-摊手"/>
+      <dialog chara="092">「你得习惯。在『神州折剑录』里，这种事情每节都会至少发生一次。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-苦恼"/>
+      <dialog chara="091">「……所以『这件路』到底是什么啦。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-微笑"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-思考"/>
+      <delay t="0.3"/>
+      <dialog chara="092">「『神州折剑录』是一部视觉小说，讲的是公元十五世纪末，赤鸢真人和太虚七剑之间的[em line]爱恨情仇[/em]故事。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-苦恼"/>
+      <dialog chara="091">「好奇怪的删除线……」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-摊手"/>
+      <dialog chara="092">「素裳啊，删掉的词就像泼出的水，收不回的事物已没有思考的价值了。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-无语"/>
+      <dialog chara="091">「你想说『覆水难收』吧，而且还用错了……」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-标准"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-微笑"/>
+      <dialog chara="091">「说起来，这个故事既然有『太虚七剑』……难道我娘和师父都会登场吗？」</dialog>
+      <dialog chara="092">「当然了。故事里还有素裳你呢。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-微笑"/>
+      <dialog chara="091">「咦～还、还有我嘛！？」</dialog>
+      <dialog chara="092">「何止『有你』，你是这个故事的主角之一啊。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-开心"/>
+      <dialog chara="091">「我想看！罗刹人，让我瞧一瞧好不好？」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-手指"/>
+      <dialog chara="092">「下一个问题！」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-哭哭"/>
+      <dialog chara="091">「哎～～」</dialog>
+      <motion chara="091" action="hide"/>
+      <motion chara="092" action="hide"/>
+      <transition mode="fade" in="0.3" stop="0.5" out="1" color="#000000"/>
+      <bg img="PureBlack"/>
+      <mono inline="true">
+        <p/>
+        <p>                     [em size=99]～第贰问～[/em]</p>
+      </mono>
+      <mono pageend="true">
+        <p/>
+        <p/>
+        <p>             [em size=70]『神州折剑录』何时发布？[/em]</p>
+      </mono>
+      <transition mode="fade" in="1" stop="0.5" out="2" color="#000000"/>
+      <bg img="Q版道馆"/>
+      <motion chara="091" action="show" pos="left" img="Q版-素裳-黑化"/>
+      <motion chara="092" action="show" pos="right" img="Q版-奥托-标准"/>
+      <dialog chara="092">（是错觉吗？我仿佛感觉到了杀气……）</dialog>
+      <dialog chara="091">「……胆子不小啊，罗刹人～」</dialog>
+      <dialog chara="091">「本姑娘问你话，竟敢假装没听见～」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-思考"/>
+      <dialog chara="092">「呃，因为我在……思考问题。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-手指"/>
+      <dialog chara="092">
+        <p>「就是……『神州折剑录』何时上线！</p>
+        <p>……这个问题。」</p>
+      </dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-开心"/>
+      <dialog chara="091">「啊，我也想知道！」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-微笑"/>
+      <motion chara="091" action="img_trans" img="Q版-素裳-微笑"/>
+      <dialog chara="091">「那么，什么时候才能看到呢？」</dialog>
+      <dialog chara="092">
+        <p>「『还有少许工作正在收尾，下个月内与大家见面』</p>
+        <p>——相关人士是这么说的。」</p>
+      </dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-标准"/>
+      <dialog chara="091">「下个月也好久噢。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-叹气"/>
+      <dialog chara="092">「是啊，希望作者可以更努力一些。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-沉默"/>
+      <dialog chara="091">「你有资格说这种话吗，罗刹人……」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-标准"/>
+      <dialog chara="091">「打从我们认识开始，你这人不是睁着眼睛睡觉，就是站着无所事事……别说练功了，路都没见你走过。」</dialog>
+      <dialog chara="091">「从你嘴里听到『努力』两个字……感觉浑身不舒服。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-摊手"/>
+      <dialog chara="092">「好吧，容我更正言辞。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-标准"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-微笑"/>
+      <dialog chara="092">「希望他们加油工作！」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-开心"/>
+      <dialog chara="091">「嗯，加油！」</dialog>
+      <motion chara="091" action="hide"/>
+      <motion chara="092" action="hide"/>
+      <transition mode="fade" in="0.3" stop="0.5" out="1" color="#000000"/>
+      <bg img="PureBlack"/>
+      <mono inline="true">
+        <p/>
+        <p>                     [em size=99]～第叁问～[/em]</p>
+      </mono>
+      <mono>
+        <p/>
+        <p/>
+        <p>             [em size=70]『神州折剑录』在何处看？[/em]</p>
+      </mono>
+      <transition mode="fade" in="1" stop="0.5" out="2" color="#000000"/>
+      <bg img="Q版道馆"/>
+      <motion chara="091" action="show" pos="left" img="Q版-素裳-标准"/>
+      <motion chara="092" action="show" pos="right" img="Q版-奥托-标准"/>
+      <dialog chara="091">
+        <p>「这个……『视觉小说』，</p>
+        <p>在漠北也有办法读到它吗？」</p>
+      </dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-苦恼"/>
+      <dialog chara="091">
+        <p>「我们那儿的说书人翻来覆去就是几段老戏。</p>
+        <p>上次破天荒地说了回『圣火玉莲台』，已经是一年前的事儿了……」</p>
+      </dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-微笑"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-手指"/>
+      <dialog chara="092">「当然可以，视觉小说在『崩坏3rd』游戏内及崩坏3官网ip站均有入口，大家能够自由地选择适合自己的阅读方式。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-思考"/>
+      <dialog chara="092">
+        <p>「本作由于技术升级，可能对设备与浏览器版本有一定的要求……</p>
+        <p>不过，能游玩崩坏3rd的设备，运行视觉小说应该是绰绰有余吧。」</p>
+      </dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-微笑"/>
+      <dialog chara="092">「顺便一提，现有的两部视觉小说『逆熵Anti-Entropy』与『幽兰黛尔』也可以随时阅读哦。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-苦恼"/>
+      <dialog chara="091">「阅……读……」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-微笑"/>
+      <dialog chara="091">
+        <p>「那个，罗刹人，我识字不多……</p>
+        <p>小说发布后，就请你念给我听吧！」</p>
+      </dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-叹气"/>
+      <dialog chara="092">「哦，好……好的……」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-手指"/>
+      <dialog chara="092">「那么，赶紧进入实机画面展示环节吧！」</dialog>
+      <bg img="Q版道馆_gif"/>
+      <delay t="0.3"/>
+      <motion action="show" pos="-750,0" chara="091" img="Q版解说-素裳-标准"/>
+      <motion action="show" pos="750,0" chara="092" img="Q版解说-奥托-思考"/>
+      <bg img="Q版道馆卷屏"/>
+      <bg img="Q版道馆预热篇0" duration="2"/>
+      <dialog chara="092">「这是……赤鸢真人？」</dialog>
+      <motion chara="091" action="img_trans" img="Q版解说-素裳-尴尬"/>
+      <dialog chara="091">
+        <p>「不知道耶，我没见过仙人。</p>
+        <p>就只听过她的一些事迹而已。」</p>
+      </dialog>
+      <motion chara="092" action="img_trans" img="Q版解说-奥托-手指"/>
+      <dialog chara="092">「你的母亲和师父，不是赤鸢的徒弟吗？」</dialog>
+      <motion chara="091" action="img_trans" img="Q版解说-素裳-标准"/>
+      <dialog chara="091">「是呀～可她们真的没跟我提起过嘛。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版解说-奥托-思考"/>
+      <dialog chara="092">
+        <p>（奇怪，这个赤鸢……</p>
+        <p>好像和我曾经见过的仙人不一样？）</p>
+      </dialog>
+      <bg img="Q版道馆预热篇1" duration="2"/>
+      <motion chara="091" action="img_trans" img="Q版解说-素裳-开心"/>
+      <dialog chara="091">「咦，罗刹人你看！是我们耶。」</dialog>
+      <dialog chara="092">「……」</dialog>
+      <motion chara="091" action="img_trans" img="Q版解说-素裳-标准"/>
+      <dialog chara="091">
+        <p>「罗刹人，你的话好长哦。</p>
+        <p>……感觉我好像很不开心，是出什么事了吗？」</p>
+      </dialog>
+      <motion chara="092" action="img_trans" img="Q版解说-奥托-标准"/>
+      <dialog chara="092">
+        <p>「别心急，素裳。这是未来之事。</p>
+        <p>究竟发生了什么，你就自己去见证吧。」</p>
+      </dialog>
+      <bg img="Q版道馆预热篇2" duration="2"/>
+      <delay t="1"/>
+      <dialog chara="092">「……这故事里的男人有点多啊。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版解说-素裳-微笑"/>
+      <dialog chara="091">「这张画像似乎和之前的几张不一样。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版解说-奥托-思考"/>
+      <dialog chara="092">
+        <p>「嗯，这是本作全新的『成就』系统。</p>
+        <p>随着故事的推进，登场角色及其传略也会更新。</p>
+        <p>其中或许会有一些故事内不会提及的重要情报。」</p>
+      </dialog>
+      <dialog chara="091">「只要阅读就会更新吗？没有别的条件？」</dialog>
+      <motion chara="092" action="img_trans" img="Q版解说-奥托-手指"/>
+      <dialog chara="092">「是的，所以经常去『传略馆』里看看吧。」</dialog>
+      <bg img="Q版道馆"/>
+      <motion chara="091" action="show" pos="left" img="Q版-素裳-标准"/>
+      <motion chara="092" action="show" pos="right" img="Q版-奥托-标准"/>
+      <dialog chara="092">「……分配给我们的时间好像快到了。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-微笑"/>
+      <dialog chara="091">「好呀！我也该去练剑了。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-手指"/>
+      <dialog chara="092" inline="true">「那么，本期剧场就此结束。</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-微笑"/>
+      <dialog chara="092">
+        <p/>
+        <p>期待在不久的将来和各位再会。」</p>
+      </dialog>
+      <motion chara="091" action="img_trans" img="素裳-Q版-欢呼"/>
+      <dialog chara="091">「再会啦～」</dialog>
+      <bgm looptimes="0"/>
+      <motion chara="091" action="hide" duration="2"/>
+      <motion chara="092" action="hide" duration="2"/>
+      <delay t="2"/>
+      <text>………………</text>
+      <motion chara="093" action="show" pos="center" img="Q版-符华-失落" duration="2"/>
+      <delay t="2"/>
+      <dialog chara="093">「抱歉，在下来得迟了一些。」</dialog>
+      <motion chara="093" action="img_trans" img="Q版-符华-张口"/>
+      <dialog chara="093">「将来应有许多与诸位共度的时光。」</dialog>
+      <motion chara="093" action="img_trans" img="Q版-符华-微笑"/>
+      <dialog chara="093">「届时，还望诸君多多关照。」</dialog>
+      <transition mode="fade" in="2" stop="0.5" out="0" color="#000000"/>
+      <event action="callback" name="end"/>
+    </scene>
+    <scene id="001" title="答疑">
+      <bg img="Q版道馆"/>
+      <bgm id="清晨赶集（轻快）"/>
+      <transition mode="fade" in="0" stop="0.5" out="3" color="#000000"/>
+      <text inline="true">                    ～『神州折剑录』答疑小剧场～</text>
+      <text>
+        <p/>
+        <p>                            [em action=shake duration=1 range=2 looptimes=-1 size=76]开幕啦！[/em]</p>
+      </text>
+      <event action="hide_ui" duration="1"/>
+      <motion chara="091" action="show" pos="left" duration="1" img="素裳-Q版-欢呼"/>
+      <motion chara="092" action="show" pos="right" duration="1" img="Q版-奥托-微笑"/>
+      <dialog chara="091">「列位看官，多谢您们的捧场～」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-微笑"/>
+      <dialog chara="092">「《神州折剑录》的第一折《试剑》总算是完结了。可喜可贺，可喜可贺。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-无语"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-思考"/>
+      <dialog chara="091">「这一折里我可没少吃苦头，被扇耳光，被关禁闭，被砍成重伤……」</dialog>
+      <dialog chara="091">「罗刹人你倒是好，进了牢里都有吃有喝。别说伤了，指甲都没划一下。」</dialog>
+      <dialog chara="091">「凭什么你的待遇就这么好啊？」</dialog>
+      <dialog chara="092">「素裳，神州有句古话，叫『塞翁失马，焉知非福；塞翁得马，焉知非祸。』」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-标准"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-叹气"/>
+      <dialog chara="092">「别看我当下风风光光，可打我来到神州起就有种预感，好像有什么至高无上的力量在监视我，等着让我摔个大跟头哩。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-手指"/>
+      <dialog chara="092">「福祸相依，我现在走运，一会儿没准就要倒大霉了。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-微笑"/>
+      <dialog chara="091">「真的吗！所以我接下来会很幸运咯？」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-尬笑"/>
+      <dialog chara="092">
+        <p>「呃，这可是《神州折剑录》啊，所以……</p>
+        <p>谁知道会发生什么呢。」</p>
+      </dialog>
+      <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"/>
+      <motion chara="091" action="img_trans" img="Q版-素裳-标准"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-思考"/>
+      <dialog chara="092">「第一折完结之后，主办方举办了一个答疑活动，从热心读者那里收到了数百条来信。」</dialog>
+      <dialog chara="092">「接下来，我和素裳会挑选其中的一些问题进行回答。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-开心"/>
+      <dialog chara="091">「嗯嗯！我负责做什么？」</dialog>
+      <dialog chara="092">「解答的人是我，你就来帮我念稿子吧。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-尴尬"/>
+      <dialog chara="091">「啊？喔……好……」</dialog>
+      <dialog chara="091">「为……七……呃，走……」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-苦恼"/>
+      <dialog chara="091">「罗刹人，这个字我不会念。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-吃瘪"/>
+      <dialog chara="092">「对不住，我把这回事忘了……还是我来吧。」</dialog>
+      <motion chara="091" action="hide"/>
+      <motion chara="092" action="hide"/>
+      <mono pageend="true">
+        <p/>
+        <p>问：为什么七位徒弟要讨伐恩师？</p>
+        <p/>
+        <p/>
+        <p>问：为什么武力值战斗值生命值MAX的符华会死在七徒手下？</p>
+        <p/>
+        <p/>
+        <p>问：神州折剑录的主角李素裳，她会前往哪里？ </p>
+      </mono>
+      <motion chara="091" action="show" pos="left" img="Q版-素裳-标准"/>
+      <motion chara="092" action="show" pos="right" img="Q版-奥托-标准"/>
+      <dialog chara="091">「大家都很关心剧情发展呢。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-微笑"/>
+      <dialog chara="092">「以上问题出现的频率最高，但很可惜，由于涉及剧透，在这里无法回答。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-开心"/>
+      <dialog chara="091">「就像听书一样，听过的书就不好玩了。」</dialog>
+      <dialog chara="092">「没错。而且在下只是一介平凡人类，并不能预知未来之事。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-手指"/>
+      <dialog chara="092">「来挑一些我们能够解答的问题吧！」</dialog>
+      <motion chara="091" action="hide"/>
+      <motion chara="092" action="hide"/>
+      <mono pageend="true">
+        <p/>
+        <p>问：神州发展到现在有自己的对崩坏组织吗？</p>
+        <p/>
+        <p>问：为何神州几千年来似乎只有符华对抗崩坏，而没出现一个对抗崩坏的专业组织？按照神州世俗政权对神州的整合能力，这不合常理，欧洲常年一盘散沙都能出个天命。</p>
+        <p/>
+        <p>问：太虚剑气为什么不删改些许以“武功秘籍”的方式普及一下，以增强民间对抗崩坏的力量？</p>
+      </mono>
+      <motion chara="091" action="show" pos="left" img="Q版-素裳-标准"/>
+      <motion chara="092" action="show" pos="right" img="Q版-奥托-思考"/>
+      <dialog chara="091">「又是甭坏……这个词儿是什么意思呀？」</dialog>
+      <dialog chara="092">「说来惭愧，我对神州其实知之甚少。」</dialog>
+      <dialog chara="092">「五百年来，天命始终坚持绝不干涉神州事务的原则，以平等的身份与神州友好交流。」</dialog>
+      <dialog chara="092">「现代神州大力发展高新科技，以机械巡卫作为对抗崩坏的主力。」</dialog>
+      <dialog chara="092">
+        <p>「至于组织……现在的武林六大派在五百年后仍有留存。</p>
+        <p>譬如太虚剑派：它数百年来始终以扫除崩坏兽与死士为己任。」</p>
+      </dialog>
+      <dialog chara="092">
+        <p>「赤鸢真人的太虚剑气在五百年后已散佚了。</p>
+        <p>但其第六徒马非马留下了诸多功法，一般认为它们受到了太虚剑气的启发，</p>
+        <p>太虚剑派的《太虚真诀》更被认为是太虚剑气的正统传承。」</p>
+      </dialog>
+      <dialog chara="092">「以上三个问题的回答就是这样。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-沉默"/>
+      <dialog chara="091">「……………………」</dialog>
+      <dialog chara="091">「罗刹人。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-尬笑"/>
+      <dialog chara="091">「你不是说：你只是个一介凡人，不能预知未来。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-黑化"/>
+      <dialog chara="091">「那刚刚一口一个五百年后是怎么回事！」</dialog>
+      <dialog chara="092">「呃，这个……有时候也是可以预知的……哈哈。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-手指"/>
+      <dialog chara="092">「小剧场而已！不要在意细节！」</dialog>
+      <dialog chara="092">「下一批问题！」</dialog>
+      <motion chara="091" action="hide"/>
+      <motion chara="092" action="hide"/>
+      <mono pageend="true">
+        <p/>
+        <p>问：轩辕剑与剑意之间有什么联系？</p>
+        <p/>
+        <p/>
+        <p>问：凌霜的实力究竟是多强，可以使用太虚剑神但是却不可以领悟剑意？那么剑意又到底是什么，神之键的共鸣吗？</p>
+        <p/>
+        <p/>
+        <p>问：七个弟子，那就是七把轩辕剑吗？轩辕剑不是量产的吗，难道不都是一个样子的吗，难道说轩辕剑可以变换形状吗! </p>
+      </mono>
+      <motion chara="091" action="show" pos="left" img="Q版-素裳-无语"/>
+      <motion chara="092" action="show" pos="right" img="Q版-奥托-思考"/>
+      <dialog chara="091">「……名字我都熟，连在一起就听不懂了。」</dialog>
+      <dialog chara="091">「罗刹人，我待在这儿到底有什么用处呢？」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-尬笑"/>
+      <dialog chara="092">「这个……吉祥物？」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-苦恼"/>
+      <dialog chara="091">「……唉。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-尴尬"/>
+      <dialog chara="091">「我走了……」</dialog>
+      <motion chara="091" action="hide" duration="1"/>
+      <delay t="1"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-手指"/>
+      <dialog chara="092">「素裳——」</dialog>
+      <dialog chara="092">「………………」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-标准"/>
+      <dialog chara="092">「很抱歉，呃……接下来我只能一个人为大家答疑了。」</dialog>
+      <dialog chara="092">「要阐述剑意，首先须解释何为轩辕剑。」</dialog>
+      <dialog chara="092">「轩辕剑是拥有特殊机制的“支配之键”；当它与持有者形成共鸣后，就会集中能量，变换形状。」</dialog>
+      <dialog chara="092">「这种变化被赤鸢真人以“剑意”的形式纳入太虚剑气体系之中，以便世人理解。本质上它与其它四蕴无关，也不是一种武学。」</dialog>
+      <dialog chara="092">「凌霜没有领悟的剑意的原因目前仍不得而知。在仙人身故之前，凌霜被称为“小上仙”，武功境界仅在赤鸢一人之下。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-思考"/>
+      <motion chara="093" action="show" img="Q版-符华-标准" duration="1" pos="left"/>
+      <delay t="1"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-吃瘪"/>
+      <dialog chara="092">「下一个问题是……咦？？？」</dialog>
+      <dialog chara="093">「你好。」</dialog>
+      <dialog chara="092">「赤鸢？……你，你怎么来了？」</dialog>
+      <dialog chara="093">「方才在门口碰到一个小姑娘，她问我识不识字。我说识得，她就请我来这里帮个忙。」</dialog>
+      <dialog chara="093">「说是只要念几段文字就好。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-尬笑"/>
+      <dialog chara="092">「（素裳的运气都用在这里了吗……）」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-微笑"/>
+      <dialog chara="092">「正是，那就有请赤鸢真人代为提问吧。」</dialog>
+      <event action="goto" to="002"/>
+    </scene>
+    <scene id="002" type="block" prev="001" title="答疑2">
+      <dialog chara="093">「问：除赤鸢仙人之外，目前神州的最强者是谁？」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-思考"/>
+      <dialog chara="092">「唔，这个问题可以回答吗？」</dialog>
+      <motion chara="093" action="img_trans" img="Q版-符华-张口"/>
+      <dialog chara="093">「抱歉，我对武功或排名毫无兴趣，也没有了解。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-尬笑"/>
+      <dialog chara="092">
+        <p>「原来如此。</p>
+        <p>（这个……也在我的知识盲区里。）」</p>
+      </dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-摊手"/>
+      <motion chara="093" action="img_trans" img="Q版-符华-标准"/>
+      <dialog chara="092">「……要是素裳在就好了。这个话题她一定喜欢。」</dialog>
+      <dialog chara="091">「嘻嘻，我回来啦！」</dialog>
+      <motion chara="093" action="move" pos="center" duration="0.5"/>
+      <motion chara="091" action="show" pos="left" img="Q版-素裳-开心" duration="0.5" delay="0.1"/>
+      <dialog chara="091">「终于有我的戏份了！」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-微笑"/>
+      <dialog chara="091">「除了仙人以外，现在江湖上通常认为我师父，得了赤鸢真传的“无上自在”凌霜是天下第一。」</dialog>
+      <dialog chara="091">「不过师父退隐很久了。如今天下第一的争论分为三派：」</dialog>
+      <dialog chara="091">
+        <p>「有人认为太虚掌门，仙人首徒林朝雨武功第一，</p>
+        <p>有人推“无双仙子”苏湄为天下无双；」</p>
+      </dialog>
+      <motion chara="091" action="img_trans" img="素裳-Q版-欢呼"/>
+      <dialog chara="091">
+        <p>「但江湖上普遍认为“不死的”马非马才是当世无敌，</p>
+        <p>这位第六徒不但打遍中原，战绩显赫，还发明了许多高明武功，只谈武学境界的话，可称是一代宗师！」</p>
+      </dialog>
+      <motion chara="093" action="img_trans" img="Q版-符华-微笑"/>
+      <dialog chara="093">「哦，如此说来……我的徒弟们如今都很了得呢。」</dialog>
+      <dialog chara="091">「名师出高徒嘛！您的徒孙我也很厉害哦！」</dialog>
+      <dialog chara="093">「是么……」</dialog>
+      <motion chara="093" action="img_trans" img="Q版-符华-失落"/>
+      <dialog chara="093">
+        <p>「以前的事情，我不记得了。</p>
+        <p>虽然明白自己应该高兴，却无法产生这样的情绪……」</p>
+      </dialog>
+      <dialog chara="093">「……」</dialog>
+      <motion chara="093" action="img_trans" img="Q版-符华-张口"/>
+      <dialog chara="093">「小姑娘既然回来了，这里的舞台就交还给二位吧。告辞了。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-手指"/>
+      <dialog chara="092">「仙人请留步。读者非常期待您的出场，不妨先回答几个问题再离去，可好？」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-微笑"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-思考"/>
+      <dialog chara="092">
+        <p>「问：什么时候才能等到符华出石室啊？</p>
+        <p>问：符华手上原本有多少把轩辕剑？」</p>
+      </dialog>
+      <dialog chara="093">「轩辕么……最多时约有百件罢。有些赠给有资质的同伴，有些在战斗中损毁，还有些用于镇压崩坏了。」</dialog>
+      <dialog chara="091">「咦？这样的宝物，居然有一百件之多！」</dialog>
+      <motion chara="093" action="img_trans" img="Q版-符华-标准"/>
+      <dialog chara="093">「嗯，虽是宝物，不能物尽其用也只是装饰罢了。」</dialog>
+      <dialog chara="093">「至于石室……我已离开石室数月，只是行路匆匆，未能与各位相见。」</dialog>
+      <dialog chara="093">
+        <p>「好了，我已耽搁得太久了。</p>
+        <p>望诸君善自珍重，来日再会。」</p>
+      </dialog>
+      <motion chara="093" action="hide" duration="1"/>
+      <text>赤鸢微微一笑，就此离去。</text>
+      <dialog chara="093">「——何处低头不见我？四方同此水中天。」</dialog>
+      <motion chara="091" action="img_trans" img="Q版-素裳-标准"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-标准"/>
+      <dialog chara="091">「她走了。」</dialog>
+      <dialog chara="092">「她走了。」</dialog>
+      <dialog chara="091">「她好孤独。」</dialog>
+      <dialog chara="092">「她是孤独的人，所以行孤独的路。」</dialog>
+      <dialog chara="092">
+        <p>「但只要读者中有知她懂她的人，即使孤独，她也必不寂寥。</p>
+        <p>正所谓知己在心，天涯比邻。」</p>
+      </dialog>
+      <dialog chara="091">「……我去送送她吧，看她这样走了，我心里难过。」</dialog>
+      <motion chara="091" action="hide"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-尬笑"/>
+      <dialog chara="092">「……（怎么又只剩我一个人了。）」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-摊手"/>
+      <dialog chara="092">「好吧，赤鸢这一去，相信各位的心思已不在答疑上了。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-手指"/>
+      <dialog chara="092">「接下来进入速问速答环节！」</dialog>
+      <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-思考"/>
+      <dialog chara="092">
+        <p>「问：奥托你的虚空万藏居然连其他神之键和月光王座的信息都没有！</p>
+        <p>训练战士的方法还要从符华那里偷学！</p>
+        <p>实在是太逊啦！这不是真正重要的东西一点都无吗！」</p>
+      </dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-手指"/>
+      <dialog chara="092">「非也非也！虚空万藏包罗万象，神之键和月光王座的资料当然也在其中。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-叹气"/>
+      <dialog chara="092">「但，虚空万藏那家伙拿索引权限向我勒索，我也很头痛啊……」</dialog>
+      <dialog chara="092">「各位想象一下：你在图书馆里找一本书，但既没有索引也没有封面，只能一本本慢慢翻阅……」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-吃瘪"/>
+      <dialog chara="092">「在这么艰难的条件下，我还能发掘出那么多资料，这不是一件非常了不起的事吗！」</dialog>
+      <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"/>
+      <motion chara="092" action="img_trans" img="Q版-奥托-思考"/>
+      <dialog chara="092">「问：在剧情和逆熵视觉小说里，奥托的虚空万藏复制品都是金色的，但神州折剑录中他复制的杯子和酒却不是金色的？」</dialog>
+      <dialog chara="092">「这个嘛，是艺术加工……各位知道，金灿灿的东西出现在画面上未必好看。」</dialog>
+      <dialog chara="092">「为了配合视觉需要，不得不暂时牺牲一些设定表现，就是这样。」</dialog>
+      <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"/>
+      <dialog chara="092">「问：奥托这时候应该四十岁了吧？他用的是魂钢身体吗？」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-微笑"/>
+      <dialog chara="092">「喔？这位看官很了解我嘛。确切地说，在这个故事发生的时候我已经年近五十了……」</dialog>
+      <dialog chara="092">「但通过对黑渊白花的研究，我找到了让自己的身体维持在青年时期的方法。」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-思考"/>
+      <dialog chara="092">「至于魂钢？……我暂时还没有在虚空万藏里找到这份资料。不过你提醒了我。」</dialog>
+      <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"/>
+      <dialog chara="092">「问：奥托，你这些年来为复活卡莲奔波，那你作为主教，天命应该怎么办，你不会让奥托•薇拉去管吧？」</dialog>
+      <dialog chara="092">
+        <p>「我花了很长时间，应用最先进的管理学对天命的组织结构进行了变革，</p>
+        <p>现在它在一定程度上可以自行运转，不需要我事事亲力亲为。」</p>
+      </dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-微笑"/>
+      <dialog chara="092">「薇拉她确实帮我分担了一部分管理业务，不过，还是让专业的人做专业的事比较好，对吗？」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-手指"/>
+      <dialog chara="092">「接下来是最后一个问题！」</dialog>
+      <transition mode="clock" in="1" stop="0.5" out="1" color="#000000"/>
+      <dialog chara="092">「问：罗刹人的棺材里是什么，卡莲吗？还是犹大？」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-摊手"/>
+      <dialog chara="092">「这，请容我用阿波卡利斯家族先祖的一句话回答——」</dialog>
+      <dialog chara="092">「…………」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-吃瘪"/>
+      <dialog chara="092">「（没有人接话，还怎么往下讲啊。）」</dialog>
+      <dialog chara="092">
+        <p>「咳——请容我用阿波卡利斯家族先祖的一句话回答：</p>
+        <p>不可说，不可说。」</p>
+      </dialog>
+      <dialog chara="092">「…………」</dialog>
+      <motion chara="092" action="img_trans" img="Q版-奥托-手指"/>
+      <dialog chara="092">「那么今天的答疑剧场就到此结束了感谢各位看官的捧场我们下期再会！」</dialog>
+      <dialog chara="092" inline="true">「（以后再也不要一个人出演了！……</dialog>
+      <dialog chara="092">
+        <p/>
+        <p>干脆教李素裳认字吧……）」</p>
+      </dialog>
+      <transition mode="fade" in="5" stop="0.5" out="0" color="#000000"/>
+      <event action="callback" name="end"/>
+    </scene>
+  </scripts>
+</data>
