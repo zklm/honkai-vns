@@ -273,7 +273,8 @@
             <show chara="schroShockLanceFar" position="left" opacity="0.7"/>
             <show chara="nokiaCrazyWinterFar" position="right"/>
             <speak chara="nokiaNoFace">I never wanted this! I never thought this would end this way!</speak>
-            <speak chara="nokiaNoFace">I-I got told by the B-Bishop to tamper with Edison's calculations so that the experiment would take a little longer. That was all.</speak>
+            <!-- RENAME: I-I got told by the B-Bishop to tamper with Edison's calculations so that the experiment would take a little longer. That was all. -->
+            <speak chara="nokiaNoFace">I-I got told by the O-Overseer to tamper with Edison's calculations so that the experiment would take a little longer. That was all.</speak>
             <speak chara="nokiaNoFace">He only said jokingly 「I don't want Edison to make a technological breakthrough that will change the world」!</speak>
             <speak chara="nokiaNoFace">I-I never thought this was going to happen.</speak>
             <shake position="right" time="250"></shake>
@@ -322,7 +323,8 @@
             <show chara="ottoConfidentLanceFar" position="center"/>
             <speak chara="ottoNoNameNoFace">But it's good manners to introduce oneself.</speak>
             <show chara="ottoFrivolousLanceFar" position="center"/>
-            <speak chara="ottoNoFace">I am Otto Apocalypse, the 「Bishop」 of 「Destiny」.</speak>
+            <!-- RENAME: I am Otto Apocalypse, the 「Bishop」 of 「Destiny」. -->
+            <speak chara="ottoNoFace">I am Otto Apocalypse, the 「Overseer」 of 「Schicksal」.</speak>
             <show chara="weltSBDNewFar" position="center"/>
             <speak chara="weltNoFace">...Otto!</speak>
             <speak chara="weltNoFace">W-What kind of magic trick was that!?</speak>

@@ -241,7 +241,8 @@
             <speak chara="einNoFace">Who are you?</speak>
             <show chara="einSeriousEmWinterFar" position="back" opacity="0.7"/>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">I'm the Valkyrie Fuka.</speak>
+            <!-- RENAME: I'm the Valkyrie Fuka. -->
+            <speak chara="fuhuaNoNameNoFace">I'm the Valkyrie Fu Hua.</speak>
             <show chara="fuhuaSmileCloseEyeFar" position="right"/>
             <speak chara="fuhuaNoFace">You could say I'm Reanna-san's colleague.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>

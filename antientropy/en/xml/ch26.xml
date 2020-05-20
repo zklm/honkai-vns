@@ -121,7 +121,8 @@
             <speak chara="ottoNoFace">...</speak>
             <speak chara="ottoNoFace">That's not it.</speak>
             <speak chara="ottoNoFace">The amount of people is irrelevant.</speak>
-            <speak chara="ottoNoFace">Like how in an universe without observers a song praising it will never be born,</speak>
+            <!-- TYPO: Like how in an universe without observers a song praising it will never be born, -->
+            <speak chara="ottoNoFace">Like how in a universe without observers a song praising it will never be born,</speak>
             <speak chara="ottoNoFace">There is no point to a world without Kallen!</speak>
             <show chara="kallenChristMercyFar" position="center"/>
             <speak chara="kallenNoNameNoFace">...What a pitiful child.</speak>
@@ -135,9 +136,9 @@
         </scene>
         <scene id="30" background="blackHole.jpg">
             <bgm src="8_24_war.mp3" status="continue"></bgm>
-            <text>「Otto」's body was no longer able to keep its human shape. The skin made out of liquid metal had peeled off, and the machine underneath can be seen.</text>
+            <text>「Otto」's body was no longer able to keep its human shape.</text>
+            <text>The skin made out of liquid metal had peeled off, and the machine underneath can be seen.</text>
             <text>Welt clenched his teeth, as if the power of his entire body was being poured into the 「Eden's Star」.</text>
-            <text>瓦尔特咬紧牙关，仿佛要把全身的力量都灌输到“伊甸之星”当中。</text>
             <text>I have to do my very best.</text>
             <text>If I do my best, I can put an end to this chaotic day.</text>
             <text>If I do my best, Reanna-san may be able to regain control from him.</text>
@@ -169,7 +170,8 @@
             <bgm src="11_17_tatakau.mp3" status="continue"></bgm>
             <speak chara="ottoNoFace">...You were careless, Herrscher.</speak>
             <speak chara="ottoNoFace">Since when were you under the impression that 「Divine Keys」 are unbreakable?</speak>
-            <speak chara="ottoNoFace">This is a copy of the 「Key of Promise」 fine-tuned to my liking. By using it, I can completely seal the Houkai energy of my target.</speak>
+            <!-- RENAME: This is a copy of the 「Key of Promise」 fine-tuned to my liking. By using it, I can completely seal the Houkai energy of my target. -->
+            <speak chara="ottoNoFace">This is a copy of the 「Key of Binding」 fine-tuned to my liking. By using it, I can completely seal the Houkai energy of my target.</speak>
             <speak chara="ottoNoFace">Now you're no different than a powerless insect.</speak>
             <speak chara="weltNoFace">...</speak>
             <speak chara="ottoNoFace">It's no use thinking, my hopeless friend.</speak>
@@ -188,7 +190,8 @@
             <text article="1">
                 <p class="article-text">In just a moment,</p>
                 <br />
-                <p class="article-text">Destiny's Bishop turned the tide on what seemed to be a clear victory.</p>
+                <!-- RENAME: Destiny's Bishop turned the tide on what seemed to be a clear victory. -->
+                <p class="article-text">Schicksal's Overseer turned the tide on what seemed to be a clear victory.</p>
             </text>
             <text article="1">
                 <p class="article-text">My hand.</p>
@@ -359,7 +362,8 @@
             <show chara="weltNakedCoatNervousClose" position="center"/>
             <speak chara="weltNoFace">What happened?</speak>
             <show chara="ritaNervousHeadphoneGunClose" position="center"/>
-            <speak chara="ritaFullNameNoFace">I received a message from Cuba. It seems Destiny Organization has raised its alert level to 「Zero」.</speak>
+            <!-- RENAME: I received a message from Cuba. It seems Destiny Organization has raised its alert level to 「Zero」. -->
+            <speak chara="ritaFullNameNoFace">I received a message from Cuba. It seems Schicksal has raised its alert level to 「Zero」.</speak>
             <show chara="reaChangeSeriousClose" position="center"/>
             <speak chara="reannaNoFace">...!</speak>
             <show chara="reaChangeShoutClose" position="center"/>
@@ -510,7 +514,8 @@
             <speak chara="reannaNoFace">Also...</speak>
             <speak chara="reannaNoFace">Welt, I'll say it again——</speak>
             <speak chara="reannaNoFace">When we are carrying out this plan, if your energy output exceeds the limit of what you can handle...</speak>
-            <speak chara="reannaNoFace">The wounds caused by the 「Key of Promise」 could reopen and get worse...</speak>
+            <!-- RENAME: The wounds caused by the 「Key of Promise」 could reopen and get worse... -->
+            <speak chara="reannaNoFace">The wounds caused by the 「Key of Binding」 could reopen and get worse...</speak>
             <speak chara="reannaNoFace">...To the point they may claim your life.</speak>
             <show chara="reaChangeSeriousClose" position="right" opacity="0.7"/>
             <show chara="weltNakedCoatShoutClose" position="left"/>

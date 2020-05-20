@@ -544,7 +544,8 @@
             <show chara="ironWhiteClose" position="left"/>
             <speak chara="_Ironface">...Perhaps.</speak>
             <show chara="ironBlueClose" position="left"/>
-            <speak chara="_Ironface">That 「Bishop」 knows his stuff.</speak>
+            <!-- RENAME: That 「Bishop」 knows his stuff. -->
+            <speak chara="_Ironface">That 「Overseer」 knows his stuff.</speak>
             <show chara="ironWhiteClose" position="left"/>
             <speak chara="_Ironface">Then... I'll take over to explain the situation from inside the 「Quantum Sea」.</speak>
             <end post="U2FsdGVkX19isr5qAfmCyerhHwtc"/>

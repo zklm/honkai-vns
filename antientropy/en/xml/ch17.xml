@@ -342,12 +342,14 @@
             <bgm src="03_03_bostonNight.mp3" status="continue"></bgm>
             <text>The last stop is the ship USS Constitution. Here H.A. left her personal thoughts.</text>
             <speak chara="haNoFace">I am H.A.... I am sure you have heard my voice before.</speak>
-            <speak chara="haNoFace">I used to be a 「Valkyrie」 of the organization known as 「Destiny」.</speak>
+            <!-- RENAME: I used to be a 「Valkyrie」 of the organization known as 「Destiny」. -->
+            <speak chara="haNoFace">I used to be a 「Valkyrie」 of the organization known as 「Schicksal」.</speak>
             <speak chara="haNoFace">When I found this peculiar material in Yellowstone that survived 50.000 years, I could not control my curiosity.</speak>
             <speak chara="haNoFace">I listened to all the recordings using the equipment I found here... You are blessed. I left you only 6 out of those heartbreaking stories.</speak>
             <speak chara="haNoFace">I swear to you, listening to hundreds of those stories of death is not a good idea.</speak>
             <speak chara="haNoFace">Since I was unfamiliar with the old language, I asked a certain scholar to secretly translate them for me.</speak>
-            <speak chara="haNoFace">But... out of nowhere, he was accused of false charges and imprisoned by Destiny.</speak>
+            <!-- RENAME: But... out of nowhere, he was accused of false charges and imprisoned by Destiny. -->
+            <speak chara="haNoFace">But... out of nowhere, he was accused of false charges and imprisoned by Schicksal.</speak>
             <speak chara="haNoFace">This happened in 1829. His name is 「Niels Henrik Abel」.</speak>
             <speak chara="haNoFace">If possible, please investigate the truth of that incident.</speak>
             <speak chara="haNoFace">Soon afterwards I was falsely accused as well. In my case, the Valkyrie who came to arrest me decided to look the other way, so I did not meet the same end as him.</speak>
@@ -355,12 +357,16 @@
             <speak chara="haNoFace">...Perhaps I stopped trusting them long before that.</speak>
             <speak chara="haNoFace">They continued to take the same approach towards the enemy. Any enemy must be 「thoroughly exterminated」.</speak>
             <speak chara="haNoFace">That determination to eliminate any opposition made me question if it was not being used as an excuse to cover up their own dirty deeds.</speak>
-            <speak chara="haNoFace">The Soulium Sphere I could not keep with me was destroyed by the Bishop, and the scholars who tried to study it where dealt with by depriving them of food and warm.</speak>
-            <speak chara="haNoFace">Neither 「Destiny」 nor its Bishop can exterminate the Houkai in the real sense of the word.</speak>
+            <!-- RENAME: The Soulium Sphere I could not keep with me was destroyed by the Bishop, and the scholars who tried to study it where dealt with by depriving them of food and warm. -->
+            <speak chara="haNoFace">The Soulium Sphere I could not keep with me was destroyed by the Overseer, and the scholars who tried to study it where dealt with by depriving them of food and warm.</speak>
+            <!-- RENAME: Neither 「Destiny」 nor its Bishop can exterminate the Houkai in the real sense of the word. -->
+            <speak chara="haNoFace">Neither 「Schicksal」 nor its Overseer can exterminate the Houkai in the real sense of the word.</speak>
             <speak chara="haNoFace">Even if they could catch up or even surpass the technological level of the previous civilization...</speak>
             <speak chara="haNoFace">...Specially when taking into account the 「Herrscher」 and their mysterious abilities,、if they do not change their methods the future of humanity will remain bleak.</speak>
-            <speak chara="haNoFace">Entrusting the fate of the world to an organization such as Destiny is a complete mistake.</speak>
-            <speak chara="haNoFace">I have left behind a weapon in Lexington that can pose a threat to that Bishop.</speak>
+            <!-- RENAME: Entrusting the fate of the world to an organization such as Destiny is a complete mistake. -->
+            <speak chara="haNoFace">Entrusting the fate of the world to an organization such as Schicksal is a complete mistake.</speak>
+            <!-- RENAME: I have left behind a weapon in Lexington that can pose a threat to that Bishop. -->
+            <speak chara="haNoFace">I have left behind a weapon in Lexington that can pose a threat to that Overseer.</speak>
             <speak chara="haNoFace">Use it wisely... but keep in mind that 「no action is the best threat」.</speak>
             <speak chara="haNoFace">Because if you take action and your plan does not work, nobody will be afraid of you anymore.</speak>
             <goto goto="220" change="#ffffff"/>

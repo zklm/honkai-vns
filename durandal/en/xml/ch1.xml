@@ -61,7 +61,8 @@
             <speak chara="_Durandal">.....</speak>
             <show chara="biankaSportHesitateClose" position="right" opacity="0.8"/>
             <show chara="ritaMaidNormalClose" position="left"/>
-            <speak chara="_Rita">The Bishop will put his plan in motion at the right moment.</speak>
+            <!-- RENAME: The Bishop will put his plan in motion at the right moment. -->
+            <speak chara="_Rita">The Overseer will put his plan in motion at the right moment.</speak>
             <speak chara="_Rita">The day when we can finally fulfill our promise will certainly come.</speak>
             <show chara="ritaMaidNormalClose" position="left" opacity="0.8"/>
             <show chara="biankaSportSmileClose" position="right"/>
@@ -138,7 +139,8 @@
             <show chara="biankaSeriousClose" position="left"/>
             <speak chara="_Bianka">I'm a Valkyrie who only met you right before this mission started, and you only became my adjutant due to a certain someone's insistence.</speak>
             <show chara="biankaShoutClose" position="left"/>
-            <speak chara="_Bianka">——Please stop talking to me the same way you talk to the Bishop!</speak>
+            <!-- RENAME: ——Please stop talking to me the same way you talk to the Bishop! -->
+            <speak chara="_Bianka">——Please stop talking to me the same way you talk to the Overseer!</speak>
             <show chara="biankaShoutClose" position="left" opacity="0.8"/>
             <show chara="rita17NormalClose" position="right"/>
             <speak chara="_Rita">Understood, Bianka-sama.</speak>

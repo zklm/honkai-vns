@@ -295,7 +295,9 @@
             </remark>
             <show chara="mbembaClose" position="right" opacity="0.7"/>
             <show chara="weltAstonishNewClose" position="left"/>
-            <speak chara="weltNoFace">...That's a submachine, right? Do we have that many bullets?</speak>
+            <!-- original is ……这是冲锋枪吧？我们有那么多的弹药吗？-->
+            <!-- TYPO: ...That's a submachine, right? Do we have that many bullets? -->
+            <speak chara="weltNoFace">...That's a submachine gun, right? Do we have that many bullets?</speak>
             <show chara="weltAstonishNewClose" position="left" opacity="0.7"/>
             <show chara="teslaShameGlassWinterClose" position="right"/>
             <speak chara="teslaNoFace">Damn right we do! There's an entire case in that sports cars we've been riding on.</speak>

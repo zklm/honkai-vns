@@ -39,7 +39,8 @@
                 <p class="article-text">此句出自《共产党宣言》。</p>
                 <p class="article-text">全句为：“代替那存在着阶级和阶级对立的资产阶级旧社会的，将是这样一个联合体，在那里，每个人的自由发展是一切人的自由发展的条件。”</p>
             </remark>
-            <text>Military organizations such as Destiny tend to easily trample over anything besides the right to live.</text>
+            <!-- RENAME: Military organizations such as Destiny tend to easily trample over anything besides the right to live. -->
+            <text>Military organizations such as Schicksal tend to easily trample over anything besides the right to live.</text>
             <text>在生死攸关的时刻，这也的确是无可奈何的事情。</text>
             <text>But also unilaterally enforcing such rights will make them lose their value.</text>
             <text>When it comes to military organizations, if one were to turn upside down the 「rules」 at its core——</text>
@@ -50,8 +51,10 @@
         <scene id="30" background="westCliff.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <text>That person, 「H.A」, conveyed her views through her videos.</text>
-            <text>She believed Destiny's philosophy is fundamentally problematic.</text>
-            <text>If 「Destiny」 goes down the same path as many other empires in history——</text>
+            <!-- RENAME: She believed Destiny's philosophy is fundamentally problematic. -->
+            <text>She believed Schicksal's philosophy is fundamentally problematic.</text>
+            <!-- RENAME: If 「Destiny」 goes down the same path as many other empires in history—— -->
+            <text>If 「Schicksal」 goes down the same path as many other empires in history——</text>
             <text>一If it turns to be an organization formed to fulfill the ambitions of a few...</text>
             <text>Then any person with common sense must stand on the opposite side against it.</text>
             <text>However...</text>
@@ -67,7 +70,8 @@
             <text>That being revenge against the Houkai with her own hands, for her own family or maybe for all of humanity.</text>
             <text>And to do so, she won't hesitate to eliminate any 「obstacles」 that get in her way.</text>
             <text>She won't rest until her goal is achieved.</text>
-            <text>Herself, her company, her country, Destiny Organization... They're all pawns she's willing to use to fulfill her goals.</text>
+            <!-- RENAME: Herself, her company, her country, Destiny Organization... They're all pawns she's willing to use to fulfill her goals. -->
+            <text>Herself, her company, her country, Schicksal... They're all pawns she's willing to use to fulfill her goals.</text>
             <goto goto="40" change="0"/>
         </scene>
         <scene id="40" background="westCliffWomenRoom.jpg">
@@ -325,7 +329,8 @@
             <speak chara="haNoFace">But still, I would like you to take your time and think carefully...</speak>
             <speak chara="haNoFace">About what you will do with the information after you have found the last Soulium Sphere.</speak>
             <speak chara="haNoFace">I trust you remember the conclusion I mentioned earlier, yes?</speak>
-            <speak chara="haNoFace">Destiny cannot beat the Houkai by relying on brute force alone.</speak>
+            <!-- RENAME: Destiny cannot beat the Houkai by relying on brute force alone. -->
+            <speak chara="haNoFace">Schicksal cannot beat the Houkai by relying on brute force alone.</speak>
             <speak chara="haNoFace">I will admit this is merely my personal opinion.</speak>
             <speak chara="haNoFace">But I truly believe the conclusion I have reached is the correct one.</speak>
             <speak chara="haNoFace">Of course, it is not my intention to force my opinion on you all. There are no two people who think the exact same way.</speak>

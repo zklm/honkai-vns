@@ -19,7 +19,8 @@
             <text>As we all know, a three dimensional bubble has a spherical surface that is close to being two dimensional.</text>
             <text>When these 「bubble worlds」 are in the 「Ether Bathhub」, a choice of which of the eleven dimensions are inherited must be made.</text>
             <text>For instance, in the 「universe」 we are familiar with humans can recognize four dimension and seven extra dimensions, each one being a constant 「membrane」.</text>
-            <text>What Bishop Otto referred to as 「Ether Anchor Point」 is the special structure or method that allows those 「membranes」 to turn into 「bubble worlds」.</text>
+            <!-- RENAME: What Bishop Otto referred to as 「Ether Anchor Point」 is the special structure or method that allows those 「membranes」 to turn into 「bubble worlds」. -->
+            <text>What Overseer Otto referred to as 「Ether Anchor Point」 is the special structure or method that allows those 「membranes」 to turn into 「bubble worlds」.</text>
             <text>When the 「analogous distance」 between two 「membranes」 is small enough, they begin to influence each other—— For example, by exchanging matter.</text>
             <text>Speaking in general, it's easier for a substance to go from a 「relatively small membrane」 to a 「relatively big membrane」 but doing the oppossite is quite difficult——</text>
             <text>——As such, the 「relatively small membrane」 is likely to be the one who performs changes to other bigger 「membranes」.</text>
@@ -155,7 +156,8 @@
             <speak chara="_Rita">...I don't... recall telling anyone.</speak>
             <show chara="rita17NormalClose" position="left" opacity="0.8"/>
             <show chara="biankaProudClose" position="right"/>
-            <speak chara="_Bianka">...Ahahaha, I know because the Bishop 「sold you out」.</speak>
+            <!-- RENAME: ...Ahahaha, I know because the Bishop 「sold you out」. -->
+            <speak chara="_Bianka">...Ahahaha, I know because the Overseer 「sold you out」.</speak>
             <show chara="biankaConfidentClose" position="right"/>
             <speak chara="_Bianka">Rita Rossweisse, born on March 1st 1995——</speak>
             <show chara="biankaSurpriseClose" position="right" opacity="0.8"/>

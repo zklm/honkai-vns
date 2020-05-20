@@ -278,8 +278,10 @@
         <character name="Schrodinger" color="#8a58f0" id="schroTalkClose" src="02_21_schroTalkClose.png"/>
         <character name="Schrodinger" color="#8a58f0" id="schroTalkFar" src="02_21_schroTalkFar.png"/>
         <character name="Schrodinger" color="#8a58f0" id="schroMemoryClose" src="05_01_schroMemoryClose.png"/>
-        <character name="Bishop of Destiny" color="#fff7cd" id="_Otto" src=""/>
-        <character name="Bishop Otto" color="#fff7cd" id="_OttoPapa" src=""/>
+        <!-- RENAME: Bishop of Destiny -->
+        <character name="Overseer of Schicksal" color="#fff7cd" id="_Otto" src=""/>
+        <!-- RENAME: Bishop Otto -->
+        <character name="Overseer Otto" color="#fff7cd" id="_OttoPapa" src=""/>
         <character name="Doctor Otto" color="#fff7cd" id="_OttoDr" src=""/>
         <character name="Otto" color="#fff7cd" id="ottoSuitsKindFar" src="11_15_ottoSuitsKindFar.png"/>
         <character name="Otto" color="#fff7cd" id="ottoSuitsFun" src="08_03_ottoSuitsFun.png"/>

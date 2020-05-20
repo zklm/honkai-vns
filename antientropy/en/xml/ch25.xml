@@ -49,7 +49,8 @@
             <bgm src="04_20_tank.mp3" status="stop"></bgm>
             <text>.....</text>
             <bgm src="03_03_bostonNight.mp3" status="start"></bgm>
-            <text>I know what I must do. At all costs I must get the attention of that wicked Bishop.</text>
+            <!-- RENAME: I know what I must do. At all costs I must get the attention of that wicked Bishop. -->
+            <text>I know what I must do. At all costs I must get the attention of that wicked Overseer.</text>
             <text>If it were an ordinary wounded person, I could quantize them to get them out of trouble.</text>
             <text>But in this case... that won't do anything.</text>
             <text>The wounds inflicted by 「Black Orchid」 can't be healed by normal means.</text>
@@ -115,7 +116,8 @@
             <show chara="ottoHaughtyGunFar" position="center"/>
             <speak chara="ottoNoFace">Don't think you'll leave after interrupting my fun.</speak>
             <hide position="center"></hide>
-            <speak chara="ritaNoNameNoFace">...Hehe. Esteemed Bishop, have you ever heard of this before?</speak>
+            <!-- RENAME: ...Hehe. Esteemed Bishop, have you ever heard of this before? -->
+            <speak chara="ritaNoNameNoFace">...Hehe. Esteemed Overseer, have you ever heard of this before?</speak>
             <show chara="ritaSmileGunFar" position="center"/>
             <speak chara="ritaFullNameNoFace">The greatest philosopher in history once said:</speak>
             <show chara="ritaNormalGunFar" position="center"/>
@@ -184,7 +186,8 @@
             <text>It's different from the soul remnants in your body——</text>
             <text>She is not dead, but I can't exactly say she's alive.</text>
             <text>...but I knew there was something more important than worrying about her that I had to do.</text>
-            <text>Thanks to the Plasma Shield she left us the Bishop can't make a move on us for a while.</text>
+            <!-- RENAME: Thanks to the Plasma Shield she left us the Bishop can't make a move on us for a while. -->
+            <text>Thanks to the Plasma Shield she left us the Overseer can't make a move on us for a while.</text>
             <text>I'm certain now——</text>
             <text>Einstein and Tesla's lives will not meet an ordinary end. </text>
             <text>It's as if they were not injured.</text>

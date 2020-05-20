@@ -16,7 +16,8 @@
             <speak chara="ottoNoNameNoFace">Indeed. I am 「Clown Alpha」.</speak>
             <speak chara="ottoNoNameNoFace">But now that we are meeting like this... I guess a proper introduction is in order.</speak>
             <speak chara="ottoNoNameNoFace">My name is 「Otto Apocalypse」.</speak>
-            <speak chara="ottoNoFace">The current Bishop of Destiny.</speak>
+            <!-- RENAME: The current Bishop of Destiny. -->
+            <speak chara="ottoNoFace">The current Overseer of Schicksal.</speak>
             <speak chara="ottoNoFace">Don't stay there. How about you come in and warm yourself?</speak>
             <goto goto="30" change="#ffffff"/>
         </scene>
@@ -42,7 +43,8 @@
         </scene>
         <scene id="50" background="CG15-3.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">I didn't come here to see you as the Bishop――</speak>
+            <!-- RENAME: I didn't come here to see you as the Bishop―― -->
+            <speak chara="ottoNoFace">I didn't come here to see you as the Overseer――</speak>
             <speak chara="ottoNoFace">――But to leave the pen names behind and expose it all.</speak>
             <goto goto="60" change="0"/>
         </scene>
@@ -62,7 +64,8 @@
             <speak chara="ottoNoFace">...Haha, I shouldn't be talking like a playwright right now.</speak>
             <speak chara="ottoNoFace">I believe it'll help you relax a little if I tell you my intentions directly――</speak>
             <speak chara="ottoNoFace">「Welt」, I want you to be Otto Apocalypse's successor.</speak>
-            <speak chara="ottoNoFace">What I mean by that, is that once I retire I want you to become the next Bishop of Destiny.</speak>
+            <!-- RENAME: What I mean by that, is that once I retire I want you to become the next Bishop of Destiny. -->
+            <speak chara="ottoNoFace">What I mean by that, is that once I retire I want you to become the next Overseer of Schicksal.</speak>
             <speak chara="ottoNoFace">What do you say?</speak>
             <goto goto="90" change="0"/>
         </scene>
@@ -115,8 +118,10 @@
         </scene>
         <scene id="160" background="CG15-8.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <speak chara="ottoNoFace">To be honest, I believe I'm a failure as the Bishop.</speak>
-            <speak chara="ottoNoFace">Because I became the Bishop for my own personal gain―― But that doesn't matter now.</speak>
+            <!-- RENAME: To be honest, I believe I'm a failure as the Bishop. -->
+            <speak chara="ottoNoFace">To be honest, I believe I'm a failure as the Overseer.</speak>
+            <!-- RENAME: Because I became the Bishop for my own personal gain―― But that doesn't matter now. -->
+            <speak chara="ottoNoFace">Because I became the Overseer for my own personal gain―― But that doesn't matter now.</speak>
             <goto goto="170" change="0"/>
         </scene>
         <scene id="170" background="CG15-3.jpg">
@@ -228,8 +233,10 @@
             <speak chara="ottoNoFace">The most intelligent person ever recorded, Einstein.</speak>
             <speak chara="ottoNoFace">The most destructive inventor ever known, Tesla.</speak>
             <speak chara="ottoNoFace">The most unconventional physicist of our time, Planck.</speak>
-            <speak chara="ottoNoFace">The most powerful Valkyrie of Destiny Organization, Brigantia.</speak>
-            <speak chara="ottoNoFace">And there is also the 「Sage」 you've met today, Fuka.</speak>
+            <!-- RENAME: The most powerful Valkyrie of Destiny Organization, Brigantia. -->
+            <speak chara="ottoNoFace">The most powerful Valkyrie of Schicksal, Brigantia.</speak>
+            <!-- RENAME: And there is also the 「Sage」 you've met today, Fuka. -->
+            <speak chara="ottoNoFace">And there is also the 「Sage」 you've met today, Fu Hua.</speak>
             <speak chara="ottoNoFace">They all think highly of you, don't you think so?</speak>
             <speak chara="weltNoFace">E-Eh... Do they really...</speak>
             <speak chara="ottoNoFace">Haha...</speak>
@@ -361,7 +368,9 @@
             <speak chara="ottoNoFace">...Hm?</speak>
             <speak chara="weltNoFace">If you are really trying to convince me to do something...</speak>
             <speak chara="weltNoFace">Stop only concerning about yourself.</speak>
-            <speak chara="weltNoFace">You don't understand anything, Bishop-san.</speak>
+            <!-- original is 主教大人, 大人 is used condescendingly, Mister seems good enough -->
+            <!-- RENAME: You don't understand anything, Bishop-san. -->
+            <speak chara="weltNoFace">You don't understand anything, Mister Overseer.</speak>
             <speak chara="ottoNoFace">.....</speak>
             <speak chara="ottoNoFace">Did I... say something that offended you?</speak>
             <speak chara="weltNoFace">.....</speak>

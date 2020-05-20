@@ -112,7 +112,13 @@
             <speak chara="reannaNoFace">...I'll take her head.</speak>
             <speak chara="reannaNoFace">Literally.</speak>
             <speak chara="reannaNoFace">.....</speak>
-            <speak chara="reannaNoFace">Yes, I'll keep in touch—— Bishop-sama.</speak>
+            <!-- 
+                original is 主教大人, 大人 is used as a standard authorative honorofic, Grand Overseer has been 
+                used in source material before so it seems like a decent fit, Lord would also work since valkyries
+                like Rita/Durandal commonly use "Lord Otto" when speaking to him
+            -->
+            <!-- RENAME: Yes, I'll keep in touch—— Bishop-sama. -->
+            <speak chara="reannaNoFace">Yes, I'll keep in touch—— Grand Overseer.</speak>
             <goto goto="30" change="#ffffff"/>
         </scene>
         <scene id="30" background="roadMontana1.jpg">
@@ -155,7 +161,8 @@
             <text>Tesla.</text>
             <text>Einstein.</text>
             <text>Welt.</text>
-            <text>It's been many years since I've seen warm people like them in Destiny.</text>
+            <!-- RENAME: It's been many years since I've seen warm people like them in Destiny. -->
+            <text>It's been many years since I've seen warm people like them in Schicksal.</text>
             <text>...Perhaps the last one was that person who liked to be addressed as 「H.A.」.</text>
             <text>I wasn't a fan of her skeptical tone... but her presence brought joy to everyone.</text>
             <goto goto="40" change="0"/>
@@ -194,13 +201,16 @@
                 <p class="article-text">p.s. “多少世纪以来像铁箍似的束缚着我们思想的那些令人无法理解的符号”，是土耳其国父（Atatürk）穆斯塔法·凯末尔（Mustafa Kemal）对于阿拉伯字母的评价。</p>
             </remark>
             <text>And recently, two major wars took place in our 「ordinary」 world...</text>
-            <text>Amid all these changes, the organization known as 「Destiny」 remained stagnant, and shows no sign of wanting to change.</text>
+            <!-- RENAME: Amid all these changes, the organization known as 「Destiny」 remained stagnant, and shows no sign of wanting to change. -->
+            <text>Amid all these changes, the organization known as 「Schicksal」 remained stagnant, and shows no sign of wanting to change.</text>
             <text>As a Valkyrie, or perhaps as a 「War Machine」, this dissatisfaction could be somewhat unusual——</text>
-            <text>Or perhaps that meddlesome Bishop took the 「cells that control imagination」 from everyone...</text>
+            <!-- RENAME: Or perhaps that meddlesome Bishop took the 「cells that control imagination」 from everyone... -->
+            <text>Or perhaps that meddlesome Overseer took the 「cells that control imagination」 from everyone...</text>
             <text>And turned everyone into a copy of 「The Sage of China」, who can't make a joke or have fun...</text>
             <text>They're all the same uninteresting, suffocating 「cold-hearted adults」.</text>
             <text>...Yet we boast of being 「cold-hearted adults」 as a sign of our old age.</text>
-            <text>In this very moment, those 「boys」 in the tank's cockpit may be going against the Bishop's wishes.</text>
+            <!-- RENAME: In this very moment, those 「boys」 in the tank's cockpit may be going against the Bishop's wishes. -->
+            <text>In this very moment, those 「boys」 in the tank's cockpit may be going against the Overseer's wishes.</text>
             <text>...But what's wrong with that?</text>
             <text>Maybe acting like that is—— Their own style——</text>
             <text>——And this 「machine」 that I am today wants to protect them.</text>

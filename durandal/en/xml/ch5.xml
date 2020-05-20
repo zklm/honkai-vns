@@ -630,7 +630,8 @@
             <show chara="wattSurpriseClose" position="right"/>
             <speak chara="_Watt">...I-I don't know.</speak>
             <show chara="biankaSneerClose" position="right"/>
-            <speak chara="_Bianka">Seriously—— If it isn't the 「Bishop」 it's you—— Do all 「philosophers」 take pleasure in presenting a question they themselves can answer?</speak>
+            <!-- RENAME: Seriously—— If it isn't the 「Bishop」 it's you—— Do all 「philosophers」 take pleasure in presenting a question they themselves can answer? -->
+            <speak chara="_Bianka">Seriously—— If it isn't the 「Overseer」 it's you—— Do all 「philosophers」 take pleasure in presenting a question they themselves can answer?</speak>
             <show chara="biankaSneerClose" position="right" opacity="0.8"/>
             <show chara="thalesLaughClose" position="left"/>
             <speak chara="_Thales">Haha, you presented an interesting idea. Well done, kid.</speak>
