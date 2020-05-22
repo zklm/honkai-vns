@@ -61,6 +61,7 @@
                 <p class="article-text">Last year's weather at the old pond terrace.</p>
                 <p class="article-text">The setting sun sinks in the west— when to return?</p>
                 <p class="article-text">——Yan Shu</p>
+                <p class="article-text"></p>
                 <p class="article-text">TL Note: this help box doesn't appear in CN since she's speaking Chinese here</p>
             </remark>
             <show chara="ritaVestNormalClose" position="right"/>
@@ -71,8 +72,9 @@
                 <p class="article-text">As if we knew each other, the swallows come back.</p>
                 <p class="article-text">In the little garden I pace a fragrant path alone.</p>
                 <p class="article-text">——Yan Shu</p>
-                <p class="article-text">TL Note: this help box doesn't appear in CN since she's speaking Chinese here.</p>
-                <p class="article-text">Poem info: https://baike.baidu.com/item/%E6%B5%A3%E6%BA%AA%E6%B2%99%C2%B7%E4%B8%80%E6%9B%B2%E6%96%B0%E8%AF%8D%E9%85%92%E4%B8%80%E6%9D%AF</p>
+                <p class="article-text"></p>
+                <p class="article-text">TL Note: this help box doesn't appear in CN since she's speaking Chinese here</p>
+                <p class="article-text">Poem info: https://baike.baidu.com/item/浣溪沙·一曲新词酒一杯</p>
             </remark>
             <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
             <show chara="biankaDressBiteClose" position="left"/>
