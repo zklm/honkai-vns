@@ -54,7 +54,7 @@
             <speak chara="_Bianka">「A dozen major languages」... does that include Chinese?</speak>
             <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
             <show chara="ritaVestSmileClose" position="right"/>
-            <speak chara="_Rita">「一曲新词酒一杯， 去年天气旧亭台。夕阳西下几时回？」</speak>
+            <speak chara="_Rita" remark="next">「一曲新词酒一杯， 去年天气旧亭台。夕阳西下几时回？」</speak>
             <remark>
                 <p class="article-text-h">注：</p>
                 <p class="article-text">A new song, a cup of wine;</p>
@@ -64,7 +64,7 @@
                 <p class="article-text">TL Note: this help box doesn't appear in CN since she's speaking Chinese here</p>
             </remark>
             <show chara="ritaVestNormalClose" position="right"/>
-            <speak chara="_Rita">「无可奈何花落去， 似曾相识燕归来。小园香径独徘徊。」</speak>
+            <speak chara="_Rita" remark="next">「无可奈何花落去， 似曾相识燕归来。小园香径独徘徊。」</speak>
             <remark>
                 <p class="article-text-h">注：</p>
                 <p class="article-text">Do what one may, blossoms will fall,</p>
