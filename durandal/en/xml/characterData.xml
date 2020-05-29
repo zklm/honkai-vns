@@ -496,8 +496,8 @@
         <character name="看起来像祭司的老妇人" color="#b1a749" id="PriestSmileClose" src="05_16_PriestSmileClose.png"/>
         <character name="Demon Mask Warrior" color="#a79f9b" id="_WarriorNoName" src=""/>
         <character name="Warrior" color="#a79f9b" id="_WarriorNoNameShort" src=""/>
-        <character name="士兵·甲" color="#a79f9b" id="_Warrior2PNoNameShort" src=""/>
-        <character name="士兵·乙" color="#a79f9b" id="_Warrior3PNoNameShort" src=""/>
+        <character name="Warrior A" color="#a79f9b" id="_Warrior2PNoNameShort" src=""/>
+        <character name="Warrior B" color="#a79f9b" id="_Warrior3PNoNameShort" src=""/>
         <character name="戴鬼怪面具的士兵" color="#a79f9b" id="WarriorClose" src="05_16_WarriorClose.png"/>
         <character name="戴鬼怪面具的士兵" color="#a79f9b" id="Warrior3PClose" src="04_30_WarriorClose.png"/>
         <character name="戴鬼怪面具的士兵" color="#a79f9b" id="Warrior2PClose" src="05_31_Warrior2PClose.png"/>
@@ -518,21 +518,21 @@
         <character name="Mysterious Blonde Girl" color="#ffffff" id="_BiankaOutsiderNoName" src=""/>
         <character name="Mysterious Red-Haired Woman" color="#d25242" id="_ShakespeareOutsiderNoName" src=""/>
         <character name="Mysterious Interpreter Maid" color="#ddcab3" id="_RitaOutsiderNoName" src=""/>
-        <character name="军官" color="#c2b5ff" id="_Officer2PNoNameShort" src=""/>
-        <character name="考阿克" color="#c2b5ff" id="_Officer2P" src=""/>
-        <character name="考阿克" color="#c2b5ff" id="Officer2PClose" src="05_31_Officer2PClose.png"/>
-        <character name="向导" color="#d2c7c1" id="_vilagerGuide" src=""/>
-        <character name="向导" color="#d2c7c1" id="vilagerManSmileClose-up" src="05_31_vilagerManSmileClose-up.png"/>
-        <character name="向导" color="#d2c7c1" id="vilagerSmileClose" src="05_31_vilagerSmileClose.png"/>
-        <character name="向导" color="#d2c7c1" id="vilagerSeriousClose" src="05_31_vilagerSeriousClose.png"/>
+        <character name="Officer" color="#c2b5ff" id="_Officer2PNoNameShort" src=""/>
+        <character name="Cauac" color="#c2b5ff" id="_Officer2P" src=""/>
+        <character name="Cauac" color="#c2b5ff" id="Officer2PClose" src="05_31_Officer2PClose.png"/>
+        <character name="Guide" color="#d2c7c1" id="_vilagerGuide" src=""/>
+        <character name="Guide" color="#d2c7c1" id="vilagerManSmileClose-up" src="05_31_vilagerManSmileClose-up.png"/>
+        <character name="Guide" color="#d2c7c1" id="vilagerSmileClose" src="05_31_vilagerSmileClose.png"/>
+        <character name="Guide" color="#d2c7c1" id="vilagerSeriousClose" src="05_31_vilagerSeriousClose.png"/>
         <character name="???" color="#ffc89a" id="_ZarathustraDaughterNoNameZero" src=""/>
-        <character name="大祭司" color="#ffc89a" id="_ZarathustraDaughterNoName" src=""/>
-        <character name="艾丝德尔" color="#ffc89a" id="_ZarathustraDaughter" src=""/>
-        <character name="艾丝德尔" color="#ffc89a" id="ZarathustraSmileClose" src="06_01_ZarathustraSmileClose.png"/>
-        <character name="艾丝德尔" color="#ffc89a" id="ZarathustraNormalClose" src="06_01_ZarathustraNormalClose.png"/>
-        <character name="艾丝德尔" color="#ffc89a" id="ZarathustraSorrowClose" src="06_01_ZarathustraSorrowClose.png"/>
-        <character name="艾丝德尔" color="#ffc89a" id="ZarathustraThinkClose" src="06_01_ZarathustraThinkClose.png"/>
-        <character name="艾丝德尔" color="#ffc89a" id="ZarathustraAngerClose" src="06_01_ZarathustraAngerClose.png"/>
+        <character name="High Priestess" color="#ffc89a" id="_ZarathustraDaughterNoName" src=""/>
+        <character name="Esther" color="#ffc89a" id="_ZarathustraDaughter" src=""/>
+        <character name="Esther" color="#ffc89a" id="ZarathustraSmileClose" src="06_01_ZarathustraSmileClose.png"/>
+        <character name="Esther" color="#ffc89a" id="ZarathustraNormalClose" src="06_01_ZarathustraNormalClose.png"/>
+        <character name="Esther" color="#ffc89a" id="ZarathustraSorrowClose" src="06_01_ZarathustraSorrowClose.png"/>
+        <character name="Esther" color="#ffc89a" id="ZarathustraThinkClose" src="06_01_ZarathustraThinkClose.png"/>
+        <character name="Esther" color="#ffc89a" id="ZarathustraAngerClose" src="06_01_ZarathustraAngerClose.png"/>
         <character name="Silhouette" color="#000000" id="zahhakYoung" src="06_14_zahhakYoung.png"/>
         <character name="Silhouette" color="#000000" id="graySnakeNormal" src="06_14_graySnakeNormal.png"/>
         <character name="Silhouette" color="#000000" id="graySnakeSmile" src="06_14_graySnakeSmile.png"/>

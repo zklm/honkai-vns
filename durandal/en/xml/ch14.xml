@@ -8,541 +8,541 @@
         </scene>
         <scene id="10" background="CG13-6.jpg">
             <bgm src="noise.mp3" status="start"></bgm>
-            <text>女武神的大脑，此刻一片空白。</text>
-            <text>这并非因为愤怒、震惊等情绪支配了她的思考——</text>
-            <text>——而是过去在训练中形成的潜意识，正指挥着她的双手，试图为眼前的生命争取更多的时间。</text>
-            <text>对象还有微弱的脉搏。</text>
-            <text>或许还有抢救的可能。</text>
-            <text>战术用途的氧气瓶和麻醉剂正好派得上用场。</text>
-            <text>接下来就是输血，在打开伤口之前必须先匹配好血型——</text>
+            <text>The Valkyrie's head went blank.</text>
+            <text>She wasn't overwhelmed by anger or surprise——</text>
+            <text>She has been trained to discard all unnecessary thoughts to focus better on saving the lives of the people in front of her.</text>
+            <text>It's weak, but she still has a pulse.</text>
+            <text>I might be able to save her.</text>
+            <text>The tactical oxygen and anesthesia kits I was carrying with me came in handy.</text>
+            <text>All that's left is a blood transfusion. But before that I need to test her blood type.</text>
             <goto goto="20" change="0"/>
         </scene>
         <scene id="20" background="starNight.jpg">
             <bgm src="noise.mp3" status="continue"></bgm>
-            <text>——不顾周围的一切，女武神在夜空下疯狂地奔跑着。</text>
-            <speak chara="_Bianka">（快出结果啊，血型试纸！）</speak>
-            <speak chara="_Bianka">（快告诉我，我或者丽塔，可以给那个人输血！）</speak>
-            <speak chara="_Bianka">（除了我们，没有任何人能承受得起心脏手术的输血量——）</speak>
-            <speak chara="_Bianka">（——拜托了，试纸！告诉我，我们还有办法抢救她！即使希望只有万分之一！）</speak>
-            <speak chara="_Bianka">（拜托了，试纸，至少给我显示一个蓝色出来啊！）</speak>
+            <text>——The Valkyrie relentlessly ran under the night sky.</text>
+            <speak chara="_Bianka">(Come on, her blood type! Tell me her blood type already, test strip!)</speak>
+            <speak chara="_Bianka">(Rita or me would be fine, please just tell me one of us is compatible!)</speak>
+            <speak chara="_Bianka">(There is no one else but us who can withstand a blood transfusion for heart surgery.)</speak>
+            <speak chara="_Bianka">(Please, hurry! Even if there is a 1 in a 100 chance of saving her, please tell me!）</speak>
+            <speak chara="_Bianka">(Please, test strip—— Turn teal!)</speak>
             <goto goto="30" change="#ffffff"/>
         </scene>
         <scene id="30" background="submarinePipe.jpg">
             <bgm src="12_14_fadeAway.mp3" status="start"></bgm>
-            <text>……</text>
-            <text>女武神喘着粗气，颓然地瘫坐在潜艇的内舱甲板上。</text>
-            <text>血型检测试纸的两个观察窗，无一例外地仍然保持着血液样本的红褐色。</text>
-            <text>此时此刻，距离采样已经过去了三分钟：超出了试纸反应时间的六倍。这样的结果，意味着样本是毫无疑问的——</text>
-            <text>——O型血。</text>
-            <text>这种血液的血清既会凝聚A型红细胞，也会凝聚B型红细胞。</text>
-            <text>也就是说，O型血的人只能接受O型的外来血液。</text>
-            <text>……而不幸的是，无论是她，还是丽塔，都不属于这种十个人里至少就有三、四个的血型分类。</text>
-            <text>……这张小小的试纸，从理论上，就直接给一切潜在的外科手术亮了红灯。</text>
-            <text>女武神意识到，除了那柄沉睡在遥远彼方、天命总部的神之键，黑渊白花——</text>
-            <text>——已经没有任何她或者其他船员知晓的手段，能够拯救这位少女的生命了。</text>
-            <text>女武神唯一可以做的，只能是为少女……筹备葬礼。</text>
+            <text>.....</text>
+            <text>The Valkyrie let out a long exhale and her knees hit the floor of the ship's deck.</text>
+            <text>The blood test strip displayed a brown color.</text>
+            <text>3 minutes passed. No change. 6 minutes passed. The result still refuses to change——</text>
+            <text>——Type O.</text>
+            <text>Type A and B are blood types that cause agglutination.</text>
+            <text>A person with type O can only accept blood from a type O donor.</text>
+            <text>...And unfortunately, neither Rita nor her are compatible with that blood type.</text>
+            <text>This small blood test strip proved performing surgery will be impossible.</text>
+            <text>The young Valkyrie realized that other than using Abyss Flower, the Divine Key stored in HQ far away——</text>
+            <text>——There is no way she or anyone else from the Caledonia could save Eikenal's life.</text>
+            <text>The only thing the young Valkyrie could do for her... was to prepare a funeral.</text>
             <goto goto="40" clockwise="1"/>
         </scene>
         <scene id="40" background="starNight.jpg">
             <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
-            <speak chara="_Rita">……接下来，受塔苏玛尔大人所托，我将为大家宣读伊柯娜尔大人留下的“最后神谕”。</speak>
+            <speak chara="_Rita">...As requested by Tazumal-sama, I will proceed to read the 「last oracle」 of Eikenal-sama.</speak>
             <goto goto="50" change="0"/>
         </scene>
         <scene id="50" background="CG14-1.jpg">
             <bgm src="12_14_fadeAway.mp3" status="continue"></bgm>
-            <speak chara="_Rita">“神说，第十三个伯克盾是全新纪元的开始。”</speak>
-            <speak chara="_Rita">“在第十二个伯克盾的最后一天，神的世界将与人的世界彻底分离。”</speak>
-            <speak chara="_Rita">“神将不再祝福我们，但也不会再诅咒我们。未来的一切，都将是真真正正的，自然轮回。”</speak>
-            <speak chara="_Rita">“而在此之前，神希望把那些真正的、纯粹的、可以在神的领域安然生活的化身，都带往那个和此处截然不同的绚烂天界。”</speak>
-            <speak chara="_Rita">“各位，我发自心底爱着的所有人，大家不必愤怒，不必嫉妒，不必悲伤——”</speak>
-            <speak chara="_Rita">“因为伊诗·塔布大人已经告诉我：当天界与人界分离之后，我们的人类世界，也能够变得像神明的天界一样绚烂、一样辉煌。”</speak>
-            <speak chara="_Rita">“在那个即将来临的时代里，凡人们也可以通过努力，用自己的双手，创造出种种比肩神明的奇迹。”</speak>
+            <speak chara="_Rita">「God told me the 13th Baktun is the beginning of a new era.」</speak>
+            <speak chara="_Rita">「On the last day of the 12th Baktun, the world of God and man shall be completely separated.」</speak>
+            <speak chara="_Rita">「God will never bless you again. God will never curse you again. The future will be left to the natural cycle and order.」</speak>
+            <speak chara="_Rita">「But before that, God demanded that a truly pure avatar living in this world, were to come to live in his world.」</speak>
+            <speak chara="_Rita">「Everyone, who I love from the bottom of my heart, please do not be angry, sad or jealous——」</speak>
+            <speak chara="_Rita">「Ix Tab-sama has told me: By separating Heaven from Earth, our world will one day will be able to be as splendid and bright as Heaven.」</speak>
+            <speak chara="_Rita">「In the new era, through hard work anyone will be able to create miracles on par with God.」</speak>
             <goto goto="60" clockwise="1"/>
         </scene>
         <scene id="60" background="mayanBeachMorning.jpg">
             <bgm src="morning.mp3" status="start"></bgm>
             <show chara="shakesCasualMercyClose" position="center"/>
-            <speak chara="_Shakespeare">……</speak>
+            <speak chara="_Shakespeare">.....</speak>
             <show chara="shakesCasualSeriousClose" position="center"/>
-            <speak chara="_Shakespeare">神明最纯粹的化身已经到达了她的彼岸。各位，我们走吧。</speak>
+            <speak chara="_Shakespeare">The purest avatar of God has left this world and gone to the other side. Come on, let's go.</speak>
             <hide position="center"></hide>
             <show chara="champoSweatyClose" position="left"/>
-            <speak chara="_Champollion">有点……狼狈呢。</speak>
+            <speak chara="_Champollion">I feel like... she pulled a fast one on us.</speak>
             <show chara="champoSweatyClose" position="left" opacity="0.8"/>
             <show chara="cervantesSailorUnhappyClose" position="right"/>
-            <speak chara="_Miguel">……我们自己狼狈与否，并不重要吧。</speak>
+            <speak chara="_Miguel">...How ourselves feel about this doesn't really matter.</speak>
             <show chara="cervantesSailorUnhappyClose" position="right" opacity="0.8"/>
             <show chara="schroMemoryClose" position="left"/>
-            <speak chara="_Schrodinger">……无论如何，至少那些村民们，看起来会虔诚地遵从她留下来的“神谕”。</speak>
+            <speak chara="_Schrodinger">...At the very least, it seems the rest of the village is willing to earnestly go along with her 「oracle」.</speak>
             <show chara="schroMemoryClose" position="left" opacity="0.8"/>
             <show chara="lallaSeriousClose" position="right"/>
-            <speak chara="_Lalla">肯定有更好的办法能够做到这一切……可是时间永远都不能倒流。</speak>
+            <speak chara="_Lalla">There might had been a better way to end this but... we can't turn back in time.</speak>
             <show chara="lallaSeriousClose" position="right" opacity="0.8"/>
             <show chara="ritaVestHesitateClose" position="left"/>
-            <speak chara="_Rita">……</speak>
+            <speak chara="_Rita">.....</speak>
             <show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
             <show chara="biankaDressNormalClose" position="right"/>
-            <speak chara="_Bianka">是啊。所以走吧。</speak>
+            <speak chara="_Bianka">I agree. Let's get going.</speak>
             <show chara="biankaDressHateClose" position="right"/>
-            <speak chara="_Bianka">去南方，去那个“联邦”的地盘。</speak>
+            <speak chara="_Bianka">We're going South, to the 「Federation」.</speak>
             <show chara="biankaDressBiteClose" position="right"/>
-            <speak chara="_Bianka">……我们，应该为那个人、为这个村庄，做点什么。</speak>
+            <speak chara="_Bianka">...Maybe we'll be able to do something for her and this village.</speak>
             <goto goto="70" clockwise="1"/>
         </scene>
         <scene id="70" background="yamTuluum.jpg">
             <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
             <show chara="Warrior2PClose" position="left"/>
-            <speak chara="_Warrior2PNoNameShort">……纳、“纳科姆”大人来了！</speak>
+            <speak chara="_Warrior2PNoNameShort">T-The 「Nakom」-sama is here!!</speak>
             <show chara="Warrior2PClose" position="left" opacity="0.8"/>
             <show chara="Warrior3PClose" position="right"/>
-            <speak chara="_Warrior3PNoNameShort">快、快去禀告长官，“纳科姆”大人来了！</speak>
+            <speak chara="_Warrior3PNoNameShort">We must inform Cauac-sama the 「Nakom」-sama is here immediately!</speak>
             <hide position="left"></hide>
             <hide position="right"></hide>
             <show chara="biankaDressShockClose" position="left"/>
-            <speak chara="_Bianka">……怎么回事？这里不是军营吗？他们怎么全都跑了？</speak>
+            <speak chara="_Bianka">...What's up with these guys? Aren't they supposed to be a garrison from the Federation's army? Why are they running away?</speak>
             <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
             <show chara="shakesCasualSeriousClose" position="right"/>
-            <speak chara="_Shakespeare">……或许是因为昨天已经被吓破了胆吧。</speak>
+            <speak chara="_Shakespeare">...You must have left quite the impression on them yesterday.</speak>
             <show chara="shakesCasualNormalClose" position="right"/>
-            <speak chara="_Shakespeare">不过，这其实是一件再好不过的事情。</speak>
+            <speak chara="_Shakespeare">Well, that works on our favor.</speak>
             <show chara="shakesCasualSeriousClose" position="right"/>
-            <speak chara="_Shakespeare">那些士兵的肢体语言里，只有畏惧，没有一星半点对抗的意愿。</speak>
+            <speak chara="_Shakespeare">Looking at how they're panicking tells me they won't put up much resistance.</speak>
             <show chara="shakesCasualConfidentClose" position="right"/>
-            <speak chara="_Shakespeare">或许，是时候让你扮演一个真正的海盗了，女武神小姐。</speak>
+            <speak chara="_Shakespeare">Time to act like a pirate, Valkyrie-san.</speak>
             <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
             <show chara="biankaDressSighClose" position="left"/>
-            <speak chara="_Bianka">……？</speak>
+            <speak chara="_Bianka">...?</speak>
             <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
             <show chara="shakesCasualNormalClose" position="right"/>
-            <speak chara="_Shakespeare">不用担心，只是利用一下他们的态度而已，很简单的。</speak>
+            <speak chara="_Shakespeare">It's fine, most of the work is done already. It'll be easy.</speak>
             <show chara="shakesCasualConfidentClose" position="right"/>
-            <speak chara="_Shakespeare">更何况，以他们刚才畏惧你的程度，“有话直说”应该就足够解决所有的问题了。</speak>
+            <speak chara="_Shakespeare">They're so afraid that just 「being direct」 will be enough.</speak>
             <goto goto="80" clockwise="1"/>
         </scene>
         <scene id="80" background="yamTuluum.jpg">
             <bgm src="06_01_Tuluum.mp3" status="continue"></bgm>
             <show chara="Officer2PClose" position="right"/>
-            <speak chara="_Officer2PNoNameShort">久等了，“纳科姆”大人。这里是图卢姆要塞 ，卑职是负责此地防卫事务的军官，名叫考阿克。</speak>
+            <speak chara="_Officer2PNoNameShort">I am sorry to have made you wait, 「Nakom」-sama. Welcome to Tuluum Fort. I am Cauac, the person in charge of this place.</speak>
             <show chara="Officer2PClose" position="right"/>
-            <speak chara="_Officer2P">我等“联邦”军人昨日有眼无珠，冒犯了您的威严，还请您恕罪。</speak>
+            <speak chara="_Officer2P">I have heard warriors of the 「Federation」 were disrespectful towards you the other day. Please allow me to sincerely apologize on their behalf.</speak>
             <show chara="Officer2PClose" position="right" opacity="0.8"/>
             <show chara="biankaDressBiteClose" position="left"/>
-            <speak chara="_Bianka">等等等等？你这个说辞……再说一遍，我有点消化不了。</speak>
+            <speak chara="_Bianka">Huh? What was that? I can't believe what I am hearing... Can you say it again?</speak>
             <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
             <show chara="Officer2PClose" position="right"/>
-            <speak chara="_Officer2P">我等“联邦”军人昨日有眼无珠，冒犯了您的威严，还请您恕罪。</speak>
+            <speak chara="_Officer2P">The other day, us, the 「Federation」, were disrespectful. I sincerely apologize.</speak>
             <show chara="Officer2PClose" position="right" opacity="0.8"/>
             <show chara="biankaDressSighClose" position="left"/>
-            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">.....</speak>
             <show chara="biankaDressSneerClose" position="left"/>
-            <speak chara="_Bianka">我说你们，这脸也变得太快了吧？之前在“埃尔·蕾”那副趾高气昂的样子上哪儿去了？</speak>
+            <speak chara="_Bianka">Quite the sudden change of attitude, don't you think? You people sure were acting all high and mighty back in 「El Rey」.</speak>
             <show chara="biankaDressSneerClose" position="left" opacity="0.8"/>
             <show chara="Officer2PClose" position="right"/>
-            <speak chara="_Officer2P">请您恕罪。您是“纳科姆”大人，每一个联邦的军人都不得对“纳科姆”大人无礼。</speak>
+            <speak chara="_Officer2P">Please forgive us. You are a 「Nakom」-sama. No member of the Federation is allowed to be disrespectful towards a 「Nakom」.</speak>
             <show chara="Officer2PClose" position="right" opacity="0.8"/>
             <show chara="biankaDressShoutClose" position="left"/>
-            <speak chara="_Bianka">……“纳科姆”是什么？我怎么就成了“纳科姆”了？</speak>
+            <speak chara="_Bianka">...What's this 「Nakom」 thing? Why I am a 「Nakom」?</speak>
             <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
             <show chara="Officer2PClose" position="right"/>
-            <speak chara="_Officer2P">“纳科姆”是“超人”。是超越了芸芸众生，忠诚于大地而非上天的英雄。</speak>
+            <speak chara="_Officer2P">「Nakom」 means 「Super Human」. They are heroes who stand far above the average person, and who are loyal to this land and not to God in Heaven.</speak>
             <show chara="Officer2PClose" position="right"/>
-            <speak chara="_Officer2P">大祭司教诲我们，“我教你们每个人做超人。当你们还没有成为超人的时候，你们要对那些真正的超人报以最大的敬意。”</speak>
+            <speak chara="_Officer2P">「The path to become a Super Human can be traversed by anyone. However, until you reach that level, you must display the utmost respect towards those who already are Super Human.」</speak>
             <show chara="Officer2PClose" position="right"/>
-            <speak chara="_Officer2P">“他们是大海，而你们只是沙砾：你们最大程度的轻蔑，也只会沉没在他们的脚下而已。”</speak>
+            <speak chara="_Officer2P">「They are the sea, and you are a grain of sand. No matter how much a grand of sand struggles, they will always be buried by the tide.」</speak>
             <show chara="Officer2PClose" position="right"/>
-            <speak chara="_Officer2P">请理解卑职等人是在遵从大祭司的教诲，而不是对您前倨后恭。当然，让您感到尴尬的地方，还请恕罪。</speak>
+            <speak chara="_Officer2P">We follow the teachings of the High Priestess, please do not misunderstand us and think we only show this level of respect to you. I deeply apologize if we ever have offended you.</speak>
             <show chara="Officer2PClose" position="right" opacity="0.8"/>
             <show chara="biankaDressSighClose" position="left"/>
-            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">.....</speak>
             <show chara="biankaDressHateClose" position="left"/>
-            <speak chara="_Bianka">那么，我如果禁止你们对“埃尔·蕾”宣称主权，你们就会放过那座村庄吗？</speak>
+            <speak chara="_Bianka">Then, if I tell you to leave 「El Rey」 alone, will you do it?</speak>
             <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
             <show chara="Officer2PClose" position="right"/>
-            <speak chara="_Officer2P">是的。只要大祭司本人不推翻您的主张，卑职等人就会像法律一样去遵从它。</speak>
+            <speak chara="_Officer2P">Yes. As long as the High Priestess doesn't oppose to your orders, we will treat your words as law.</speak>
             <show chara="Officer2PClose" position="right"/>
-            <speak chara="_Officer2P">我们会把“埃尔·蕾”看作独立、而且不可干涉的国家来对待——如果这是您所希望的。</speak>
+            <speak chara="_Officer2P">If you wish, from now on 「El Rey」 will be treated as an independent nation.</speak>
             <show chara="Officer2PClose" position="right" opacity="0.8"/>
             <show chara="biankaDressSighClose" position="left"/>
-            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">.....</speak>
             <show chara="biankaDressAngryClose" position="left"/>
-            <speak chara="_Bianka">好吧，既然如此，我就认为自己是这个“纳科姆”。</speak>
+            <speak chara="_Bianka">Very well. Then I don't mind being a 「Nakom」.</speak>
             <show chara="biankaDressHateClose" position="left"/>
-            <speak chara="_Bianka">不过，我的伙伴，我的船长，他们也都是“纳科姆”，没问题吧？</speak>
+            <speak chara="_Bianka">Are my companions and the Captain also considered 「Nakom」?</speak>
             <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
             <show chara="Officer2PClose" position="right"/>
-            <speak chara="_Officer2P">是的。卑职能看出他们都具备强大的战斗实力和精神品格。</speak>
+            <speak chara="_Officer2P">Yes. It is clear they all posses enormous prestige and power.</speak>
             <show chara="Officer2PClose" position="right" opacity="0.8"/>
             <show chara="biankaDressSmileClose" position="left"/>
-            <speak chara="_Bianka">那就好办了。</speak>
+            <speak chara="_Bianka">Then that makes things easier.</speak>
             <show chara="biankaDressSneerClose" position="left"/>
-            <speak chara="_Bianka">本“纳科姆”希望你们能够安排一次会面——我和我的伙伴，与你们的“大祭司”。</speak>
+            <speak chara="_Bianka">This 「Nakom」 wants you to arrange a meeting—— Between me, my companions and your 「High Priestess」.</speak>
             <show chara="biankaDressHateClose" position="left"/>
-            <speak chara="_Bianka">做得到吗？</speak>
+            <speak chara="_Bianka">Will that be possible?</speak>
             <show chara="biankaDressHateClose" position="left" opacity="0.8"/>
             <show chara="Officer2PClose" position="right"/>
-            <speak chara="_Officer2P">是。卑职会立即派人全速赶往奇琴伊察城，先行通知大祭司大人。</speak>
+            <speak chara="_Officer2P">Of course. I will immediately send a messenger to 「El Castillo」 of Chichen Itza.</speak>
             <show chara="Officer2PClose" position="right" opacity="0.8"/>
             <show chara="shakesCasualSeriousClose" position="left"/>
-            <speak chara="_Shakespeare">这种信使，在路上要花多长的时间？</speak>
+            <speak chara="_Shakespeare">How long will it take him to reach that castle?</speak>
             <show chara="shakesCasualSeriousClose" position="left" opacity="0.8"/>
             <show chara="Officer2PClose" position="right"/>
-            <speak chara="_Officer2P">通过驿站接力的方式跑步传递，大致需要一天半的时间，可以把消息送到。</speak>
+            <speak chara="_Officer2P">He runs until he switches with someone else at a relay point along the way. It will take a day and a half approximately.</speak>
             <show chara="Officer2PClose" position="right" opacity="0.8"/>
             <show chara="shakesCasualDislikeClose" position="left"/>
-            <speak chara="_Shakespeare">跑步？你们这也真够原始的。</speak>
+            <speak chara="_Shakespeare">Running? Surprisingly primitive.</speak>
             <show chara="shakesCasualQuestionClose" position="left"/>
-            <speak chara="_Shakespeare">不过既然有驿站的话……你们的道路状况应该还可以吧？</speak>
+            <speak chara="_Shakespeare">Then the fact that there are relay points and routes it means the roads are in good condition, correct?</speak>
             <show chara="shakesCasualQuestionClose" position="left" opacity="0.8"/>
             <show chara="Officer2PClose" position="right"/>
-            <speak chara="_Officer2P">联邦的军人每年都会抽出专门的时间来平整道路。</speak>
+            <speak chara="_Officer2P">Yes. The Federation makes sure to maintain the roads in good condition every year.</speak>
             <show chara="Officer2PClose" position="right" opacity="0.8"/>
             <show chara="shakesCasualConfidentClose" position="left"/>
-            <speak chara="_Shakespeare">那太好了。这样吧，你挑个机灵点儿的向导出来。我们可以教会他一种比跑步更快、更省力的好办法。</speak>
+            <speak chara="_Shakespeare">Perfect. Then, let's do the following: Bring us a capable guide, and I'll teach him an easier and better method of traveling than running.</speak>
             <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
             <show chara="biankaDressHesitateClose" position="right"/>
-            <speak chara="_Bianka">（……？）</speak>
+            <speak chara="_Bianka">(...?)</speak>
             <goto goto="90" clockwise="1"/>
         </scene>
         <scene id="90" background="mayanRoad.jpg">
             <bgm src="bigTask.mp3" status="start"></bgm>
             <show chara="speedLine" position="back"/>
             <show chara="vilagerManSmileClose-up" position="center"/>
-            <speak chara="_vilagerGuide">哇哦！太刺激了！痛快痛快！纳科姆大人万岁！</speak>
+            <speak chara="_vilagerGuide">Wow! I can't believe this! This is amazing! Long live the Nakom!</speak>
             <hide position="center"></hide>
             <show chara="biankaDressSighClose-up" position="left"/>
-            <speak chara="_Bianka">……喂，丽塔。</speak>
+            <speak chara="_Bianka">...Hey, Rita.</speak>
             <show chara="biankaDressHesitateClose-up" position="left"/>
-            <speak chara="_Bianka">骑自行车是这么让人开心的事情吗？</speak>
+            <speak chara="_Bianka">Is riding a bicycle really that fun?</speak>
             <show chara="biankaDressHesitateClose-up" position="left" opacity="0.8"/>
             <show chara="ritaVestNormalClose-up" position="right"/>
-            <speak chara="_Rita">是的呀，比安卡大人。</speak>
+            <speak chara="_Rita">Yes, Bianka-sama.</speak>
             <show chara="ritaVestSquintClose-up" position="right"/>
-            <speak chara="_Rita">这位向导先生，可是平生第一次，切身体验到比跑步还快的速度吧？</speak>
+            <speak chara="_Rita">Our guide is, for the first time in his life, experiencing a speed faster than when he's running with his feet.</speak>
             <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
             <show chara="biankaDressShockClose-up" position="left"/>
-            <speak chara="_Bianka">……对哦，这里是没有马的。</speak>
+            <speak chara="_Bianka">...I see. I guess they don't have horses around here.</speak>
             <show chara="biankaDressShockClose-up" position="left" opacity="0.8"/>
             <show chara="ritaVestSmileClose-up" position="right"/>
-            <speak chara="_Rita">所以对那个人而言，此时此刻的兴奋之情，绝不会亚于那些在三更半夜鼓噪引擎的机车少年。</speak>
+            <speak chara="_Rita">Which is why he's as excited as the bikers of a violent running tribe making their engines roar at midnight.</speak>
             <show chara="ritaVestSmileClose-up" position="right" opacity="0.8"/>
             <show chara="biankaDressHesitateClose-up" position="left"/>
-            <speak chara="_Bianka">……机车少年？那是什么？</speak>
+            <speak chara="_Bianka">...Violent running tribe? What's that?</speak>
             <show chara="biankaDressHesitateClose-up" position="left" opacity="0.8"/>
             <show chara="ritaVestNaughtyClose-up" position="right"/>
-            <speak chara="_Rita">就是那些喜欢把摩托车骑得飞快的男孩子呀。偶尔也有女孩子就是了。</speak>
+            <speak chara="_Rita">A group of people who like to drive bikes really fast.</speak>
             <show chara="ritaVestNaughtyClose-up" position="right" opacity="0.8"/>
             <show chara="biankaDressSighClose-up" position="left"/>
-            <speak chara="_Bianka">……啊，那种小混混是吗。</speak>
+            <speak chara="_Bianka">...Ah, delinquents?</speak>
             <show chara="biankaDressSighClose-up" position="left" opacity="0.8"/>
             <show chara="ritaVestSmileClose-up" position="right"/>
-            <speak chara="_Rita">噗。比安卡大人，虽然的确有很多小混混喜欢飙车，但这并不代表每个钟情于此的少男少女都是小混混哦？</speak>
+            <speak chara="_Rita">Hehe. It's true there are delinquents among bike gangs, but that doesn't mean every bike lover is a bad person, Bianka-sama.</speak>
             <show chara="ritaVestSquintClose-up" position="right"/>
-            <speak chara="_Rita">下次有机会的话，要不要让我带您去深夜的那不勒斯兜兜风呢？</speak>
+            <speak chara="_Rita">If we ever have the chance, I'd like to take you for a drive through the empty streets of Naples at night.</speak>
             <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
             <show chara="biankaDressHesitateClose-up" position="left"/>
-            <speak chara="_Bianka">唔……有机会的话……</speak>
+            <speak chara="_Bianka">Umm... sure, maybe one day...</speak>
             <bgm src="12_14_Sonnet_18.mp3" status="start"></bgm>
             <show chara="biankaDressSorrowClose-up" position="left"/>
-            <speak chara="_Bianka">抱歉，我今天的兴致不是很高。</speak>
+            <speak chara="_Bianka">Sorry, I'm just not in the mood right now.</speak>
             <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
             <show chara="ritaVestHesitateClose-up" position="right"/>
-            <speak chara="_Rita">……</speak>
+            <speak chara="_Rita">.....</speak>
             <show chara="ritaVestHesitateClose-up" position="right" opacity="0.8"/>
             <show chara="biankaDressAngryClose-up" position="left"/>
-            <speak chara="_Bianka">我们……真的是好没用啊。</speak>
+            <speak chara="_Bianka">I was... really useless today.</speak>
             <show chara="biankaDressAngryClose-up" position="left"/>
-            <speak chara="_Bianka">让那个人对自己做了那么过分的事情。</speak>
+            <speak chara="_Bianka">I couldn't stop her from hurting herself.</speak>
             <show chara="biankaDressNormalClose-up" position="left"/>
-            <speak chara="_Bianka">还只能眼睁睁地看着她失血而死。</speak>
+            <speak chara="_Bianka">I was only able to watch her die from blood loss.</speak>
             <show chara="biankaDressSorrowClose-up" position="left"/>
-            <speak chara="_Bianka">这种事情……明明肯定有……更好的解决办法的……</speak>
+            <speak chara="_Bianka">There should have been... absolutely... a better way to handle that...</speak>
             <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
             <show chara="ritaVestHesitateClose-up" position="right"/>
-            <speak chara="_Rita">……</speak>
+            <speak chara="_Rita">.....</speak>
             <show chara="ritaVestHesitateClose-up" position="right"/>
-            <speak chara="_Rita">或许……这就是人生吧，比安卡大人。</speak>
+            <speak chara="_Rita">That's... how life is, Bianka-sama.</speak>
             <show chara="ritaVestNormalClose-up" position="right"/>
-            <speak chara="_Rita">您或许听说过，在那不勒斯的市郊，有一处埋藏在厚厚的火山灰下、时间永远定格在了“公元79年”的遗迹——庞贝。</speak>
+            <speak chara="_Rita">You might know this already, but in the outskirts of Naples there was once a settlement which was buried under volcanic ash in the year 79 AD—— Its name was Pompeii.</speak>
             <show chara="ritaVestHesitateClose-up" position="right"/>
-            <speak chara="_Rita">庞贝的牺牲者们，在火山开始爆发时，其实也拥有过逃离的机会。</speak>
-            <speak chara="_Rita">但是，最初的地震停止之后，没有意识到火山灰正在逼近的他们，选择了返回家园、保护自己的财产。</speak>
+            <speak chara="_Rita">The victims of the Pompeii tragedy had a chance to escape when the volcano began to erupt.</speak>
+            <speak chara="_Rita">But after the first earthquake passed, they chose to go back to their homes to protect their property, without realizing the ash was getting closer with each passing moment.</speak>
             <show chara="ritaVestAngryClose-up" position="right"/>
-            <speak chara="_Rita">——是的，他们中的大多数，看起来并没有去趁乱哄抢他人的金银财宝。</speak>
-            <speak chara="_Rita">他们不过是打算尽快修理倒塌的房屋、转移尚未损毁的物资，仅此而已。</speak>
+            <speak chara="_Rita">The thought of stealing from someone else didn't even cross their minds.</speak>
+            <speak chara="_Rita">They simply wanted to repair their broken houses and take whatever they could carry to a safer place.</speak>
             <show chara="ritaVestAngryClose-up" position="right"/>
-            <speak chara="_Rita">然而无情的时间也就被这样浪费掉了。最终，这些不幸的人被奔腾而下的、数百度高温的火山灰层层掩埋……再也没有机会去使用自己的财富了。</speak>
+            <speak chara="_Rita">Regrettably, the world did not wait for them, and hundreds of volcanic ash fell upon the city in an instant. Those unlucky people were buried deep in ash... and never had the chance to use those properties they cared so much about again.</speak>
             <show chara="ritaVestHesitateClose-up" position="right"/>
-            <speak chara="_Rita">——但是他们有什么错吗？</speak>
+            <speak chara="_Rita">——Did they do the wrong thing?</speak>
             <show chara="ritaVestAngryClose-up" position="right"/>
-            <speak chara="_Rita">在那个时代，他们有任何机会去了解火山活动的规律，为自己规划好逃生策略吗？</speak>
+            <speak chara="_Rita">Back then, would had anyone been able to know about volcanic activity and devise a plan to evacuate?</speak>
             <show chara="ritaVestAngryClose-up" position="right"/>
-            <speak chara="_Rita">……当然不可能。没有人是全知全能的。</speak>
+            <speak chara="_Rita">...The answer is of course no. No one is omnipotent.</speak>
             <show chara="ritaVestHesitateClose-up" position="right"/>
-            <speak chara="_Rita">用当下去批判过去，这是谁都可以做的；从现在来预判未来，这是谁都很难做的。</speak>
+            <speak chara="_Rita">It's easy to criticize the past using knowledge from the present, but no one living in the present can predict the future.</speak>
             <show chara="ritaVestHesitateClose-up" position="right" opacity="0.8"/>
             <show chara="biankaDressShockClose-up" position="left"/>
-            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">.....</speak>
             <show chara="biankaDressSorrowClose-up" position="left"/>
-            <speak chara="_Bianka">你说的……没错。但是……我……真的不能……</speak>
+            <speak chara="_Bianka">I understand... what you're trying to say. But... I...</speak>
             <show chara="biankaDressSorrowClose-up" position="left" opacity="0.8"/>
             <show chara="ritaVestTearClose-up" position="right"/>
-            <speak chara="_Rita">没关系，不需要再往下说了。我明白的，比安卡大人。</speak>
+            <speak chara="_Rita">I know. You don't have to say anything, Bianka-sama. I know well.</speak>
             <show chara="ritaVestTearClose-up" position="right"/>
-            <speak chara="_Rita">因为，您……有一颗纯粹而又善良的心啊。</speak>
+            <speak chara="_Rita">Because you have... a pure and kind heart.</speak>
             <show chara="ritaVestTearClose-up" position="right" opacity="0.8"/>
             <show chara="biankaDressScreamClose-up" position="left"/>
-            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">.....</speak>
             <show chara="biankaDressBiteClose-up" position="left"/>
-            <speak chara="_Bianka">喂！！！说什么傻话呢！快擦掉眼泪，你这个笨蛋！！</speak>
+            <speak chara="_Bianka">H-Hey! What's up with you!? Wipe off your tears, idiot!</speak>
             <show chara="biankaDressBiteClose-up" position="left" opacity="0.8"/>
             <show chara="ritaVestSquintClose-up" position="right"/>
-            <speak chara="_Rita">噗。果然是比安卡大人，真可爱。</speak>
+            <speak chara="_Rita">Hehe. Bianka-sama sure is cute.</speak>
             <show chara="ritaVestSquintClose-up" position="right" opacity="0.8"/>
             <show chara="biankaDressScreamClose-up" position="left"/>
-            <speak chara="_Bianka">喂！！！你这家伙也太恶心了吧！？</speak>
+            <speak chara="_Bianka">Y-You're being super creepy right now!</speak>
             <goto goto="100" clockwise="1"/>
         </scene>
         <scene id="100" background="mayanRoad.jpg">
             <bgm src="peerGynt.mp3" status="start"></bgm>
             <show chara="vilagerManSmileClose-up" position="left"/>
-            <speak chara="_vilagerGuide">各位大人，我们现在已通过了斯卡拉库普驿站，前方这片丛林的背后，就是奇琴伊察城了。</speak>
+            <speak chara="_vilagerGuide">We've now passed Oxkutzcab Station. We'll be arriving at Chichen Itza once we go through the forest you can see up ahead.</speak>
             <show chara="vilagerManSmileClose-up" position="left" opacity="0.8"/>
             <show chara="shakesCasualNormalClose-up" position="right"/>
-            <speak chara="_Shakespeare">那是一座很大的城市吗？</speak>
+            <speak chara="_Shakespeare">Is Chichen Itza a big city?</speak>
             <show chara="shakesCasualNormalClose-up" position="right" opacity="0.8"/>
             <show chara="vilagerManSmileClose-up" position="left"/>
-            <speak chara="_vilagerGuide">和之前各位大人口中的“大都市”相比，奇琴伊察应该算是“很小”了。从它的一角走到相对的另一角，大致是三千步左右的距离。</speak>
+            <speak chara="_vilagerGuide">I believe it's quite small compared to the 「large cities」 you all are used to. It takes approximately 3000 steps to walk from one end to the other.</speak>
             <show chara="vilagerManSmileClose-up" position="left" opacity="0.8"/>
             <show chara="champoSmileClose-up" position="right"/>
-            <speak chara="_Champollion">唔，那估计和阿雅克肖（AJACCIO）的面积差不多吧。</speak>
+            <speak chara="_Champollion">Hm. Should be more or less similar in size to Ajaccio.</speak>
             <show chara="champoSmileClose-up" position="right" opacity="0.8"/>
             <show chara="shakesCasualConfidentClose-up" position="left"/>
-            <speak chara="_Shakespeare">哈哈，考古学博士，你这个比方有几个人能听懂啊。AJACCIO？是意大利哪里的小镇吗？</speak>
+            <speak chara="_Shakespeare">Haha. I think nobody but you understands that comparison, Archaeologist. What's Ajaccio? Some rural town in Italy?</speak>
             <show chara="shakesCasualConfidentClose-up" position="left" opacity="0.8"/>
             <show chara="champoSweatyClose-up" position="right"/>
-            <speak chara="_Champollion">不，是科西嘉的首府。属于法国。</speak>
+            <speak chara="_Champollion">No, it's the capital of Corsica in France.</speak>
             <show chara="champoSweatyClose-up" position="right" opacity="0.8"/>
             <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
-            <speak chara="_Shakespeare">啊，是这样吗。科西嘉属于法国了？历史还真是有趣呢。</speak>
+            <speak chara="_Shakespeare">Ho... I see. So Corsica is considered French territory, huh. History sure has its interesting twists and turns.</speak>
             <show chara="shakesCasualEmbarrassedClose-up" position="left" opacity="0.8"/>
             <show chara="biankaDressHesitateClose-up" position="right"/>
-            <speak chara="_Bianka">不过，对船长来说，那其实反而算“未来”吧？</speak>
+            <speak chara="_Bianka">That's the future to you, right?</speak>
             <show chara="biankaDressHesitateClose-up" position="right" opacity="0.8"/>
             <show chara="shakesCasualLaughClose-up" position="left"/>
-            <speak chara="_Shakespeare">哈哈哈哈，话虽如此，可如果我一旦知道了“未来”会变成什么样，那可就要想方设法去“跳过”它啦！</speak>
+            <speak chara="_Shakespeare">Hahaha, yes, but once I know what the future is like I can't help but wanting to change it.</speak>
             <show chara="shakesCasualLaughClose-up" position="left" opacity="0.8"/>
             <show chara="biankaDressNormalClose-up" position="right"/>
-            <speak chara="_Bianka">……是因为讨厌“宿命论”吗？</speak>
+            <speak chara="_Bianka">...Do you dislike 「fatalism」?</speak>
             <show chara="biankaDressNormalClose-up" position="right" opacity="0.8"/>
             <show chara="shakesCasualConfidentClose-up" position="left"/>
-            <speak chara="_Shakespeare">唔，这的确也是一方面啦。不过，最重要的还是“预期舒适度”吧！</speak>
+            <speak chara="_Shakespeare">That's one of the reasons, yes. But the most important one is knowing what to expect.</speak>
             <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
-            <speak chara="_Shakespeare">举例来说的话……一个用惯了冲水马桶的人，是很难心甘情愿去天天蹲茅坑的——大致就是这样的道理。</speak>
+            <speak chara="_Shakespeare">For example... someone who learns flushing toilets exist can't go back to take a dump in a pit latrine like nothing happened, you know?</speak>
             <show chara="shakesCasualEmbarrassedClose-up" position="left" opacity="0.8"/>
             <show chara="biankaDressAngryClose-up" position="right"/>
-            <speak chara="_Bianka">喂，你能换个例子吗……这听起来很恶心啊。</speak>
+            <speak chara="_Bianka">Couldn't you have come up with a better example...</speak>
             <show chara="biankaDressAngryClose-up" position="right" opacity="0.8"/>
             <show chara="shakesCasualLaughClose-up" position="left"/>
-            <speak chara="_Shakespeare">哈哈哈哈，你刚才的这句话本身，就是“发达世界”的一个标志性特征哦？它足以将每个人都培养成“欠发达世界”眼中的“洁癖”。</speak>
+            <speak chara="_Shakespeare">Hahaha, that reaction right there is exclusive to someone from a 「developed world」. From the perspective of a 「non-developed world」, you guys look 「impeccable」.</speak>
             <show chara="shakesCasualDislikeClose-up" position="left"/>
-            <speak chara="_Shakespeare">你能想象吗？在公元十三、十四世纪的欧洲，连贵族都很少洗澡。即使到了我之前生活过的那个时代，医生们也没人知道，动手术的时候要给自己和病人消毒。</speak>
+            <speak chara="_Shakespeare">Even nobles rarely took baths in the 13th and 14th century in Europe. I'm sure you can't even imagine it. In my time, doctors didn't even know they needed to disinfect themselves before performing surgery.</speak>
             <show chara="shakesCasualQuestionClose-up" position="left"/>
-            <speak chara="_Shakespeare">有人说那些时代富有人文气息？荒谬至极，那会儿全世界所有的书籍品类，还不够给现在的大图书馆塞牙缝呢。</speak>
+            <speak chara="_Shakespeare">That era wasn't academic at all. If one were to collect all books made during that period they wouldn't even fill a corner of the Great Library.</speak>
             <show chara="shakesCasualConfidentClose-up" position="left"/>
-            <speak chara="_Shakespeare">再说，如果不是有幸能在这里“遇到”未来，我又怎样才能聆听莫扎特或者贝多芬的美妙乐章呢？</speak>
+            <speak chara="_Shakespeare">And I wouldn't have been able to hear the beautiful melodies composed by Mozart and Beethoven had I not 「met by chance」 the future in this world.</speak>
             <show chara="shakesCasualNormalClose-up" position="left"/>
-            <speak chara="_Shakespeare">人类本质上就是一种贪得无厌的动物。诚实地面对这种欲望，明天才能过得更好。</speak>
+            <speak chara="_Shakespeare">Humans are fundamentally greedy creatures. I think being honest with that desire is the key to live a good life.</speak>
             <show chara="shakesCasualLaughClose-up" position="left"/>
-            <speak chara="_Shakespeare">——是不是呀，那边的向导先生？你可能要花上好些年的时间才能用身边的材料复制出一辆“土产”的自行车来：但即使如此，你也愿意为了它而努力，对不对？</speak>
+            <speak chara="_Shakespeare">——Don't you agree, Guide-san? It'll probably take you several years to make your own bicycle using materials from here, but even so you're willing to work hard for it, don't you?</speak>
             <show chara="shakesCasualLaughClose-up" position="left" opacity="0.8"/>
             <show chara="vilagerManSmileClose-up" position="right"/>
-            <speak chara="_vilagerGuide">……大人，有何吩咐？</speak>
+            <speak chara="_vilagerGuide">...Yes, what is it?</speak>
             <show chara="vilagerManSmileClose-up" position="right" opacity="0.8"/>
             <show chara="shakesCasualEmbarrassedClose-up" position="left"/>
-            <speak chara="_Shakespeare">啊。我忘记他需要翻译才能听懂我们的闲聊了。</speak>
+            <speak chara="_Shakespeare">Oops, I forgot he can't understand us if no one is translating for him.</speak>
             <goto goto="110" clockwise="1"/>
         </scene>
         <scene id="110" background="highTempleChichenItza.jpg">
             <bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
             <show chara="biankaDressShockClose" position="left"/>
-            <speak chara="_Bianka">哇！好高大的神庙！</speak>
+            <speak chara="_Bianka">Wow! What a tall temple!</speak>
             <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
             <show chara="ritaVestSmileClose" position="right"/>
-            <speak chara="_Rita">看起来似乎很有历史呢，向导先生。</speak>
+            <speak chara="_Rita">Is it a historical building, Guide-san?</speak>
             <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
             <show chara="vilagerSmileClose" position="left"/>
-            <speak chara="_vilagerGuide">是的，据说这是将近一千年之前的建筑了。</speak>
+            <speak chara="_vilagerGuide">Yes, it's a thousand years old building.</speak>
             <show chara="vilagerSmileClose" position="left" opacity="0.8"/>
             <show chara="biankaDressShoutClose" position="right"/>
-            <speak chara="_Bianka">一、一千年？</speak>
+            <speak chara="_Bianka">A-A thousand years？</speak>
             <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
             <show chara="vilagerSmileClose" position="left"/>
-            <speak chara="_vilagerGuide">是的，纳科姆大人。大祭司说，我们要尽全力保护历史留下的痕迹。</speak>
+            <speak chara="_vilagerGuide">Yes, Nakom-sama. The High Priestess encourages the preservation of historical buildings.</speak>
             <show chara="vilagerSmileClose" position="left"/>
-            <speak chara="_vilagerGuide">为了保护这些远古神庙，并且让它们能够具备实际的建筑功能，大祭司规划了很多从内部翻新的工程。</speak>
+            <speak chara="_vilagerGuide">The interior of the temples have been refurbished not only to protect its structure but also so that they can be used as buildings.</speak>
             <show chara="vilagerSmileClose" position="left"/>
-            <speak chara="_vilagerGuide">如果她邀请您到那里面做客的话，您看了就会明白的。</speak>
+            <speak chara="_vilagerGuide">I'm sure you will understand once you go inside one of them.</speak>
             <goto goto="120" change="#ffffff"/>
         </scene>
         <scene id="120" background="castilloChichenItza.jpg">
             <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
             <show chara="vilagerSmileClose" position="left"/>
-            <speak chara="_vilagerGuide">……而说到奇琴伊察最壮观的建筑物，各位大人，就是这座库库尔坎神庙了！</speak>
+            <speak chara="_vilagerGuide">...This is the Kukulkan Temple, the most magnificent building in all of Chichen Itza!</speak>
             <show chara="vilagerSmileClose" position="left"/>
-            <speak chara="_vilagerGuide">库库尔坎是一位旧神的名字，意思是“带羽毛的蛇”——</speak>
+            <speak chara="_vilagerGuide">Kukulkan is the name of an ancient deity, it means 「Feathered Serpent」——</speak>
             <hide position="left"></hide>
             <hide position="right"></hide>
-            <speak chara="_Shakespeare">好啦好啦，我知道这个神庙很壮观；不过神庙背后的那个……是什么？大铁球吗？</speak>
+            <speak chara="_Shakespeare">Yes yes, it's a great temple we get it. What's that thing behind the temple? Looks like a big pile of iron to me?</speak>
             <show chara="vilagerSeriousClose" position="left"/>
-            <speak chara="_vilagerGuide">……“大铁球”？</speak>
+            <speak chara="_vilagerGuide">...「Big pile of iron」, you say?</speak>
             <show chara="vilagerSmileClose" position="left"/>
-            <speak chara="_vilagerGuide">啊！大人您是说“库库尔坎的心脏”吧！远处的那颗陨石，对吗？</speak>
+            <speak chara="_vilagerGuide">Ah! You must be referring to the 「Heart of Kukulkan」! It's actually a meteorite.</speak>
             <show chara="vilagerSmileClose" position="left" opacity="0.8"/>
             <show chara="shakesCasualConfidentClose" position="right"/>
-            <speak chara="_Shakespeare">哦？那个竟然是陨石吗？</speak>
+            <speak chara="_Shakespeare">Oh? A meteorite?</speak>
             <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
             <show chara="biankaDressHesitateClose" position="left"/>
-            <speak chara="_Bianka">看起来倒是有点像澳大利亚的乌鲁汝巨岩……</speak>
+            <speak chara="_Bianka">Looks similar to the Ayers Rock in Australia...</speak>
             <hide position="left"></hide>
             <hide position="right"></hide>
-            <speak chara="_ZarathustraDaughterNoNameZero" remark="next">呵呵，远道而来的参观者们，那可是专门从希克苏鲁伯挖出来的星核，如假包换的天外来客哦？</speak>
+            <speak chara="_ZarathustraDaughterNoNameZero" remark="next">Hehe. Travelers from far away, that is the core of a star who fell from the sky that I purposely dug up from Chicxulub.</speak>
             <remark post="U2FsdGVkX18+S4v9CKiWAD46NKkM">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">希克苏鲁伯（Chicxulub，玛雅语意为“恶魔的尾巴”）陨石坑位于尤卡坦半岛西北部，是一个埋藏在地表之下、直径约有150~180公里的陨石撞击坑。它也是地球表面最大的撞击地形之一。</p>
                 <p class="article-text">2010年3月5日，《科学》杂志上的一篇研究报告确认，在6500万年前形成希克苏鲁伯陨石坑的小行星撞击事件，是造成恐龙大灭绝的首要原因。</p>
                 <p class="article-text">p.s. 该陨石撞击时产生的爆炸，相当于百万枚人类历史上威力最强的氢弹——“沙皇炸弹”同时起爆；因此在实际情形中，这颗直径10公里以上的小行星，在撞击的瞬间就完全汽化了。</p>
             </remark>
-            <speak chara="_vilagerGuide">啊！大祭司陛下！小民失敬！</speak>
+            <speak chara="_vilagerGuide">High Priestess! Forgive my rudeness!</speak>
             <goto goto="140" change="0"/>
         </scene>
         <scene id="140" background="CG14-2.jpg">
             <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughterNoName">好啦好啦，你平身吧。</speak>
-            <speak chara="_ZarathustraDaughterNoName">远道而来的诸位客人——星辰和飞鸟已经预示了你们的到来。</speak>
-            <speak chara="_ZarathustraDaughterNoName">我是“半岛联邦”的大祭司，艾丝德尔·查拉图斯特拉。我允许你们使用“艾丝德尔”这个名字来称呼我。</speak>
-            <speak chara="_ZarathustraDaughter">客人们，你们想必已经通过各种渠道，了解了我们联邦的一些基本情况。</speak>
-            <speak chara="_ZarathustraDaughter">不过，出于正式起见，我还是愿意向你们简单介绍一下，这个由我一手创立的国家。</speak>
+            <speak chara="_ZarathustraDaughterNoName">At ease.</speak>
+            <speak chara="_ZarathustraDaughterNoName">Guests from a distant land—— Your arrival has been foretold by the stars and birds.</speak>
+            <speak chara="_ZarathustraDaughterNoName">I am Esther Zarathustra, High Priestess of the 「Peninsula Federation」. You may address me as Esther.</speak>
+            <speak chara="_ZarathustraDaughter">I believe you already know the Federation to a certain extent.</speak>
+            <speak chara="_ZarathustraDaughter">But nonetheless, I would like you to personally introduce you to the country I founded with my own hands.</speak>
             <goto goto="150" change="0"/>
         </scene>
         <scene id="150" background="castilloChichenItza.jpg">
             <bgm src="06_01_ChichenItza.mp3" status="continue"></bgm>
             <show chara="ZarathustraSmileClose" position="center"/>
-            <speak chara="_ZarathustraDaughter">你们应该听说过，尤卡坦半岛上的长纪历已经马上要进入第13个“伯克盾”了。</speak>
+            <speak chara="_ZarathustraDaughter">The long count calendar of Yucatan is entering its 13th Baktun.</speak>
             <show chara="ZarathustraNormalClose" position="center"/>
-            <speak chara="_ZarathustraDaughter">如果我们认为这套“长纪历”是为了纪念某个特殊的日子而发明的，那么这意味着玛雅人的文明社会，已经在这片土地上存在了将近五千年之久。</speak>
+            <speak chara="_ZarathustraDaughter">If the 「long count calendar」 was created for the sake of a special day, then that would mean the Maya civilization has existed in this land for nearly 5000 years.</speak>
             <show chara="ZarathustraSorrowClose" position="center"/>
-            <speak chara="_ZarathustraDaughter">然而，如你们所见，他们使用的工具仍然非常原始。甚至连用来耕地的家畜都没有。</speak>
+            <speak chara="_ZarathustraDaughter">But as you can see, their tools are very primitive and they lack the livestock necessary to cultivate the land.</speak>
             <show chara="ZarathustraThinkClose" position="center"/>
-            <speak chara="_ZarathustraDaughter">当我刚刚来到这里的时候，我也像很多“漂流者”一样，不理解世界上为何能存在如此畸形的文明。</speak>
+            <speak chara="_ZarathustraDaughter">When I first arrived, like many others 「Wanderer」 did, I could not believe a civilization this strange could exist.</speak>
             <show chara="ZarathustraNormalClose" position="center"/>
-            <speak chara="_ZarathustraDaughter">不过，我可以明确地告诉你们：这并不是“人”的问题。这个尤卡坦半岛，从地理上来讲，本就是一片“穷山恶水”。</speak>
+            <speak chara="_ZarathustraDaughter">But now I can say with confidence this wasn't a 「human」 problem. The Yucatan Peninsula is a geographically impoverished region.</speak>
             <show chara="ZarathustraAngerClose" position="center"/>
-            <speak chara="_ZarathustraDaughter">没有用来耕地的家畜？是因为根本没有合适的动物能够驯化。缺乏冶炼金属的能力？是因为半岛上根本就没有什么好矿，最近的矿脉也位于遥远的墨西哥高原深处。</speak>
+            <speak chara="_ZarathustraDaughter">There is no livestock and ore can not be mined. The nearest vein is far away in the Mexican plateau.</speak>
             <show chara="ZarathustraSorrowClose" position="center"/>
-            <speak chara="_ZarathustraDaughter">人们在这片土地上世世代代地辛勤劳作，可他们的生活几乎就没有多少改善。如果不知道这里的纪年有多么悠久，我甚至会以为自己“向前”漂流到了远古时期。</speak>
+            <speak chara="_ZarathustraDaughter">People did their best with the tools they had, but their lives did not improve. If one did not know the date, one would think they had gone back to ancient times.</speak>
             <show chara="ZarathustraSmileClose" position="center"/>
-            <speak chara="_ZarathustraDaughter">客人们，我原本可是生活在“万王之王”居鲁士大帝的时代——根据其他漂流者的说法，是距今两千五百年之前的“远古时期”。</speak>
+            <speak chara="_ZarathustraDaughter">I come from the era of Cyrus the Great—— If you were to ask other Wanderer for their opinion, they would claim 2500 years in the past are 「ancient times」.</speak>
             <hide position="center"></hide>
             <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
             <show chara="biankaDressShockClose" position="left"/>
-            <speak chara="_Bianka">……啊？</speak>
+            <speak chara="_Bianka">Eh?</speak>
             <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraSmileClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">怎么，你很惊讶吗，这位小姐。</speak>
+            <speak chara="_ZarathustraDaughter">It is not that surprising, young lady.</speak>
             <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
             <show chara="biankaDressBiteClose" position="left"/>
-            <speak chara="_Bianka">那当然了！既然如此，你、你为什么能把西班牙语说得这么熟练啊？</speak>
+            <speak chara="_Bianka">I mean, isn't your Spanish really good?</speak>
             <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraNormalClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">语言不就应该入乡随俗吗？当这里的大多数漂流者都在说着同一种语言的时候，你为什么要坚持去说自己那没人听得懂的家乡话呢？</speak>
+            <speak chara="_ZarathustraDaughter">When in Rome, do as the Romans do. When many Wanderer can speak the same language, there is no need to keep around the language of the natives no one knows.</speak>
             <show chara="ZarathustraNormalClose" position="right" opacity="0.8"/>
             <show chara="biankaDressBiteClose" position="left"/>
-            <speak chara="_Bianka">可、可真正的当地人，原本不是在使用那种象形文字的吗？你们怎么不“入乡随俗”呢？</speak>
+            <speak chara="_Bianka">B-But the natives communicate using hieroglyphs, don't they? Shouldn't you be the one following their customs?</speak>
             <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraSorrowClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">那种语言缺乏描述先进技术的词汇。与其让漂流者们辛苦翻译，还不如反过来教其他人说西班牙语来得方便。</speak>
+            <speak chara="_ZarathustraDaughter">The language of this place is too primitive, it is unable to express advanced technological vocabulary. It is easier to teach a Wanderer Spanish than going through the trouble of using a translator.</speak>
             <show chara="ZarathustraSorrowClose" position="right" opacity="0.8"/>
             <show chara="biankaDressShoutClose" position="left"/>
-            <speak chara="_Bianka">……竟、竟然因为这种原因？</speak>
+            <speak chara="_Bianka">...Y-You discarded their language for that reason?</speak>
             <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraAngerClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">这有什么奇怪？缺乏价值的东西就应该主动淘汰掉，这是我十岁的时候就从父亲大人那里学来的道理。</speak>
+            <speak chara="_ZarathustraDaughter">Is it strange? Things without value must be discarded. That is what I learned from my father at the age of 10.</speak>
             <show chara="ZarathustraAngerClose" position="right" opacity="0.8"/>
             <show chara="ritaVestNormalClose" position="left"/>
-            <speak chara="_Rita">“查拉图斯特拉”……</speak>
+            <speak chara="_Rita">「Zarathustra」...</speak>
             <show chara="ritaVestNormalClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraSmileClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">嗯，这是父亲大人的名字。而我费尽心血建立的这个“联邦”，也正是按照他的理想来运作的。</speak>
+            <speak chara="_ZarathustraDaughter">Yes, that is the name of my father. This 「Federation」 I built with my own hands is based on the ideals my father passed down to me.</speak>
             <show chara="ZarathustraSmileClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">……这样吧。为了进一步解答各位的疑惑，我们可以到那颗“库库尔坎的心脏”里，坐下来慢慢谈。</speak>
+            <speak chara="_ZarathustraDaughter">...Let us continue our talk inside the 「Heart of Kukulkan」.</speak>
             <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
             <show chara="biankaDressShockClose" position="left"/>
-            <speak chara="_Bianka">……什么？到陨石里？</speak>
+            <speak chara="_Bianka">...You mean inside the meteorite?</speak>
             <goto goto="160" clockwise="1"/>
         </scene>
         <scene id="160" background="hallOfPriestChichenItza.jpg">
             <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
             <show chara="biankaDressHesitateClose" position="left"/>
-            <speak chara="_Bianka">这……为什么要把这样豪华的建筑修在陨石的里面？</speak>
+            <speak chara="_Bianka">Why did you make such a fancy building inside a meteorite?</speak>
             <show chara="biankaDressHesitateClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraSmileClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">呵呵，只不过是把采矿的通道来个废物利用罢了。</speak>
+            <speak chara="_ZarathustraDaughter">No reason in particular, it was simply a mining site that was no longer in use.</speak>
             <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
             <show chara="ritaVestSquintClose" position="left"/>
-            <speak chara="_Rita">很有神秘感，非常适合作为艾丝德尔大人的居所呢。</speak>
+            <speak chara="_Rita">It's a place full of mystery fitting to be Esther-sama's house.</speak>
             <show chara="ritaVestSquintClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraSmileClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">谢谢。不过，这里与其说是“大祭司的居所”，倒不如说是“大祭司的实验室”。</speak>
+            <speak chara="_ZarathustraDaughter">Thank you for the compliment. But rather than my 「house」, this place is closer to being my 「laboratory」.</speak>
             <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
             <show chara="champoSmileClose" position="left"/>
-            <speak chara="_Champollion">哦？大祭司陛下是对哪些类型的实验感兴趣呢？</speak>
+            <speak chara="_Champollion">Oh? And what kind of experiments the great High Priestess do?</speak>
             <show chara="champoSmileClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraThinkClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">在说明这些之前……各位客人，请允许我先问一个之后会无法回避的问题。</speak>
+            <speak chara="_ZarathustraDaughter">Before I begin my explanation, there is a question you must answer first, my honored guests.</speak>
             <show chara="ZarathustraNormalClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">你们听说过我父亲的事迹吗？</speak>
+            <speak chara="_ZarathustraDaughter">Do you know who my father is?</speak>
             <show chara="ZarathustraNormalClose" position="right" opacity="0.8"/>
             <show chara="shakesCasualEmbarrassedClose" position="left"/>
-            <speak chara="_Shakespeare">“查拉图斯特拉”？是那个被希腊人称作“琐罗亚斯德”的波斯先知吧？</speak>
+            <speak chara="_Shakespeare">「Zarathustra」? The Persian Priest the Greeks called 「Zoroaster」?</speak>
             <show chara="shakesCasualEmbarrassedClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraNormalClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">是的，他也是一名大祭司。</speak>
+            <speak chara="_ZarathustraDaughter">Yes, my father was a Priest too.</speak>
             <show chara="ZarathustraAngerClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">以及，我必须纠正你——“波斯”是希腊人对我们的谬称，正确的名字应该是“伊朗”。</speak>
+            <speak chara="_ZarathustraDaughter">I would like to make a small correction to your answer. 「Persia」 is a derogatory term used by the Greeks, its proper name is 「Iran」.</speak>
             <show chara="ZarathustraAngerClose" position="right" opacity="0.8"/>
             <show chara="champoNormalClose" position="left"/>
-            <speak chara="_Champollion">但无论如何，您父亲创立了祆教，帮助伊朗各民族形成了统一的价值观。这让他在后来的历史中赢得了不少崇拜者。</speak>
+            <speak chara="_Champollion">Later generations paint him as the person who started Zoroastrianism and unified the many multi-ethnic groups in Iran.</speak>
             <show chara="champoNormalClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraSorrowClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">……是有漂流者这样评价他。虽然这里面包含了各种各样的误会。</speak>
+            <speak chara="_ZarathustraDaughter">...I have heard that from many Wanderer. However, there seems to be a misunderstanding.</speak>
             <show chara="ZarathustraSmileClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">——你们还知道些什么吗？</speak>
+            <speak chara="_ZarathustraDaughter">——Do you know anything else?</speak>
             <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
             <show chara="cervantesSailorSmileClose" position="left"/>
-            <speak chara="_Miguel">我只知道他编纂的《阿维斯塔》在神秘文学上很有启发意义……</speak>
+            <speak chara="_Miguel">『Avesta』 is a religious text with the purpose of reaching enlightenment...</speak>
             <show chara="cervantesSailorNormalClose" position="left"/>
-            <speak chara="_Miguel">不过实在可惜，这部书有三分之二的内容后来都被亚历山大大帝烧掉了。</speak>
+            <speak chara="_Miguel">But unfortunately two thirds of it were burned by Alexander The Great.</speak>
             <show chara="cervantesSailorNormalClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraSmileClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">呵呵，从父亲的角度来看，他应该不会觉得这有任何可惜之处吧。</speak>
+            <speak chara="_ZarathustraDaughter">My father would had not felt bad about that.</speak>
             <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
             <show chara="cervantesSailorUnhappyClose" position="left"/>
-            <speak chara="_Miguel">……什么？</speak>
+            <speak chara="_Miguel">...Why?</speak>
             <show chara="cervantesSailorUnhappyClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraNormalClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">很简单啊，因为我的父亲，在生前从未编纂过这样一本宗教经典。</speak>
+            <speak chara="_ZarathustraDaughter">Because my father never made such scripture in the first place.</speak>
             <show chara="ZarathustraSmileClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">更何况，根据我听过说的版本来看——所谓的“琐罗亚斯德教”，也早已被那些后来者篡改得面目全非了。</speak>
+            <speak chara="_ZarathustraDaughter">And according to what I have heard, these days 「Zoroastrianism」 has taken a form very different from what was originally intended to be.</speak>
             <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
             <show chara="shakesCasualSeriousClose" position="left"/>
-            <speak chara="_Shakespeare">……这段历史，和你刚才不愿直接说明的“实验”，应该是有关系的吧？</speak>
+            <speak chara="_Shakespeare">...Does that have any relationship with the 「experiment」 you mentioned earlier?</speak>
             <show chara="shakesCasualSeriousClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraSmileClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">当然，船长小姐。</speak>
+            <speak chara="_ZarathustraDaughter">You are correct, Captain-san.</speak>
             <show chara="ZarathustraNormalClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">而所有这一切……又都与那位传说中的“蛇王”，有着千丝万缕的联系。</speak>
+            <speak chara="_ZarathustraDaughter">And, it is deeply connected to the legend of the 「Serpent King」 as well.</speak>
             <show chara="ZarathustraSmileClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">来吧，我们坐下来慢慢说。</speak>
+            <speak chara="_ZarathustraDaughter">Please, sit. Let us take our time to get to know each other.</speak>
             <end post="U2FsdGVkX1+unOFloVQ674ElPqfG"/>
         </scene>
     </story>
