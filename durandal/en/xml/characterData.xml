@@ -552,8 +552,8 @@
         <character name="Silhouette" color="#000000" id="oldZaraInjector" src="06_14_oldZaraInjector.png"/>
         <character name="Silhouette" color="#000000" id="oldZaraGenius" src="06_14_oldZaraGenius.png"/>
         <character name="Zaratustra" color="#dddddd" id="_oldZara" src=""/>
-        <character name="“杯蛇”" color="#dddddd" id="_graySnake" src=""/>
-        <character name="佐哈克" color="#b6dcb5" id="_zahhak" src=""/>
+        <character name="Gray Serpent" color="#dddddd" id="_graySnake" src=""/>
+        <character name="Zahhak" color="#b6dcb5" id="_zahhak" src=""/>
         <character name="Old Dragon" color="#aeb5ae" id="_bertrand" src=""/>
         <character name="???" color="#aeb5ae" id="_bertrandYNoName" src=""/>
         <character name="贝特朗" color="#aeb5ae" id="_bertrandY" src=""/>

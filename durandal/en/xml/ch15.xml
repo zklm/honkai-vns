@@ -10,118 +10,118 @@
             <bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
             <show chara="memoryLoading" position="back"/>
             <show chara="zahhakYoung" position="center"/>
-            <speak chara="_ZarathustraDaughter">在很久很久以前，曾经有一位“蛇王”统治着伊朗的人民。</speak>
-            <speak chara="_ZarathustraDaughter">这位王的名字叫做佐哈克，原本是某个边境部落的一位王子。</speak>
-            <speak chara="_ZarathustraDaughter">佐哈克矮小、瘦弱，为人轻浮；话虽如此，他的心地却不失善良、而且充满好奇心。</speak>
+            <speak chara="_ZarathustraDaughter">Once upon a time, Iran had a ruler known as the 「Serpent King」.</speak>
+            <speak chara="_ZarathustraDaughter">His name was Zahhak. He used to be a Prince from a remote frontier tribe before taking the throne.</speak>
+            <speak chara="_ZarathustraDaughter">Zahhak was a small and slender but healthy man. Contrary to what his appearance would suggest, he was a curious and kind man at heart.</speak>
             <show chara="graySnakeNormal" position="center"/>
-            <speak chara="_ZarathustraDaughter">某一天，他在打猎时失足跌落了峡谷——却在谷底遇到了一个自称叫做“杯蛇”的魔女。</speak>
-            <speak chara="_ZarathustraDaughter">据说，魔女在王子的左右肩上轻轻地各吻了一下，王子摔断的腿就奇迹般地康复了：而且变得比之前还要健硕许多。</speak>
+            <speak chara="_ZarathustraDaughter">One day, Zahhak fell down a cliff during a hunt and met a witch who called herself 「Grey Serpent」.</speak>
+            <speak chara="_ZarathustraDaughter">The witch kissed the Prince's shoulders and his broken legs were healed. Rather, it would be correct to say they were stronger than before.</speak>
             <show chara="zahhakYoung" position="center"/>
-            <speak chara="_ZarathustraDaughter">王子非常感激魔女，他询问对方需要什么作为回礼。</speak>
+            <speak chara="_ZarathustraDaughter">The Prince was overjoyed and asked the witch what she would like in return.</speak>
             <show chara="graySnakeSmile" position="center"/>
-            <speak chara="_ZarathustraDaughter">而“杯蛇”却淡淡地笑着作别，“未来的万王之王陛下，您已经给了我足够的回礼了。您注定会超脱凡人，为我等带来喜悦。”</speak>
+            <speak chara="_ZarathustraDaughter">「Grey Serpent」 simply smiled and told the Prince: 「O future King of Kings, your thanks are more than enough. For you will leave the realm of man and bring joy to us all.」</speak>
             <hide position="center"></hide>
-            <speak chara="_ZarathustraDaughter">佐哈克此时还不明白，他的身体究竟发生了怎样的改变。从峡谷中脱险后，他马不停蹄地赶回王宫，希望在入夜之前，就能够向他的父王展示这一神迹。</speak>
+            <speak chara="_ZarathustraDaughter">Back then, Zahhak was unaware of what kind of changes were occurring inside of him.</speak>
             <show chara="oldKingMoon" position="center"/>
-            <speak chara="_ZarathustraDaughter">他的父王，年迈的玛尔达斯，每天晚上都会在王宫的花园里一个人散步。当王子兴奋地闯入这个花园的时候，老人正在花丛旁独自赏月。</speak>
+            <speak chara="_ZarathustraDaughter">The Prince's father, Merdas, would always go out for a stroll at night in the palace's gardens. The King was surrounded by flowers and admiring the Moon when the Prince arrived, excited to tell him about what had happened to him.</speak>
             <show chara="oldKingNormal" position="center"/>
-            <speak chara="_ZarathustraDaughter">“我的孩子……你怎么了？表情这样可怕。”老人疑惑地问着他的独子。</speak>
-            <speak chara="_ZarathustraDaughter">佐哈克也不明白，再一次看到父亲头戴宝冠、手持权杖的身影时，自己的身体为何会产生一种异样的饥渴。</speak>
-            <speak chara="_ZarathustraDaughter">他感到自己的双肩奇痒难耐。他用力地抓挠着这两块皮肤，突然——</speak>
+            <speak chara="_ZarathustraDaughter">「My dear son... what happened to you? You have such scary look on your face.」 The puzzled old man asked to his only son.</speak>
+            <speak chara="_ZarathustraDaughter">But Zahhak did not answer. For some reason, the sight of his father wearing a crown and holding a scepter made him feel unusually hungry.</speak>
+            <speak chara="_ZarathustraDaughter">His shoulders started to tingle so badly he began to scratch them with his hands. And then——</speak>
             <show chara="zahhakNormal" position="center"/>
-            <speak chara="_ZarathustraDaughter">一双蛇头从这两个位置猛然窜了出来。</speak>
-            <speak chara="_ZarathustraDaughter">还没有等慌乱的王子反应过来，蛇头们已经像离弦的箭一样，迅猛而精准地咬住了老国王的喉咙。</speak>
+            <speak chara="_ZarathustraDaughter">——A serpent's head came out from each shoulder.</speak>
+            <speak chara="_ZarathustraDaughter">The Prince froze while the serpents, like an arrow, headed straight for the King's neck and bit him.</speak>
             <show chara="black" position="center"/>
-            <speak chara="_ZarathustraDaughter">佐哈克非常惊慌，他抽出佩刀，两眼一闭就向这两条蛇挥去——</speak>
+            <speak chara="_ZarathustraDaughter">The confused Zahhak composed himself, took out his sword and slashed the serpents——</speak>
             <show chara="zahhakNormal" position="center"/>
-            <speak chara="_ZarathustraDaughter">——当他再度睁开眼睛时，却看到一双新的蛇头又从自己的双肩上生长了出来。</speak>
-            <speak chara="_ZarathustraDaughter">而另一边，因为蛇毒发作，老国王已经瘫倒在地、口吐白沫，奄奄一息。</speak>
+            <speak chara="_ZarathustraDaughter">——But after cutting their heads, another one would grow from his shoulders.</speak>
+            <speak chara="_ZarathustraDaughter">Meanwhile, the King was poisoned by the serpents and had bubbles coming out of his mouth.</speak>
             <show chara="zahhakSword" position="center"/>
-            <speak chara="_ZarathustraDaughter">这时，佐哈克再也无法忍耐体内那异样的饥渴：</speak>
+            <speak chara="_ZarathustraDaughter">Zahhak could no longer endure his hunger,</speak>
             <show chara="black" position="back"/>
             <show chara="bloodStain" position="center"/>
-            <speak chara="_ZarathustraDaughter">他用手中的佩刀砍开了老国王的脑袋，任由肩上的蛇头去吞噬自己亲生父亲的大脑。</speak>
+            <speak chara="_ZarathustraDaughter">and using his sword, he cut this father's head and fed his brain to the serpents.</speak>
             <show chara="memoryLoading" position="back"/>
             <show chara="zahhakSmile" position="center"/>
-            <speak chara="_ZarathustraDaughter">……自这一刻起，他成为了恐怖的“蛇王”。</speak>
+            <speak chara="_ZarathustraDaughter">...That was the moment he became the horrifying 「Serpent King」.</speak>
             <hide position="center"></hide>
-            <speak chara="_ZarathustraDaughter">从第二天开始，佐哈克每晚都要找来一个体力精壮的罪犯，以便肩上的蛇头能享用到人脑。</speak>
-            <speak chara="_ZarathustraDaughter">很快，部落中的罪犯就被佐哈克杀光了。为了避免自己的良心受到更大的谴责，他开始向周围的部落宣战，击败他们、审判他们——</speak>
+            <speak chara="_ZarathustraDaughter">Afterwards, Zahhak ordered his subjects to bring him a criminal each night, and he fed their brains to the serpents.</speak>
+            <speak chara="_ZarathustraDaughter">Soon after there were no more criminals. To escape from his guilt, Zahhak waged war against the other tribes, defeated them and put them on trial——</speak>
             <show chara="zahhakAxe" position="center"/>
-            <speak chara="_ZarathustraDaughter">——然后理所应当地砍下那些“罪大恶极”的脑袋。</speak>
+            <speak chara="_ZarathustraDaughter">——And of course, he cut off the heads of those he found 「guilty」.</speak>
             <hide position="center"></hide>
-            <speak chara="_ZarathustraDaughter">此时的“蛇王”，早已不是那个去打猎也会失足的王子——</speak>
-            <speak chara="_ZarathustraDaughter">他的双手力大无穷，足以将敌人直接撕成两半；他的皮肤长出了刀枪不入的硬鳞，即使是发疯的公牛也不能伤他分毫。</speak>
+            <speak chara="_ZarathustraDaughter">The 「Serpent King」 was no longer that small and weak Prince who once died during a hunt.</speak>
+            <speak chara="_ZarathustraDaughter">He could tore apart his enemies with his bare hands, and his skin was so hard it could not be harmed by any weapon.</speak>
             <show chara="zahhakSmile" position="center"/>
-            <speak chara="_ZarathustraDaughter">“蛇王”的军队因此连战连捷。</speak>
+            <speak chara="_ZarathustraDaughter">The 「Serpent King」's army continued to win battle after battle.</speak>
             <show chara="zahhakShah" position="center"/>
-            <speak chara="_ZarathustraDaughter">他不仅统一了边境的各部落，还打败了中央王朝，抢来了世界霸主“万王之王”的头衔。</speak>
+            <speak chara="_ZarathustraDaughter">He not only unified the tribes but took down the dynasty, and became known as the 「King of Kings」, the world's supreme ruler.</speak>
             <show chara="zahhakAxe" position="center"/>
-            <speak chara="_ZarathustraDaughter">此后，这位“万王之王”，在自己征服的广袤领土上推行起了严刑峻法——</speak>
-            <speak chara="_ZarathustraDaughter">——来保证每天都有人会被处死，而自己，可以心安理得地享用这些新鲜大脑。</speak>
+            <speak chara="_ZarathustraDaughter">Then the 「King of Kings」 put in place strict laws in his country——</speak>
+            <speak chara="_ZarathustraDaughter">——Every day someone will be sentenced to death. All so he could feed their brain without remorse.</speak>
             <hide position="center"></hide>
-            <speak chara="_ZarathustraDaughter">就这样，数百年过去了。</speak>
-            <speak chara="_ZarathustraDaughter">“蛇王”开始老去，他的律法和政治手腕，逐渐跟不上时代的变化；他的性格也越来越乖张暴戾——</speak>
-            <speak chara="_ZarathustraDaughter">——终于，对抗他的英雄诞生了。</speak>
-            <speak chara="_ZarathustraDaughter">英雄率领起义的民众打倒了佐哈克，却发现这个魔王竟然拥有一具不死之身。他砍掉了佐哈克的脑袋——</speak>
-            <speak chara="_ZarathustraDaughter">——可那一双蛇头却仍旧指挥着身体、负隅顽抗。</speak>
+            <speak chara="_ZarathustraDaughter">And so hundreds of years passed by.</speak>
+            <speak chara="_ZarathustraDaughter">The 「Serpent King」 became old, his ways of governing no longer fitted the current era, and he became increasingly more violent——</speak>
+            <speak chara="_ZarathustraDaughter">——That was when finally a hero finally appeared.</speak>
+            <speak chara="_ZarathustraDaughter">The hero led a subjugation force against Zahhak. However, Zahhak was immortal.</speak>
+            <speak chara="_ZarathustraDaughter">Even after the hero cut off his head, the serpents continued to live and control his body.</speak>
             <show chara="zahhakNoHead" position="center"/>
-            <speak chara="_zahhak">可恶的暴民……这么多年，我统一了国家、消灭了敌人、杀光了强盗、处死了一批又一批的贪官污吏……</speak>
-            <speak chara="_zahhak">可你们，就是这样“知恩图报”的吗？</speak>
-            <speak chara="_zahhak">你们应该好好问一问自己的列祖列宗，问一问他们为什么要对“蛇王”山呼万岁！</speak>
+            <speak chara="_zahhak">「You damn fools... I've united our nation, destroyed our enemies, killed all the criminals and sentenced corrupt officers to death...」</speak>
+            <speak chara="_zahhak">「And this is how you repay your debt to me?」</speak>
+            <speak chara="_zahhak">「I suppose your ancestors never told you why I'm called the 「Serpent King」!」</speak>
             <show chara="zahhakNoHead" position="center" opacity="0.8"/>
             <show chara="graySnakeNormal" position="center"/>
-            <speak chara="_ZarathustraDaughter">……这时，那位自称“杯蛇”的魔女不知不觉出现在了众人的面前。</speak>
+            <speak chara="_ZarathustraDaughter">...In that moment, that witch 「Grey Serpent」 showed herself.</speak>
             <show chara="graySnakeSmile" position="center"/>
-            <speak chara="_ZarathustraDaughter">“啊，可悲的佐哈克王。”魔女悲伤地说道，“你搞错了一件最重要的事，所以才变成了这副可怜的样子。”</speak>
+            <speak chara="_ZarathustraDaughter">「Ahh, poor King Zahhak. You made a grave mistake in the most crucial part. That is why you arrived at this pitiful ending.」 The witch said with a sad tone.</speak>
             <show chara="graySnakeSmile" position="center" opacity="0.8"/>
             <show chara="graySnakeNormal" position="center"/>
-            <speak chara="_graySnake">人是应该被超越的某种东西：</speak>
-            <speak chara="_graySnake">是一种超越了之后会让你感到好笑的存在，是一种超越了之后会让你感到羞耻的对象。</speak>
-            <speak chara="_graySnake">我让你重新走过由虫到人的道路：可是你做了些什么呢？你的内心反而被虫完全侵蚀了。</speak>
+            <speak chara="_graySnake">Humanity exists to be surpassed.</speak>
+            <speak chara="_graySnake">It's the kind of existence that would make one be ashamed of what they used to be once one transcends their own humanity.</speak>
+            <speak chara="_graySnake">I gave you a chance to stop being an animal and become human, but you chose to remain an animal.</speak>
             <show chara="graySnakeSmile" position="center"/>
-            <speak chara="_graySnake">各位起义者们，我也要向你们提个醒：人的肉体从来都不会尊重人的灵魂。</speak>
+            <speak chara="_graySnake">Revolutionaries, I speak of the future. The soul does not respect the human flesh.</speak>
             <show chara="graySnakeNormal" position="center"/>
-            <speak chara="_graySnake">我们所有人的本能，都不过是一条条难言清洁的河流——</speak>
-            <speak chara="_graySnake">——只有大海，只有超越了一切河流和湖泊的大海，才能容纳这些污垢，而不使自己变质。</speak>
-            <speak chara="_graySnake">可悲的佐哈克王啊：我给了你一个超越【人类】的机会；而你，却用它去瓦解自己的灵魂。</speak>
-            <speak chara="_graySnake">你的灵魂对肉体投以轻蔑的眼光，你以为这样就可以摆脱它带给你的桎梏。</speak>
-            <speak chara="_graySnake">可是，你越是要让肉体消瘦、丑陋，你的灵魂就十倍地消瘦、丑陋；事实上，你已经自己把自己的灵魂给饿死了。</speak>
+            <speak chara="_graySnake">Our instincts are like the impure flow of river——</speak>
+            <speak chara="_graySnake">——Only a sea, an existence that transcends rivers and lakes, can accept all impurities without losing itself.</speak>
+            <speak chara="_graySnake">O sad King Zahhak, you destroyed your own soul in your attempt to surpass 「humanity」.</speak>
+            <speak chara="_graySnake">I thought if your soul were to look down upon your body you would be able to leave the shackles of instincts behind.</speak>
+            <speak chara="_graySnake">But in truth your soul was as disgraceful as your body.</speak>
             <show chara="graySnakeSilence" position="center"/>
-            <speak chara="_graySnake">可怜的佐哈克王啊：你的灵魂始终拒绝理解自己的肉体，所以你的肉体就用那些最下贱的欲望把你拖进深渊。</speak>
-            <speak chara="_graySnake">你双肩上的蛇原本并不需要那些脑子：它们那时只是想帮助你，让你能够用最快的速度成为一位老练的国王。</speak>
+            <speak chara="_graySnake">O pitiful King Zahhak, your soul refused to understand your flesh, so the flesh was dragged away by desire into an abyss.</speak>
+            <speak chara="_graySnake">The serpents on your shoulders never desired human brains. All they wished was to help you in becoming a king as soon as possible.</speak>
             <show chara="graySnakeSpeak" position="center"/>
-            <speak chara="_graySnake">你没有意识到吗？凡是被你吞噬的大脑，其中包含的智慧，都成为了你自己的一部分。</speak>
-            <speak chara="_graySnake">所以，你才能成为一个强势的统治者；所以，你才能成为一个卓越的犯罪者。</speak>
-            <speak chara="_graySnake">我确实曾经称你为“未来的万王之王”。可惜时间证明，你对此的理解，肤浅到令人发笑。</speak>
-            <speak chara="_graySnake">那两条蛇，只不过是在帮助你的肉体实现愿望罢了。</speak>
+            <speak chara="_graySnake">Have you not noticed? The wisdom of the brains you ate became a part of you.</speak>
+            <speak chara="_graySnake">That is why you became such a strong ruler and an excellent criminal.</speak>
+            <speak chara="_graySnake">I called you 「the future King of Kings」 but alas, it seems you did not understand anything at all.</speak>
+            <speak chara="_graySnake">Those serpents were only fulfilling your basic desires of the flesh.</speak>
             <show chara="graySnakeNormal" position="center"/>
-            <speak chara="_graySnake">愚昧的佐哈克王啊：生命是一场不能反悔的交易；而你，甚至都不知道自己在交易什么。</speak>
-            <speak chara="_graySnake">我给了你超越一切凡人的潜能；而你，却只是用它来“过家家”。</speak>
-            <speak chara="_graySnake">佐哈克，你已经不再拥有任何“超越人类”的可能性。</speak>
-            <speak chara="_graySnake">现在，是时候来终止这场交易了。</speak>
+            <speak chara="_graySnake">O foolish King Zahhak, life is deal you can't take back, and you didn't even know what you were trading.</speak>
+            <speak chara="_graySnake">I gave you the potential to surpass humanity, and you wasted it 「playing house」.</speak>
+            <speak chara="_graySnake">Zahhak, you have no longer the potential to 「surpass humanity」.</speak>
+            <speak chara="_graySnake">Let us end this deal here.</speak>
             <show chara="graySnakeSmile" position="center"/>
-            <speak chara="_graySnake">……你是一个难得的样本；但你并不是我的主人所期待的“超人”。</speak>
+            <speak chara="_graySnake">...You were a rare specimen, but you are not the 「Super Human」 my Lord wanted.</speak>
             <hide position="center"></hide>
-            <speak chara="_ZarathustraDaughter">说完这些话，神秘的魔女丢出了一根“飞镖”；飞镖正中佐哈克的胸口。</speak>
-            <speak chara="_ZarathustraDaughter">昨日的“万王之王”沉重地摔倒在地，肩上的双蛇迅速枯萎死亡；而魔女，则面向那些困惑的民众，悠然讲述起眼前这个“祭品”的过去。</speak>
+            <speak chara="_ZarathustraDaughter">Saying that, the witch threw a dart and stabbed Zahhak's chest.</speak>
+            <speak chara="_ZarathustraDaughter">The former 「King of Kings」 made a loud sound as his body hit the ground, and the serpents on his shoulders withered and died. The witch then began to speak of the 「sacrifice」 that took place before their eyes to the confused crowd.</speak>
             <goto goto="30" change="#ffffff"/>
         </scene>
         <scene id="30" background="asteroidPalace.jpg">
             <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
             <show chara="ZarathustraThinkClose" position="center"/>
-            <speak chara="_ZarathustraDaughter">——这就是父亲告诉我的，有关“蛇王”的故事。</speak>
-            <speak chara="_ZarathustraDaughter">在我十五岁之前，我一直认为那只是虚无缥缈的传说而已。</speak>
-            <speak chara="_ZarathustraDaughter">然而……</speak>
+            <speak chara="_ZarathustraDaughter">——That is the story of the 「Serpent King」 my father taught me.</speak>
+            <speak chara="_ZarathustraDaughter">Until the age of 15 I thought it was simply a baseless legend.</speak>
+            <speak chara="_ZarathustraDaughter">But...</speak>
             <goto goto="40" change="#000000"/>
         </scene>
         <scene id="40" background="scythianStory.jpg">
             <bgm src="legion.mp3" status="start"></bgm>
             <show chara="memoryLoading" position="back"/>
             <show chara="oldZaraNormal" position="center"/>
-            <speak chara="_oldZara">艾丝德尔。虽然事出突然，但这很可能是我们最后一次见面了。</speak>
+            <speak chara="_oldZara">Esther, I know this is sudden, but this might be the last time I'll be able to talk to you.</speak>
             <show chara="oldZaraAngry" position="center"/>
-            <speak chara="_oldZara" remark="next">战局出现了灾难性的变化……塞克人利用埋伏，全歼了陛下亲自率领的“伙伴军团”。陛下本人可能已遭不测。</speak>
+            <speak chara="_oldZara" remark="next">Our place in the war has changed drastically. The King's army, 「The Immortals」, fell pray to an ambush by the Sacae. The King is probably already...</speak>
             <remark post="U2FsdGVkX18ZP0Od3QyqZ58AYwfj">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">长生军（Ἀθάνατοι）——这是古希腊历史学家希罗多德（Ἡρόδοτος，约前484年~前425年）对阿契美尼德王朝中央禁军的称呼。</p>
@@ -129,154 +129,154 @@
                 <p class="article-text">然而，波斯方面的记载虽然印证了这样一支精锐禁军的存在，却称其为“伙伴军团”，而不是“长生军”。希罗多德、或是他的某个消息来源，可能是将古波斯语中的"Anûšiya"（“伙伴”）与"Anauša"（“长生者”）弄混了，并添油加醋地自行解释了一番。</p>
             </remark>
             <show chara="oldZaraNormal" position="center"/>
-            <speak chara="_oldZara">现在，大军群龙无首，冈比西斯王子又远在巴比伦尼亚；我身为大祭司，只能立即赶往前线，代替下落不明的陛下督战。</speak>
-            <speak chara="_oldZara">此去凶多吉少……所以我现在交给你两样东西。如果情况真的到了最危急的时候，它们能救你的命。</speak>
+            <speak chara="_oldZara">The army has no leader right now and Prince Cambyses is far away in Babylonia. As the High Priest, I must go to the front lines and take charge of the army in place of the missing King.</speak>
+            <speak chara="_oldZara">There is no guarantee I'll come back alive. That's why I'm gonna give you these two things. I'm sure they'll help you in times of need.</speak>
             <show chara="oldZaraInjector" position="center"/>
-            <speak chara="_oldZara">首先是这管药剂。如果你需要力量去战斗，那么就拔开下面的栓塞，把空心针刺进自己的皮肤。</speak>
-            <speak chara="_oldZara">这样一来，你就会获得曾经属于“蛇王”的力量。</speak>
-            <speak chara="_ZarathustraDaughter">……“蛇王”？</speak>
-            <speak chara="_oldZara">是的。“蛇王”。那个传说并不完全是诗人的杜撰。</speak>
-            <speak chara="_oldZara">陛下和我都曾经见过那个名为“杯蛇”的魔女。这管药剂也是从她那里得到的。</speak>
-            <speak chara="_ZarathustraDaughter">可是……</speak>
-            <speak chara="_oldZara">我知道，这种力量十分危险。理论上讲，它也是“超人”的一种实现方式——但却属于最糟糕的那一种。</speak>
-            <speak chara="_oldZara">这也是为什么，我为你准备了第二样东西。</speak>
+            <speak chara="_oldZara">The first one is this drug. If you need the strength to fight, remove the cover and pierce your skin with the needle.</speak>
+            <speak chara="_oldZara">You will then gain the strength of the legendary 「Serpent King」.</speak>
+            <speak chara="_ZarathustraDaughter">...「Serpent King」?</speak>
+            <speak chara="_oldZara">Yeah, the 「Serpent King」. That legend is not nonsense.</speak>
+            <speak chara="_oldZara">The King and me once met that 「Grey Serpent」 witch. We got this drug from her.</speak>
+            <speak chara="_ZarathustraDaughter">But...</speak>
+            <speak chara="_oldZara">I'm aware this power is dangerous. This is a way of becoming a 「Super Human」—— But it's the worst of them all.</speak>
+            <speak chara="_oldZara">Which is why I also want to give you this other thing.</speak>
             <show chara="oldZaraGenius" position="center"/>
-            <speak chara="_oldZara">这是上古文明留下的一个传送装置。只要使用它，你就可以找回自己原本的人生。</speak>
-            <speak chara="_ZarathustraDaughter">原本的……人生？</speak>
-            <speak chara="_ZarathustraDaughter">这是……什么意思？</speak>
+            <speak chara="_oldZara">It's a transfer device left behind by the previous civilization. If you use it, you'll be able to go back to your former life.</speak>
+            <speak chara="_ZarathustraDaughter">My former... life?</speak>
+            <speak chara="_ZarathustraDaughter">What do you mean?</speak>
             <bgm src="02_22_amazingGrace.mp3" status="start"></bgm>
-            <speak chara="_oldZara">艾丝德尔……我不是你的亲生父亲。</speak>
-            <speak chara="_oldZara">你并没有什么难产而死的母亲……我和你第一次见面，还是在魔女“杯蛇”的巢穴里。</speak>
-            <speak chara="_ZarathustraDaughter">你说……什么？</speak>
-            <speak chara="_oldZara">早年，陛下还只是一名正在游历世界的王子；而我，也不过是个没有名气的博物学者罢了。</speak>
-            <speak chara="_oldZara">我们在搭档冒险的途中，发现了传说中的魔女——“杯蛇”的踪迹。</speak>
-            <speak chara="_oldZara">我们也算是“初生牛犊不怕虎”，伪装成信徒主动和魔女接触，并伺机暗杀了她。</speak>
-            <speak chara="_oldZara">在“杯蛇”的巢穴里，我们发现了许多魔法道具——这其中，就包括日后孕育出你的那台仪器。</speak>
-            <speak chara="_ZarathustraDaughter">……仪器？你是说，我是人造人吗？</speak>
-            <speak chara="_oldZara">我不知道。</speak>
-            <speak chara="_oldZara">那台仪器非常特别——虽然当时我们看不懂上面的任何文字——但是很显然，它正在进行某种漫长的计时。</speak>
-            <speak chara="_oldZara">我和陛下不同，没有他“身为王子去必须去游历世界”的责任；</speak>
-            <speak chara="_oldZara">所以，在暗杀“杯蛇”之后，我就在她的巢穴里住了下来，潜心研究那些魔法的规律。</speak>
-            <speak chara="_oldZara">……二十年就这样过去了。</speak>
-            <speak chara="_oldZara">尽管“杯蛇”留下的魔法精妙绝伦——但是除了少数短语，我根本没有办法破译编写它们的那种神奇语言。</speak>
-            <speak chara="_oldZara">就在我觉得自己的研究生涯也不过如此，总算下定决心离开这鬼地方去养老的时候——</speak>
-            <speak chara="_oldZara">那个初夏的傍晚，孕育出你的那台仪器，突然停止了它不知持续了多少年的计时。</speak>
-            <speak chara="_oldZara">仪器的外壳像睡莲的花瓣一样打开，沁人心脾的冷气流淌过我的脚边。</speak>
-            <speak chara="_oldZara">……你，艾丝德尔，就这样从花瓣里诞生了。</speak>
-            <speak chara="_oldZara">养育你，带给了我全新的人生；更让我得以一窥“魔法”与“神”的奥秘。</speak>
-            <speak chara="_oldZara">你似乎是“杯蛇”利用那台只能运行一次的仪器，从时光的碎片中偷来的孩子。</speak>
-            <speak chara="_oldZara">现世的魔女也好、旧世的贤者也罢——他们使用的那种语言，你天生就能说会读。</speak>
-            <speak chara="_oldZara">是的，你父亲根本不是靠自己的“顿悟”破译了这种语言、创立了我们的宗教。</speak>
-            <speak chara="_oldZara">你父亲，只是在你还不怎么记事的时候，就从你身上学会了它。仅此而已。</speak>
-            <speak chara="_oldZara">因为你的诞生，我们才知道了上古文明的不朽精神。</speak>
-            <speak chara="_oldZara">因为你的诞生，我们才知道了“超人”的概念和价值。</speak>
-            <speak chara="_oldZara">因为你的诞生，我们才知道了，二元对立的神明究竟在争夺什么。</speak>
-            <speak chara="_oldZara">艾丝德尔，群星的孩子……</speak>
-            <speak chara="_oldZara">你，在我这个不称职的父亲看来，是真正的“神之子”。即使万恶的塞克人接下来要致我们于死地，你也必须要找到办法让自己活下去。</speak>
-            <speak chara="_ZarathustraDaughter">可是……</speak>
-            <speak chara="_oldZara">我再强调一遍：无论我、其他任何人、乃至这个国家如何；你，都必须让自己活下去。</speak>
-            <speak chara="_oldZara">爸爸相信，这个叫做“格尼乌斯”的传送装置，在必要的时候，会帮助你跳跃时空、穿过“神秘之海”，让你以肉身到达神明们生活的“光明世界”。</speak>
-            <speak chara="_oldZara">因为在我看来，你原本就属于那里。</speak>
+            <speak chara="_oldZara">Listen, Esther... I'm not your real father.</speak>
+            <speak chara="_oldZara">Your mother didn't die during childbirth either. I met you for the first time in the den of that 「Grey Serpent」 witch.</speak>
+            <speak chara="_ZarathustraDaughter">W-What?</speak>
+            <speak chara="_oldZara">It happened a long time ago, when the King was just a Prince and I was a nameless naturalist.</speak>
+            <speak chara="_oldZara">In one of our travels, we found a clue that lead us to the legendary witch—— 「Grey Serpent」.</speak>
+            <speak chara="_oldZara">We who were fearless explorers, pretended to be believers and made contact with her. Then, we assassinated her.</speak>
+            <speak chara="_oldZara">「Grey Serpent」 had many magic tools in her den—— Among them, there was the machine that gave birth to you.</speak>
+            <speak chara="_ZarathustraDaughter">...Machine? I was artificially made?</speak>
+            <speak chara="_oldZara">That I don't know.</speak>
+            <speak chara="_oldZara">That machine was special—— At the time we couldn't read any of the letters, but it was clear to us it was counting down to something——</speak>
+            <speak chara="_oldZara">I, who didn't have the responsibility of 「seeing the world as a Prince」 like the King had——</speak>
+            <speak chara="_oldZara">Stayed behind in 「Grey Serpent」's den to study her magic.</speak>
+            <speak chara="_oldZara">...20 years passed by.</speak>
+            <speak chara="_oldZara">The magic tools left behind by the witch were certainly impressive but—— Aside from a few words I couldn't understand much of her strange language.</speak>
+            <speak chara="_oldZara">When I was about to give up due to my lack of progress——</speak>
+            <speak chara="_oldZara">At the evening of an early Summer, the countdown of that machine finally reached zero.</speak>
+            <speak chara="_oldZara">The cover of the machine opened up like a flower spreading its petals, and a pleasant cold breeze touched my feet.</speak>
+            <speak chara="_oldZara">...That was the moment you were born, Esther.</speak>
+            <speak chara="_oldZara">Raising you gave a new purpose to my life. I was even able to take a peek at the mystery behind 「God」 and 「Magic」.</speak>
+            <speak chara="_oldZara">I suspect you were a kid who was taken away from the hands of time by that machine 「Grey Serpent」 had.</speak>
+            <speak chara="_oldZara">Just like the many witches and sages of the past—— You were capable of naturally reading their strange language.</speak>
+            <speak chara="_oldZara">I wasn't able to understand that language due to reaching 「enlightenment」 and I didn't build our religion.</speak>
+            <speak chara="_oldZara">They were all things I learned from you before you arrived.</speak>
+            <speak chara="_oldZara">Thanks to your birth, I learned of the timeless will of an ancient civilization.</speak>
+            <speak chara="_oldZara">Thanks to your birth, I learned the concept and value of 「Super Human」.</speak>
+            <speak chara="_oldZara">Thanks to your birth, I learned what the opposite Gods are competing for.</speak>
+            <speak chara="_oldZara">Esther, child of the stars...</speak>
+            <speak chara="_oldZara">You are the genuine 「Son of God」. Even if the Sacae slaughter us all, you must survive at all costs.</speak>
+            <speak chara="_ZarathustraDaughter">But father...</speak>
+            <speak chara="_oldZara">Let me say it again. No matter what happens to me, to someone else or even the country, you must survive at all costs.</speak>
+            <speak chara="_oldZara">In case of emergency, use this transfer device called 「Gnius」. It will let you sail beyond time and space, beyond the 「Sea of Mystery」, and take you to the 「world of light」 gifted by the Gods.</speak>
+            <speak chara="_oldZara">Because that is the place you originally were from.</speak>
             <goto goto="50" change="#ffffff"/>
         </scene>
         <scene id="50" background="asteroidPalace.jpg">
             <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
             <show chara="biankaDressShockClose" position="left"/>
-            <speak chara="_Bianka">“格尼乌斯”？那不是——</speak>
+            <speak chara="_Bianka">「Gnius」, you said? Could it be——</speak>
             <show chara="ritaVestHesitateClose" position="left"/>
-            <speak chara="_Rita">——那是不是说，艾丝德尔大祭司，您【原本】其实就是这个世界的居民呢？</speak>
+            <speak chara="_Rita">——High Priestess Esther, by 「originally」 you mean you were a resident of this world?</speak>
             <show chara="ritaVestHesitateClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraSorrowClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">……不。那不过是父亲大人最后的一厢情愿罢了。</speak>
+            <speak chara="_ZarathustraDaughter">...No. That was merely what my father believed.</speak>
             <show chara="ZarathustraNormalClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">当塞克人冲进城堡的时候，我销毁了所有能销毁的研究资料，然后启动了“格尼乌斯”。</speak>
+            <speak chara="_ZarathustraDaughter">When the Sacae made their way into the castle, I destroyed all of his research and activated the 「Gnius」.</speak>
             <show chara="ZarathustraThinkClose" position="right"/>
-            <speak chara="_ZarathustraDaughter">世界在我的眼中迅速扭曲，我开始期待父亲口中的“光明世界”——</speak>
+            <speak chara="_ZarathustraDaughter">The world around me was distorted at an incredible speed, and I began to look for the 「world of light」 my father talked about——</speak>
             <goto goto="60" change="#000000"/>
         </scene>
         <scene id="60" background="manderlbrot13.jpg">
             <bgm src="06_14_equipment.mp3" status="start"></bgm>
-            <speak chara="_ZarathustraDaughter">——然而，等待着我的，却似乎是一个虚无的深渊。</speak>
+            <speak chara="_ZarathustraDaughter">——But what awaited me was an endless abyss devoid of everything.</speak>
             <goto goto="70" change="0"/>
         </scene>
         <scene id="70" background="manderlbrot12.jpg">
             <bgm src="06_14_equipment.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughter">明明闭上了眼睛，却依然能看到天空的裂痕。</speak>
+            <speak chara="_ZarathustraDaughter">Even with my eyes closed, I would still see a crack in space.</speak>
             <goto goto="80" change="0"/>
         </scene>
         <scene id="80" background="manderlbrot11.jpg">
             <bgm src="06_14_equipment.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughter">明明塞上了耳朵，却依然能听见外星的低语。</speak>
+            <speak chara="_ZarathustraDaughter">Even with my ears blocked, I would still hear the soft whispers of the stars.</speak>
             <goto goto="90" change="0"/>
         </scene>
         <scene id="90" background="manderlbrot10.jpg">
             <bgm src="06_14_equipment.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughter">明明紧闭着双唇，却依然满嘴都是铁锈般的苦涩。</speak>
+            <speak chara="_ZarathustraDaughter">Even with my lips sealed, I would still feel an iron-like bitterness taste in my mouth.</speak>
             <goto goto="100" change="0"/>
         </scene>
         <scene id="100" background="manderlbrot09.jpg">
             <bgm src="06_14_equipment.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughter">明明屏住了气息，喉咙里却依然翻滚着烈火与浓烟。</speak>
+            <speak chara="_ZarathustraDaughter">Even with my breath held, I would still feel as if my throat was burned by a fiery fire and smoke.</speak>
             <goto goto="110" change="0"/>
         </scene>
         <scene id="110" background="manderlbrot08.jpg">
             <bgm src="06_14_equipment.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughter">明明拼命吞咽着曼陀罗，指尖却依然像被火点燃一般、疼痛钻心。</speak>
+            <speak chara="_ZarathustraDaughter">Even after drawing a Mandala, I would still feel pain in my fingertips as if they were burning.</speak>
             <goto goto="120" change="0"/>
         </scene>
         <scene id="120" background="manderlbrot07.jpg">
             <bgm src="06_14_equipment.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughter">在这个深渊外，你可能只停留了一刹那；在这个深渊里，我也许度过了上千年。</speak>
+            <speak chara="_ZarathustraDaughter">A moment outside the abyss felt like thousands of years inside of it.</speak>
             <goto goto="130" change="0"/>
         </scene>
         <scene id="130" background="manderlbrot06.jpg">
             <bgm src="06_14_equipment.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughter">——时间和空间，在这里仿佛都失去了意义。没有信标，没有指南，只有破碎的自我在空洞地流浪。</speak>
+            <speak chara="_ZarathustraDaughter">Space and time lost all meaning. Without a path nor a compass to follow, I was a cracked ego drifting in the void.</speak>
             <goto goto="140" change="0"/>
         </scene>
         <scene id="140" background="manderlbrot05.jpg">
             <bgm src="06_14_equipment.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughter">肉体、灵魂；神经、大脑；血液、心脏——我感受到的，是身体的每一个零件都无法正常运转的痛苦。</speak>
+            <speak chara="_ZarathustraDaughter">My body, my soul. My nerves, my brain. My blood, my heart—— It felt like every piece of me was screaming in agony, unable to work properly.</speak>
             <goto goto="150" change="0"/>
         </scene>
         <scene id="150" background="manderlbrot04.jpg">
             <bgm src="06_14_equipment.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughter">这根本不是什么“光明世界”。</speak>
+            <speak chara="_ZarathustraDaughter">There was no 「world of light」 after all.</speak>
             <goto goto="160" change="0"/>
         </scene>
         <scene id="160" background="manderlbrot03.jpg">
             <bgm src="06_14_equipment.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughter">这应该是永恒、永劫、每时每刻重复着把人活生生撕成碎片的……地狱。</speak>
+            <speak chara="_ZarathustraDaughter">Eternity, infinity, something that keeps people alive forever... It was hell itself.</speak>
             <goto goto="170" change="0"/>
         </scene>
         <scene id="170" background="manderlbrot02.jpg">
             <bgm src="06_14_equipment.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughter">而当我终于适应了这一切痛苦，自身的三位一体开始重新产生自觉的时候——</speak>
+            <speak chara="_ZarathustraDaughter">When I got used to the suffering and my body, soul and mind became one again——</speak>
             <goto goto="180" change="0"/>
         </scene>
         <scene id="180" background="manderlbrot01.jpg">
             <bgm src="06_14_equipment.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughter">我终于看清了这个裂缝、这个无底深渊，在无尽循环中的真实面目。并非眼中的真实，而是心中的真实。</speak>
+            <speak chara="_ZarathustraDaughter">I finally understood the truth behind this endless cycle, this endless abyss. It was not a truth one can see with their eyes, but with their heart.</speak>
             <goto goto="190" change="0"/>
         </scene>
         <scene id="190" background="manderlbrot00.jpg">
             <bgm src="06_14_equipment.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughter">它是被光明之神所抛弃的方程式：一颗魔鬼的心脏。</speak>
+            <speak chara="_ZarathustraDaughter">That was the heart of a devil, an equation buried by the Gods of Light.</speak>
             <goto goto="200" change="#ffffff"/>
         </scene>
         <scene id="200" background="asteroidPalace.jpg">
             <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
             <show chara="ZarathustraSmileClose" position="center"/>
-            <speak chara="_ZarathustraDaughter">好了，关于我的故事，差不多就讲到这里吧。</speak>
-            <speak chara="_ZarathustraDaughter">深夜的微风已经吹来，熟睡的人们停泊在梦乡。</speak>
-            <speak chara="_ZarathustraDaughter">没有任何痛苦，没有任何感伤。</speak>
-            <speak chara="_ZarathustraDaughter">灵魂啊，让我洗掉你们身上的小小耻辱和些许失德，好使得大家能够重新在太阳下沐浴光辉。</speak>
+            <speak chara="_ZarathustraDaughter">I shall end my tale here.</speak>
+            <speak chara="_ZarathustraDaughter">The night is upon us, the breeze gets colder, and people enter their deepest dreams.</speak>
+            <speak chara="_ZarathustraDaughter">No pain or sentiment.</speak>
+            <speak chara="_ZarathustraDaughter">O soul, let us wash away your trivial disgrace and immorality. Only then everyone will be able to greet the light of day once again.</speak>
             <goto goto="210" change="0"/>
         </scene>
         <scene id="210" background="CG15-1.jpg">
             <bgm src="06_01_Tuluum.mp3" status="continue"></bgm>
-            <speak chara="_ZarathustraDaughter">——来加入我吧。在死亡后加入我的身体，在睡梦中加入我的灵魂。</speak>
-            <speak chara="_ZarathustraDaughter">在这个漂流于无尽与虚无之外的果壳里，我们只需要【一个】超人。</speak>
+            <speak chara="_ZarathustraDaughter">Let yourself be devoured by me. Become one with me in death and sleep forever inside my soul.</speak>
+            <speak chara="_ZarathustraDaughter">There is only room for 「one」 Super Human in this husk that drifts beyond endlessness and nothingness.</speak>
             <end post="U2FsdGVkX18hKC2MgZAA1oJbC8G9"/>
         </scene>
     </story>
