@@ -272,6 +272,7 @@
             <show chara="biankaSeriousClose" position="right"/>
             <speak chara="_Bianka">...So that German pilot and you are going to stay here?</speak>
             <show chara="wattShyClose" position="left"/>
+            <!-- FLOW: We finished yesterday the paperwork -> Yesterday we finished the paperwork -->
             <speak chara="_Watt">...Yes. We finished yesterday the paperwork to move in.</speak>
             <show chara="wattSighClose" position="left"/>
             <speak chara="_Watt">I can't let anyone else be in charge of 「Alice's surveillance」, s-so I made the necessary arrangements before the trial.</speak>

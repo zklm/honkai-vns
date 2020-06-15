@@ -184,7 +184,8 @@
             <speak chara="_Alice">Yes.</speak>
             <show chara="AliceDeterminedClose" position="right" opacity="0.8"/>
             <show chara="wattSadClose" position="left"/>
-            <speak chara="_Watt">...T-That's strange. What would he do that?</speak>
+            <!-- TYPO: What would he do that? -> Why would he do that? -->
+            <speak chara="_Watt">...T-That's strange. Why would he do that?</speak>
             <show chara="wattSadClose" position="left" opacity="0.8"/>
             <show chara="AliceSilentClose" position="right"/>
             <speak chara="_Alice">...I don't know.</speak>
@@ -532,7 +533,8 @@
             <show chara="AliceSurprisedClose-up" position="center"/>
             <speak chara="_Alice">There was a hole in the beanstalk—— The rabbit jumped into it and disappeared. When Alice got close to it she felt a strong wind current!</speak>
             <show chara="AliceShyClose-up" position="center"/>
-            <speak chara="_Alice">「What I'm gonna do about my skirt if I end up flying like the rabbit?」, Alice pondered.</speak>
+            <!-- GRAMMAR: What I'm gonna -> What am I gonna -->
+            <speak chara="_Alice">「What am I gonna do about my skirt if I end up flying like the rabbit?」, Alice pondered.</speak>
             <show chara="AliceSurprisedClose-up" position="center"/>
             <speak chara="_Alice">That's when a single leaf fell off the beanstalk and landed next to her—— It was carrying a bottle with a label that said 「please drink it」.</speak>
             <hide position="center"></hide>

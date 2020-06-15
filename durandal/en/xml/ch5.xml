@@ -509,7 +509,8 @@
             <show chara="thalesStoneClose" position="left"/>
             <speak chara="_Thales">.....</speak>
             <show chara="thalesProudClose" position="left"/>
-            <speak chara="_Thales">Boy, you that you're familiar with this city, do us a favor——</speak>
+            <!-- GRAMMAR: you that -> you think that (guessing this is what was meant?) -->
+            <speak chara="_Thales">Boy, you think that you're familiar with this city, do us a favor——</speak>
             <show chara="thalesSmileClose" position="left"/>
             <speak chara="_Thales">——Tell us what you can buy with 100 Drachma.</speak>
             <show chara="wattSurpriseClose" position="left"/>
@@ -744,7 +745,8 @@
             <show chara="thalesLaughClose" position="left"/>
             <speak chara="_Thales">Haha, that's because the location was perfect to be a commercial hub. Merchants aren't afraid of pirates—— As long as the other party likes money!</speak>
             <show chara="thalesProudClose" position="left"/>
-            <speak chara="_Thales">In the end all came down to a 「government」, a 「state」, or you could call it 「a tool to let one class exploit another」 as well.</speak>
+            <!-- GRAMMAR: In the end all -> In the end it all -->
+            <speak chara="_Thales">In the end it all came down to a 「government」, a 「state」, or you could call it 「a tool to let one class exploit another」 as well.</speak>
             <show chara="thalesStoneClose" position="left"/>
             <speak chara="_Thales">The self imposed 「peace」 of a 「barbaric society」 is a social auto regression. While it's a good thing, often enough it leaves bad customs in that society's culture.</speak>
             <show chara="thalesStoneClose" position="left" opacity="0.8"/>

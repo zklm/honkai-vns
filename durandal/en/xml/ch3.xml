@@ -242,7 +242,8 @@
             <speak chara="_Shakespeare">You can think of it as this submarine being a surfboard surfing underwater.</speak>
             <show chara="shakesLaughClose" position="left" opacity="0.8"/>
             <show chara="rita17NormalClose" position="right"/>
-            <speak chara="_Rita">Ultra high speed sea currents... Why does something like that exists?</speak>
+            <!-- GRAMMAR: exists? -> exist? -->
+            <speak chara="_Rita">Ultra high speed sea currents... Why does something like that exist?</speak>
             <show chara="rita17NormalClose" position="right" opacity="0.8"/>
             <show chara="shakesSweatyClose" position="left"/>
             <speak chara="_Shakespeare">...Beats me. It's like teaching a mere fisherman the principle behind a typhoon.</speak>
@@ -292,7 +293,8 @@
             <show chara="lallaSighClose" position="left"/>
             <speak chara="_Lalla">Gibraltar used to be a very important trading hub in the past, who could had imagined it would end up like this.</speak>
             <show chara="lallaSeriousClose" position="left"/>
-            <speak chara="_Lalla">I wonder how long will Tanger, Ceuta and Tetouan will remain on the other side.</speak>
+            <!-- GRAMMAR: how long will Tanger, Ceuta and Tetouan will remain -> how long will Tanger, Ceuta and Tetouan remain-->
+            <speak chara="_Lalla">I wonder how long will Tanger, Ceuta and Tetouan remain on the other side.</speak>
             <show chara="shakesPityClose" position="left"/>
             <speak chara="_Shakespeare">Tetouan is Lalla-san's hometown.</speak>
             <show chara="shakesPityClose" position="left" opacity="0.8"/>

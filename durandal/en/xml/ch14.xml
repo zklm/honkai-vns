@@ -70,6 +70,7 @@
             <speak chara="_Champollion">I feel like... she pulled a fast one on us.</speak>
             <show chara="champoSweatyClose" position="left" opacity="0.8"/>
             <show chara="cervantesSailorUnhappyClose" position="right"/>
+            <!-- FLOW: How ourselves feel -> How we feel -->
             <speak chara="_Miguel">...How ourselves feel about this doesn't really matter.</speak>
             <show chara="cervantesSailorUnhappyClose" position="right" opacity="0.8"/>
             <show chara="schroMemoryClose" position="left"/>
@@ -495,7 +496,8 @@
             <speak chara="_ZarathustraDaughter">Thank you for the compliment. But rather than my 「house」, this place is closer to being my 「laboratory」.</speak>
             <show chara="ZarathustraSmileClose" position="right" opacity="0.8"/>
             <show chara="champoSmileClose" position="left"/>
-            <speak chara="_Champollion">Oh? And what kind of experiments the great High Priestess do?</speak>
+            <!-- GRAMMAR: what kind of experiments the great -> what kind of experiments does the great -->
+            <speak chara="_Champollion">Oh? And what kind of experiments does the great High Priestess do?</speak>
             <show chara="champoSmileClose" position="left" opacity="0.8"/>
             <show chara="ZarathustraThinkClose" position="right"/>
             <speak chara="_ZarathustraDaughter">Before I begin my explanation, there is a question you must answer first, my honored guests.</speak>

@@ -51,6 +51,7 @@
             <speak chara="_ZarathustraDaughter">——And of course, he cut off the heads of those he found 「guilty」.</speak>
             <hide position="center"></hide>
             <speak chara="_ZarathustraDaughter">The 「Serpent King」 was no longer that small and weak Prince who once died during a hunt.</speak>
+            <!-- TYPO: tore -> tear -->
             <speak chara="_ZarathustraDaughter">He could tore apart his enemies with his bare hands, and his skin was so hard it could not be harmed by any weapon.</speak>
             <show chara="zahhakSmile" position="center"/>
             <speak chara="_ZarathustraDaughter">The 「Serpent King」's army continued to win battle after battle.</speak>
@@ -96,6 +97,7 @@
             <speak chara="_graySnake">I called you 「the future King of Kings」 but alas, it seems you did not understand anything at all.</speak>
             <speak chara="_graySnake">Those serpents were only fulfilling your basic desires of the flesh.</speak>
             <show chara="graySnakeNormal" position="center"/>
+            <!-- GRAMMAR: life is deal -> life is a deal -->
             <speak chara="_graySnake">O foolish King Zahhak, life is deal you can't take back, and you didn't even know what you were trading.</speak>
             <speak chara="_graySnake">I gave you the potential to surpass humanity, and you wasted it 「playing house」.</speak>
             <speak chara="_graySnake">Zahhak, you have no longer the potential to 「surpass humanity」.</speak>
@@ -130,6 +132,7 @@
             </remark>
             <show chara="oldZaraNormal" position="center"/>
             <speak chara="_oldZara">The army has no leader right now and Prince Cambyses is far away in Babylonia. As the High Priest, I must go to the front lines and take charge of the army in place of the missing King.</speak>
+            <!-- FLOW: gonna -> going to (probably more appropriate for a person giving his final words to his adopted daughter) -->
             <speak chara="_oldZara">There is no guarantee I'll come back alive. That's why I'm gonna give you these two things. I'm sure they'll help you in times of need.</speak>
             <show chara="oldZaraInjector" position="center"/>
             <speak chara="_oldZara">The first one is this drug. If you need the strength to fight, remove the cover and pierce your skin with the needle.</speak>

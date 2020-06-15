@@ -269,6 +269,7 @@
             <show chara="schroTalkClose" position="left"/>
             <speak chara="_Schrodinger">Somehow I was able to put them in sleep mode.</speak>
             <show chara="schroSeriousClose" position="left"/>
+            <!-- FLOW: Deploy reserve personnel immediately -->
             <speak chara="_Schrodinger">Deploy immediately reserve personnel to maintain law and order—— Otherwise there won't be anything to stop crimes from happening.</speak>
             <show chara="schroSeriousClose" position="left" opacity="0.8"/>
             <show chara="shelleyColdClose" position="right"/>
@@ -435,6 +436,7 @@
         </scene>
         <scene id="70" background="CG8-2.jpg">
             <bgm src="theme.mp3" status="start"></bgm>
+            <!-- FLOW: and that only you and I are the only ones left -> and that you and I are the only ones left -->
             <speak chara="_AliceGreen">...I believe I mentioned it before. After the Professor's death there was a disagreement between his assistants and the scholars they brought here, and that only you and I are the only ones left.</speak>
             <speak chara="_AliceGreen">I...</speak>
             <speak chara="_AliceGreen">Deliberately let it happen.</speak>

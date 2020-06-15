@@ -146,11 +146,11 @@
         <scene id="30" background="deepWater.jpg">
             <bgm src="seaAndSky.mp3" status="start"></bgm>
             <speak chara="_SwordDurandalQ">...A long, long time ago.</speak>
-            <speak chara="_SwordDurandalQ" remark="next">久到楚科奇和阿拉斯加仍连为一体，而穆大陆还没有沉入马里亚纳海沟的深处。</speak>
+            <speak chara="_SwordDurandalQ" remark="next">When Chukchi and Alaska were still connected, and the Mu Continent hadn't sunk to the bottom of the Mariana Trench yet.</speak>
             <remark post="U2FsdGVkX1+r7a9bQUR5x7guBqvh">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">地质学上的“白令陆桥”是指一片西起俄罗斯勒拿河、东至加拿大麦肯齐河、北抵楚科奇海北沿、南到勘察加半岛的广大区域。</p>
-                <p class="article-text">When Chukchi and Alaska were still connected, and the Mu Continent hadn't sunk to the bottom of the Mariana Trench yet.</p>
+                <p class="article-text">在第四季冰期（距今约125000年前 - 距今约14500年前）中，地球的海平面比今天要低100 ~ 200米左右，这不仅让白令海峡“沧海桑田”成为了陆地，更使得整个白令陆桥成为了一片宽至1000公里、总面积达160万平方公里的广袤土地（相当于一个新疆维吾尔自治区的面积）。</p>
             </remark>
             <speak chara="_SwordDurandalQ">The humans of that era selfishly decided to create me.</speak>
             <speak chara="_SwordDurandalQ">Well, don't get me wrong. I'm thankful they gave me a mind and all, but man they were incredibly boring people.</speak>

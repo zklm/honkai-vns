@@ -398,7 +398,8 @@
             <speak chara="_Shakespeare">Oh my. If I were to make a comparison, I'd say they're above the food 「Tireman Restaurant」 from Alexandria makes.</speak>
             <show chara="shakesCasualLaughClose-up" position="right" opacity="0.8"/>
             <show chara="biankaDressScreamClose-up" position="left"/>
-            <speak chara="_Bianka">Thanks for the good!</speak>
+            <!-- TYPO: good -> food (probably)-->
+            <speak chara="_Bianka">Thanks for the food!</speak>
             <goto goto="130" change="0"/>
         </scene>
         <scene id="130" background="CG13-1.jpg">
@@ -747,7 +748,8 @@
                 <p class="article-text">阿格拉堡（印地语：आगरा क़िला，乌尔都语：آگرہ قلعہ‬‎‎）是印度莫卧儿王朝全盛时期的皇宫，使用者包括巴布尔、胡马雍、阿克巴、贾汗吉尔、沙贾汗、奥朗则布六代雄主。</p>
                 <p class="article-text">著名的泰姬陵位于阿格拉堡东南2.5公里处，是沙贾汗为其妻子慕塔芝·玛哈修建的陵寝。沙贾汗晚年被儿子奥朗则布夺取皇位并囚禁于阿格拉堡，他在人生最后的八年中只能从这里去默默地眺望泰姬陵。</p>
             </remark>
-            <text>The primary unit would lure the Houkai beasts away to the citadel's garden to minimize the damage. Bianka's unit would then cut off their path, make a stand at Yamuna River and proceed to easily eliminate the Houkai beasts from both sides with the help of the primary unit.</text>
+            <!-- RENAME: Houkai -->
+            <text>The primary unit would lure the Honkai beasts away to the citadel's garden to minimize the damage. Bianka's unit would then cut off their path, make a stand at Yamuna River and proceed to easily eliminate the Houkai beasts from both sides with the help of the primary unit.</text>
             <text>...Or so they were supposed to.</text>
             <goto goto="180" change="0"/>
         </scene>
