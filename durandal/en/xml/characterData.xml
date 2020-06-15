@@ -391,7 +391,7 @@
         <character name="Neith" color="#adbfb9" id="neithScaredFar" src="02_21_neithScaredFar.png"/>
         <character name="Neith" color="#adbfb9" id="neithShockClose" src="02_21_neithShockClose.png"/>
         <character name="???" color="#ffd0d1" id="_AliceNoName" src=""/>
-        <character name="Nelissa" color="#ffd0d1" id="_Alice" src=""/>
+        <character name="Alice" color="#ffd0d1" id="_Alice" src=""/>
         <character name="Nelissa" color="#ffd0d1" id="_AliceVeniceM" src=""/>
         <character name="Nelissa" color="#ffd0d1" id="NerissaSmile" src="NerissaSmile.png"/>
         <character name="Nelissa" color="#ffd0d1" id="NerissaDespise" src="NerissaDespise.png"/>
