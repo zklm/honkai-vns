@@ -184,7 +184,6 @@
             <speak chara="_Alice">Yes.</speak>
             <show chara="AliceDeterminedClose" position="right" opacity="0.8"/>
             <show chara="wattSadClose" position="left"/>
-            <!-- TYPO: What would he do that? -> Why would he do that? -->
             <speak chara="_Watt">...T-That's strange. Why would he do that?</speak>
             <show chara="wattSadClose" position="left" opacity="0.8"/>
             <show chara="AliceSilentClose" position="right"/>

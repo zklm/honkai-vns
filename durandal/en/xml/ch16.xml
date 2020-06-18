@@ -54,21 +54,21 @@
         </scene>
         <scene id="80" background="black">
             <bgm src="morning.mp3" status="start"></bgm>
-            <speak chara="_Bianka">(Ugh... why... I am...)</speak>
+            <speak chara="_Bianka">(Ugh... why... am I...)</speak>
             <speak chara="_Bianka">(It's cold... my head feels heavy...)</speak>
             <speak chara="_Bianka">(Ah... I can feel something...)</speak>
             <speak chara="_Bianka">(So warm... and smells good...)</speak>
             <speak chara="_Bianka">(Mom...)</speak>
             <speak chara="_Bianka">(.....)</speak>
             <speak chara="_Bianka">(Wait——)</speak>
-            <speak chara="_Bianka">(Why I am—— Sleeping?)</speak>
+            <speak chara="_Bianka">(Why am I—— Sleeping?)</speak>
             <goto goto="90" change="#ffffff"/>
         </scene>
         <scene id="90" background="CG16-4.jpg">
             <bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
             <speak chara="_Rita">Good morning, Bianka-sama.</speak>
             <speak chara="_Rita">Did you sleep well?</speak>
-            <speak chara="_Bianka">Rita? What happened to me? Why I am here? How long was I asleep?</speak>
+            <speak chara="_Bianka">Rita? What happened to me? Why am I here? How long was I asleep?</speak>
             <speak chara="_Rita">Chichen Itza's castle. Specifically, the backyard of the Chicxulub meteorite building.</speak>
             <speak chara="_Rita">Approximately 1 hour ago, we fell for a trap and inhaled a large amount of anesthetic gas.</speak>
             <speak chara="_Rita">...You're still growing up, it's no surprise it would take you more time to recover.</speak>
@@ -84,7 +84,8 @@
             <speak chara="_Rita">Don't worry. Du-sama is treating them nearby using equipment left by the High Priestess. They should be waking up in about 30 minutes.</speak>
             <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
             <show chara="biankaDressBiteClose" position="left"/>
-            <speak chara="_Bianka">...Du? That sword? Since when she's been with us?</speak>
+            <!-- FLOW: Since when she's -> Since when has she -->
+            <speak chara="_Bianka">...Du? That sword? Since when has she been with us?</speak>
             <show chara="biankaDressBiteClose" position="left" opacity="0.8"/>
             <show chara="ritaVestSquintClose" position="right"/>
             <speak chara="_Rita">Since this morning. After recovering 2 of its gems, Du-sama became able to manipulate the air distribution around itself to hide in plain sight.</speak>
@@ -99,7 +100,8 @@
             <speak chara="_Bianka">W-Why didn't you tell me something so important, idiot!?</speak>
             <show chara="biankaDressShoutClose" position="left" opacity="0.8"/>
             <show chara="ritaVestNormalClose" position="right"/>
-            <speak chara="_Rita">My apologies, Bianka-sama. However it was necessary thing to do to reduce the risk of a potential enemy finding out about our strategy.</speak>
+            <!-- GRAMMAR: However it was necessary thing -> However it was a necessary thing -->
+            <speak chara="_Rita">My apologies, Bianka-sama. However it was a necessary thing to do to reduce the risk of a potential enemy finding out about our strategy.</speak>
             <speak chara="_Rita">So it wasn't only you who didn't——</speak>
             <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
             <show chara="biankaDressBiteClose" position="left"/>

@@ -126,7 +126,6 @@
             <speak chara="_Bianka">.....</speak>
             <show chara="biankaBiteClose" position="right" opacity="0.8"/>
             <show chara="micheFocusClose" position="left"/>
-            <!-- GRAMMAR: they didn't left -> they didn't leave -->
             <speak chara="_MichelNoName">...Thales. Basically, you are saying someone disappeared inside the library—— And they didn't leave any trace behind?</speak>
             <show chara="micheFocusClose" position="left" opacity="0.8"/>
             <show chara="thalesSeriousClose" position="right"/>
