@@ -561,10 +561,10 @@
         <character name="Old Dragon" color="#aeb5ae" id="BertrandAnger" src="07_05_BertrandAnger.png"/>
         <character name="Old Dragon" color="#aeb5ae" id="BertrandNormal" src="07_05_BertrandNormal.png"/>
         <character name="Old Dragon" color="#aeb5ae" id="BertrandThink" src="07_05_BertrandThink.png"/>
-        <character name="市民 (男)" color="#d2c7c1" id="_citizenChichenItzaMan" src=""/>
-        <character name="市民 (女)" color="#d2c7c1" id="vilagerWomanSmileClose" src="07_19_vilagerWomanSmileClose.png"/>
-        <character name="市民 (女)" color="#d2c7c1" id="_citizenChichenItzaWoman" src=""/>
-        <character name="观众" color="#d2c7c1" id="_citizenChichenItzaFan" src=""/>
+        <character name="Citizen (Man)" color="#d2c7c1" id="_citizenChichenItzaMan" src=""/>
+        <character name="Citizen (Woman)" color="#d2c7c1" id="vilagerWomanSmileClose" src="07_19_vilagerWomanSmileClose.png"/>
+        <character name="Citizen (Woman)" color="#d2c7c1" id="_citizenChichenItzaWoman" src=""/>
+        <character name="Spectator" color="#d2c7c1" id="_citizenChichenItzaFan" src=""/>
         <character name="新雇佣的水手" color="#a4aca4" id="_Officer3PNoName" src=""/>
         <character name="Ketuya" color="#a4aca4" id="_Officer3PKetuya" src=""/>
         <character name="Ketuya" color="#a4aca4" id="Officer3PClose" src="08_17_Officer3PClose.png"/>

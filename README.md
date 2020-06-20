@@ -23,5 +23,5 @@ For transparency, modified translations will have a comment alongside them conta
 
 ## Current Progress
 * Anti-Entropy: CH1-12 untranslated, CH13-26 mostly done (Aiatar)
-* Durandal: CH1-16 done (Aiatar), C17-31 untranslated
+* Durandal: CH1-17 done (Aiatar), C18-31 untranslated
 * Seven Swords: 0
