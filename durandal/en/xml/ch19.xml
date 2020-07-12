@@ -8,372 +8,372 @@
         </scene>
         <scene id="10" background="deepWater.jpg">
             <bgm src="11_15_shakespeareTheme.mp3" status="start"></bgm>
-            <text>——数日后。</text>
+            <text>——A few days later.</text>
             <goto goto="20" change="0"/>
         </scene>
         <scene id="20" background="submarineCabinBlurDeep.jpg">
             <bgm src="11_15_shakespeareTheme.mp3" status="continue"></bgm>
             <show chara="AliceSmileCloseE" position="left"/>
-            <speak chara="_Alice">各位，根据航程推算，“喀里多尼亚号”已经穿过了加勒比海盆，来到了南美大陆的近海海域。</speak>
+            <speak chara="_Alice">Based on your course, the 「Caledonia」 will soon leave the Caribbean Sea and enter South American waters.</speak>
             <show chara="AliceSmileCloseE" position="left" opacity="0.8"/>
             <show chara="shakesCasualConfidentClose" position="right"/>
-            <speak chara="_Shakespeare">哎呀，那太好了！</speak>
+            <speak chara="_Shakespeare">Glad to hear that!</speak>
             <show chara="shakesCasualLaughClose" position="right"/>
-            <speak chara="_Shakespeare">墨西哥湾流几乎是一个螺旋结构，害得我们绕了不少的远路呢！</speak>
+            <speak chara="_Shakespeare">We had to make quite the detour due to the spiraling Gulf Stream.</speak>
             <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
             <show chara="Officer3PClose" position="left"/>
-            <speak chara="_Officer3PNoName">只不过小半天的时间，就驶出了能绕整个“联邦”一圈的里程……潜水船的速度还真是惊人啊。</speak>
+            <speak chara="_Officer3PNoName">Newly Hired Sailor: This submarine is awesome... in only half a day it covered enough distance to go around the 「Federation」.</speak>
             <show chara="Officer3PClose" position="left" opacity="0.8"/>
             <show chara="shakesCasualNormalClose" position="right"/>
-            <speak chara="_Shakespeare">呵呵，这可都是多亏了高速洋流——</speak>
+            <speak chara="_Shakespeare">Hehe, it's all thanks to the high speed currents——</speak>
             <show chara="shakesCasualLaughClose" position="right"/>
-            <speak chara="_Shakespeare">——要是论绝对速度，我们这艘船甚至还不如地面上的自行车快哦？</speak>
+            <speak chara="_Shakespeare">——At its normal speed it would even lose to a bicycle moving on the ground.</speak>
             <show chara="shakesCasualConfidentClose" position="right"/>
-            <speak chara="_Shakespeare">啊对了——你的名字是“科图亚”吧——你之前说，大约五十年前，你们的“联邦”和“遥远的南方国度”曾经短暂地交流过？</speak>
+            <speak chara="_Shakespeare">Ketuya, was it? So, you said the 「Federation」 had an exchange with a 「Southern country」 50 years ago?</speak>
             <show chara="shakesCasualConfidentClose" position="right" opacity="0.8"/>
             <show chara="Officer3PClose" position="left"/>
-            <speak chara="_Officer3PKetuya">啊……那是我小时候从奶奶那里听来的一个故事。</speak>
+            <speak chara="_Officer3PKetuya">Yes, that's what I heard from my grandma when I was little.</speak>
             <show chara="Officer3PClose" position="left"/>
-            <speak chara="_Officer3PKetuya">她说，在很远很远的南方，天地的尽头，有一个幅员辽阔的国家。在她还小的时候，那里的商人偶尔会来到我们的联邦，和大家做生意。</speak>
+            <speak chara="_Officer3PKetuya">There is a big country far South, and when my grandma was little, people from there used to come to the Federation to do business.</speak>
             <show chara="Officer3PClose" position="left"/>
-            <speak chara="_Officer3PKetuya">但好景不长——大概是因为文化习惯上差异很大吧——他们有人违反了联邦的法律，被没收财产、驱逐出境。</speak>
+            <speak chara="_Officer3PKetuya">But that didn't last long. Perhaps due to our cultural differences, some of them violated the Federation's laws and had to be expelled.</speak>
             <show chara="Officer3PClose" position="left"/>
-            <speak chara="_Officer3PKetuya">从此之后，就没有南方的商人再踏上过联邦的国土了。奶奶说，那个国家可能已经衰落了。</speak>
+            <speak chara="_Officer3PKetuya">Since then, merchants from the South stopped coming to the Federation. My grandma said it's possible that Southern country is no longer there.</speak>
             <show chara="Officer3PClose" position="left" opacity="0.8"/>
             <show chara="ritaVestNormalClose" position="right"/>
-            <speak chara="_Rita">不过……我们也不能排除，这个“南方国度”至今仍然存在？</speak>
+            <speak chara="_Rita">However... there is still a chance that 「Southern country」 still exists, right?</speak>
             <show chara="ritaVestNormalClose" position="right" opacity="0.8"/>
             <show chara="shakesCasualNormalClose" position="left"/>
-            <speak chara="_Shakespeare">或许吧。不过，真正关键的是，它很可能和某颗宝石的下落有所重合。</speak>
+            <speak chara="_Shakespeare">Indeed. But what matters the most is that its location is similar to the one where one of the gems is located.</speak>
             <show chara="shakesCasualConfidentClose" position="left"/>
-            <speak chara="_Shakespeare">各位还记得吗？</speak>
+            <speak chara="_Shakespeare">Do you all remember?</speak>
             <show chara="shakesCasualNormalClose" position="left"/>
-            <speak chara="_Shakespeare">沙漠边缘的宇航中心——这是我们在埃及找到宝石的地方；</speak>
+            <speak chara="_Shakespeare">A space center near the edge of a desert—— The gem we found in Egypt.</speak>
             <show chara="shakesCasualNormalClose" position="left"/>
-            <speak chara="_Shakespeare">雨林中的蔚蓝溶洞——这是我们在尤卡坦找到宝石的地方；</speak>
+            <speak chara="_Shakespeare">A limestone cave glowing like a jewel in a rainforest—— The gem we found in Yucatan.</speak>
             <show chara="shakesCasualEmbarrassedClose" position="left"/>
-            <speak chara="_Shakespeare">而留待我们搜寻的，还有“积雪中绽放的鲜花”、“舞台上的偶像”、“有倾颓石像的荒芜小岛”……</speak>
+            <speak chara="_Shakespeare">The others were 「a flower blooming amid a blizzard」, 「an idol dazzling on the stage」, 「a desolated island with statues pointing towards the shore」...</speak>
             <show chara="shakesCasualNormalClose" position="left"/>
-            <speak chara="_Shakespeare">……以及，“被火山和雪岭包围的城市”。</speak>
+            <speak chara="_Shakespeare">...And 「a mysterious city surrounded by volcanoes and snowy ridges」.</speak>
             <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
             <show chara="biankaDressShockClose" position="right"/>
-            <speak chara="_Bianka">难道……你们已经查到这座城市是什么地方了吗？</speak>
+            <speak chara="_Bianka">Could it be... you figured out the location of that city?</speak>
             <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
             <show chara="AliceShyCloseE" position="left"/>
-            <speak chara="_Alice">是的……根据大图书馆的所有资料，天际线上同时能看到三座积雪火山、而且建筑风格符合你们描述的城市，只有一座。</speak>
+            <speak chara="_Alice">Yes. We were able to narrow down the location thanks to the records from the Great Library. There is only one city that fits that description.</speak>
             <show chara="AliceSmileCloseE" position="left"/>
-            <speak chara="_Alice">她就位于我们即将抵达的南美大陆，是赤道上的高山之城——“基多”。</speak>
+            <speak chara="_Alice">The city of 「Quito」, located at the Equator in South America.</speak>
             <show chara="AliceShyCloseE" position="left"/>
-            <speak chara="_Alice">薛定谔博士说，在另一侧的世界中，这座城市是“厄瓜多尔共和国”的首都。</speak>
+            <speak chara="_Alice">According to Professor Schrodinger, in another world that city serves as the capital of the 「Republic of Ecuador」.</speak>
             <show chara="shakesCasualNormalClose" position="left"/>
-            <speak chara="_Shakespeare" remark="next">这个世界里很可能没有直接用“赤道”当名字的国家存在。但如果我们设法联系上了那个“未知的南方国度”……</speak>
+            <speak chara="_Shakespeare" remark="next">It's possible there might not be an 「Ecuador」 in this world, but going there should give us a hint about that 「mysterious Southern country」...</speak>
             <remark post="U2FsdGVkX18OFrvF00I9p7sYzHxu">
                 <p class="article-text-h">注：</p>
                 <p class="article-text">“厄瓜多尔”（Ecuador）在西班牙语中就是“赤道”的意思。</p>
             </remark>
             <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
             <show chara="biankaDressSmileClose" position="right"/>
-            <speak chara="_Bianka">……我们也就有了顺利抵达“基多”这座城市的方法？</speak>
+            <speak chara="_Bianka">...And a way to safely reach 「Quito」?</speak>
             <show chara="biankaDressSmileClose" position="right" opacity="0.8"/>
             <show chara="shakesCasualConfidentClose" position="left"/>
-            <speak chara="_Shakespeare">没错。沿途多打听打听，总会有办法的。</speak>
+            <speak chara="_Shakespeare">Yeah. We'll learn more about that on our way.</speak>
             <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
             <show chara="AliceSurprisedCloseE" position="right"/>
-            <speak chara="_Alice">啊，这样的话……船长要现在就安排一次上浮吗？你们离“ABC群岛”已经很近了。</speak>
+            <speak chara="_Alice">In that case, Captain, would you like to resurface? You're almost at the 「ABC Islands」.</speak>
             <show chara="AliceSurprisedCloseE" position="right" opacity="0.8"/>
             <show chara="biankaDressShockClose" position="left"/>
-            <speak chara="_Bianka">……“ABC群岛”？</speak>
+            <speak chara="_Bianka">...「ABC Islands」?</speak>
             <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
             <show chara="shakesCasualLaughClose" position="right"/>
-            <speak chara="_Shakespeare">没什么，不过是一个很无聊的缩写罢了。你们上去看看就知道了。</speak>
+            <speak chara="_Shakespeare">It's just a boring abbreviation. You'll see once we get there.</speak>
             <show chara="shakesCasualLaughClose" position="right" opacity="0.8"/>
             <show chara="biankaDressHesitateClose" position="left"/>
-            <speak chara="_Bianka">……？</speak>
+            <speak chara="_Bianka">...?</speak>
             <goto goto="30" clockwise="1"/>
         </scene>
         <scene id="30" background="landCuracao.jpg">
             <bgm src="06_01_Tuluum.mp3" status="start"></bgm>
             <show chara="shakesCasualNormalClose" position="left"/>
-            <speak chara="_Shakespeare">远方的阿鲁巴（Aruba）岛、博奈尔（Bonaire）岛，再加上我们脚下的库拉索（Curaçao）岛。</speak>
+            <speak chara="_Shakespeare">We can see Aruba and Bonaire in the distance, and the one we're standing on is Curaçao.</speak>
             <show chara="shakesCasualEmbarrassedClose" position="left"/>
-            <speak chara="_Shakespeare">A、B、C。</speak>
+            <speak chara="_Shakespeare">Get it? A, B, C.</speak>
             <show chara="shakesCasualEmbarrassedClose" position="left" opacity="0.8"/>
             <show chara="biankaDressSighClose" position="right"/>
-            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">.....</speak>
             <show chara="biankaDressSighClose" position="right" opacity="0.8"/>
             <show chara="shakesCasualSeriousClose" position="left"/>
-            <speak chara="_Shakespeare">我说过了吧？一个很无聊的缩写，仅此而已。</speak>
+            <speak chara="_Shakespeare">I told you, it's a boring abbreviation.</speak>
             <show chara="shakesCasualNormalClose" position="left"/>
-            <speak chara="_Shakespeare">……不过，一个名字之所以无聊，往往是因为它根本指代不了任何内容。</speak>
+            <speak chara="_Shakespeare">Well, the only boring thing this place has is its name.</speak>
             <show chara="shakesCasualConfidentClose" position="left"/>
-            <speak chara="_Shakespeare">举例来说，我们面前的这座岛屿就很有探索的价值——它至少说明南美大陆并不是什么蛮荒之地。</speak>
+            <speak chara="_Shakespeare">The island we're on is worth exploring—— At the very least, it should help us prove the American continent is not a deserted land.</speak>
             <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
             <show chara="biankaDressHesitateClose" position="right"/>
-            <speak chara="_Bianka">……？</speak>
+            <speak chara="_Bianka">...?</speak>
             <show chara="ritaVestSmileClose" position="right"/>
-            <speak chara="_Rita">因为这座岛屿上有“道路”，是吗？</speak>
+            <speak chara="_Rita">You say that because there is a 「road」?</speak>
             <show chara="ritaVestSmileClose" position="right" opacity="0.8"/>
             <show chara="shakesCasualNormalClose" position="left"/>
-            <speak chara="_Shakespeare">没错。</speak>
+            <speak chara="_Shakespeare">Exactly.</speak>
             <show chara="shakesCasualConfidentClose" position="left"/>
-            <speak chara="_Shakespeare">也许你们已经习惯于视野中总是存在道路的生活了……但是请注意：自然界可永远都不会帮助人类去修筑基础设施。</speak>
+            <speak chara="_Shakespeare">We're used to live alongside roads... but roads don't appear out of nowhere.</speak>
             <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
             <show chara="biankaDressShockClose" position="right"/>
-            <speak chara="_Bianka">啊。</speak>
+            <speak chara="_Bianka">I see...</speak>
             <show chara="biankaDressSmileAhClose" position="right"/>
-            <speak chara="_Bianka">也就是说，这里至少曾经有“人类”生活过！而且人数应该还不少！</speak>
+            <speak chara="_Bianka">You're saying 「mankind」 has been here, and it must not be a small number of people.</speak>
             <show chara="biankaDressSmileAhClose" position="right" opacity="0.8"/>
             <show chara="shakesCasualNormalClose" position="left"/>
-            <speak chara="_Shakespeare">就是这样。</speak>
+            <speak chara="_Shakespeare">Correct.</speak>
             <show chara="shakesCasualLaughClose" position="left"/>
-            <speak chara="_Shakespeare">仔细检查一下吧，运气好的话，说不定还能找到车辙或者脚印呢！</speak>
+            <speak chara="_Shakespeare">Well then, let's see where this road takes us. With any luck we'll find wheel tracks or footprints.</speak>
             <goto goto="40" change="#ffffff"/>
         </scene>
         <scene id="40" background="CG19-1.jpg">
             <bgm src="06_01_Tuluum.mp3" status="continue"></bgm>
-            <speak chara="_Bianka">这是……</speak>
-            <speak chara="_Rita">好大的脚印啊。行走的方向是……前方的丘陵地区。</speak>
-            <speak chara="_Bianka">我们追上去吧！这一串脚印的形状很完整，它们的主人应该没走多远！</speak>
+            <speak chara="_Bianka">These are...</speak>
+            <speak chara="_Rita">Large footprints. They're heading towards... that hill up ahead.</speak>
+            <speak chara="_Bianka">Let's go! The footprints are still fresh, they must not be too far away!</speak>
             <goto goto="50" clockwise="1"/>
         </scene>
         <scene id="50" background="roadGCuracao.jpg">
             <bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
-            <speak chara="_Bianka">脚印……到这里似乎有一个停顿……</speak>
-            <speak chara="_SwordDurandalQ">哇！这是什么！比安卡，快看前面！抬头！</speak>
-            <speak chara="_Bianka">……抬头？</speak>
+            <speak chara="_Bianka">The footprints... stopped here...</speak>
+            <speak chara="_SwordDurandalQ">Woah! Bianka-sama, look! Not the ground! Up front!</speak>
+            <speak chara="_Bianka">...Up front?</speak>
             <goto goto="60" change="0"/>
         </scene>
         <scene id="60" background="roadStatueCuracao.jpg">
             <bgm src="01_18_tango.mp3" status="start"></bgm>
-            <speak chara="_Bianka">这、这是……石雕吗？风、风格怎么这么现代？</speak>
-            <speak chara="_SwordDurandalQ">但是凑近一看，它其实风化得很严重呢！</speak>
+            <speak chara="_Bianka">T-This... a stone statue? It has a strangely modern feel to it.</speak>
+            <speak chara="_SwordDurandalQ">Upon close inspection it looks like it's been weathered quite a lot!</speak>
             <goto goto="70" change="0"/>
         </scene>
         <scene id="70" background="roadStatueCuracaoClose.jpg">
             <bgm src="01_18_tango.mp3" status="continue"></bgm>
-            <speak chara="_Bianka">……这可能和你的“宝石”有什么关系吗？</speak>
-            <speak chara="_SwordDurandalQ">应该完全没关系吧？无论是岛屿环境还是石像本身，都和那个“提示画面”完全不一样嘛！</speak>
-            <speak chara="_SwordDurandalQ">怎么，你难道只要看到荒岛加石像的组合，就觉得附近可能埋着宝石不成？</speak>
-            <speak chara="_Bianka">你这个嘴欠的家伙……信不信我把你给拧成麻花？</speak>
-            <speak chara="_SwordDurandalQ">救、救命！杀人——不，杀剑——不，杀剑人啦！</speak>
+            <speak chara="_Bianka">...You think it has anything to do with the 「gems」?</speak>
+            <speak chara="_SwordDurandalQ">You serious? Of course not. This statue and this island are completely different from the ones you saw back then!</speak>
+            <speak chara="_SwordDurandalQ">Or could it be you get the urge to collect gems whenever whenever stone statues and islands are brought up together?</speak>
+            <speak chara="_Bianka">That little mouth of yours... I wonder how should I shut it up?</speak>
+            <speak chara="_SwordDurandalQ">Ahhh!! Someone save me! Murderer! Swords have rights too!!!</speak>
             <goto goto="80" clockwise="1"/>
         </scene>
         <scene id="80" background="roadStatueCuracao.jpg">
             <bgm src="06_01_ChichenItza.mp3" status="start"></bgm>
             <show chara="shakesCasualConfidentClose" position="left"/>
-            <speak chara="_Shakespeare">……哇哦。</speak>
+            <speak chara="_Shakespeare">...Impressive.</speak>
             <show chara="shakesCasualConfidentClose" position="left" opacity="0.8"/>
             <show chara="ritaVestNormalClose" position="right"/>
-            <speak chara="_Rita">……</speak>
+            <speak chara="_Rita">.....</speak>
             <show chara="ritaVestNormalClose" position="right"/>
-            <speak chara="_Rita">（等等……这张脸……感觉在哪里见过？）</speak>
+            <speak chara="_Rita">(This face... where have I seen it before...?)</speak>
             <show chara="biankaDressNormalClose" position="right"/>
-            <speak chara="_Bianka">这雕像从风格上看，和小幽的宝石好像没有什么关系——不过它可能是那个“南方国度”的遗存吗？</speak>
+            <speak chara="_Bianka">Considering the style of the statue it doesn't seem like it has anything to do with Du's gems—— Could it be a 「Southern relic」 or something like that?</speak>
             <show chara="biankaDressNormalClose" position="right" opacity="0.8"/>
             <show chara="durandalWhite" position="left"/>
-            <speak chara="_SwordDurandalQ">不过我要说啊：从风化程度看，这个石雕可能很古老了，不太可能是最近几十年才废弃的。</speak>
+            <speak chara="_SwordDurandalQ">Given the weather conditions of this place it must be quite old. It certainly wasn't made in the last couple of decades.</speak>
             <show chara="durandalWhite" position="left" opacity="0.8"/>
             <show chara="biankaDressSneerClose" position="right"/>
-            <speak chara="_Bianka">真的假的？这石雕的五官不还很完整吗？</speak>
+            <speak chara="_Bianka">Really? Are you sure? You can even see the face very clearly.</speak>
             <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
             <show chara="champoNormalClose" position="left"/>
-            <speak chara="_Champollion">……不，小幽说得没错。从底座位置隐约可见的漆斑来看，这个石雕原本是有颜色的。</speak>
+            <speak chara="_Champollion">...I have to agree with Du. There are traces of lacquer on the pedestal. I'm certain this statue was originally painted.</speak>
             <show chara="champoSmileClose" position="left"/>
-            <speak chara="_Champollion">你们看，漆本身的质量其实很好，而且这石材也不是容易被雨水腐蚀的石灰岩——弄不好，这石雕甚至可能比我们之前见过的奇琴伊察还要古老。</speak>
+            <speak chara="_Champollion">Also it's a very high quality one. Stone can't be easily corroded by rain—— It may even be older than Chichen Itza.</speak>
             <show chara="champoSmileClose" position="left" opacity="0.8"/>
             <show chara="biankaDressShockClose" position="right"/>
-            <speak chara="_Bianka">……</speak>
+            <speak chara="_Bianka">.....</speak>
             <show chara="biankaDressShockClose" position="right" opacity="0.8"/>
             <show chara="champoNormalClose" position="left"/>
-            <speak chara="_Champollion">总而言之，这个雕像应该也和我们追寻的足迹没有关系——</speak>
+            <speak chara="_Champollion">Anyway, this statue has nothing to do with the footprints we were following——</speak>
             <show chara="champoSmileClose" position="left"/>
-            <speak chara="_Champollion">——虽然，它真的是一个很有趣的考古样本。</speak>
+            <speak chara="_Champollion">——It's only interesting in an archaeologically sense.</speak>
             <show chara="champoSmileClose" position="left" opacity="0.8"/>
             <show chara="biankaDressHesitateClose" position="right"/>
-            <speak chara="_Bianka">……在这个被“漂流者”搅得有些时空错乱的世界里？</speak>
+            <speak chara="_Bianka">...「Archaeology」? Even though the sense of time in this place has been warped by drifters coming from many different eras?</speak>
             <show chara="biankaDressHesitateClose" position="right" opacity="0.8"/>
             <show chara="champoSmileClose" position="left"/>
-            <speak chara="_Champollion">噗，你不认为就是这样才更有趣吗？比如说这个雕像，它的服饰具有强烈的亚洲特色——</speak>
+            <speak chara="_Champollion">Hehe, that's what makes it so interesting. For instance, the model for this statue is wearing an Asian dress——</speak>
             <show chara="champoNormalClose" position="left"/>
-            <speak chara="_Champollion">——我们可以想象，在很久很久以前，可能有某个雕刻大师意外坠落到了这个世界。</speak>
+            <speak chara="_Champollion">——Which could mean a famous sculptor once came to this world.</speak>
             <show chara="champoSweatyClose" position="left"/>
-            <speak chara="_Champollion">虽然和周围的原住民语言不通，但他凭借着自己的手艺成功混到了饭吃，甚至还把自己家乡崇拜的偶像传播到了这里……</speak>
+            <speak chara="_Champollion">Maybe he failed to communicate with the natives but got a job thanks to his skill set and later made this stone statue out of nostalgia...</speak>
             <show chara="champoSmileClose" position="left"/>
-            <speak chara="_Champollion">……或者，坠落到这里的就是这座石雕所表现的人：她是一位睿智的导师、或者勇猛的战士，这里的人们为了纪念她而特地建起了雕像。</speak>
+            <speak chara="_Champollion">...Or perhaps the person the statue is based on came to this world herself. She might had been wise or brave, and somehow ended up being worshiped by the natives, who then made this statue to honor her.</speak>
             <show chara="champoSmileClose" position="left" opacity="0.8"/>
             <show chara="biankaDressSighClose" position="right"/>
-            <speak chara="_Bianka">……这两种说法几乎完全相反啊？</speak>
+            <speak chara="_Bianka">...Both stories are pretty different, aren't they?</speak>
             <show chara="biankaDressSighClose" position="right" opacity="0.8"/>
             <show chara="champoNormalClose" position="left"/>
-            <speak chara="_Champollion">你说的对。不过，它们都有可能发生过，不是吗？</speak>
+            <speak chara="_Champollion">That's right. But you can't truly deny any of the two, right?</speak>
             <show chara="champoNormalClose" position="left" opacity="0.8"/>
             <show chara="biankaDressSneerClose" position="right"/>
-            <speak chara="_Bianka">……但是真相却只有一个。</speak>
+            <speak chara="_Bianka">...But there can only be one truth.</speak>
             <show chara="biankaDressSneerClose" position="right" opacity="0.8"/>
             <show chara="champoSmileClose" position="left"/>
-            <speak chara="_Champollion">哈哈。真相就一定存在吗？</speak>
+            <speak chara="_Champollion">Haha, does the truth even exist in the first place?</speak>
             <show chara="champoSmileClose" position="left" opacity="0.8"/>
             <show chara="biankaDressBiteClose" position="right"/>
-            <speak chara="_Bianka">你这是什么意思？你不是还自称过“侦探”吗？侦探的格言不就是“真相只有一个”吗？！</speak>
+            <speak chara="_Bianka">What do you mean by that? I thought you would agree with me, considering you call yourself 「Detective」 and all that!?</speak>
             <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
             <show chara="champoSweatyClose" position="left"/>
-            <speak chara="_Champollion">嘛，不要生气，不要生气。</speak>
+            <speak chara="_Champollion">Calm down and listen to me.</speak>
             <show chara="champoNormalClose" position="left"/>
-            <speak chara="_Champollion">侦探的确可以认为“真相只有一个”——因为从各种意义上讲，事件的发生距离他并不遥远。</speak>
+            <speak chara="_Champollion">I agree a detective should believe 「there can only be one truth」—— The incidents a detective is put on are of that nature.</speak>
             <show chara="champoSmileClose" position="left"/>
-            <speak chara="_Champollion">但是让我们假设一个考古学家经常面对的情况。有一个生活在很久很久以前的古人——</speak>
+            <speak chara="_Champollion">But put yourself on the shoes of an archaeologist. Imagine a person who lived a long time ago——</speak>
             <show chara="champoSmileClose" position="left"/>
-            <speak chara="_Champollion">——嗯，我们不妨假设这个人叫做“亚当”吧。我们的爷爷奶奶们好像都这样称呼自己的远古祖先。</speak>
+            <speak chara="_Champollion">——For convenience we'll call him 「Adam」. That's what our ancestors used to call their precursor.</speak>
             <show chara="champoNormalClose" position="left"/>
-            <speak chara="_Champollion">那么我要提问了：</speak>
+            <speak chara="_Champollion">Now here's a question for you.</speak>
             <show chara="champoSmileClose" position="left"/>
-            <speak chara="_Champollion">“亚当”这个人生过几个孩子？有几个兄弟？喜欢吃什么？喜欢玩什么？</speak>
+            <speak chara="_Champollion">How many children 「Adam」 had? Did he have any siblings? What was his favorite food? His hobbies?</speak>
             <show chara="champoSmileClose" position="left" opacity="0.8"/>
             <show chara="biankaDressSighClose" position="right"/>
-            <speak chara="_Bianka">喂喂，这个人我又不认识，你问我、我也没法回答啊？！</speak>
+            <speak chara="_Bianka">There is no way I could answer, I don't know anything about him at all.</speak>
             <show chara="biankaDressSighClose" position="right" opacity="0.8"/>
             <show chara="champoNormalClose" position="left"/>
-            <speak chara="_Champollion">没错。你说得很对。因为我们完全不了解这个“亚当”，没有关于他的任何信息，所以所有那些问题我们都无法回答。</speak>
+            <speak chara="_Champollion">That's right. You don't know 「Adam」, and there is no information about him so you can't answer.</speak>
             <show chara="champoColdClose" position="left"/>
-            <speak chara="_Champollion">对于我们而言，亚当有几个孩子、有几个兄弟、喜欢吃什么、喜欢玩什么——这些都是“湮灭的真相”。已经无从得知答案的东西。</speak>
+            <speak chara="_Champollion">How many children or siblings he had, the food he liked and his hobbies—— Are all a 「buried truth」 to us.</speak>
             <show chara="champoColdClose" position="left"/>
-            <speak chara="_Champollion">世界上不是什么问题都会有答案的。</speak>
+            <speak chara="_Champollion">There are no answers for every question in this world.</speak>
             <show chara="champoNormalClose" position="left"/>
-            <speak chara="_Champollion">想象一下，历史上也许诞生过数千亿人：他们中的绝大多数，都像这个“亚当”一样不为我们所知。</speak>
+            <speak chara="_Champollion">Try imagining it. There have been hundreds of billions of people throughout history, and just like our 「Adam」, we don't know anything about them.</speak>
             <show chara="champoNormalClose" position="left"/>
-            <speak chara="_Champollion">而那些业已湮灭、我们无从得知答案的“真相”——它究竟算是存在呢，还是不存在呢？</speak>
+            <speak chara="_Champollion">Maybe that buried truth existed, or maybe it didn't.</speak>
             <show chara="champoNormalClose" position="left" opacity="0.8"/>
             <show chara="biankaDressBiteClose" position="right"/>
-            <speak chara="_Bianka">这……它当然还是存在的呀！只不过我们没有办法知道了而已！</speak>
+            <speak chara="_Bianka">But... it obviously existed! We just have no way to know it.</speak>
             <show chara="biankaDressBiteClose" position="right" opacity="0.8"/>
             <show chara="champoSmileClose" position="left"/>
-            <speak chara="_Champollion">嗯，你这样说没有错。不过，事实上你的结论完全可以换一种说法——</speak>
+            <speak chara="_Champollion">You're not wrong about that, but hear me out——</speak>
             <show chara="champoNormalClose" position="left"/>
-            <speak chara="_Champollion">——“过去的真相存在于过去是必然的，过去的真相存在于现在是偶然的。”</speak>
+            <speak chara="_Champollion">——「It's inevitable that the truth of the past exists in the past. It's a coincidence that the truth of the past exists in the present.」</speak>
             <show chara="champoColdClose" position="left"/>
-            <speak chara="_Champollion">我们每个人都生活在现代，而不是过去。对于过去的事实，我们偶尔可以“推理”，有时能够“推测”。</speak>
+            <speak chara="_Champollion">We live in the 「present」, not the past. When it comes to the truth of the past we can only make 「deductions」 or 「guesses」 at best.</speak>
             <show chara="champoNormalClose" position="left"/>
-            <speak chara="_Champollion">而那些让我们连“推测”都无从下手的东西，对于我来说，和“不存在”是没有区别的。</speak>
+            <speak chara="_Champollion">And personally, things that I can't even begin to 「deduct」 might as well 「not exist」.</speak>
             <show chara="champoNormalClose" position="left" opacity="0.8"/>
             <show chara="biankaDressShoutClose" position="right"/>
-            <speak chara="_Bianka">这、这也太——</speak>
+            <speak chara="_Bianka">B-But that's too——</speak>
             <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
             <show chara="shakesCasualNormalClose" position="left"/>
-            <speak chara="_Shakespeare">不过啊，对我这个剧作家来说——</speak>
+            <speak chara="_Shakespeare">If you want the opinion of a playwright——</speak>
             <show chara="shakesCasualQuestionClose" position="left"/>
-            <speak chara="_Shakespeare">——这个世界上最残忍的事情并不是“真相”湮没无闻，而是替代它的“故事”了无新意。</speak>
+            <speak chara="_Shakespeare">——The cruelest thing in the world is not the fact that the truth is 「buried」, but that the 「story」 born from it is incredibly boring.</speak>
             <show chara="shakesCasualLaughClose" position="left"/>
-            <speak chara="_Shakespeare">走吧，让我们看看这串脚印带给我们的是“有趣”还是“无聊”！</speak>
+            <speak chara="_Shakespeare">So let's go. Let's see if these footprints lead us to something 「interesting」 or something 「boring」!</speak>
             <goto goto="90" clockwise="1"/>
         </scene>
         <scene id="90" background="black">
             <bgm src="01_21_1-second-of-silence.mp3" status="start"></bgm>
             <sound src="08_17_gun.mp3"/>
             <shake position="all" time="250"></shake>
-            <speak chara="_SomeOneTalking">胆敢跟踪第三近卫军的家伙！你们被包围了！举起手来！</speak>
+            <speak chara="_SomeOneTalking">Listen, fools who tried to sneak up on the 3rd Battalion! You're surrounded! Put your hands up!</speak>
             <goto goto="100" change="0"/>
         </scene>
         <scene id="100" background="mountCuracao.jpg">
             <bgm src="legion.mp3" status="start"></bgm>
             <show chara="soldierGarcilasoClose" position="left"/>
-            <speak chara="_incaSoldierGarcilasoNoName">举起手来！配合检查！我们要进行搜身！</speak>
+            <speak chara="_incaSoldierGarcilasoNoName">Stay still and do as we say! We'll perform a body check on you!</speak>
             <show chara="soldierGarcilasoClose" position="left" opacity="0.8"/>
             <show chara="biankaDressSighClose" position="right"/>
-            <speak chara="_Bianka">哈？我们A级女武神，凭什么要接受你们搜身？</speak>
+            <speak chara="_Bianka">I'm a Rank A Valkyrie, why do I have to go through a body check?</speak>
             <show chara="biankaDressShoutClose" position="right"/>
-            <speak chara="_Bianka">——什么“第三近卫军”，先讲清楚你们是什么国家的人再说吧！</speak>
+            <speak chara="_Bianka">——You called yourself 「3rd Battalion」, didn't you? From which country? Identify yourself first!</speak>
             <show chara="biankaDressShoutClose" position="right" opacity="0.8"/>
             <show chara="soldierDeLaVegaClose" position="left"/>
-            <speak chara="_incaSoldierDeLaVegaNoName">不、不许动！配合检查！</speak>
+            <speak chara="_incaSoldierDeLaVegaNoName">D-Don't move! Stay still!</speak>
             <show chara="soldierDeLaVegaClose" position="left" opacity="0.8"/>
             <show chara="biankaDressSneerClose" position="right"/>
-            <speak chara="_Bianka">呵，你们以为自己躲在铁罐头里就很强吗？</speak>
+            <speak chara="_Bianka">Hmph. Who do you think you are, coward hiding himself behind a full body armor.</speak>
             <show chara="biankaDressShoutClose" position="right"/>
-            <speak chara="_Bianka">很好，小幽，我们给他们点颜色看看！</speak>
+            <speak chara="_Bianka">Very well. Du, teach them a lesson!</speak>
             <hide position="left"></hide>
             <hide position="right"></hide>
             <show chara="rolandArmorHelmetClose" position="center"/>
-            <speak chara="_rolandIncaNoName">且慢！</speak>
-            <speak chara="_rolandIncaNoName">加西拉索、德拉维加，你们先退下。</speak>
+            <speak chara="_rolandIncaNoName">Wait!</speak>
+            <speak chara="_rolandIncaNoName">Garcilaso, De La Vega, stand down.</speak>
             <hide position="center"></hide>
             <show chara="soldierDeLaVegaClose" position="left"/>
-            <speak chara="_incaSoldierDeLaVegaNoName">呃……是。</speak>
+            <speak chara="_incaSoldierDeLaVegaNoName">U-Ugh.</speak>
             <show chara="soldierDeLaVegaClose" position="left" opacity="0.8"/>
             <show chara="soldierGarcilasoClose" position="right"/>
-            <speak chara="_incaSoldierGarcilasoNoName">……遵命。</speak>
+            <speak chara="_incaSoldierGarcilasoNoName">...Roger that.</speak>
             <hide position="left"></hide>
             <hide position="right"></hide>
             <show chara="rolandArmorHelmetClose" position="center"/>
-            <speak chara="_rolandIncaNoName">各位是自称“女武神”吗？</speak>
+            <speak chara="_rolandIncaNoName">You called yourself a 「Valkyrie」, didn't you?</speak>
             <show chara="rolandArmorHelmetClose" position="center"/>
-            <speak chara="_rolandIncaNoName">应该不是……神话里的那个“女武神”吧？</speak>
-            <speak chara="_SwordDurandalQ">（等等，这个说话的声音，还有身体的红外线信号——）</speak>
+            <speak chara="_rolandIncaNoName">You're... the 「Valkyrie」 often mentioned in many myths and legends?</speak>
+            <speak chara="_SwordDurandalQ">(Wait... that voice and infrared signal coming from that soldier...)</speak>
             <shake position="all" time="250"></shake>
-            <speak chara="_SwordDurandalQ">罗兰大人？你是罗兰大人对吧？</speak>
-            <speak chara="_Bianka">……啥？</speak>
+            <speak chara="_SwordDurandalQ">Roland-sama? Is that you, Roland?</speak>
+            <speak chara="_Bianka">Huh?</speak>
             <goto goto="110" change="0"/>
         </scene>
         <scene id="110" background="CG19-2.jpg">
             <bgm src="peerGynt.mp3" status="start"></bgm>
-            <speak chara="_rolandIncaNoName">……</speak>
-            <speak chara="_rolandIncaNoName">不错，我是罗兰·印卡。印卡共和国第三近卫军教导团团长。</speak>
-            <speak chara="_Roland">你这把会说话的剑……又姓甚名谁呢？</speak>
+            <speak chara="_rolandIncaNoName">.....</speak>
+            <speak chara="_rolandIncaNoName">That's right. I'm Roland Inca, General of the 3rd Battalion of the Inca Republic.</speak>
+            <speak chara="_Roland">What's your name, talking sword?</speak>
             <goto goto="120" change="0"/>
         </scene>
         <scene id="120" background="mountCuracao.jpg">
             <bgm src="peerGynt.mp3" status="continue"></bgm>
             <show chara="durandalClose" position="left"/>
-            <speak chara="_SwordDurandalQ">罗兰大人……不记得我了吗？</speak>
+            <speak chara="_SwordDurandalQ">Roland-sama... you don't remember me?</speak>
             <show chara="durandalOpen" position="left"/>
             <shake position="left" time="250"></shake>
-            <speak chara="_SwordDurandalQ">我曾经是您的专属剑刃啊！“幽兰黛尔”！</speak>
+            <speak chara="_SwordDurandalQ">I'm your sword—— 「Durandal」!</speak>
             <show chara="durandalOpen" position="left" opacity="0.8"/>
             <show chara="rolandArmorEmbarrassClose" position="right"/>
-            <speak chara="_Roland">……不记得。你是不是把其他同名的什么人和我给弄混了？</speak>
+            <speak chara="_Roland">...I don't recall anyone by that name. Are you perhaps mistaking me for someone else with the same name?</speak>
             <show chara="rolandArmorEmbarrassClose" position="right" opacity="0.8"/>
             <show chara="durandalOutstretchOpen" position="left"/>
-            <speak chara="_SwordDurandalQ">这、这怎么可能？就算被拆解成破铜烂铁我也——</speak>
+            <speak chara="_SwordDurandalQ">T-That can't be. Even if I were to become a piece of scrap metal you would recognize me...</speak>
             <show chara="shakesCasualLaughClose" position="left"/>
-            <speak chara="_Shakespeare">不好意思，如果我们的自律型战斗机械让您产生了困扰，那么我代表它向您道歉。</speak>
+            <speak chara="_Shakespeare">Apologies, it seems one of my crew members is bothering you. Let me apologize in their instead.</speak>
             <show chara="shakesCasualNormalClose" position="left"/>
-            <speak chara="_Shakespeare">（丽塔小姐，翻译就麻烦你了。）</speak>
+            <speak chara="_Shakespeare">(I'll be counting on you to translate, Rita-san.)</speak>
             <show chara="shakesCasualNormalClose" position="left" opacity="0.8"/>
             <show chara="ritaVestSquintClose" position="mostright"/>
-            <speak chara="_Rita">（没问题，船长大人。）</speak>
+            <speak chara="_Rita">(Leave it to me, Captain-sama.)</speak>
             <show chara="ritaVestSquintClose" position="mostright" opacity="0.8"/>
             <show chara="shakesCasualConfidentClose" position="left"/>
-            <speak chara="_Shakespeare">我是“喀里多尼亚号”的船长，玛丽安·威廉·莎士比亚。这几位都是我的船员。</speak>
+            <speak chara="_Shakespeare">I am Marian William Shakespeare, Captain of the 「Caledonia」. These are my sailors.</speak>
             <show chara="shakesCasualNormalClose" position="left"/>
-            <speak chara="_Shakespeare">我们目前正在一次环球航行的征途之中——其目的是为了搜集足够的资源，来对抗一位吞噬了欧洲大陆的暴君。</speak>
+            <speak chara="_Shakespeare">We're in the middle of a journey across the world—— To collect the artifacts needed to take down the tyrant who has taken over the Old World.</speak>
             <show chara="shakesCasualLaughClose" position="left"/>
-            <speak chara="_Shakespeare">——你们既然也讲着原本属于“欧洲”的语言，那想必对于那块大陆还是有所了解的吧？</speak>
+            <speak chara="_Shakespeare">——If you speak the language of the 「Old World」 you most likely know about it.</speak>
             <show chara="shakesCasualLaughClose" position="left" opacity="0.8"/>
             <show chara="rolandArmorQuestionClose" position="right"/>
-            <speak chara="_Roland">“欧洲”……</speak>
+            <speak chara="_Roland">「Old World」...</speak>
             <show chara="rolandArmorNormalClose" position="right"/>
-            <speak chara="_Roland">啊，你是说大地对面的“欧罗巴大陆”吗？</speak>
+            <speak chara="_Roland">Ah, you mean the 「continent of Europe」 across the sea.</speak>
             <show chara="rolandArmorSmileClose" position="right"/>
-            <speak chara="_Roland">原来如此，你们是想依靠航海的方式，从背后给敌人致命一击吧？</speak>
+            <speak chara="_Roland">I see, you intend to perform a sneak attack from behind?</speak>
             <show chara="rolandArmorSmileClose" position="right" opacity="0.8"/>
             <show chara="biankaDressShockClose" position="left"/>
-            <speak chara="_Bianka">……背后？航海难道不是从正面接近欧洲的唯一方式吗？</speak>
+            <speak chara="_Bianka">From behind? Isn't the only way to reach Europe by ship?</speak>
             <show chara="biankaDressShockClose" position="left" opacity="0.8"/>
             <show chara="rolandArmorEmbarrassClose" position="right"/>
-            <speak chara="_Roland">……</speak>
+            <speak chara="_Roland">.....</speak>
             <show chara="rolandArmorLaughClose" position="right"/>
-            <speak chara="_Roland">怎么……难道你们……没有听说过“瓦卡隧道”？</speak>
+            <speak chara="_Roland">Could it be you guys... don't know about the 「Huaca Tunnel」?</speak>
             <show chara="rolandArmorLaughClose" position="right" opacity="0.8"/>
             <show chara="biankaDressSighClose" position="left"/>
-            <speak chara="_Bianka">……没有啊。那是什么？</speak>
+            <speak chara="_Bianka">...What's that?</speak>
             <show chara="biankaDressSighClose" position="left" opacity="0.8"/>
             <show chara="rolandArmorLaughClose" position="right"/>
-            <speak chara="_Roland">啊哈哈……你们还真的是来自很遥远的地方啊……</speak>
+            <speak chara="_Roland">Ahaha... you lot really came from far away...</speak>
             <show chara="rolandArmorEmbarrassClose" position="right"/>
-            <speak chara="_Roland">……抱歉，一不小心就笑出来了。见谅见谅。</speak>
+            <speak chara="_Roland">...I'm sorry, I didn't mean to laugh.</speak>
             <show chara="rolandArmorSmileClose" position="right"/>
-            <speak chara="_Roland">简单来说，那是一组穿过地心、通向大地另一面的通道。</speak>
+            <speak chara="_Roland">In simpler terms, it's a path that goes through the center of the Earth and connects both sides of the planet.</speak>
             <show chara="rolandArmorSeriousClose" position="right"/>
-            <speak chara="_Roland">也是我们自共和国成立以来，每时每刻都必须坚守的要塞。</speak>
+            <speak chara="_Roland">It's also a fortress that's been protected since the foundation of our republic.</speak>
             <end post="U2FsdGVkX19FVR4ZxHuHZIEkijw4"/>
         </scene>
     </story>

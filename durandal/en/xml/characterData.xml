@@ -565,7 +565,7 @@
         <character name="Citizen (Woman)" color="#d2c7c1" id="vilagerWomanSmileClose" src="07_19_vilagerWomanSmileClose.png"/>
         <character name="Citizen (Woman)" color="#d2c7c1" id="_citizenChichenItzaWoman" src=""/>
         <character name="Spectator" color="#d2c7c1" id="_citizenChichenItzaFan" src=""/>
-        <character name="新雇佣的水手" color="#a4aca4" id="_Officer3PNoName" src=""/>
+        <character name="Newly Hired Sailor" color="#a4aca4" id="_Officer3PNoName" src=""/>
         <character name="Ketuya" color="#a4aca4" id="_Officer3PKetuya" src=""/>
         <character name="Ketuya" color="#a4aca4" id="Officer3PClose" src="08_17_Officer3PClose.png"/>
         <character name="Armed Officer" color="#99b6a7" id="_incaSoldierGarcilasoNoName" src=""/>
