@@ -55,7 +55,7 @@
             <show chara="einNormalCloseNoName" position="center"/>
             <sound src="cloth.mp3"/>
             <shake position="all" time="250"></shake>
-            <speak chara="einNormalCloseNoName">Greenwich Mean Time, October 20, 22:57 — You've worked hard, little lab rat.</speak>
+            <speak chara="einNormalCloseNoName">Greenwich Mean Time, October 20, 22:57 — Thank you for your hard work, little lab rat.</speak>
             <speak chara="5">Ah!</speak>
             <text>Before I could even prepare myself, the hood on my head is suddenly whisked away with a 'swoosh'.</text>
             <text>The drawstring elastic near the mouth of the hood had scraped violently against my nose. Now it stings.</text>
