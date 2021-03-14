@@ -70,7 +70,7 @@
         <scene id="20" background="schoolNight1.jpg" bgm="no">
             <bgm src="horror.mp3" status="continue"></bgm>
             <sound src="walk slow.mp3"/>
-            <text>It's a university campus. Harsh light from street lamps scatter off the hard bitumen, casting eerie shadows among the bushes. I see pale lighting from a small building up ahead, and cannot help but think back to those terrible experiments.</text>
+            <text>A university campus. Harsh light from street lamps scatter off the bitumen, casting eerie shadows. I see pale lighting from a building up ahead, and it reminds of those terrible experiments.</text>
             <text>As I walk, unable to stop, I begin to imagine myself as that desperate, pathetic figure fleeing for my life.</text>
             <text>Fingers chewed raw.</text>
             <text>Clothes torn to shreds.</text>
