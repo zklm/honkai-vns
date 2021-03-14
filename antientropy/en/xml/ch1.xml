@@ -83,7 +83,7 @@
             <text remark="next">"as each of them laments his second death — "</text>
             <remark post="U2FsdGVkX19kizjVUiE6CvKADa98">
                 <p class="article-text-h">Note:</p>
-                <p class="article-text">The quotation recalled by our protagonist is from Dante's "Divine Comedy", Mandelbaum translation, Inferno Canto I.) </p>
+                <p class="article-text">The quotation recalled by our protagonist is from Dante's "Divine Comedy" (Mandelbaum translation, Inferno Canto I.) </p>
             </remark>
             <goto goto="30" change="0"/>
         </scene>
@@ -138,11 +138,11 @@
             <text>Once again, I'll need to put on a lot of electrodes — perhaps a blood draw, or even a bone marrow biopsy. Well, I'm used to it all by now.</text>
             <show chara="einSeriousAhCloseNoName" position="center"/>
             <speak chara="einSeriousAhClose">No, no need to get up. Just stay put.</speak>
-            <speak chara="einSeriousAhClose">Stick your foot out. Show me your sole.</speak>
+            <speak chara="einSeriousAhClose">Show me your soul.</speak>
             <speak chara="5">Oh …</speak>
             <bgm src="lab.mp3" status="stop"></bgm>
             <shake position="all" time="250"></shake>
-            <speak chara="5">… Eh? S-Sole??</speak>
+            <speak chara="5">… Eh? S-Soul??</speak>
             <show chara="einSeriousAhCloseNoName" position="center"/>
             <speak chara="einSeriousAhClose">Take off your shoes and socks. I need to thoroughly examine your sole.</speak>
             <bgm src="lab.mp3" status="start"></bgm>
@@ -161,7 +161,7 @@
             <speak chara="einNormalClose">Indeed.</speak>
             <speak chara="5">… Huh?</speak>
             <show chara="einSmileClose" position="center"/>
-            <speak chara="einSmileClose">Seeing Welt so depressed, Dr Einstein decided that she'd tell a joke to lift his spirits.</speak>
+            <speak chara="einSmileClose">Seeing Welt so depressed, Dr Einstein decided she'd tell a joke to lift his spirits.</speak>
             <speak chara="5">…</speak>
             <text>What the hell is wrong with this "doctor"?</text>
             <show chara="einNormalClose" position="center"/>
