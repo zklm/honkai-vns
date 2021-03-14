@@ -70,12 +70,12 @@
         <scene id="20" background="schoolNight1.jpg" bgm="no">
             <bgm src="horror.mp3" status="continue"></bgm>
             <sound src="walk slow.mp3"/>
-            <text>This place seems to be a university campus. The harsh light of street lamps scatter off the hard bitumen, casting eerie shadows among the bushes. I see pale lighting from a small building ahead, and cannot help but be reminded of those inhumane experiments.</text>
+            <text>This place seems to be a university campus. The harsh light of street lamps scatter off the hard bitumen, casting eerie shadows among the bushes. I see pale lighting from a small building ahead, and cannot help but be reminded of those terrible experiments.</text>
             <text>As I walk, unable to stop, I begin to imagine myself as that desperate, pathetic figure fleeing for my life.</text>
             <text>Fingers chewed raw.</text>
             <text>Clothes torn to shreds.</text>
             <text>Hysterically screaming.</text>
-            <text>eliriously waving my hands about —</text>
+            <text>Deliriously waving my hands about —</text>
             <text>To be eventually shot down with a tranquiliser gun.</text>
             <text>Or worse.</text>
             <text remark="next">"Where you shall hear the howls of desperation，"</text>
