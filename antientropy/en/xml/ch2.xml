@@ -19,8 +19,8 @@
             <speak chara="teslaNoFace"> Okay okay hurry up get out and get used to your surroundings!</speak>
             <speak chara="teslaNoFace">Don't you dare come back before noon!</speak>
             <hide position="center"/>
-            <text>I don't know why, but even though she is also a member of Schicksal, the feeling of being so cruelly treated by this girl —</text>
-            <text>— It doesn't seem that unpleasant to me.</text>
+            <text>He can't fathon why, but even though she is also a member of Schicksal, the feeling of being so cruelly treated by this girl —</text>
+            <text>— It doesn't seem that unpleasant to him.</text>
             <speak chara="weltNoFace">Phew … Even now I'm having such mixed-up thoughts.</speak>
             <bgm src="serenity.mp3" status="start"></bgm>
             <text article="1">
@@ -287,10 +287,10 @@
             <text>From the Royal College of Music, to Princes Gardens, to the Science Museum, to the Natural History Museum …</text>
             <text>… She wouldn't be finding this all that enjoyable, would she?</text>
             <show chara="einSmileCoatClose-up" position="center"/>
-            <speak chara="einNoFace">`Ah. It seems like it's already been half a year since I've taken such a long walk.</speak>
+            <speak chara="einNoFace">Ah. It seems like it's already been half a year since I've taken such a long walk.</speak>
             <text>The girl lazily stretches, and speaks without looking back.</text>
             <speak chara="weltNoFace">… Work has been rather busy of late.</speak>
-            <text>The young man does some quick mental arithmetic, and realises that the pair had only walked a little over a kilometre.</text>
+            <text>The young man does some quick mental estimates, and realises that the pair had only walked a little over a kilometre.</text>
             <show chara="einNormalCoatClose-up" position="center"/>
             <sound src="Hah.mp3"/>
             <speak chara="einNoFace">Mm. Every day I work roughly three to four hours.</speak>
@@ -408,7 +408,7 @@
             <!-- ( ͡° ͜ʖ ͡°) -->
             <show chara="0einSlyVestClose-up" position="right" opacity="0.7"/>
             <show chara="weltNormalSweaterClose-up" position="left"/>
-            <speak chara="weltNoFace">Why does the way you put it make her seem like she is socially-inept for her age? …</speak>
+            <speak chara="weltNoFace">Why does the way you put it make her seem like she's socially-inept for her age? …</speak>
             <!--  情商负分 = "EQ score in the negatives." -->
             <show chara="0einFoolVestClose-up" position="right"/>
             <show chara="weltNormalSweaterClose-up" position="left" opacity="0.7"/>
@@ -471,7 +471,7 @@
             <hide position="right"/>
             <show chara="nokiaNoNameSmileClose" position="center"/>
             <text>Finn?</text>
-            <text>No wonder this guy wears only short sleeves in winter and speaks English with such a strange accent --- if he is from Finland, that is not surprising at all.</text>
+            <text>No wonder this guy wears only short sleeves in winter and speaks English with such a strange accent — if he is from Finland, that is not surprising at all.</text>
             <text>It is said that when the temperature reaches freezing point, they are still flipping summer sausages in the backyard —</text>
             <text>— Though that's probably just a joke from some newspaper.</text>
             <text>No … for such a frivolous man … can't say for certain …</text>
@@ -479,7 +479,7 @@
             <show chara="nokiaNoNameSmileClose" position="right"/>
             <show chara="einNormalCoatClose" position="left" opacity="0.7"/>
             <speak chara="nokiaNoNameNoFace">An urgent matter concerning Lab 42.</speak>
-            <text>The frivolous man pulls out an airmailed envelope from a folder.</text>
+            <text>The frivolous man pulls out an airmail envelope from a folder.</text>
             <show chara="nokiaNoNameSmileClose" position="right" opacity="0.7"/>
             <show chara="einNormalCoatClose" position="left"/>
             <speak chara="einNoFace">Understood.</speak>
@@ -538,8 +538,8 @@
             <text>What exactly happened?</text>
             <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
             <show chara="einSeriousCoatClose" position="center"/>
-            <speak chara="einNoFace">This person Schrödinger, she would never make trouble if there wasn't any.</speak>
-            <text>Einstein suddenly seems to understand something..</text>
+            <speak chara="einNoFace">This person Schrödinger, she would never cause trouble if there wasn't any.</speak>
+            <text>Einstein suddenly seems to understand something.</text>
             <speak chara="einNoFace">Finn, go now and arrange for a flight: we need to board the next plane to Billings —</speak>
             <shake position="center" time="250"></shake>
             <speak chara="einNoFace">Welt!</speak>
@@ -562,7 +562,7 @@
             <hide position="right"/>
             <show chara="weltSurpriseClose" position="center" opacity="0.7"/>
             <text>Ignoring the dumbstruck Welt, Einstein opens the front door of the lab, then bolts towards the corridor on the right side of the ground floor. </text>
-            <text>— Where there is nothing but a giant vault door.</text>
+            <text>— Where all that stands is a giant vault door.</text>
             <end post="U2FsdGVkX187oCnLTMJUa96nJWvK"/>
         </scene>
     </story>
