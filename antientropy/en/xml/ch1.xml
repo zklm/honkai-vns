@@ -38,8 +38,8 @@
             <text>And so I walk, for how long I do not know.</text>
             <text>My surroundings grow quieter and quieter. I vaguely hear the mournful hooting of owls.</text>
             <text>It feels …</text>
-            <text>… No, they're not planning to "dispose" of me, are they?</text>
-            <text>After all, I'm an important "specimen", so they wouldn't dare …</text>
+            <text>… No, they're not planning to “dispose” of me, are they?</text>
+            <text>After all, I'm an important “specimen”, so they wouldn't dare …</text>
             <text>Wait.</text>
             <sound src="write.mp3"/>
             <text>In front of me, it sounds like someone is writing or scribbling on something.</text>
@@ -78,12 +78,12 @@
             <text>Deliriously waving my hands about —</text>
             <text>To be eventually shot down with a tranquiliser gun.</text>
             <text>Or worse.</text>
-            <text remark="next">"Where you shall hear the howls of desperation，"</text>
-            <text remark="next">"and see the ancient spirits in their pain，"</text>
-            <text remark="next">"as each of them laments his second death — "</text>
+            <text remark="next">“Where you shall hear the howls of desperation,”</text>
+            <text remark="next">“and see the ancient spirits in their pain,”</text>
+            <text remark="next">“as each of them laments his second death — ”</text>
             <remark post="U2FsdGVkX19kizjVUiE6CvKADa98">
                 <p class="article-text-h">Note:</p>
-                <p class="article-text">The quotation recalled by our protagonist is from Dante's "Divine Comedy" (Mandelbaum translation, Inferno Canto I.) </p>
+                <p class="article-text">The quotation recalled by our protagonist is from Dante's “Divine Comedy” (Mandelbaum translation, Inferno Canto I.) </p>
             </remark>
             <goto goto="30" change="0"/>
         </scene>
@@ -114,7 +114,7 @@
             <speak chara="5">…</speak>
             <show chara="einSeriousAhCloseNoName" position="center"/>
             <speak chara="einSeriousAhCloseNoName">Ein-Stein.</speak>
-            <text>She suddenly and solemnly speaks in German. Ein … Stein … "One Stone"?</text>
+            <text>She suddenly and solemnly speaks in German. Ein … Stein … “One Stone”?</text>
             <show chara="einNormalClose" position="center"/>
             <speak chara="einNormalClose">Doctor, Einstein — Lieserl Albert Einstein.</speak>
             <text>She points to herself, and then to me.</text>
@@ -130,8 +130,8 @@
             <speak chara="einSmileClose">… Welt. W.E.L.T. </speak>
             <speak chara="5">Eh?</speak>
             <speak chara="einSmileClose">I feel this name is just right for you. </speak>
-            <speak chara="5">… Anything would do.</speak>
-            <text>"Ω" = "W". "Welt" = "World". Indeed, as an outcast of the world, to have such a name would be most amusing. </text>
+            <speak chara="5">… Any name would do.</speak>
+            <text>“Ω” = “W”. “Welt” = “World”. Indeed, as an outcast of the world, to have such a name would be most amusing. </text>
             <show chara="einNormalClose" position="center"/>
             <speak chara="einNormalClose">Now then, let's go through your physical checkup, Welt.</speak>
             <speak chara="5">… Okay. </speak>
@@ -154,7 +154,7 @@
             <show chara="einSmileClose" position="center"/>
             <speak chara="einSmileClose">— Just grab a toothbrush and brush you up a bit, that should do it.</speak>
             <speak chara="5">Wait …</speak>
-            <speak chara="5">… You mean, we can just calmly go to bed after that?!</speak>
+            <speak chara="5">… You mean, we can just calmly waltz off to bed after that?!</speak>
             <speak chara="einSmileClose">Correct. Your comprehension skills are remarkable.</speak>
             <speak chara="5">… That doesn't make any sense!</speak>
             <show chara="einNormalClose" position="center"/>
@@ -163,7 +163,7 @@
             <show chara="einSmileClose" position="center"/>
             <speak chara="einSmileClose">Seeing Welt so depressed, Dr Einstein decided she'd tell a joke to lift his spirits.</speak>
             <speak chara="5">…</speak>
-            <text>What the hell is wrong with this "doctor"?</text>
+            <text>What the hell is wrong with this “doctor”?</text>
             <show chara="einNormalClose" position="center"/>
             <speak chara="einNormalClose">You'll sleep in Room 105 over there.</speak>
             <text>The girl points down a corridor to the side. </text>
@@ -173,7 +173,7 @@
             <hide position="center"></hide>
             <bgm src="themeWelt.mp3" status="start"></bgm>
             <text>She walks away, without a single backward glance.</text>
-            <text>Leaving behind a "little lab rat", rooted to the floor, dumbfounded.</text>
+            <text>Leaving behind a “little lab rat”, rooted to the floor, dumbfounded.</text>
             <speak chara="5">…</speak>
             <goto goto="50"/>
         </scene>
@@ -183,90 +183,90 @@
                 <p class="article-text">…</p>
             </text>
             <text article="1">
-                <p class="article-text">被起名为“瓦尔特”的男子无法搞明白究竟发生了什么.自他有记忆以来，还没有人这么没头没脑地给过他莫名其妙的自由—虽然这个“有记忆以来”也不是多么久远的事情.</p>
-                <p class="article-text">三年前的这个季节，他从一片混沌中睁开了眼睛.陌生的男男女女打量着他、询问着各种走失儿童才会面对的问题.</p>
+                <p class="article-text">The man now named “Welt” couldn't understand what just happened. Ever since the day he started forming memories again, nobody else had so casually given him such a baffling degree of freedom — even though “the day he started remembering" was not that long ago.</p>
+                <p class="article-text">It was this same season, three years ago, when he first opened his eyes to a scene of chaos. Unfamiliar men and women were inspecting him, asking him all sorts of questions, questions that one would only ask a lost child..</p>
             </text>
             <text article="1">
-                <p class="article-text">“你叫什么名字?”</p>
+                <p class="article-text">“What is your name?”</p>
                 <br />
-                <p class="article-text">“以前住在哪里?”</p>
+                <p class="article-text">“Where do you live?”</p>
                 <br />
-                <p class="article-text">“你是哪国人?”</p>
+                <p class="article-text">“What is your nationality?”</p>
             </text>
             <text article="1">
                 <p class="article-text">“…”</p>
                 <br />
-                <p class="article-text">这种感觉很奇怪—你明明知道答案，但就是无法把它们在大脑中“凝聚”起来.仿佛联络记忆之海的神经全都被烧却了一般.</p>
+                <p class="article-text">It was a strange feeling — you undoubtedly knew all the answers, yet you could not “congeal” or solidify those answers in your brain. It was as if all the neurons that wove the sea of your memories were fried.</p>
             </text>
             <text article="1">
-                <p class="article-text">“我不知道.”</p>
-                <p class="article-text">这是青年唯一能给出的答案.</p>
-                <p class="article-text">自己还记得如何说话—他不知道自己是不是应该为此而庆幸一番.德语、英语、俄语、拉丁语…甚至还有日语和汉语.他不明白自己为什么会懂这么多门语言.</p>
+                <p class="article-text">“I don't know”</p>
+                <p class="article-text">This was the one response that the young man could muster.</p>
+                <p class="article-text">He could still remember how to speak — yet he didn't know whether this was something he should be grateful for.  German, English, Russian, Latin …  even Japanese and Chinese. He couldn't remember how he came to understand so many languages.</p>
             </text>
             <text article="1">
-                <p class="article-text">“我是谁?”</p>
+                <p class="article-text">“Who am I?”</p>
                 <br />
-                <p class="article-text">他很自然地反问出了这样的问题.</p>
+                <p class="article-text">He quite naturally retorted with such a question.</p>
             </text>
             <text article="1">
-                <p class="article-text">“我们也不知道.”</p>
+                <p class="article-text">“We don't know either”</p>
                 <br />
-                <p class="article-text">对方是这么回答的.然后就开始了滔滔不绝的自说自话.</p>
+                <p class="article-text">The others replied. Then they unleashed a torrent of conversation, though they might as well have been speaking to themselves.</p>
             </text>
             <text article="1">
-                <p class="article-text">天命.这是一个历史悠久的秘密组织.是世界真正的掌控者、人类的救星.</p>
-                <p class="article-text">崩坏.这是一种科学还不能完美解释的灾害.自有文明以来，它就污染着人类世界，将和平的生物转变为恐怖的魔鬼.这些被称为“崩坏兽”的怪物有着塑胶一般的诡异皮肤，令人不寒而栗.</p>
-                <p class="article-text">自己.失忆的自己是一场崩坏事件中唯一的幸存者.地点在柏林，位于某个不认识的大楼中.</p>
-                <p class="article-text">身体.这具幸存之躯上隐藏着巨大的秘密—为了拯救世界上更多的人，接受他们安排的人体实验是唯一正确的选择.</p>
+                <p class="article-text">“Schicksal”. Our “Destiny”. A secret organisation with a long history. The true masters of the world, the saviours of humanity.</p>
+                <p class="article-text">“Honkai”. The “Collapse”. The one calamity that science has yet to explain completely. Since the dawn of civilisation, it has polluted the human world, transforming peaceful creatures into terrifying demons. These monsters or “Honkai Beasts”, in their alien plastic flesh, strike fear into us all.</p>
+                <p class="article-text">“Myself”. I, who lost my memory, was the sole survivor of a Honkai event. Its location was Berlin, where it had originated from some  multi-storeyed building.</p>
+                <p class="article-text">“My body”. Within this fortunate body of mine hides a great secret — for the sake of saving more people, I must accept their plans for experimentation on my body: it is my only option.</p>
             </text>
             <text article="1">
-                <p class="article-text">一个月.又一个月.再一个月.</p>
+                <p class="article-text">One month. Another month. Month after month.</p>
                 <br />
-                <p class="article-text">一年.又一年.再一年.</p>
+                <p class="article-text">One year. Another year. Year after year.</p>
                 <br />
-                <p class="article-text">编号为“Ω1”的青年被带到一个又一个的实验室里，重复着一模一样的事情.</p>
+                <p class="article-text">The young man, code-named “Ω1”, was taken from one laboratory to another, to repeat the exact same thing, over and over again.</p>
             </text>
             <text article="1">
-                <p class="article-text">忍受着难以忍受的痛苦.</p>
+                <p class="article-text">To bear the unbearable, suffer the insufferable.</p>
             </text>
             <text article="1">
-                <p class="article-text">“请配合我们.”</p>
+                <p class="article-text">“Please cooperate with us.”</p>
                 <br />
-                <p class="article-text">“为人类考虑一下吧.”</p>
+                <p class="article-text">“Please consider it for the sake of humanity.”</p>
                 <br />
-                <p class="article-text">“这是无可避免的副作用.”</p>
+                <p class="article-text">“These are unavoidable side effects.”</p>
             </text>
             <text article="1">
-                <p class="article-text">一群疯子科学家.拯救人类什么的，肯定是骗人的.</p>
-                <p class="article-text">不是说我是幸存者吗?那为什么还要凭空再遭受另一种不幸?</p>
-                <p class="article-text">你们口口声声强调的“人类”又是谁呢?</p>
+                <p class="article-text">A flock of lunatic scientists. Saving humanity and what not: it's all just a load of hogwash.</p>
+                <p class="article-text">Did you not say that I am a fortunate survivor? Then why do I have to needlessly suffer through such manner of misfortune?</p>
+                <p class="article-text">The “humanity” that you repeatedly emphasise, who are they really? Where is your humanity?</p>
             </text>
             <text article="1">
-                <p class="article-text">有时候真的很想一死了之.</p>
+                <p class="article-text">There were moments where I really wanted to just die and be done with it.</p>
                 <br />
                 <p class="article-text">…</p>
                 <br />
-                <p class="article-text">如果不是还有个话痨在惦记着自己.</p>
+                <p class="article-text">If it wasn't for that chatterbox who kept checking in on me.</p>
             </text>
             <goto goto="60" change="0"/>
         </scene>
         <scene id="60" background="letter.jpg" bgm="no">
             <bgm src="themeWelt.mp3" status="continue"></bgm>
             <text article="1">
-                <p class="article-text-h">Ω：</p>
-                <p class="article-text">十月好.不知不觉，这已经是我写给你的第二十二封信了—关于圣女的故事上次就已经讲完了，在我找到新的谈资之前，咱们还是聊点身边的事情吧.</p>
-                <p class="article-text">九月的那个糟糕事故我也听说了，我代他们向你道歉.正好有新的实验室希望和你合作，我估计你很快就可以换个地方了.也许情况会比之前所有的实验室都好也说不定—因为我听说新的负责人是位个性稳重的女士.</p>
-                <p class="article-text">不过，出于天命组织的立场，我也必须转告你：你接受的实验，都是为了让这个星球上名为“智人”的物种能够存续下去，所必须的苦难.世界总会对某些人特别不公平，这也是没有办法的事情.</p>
-                <p class="article-text">柏林的灾难已经过去三年了.城市已经开始了重建，那一夜的恐怖，人们终究会渐渐忘记.</p>
-                <p class="article-text">然而我们都知道，邪恶的力量正在时空的夹缝中慢慢积蓄.它当初放过了你，但并没有放过其他人.如果我们真能够通晓这其中的原理，那么“智人”就能名副其实地用自己的智慧征服这个自然界—没有人再会去过担惊受怕或者自欺欺人的日子.</p>
-                <p class="article-text">是的，这对你不公平；而且最近的一系列事情尤其对你不公平—但即使是我，也希望你能理解并原谅这一切.全人类的命运，某种意义上，也许都维系在你一个人的身上.</p>
+                <p class="article-text-h">To Ω:</p>
+                <p class="article-text">A good October to you. Time flies: this would already be my 22nd letter to you — last time I had finished telling you the story of the Lady Saint. But before I seek new stories to regale, let us first discuss what is happening around us.</p>
+                <p class="article-text">I have already heard of the terrible incident in September, and I apologise on their behalf. Well, it just so happens that there is a new laboratory: I anticipate you will be able to transfer to it soon. Whether the circumstances will be more favourable than your previous lab, that I cannot say for certain — because from what I hear, the new person in charge is a lady with a rather “earnest” personality.</p>
+                <p class="article-text">However, I must inform you from the standpoint of Schicksal: all the experiments you've been through, have been for the continued survival of a certain species on this planet, one so-called “Homo sapiens” — hence your continued and necessary suffering. The world will always treat some people unfairly, and this is something none of us can really change.</p>
+                <p class="article-text">It has already been three years since the disaster in Berlin. The city has already begun its reconstruction. The people will slowly forget the horrors of that night.</p>
+                <p class="article-text">Yet we all know that, at this present moment, a sinister power continues to grow and fester within the rift of space-time. It spared you back then, but it did not spare the others. If we are able to truly fathom the logic behind this phenomenon, then we “Homo sapiens” will be able to live up to our name, to use our sapience to conquer the natural world — then no one will ever need to spend another day living in fear or delusion, deceiving themselves and others.</p>
+                <p class="article-text">Yes, this is most unfair to you; in fact the most recent events have been particularly unjust to you. But if only for my sake, I hope you can understand and forgive everything. The fate of all humanity, in a certain sense, rests upon your shoulders.</p>
                 <br />
                 <p class="article-text-h">P.S.</p>
-                <p class="article-text">关于你失忆前的经历，据我所知，有关部门应该还在调查—但如你所知，事情已经过去了三年多，有什么结果的可能性只会越来越小.不过我是不相信什么“崩坏之子”的说法的.你连律者都算不上，不是么?</p>
-                <p class="article-text">也许新技术的出现，会让整个事情带来出乎所有人意料的转机吧…谁知道呢.那所新的实验室真的不错，你过去以后应该会想主动配合她们的—相信我.</p>
+                <p class="article-text"> Concerning your background before your memory loss: as far as I know, the relevant department should still be looking into this — but as you may already recognise, it has been more than three years since the incident, and the possibility of getting any results will only become slimmer with time. But I don't believe that so-called “Child of Honkai” Theory. You can't be a Herrscher, right?</p>
+                <p class="article-text">Perhaps the arrival of new technology will bring about some unexpected turnaround of the whole situation … who knows? The new laboratory really isn't that bad; in fact, I believe when you get there you'll be quite willing to cooperate with them — trust me.</p>
                 <br />
-                <p class="article-text-s">你的老朋友，</p>
-                <p class="article-text-s">小丑阿尔法</p>
+                <p class="article-text-s">Your old pal，</p>
+                <p class="article-text-s">Clown Alpha</p>
                 <p class="article-text-s">1955.10.2.</p>
             </text>
             <goto goto="70"/>
