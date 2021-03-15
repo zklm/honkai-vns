@@ -354,7 +354,7 @@
             <text>As she reaches mid-sentence, the eyes of the twin-tailed girl wander and fall upon the empty plate.</text>
             <text> Quietly it sits on the only desk in the room.</text>
             <hide position="right"></hide>
-            <text>Twin-tails closes her eyes. With utmost concentration she brings her nose towards it, and sniffs.</text>
+            <text>Twintails closes her eyes. With utmost concentration she brings her nose towards it, and sniffs.</text>
             <show chara="teslaAngryCloseNoName" position="right"/>
             <shake position="right" time="250"></shake>
             <speak chara="teslaAngryCloseNoName">Oi! You … y-y-you didn't eat something made of truffles, did you?</speak>
@@ -487,7 +487,7 @@
             <bgm src="lab.mp3" status="continue"></bgm>
             <speak chara="einNoFace">Good morning, Dr Tesla — how was today's breakfast?</speak>
             <speak chara="teslaNoFace">Good morning, Eins — Hmph.</speak>
-            <text>Tugging at Welt's collar, Twin-tails pouts and tuts disapprovingly.</text>
+            <text>Tugging at Welt's collar, Twintails pouts and tuts disapprovingly.</text>
             <speak chara="teslaNoFace">… You vile bitch, how can you pretend everything is fine?</speak>
             <speak chara="einNoFace">It seems the sausage quiche suits your appetite. That is most wonderful indeed.</speak>
             <text>Despite being rudely berated, the girl with the mop-shaped hair continues to recline peacefully on the sofa, and with an air of indifference bites into a pastry sandwich.</text>
