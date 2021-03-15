@@ -4,9 +4,15 @@ Continuation of work from https://github.com/zklm/honkai-vns, in the form of edi
 
 I am currently only working on the Anti-Entropy VN. However, the standalone VN viewers made by zklm are available below:
 
-* Anti-Entropy: https://zklm.github.io/honkai-vn-antientropy/ (Standalone)
-* Durandal: https://zklm.github.io/honkai-vn-durandal/ (Standalone)
-* Seven Swords: https://zklm.github.io/honkai-vn-sevenswords/ (Standalone - note: does not currently have UI settings that allow toggling between translations)
+- Anti-Entropy: https://zklm.github.io/honkai-vn-antientropy/ (Standalone)
+  - Chapters 1 to 3: done by listless-restless
+  - Chapters 4 to 12: translation in progress
+  - Chapters 13 to 26: partially done by Aiatar and zklm
+- Durandal: https://zklm.github.io/honkai-vn-durandal/ (Standalone)
+  - Chapters 1 to 20: done by Aiatar and zklm
+  - Chapters 21 to 31: untranslated
+- Seven Swords: https://zklm.github.io/honkai-vn-sevenswords/ (Standalone - note: does not currently have UI settings that allow toggling between translations)
+  - Untranslated
 
 For now I have created a separate fork, but will initiate pull requests once I have received confirmation from zklm that his project is still active. Otherwise, everything will remain in this fork, and I will continue to merge edits from the `test`("active") branch with my own `master` ("final") branch.
 
