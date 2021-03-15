@@ -2,6 +2,12 @@
 
 Continuation of work from https://github.com/zklm/honkai-vns, in the form of edits to .xml files that can be loaded via zklm's scripts into the VN viewer.
 
+I am currently only working on the Anti-Entropy VN. However, the standalone VN viewers made by zklm are available below:
+
+* Anti-Entropy: https://zklm.github.io/honkai-vn-antientropy/ (Standalone)
+* Durandal: https://zklm.github.io/honkai-vn-durandal/ (Standalone)
+* Seven Swords: https://zklm.github.io/honkai-vn-sevenswords/ (Standalone)
+
 For now I have created a separate fork, but will initiate pull requests once I have received confirmation from zklm that his project is still active. Otherwise, everything will remain in this fork, and I will continue to merge edits from the `test`("active") branch with my own `master` ("final") branch.
 
 I will upload what I have previously translated into each of the chapters of the Anti-Entropy VN (up to Chapter 12). If time and energy permits, and if there is public interest, I may also contribute to the remaining chapters and VNs, adding to the work already done by Aiatar and [Arylin-Renata](https://github.com/Ayrlin-Renata/honkai-vns) with zklm.
