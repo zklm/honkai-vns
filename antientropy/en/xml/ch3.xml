@@ -11,15 +11,15 @@
         </scene>
         <scene id="10" background="corridorMessy.jpg">
             <bgm src="lab.mp3" status="start"></bgm>
-            <text>Compared to the tidy ground floor and corridor, the private space on the top floor is quite simply Hell on Earth.</text>
+            <text>Compared to the tidy and orderly ground floor, the private space on the top floor is quite simply Hell on Earth.</text>
             <text>A few minutes ago, Welt would never have predicted that he would find these items outside a girl's bedroom  — </text>
             <text>Pizza boxes piled together like Jenga.</text>
             <!-- Note that Jenga was not invented until the 1980s -->
             <text>Wastepaper piled into bins and forming trash heaps the size of small mountains.</text>
             <text>Bras, undergarments and stockings, hang-drying everywhere.</text>
             <text>Mysterious electronic devices discarded and tossed against a corner, their surfaces covered with dust.</text>
-            <text>It's hard to imagine how: but perhaps because cleaners won't come upstairs, everything has turned into this hair-raising spectacle.</text>
-            <text>Now if we say, with the tiniest, most remote possibilty, that this scene is actually typical for private residences of countless single ladies everywhere — god knows how many gentlemen will be left shellshocked and heartbroken?</text>
+            <text>It's hard to imagine how: but perhaps because the cleaners won't come upstairs, everything has now turned into this hair-raising spectacle.</text>
+            <text>Now if we were to confirm, with the tiniest, most remote possibilty, that this scene is actually typical for private residences of countless single ladies everywhere — god knows how many gentlemen will be left shellshocked and heartbroken?</text>
             <text>At least, right now, Welt is searching for Room 203 with a heavy heart.</text>
             <sound src="8_24_knock_door.mp3"/>
             <text>“Knock Knock.”</text>
@@ -34,7 +34,7 @@
             <show chara="weltShameClose" position="left" opacity="0.7"/>
             <show chara="teslaAngryNightyQ" position="center"/>
             <shake position="center" time="250"></shake>
-            <speak chara="teslaNoFace">Huh? Are you trying to say you are sleepwalking, Assistant Welt?</speak>
+            <speak chara="teslaNoFace">Huh? Are you trying to say you're sleepwalking, Assistant Welt?</speak>
             <text> From the other side of the door transmits a grumpy and energetic voice — no doubt it's the real deal, none other than Tesla herself.</text>
             <show chara="weltShameClose" position="left"/>
             <show chara="teslaAngryNightyQ" position="center" opacity="0.7"/>
@@ -96,7 +96,7 @@
             <show chara="weltNormalClose" position="left" opacity="0.7"/>
             <show chara="teslaAngryNightyQ" position="center"/>
             <shake position="center" time="250"></shake>
-            <speak chara="teslaNoFace">Planck that old hag, again with using her own students to pick up fresh meat!</speak>
+            <speak chara="teslaNoFace">Planck that old hag, once again using her own students to pick up fresh meat!</speak>
             <show chara="weltSurpriseClose" position="left"/>
             <show chara="teslaAngryNightyQ" position="center" opacity="0.7"/>
             <speak chara="weltNoFace">… Huh?</speak>
@@ -112,7 +112,7 @@
             <shake position="center" time="250"></shake>
             <sound src="8_24_mess.mp3"/>
             <speak chara="teslaNoFace">Clearly, she's mine! … Clearly, so is Lab 42! … Clearly — </speak>
-            <text>The topic is sounding a bit too dangerous, so Welt, standing outside the door, can only cover his ears and keep silent as a mouse. But the dreadful ringing and clattering of her shrill voice continues without end, piercing through the door into his ears.</text>
+            <text>The topic is beginning to sound a bit too dangerous, so Welt, standing outside the door, can only cover his ears and keep mute as a mouse. But the dreadful ringing and clattering of her shrill voice continues incessantly, piercing through the door into his eardrums.</text>
             <text>…</text>
             <show chara="teslaEmbarraNightyQ" position="center"/>
             <speak chara="teslaNoFace">All right!</speak>
@@ -122,7 +122,7 @@
             <bgm src="themeTesla.mp3" status="stop"></bgm>
             <sound src="hit man.mp3"/>
             <text>Clatter scatter.</text>
-            <text>The poor young man had fallen onto a pile of pizza boxes, and is sprawled out on his back, eyes glazed, mouth agape.</text>
+            <text>The poor young man had fallen onto a pile of pizza boxes, and is now sprawled out on his back, eyes glazed, mouth agape.</text>
             <text>The door had swung open without warning — startling Welt, who unfortunately back-pedalled onto the pizza boxes — and without much force, slipped and fell.</text>
             <text>But that is not the most important thing.</text>
             <goto goto="25" change="0"/>
@@ -132,7 +132,7 @@
             <show chara="teslaNormalNightyClose" position="center"/>
             <speak chara="weltNoFace">T—Te — </speak>
             <show chara="teslaEmbarraNightyClose" position="center"/>
-            <speak chara="teslaNoFace">Urgh you pest! Did your fall give you brain damage as well? Move your legs aside!</speak>
+            <speak chara="teslaNoFace">Urgh you pest! Did your fall give you brain damage as well? Move aside!</speak>
             <speak chara="weltNoFace">Dr Tesla! It's not yet summer outside!</speak>
             <show chara="teslaBoringNightyClose" position="center"/>
             <speak chara="teslaNoFace">Huh? What are you talking about?</speak>
@@ -160,14 +160,14 @@
                 <br />
                 <p class="article-text">Sure enough, it now sports a bump.</p>
                 <br />
-                <p class="article-text">But having said that … my life is still intact. Perhaps that alone is worth celebrating for three days straight?</p>
+                <p class="article-text">But having said that … my life is still intact. Perhaps that alone is worth a three-day holiday?</p>
             </text>
             <goto goto="32" change="0"/>
         </scene>
         <scene id="32" background="CG3.jpg">
             <bgm src="street.mp3" status="continue"></bgm>
-            <text>Squinting at the back seat through the rearview mirror, Welt sees the source of his suffering, using her compact mirror to calmly draw on her lipstick.</text>
-            <text>Welt can't understand why such a person is capable of tossing her own living space into a complete shambles.</text>
+            <text>Squinting at the back seat through the rearview mirror, Welt spies the source of his suffering, using her compact mirror to calmly draw on her lipstick.</text>
+            <text>Welt can't understand how such a person is capable of tossing her own living space into a complete shambles.</text>
             <text>It's even messier than Einstein's hairdo seated next to her.</text>
             <text> — And in a hurry, she had almost forgotten to change her clothes before they departed.</text>
             <text article="1">
@@ -180,7 +180,7 @@
             <text>Stick to driving the car!</text>
             <speak chara="einNoFace">Hey.</speak>
             <text>Just as Welt was beginning to feel miserable, Einstein hands him a document wallet from the back seat.</text>
-            <speak chara="weltNoFace">This is … for me?</speak>
+            <speak chara="weltNoFace">Is this … for me?</speak>
             <text>Welt takes the paper wallet. Inside, there appears to be several small hardbound booklets.</text>
             <speak chara="einNoFace">Mm-hmm. Open it and have a look. </speak>
             <speak chara="einNoFace">You'll need them later.</speak>
@@ -190,7 +190,7 @@
             <bgm src="street.mp3" status="continue"></bgm>
             <speak chara="weltNoFace">…</speak>
             <text>One of the booklets is a passport. </text>
-            <text>The wallet also contains a work permit of the Imperial Institute, and some documents to guarantee movement through immigration.</text>
+            <text>The wallet also contains a work permit of the Imperial Institute, and some documents to guarantee movement through Immigration.</text>
             <show chara="weltNormalSweaterClose-up" position="right"/>
             <speak chara="weltNoFace">Welt Joyce?</speak>
             <text>Printed on the passport is one such name, half-familiar, half-foreign.</text>
@@ -212,7 +212,7 @@
             <speak chara="teslaNoFace">No …</speak>
             <speak chara="teslaNoFace">Well … I shouldn't have expected you to know that. Just pretend I never asked.</speak>
             <show chara="teslaBoringDressClose-up" position="left"/>
-            <speak chara="teslaNoFace">Anyway, make sure you remember the name she gave you, and avoid giving yourself away in front of customs.</speak>
+            <speak chara="teslaNoFace">Anyway, make sure you remember the name she gave you, and avoid giving yourself away in front of Customs.</speak>
             <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
             <show chara="weltScaredSweaterClose-up" position="right"/>
             <speak chara="weltNoFace">Giving myself away … wait, is this documentation forged?</speak>
@@ -227,7 +227,7 @@
             <speak chara="weltNoFace">What kind of justification is that?</speak>
             <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
             <show chara="teslaSmileDressClose-up" position="left"/>
-            <speak chara="teslaNoFace">Look, it's something we cannot reveal!</speak>
+            <speak chara="teslaNoFace">Look, it's something we can't reveal!</speak>
             <show chara="teslaBoringDressClose-up" position="left"/>
             <speak chara="teslaNoFace"> But if you start acting all weird, our Righteous Friends of Justice from Scotland Yard will start investigating and asking difficult questions — and I do not particularly welcome that idea.</speak>
             <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
@@ -236,7 +236,7 @@
             <!-- Added "Home Office" to clarify -->
             <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
             <show chara="teslaEmbarraDressClose-up" position="left"/>
-            <speak chara="teslaNoFace">… Gosh, how could an amnesiac like you know about something as obscure as that?</speak>
+            <speak chara="teslaNoFace">… Gosh, how could an amnesiac like you remember something as obscure as that?</speak>
             <speak chara="teslaNoFace"> Who planted such ideas in your head? I just mean the police, okay? Any police!</speak>
             <show chara="teslaEmbarraDressClose-up" position="left" opacity="0.7"/>
             <show chara="weltTiredSweaterClose-up" position="right"/>
@@ -277,7 +277,7 @@
             <shake position="center" time="250"></shake>
             <speak chara="teslaNoFace">What are you doing, blanking out again? You blockhead! Hurry up and memorise your name!</speak>
             <text>With a karate chop, Twintails strikes Welt's head at the exact spot where the lump is growing.</text>
-            <text>Most certainly a targeted attack.</text>
+            <text>Most certainly a deliberate and targeted manoeuvre.</text>
             <hide position="center"/>
             <show chara="teslaAngryDressClose-up" position="left" opacity="0.7"/>
             <show chara="weltTiredSweaterClose-up" position="right"/>
@@ -312,7 +312,7 @@
             <hide position="right"/>
             <show chara="teslaAngryDressClose-up" position="center"/>
             <speak chara="teslaNoFace">Whatever, your top priority now is to memorise your name. And your surname. Every single letter. Don't you dare think about anything else! There'll be plenty of time to do that on the plane!</speak>
-            <text>Twin-tails grips Welt's back collar, and fiercely “exhorts” him with those menacing words —  before purposefully turning towards the mophaired girl seated next to her.</text>
+            <text>Twin-tails grips the back of Welt's collar, and fiercely “exhorts” him with those menacing words —  before purposefully turning towards the mophaired girl seated next to her.</text>
             <hide position="center"/>
             <show chara="teslaBoringDressClose-up" position="left" />
             <show chara="einNormalCoatClose-up" position="right" opacity="0.7"/>
@@ -442,7 +442,7 @@
             </text>
             <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
             <text article="1">
-                <p class="article-text" style="color:#EDEDED;font-style:italic;">Absolutely no clue.</p>
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">Absolutely no idea.</p>
             </text>
             <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
             <text article="1">
@@ -516,7 +516,7 @@
             <text article="1">
                 <p class="article-text" style="color:#EDEDED;font-style:italic;">…</p>
                 <br />
-                <p class="article-text" style="color:#EDEDED;font-style:italic;">Is there any metaphor or image that I can imagine?</p>
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">Is there a metaphor or image I can imagine?</p>
             </text>
             <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
             <text article="1">
@@ -569,7 +569,7 @@
             <text article="1">
                 <p class="article-text" style="color:#EDEDED;font-style:italic;">Indecipherable …</p>
                 <br />
-                <p class="article-text" style="color:#EDEDED;font-style:italic;">Speaking of which, what is that weird text in Schrödinger's letter that I couldn't understand?</p>
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">Speaking of which, what was that weird text in Schrödinger's letter that I couldn't understand?</p>
             </text>
             <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
             <text article="1">
@@ -703,7 +703,7 @@
             <speak chara="redNoFace">HAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHAHA!</speak>
             <text>Quite interesting, isn't it?</text>
             <text>A strange weapon that can distort space-time and create blackholes, is that the way it gains its power?</text>
-            <text>So marvelous … And you can unleash its power as often as you like …</text>
+            <text>So marvelous … And you lot can unleash its power as often as you like …</text>
             <text>… But one day, it will use power a hundred-fold stronger than I am now, to seek vengeance against you!</text>
             <shake position="all" time="250"></shake>
             <sound src="8_24_womanLaugh2.mp3"/>
@@ -822,7 +822,7 @@
             <speak chara="teslaNoFace">…</speak>
             <show chara="teslaEmbarraDressFar" position="center"/>
             <speak chara="teslaNoFace">Tut.</speak>
-            <speak chara="teslaNoFace">That man liked to talk around the point, but I could tell that they still have that same old authoritarian streak. After all, the tail can't be allowed to wag the dog, and a tree trunk must remains strong while its branches remain light. Now that a new branch finally prospers, they have come to  fear it. And so they turn against it faster than greased lightning.</speak>
+            <speak chara="teslaNoFace">That man liked to talk around the point, but I could tell that they still have that same old authoritarian streak. After all, the tail can't be allowed to wag the dog, and a tree trunk must remains strong while its branches remain light. Now that a new branch finally prospers, they have come to fear it. And so they turn against it faster than turning he pages of a book.</speak>
             <!-- 说的不疼不痒 = "Speaking neither of pain nor of itch" -->
             <!-- 尾大不掉 = "A large tail will not be easy to discard or control" -->
             <!-- 翻脸比翻书还快 = "turn about face faster than turning the pages of a book" -->
