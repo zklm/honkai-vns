@@ -22,5 +22,5 @@ To use my translation: Go to https://zklm.github.io/honkai-vn-antientropy/ -> to
 
 - **Multi-line scrolling not available:** Multi-line scrolling in the dialog boxes is not working in the standalone VN viewers (e.g. https://zklm.github.io/honkai-vn-antientropy/) as it does in Mihoyo's original viewer (https://event.bh3.com/avgAntiEntropy/indexAntiEntropy.php). This is the case for both Chinese and translated text. I do not have experience in Javascript, nor do I have access to the code that allows loading of Mihoyo and custom resources into a standalone viewer. So I cannot remedy this.
 
-  - **Temporary solution:** For now, people who want to read all the text should go to the "Log".
+  - **Temporary solution:** For now, people who want to read all the text should go to the "Log", or at least set font size in the settings to the smallest possible value.
 
