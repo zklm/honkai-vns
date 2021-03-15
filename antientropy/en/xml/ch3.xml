@@ -168,7 +168,7 @@
             <bgm src="street.mp3" status="continue"></bgm>
             <text>Squinting at the back seat through the rearview mirror, Welt sees the source of his suffering, using her compact mirror to calmly draw on her lipstick.</text>
             <text>Welt can't understand why such a person is capable of tossing her own living space into a complete shambles.</text>
-            <text>It's even messier than Einstein's hairdo seated beside her.</text>
+            <text>It's even messier than Einstein's hairdo seated next to her.</text>
             <text> — And in a hurry, she had almost forgotten to change her clothes before they departed.</text>
             <text article="1">
                 <p class="article-text">But perhaps more difficult to understand is this — where did she find that light billowing shawl, and fine one-piece dress? Not a single wrinkle on it. Anyone who has seen those Jenga stacks of pizza-boxes would be certain that this girl must have a four-dimensional wardrobe.</p>
@@ -312,7 +312,7 @@
             <hide position="right"/>
             <show chara="teslaAngryDressClose-up" position="center"/>
             <speak chara="teslaNoFace">Whatever, your top priority now is to memorise your name. And your surname. Every single letter. Don't you dare think about anything else! There'll be plenty of time to do that on the plane!</speak>
-            <text>Twin-tails grips Welt's back collar, and fiercely “exhorts” him with those menacing words —  before purposefully turning towards the mophaired girl seated beside her.</text>
+            <text>Twin-tails grips Welt's back collar, and fiercely “exhorts” him with those menacing words —  before purposefully turning towards the mophaired girl seated next to her.</text>
             <hide position="center"/>
             <show chara="teslaBoringDressClose-up" position="left" />
             <show chara="einNormalCoatClose-up" position="right" opacity="0.7"/>
@@ -496,21 +496,21 @@
                 <br />
                 <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">He certainly didn't know me, and it was impossible for him to know that my general theory of relativity was based on his Riemannian manifolds.</p>
                 <br />
-                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">{After all, he was a historical figure from more than a hundred years ago. He was dead by the time my grandpa was born.</p>
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">After all, he was a historical figure from more than a hundred years ago. He was dead by the time my grandpa was born.</p>
             </text>
             <hide position="center"></hide>
             <text>It takes the young man a while to digest the general meaning of that statement.</text>
             <text>He decides to ask a question that may be a little easier for her to explain — </text>
             <text> — if only so that he can continue following the conversation.</text>
             <show chara="teslaBlackDressClose-up" position="center" opacity="0.7"/>
-            <text>… Also, he has noticed that he enjoys watching her scribble her responses.</text>
+            <text>… Especially while a certain twintails remains asleep.</text>
             <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
             <text article="1">
                 <p class="article-text" style="color:#EDEDED;font-style:italic;">General relativity?</p>
             </text>
             <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
             <text article="1">
-                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">{In simple terms, it is a theory that universal gravitation is equivalent to the distortion of time and space.</p>
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">In simple terms, it is a theory that universal gravitation is equivalent to the distortion of time and space.</p>
             </text>
             <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
             <text article="1">
@@ -771,7 +771,7 @@
             <show chara="blackTwo" position="left"/>
             <speak chara="blackNoFace">The Old Man hopes this will be of help to you.</speak>
             <text>The middle-aged man takes a scroll case from his leather briefcase, and hands it to the Finn.</text>
-            <speak chara="blackNoFace">ou are an expert in ancient manuscripts, right?</speak>
+            <speak chara="blackNoFace">You are an expert in ancient manuscripts, right?</speak>
             <show chara="blackTwo" position="left" opacity="0.7"/>
             <show chara="nokiaSeriousFar" position="center"/>
             <speak chara="nokiaNoFace">For the time being …</speak>
@@ -781,7 +781,7 @@
             <show chara="blackTwo" position="left" opacity="0.7"/>
             <show chara="nokiaSeriousFar" position="center"/>
             <speak chara="nokiaNoFace">…</speak>
-            <text>The Finn opens the wooden box dubiously, and pulls out a tattered piece of parchment that seems to have only been recently restored.</text>
+            <text>The Finn opens the wooden box dubiously, and pulls out a tattered piece of parchment that appears to have only been recently restored.</text>
             <speak chara="nokiaNoFace">Aramaic …</speak>
             <speak chara="nokiaNoFace">“Judgement Day” … “Sacrifice” … “Song” …</speak>
             <shake position="center" time="250"></shake>
@@ -822,7 +822,10 @@
             <speak chara="teslaNoFace">…</speak>
             <show chara="teslaEmbarraDressFar" position="center"/>
             <speak chara="teslaNoFace">Tut.</speak>
-            <speak chara="teslaNoFace">That man liked to talk around the point, but I could tell that the authoritarian mindset is still imbued deep within their bones. After all, the tail can't be allowed to wag the dog, and the tree trunk must remain strong while its branches remain light. Now that a new branch finally prospers and weighs down heavily on them, they have become fearful of it. And so they turn against it faster than flipping pages in a book.</speak>
+            <speak chara="teslaNoFace">That man liked to talk around the point, but I could tell that the authoritarian mindset is still imbued deep within their bones. After all, the tail can't be allowed to wag the dog, and the tree trunk must remain strong while its branches remain light. Now that a new branch finally prospers, they have become fearful of it. And so they turn against it faster than flipping pages in a book.</speak>
+            <!-- 说的不疼不痒 = "Speaking neither of pain nor of itch" -->
+            <!-- 尾大不掉 = "A large tail will not be easy to discard or control" -->
+            <!-- 翻脸比翻书还快 = "turn about face faster than turning the pages of a book" -->
             <show chara="teslaEmbarraDressFar" position="center" opacity="0.7"/>
             <show chara="einNormalCoatFar" position="right"/>
             <speak chara="einNoFace">…</speak>
