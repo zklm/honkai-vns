@@ -154,7 +154,7 @@
             <bgm src="street.mp3" status="start"></bgm>
             <show chara="weltTiredSweaterClose-up" position="right"/>
             <show chara="nokiaSmileHandUpClose-up" position="left" opacity="0.7"/>
-            <speak chara="weltNoFace">Hnngh — o-o-ow.</speak>
+            <speak chara="weltNoFace">Hnngh — O-o-ow.</speak>
             <text article="1">
                 <p class="article-text">Welt is seated in the front row of a temporarily-borrowed Volkswagen Beetle alongside the driver — the Finn with the gold-rimmed glasses. Welt lightly touches his head.</p>
                 <br />
@@ -277,7 +277,7 @@
             <shake position="center" time="250"></shake>
             <speak chara="teslaNoFace">What are you doing, blanking out again? You blockhead! Hurry up and memorise your name!</speak>
             <text>With a karate chop, Twintails strikes Welt's head at the exact spot where the lump is growing.</text>
-            <text>Most certainly a deliberate move.</text>
+            <text>Most certainly a targeted attack.</text>
             <hide position="center"/>
             <show chara="teslaAngryDressClose-up" position="left" opacity="0.7"/>
             <show chara="weltTiredSweaterClose-up" position="right"/>
@@ -356,7 +356,7 @@
             <shake position="left" time="250"></shake>
             <speak chara="teslaNoFace">S-such a tease …</speak>
             <show chara="teslaSmileDressClose-up" position="left" />
-            <speak chara="teslaNoFace">How could that possibly be true … Aha ha ha…</speak>
+            <speak chara="teslaNoFace">How could that possibly be true … Aha ha ha …</speak>
             <show chara="teslaSmileDressClose-up" position="left" opacity="0.7"/>
             <show chara="weltScaredSweaterClose-up" position="right"/>
             <shake position="right" time="250"></shake>
@@ -725,10 +725,10 @@
             <text>Awakened by that crazed laughter, Welt sits weak and limp in his seat, his mouth wide open and gasping for air, the blue veins of both temples twitching and pulsating.</text>
             <text>That nightmare just now, it felt much too real — so real that Welt begins to wonder if it was a flashback from his true memory.</text>
             <text>“Herrscher”.</text>
-            <text>Welt had heard this term before while he was in the previous labs..</text>
+            <text>Welt had heard this term before while he was in the previous labs.</text>
             <text>According to conclusions drawn from ancient manuscripts, when the instantaneous power output of a Honkai eruption reaches over 1000HW, there is a chance for an existence called a “Herrscher” to be born within the disaster zone.</text>
             <text>The “Herrscher” is a monster transformed from a human who is highly adaptable to Honkai Energy — </text>
-            <text> — these women can use the supernatural power originating from the “Core of the Herrscher” to destroy the human world with impunity.</text>
+            <text> — These women can use the supernatural power originating from the “Core of the Herrscher” to destroy the human world with impunity.</text>
             <text>Yes, “women”. More than a dozen Herrschers had been recorded in ancient literature, and with no exceptions, all of them were female.</text>
             <text>Generally speaking, the adaptability of males to Honkai Energy is much lower than that of females —  and the Herrscher is the ultimate manifestation of that adaptability.</text>
             <speak chara="weltNoFace">…</speak>
@@ -822,14 +822,14 @@
             <speak chara="teslaNoFace">…</speak>
             <show chara="teslaEmbarraDressFar" position="center"/>
             <speak chara="teslaNoFace">Tut.</speak>
-            <speak chara="teslaNoFace">That man liked to talk around the point, but I could tell that the authoritarian mindset is still imbued deep within their bones. After all, the tail can't be allowed to wag the dog, and the tree trunk must remain strong while its branches remain light. Now that a new branch finally prospers, they have become fearful of it. And so they turn against it faster than flipping pages in a book.</speak>
+            <speak chara="teslaNoFace">That man liked to talk around the point, but I could tell that they still have that same old authoritarian streak. After all, the tail can't be allowed to wag the dog, and a tree trunk must remains strong while its branches remain light. Now that a new branch finally prospers, they have come to  fear it. And so they turn against it faster than greased lightning.</speak>
             <!-- 说的不疼不痒 = "Speaking neither of pain nor of itch" -->
             <!-- 尾大不掉 = "A large tail will not be easy to discard or control" -->
             <!-- 翻脸比翻书还快 = "turn about face faster than turning the pages of a book" -->
             <show chara="teslaEmbarraDressFar" position="center" opacity="0.7"/>
             <show chara="einNormalCoatFar" position="right"/>
             <speak chara="einNoFace">…</speak>
-            <text>Einstein remains noncommittal in her response, and silently peels away the wrapping paper from a piece of chocolate.</text>
+            <text>Einstein remains non-committal in her non-response, and silently peels away the wrapping paper from a piece of chocolate.</text>
             <show chara="teslaAngryDressFar" position="center"/>
             <show chara="einNormalCoatFar" position="right" opacity="0.7"/>
             <speak chara="teslaNoFace">Hey! I'm speaking to you, Mophead! Just a box of chocolate is enough to win you over?!</speak>
