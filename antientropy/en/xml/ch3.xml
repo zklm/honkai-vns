@@ -312,7 +312,7 @@
             <hide position="right"/>
             <show chara="teslaAngryDressClose-up" position="center"/>
             <speak chara="teslaNoFace">Whatever, your top priority now is to memorise your name. And your surname. Every single letter. Don't you dare think about anything else! There'll be plenty of time to do that on the plane!</speak>
-            <text>Twin-tails grips the back of Welt's collar, and fiercely “exhorts” him with those menacing words —  before purposefully turning towards the mophaired girl seated next to her.</text>
+            <text>Twintails grips the back of Welt's collar, and fiercely “exhorts” him with those menacing words —  before purposefully turning towards the mophaired girl seated next to her.</text>
             <hide position="center"/>
             <show chara="teslaBoringDressClose-up" position="left" />
             <show chara="einNormalCoatClose-up" position="right" opacity="0.7"/>
@@ -327,7 +327,7 @@
             <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
             <show chara="einNormalCoatClose-up" position="right"/>
             <speak chara="einNoFace">…</speak>
-            <text>Mophead stares expressionlessly into Twin-tails' eyes.</text>
+            <text>Mophead stares expressionlessly into Twintails' eyes.</text>
             <speak chara="einNoFace">This time we're sharing a double room.</speak>
             <show chara="einNormalCoatClose-up" position="right" opacity="0.7"/>
             <show chara="teslaNormalDressClose-up" position="left" />
@@ -422,7 +422,7 @@
             <text>It is written on the note passed back to him.</text>
             <text>The temperature in the cabin becomes a little cold, and the young man cannot decide whether he should put on a coat.</text>
             <show chara="teslaBlackDressClose-up" position="center" opacity="0.7"/>
-            <text>Naturally, Twin-tails is still sleeping blissfully between the two of them.</text>
+            <text>Naturally, Twintails is still sleeping blissfully between the two of them.</text>
             <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
             <text article="1">
                 <p class="article-text" style="color:#EDEDED;font-style:italic;">What is it?</p>
@@ -503,7 +503,7 @@
             <text>He decides to ask a question that may be a little easier for her to explain — </text>
             <text> — if only so that he can continue following the conversation.</text>
             <show chara="teslaBlackDressClose-up" position="center" opacity="0.7"/>
-            <text>… Especially while a certain twintails remains asleep.</text>
+            <text>… Especially while a certain Twintails remains asleep.</text>
             <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
             <text article="1">
                 <p class="article-text" style="color:#EDEDED;font-style:italic;">General relativity?</p>
@@ -822,7 +822,7 @@
             <speak chara="teslaNoFace">…</speak>
             <show chara="teslaEmbarraDressFar" position="center"/>
             <speak chara="teslaNoFace">Tut.</speak>
-            <speak chara="teslaNoFace">That man liked to talk around the point, but I could tell that they still have that same old authoritarian streak. After all, the tail cannnot be allowed to wag the dog, and a tree trunk must remain strong while its branches remain light. Now that a new branch finally prospers, they have come to fear it. And so they turn against it faster than turning he pages of a book.</speak>
+            <speak chara="teslaNoFace">That man liked to talk around the point, but I could tell that they still have that same old authoritarian streak. After all, the tail cannnot be allowed to wag the dog, and a tree trunk must remain strong while its branches remain light. Now that a new branch finally prospers, they have come to fear it. And so they turn against it faster than turning the pages of a book.</speak>
             <!-- 说的不疼不痒 = "Speaking neither of pain nor of itch" -->
             <!-- 尾大不掉 = "A large tail will not be easy to discard or control" -->
             <!-- 翻脸比翻书还快 = "turn about face faster than turning the pages of a book" -->
