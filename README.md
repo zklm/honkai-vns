@@ -6,7 +6,7 @@ I am currently only working on the Anti-Entropy VN. However, the standalone VN v
 
 * Anti-Entropy: https://zklm.github.io/honkai-vn-antientropy/ (Standalone)
 * Durandal: https://zklm.github.io/honkai-vn-durandal/ (Standalone)
-* Seven Swords: https://zklm.github.io/honkai-vn-sevenswords/ (Standalone)
+* Seven Swords: https://zklm.github.io/honkai-vn-sevenswords/ (Standalone - note: does not currently have UI settings that allow toggling between translations)
 
 For now I have created a separate fork, but will initiate pull requests once I have received confirmation from zklm that his project is still active. Otherwise, everything will remain in this fork, and I will continue to merge edits from the `test`("active") branch with my own `master` ("final") branch.
 
