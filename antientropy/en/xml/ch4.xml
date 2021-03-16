@@ -505,58 +505,58 @@
         <scene id="40" background="barBillings.jpg">
             <bgm src="serenity.mp3" status="start"></bgm>
             <show chara="teslaNormalDressClose-up" position="left"/>
-            <speak chara="teslaNoFace">这是什么?</speak>
-            <text>在机场附近的一间酒吧里, 红色双马尾盯着餐桌上一盘油炸丸子似的东西眨着眼睛.</text>
+            <speak chara="teslaNoFace">What is this?</speak>
+            <text>In a tavern near the airport, Twintails blinks at a plate of fried meatballs on the dining table.</text>
             <show chara="teslaNormalDressClose-up" position="left" opacity="0.7"/>
             <show chara="planckSlyClose-up" position="right"/>
-            <speak chara="planckNoFace">落基山牡蛎.</speak>
-            <text>调皮的大姐姐面带微笑地介绍道.</text>
+            <speak chara="planckNoFace">Rocky Mountain oysters.</speak>
+            <text>The mischievous Big Sister introduces them with a smile.</text>
             <show chara="schroNormalEmClose-up" position="right"/>
             <speak chara="schroNoFace">…</speak>
-            <text>不知为何, 罗马卷面无表情地叹了口气.</text>
+            <text>For some reason, the girl with the single corkscrew ponytail sighs helplessly.</text>
             <show chara="schroNormalAhClose-up" position="right"/>
-            <speak chara="schroNoFace">教授她比较喜欢吃这个.你们能不能习惯就不知道了.</speak>
+            <speak chara="schroNoFace">The Professor, she prefers to eat these. But I don't know if you lot can ever get used to them.</speak>
             <hide position="right"/>
             <hide position="left"/>
             <show chara="teslaNormalDressClose-up" position="center"/>
-            <speak chara="teslaNoFace">不就是牡蛎吗…又不是没吃过.虽然这个好像是奇怪了点儿.</speak>
+            <speak chara="teslaNoFace">Aren't these just oysters … It's not something I haven't already had before. That said, these do seem a little strange.</speak>
             <bgm src="themeTesla.mp3" status="start"></bgm>
-            <text>双马尾不以为然地叉起了一个丸子, 像吃甜点一样送进了嘴里.</text>
+            <text>Twintails takes a fork, prods disapprovingly at a piece, then carefully places it in her mouth as though she were eating dessert. </text>
             <show chara="teslaBoringDressClose-up" position="center"/>
-            <speak chara="teslaNoFace">唔…呃…</speak>
-            <text>虽然叉的时候就已经觉得哪里不对劲, 但真正入口之后的怪异感才开始让人心里打鼓.</text>
+            <speak chara="teslaNoFace">Well … Uh …</speak>
+            <text>Although she had already felt something fishy when her fork pierced the meatball, it was only after it entered her mouth that she really began to feel her heart thump and palpitate with anxiety.</text>
             <show chara="teslaEmbarraDressClose-up" position="center"/>
-            <text>橡胶一般富有弹性的质地、完全不像海鲜的厚重味道…这肯定不是什么"牡蛎" — </text>
+            <text>The rubbery elastic texture is completely unlike the rich, complex flavour she'd expect from good seafood … This is definitely not some “oyster” — </text>
             <show chara="teslaBoringDressClose-up" position="center"/>
-            <text>不像鸡肉、不像牛肉, 不像肝脏、不像心脏 — 这到底是什么东西?</text>
-            <text>丸子虽然算不上难吃, 但疑惑已经写满了特斯拉博士的脸.</text>
+            <text>But then it is also unlike any other chicken, beef, liver, or heart she had ever tasted — so what the hell is this?</text>
+            <text>The meatballs aren't exactly “unpalatable”, but even then, doubt begins to etch itself onto Dr Tesla's face.</text>
             <show chara="planckSlyClose-up" position="center"/>
-            <speak chara="planckNoFace">落基山牡蛎是一种装模作样的叫法.</speak>
-            <text>看着她把口中的肉完全咽下去了, 普朗克教授这才不慌不忙地解释起来.</text>
+            <speak chara="planckNoFace">The “Rocky Mountain oyster” is an affectionate nickname.</speak>
+            <text>After seeing that she had swallowed the meatball completely, Professor Planck begins to explain without a moment's hesitation.</text>
             <show chara="planckNormalClose-up" position="center"/>
-            <speak chara="planckNoFace">如你所知, 这一带是山区.在保鲜技术不够发达的年代, 牛仔们不可能吃的到真正的牡蛎.</speak>
+            <speak chara="planckNoFace">As you see, this area is mountainous. During a time when technology for food preservation wasn't that well-developed, there was no way for the cowboys here to eat real oysters.</speak>
             <show chara="planckSlyClose-up" position="center"/>
-            <speak chara="planckNoFace">所以他们一半出于安慰, 一半出于好玩, 就把这种沿海地区不大会吃的东西叫成了牡蛎.</speak>
-            <speak chara="planckNoFace">日常生活中, 我们有很多关于它的叫法；不过, 如果想表达得准确的话…</speak>
+            <speak chara="planckNoFace">So these morsels, that people from a coastal region would otherwise rarely ever eat — they decided to call them “oysters” — half out of consolation, half out of amusement.</speak>
+            <speak chara="planckNoFace"> In everyday life, we have a lot of names for these things; however, if we want to be accurate …</speak>
             <show chara="planckSmileClose-up" position="center"/>
-            <speak chara="planckNoFace">在生物学上, 我们叫它“睾丸”.</speak>
+            <speak chara="planckNoFace">In a biological sense, we'd call them “testicles”.</speak>
             <show chara="teslaBoringDressClose-up" position="center"/>
             <bgm src="themeTesla.mp3" status="stop"></bgm>
-            <speak chara="teslaNoFace">什么?</speak>
-            <text>双马尾显然有点不相信自己的耳朵.</text>
+            <speak chara="teslaNoFace">What?</speak>
+            <text>Twintails simply cannot believe her ears.</text>
             <show chara="planckSlyClose-up" position="center"/>
             <bgm src="themeTesla.mp3" status="start"></bgm>
-            <speak chara="planckNoFace">睾丸.</speak>
-            <text>普朗克教授面带微笑地又重复了一遍.</text>
+            <speak chara="planckNoFace">Testicles.</speak>
+            <text>Professor Planck repeats with a smile.</text>
             <show chara="planckSmileClose-up" position="center"/>
-            <speak chara="planckNoFace">这是小牛的睾丸.</speak>
+            <speak chara="planckNoFace">These are testicles taken from young bulls.</speak>
             <hide position="center"/>
-            <text>同一桌上, 爱因斯坦和薛定谔无奈地耸了耸肩膀.</text>
-            <text>瓦尔特和芬兰人盯着手里的叉子, 不知该如何处置已经送到嘴边的“油炸丸子”.</text>
+            <text>At the same table, Einstein and Schrödinger shrug helplessly.</text>
+            <text>Welt and the Finn both hold riveted gazes at the forks in their hands, wondering what to do with the “fried meatballs” that had been hovering so closely to their gaping mouths.</text>
             <show chara="teslaGreenDressClose-up" position="center"/>
-            <text>当然, 至于可怜的特斯拉 — </text>
-            <text> — 她的脸都变绿了.</text>
-            <text>字面意义上.</text>
+            <text>Indeed, as for poor Tesla — </text>
+            <text> — Her face has turned completely green.</text>
+            <text>Quite literally.</text>
             <goto goto="50"/>
         </scene>
         <scene id="50" background="streetBillings.jpg">
@@ -579,7 +579,7 @@
             <remark>
                 <p class="article-text-h">注:</p>
                 <p class="article-text">Déjà vu是法文短语, 字面意思为“已经见过”, 指人在清醒的状态下第一次见到某场景, 却感到“似曾相识”, 是一种常见的生理现象.</p>
-                <p class="article-text">中文对此词汇借鉴日文译法, 一般译作“既视感”, 也有译作“幻觉记忆”的；而英文则是直接照抄Déjà vu这一写法.</p>
+                <p class="article-text">中文对此词汇借鉴日文译法, 一般译作“既视感”, 也有译作“幻觉记忆”的; 而英文则是直接照抄Déjà vu这一写法.</p>
             </remark>
             <speak chara="weltNoFace">这…</speak>
             <speak chara="einNoFace">人类的大脑有时候会欺骗自己.</speak>
