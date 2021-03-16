@@ -733,7 +733,7 @@
             <speak chara="einNoFace">Zzz …</speak>
             <speak chara="teslaNoFace">Zzz …</speak>
             <speak chara="nokiaNoFace">Zzz …</speak>
-            <text>Looking to his left and right, he sees his companions all indulging in their own personal dreams.</text>
+            <text>Looking to his left and right, he sees his companions all immersed in their own personal dreams.</text>
             <speak chara="weltNoFace">… Don't think too much, a nightmare is just a coincidence, a stroke of bad luck, nothing else.</speak>
             <goto goto="68" change="0"/>
         </scene>
