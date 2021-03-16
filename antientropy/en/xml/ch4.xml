@@ -11,9 +11,9 @@
             <show chara="weltNormalClose" position="left"/>
             <speak chara="weltNoFace">So, how did the situation end up like this …</speak>
             <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
-            <text>Welt takes a furious sip of cola, and gives a vague look at the Finn, who is carrying shopping bags of all shapes and sizes.</text>
-            <text>The girls have gone to a lingerie store, and the young man had no choice but to pull away with the only other male, and make conversation outside.</text>
-            <text>The other man who had almost decided to follow the girls and swagger inside the store himself.</text>
+            <text>Welt takes a furious sip of cola, while warily watching the Finn, who is carrying shopping bags of all shapes and sizes.</text>
+            <text>The girls have gone to a lingerie store, and the young man had no choice but to pull away with the only other male, and make small talk outside.</text>
+            <text>Yes, the other man — who was about to follow the girls and swagger inside the store himself.</text>
             <show chara="weltNormalClose" position="left" opacity="0.7"/>
             <show chara="nokiaBagSmileClose" position="right"/>
             <speak chara="nokiaNoFace">Does shopping really ever need a reason?</speak>
@@ -21,8 +21,8 @@
             <speak chara="nokiaNoFace">Not to mention, the duty-free stores here are indeed cheaper than in London.</speak>
             <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
             <show chara="weltSurpriseClose" position="left"/>
-            <text>This guy is really good at carrying bags. Even with his posture, still they do not fall to the ground.</text>
-            <text>Can it be that he had frequently played such a role in the past? Isn't his wife an archaeologist who is often away from home?</text>
+            <text>This guy is really good at carrying bags. Even with his ridiculous posture, still they do not fall to the ground.</text>
+            <text>Can it be that he had frequently played such a role in the past? Isn't his wife some archaeologist who is often away from home?</text>
             <show chara="weltTiredClose" position="left"/>
             <text>Women are indeed such terrifying creatures.</text>
             <show chara="weltNormalClose" position="left"/>
@@ -46,17 +46,17 @@
             <speak chara="weltNoFace">Huh?</speak>
             <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
             <show chara="nokiaBagSmileClose" position="right"/>
-            <speak chara="nokiaNoFace">Don't you think that things are more fun and interesting in life, precisely because of people like Tesla?</speak>
+            <speak chara="nokiaNoFace">Don't you think that things are more fun and interesting in life precisely because of people like Tesla?</speak>
             <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
             <show chara="weltTiredClose" position="left"/>
             <speak chara="weltNoFace">…</speak>
             <show chara="nokiaBagSmileClose" position="right"/>
             <show chara="weltTiredClose" position="left" opacity="0.7"/>
-            <speak chara="nokiaBagSmileClose">Don't look down on girls.</speak>
-            <speak chara="nokiaNoFace">If you're too rigid, you may never find your other half in the future, hmm?</speak>
+            <speak chara="nokiaBagSmileClose">Don't look down on the girls.</speak>
+            <speak chara="nokiaNoFace">If you're too rigid, you may never find your other half in the future, eh?</speak>
             <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
             <show chara="weltTiredClose" position="left"/>
-            <speak chara="weltNoFace">… It's none of your business.</speak>
+            <speak chara="weltNoFace">… Mind your own business.</speak>
             <show chara="weltTiredClose" position="left" opacity="0.7"/>
             <show chara="nokiaBagSmileClose" position="right"/>
             <speak chara="nokiaNoFace">Ho ho, cold and gloomy on the outside, hot and spicy on the inside，how quaint! If you wish to be even more sombre …</speak>
@@ -92,8 +92,8 @@
             <show chara="weltTiredClose" position="left"/>
             <speak chara="weltNoFace">…</speak>
             <show chara="weltNormalClose" position="left"/>
-            <speak chara="weltNoFace">… I say, I do have something I've been concerned about for a while now.</speak>
-            <text>Welt endeavours to dispel his negative impression of the Finn, and begins to steer the subject of conversation to his own liking.</text>
+            <speak chara="weltNoFace">… Er, I do have something I've been concerned about for a while now.</speak>
+            <text>Welt tries to dispel his negative impression of the Finn, and begins to steer the subject of conversation to one of his own liking.</text>
             <show chara="weltNormalClose" position="left" opacity="0.7"/>
             <show chara="nokiaBagSmileClose" position="right"/>
             <speak chara="nokiaNoFace">Oh? Is it about the Organisation? Or is it about something we're going to investigate?</speak>
@@ -112,13 +112,13 @@
             <speak chara="weltNoFace">Um … it's just … that …</speak>
             <show chara="weltShyClose" position="left" opacity="0.7"/>
             <show chara="nokiaBagSmileClose" position="right"/>
-            <speak chara="nokiaNoFace">No need to dilly-dally about it. Neither doctor has a boyfriend yet, okay?</speak>
+            <speak chara="nokiaNoFace">No need to dilly-dally about. Neither doctor has a boyfriend yet, okay?</speak>
             <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
             <show chara="weltShameClose" position="left"/>
-            <speak chara="weltNoFace">Nobody asked you about that!</speak>
+            <speak chara="weltNoFace">Nobody asked you that!</speak>
             <show chara="weltShameClose" position="left" opacity="0.7"/>
             <show chara="nokiaBagSmileClose" position="right"/>
-            <speak chara="nokiaNoFace">Since you weren't saying anything, all I could do was  guess blindly.</speak>
+            <speak chara="nokiaNoFace">Since you were saying absolutely nothing, all I could do was guess blindly.</speak>
             <text>Mr Gold-rimmed Glasses shrugs his shoulders in an exaggerated manner.</text>
             <speak chara="nokiaNoFace">Age? Body measurements? Preferred tastes in fashion, inside and out?</speak>
             <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
@@ -146,17 +146,16 @@
             <speak chara="weltNoFace">You're nuts.</speak>
             <show chara="weltTiredClose" position="left" opacity="0.7"/>
             <show chara="nokiaBagSmileClose" position="right"/>
-            <speak chara="nokiaNoFace">You don't say. But when I met my future wife for the first time, I stupidly asked her a question — </speak>
-            <!-- The Finn refers to his wife as 你嫂子, "Your sister-in-law". He is being overly-familiar with Welt and treating him as a brother of sorts -->
+            <speak chara="nokiaNoFace">You don't say. But when I met my future wife for the first time, I stupidly asked her a question — </speak> <!-- The Finn refers to his wife as 你嫂子, "Your sister-in-law". He is being overly-familiar with Welt and treating him as a brother of sorts -->
             <speak chara="nokiaNoFace">“Isn't it a bit silly for you to still be wearing bloomers at your age?”</speak>
             <speak chara="nokiaNoFace"> — And then I was beaten to a pulp.</speak>
             <speak chara="nokiaNoFace"> That was quite an intense and healthy beating I tell you. Ha ha ha ha.</speak>
             <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
             <show chara="weltShameClose" position="left"/>
-            <speak chara="weltNoFace">… Who can help if you can't control your own madness!</speak>
+            <speak chara="weltNoFace">… No one else is responsible for your own madness but yourself!</speak>
             <show chara="weltShameClose" position="left" opacity="0.7"/>
             <show chara="nokiaBagSmileClose" position="right"/>
-            <speak chara="nokiaNoFace">But to be honest … if some day you meet a thirty-year-old girl who still enjoys wearing bloomers, don't give up on this chance of a lifetime.</speak>
+            <speak chara="nokiaNoFace">But to be honest … if some day you meet a thirty-year-old girl who still enjoys wearing bloomers, don't give up this opportunity of a lifetime.</speak>
             <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
             <show chara="weltTiredClose" position="left"/>
             <speak chara="weltNoFace">…</speak>
@@ -200,7 +199,7 @@
                 <p class="article-text-h">Note:</p>
                 <p class="article-text">Sauna is the quintessence of Finnish national culture.</p>
                 <p class="article-text">It is estimated that there are about two million saunas in Finland — on average, every three Finns own one.</p>
-                <p class="article-text">p.s.</p>
+                <p class="article-text">P.S.</p>
                 <p class="article-text">In ancient times, saunas were gender-neutral.</p>
             </remark>
             <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
