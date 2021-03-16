@@ -184,7 +184,7 @@
             </text>
             <text article="1">
                 <p class="article-text">The man now named “Welt” couldn't understand what just happened. Ever since the day he started forming memories again, nobody else had so casually given him such a baffling degree of freedom — even though “the day he started remembering” was not that long ago.</p>
-                <p class="article-text">It was this same season, three years ago, when he first opened his eyes to a scene of chaos. Unfamiliar men and women were inspecting him, asking him all sorts of questions, questions that one would only ask a lost child..</p>
+                <p class="article-text">It was this same season, three years ago, when he first opened his eyes to a scene of chaos. Unfamiliar men and women were inspecting him, asking him all sorts of questions, questions that one would only ask a lost child.</p>
             </text>
             <text article="1">
                 <p class="article-text">“What is your name?”</p>
@@ -536,7 +536,7 @@
             <text>Einstein licks the salt granules from her fingertips.</text>
             <show chara="einNormalClose" position="right" opacity="0.7"/>
             <show chara="teslaEmbarraClose" position="center"/>
-            <speak chara="teslaNoFace">Tsk. You two have a call-and-response thing going … Don't tell me you're long-lost lovers?</speak>
+            <speak chara="teslaNoFace">Tsk. You two have this call-and-response thing going on … Don't tell me you're long-lost lovers?</speak>
             <text>Twintail's brow furrows into the shape of a mountain.</text>
             <show chara="teslaEmbarraClose" position="center" opacity="0.7"/>
             <show chara="einSeriousAhClose" position="right"/>
@@ -646,7 +646,7 @@
             <speak chara="teslaNoFace">… Lieserl! Don't tell me that's the name you gave him?</speak>
             <show chara="teslaEmbarraGlassClose" position="center" opacity="0.7"/>
             <show chara="weltShameClose" position="left"/>
-            <speak chara="weltNoFace">Wait, were you referring to me as “little toy-boy”?!</speak>
+            <speak chara="weltNoFace">Wait, was it me you were referring to as “little toy-boy”?!</speak>
             <bgm src="lab.mp3" status="stop"></bgm>
             <end post="U2FsdGVkX18SorRINadIetIkimT9"/>
         </scene>
