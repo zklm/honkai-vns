@@ -18,7 +18,7 @@ For now I have created a separate fork, but will initiate pull requests once I h
 
 I will upload what I have previously translated into each of the chapters of the Anti-Entropy VN (up to Chapter 12). If time and energy permits, and if there is public interest, I may also contribute to the remaining chapters and VNs, adding to the work already done by Aiatar and [Arylin-Renata](https://github.com/Ayrlin-Renata/honkai-vns) with zklm.
 
-Please note that while I am of Asian background, I am not a native Mandarin speaker, nor am I 100% fluent in Chinese. All translation from my end was done with a healthy dose of Google Translate, mdbg.net, and what I could remember from Chinese School and TVB dramas. If there are any corrections/suggestions, please create an issue and I'll get to it when I can. Do note that you are also free to generate your own fork and create your own edits.
+Please note that while I am of Asian background, I am not a native Mandarin speaker, nor am I 100% fluent in Chinese. All translation from my end was done with a healthy dose of Google Translate, mdbg.net, and what I could remember from Chinese School and TVB dramas. If there are any corrections/suggestions, please create an issue and I'll get to it when I can. Do note that you are also free to generate your own fork and create your own edits, provided full credit is given to all translators.
 
 ## How to use
 
