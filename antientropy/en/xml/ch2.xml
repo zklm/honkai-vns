@@ -242,8 +242,7 @@
             <speak chara="weltNoFace">… Huh?</speak>
             <show chara="einSmileClose" position="right"/>
             <show chara="weltShameClose" position="left" opacity="0.7"/>
-            <speak chara="einNoFace">What, am I not just setting you up to fail and get scammed? How could you even have the time to do a pass over the entire Kensington District?</speak>
-            <!-- 碰瓷儿 = "break porcelain", to scam someone by setting up an accident, such as putting an "expensive" piece of porcelain somewhere where it can be easily knocked over and broken, then seeking compensation. --> 
+            <speak chara="einNoFace">What, am I not just setting you up to fail and get scammed? How could you even have the time to do a pass over the entire Kensington District?</speak> <!-- 碰瓷儿 = "break porcelain", to scam someone by setting up an accident, such as putting an "expensive" piece of porcelain somewhere where it can be easily knocked over and broken, then seeking compensation. --> 
             <text> The girl gently mocks and pities the fool who had just been the target of her own teasing.</text>
             <speak chara="einNoFace">Today we shall have pasta!</speak>
             <hide position="right"></hide>
@@ -311,8 +310,7 @@
             <speak chara="einNoFace">Well, here's an Italian restaurant.</speak>
             <text>The girl points to the tiny blackboard at the entrance of the restaurant. The names of the dishes on it are indeed Italian.</text>
             <text>… But what is an Italian restaurant doing with such a name?!</text>
-            <goto goto="70"/>
-            <!-- The translator does not know why the name is a source of controversy. "Caffé Concerto" sounds fine to me, if only a little corny. -->
+            <goto goto="70"/> <!-- The translator does not know why the name is a source of controversy. "Caffé Concerto" sounds fine to me, if only a little corny. -->
         </scene>
         <scene id="70" background="italianRestaurant.jpg">
             <bgm src="lab.mp3" status="start"></bgm>
@@ -331,8 +329,7 @@
             <speak chara="einNoFace">I just felt like having cake all of a sudden.</speak>
             <speak chara="weltNoFace">…</speak>
             <speak chara="einNoFace">The waiter is looking at you.</speak>
-            <speak chara="weltNoFace">Oh, uh … I'll have this baked snail … and I'll also have the seafood stew pasta. Uh, that's all. </speak>
-            <!-- Probably Polenta e Bogoni and Pasta Marinara. -->
+            <speak chara="weltNoFace">Oh, uh … I'll have this baked snail … and I'll also have the seafood stew pasta. Uh, that's all. </speak> <!-- Probably Polenta e Bogoni and Pasta Marinara. -->
             <text article="1">
                 <p class="article-text">The waiter walks away, satisfied with the order. The young girl, having nothing to do, gazes out of the windows, as if contemplating some question of philosophy. Her deep blue eyes, round doll-like face, topped by her fair natural curls — if it were not for that terrible hairstyle, she could easily have been an exemplar of beauty.</p>
             </text>
@@ -404,12 +401,10 @@
             <speak chara="weltNoFace">… Eh, this is not a matter of “can” or “can't”.</speak>
             <show chara="0einSlyVestClose-up" position="right"/>
             <show chara="weltTiredSweaterClose-up" position="left" opacity="0.7"/>
-            <speak chara="einNoFace">While we're on the topic, Dr Tesla is four years older than me, and she's an adult — if you really want to know.</speak>
-            <!-- ( ͡° ͜ʖ ͡°) -->
+            <speak chara="einNoFace">While we're on the topic, Dr Tesla is four years older than me, and she's an adult — if you really want to know.</speak> <!-- ( ͡° ͜ʖ ͡°) -->
             <show chara="0einSlyVestClose-up" position="right" opacity="0.7"/>
             <show chara="weltNormalSweaterClose-up" position="left"/>
-            <speak chara="weltNoFace">Why does the way you put it make her seem like she's socially-inept for her age? …</speak>
-            <!--  情商负分 = "EQ score in the negatives." -->
+            <speak chara="weltNoFace">Why does the way you put it make her seem like she's socially-inept for her age? …</speak> <!--  情商负分 = "EQ score in the negatives." -->
             <show chara="0einFoolVestClose-up" position="right"/>
             <show chara="weltNormalSweaterClose-up" position="left" opacity="0.7"/>
             <speak chara="einNoFace">It's not like Welt is any better.</speak>
