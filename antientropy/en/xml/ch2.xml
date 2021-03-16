@@ -19,7 +19,7 @@
             <speak chara="teslaNoFace"> Okay okay hurry up get out and get used to your surroundings!</speak>
             <speak chara="teslaNoFace">Don't you dare come back before noon!</speak>
             <hide position="center"/>
-            <text>He can't fathon why, but even though she is also a member of Schicksal, the feeling of being so cruelly treated by this girl —</text>
+            <text>He can't fathom why, but even though she is also a member of Schicksal, the feeling of being so cruelly treated by this girl —</text>
             <text>— It doesn't seem that unpleasant to him.</text>
             <speak chara="weltNoFace">Phew … Even now I'm having such mixed-up thoughts.</speak>
             <bgm src="serenity.mp3" status="start"></bgm>
