@@ -30,7 +30,7 @@
             <show chara="weltTes normal" position="left"/>
             <text>Having noticed something, Tesla furrows her brow, and immediately ducks to hide in Welt's shadow.</text>
             <speak chara="weltNoFace">What's the matter?</speak>
-            <speak chara="teslaNoFace">What rotten luck …  Of all the times it could happen, it had to be now that I bump into that person … </speak>
+            <speak chara="teslaNoFace">What rotten luck …  Of all the times it could happen, it had to be today that I bump into that person … </speak>
             <show chara="weltTes surprise" position="left"/>
             <speak chara="weltNoFace">Huh?</speak>
             <text>Lost and confused, Welt peers around in all directions, searching for answers. All he can notice is a group of people, dressed impeccably in black, riding an open-top elevator from the bottom of the lake, heading up towards them  — </text> <!-- 丈二和尚摸不着头脑 = confused and out of options, as if there was a "12-foot tall monk (statue), and one couldn't reach the top of his head". -->
