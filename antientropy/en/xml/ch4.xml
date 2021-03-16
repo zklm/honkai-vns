@@ -539,7 +539,7 @@
             <speak chara="planckNoFace">So these morsels, that people from a coastal region would otherwise rarely ever eat — they decided to call them “oysters” — half out of consolation, half out of amusement.</speak>
             <speak chara="planckNoFace"> In everyday life, we have a lot of names for these things; however, if we want to be accurate …</speak>
             <show chara="planckSmileClose-up" position="center"/>
-            <speak chara="planckNoFace">In a biological sense, we'd call them “testicles”.</speak>
+            <speak chara="planckNoFace">In a biological sense, we'd call them “testicles”.</speak> <!-- Rocky Mountain Oysters are also commonly considered aphrodisiacs. Take from that what you will. -->
             <show chara="teslaBoringDressClose-up" position="center"/>
             <bgm src="themeTesla.mp3" status="stop"></bgm>
             <speak chara="teslaNoFace">What?</speak>
@@ -562,137 +562,137 @@
         <scene id="50" background="streetBillings.jpg">
             <bgm src="serenity.mp3" status="start"></bgm>
             <sound src="8_30_wind.mp3"/>
-            <text>身处吧台之间, 人总是很容易忽略外部世界的变化 — 不管从何种意义上来说都是.</text>
-            <text>当瓦尔特一行人酒足饭饱、结账离开时, 雪不知何时又下了起来.</text>
-            <text>夜空中不见一丝月光 — 倒是纷飞的雪片, 在橘黄的路灯下缓缓飘落, 反射出星星点点的光华, 如梦似幻.</text>
+            <text>Within the confines of a tavern, it is easy for people to ignore any “change” occurring in the outside world — in every sense of that term.</text>
+            <text>By the time Welt and his party had eaten and drunk to their hearts' content, settled their bills and checked out, snow was already falling outside, having begun some time prior.</text>
+            <text>There is not a trace of moonlight in the night sky — instead, snowflakes swirl and float down gently under the tangerine street lights, reflecting the shimmering brilliance of the starry sky, as if it were all some illusory dream.</text>
             <goto goto="51" change="0"/>
         </scene>
         <scene id="51" background="CG4.jpg">
             <bgm src="serenity.mp3" status="continue"></bgm>
-            <text>背着醉成烂泥的特斯拉, 瓦尔特费力地抬了抬头, 望向夜空.</text>
-            <speak chara="weltNoFace">这就是雪啊…</speak>
-            <speak chara="weltNoFace">我不记得自己见过…但不知为何, 感觉很怀念啊.</speak>
-            <speak chara="einNoFace" remark="next">Déjà vu（既视感）.</speak>
-            <text>爱因斯坦撑起了一把伞, 并排走在了他的旁边.</text>
-            <speak chara="weltNoFace">呃…什么?</speak>
-            <speak chara="einNoFace" remark="next">幻觉记忆.不见得你以前就真的见过雪.可能只是此时此刻海马体兴奋过度了而已.</speak>
+            <text> Carrying a drunk-as-a-skunk Tesla on his back,  Welt laboriously lifts his head, and looks up at the night sky.</text>
+            <speak chara="weltNoFace">So, this is snow …</speak>
+            <speak chara="weltNoFace">I don't remember seeing it myself … and I don't know why, yet I feel a sense of nostalgia.</speak>
+            <speak chara="einNoFace" remark="next">Déjà vu.</speak>
+            <text>Einstein opens up an umbrella and falls into step beside him.</text>
+            <speak chara="weltNoFace">Erhm … Pardon?</speak>
+            <speak chara="einNoFace" remark="next">A hallucinatory memory. I don't think you've ever seen snow before. It may just be that your hippocampus is overstimulated at this moment.</speak>
             <remark>
-                <p class="article-text-h">注:</p>
-                <p class="article-text">Déjà vu是法文短语, 字面意思为“已经见过”, 指人在清醒的状态下第一次见到某场景, 却感到“似曾相识”, 是一种常见的生理现象.</p>
-                <p class="article-text">中文对此词汇借鉴日文译法, 一般译作“既视感”, 也有译作“幻觉记忆”的; 而英文则是直接照抄Déjà vu这一写法.</p>
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">Déjà vu is a French phrase that literally means “already seen”. It refers to a common physiological phenomenon where a person sees a scene for the first time in a conscious state, but feels like they have aleady seen the exact same situation a second time. </p>
+                <p class="article-text">(Translator's note: the Chinese note further explains the etymology of the Chinese and English terms for the phenomenon —  In Chinese, the term is borrowed from the Japanese translation, which is generally translated as “repeated sensation” (既视感), using the same characters as the Japanese Kanji (既視感), or “hallucinatory memory” (幻觉记忆); in English, it is directly copied from the French déjà vu.)</p>
             </remark>
-            <speak chara="weltNoFace">这…</speak>
-            <speak chara="einNoFace">人类的大脑有时候会欺骗自己.</speak>
-            <speak chara="weltNoFace">可是…</speak>
-            <speak chara="einNoFace">感情是真挚的, 但来源却有可能是伪造的.</speak>
+            <speak chara="weltNoFace">Um …</speak>
+            <speak chara="einNoFace">There are times the human brain sometimes deceives itself.</speak>
+            <speak chara="weltNoFace">But …</speak>
+            <speak chara="einNoFace">Your emotions may be sincere, but their origins may be fake.</speak>
             <speak chara="weltNoFace">…</speak>
-            <speak chara="einNoFace">抱歉, 好像煞风景了.</speak>
-            <speak chara="weltNoFace">不…我还挺喜欢这样随便说些有的没的.至少比一言不发有意思多了.</speak>
+            <speak chara="einNoFace">Sorry, it seems I've ruined the moment.</speak>
+            <speak chara="weltNoFace">No … I sort of like it when someone says something aimlessly like that, so casually and without a care in the world. At least, it's more interesting than not saying a word.</speak>
             <goto goto="60" change="0"/>
         </scene>
         <scene id="60" background="streetBillings.jpg">
             <bgm src="lab.mp3" status="start"></bgm>
             <show chara="planckSmileCoatFar" position="left"/>
-            <speak chara="planckNoFace">啊啦, 感情好像很不错呀.</speak>
-            <text>长发大姐姐不知何时从后面赶了上来.</text>
+            <speak chara="planckNoFace">Ah, it seems you two have quite a good relationship.</speak>
+            <text>The long-haired Big sister had managed to catch up from behind some time ago, without anyone noticing.</text>
             <show chara="planckSmileCoatFar" position="left" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="center"/>
-            <speak chara="einNoFace">教授, 年轻人说话长辈不要插嘴.</speak>
+            <speak chara="einNoFace">Professor, elders shouldn't interrupt when young people are talking to each other.</speak>
             <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
             <show chara="planckSadCoatFar" position="left"/>
-            <speak chara="planckNoFace">呜呜呜…丽瑟尔宝贝好过分!</speak>
-            <text>普朗克夸张地假哭起来.</text>
-            <speak chara="planckNoFace">姐姐要伤心了!本来还想告诉你们一个好事情的!</speak>
+            <speak chara="planckNoFace">Boo hoo hoo … Baby Lieserl is too cruel!</speak>
+            <text> Planck weeps in a feigned and exaggerated manner.</text>
+            <speak chara="planckNoFace">Now Big Sister is truly heartbroken! I had even planned to tell you some good news!</speak>
             <show chara="planckSadCoatFar" position="left" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="center"/>
-            <speak chara="einNoFace">教授, 恶意装可爱是很无聊的行为.</speak>
+            <speak chara="einNoFace">Professor, it is silly to pretend to be cute with less-than-wholesome intentions.</speak>
             <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
             <show chara="planckBoringCoatFar" position="left"/>
-            <speak chara="planckNoFace">哼, 人家明明是好心!</speak>
+            <speak chara="planckNoFace">Hmph, I am earnestly trying to be kind!</speak>
             <show chara="planckSadCoatFar" position="left"/>
             <speak chara="planckNoFace">…</speak>
             <show chara="planckSmileCoatFar" position="left"/>
             <shake position="left" time="250"></shake>
-            <speak chara="planckNoFace">你们全员都要小心被夜袭哦!</speak>
-            <text>双倍十七岁的“少女”突然像广告模特一样摆出“射中你心”的姿势.</text>
+            <speak chara="planckNoFace">All of you must be prepared for nighttime raids!</speak>
+            <text>The twice-seventeen-year-old girl suddenly puts on a pose, much like a model in an advertisement, and mimes a gesture of “firing shots at their chests”. </text>
             <show chara="planckSmileCoatFar" position="left" opacity="0.7"/>
             <show chara="weltShameWinterFar" position="right"/>
             <shake position="right" time="250"></shake>
-            <speak chara="weltNoFace">唉?!</speak>
-            <text>某个可怜的青年显然是被“夜袭”这个词汇吓了一跳.</text>
+            <speak chara="weltNoFace">Huh?!</speak>
+            <text>The poor young man is clearly taken aback by the words “nighttime raid”.</text>
             <show chara="einNormalWinterFar" position="center"/>
             <show chara="weltShameWinterFar" position="right" opacity="0.7"/>
-            <speak chara="einNoFace">…爱因斯坦对于观星并没有什么特别的兴趣.</speak>
-            <text>天然卷一语戳破了所谓“夜袭”的实际意思.</text>
-            <text>她们两个似乎就像家人一样熟悉彼此.</text>
+            <speak chara="einNoFace">… Einstein has no particular interest in stargazing.</speak>
+            <text>With this statement, Mophead nails the true meaning of the so-called “nighttime raid”.</text>
+            <text>The two women seem to be familiar with each other's mannerisms, as if they were family.</text>
             <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
             <show chara="planckSlyCoatFar" position="left"/>
-            <speak chara="planckNoFace">嗯哼?</speak>
-            <speak chara="planckNoFace">等你回了伦敦的闹市区, 就算是想看, 那也看不到了喽~~</speak>
+            <speak chara="planckNoFace">Uh huh?</speak>
+            <speak chara="planckNoFace">When you get back to downtown London, you won't be able to see the stars even if you want to, oo ~~</speak>
             <show chara="planckSlyCoatFar" position="left" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="center"/>
-            <speak chara="einNoFace">…啧.</speak>
+            <speak chara="einNoFace">… Hmm.</speak>
             <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
             <show chara="planckSlyCoatFar" position="left"/>
-            <speak chara="planckNoFace">唉呀唉呀, 口是心非了吧?</speak>
-            <text>长发大姐姐挑衅地摇晃着食指.</text>
+            <speak chara="planckNoFace">Hmm-ing and ha-ing, are you torn between two minds?</speak> <!-- 口是心非了 = "the mouth says yes but the heart refuses." -->
+            <text>The long-haired Big Sister wags her index finger provocatively.</text>
             <show chara="planckSmileCoatFar" position="left"/>
-            <speak chara="planckNoFace">不过今天晚上要好好睡哦 — 明天去现场, 大家都得早起.</speak>
+            <speak chara="planckNoFace">But you'll have to sleep well tonight — everyone needs to get up early tomorrow to travel to the site.</speak>
             <show chara="planckSmileCoatFar" position="left" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="center"/>
-            <speak chara="einNoFace">啰嗦.提起“夜袭”的明明是你自己吧.</speak>
+            <speak chara="einNoFace">So pedantic. You're the one who raised the idea of a “Nighttime Raid” in the first place.</speak>
             <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
             <show chara="planckSmileCoatFar" position="left"/>
-            <speak chara="planckNoFace">长辈当然要啰嗦一点嘛.</speak>
+            <speak chara="planckNoFace">Of course, us elders always tend to be a bit more pedantic.</speak>
             <hide position="center"/>
-            <text>不知何故, 普朗克突然抬起头来, 越过爱因斯坦的头顶, 直勾勾地看着瓦尔特.</text>
+            <text>Suddenly, for some reason, Planck raises her head, gazing over Einstein's head, to stare at Welt.</text>
             <show chara="planckSlyCoatFar" position="left"/>
-            <speak chara="planckNoFace">你说是不是呀?</speak>
+            <speak chara="planckNoFace">Don't you agree?</speak>
             <show chara="planckSlyCoatFar" position="left" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="right"/>
-            <speak chara="weltNoFace">呃…唉?</speak>
+            <speak chara="weltNoFace">Uh … huh?</speak>
             <show chara="weltSurpriseWinterFar" position="right" opacity="0.7"/>
             <show chara="planckSmileCoatFar" position="left"/>
-            <speak chara="planckNoFace">丽瑟尔这么可爱的女孩子 — 当哥哥的可不要欺负她哦.</speak>
+            <speak chara="planckNoFace">Lieserl is such a lovely girl — as an older brother you should not bully her, ja?</speak>
             <show chara="planckSmileCoatFar" position="left" opacity="0.7"/>
             <show chara="weltShyWinterFar" position="right"/>
-            <speak chara="weltNoFace">唉唉唉 — 哥哥?</speak>
+            <speak chara="weltNoFace">H-h-hey — brother?</speak>
             <show chara="weltShyWinterFar" position="right" opacity="0.7"/>
             <show chara="planckSeriousCoatFar" position="left"/>
-            <speak chara="planckNoFace">啊啦, 原来不对吗…</speak>
-            <text>长发大姐姐故作思考地说道.</text>
+            <speak chara="planckNoFace">Ara ara, guess I was wrong …</speak>
+            <text>Long-haired Big Sister responds pretentiously, as though she had already anticipated his response.</text>
             <show chara="planckSlyCoatFar" position="left"/>
-            <speak chara="planckNoFace">那么, 果然还是宠物?</speak>
+            <speak chara="planckNoFace">Fair enough, in that case, a pet perhaps?</speak>
             <show chara="planckSlyCoatFar" position="left" opacity="0.7"/>
             <show chara="weltShameWinterFar" position="right"/>
-            <speak chara="weltNoFace">宠、宠物又是怎么回事啦!</speak>
+            <speak chara="weltNoFace">P-pet? What is this all about?!</speak>
             <show chara="weltShameWinterFar" position="right" opacity="0.7"/>
             <show chara="planckSmileCoatFar" position="left"/>
-            <speak chara="planckNoFace">字面意思.非要我夸张一点的话…奴隶?活人玩具?</speak>
+            <speak chara="planckNoFace">I mean it literally. If I had to exaggerate a little … A slave? A living toy?</speak>
             <show chara="planckSmileCoatFar" position="left" opacity="0.7"/>
             <show chara="weltShameWinterFar" position="right"/>
-            <speak chara="weltNoFace">…那也太可怕了吧!</speak>
+            <speak chara="weltNoFace">… That's preposterous!</speak>
             <show chara="weltShameWinterFar" position="right" opacity="0.7"/>
             <show chara="planckSlyCoatFar" position="left"/>
-            <speak chara="planckNoFace">哎, 只要有个好主人, 明明就可以无忧无虑、养尊处优 — 有什么不好嘛.</speak>
+            <speak chara="planckNoFace">Hey, as long as you have a good master, you can undoubtedly live carefree and without worry, pampered like a prince — what's wrong with that?</speak>
             <show chara="planckSlyCoatFar" position="left" opacity="0.7"/>
             <show chara="schroNormalEmFar" position="center"/>
             <speak chara="schroNoFace">…</speak>
-            <text>薛定谔不知何时挤进了众人之间, 用一贯的冰冷眼神睥睨着普朗克那装腔作势的脸.</text>
-            <speak chara="schroNoFace">老师, 我有一句话不知当讲不当讲.</speak>
+            <text>Schrödinger had discreetly squeezed herself within their company, and now gazes disdainfully, with an unremitting ice-cold stare, at the pretentious expression on Plank's face.</text>
+            <speak chara="schroNoFace">Teacher, I have something to say, but I don't know whether I should say it or not.</speak>
             <show chara="planckBoringCoatFar" position="left"/>
             <show chara="schroNormalEmFar" position="center" opacity="0.7"/>
             <speak chara="planckNoFace">…</speak>
             <show chara="planckSadCoatFar" position="left"/>
-            <speak chara="planckNoFace">来了来了, 那个只会说煞风景话的薛定谔同学!</speak>
+            <speak chara="planckNoFace"> Here comes my wet blanket Schrödinger, who can only ever speak ill of things!</speak>
             <show chara="planckSadCoatFar" position="left" opacity="0.7"/>
             <show chara="schroNormalAhFar" position="center"/>
-            <speak chara="schroNoFace">谢谢老师您的恭维 — </speak>
-            <speak chara="schroNoFace"> — 在一个被林肯再造的国家说刚才那种话, 我觉得很不合适呢.</speak>
+            <speak chara="schroNoFace">Thank you for your compliment, Teacher — </speak>
+            <speak chara="schroNoFace"> — but I think, for you to say those things in a country whose foundations were rebuilt by Lincoln, it is grossly inappropriate.</speak>
             <show chara="planckSadCoatFar" position="left"/>
             <show chara="schroNormalAhFar" position="center" opacity="0.7"/>
             <speak chara="planckNoFace">…</speak>
-            <speak chara="planckNoFace">我就知道从你嘴里说不出什么好玩儿的话!哼!</speak>
+            <speak chara="planckNoFace">I knew there was never going to be any fun coming from your mouth! Hmph!</speak>
             <end post="U2FsdGVkX18Pl0DHdQ3CMr0NKlFs"/>
         </scene>
     </story>
