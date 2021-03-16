@@ -138,8 +138,7 @@
             <text>Once again, I'll need to put on a lot of electrodes — perhaps a blood draw, or even a bone marrow biopsy. Well, I'm used to it all by now.</text>
             <show chara="einSeriousAhCloseNoName" position="center"/>
             <speak chara="einSeriousAhClose">No, no need to get up. Just stay put.</speak>
-            <speak chara="einSeriousAhClose">Show me your soul.</speak>
-            <!-- Lost in translation. Chosen to use a different pun instead. The original light novel online (not VN) explictly mentions "Show me your genitals".-->
+            <speak chara="einSeriousAhClose">Show me your soul.</speak> <!-- Lost in translation. The translator has chosen to use a different pun instead. The original light novel online (not VN) explictly mentions "Show me your genitals".-->
             <speak chara="5">Oh …</speak>
             <bgm src="lab.mp3" status="stop"></bgm>
             <shake position="all" time="250"></shake>
@@ -316,8 +315,7 @@
         <scene id="80" background="weltRoomDay1.jpg" bgm="no">
             <bgm src="morning.mp3" status="start"></bgm>
             <text>There was a heavy rainstorm in the middle of the night —  opening the windows, one can sense the air is especially fresh and clean, leading one to doubt that this place could have ever been the birthplace of the Industrial Revolution.</text>
-            <text>Not far from here, perched on tree branches are several sparrows chirping constantly, having a lively discussion about the sun as it rises above the horizon.</text>
-            <!-- 山雀 = Titmouse but sparrow chosen here to avoid ambiguity re: tit-->
+            <text>Not far from here, perched on tree branches are several sparrows chirping constantly, having a lively discussion about the sun as it rises above the horizon.</text> <!-- 山雀 = Titmouse but sparrow chosen here to avoid ambiguity re: tit-->
             <text>At the first glimmer of dawn, a butterfly emerges from some dark crevice, languidly crawling across the window frame.</text>
             <speak chara="teslaNoFaceNoName">Hey.</speak>
             <text>The butterfly beats its wings twice, then disappears into the azure sky.</text>
@@ -594,8 +592,7 @@
             <text>Mophead clears her throat in a deliberate manner.</text>
             <show chara="einSeriousEmClose" position="right" opacity="0.7"/>
             <show chara="teslaAngryClose" position="center"/>
-            <speak chara="teslaNoFace">I'm just joking! With a dull, simple, pretty toy-boy like you, even if you had wanted to be our servant, we would never accept …</speak>
-            <!-- 小白脸 = "little white face", a derogatory term for a gigolo.-->
+            <speak chara="teslaNoFace">I'm just joking! With a dull, simple, pretty toy-boy like you, even if you had wanted to be our servant, we would never accept …</speak> <!-- 小白脸 = "little white face", a derogatory term for a gigolo.-->
             <show chara="teslaAngryClose" position="center" opacity="0.7"/>
             <show chara="weltNormalClose" position="left"/>
             <speak chara="weltNoFace">…</speak>
@@ -621,8 +618,7 @@
             <show chara="teslaEmbarraGlassClose" position="center"/>
             <speak chara="teslaNoFace">Is there anything I haven't explained clearly? Again, to put it in simple terms, your job is to take us out to have fun.</speak>
             <speak chara="teslaNoFace">But don't disturb us during work hours. Go idle by yourself in the library, or just go for a casual stroll around the place —</speak>
-            <speak chara="teslaNoFace">— But don't go strolling so far as to make this organisation think you're going to escape. We don't want to have to deal with the plainclothed coppers.</speak>
-            <!-- 便衣 = "Plain-clothed" (policemen) -->
+            <speak chara="teslaNoFace">— But don't go strolling so far as to make this organisation think you're going to escape. We don't want to have to deal with the plainclothed coppers.</speak> <!-- 便衣 = "Plain-clothed" (policemen) -->
             <speak chara="weltNoFace">…</speak>
             <show chara="teslaAngryClose" position="center"/>
             <speak chara="teslaNoFace">Oi! Is it okay or not? If you don't agree, we can always send you back, all right?!</speak>
@@ -635,8 +631,7 @@
             <speak chara="einNoFace">Dr Einstein believes that Welt is simply going through a state of shock and astonishment at the news.</speak>
             <show chara="einSmileClose" position="right" opacity="0.7"/>
             <show chara="teslaAngryClose" position="center"/>
-            <speak chara="teslaNoFace" remark="next">… Lieserl! Are you some troll from “The Lord of the Rings”? Stop using “Doctor this” or “Doctor that” to address us. It's getting very annoying!</speak>\
-            <!-- The VN uses 兽人 = "orc", not "troll" -->
+            <speak chara="teslaNoFace" remark="next">… Lieserl! Are you some troll from “The Lord of the Rings”? Stop using “Doctor this” or “Doctor that” to address us. It's getting very annoying!</speak> <!-- The VN uses 兽人 = "orc", not "troll" -->
             <show chara="teslaAngryClose" position="center" opacity="0.7"/>
             <remark post="U2FsdGVkX192eVQJxmFnhxbdYPSj">
                 <p class="article-text-h">Note:</p>
