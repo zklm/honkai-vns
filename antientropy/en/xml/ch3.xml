@@ -13,13 +13,12 @@
             <bgm src="lab.mp3" status="start"></bgm>
             <text>Compared to the tidy and orderly ground floor, the private space on the top floor is quite simply Hell on Earth.</text>
             <text>A few minutes ago, Welt would never have predicted that he would find these items outside a girl's bedroom  — </text>
-            <text>Pizza boxes piled together like Jenga.</text>
-            <!-- Note that Jenga was not invented until the 1980s -->
+            <text>Pizza boxes piled together like Jenga.</text> <!-- Note that Jenga was not invented until the 1980s -->
             <text>Wastepaper piled into bins and forming trash heaps the size of small mountains.</text>
             <text>Bras, undergarments and stockings, hang-drying everywhere.</text>
             <text>Mysterious electronic devices discarded and tossed against a corner, their surfaces covered with dust.</text>
             <text>It's hard to imagine how: but perhaps because the cleaners won't come upstairs, everything has now turned into this hair-raising spectacle.</text>
-            <text>Now if we were to confirm, with the tiniest, most remote possibilty, that this scene is actually typical for private residences of countless single ladies everywhere — god knows how many gentlemen will be left shellshocked and heartbroken?</text>
+            <text>Now, if there is the tiniest, most remote possibilty, that this scene is actually typical for private residences of countless single ladies everywhere — God knows how many gentlemen will be left shellshocked and heartbroken?</text>
             <text>At least, right now, Welt is searching for Room 203 with a heavy heart.</text>
             <sound src="8_24_knock_door.mp3"/>
             <text>“Knock Knock.”</text>
@@ -75,7 +74,7 @@
             <speak chara="teslaNoFace">… Have you gone mad?</speak>
             <show chara="teslaAngryNightyQ" position="center" opacity="0.7"/>
             <show chara="weltShameClose" position="left"/>
-            <speak chara="weltNoFace">I don't understand the situation neither!</speak>
+            <speak chara="weltNoFace">I don't understand the situation either!</speak>
             <show chara="weltSurpriseClose" position="left"/>
             <speak chara="weltNoFace">It was just that the short-sleeves — no, glasses — no, the Finn showed her a strange letter, then she immediately became all serious about it …</speak>
             <show chara="weltSurpriseClose" position="left" opacity="0.7"/>
@@ -146,8 +145,7 @@
         </scene>
         <scene id="28" background="white">
             <sound src="hit man.mp3"/>
-            <text>And with a muffled sound, Welt's “Welt” comes crashing down, instantly transforming into a sea of white.</text>
-            <!-- Remember that Welt means "World" in German. -->
+            <text>And with a muffled sound, Welt's “Welt” comes crashing down, instantly transforming into a sea of white.</text> <!-- Remember that Welt means "World" in German.-->
             <goto goto="30"/>
         </scene>
         <scene id="30" background="carNoon.jpg">
@@ -168,7 +166,7 @@
             <bgm src="street.mp3" status="continue"></bgm>
             <text>Squinting at the back seat through the rearview mirror, Welt spies the source of his suffering, using her compact mirror to calmly draw on her lipstick.</text>
             <text>Welt can't understand how such a person is capable of tossing her own living space into a complete shambles.</text>
-            <text>It's even messier than Einstein's hairdo seated next to her.</text>
+            <text>It's even messier than Einstein's hairdo next to her.</text>
             <text> — And in a hurry, she had almost forgotten to change her clothes before they departed.</text>
             <text article="1">
                 <p class="article-text">But perhaps more difficult to understand is this — where did she find that light billowing shawl, and fine one-piece dress? Not a single wrinkle on it. Anyone who has seen those Jenga stacks of pizza-boxes would be certain that this girl must have a four-dimensional wardrobe.</p>
@@ -232,8 +230,7 @@
             <speak chara="teslaNoFace"> But if you start acting all weird, our Righteous Friends of Justice from Scotland Yard will start investigating and asking difficult questions — and I do not particularly welcome that idea.</speak>
             <show chara="teslaBoringDressClose-up" position="left" opacity="0.7"/>
             <show chara="weltScaredSweaterClose-up" position="right"/>
-            <speak chara="weltNoFace">Isn't Scotland Yard a criminal police organisation?! Not the Home Office?!</speak>
-            <!-- Added "Home Office" to clarify -->
+            <speak chara="weltNoFace">Isn't Scotland Yard a criminal police organisation?! Not the Home Office?!</speak> <!-- Added "Home Office" to clarify -->
             <show chara="weltScaredSweaterClose-up" position="right" opacity="0.7"/>
             <show chara="teslaEmbarraDressClose-up" position="left"/>
             <speak chara="teslaNoFace">… Gosh, how could an amnesiac like you remember something as obscure as that?</speak>
@@ -385,7 +382,7 @@
             <text>… Especially when the scenery outside the window is an endless monotony of vast ocean.</text>
             <text>So, even when Welt is awoken by an urge to pass urine — </text>
             <text> — For a while, he hesitated to leave his seat.</text>
-            <text>He lifts the right arm of the lightly-snoring Twintails that had been draped across his body; and he helps the Finn on the other side of aisle pick up his glasses that had fallen to the floor — </text>
+            <text>He lifts the right arm of the lightly-snoring Twintails that had been draped across his body; and he helps the Finn on the other side of the aisle pick up his glasses that had fallen to the floor — </text>
             <show chara="einBlackVestClose-up" position="center" opacity="0.7"/>
             <text> — Only after stepping into the aisle does Welt notice that, among the travellers sleeping left and right, Einstein is still awake, sitting by a window and reading a book in the light.</text>
             <text>It seems that, every now and then, she is also jotting or scribbling something into her notebook.</text>
@@ -394,8 +391,8 @@
             <text article="1">
                 <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">Understood.</p>
             </text>
-            <text></text>
             <text>The messy-haired girl wrote on a slip of paper and held it up with her hand.</text>
+            <text>Is she reminding him not to disturb other people's sleep?</text>
             <speak chara="weltNoFace">…</speak>
             <text>Feeling embarrassed, the young man decides to get on with it and move towards the restroom.</text>
             <goto goto="55"/>
@@ -552,8 +549,7 @@
             <text article="1">
                 <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">Physical theory without mathematical notation is philosophy.</p>
                 <br />
-                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">That's why Sir Newton's masterpiece is called “The Mathematical Principles of Natural Philosophy”.</p>
-                <!-- Or perhaps `Dame Newton', given the gender-swapping in the Honkai universe. -->
+                <p class="article-text" style="color:rgb(181,233,247);font-style:italic;">That's why Sir Newton's masterpiece is called “The Mathematical Principles of Natural Philosophy”.</p> <!-- Or perhaps "Dame Newton", given the gender-swapping in the Honkai universe. -->
             </text>
             <show chara="weltBlackClose-up" position="center" opacity="0.7"/>
             <text article="1">
@@ -737,8 +733,8 @@
             <speak chara="einNoFace">Zzz …</speak>
             <speak chara="teslaNoFace">Zzz …</speak>
             <speak chara="nokiaNoFace">Zzz …</speak>
-            <text>Looking to his left and right, he sees his companions all indulging in their own personal dreamlands.</text>
-            <speak chara="weltNoFace">… Don't think too much, a nightmare is just a coincidental stroke of bad luck, nothing else.</speak>
+            <text>Looking to his left and right, he sees his companions all indulging in their own personal dreams.</text>
+            <speak chara="weltNoFace">… Don't think too much, a nightmare is just a coincidence, a stroke of bad luck, nothing else.</speak>
             <goto goto="68" change="0"/>
         </scene>
         <scene id="68" background="black">
@@ -822,10 +818,7 @@
             <speak chara="teslaNoFace">…</speak>
             <show chara="teslaEmbarraDressFar" position="center"/>
             <speak chara="teslaNoFace">Tut.</speak>
-            <speak chara="teslaNoFace">That man liked to talk around the point, but I could tell that they still have that same old authoritarian streak. After all, the tail cannnot be allowed to wag the dog, and a tree trunk must remain strong while its branches remain light. Now that a new branch finally prospers, they have come to fear it. And so they turn against it faster than turning the pages of a book.</speak>
-            <!-- 说的不疼不痒 = "Speaking neither of pain nor of itch" -->
-            <!-- 尾大不掉 = "A large tail will not be easy to discard or control" -->
-            <!-- 翻脸比翻书还快 = "turn about face faster than turning the pages of a book" -->
+            <speak chara="teslaNoFace">That man liked to talk around the point, but I could tell that they still have that same old authoritarian streak. After all, the tail cannnot be allowed to wag the dog, and a tree trunk must remain strong while its branches remain light. Now that a new branch finally prospers, they have come to fear it. And so they turn against it faster than turning the pages of a book.</speak> <!-- 说的不疼不痒 = "Speaking neither of pain nor of itch"; 尾大不掉 = "A large tail will not be easy to discard or control"; 翻脸比翻书还快 = "turn about face faster than turning the pages of a book" -->
             <show chara="teslaEmbarraDressFar" position="center" opacity="0.7"/>
             <show chara="einNormalCoatFar" position="right"/>
             <speak chara="einNoFace">…</speak>
