@@ -105,7 +105,7 @@
             <speak chara="weltNoFace">But what I wish to ask “you” is neither of those things.</speak>
             <show chara="weltNormalClose" position="left" opacity="0.7"/>
             <show chara="nokiaBagSeriousClose" position="right"/>
-            <speak chara="nokiaNoFace">You wish to ask a question specifically to — “me”?</speak>
+            <speak chara="nokiaNoFace">You wish to pose a question — specifically to “me”?</speak>
             <text>The look of Mr Gold-rimmed Glasses betrays a hint of surprise. He seems to waver ever so slightly.</text>
             <show chara="nokiaBagSeriousClose" position="right" opacity="0.7"/>
             <show chara="weltShyClose" position="left"/>
@@ -216,7 +216,7 @@
             <text>A furred shawl coat resembling a ferret, and an overflowing dress layered tier upon tier, resembling a cream cake — it is said to be a Victorian-era débutante dress.</text>
             <text>It is difficult to describe, but the dress worn on her body gives off a strange and incongruous vibe. Especially given that she is now sleeping, reclined on a seat with that book about Riemann plastered upside-down on her face.</text>
             <text>Needless to say, this could have only been the result of Tesla's personal fashion sense.</text>
-            <text>Also needless to say, this could have only been the result of Tesla's own pocket.</text>
+            <text>Also needless to say, this could have only been the result of Tesla's own wallet.</text>
             <text>And finally, it goes without saying that people like Tesla could never be caught reading professional or technical literature on an airplane.</text>
             <bgm src="themeTesla.mp3" status="start"></bgm>
             <hide position="center"/>
