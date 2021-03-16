@@ -192,10 +192,10 @@
             <speak chara="nokiaNoFace">I thought, since it's a question you wanted to ask me specifically, it must be related to something I'm very familiar with.</speak>
             <show chara="nokiaBagSmileClose" position="right" opacity="0.7"/>
             <show chara="weltTiredClose" position="left" opacity="1"/>
-            <speak chara="weltNoFace">… Give me a break, I barely want to know anything about this “sauna” business of yours!</speak>
+            <speak chara="weltNoFace">… Give me a break, I barely know or want to know anything about this “sauna” business of yours!</speak>
             <show chara="weltTiredClose" position="left" opacity="0.7"/>
             <show chara="nokiaBagSmileClose" position="right"/>
-            <speak chara="nokiaNoFace" remark="next">Oh? I thought it's the only cultural practice from my beloved Finland that has become popular worldwide?</speak>
+            <speak chara="nokiaNoFace" remark="next">Oh? I thought it's the only cultural export from my beloved Finland that has gained worldwide popularity?</speak>
             <remark>
                 <p class="article-text-h">Note:</p>
                 <p class="article-text">Sauna is the quintessence of Finnish national culture.</p>
