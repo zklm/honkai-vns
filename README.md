@@ -5,8 +5,8 @@ Continuation of work from https://github.com/zklm/honkai-vns, in the form of edi
 I am currently only working on the Anti-Entropy VN. However, the standalone VN viewers made by zklm are available below:
 
 - Anti-Entropy: https://zklm.github.io/honkai-vn-antientropy/ (Standalone)
-  - Chapters 1 to 3: done by listless-restless
-  - Chapters 4 to 12: translation in progress
+  - Chapters 1 to 4: done by listless-restless
+  - Chapters 5 to 12: translation in progress
   - Chapters 13 to 26: partially done by Aiatar and zklm
 - Durandal: https://zklm.github.io/honkai-vn-durandal/ (Standalone)
   - Chapters 1 to 20: done by Aiatar and zklm
