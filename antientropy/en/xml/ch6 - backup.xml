@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <story title="1">
+        <scene id="0" background="bg.jpg">
+            <bgm src="mid-lude.mp3" status="start"></bgm>
+            <cg src="newChapter.png" bg="bg.jpg"></cg>
+            <goto goto="10" change="#000000"/>
+        </scene>
+        <scene id="10" background="duckLake.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="schroNormalAhClose-up" position="center"/>
+            <speak chara="schroNoFace">Mountain Time, 11:38 — We've arrived at Yellowstone Lake.</speak>
+            <show chara="schroNormalEmClose-up" position="center"/>
+            <speak chara="schroNoFace"> Here's the lunch I've prepared for everyone in the morning. Let's eat while we walk.</speak>
+            <hide position="center"/>
+            <text>After a long and arduous trek, the Volkswagen Type 2 camper van is finally given the chance to rest its weary engine in the “West Thumb” parking lot .</text>
+            <text>As the group file out one-by-one from the camper van, Schrödinger announces the obvious details of their destination to the group, in her usual stilted voice.</text>
+            <text>On the north side of the parking lot, an area designated “Duck Lake” is surrounded by a temporary perimeter fence, marked by a restricted area sign.</text>
+            <text>The local police have set up a sentry box nearby. Planck gives them a cordial and familiar greeting, then leads the group through the fence into the enclosed area.</text>
+            <goto goto="20"/>
+        </scene>
+        <scene id="20" background="quarry.jpg">
+            <bgm src="9_28_cave.mp3" status="start"></bgm>
+            <text>Passing through the fence, it becomes clear that Duck Lake had long ago been drained of water, and the lake bed now lies in full view of everyone.</text>
+            <text> Welt is puzzled as to why the scene before him resembles a stone pit or quarry instead of an actual lake — </text>
+            <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterFar" position="right"/>
+            <speak chara="teslaNoFace">Tsk!</speak>
+            <hide position="right"/>
+            <show chara="weltTes normal" position="left"/>
+            <text>Tesla furrows her brow, and immediately ducks behind Welt to hide in his shadow. She seems to have noticed something. </text>
+            <speak chara="weltNoFace">What's the matter?</speak>
+            <speak chara="teslaNoFace">What rotten luck …  Of all the times it could happen, it just had to be today … </speak>
+            <show chara="weltTes surprise" position="left"/>
+            <speak chara="weltNoFace">Huh?</speak>
+            <text>Lost and confused, Welt begins looking around in all directions, searching for an answer. But all he seems to notice is a group of people, dressed impeccably in black, riding an open-top elevator from the bottom of the lake, heading up towards them  — </text> <!-- 丈二和尚摸不着头脑 = confused and out of options, as if there was a "12-foot tall monk (statue), and one couldn't reach the top of his head". -->
+            <text> — And this group appears to be led by a woman dressed in a masculine leisure suit and wearing a ponytail. She certainly cuts an extraordinary figure.</text>
+            <text>At the same time, Welt can feel Tesla frantically tracing circles on his back with a finger.</text>
+            <show chara="weltTes tired" position="left"/>
+            <speak chara="weltNoFace">Urgh … What is wrong with you? Dr Tesla?</speak>
+            <show chara="weltTes tired" position="left" opacity="0.7"/>
+            <bgm src="lab.mp3" status="start"></bgm>
+            <show chara="planckSmileCoatFar" position="center"/>
+            <speak chara="planckNoFace">Hi, Nancy!</speak>
+            <show chara="planckSlyCoatFar" position="center"/>
+            <speak chara="planckNoFace">Already finished with your tour?</speak>
+            <text>Ignoring Tesla and Welt mumbling to each other, Plank greets the arriving personnel in a calm and collected manner.</text>
+            <show chara="planckSlyCoatFar" position="center" opacity="0.7"/>
+            <show chara="edisonSeriousWinterFar" position="right"/>
+            <speak chara="edisonNoFace">Mm.</speak>
+            <text>The gaze of “Nancy” passes by Planck and Schrödinger, before resting upon Einstein and the others.</text>
+            <show chara="edisonNeckWinterFar" position="right"/>
+            <speak chara="edisonNoFace">Are these “all” your students?</speak>
+            <show chara="edisonNeckWinterFar" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatFar" position="center"/>
+            <speak chara="planckNoFace">It can be said so.</speak>
+            <text>The Long-haired Big Sister narrows her eyes and stares at Welt.</text>
+            <show chara="planckSmileCoatFar" position="center" opacity="0.7"/>
+            <show chara="weltTes normal" position="left"/>
+            <speak chara="weltNoFace">Um … actually … We are members of the Imperial Institute, Lab 42 … </speak>
+            <show chara="weltTes normal" position="left" opacity="0.7"/>
+            <show chara="edisonSeriousWinterFar" position="right"/>
+            <speak chara="edisonNoFace">Imperial Institute?</speak>
+            <text>The Lady in Menswear appears to be stunned for a few seconds.</text>
+            <show chara="edisonNeckWinterFar" position="right"/>
+            <speak chara="edisonNoFace">From London?</speak>
+            <show chara="edisonNeckWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltTes normal" position="left"/>
+            <speak chara="weltNoFace">Yes … </speak>
+            <show chara="weltTes normal" position="left" opacity="0.7"/>
+            <show chara="edisonSmileWinterFar" position="right"/>
+            <speak chara="edisonNoFace">Oh.</speak>
+            <hide position="center"/>
+            <sound src="9_28_walk on concrete.mp3"/>
+            <show chara="edisonSmileWinterClose" position="right"/>
+            <show chara="weltTes normal close" position="left"/>
+            <text>With a feigned smile, she walks up to the front of Welt's face, and begins staring, her two eyes gazing at a position just behind Welt's back.</text>
+            <show chara="weltTes normal close" position="left"/>
+            <speak chara="weltNoFace"> … </speak>
+            <text>The hand drawing circles on his back stops, as if on cue.</text>
+            <sound src="9_28_walk on concrete.mp3"/>
+            <show chara="edisonSeriousWinterClose-up" position="right"/>
+            <show chara="weltTes normal close-up" position="left"/>
+            <text>The lady takes one step closer.</text>
+            <text>Welt feels like their noses are about to bump into each other.</text>
+            <speak chara="weltNoFace"> … </speak>
+            <text>Although Welt can hardly breathe properly — </text>
+            <text> — The other person's gaze remains fixated on a specific spot behind Welt's head. As though Welt himself is a cloud of transparent air.</text>
+            <speak chara="teslaNoFace"> … </speak>
+            <speak chara="weltNoFace">Uh … Should I perhaps … move out of the way?</speak>
+            <show chara="edisonNeckWinteClose-up" position="right"/>
+            <speak chara="edisonNoFace">Of course. Be my guest.</speak>
+            <text>She doesn't even bother to make proper eye contact with the young man.</text>
+            <goto goto="25" change="0"/>
+        </scene>
+        <scene id="25" background="CG6-1.jpg">
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <speak chara="teslaNoFace"> … </speak>
+            <text>Sniff sniff.</text>
+            <text>The Menswear Lady extends her neck, and begins sniffing around Tesla's body.</text>
+            <speak chara="teslaNoFace">Tut. What are you doing?!</speak>
+            <text>Sniff sniff.</text>
+            <speak chara="teslaNoFace">Hey! That's sexual harassment!</speak>
+            <text>Sniff sniff.</text>
+            <speak chara="teslaNoFace">Einstein! Planck! Schrödinger! Aren't you going to come and help me deal with her?!</speak>
+            <text>Sniff sniff.</text>
+            <speak chara="teslaNoFace">Enough! What the hell are you doing! If you keep doing that, I'M GOING TO GET REAL ANGRY!</speak>
+            <speak chara="edisonNoFace">Oh?</speak>
+            <goto goto="30"/>
+        </scene>
+        <scene id="30" background="quarry.jpg">
+            <bgm src="horror.mp3" status="start"></bgm>
+            <show chara="teslaAngryGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="edisonSmileWinterFar" position="right"/>
+            <text>The Menswear Lady abruptly straightens her posture to an upright position.</text>
+            <show chara="edisonSlyWinterFar" position="right"/>
+            <speak chara="edisonNoFace">That ~ would ~ indeed ~ be ~ really ~ scary.</speak>
+            <speak chara="edisonNoFace">I ~ remember ~ that, </speak>
+            <speak chara="edisonNoFace">one ~ year, </speak>
+            <speak chara="edisonNoFace">you ~ got ~ just ~ a ~ teeny ~ bit ~ angry, </speak>
+            <speak chara="edisonNoFace">then ~ you ~ almost ~ had ~ my ~ office, </speak>
+            <speak chara="edisonNoFace">burnt ~ down ~ to ~ a ~ crisp — </speak>
+            <speak chara="edisonNoFace">Isn't ~ that ~ right?</speak>
+            <text>With a faint smile, she slowly recounts, word by word, what apparently sounds like a rather horrifying incident.</text>
+            <show chara="edisonSlyWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Hmph, that incident was not my fault — </speak>
+            <show chara="teslaAngryGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace"> — but still, I think it was a good thing that your building burned down and collapsed, you cheapskate!</speak> <!-- 铁公鸡 = "Iron Rooster", typically followed by 一毛不拔, "unwilling to give up even a single feather". She is probably implying that Nancy cut costs on construction or safety precautions. -->
+            <text>On the opposite side of the ring, Tesla refuses to back down or show any weakness, instead tossing back a look of disdain.</text>
+            <show chara="teslaAngryGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="edisonSeriousWinterFar" position="right"/>
+            <speak chara="edisonNoFace"> … I cannot communicate with someone like you, who lacks common sense in fiscal matters.</speak>
+            <show chara="edisonSeriousWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace"> … I cannot communicate with spoilt, filthy-rich brats who grew up in privilege and wealth!</speak> <!-- 暴发户 = "violently-rich household", describing the newly-rich or parvenu; 富二代 = "wealthy second generation" -->
+            <show chara="teslaEmbarraGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="edisonSighWinterFar" position="right"/>
+            <speak chara="edisonNoFace"> … </speak>
+            <speak chara="edisonNoFace">Do you know what kind of people I hate the most?</speak>
+            <speak chara="edisonNoFace">Those who speak of liberal democracy; of benevolence, justice, propriety, and virtue; yet they conduct research on weapons of mass destruction dedicated to achieving world domination.</speak> <!-- 仁义道德 = traditional Confucian values, often used sarcastically e.g. to describe hypocrisy. -->
+            <show chara="edisonSlyWinterFar" position="right"/>
+            <speak chara="edisonNoFace">Don't you feel just a little bit conflicted, Miss Tesla?</speak>
+            <show chara="edisonSlyWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaAngryGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Yes, you're not fond of inventing weapons!</speak>
+            <speak chara="teslaNoFace">But do you think that, even if you stop inventing new new weapons, they'll be no more people dying from wars?</speak>
+            <show chara="teslaBoringGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">There'll be a day, when both sides of a war will no longer be able to bear the cost of starting one — and that is our responsibility as inventors to bring about such a day!</speak>
+            <speak chara="teslaNoFace">This is the only way to end all war!</speak>
+            <show chara="teslaEmbarraGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">What else did your family do, apart from filling their coffers, winning the approval and praise of the pampered rich? — Can there ever be a higher purpose to such a lifestyle?</speak>
+            <show chara="teslaAngryGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">What is this about a “General Electric” company, or should I say “General Pathetic” company?</speak> <!-- Original Chinese had 通用 = "General Use" vs. 通胀 "Inflation"; 通用公司 can stand for 通用电气公司 = General Electric, which is Edison's renowned company. The pun doesn't really work outside of Chinese here, so I've opted to change it -->
+            <show chara="teslaAngryGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="edisonSighWinterFar" position="right"/>
+            <speak chara="edisonNoFace"> … You really went ahead and said it.</speak>
+            <show chara="teslaEmbarraGlassWinterFar" position="left"/>
+            <show chara="edisonSighWinterFar" position="right" opacity="0.7"/>
+            <speak chara="teslaNoFace">Of course I dare say it, I'm exercising the bare minimum of my right to free speech!</speak>
+            <show chara="teslaEmbarraGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="edisonSighWinterFar" position="right"/>
+            <speak chara="edisonNoFace"> … </speak>
+            <show chara="edisonSlyWinterFar" position="right"/>
+            <speak chara="edisonNoFace">Okay then.</speak>
+            <speak chara="edisonNoFace">“Free speech”.</speak>
+            <speak chara="edisonNoFace">For a loser bitch who refuses to speak politely — </speak>
+            <show chara="edisonSmileWinterFar" position="right"/>
+            <speak chara="edisonNoFace"> — a minor mishap, may be considered a major blessing, don't you think?</speak>
+            <text>The mouth of the Menswear Lady twitches a little, and she makes a gesture as though she is signalling for someone.</text>
+            <show chara="edisonSmileWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Y-y-you … What are you thinking of doing?!</speak>
+            <show chara="teslaNormalGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="edisonNeckWinterFar" position="right"/>
+            <speak chara="edisonNoFace">What … do you think I want to do?</speak>
+            <text>The Menswear Lady cocks her head innocently to one side.</text>
+            <show chara="edisonNeckWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Hey … This … This is happening in broad daylight!</speak>
+            <text> Poor Tesla becomes even more nervous when she sees the other person feigning innocence.</text>
+            <show chara="teslaNormalGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="edisonSmileWinterFar" position="right"/>
+            <bgm src="themeTesla.mp3" status="start"></bgm>
+            <speak chara="edisonNoFace">Fu.</speak>
+            <show chara="edisonSmileWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace"> … Eh?</speak>
+            <show chara="teslaNormalGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="edisonLaughWinterFar" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="edisonNoFace">Fu … fu ha ha ha ha ha ha ha ha HA HA HAHAHAHAHAHA!</speak>
+            <text>The Menswear Lady cannot hold it in anymore: without any hesitation, she begins laughing heartily towards the sky, and the previous feeling of tension and aloofness completely evaporates.</text>
+            <show chara="edisonLaughWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Y-y-you … scoundrel! What are you laughing at all of a sudden?!</speak>
+            <show chara="teslaEmbarraGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="edisonSmileWinterFar" position="right"/>
+            <speak chara="edisonNoFace">Fuhaha … </speak>
+            <speak chara="edisonNoFace">Nothing in particular … </speak>
+            <text>The other woman tries hard to hold back her laughter — </text>
+            <show chara="edisonSlyWinterFar" position="right"/>
+            <speak chara="edisonNoFace">I just wanted to say something like that once in a while … </speak>
+            <show chara="edisonSmileWinterFar" position="right"/>
+            <speak chara="edisonNoFace">And your response was really amusing … </speak>
+            <show chara="edisonLaughWinterFar" position="right"/>
+            <speak chara="edisonNoFace">Fuhahahaha … how could you be so cute!!!</speak>
+            <show chara="edisonSmileWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Y-y-y-y-y-y-you … </speak>
+            <show chara="teslaAngryGlassWinterFar" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace"> … pervert!!!</speak>
+            <goto goto="35"/>
+        </scene>
+        <scene id="35" background="quarry.jpg">
+            <bgm src="lab.mp3" status="start"></bgm>
+            <text>A few minutes later.</text>
+            <show chara="edisonSeriousWinterFar" position="right"/>
+            <speak chara="edisonNoFace"> … Mm-hmm. I too understand the current situation.</speak>
+            <text>The Menswear Lady, who had long since recovered her cool demeanour, nods indifferently.</text>
+            <show chara="edisonNeckWinterFar" position="right"/>
+            <speak chara="edisonNoFace">The investigation will be left to you.</speak>
+            <show chara="edisonNeckWinterFar" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatFar" position="left"/>
+            <speak chara="planckNoFace">Pew pew, my students are simply terrific!</speak>
+            <text>The Long-haired Big Sister makes an exaggerated motion to imitate the firing of a submachine gun.</text>
+            <show chara="planckSmileCoatFar" position="left" opacity="0.7"/>
+            <show chara="edisonSlyWinterFar" position="right"/>
+            <speak chara="edisonNoFace">Yes indeed …  especially that red-haired one, she seems full of fighting spirit now.</speak>
+            <show chara="edisonSlyWinterFar" position="right" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace"> … </speak>
+            <show chara="teslaBoringGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="edisonSlyWinterFar" position="right"/>
+            <speak chara="edisonNoFace">Ho ho, that's a good look. You should keep it up.</speak>
+            <text>The Menswear Lady suddenly reaches out and pats Tesla's head, before strutting away without so much as a second thought.</text>
+            <hide position="right"/>
+            <show chara="teslaBoringGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace"> … </speak>
+            <show chara="teslaEmbarraGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Abominable … this woman … !!!</speak>
+            <show chara="teslaAngryGlassWinterFar" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">You wait and see! As payback for today's events, I must re-double my efforts!</speak>
+            <show chara="teslaAngryGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="weltNormalWinterFar" position="center"/>
+            <speak chara="weltNoFace"> … That person just now … She was a bit scary, wasn't she?</speak>
+            <text>Welt scratches his head, completely oblivious to the context underlying that entire interaction.</text>
+            <show chara="weltNormalWinterFar" position="center" opacity="0.7"/>
+            <show chara="einNormalWinterFar" position="right"/>
+            <speak chara="einNoFace">Nancy Thomas Alva Edison, the patron of the North American branch, can be considered the actual person in charge — </speak>
+            <speak chara="einNoFace">Many people in private refer to her as “Princess Nancy”.</speak>
+            <show chara="einNormalWinterFar" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterFar" position="center"/>
+            <speak chara="weltNoFace">Urgh … Is it because she's always so overbearing and arrogant — so aggressive and moody?</speak>
+            <show chara="weltTiredWinterFar" position="center" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Not only that. Thanks to her family, this person is — </speak>
+            <speak chara="teslaNoFace">very, </speak>
+            <speak chara="teslaNoFace">very, </speak>
+            <show chara="teslaBoringGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">very;</speak>
+            <speak chara="teslaNoFace">very.</speak>
+            <show chara="teslaEmbarraGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">Very rich.</speak>
+            <text>With much deliberation and contained anger, Tesla recites a total of five “very”s — </text>
+            <show chara="teslaNormalGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">It is fair to say that she bought out the entire North American branch.</speak>
+            <show chara="teslaNormalGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="weltSurpriseWinterFar" position="center"/>
+            <speak chara="weltNoFace">Ah? Isn't she a very powerful person then?</speak>
+            <show chara="weltSurpriseWinterFar" position="center" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">It should be said, that she is more powerful than you could ever imagine.</speak>
+            <text>Red Twintails pouts with a slightly despondent expression.</text>
+            <show chara="teslaNormalGlassWinterFar" position="left"/>
+            <speak chara="teslaNoFace">She is undoubtedly a genius —  whether it be the art of invention, or the art of business — she is still a genius.</speak>
+            <speak chara="teslaNoFace">If you don't consider some of her other “qualities” … she is indeed an outstanding, extraordinary person.</speak>
+            <show chara="teslaNormalGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="weltNormalWinterFar" position="center"/>
+            <speak chara="weltNoFace">That's … </speak>
+            <show chara="weltNormalWinterFar" position="center" opacity="0.7"/>
+            <show chara="teslaAngryGlassWinterFar" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="teslaNoFace">We have a conflict in ideologies! And on top of that, personal grievances! Anyway, forget it! It'll get annoying if you keep asking!!</speak>
+            <show chara="teslaAngryGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="weltTiredWinterFar" position="center"/>
+            <speak chara="weltNoFace">Uh … </speak>
+            <show chara="weltTiredWinterFar" position="center" opacity="0.7"/>
+            <show chara="teslaAngryGlassWinterFar" position="left" opacity="0.7"/>
+            <show chara="planckSlyCoatFar" position="right"/>
+            <speak chara="planckNoFace">Unfortunately Tesla did suffer a bit during her internship under Edison.</speak>
+            <show chara="planckSmileCoatFar" position="right"/>
+            <speak chara="planckNoFace">Let's just consider the two of them as having an ill-fated, star-crossed relationship … Hahaha.</speak>
+            <hide position="right"/>
+            <show chara="planckSmileCoatFar" position="center"/>
+            <show chara="teslaNormalGlassWinterFar" position="left" opacity="0.7"/>
+            <text>As Professor Planck explains, she takes her turn to pat Twintails' head. This time, she does not offer any resistance.</text>
+            <show chara="planckSmileCoatFar" position="center" opacity="0.7"/>
+            <show chara="schroNormalEmFar" position="right"/>
+            <speak chara="schroNoFace"> … </speak>
+            <show chara="schroNormalAhFar" position="right"/>
+            <speak chara="schroNoFace">Anyway, we should end discussion on this topic.</speak>
+            <show chara="schroNormalEmFar" position="right"/>
+            <text>Schrödinger glances grudgingly at Tesla, pulls out her ID card, and swipes it on the activating device of the elevator.</text>
+            <show chara="schroNormalAhFar" position="right"/>
+            <speak chara="schroNoFace">Let's hurry up and enter the ruins — </speak>
+            <goto goto="40"/>
+        </scene>
+        <scene id="40" background="quarryDrop.jpg">
+            <bgm src="8_30_wind.mp3" status="start"></bgm>
+            <text remark="next">“And while we were advancing toward the centre, to which all weight is drawn — ”</text>
+            <text remark="next">“I, shivering in that eternally cold shadow — ”</text>
+            <text remark="next">“I know not if it was will or destiny or chance.”</text>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">The poetry recalled by Welt is from Dante's Divine Comedy (Mandelbaum translation, Inferno Canto 32. Translator's note: the original Chinese text omits the last line, without which the verse does not make much sense in English. In Chinese it would have read: 我不知这是出于天意，还是命运使然。)</p>
+            </remark>
+            <show chara="weltSurpriseWinterClose" position="center"/>
+            <speak chara="weltNoFace">So cold, so cold.</speak>
+            <show chara="weltSurpriseWinterClose" position="center" opacity="0.7"/>
+            <show chara="planckSlyCoatClose" position="right"/>
+            <speak chara="planckNoFace">This is how it is with an open-top elevator. Please bear with it just a little longer.</speak>
+            <show chara="planckSlyCoatClose" position="right" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">Ara, Assistant Welt, such a delicate flower, already struggling at five degrees below zero — </speak>
+            <speak chara="teslaNoFace"> — I'm really looking forward to seeing you in January when it's minus 20 degrees, just to see your reaction, hehehehe.</speak>
+            <show chara="teslaSnickerGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltNormalWinterClose" position="center"/>
+            <speak chara="weltNoFace"> … Sorry, I really don't like the cold.</speak>
+            <show chara="weltNormalWinterClose" position="center" opacity="0.7"/>
+            <show chara="einSmileWinterClose" position="right"/>
+            <speak chara="einNoFace">Then work hard to train your body. At some stage I want to take you to the Antarctic.</speak>
+            <show chara="einSmileWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltShameWinterClose" position="center"/>
+            <speak chara="weltNoFace"> … Even you, Einstein? Even you?</speak>
+            <goto goto="50"/>
+        </scene>
+        <scene id="50" background="mysGate.jpg">
+            <bgm src="themeEin.mp3" status="start"></bgm>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">This is … </speak>
+            <hide position="left"/>
+            <text>Although it is difficult for anyone, half-frozen in the cold wind, to express any sort of emotion, Welt's eyes betray his great shock at the scene before them.</text>
+            <text>It is a large, solemn, yet incongruous-looking, door. The heavy-duty metal door is covered in many scratches accumulated over many millennia, yet on the panel surface one can still clearly distinguish a line of simple but odd text.</text>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">ⵚⴳ ⴹⴷⵡⴱ ⴺⵋⴱ ⴶ ⵎⵓ (Eba Dagami Tashi Ha Nu)</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">For the next generation … to fight … it is up to us … </speak>
+            <speak chara="nokiaNoFace">“It is for the future that we must fight”. That's … an approximation of its meaning.</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right" />
+            <text>The Finn's voice becomes a little tense and excited.</text>
+            <show chara="nokiaSmileEmWinterClose-up" position="right" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-up" position="left"/>
+            <speak chara="planckNoFace">Truly a professional — </speak>
+            <show chara="planckSlyCoatClose-up" position="left"/>
+            <speak chara="planckNoFace">You can even translate it directly.</speak>
+            <show chara="planckSlyCoatClose-up" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">Well, well … </speak>
+            <text>The librarian scratches his head, embarrassed..</text>
+            <show chara="nokiaSmileEmWinterClose-up" position="right"/>
+            <speak chara="nokiaNoFace">It's just that, compared to the others, I have access to research materials that are a lot … closer to the “original source”, I guess?</speak>
+            <speak chara="nokiaNoFace">Besides, if it is an audiovisual resource, I can only ask my `student', someone better qualified, to interpret in my stead.</speak>
+            <show chara="nokiaSmileEmWinterClose-up" position="right" opacity="0.7"/>
+            <speak chara="weltNoFace">Ask … a student?）</speak>
+            <show chara="planckSlyCoatClose-up" position="left"/>
+            <speak chara="planckNoFace">Even then, you are already talented enough.</speak>
+            <speak chara="planckNoFace">After all, humans cannot compete with machines Ah, we digress, we digress.</speak>
+            <sound src="9_28_snap.mp3"/>
+            <text>The Long-haired Big Sister snaps her fingers — </text>
+            <show chara="planckSmileCoatClose-up" position="left"/>
+            <speak chara="planckNoFace">Shall we all enter? Everyone?</speak>
+            <goto goto="60"/>
+        </scene>
+        <scene id="60" background="casterCave.jpg">
+            <bgm src="9_28_cave.mp3" status="start"></bgm>
+            <text>Walking through the ruins while chewing on a meaty burger — for Welt, this is truly a novel experience.</text>
+            <text remark="next">The structure of the ruins is reminiscent of the ancient city of Petra, as seen  in a certain geographic magazine; or some dwarven city as described by Tolkien.</text>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Petra (Greek: Πέτρα) is an ancient city in Jordan. Historically, it had been a major trading town, situated strategically on a main thoroughfare, and allowing transactions between the East and the West. </p>
+                <p class="article-text">Petra is a very unique city. Its entrance is a narrow canyon about 1.5 kilometers long, surrounded by cliffs. All the main buildings in the city had been carved out from the russet sandstone cliffs.</p>
+            </remark>
+            <text>In the huge underground cavern, high-powered floodlights, marked with a “General Electric” trademark, pour bright light upon both naturally-formed stalactites and artificially-carved buildings alike.</text>
+            <text>Remnants of individual rooms are scattered about, as though there were stars under a night sky. These structures are connected by ancient plank walkways made from a metal resembling stainless steel; and the utilitarian, industrial design of it all gives one a sense of solidity and reliability.</text>
+            <text remark="next">The crumbling fences and dilapidated walls, together with the scrapped machine equipment, form a complex labyrinth. The entire lamentful scene is reminiscent of Pompeii buried under volcanic ash. </text>
+            <remark post="U2FsdGVkX18ZCrZsT1ihvTEdV62K">
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Pompeii was one of the ancient Roman cities, and was buried by the volcanic ash erupting from Mount Vesuvius on August 24, 79 AD./p>
+                <p class="article-text">Since the time in Pompeii was permanently fixed at August 24, 79 AD, historians and archaeologists could learn much about the life of many Romans during the first century.</p>
+            </remark>
+            <text>For a historian like Elias Nokianvirtanen, such a scene is undoubtedly eye-opening — </text>
+            <text> —  In fact, he begins behaving like a child visiting a museum for the first time: excitedly taking notes, lying flat on the ground, observing various minutiae, without any regard for his own dignity or the presence of others.</text>
+            <show chara="nokiaJokerWinterClose-up" position="center"/>
+            <shake position="center" time="250"></shake>
+            <speak chara="nokiaNoFace">Wow, M.i.L.a. ! </speak>
+            <text> With tomato sauce on his face, Dr Nokianvirtanen is completely mind-blown.</text>
+            <hide position="center"/>
+            <sound src="9_28_run.mp3"/>
+            <show chara="nokiaJokerWinterClose-up" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="nokiaNoFace">Oh-oh-oh! Isn't that a G.e.c.K.?</speak> <!-- Someone at Mihoyo has been playing Fallout. -->
+            <text>Spewing breadcrumbs from his mouth, Dr Nokianvirtanen dances and gesticulates with joy.</text>
+            <sound src="9_28_run.mp3"/>
+            <hide position="right"/>
+            <show chara="nokiaJokerWinterClose-up" position="left"/>
+            <shake position="left" time="250"></shake>
+            <speak chara="nokiaNoFace">Look, look! There are formulas left on this blackboard!</speak>
+            <speak chara="nokiaNoFace" remark="next"> … Alas, it is too faint, and I can't get the general gist of it. Speaking of which, what was the name of that one theory you guys were studying? Something about “M-theory”, right?</speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">M-theory is a theoretical system in physics that attempts to unify various forms of “superstring” theory.</p>
+                <p class="article-text"> Although a complete formulation of M-theory has not yet been found, this theory should be able to describe abstract objects called “branes”（a membrane-like set of points in high-dimensional space, directly generalising from the concept of a single “point” in one-dimension, as well as being able to approximate eleven-dimensional supergravity at low energies.</p>
+            </remark>
+            <text>With cream-covered fingertips, Dr Nokianvirtanen attempts to pull someone over.</text>
+            <goto goto="61" change="0"/>
+        </scene>
+        <scene id="61" background="casterCave.jpg">
+            <bgm src="9_28_cave.mp3" status="continue"></bgm>
+            <text>One after another, the girls begin to distance themselves from this man who has cast aside all self-restraint, probably because they cannot tolerate his wild enthusiasm.</text>
+            <show chara="einSeriousEmWinterClose" position="right"/>
+            <speak chara="einNoFace">Schrödinger.</speak>
+            <show chara="einSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalEmClose" position="left"/>
+            <speak chara="schroNoFace">Yes?</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousAhWinterClose" position="right"/>
+            <speak chara="einNoFace">This place is actually very sturdy in construction.</speak>
+            <show chara="einSeriousEmWinterClose" position="right"/>
+            <text>After tucking away the wrapping paper from her eaten lunch, Mophead directs her searchlight towards a reinforced bracket at the top of the cavern.</text>
+            <text>Most of these difficult-to-spot brackets are overgrown with stalactites, so it is clear that the supports are not modern creations.</text>
+            <show chara="einSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalEmClose" position="left"/>
+            <speak chara="schroNoFace">Mm-hmm.</speak>
+            <text>The Corkscrew Curl nods, and rapidly devours the last piece of sandwich in her hand.</text>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">That's right. The supporting structure is intact. There is no risk of falling rocks.</speak>
+            <show chara="schroNormalAhClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousAhWinterClose" position="right"/>
+            <speak chara="einNoFace">So all this rubble at the bottom … </speak>
+            <show chara="einSeriousAhWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">The destruction must have been man-made, yes?</speak>
+            <show chara="schroNormalEmClose" position="left"/>
+            <speak chara="schroNoFace">Mm. Can't be wrong about that.</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousEmWinterClose" position="right"/>
+            <speak chara="einNoFace"> … Foreign invasion? Infighting? Infectious disease?</speak>
+            <show chara="einSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">`Who knows, that would be the Finn's — </speak>
+            <show chara="schroNormalAhClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousEmWinterClose" position="right"/>
+            <sound src="9_28_sheeee.mp3"/>
+            <speak chara="einNoFace">Shh.</speak>
+            <text>Schrödinger was mid-way through her response, when Einstein suddenly places her index finger on her own lips.</text>
+            <show chara="einSeriousEmWinterClose" position="right"/>
+            <speak chara="einNoFace">You hear that? … Seems like there is some noise.</speak>
+            <show chara="einSeriousEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalEmClose" position="left"/>
+            <speak chara="schroNoFace"> … </speak>
+            <text>Schrödinger shakes her head.</text>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace"> … I can't hear anything either.</speak>
+            <text>Tesla speaks in a hushed tone.</text>
+            <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <sound src="9_28_mosquito.mp3"/>
+            <speak chara="einNoFace">Can't you guys hear? A very tiny, but very sharp, piercing sound … a little bit like tinnitus.</speak>
+            <show chara="einSleepWinterClose" position="right"/>
+            <text>Einstein closes her eyes, jams her pinky fingers into both ears, twists them around a few times, then suddenly pulls them back out.</text>
+            <speak chara="einNoFace">Nope. The noise is still there. I'm not hallucinating.</speak>
+            <show chara="einSleepWinterClose" position="right" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose" position="left"/>
+            <speak chara="nokiaNoFace">But we really cannot hear anything, no?</speak>
+            <text>The Finn, who had finally wiped his face clean, stares blankly at Welt.</text>
+            <show chara="nokiaSmileEmWinterClose" position="left" opacity="0.7"/>
+            <show chara="weltNormalWinterClose" position="right"/>
+            <speak chara="weltNoFace"> … Well I can't hear anything either.</speak>
+            <text>Welt also shakes his head.</text>
+            <show chara="weltNormalWinterClose" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose" position="left"/>
+            <speak chara="planckNoFace"> … </speak>
+            <show chara="planckNormalCoatClose" position="left"/>
+            <speak chara="planckNoFace">Mosquito tone.</speak>
+            <text>Planck places a palm to her forehead.</text>
+            <speak chara="planckNoFace">`In fact it seems to be an extremely high-frequency mosquito tone. Even Nikola cannot hear it any more.</speak>
+            <speak chara="planckNoFace">Can you tell where the source of the noise is, Lieserl?</speak>
+            <show chara="planckNormalCoatClose" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace">I'll try.</speak>
+            <hide position="right"/>
+            <hide position="left"/>
+            <text>Mophead closes her eyes, places both hands to her ears, and concentrates on determining the direction of that tiny piercing noise.</text>
+            <text>Tesla hurries forward and holds her arm, guiding her along the path.</text>
+            <show chara="weltSurpriseWinterClose" position="left"/>
+            <speak chara="weltNoFace">What's a mosquito tone?</speak>
+            <text>Welt has absolutely no idea what the scientists are busy doing this time.</text>
+            <show chara="weltSurpriseWinterClose" position="left" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="right"/>
+            <speak chara="teslaNoFace" remark="next">In simple terms … it's an ultrasound that only a minor can hear. It's most likely caused by some man-made facility that is still operational down here.</speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">“Mosquito tones” are tones specifically produced by special sound waves with frequencies of around 17.4 kHz. The ear's hearing of these sounds begins to decline sharply after the age of 18, and they can't be heard at all by the age of 25. </p>
+                <p class="article-text"> On the other hand, everyday imitations of mosquito sounds, including those from real mosquitoes, produce sound waves with frequencies of about 8 kHz, which can be heard by most people with normal hearing.</p>
+            </remark>
+            <text>Focused on helping Einstein, Tesla gives a few words of explanation without looking back at him.</text>
+            <goto goto="63"/>
+        </scene>
+        <scene id="63" background="casterCave.jpg">
+            <bgm src="9_28_cave.mp3" status="continue"></bgm>
+            <show chara="teslaNormalGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">There is a wall in front.</speak>
+            <goto goto="64"/>
+        </scene>
+        <scene id="64" background="casterCave.jpg">
+            <bgm src="9_28_cave.mp3" status="continue"></bgm>
+            <show chara="teslaNormalGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">Be careful of the step.</speak>
+            <goto goto="65"/>
+        </scene>
+        <scene id="65" background="casterCave.jpg">
+            <bgm src="9_28_cave.mp3" status="continue"></bgm>
+            <show chara="teslaEmbarraGlassWinterClose" position="center"/>
+            <speak chara="teslaNoFace">Wait … this is the dead end. We need a detour.</speak>
+            <goto goto="66"/>
+        </scene>
+        <scene id="66" background="casterCave.jpg">
+            <bgm src="9_28_cave.mp3" status="continue"></bgm>
+            <sound src="9_28_walk in cave.mp3"/>
+            <text>Following Einstein's lead, the group slowly ventures into the depths of the ruins.</text>
+            <text>Along the way, in addition to those baffling installations from the Previous Civilisation, there are also many relics from more recent times — </text>
+            <text remark="next"> — numerous bones, unweathered and intact; early nineteenth century rifles; and even some tents that were apparently from the local Shoshone tribe.</text>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Shoshone is an indigenous tribe that was widely active in the western United States and northern Mexico. Its language belongs to the Uto-Aztecan family.</p>
+                <p class="article-text">In the strategy game “Sid Meier's Civilisation V”, developed by Firaxis Games, Shoshone appeared as an independent civilisation and its leader was Pocatello.</p>
+            </remark>
+            <show chara="weltNormalWinterClose" position="left"/>
+            <speak chara="weltNoFace">These … What are these?</speak>
+            <text> Even Welt understood that the rifle in front of him, along with the other objects, could not have been more than two hundred years old.</text>
+            <show chara="weltNormalWinterClose" position="left" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">Don't know.</speak>
+            <show chara="nokiaSmileEmWinterClose" position="right"/>
+            <text>The Finn shakes his head.</text>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">At such a location under ground, I cannot figure out how there could be traces of current civilisation activity.</speak>
+            <show chara="nokiaSmileAhWinterClose" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose" position="left"/>
+            <speak chara="weltNoFace">Could it be an investigator previously hired by our organisation?</speak>
+            <show chara="weltNormalWinterClose" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="center"/>
+            <speak chara="schroNoFace">Impossible, I've never heard of our organisation working with the indigenous tribes.</speak>
+            <show chara="schroNormalAhClose" position="center" opacity="0.7"/>
+            <show chara="weltNormalWinterClose" position="left"/>
+            <speak chara="weltNoFace">So … has this place ever been used as a refuge by indigenous people?</speak>
+            <show chara="weltNormalWinterClose" position="left" opacity="0.7"/>
+            <show chara="schroNormalEmClose" position="center"/>
+            <speak chara="schroNoFace"> … Do you think they could have had the ability to drain the lake above us?</speak>
+            <show chara="schroNormalEmClose" position="center" opacity="0.7"/>
+            <show chara="weltNormalWinterClose" position="left"/>
+            <speak chara="weltNoFace">Eh … With the world always changing, perhaps at one point in time, this lake did not exist?</speak>
+            <show chara="weltNormalWinterClose" position="left" opacity="0.7"/>
+            <show chara="schroNormalEmClose" position="center"/>
+            <speak chara="schroNoFace"> … </speak>
+            <show chara="schroNormalAhClose" position="center"/>
+            <speak chara="schroNoFace">Even so, how did they get through that large front door, which literally required hydraulic pumps to breach from the outside?</speak>
+            <show chara="schroNormalAhClose" position="center" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose" position="left"/>
+            <speak chara="weltNoFace">That's … </speak>
+            <show chara="planckSeriousCoatClose" position="right"/>
+            <sound src="9_28_shee.mp3"/>
+            <speak chara="planckNoFace">Shh.</speak>
+            <text>Planck makes a gesture, signalling them to “please speak more softly”.</text>
+            <show chara="planckNormalCoatClose" position="right"/>
+            <speak chara="planckNoFace">（If you are really curious, I think there is a famous quote in a novel that fits this situation just now.）</speak>
+            <show chara="planckNormalCoatClose" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose" position="left"/>
+            <speak chara="weltNoFace"> … ?</speak>
+            <show chara="weltSurpriseWinterClose" position="left" opacity="0.7"/>
+            <show chara="planckSmileCoatClose" position="right"/>
+            <speak chara="planckNoFace" remark="next">(L'humaine sagesse était tout entière dans ces deux mots …)</speak>
+            <speak chara="planckNoFace" remark="next">(Attendre et espérer!)</speak>
+            <remark post="U2FsdGVkX19jfgwG9e6iwVwkY8Re">
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">“All human wisdom is contained in these two words: Wait and Hope!” — “The Count of Monte Cristo”.</p> <!-- Classy Oneesan -->
+            </remark>
+            <goto goto="68"/>
+        </scene>
+        <scene id="68" background="mysAisle.jpg">
+            <bgm src="9_28_cave.mp3" status="continue"></bgm>
+            <sound src="9_28_walk in cave.mp3"/>
+            <show chara="einSleepWinterClose" position="right"/>
+            <speak chara="einNoFace">Um … I think this is the spot.</speak>
+            <text>The group has halted in front of a room deep in the ruins.</text>
+            <show chara="einSleepWinterClose" position="right" opacity="0.7"/>
+            <show chara="planckNormalCoatClose" position="left"/>
+            <speak chara="planckNoFace">Thank you for your effort. Cover your ears and rest a while. Leave the opening of the door to us.</speak>
+            <hide position="right"/>
+            <text>Planck urges Einstein, while at the same time studying the mechanism on the containment door.</text>
+            <sound src="door open.mp3"/>
+            <text>Crunch.</text>
+            <text>To everyone's surprise, the mysterious door opens with only a light tug from Planck.</text>
+            <show chara="planckNormalCoatClose" position="left"/>
+            <speak chara="planckNoFace"> … </speak>
+            <show chara="planckSmileCoatClose" position="left"/>
+            <speak chara="planckNoFace"> … I'm, I'm not that rough a woman, you know. Hmph.</speak>
+            <show chara="planckSmileCoatClose" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="right"/>
+            <speak chara="schroNoFace"> … Nobody cares, Professor.</speak>
+            <goto goto="70"/>
+        </scene>
+        <scene id="70" background="mysLab.jpg">
+            <bgm src="horror.mp3" status="start"></bgm>
+            <text>On the other side of the door is an abnormally clean room.</text>
+            <text>On all four walls, some material resembling plastic wallpaper has already liquefied and crumbled away; but remarkably, the ivory-coloured table in the centre of the room is almost spotless.</text>
+            <text>On the table sits a weird machine with many tubular protrusions —  within it, red and green fluorescent lights flicker incessantly.</text>
+            <show chara="schroNormalAhClose" position="right"/>
+            <speak chara="schroNoFace">There shall be no more strange noises from now on.</speak>
+            <show chara="schroNormalEmClose" position="right"/>
+            <text>Schrödinger picks up the weird machine from the table, and takes out a bar-shaped, battery-like, object from its base.</text>
+            <show chara="schroNormalAhClose" position="right"/>
+            <speak chara="schroNoFace">From the look of its structural design, this should be an ultrasonic generator. I don't know how it could've remained functional for so long.</speak>
+            <show chara="schroNormalEmClose" position="right" opacity="0.7"/>
+            <show chara="planckSeriousCoatClose" position="left"/>
+            <speak chara="planckNoFace">Ultrasound … So the mosquito tone was just a secondary effect … </speak>
+            <text>Plank lifts the portable torch over her shoulder and looks back out towards the door.</text>
+            <show chara="planckNormalCoatClose" position="left"/>
+            <speak chara="planckNoFace">Lieserl? Can you still hear that sound?</speak>
+            <show chara="planckNormalCoatClose" position="left" opacity="0.7"/>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace"> … No. It's gone.</speak>
+            <text>To show that she is indeed no longer affected, the girl walks through the door with her head raised.</text>
+            <show chara="einSeriousAhWinterClose" position="right"/>
+            <speak chara="einNoFace">Wait … this is … </speak>
+            <text> Suddenly, the girl's eyes widen. Aided by the torchlight on someone's shoulder, she is able to notice something on the ceiling.</text>
+            <goto goto="75" change="0"/>
+        </scene>
+        <scene id="75" background="CG6-2.jpg">
+            <bgm src="8_24_war.mp3" status="start"></bgm>
+            <speak chara="nokiaNoFace">No, this can't be … This … this … </speak>
+            <text>The Finn, upon raising his head, exclaims in surprise.</text>
+            <speak chara="nokiaNoFace">Isn't that English? Modern English!</speak>
+            <speak chara="teslaNoFace">It's really true … Th-that writing is — </speak>
+            <text>To the young ones who come here </text>
+            <text>I leave the last Soulium to you</text>
+            <text>Knight of the Maiden Castle</text>
+            <text>H Londinium Doire A</text>
+            <speak chara="weltNoFace">Wh … what is this?</speak>
+            <speak chara="planckNoFace">Schrödinger!</speak>
+            <speak chara="planckNoFace">The machine you are holding … Is it missing something?</speak>
+            <speak chara="schroNoFace">Well … let me see… </speak>
+            <text>Corkscrew Ponytail places the mysterious machine on the ground and begins dismantling it.</text>
+            <speak chara="schroNoFace">It should open up here … Oh … There is indeed a cavity in it … and a receptacle … </speak>
+            <speak chara="teslaNoFace"> … An ultrasonic Soulium recorder?</speak>
+            <text>Tesla's eyes suddenly flash with excitement.</text>
+            <speak chara="teslaNoFace">It must be this H person who wants to entrust us with the data in the Soulium!</speak>
+            <goto goto="80" change="0"/>
+        </scene>
+        <scene id="80" background="mysLab.jpg">
+            <bgm src="8_24_war.mp3" status="continue"></bgm>
+            <show chara="schroNormalAhClose" position="right"/>
+            <speak chara="schroNoFace">So … could it be some very important data?</speak>
+            <show chara="schroNormalEmClose" position="right"/>
+            <text>Schrödinger places the mystery machine back on the table, then gestures before the excited Twintails.</text>
+            <show chara="schroNormalEmClose" position="right" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">Uh … it must be that this H somebody had hidden it in a location that is more secure or better concealed, don't you think?</speak>
+            <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="right"/>
+            <speak chara="schroNoFace">So why did he or she do this? Wouldn't it be better to leave it intact if you want to give it to future generations to study?</speak>
+            <show chara="schroNormalEmClose" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace"> … Maybe this person had some urgent reason to transfer the Soulium to a new location?</speak>
+            <show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="right"/>
+            <speak chara="schroNoFace">So you want to say that some ancient person had taken the Soulium and left this clue for us?</speak>
+            <show chara="schroNormalEmClose" position="right"/>
+            <text> Schrödinger shrugs her shoulders in a non-committal manner.</text>
+            <show chara="schroNormalAhClose" position="right"/>
+            <speak chara="schroNoFace">In that case, shouldn't there be a clearer hint?</speak>
+            <speak chara="schroNoFace"> — And not some vague ambiguous text? No matter how you look at it, it seems more likely that someone has stolen the Soulium and is now pulling our leg.</speak>
+            <show chara="schroNormalEmClose" position="right" opacity="0.7"/>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">Well … </speak>
+            <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="right"/>
+            <speak chara="schroNoFace">Furthermore, according to this reasoning, we are not the first — </speak>
+            <show chara="schroNormalEmClose" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousAhWinterClose" position="right"/>
+            <speak chara="einNoFace">Londonderry, a city in Northern Ireland.</speak>
+            <show chara="einNormalWinterClose" position="right"/>
+            <text>All of a sudden, and out of the blue, the Mophead who had been silent all this time speaks up.</text>
+            <show chara="einNormalWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaNormalGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">Uh … Ah!</speak>
+            <text>The Twintails who had been lost for words has suddenly reached an epiphany.</text>
+            <show chara="teslaSnickerGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace" remark="next">Yes! Londinium was the old name for London in Ancient Rome!</speak>
+            <remark post="U2FsdGVkX19WcBJfOavW3jLcg5FR">
+                <p class="article-text-h">Note: </p>
+                <p class="article-text"> Londinium, also known as Roman London, was founded in about 43 AD, and later evolved into today's British capital, London. </p>
+                <p class="article-text">Between 190 and 225 AD, the Romans built a sturdy wall for Londinium, as one of the largest projects in the British province at that time, and it was as famous as the Great Wall of Hadrian. The London Wall stood for nearly two thousand years.</p>
+            </remark>
+            <show chara="teslaBoringGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">Yeah? Wait? Why Northern Ireland?</speak>
+            <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="einSeriousAhWinterClose" position="right"/>
+            <speak chara="einNoFace" remark="next">Of all the places whose name includes the word “London”, only “Londonderry” has the nickname, “Maiden City” or “Castle”. This is because, historically, it has never been captured by foreign enemies.</speak>
+            <show chara="einNormalWinterClose" position="right"/>
+            <speak chara="einNoFace" remark="next">Incidentally, “Doire” is also Gaelic for “Derry”.So that's double the evidence.</speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text"> Londonderry, called Derry (Gaelic: Doire) by the Irish, is a city in the northwestern part of Northern Ireland in the United Kingdom, and is also the county seat of Londonderry County.</p>
+                <p class="article-text">The city has the nickname “Maiden City” — because its walls have never been hit by artillery shells during the recent wars. It is also one of the very few cities in Europe whose walls have never been breached.</p>
+                <p class="article-text">For the average person, the city's popularity is likely to come from song “Londonderry Air”.</p>
+            </remark>
+            <show chara="einNormalWinterClose" position="right" opacity="0.7"/>
+            <show chara="teslaStarGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">Oh-oh-oh! That's it!</speak>
+            <text>Twintails looks admiringly at her roommate.</text>
+            <show chara="teslaStarGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="right"/>
+            <speak chara="schroNoFace"> … That may be just a coincidence still.</speak>
+            <show chara="schroNormalEmClose" position="right"/>
+            <text>Schrödinger is still not particularly convinced.</text>
+            <show chara="schroNormalEmClose" position="right" opacity="0.7"/>
+            <show chara="teslaEmbarraGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">How in the world can there possibly be such a coincidence?!</speak>
+            <show chara="teslaEmbarraGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="right"/>
+            <speak chara="schroNoFace" remark="next">From a mathematical perspective, don't even talk about it —  even the conception and birth of a person is a zero-probability event.</speak>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">In probability theory, if the probability of an event is 0, it is called a “zero-probability” event, which means that the event “almost certainly does not happen”.</p>
+                <p class="article-text">Since in an infinite set, the probability of an event depends on its measurement in the sample space, there are indeed “possible” but “almost certainly improbable” events. For example — “take any number from all real numbers, and the number is rational”.</p> <!-- Schrödinger is trying to argue in a roundabout way that the world is full of coincidences - even people who are walking about today are the result of low-probability events - so this clue also being a coincidence is really not that surprising. -->
+            </remark>
+            <show chara="schroNormalEmClose" position="right" opacity="0.7"/>
+            <show chara="teslaAngryGlassWinterClose" position="left"/>
+            <speak chara="teslaNoFace">`Don't talk to me about mathematics! What does this have to do with maths!?</speak>
+            <show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7"/>
+            <show chara="planckNormalCoatClose" position="center"/>
+            <speak chara="planckNoFace">Ahem.</speak>
+            <text>Seeing that the direction of the two girls' dispute has slowly deviated off-track, Big Sister Planck deliberately clears her throat.</text>
+            <show chara="planckSmileCoatClose" position="center"/>
+            <speak chara="planckNoFace">At the moment, we cannot confirm anything yet. I do have an idea, but I don't know whether you'll agree … </speak>
+            <show chara="planckSlyCoatClose" position="center"/>
+            <text>Before introducing her proposition, she gives Tesla a sly glance.</text>
+            <goto goto="90"/>
+        </scene>
+        <scene id="90" background="planeNight.jpg">
+            <bgm src="serenity.mp3" status="start"></bgm>
+            <sound src="8_24_launch.mp3"/>
+            <text>Late night, the next day.</text>
+            <text remark="next">On the flight back to London, a terminally-bored Welt returns the playing cards to their box. One more round of that single-player game called “Solitaire”, and he felt he could vomit.</text>
+            <remark>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">“Patience” (in Europe) or “Solitaire” (in North America) is a single-player card game that has been included with Windows since version 3.0. Its official Chinese translation is, quite simply, 纸牌 or “playing cards”. </p>
+                <p class="article-text">Interestingly, since Windows became a standard operating system, government employees have been playing the game during business hours, and it has become a common problem worldwide. In 2006, when the then Mayor of New York City, Michael Bloomberg, saw a civil servant playing Solitaire with an office computer, he decided to fire him immediately to serve as a warning to others.</p> <!-- The translator is also a recovering Solitaire addict. -->
+            </remark>
+            <text>Einstein again has a book covering her face, and Tesla is again asleep and sprawled all over her seat. As for the Finn who was there before — he is no longer on this plane at all.</text>
+            <goto goto="95"/>
+        </scene>
+        <scene id="95" background="mysLab2.jpg">
+            <bgm src="themeWelt.mp3" status="start"></bgm>
+            <show chara="planckNormalCoatClose" position="center"/>
+            <speak chara="planckNoFace">After today's investigation, I suggest that we divide our troops to follow two paths.</speak>
+            <text>The previous day, at the cavern beneath Yellowstone Park, Professor Big Sister proposed her idea.</text>
+            <show chara="planckSmileCoatClose" position="center"/>
+            <speak chara="planckNoFace">The Lab 42 team shall return to London to investigate the clues of this certain “H.A.” person; We, the North American branch, shall continue to excavate these historical ruins — </speak>
+            <show chara="planckSlyCoatClose" position="center"/>
+            <speak chara="planckNoFace">Ah, it'll be better for Dr Nokianvirtanen to stay here and aid us. Your translation skills will be even more useful here.</speak>
+            <show chara="planckSlyCoatClose" position="center" opacity="0.7"/>
+            <show chara="nokiaSmileAhWinterClose" position="right"/>
+            <speak chara="nokiaNoFace">That should be no problem … as long as both Einstein and Tesla agree.</speak>
+            <show chara="nokiaSmileEmWinterClose" position="right" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">Mm … it won't be a bad idea to leave the expert on ancient writing with us..</speak>
+            <text>It seemed that even Schrödinger was quite satisfied with this arrangement.</text>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="teslaSnickerGlassWinterClose" position="right"/>
+            <shake position="right" time="250"></shake>
+            <speak chara="teslaNoFace">No problem from our side as well!</speak>
+            <text> On the other hand, Tesla was all too eager to speak on behalf of Lab 42.</text>
+            <show chara="teslaSnickerGlassWinterClose" position="right" opacity="0.7"/>
+            <show chara="planckSlyCoatClose" position="center"/>
+            <speak chara="planckNoFace">In addition, I have already spoken with Edison — and I will return to the headquarters as soon as possible to report on behalf of the North American branch.</speak>
+            <show chara="planckSmileCoatClose" position="center"/>
+            <speak chara="planckNoFace">`Conveniently, I'll be on the same flight as Lab 42.</speak>
+            <show chara="planckSmileCoatClose" position="center" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">Huh?</speak>
+            <text>Schrödinger was apparently unaware of this.</text>
+            <speak chara="schroNoFace">Shouldn't she attend the debriefing in person?</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="planckSlyCoatClose" position="center"/>
+            <speak chara="planckNoFace">To let our “Princess Nancy” go and meet the Council … </speak>
+            <show chara="planckSmileCoatClose" position="center"/>
+            <speak chara="planckNoFace">Hehe, I don't have to say anything, and you can probably imagine the scene that would cause.</speak>
+            <text> The Long-haired Professor laughed bitterly.</text>
+            <show chara="planckSeriousCoatClose" position="center"/>
+            <speak chara="planckNoFace">Recently there have been more and more conflicts between our branch and headquarters … if I go in her stead, the communication will run just a little smoother.</speak>
+            <show chara="planckSeriousCoatClose" position="center" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">That just sounds like a procrastination tactic.</speak>
+            <show chara="schroNormalEmClose" position="left"/>
+            <text>The Corkscrew Ponytail sighed.</text>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace">Since Her Royal Highness made the branch a business, we have not had a good relationship with that group of old codgers.</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="planckSlyCoatClose" position="center"/>
+            <speak chara="planckNoFace">Hehe, they seem to be friendlier even with the Soviets.</speak>
+            <text>Big Sister shrugged.</text>
+            <show chara="planckBoringCoatClose" position="center"/>
+            <speak chara="planckNoFace">But to be honest, in their eyes, being who they are: the nation, the economy, and other such things from “surface society”; these are all but simple toys to them.</speak>
+            <show chara="planckBoringCoatClose" position="center" opacity="0.7"/>
+            <show chara="schroNormalAhClose" position="left"/>
+            <speak chara="schroNoFace"> … After all, they seem to think that only the Valkyries can really solve problems.</speak>
+            <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
+            <show chara="planckSadCoatClose" position="center"/>
+            <speak chara="planckNoFace">It would be nice if the efficiency of the prototype mecha can be increased two to three-fold.</speak>
+            <show chara="planckSmileCoatClose" position="center"/>
+            <text>Planck reassuringly patted Schrödinger's head.</text>
+            <show chara="planckSmileCoatClose" position="center"/>
+            <speak chara="planckNoFace">As long as we continue to make such advances in our technology, our delaying tactics will not be in vain.</speak>
+            <goto goto="100"/>
+        </scene>
+        <scene id="100" background="planeNight.jpg">
+            <bgm src="serenity.mp3" status="start"></bgm>
+            <show chara="planckSadCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">Ah … so bored … </speak>
+            <show chara="planckSmileCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">You! Won't you come play with your sister?</speak>
+            <text>At some point in time, the Long-haired Big Sister had lept into the seat next to the young man.</text>
+            <show chara="planckSmileCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">Forgive me, but I must refuse.</speak>
+            <text>It seems that the young man's social status has not yet reached the bottom of the food chain.</text>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">Ara …  Why am I so quickly despised … </speak>
+            <text>The other person plays around with the hair by her ear, and pouts delicately.</text>
+            <show chara="planckSlyCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="weltSurpriseWinterClose-up" position="left"/>
+            <speak chara="weltNoFace"> … Who are you to blame? Just a while ago, you pulled me over to tell me a bunch of really bad jokes.</speak>
+            <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="planckBoringCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">Tsk.</speak>
+            <show chara="planckBoringCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="weltShameWinterClose-up" position="left"/>
+            <speak chara="weltNoFace"> … Hmm? Don't tell me that you still wish to continue?</speak>
+            <show chara="weltShameWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="planckSadCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">Scientists clearly have all kinds of hobbies … </speak>
+            <text>The Long-haired Big Sister puts on a pitiful face.</text>
+            <show chara="planckSmileCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">Compared to eating, drinking, whoring, gambling and so on, what is it to occupy you with a little joke … ?</speak>
+            <show chara="planckSadCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">From my perspective, is it because you only have my students in your heart?</speak>
+            <show chara="planckBoringCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">You despise your big sister for being too old, don't you?!</speak>
+            <show chara="planckBoringCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">No … no, that's not true … Why would you think so?!</speak>
+            <show chara="weltTiredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">Then come and play with me!</speak>
+            <show chara="planckSmileCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace"> … So, Professor, can you at least explain what you want to play?</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">Hmm … </speak>
+            <show chara="planckSmileCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">What sorts of things would a little brother be interested in … </speak>
+            <show chara="planckSlyCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">Since the others are sleeping, how about we go on a date?</speak>
+            <show chara="planckSlyCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="weltShameWinterClose-up" position="left"/>
+            <speak chara="weltNoFace"> … Huh?!</speak>
+            <speak chara="weltNoFace">Wh-what are you saying just now?!</speak>
+            <show chara="weltShameWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="planckSmileCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">Hmm?</speak>
+            <show chara="planckSlyCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">What, is there something with your big sister that you're not satisfied with?</speak>
+            <show chara="planckSlyCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="weltTiredWinterClose-up" position="left"/>
+            <speak chara="weltNoFace"> … This is not a question of being satisfied or not!</speak>
+            <show chara="weltTiredWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="planckSadCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">Mmm … but after we get off the plane, won't we be going off on our own separate paths, to do our own separate things?</speak>
+            <show chara="planckSadCoatClose-up" position="right" opacity="0.7"/>
+            <show chara="weltNormalWinterClose-up" position="left"/>
+            <speak chara="weltNoFace">That's right … So?</speak>
+            <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
+            <show chara="planckSlyCoatClose-up" position="right"/>
+            <speak chara="planckNoFace">So … </speak>
+            <text>The older sister smiles mysteriously, then tears off a few pages from her notebook — </text>
+            <text>And begins scribbling.</text>
+            <hide position="right"/>
+            <hide position="left"/>
+            <show chara="planckBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(208,223,162);font-style:italic;"> — Will you be able to protect the girls? </p>
+            </text>
+            <show chara="weltBlackWinterlose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">If it comes to that … if it's something within an ordinary man's ability … </p>
+            </text>
+            <show chara="planckBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">No. That will not be enough.</p>
+                <br />
+                <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">{We assume that there is indeed a person from the past — the so-called H.A. —  who took the Soulium steel from the ruins of Yellowstone, and intentionally left clues behind. </p>
+            </text>
+            <text article="1">
+                <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">In that case, there is one thing that we can determine here — he, or she, must have felt that it was not safe for the Soulium to remain there.</p>
+                <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">Moreover, even moving it to the United Kingdom and hiding it properly is not enough. </p>
+                <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">Also, they felt the need to leave behind enough clues for future generations to inherit their own cause. </p>
+            </text>
+            <text article="1">
+                <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">So here comes the question — </p>
+                <br />
+                <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">What kind of conflict-of-interest is it, that would make someone go to such lengths to do this? </p>
+            </text>
+            <show chara="weltBlackWinterlose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">It's hard to say … </p>
+                <br />
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">{Does the other party have a corresponding successor?</p>
+                <br />
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">Is it some organisation that cannot be opposed by one person alone?</p>
+            </text>
+            <show chara="planckBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">Well said.</p>
+            </text>
+            <text article="1">
+                <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">So, an organisation that cannot be withstood by a single person, and that is also interested in Soulium — </p>
+                <br />
+                <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">In the world that we know of today, what are the possible answers? </p>
+            </text>
+            <show chara="weltBlackWinterlose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">I only know of one … but … </p>
+            </text>
+            <show chara="planckBlackClose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">I also know of only one answer.</p>
+            </text>
+            <show chara="weltBlackWinterlose-up" position="center" opacity="0.7"/>
+            <text article="1">
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">Do you mean — </p>
+            </text>
+            <goto goto="110" change="0"/>
+        </scene>
+        <scene id="110" background="CG6-3.jpg">
+            <bgm src="serenity.mp3" status="continue"></bgm>
+            <text>Before the young man can utter a sound, the slender forefinger of the Long-haired Big Sister is placed gently upon his lips. She gracefully moves her body, switches to the other side of Welt, and sits down in a more discreet location.</text>
+            <text>Red lips linger near his eyes, and titillating whispers tease and tantalise his imagination. </text>
+            <speak chara="planckNoFace"> … Should we … speak in whispers?</speak>
+            <speak chara="planckNoFace">It's just some … </speak>
+            <speak chara="planckNoFace">private words … </speak>
+            <speak chara="planckNoFace">between the two of us … </speak>
+            <end post="U2FsdGVkX1875aTC7Bnh6o5Wcrl8"/>
+        </scene>
+    </story>
+</data>
