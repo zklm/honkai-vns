@@ -6,7 +6,8 @@ I am currently only working on the Anti-Entropy VN. However, the standalone VN v
 
 - Anti-Entropy: https://zklm.github.io/honkai-vn-antientropy/ (Standalone)
   - Chapters 1 to 5: done by listless-restless
-  - Chapters 6 to 12: done by listless-restless, but yet to be uploaded
+  - Chapter 6: done by listless-restless, but has issues (see below)
+  - Chapters 7 to 12: done by listless-restless, but yet to be uploaded
   - Chapters 13 to 26: partially done by Aiatar and zklm
 - Durandal: https://zklm.github.io/honkai-vn-durandal/ (Standalone)
   - Chapters 1 to 20: done by Aiatar and zklm
@@ -30,3 +31,6 @@ To use my translation: Go to https://zklm.github.io/honkai-vn-antientropy/ -> to
 
   - **Temporary solution:** For now, people who want to read all the text should go to the "Log", or at least set font size in the settings to the smallest possible value.
 
+- **Chapter 6 translation does not work:** For some reason, the text always defaults to Chinese. I suspect that the links are coded differently for that chapter such that they refer back to Mihoyo's version rather than any of the xmls (I tried changing the text in the Chinese xml and it still shows up unchanged). I cannot fix this.
+
+  - **Temporary solution:** Read the xml side-by-side with the actual VN.
