@@ -12,7 +12,7 @@
         <scene id="10" background="londonStreet.jpg">
             <bgm src="10_20_londonderry_p.mp3" status="start"></bgm>
             <show chara="teslaAngryGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">你们两个，说什么悄悄话呢！</speak>
+            <speak chara="teslaNoFace">You two, what are you on about, whispering like that?!</speak>
             <text>红色双马尾埋怨地将手里的东西都丢进了瓦尔特的怀里。</text>
             <show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="weltScaredWinterClose" position="center"/>
