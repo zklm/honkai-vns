@@ -31,6 +31,7 @@ To use my translation: Go to https://zklm.github.io/honkai-vn-antientropy/ -> to
 
   - **Temporary solution:** For now, people who want to read all the text should go to the "Log", or at least set font size in the settings to the smallest possible value.
 
-- **Chapter 6 translation does not work:** For some reason, the text always defaults to Chinese. I suspect that the links are coded differently for that chapter such that they refer back to Mihoyo's version rather than any of the xmls (I tried changing the text in the Chinese xml and it still shows up unchanged). I cannot fix this.
+- ~~**Chapter 6 translation does not work:** For some reason, the text always defaults to Chinese. I suspect that the links are coded differently for that chapter such that they refer back to Mihoyo's version rather than any of the xmls (I tried changing the text in the Chinese xml and it still shows up unchanged). I cannot fix this.~~
 
-  - **Temporary solution:** Read the xml side-by-side with the actual VN.
+  - ~~**Temporary solution:** Read the xml side-by-side with the actual VN.~~
+  - Problem fixed: It was due to syntax errors in Chapter 6 xml.
