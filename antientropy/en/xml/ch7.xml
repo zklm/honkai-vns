@@ -369,11 +369,11 @@
                 <p class="article-text">A heavy and profound history, laden with the sediment of life, is deposited upon the impassive architecture. This unique sense of oppression permeates through the gloomy cold haze of London, and occasionally reminds people of how formidable the violent institutions of “nationhood” and “society” can truly be. </p>
             </text>
             <text article="1">
-                <p class="article-text">And the people who deal regularly with these institutions — without the reckless bravery of Spartacus, the fierce cruelty of Robespierre, the astute wisdom of Benjamin Franklin, and the determined willpower of Vladimir Lenin — Could they have really accomplished anything at all? </p>
+                <p class="article-text">And the people who dealt regularly with these institutions — without the reckless bravery of Spartacus, the fierce cruelty of Robespierre, the astute wisdom of Benjamin Franklin, and the determined willpower of Vladimir Lenin — Could they have really accomplished anything at all? </p>
             </text>
             <show chara="weltTiredWinterClose" position="center" opacity="0.7"/>
             <show chara="teslaBoringGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">Hey! Wake up! Yeah, it's not as good as the British Museum, but it's still worth visiting!</speak>
+            <speak chara="teslaNoFace">Hey! Wake up! Yeah, it's not as good as the British Museum, but it's still worth a visit!</speak>
             <text>Not satisfied with Welt's despondent and pathetic appearance, Tesla slaps him hard on his shoulder. </text>
             <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="einSeriousAhWinterClose" position="right"/>
@@ -388,7 +388,7 @@
             <speak chara="einNoFace">Since you induced him towards one extreme, how can you blame him for not being at the other end?</speak>
             <show chara="einNormalWinterClose" position="right" opacity="0.7"/>
             <show chara="teslaEmbarraGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace"> … No need to say such baffling philosophical nonsense. </speak>
+            <speak chara="teslaNoFace"> … No need to speak such baffling philosophising nonsense. </speak>
             <show chara="teslaBoringGlassWinterClose" position="left"/>
             <speak chara="teslaNoFace">It's totally not cute. </speak>
             <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
@@ -399,7 +399,7 @@
             <show chara="einNormalWinterClose" position="right" opacity="0.7"/>
             <show chara="weltNormalWinterClose" position="center"/>
             <speak chara="weltNoFace"> … ? </speak>
-            <text>The young man, his mind still wandering, had clearly not paid any attention to Mop-head's question — </text>
+            <text>The young man, his mind still wandering, had clearly not paid any attention to Mophead's question — </text>
             <show chara="weltShameWinterClose" position="center"/>
             <speak chara="weltNoFace">I-I think … </speak>
             <shake position="center" time="250"></shake>
@@ -421,7 +421,7 @@
             <speak chara="weltNoFace"> … Ugh. </speak>
             <show chara="weltTiredWinterClose" position="center" opacity="0.7"/>
             <show chara="einFoolWinterClose" position="right"/>
-            <speak chara="einNoFace">How mediocre. </speak>
+            <speak chara="einNoFace">What a mediocre man. </speak>
             <bgm src="10_20_PeerGynt.mp3" status="stop"></bgm>
             <goto goto="48" change="0"/>
         </scene>
@@ -433,66 +433,66 @@
         <scene id="50" background="gallery.jpg">
             <bgm src="street.mp3" status="start"></bgm>
             <show chara="staffGalleryNormalClose" position="left"/>
-            <speak chara="nekoNoFace">真没想到你们这样的研究者会对已毁的画作感兴趣. </speak>
-            <text>在国家美术馆后院的长廊里, 某位管理人员一边带路一边说道. </text>
-            <text>这个大腹便便、略有谢顶的肥胖中年, 手中拿着一块挂满钥匙的木牌 — 金属钥匙们随着他有些摇晃的步伐, 不停地互相碰撞着. </text>
-            <speak chara="nekoNoFace">1928年泰晤士河的洪水毁掉了相当一部分的藏品, 具体的损失程度其实到现在都没有统计清楚. </speak>
-            <speak chara="nekoNoFace">唯一能肯定的是, 你们要寻找的画作就是这些被毁藏品中的一员. </speak>
+            <speak chara="nekoNoFace">I didn't expect researchers like you to be interested in destroyed paintings. </speak>
+            <text>One of the management staff speaks, while leading the way in the rear promenade of the National Gallery. </text>
+            <text>The pot-bellied, balding, obese middle-aged man is holding in his hand a wooden rack filled with hanging keys — the small metal keys clang incessantly against each other, in unison with his swaying, waddling steps. </text>
+            <speak chara="nekoNoFace">A flood of the Thames in 1928 destroyed much of our collection, and even now the full extent of the damage has not been clearly appraised. </speak>
+            <speak chara="nekoNoFace">The only thing certain, is that the painting you're looking for is one of those in the ruined collection. </speak>
             <show chara="staffGalleryNormalClose" position="left" opacity="0.7"/>
             <show chara="teslaNormalGlassWinterClose" position="center"/>
-            <speak chara="teslaNoFace">你等等 … 什么叫“到现在都没有统计清楚”? </speak>
-            <text>对方的这一说法, 显然刷新了特斯拉对于官僚系统低下效率的认知. </text>
+            <speak chara="teslaNoFace">Wait, you … What do you mean by “even now it has not been clearly appraised”? </speak>
+            <text>The other person's statement clearly refreshed in Tesla's mind, her acute awareness of bureaucratic inefficiency. </text>
             <show chara="teslaNormalGlassWinterClose" position="center" opacity="0.7"/>
             <show chara="staffGallerySweatClose" position="left"/>
-            <speak chara="nekoNoFace">唉 … 毕竟光本馆就有两千多幅世界名画 … </speak>
-            <text>这位管理员无奈地摊了摊手 — </text>
-            <speak chara="nekoNoFace">每幅画作到底经受了多少损害, 其实只有修复完成的时候才能做出评估. </speak>
-            <speak chara="nekoNoFace">你们要知道 … 一个老师傅一年下来也就只能修个两三张吧. 很麻烦的哟. </speak>
+            <speak chara="nekoNoFace">Um … After all, there are more than 2,000 world-famous paintings in this museum … </speak>
+            <text>The manager splays his hands in a helpless, conceding gesture — </text>
+            <speak chara="nekoNoFace">How much damage each painting has incurred can only be evaluated when the restoration is complete.  </speak>
+            <speak chara="nekoNoFace">You must understand … a master can only restore two or three paintings in a year. It's all quite a troublesome affair. </speak>
             <show chara="staffGallerySweatClose" position="left" opacity="0.7"/>
             <show chara="teslaNormalGlassWinterClose" position="center"/>
-            <speak chara="teslaNoFace"> … 所以, 我们要找的这幅画 — 它属于修复顺位比较靠后的作品? </speak>
+            <speak chara="teslaNoFace"> … So, this painting we are looking for — is it a work that is relatively low in priority for restoration? </speak>
             <show chara="teslaNormalGlassWinterClose" position="center" opacity="0.7"/>
             <show chara="staffGalleryNormalClose" position="left"/>
-            <speak chara="nekoNoFace">可以这样说. 毕竟是近代作品, 很难排在那些老家伙前面. </speak>
-            <speak chara="nekoNoFace">告诉你们吧, 就连大名鼎鼎的透纳, 他的画也还有好些都没修呢. </speak>
-            <text>这样说着一些有的没的, 引领着众人的胖大叔, 终于在一扇老旧库房的门前停了下来. </text>
-            <speak chara="nekoNoFace">就是这里了. 我陪你们进去. </speak>
+            <speak chara="nekoNoFace">Yes, it can be said so. After all, it is a modern work and it is difficult to rank above those other older, more “classical” works. </speak>
+            <speak chara="nekoNoFace">Let me tell you, even the famous and most highly-esteemed Turner, has several artworks that have yet to be restored. </speak>
+            <text>And in saying this, the fat balding uncle leading the group finally stops at the door of an old warehouse. </text>
+            <speak chara="nekoNoFace">This is it. I'll enter with you. </speak>
             <show chara="teslaBoringGlassWinterClose" position="center"/>
-            <speak chara="teslaNoFace">唔 … </speak>
-            <text>特斯拉面露难色 — </text>
+            <speak chara="teslaNoFace">Hmm … </speak>
+            <text>Tesla's face makes an uncomfortable expression — </text>
             <show chara="teslaEmbarraGlassWinterClose" position="center"/>
-            <speak chara="teslaNoFace">我们进行的是具有保密性质的研究 … </speak>
+            <speak chara="teslaNoFace">We are conducting research of a most confidential nature … </speak>
             <show chara="teslaEmbarraGlassWinterClose" position="center" opacity="0.7"/>
             <show chara="staffGalleryNormalClose" position="left"/>
-            <speak chara="nekoNoFace">这我听说了. </speak>
-            <text>胖大叔并不退让 — </text>
+            <speak chara="nekoNoFace">So I've heard. </speak>
+            <text>The fat balding uncle does not budge — </text>
             <show chara="staffGallerySeriousClose" position="left"/>
-            <speak chara="nekoNoFace">我不管你们是军情五处还是军情六处 — </speak>
-            <speak chara="nekoNoFace">或者什么别的玩意儿 — </speak>
-            <speak chara="nekoNoFace">在这个博物馆里, 任何非工作人员都不能处于无监管的状态. </speak>
+            <speak chara="nekoNoFace">I don't care if you're MI5 or MI6 — </speak>
+            <speak chara="nekoNoFace">Or whatever fancy get-up — </speak>
+            <speak chara="nekoNoFace">But in this museum, non-staff visitors must never be left unsupervised. </speak>
             <show chara="staffGallerySeriousClose" position="left" opacity="0.7"/>
             <show chara="teslaEmbarraGlassWinterClose" position="center"/>
             <speak chara="teslaNoFace"> … </speak>
             <show chara="teslaEmbarraGlassWinterClose" position="center" opacity="0.7"/>
             <show chara="einNormalWinterClose" position="right"/>
-            <speak chara="einNoFace">无妨. </speak>
-            <text>爱因斯坦耸了耸肩膀, 表示并不在意. </text>
+            <speak chara="einNoFace">No problem. </speak>
+            <text>Einstein shrugs, indicating that she does not mind. </text>
             <show chara="einSmileWinterClose" position="right"/>
-            <speak chara="einNoFace">我们就一起进去吧. </speak>
+            <speak chara="einNoFace">Let's go in togethe. </speak>
             <show chara="einSmileWinterClose" position="right" opacity="0.7"/>
             <show chara="staffGallerySmileClose" position="left"/>
-            <speak chara="nekoNoFace">哈哈, 这真是帮大忙了. </speak>
-            <speak chara="nekoNoFace">还是这位小姐懂事理啊. </speak>
+            <speak chara="nekoNoFace">Haha, I really appreciate your cooperation. </speak>
+            <speak chara="nekoNoFace">At least this lady still has some common sense. </speak>
             <show chara="staffGallerySmileClose" position="left" opacity="0.7"/>
             <show chara="teslaBoringGlassWinterClose" position="center"/>
-            <speak chara="teslaNoFace">啧. </speak>
-            <speak chara="teslaNoFace">我才是为了你 — </speak>
+            <speak chara="teslaNoFace">Tsk. </speak>
+            <speak chara="teslaNoFace">I'm only cooperating for your sake — </speak>
             <bgm src="street.mp3" status="stop"></bgm>
             <show chara="teslaEmbarraGlassWinterClose" position="center"/>
             <shake position="center" time="250"></shake>
             <speak chara="teslaNoFace">! </speak>
             <show chara="teslaAngryGlassWinterClose" position="center"/>
-            <speak chara="teslaNoFace">这这这 — 哪来的这么大的味道? ! </speak>
+            <speak chara="teslaNoFace">Wha-wha-what — What is that stench? ! </speak>
             <goto goto="60" change="#ffffff"/>
         </scene>
         <scene id="60" background="storage.jpg">
