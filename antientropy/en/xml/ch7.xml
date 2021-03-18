@@ -13,7 +13,7 @@
             <bgm src="10_20_londonderry_p.mp3" status="start"></bgm>
             <show chara="teslaAngryGlassWinterClose" position="left"/>
             <speak chara="teslaNoFace">You two, what are you on about, whispering like that?!</speak>
-            <text>Red Twin-tails complains, while tossing everything she is carrying straight into Welt's arms. </text>
+            <text>Twintails complains, while tossing everything she is carrying straight into Welt's arms. </text>
             <show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="weltScaredWinterClose" position="center"/>
             <speak chara="weltNoFace"> … Da-da-danger! </speak>
@@ -33,10 +33,10 @@
             <show chara="teslaSnickerGlassWinterClose" position="left"/>
             <speak chara="teslaNoFace">Is that too hard to understand? </speak>
             <show chara="teslaBoringGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">Oh, if Plank had not run off to Vienna, she could've also shared these menial tasks with you … </speak>
+            <speak chara="teslaNoFace">Oh, and if Planck had not run off to Vienna, she could've also shared these menial tasks with you … </speak>
             <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="weltTiredWinterClose" position="center"/>
-            <speak chara="weltNoFace">（ … It's indeed hard to understand. Perhaps it'd be better to ask why a person like you had to go everywhere and buy bags and bags of stuff. ）</speak>
+            <speak chara="weltNoFace">（ … It's indeed hard to understand. Perhaps it'd be better to ask why a person like you had to go everywhere and buy bags upon bags of useless stuff. ）</speak>
             <speak chara="weltNoFace">（ … And wasn't it you who clearly said, “No problem, no problem, you two can go ahead and leave us”? ）</speak>
             <show chara="weltTiredWinterClose" position="center" opacity="0.7"/>
             <show chara="einNormalWinterClose" position="right"/>
@@ -145,7 +145,7 @@
             <speak chara="einNoFace">Later, a London chamber of commerce came here to colonise and develop the land, so they assigned the prefix “London” to the city's name. </speak>
             <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
             <show chara="teslaNormalGlassWinterFar" position="left"/>
-            <speak chara="teslaNoFace">`People from the colonial period seemed to enjoy naming things like this … </speak>
+            <speak chara="teslaNoFace">People from the colonial period seemed to enjoy naming things like this … </speak>
             <show chara="teslaBoringGlassWinterFar" position="left"/>
             <speak chara="teslaNoFace" remark="next">Whether it's New York or Rhode Island, there are no few examples of people directly copying a European place name. </speak>
             <remark post="U2FsdGVkX19HAOD7GN9woHXyw4Jp">
@@ -221,7 +221,7 @@
         <scene id="25" background="CG7-1.jpg">
             <bgm src="themeEin.mp3" status="start"></bgm>
             <text>What was originally a mere “jaunt” around the one mile that is the Derry City Wall — </text>
-            <text> — has now evolved into something more, as the Mophead suddenly lies down in front of a cannon on the wall, taking out a flashlight from her pocket and holding it in her mouth. </text>
+            <text> — has now evolved into something more, as Mophead suddenly lies down in front of a cannon on the wall, taking out a flashlight from her pocket and holding it in her mouth. </text>
             <speak chara="weltNoFace">Wh-why so sudden … </speak>
             <speak chara="teslaNoFace">Ye-yes indeed, what's going on here? </speak>
             <text>Welt and Tesla both seem puzzled. </text>
@@ -245,9 +245,9 @@
             <speak chara="teslaNoFace">I say it looks pretty intimidating … </speak>
             <text>Twintails sneers and turns up her nose at Mophead's fashion sense. </text>
             <speak chara="weltNoFace">Wait … </speak>
-            <speak chara="weltNoFace">Who is Ada? </speak>
+            <speak chara="weltNoFace">Who's Ada? </speak>
             <speak chara="teslaNoFace">An assistant, just an assistant. Not much different from that Finn. </speak>
-            <speak chara="teslaNoFace">Rather than gossip about this, let us first find this information left behind by that other party. </speak>
+            <speak chara="teslaNoFace">Rather than gossip about that, let's first find this information left behind by that other party. </speak>
             <speak chara="einNoFace">Well. </speak>
             <text>Mophead places her hands together in a style mimicking Sherlock Holmes. </text>
             <speak chara="einNoFace">The story may have just begun. </speak>
@@ -283,7 +283,7 @@
             <speak chara="teslaNoFace" remark="next">Is it some kind of metaphor? Like “John the Baptist” or “Mary Antoinette”?</speak>
             <remark post="U2FsdGVkX19Bg4sTQmgcZy8IrP4i">
                 <p class="article-text-h">Note: </p>
-                <p class="article-text">Both were beheaded and killed. In particular the death of John the Baptist is legendary for its extremely “beautiful” (read: sick and gratuitous*) description by Oscar Wilde (1854-1900) in his play `Salome' — </p>
+                <p class="article-text">Both were beheaded and killed. In particular the death of John the Baptist is legendary for its extremely “beautiful” (read: sick and gratuitous*) description by Oscar Wilde (1854-1900) in his play “Salome” — </p>
                 <p class="article-text">“Ah! thou wouldst not suffer me to kiss thy mouth, Iokanaan [John]. Well! I will kiss it now. I will bite it with my teeth as one bites a ripe fruit. Yes, I will kiss thy mouth, Iokanaan. I said it; did I not say it? I said it. Ah! I will kiss it now … But wherefore dost thou not look at me, Iokanaan? ” (*Translator's note: The Chinese word used here is 病娇, which is a loanword from Japanese ヤンデレ or “Yandere”) </p>
             </remark>
             <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
@@ -315,119 +315,119 @@
             <show chara="teslaSmileGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="einSmileWinterClose" position="center"/>
             <speak chara="einNoFace">It seems that we may be spending the night on a boat. </speak>
-            <speak chara="einNoFace"> — Tomorrow we shall make a visit to the National Gallery. </speak>
+            <speak chara="einNoFace"> — Tomorrow we shall be making a visit to the National Gallery. </speak>
             <goto goto="40" change="#ffffff"/>
         </scene>
         <scene id="40" background="trafalgarSquare.jpg">
             <bgm src="10_20_PeerGynt.mp3" status="start"></bgm>
-            <text>翌日. </text>
-            <text>从查令十字地铁站窄小的出口拾级而上, 映入眼帘的便是可谓帝国标志的特拉法加广场. </text>
-            <text>作为“日不落帝国”的重要象征, 即便是冬日里的周一, 这里依然不缺形形色色的游人. </text>
-            <speak chara="weltNoFace">这就是大伦敦的中心吗 … </speak>
-            <text>望着高耸入云的纳尔逊纪念柱, 瓦尔特忍不住用游客的口吻感慨了一番. </text>
-            <text>纪念柱旁的铭文表明, 这是为纪念1805年在特拉法加海战中带领皇家海军击溃拿破仑的联合舰队、却不幸于此役殉国的英格兰民族英雄 — 霍雷肖·纳尔逊海军上将所建. </text>
-            <text>他谋略过人, 又勇冠三军, 在大西洋, 在尼罗河, 在哥本哈根, 在特拉法加, 屡次带领英国决战决胜, 并为此先后失去右眼、右臂, 直至献出自己的性命. </text>
-            <text>英国人并不都是狡猾的外交官. 他们也有埋头苦干的人、拼命硬干的人 — 只是帝国的荣光过于闪耀, 反过来竟一定程度地掩盖了这些为她造就丰功伟绩的人. </text>
-            <text remark="next">"England expects every man to do his duty."</text>
+            <text>The next day. </text>
+            <text>Ascending slowly up a flight of steps, and leaving Charing Cross Underground Station via a narrow exit, the group find themselves greeted by that iconic landmark of the Empire — Trafalgar Square. </text>
+            <text>Perhaps symbolic of the fact that “the Sun never sets on the Empire”, even on a cold wintry Monday, there is no shortage of tourists. </text>
+            <speak chara="weltNoFace">So this is the centre of Greater London … </speak>
+            <text>Looking at Nelson's Column, towering and piercing through the clouds, Welt cannot help but let out a sigh, with wonder and awe typical of a tourist. </text>
+            <text>The inscription next to the memorial column indicates that it was built in honour of Admiral Horatio Nelson, the British national hero who led the Royal Navy to overwhelming victory against Napoleon's combined fleet, at the Battle of Trafalgar in 1805 — with the unfortunate cost of his own life. </text>
+            <text>His resourcefulness was unsurpassed, and his valour was unmatched as the bravest of the Coalition forces — whether it was in the Atlantic, or on the Nile, or in Copenhagen, or at Trafalgar, he repeatedly led England to decisive victories. But in doing so he lost his right eye, then his right arm, and finally his own life. </text> <!-- 勇冠三军 = "the bravest of three armies", originally in reference either to the Three Kingdoms, or to the two wings and centre divisions of a single military force. -->
+            <text>The British were not all crafty diplomats. They were also industrious folk, a tenacious people willing to put their lives on the line — but alas, the glory of the Empire was too dazzling, and this in turn played no small role in obscuring and concealing the individuals who made great achievements in her name.</text>
+            <text remark="next">“England expects every man to do his duty.”</text>
             <remark post="U2FsdGVkX195jDOR70Cu55GKFR4g">
-                <p class="article-text-h">注: </p>
-                <p class="article-text">“英格兰期盼人人都恪尽其责”（England expects that every man will do his duty）是英国海军中将纳尔逊在特拉法加战役（1805年）开始前通过其旗舰“胜利号”发出的一条旗语信号（如下图所示）. </p>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">“England expects that every man will do his duty.” This was the message issued by British Navy Admiral Nelson from his flagship “HMS Victory” before the start of the Battle of Trafalgar (1805). The semaphore signal is shown in the accompanying figure.</p>
                 <div class="article-pic" picsrc="re_doHisDuty.jpg" style="background-position:left;height:14.4rem;"/>
-                <p class="article-text">由于参考的回忆录有误, 纳尔逊纪念柱上错记此句为"England expects every man to do his duty". </p>
+                <p class="article-text"> Due to an error in the referenced memoirs, the sentence was mistakenly memorialised on Nelson's Column as “England expects every man to do his duty”.  </p>
             </remark>
-            <text>回想起普朗克在飞机上的告诫, 名为瓦尔特的青年再次暗暗地下定决心 — </text>
+            <text>Recalling Planck's warning on the plane, the young man named Welt once again makes a secret resolution to himself — </text>
             <show chara="weltSurpriseWinterFar" position="center"/>
-            <speak chara="weltNoFace">咦? 人呢? </speak>
+            <speak chara="weltNoFace"> Huh? Where are the others? </speak>
             <show chara="weltSurpriseWinterFar" position="center" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="right"/>
-            <speak chara="einNoFace">美术馆在北边. </speak>
-            <text>爱因斯坦无奈地拉了一把瓦尔特的袖子. </text>
+            <speak chara="einNoFace">The art museum is to the north. </speak>
+            <text>Einstein grudgingly pulls on Welt's sleeve. </text>
             <show chara="einSeriousAhWinterFar" position="right"/>
-            <speak chara="einNoFace">别走丢了. 你背包里的东西对我们很重要. </speak>
+            <speak chara="einNoFace">Don't get lost. The items in your backpack are very important to us. </speak>
             <show chara="einSeriousEmWinterFar" position="right" opacity="0.7"/>
             <show chara="teslaNormalGlassWinterFar" position="left"/>
-            <speak chara="teslaNoFace">哼. </speak>
-            <text>似乎早已不满的特斯拉乘机落井下石. </text>
+            <speak chara="teslaNoFace">Hmph. </speak>
+            <text>Tesla, who has long since been dissatisfied, takes this opportunity to double-down on Welt. </text> <!--  落井下石 = "to throw stones at somebody who fell down a well". -->
             <show chara="teslaSnickerGlassWinterFar" position="left"/>
-            <speak chara="teslaNoFace">谁让这是个没见过世面的人呢? </speak>
-            <speak chara="teslaNoFace" remark="next">我估计, 让他学人家宠物企鹅去海鲜市场买鱼, 他都能给你走丢了. </speak>
+            <speak chara="teslaNoFace">How can someone like you ever survive, one who is so oblivious to everything? </speak>
+            <speak chara="teslaNoFace" remark="next">I reckon, even if you train him like a pet penguin to go to the market and buy fish for you, he'll still end up getting lost. </speak>
             <remark>
-                <p class="article-text-h">注: </p>
-                <p class="article-text">现实中企鹅确实可以习得此行为. 可参考曾经生活在日本鹿儿岛县志布志市的企鹅“拉拉”. </p>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Penguins can learn this behaviour in reality. Please refer to the penguin “Lala” who once lived in Shibushi, Kagoshima Prefecture, Japan. </p>
             </remark>
             <show chara="teslaSnickerGlassWinterFar" position="left" opacity="0.7"/>
             <show chara="weltTiredWinterFar" position="center"/>
-            <speak chara="weltNoFace">呃 … </speak>
+            <speak chara="weltNoFace">Ugh … </speak>
             <goto goto="45" change="#ffffff"/>
         </scene>
         <scene id="45" background="trafalgarSquare.jpg">
             <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
             <text article="1">
-                <p class="article-text">国家美术馆坐北朝南, 有些风化变黑的罗马柱们与特拉法加广场隔街相望 — 犹如波斯波利斯的阿帕达纳宫一般, 无言地述说着老大帝国旧日的光辉. </p>
+                <p class="article-text">The National Gallery sits to the north, facing south, with a set of weathered, darkened Roman columns standing across the street from Trafalgar Square — silently narrating the glorious bygone days of the old Empire. </p>
             </text>
             <text article="1">
-                <p class="article-text">厚重的历史裹挟着生命的泥沙沉淀在无机质的建筑物中, 这种独有的压迫感渗透在伦敦的阴冷的天气里, 时时提醒着人们, 名为“国家”或“组织”的暴力机构具有多么强大的力量. </p>
+                <p class="article-text">A heavy and profound history, laden with the sediment of life, is deposited upon the impassive architecture. This unique sense of oppression permeates through the gloomy cold haze of London, and occasionally reminds people of how formidable the violent institutions of “nationhood” and “society” can truly be. </p>
             </text>
             <text article="1">
-                <p class="article-text">和他们周旋的人, 若无斯巴达克斯的蛮勇、罗伯斯庇尔的残酷、本杰明·富兰克林的睿智、弗拉基米尔·列宁的意志, 难道真的能做成什么事吗? </p>
+                <p class="article-text">And the people who deal regularly with these institutions — without the reckless bravery of Spartacus, the fierce cruelty of Robespierre, the astute wisdom of Benjamin Franklin, and the determined willpower of Vladimir Lenin — Could they have really accomplished anything at all? </p>
             </text>
             <show chara="weltTiredWinterClose" position="center" opacity="0.7"/>
             <show chara="teslaBoringGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">喂! 打起精神来啊! 虽然比不上大英博物馆, 但这里也是很值得参观的啊! </speak>
-            <text>不满于瓦尔特消沉的样子, 特斯拉用力地拍着他的肩膀. </text>
+            <speak chara="teslaNoFace">Hey! Wake up! Yeah, it's not as good as the British Museum, but it's still worth visiting!</speak>
+            <text>Not satisfied with Welt's despondent and pathetic appearance, Tesla slaps him hard on his shoulder. </text>
             <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="einSeriousAhWinterClose" position="right"/>
-            <speak chara="einNoFace">还不是特斯拉说了奇怪的话. </speak>
-            <text>走在最前面的爱因斯坦似乎有些不满. </text>
+            <speak chara="einNoFace">It's not like Tesla had said something weird. </speak>
+            <text>Einstein, who is leading the way, also seems a little discontent. </text>
             <show chara="einSeriousEmWinterClose" position="right" opacity="0.7"/>
             <show chara="teslaAngryGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">呃 … 哪里奇怪啦! 明明就是事实嘛. </speak>
+            <speak chara="teslaNoFace">Huh … What weird thing!? Obviously it's the truth. </speak>
             <show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="einNormalWinterClose" position="right"/>
-            <speak chara="einNoFace">情绪是兴奋与压抑的矛盾体. </speak>
-            <speak chara="einNoFace">你既然把他诱导向了其中的一端, 又怎么能指责他为什么不处于另一端呢. </speak>
+            <speak chara="einNoFace">The state of one's emotions is born from the struggle between excitement and depression. </speak>
+            <speak chara="einNoFace">Since you induced him towards one extreme, how can you blame him for not being at the other end?</speak>
             <show chara="einNormalWinterClose" position="right" opacity="0.7"/>
             <show chara="teslaEmbarraGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace"> … 不要讲这种莫名其妙的哲学啦. </speak>
+            <speak chara="teslaNoFace"> … No need to say such baffling philosophical nonsense. </speak>
             <show chara="teslaBoringGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">一点都不可爱. </speak>
+            <speak chara="teslaNoFace">It's totally not cute. </speak>
             <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="einNormalWinterClose" position="right"/>
-            <speak chara="einNoFace"> … 瓦尔特你自己觉得呢? </speak>
-            <speak chara="einNoFace">兴奋和压抑, 哪个才是人生, 或者说, “人类之理”的主流呢? </speak>
-            <speak chara="einNoFace">又或者说, 站在审美的角度上, 哪一种会更加“可爱”一点呢? </speak>
+            <speak chara="einNoFace"> … Welt, what do you think? </speak>
+            <speak chara="einNoFace">Excitement or depression, what is the essential force behind human life, or should I say “human reason”? </speak>
+            <speak chara="einNoFace">Or, from the perspective of aesthetics, which one is more “cute”? </speak>
             <show chara="einNormalWinterClose" position="right" opacity="0.7"/>
             <show chara="weltNormalWinterClose" position="center"/>
             <speak chara="weltNoFace"> … ? </speak>
-            <text>还在走神的青年显然根本没有听全天然卷的问题 — </text>
+            <text>The young man, his mind still wandering, had clearly not paid any attention to Mop-head's question — </text>
             <show chara="weltShameWinterClose" position="center"/>
-            <speak chara="weltNoFace">我、我当然是觉得 … </speak>
+            <speak chara="weltNoFace">I-I think … </speak>
             <shake position="center" time="250"></shake>
-            <speak chara="weltNoFace">女孩子怎么样都可爱啦! </speak>
+            <speak chara="weltNoFace">All girls are cute, no matter what they're like! </speak>
             <shake position="center" time="250"></shake>
-            <speak chara="weltNoFace">女孩子就是正义! </speak>
+            <speak chara="weltNoFace">Girls are justice! </speak>
             <show chara="weltShameWinterClose" position="center" opacity="0.7"/>
             <show chara="teslaAngryGlassWinterClose" position="left"/>
             <speak chara="teslaNoFace"> … </speak>
-            <text>不知为何, 红色双马尾的脸上猛然红一阵紫一阵的. </text>
+            <text>For some reason, Twintail's face suddenly turns to a shade of red, then a shade of purple. </text>
             <show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="einNormalWinterClose" position="right"/>
-            <speak chara="einNoFace">哦 … </speak>
-            <text>天然卷本人倒似乎毫不关心这种答非所问. </text>
+            <speak chara="einNoFace">Oh … </speak>
+            <text> Mophead seems unconcerned with the answer, or the fact that her original question remained unanswered. </text>
             <show chara="einSmileWinterClose" position="right"/>
-            <speak chara="einNoFace">本想问问瓦尔特先生对于“人之美”有何看法 — 不过现在这样也相当于回答了. </speak>
+            <speak chara="einNoFace">I wanted to ask Mr Welt what he thought of the “beauty of humanity” — but I'll take that as an answer. </speak>
             <show chara="einSmileWinterClose" position="right" opacity="0.7"/>
             <show chara="weltTiredWinterClose" position="center"/>
-            <speak chara="weltNoFace"> … 呃. </speak>
+            <speak chara="weltNoFace"> … Ugh. </speak>
             <show chara="weltTiredWinterClose" position="center" opacity="0.7"/>
             <show chara="einFoolWinterClose" position="right"/>
-            <speak chara="einNoFace">差劲的男人. </speak>
+            <speak chara="einNoFace">How mediocre. </speak>
             <bgm src="10_20_PeerGynt.mp3" status="stop"></bgm>
             <goto goto="48" change="0"/>
         </scene>
         <scene id="48" background="">
             <sound src="hit man.mp3"/>
-            <text>她在他的脑门上狠狠地弹了一下. </text>
+            <text>She gives him a hard flick on his forehead. </text>
             <goto goto="50" change="#ffffff"/>
         </scene>
         <scene id="50" background="gallery.jpg">
