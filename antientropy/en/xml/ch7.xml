@@ -433,7 +433,7 @@
         <scene id="50" background="gallery.jpg">
             <bgm src="street.mp3" status="start"></bgm>
             <show chara="staffGalleryNormalClose" position="left"/>
-            <speak chara="nekoNoFace">I didn't expect researchers like you to be interested in destroyed paintings. </speak>
+            <speak chara="nekoNoFace">I didn't expect researchers like you to be interested in damaged paintings. </speak>
             <text>One of the management staff speaks, while leading the way in the rear promenade of the National Gallery. </text>
             <text>The pot-bellied, balding, obese middle-aged man is holding in his hand a wooden rack filled with hanging keys — the small metal keys clang incessantly against each other, in unison with his swaying, waddling steps. </text>
             <speak chara="nekoNoFace">A flood of the Thames in 1928 destroyed much of our collection, and even now the full extent of the damage has not been clearly appraised. </speak>
@@ -679,7 +679,7 @@
             <show chara="staffGalleryScareClose-up" position="left" opacity="0.7"/>
             <show chara="einNormalWinterClose-up" position="center"/>
             <speak chara="einNoFace"> … You are being overly dramatic. </speak>
-            <speak chara="einNoFace">After we're done, this painting …  will simply become as fragile as the other “normal” collections.. </speak>
+            <speak chara="einNoFace">After we're done, this painting …  will simply become as fragile as the other “normal” collections. </speak>
             <show chara="einNormalWinterClose-up" position="center" opacity="0.7"/>
             <show chara="staffGallerySeriousClose-up" position="left"/>
             <speak chara="nekoNoFace"> … </speak>
