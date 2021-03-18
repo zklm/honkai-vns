@@ -44,7 +44,7 @@
             <speak chara="planckNoFace">Hi, Nancy!</speak>
             <show chara="planckSlyCoatFar" position="center"/>
             <speak chara="planckNoFace">Already finished with your tour?</speak>
-            <text>Ignoring Tesla and Welt mumbling to each other, Plank greets the arriving personnel in a calm and collected manner.</text>
+            <text>Ignoring Tesla and Welt mumbling to each other, Planck greets the arriving personnel in a calm and collected manner.</text>
             <show chara="planckSlyCoatFar" position="center" opacity="0.7"/>
             <show chara="edisonSeriousWinterFar" position="right"/>
             <speak chara="edisonNoFace">Mm.</speak>
@@ -363,12 +363,12 @@
             <text>The librarian scratches his head, embarrassed..</text>
             <show chara="nokiaSmileEmWinterClose-up" position="right"/>
             <speak chara="nokiaNoFace">It's just that, compared to the others, I have access to research materials that are a lot … closer to the “original source”, I guess?</speak>
-            <speak chara="nokiaNoFace">Besides, if it is an audiovisual resource, I can only ask my `student', someone better qualified, to interpret in my stead.</speak>
+            <speak chara="nokiaNoFace">Besides, if it is an audiovisual resource, I can only ask my “student”, someone better qualified, to interpret in my stead.</speak>
             <show chara="nokiaSmileEmWinterClose-up" position="right" opacity="0.7"/>
-            <speak chara="weltNoFace">Ask … a student?）</speak>
+            <speak chara="weltNoFace">Ask … a student?</speak>
             <show chara="planckSlyCoatClose-up" position="left"/>
             <speak chara="planckNoFace">Even then, you are already talented enough.</speak>
-            <speak chara="planckNoFace">After all, humans cannot compete with machines Ah, we digress, we digress.</speak>
+            <speak chara="planckNoFace">After all, humans cannot compete with machines. Ah, we digress, we digress.</speak>
             <sound src="9_28_snap.mp3"/>
             <text>The Long-haired Big Sister snaps her fingers — </text>
             <show chara="planckSmileCoatClose-up" position="left"/>
@@ -451,7 +451,7 @@
             <speak chara="einNoFace"> … Foreign invasion? Infighting? Infectious disease?</speak>
             <show chara="einSeriousEmWinterClose" position="right" opacity="0.7"/>
             <show chara="schroNormalAhClose" position="left"/>
-            <speak chara="schroNoFace">`Who knows, that would be the Finn's — </speak>
+            <speak chara="schroNoFace">Who knows, that would be the Finn's — </speak>
             <show chara="schroNormalAhClose" position="left" opacity="0.7"/>
             <show chara="einSeriousEmWinterClose" position="right"/>
             <sound src="9_28_sheeee.mp3"/>
@@ -488,7 +488,7 @@
             <show chara="planckNormalCoatClose" position="left"/>
             <speak chara="planckNoFace">Mosquito tone.</speak>
             <text>Planck places a palm to her forehead.</text>
-            <speak chara="planckNoFace">`In fact it seems to be an extremely high-frequency mosquito tone. Even Nikola cannot hear it any more.</speak>
+            <speak chara="planckNoFace">In fact it seems to be an extremely high-frequency mosquito tone. Even Nikola cannot hear it any more.</speak>
             <speak chara="planckNoFace">Can you tell where the source of the noise is, Lieserl?</speak>
             <show chara="planckNormalCoatClose" position="left" opacity="0.7"/>
             <show chara="einNormalWinterClose" position="right"/>
@@ -629,7 +629,7 @@
             <show chara="schroNormalEmClose" position="right" opacity="0.7"/>
             <show chara="planckSeriousCoatClose" position="left"/>
             <speak chara="planckNoFace">Ultrasound … So the mosquito tone was just a secondary effect … </speak>
-            <text>Plank lifts the portable torch over her shoulder and looks back out towards the door.</text>
+            <text>Planck lifts the portable torch over her shoulder and looks back out towards the door.</text>
             <show chara="planckNormalCoatClose" position="left"/>
             <speak chara="planckNoFace">Lieserl? Can you still hear that sound?</speak>
             <show chara="planckNormalCoatClose" position="left" opacity="0.7"/>
@@ -743,7 +743,7 @@
             </remark>
             <show chara="schroNormalEmClose" position="right" opacity="0.7"/>
             <show chara="teslaAngryGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">`Don't talk to me about mathematics! What does this have to do with maths!?</speak>
+            <speak chara="teslaNoFace">Don't talk to me about mathematics! What does this have to do with maths!?</speak>
             <show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="planckNormalCoatClose" position="center"/>
             <speak chara="planckNoFace">Ahem.</speak>
@@ -792,7 +792,7 @@
             <show chara="planckSlyCoatClose" position="center"/>
             <speak chara="planckNoFace">In addition, I have already spoken with Edison — and I will return to the headquarters as soon as possible to report on behalf of the North American branch.</speak>
             <show chara="planckSmileCoatClose" position="center"/>
-            <speak chara="planckNoFace">`Conveniently, I'll be on the same flight as Lab 42.</speak>
+            <speak chara="planckNoFace">Conveniently, I'll be on the same flight as Lab 42.</speak>
             <show chara="planckSmileCoatClose" position="center" opacity="0.7"/>
             <show chara="schroNormalAhClose" position="left"/>
             <speak chara="schroNoFace">Huh?</speak>
@@ -918,7 +918,7 @@
             <text article="1">
                 <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">No. That will not be enough.</p>
                 <br />
-                <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">{We assume that there is indeed a person from the past — the so-called H.A. —  who took the Soulium steel from the ruins of Yellowstone, and intentionally left clues behind. </p>
+                <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">We assume that there is indeed a person from the past — the so-called H.A. —  who took the Soulium steel from the ruins of Yellowstone, and intentionally left clues behind. </p>
             </text>
             <text article="1">
                 <p class="article-text" style="color:rgb(208,223,162);font-style:italic;">In that case, there is one thing that we can determine here — he, or she, must have felt that it was not safe for the Soulium to remain there.</p>
@@ -934,7 +934,7 @@
             <text article="1">
                 <p class="article-text" style="color:#EDEDED;font-style:italic;">It's hard to say … </p>
                 <br />
-                <p class="article-text" style="color:#EDEDED;font-style:italic;">{Does the other party have a corresponding successor?</p>
+                <p class="article-text" style="color:#EDEDED;font-style:italic;">Does the other party have a corresponding successor?</p>
                 <br />
                 <p class="article-text" style="color:#EDEDED;font-style:italic;">Is it some organisation that cannot be opposed by one person alone?</p>
             </text>
