@@ -478,7 +478,7 @@
             <speak chara="einNoFace">No problem. </speak>
             <text>Einstein shrugs, indicating that she does not mind. </text>
             <show chara="einSmileWinterClose" position="right"/>
-            <speak chara="einNoFace">Let's go in togethe. </speak>
+            <speak chara="einNoFace">Let's go in together. </speak>
             <show chara="einSmileWinterClose" position="right" opacity="0.7"/>
             <show chara="staffGallerySmileClose" position="left"/>
             <speak chara="nekoNoFace">Haha, I really appreciate your cooperation. </speak>
@@ -497,30 +497,30 @@
         </scene>
         <scene id="60" background="storage.jpg">
             <bgm src="serenity.mp3" status="start"></bgm>
-            <text>随着厚重的大门在一片吱吱呀呀声中缓缓开启, 一股比大门还厚重的霉味瞬间窜入了每个人的鼻孔. </text>
-            <text>即使是曾经在维也纳见识过百年酒窖的特斯拉, 也被这浓烈的霉味给吓了一跳. </text>
+            <text>As the heavy door slowly opened with a creaking sound, a thick musty scent even heavier than the door instantly permeates into everybody's nostrils.</text>
+            <text> Even Tesla, who had once visited a century-old wine cellar in Vienna, is taken aback by the pungent odour.</text>
             <show chara="staffGallerySweatClose" position="left"/>
-            <speak chara="nekoNoFace">画作受潮之后, 表面会形成一定量的油水混合物 … 恒温仓库里又密不透风 … </speak>
-            <text>固定好落地门闩的胖大叔自己也干咳了几嗓子 — </text>
-            <speak chara="nekoNoFace">仔细想想, 这发酵的结果, 只怕是和泔水的成分也差不太多了. </speak>
+            <speak chara="nekoNoFace">After a painting is affected by damp moisture, a certain amount of oil-water admixture will form on its surface … and if it is sealed in an airtight warehouse at constant temperature … </speak>
+            <text> Returning the door bolt to its locked position, the fat uncle coughs a few times — </text>
+            <speak chara="nekoNoFace">If you think it through: the resulting product of fermentation, I'm afraid, is not much different from swill or hogwash in terms of its composition. </speak>
             <show chara="staffGallerySweatClose" position="left" opacity="0.7"/>
             <show chara="teslaEmbarraGlassWinterClose" position="right"/>
             <speak chara="teslaNoFace"> … </speak>
-            <speak chara="teslaNoFace">麻烦你, 请不要说的这么恶心. </speak>
+            <speak chara="teslaNoFace">Please, please don't describe it so disgustingly. </speak>
             <show chara="teslaEmbarraGlassWinterClose" position="right" opacity="0.7"/>
             <show chara="staffGalleryNormalClose" position="left"/>
-            <speak chara="nekoNoFace">咳咳 … </speak>
-            <speak chara="nekoNoFace"> … 是《简·格雷小姐的处刑》对吧? </speak>
+            <speak chara="nekoNoFace">Cough cough … </speak>
+            <speak chara="nekoNoFace"> … It's “The Execution of Lady Jane Grey”, right? </speak>
             <show chara="staffGallerySmileClose" position="left"/>
-            <speak chara="nekoNoFace">这里还没有做过索引卡 — </speak>
-            <speak chara="nekoNoFace">我们只能一件一件地来核对了. </speak>
-            <text>胖大叔面带微笑地, 作出了比这厚重的霉味更加令人绝望的发言. </text>
+            <speak chara="nekoNoFace">No index cards have been made here — </speak>
+            <speak chara="nekoNoFace">So we can only check them by hand, one by one. </speak>
+            <text>With a meek smile, the fat uncle makes a statement even more demoralising than the thick musty smell enveloping them. </text>
             <goto goto="65" change="#ffffff"/>
         </scene>
         <scene id="65" background="storage.jpg">
             <bgm src="serenity.mp3" status="continue"></bgm>
             <text article="1">
-                <p class="article-text">尽管遭受过洪水侵蚀, 但文物毕竟是文物. 胖大叔不厌其烦地喊着号令, 以便瓦尔特的行动能和自己同步. 画框总归还是有相当的分量 — 轻拿轻放的动作重复了数十个回合, 两位男士早已是腰酸背痛、大汗淋漓. </p>
+                <p class="article-text">Despite having sustained flood damage, the cultural relics are still cultural relics after all. The Fat Uncle takes great pains to shout orders so that Welt's actions can be synchronised with his own. There is still considerable weight in the picture frames — and the action of carefully lifting up and putting down each frame, repeated dozens of times, has already given both men sore hips and aching backs, their bodies dripping with sweat. </p>
             </text>
             <goto goto="70" change="#ffffff"/>
         </scene>
@@ -528,7 +528,7 @@
             <bgm src="serenity.mp3" status="continue"></bgm>
             <show chara="staffGalleryBlackClose-up" position="center"/>
             <text article="1">
-                <p class="article-text" style="color:rgb(165,150,153);font-style:italic;">《纷争女神在金苹果园中挑选金苹果》 … 这儿也有透纳的画啊. 千疮百孔的 … 好可惜 … </p>
+                <p class="article-text" style="color:rgb(165,150,153);font-style:italic;">“The Goddess of Discord Choosing the Apple of Contention in the Garden of the Hesperides” … There are a few Turners here. Riddled with holes and scars … What a pity … </p>
             </text>
             <goto goto="75" change="#ffffff"/>
         </scene>
@@ -536,7 +536,7 @@
             <bgm src="serenity.mp3" status="continue"></bgm>
             <show chara="teslaBlackGlassWinterClose-up" position="center"/>
             <text article="1">
-                <p class="article-text" style="color:rgb(237,118,114);font-style:italic;">《庞培与赫库兰尼姆的毁灭》 … 这已经超过我的身高了! 说起来, 就没人知道我们要找的那幅画, 倒底有多大吗? !</p>
+                <p class="article-text" style="color:rgb(237,118,114);font-style:italic;">“The Destruction of Pompeii and Herculaneum” … This one's already taller than me! Speaking of which, does anyone know, the one we are looking for, how big is it ?!</p>
             </text>
             <goto goto="80" change="#ffffff"/>
         </scene>
@@ -544,169 +544,169 @@
             <bgm src="serenity.mp3" status="continue"></bgm>
             <show chara="teslaBlackGlassWinterClose-up" position="center"/>
             <text article="1">
-                <p class="article-text" style="color:rgb(237,118,114);font-style:italic;">呃 … 这幅画 … 你们两个人行吗? </p>
+                <p class="article-text" style="color:rgb(237,118,114);font-style:italic;">Uh …  this painting … will you two be okay? </p>
             </text>
             <text article="1">
-                <p class="article-text">见轮到了一幅似乎有足球球门那么高的作品, 红色双马尾赶紧上前帮忙. </p>
+                <p class="article-text">Upon seeing a work that seems to be as tall as a football goalpost, Twintails hurries forward to assist. </p>
             </text>
             <show chara="staffGalleryBlackClose-up" position="center"/>
             <text article="1">
-                <p class="article-text" style="color:rgb(165,150,153);font-style:italic;">小姐, 往那边去一点 … 不要帮倒忙. </p>
+                <p class="article-text" style="color:rgb(165,150,153);font-style:italic;">Miss, move a bit over there … don't be more of a hindrance than a help. </p>
             </text>
             <text article="1">
-                <p class="article-text" style="color:rgb(165,150,153);font-style:italic;">小伙子 … 我数三声 … 一, 二, 三 — 起! </p>
+                <p class="article-text" style="color:rgb(165,150,153);font-style:italic;">Alright, young lad … I'll count to three … One, two, three — Heave! </p>
             </text>
             <goto goto="85" change="#ffffff"/>
         </scene>
         <scene id="85" background="storage2.jpg">
             <bgm src="themeWelt.mp3" status="start"></bgm>
-            <text>比仓库门还大的板状物体被颤巍巍地从支架上抬了出来. </text>
-            <text>包裹画面的麻布扑簌扑簌地落下恼人的灰尘 — 腾不出双手、又努力想忍住喷嚏的瓦尔特, 五官已经扭曲到了拧麻花的程度. </text>
+            <text>A board-shaped object, larger than the warehouse door, is lifted shakily from its stand. </text>
+            <text>The burlap cloth wrapped around the painting flutters about, raining down annoying puffs of dust — both hands occupied, Welt tries to hold back his sneeze, his facial features contorted to resemble a twisted pretzel. </text> <!-- In Chinese, they instead use mahua (麻花) as the metaphor - this is a northern Chinese snack made of fried dough that is also twisted in shape. -->
             <show chara="staffGallerySmileClose-up" position="center"/>
-            <speak chara="nekoNoFace">好了 … 继续来拆这些比说不定我还老的破布吧 … </speak>
-            <text>胖大叔抹了抹额头的汗水, 小心翼翼地启封着布满了污渍、水痕和灰尘的油画封套. </text>
+            <speak chara="nekoNoFace">Alright … let's continue to remove these rags that are probably older than me … </speak>
+            <text>Fat Uncle wipes the sweat from his forehead, and very carefully opens the sleeve containing the oil painting, filled with copious stains, water marks and dust. </text>
             <shake position="center" time="250"></shake>
-            <speak chara="nekoNoFace">这 … 这是? ! </speak>
+            <speak chara="nekoNoFace">This … This is it?! </speak>
             <goto goto="90" change="#ffffff"/>
         </scene>
         <scene id="90" background="CG7-2.jpg">
             <bgm src="themeEin.mp3" status="start"></bgm>
-            <text>陈旧的封布甫一揭开, 一片晅亮的象牙白就映入了四人的眼帘. </text>
-            <text>昏暗的背景中, 纯真的白裙少女被蒙住了眼睛, 由一位教士打扮的老人引向冷冰冰的断头台. </text>
-            <text>这毫无疑问正是《简·格雷小姐的处刑》 — 而且保存得非常完好! </text>
-            <speak chara="nekoNoFace">不 … 不可能 … </speak>
-            <speak chara="nekoNoFace">这怎么可能 … </speak>
-            <text>貌似在艺术品方面见多识广的胖大叔, 此刻下巴几乎要掉了下来. </text>
-            <speak chara="nekoNoFace">我的上帝啊! 连一点儿霉斑都没有! ! </speak>
-            <speak chara="teslaNoFace">但是这个画面 … </speak>
-            <text>显然在疑惑着其他事情的双马尾, 拿着放大镜绕到了巨画的背后. </text>
-            <speak chara="teslaNoFace"> … 签名区也一样 … 并没有什么奇怪之处啊? </speak>
-            <speak chara="nekoNoFace">怎么 … 这还不够神奇? </speak>
-            <text>胖大叔当然不会理解特斯拉的奇怪指的是什么. </text>
+            <text>As soon as the old sleeve cloth is peeled open, a bright ivory white comes into view of the four around the painting. </text>
+            <text>Upon a dim background, an innocent girl in a white dress is blindfolded, and an old man dressed as a priest leads her towards a cruel-looking chopping block. </text> <!-- The Chinese says 断头台, or guillotine platform, whereas the painting clearly shows a more traditional chopping block. -->
+            <text>This is undoubtedly “The Execution of Lady Jane Grey” — and it is in fact very well-preserved! </text>
+            <speak chara="nekoNoFace">Im- … Impossible … </speak>
+            <speak chara="nekoNoFace">How could it be possible … </speak>
+            <text>The Fat Uncle, who is apparently experienced and knowledgeable in the field of fine arts, almost drops his chin for a moment. </text>
+            <speak chara="nekoNoFace">My God! Not even a trace of mildew!! </speak>
+            <speak chara="teslaNoFace">But this painting … </speak>
+            <text>Evidently puzzling over other things, Twintails holds up a magnifying glass and passes around to the back of the giant painting. </text>
+            <speak chara="teslaNoFace"> … The signature area looks unchanged …  Is there anything strange about this painting? </speak>
+            <speak chara="nekoNoFace">Why … Can't this be considered miraculous enough? </speak>
+            <text>Of course Fat Uncle didn't understand what Tesla meant by “strange”. </text>
             <goto goto="100" change="0"/>
         </scene>
         <scene id="100" background="storage2.jpg">
             <bgm src="themeEin.mp3" status="continue"></bgm>
             <show chara="teslaNormalGlassWinterClose-up" position="right"/>
-            <speak chara="teslaNoFace">您还记得这幅画以前展出在哪里吗? </speak>
+            <speak chara="teslaNoFace">Do you remember where this painting was previously displayed? </speak>
             <show chara="teslaNormalGlassWinterClose-up" position="right" opacity="0.7"/>
             <show chara="staffGallerySweatClose-up" position="left"/>
-            <speak chara="nekoNoFace">小姑娘你这问的 … </speak>
-            <text>胖大叔哭笑不得地摊了摊手 — </text>
-            <speak chara="nekoNoFace">1928年发洪水的时候, 我还是个不懂事儿的学生呢! </speak>
+            <speak chara="nekoNoFace">Little lady, you ask about this … </speak>
+            <text>Between laughter and tears, the Fat Uncle holds out his hands — </text>
+            <speak chara="nekoNoFace">Yet during the 1928 flood, I was nothing more than an ignorant Grammar-school student! </speak>
             <show chara="staffGallerySweatClose-up" position="left" opacity="0.7"/>
             <show chara="teslaShameGlassWinterClose-up" position="right"/>
             <speak chara="teslaNoFace"> … </speak>
-            <text>明白自己问了个白痴问题的特斯拉吐了吐舌头. </text>
+            <text>Having thus understood that she was seeking information from an idiot, Tesla sticks her tongue out. </text>
             <show chara="teslaBoringGlassWinterClose-up" position="right"/>
-            <speak chara="teslaNoFace">线索不够啊. </speak>
+            <speak chara="teslaNoFace">Not enough clues. </speak>
             <show chara="teslaBoringGlassWinterClose-up" position="right" opacity="0.7"/>
             <show chara="staffGalleryNormalClose-up" position="left"/>
-            <speak chara="nekoNoFace">线索? </speak>
-            <text>胖大叔依旧一头雾水. </text>
+            <speak chara="nekoNoFace">Clues? </speak>
+            <text>Uncle Fat is still as confused as before, his mind in a fog. </text>
             <show chara="staffGalleryNormalClose-up" position="left" opacity="0.7"/>
             <show chara="einNormalWinterClose-up" position="center"/>
-            <speak chara="einNoFace"> … 我倒是有一个猜想. </speak>
-            <text>爱因斯坦从瓦尔特的背包中取出了一个形似电子管功放器的装置. </text>
+            <speak chara="einNoFace"> … I actually have a conjecture. </speak>
+            <text>From Welt's backpack, Einstein takes out a device that resembles a tube amplifier. </text>
             <show chara="einSmileWinterClose-up" position="center"/>
-            <speak chara="einNoFace">我用它在画布上扫描一下, 可以吗? </speak>
+            <speak chara="einNoFace">May I use it to scan the canvas? </speak>
             <show chara="einSmileWinterClose-up" position="center" opacity="0.7"/>
             <show chara="teslaNormalGlassWinterClose-up" position="right"/>
-            <speak chara="teslaNoFace">啊 … 难道 … </speak>
-            <speak chara="teslaNoFace">不、不会吧 … </speak>
-            <text>特斯拉见状, 似乎也领悟到了某个难以置信的可能性. </text>
+            <speak chara="teslaNoFace">Ah … Could it be … </speak>
+            <speak chara="teslaNoFace">No, it can't be … </speak>
+            <text>Seeing this, Tesla also seems to realise an incredible possibility. </text>
             <show chara="teslaNormalGlassWinterClose-up" position="right" opacity="0.7"/>
             <show chara="staffGallerySeriousClose-up" position="left"/>
-            <speak chara="nekoNoFace">唔 … 这玩意儿 … 不会释放什么辐射波吧? </speak>
-            <text>胖大叔有些警惕地看着这个可疑的装置. </text>
+            <speak chara="nekoNoFace">Mmm … this “toy” of yours … it doesn't release any radiation waves, does it? </speak>
+            <text>Fat Uncle stares at the suspicious device with a guarded expression. </text>
             <show chara="staffGallerySeriousClose-up" position="left" opacity="0.7"/>
             <show chara="einSmileWinterClose-up" position="center"/>
-            <speak chara="einNoFace" remark="next">特定波段的微波而已. 没有什么破坏力. </speak>
+            <speak chara="einNoFace" remark="next">It just emits microwaves in a specific band. It has no destructive power. </speak>
             <remark post="U2FsdGVkX19HAOD7GN9woHXyw4Jp">
-                <p class="article-text-h">注: </p>
-                <p class="article-text">根据量子理论的解释, 电磁波对分子的影响能力视其频率（或者说, 波长）而定. 频率越高（或者说, 波长越短）的电磁波越具备改变分子微观结构的能力. </p>
-                <p class="article-text">特定地, 微波作为一种远红外电磁波, 其频率远不足以改变分子本身, 物体接收微波辐射的结果也只能是被加热 — 其应用, 即微波炉. </p>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">According to quantum theory, the ability of electromagnetic waves to affect molecules depends on their frequency (or wavelength). The higher the frequency (or, the shorter the wavelength), the greater its ability to alter molecular structures. </p>
+                <p class="article-text">In particular, as a kind of far-infrared electromagnetic wave, the frequency of the microwave is far from sufficient to change the molecule itself, so an object will merely be heated when exposed to microwave radiation — a property that is exploited in the microwave oven. </p>
             </remark>
-            <speak chara="einNoFace">它会促使某种罕见的元素活性化, 从原先的混合状态中脱离出来. </speak>
+            <speak chara="einNoFace">It will induce the activation of a certain rare element, and cause it to separate from its original mixed state. </speak>
             <show chara="einSmileWinterClose-up" position="center" opacity="0.7"/>
             <show chara="staffGalleryNormalClose-up" position="left"/>
-            <speak chara="nekoNoFace">哦 … </speak>
-            <text>胖大叔摸着自己的脑门儿反应了一会儿. </text>
+            <speak chara="nekoNoFace">Oh … </speak>
+            <text>For a moment, Fat Uncle reacts with nothing more than rubbing his balding forehead. </text>
             <show chara="staffGalleryScareClose-up" position="left"/>
             <shake position="left" time="250"></shake>
-            <speak chara="nekoNoFace">等等 … 你难道是要用那个玩意儿, 从这画布里抽什么东西出来吗? ! </speak>
+            <speak chara="nekoNoFace">Wait … Are you going to use that toy to squeeze or draw something out of this canvas?! </speak>
             <show chara="staffGalleryScareClose-up" position="left" opacity="0.7"/>
             <show chara="einSmileWinterClose-up" position="center"/>
-            <speak chara="einNoFace">也可以这么理解. </speak>
+            <speak chara="einNoFace">It can be understood as such. </speak>
             <show chara="einSmileWinterClose-up" position="center" opacity="0.7"/>
             <show chara="staffGalleryScareClose-up" position="left"/>
-            <speak chara="nekoNoFace">不行不行! 让你们这么搞, 画不就毁了? ! </speak>
+            <speak chara="nekoNoFace">No, no, no! If I let you do that, wouldn't the painting be ruined?! </speak>
             <show chara="staffGalleryScareClose-up" position="left" opacity="0.7"/>
             <show chara="einNormalWinterClose-up" position="center"/>
-            <speak chara="einNoFace"> … 不至于. </speak>
-            <text>天然卷少女掏出电筒, 从侧向照在画布上. </text>
+            <speak chara="einNoFace"> … Unlikely. </speak>
+            <text>Mophead takes out a flashlight from her pocket, and shines it on the canvas from the side, at an angle. </text>
             <speak chara="einNoFace"> … </speak>
             <show chara="einSeriousAhWinterClose-up" position="center"/>
-            <speak chara="einNoFace">果然. </speak>
+            <speak chara="einNoFace">Indeed. </speak>
             <show chara="einSeriousEmWinterClose-up" position="center" opacity="0.7"/>
             <show chara="staffGalleryNormalClose-up" position="left"/>
-            <speak chara="nekoNoFace">啊? </speak>
-            <text>胖大叔丈二和尚摸不着头脑. </text>
+            <speak chara="nekoNoFace">Huh? </speak>
+            <text>Fat Uncle remains oblivious. </text>
             <show chara="staffGalleryNormalClose-up" position="left" opacity="0.7"/>
             <show chara="einSeriousAhWinterClose-up" position="center"/>
-            <speak chara="einNoFace">请您仔细观察. </speak>
-            <text>少女保持着电筒的角度解释道. </text>
-            <speak chara="einNoFace">看见了吗? 在画作的表面有一层薄薄的膜. </speak>
+            <speak chara="einNoFace">Please observe carefully. </speak>
+            <text>The young girl explains while maintaining the angle of the flashlight. </text>
+            <speak chara="einNoFace">Do you see? On the surface of the painting, there is a thin film. </speak>
             <show chara="einSeriousEmWinterClose-up" position="center" opacity="0.7"/>
             <show chara="staffGalleryNormalClose-up" position="left"/>
-            <speak chara="nekoNoFace"> … 唔 … 保护漆吗? </speak>
+            <speak chara="nekoNoFace"> … Hmm … Protective lacquer? </speak>
             <speak chara="nekoNoFace"> … </speak>
             <show chara="staffGallerySeriousClose-up" position="left"/>
-            <speak chara="nekoNoFace">不对, 什么保护漆也不可能让画作保持这么完美的状态啊! </speak>
-            <text>胖大叔的表情越发迷惑了起来. 仔细研究一下, 这层薄膜竟然还微微地泛着金属光泽! </text>
-            <speak chara="nekoNoFace"> … 这是 … 什么? </speak>
-            <speak chara="nekoNoFace"> … 我从没听说过还有这样的东西! </speak>
+            <speak chara="nekoNoFace">No, there is no protective lacquer that is able to keep a painting in such a pristine state! </speak>
+            <text>Fat Uncle's expression becomes even more confused. On careful inspection, it can be noticed that the film even has a slight metallic sheen! </text>
+            <speak chara="nekoNoFace"> … What is … this? </speak>
+            <speak chara="nekoNoFace"> … I have never seen or heard of such a thing! </speak>
             <show chara="staffGallerySeriousClose-up" position="left" opacity="0.7"/>
             <show chara="einNormalWinterClose-up" position="center"/>
-            <speak chara="einNoFace">如果您允许的话, 我们现在就可以测试. </speak>
-            <text>天然卷摇起了怀中机器的手柄. </text>
+            <speak chara="einNoFace">If you permit, we can test it now. </speak>
+            <text>Mophead begins cranking the handle of the machine in her arms. </text>
             <show chara="einNormalWinterClose-up" position="center" opacity="0.7"/>
             <show chara="staffGalleryScareClose-up" position="left"/>
             <shake position="left" time="250"></shake>
-            <speak chara="nekoNoFace"> … 我说了不许你们损坏画面! </speak>
-            <text>胖大叔登时着急了起来 — </text>
-            <speak chara="nekoNoFace">搞出了什么幺蛾子, 你我就都是全人类的罪人了! </speak>
+            <speak chara="nekoNoFace"> … I said that you are not allowed to damage the picture! </speak>
+            <text> Fat Uncle suddenly becomes anxious — </text>
+            <speak chara="nekoNoFace">If we pull some kind of nonsense, you and I will all be deemed sinners against humanity! </speak> <!-- 幺蛾子 = "To cause small moths to appear", northern Chinese phrase for "creating problems", much like how moths could wreak havoc on food stores. -->
             <show chara="staffGalleryScareClose-up" position="left" opacity="0.7"/>
             <show chara="einNormalWinterClose-up" position="center"/>
-            <speak chara="einNoFace"> … 您这就说得太夸张了. </speak>
-            <speak chara="einNoFace">这幅画 … 只是此后会变得和其他【正常】的藏品一样脆弱而已. </speak>
+            <speak chara="einNoFace"> … You are being overly dramatic. </speak>
+            <speak chara="einNoFace">After we're done, this painting …  will simply become as fragile as the other “normal” collections.. </speak>
             <show chara="einNormalWinterClose-up" position="center" opacity="0.7"/>
             <show chara="staffGallerySeriousClose-up" position="left"/>
             <speak chara="nekoNoFace"> … </speak>
             <show chara="staffGallerySeriousClose-up" position="left" opacity="0.7"/>
             <show chara="teslaBoringGlassWinterClose-up" position="right"/>
-            <speak chara="teslaNoFace">这种物质对我们而言非常重要. </speak>
-            <speak chara="teslaNoFace">让它仅仅是保护着这幅画, 也许是价值上的巨大浪费. </speak>
+            <speak chara="teslaNoFace">This substance on the painting is very important to us. </speak>
+            <speak chara="teslaNoFace">To just let it sit here, merely protecting a painting, may be a huge waste of its value. </speak>
             <show chara="teslaBoringGlassWinterClose-up" position="right" opacity="0.7"/>
             <show chara="staffGallerySeriousClose-up" position="left"/>
             <speak chara="nekoNoFace"> … </speak>
             <show chara="staffGallerySeriousClose-up" position="left" opacity="0.7"/>
             <show chara="teslaEmbarraGlassWinterClose-up" position="right"/>
-            <speak chara="teslaNoFace">如果您非要在此拒绝的话, 我们的组织也会有别的办法. </speak>
-            <speak chara="teslaNoFace">不是我说话难听 … 到时候只怕是贵馆全员都要吃不了兜着走. </speak>
+            <speak chara="teslaNoFace">If you continue to refuse us, our organisation will make use of other options. </speak>
+            <speak chara="teslaNoFace">I don't mean to bring ill tidings … but when that moment comes, I fear that you and your staff will find that you've bitten off more than you can chew. </speak>
             <show chara="teslaEmbarraGlassWinterClose-up" position="right" opacity="0.7"/>
             <show chara="staffGallerySeriousClose-up" position="left"/>
             <speak chara="nekoNoFace"> … </speak>
-            <speak chara="nekoNoFace"> … 唉. </speak>
+            <speak chara="nekoNoFace"> … Ugh. </speak>
             <show chara="staffGallerySweatClose-up" position="left"/>
-            <speak chara="nekoNoFace">小姑娘, 我也不是不通事理. </speak>
-            <speak chara="nekoNoFace">就算“无损”于画作本身, 我想, 有一点, 你们必须解释清楚 … </speak>
+            <speak chara="nekoNoFace">Little lady, I am not blind to reason. </speak>
+            <speak chara="nekoNoFace">But even if the procedure is “non-destructive” to the painting itself, I believe there is one thing you still need to explain clearly  … </speak>
             <show chara="staffGallerySeriousClose-up" position="left"/>
-            <speak chara="nekoNoFace">那个薄膜提取出来之后, 究竟有怎样的价值? 从道义上讲, 我们美术馆凭什么要允许你们这样做? </speak>
+            <speak chara="nekoNoFace">Once you've extracted that thin film, what value is there in it? From an ethical point of view, why should our art museum allow you to do such a thing? </speak>
             <show chara="staffGallerySeriousClose-up" position="left" opacity="0.7"/>
             <show chara="einSeriousAhWinterClose-up" position="center"/>
-            <speak chara="einNoFace">预言人类的命运. </speak>
-            <text>天然卷用从未有过的冰冷嗓音说道. </text>
+            <speak chara="einNoFace">To foretell the fate of humanity. </speak>
+            <text>Mophead speaks in a icy-cold voice like never before. </text>
             <show chara="einSeriousAhWinterClose-up" position="center" opacity="0.7"/>
             <show chara="staffGalleryScareClose-up" position="left"/>
             <shake position="left" time="250"></shake>
@@ -715,10 +715,10 @@
             <hide position="left"/>
             <hide position="right"/>
             <show chara="einSeriousEmWinterClose-up" position="center"/>
-            <text>不等管理员大叔从呆若木鸡的状态恢复过来, 爱因斯坦已经用怀中的机器对准了画布的中央. </text>
+            <text>Before Uncle <anager could recover from his dumbstruck state, Einstein has already aimed the machine at the centre of the canvas. </text>
             <show chara="einSeriousAhWinterClose-up" position="center"/>
-            <speak chara="einNoFace">共振式魂钢萃取, 开始. </speak>
-            <speak chara="einNoFace">请大家捂好自己的耳朵. </speak>
+            <speak chara="einNoFace">Initiating resonant-form Soulium extraction. </speak>
+            <speak chara="einNoFace">Everybody, please cover your ears. </speak>
             <end post="U2FsdGVkX19TjZQmi9wqji9OWE3F"/>
         </scene>
     </story>
