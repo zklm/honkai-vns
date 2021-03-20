@@ -131,7 +131,7 @@
             <speak chara="teslaNoFace">You … you come and talk to me. </speak>
             <speak chara="weltNoFace"> … M-me? </speak>
             <show chara="teslaBiteDrunkWinterClose" position="center"/>
-            <speak chara="teslaNoFace">N- … None of that n-nonsense! </speak>
+            <speak chara="teslaNoFace">None … None of that n-nonsense! </speak>
             <show chara="teslaFoolDrunkWinterClose" position="center"/>
             <speak chara="teslaNoFace">If not you … who else is there … hmm? </speak>
             <goto goto="50" change="0"/>
@@ -143,14 +143,14 @@
             <speak chara="weltNoFace">Haven't heard? </speak>
             <speak chara="weltNoFace">Uh … Haven't heard of what? </speak>
             <speak chara="teslaNoFace"> … You're being wordy today, aren't you. Are you some visiting member from the House of Commons? If you haven't heard of it, then you haven't heard of it, da? </speak>
-            <speak chara="teslaNoFace"> … On this rare occasion, this lady is going to  explain it properly to you, so you better wash your ears and listen like the good little dječak you are, okay? </speak>
+            <speak chara="teslaNoFace"> … Okay, on this rare occasion, this old gal is gonna explain it to you, so you better wash your ears and listen like the good little dječak you are, okay? </speak>
             <text>The red-haired drunkard continues to ramble incessantly, while she scornfully flings her coat over the back of the sofa. </text>
             <speak chara="teslaNoFace"> … You know, this old gal's name is Nikola. </speak>
             <speak chara="teslaNoFace">It just happens to be a girl's name as well, so I use it like that. </speak>
             <speak chara="teslaNoFace">However, on the passport … </speak>
             <speak chara="teslaNoFace">Ha ha ha ha ha, speaking of it now, I feel a bit ashamed. </speak>
             <speak chara="weltNoFace">Uh … What you want to say … </speak>
-            <speak chara="weltNoFace"> … is it that Nikola is a pseudonym? </speak>
+            <speak chara="weltNoFace"> … is that Nikola is a pseudonym? </speak>
             <speak chara="teslaNoFace">Actually … it's not a pseudonym. </speak>
             <speak chara="teslaNoFace">Frederica Nikola Tesla … That's my full name. </speak>
             <speak chara="teslaNoFace" remark="next">Really, it sounds like a German sow. </speak>
@@ -162,11 +162,11 @@
             <speak chara="teslaNoFace"> … Tsk. </speak>
             <text>Dissatisfied, the drunkard shifts her posture, and crosses her legs together — </text>
             <speak chara="teslaNoFace">I knew you men would speak like that. </speak>
-            <speak chara="teslaNoFace">A unisex name like Nikola, and you men would never be as “interested”, would you? </speak>
+            <speak chara="teslaNoFace">A unisex name like Nikola, and you men never seem to be as “interested”, am I right? </speak>
             <speak chara="weltNoFace">Uh … i-it isn't really like that … </speak>
             <speak chara="teslaNoFace">I've had enough of a life that treats me as a simple, ordinary “girl”. </speak>
             <text>The drunkard's speech suddenly speeds up dramatically — </text>
-            <speak chara="teslaNoFace">It's basically so stupid I can die. How can human personality be defined by such boring things as gender and race? </speak>
+            <speak chara="teslaNoFace">It's so stupid, I can just … die. How can human personality be defined by such boring things as gender and race? </speak>
             <speak chara="teslaNoFace" remark="next">Have their brains been soaked with formalin? </speak>
             <remark>
                 <p class="article-text-h">Note: </p>
@@ -309,8 +309,8 @@
             <speak chara="teslaNoFace">You must let go! Let go! Let go! </speak>
             <show chara="teslaBiteDrunkWinterClose" position="center" opacity="0.7"/>
             <show chara="weltTiredWinterClose" position="right"/>
-            <speak chara="weltNoFace"> …  Are you able to behave responsibly and look after your own body, in this state. </speak>
-            <text>The young man's facial expression is best described as one who does not know whether he should laugh or cry — the red-haired girl, whose hands he is holding, is now lying on the ground, breaking out into a tantrum, flinging about and causing a scene, just like a toddler who is not given her toy. </text>
+            <speak chara="weltNoFace"> … Are you able to behave responsibly and look after your own body, in this state? </speak>
+            <text>The young man does not know whether he should laugh or cry — the red-haired girl, whose hands he is holding, is now lying on the ground, breaking out into a tantrum. She is flinging about and causing a scene, just like a toddler who is not given her toy. </text>
             <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
             <show chara="teslaBiteDrunkWinterClose" position="center"/>
             <speak chara="teslaNoFace"> … You won't let go, won't you. </speak>
