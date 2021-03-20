@@ -9,619 +9,619 @@
         <scene id="10" background="storage2.jpg">
             <bgm src="10_25_noise.mp3" status="start"></bgm>
             <show chara="staffGalleryScareClose" position="center"/>
-            <speak chara="staffNoFace">你……你们……</speak>
+            <speak chara="staffNoFace">You … you lot … </speak>
             <hide position="center"/>
             <show chara="staffGalleryScareClose" position="left"/>
             <shake position="left" time="250"></shake>
-            <speak chara="staffNoFace">stnetnocstillaetalerrocotdnimnamuhehtfoytilibani ehtsiknihtIdlrowehtnignihtluficremtsomehT..^%$@!</speak>
+            <speak chara="staffNoFace">stnetnocstillaetalerrocotdnimnamuhehtfoytilibani ehtsiknihtIdlrowehtnignihtluficremtsomehT..^%$@!</speak> <!-- The gibberish reads in reverse: “The most merciful thing in the world I think is the inability of the human mind to correlate all its contents” — a quote from HP Lovecraft .-->
             <text article="1">
-                <p class="article-text">距离爱因斯坦开始操作某个奇怪装置已经过去了两分钟。之前坚持要监督她的秃头大叔，此刻已然怪叫着夺门而去。</p>
+                <p class="article-text">Two minutes have passed since Einstein started operating the strange device. The balding uncle, who had before been so insistent on supervision, had already bolted out of the room howling and screaming. </p>
             </text>
             <show chara="teslaDisgustedGlassNoiseWinterClose" position="left"/>
             <shake position="left" time="250"></shake>
-            <speak chara="teslaNoFace">瓦尔特！</speak>
-            <speak chara="teslaNoFace">堵紧自己的耳朵！</speak>
-            <speak chara="teslaNoFace">别管别人了！</speak>
+            <speak chara="teslaNoFace">Welt! </speak>
+            <speak chara="teslaNoFace">Plug your own ears! </speak>
+            <speak chara="teslaNoFace">Don't mind the others! </speak>
             <show chara="teslaDisgustedGlassNoiseWinterClose" position="left" opacity="0.7"/>
             <show chara="einLeftWeltCloseWinterClose" position="right"/>
-            <speak chara="weltNoFace">不行！我不能现在松手！</speak>
-            <speak chara="einNoFace">……别这样。</speak>
-            <speak chara="einNoFace">……先照顾好你自己。我没事的。</speak>
+            <speak chara="weltNoFace">No! I can't let go now! </speak>
+            <speak chara="einNoFace"> … Please don't do that. </speak>
+            <speak chara="einNoFace"> …  Take care of yourself first. I'm fine. </speak>
             <show chara="einLeftWeltCloseWinterClose" position="right" opacity="0.7"/>
             <text article="1">
-                <p class="article-text">在一波波绵延不绝，令人汗毛倒竖、冷汗直流的金属摩擦音中，天然卷少女的语气镇定如常。</p>
+                <p class="article-text"> The incessant sound of metal grating upon metal is loud enough to make one break out in goosebumps and cold sweat. But amidst such noise, only Mophead remains calm as per usual.  </p>
                 <br />
-                <p class="article-text">此时此刻，她正全神贯注，以稳定的节奏操作着怀中的“电子管功放器”。</p>
+                <p class="article-text">At this moment, she is fully focused, devoting her attention to operating the “tube amplifier” at a steady rhythm. </p>
             </text>
             <text article="1">
-                <p class="article-text">如果谁有幸见过水银在喇叭上震动的样子，那么他们可能会更容易理解，此时此刻，在瓦尔特等人的眼前，究竟发生了什么。随着释放微波的机械逐渐满负荷运转，画作的“保护膜”慢慢变得不透明起来，开始显露出金属特有的银白光泽。它们在画布上不断地渗出着、抖动着，像出汗一般，与原本的画面脱离开来。</p>
+                <p class="article-text">If anyone was ever fortunate enough to have witnessed drops of mercury vibrating on a loudspeaker horn, it may be easier for them to imagine what is happening before the eyes of Welt and company. As the microwave-emitting machine operates steadily at full load, the “protective film” of the painting slowly becomes opaque, revealing the unique silvery-white lustre of metal. Drops of liquid metal continuously seep out and vibrate on the canvas, as though they were beads of sweat, and gradually the metal begins to separate from the painting. </p>
             </text>
             <text article="1">
-                <p class="article-text">两分半。</p>
+                <p class="article-text">Two minutes. </p>
                 <br />
-                <p class="article-text">两分四十五。</p>
+                <p class="article-text">Two minutes, forty-five seconds. </p>
                 <br />
-                <p class="article-text">两分五十五。</p>
+                <p class="article-text">Two minutes, fifty-five seconds.\ </p>
             </text>
             <text article="1">
-                <p class="article-text">噪音越来越强，每一秒，都仿佛是在地狱穿行一个世纪那样漫长。</p>
+                <p class="article-text">The noise becomes louder and louder, and every second feels like a century in Hell. </p>
             </text>
             <show chara="teslaAstonishGlassNoiseWinterClose" position="left"/>
-            <speak chara="teslaNoFace">喂！你这家伙！</speak>
-            <speak chara="teslaNoFace">快听话啊！</speak>
-            <speak chara="teslaNoFace">这样下去，你的耳朵会受不了的！</speak>
+            <speak chara="teslaNoFace">Hey! You idiot! </speak>
+            <speak chara="teslaNoFace">Listen to me! </speak>
+            <speak chara="teslaNoFace">If you continue like this, your ears won't be able to stand much more of it! </speak>
             <show chara="teslaAstonishGlassNoiseWinterClose" position="left" opacity="0.7"/>
             <show chara="einLeftWeltCloseWinterClose" position="right"/>
-            <speak chara="weltNoFace">不，但是……</speak>
-            <speak chara="einNoFace">别这样……</speak>
-            <speak chara="einNoFace">爱茵……不会有事的……</speak>
+            <speak chara="weltNoFace">No, but … </speak>
+            <speak chara="einNoFace">Please don't be like that … </speak>
+            <speak chara="einNoFace">Eins … will be fine … </speak>
             <show chara="einLeftWeltCloseWinterClose" position="right" opacity="0.7"/>
             <text article="1">
-                <p class="article-text">银色的“汗水”逐渐脱出画面，缓缓地在画布下方汇聚成了一粒樱桃大小的金属液滴。</p>
+                <p class="article-text">The silver beads of “sweat” gradually seep out from the painting, slowly gathering into a cherry-sized metal droplet under the canvas.  </p>
                 <br />
-                <p class="article-text">从两米多高的平面上萃取出一小块液态金属，这本应是相当壮观震撼的场面——如果没有那伴随而来的可怖噪音的话。</p>
+                <p class="article-text">To extract a small drop of liquid metal, from a painting more than two meters tall, would have been quite a magnificent spectacle — if it were not for the terrible noise that accompanied it. </p>
             </text>
             <text article="1">
-                <p class="article-text">如果一定要形容——用钢勺在钢精锅上使劲摩擦的声音大概和它的感觉最为接近。</p>
+                <p class="article-text">If one must describe it — the sound of a steel spoon being rubbed vigorously against an iron pan would probably be the closest match. </p>
                 <br />
-                <p class="article-text">另外，拿指甲用力刮擦黑板、使用圆珠笔猛划尼龙伞，或许也能达到异曲同工的效果。</p>
+                <p class="article-text"> Alternatively, using fingernails to scratch a blackboard, or using a ballpoint pen to forcefully scour a nylon umbrella — perhaps these can also be used to achieve a similar effect. </p>
             </text>
             <goto goto="15" change="#ffffff"/>
         </scene>
         <scene id="15" background="storage2.jpg">
             <bgm src="themeWelt.mp3" status="start"></bgm>
             <show chara="einLeftWeltOpenWinterClose" position="center"/>
-            <speak chara="einNoFace">……你……不用这样的。</speak>
+            <speak chara="einNoFace"> … You … didn't have to do that. </speak>
             <show chara="einLeftWeltSmileWinterClose" position="center"/>
-            <speak chara="weltNoFace">说什么……傻话……</speak>
-            <speak chara="weltNoFace">这是……我……</speak>
-            <speak chara="weltNoFace">唯一……能做的……事情……啊……</speak>
-            <speak chara="einNoFace">……傻瓜。</speak>
-            <speak chara="einNoFace">快坐下。别说话。</speak>
+            <speak chara="weltNoFace">What silly nonsense … are you saying … </speak>
+            <speak chara="weltNoFace">That was … the one … </speak>
+            <speak chara="weltNoFace">thing … I could … actually … do … </speak>
+            <speak chara="einNoFace"> … Fool. </speak>
+            <speak chara="einNoFace">Sit down now. Don't speak. </speak>
             <show chara="einSeriousAhWinterClose" position="center"/>
-            <speak chara="einNoFace">安静休息一会儿。你的耳神经现在处于过载状态。</speak>
+            <speak chara="einNoFace">Rest for a while. At the moment your auditory nerves are in a state of overload. </speak>
             <show chara="einSeriousEmWinterClose" position="center" opacity="0.7"/>
             <show chara="teslaBoringGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">呜啊……</speak>
-            <text>特斯拉将手指拔出了自己的耳孔，用力甩了甩变得有些乱的双马尾。</text>
+            <speak chara="teslaNoFace">Whoa … </speak>
+            <text>Tesla pulls her fingers out of her ears, and begins forcefully brushing at her twin-tails, which for the moment look just a tad dishevelled. </text>
             <show chara="teslaNormalGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">好久没听过了，还真是刺激啊。</speak>
+            <speak chara="teslaNoFace">Haven't heard that in a while. That was really quite invigorating. </speak>
             <show chara="teslaNormalGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="einFoolWinterClose" position="center"/>
-            <speak chara="einNoFace">……</speak>
+            <speak chara="einNoFace"> … </speak>
             <show chara="einFoolWinterClose" position="center" opacity="0.7"/>
             <show chara="teslaNormalGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">我是知道你这家伙是天生就不怕金属摩擦音……</speak>
+            <speak chara="teslaNoFace">I already knew you were born with a resilience to the sound of metal scraping on metal … </speak>
             <show chara="teslaBoringGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">……但那俩家伙可就惨了啊。</speak>
+            <speak chara="teslaNoFace"> … But the other two were not so fortunate, and look at them now. </speak>
             <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
             <text article="1">
-                <p class="article-text">瓦尔特自不必说——</p>
+                <p class="article-text">Welt needs not an explanation — </p>
                 <br />
-                <p class="article-text">夺门而逃的美术馆管理员更是不知去向。</p>
+                <p class="article-text">But the museum director who fled the warehouse is nowhere to be seen. </p>
             </text>
             <show chara="einFoolWinterClose" position="center"/>
-            <speak chara="einNoFace">抱歉……是我解释得不够清楚。</speak>
+            <speak chara="einNoFace">Apologies … It is my fault for not explaining things thoroughly. </speak>
             <show chara="einNormalWinterClose" position="center"/>
-            <speak chara="einNoFace">正如特斯拉所说……我天生免疫这类噪音。</speak>
+            <speak chara="einNoFace">As Tesla said … I am naturally immune to this kind of noise. </speak>
             <show chara="einNormalWinterClose" position="center" opacity="0.7"/>
             <show chara="teslaNormalGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">那个有点讨厌的大叔姑且不论——</speak>
+            <speak chara="teslaNoFace">Let's not bother ourselves with that rather loathsome Big Uncle — </speak>
             <hide position="left"/>
             <show chara="teslaNormalGlassWinterClose" position="center"/>
             <bgm src="8_24_war.mp3" status="start"></bgm>
-            <text>双马尾走到瓦尔特的身前，冲他狠狠地瞪了一眼。</text>
+            <text>Twintails comes up to Welt's side, and gives him a severe glance. </text>
             <show chara="teslaAngryGlassWinterClose" position="center"/>
             <shake position="center" time="250"/>
-            <speak chara="teslaNoFace">你这家伙，纯粹就是逞能吧？我们让你堵好耳朵你为什么不听？</speak>
+            <speak chara="teslaNoFace">“But you, are you well and truly INCOMPETENT? We asked you to plug your ears. Why didn't you listen? </speak>
             <show chara="teslaEmbarraGlassWinterClose" position="center"/>
-            <speak chara="teslaNoFace">我知道你是担心她——可、是、她、还、真、就、不、怕、这、种、声、音、啊！</speak>
+            <speak chara="teslaNoFace">I know you were so worried about her — but, she , really, isn't, afraid, of, that, sort, of, noise! </speak>
             <show chara="teslaBiteGlassWinterClose" position="center"/>
-            <speak chara="teslaNoFace">你为什么非要那么固执啊？嗯？</speak>
+            <speak chara="teslaNoFace">Why did you have to be so stubborn? Hmm? </speak>
             <show chara="teslaDisgustedGlassWinterClose" position="center"/>
-            <speak chara="teslaNoFace">为什么不按我们说的，先保护你自己？</speak>
+            <speak chara="teslaNoFace">Why did you not heed and follow our orders, to protect yourself first? </speak>
             <show chara="teslaBiteGlassWinterClose" position="center"/>
             <shake position="center" time="250"/>
-            <speak chara="teslaNoFace">我们懂得多还是你懂得多？</speak>
+            <speak chara="teslaNoFace">Do we know more, or do YOU know more? </speak>
             <show chara="teslaBiteGlassWinterClose" position="center"/>
             <shake position="center" time="250"/>
-            <speak chara="teslaNoFace">我们是负责人还是你是负责人？</speak>
+            <speak chara="teslaNoFace">Are we in charge, or are YOU in charge? </speak>
             <show chara="teslaAngryGlassWinterClose" position="center"/>
             <shake position="center" time="250"/>
-            <speak chara="teslaNoFace">你不要给我——</speak>
+            <speak chara="teslaNoFace">Don't you dare give me — </speak>
             <show chara="teslaAngryGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="einSeriousAhWinterClose" position="center"/>
-            <speak chara="einNoFace">特斯拉！</speak>
-            <text>天然卷大叫着双马尾的名字打断了她。</text>
+            <speak chara="einNoFace">Tesla! </speak>
+            <text>Mophead interrupts Twintails by yelling her name. </text>
             <show chara="einNormalWinterClose" position="center"/>
-            <speak chara="einNoFace">瓦尔特……他的出发点是好的。</speak>
+            <speak chara="einNoFace">Welt … he had good intentions. </speak>
             <show chara="einNormalWinterClose" position="center" opacity="0.7"/>
             <show chara="teslaAstonishGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">……出发点？你身为一个研究者，现在要给我来动机论吗？爱因斯坦？</speak>
+            <speak chara="teslaNoFace"> … Intentions? As a scientist, are you really going to explain motivation theory to me right now? Einstein? </speak>
             <show chara="teslaBiteGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">他这样子不听话，以后遇到更危险的情况怎么办？</speak>
+            <speak chara="teslaNoFace">Disobedient as he is now, what if he encounters something more dangerous in the future? </speak>
             <show chara="teslaDisgustedGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">你希望他溺死在自己所谓的“爱心”里吗？</speak>
+            <speak chara="teslaNoFace"> Do you wish to see him drown in his so-called “compassion”? </speak>
             <show chara="teslaDisgustedGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="einFoolWinterClose" position="center"/>
-            <speak chara="einNoFace">……</speak>
+            <speak chara="einNoFace"> … </speak>
             <hide position="left"/>
             <show chara="teslaBiteGlassWinterClose" position="center"/>
-            <speak chara="teslaNoFace">你是助理，瓦尔特先生。</speak>
+            <speak chara="teslaNoFace">You are an assistant, Mr Welt. </speak>
             <show chara="teslaDisgustedGlassWinterClose" position="center"/>
-            <speak chara="teslaNoFace">你的首要职责就是听话！我们说什么你就做什么！</speak>
-            <speak chara="teslaNoFace">收起你那些自以为是的“关爱之心”吧——</speak>
+            <speak chara="teslaNoFace"> Your first and foremost duty is to be obedient! You do as we say! </speak>
+            <speak chara="teslaNoFace">Put aside your self-righteous ideals of “compassion” — </speak>
             <show chara="teslaAngryGlassWinterClose" position="center"/>
-            <speak chara="teslaNoFace">根本没那个必要！</speak>
+            <speak chara="teslaNoFace">It's fundamentally superfluous to our cause! </speak>
             <show chara="einFoolWinterClose" position="right" opacity="0.7"/>
             <show chara="teslaBiteGlassWinterClose" position="center"/>
             <shake position="center" time="250"/>
-            <speak chara="teslaNoFace">还有你！爱因斯坦！</speak>
+            <speak chara="teslaNoFace">And you! Einstein! </speak>
             <show chara="teslaDisgustedGlassWinterClose" position="center"/>
-            <speak chara="teslaNoFace">以后不要再宠着他了！很恶心耶！</speak>
+            <speak chara="teslaNoFace">Don't you dare spoil him anymore! It's absolutely revolting! </speak>
             <hide position="right"/>
             <hide position="center"/>
-            <text>她愤愤地踏着大步，头也不回地走掉了。</text>
+            <text>Irate, she strides off without once looking back. </text>
             <goto goto="20" change="#ffffff"/>
         </scene>
         <scene id="20" background="carNoon.jpg">
             <bgm src="10_20_PeerGynt.mp3" status="start"></bgm>
             <show chara="weltTiredWinterClose-up" position="left"/>
-            <speak chara="weltNoFace">……</speak>
-            <text>窝在计程车的后座里，青年依旧对双马尾博士的暴怒心有余悸。</text>
+            <speak chara="weltNoFace"> … </speak>
+            <text>Nestled in the back seat of the taxi, the young man remains anxious, with a lingering fear of Dr Twintails anger. </text>
             <show chara="weltDarkWinterClose-up" position="left"/>
-            <speak chara="weltNoFace">那个……我……</speak>
+            <speak chara="weltNoFace">That … I … </speak>
             <show chara="weltDarkWinterClose-up" position="left" opacity="0.7"/>
             <show chara="einNormalWinterClose-up" position="right"/>
-            <speak chara="einNoFace">放宽心。</speak>
-            <text>天然卷少女望着另一侧的窗外，头也不回地说道。</text>
+            <speak chara="einNoFace">Relax. </speak>
+            <text> Mophead speaks without looking back, peering out of the window on the other side of the car. </text>
             <show chara="einSmileWinterClose-up" position="right"/>
-            <speak chara="einNoFace">她只是脾气大罢了。</speak>
+            <speak chara="einNoFace">She just has a bad temper. </speak>
             <show chara="einSmileWinterClose-up" position="right" opacity="0.7"/>
             <show chara="weltDarkWinterClose-up" position="left"/>
-            <speak chara="weltNoFace">但是……我自己……的确也过于固执了。</speak>
+            <speak chara="weltNoFace">But … I was indeed … too stubborn. </speak>
             <show chara="weltDarkWinterClose-up" position="left" opacity="0.7"/>
             <show chara="einSeriousAhWinterClose-up" position="right"/>
-            <speak chara="einNoFace">今天以内，禁止你道歉。</speak>
+            <speak chara="einNoFace">From today onwards, you are not allowed to apologise. </speak>
             <show chara="einSeriousEmWinterClose-up" position="right" opacity="0.7"/>
             <show chara="weltNormalWinterClose-up" position="left"/>
-            <speak chara="weltNoFace">……唉？</speak>
+            <speak chara="weltNoFace"> … Huh? </speak>
             <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
             <show chara="einSeriousAhWinterClose-up" position="right"/>
-            <speak chara="einNoFace">不要火上浇油。回去以后你就当无事发生。</speak>
+            <speak chara="einNoFace">“Don't add fuel to the fire. When we return, you shall pretend as if nothing happened. </speak>
             <show chara="einSeriousEmWinterClose-up" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterClose-up" position="left"/>
-            <speak chara="weltNoFace">……啊？</speak>
+            <speak chara="weltNoFace"> … What? </speak>
             <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
             <show chara="einNormalWinterClose-up" position="right"/>
-            <speak chara="einNoFace">放心。她不会找你茬的。特斯拉才不是那种小肚鸡肠的人。</speak>
+            <speak chara="einNoFace">Rest assured. She won't come back and pick a fight with you. Tesla isn't that petty of a person. </speak>
             <show chara="einSmileWinterClose-up" position="right"/>
-            <speak chara="einNoFace">倒不如说……</speak>
-            <speak chara="einNoFace">这个时候，她正在哪里的酒吧喝个痛快也说不定呢——</speak>
-            <speak chara="einNoFace">——为了消解自己刚才对我们大发脾气的罪恶感。</speak>
+            <speak chara="einNoFace"> As a matter of fact … </speak>
+            <speak chara="einNoFace">At this very moment, she is most probably having a good drink at some bar — </speak>
+            <speak chara="einNoFace"> — to drown out her guilt over having lost her temper at us. </speak>
             <show chara="einSmileWinterClose-up" position="right" opacity="0.7"/>
             <show chara="weltTiredWinterClose-up" position="left"/>
-            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace"> … </speak>
             <goto goto="30" change="#ffffff"/>
         </scene>
         <scene id="30" background="carMorning.jpg">
             <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
-            <text>计程车在一个金色的雕像附近转向，沿着北侧的林荫道继续行驶。</text>
-            <text>左侧的车窗外有一幢四四方方的古典建筑，上面插着一面花得让人看不清图案的旗子。</text>
+            <text>The taxi makes a turn near a golden statue, and continues along the avenue on the north side. </text> <!-- The Victoria Memorial -->
+            <text> Outside the window to the left is a box-shaped piece of classical architecture, a building atop of which is planted a flag whose colours cannot be seen clearly by Welt. </text>
             <show chara="einNormalWinterClose-up" position="right"/>
             <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
-            <speak chara="einNoFace">白金汉宫。</speak>
-            <text>少女指着那幢四四方方的古典建筑说道。</text>
-            <speak chara="einNoFace">挂着那面君主旗，说明女王正在宫中。</speak>
+            <speak chara="einNoFace">Buckingham Palace. </speak>
+            <text>The girl speaks, pointing in the direction of the rectangular building. </text>
+            <speak chara="einNoFace">Flying the Royal Standard instead of the Union Jack,  indicates that the Queen is present in the palace. </speak>
             <show chara="einNormalWinterClose-up" position="right" opacity="0.7"/>
             <show chara="weltNormalWinterClose-up" position="left"/>
-            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace"> … </speak>
             <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
             <show chara="einNormalWinterClose-up" position="right"/>
-            <speak chara="einNoFace">君主旗上的四个色块分别代表英格兰、苏格兰、北爱尔兰和海外领地。</speak>
-            <speak chara="einNoFace">因为威尔士亲王是王储的头衔，所以君主旗里并没有红龙的元素。</speak>
+            <speak chara="einNoFace">The four coloured blocks on the Royal Standard represent England, Scotland, Northern Ireland and her overseas territories. </speak> <!-- This is not entirely correct — the three gold lions of England occupy two quadrants, while Scotland and Northern Ireland are each represented by a quadrant. The overseas territories are not represented. However, this flag is flown to represent the Queen in England, Wales, Northern Ireland, and UK overseas territories. To further add to the confusion, in Scotland a different flag is used, where the English and Scottish quadrants are swapped such that there are two Scottish quadrants. -->
+            <speak chara="einNoFace">Because the Crown Prince bears the title of Prince of Wales, there is no symbol of a Red Dragon on the Royal Standard. </speak> <!-- Wales does not have formal representation because it is treated as a principality incorporated into England. Hence, the fact that a “Prince of Wales” exists is an indirect cause for it not being symbolised on the Royal Standard. -->
             <show chara="einNormalWinterClose-up" position="right" opacity="0.7"/>
             <show chara="weltNormalWinterClose-up" position="left"/>
-            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace"> … </speak>
             <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
             <show chara="einFoolWinterClose-up" position="right"/>
-            <speak chara="einNoFace">……你大概并不想听这些有的没的东西吧。心情一时半会儿转不过来吗？</speak>
+            <speak chara="einNoFace"> … You probably don't want to listen to such trivial nonsense. Look, give it some time and your mood will bounce back, okay? </speak>
             <show chara="einFoolWinterClose-up" position="right" opacity="0.7"/>
             <show chara="weltTiredWinterClose-up" position="left"/>
-            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace"> … </speak>
             <show chara="weltTiredWinterClose-up" position="left" opacity="0.7"/>
             <show chara="einFoolWinterClose-up" position="right"/>
-            <speak chara="einNoFace">唉。看来你是被那家伙吓得不轻。</speak>
+            <speak chara="einNoFace">Ay. Looks like she really did give you a fright. </speak>
             <show chara="einFoolWinterClose-up" position="right" opacity="0.7"/>
             <show chara="weltDarkWinterClose-up" position="left"/>
-            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace"> … </speak>
             <show chara="weltDarkWinterClose-up" position="left" opacity="0.7"/>
             <show chara="einSlyWinterClose-up" position="right"/>
-            <speak chara="einNoFace">没事啦。</speak>
+            <speak chara="einNoFace">It's okay. </speak>
             <show chara="einFoolWinterClose-up" position="right"/>
-            <speak chara="einNoFace">我说过的——那个人虽然暴脾气，但气头过去也就没事了。</speak>
+            <speak chara="einNoFace">I did say — although that person has a terrible temper, everything will be fine once her anger is gone. </speak>
             <show chara="einSmileWinterClose-up" position="right"/>
-            <speak chara="einNoFace">倒是你自己，下次见到她的时候，千万千万，可不要畏畏缩缩的。</speak>
+            <speak chara="einNoFace">You on the other hand: when you do see her next time — by all means necessary — stop being so cowardly and cringey.</speak>
             <show chara="einFoolWinterClose-up" position="right"/>
-            <speak chara="einNoFace">那样她估计反而会讨厌你。</speak>
+            <speak chara="einNoFace">Then she might actually just hate you instead. </speak>
             <show chara="einSlyWinterClose-up" position="right"/>
-            <speak chara="einNoFace">对了。魂钢既然已经取到，是时候让你拜会一下我们42实验室的“公主殿下”了。</speak>
+            <speak chara="einNoFace">That's right. Now that we have the Soulium, it's time for you to meet “Her Royal Highness” of Lab 42. </speak>
             <show chara="einSlyWinterClose-up" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterClose-up" position="left"/>
-            <speak chara="weltNoFace">……？</speak>
+            <speak chara="weltNoFace"> … ? </speak>
             <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
             <show chara="einFoolWinterClose-up" position="right"/>
-            <speak chara="einNoFace">不是我。</speak>
+            <speak chara="einNoFace">Not me. </speak>
             <show chara="einSlyWinterClose-up" position="right"/>
-            <speak chara="einNoFace">当然，更不是那个暴脾气。</speak>
+            <speak chara="einNoFace">And of course, definitely not that ill-tempered woman. </speak>
             <show chara="einSlyWinterClose-up" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterClose-up" position="left"/>
-            <speak chara="weltNoFace">所以……</speak>
+            <speak chara="weltNoFace">So … </speak>
             <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
             <show chara="einLveWinterClose-up" position="right"/>
-            <speak chara="einNoFace">现 · 在 · 保 · 密 ~</speak>
+            <speak chara="einNoFace">Cur·rent·ly Clas·si·fied ~</speak>
             <show chara="einSlyWinterClose-up" position="right"/>
-            <text>少女故弄玄虚地笑了笑，不再作答。</text>
+            <text>The girl smiles vaguely, and refuses to give any further answers. </text>
             <goto goto="35" change="#ffffff"/>
         </scene>
         <scene id="35" background="londonStreet.jpg">
             <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
-            <text>计程车绕过了威灵顿拱门，沿着骑士桥笔直西行。</text>
-            <text>在这个深秋的傍晚，路边积水反射出的清冷霞光，不禁使人联想起一句两千多年前的不吉诗篇——</text>
-            <text remark="next">“苍白的死神平等地叩响穷人房舍的小门和国王宫殿的大门。”</text>
+            <text>The taxi passes by the Wellington Arch and continues west along Knightsbridge. </text>
+            <text>On this twilight of late autumn, the cool glow of waning sunlight is reflected by the roadside puddles; upon seeing this scene, one cannot help but be reminded of an ominous verse from more than 2,000 years ago — </text>
+            <text remark="next">Pale Death beats equally at the poor man's gate and at the palaces of kings. ”</text>
             <remark>
-                <p class="article-text-h">注：</p>
+                <p class="article-text-h">Note: </p>
                 <p class="article-text">"Pale Death beats equally at the poor man's gate and at the palaces of kings."</p>
-                <p class="article-text">此句来自古罗马诗人贺拉斯（Quintus Horatius Flaccus, 65 BC ~ 8 BC），拉丁语原文为“PALLIDA MORS AEQVO PVLSAT PEDE PAVPERVM TABERNAS REGVMQVE TVRRIS”。</p>
+                <p class="article-text">This sentence comes from the ancient Roman poet Quintus Horatius Flaccus (65-8 BC). The original Latin verse is “PALLIDA MORS AEQVO PVLSAT PEDE PAVPERVM TABERNAS REGVMQVE TVRRES”. </p>
             </remark>
-            <text>少女摇开车窗，目光转向了路对面的海德公园。</text>
-            <text>就要回到熟悉的帝国研究院了。</text>
+            <text>The girl winds down her window, and her gaze turns to the luscious green of Hyde Park across the road. </text>
+            <text>They have returned to the familiar Imperial Institute. </text>
             <goto goto="40" change="#ffffff"/>
         </scene>
         <scene id="40" background="studyDay.jpg">
             <bgm src="serenity.mp3" status="start"></bgm>
             <sound src="key.mp3"/>
-            <text>42实验室的门牢牢地锁着，三人的手提箱横七竖八地丢在门厅的中央。</text>
-            <text>并没有前脚有人回来过的迹象。</text>
+            <text>Lab 42's door is firmly locked, and the suitcases of the three travellers have been haphazardly left in the centre of the entrance hall.  </text>
+            <text>There are no signs of anyone else having returned earlier. </text>
             <show chara="einSlyWinterClose" position="center"/>
-            <speak chara="einNoFace">果然是去哪里的酒吧了吧。不用管她——</speak>
+            <speak chara="einNoFace">Sure enough, she has gone to the pub.  No need to worry about her — </speak>
             <show chara="einSmileWinterClose" position="center"/>
-            <speak chara="einNoFace">啊，这些行李也先不用管。</speak>
+            <speak chara="einNoFace"> Oh, and don't worry about the luggage. </speak>
             <show chara="einNormalWinterClose" position="center"/>
-            <speak chara="einNoFace">跟我来。</speak>
+            <speak chara="einNoFace">Follow me. </speak>
             <hide position="center"/>
-            <text>心中有所计划的天然卷转向了右侧的走廊——</text>
-            <text>那个瓦尔特使终搞不清用途的区域。</text>
+            <text>Mophead, who seems to have a plan in mind, turns to the corridor on the right — </text>
+            <text>The one place in the lab whose purpose is not yet clear to Welt. </text>
             <goto goto="50" change="#ffffff"/>
         </scene>
         <scene id="50" background="adaDoor.jpg">
             <bgm src="lab.mp3" status="start"></bgm>
             <show chara="einSlyWinterClose" position="right"/>
-            <speak chara="einNoFace">你应该很在意吧。</speak>
+            <speak chara="einNoFace">You should be feeling very concerned right now, right? </speak>
             <show chara="einSlyWinterClose" position="right" opacity="0.7"/>
             <show chara="weltNormalWinterClose" position="left"/>
-            <speak chara="weltNoFace">不……那倒也不至于——</speak>
+            <speak chara="weltNoFace">No … it's not like that — </speak>
             <show chara="weltNormalWinterClose" position="left" opacity="0.7"/>
             <show chara="einFoolWinterClose" position="right"/>
-            <speak chara="einNoFace">那就是【特别在意】吧。</speak>
+            <speak chara="einNoFace">Then you should be “Especially Concerned”. </speak>
             <show chara="einFoolWinterClose" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterClose" position="left"/>
-            <speak chara="weltNoFace">不……怎么说呢——</speak>
+            <speak chara="weltNoFace">No … How do you say — </speak>
             <show chara="weltSurpriseWinterClose" position="left" opacity="0.7"/>
             <show chara="einSmileWinterClose" position="right"/>
-            <speak chara="einNoFace">我懂了。是【非常在意】。</speak>
-            <speak chara="einNoFace">非常、非常、非常在意。</speak>
+            <speak chara="einNoFace">I understand. You must be “Extremely Concerned”, then. </speak>
+            <speak chara="einNoFace">Extremely, extremely, extremely concerned. </speak>
             <show chara="einSlyWinterClose" position="right"/>
-            <speak chara="einNoFace">对吧？</speak>
+            <speak chara="einNoFace">Correct? </speak>
             <show chara="einSlyWinterClose" position="right" opacity="0.7"/>
             <show chara="weltTiredWinterClose" position="left"/>
-            <speak chara="weltNoFace">……</speak>
-            <text>面对这种突如其来而又莫名其妙的固执，青年只好露出一副“败给你了”的表情。</text>
+            <speak chara="weltNoFace"> … </speak>
+            <text>Confronted with this sudden and inexplicable obstinance, the young man can only put on a resigned expression, as if to say: “There, I've lost to you”. </text>
             <show chara="weltTiredWinterClose" position="left" opacity="0.7"/>
             <show chara="einSmileWinterClose" position="right"/>
-            <speak chara="einNoFace">嗯嗯，我知道我知道。</speak>
-            <text>天然卷装模作样地点点头。</text>
+            <speak chara="einNoFace">Hehe, I knew it, I knew it. </speak>
+            <text>Mophead puts on an act of nodding her mophead. </text>
             <show chara="einSlyWinterClose" position="right"/>
-            <speak chara="einNoFace">来吧。感动到哭泣吧。</speak>
-            <speak chara="einNoFace">激动到脱衣庆祝吧。</speak>
-            <speak chara="einNoFace">是时候让你在42实验室的王牌面前五体投地了。</speak>
-            <text>她说这些话时——</text>
-            <text>那种往常的、一贯的、毫无感情色彩的无机质腔调——</text>
-            <text>配合着那谜一样的微笑，显得非常欠扁。</text>
+            <speak chara="einNoFace">Come on. Be moved to tears. </speak>
+            <speak chara="einNoFace">Be excited enough to shed your clothes in exaltation. </speak>
+            <speak chara="einNoFace">It is time for you to prostrate yourself before the trump card of Lab 42. </speak> <!-- 五体投地 = "the five-point veneration", a reverent gesture of prostration in Theravada Buddhism. -->
+            <text>For some reason, when she says this — </text>
+            <text>In that usual, consistent, unemotional, inorganic tone  — </text>
+            <text>Combined with that faint mysterious smile, she appears extraordinarily vexing to Welt. </text>
             <sound src="10_25_key1.mp3"/>
-            <text>……而且，这人还保持住插进钥匙的动作，就是不转动它。</text>
+            <text> … Moreover, she keeps the key inserted in the lock, without actually turning the lock. </text>
             <show chara="einSlyWinterClose" position="right" opacity="0.7"/>
             <show chara="weltTiredWinterClose" position="left"/>
-            <speak chara="weltNoFace">……从刚才开始，你是不是就在存心拿我开玩笑？</speak>
-            <text>可怜的青年哭笑不得地耸着肩膀。</text>
+            <speak chara="weltNoFace"> … Just then, were you deliberately making fun of me? </speak>
+            <text>The poor young man shrugs, not knowing whether to laugh or cry. </text>
             <show chara="weltTiredWinterClose" position="left" opacity="0.7"/>
             <show chara="einSlyWinterClose" position="right"/>
-            <speak chara="einNoFace">当然。</speak>
+            <speak chara="einNoFace">Of course. </speak>
             <sound src="10_25_key2.mp3"/>
-            <text>似乎是听到了满意的答复，少女微笑着转动了钥匙。</text>
+            <text>It seems that after hearing that satisfactory response, the girl turns the key with a smile. </text>
             <goto goto="60" change="#000000"/>
         </scene>
         <scene id="60" background="adaRoom.jpg">
             <bgm src="10_25_ada.mp3" status="start"></bgm>
             <show chara="adaSpot" position="center"/>
             <sound src="10_25_equipment.mp3"/>
-            <text>门打开的瞬间，瓦尔特有些疑惑自己究竟面对着什么。</text>
-            <text>一团虚无飘渺的粉色荧光，正像某种幻界生物的心脏一样，在缓缓搏动。</text>
-            <text>背景里，一排一排如同电话交换机一样的装置发出恼人的电子嗡嗡声；无数明明灭灭的指示灯在黑暗中兀自闪烁。</text>
+            <text>At the moment of the door opening, Welt already had reservations about what he may encounter inside. </text>
+            <text>A cloud of ethereal-pink fluorescent light is pulsating slowly before him, as though it were the heart of some fantasy creature.</text>
+            <text>In the background, rows upon rows of devices, installed and stacked together like telephone switchboards, emit an irksome electronic hum; countless, blinking indicator lights flicker unremittingly in the darkness. </text>
             <hide position="center"/>
             <sound src="10_25_taylormin.mp3"/>
-            <text remark="next">未几，荧光突然消失；一阵好似泰勒明电子琴的音阶声莫名响起。</text>
+            <text remark="next">Before long, the fluorescent light suddenly vanishes, and a burst of sound emits inexplicably in the room, a chime similar to a musical scale being played on a theremin. </text> <!-- https://www.youtube.com/watch?v=NXiEhnJhce0&t=17s -->
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">泰勒明（Терменво́кс，英语：Theremin）是世界最早的电子乐器之一，由俄国发明家泰勒明发明于1919年。</p>
-                <p class="article-text">由于音色特殊，早期许多电影的恐怖气氛都是用它来营造的。</p>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">The theremin (Russian: Терменво́кс) or thereminophone is one of the world's earliest electronic musical instruments, invented by Russian inventor Léon Theremin in 1919. </p>
+                <p class="article-text"> Because of its unique tone, it was used to create a spooky atmosphere in many early films. </p>
             </remark>
             <show chara="einSmileWinterFar" position="right"/>
-            <speak chara="einNoFace">下午好，艾妲。</speak>
-            <text>对此毫不奇怪的少女，向之前荧光所在的位置打了一个招呼。</text>
+            <speak chara="einNoFace">Good afternoon, Ada. </speak>
+            <text>The girl appears not particularly surprised, and utters a greeting towards the location where the fluorescent light had appeared before. </text>
             <show chara="einSmileWinterFar" position="right" opacity="0.7"/>
             <show chara="adaDimFar" position="center"/>
-            <speak chara="adaNoFace">下午好，爱因斯坦博士。</speak>
-            <speak chara="adaNoFace">啊，助理先生也是——下午好。</speak>
-            <text>传来陌生声音的方向，如魔法般幻化出一个可爱的人形，向二人颔首致意。</text>
+            <speak chara="adaNoFace">Good afternoon, Dr Einstein. </speak>
+            <speak chara="adaNoFace">Ah, Mr Assistant is also — Good afternoon.” From the direction of the strange sound, the fluorescent light  — Good afternoon. </speak>
+            <text>From the direction of the strange sound, the fluorescent light reappears, and magically transforms into a cute humanoid silhouette, greeting the two of them. </text> 
             <show chara="adaDimFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">你……你好……</speak>
+            <speak chara="weltNoFace">He- … Hello … </speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="einSmileWinterFar" position="right"/>
-            <speak chara="einNoFace">艾妲，给这家伙自我介绍一下。形象仿真系统我已经都打开了。</speak>
-            <text>天然卷少女一边调试着那些“电话交换机”，一边头也不回地说道。</text>
+            <speak chara="einNoFace">Ada, please give a formal introduction to this fellow over here. I have already activated the image emulation system. </speak>
+            <text>Mophead speaks without looking back, while adjusting and fiddling around with some of the “telephone switches”. </text>
             <show chara="einSmileWinterFar" position="right" opacity="0.7"/>
             <show chara="adaDimFar" position="center"/>
-            <speak chara="adaNoFace">好的！</speak>
+            <speak chara="adaNoFace">Of course! </speak>
             <show chara="adaSmileFar" position="center" time="2000"/>
-            <text>荧光构成的人形渐渐清晰起来，仿佛真实存在的童话角色一般，轻轻地飘在屋子中央。</text>
-            <speak chara="adaNoFace">你好，我是终端界面试作品0042号，人类名字是艾妲。</speak>
+            <text> The human figure made of fluorescent light gradually becomes opaque, and gently materialises in the centre of the room as a young pink girl, much like a fairy-tale character.  </text>
+            <speak chara="adaNoFace">Hello, this is terminal interface prototype No.0042. My human name is Ada. </speak>
             <speak chara="adaNoFace">A ~ D ~ A ~ </speak>
-            <speak chara="adaNoFace">艾——妲。</speak>
-            <text remark="next">她对自己名字的最后一个音节的读法，仿佛是用舌尖从上颚刻意下弹，令瓦尔特有些尴尬地联想起最近在法国出版的一部争议小说。</text>
+            <speak chara="adaNoFace">Ai — Da. </speak>
+            <text remark="next">She pronounces the last syllable of her name by deliberately plucking at her top palate with the tip of her tongue. The action makes Welt recall somewhat uncomfortably of a controversial novel recently published in France.</text>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">“洛——丽——塔：舌尖向上，分三步，从上颚往下轻轻落在牙齿上。洛。丽。塔。”</p>
-                <p class="article-text">1955年9月，博纳科夫的著名小说《洛丽塔》由巴黎奥林匹亚出版社首次出版。</p>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Lo — Lee — Ta: the tip of the tongue taking a trip of three steps down the palate to tap, at three, on the teeth. Lo. Lee. Ta”</p>
+                <p class="article-text">In September 1955, Vladimir Nabokov's famous novel “Lolita” was first published in Paris by Olympia Press. </p>
             </remark>
-            <speak chara="adaNoFace" remark="next">如果你需要使用“洛夫莱斯系统”的话，可以把需要解决的问题交给我。</speak>
+            <speak chara="adaNoFace" remark="next">If you need to use the “Lovelace system”, you can hand over to me whatever problems you need solved. </speak>
             <remark post="U2FsdGVkX19KCkqzXcU6dkLDzO7a">
-                <p class="article-text-h">注：</p>
-                <p class="article-text">诗人拜伦的女儿、洛夫莱斯伯爵夫人奥古斯塔·艾妲·金·诺尔（Ada Lovelace）是人类历史上的第一位电脑程序员。</p>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Lady Ada Lovelace, daughter of the famous poet Lord Byron, was the first computer programmer in human history. </p>
             </remark>
             <show chara="adaSmileFar" position="center" opacity="0.7"/>
             <show chara="weltNormalWinterFar" position="left"/>
-            <speak chara="weltNoFace">洛夫莱斯系统是什么？</speak>
+            <speak chara="weltNoFace">What is the Lovelace System? </speak>
             <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
             <show chara="adaNormalFar" position="center"/>
             <speak chara="adaNoFace">ⵥ·ⵋ·ⵐ·ⵐ·ⵥ·ⵋ·ⵥ</speak>
-            <text>艾妲用荧光在空中写了一行意味不明的字符。</text>
+            <text>Ada traces a line of unfamiliar characters in the air with fluorescent light. </text>
             <show chara="adaSmileFar" position="center"/>
-            <speak chara="adaNoFace">“JSZZJSJ”，如果用你们的语言，就是这样的一个缩写。</speak>
+            <speak chara="adaNoFace">“JSZZJSJ”. If we use your language, it will give such an abbreviation. </speak>
             <show chara="adaSmileFar" position="center"/>
-            <speak chara="adaNoFace">大家都觉得这个称谓实在是太难念了，所以起了“洛夫莱斯系统”这样的别称。</speak>
+            <speak chara="adaNoFace">Everyone thinks this title is too cumbersome to pronounce, so we called it the “Lovelace system” instead. </speak>
             <show chara="adaSmileFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">等等……</speak>
+            <speak chara="weltNoFace">Wait … </speak>
             <show chara="weltTiredWinterFar" position="left"/>
-            <speak chara="weltNoFace">……刚才那个克苏鲁风味的缩写是怎么回事啦。J什么S什么Z什么的。</speak>
+            <speak chara="weltNoFace"> … What's going on with that Cthulhu-sounding acronym just now? J something S something Z whats-it … </speak>
             <show chara="weltTiredWinterFar" position="left" opacity="0.7"/>
             <show chara="adaNormalFar" position="center"/>
             <speak chara="adaNoFace">ⵥⵙⵎ ⵋⴱⴳ ⵐⵓⴽⴸ ⵐ ⵥⵛⵌⴱⴴⵙⴸ ⵋⵓⵖⴱ ⵥⴶ</speak>
-            <text>艾妲续写了一行更加不明所以的字符。</text>
+            <text>Ada continues to write a line of even more unfamiliar characters. </text>
             <speak chara="adaNoFace" remark="next">Jhona Shiba Zhulaka ZhaJhyurhipoka Shuvi Jhaha. </speak>
             <remark post="U2FsdGVkX197im1hVEKWIqLnBHyl">
-                <p class="article-text-h" style="text-decoration:line-through">注：</p>
-                <p class="article-text" style="text-decoration:line-through">技（J）术（S）宅（Z）拯（Z）救（J）世（S）界（J）。</p>
+                <p class="article-text-h" style="text-decoration:line-through">Note: </p>
+                <p class="article-text" style="text-decoration:line-through">技（J）术（S）宅（Z）拯（Z）救（J）世（S）界（J）.</p> <p> (Translator's note: This is a break of the fourth wall. “Tech Otakus Save the World” — miHoYo's motto.)  </p>
             </remark>
             <show chara="adaSmileFar" position="center"/>
-            <speak chara="adaNoFace" remark="next">“大型主要快速的崩坏能计算系统”，翻译过来应该是这样的。</speak>
+            <speak chara="adaNoFace" remark="next">“Large-scale Primary High-speed Honkai Energy Calculation System”, That's what it says when fully-translated. </speak>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">内政部大型重要查询系统，Home Office Large Major Enquiry System，简称“HOLMES”，是一个英国警察部门用于调查重大案件的信息技术系统。</p>
-                <p class="article-text">与我们这里有关的是，它的全名是英国人为了HOLMES（福尔摩斯）这个缩写而故意拼凑的。</p>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">The Home Office Large Major Enquiry System (HOLMES), launched in 1985, is an information technology system used by UK police forces to investigate major cases. </p>
+                <p class="article-text">What matters to us here, is that its full name was deliberately put together by the British to form the acronym HOLMES.</p>
             </remark>
             <show chara="adaSmileFar" position="center" opacity="0.7"/>
             <show chara="weltTiredWinterFar" position="left"/>
-            <speak chara="weltNoFace">……我放弃了。</speak>
-            <text>青年绝望地看着这一通鬼画符——</text>
+            <speak chara="weltNoFace"> … I give up. </speak>
+            <text>The young man stares at the gibberish in despair — </text>
             <show chara="weltNormalWinterFar" position="left"/>
-            <speak chara="weltNoFace">还是告诉我你平常能做什么吧。</speak>
+            <speak chara="weltNoFace">Just tell me what sort of things you usually do. </speak>
             <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
             <show chara="adaSmileFar" position="center"/>
-            <speak chara="adaNoFace">天气预报、武器性能估算、解析魂钢数据……</speak>
+            <speak chara="adaNoFace">Weather forecast, weapon performance estimation, analysis of Soulium data … </speak>
             <show chara="adaSmileAhFar" position="center"/>
-            <speak chara="adaNoFace">根据“平常”的定义，就是这些了。</speak>
+            <speak chara="adaNoFace">According to your definition of “usual”, that's about it. </speak>
             <show chara="adaSmileFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">……我不知道这样概括对不对……</speak>
-            <text>青年托着下巴思考了一番——</text>
+            <speak chara="weltNoFace"> … I don't know if this generalisation is correct … </speak>
+            <text>The young man thinks, holding his chin — </text>
             <show chara="weltNormalWinterFar" position="left"/>
-            <speak chara="weltNoFace">也就是说——你和其他实验室的……嗯，那种特别大的计算机……是差不多的东西？</speak>
+            <speak chara="weltNoFace">That is to say — compared to those …  um, those extra-large calculators from the other labs … are you also something similar? </speak>
             <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
             <show chara="adaSmileAhFar" position="center"/>
-            <speak chara="adaNoFace">它们的确是我的同类。尽管相当原始。</speak>
-            <text>对方轻描淡写地评判着当代最尖端的计算设备。</text>
+            <speak chara="adaNoFace">They are indeed the same type as me. Although they are much more primitive. </speak>
+            <text>The entity casually passes judgment upon the most cutting-edge computing devices at the time. </text>
             <show chara="adaSmileAhFar" position="center" opacity="0.7"/>
             <show chara="weltScaredWinterFar" position="left"/>
-            <speak chara="weltNoFace">……原始？</speak>
+            <speak chara="weltNoFace"> … Primitive? </speak>
             <show chara="weltScaredWinterFar" position="left" opacity="0.7"/>
             <show chara="adaSmileFar" position="center"/>
-            <speak chara="adaNoFace">维持这个一级智能交互界面，目前占据了我核心模块性能的99%。</speak>
+            <speak chara="adaNoFace">Maintaining this level of an intelligent interactive interface currently accounts for 99% of my core module performance. </speak>
             <show chara="adaSmileAhFar" position="center"/>
-            <speak chara="adaNoFace" remark="next">尽管如此，那些设备的计算能力依然和我这剩余的1%，相差13个十进制数量级。</speak>
+            <speak chara="adaNoFace" remark="next"> Nevertheless, their computing power is still about 13 orders of magnitude weaker than my remaining 1%. </speak>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">1954年的超级计算机“IBM NORC”每秒能进行约67000次基本运算，而2016年的超级计算机“神威·太湖之光”每秒能进行约93000000000000000次浮点运算。</p>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">The 1954 supercomputer “IBM NORC” was able to perform approximately 67,000 basic operations per second, while the 2016 supercomputer “Sunway TaihuLight” is capable of approximately 93,000,000,000 floating-point operations per second. </p>
             </remark>
             <show chara="adaSmileFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">……13个数量级？</speak>
-            <text>不太擅长数学的瓦尔特对于这类大数字毫无概念。</text>
+            <speak chara="weltNoFace"> … 13 orders of magnitude? </speak>
+            <text> Welt, who is not very good at mathematics, has no concept of such large numbers. </text>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="adaSmileFar" position="center"/>
-            <speak chara="adaNoFace">十万亿。</speak>
-            <speak chara="adaNoFace">每当我计算这么多次的时候，它们才能计算一次。</speak>
+            <speak chara="adaNoFace">Ten trillion. </speak>
+            <speak chara="adaNoFace">I can count that many times in the time it takes for them to calculate only once. </speak>
             <show chara="adaSmileAhFar" position="center"/>
-            <speak chara="adaNoFace">或者说，我的1秒钟，等于它们的10万年。</speak>
+            <speak chara="adaNoFace">In other words, my 1 second is equal to their 100,000 years. </speak>
             <show chara="adaSmileFar" position="center" opacity="0.7"/>
             <show chara="weltScaredWinterFar" position="left"/>
-            <speak chara="weltNoFace">什……</speak>
+            <speak chara="weltNoFace">Wha- … </speak>
             <show chara="weltScaredWinterFar" position="left" opacity="0.7"/>
             <show chara="einSmileWinterFar" position="right"/>
-            <speak chara="einNoFace">不用惊讶。</speak>
+            <speak chara="einNoFace">No need to be surprised. </speak>
             <show chara="einSmileWinterFar" position="right"/>
-            <speak chara="einNoFace">艾妲不属于这个时代。</speak>
+            <speak chara="einNoFace">Ada does not belong to this era. </speak>
             <show chara="einSmileWinterFar" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">不属于这个时代……</speak>
+            <speak chara="weltNoFace">Does not belong to this era … </speak>
             <show chara="weltScaredWinterFar" position="left"/>
-            <speak chara="weltNoFace">……你是说？</speak>
+            <speak chara="weltNoFace"> … What do you mean? </speak>
             <show chara="weltScaredWinterFar" position="left" opacity="0.7"/>
             <show chara="einSmileWinterFar" position="right"/>
-            <speak chara="einNoFace">没错。前文明的产物。</speak>
+            <speak chara="einNoFace">That's right. A product of the Previous Civilisation. </speak>
             <show chara="einFoolWinterFar" position="right" />
-            <speak chara="einNoFace">这也是42实验室雇佣埃里阿斯·诺基安维塔宁博士的根本原因。</speak>
+            <speak chara="einNoFace">That's the chief reason why Lab 42 hired Dr Elias Nokianvirtanen. </speak>
             <show chara="einFoolWinterFar" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">根本原因……</speak>
+            <speak chara="weltNoFace">Chief reason … </speak>
             <show chara="weltShameWinterFar" position="left"/>
-            <speak chara="weltNoFace">你是说，是他给艾妲……</speak>
+            <speak chara="weltNoFace">You mean, did he give Ada … </speak>
             <show chara="weltShameWinterFar" position="left" opacity="0.7"/>
             <show chara="einFoolWinterFar" position="right" />
-            <speak chara="einNoFace">没错……基本就是……家庭教师。</speak>
-            <text>少女有些无奈地耸耸肩——</text>
+            <speak chara="einNoFace">Correct … He was effectively … her tutor. </speak>
+            <text>The girl suddenly shrugs helplessly, as though she were bothered by something — </text>
             <show chara="einSlyWinterFar" position="right" />
-            <speak chara="einNoFace">艾妲的名字、形象、行为方式……全都是那家伙的口味哟。</speak>
+            <speak chara="einNoFace">Ada's name, image, and behavioural mannerisms …  were all driven by the tastes of that man. </speak> <!-- Looks like our Finn is quite man of culture. -->
             <show chara="einSlyWinterFar" position="right" opacity="0.7"/>
             <show chara="weltTiredWinterFar" position="left"/>
-            <speak chara="weltNoFace">呃……</speak>
-            <text>青年感受到了来自脊骨深处的一阵恶寒。</text>
+            <speak chara="weltNoFace">Urgh … </speak>
+            <text>The young man feels a chill run deep down his spine. </text>
             <goto goto="71" change="#ffffff"/>
         </scene>
         <scene id="71" background="adaRoom.jpg">
             <bgm src="lab.mp3" status="start"></bgm>
             <show chara="adaSmileAhFar" position="center"/>
-            <speak chara="adaNoFace">魂钢里的记录不需要翻译，爱因斯坦博士、瓦尔特助理。</speak>
+            <speak chara="adaNoFace">The record in the Soulium does not need translation, Dr Einstein, Assistant Welt. </speak>
             <show chara="adaSmileFar" position="center" opacity="0.7"/>
             <show chara="weltScaredWinterFar" position="left"/>
-            <speak chara="weltNoFace">……啥？！</speak>
+            <speak chara="weltNoFace"> … Huh? ! </speak>
             <show chara="weltScaredWinterFar" position="left" opacity="0.7"/>
             <show chara="adaSmileAhFar" position="center"/>
-            <speak chara="adaNoFace">记录共有两份。</speak>
-            <speak chara="adaNoFace">其一是本世代的影像资料，其二是用数学方法加密的某种数据。</speak>
+            <speak chara="adaNoFace">There are two records. </speak>
+            <speak chara="adaNoFace">One is image data from this era, and the other is some kind of data encrypted by mathematical methods. </speak>
             <show chara="adaSmileFar" position="center" opacity="0.7"/>
             <show chara="einSeriousAhWinterFar" position="right" />
-            <speak chara="einNoFace">……不意外。先展示影像资料吧。</speak>
+            <speak chara="einNoFace"> … Not unexpected. Display the image data first. </speak>
             <show chara="einSeriousEmWinterFar" position="right" opacity="0.7"/>
             <show chara="adaNormalFar" position="center"/>
-            <speak chara="adaNoFace">好的。</speak>
+            <speak chara="adaNoFace">Okay. </speak>
             <goto goto="76" change="#ffffff"/>
         </scene>
         <scene id="76" background="casterCave.jpg">
             <bgm src="10_25_ada.mp3" status="start"></bgm>
             <text article="1">
-                <p class="article-text">话音未落，艾妲的童话少女形象就消失了——取而代之的是海市蜃楼似的幻影。</p>
+                <p class="article-text">Before her words had even ended, Ada's image of a fairy-tale princess already disappears — to be replaced by a mirage-like landscape. </p>
                 <br />
-                <p class="article-text">……那是一个洞穴，看起来与黄石遗迹颇为相似。</p>
+                <p class="article-text"> … It is a cave that looks quite similar to the Yellowstone ruins. </p>
             </text>
             <text article="1">
-                <p class="article-text">一个人影出现在了视野之中。</p>
+                <p class="article-text">A figure appears in their field of vision. </p>
                 <br />
-                <p class="article-text">是一位黑发的大姐姐。</p>
+                <p class="article-text">It is a sisterly woman with black hair. </p>
                 <br />
-                <p class="article-text">她穿着古代的女武神制服，浑身满是血污。</p>
+                <p class="article-text">She is wearing an antiquated Valkyrie battlesuit, and her whole body is covered with blood. </p>
             </text>
             <goto goto="82" change="0"/>
         </scene>
         <scene id="82" background="CG8.jpg">
             <bgm src="10_25_ada.mp3" status="continue"></bgm>
-            <speak chara="haNoNameNoFace">……应该已经开始录制了吧。</speak>
-            <text>幻影中的大姐姐深吸了一口气。</text>
-            <speak chara="haNoNameNoFace">我是……H.A。看到这个，意味着你已经初步解开了我留下的谜题。</speak>
-            <speak chara="haNoFace">哈哈哈……我甚至不知道，究竟是应该恭喜你，抑或是诅咒你。</speak>
-            <speak chara="haNoFace">我猜测你知道“天命”这样一个组织。也许你就是他们的一员。</speak>
-            <speak chara="haNoFace">哦，甚至，你可能就是奥托·阿波卡利斯本人。</speak>
-            <speak chara="haNoFace">如果竟然真是最后这种情况的话，那我大概还真的需要感谢一下神明了。</speak>
-            <speak chara="haNoFace">……哈哈哈哈哈哈哈。</speak>
-            <speak chara="weltNoFace">奥托……阿波卡利斯？</speak>
-            <text>这个名字，瓦尔特有些耳熟。</text>
+            <speak chara="haNoNameNoFace"> … It should have started recording already. </speak>
+            <text>The sister in the image takes a deep breath. </text>
+            <speak chara="haNoNameNoFace">I am … H.A. Seeing this means that you have already solved the initial puzzle I had left behind for you. </speak>
+            <speak chara="haNoFace">Hahaha … I don't even know, whether I should congratulate you, or curse you. </speak>
+            <speak chara="haNoFace">I guess you should already know of an organisation called “Schicksal”. Maybe you are one of them. </speak>
+            <speak chara="haNoFace">Oh, maybe, you're even Otto Apocalypse himself. </speak>
+            <speak chara="haNoFace">If it is indeed the latter, I really need to take a moment to thank God for that.  </speak>
+            <speak chara="haNoFace"> … Hahahahahahaha. </speak>
+            <speak chara="weltNoFace">Otto … Apocalypse? </speak>
+            <text>Welt seems familiar with that name. </text>
             <sound src="9_28_sheeee.mp3"/>
-            <speak chara="einNoFace">嘘。</speak>
-            <text>爱因斯坦皱着眉头，示意他不要发出声音。</text>
-            <speak chara="haNoFace">你一定知道“崩坏”是什么。</speak>
-            <text>影像中的H.A自然不可能和他们互动，只是顺着自己的步调述说着。</text>
-            <speak chara="haNoFace">你也一定知道，天命组织的信仰，就是将崩坏从地球上连根铲除。</speak>
-            <speak chara="haNoFace">不过……</speak>
-            <speak chara="haNoFace">很不幸，这是无法办到的。</speak>
-            <speak chara="haNoFace">你可能认为我只不过是被消极的情绪冲昏了头脑。</speak>
-            <speak chara="haNoFace">不，不是这样的。</speak>
-            <speak chara="haNoFace">在“最后的魂钢”里，你将找到无可辩驳的残酷证据。</speak>
-            <speak chara="haNoFace">请做好这样的心理准备。</speak>
-            <speak chara="haNoFace">啊……我知道你现在一定在疑惑些什么。</speak>
-            <speak chara="haNoFace">如你所想。现在你发现的这块魂钢，并不是我所说的“最后的魂钢”。</speak>
-            <speak chara="haNoFace">它是我转存的。一段影像……还有，附带一条密码信息。</speak>
-            <speak chara="haNoFace">试着解开它吧。向我证明你的技术力。</speak>
+            <speak chara="einNoFace">Shh. </speak>
+            <text>Einstein furrows her brow and frowns, motioning him to keep quiet. </text>
+            <speak chara="haNoFace">You must already know what “Honkai” is. </speak>
+            <text>Naturally, it is impossible for the HA in the video to directly interact with them, but she continues to talk calmly, at her own pace. </text>
+            <speak chara="haNoFace">You must also know that, the core belief of Schicksal, is to eradicate the Honkai from the face of the earth. </speak>
+            <speak chara="haNoFace">But … </speak>
+            <speak chara="haNoFace">Unfortunately, this cannot be done. </speak>
+            <speak chara="haNoFace">You may think that I am just overwhelmed by negative emotions. </speak>
+            <speak chara="haNoFace">No, this is not the case. </speak>
+            <speak chara="haNoFace">In the “final Soulium”, you will find the cruel, irrefutable evidence. </speak>
+            <speak chara="haNoFace">Please be mentally-prepared for this finality. </speak>
+            <speak chara="haNoFace">Ah … I know you must be wondering about certain things right now. </speak>
+            <speak chara="haNoFace">As you may have figured out, the current Soulium you have just found is not the so-called “final Soulium”. </speak>
+            <speak chara="haNoFace">Instead, that is a private transmission from me. An audiovisual segment … and also an encrypted message. </speak>
+            <speak chara="haNoFace">Try to decipher it. Prove to me your technical skills. </speak>
             <goto goto="93" change="#ffffff"/>
         </scene>
         <scene id="93" background="adaRoom.jpg">
             <bgm src="lab.mp3" status="start"></bgm>
             <show chara="adaSmileFar" position="center"/>
-            <speak chara="adaNoFace">在播放录像的时候我分析了她所说的密码信息的加密方式。</speak>
-            <text>恢复了拟人形象的艾妲报告道。</text>
+            <speak chara="adaNoFace">While I was playing the video, I analysed the encryption method of the accompanying encrypted data. </speak>
+            <text>Ada reports, restoring her anthropomorphic image. </text>
             <show chara="adaNormalFar" position="center"/>
-            <speak chara="adaNoFace" remark="next">我猜测是利用了有限域中椭圆曲线上的离散对数。</speak>
+            <speak chara="adaNoFace" remark="next">I predict that it uses a discrete logarithm of an elliptic curve over a finite field. </speak>
             <remark post="U2FsdGVkX19S8bzKHNuaPD0XARXO">
-                <p class="article-text-h">注：</p>
-                <p class="article-text">椭圆曲线密码（ECC）是一种如今已颇为常见的加密技术。</p>
-                <p class="article-text">这里的椭圆曲线，是指形如y^2 = x^3 + ax + b的代数曲线，而不是圆锥曲线中的椭圆。椭圆曲线之所以叫“椭圆曲线”，是因为形如x^3 + ax + b的式子会出现在积分计算椭圆弧长的过程中；而椭圆弧长不能用基本函数表示的原因也与之有关。椭圆曲线也是证明费马大定理的关键跳板——其在代数学中的重要性可见一斑。</p>
-                <p class="article-text">ECC相对于另一种常见的加密技术RSA（因数分解密码）更难破解。举例来说，美国国家标准与技术局建议的最小密钥长度，ECC是160位，而RSA是1024位。</p>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Elliptic Curve Cryptography (ECC) is an encryption technology that is quite common today. </p>
+                <p class="article-text">The elliptic curve here refers to an algebraic curve of the shape y^2 = x^3 + ax + b, not an ellipse in a conical curve. The elliptic curve is called an “elliptic curve” because a formula of the form x^3 + ax + b will appear in the process of integral calculation of the elliptic arc length; and it is also related to the reason why the elliptic arc length cannot be expressed in terms of elementary functions. Elliptic curves are also a key springboard to prove Fermat's Last Theorem — its importance in algebra is evident.</p>
+                <p class="article-text"> ECC is more difficult to crack than another common encryption technology, RSA (factorisation cipher).  For example, the minimum key length recommended by the National Bureau of Standards and Technology is 160 bits for ECC and 1024 bits for RSA. </p>
             </remark>
             <show chara="adaSmileAhFar" position="center"/>
-            <speak chara="adaNoFace">鉴于目前并没有这个领域的参考资料，初步估计，暴力破解需要花费三个月的时间。</speak>
+            <speak chara="adaNoFace">Given that there is no current reference material in this field, preliminary estimates suggest that brute force decryption will take three months. </speak>
             <show chara="adaSmileFar" position="center" opacity="0.7"/>
             <show chara="einSeriousAhWinterFar" position="right" />
-            <speak chara="einNoFace">满负荷运转呢？</speak>
+            <speak chara="einNoFace">How about at full capacity? </speak>
             <show chara="einSeriousEmWinterFar" position="right"/>
-            <text>爱因斯坦的眉头又皱了起来。</text>
+            <text>Einstein's brows furrow again. </text>
             <show chara="einSeriousEmWinterFar" position="right" opacity="0.7"/>
             <show chara="adaNormalFar" position="center"/>
-            <speak chara="adaNoFace">如果暂停其他一切既定安排和日常机能，仍然需要约四周的时间。</speak>
+            <speak chara="adaNoFace">If all other scheduled arrangements and daily functions are suspended, it will still take about four weeks. </speak>
             <show chara="adaNormalFar" position="center" opacity="0.7"/>
             <show chara="einSeriousEmWinterFar" position="right"/>
-            <speak chara="einNoFace">……</speak>
+            <speak chara="einNoFace"> … </speak>
             <show chara="einSeriousEmWinterFar" position="right" opacity="0.7"/>
             <show chara="adaNormalFar" position="center"/>
-            <speak chara="adaNoFace">爱因斯坦博士……这是很紧急的任务吗？</speak>
+            <speak chara="adaNoFace">Dr Einstein … Is this an urgent task? </speak>
             <show chara="adaNormalFar" position="center" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="right"/>
-            <speak chara="einNoFace">呼……</speak>
-            <text>天然卷少女深吸了一口气——</text>
+            <speak chara="einNoFace">Phew … </speak>
+            <text>Mophead takes a deep breath — </text>
             <show chara="einSmileWinterFar" position="right" />
-            <speak chara="einNoFace">不，我只是被好奇心绑架了而已。</speak>
+            <speak chara="einNoFace">No, I was just hijacked by curiosity, nothing more. </speak>
             <show chara="einSmileWinterFar" position="right" opacity="0.7"/>
             <show chara="adaSmileAhFar" position="center"/>
-            <speak chara="adaNoFace">那么，我们调整日程安排吗？</speak>
+            <speak chara="adaNoFace">So, shall we adjust the scheduled arrangements? </speak>
             <show chara="adaSmileAhFar" position="center" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="right" />
-            <speak chara="einNoFace">瓦尔特。</speak>
+            <speak chara="einNoFace">Welt. </speak>
             <show chara="einNormalWinterFar" position="center" />
             <show chara="adaSmileAhFar" position="right" opacity="0.7"/>
-            <text>爱因斯坦突然靠近一步，双眼直勾勾地盯着这个无助于解决谜题的男人。</text>
+            <text>Einstein suddenly takes a step closer, and stares down with a piercing gaze at the man who had not been all that helpful in solving the puzzles. </text>
             <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
             <show chara="weltShyWinterFar" position="left"/>
-            <speak chara="weltNoFace">……呃——在？</speak>
-            <text>从刚才开始就跟不上步调的青年吓得退了个趔趄。</text>
+            <speak chara="weltNoFace"> … Uh — Yes? </speak>
+            <text>The young man, who from the beginning simply couldn't keep up with the fast pace, stumbles back a step, as if given a fright. </text>
             <show chara="weltShyWinterFar" position="left" opacity="0.7"/>
             <show chara="einSlyWinterFar" position="center" />
-            <text>出乎他意料地，少女的脸上露出了一丝邪恶的微笑。</text>
+            <text>To his surprise, the girl's face exhibits a trace of a sinister smile. </text>
             <show chara="einSmileWinterFar" position="center" />
-            <speak chara="einNoFace">这段时间就拜托你啦。好好地负起责任吧？</speak>
+            <speak chara="einNoFace">Then I beg of you, during this time. Please take responsibility, okay? </speak> <!-- https://www.youtube.com/watch?v=1FfDtZFkP8k -->
             <show chara="einSmileWinterFar" position="center" opacity="0.7"/>
             <show chara="weltShameWinterFar" position="left"/>
-            <speak chara="weltNoFace">……啊？</speak>
-            <speak chara="weltNoFace">……等等等等，你说啥？</speak>
+            <speak chara="weltNoFace"> … Huh? </speak>
+            <speak chara="weltNoFace"> … W-w-w-wait, what are you on about? </speak>
             <end post="U2FsdGVkX19rqEwKMZHDErhJDSEv"/>
         </scene>
     </story>
