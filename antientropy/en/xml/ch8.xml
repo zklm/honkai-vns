@@ -21,7 +21,7 @@
             <shake position="left" time="250"></shake>
             <speak chara="teslaNoFace">Welt! </speak>
             <speak chara="teslaNoFace">Plug your own ears! </speak>
-            <speak chara="teslaNoFace">Don't mind the others! </speak>
+            <speak chara="teslaNoFace">Don't mind her! </speak>
             <show chara="teslaDisgustedGlassNoiseWinterClose" position="left" opacity="0.7"/>
             <show chara="einLeftWeltCloseWinterClose" position="right"/>
             <speak chara="weltNoFace">No! I can't let go now! </speak>
@@ -41,7 +41,7 @@
                 <br />
                 <p class="article-text">Two minutes, forty-five seconds. </p>
                 <br />
-                <p class="article-text">Two minutes, fifty-five seconds.\ </p>
+                <p class="article-text">Two minutes, fifty-five seconds.</p>
             </text>
             <text article="1">
                 <p class="article-text">The noise becomes louder and louder, and every second feels like a century in Hell. </p>
@@ -96,7 +96,7 @@
             <speak chara="teslaNoFace"> … But the other two were not so fortunate, and look at them now. </speak>
             <show chara="teslaBoringGlassWinterClose" position="left" opacity="0.7"/>
             <text article="1">
-                <p class="article-text">Welt needs not an explanation — </p>
+                <p class="article-text">Welt needs no explanation — </p>
                 <br />
                 <p class="article-text">But the museum director who fled the warehouse is nowhere to be seen. </p>
             </text>
@@ -106,7 +106,7 @@
             <speak chara="einNoFace">As Tesla said … I am naturally immune to this kind of noise. </speak>
             <show chara="einNormalWinterClose" position="center" opacity="0.7"/>
             <show chara="teslaNormalGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">Let's not bother ourselves with that rather loathsome Big Uncle — </speak>
+            <speak chara="teslaNoFace">Let's not bother ourselves with that loathsome Big Uncle — </speak>
             <hide position="left"/>
             <show chara="teslaNormalGlassWinterClose" position="center"/>
             <bgm src="8_24_war.mp3" status="start"></bgm>
@@ -115,7 +115,7 @@
             <shake position="center" time="250"/>
             <speak chara="teslaNoFace">“But you, are you well and truly INCOMPETENT? We asked you to plug your ears. Why didn't you listen? </speak>
             <show chara="teslaEmbarraGlassWinterClose" position="center"/>
-            <speak chara="teslaNoFace">I know you were so worried about her — but, she , really, isn't, afraid, of, that, sort, of, noise! </speak>
+            <speak chara="teslaNoFace">I know you were so worried about her — but, she , really, isn't, bothered, by, that, sort, of, noise! </speak>
             <show chara="teslaBiteGlassWinterClose" position="center"/>
             <speak chara="teslaNoFace">Why did you have to be so stubborn? Hmm? </speak>
             <show chara="teslaDisgustedGlassWinterClose" position="center"/>
@@ -188,7 +188,7 @@
             <speak chara="weltNoFace"> … Huh? </speak>
             <show chara="weltNormalWinterClose-up" position="left" opacity="0.7"/>
             <show chara="einSeriousAhWinterClose-up" position="right"/>
-            <speak chara="einNoFace">“Don't add fuel to the fire. When we return, you shall pretend as if nothing happened. </speak>
+            <speak chara="einNoFace">Don't add fuel to the fire. When we return, you shall pretend as if nothing happened. </speak>
             <show chara="einSeriousEmWinterClose-up" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterClose-up" position="left"/>
             <speak chara="weltNoFace"> … What? </speak>
@@ -259,7 +259,7 @@
             <speak chara="weltNoFace">So … </speak>
             <show chara="weltSurpriseWinterClose-up" position="left" opacity="0.7"/>
             <show chara="einLveWinterClose-up" position="right"/>
-            <speak chara="einNoFace">Cur·rent·ly Clas·si·fied ~</speak>
+            <speak chara="einNoFace">Cur · rent · ly Clas · si · fied ~</speak>
             <show chara="einSlyWinterClose-up" position="right"/>
             <text>The girl smiles vaguely, and refuses to give any further answers. </text>
             <goto goto="35" change="#ffffff"/>
@@ -332,7 +332,7 @@
             <text> … Moreover, she keeps the key inserted in the lock, without actually turning the lock. </text>
             <show chara="einSlyWinterClose" position="right" opacity="0.7"/>
             <show chara="weltTiredWinterClose" position="left"/>
-            <speak chara="weltNoFace"> … Just then, were you deliberately making fun of me? </speak>
+            <speak chara="weltNoFace"> … Just then, were you deliberately mocking me? </speak>
             <text>The poor young man shrugs, not knowing whether to laugh or cry. </text>
             <show chara="weltTiredWinterClose" position="left" opacity="0.7"/>
             <show chara="einSlyWinterClose" position="right"/>
@@ -362,7 +362,7 @@
             <show chara="einSmileWinterFar" position="right" opacity="0.7"/>
             <show chara="adaDimFar" position="center"/>
             <speak chara="adaNoFace">Good afternoon, Dr Einstein. </speak>
-            <speak chara="adaNoFace">Ah, Mr Assistant is also — Good afternoon.” From the direction of the strange sound, the fluorescent light  — Good afternoon. </speak>
+            <speak chara="adaNoFace">Ah, Mr Assistant is also — Good afternoon. </speak>
             <text>From the direction of the strange sound, the fluorescent light reappears, and magically transforms into a cute humanoid silhouette, greeting the two of them. </text> 
             <show chara="adaDimFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
@@ -441,8 +441,8 @@
             <speak chara="weltNoFace">That is to say — compared to those …  um, those extra-large calculators from the other labs … are you also something similar? </speak>
             <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
             <show chara="adaSmileAhFar" position="center"/>
-            <speak chara="adaNoFace">They are indeed the same type as me. Although they are much more primitive. </speak>
-            <text>The entity casually passes judgment upon the most cutting-edge computing devices at the time. </text>
+            <speak chara="adaNoFace">They are indeed similar to me. Although they are much more primitive. </speak>
+            <text>The entity casually passes judgment upon the most cutting-edge computing devices of the time. </text>
             <show chara="adaSmileAhFar" position="center" opacity="0.7"/>
             <show chara="weltScaredWinterFar" position="left"/>
             <speak chara="weltNoFace"> … Primitive? </speak>
@@ -608,11 +608,11 @@
             <speak chara="einNoFace">Welt. </speak>
             <show chara="einNormalWinterFar" position="center" />
             <show chara="adaSmileAhFar" position="right" opacity="0.7"/>
-            <text>Einstein suddenly takes a step closer, and stares down with a piercing gaze at the man who had not been all that helpful in solving the puzzles. </text>
+            <text>Einstein suddenly takes a step closer, and stares down with a piercing gaze at the man who had not been all that helpful with solving the puzzles. </text>
             <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
             <show chara="weltShyWinterFar" position="left"/>
             <speak chara="weltNoFace"> … Uh — Yes? </speak>
-            <text>The young man, who from the beginning simply couldn't keep up with the fast pace, stumbles back a step, as if given a fright. </text>
+            <text>The young man, who from the beginning simply couldn't keep up with the fast pace, stumbles back a step as if given a fright. </text>
             <show chara="weltShyWinterFar" position="left" opacity="0.7"/>
             <show chara="einSlyWinterFar" position="center" />
             <text>To his surprise, the girl's face exhibits a trace of a sinister smile. </text>
