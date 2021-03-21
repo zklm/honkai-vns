@@ -55,7 +55,7 @@
         <scene id="45" background="plankVienaNormal.jpg">
             <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
             <speak chara="planckNoFace">That the right to autonomy and self-determination is the source of vitality for research institutions. If you insist that everything has to go through procedures for approval, then in terms of academic and scientific vigour, it will be a disaster for this organisation. </speak>
-            <speak chara="abcNoFace">Ahem … peaking of which, how is Edison's personal situation? </speak>
+            <speak chara="abcNoFace">Ahem … speaking of which, how is Edison's personal situation? </speak>
             <text>Seeing that the two sides held firm to their own positions on the issue, a third speaker shifts the topic. </text>
             <goto goto="50" change="0"/>
         </scene>
@@ -72,7 +72,7 @@
         </scene>
         <scene id="60" background="plankVienaSly.jpg">
             <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
-            <speak chara="planckNoFace">No … this is a request from the US government, and both parties have signed an agreement for development of non-lethal weaponry, a matter that is difficult to use to refuse. </speak>
+            <speak chara="planckNoFace">No … this is a request from the US government, and both parties have signed an agreement for development of non-lethal weaponry, a matter that is difficult for us to refuse. </speak>
             <goto goto="65" change="0"/>
         </scene>
         <scene id="65" background="plankVienaSmile.jpg">
@@ -129,7 +129,7 @@
             <speak chara="schroNoFace"> … So? </speak>
             <speak chara="schroNoFace">Did you manage to find anything from this object, one with a history of “merely” three to four thousand years? </speak>
             <show chara="schroNormalEmClose" position="left"/>
-            <text>Evidently, the researcher with the Corkscrew Ponytail is not particularly enthusiastic about these fantasy antiques from a less civilised age. </text>
+            <text>Evidently, the researcher with the Corkscrew Ponytail is not particularly enthusiastic about these fantastical antiques from a less civilised age. </text>
             <show chara="schroNormalEmClose" position="left" opacity="0.7"/>
             <show chara="nokiaSeriousAhWinterClose" position="right"/>
             <speak chara="nokiaNoFace"> … First, let me confirm with you one thing. </speak>
@@ -490,7 +490,7 @@
             <show chara="teslaSmileGlassWinterClose-up" position="right"/>
             <speak chara="teslaNoFace"> … But actually, it was pretty fun. </speak>
             <show chara="teslaSnickerGlassWinterClose-up" position="right"/>
-            <speak chara="teslaNoFace">This place called Highgate, but perhaps it's more appropriate to call it a “point of historical interest”, rather than a “cemetery”. </speak>
+            <speak chara="teslaNoFace">This place called Highgate, perhaps it's more appropriate to call it a “point of historical interest”, rather than a “cemetery”. </speak>
             <show chara="teslaSnickerGlassWinterClose-up" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterClose-up" position="left"/>
             <speak chara="weltNoFace"> … Historical interest? </speak>
@@ -646,7 +646,7 @@
             <show chara="weltShyWinterFar" position="left"/>
             <speak chara="weltNoFace"> … </speak>
             <show chara="weltSmileWinterFar" position="left"/>
-            <speak chara="weltNoFace"> … . </speak>
+            <speak chara="weltNoFace"> … </speak>
             <show chara="weltNormalWinterFar" position="left"/>
             <speak chara="weltNoFace">In that case, will you also permit me to join you in paying respects to the dead? </speak>
             <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
