@@ -306,7 +306,7 @@
         <character name="Joachim" color="#ccbdac" id="joaNormalEmWinterClose" src="11_14_joaNormalEmWinterClose.png"/>
         <character name="Joachim" color="#ccbdac" id="joaNormalAhWinterClose" src="11_14_joaNormalAhWinterClose.png"/>
         <character name="Joachim" color="#ccbdac" id="joaScaredWinterClose-up" src="11_14_joaScaredWinterClose-up.png"/>
-        <character name="特斯拉等" color="#ffffff" id="teslaJoaNoFace" src=""/>
+        <character name="Tesla and co." color="#ffffff" id="teslaJoaNoFace" src=""/>
         <character name="Reanna" color="#fff2c4" id="reaBlackRunWinterClose-up" src="11_22_reaBlackRunWinterClose-up.png"/>
         <character name="Reanna" color="#fff2c4" id="reaNormalEmWinterClose-up" src="11_22_reaNormalEmWinterClose-up.png"/>
         <character name="Reanna" color="#fff2c4" id="reaEmbarraCloseEyeWinterClose-up" src="11_22_reaEmbarraCloseEyeWinterClose-up.png"/>
