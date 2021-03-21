@@ -71,7 +71,7 @@
             </text>
             <show chara="joaBlackWinterClose-up" position="center" opacity="0.9"/>
             <text article="1">
-                <p class="article-text" style="color:#ccbdac;font-style:italic;">I love my big sisters the most! ”</p>
+                <p class="article-text" style="color:#ccbdac;font-style:italic;">“I love my big sisters the most!”</p>
                 <br />
                 <p class="article-text"> — at least in Welt's opinion, the young boy is probably thinking like this. </p>
             </text>
@@ -93,13 +93,13 @@
             </text>
             <hide position="center"/>
             <text article="1">
-                <p class="article-text">Recalling the deeply apologetic and bowing demeanour of the Valkyrie Sister, Joachim also felt embarrassed and a little bit apologetic to her. </p>
+                <p class="article-text">Recalling the deeply apologetic demeanour and repeated bowing of the Valkyrie Sister, Joachim also felt embarrassed and a little bit apologetic to her. </p>
                 <br />
                 <p class="article-text"> — At least, he seemed to be the case in Welt's opinion. </p>
             </text>
             <show chara="joaBlackWinterClose-up" position="center" opacity="0.9"/>
             <text article="1">
-                <p class="article-text">Confronted with the other party who was so insistent on claiming compensation, the boy had an idea — </p>
+                <p class="article-text">Confronted by the other party being so insistent on claiming compensation, the boy had an idea — </p>
                 <br />
                 <p class="article-text" style="color:#ccbdac;font-style:italic;">“Miss Reanna, I want your autograph! ”</p>
             </text>
@@ -361,7 +361,7 @@
             <show chara="edisonSmileWinterFar" position="left"/>
             <speak chara="edisonNoFace"> … Excellent. </speak>
             <show chara="edisonLaughWinterFar" position="left"/>
-            <speak chara="edisonNoFace">This will become the greatest “civil” invention ever in the known history of humanity!</speak>
+            <speak chara="edisonNoFace">This will become the greatest “civil” invention ever known in the history of humanity!</speak>
             <speak chara="edisonNoFace"> We must give it a loud and resounding project name! </speak>
             <show chara="edisonSighWinterFar" position="left"/>
             <speak chara="edisonNoFace">Otherwise, that woman Planck will definitely laugh at us for being uncultured. </speak>
