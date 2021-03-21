@@ -326,7 +326,7 @@
         <character name="Tesla" color="rgb(237,118,114)" id="teslaEmbarraEyeClose-up" src="11_24_teslaEmbarraEyeClose-up.png"/>
         <character name="Tesla" color="rgb(237,118,114)" id="teslaSnickerEyeClose-up" src="11_24_teslaSnickerEyeClose-up.png"/>
         <character name="Tesla" color="rgb(237,118,114)" id="teslaSmileEyeClose-up" src="11_24_teslaSmileEyeClose-up.png"/>
-        <character name="哈利" color="#c34c66" id="harryNoFace" src=""/>
+        <character name="Harry" color="#c34c66" id="harryNoFace" src=""/>
         <character name="“Ghost”" color="rgb(255,255,255)" id="ghostBlackFloatClose-up" src="11_24_ghostBlackFloatClose-up.png"/>
         <character name="Welt" color="#ffffff" id="weltGiggleSweaterClose-up" src="11_24_weltGiggleSweaterClose-up.png"/>
         <character name="Welt" color="#ffffff" id="weltShameSweaterClose-up" src="11_24_weltShameSweaterClose-up.png"/>
