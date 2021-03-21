@@ -10,10 +10,10 @@
             <bgm src="themeWelt.mp3" status="start"></bgm>
             <speak chara="weltNoFace"> … </speak>
             <text article="1">
-                <p class="article-text">In the four weeks beginning from now, the lab assistant named Welt will be bearing a heavy responsibility. Lab 42 is now on a “quasi-holiday” because the supercomputer Ada has been shackled with a computationally-heavy task — which means that Welt needs to organise the entertainment and recreational activities of the two doctors for every day during the entire period. Although one of the doctors would proclaim that “Just because we're on vacation, doesn't mean we don't need to work some days”; given the personality of the other, it seems difficult to say … </p>
+                <p class="article-text">In the four weeks beginning from now, the lab assistant named Welt will be bearing a heavy responsibility. Lab 42 is now on a “quasi-holiday” because the supercomputer Ada has been shackled with a computationally-heavy task — which means Welt needs to organise recreational activities for the two doctors every day for the entire period. Although one of the doctors proclaims that “Just because we're on vacation, doesn't mean we don't need to work some days”; given the personality of the other doctor, it seems difficult to say for certain what the workload is going to be like for Welt … </p>
             </text>
-            <text>Especially given that just a few hours ago, his own foolhardy behaviour had caused her to blow a fuse.</text> <!--  无腦耍帅 = "to be brainless while trying to act brave and cool"; 火冒三丈 = "to burn with a rage that extends thirty feet" -->
-            <text>The wall clock silently ticks past eleven o'clock. Despite knowing that the law and order in this neighbourhood is one of the best in Britain, Welt remains uneasy, and since he has trouble sleeping anyway, chooses to stay up all night in the lobby. </text>
+            <text>Especially given that just a few hours earlier, his own foolhardy behaviour had caused her to blow a fuse.</text> <!--  无腦耍帅 = "to be brainless while trying to act brave and cool"; 火冒三丈 = "to burn with a rage that extends thirty feet" -->
+            <text>The wall clock silently ticks past eleven o'clock. Despite knowing that the community safety in this neighbourhood is one of the best in Britain, Welt remains uneasy, and since he has trouble sleeping anyway, chooses to stay up all night in the lobby. </text>
             <text>On the other hand, Einstein, who seems accustomed to her roommate's late-night adventures, had already gone upstairs to “rest” an hour ago. </text>
             <sound src="8_24_mess.mp3"/>
             <text> — If not for the various sounds of falling debris in the garbage chute, occurring from time to time. It sounds like someone taking this opportunity to finally clean up the house.</text>
@@ -26,7 +26,7 @@
             <text>The silly protagonist of the book had an amusing temperament, and this reminded him of “Don Quixote” he had read last year. </text>
             <text>Ah. </text>
             <text>Speaking of which … </text>
-            <text>Just now he had personally received a letter, and it was a very strange letter indeed … </text>
+            <text>Just now he had received a letter, and it was a very strange letter indeed … </text>
             <goto goto="15" change="#ffffff"/>
         </scene>
         <scene id="15" background="CG9-1.jpg">
@@ -40,32 +40,32 @@
                 <p class="article-text">Happy Halloween. </p>
             </text>
             <text article="1">
-                <p class="article-text">I heard that, because a certain Overseer pays special attention to this festival, I've had to make grand arrangements at Headquarters every year … Yes, the attached photo shows the state of my preparations for this year. </p>
-                <p class="article-text">By the way, something else to “celebrate”: starting this month, this lab's staff has been reduced to just me alone — so as you can see, even when taking a photo, I can only take one of myself. </p>
+                <p class="article-text">I heard that, because a certain Overseer pays special attention to this festival, I've had to make grand arrangements at Headquarters every year … Yes, the attached photo shows the state of my preparations this year. </p>
+                <p class="article-text">By the way, something else to “celebrate”: starting this month, my lab's staff has been reduced to just me alone — so as you can see, even when taking a team photo, I can only take one of myself. </p>
             </text>
             <text article="1">
                 <p class="article-text">I haven’t heard from you recently. Is it because of the new opportunities that have rekindled your passion for life? I've heard you guys have been travelling back and forth between the Atlantic Ocean, and have been having a great time. However, the North American branch has always been rated poorly by Headquarters. If they happen to cause some sort of trouble amongst themselves, or be at loggerheads with each other, you mustn't blindly participate … I've heard that still water runs deep, and thing can get rather treacherous. </p>
             </text>
             <text article="1">
-                <p class="article-text"> … But I'm also being stupid. When the Gods fight, what does it ever have to do with mere mortals like you and me?  Best not talk about it any more. Now, I don't know what the weather is like in London — but the moonlight in Vienna tonight is indeed hard to come by; I will thus borrow the power of alcohol, and guide us in a casual chat about things that we usually cannot talk about. Well, it's a letter, so just let me talk, and you can just listen — don't take any of this too seriously. </p>
+                <p class="article-text"> … But I'm also being stupid. When Gods fight, what does it matter to mere mortals like you and me?  Best not talk about it any more. Now, I don't know what the weather is like in London — but the moonlight in Vienna tonight is indeed hard to come by; I will thus borrow the power of alcohol to guide us in a casual chat, about some things we cannot usually talk about. Well, it's a letter, so just let me talk, and you can just listen — don't take any of this too seriously. </p>
             </text>
             <text article="1">
-                <p class="article-text">I know that you are a person who likes reading. But … have you ever thought about what has caused us human beings, in our struggle against the Honkai, to be repeatedly thwarted, to suffer loss after loss? After all, what flaws make us vulnerable to being preempted and defeated by the Honkai, to the point of being close to surrender, too tired to cope anymore? </p>
+                <p class="article-text">I know that you are a person who likes reading. But … have you ever thought about what has caused us human beings, in our struggle against the Honkai, to be repeatedly thwarted, to suffer loss after loss? After all, what flaws make us vulnerable to constant forestalling by the Honkai, to the point that we are close to complete surrender, too tired to cope anymore? </p>
                 <p class="article-text">In other words … why do we always, always, always repeat the same mistakes? </p>
             </text>
             <text article="1">
-                <p class="article-text">It is true that, throughout human history, we have been steadily progressing, and this trend of progress will unlikely be obstructed by any trivial event or matter; but what I've been seeing more, are those pioneers who stand on the crest of the wave — isolated and cut off from help, battered and bruised, caught between a rock and a hard place. Sometimes, they may even lose, defeated and embarrassed by their own human foibles. Spiritually, they may be giants, but sometimes physically or materially they are weaklings; their spiritual strength often takes a long time to be passed down, before they become publicly recognised as priceless treasures. </p>
+                <p class="article-text">It is true that, throughout human history, we have been steadily progressing, and this trend of progress will unlikely be obstructed by any trivial event or matter; but what I've been seeing more, are those pioneers who stand on the crest of the wave — isolated and cut off from help, battered and bruised, caught between a rock and a hard place. Sometimes, they may even lose, defeated and embarrassed by their own human foibles. Spiritually, they may be giants, but sometimes physically or materially they are weaklings; their spiritual strength often takes a long time to be passed down to later generations, before they are eventually recognised as cherished paragons. </p>
             </text>
             <text article="1">
-                <p class="article-text">Earlier, I told you the story of Saint Kallen. However, what I want to say today is … Compared to her great personality, nature instead granted her the body of an ordinary girl (although the bloodline of Kaslana is definitely nothing ordinary … but that won't make any difference to what I'm about to say here) — a body so weak and frail, one so minuscule and insignificant, that even the common folk can sentence her to death, so that even a lowly Honkai beast can take her life with ease. </p>
+                <p class="article-text">Earlier, I told you the story of Saint Kallen. However, what I want to say today is … Despite her strong force of character, nature instead granted her the body of an ordinary girl (although the bloodline of Kaslana is definitely nothing ordinary … but that won't make much difference to what I'm about to say here) — a body so weak and frail, one so minuscule and insignificant, that even the common folk can sentence her to death, so that even a lowly Honkai beast can take her life with ease. </p>
             </text>
             <text article="1">
                 <p class="article-text">Doesn't this make absolutely no sense? </p>
                 <br />
-                <p class="article-text">The world we live in, it does not follow logic at all, and it does not respect the principle of equivalent exchange! </p> <!-- FMA? -->
+                <p class="article-text">The world we live in, it does not follow logic at all, and it does not respect the principle of equivalent exchange! </p>
             </text>
             <text article="1">
-                <p class="article-text">I will never forget what Kallen experienced during her short life. </p>
+                <p class="article-text">I will never forget what Kallen experienced during her brief life. </p>
                 <br />
                 <p class="article-text">I am convinced that, for us humans, the greatest enemy is not the Honkai at all, but ourselves. </p>
             </text>
@@ -73,16 +73,16 @@
                 <p class="article-text"> — We are too weak, so weak that our heroes are always powerless to save everyone; we are too weak, so weak that some of us would even doubt the motives of our heroes; we are too weak, so weak that we will sacrifice true justice for a small immediate gain; we are too weak, so weak that we can only negotiate short-term peace amidst mutual conflict, and that we have to resort to official, pompous-sounding words like “social order” and “ethics” to cover up our despicable motives. </p>
             </text>
             <text article="1">
-                <p class="article-text">The Saint … She is a Saint because, despite being as fragile as us, she is very different from us, for she is one — just the one, the only one — who does not fear her vulnerability. This kind of bravery, emanating from the heart, is just like the sun to us ordinary folk — something we can all see, but can clearly never attain. </p>
+                <p class="article-text">The Saint … She is a Saint because, despite being as fragile as us, she is very different from us, for she is one — just the one, the only one — who does not fear her vulnerability. This kind of bravery, emanating from the heart, is like the sun to us ordinary folk — something we can all see, but can clearly never attain. </p>
                 <p class="article-text">At least, compared to her … I am a complete coward. </p>
             </text>
             <text article="1">
                 <p class="article-text">Every one of us, harbouring this original sin called “fear”, trepidly seeks the answers to life's questions. </p>
                 <br />
-                <p class="article-text">The Saint would never deride or jeer at us. But every time I realised that we are living like this, I would wish that I could kill myself with a single blow. </p>
+                <p class="article-text">The Saint would never deride or jeer at us. But every time I realise we are living like this, I wish that I could kill myself with a single blow. </p>
             </text>
             <text article="1">
-                <p class="article-text">But imagine, if, if each of us really has a chance to rid ourselves of this fragility; if we can uproot this fear, this thought of “I am fragile” that is deeply rooted within our hearts … then we can create a new culture at that moment, one that is full of forgiveness, full of self-confidence, and full of vigour! And then the so-called “Honkai” before us, won't it then dwindle to something so small, so insignificant, as to be unworthy of mention? </p>
+                <p class="article-text">But imagine, if, if each of us really has a chance to rid ourselves of this fragility; if we can uproot this fear, this thought of “I am fragile” deeply rooted within our hearts … then we can create a new culture at that moment, one that is full of forgiveness, full of self-confidence, and full of vigour! And then this so-called “Honkai”, won't it then dwindle to something so small, so insignificant, as to be unworthy of further mention? </p>
             </text>
             <text article="1">
                 <p class="article-text">Such a world, would protect its own Saints. </p>
@@ -93,7 +93,7 @@
                 <p class="article-text">If, if, if there is ever a chance that Kallen is able to shine upon this world stage again, then, this time, she will not struggle to progress because of our own meagreness. </p>
             </text>
             <text article="1">
-                <p class="article-text">I haven't tasted red wine for a long time, but I have really been drinking quite a bit today. In your opinion, this letter may be pure unintelligible, incoherent rambling to you … but this doesn't matter. Before, I had been talking to you as a member of the organisation; today, let me be an ordinary researcher, and let me have a casual, self-opinionated rant for once. </p>
+                <p class="article-text">I haven't tasted red wine for a long time, but I have really been drinking quite a bit today. In your opinion, this letter may be pure unintelligible incoherent rambling … but this doesn't matter. Before, I had been talking to you as a member of the organisation; today, let me be an ordinary researcher, and let me have a casual, self-opinionated rant for once. </p>
             </text>
             <text article="1">
                 <p class="article-text">I don't think the kind of world I have just imagined can be realised … but it doesn't matter. We still have a lot to do — don't we? </p>
@@ -114,7 +114,7 @@
             <text>Click click. </text>
             <sound src="11_3_mess lock.mp3"/>
             <text>Click click click. </text>
-            <text>At last, outside the door, there is that familiar sound, distinctive to drunkards: the sound of a prodding key from one who could not, for the life of them, find the keyhole to the lock. </text>
+            <text>At last, outside the door, there is that familiar sound unique to drunkards: the sound of a prodding key from one who cannot, for the life of them, find the keyhole to the lock. </text>
             <goto goto="40" change="#ffffff"/>
         </scene>
         <scene id="40" background="studyNight.jpg">
@@ -142,18 +142,18 @@
             <speak chara="teslaNoFace"> … You haven't heard of it anyway, have you? </speak>
             <speak chara="weltNoFace">Haven't heard? </speak>
             <speak chara="weltNoFace">Uh … Haven't heard of what? </speak>
-            <speak chara="teslaNoFace"> … You're being wordy today, aren't you. Are you some visiting member from the House of Commons? If you haven't heard of it, then you haven't heard of it, da? </speak>
-            <speak chara="teslaNoFace"> … Okay, on this rare occasion, this old gal is gonna explain it to you, so you better wash your ears and listen like the good little dječak you are, okay? </speak>
+            <speak chara="teslaNoFace"> … You're being wordy today, aren't you. Are you a visiting member from the House of Commons? If you haven't heard of it, then you haven't heard of it, da? </speak>
+            <speak chara="teslaNoFace"> … Okay, this old gal is gonna use this rare occasion to explain it to you, so you better wash your ears and listen like the good little dječak you are, okay? </speak>
             <text>The red-haired drunkard continues to ramble incessantly, while she scornfully flings her coat over the back of the sofa. </text>
             <speak chara="teslaNoFace"> … You know, this old gal's name is Nikola. </speak>
             <speak chara="teslaNoFace">It just happens to be a girl's name as well, so I use it like that. </speak>
             <speak chara="teslaNoFace">However, on the passport … </speak>
             <speak chara="teslaNoFace">Ha ha ha ha ha, speaking of it now, I feel a bit embarrassed. </speak>
-            <speak chara="weltNoFace">Uh … What you want to say … </speak>
-            <speak chara="weltNoFace"> … is that Nikola is a pseudonym? </speak>
-            <speak chara="teslaNoFace">Actually … it's not a pseudonym. </speak>
+            <speak chara="weltNoFace">Uh … Are you trying to say … </speak>
+            <speak chara="weltNoFace"> … that Nikola is a pseudonym? </speak>
+            <speak chara="teslaNoFace">Actually … no, it's not a pseudonym. </speak>
             <speak chara="teslaNoFace">Frederica Nikola Tesla … That's my full name. </speak>
-            <speak chara="teslaNoFace" remark="next">Really, it sounds like a German sow. </speak>
+            <speak chara="teslaNoFace" remark="next">Really, it sounds like a name for a German sow. </speak>
             <remark post="U2FsdGVkX19IgpxWjGoRkLC6kAMe">
                 <p class="article-text-h">Note: </p>
                 <p class="article-text">Tesla is a Serbian who was born in Croatia and has Austrian nationality. In Central and Eastern Europe, this is not uncommon for historical reasons. </p>
@@ -162,11 +162,11 @@
             <speak chara="teslaNoFace"> … Tsk. </speak>
             <text>Dissatisfied, the drunkard shifts her posture, and crosses her legs together — </text>
             <speak chara="teslaNoFace">I knew you men would speak like that. </speak>
-            <speak chara="teslaNoFace">A unisex name like Nikola, and you men never seem to be as “interested”, am I right? </speak>
+            <speak chara="teslaNoFace">A unisex name like Nikola, and you men immediately lose interest, aren't I right? </speak>
             <speak chara="weltNoFace">Uh … i-it isn't really like that … </speak>
             <speak chara="teslaNoFace">I've had enough of a life that treats me as a simple, ordinary “girl”. </speak>
             <text>The drunkard's speech suddenly speeds up dramatically — </text>
-            <speak chara="teslaNoFace">It's so stupid, I can just … die. How can human personality be defined by such boring things as gender and race? </speak>
+            <speak chara="teslaNoFace">The whole thing's so stupid, I think I might just die from the stupid. How can human personality be defined by such boring things as gender and race? </speak>
             <speak chara="teslaNoFace" remark="next">Have their brains been soaked with formalin? </speak>
             <remark>
                 <p class="article-text-h">Note: </p>
@@ -215,10 +215,10 @@
             <speak chara="teslaNoFace">Professor Planck is purely theoretical with her work — with my current research, I can't graduate under her supervision. </speak>
             <show chara="teslaBiteDrunkWinterClose" position="left"/>
             <speak chara="teslaNoFace">Especially Einstein that bitch … recently she's only willing to let me run “virtual” tests on Ada! </speak>
-            <speak chara="teslaNoFace">Only because I'd blown up the bedroom once or twice before … Isn't that too excessive? </speak>
+            <speak chara="teslaNoFace">Only because I'd blown up the bedroom once or twice before … Isn't that a bit excessive? </speak>
             <show chara="teslaNormalDrunkWinterClose" position="left"/>
             <speak chara="teslaNoFace">Oh. </speak>
-            <speak chara="teslaNoFace">Do you not know who Ada is? </speak>
+            <speak chara="teslaNoFace">Do you know who Ada is? </speak>
             <show chara="teslaNormalDrunkWinterClose" position="left" opacity="0.7"/>
             <show chara="weltTiredWinterClose" position="right"/>
             <speak chara="weltNoFace"> … If we're talking about Ada, I'd just met her today. </speak>
@@ -238,11 +238,11 @@
             <speak chara="weltNoFace">A-all-nighter? </speak>
             <show chara="weltScaredWinterClose" position="right" opacity="0.7"/>
             <show chara="teslaLveDrunkWinterClose" position="left"/>
-            <speak chara="teslaNoFace">Isn't that so … Of course, silly! </speak>
+            <speak chara="teslaNoFace">Ain't that so … Of course, silly! </speak>
             <show chara="teslaNormalDrunkWinterClose" position="left"/>
             <speak chara="teslaNoFace">Four weeks! </speak>
             <show chara="teslaLveDrunkWinterClose" position="left"/>
-            <speak chara="teslaNoFace">A whole month! Do you understand?! </speak>
+            <speak chara="teslaNoFace">A whole month! Don't you understand?! </speak>
             <show chara="teslaFoolDrunkWinterClose" position="left"/>
             <speak chara="teslaNoFace">Ada is going to be busy for four weeks, so how am I … how am I going to refuse this big vacation? </speak>
             <speak chara="teslaNoFace">HAHAHAHAHAHA! Holiday time! A life of luxury and debauchery! HERE I COME! </speak>
@@ -310,7 +310,7 @@
             <show chara="teslaBiteDrunkWinterClose" position="center" opacity="0.7"/>
             <show chara="weltTiredWinterClose" position="right"/>
             <speak chara="weltNoFace"> … Are you able to behave responsibly and look after your own body, in this state? </speak>
-            <text>The young man does not know whether he should laugh or cry — the red-haired girl, whose hands he is holding, is now lying on the ground, breaking out into a tantrum. She is flinging about and causing a scene, just like a toddler who is not given her toy. </text>
+            <text>The young man does not know whether he should laugh or cry — the red-haired girl, whose hands he is holding, is now lying on the ground, breaking out into a tantrum. She is flinging about and causing a scene, just like a toddler who is refused her toy. </text>
             <show chara="weltTiredWinterClose" position="right" opacity="0.7"/>
             <show chara="teslaBiteDrunkWinterClose" position="center"/>
             <speak chara="teslaNoFace"> … You won't let go, won't you. </speak>
@@ -334,7 +334,7 @@
             <speak chara="teslaNoFace">Not drunk, not drunk means I'm not drunk! </speak>
             <text>Tesla squats angrily on the ground — then all of a sudden, she violently leaps up as though an idea has hopped into her mind. </text>
             <show chara="teslaAstonishDrunkWinterClose" position="center"/>
-            <speak chara="teslaNoFace">I  know. I won't drink anymore. </speak>
+            <speak chara="teslaNoFace">I know. I won't drink anymore. </speak>
             <show chara="teslaAstonishDrunkWinterClose" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterClose" position="right"/>
             <speak chara="weltNoFace"> … Don't lie to me. </speak>
