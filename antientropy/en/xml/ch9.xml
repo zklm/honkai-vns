@@ -409,7 +409,7 @@
             <show chara="0einFoolVestClose-up" position="center"/>
             <speak chara="einNoFace"> …  …  … </speak>
             <show chara="einBagaVestClose-up" position="center"/>
-            <speak chara="einNoFace">Welt, you say … why is she suddenly so still? </speak>
+            <speak chara="einNoFace">Say, Welt … why is she suddenly so still? </speak>
             <end post="U2FsdGVkX19e4WHxF4Pk4HxRATs2"/>
         </scene>
     </story>
