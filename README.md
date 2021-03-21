@@ -5,8 +5,7 @@ Continuation of Chinese-to-English translation work of Honkai Impact VNs, from h
 I am currently only working on the Anti-Entropy VN. However, the standalone VN viewers made by zklm are available below:
 
 - Anti-Entropy: https://zklm.github.io/honkai-vn-antientropy/ (Standalone)
-  - Chapters 1 to 9: done by listless-restless
-  - Chapters 10 to 12: done by listless-restless, but yet to be uploaded
+  - Chapters 1 to 12: done by listless-restless
   - Chapters 13 to 26: partially done by Aiatar and zklm
 - Durandal: https://zklm.github.io/honkai-vn-durandal/ (Standalone)
   - Chapters 1 to 20: done by Aiatar and zklm
