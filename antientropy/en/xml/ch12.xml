@@ -80,7 +80,7 @@
             <show chara="teslaShameGlassWinterClose" position="right" opacity="0.7"/>
             <show chara="einSlyCoatClose" position="left"/>
             <speak chara="einNoFace">Oops, indeed, who could be so stupid? </speak>
-            <text>Mophead drinks the last sip of milk tea with a smile. </text>
+            <text>Mophead sips the last drop of milk tea with a smile. </text>
             <show chara="einSlyCoatClose" position="left" opacity="0.7"/>
             <goto goto="30" change="#ffffff"/>
         </scene>
@@ -255,7 +255,7 @@
             <speak chara="weltNoFace">But in fact … </speak>
             <show chara="weltSurpriseWinterClose-up" position="right" opacity="0.7"/>
             <show chara="planckSlyCoatClose-upSymme" position="left"/>
-            <speak chara="planckNoFace">That's correct. We modern people are no less capable than the old antiquities of the Previous Civilisation. If we do it ourselves, we can also succeed. </speak>
+            <speak chara="planckNoFace">That's correct. We modern people are no less capable than the ancient people of the Previous Civilisation. If we do it ourselves, we can also succeed. </speak>
             <show chara="planckSlyCoatClose-upSymme" position="left"/>
             <speak chara="planckNoFace"> What's more, once the scale of the Yellowstone ruins is known to Headquarters, there will probably be friction between the two sides again.</speak>
             <show chara="planckSmileCoatClose-upSymme" position="left"/>
@@ -265,7 +265,7 @@
             <speak chara="weltNoFace"> … If so, isn't the current situation really dangerous right now? </speak>
             <show chara="weltScaredWinterClose-up" position="right" opacity="0.7"/>
             <show chara="planckSlyCoatClose-upSymme" position="left"/>
-            <speak chara="planckNoFace">Hehe, if you lot manage to find the so-called “Last Soulium”, then you will have a front-row seats to a good show. </speak>
+            <speak chara="planckNoFace">Hehe, if you lot manage to find the so-called “Last Soulium”, then you will have front-row seats to a good show. </speak>
             <show chara="planckSlyCoatClose-upSymme" position="left" opacity="0.7"/>
             <show chara="weltScaredWinterClose-up" position="right"/>
             <speak chara="weltNoFace">G-good show? </speak>
@@ -291,7 +291,7 @@
             <speak chara="weltNoFace"> … </speak>
             <show chara="weltNormalWinterClose-up" position="right" opacity="0.7"/>
             <show chara="planckSmileCoatClose-upSymme" position="left"/>
-            <speak chara="planckNoFace">`Don't worry, it doesn't mean that I'm treating you as an outsider. </speak>
+            <speak chara="planckNoFace">Don't worry, it doesn't mean that I'm treating you as an outsider. </speak>
             <show chara="planckSeriousCoatClose-upSymme" position="left"/>
             <speak chara="planckNoFace"> The Organisation is huge. Between any two members, the perceived meaning behind its existence may be as different as night and day. </speak>
             <show chara="planckSlyCoatClose-upSymme" position="left"/>
