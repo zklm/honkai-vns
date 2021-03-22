@@ -203,7 +203,7 @@
             <show chara="einFretfulLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
             <speak chara="karlNoFace">Don't be so disgruntled. Every person's imagination has its limits.</speak>
-            <speak chara="karlNoFace">Only by learning and borrowing from the imagination of others, will you be able to see more amazing scenery.</speak>
+            <speak chara="karlNoFace">Only by learning and borrowing from the imagination of others, will you be able to see more amazing vistas.</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
             <speak chara="meEinNoFace"> … </speak>
