@@ -9,9 +9,9 @@
         <scene id="10" background="westCliffBossRoom.jpg">
             <bgm src="horror.mp3" status="start"></bgm>
             <show chara="ritaAgentClose-up" position="center"/>
-            <speak chara="ritaNoFace">This is the 「Marquis」.</speak>
-            <speak chara="ritaNoFace">I was ready to welcome 「Adam」, but 「George」 showing himself was unexpected.</speak>
-            <speak chara="ritaNoFace">What should I prepare for the 「main dish」? Please give further instructions.</speak>
+            <speak chara="ritaNoFace">This is the “Marquise”.</speak>
+            <speak chara="ritaNoFace">I was ready to welcome “Adam”, but didn't expect “George” to show up soon after.</speak>
+            <speak chara="ritaNoFace">What should I prepare for the “main dish”? Please advise.</speak>
             <goto goto="20" change="#ffffff"/>
         </scene>
         <scene id="20" background="westCliffDinnerRoom.jpg">
@@ -19,553 +19,553 @@
             <show chara="fuhuaEatBack" position="back"/>
             <show chara="teslaEatGlassWinterClose" position="left"/>
             <show chara="einSmileCoatClose" position="right" opacity="0.7"/>
-            <speak chara="teslaNoFace">哇！好丰盛！都分不清哪个才是主菜了呢！</speak>
+            <speak chara="teslaNoFace">Wow! So sumptuous! I can't even tell which one's the main course! </speak>
             <show chara="teslaEatGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="einSmileCoatClose" position="right"/>
-            <speak chara="einNoFace">……不着急，慢慢吃。</speak>
+            <speak chara="einNoFace"> … Don't hold back, enjoy your meal. </speak>
             <show chara="einSmileCoatClose" position="right" opacity="0.7"/>
             <show chara="weltDarkSweaterClose" position="right"/>
-            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace"> … </speak>
             <show chara="weltDarkSweaterClose" position="right" opacity="0.7"/>
             <show chara="teslaEatGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">怎么了你……没精打采的。</speak>
+            <speak chara="teslaNoFace">What's with you … Looking so sour. </speak>
             <show chara="teslaEatGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="weltDarkSweaterClose" position="right"/>
-            <speak chara="weltNoFace">我……</speak>
-            <speak chara="weltNoFace">我无法阻止自己，不去想三年前的柏林。</speak>
-            <speak chara="weltNoFace">卡尔……</speak>
-            <speak chara="weltNoFace">玛莎……</speak>
-            <speak chara="weltNoFace">像他们这样无辜的人……</speak>
-            <speak chara="weltNoFace">……在那一天，还有三十万。</speak>
+            <speak chara="weltNoFace">I … </speak>
+            <speak chara="weltNoFace">I can't stop myself, from thinking about Berlin three years ago. </speak>
+            <speak chara="weltNoFace">Carl … </speak>
+            <speak chara="weltNoFace">Martha … </speak>
+            <speak chara="weltNoFace">Innocent people like them … </speak>
+            <speak chara="weltNoFace"> … On that day, there were three hundred thousand. </speak>
             <show chara="weltShameSweaterClose" position="right"/>
-            <speak chara="weltNoFace">三十万啊！</speak>
-            <speak chara="weltNoFace">这得是什么样的一个概念？</speak>
+            <speak chara="weltNoFace">Three hundred thousand! </speak>
+            <speak chara="weltNoFace">What kind of burden is that? </speak>
             <show chara="weltShameSweaterClose" position="right" opacity="0.7"/>
             <show chara="teslaBoringGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">……</speak>
+            <speak chara="teslaNoFace"> … </speak>
             <show chara="teslaSmileGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">你就应该和我在一起，傻瓜。</speak>
+            <speak chara="teslaNoFace">You should spend more time with me, silly. </speak>
             <show chara="teslaSmileGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="weltSurpriseSweaterClose" position="right"/>
-            <speak chara="weltNoFace">？？？</speak>
+            <speak chara="weltNoFace">??? </speak>
             <show chara="weltSurpriseSweaterClose" position="right" opacity="0.7"/>
             <show chara="teslaSmileGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">我们的人生都没有什么值得回忆的……</speak>
-            <speak chara="teslaNoFace">……不需要为过去再留恋什么。</speak>
+            <speak chara="teslaNoFace">Know there's nothing worth remembering in our lives … </speak>
+            <speak chara="teslaNoFace"> … So there's no need to dwell on the past. </speak>
             <show chara="teslaShameGlassWinterClose" position="left"/>
             <speak chara="teslaNoFace">While worldly matters take their turn,</speak>
             <speak chara="teslaNoFace">Ancient, modern, to and fro,</speak>
             <speak chara="teslaNoFace">Rivers and mountains are changeless in their glory,</speak>
-            <speak chara="teslaNoFace">And still to be witnessed from this trail.</speak>
+            <speak chara="teslaNoFace">And still to be witnessed from this trail.</speak> 
             <show chara="teslaSnickerGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">——这是东方诗人孟浩然的诗句。</speak>
-            <speak chara="teslaNoFace">你懂汉语……所以，大概比我更能理解其中的意味吧。</speak>
+            <speak chara="teslaNoFace"> — It's a poem from some Eastern poet named Meng Haoran. </speak> <!-- Translator's note: translation from https://www.poemhunter.com/i/ebooks/pdf/meng_haoran_2012_8.pdf -->
+            <speak chara="teslaNoFace">You know Chinese … So, you'll probably understand the meaning behind it better than I do. </speak>
             <show chara="weltDarkSweaterClose" position="right"/>
-            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace"> … </speak>
             <show chara="weltDarkSweaterClose" position="right" opacity="0.7"/>
             <show chara="teslaBoringGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">或许你在今后的人生中，还会听到很多，柏林事件遇难者的故事。</speak>
+            <speak chara="teslaNoFace">Perhaps in the future, you'll hear a lot more stories about the victims of the Berlin Incident. </speak>
             <show chara="teslaNormalGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">无论如何……请不要擅自把他们的过去，和你自己的未来嫁接在一起。</speak>
+            <speak chara="teslaNoFace">In any case … please don't force yourself to graft their past to your future. </speak>
             <show chara="teslaShameGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">毫无疑问，你既是个幸运儿，又是个倒霉蛋——</speak>
+            <speak chara="teslaNoFace">There is no doubt that you're a man both blessed with divine luck, and cursed with rotten luck — </speak>
             <show chara="teslaSnickerGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">但你不欠他们什么；他们也不欠你什么。</speak>
+            <speak chara="teslaNoFace">But you don’t owe them anything; and neither do they owe you. </speak>
             <show chara="teslaSmileGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">你自己的人生，你自己问心无愧就好。</speak>
+            <speak chara="teslaNoFace">It's your life, so just live on, with a clear conscience. </speak>
             <show chara="teslaSmileGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="weltDarkSweaterClose" position="right"/>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="weltNoFace">…………</speak>
-            <speak chara="weltNoFace">………………</speak>
+            <speak chara="weltNoFace"> … </speak>
+            <speak chara="weltNoFace"> … … </speak>
+            <speak chara="weltNoFace"> … … … </speak>
             <show chara="weltGiggleSweaterClose" position="right"/>
-            <speak chara="weltNoFace">嗯。</speak>
+            <speak chara="weltNoFace">Yes. </speak>
             <show chara="weltGiggleSweaterClose" position="right" opacity="0.7"/>
             <show chara="teslaSnickerGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">嗯。这就对嘛。</speak>
+            <speak chara="teslaNoFace">Yes. That's right. </speak>
             <show chara="teslaSmileGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">好孩子~好孩子~~</speak>
+            <speak chara="teslaNoFace">Good boy ~ good boy ~~</speak>
             <show chara="teslaEatGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">来，吃肉吃肉~~~</speak>
+            <speak chara="teslaNoFace">Come, have some food ~~~</speak>
             <show chara="teslaEatGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="einSmileCoatClose" position="right"/>
-            <speak chara="einNoFace">特斯拉……</speak>
+            <speak chara="einNoFace">Tesla … </speak>
             <show chara="einSmileCoatClose" position="right" opacity="0.7"/>
             <show chara="teslaShameGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">干嘛……</speak>
-            <speak chara="teslaNoFace">还不快夸奖我？</speak>
+            <speak chara="teslaNoFace">What … </speak>
+            <speak chara="teslaNoFace">Aren't you going to praise me? </speak>
             <show chara="teslaShameGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="einSlyCoatClose" position="right"/>
-            <speak chara="einNoFace">噗……</speak>
+            <speak chara="einNoFace">Pfft … </speak>
             <show chara="einSlyCoatClose" position="right" opacity="0.7"/>
             <show chara="teslaShameGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">怎、怎么啦……人、人家偶尔也是会正直一下的嘛！</speak>
+            <speak chara="teslaNoFace">W-what's the matter? … P-people do occasionally show some integrity for once! </speak>
             <show chara="teslaShameGlassWinterClose" position="left" opacity="0.7"/>
             <show chara="einSlyCoatClose" position="right"/>
-            <speak chara="einNoFace">……真可爱呢，特斯拉小姐。</speak>
+            <speak chara="einNoFace"> … So cute, Miss Tesla. </speak>
             <show chara="einSlyCoatClose" position="right" opacity="0.7"/>
             <show chara="teslaShoutGlassWinterClose" position="left"/>
-            <speak chara="teslaNoFace">可、可爱是什么意思啦！</speak>
+            <speak chara="teslaNoFace">W-what do you mean, cute?! </speak>
             <goto goto="30" change="#ffffff"/>
         </scene>
         <scene id="30" background="westCliff.jpg">
             <bgm src="10_20_PeerGynt.mp3" status="continue"></bgm>
-            <text>虽然享用午餐的客人，看起来只有寥寥几人——</text>
-            <text remark="next">但“西崖·丽塔”提供的食材，从鹅肝到牡蛎，从牛里脊到海螯虾……</text>
+            <text>Although the guests enjoying lunch appeared to number only a few — </text>
+            <text remark="next">But the cuisine supplied by “West Cliff Rita”, ranging from foie gras to oysters, from tenderloin beef to langoustine lobsters … </text>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">海螯虾（Lobster）是一种大型海洋虾类，分布广泛，常被人误称为龙虾（Palinuridae）。</p>
-                <p class="article-text">海螯虾和龙虾的主要区别包括：海螯虾有一对大“钳子”，龙虾没有；海螯虾触角又细又短，龙虾的触角长、粗、多刺；海螯虾在世界各地都有分布，龙虾只分布在热带、亚热带地区。</p>
+                <p class="article-text-h">Note：</p>
+                <p class="article-text">The langoustine lobster (Nephropidae) is a large marine crustacean with a wide range of distribution. It is often mistakenly called the rock lobster or crayfish (Palinuridae). </p>
+                <p class="article-text">The main differences between langoustines and crayfish include: langoustines have a pair of large “pincers”, while crayfish do not; langoustine antennae are thin and short, while crayfish antennae are long, thick, and spiky; langoustines are distributed all over the world, while crayfish are only distributed in tropical and subtropical regions.</p>
             </remark>
-            <text>各种肉类可谓一应俱全，简直丰富到了让人不好意思的程度。</text>
+            <text>All kinds of meat have been made readily available, and the service is simply so extravagant that it makes some feel a slight degree of embarrassment.
+. </text>
             <show chara="teslaEatGlassWinterClose-up" position="center" opacity="0.8"/>
-            <speak chara="teslaNoFace">你们！不觉得内心惭愧吗？！</speak>
-            <speak chara="teslaNoFace">不把这些全都吃光抹净，怎么能对得起辛苦采购它们的老板娘呢？！</speak>
+            <speak chara="teslaNoFace">You guys! Don't you feel ashamed? ! </speak>
+            <speak chara="teslaNoFace">If you don't clear all the plates, how could you ever face up to the manageress who worked so hard to prepare everything? ! </speak>
             <show chara="teslaEatGlassWinterClose-up" position="center" opacity="0"/>
-            <text>于是，在这午后三点、日光正舒适的时刻，实践了自己那番豪言壮语的某人，只能像海豹一样平摊在自己的大床上。</text>
+            <text>As a result, at three o'clock that afternoon, when the sunlight is at its coziest, the person who lived up to those bold, visionary words could only lie down, spreadeagled like a lazy seal, on her own big bed. </text>
             <show chara="teslaAstonishDrunkWinterClose-up" position="center" opacity="0.8"/>
-            <speak chara="teslaNoFace">散步？</speak>
+            <speak chara="teslaNoFace">Stroll? </speak>
             <show chara="teslaNormalDrunkWinterClose-up" position="center" opacity="0.8"/>
-            <speak chara="teslaNoFace">这种老年人一样的运动，不要叫我啦……</speak>
+            <speak chara="teslaNoFace">No need to call on me, for such leisurely old-people exercise … </speak>
             <show chara="teslaAstonishDrunkWinterClose-up" position="center" opacity="0.8"/>
-            <speak chara="teslaNoFace">保龄球？不不不……我现在是无论如何也打不了那个啊……</speak>
+            <speak chara="teslaNoFace">Bowling? N-n-no … at the moment, no matter how hard I try I won't be able to participate … </speak>
             <show chara="teslaNormalDrunkWinterClose-up" position="center" opacity="0.8"/>
-            <speak chara="teslaNoFace">你们去散步吧……我等会自己泡个温泉缓一缓……</speak>
+            <speak chara="teslaNoFace">You go on a stroll … Tesla will go soak herself in the hot spring for a bit … </speak>
             <show chara="teslaEatGlassWinterClose-up" position="center" opacity="0"/>
-            <text>不过，话说回来……</text>
-            <text>比起“把自己吃进医院里”的黑历史，这好歹也算是一种进步了？</text>
+            <text>However, having said that … </text>
+            <text>Compared to her disgraceful history of “eating herself straight to hospital”, can this be considered a minor improvement? </text>
             <goto goto="40" change="#ffffff"/>
         </scene>
         <scene id="40" background="westCliffBeach.jpg">
             <bgm src="themeWelt.mp3" status="start"></bgm>
             <show chara="fuhuaWatchingSeaBack" position="back"/>
-            <text>冬季，大概是天际线离我们最近的时候。</text>
-            <text remark="next">阴冷潮湿的海滩、锈迹斑斑的海洋堡垒、拉着浓烟的各式轮船——这便是全部的视野。</text>
+            <text>Winter, the time when the horizon is closest to us. </text>
+            <text remark="next">Gloomy, cold, damp beaches; rust-marked ocean forts; various kinds of ships trailing thick smoke — this describes the entirety of the seaside view. </text> 
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">默恩塞尔海洋堡垒（Maunsell Forts）是二战时期英国修筑在泰晤士河、默西河河口的量产型防空塔。</p>
-                <p class="article-text">海洋堡垒的结构类似于陆地上的高射炮阵地，区别是它们像高脚楼一样修筑在混凝土驳船上。堡垒在船坞中组装好后，由拖船拖往指定海域，然后令混凝土驳船自沉，将堡垒基座稳固地锚定在海底。</p>
-                <p class="article-text">二战后，堡垒被废弃。其中，位于萨福克郡以东公海内的“怒涛塔”（HMS Fort Rough）在1967年9月2日被退伍军人迪·罗伊·贝茨（Paddy Roy Bates）一家“占领”，并声称根据国际法“独立”为“西兰公国”（Principality of Sealand）。虽然其声明被国际社会认为没有合法性，但也确实成为了国际法应用中的一个有趣个案。</p>
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">The Maunsell Forts are a series of a mass-produced air defense towers built by the British at the mouth of the Rivers Thames and Mersey during World War II. (Translator's note: the Maunsell forts are located far from Southend-on-sea, on the other side of south-east England, so some artistic license is used here.)</p>
+                <p class="article-text">The structure of a marine fort is similar to that of an anti-aircraft battery on land. The difference is that it is built on tall stilts atop a concrete barge. After the fort is assembled in the dock, it is towed by a tug to the designated area in the sea, then the concrete barge is scuttled, firmly anchoring the fort's foundation to the seafloor. </p>
+                <p class="article-text">After World War II, the forts were abandoned. Among them, HM Fort Roughs, located on the open sea east of the County of Suffolk, was occupied by the family of army veteran Paddy Roy Bates on September 2, 1967. Furthermore, they proclaimed “independence” under international law as the “Principality of Sealand”. Although this declaration is considered by the international community to have no legitimacy, it has become an amusing case in the application of international law. (Translator's note: HM Fort Roughs was misspelled as HMS Fort Rough in the Chinese text. The Fort is not a ship so HMS is the wrong prefix.) </p>
             </remark>
-            <text>沧桑，孤寂，令人平静。</text>
+            <text>Vicissitude, loneliness, a feeling of serenity. </text>
             <show chara="weltSurpriseWinterFar" position="left"/>
             <show chara="einSmileWinterFar" position="center" opacity="0.7"/>
-            <speak chara="weltNoFace">That was...</speak>
+            <speak chara="weltNoFace">Huh.</speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="einSmileWinterFar" position="center"/>
-            <speak chara="einNoFace">Hm?</speak>
+            <speak chara="einNoFace">Hmm?</speak>
             <show chara="einSmileWinterFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">That person over there... wasn't she there when we were eating too?</speak>
+            <speak chara="weltNoFace">That person over there … have I seen her before, when we were having lunch?</speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="center"/>
-            <speak chara="einNoFace">Yeah. What about it?</speak>
+            <speak chara="einNoFace">Yes … What about it?</speak>
             <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">...Not sure. I feel like...</speak>
+            <speak chara="weltNoFace">… Not sure.</speak>
             <show chara="weltGiggleWinterFar" position="left"/>
-            <speak chara="weltNoFace">She gives off a 「dangerous aura」...</speak>
+            <speak chara="weltNoFace">But she definitely gives off a “dangerous aura” … </speak>
             <show chara="weltGiggleWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaWatchingYouBack" position="back"/>
-            <speak chara="fuhuaNoNameNoFace">.....</speak>
+            <speak chara="fuhuaNoNameNoFace"> … </speak>
             <show chara="weltShameWinterFar" position="left"/>
-            <speak chara="weltNoFace">(Crap... she heard me?)</speak>
+            <speak chara="weltNoFace">(Crap … she couldn't have heard, could she?)</speak>
             <show chara="weltShameWinterFar" position="left" opacity="0.7"/>
             <hide position="back"/>
             <hide position="center"/>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">.....</speak>
+            <speak chara="fuhuaNoNameNoFace"> … </speak>
             <show chara="fuhuaSmileCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">Where a fisher-boat dips by a waterfall,</speak>
-            <speak chara="fuhuaNoNameNoFace">Where the air grows colder, deep in the valley,</speak>
-            <speak chara="fuhuaNoNameNoFace">The monument of Yang remains;</speak>
-            <speak chara="fuhuaNoNameNoFace">And we have wept, reading the words.</speak>
+            <speak chara="fuhuaNoNameNoFace">「水落鱼梁浅，」(“Where a fisher-boat dips by a waterfall,”)</speak>
+            <speak chara="fuhuaNoNameNoFace">「天寒梦泽深。 」(“Where the air grows colder, deep in the valley,”)</speak>
+            <speak chara="fuhuaNoNameNoFace">「羊公碑尚在，」(“The monument of Yang remains;”)</speak>
+            <speak chara="fuhuaNoNameNoFace">「读罢泪沾襟。 」(“And we have wept, reading the words.”)</speak> <!-- continuation of the poem by Meng Haoran -->
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">It's the second half of the poem from earlier―― You know Chinese, don't you?</speak>
+            <speak chara="fuhuaNoNameNoFace">It's the second half of the poem from earlier ― You understand Chinese, don't you?</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">Just a little...</speak>
-            <speak chara="weltNoFace">Are you from the Orient?</speak>
+            <speak chara="weltNoFace">I can only speak a little … </speak>
+            <speak chara="weltNoFace">… Are you from the East?</speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaSmileCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">Yes. If this is our starting point, then it's correct that China is considered to be the "Orient".</speak>
+            <speak chara="fuhuaNoNameNoFace">Yes. Looking at it from the local perspective, Shenzhou is indeed to the “East”.</speak> 
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">Let me give you this book.</speak>
+            <speak chara="fuhuaNoNameNoFace">Ah. Yes. Let me give you this book.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">To me?</speak>
+            <speak chara="weltNoFace">A book, f-for me?</speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">It's nothing important, just a collection of poems.</speak>
+            <speak chara="fuhuaNoNameNoFace">It's nothing, just a collection of poems.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">With this in your hands you can pretend to be a poet like me earlier.</speak>
+            <speak chara="fuhuaNoNameNoFace">After you've read it, you can do what I did before, and show off your knowledge.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7"/>
             <show chara="weltNormalWinterFar" position="left"/>
-            <speak chara="weltNoFace">B-But...</speak>
+            <speak chara="weltNoFace">B-But … </speak>
             <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaSmileCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">It's okay. I bought it on impulse.</speak>
+            <speak chara="fuhuaNoNameNoFace">It's nothing. I bought it on a whim.</speak>
             <show chara="fuhuaNormalCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">Recently, I have too many unwanted thoughts in my head I need to clear up.</speak>
+            <speak chara="fuhuaNoNameNoFace">There have been too many things on my mind recently, and I simply cannot hold onto all this extra “mumbo jumbo”.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">Also...</speak>
-            <speak chara="fuhuaNoNameNoFace">...For us to meet on the other side of the globe, this is probably fate.</speak>
+            <speak chara="fuhuaNoNameNoFace">Besides …</speak>
+            <speak chara="fuhuaNoNameNoFace"> … For it to cross an entire hemisphere, and arrive in the palm of your hands, isn't that also some kind of predestined fate?</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">Fate... you say.</speak>
+            <speak chara="weltNoFace">Fate … you say.</speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
             <speak chara="fuhuaNoNameNoFace">Yes.</speak>
-            <speak chara="fuhuaNoNameNoFace">For instance, in the title of the poem mentioned earlier there is a mountain called 「Xianshan」.</speak>
+            <speak chara="fuhuaNoNameNoFace">For instance, in that poem just mentioned earlier, “Ascending Xianshan (Xian Mountain) with the Sages”.</speak> <!-- Translator's note: The English translation source that we used (https://www.poemhunter.com/i/ebooks/pdf/meng_haoran_2012_8.pdf) gives it the more mundane title of "On Climbing Yan Mountain With Friends". -->
             <show chara="fuhuaNormalCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">Geographically it's just a small mountain in China. There is nothing special about it.</speak>
+            <speak chara="fuhuaNoNameNoFace">Geographically, Xianshan is just a small mound in the hinterland of Shenzhou. It's nothing compared to the Five Sacred Mountains; nothing compared to those snow-capped mountains; nothing compared to the Roof of the World.</speak>
             <show chara="fuhuaSeriousFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">But a friend told me that it is said there is a 「Dragon Vein」 passing through that mountain which is a key element to the safety of China.</speak>
-            <speak chara="fuhuaNoNameNoFace">According to the story, a person named Fuxi was buried there―― And to this day she is guarding the 「Dragon Vein」 and protecting the country.</speak>
+            <speak chara="fuhuaNoNameNoFace">But a friend once told me that, this little Xianshan is a point where the “Dragon Vein” passes through, a key element to the safety of Shenzhou.</speak>
+            <speak chara="fuhuaNoNameNoFace">According to legend, one of the first ancestors of Shenzhou, Fuxi, was buried there ― with her own body, she stands vigilant over “the Dragon Vein”, to protect this land.</speak>
             <show chara="fuhuaSeriousFar" position="right" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="back"/>
-            <speak chara="einNoFace">...Welt, could you translate for me?</speak>
+            <speak chara="einNoFace"> … Welt, can you translate what she is saying?</speak>
             <show chara="einNormalWinterFar" position="back" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">Ah, yes... She gave me a collection of poems... and told me about an Eastern legend...</speak>
+            <speak chara="weltNoFace">Mm … She wanted to give me this collection of poetry  … then she told me about a legend from the East … </speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaNormalCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">Nein, ist es nicht.</speak>
+            <speak chara="fuhuaNoNameNoFace">Nein, ist es nicht. (No, it is not.)</speak>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">It's not a legend.</speak>
-            <speak chara="fuhuaNoNameNoFace">The 「Dragon Vein」 is a 「subterranean river」 full of Houkai energy.</speak>
+            <speak chara="fuhuaNoNameNoFace">It's not some legend.</speak>
+            <speak chara="fuhuaNoNameNoFace">The so-called “Dragon Vein”, in today's terms,  is a “subterranean river” formed from leaking Honkai energy.</speak>
             <show chara="fuhuaNormalCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">When it comes to legends, you can be sure each one has an origin point somewhere.</speak>
+            <speak chara="fuhuaNoNameNoFace">All legends have their basis in some original truth.</speak>
             <show chara="fuhuaNormalCloseEyeFar" position="right" opacity="0.7"/>
             <show chara="einSeriousAhWinterFar" position="back"/>
-            <speak chara="einNoFace">Who are you?</speak>
+            <speak chara="einNoFace">You … who are you?</speak>
             <show chara="einSeriousEmWinterFar" position="back" opacity="0.7"/>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <!-- RENAME: I'm the Valkyrie Fuka. -->
-            <speak chara="fuhuaNoNameNoFace">I'm the Valkyrie Fu Hua.</speak>
+            <speak chara="fuhuaNoNameNoFace">Valkyrie Fu Hua.</speak>
             <show chara="fuhuaSmileCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">You could say I'm Reanna-san's colleague.</speak>
+            <speak chara="fuhuaNoFace">You could say I'm a colleague of Reanna, whom you've met before.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">Ah right, Reanna-san was praising you earlier.</speak>
+            <speak chara="fuhuaNoFace">She has a very good opinion of you lot, you know?</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">U-Umm... thanks?</speak>
+            <speak chara="weltNoFace">Umm … thanks … ?</speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">I may have come off as a meddlesome person today.</speak>
+            <speak chara="fuhuaNoFace">Today you will perhaps encounter a dangerous person, who may even come across as a little annoying.</speak>
             <show chara="fuhuaSmileCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">But please relax―― I assure you I'm not a threat to you.</speak>
+            <speak chara="fuhuaNoFace">But don't be alarmed — the least I can guarantee, is that your personal safety will not come under threat.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
             <speak chara="fuhuaNoFace">Adieu.</speak>
             <hide position="back"/>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">(Welt-san.)</speak>
+            <speak chara="fuhuaNoFace">(Mr Welt.)</speak>
             <show chara="fuhuaSmileCloseEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace" remark="next">「It would be much better if they could forget each other in the rivers and lakes」.</speak>
+            <speak chara="fuhuaNoFace" remark="next"> 「相濡以沫，不如相忘于江湖。」 (“Wetting themselves with their spit, how much better when they can forget themselves in the rivers and lakes.)</speak>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">本句出自《庄子·内篇·大宗师》：“泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。”</p>
-                <p class="article-text">庄子是借此表达：与其在艰难困苦中同舟共济，不如从一开始就杜绝灾难的发生，太平无事。</p>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">This phrase is from “Zhuangzi: Inner Chapter: The Great and Most Honoured Master”：“When the stream runs dry, fish lie upon the bank and breathe on one another to stay moist, wetting themselves with their spit. How much better when they can forget themselves in the rivers and lakes!” (Translator's note: Translation from Robert Eno, https://scholarworks.iu.edu/dspace/bitstream/handle/2022/23427/Zhuangzi-updated.pdf?sequence=2&amp;isAllowed=y) </p>
+                <p class="article-text">Zhuangzi used this parable to convey the following: rather than struggling to help each other in times of hardship and deprivation, it is perhaps better to prevent disaster in the first place, thus maintaining peace and tranquility.</p>
             </remark>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">I hope everything goes well for you.</speak>
+            <speak chara="fuhuaNoFace">I wish you good luck, and hope you are prepared … for what lies ahead.</speak>
             <hide position="right"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">……</speak>
+            <speak chara="weltNoFace"> … </speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="center"/>
-            <speak chara="einNoFace">……奇怪的人。</speak>
+            <speak chara="einNoFace"> … 奇怪的人. </speak>
             <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">那个……听她说话的口气……</speak>
+            <speak chara="weltNoFace">那个 … 听她说话的口气 … </speak>
             <show chara="weltNormalWinterFar" position="left"/>
-            <speak chara="weltNoFace">我们该不会被盯上了吧？</speak>
+            <speak chara="weltNoFace">我们该不会被盯上了吧? </speak>
             <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
             <show chara="einSmileWinterFar" position="center"/>
-            <speak chara="einNoFace">……这不奇怪。</speak>
+            <speak chara="einNoFace"> … 这不奇怪. </speak>
             <show chara="einFoolWinterFar" position="center"/>
-            <speak chara="einNoFace">你只要随便做点什么有自主性的事情，多少都会被他们盯上。</speak>
+            <speak chara="einNoFace">你只要随便做点什么有自主性的事情, 多少都会被他们盯上. </speak>
             <show chara="einSmileWinterFar" position="center"/>
-            <speak chara="einNoFace">不过，也就仅仅是“盯上”而已。</speak>
+            <speak chara="einNoFace">不过, 也就仅仅是“盯上”而已. </speak>
             <show chara="einSmileWinterFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">真、真的不要紧吗？</speak>
+            <speak chara="weltNoFace">真、真的不要紧吗? </speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="center"/>
-            <speak chara="einNoFace">……至少，蕾安娜也好，刚才的符华也好，都没有和我们过不去的意思。</speak>
+            <speak chara="einNoFace"> … 至少, 蕾安娜也好, 刚才的符华也好, 都没有和我们过不去的意思. </speak>
             <show chara="einSlyWinterFar" position="center"/>
-            <speak chara="einNoFace">虽然这种状况不可能一直维持下去——</speak>
+            <speak chara="einNoFace">虽然这种状况不可能一直维持下去 — </speak>
             <show chara="einSmileWinterFar" position="center"/>
-            <speak chara="einNoFace">但总而言之，你不用现在就操心这些。</speak>
+            <speak chara="einNoFace">但总而言之, 你不用现在就操心这些. </speak>
             <show chara="einSlyWinterFar" position="center"/>
-            <speak chara="einNoFace">啊……对了。</speak>
+            <speak chara="einNoFace">啊 … 对了. </speak>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">……嗯？</speak>
+            <speak chara="weltNoFace"> … 嗯? </speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="einSmileWinterFar" position="center"/>
-            <speak chara="einNoFace">今天天气不错。</speak>
+            <speak chara="einNoFace">今天天气不错. </speak>
             <show chara="einSmileWinterFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">……啊？</speak>
+            <speak chara="weltNoFace"> … 啊? </speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="einSmileWinterFar" position="center"/>
-            <speak chara="einNoFace">我挺中意这个海滩的。</speak>
-            <speak chara="einNoFace">等太阳落山了，我们再一起来吧？</speak>
-            <speak chara="einNoFace">有好东西给你看。</speak>
+            <speak chara="einNoFace">我挺中意这个海滩的. </speak>
+            <speak chara="einNoFace">等太阳落山了, 我们再一起来吧? </speak>
+            <speak chara="einNoFace">有好东西给你看. </speak>
             <goto goto="55" change="#ffffff"/>
         </scene>
         <scene id="55" background="westCliffSkyNorth.jpg">
             <bgm src="11_17_memory.mp3" status="start"></bgm>
             <text>Night.</text>
-            <text>摆脱了特斯拉劝酒的纠缠，爱因斯坦和瓦尔特两人在海滩上慵懒地躺成了两个“大”字。</text>
-            <speak chara="weltNoFace">……好冷。</speak>
-            <speak chara="weltNoFace">……明明躺下之前还很暖和。</speak>
-            <speak chara="einNoFace">身体缺乏运动的时候，觉得冷是必然的。</speak>
-            <speak chara="einNoFace">适应了就好。这个程度还不至于冻出病来。</speak>
-            <speak chara="weltNoFace">……哈哈。</speak>
-            <speak chara="einNoFace">瓦尔特你还是第一次见到这么清楚的星空吧。</speak>
-            <speak chara="weltNoFace">是啊……</speak>
-            <speak chara="weltNoFace">天顶这条若隐若现的……是银河吗？</speak>
-            <speak chara="einNoFace">没错。</speak>
-            <speak chara="einNoFace">星星呢？能认出一些吗？</speak>
-            <speak chara="weltNoFace">唔……</speak>
+            <text>摆脱了特斯拉劝酒的纠缠, 爱因斯坦和瓦尔特两人在海滩上慵懒地躺成了两个“大”字. </text>
+            <speak chara="weltNoFace"> … 好冷. </speak>
+            <speak chara="weltNoFace"> … 明明躺下之前还很暖和. </speak>
+            <speak chara="einNoFace">身体缺乏运动的时候, 觉得冷是必然的. </speak>
+            <speak chara="einNoFace">适应了就好. 这个程度还不至于冻出病来. </speak>
+            <speak chara="weltNoFace"> … 哈哈. </speak>
+            <speak chara="einNoFace">瓦尔特你还是第一次见到这么清楚的星空吧. </speak>
+            <speak chara="weltNoFace">是啊 … </speak>
+            <speak chara="weltNoFace">天顶这条若隐若现的 … 是银河吗? </speak>
+            <speak chara="einNoFace">没错. </speak>
+            <speak chara="einNoFace">星星呢? 能认出一些吗? </speak>
+            <speak chara="weltNoFace">唔 … </speak>
             <show chara="beidou" position="back"/>
-            <speak chara="weltNoFace">这边的这个是北斗七星……</speak>
+            <speak chara="weltNoFace">这边的这个是北斗七星 … </speak>
             <show chara="beiji" position="back"/>
-            <speak chara="weltNoFace">……所以那边的那个是北极星。</speak>
-            <speak chara="weltNoFace">没错吧？</speak>
-            <speak chara="einNoFace">没错。</speak>
-            <speak chara="einNoFace">北斗七星……这大概是全世界最知名的一组星星吧。</speak>
-            <speak chara="einNoFace">Großer Wagen, Großer Bär, Big Dipper, Plough... 光是名字就有一大堆。</speak>
-            <speak chara="weltNoFace">……不过像我这样的门外汉，认个北极星也就是极限了。</speak>
+            <speak chara="weltNoFace"> … 所以那边的那个是北极星. </speak>
+            <speak chara="weltNoFace">没错吧? </speak>
+            <speak chara="einNoFace">没错. </speak>
+            <speak chara="einNoFace">北斗七星 … 这大概是全世界最知名的一组星星吧. </speak>
+            <speak chara="einNoFace">Großer Wagen, Großer Bär, Big Dipper, Plough... 光是名字就有一大堆. </speak>
+            <speak chara="weltNoFace"> … 不过像我这样的门外汉, 认个北极星也就是极限了. </speak>
             <goto goto="60" change="0"/>
         </scene>
         <scene id="60" background="CG14-1.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
-            <speak chara="einNoFace">所以……想让我介绍一些别的吗？</speak>
-            <speak chara="weltNoFace">啊……那自然是再好不过。</speak>
-            <speak chara="weltNoFace">说实话，我很羡慕那些，随手一指，就能叫出星星名字的人。</speak>
-            <speak chara="einNoFace">……那是天文学家。</speak>
-            <speak chara="weltNoFace">呃……哈哈，说的是。</speak>
-            <speak chara="einNoFace">不过，只是随便介绍的话……</speak>
-            <speak chara="einNoFace">我也可以给你讲讲。</speak>
-            <speak chara="weltNoFace">啊……就当是随便聊天吧。</speak>
-            <text>青年的直觉告诉他，今天一整天，所有人的感觉都有点奇怪。</text>
-            <text>无论是爱因斯坦和特斯拉，还是仅有一面之缘的丽塔和符华……</text>
-            <text>每个人似乎都不约而同地，怀揣着一些心事。</text>
-            <text>这种时候，聊天，大概是很必要的。</text>
-            <text>哪怕是随便瞎扯也好。</text>
+            <speak chara="einNoFace">所以 … 想让我介绍一些别的吗? </speak>
+            <speak chara="weltNoFace">啊 … 那自然是再好不过. </speak>
+            <speak chara="weltNoFace">说实话, 我很羡慕那些, 随手一指, 就能叫出星星名字的人. </speak>
+            <speak chara="einNoFace"> … 那是天文学家. </speak>
+            <speak chara="weltNoFace">呃 … 哈哈, 说的是. </speak>
+            <speak chara="einNoFace">不过, 只是随便介绍的话 … </speak>
+            <speak chara="einNoFace">我也可以给你讲讲. </speak>
+            <speak chara="weltNoFace">啊 … 就当是随便聊天吧. </speak>
+            <text>青年的直觉告诉他, 今天一整天, 所有人的感觉都有点奇怪. </text>
+            <text>无论是爱因斯坦和特斯拉, 还是仅有一面之缘的丽塔和符华 … </text>
+            <text>每个人似乎都不约而同地, 怀揣着一些心事. </text>
+            <text>这种时候, 聊天, 大概是很必要的. </text>
+            <text>哪怕是随便瞎扯也好. </text>
             <goto goto="65" change="0"/>
         </scene>
         <scene id="65" background="westCliffSkyNorth.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
-            <speak chara="einNoFace">聊天……吗……</speak>
-            <speak chara="einNoFace">啊，这个是聊天星。</speak>
-            <speak chara="weltNoFace">唉？有这样名字的星星吗？</speak>
-            <speak chara="einNoFace">当然是骗你的啊。</speak>
-            <speak chara="einNoFace">笨蛋。</speak>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="einNoFace">不过下面就是正经的了。</speak>
-            <speak chara="einNoFace">你刚才是怎么找北极星的？</speak>
-            <speak chara="weltNoFace">唔……</speak>
+            <speak chara="einNoFace">聊天 … 吗 … </speak>
+            <speak chara="einNoFace">啊, 这个是聊天星. </speak>
+            <speak chara="weltNoFace">唉? 有这样名字的星星吗? </speak>
+            <speak chara="einNoFace">当然是骗你的啊. </speak>
+            <speak chara="einNoFace">笨蛋. </speak>
+            <speak chara="weltNoFace"> … </speak>
+            <speak chara="einNoFace">不过下面就是正经的了. </speak>
+            <speak chara="einNoFace">你刚才是怎么找北极星的? </speak>
+            <speak chara="weltNoFace">唔 … </speak>
             <show chara="beiji" position="back"/>
-            <speak chara="weltNoFace">沿着斗勺头部的两颗星，向天空的中央延长过去……就找到了。</speak>
-            <speak chara="einNoFace">好。</speak>
+            <speak chara="weltNoFace">沿着斗勺头部的两颗星, 向天空的中央延长过去 … 就找到了. </speak>
+            <speak chara="einNoFace">好. </speak>
             <hide position="back"/>
-            <speak chara="einNoFace">现在请你注视斗柄部分。</speak>
-            <speak chara="einNoFace">把这三颗星，想象成一张拉满的弓。</speak>
-            <speak chara="einNoFace">然后……用这张弓，把箭向西射出去。一直射向银河。</speak>
-            <speak chara="weltNoFace">啊。这边有三颗很亮的星星。三、三角形的感觉。</speak>
-            <speak chara="einNoFace">嗯。</speak>
-            <speak chara="einNoFace">在银河两侧的这两颗，就是东方传说中，大名鼎鼎的织女、牛郎了。</speak>
-            <speak chara="einNoFace">孤单地在银河右边的是天琴座α，织女星……</speak>
-            <speak chara="einNoFace">银河左边，有两颗小星左右陪伴的是天鹰座α，牛郎星。</speak>
-            <speak chara="einNoFace">牛郎旁边的那两颗小星，是他们的两个儿子。</speak>
-            <speak chara="weltNoFace">哇哦。</speak>
-            <speak chara="einNoFace">至于上方沐浴在银河里的那颗……</speak>
+            <speak chara="einNoFace">现在请你注视斗柄部分. </speak>
+            <speak chara="einNoFace">把这三颗星, 想象成一张拉满的弓. </speak>
+            <speak chara="einNoFace">然后 … 用这张弓, 把箭向西射出去. 一直射向银河. </speak>
+            <speak chara="weltNoFace">啊. 这边有三颗很亮的星星. 三、三角形的感觉. </speak>
+            <speak chara="einNoFace">嗯. </speak>
+            <speak chara="einNoFace">在银河两侧的这两颗, 就是东方传说中, 大名鼎鼎的织女、牛郎了. </speak>
+            <speak chara="einNoFace">孤单地在银河右边的是天琴座α, 织女星 … </speak>
+            <speak chara="einNoFace">银河左边, 有两颗小星左右陪伴的是天鹰座α, 牛郎星. </speak>
+            <speak chara="einNoFace">牛郎旁边的那两颗小星, 是他们的两个儿子. </speak>
+            <speak chara="weltNoFace">哇哦. </speak>
+            <speak chara="einNoFace">至于上方沐浴在银河里的那颗 … </speak>
             <show chara="northCross" position="back"/>
-            <speak chara="einNoFace" remark="next">那是天鹅座α, “北十字星”的成员之一。</speak>
+            <speak chara="einNoFace" remark="next">那是天鹅座α, “北十字星”的成员之一. </speak>
             <remark post="U2FsdGVkX1+0GHKRy7JXUTMSQY8Q">
                 <p class="article-text-h">注：</p>
-                <p class="article-text">“天鹅”一词在日语中写作“白鳥”。所以，在某些翻译作品中出现的“白鸟座”，其实就是“天鹅座”。</p>
-                <p class="article-text">天鹅座α在星宿系统中被称为“天津四”。英文俗称为"Deneb"（来自阿拉伯语音译）。</p>
+                <p class="article-text">“天鹅”一词在日语中写作“白鳥”. 所以, 在某些翻译作品中出现的“白鸟座”, 其实就是“天鹅座”. </p>
+                <p class="article-text">天鹅座α在星宿系统中被称为“天津四”. 英文俗称为"Deneb"（来自阿拉伯语音译）. </p>
             </remark>
-            <speak chara="einNoFace">它和下方的三颗星，以及稍远的另一颗星，一起组成了这个十字架的形状。</speak>
-            <speak chara="einNoFace">……顺带一提，α本身其实是天鹅的尾巴。</speak>
-            <speak chara="weltNoFace">……所以十字架较长的部分是天鹅的脖子？</speak>
-            <speak chara="weltNoFace">两侧看起来对称的部分是天鹅的翅膀？</speak>
-            <speak chara="einNoFace">没错。</speak>
-            <speak chara="einNoFace">这个区域里，主要的亮星就是这样了。</speak>
+            <speak chara="einNoFace">它和下方的三颗星, 以及稍远的另一颗星, 一起组成了这个十字架的形状. </speak>
+            <speak chara="einNoFace"> … 顺带一提, α本身其实是天鹅的尾巴. </speak>
+            <speak chara="weltNoFace"> … 所以十字架较长的部分是天鹅的脖子? </speak>
+            <speak chara="weltNoFace">两侧看起来对称的部分是天鹅的翅膀? </speak>
+            <speak chara="einNoFace">没错. </speak>
+            <speak chara="einNoFace">这个区域里, 主要的亮星就是这样了. </speak>
             <show chara="beidou" position="back"/>
-            <speak chara="einNoFace">现在让我们的视线回到北斗七星——</speak>
-            <speak chara="einNoFace">——沿着勺口平面，对着勺柄的反方向出发。也是延伸到银河附近的位置。</speak>
-            <speak chara="weltNoFace">啊。</speak>
-            <speak chara="weltNoFace">这边有一颗和织女星一样亮的！</speak>
+            <speak chara="einNoFace">现在让我们的视线回到北斗七星 — </speak>
+            <speak chara="einNoFace"> — 沿着勺口平面, 对着勺柄的反方向出发. 也是延伸到银河附近的位置. </speak>
+            <speak chara="weltNoFace">啊. </speak>
+            <speak chara="weltNoFace">这边有一颗和织女星一样亮的! </speak>
             <show chara="yufubei" position="back"/>
-            <speak chara="einNoFace" remark="next">嗯。那是御夫座α。它和周围几颗星组成的五边形，是御夫座的主体部分。</speak>
+            <speak chara="einNoFace" remark="next">嗯. 那是御夫座α. 它和周围几颗星组成的五边形, 是御夫座的主体部分. </speak>
             <remark>
                 <p class="article-text-h">注：</p>
-                <p class="article-text">御夫座α在星宿系统中被称为“五车二”。英文俗称为"Capella"。</p>
+                <p class="article-text">御夫座α在星宿系统中被称为“五车二”. 英文俗称为"Capella". </p>
             </remark>
-            <speak chara="einNoFace">在这个五边形下方的两颗亮星，则是双子座的两个头部，双子座α和双子座β。</speak>
-            <speak chara="einNoFace">接下来……</speak>
+            <speak chara="einNoFace">在这个五边形下方的两颗亮星, 则是双子座的两个头部, 双子座α和双子座β. </speak>
+            <speak chara="einNoFace">接下来 … </speak>
             <goto goto="75" change="0"/>
         </scene>
         <scene id="75" background="westCliffSkySouth.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
-            <speak chara="einNoFace">让我们的视线跨过银河，向南偏转。</speak>
-            <speak chara="einNoFace">有看到什么显眼的吗？</speak>
-            <speak chara="weltNoFace">……</speak>
+            <speak chara="einNoFace">让我们的视线跨过银河, 向南偏转. </speak>
+            <speak chara="einNoFace">有看到什么显眼的吗? </speak>
+            <speak chara="weltNoFace"> … </speak>
             <show chara="liehu" position="back"/>
-            <speak chara="weltNoFace">……左边有三颗挨得很近的亮星！</speak>
-            <speak chara="weltNoFace">它们周围的其他几颗星也很亮！</speak>
-            <speak chara="einNoFace" remark="next">嗯。中间那三颗是“猎户的腰带”，猎户座ζ、猎户座ε、猎户座δ。</speak>
+            <speak chara="weltNoFace"> … 左边有三颗挨得很近的亮星! </speak>
+            <speak chara="weltNoFace">它们周围的其他几颗星也很亮! </speak>
+            <speak chara="einNoFace" remark="next">嗯. 中间那三颗是“猎户的腰带”, 猎户座ζ、猎户座ε、猎户座δ. </speak>
             <remark>
                 <p class="article-text-h">注：</p>
-                <p class="article-text">猎户座ζ、猎户座ε、猎户座δ在星宿系统中被称为“参宿一”、“参宿二”、“参宿三”。英文俗称分别为"Alnitak", "Alnilam"及"Mintaka"（来自阿拉伯语音译）。</p>
+                <p class="article-text">猎户座ζ、猎户座ε、猎户座δ在星宿系统中被称为“参宿一”、“参宿二”、“参宿三”. 英文俗称分别为"Alnitak", "Alnilam"及"Mintaka"（来自阿拉伯语音译）. </p>
                 <br />
-                <p class="article-text">p.s. “参宿”的正确读法为shēn xiù。</p>
+                <p class="article-text">p.s. “参宿”的正确读法为shēn xiù. </p>
             </remark>
-            <speak chara="einNoFace" remark="next">它们和上方的猎户座α、猎户座γ，下方的猎户座κ、猎户座β，一同构成了猎户座的主体部分。</speak>
+            <speak chara="einNoFace" remark="next">它们和上方的猎户座α、猎户座γ, 下方的猎户座κ、猎户座β, 一同构成了猎户座的主体部分. </speak>
             <remark>
                 <p class="article-text-h">注：</p>
-                <p class="article-text">猎户座α、猎户座γ、猎户座κ、猎户座β在星宿系统中被称为“参宿四”、“参宿五”、“参宿六”、“参宿七”。英文俗称分别为"Betelgeuse", "Bellatrix", "Saiph", "Rigel"（来自阿拉伯语音译）。</p>
+                <p class="article-text">猎户座α、猎户座γ、猎户座κ、猎户座β在星宿系统中被称为“参宿四”、“参宿五”、“参宿六”、“参宿七”. 英文俗称分别为"Betelgeuse", "Bellatrix", "Saiph", "Rigel"（来自阿拉伯语音译）. </p>
             </remark>
-            <speak chara="einNoFace">……可惜伦敦纬度太高，不然，在它们的左下方，你还能看到更耀眼的天狼星。那可是全天最亮的一颗恒星啊。</speak>
-            <speak chara="weltNoFace">唔……</speak>
-            <speak chara="einNoFace">让我们的视线来到猎户座的右上方吧。</speak>
-            <speak chara="einNoFace">这里有一颗金黄色的亮星，和周围的几颗小星组成了小小的“V”字。</speak>
-            <speak chara="weltNoFace">唔……</speak>
+            <speak chara="einNoFace"> … 可惜伦敦纬度太高, 不然, 在它们的左下方, 你还能看到更耀眼的天狼星. 那可是全天最亮的一颗恒星啊. </speak>
+            <speak chara="weltNoFace">唔 … </speak>
+            <speak chara="einNoFace">让我们的视线来到猎户座的右上方吧. </speak>
+            <speak chara="einNoFace">这里有一颗金黄色的亮星, 和周围的几颗小星组成了小小的“V”字. </speak>
+            <speak chara="weltNoFace">唔 … </speak>
             <show chara="yufunan" position="center"/>
-            <speak chara="weltNoFace">啊，就是夹在猎户座和御夫座之间的那个？</speak>
-            <speak chara="einNoFace" remark="next">嗯。那是金牛座α。这个小小的“V”字就是它的牛头。</speak>
+            <speak chara="weltNoFace">啊, 就是夹在猎户座和御夫座之间的那个? </speak>
+            <speak chara="einNoFace" remark="next">嗯. 那是金牛座α. 这个小小的“V”字就是它的牛头. </speak>
             <remark>
                 <p class="article-text-h">注：</p>
-                <p class="article-text">金牛座α在星宿系统中被称为“毕宿五”。英文俗称为"Aldebaran"（来自阿拉伯语音译）。</p>
+                <p class="article-text">金牛座α在星宿系统中被称为“毕宿五”. 英文俗称为"Aldebaran"（来自阿拉伯语音译）. </p>
                 <br />
-                <p class="article-text">p.s. 车田正美的《圣斗士星矢》中，“金牛座黄金圣斗士”即以此星为名——中文版一般译作“阿鲁迪巴”。</p>
+                <p class="article-text">p.s. 车田正美的《圣斗士星矢》中, “金牛座黄金圣斗士”即以此星为名 — 中文版一般译作“阿鲁迪巴”. </p>
             </remark>
             <goto goto="80" change="0"/>
         </scene>
         <scene id="80" background="CG14-0.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">话说……我从刚才就注意到了……</speak>
-            <speak chara="weltNoFace">为什么这些星星全都叫某某座α、某某座β啊？</speak>
-            <speak chara="einNoFace" remark="next">因为本来就是按亮度取名的嘛。</speak>
+            <speak chara="weltNoFace">话说 … 我从刚才就注意到了 … </speak>
+            <speak chara="weltNoFace">为什么这些星星全都叫某某座α、某某座β啊? </speak>
+            <speak chara="einNoFace" remark="next">因为本来就是按亮度取名的嘛. </speak>
             <remark>
                 <p class="article-text-h">注：</p>
-                <p class="article-text">拜耳命名法（Bayer designation）是如今国际通用的恒星命名方式，首创于德国天文学家约翰·拜耳（Johann Bayer）1603年的著作《测天图》（Uranometria）中。</p>
-                <p class="article-text">总体来说，这一命名法是按照星座中各星的亮度，依次赋予它们希腊字母，形成“星座名+字母”的名称。（有例外，如天龙座α，中文名“右枢”，它就不是天龙座的最亮星。它之所以成为α，是因为它在五千年前做过北极星。）</p>
+                <p class="article-text">拜耳命名法（Bayer designation）是如今国际通用的恒星命名方式, 首创于德国天文学家约翰·拜耳（Johann Bayer）1603年的著作《测天图》（Uranometria）中. </p>
+                <p class="article-text">总体来说, 这一命名法是按照星座中各星的亮度, 依次赋予它们希腊字母, 形成“星座名+字母”的名称. （有例外, 如天龙座α, 中文名“右枢”, 它就不是天龙座的最亮星. 它之所以成为α, 是因为它在五千年前做过北极星. ）</p>
             </remark>
-            <speak chara="weltNoFace">这、这样啊……</speak>
-            <speak chara="einNoFace">它们其实都有自己的诨名……不过大多是外来语，念起来很莫名其妙。</speak>
-            <speak chara="einNoFace">Aldebaran，阿拉伯语，金牛座α；Capella，拉丁语，御夫座α；Castor和Pollux，希腊语，双子座α和双子座β……</speak>
-            <speak chara="einNoFace">我个人觉得，这种乱七八糟的叫法，反而还不如字母命名法有意义。</speak>
-            <speak chara="einNoFace">啊。说到金牛座α……</speak>
-            <speak chara="einNoFace">在它的另一侧——对，就是相反于猎户座的另一侧……</speak>
-            <speak chara="einNoFace">你有没有看到一堆细小的亮星挤在一起？</speak>
-            <speak chara="weltNoFace">唔……</speak>
-            <speak chara="weltNoFace">啊。是有呢。</speak>
-            <speak chara="weltNoFace">密密麻麻的，好像有六七颗？</speak>
-            <speak chara="einNoFace">那就是七姐妹。</speak>
-            <speak chara="weltNoFace">七姐妹？</speak>
-            <speak chara="einNoFace" remark="next">Pleiades，Atlas的七个女儿的统称。</speak>
+            <speak chara="weltNoFace">这、这样啊 … </speak>
+            <speak chara="einNoFace">它们其实都有自己的诨名 … 不过大多是外来语, 念起来很莫名其妙. </speak>
+            <speak chara="einNoFace">Aldebaran, 阿拉伯语, 金牛座α；Capella, 拉丁语, 御夫座α；Castor和Pollux, 希腊语, 双子座α和双子座β … </speak>
+            <speak chara="einNoFace">我个人觉得, 这种乱七八糟的叫法, 反而还不如字母命名法有意义. </speak>
+            <speak chara="einNoFace">啊. 说到金牛座α … </speak>
+            <speak chara="einNoFace">在它的另一侧 — 对, 就是相反于猎户座的另一侧 … </speak>
+            <speak chara="einNoFace">你有没有看到一堆细小的亮星挤在一起? </speak>
+            <speak chara="weltNoFace">唔 … </speak>
+            <speak chara="weltNoFace">啊. 是有呢. </speak>
+            <speak chara="weltNoFace">密密麻麻的, 好像有六七颗? </speak>
+            <speak chara="einNoFace">那就是七姐妹. </speak>
+            <speak chara="weltNoFace">七姐妹? </speak>
+            <speak chara="einNoFace" remark="next">Pleiades, Atlas的七个女儿的统称. </speak>
             <remark>
                 <p class="article-text-h">注：</p>
-                <p class="article-text">Pleiades，中文称作“昴星团”，是最接近地球的星云之一（约444光年），梅西耶星云编号为M45。</p>
-                <p class="article-text">该星云中有一系列肉眼可区分的亮星，在光线条件允许的情况下，正常视力者能数出九颗之多。</p>
+                <p class="article-text">Pleiades, 中文称作“昴星团”, 是最接近地球的星云之一（约444光年）, 梅西耶星云编号为M45. </p>
+                <p class="article-text">该星云中有一系列肉眼可区分的亮星, 在光线条件允许的情况下, 正常视力者能数出九颗之多. </p>
             </remark>
-            <speak chara="einNoFace">Atlas自己是一位泰坦神，支撑着西方的天空——他也是“大西洋”（Atlantic Ocean）的词源。</speak>
+            <speak chara="einNoFace">Atlas自己是一位泰坦神, 支撑着西方的天空 — 他也是“大西洋”（Atlantic Ocean）的词源. </speak>
             <goto goto="90" change="0"/>
         </scene>
         <scene id="90" background="CG14-1.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">哇。</speak>
-            <speak chara="weltNoFace">我还以为，你是不熟悉星座神话什么的……</speak>
-            <speak chara="einNoFace">并不……但是它们确实没什么意思。</speak>
-            <speak chara="einNoFace">全是些这个死了、那个死了，最后都变成星星的无聊故事。</speak>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="einNoFace">不过偶尔也有喜剧结局的——而且就在我们视线的正上方。</speak>
+            <speak chara="weltNoFace">哇. </speak>
+            <speak chara="weltNoFace">我还以为, 你是不熟悉星座神话什么的 … </speak>
+            <speak chara="einNoFace">并不 … 但是它们确实没什么意思. </speak>
+            <speak chara="einNoFace">全是些这个死了、那个死了, 最后都变成星星的无聊故事. </speak>
+            <speak chara="weltNoFace"> … </speak>
+            <speak chara="einNoFace">不过偶尔也有喜剧结局的 — 而且就在我们视线的正上方. </speak>
             <goto goto="95" change="0"/>
         </scene>
         <scene id="95" background="westCliffSkySouth.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
             <show chara="yufunan" position="back"/>
-            <speak chara="einNoFace">在七姐妹的上方、御夫座的右边。一、二、三、四——</speak>
+            <speak chara="einNoFace">在七姐妹的上方、御夫座的右边. 一、二、三、四 — </speak>
             <show chara="chain" position="back"/>
-            <speak chara="einNoFace">——四颗亮星整齐地排成一行。看到了吗？</speak>
-            <speak chara="weltNoFace">……啊。稍微有点弧形，不过确实很整齐呢。</speak>
-            <speak chara="einNoFace" remark="next">它们从左到右，分别是英仙座α，仙女座γ，仙女座β，仙女座α。</speak>
+            <speak chara="einNoFace"> — 四颗亮星整齐地排成一行. 看到了吗? </speak>
+            <speak chara="weltNoFace"> … 啊. 稍微有点弧形, 不过确实很整齐呢. </speak>
+            <speak chara="einNoFace" remark="next">它们从左到右, 分别是英仙座α, 仙女座γ, 仙女座β, 仙女座α. </speak>
             <remark post="U2FsdGVkX19gU8MXMOhDJndKApoQ">
                 <p class="article-text-h">注：</p>
-                <p class="article-text">英仙座α、仙女座γ、仙女座β、仙女座α，在星宿系统中分别被称为“天船三”、“天大将军一”、“奎宿九”、“壁宿二”，英文诨名分别为"Mirfak", "Almach", "Mirach", "Alpheratz"（来自阿拉伯语音译）。</p>
+                <p class="article-text">英仙座α、仙女座γ、仙女座β、仙女座α, 在星宿系统中分别被称为“天船三”、“天大将军一”、“奎宿九”、“壁宿二”, 英文诨名分别为"Mirfak", "Almach", "Mirach", "Alpheratz"（来自阿拉伯语音译）. </p>
                 <br />
-                <p class="article-text">p.s. 仙女座β上方形似灰斑的不起眼星云，即为著名的M31星云——仙女座星系（Andromeda Galaxy）。它距离地球大约250万光年，是一个质量约相当于银河系两倍的河外星系。它也是北半球绝大多数地区，唯一肉眼可见的河外星系。</p>
+                <p class="article-text">p.s. 仙女座β上方形似灰斑的不起眼星云, 即为著名的M31星云 — 仙女座星系（Andromeda Galaxy）. 它距离地球大约250万光年, 是一个质量约相当于银河系两倍的河外星系. 它也是北半球绝大多数地区, 唯一肉眼可见的河外星系. </p>
             </remark>
-            <speak chara="einNoFace" remark="next">仙女座α同时也被称作飞马座δ——这是一颗由仙女座和飞马座共享的星星。</speak>
+            <speak chara="einNoFace" remark="next">仙女座α同时也被称作飞马座δ — 这是一颗由仙女座和飞马座共享的星星. </speak>
             <remark>
                 <p class="article-text-h">注：</p>
-                <p class="article-text">飞马座（Pegasus）在某些作品中也被翻译为“天马座”，如《圣斗士星矢》。</p>
+                <p class="article-text">飞马座（Pegasus）在某些作品中也被翻译为“天马座”, 如《圣斗士星矢》. </p>
             </remark>
-            <speak chara="weltNoFace">啊。</speak>
-            <speak chara="weltNoFace">所以这就是某个希腊英雄，用美杜莎的头把海怪变成石头，救下作为祭品的公主，然后和她成亲的故事？</speak>
-            <speak chara="einNoFace">嗯。这一列星星就象征着捆绑公主的锁链。</speak>
+            <speak chara="weltNoFace">啊. </speak>
+            <speak chara="weltNoFace">所以这就是某个希腊英雄, 用美杜莎的头把海怪变成石头, 救下作为祭品的公主, 然后和她成亲的故事? </speak>
+            <speak chara="einNoFace">嗯. 这一列星星就象征着捆绑公主的锁链. </speak>
             <show chara="pegasus" position="center"/>
-            <speak chara="einNoFace">顺带一提，飞马座的主体，就是这条“锁链”末尾的那个四边形。</speak>
-            <speak chara="einNoFace">你也可以把它全部，当成天空中最大的一把勺子。</speak>
-            <speak chara="einNoFace">然后……再往右边的话，就是我们之前观察过的牛郎星了。</speak>
-            <speak chara="weltNoFace">如果让我说的话……</speak>
-            <speak chara="weltNoFace">……它大概更像一只浣熊？</speak>
-            <speak chara="weltNoFace">你看，这一列星星是尾巴，四边形右上角那颗额外的星星是脑袋。</speak>
-            <speak chara="einNoFace">噗……尾巴这么长，你这是漫画里的浣熊吧。</speak>
-            <speak chara="weltNoFace">没、没什么不好吧……</speak>
+            <speak chara="einNoFace">顺带一提, 飞马座的主体, 就是这条“锁链”末尾的那个四边形. </speak>
+            <speak chara="einNoFace">你也可以把它全部, 当成天空中最大的一把勺子. </speak>
+            <speak chara="einNoFace">然后 … 再往右边的话, 就是我们之前观察过的牛郎星了. </speak>
+            <speak chara="weltNoFace">如果让我说的话 … </speak>
+            <speak chara="weltNoFace"> … 它大概更像一只浣熊? </speak>
+            <speak chara="weltNoFace">你看, 这一列星星是尾巴, 四边形右上角那颗额外的星星是脑袋. </speak>
+            <speak chara="einNoFace">噗 … 尾巴这么长, 你这是漫画里的浣熊吧. </speak>
+            <speak chara="weltNoFace">没、没什么不好吧 … </speak>
             <goto goto="100" change="0"/>
         </scene>
         <scene id="100" background="CG14-0.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">……啊。</speak>
-            <speak chara="weltNoFace">那是什么？在最南边的海平面上……孤零零的一颗……</speak>
-            <speak chara="einNoFace">唔……你是说右下角，和牛郎星反方向的那个位置吗？</speak>
-            <speak chara="weltNoFace">……对、对，就是你指的那边。</speak>
-            <speak chara="einNoFace" remark="next">那是南鱼座α……这片区域里唯一的亮星。</speak>
+            <speak chara="weltNoFace"> … 啊. </speak>
+            <speak chara="weltNoFace">那是什么? 在最南边的海平面上 … 孤零零的一颗 … </speak>
+            <speak chara="einNoFace">唔 … 你是说右下角, 和牛郎星反方向的那个位置吗? </speak>
+            <speak chara="weltNoFace"> … 对、对, 就是你指的那边. </speak>
+            <speak chara="einNoFace" remark="next">那是南鱼座α … 这片区域里唯一的亮星. </speak>
             <remark post="U2FsdGVkX1+rF0ozx14SzE37yIBz">
                 <p class="article-text-h">注：</p>
-                <p class="article-text">南鱼座α，在星宿系统中被称为“北落师门”，英文诨名为"Fomalhaut"（来自阿拉伯语音译）。</p>
+                <p class="article-text">南鱼座α, 在星宿系统中被称为“北落师门”, 英文诨名为"Fomalhaut"（来自阿拉伯语音译）. </p>
                 <br />
-                <p class="article-text">p.s. 由于星宿系统中按照太阳和北极星来规定方位，导致南北星官与实际的地理方向相反，因此位于南方低空的南鱼座α，反而有“北落师门”这样的名字。</p>
+                <p class="article-text">p.s. 由于星宿系统中按照太阳和北极星来规定方位, 导致南北星官与实际的地理方向相反, 因此位于南方低空的南鱼座α, 反而有“北落师门”这样的名字. </p>
             </remark>
             <goto goto="110" change="0"/>
         </scene>
         <scene id="110" background="CG14-1.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">……看起来很孤单呢。</speak>
-            <speak chara="einNoFace">星星们都是孤单的。</speak>
-            <speak chara="einNoFace">如果把地球和太阳缩小到能同时放在你我的身前——</speak>
-            <speak chara="einNoFace">——那么，按照比例，另一颗恒星，最近的，也得有从这里到伦敦市中心那么远。</speak>
-            <speak chara="weltNoFace">什……</speak>
-            <speak chara="einNoFace">不用惊讶。</speak>
-            <speak chara="einNoFace">大到宇宙，小到原子，这个世界的绝大部分，都不过是空无一物的真空。</speak>
-            <speak chara="einNoFace">就是在这真空的汪洋里……大家在波浪起伏之间，渐渐汇聚到一起。</speak>
-            <speak chara="einNoFace">宇宙花了90亿年，终于制造出了地球；地球又花了40亿年，将才变成我们现在看到的这个伊甸园。</speak>
-            <speak chara="einNoFace">而更奇妙的是，在这个伊甸园中，有你、有我。</speak>
-            <speak chara="weltNoFace">……</speak>
-            <speak chara="einNoFace">抱歉。好像有点煽情了。</speak>
+            <speak chara="weltNoFace"> … 看起来很孤单呢. </speak>
+            <speak chara="einNoFace">星星们都是孤单的. </speak>
+            <speak chara="einNoFace">如果把地球和太阳缩小到能同时放在你我的身前 — </speak>
+            <speak chara="einNoFace"> — 那么, 按照比例, 另一颗恒星, 最近的, 也得有从这里到伦敦市中心那么远. </speak>
+            <speak chara="weltNoFace">什 … </speak>
+            <speak chara="einNoFace">不用惊讶. </speak>
+            <speak chara="einNoFace">大到宇宙, 小到原子, 这个世界的绝大部分, 都不过是空无一物的真空. </speak>
+            <speak chara="einNoFace">就是在这真空的汪洋里 … 大家在波浪起伏之间, 渐渐汇聚到一起. </speak>
+            <speak chara="einNoFace">宇宙花了90亿年, 终于制造出了地球；地球又花了40亿年, 将才变成我们现在看到的这个伊甸园. </speak>
+            <speak chara="einNoFace">而更奇妙的是, 在这个伊甸园中, 有你、有我. </speak>
+            <speak chara="weltNoFace"> … </speak>
+            <speak chara="einNoFace">抱歉. 好像有点煽情了. </speak>
             <goto goto="120" change="#ffffff"/>
         </scene>
         <scene id="120" background="westCliffSkySouth.jpg">
             <bgm src="11_3_themeOtto.mp3" status="start"></bgm>
             <text article="1">
-                <p class="article-text">冬季，并不是一个浪漫的季节。</p>
-                <p class="article-text">如果说，在那一日的海滩上，两个人的心间刚刚生出了一点萌芽……</p>
-                <p class="article-text">那么，这颗萌芽，并没有得到，应有的，生根发芽的机会。</p>
+                <p class="article-text">冬季, 并不是一个浪漫的季节. </p>
+                <p class="article-text">如果说, 在那一日的海滩上, 两个人的心间刚刚生出了一点萌芽 … </p>
+                <p class="article-text">那么, 这颗萌芽, 并没有得到, 应有的, 生根发芽的机会. </p>
             </text>
             <goto goto="160" change="0"/>
         </scene>
         <scene id="160" background="studyLamp.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <text>现代不是古代，温泉浴场也不是桑拿房。</text>
-            <text>观星之后的热水澡，当然是男女分开的。</text>
-            <text>只不过——</text>
+            <text>现代不是古代, 温泉浴场也不是桑拿房. </text>
+            <text>观星之后的热水澡, 当然是男女分开的. </text>
+            <text>只不过 — </text>
             <goto goto="170" change="0"/>
         </scene>
         <scene id="170" background="CG14-2.jpg">
