@@ -117,8 +117,7 @@
                 <p class="article-text">The langoustine lobster (Nephropidae) is a large marine crustacean with a wide range of distribution. It is often mistakenly called the rock lobster or crayfish (Palinuridae). </p>
                 <p class="article-text">The main differences between langoustines and crayfish include: langoustines have a pair of large “pincers”, while crayfish do not; langoustine antennae are thin and short, while crayfish antennae are long, thick, and spiky; langoustines are distributed all over the world, while crayfish are only distributed in tropical and subtropical regions.</p>
             </remark>
-            <text>All kinds of meat have been made readily available, and the service is simply so extravagant that it makes some feel a slight degree of embarrassment.
-. </text>
+            <text>All kinds of meat have been made readily available, and the service is simply so extravagant that it makes some feel a slight degree of embarrassment.</text>
             <show chara="teslaEatGlassWinterClose-up" position="center" opacity="0.8"/>
             <speak chara="teslaNoFace">You guys! Don't you feel ashamed? ! </speak>
             <speak chara="teslaNoFace">If you don't clear all the plates, how could you ever face up to the manageress who worked so hard to prepare everything? ! </speak>
@@ -129,9 +128,9 @@
             <show chara="teslaNormalDrunkWinterClose-up" position="center" opacity="0.8"/>
             <speak chara="teslaNoFace">No need to call on me, for such leisurely old-people exercise … </speak>
             <show chara="teslaAstonishDrunkWinterClose-up" position="center" opacity="0.8"/>
-            <speak chara="teslaNoFace">Bowling? N-n-no … at the moment, no matter how hard I try I won't be able to participate … </speak>
+            <speak chara="teslaNoFace">Bowling? N-n-no … at the moment, I won't be able to play, no matter how hard I try … </speak>
             <show chara="teslaNormalDrunkWinterClose-up" position="center" opacity="0.8"/>
-            <speak chara="teslaNoFace">You go on a stroll … Tesla will go soak herself in the hot spring for a bit … </speak>
+            <speak chara="teslaNoFace">You go on and have a stroll … Tesla will go soak herself in the hot spring for a bit … </speak>
             <show chara="teslaEatGlassWinterClose-up" position="center" opacity="0"/>
             <text>However, having said that … </text>
             <text>Compared to her disgraceful history of “eating herself straight to hospital”, can this be considered a minor improvement? </text>
@@ -146,7 +145,7 @@
                 <p class="article-text-h">Note:</p>
                 <p class="article-text">The Maunsell Forts are a series of a mass-produced air defense towers built by the British at the mouth of the Rivers Thames and Mersey during World War II. (Translator's note: the Maunsell forts are located far from Southend-on-sea, on the other side of south-east England, so some artistic license is used here.)</p>
                 <p class="article-text">The structure of a marine fort is similar to that of an anti-aircraft battery on land. The difference is that it is built on tall stilts atop a concrete barge. After the fort is assembled in the dock, it is towed by a tug to the designated area in the sea, then the concrete barge is scuttled, firmly anchoring the fort's foundation to the seafloor. </p>
-                <p class="article-text">After World War II, the forts were abandoned. Among them, HM Fort Roughs, located on the open sea east of the County of Suffolk, was occupied by the family of army veteran Paddy Roy Bates on September 2, 1967. Furthermore, they proclaimed “independence” under international law as the “Principality of Sealand”. Although this declaration is considered by the international community to have no legitimacy, it has become an amusing case in the application of international law. (Translator's note: HM Fort Roughs was misspelled as HMS Fort Rough in the Chinese text. The Fort is not a ship so HMS is the wrong prefix.) </p>
+                <p class="article-text">After World War II, the forts were abandoned. Among them, “HM Fort Roughs”, located on the open sea east of the County of Suffolk, was occupied by the family of army veteran Paddy Roy Bates on September 2, 1967. Furthermore, they proclaimed “independence” under international law as the “Principality of Sealand”. Although this declaration is considered by the international community to have no legitimacy, it has become an amusing case in the application of international law. (Translator's note: HM Fort Roughs was misspelled as HMS Fort Rough in the Chinese text. The Fort is not a ship so HMS is the wrong prefix.) </p>
             </remark>
             <text>Vicissitude, loneliness, a feeling of serenity. </text>
             <show chara="weltSurpriseWinterFar" position="left"/>
@@ -264,54 +263,54 @@
             <speak chara="fuhuaNoFace" remark="next"> 「相濡以沫，不如相忘于江湖。」 (“Wetting themselves with their spit, how much better when they can forget themselves in the rivers and lakes.)</speak>
             <remark>
                 <p class="article-text-h">Note: </p>
-                <p class="article-text">This phrase is from “Zhuangzi: Inner Chapter: The Great and Most Honoured Master”：“When the stream runs dry, fish lie upon the bank and breathe on one another to stay moist, wetting themselves with their spit. How much better when they can forget themselves in the rivers and lakes!” (Translator's note: Translation from Robert Eno, https://scholarworks.iu.edu/dspace/bitstream/handle/2022/23427/Zhuangzi-updated.pdf?sequence=2&amp;isAllowed=y) </p>
-                <p class="article-text">Zhuangzi used this parable to convey the following: rather than struggling to help each other in times of hardship and deprivation, it is perhaps better to prevent disaster in the first place, thus maintaining peace and tranquility.</p>
+                <p class="article-text">This phrase is from “Zhuangzi: Inner Chapter: The Prime Master”：“When the stream runs dry, fish lie upon the bank and breathe on one another to stay moist, wetting themselves with their spit. How much better when they can forget themselves in the rivers and lakes!” (Translator's note: Translation from Robert Eno, https://scholarworks.iu.edu/dspace/bitstream/handle/2022/23427/Zhuangzi-updated.pdf?sequence=2&amp;isAllowed=y) </p>
+                <p class="article-text">Zhuangzi used this parable to convey the following meaning: rather than struggling to help each other in times of hardship and deprivation, it is perhaps better to prevent disaster in the first place, thus maintaining peace and tranquility.</p>
             </remark>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">I wish you good luck, and hope you are prepared … for what lies ahead.</speak>
+            <speak chara="fuhuaNoFace">I wish you all the best of luck, and hope you are prepared … for what lies ahead.</speak>
             <hide position="right"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
             <speak chara="weltNoFace"> … </speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="center"/>
-            <speak chara="einNoFace"> … 奇怪的人. </speak>
+            <speak chara="einNoFace"> … What a weird person. </speak>
             <show chara="einNormalWinterFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">那个 … 听她说话的口气 … </speak>
+            <speak chara="weltNoFace">That … that tone of her voice … </speak>
             <show chara="weltNormalWinterFar" position="left"/>
-            <speak chara="weltNoFace">我们该不会被盯上了吧? </speak>
+            <speak chara="weltNoFace">Are we being watched? </speak>
             <show chara="weltNormalWinterFar" position="left" opacity="0.7"/>
             <show chara="einSmileWinterFar" position="center"/>
-            <speak chara="einNoFace"> … 这不奇怪. </speak>
+            <speak chara="einNoFace"> … That wouldn't be weird. </speak>
             <show chara="einFoolWinterFar" position="center"/>
-            <speak chara="einNoFace">你只要随便做点什么有自主性的事情, 多少都会被他们盯上. </speak>
+            <speak chara="einNoFace">You only need to go off and do something of your own free will, and sooner or later you will end up being watched by them. </speak>
             <show chara="einSmileWinterFar" position="center"/>
-            <speak chara="einNoFace">不过, 也就仅仅是“盯上”而已. </speak>
+            <speak chara="einNoFace">However, it is merely “watching”. </speak>
             <show chara="einSmileWinterFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace">真、真的不要紧吗? </speak>
+            <speak chara="weltNoFace">A-are you sure we don't need to be worried? </speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="center"/>
-            <speak chara="einNoFace"> … 至少, 蕾安娜也好, 刚才的符华也好, 都没有和我们过不去的意思. </speak>
+            <speak chara="einNoFace"> … At least, whether it was Reanna, or Fu Hua just now: neither of them wanted to cause any trouble with us. </speak>
             <show chara="einSlyWinterFar" position="center"/>
-            <speak chara="einNoFace">虽然这种状况不可能一直维持下去 — </speak>
+            <speak chara="einNoFace">Although this situation cannot be maintained forever — </speak>
             <show chara="einSmileWinterFar" position="center"/>
-            <speak chara="einNoFace">但总而言之, 你不用现在就操心这些. </speak>
+            <speak chara="einNoFace">But, all in all, you don't need to worry about the situation now. </speak>
             <show chara="einSlyWinterFar" position="center"/>
-            <speak chara="einNoFace">啊 … 对了. </speak>
+            <speak chara="einNoFace">Ah … that's right. </speak>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace"> … 嗯? </speak>
+            <speak chara="weltNoFace"> … Hmm? </speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="einSmileWinterFar" position="center"/>
-            <speak chara="einNoFace">今天天气不错. </speak>
+            <speak chara="einNoFace">Today's weather is not bad. </speak>
             <show chara="einSmileWinterFar" position="center" opacity="0.7"/>
             <show chara="weltSurpriseWinterFar" position="left"/>
-            <speak chara="weltNoFace"> … 啊? </speak>
+            <speak chara="weltNoFace"> … Huh? </speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="einSmileWinterFar" position="center"/>
-            <speak chara="einNoFace">我挺中意这个海滩的. </speak>
-            <speak chara="einNoFace">等太阳落山了, 我们再一起来吧? </speak>
-            <speak chara="einNoFace">有好东西给你看. </speak>
+            <speak chara="einNoFace">I really like this beach. </speak>
+            <speak chara="einNoFace">When the sun goes down, let's come here again, shall we? </speak>
+            <speak chara="einNoFace">I have something good to show you. </speak>
             <goto goto="55" change="#ffffff"/>
         </scene>
         <scene id="55" background="westCliffSkyNorth.jpg">
