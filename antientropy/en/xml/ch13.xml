@@ -8,20 +8,20 @@
         </scene>
         <scene id="10" background="westCliffWindow.jpg">
             <bgm src="12_15_1946.mp3" status="start"></bgm>
-            <text>A story from a long time ago.</text>
-            <text remark="next">From when 「Roswell」 was merely a small town next to the Pecos River.</text>
+            <text>A long, long time ago.</text>
+            <text remark="next">When “Roswell” was merely a small nameless town next to the Pecos River.</text>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">罗斯威尔（Roswell）为美国新墨西哥州的一座城市，1947年7月4日，这里发生了一起不明飞行物坠毁事件。</p>
-                <p class="article-text">阴谋论者认为，美国政府当时掩盖了事件的真相；他们相信这是一起飞碟坠毁事故，而不是探空气球坠毁事故。</p>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Roswell is a city in New Mexico, USA. On July 4, 1947, it is said that a UFO crash occurred here. </p>
+                <p class="article-text">Conspiracy theorists believe that the U.S. government at the time covered up the truth of the incident; they believe that it involved the crash of a flying saucer, not a research balloon as officially reported. </p>
             </remark>
-            <text remark="next">From when 「Bikini」 was merely the name of a small Atoll.</text>
+            <text remark="next">When “Bikini” was merely the name of an atoll.</text>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">比基尼环礁（Bikini Atoll）是马绍尔群岛的一组珊瑚礁岛。从1946年起，这里进行了多达20余次的核武器爆炸试验。</p>
-                <p class="article-text">“比基尼”是核爆的象征——当某款划时代的泳装设计被时装界推出时，他们顺理成章地借用了这个地理名词。</p>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">Bikini Atoll is a group of coral reef islands in the Marshall Islands. Since 1946, more than 20 nuclear weapon tests have been conducted there. </p>
+                <p class="article-text">“Bikini” has connotations of nuclear explosive power — When a particular, epoch-defining swimsuit design was launched by the fashion industry, it was only natural that they would borrow this toponym. </p>
             </remark>
-            <text>From when I was half of my current age.</text>
+            <text>When I was merely half my current age.</text>
             <goto goto="20" change="#ffffff"/>
         </scene>
         <scene id="20" background="einHomeSw.jpg">
@@ -29,217 +29,217 @@
             <text>1946. Zürich, Switzerland.</text>
             <show chara="fatherEmbarraClose" position="right" opacity="0.7"/>
             <show chara="motherSeriousClose" position="left"/>
-            <speak chara="motherNoFace">.....</speak>
+            <speak chara="motherNoFace"> … </speak>
             <show chara="motherNormalClose" position="left"/>
-            <speak chara="motherNoFace">A nice man is coming to talk with you today, Lieserl.</speak>
-            <speak chara="motherNoFace">He's different from the previous ones―― Try to get along with him.</speak>
-            <speak chara="meEinNoFace">.....</speak>
+            <speak chara="motherNoFace">Lieserl, a nice Uncle is coming to have a chat with you today.</speak>
+            <speak chara="motherNoFace">He's nothing like those ignorant, incompetent psychiatrists from before, ― please try to get along with him.</speak>
+            <speak chara="meEinNoFace"> … </speak>
             <show chara="motherNormalClose" position="left" opacity="0.7"/>
             <show chara="fatherSmileClose" position="right"/>
-            <speak chara="fatherNoFace">Don't worry, he said he won't tell you to go back to school and take those boring classes.</speak>
-            <speak chara="fatherNoFace">He's a well known expert, different from the others.</speak>
-            <speak chara="meEinNoFace">.....</speak>
+            <speak chara="fatherNoFace">Don't worry, he said he won't urge you to go back to school and take those boring classes.</speak>
+            <speak chara="fatherNoFace">He's a very famous expert, different from the others.</speak>
+            <speak chara="meEinNoFace"> … </speak>
             <goto goto="25" change="#ffffff"/>
         </scene>
         <scene id="25" background="westCliffWindow.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>Also, let me clarify.</text>
+            <text>Hmm … let me clarify with a quick supplement.</text>
             <show chara="motherSeriousClose-up" position="center"/>
-            <text>This person is my mom. She's a very busy accountant. She's only really at home on Sunday and Christmas.</text>
-            <text>A very boring job, don't you think so?</text>
+            <text>This person is my mother. She's an auditor. She's usually very busy at work, and could only be at home on Sundays or Christmas.</text>
+            <text>A very boring job, don't you think?</text>
             <show chara="fatherEmbarraClose-up" position="center"/>
-            <text>This person is my dad. He's a designer. To be precise, he makes clock hands.</text>
-            <text>An even more boring job, right?</text>
+            <text>This person is my father. He's a designer. To be precise, he designs hands for clocks and watches.</text>
+            <text>An even more boring job, am I right?</text>
             <hide position="center"/>
-            <text>Please try to imagine. How hard was it for me, the only person in this family who liked metaphysics.</text>
-            <text>Please try to imagine. I stopped going to school and was forced to meet with five different 「psychologist」 over the course of three months.</text>
-            <text>Ah... Metaphysics.</text>
-            <text>Since I'm talking about back then, I should adjust my thoughts to match my old self.</text>
+            <text>So, you can imagine: as the only person in this family who is obsessed with musing over metaphysics, how painful it must have been.</text>
+            <text>So, you can imagine: after I voluntarily dropped out of school, they found five “psychologists” to see me over the course of three months.</text>
+            <text>Ah … yes, metaphysics.</text>
+            <text>Since we're talking about a story from back then, I should also describe things from my perspective back then.</text>
             <goto goto="30" change="#ffffff"/>
         </scene>
         <scene id="30" background="einRoomSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <show chara="einNormalLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoNameNoFace">Hello there! I'm Carl... Carl Gustav.</speak>
+            <speak chara="karlNoNameNoFace">Hi! I'm Carl … Carl Gustav.</speak> <!-- Probably Carl Gustav Jung -->
             <show chara="karlSlyClose" position="left"/>
-            <speak chara="karlNoFace">You can call me 「Carl」 or 「Gustav」, I don't mind either.</speak>
+            <speak chara="karlNoFace">You can call me “Carl” or “Gustav”, I don't mind either.</speak>
             <show chara="karlSlyClose" position="left" opacity="0.7"/>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">.....</speak>
+            <speak chara="meEinNoFace"> … </speak>
             <show chara="einBoringLittleClose" position="right"/>
-            <speak chara="meEinNoFace">「Carl Gustav」... are you supposed to be the King of Sweden?</speak>
+            <speak chara="meEinNoFace">Both “Carl” and “Gustav” … are you supposed to be a King of Sweden?</speak>
             <show chara="einBoringLittleClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">Hahaha... people always joke about that.</speak>
+            <speak chara="karlNoFace">Ahaha … people always tease me about that.</speak>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">...By the way, I heard you were doing some interesting research lately. Would you mind filling me in?</speak>
+            <speak chara="karlNoFace"> … By the way, I heard you were doing some interesting private research lately. Do you mind filling me in?</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
-            <speak chara="meEinNoFace">.....</speak>
+            <speak chara="meEinNoFace"> … </speak>
             <show chara="einFretfulLittleClose" position="right" opacity="0.7"/>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">...Hm.</speak>
+            <speak chara="karlNoFace"> … Hm.</speak>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">「This old man won't get it」――</speak>
+            <speak chara="karlNoFace">“How could this shrivelled old fart ever get it?” ― </speak>
             <show chara="karlSlyClose" position="left"/>
-            <speak chara="karlNoFace">―― Is what you're thinking, right?</speak>
+            <speak chara="karlNoFace"> ― Is that what you're thinking?</speak>
             <show chara="karlSlyClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
-            <speak chara="meEinNoFace">.....</speak>
+            <speak chara="meEinNoFace"> … </speak>
             <show chara="einFretfulLittleClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">...I think it'll be a good idea to give it a try first.</speak>
+            <speak chara="karlNoFace"> … I think you can try and test me first.</speak>
             <show chara="karlSmileClose" position="left"/>
             <speak chara="karlNoFace">One should explore all their options before coming to a conclusion. Don't you agree?</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
-            <speak chara="meEinNoFace">.....</speak>
+            <speak chara="meEinNoFace"> … </speak>
             <show chara="einFretfulLittleClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">I'm not one to brag―― But I had pretty good grades in science at my university.</speak>
+            <speak chara="karlNoFace">I'm not one to brag ―  But when I was at university, my grades in science were pretty good.</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einBoringLittleClose" position="right"/>
-            <speak chara="meEinNoFace">.....</speak>
+            <speak chara="meEinNoFace"> … </speak>
             <show chara="einBoringLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSlyClose" position="left"/>
-            <speak chara="karlNoFace">I swear it's true. I excelled the most at Professor Hilbert's class, 『Geometry』.</speak>
+            <speak chara="karlNoFace">I swear, it's true. I had the highest mark in “Geometry” class, taught by Hilbert himself!</speak> <!-- David Hilbert -->
             <show chara="karlSlyClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
-            <speak chara="meEinNoFace">.....</speak>
+            <speak chara="meEinNoFace"> … </speak>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">Then.</speak>
+            <speak chara="meEinNoFace">So.</speak>
             <show chara="einProvocativeLittleClose" position="right"/>
-            <speak chara="meEinNoFace">...What is the maximum number of straight vertical lines that can exist in space?</speak>
-            <speak chara="meEinNoFace">Will you please leave if you can't answer correctly?</speak>
+            <speak chara="meEinNoFace"> … Do you know, what is the maximum number of straight lines that can be orthogonal to each other in space?</speak>
+            <speak chara="meEinNoFace">If your answer is wrong, please leave, okay?</speak>
             <goto goto="40" change="#ffffff"/>
         </scene>
         <scene id="40" background="westCliffWindow.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>When I thought about it later... I realized that man wasn't an ordinary person.</text>
-            <text>I thought that by presenting this problem which answer I could change on the fly I could chase him out.</text>
-            <text>――But by the time I opened my mouth and gave him the problem, he had already won.</text>
-            <text>At the very least, he was certainly better than the four previous 「professionals」.</text>
+            <text>When I thought about it afterwards … I realised this man wasn't an ordinary person.</text>
+            <text>I thought I could use this problem, whose answer I could readily change on the fly, to effortlessly brush him aside — </text>
+            <text> ― But I never expected, that by the time I opened my mouth and posed the problem to him, he would have already won.</text>
+            <text>At the very least, he was already miles ahead of those four so-called “professionals” from before.</text>
             <goto goto="50" change="#ffffff"/>
         </scene>
         <scene id="50" background="einRoomSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <show chara="einProvocativeLittleClose" position="right" opacity="0.7"/>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">Orthogonal straight lines...?</speak>
+            <speak chara="karlNoFace">Orthogonal straight lines … ?</speak>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">Then you can make any number of vertical lines you want.</speak>
+            <speak chara="karlNoFace">Isn't that just, however many lines you want?</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">...!</speak>
+            <speak chara="meEinNoFace"> … !</speak>
             <show chara="einNormalLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">There is no limit to the dimension of space. The coordinate axes themselves are already two infinite straight lines.</speak>
+            <speak chara="karlNoFace">The dimensions of space can be considered limitless. Just their coordinate axes alone can already be considered to be two infinite, perpendicular straight lines.</speak>
             <show chara="karlSlyClose" position="left"/>
-            <speak chara="karlNoFace">――In short, space and straight lines are artificially determined concepts.</speak>
+            <speak chara="karlNoFace"> ― In short, the so-called “space”, these so-called “straight lines”, are all nothing more than man-made, artificial concepts.</speak>
             <show chara="karlSlyClose" position="left" opacity="0.7"/>
             <show chara="einCryLittleClose" position="right"/>
-            <speak chara="meEinNoFace">.....</speak>
+            <speak chara="meEinNoFace"> … </speak>
             <show chara="einCryLittleClose" position="right" opacity="0.7"/>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">Um... W-What happened?</speak>
+            <speak chara="karlNoFace">Um …  W-What's wrong?</speak>
             <show chara="karlThinkingClose" position="left" opacity="0.7"/>
             <show chara="einHappyLittleClose" position="right"/>
-            <speak chara="meEinNoFace">.....</speak>
+            <speak chara="meEinNoFace"> … </speak>
             <show chara="einHappyLittleClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">D-Don't look at me with that smirk... I-I am getting fired?</speak>
+            <speak chara="karlNoFace">D-Don't stare at me with a silly grin like that … a-as if I'm at an oration, flaunting my meagre intellect before some expert?!</speak> <!-- 班门弄斧 = "to fiddle with an axe before Luban Gate", to display one's slight skill before an expert -->
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einHappyLittleClose" position="right"/>
-            <speak chara="meEinNoFace">No...</speak>
-            <speak chara="meEinNoFace">It's just...</speak>
+            <speak chara="meEinNoFace">No … </speak>
+            <speak chara="meEinNoFace">That's not it … </speak>
             <show chara="einCryLittleClose" position="right"/>
-            <speak chara="meEinNoFace">I-I...</speak>
+            <speak chara="meEinNoFace">I-I … </speak>
             <goto goto="60" change="0"/>
         </scene>
         <scene id="60" background="">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <speak chara="meEinNoFace">Uwaaaaaaaaa~~~~――</speak>
+            <speak chara="meEinNoFace">Uwaaaaaaaaaaaaaaaah ― </speak>
             <goto goto="65" change="#ffffff"/>
         </scene>
         <scene id="65" background="westCliffWindow.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>Yes, I started bawling uncontrollably.</text>
-            <text>「That smart girl」 was reduced to that. If I were to see my young self I won't be able to not make fun of her.</text>
-            <text>But... everyone has a moment in their life when they need to let out their intense emotions, right?</text>
-            <text>It's not an ugly thing... On the contrary, it's beautiful. A beautiful time engraved in your personal clock of life you can't avoid.</text>
-            <text>For some it comes at the age of 18, some others at 80. And in my case... I was 8 years old, that's all.</text>
-            <text>Keeping that in mind, he was the only one who managed to keep up with my craziness... he was truly exceptional.</text>
+            <text>Yes, at that point, I became a miserable bawling mess.</text>
+            <text>A little girl, who felt like she had just “reunited with an old friend in a foreign land”. If my present self were to see me in that state, I wouldn't be able to keep myself from lampooning the whole situation.</text>
+            <text>But … everyone goes through such a phase of unrestrained emotion, right?</text>
+            <text>It's not an ugly thing … On the contrary, it's very beautiful. It's the kind of beauty that is engraved on the personal clock of your life, one that cannot be actively sought after, but instead comes to you fleetingly and serendipitously.</text> <!-- The original Chinese did not have the last bit "instead comes to you fleetingly and serendipitously". I've added it to clarify the sentiment. -->
+            <text>For some, this moment of beauty comes at the age of 18, for others at 80 … In my case, at age 8. That's all.</text>
+            <text>From such a perspective: this man, who could keep up with all my craziness … he was a truly exceptional person.</text>
             <goto goto="70" change="#ffffff"/>
         </scene>
         <scene id="70" background="einRoomSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <show chara="einNormalLittleClose" position="right" opacity="0.7"/>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">「Given any two polyhedra of equal volume, is it always possible to cut the first into finitely many polyhedral pieces which can be reassembled to yield the second?」.</speak>
+            <speak chara="karlNoFace">“Given any two polyhedra of equal volume, is it always possible to cut the first into finitely many polyhedral pieces that can be reassembled to yield the second?”.</speak> <!-- Hilbert's third problem -->
             <show chara="karlThinkingClose" position="left" opacity="0.7"/>
             <show chara="einBoringLittleClose" position="right"/>
-            <speak chara="meEinNoFace">I think we won't make any progress even if we read it for another hour.</speak>
+            <speak chara="meEinNoFace">I feel that, even if we stare at it for another hour, we won't be making any progress.</speak>
             <show chara="einBoringLittleClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">Any particular thoughts?</speak>
+            <speak chara="karlNoFace">Do you have any special ideas?</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
-            <speak chara="meEinNoFace">...Silence. I'm thinking.</speak>
+            <speak chara="meEinNoFace"> … Silence. I'm still thinking.</speak>
             <show chara="einFretfulLittleClose" position="right" opacity="0.7"/>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">Oh... then that means neither you nor me know.</speak>
+            <speak chara="karlNoFace">Hmm … then that means we both can't figure it out.</speak>
             <show chara="karlFoolClose" position="left"/>
             <speak chara="karlNoFace">Let's see the answer!</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einSurpriseLittleClose" position="right"/>
-            <speak chara="meEinNoFace">What!?</speak>
+            <speak chara="meEinNoFace">Huh!?</speak>
             <show chara="einSurpriseLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">Don't want to? We're exploring the unknown, not taking part in a quiz game.</speak>
+            <speak chara="karlNoFace">There's nothing wrong, right? We're here to explore the unknown, not taking part in some quiz show.</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
-            <speak chara="meEinNoFace">But...</speak>
+            <speak chara="meEinNoFace">But … </speak>
             <show chara="einFretfulLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">Don't feel frustrated. Everyone's imagination has its limits.</speak>
-            <speak chara="karlNoFace">Which is why it's important to learn using your imagination, this way we'll be able to reach amazing sceneries we've never seen before.</speak>
+            <speak chara="karlNoFace">Don't be so disgruntled. Every person's imagination has its limits.</speak>
+            <speak chara="karlNoFace">Only by learning and borrowing from the imagination of others, will you be able to see more amazing scenery.</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einFretfulLittleClose" position="right"/>
-            <speak chara="meEinNoFace">.....</speak>
+            <speak chara="meEinNoFace"> … </speak>
             <show chara="einFretfulLittleClose" position="right" opacity="0.7"/>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">Let's see...</speak>
-            <speak chara="karlNoFace">Define a variable based on the length and diherdral angle of the polyhedron...</speak>
+            <speak chara="karlNoFace">Let me see … </speak>
+            <speak chara="karlNoFace">In this case, an invariant can be defined according to the edge length and dihedral angle of the polyhedron … </speak> <!-- https://en.wikipedia.org/wiki/Hilbert%27s_third_problem#Dehn's_answer -->
             <show chara="karlThinkingClose" position="left" opacity="0.7"/>
             <show chara="einSurpriseLittleClose" position="right"/>
-            <speak chara="meEinNoFace">...What? Let me see it!</speak>
+            <speak chara="meEinNoFace"> … What? Let me see it now!</speak>
             <show chara="einSurpriseLittleClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">Hey! Don't pull so hard! You're going to break the book!</speak>
+            <speak chara="karlNoFace">S-slow down please! D-don't grab it so suddenly! You're going to tear the book!</speak>
             <goto goto="80" change="#ffffff"/>
         </scene>
         <scene id="80" background="westCliffWindow.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>To tell you the truth, from all the time I spent with that old man solving problems this one is the one I remember the most.</text>
-            <text>It isn't only because the answer was impressive. When I told Planck about it later――</text>
+            <text>To tell you the truth, of all the times I spent solving problems with that man, this is the only one I could remember.</text>
+            <text>It wasn't only because the answer was impressive. I'd have you know, not long after, when I raised this question with Planck ― </text>
             <show chara="emmaBlackClose-up" position="center"/>
-            <text remark="next">「Huh? He used Hilbert's third problem to test you? Is he insane!?」</text>
+            <text remark="next">“<i>Was</i>?! He used Hilbert's third problem to test you? Is he insane!?”</text>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">希尔伯特的23个问题是德国数学家大卫·希尔伯特（David Hilbert）于1900年在巴黎举行的第二届国际数学家大会上演讲时，提出的“当代23道最重要的数学问题”。</p>
-                <p class="article-text">“找出两个具有相同底面积和高的四面体，它们不能被分割成两组对应全等的四面体”正是其中的第3问题。</p>
+                <p class="article-text-h">Note: </p>
+                <p class="article-text">The German mathematician David Hilbert gave a speech at the Second International Congress of Mathematicians in Paris in 1900, presenting the “23 Most Important Mathematical Problems of Our Time”. </p>
+                <p class="article-text">Of the 23 problems, the third one was: “Given any two polyhedra of equal volume, is it always possible to cut the first into finitely many polyhedral pieces that can be reassembled to yield the second?”. </p>
                 <br/>
-                <p class="article-text">p.s. 23个问题中比较有名的包括：</p>
-                <p class="article-text">1.连续统假设</p>
-                <p class="article-text">2.算数公理相容性</p>
-                <p class="article-text">8.黎曼猜想、哥德巴赫猜想、孪生素数猜想</p>
-                <p class="article-text">18.球体的最密排列</p>
+                <p class="article-text">P.S. The more famous of the 23 questions include: </p>
+                <p class="article-text">1. The Continuum hypothesis</p>
+                <p class="article-text">2. Consistency of arithmetic axioms</p>
+                <p class="article-text">8. The Riemann hypothesis, Goldbach's conjecture, and the twin prime conjecture</p>
+                <p class="article-text">18. Densest arrangement of spheres</p>
             </remark>
             <hide position="center"/>
-            <text>――Of course I would remember something like that.</text>
-            <text>Ah, you want to know how I knew Planck back then?</text>
-            <text>About that...</text>
+            <text> ― Well, such a horrifying event, of course I would remember it for a lifetime.</text>
+            <text>Ah. You want to know how I knew Planck back then?</text>
+            <text>About that … </text>
             <goto goto="100" change="#ffffff"/>
         </scene>
         <scene id="100" background="einHomeSw.jpg">
@@ -247,56 +247,56 @@
             <show chara="emmaNormalClose" position="left" opacity="0.7"/>
             <show chara="karlSmileClose" position="right"/>
             <speak chara="karlNoFace">Everyone, let me introduce you to someone.</speak>
-            <speak chara="karlNoFace">This is Emma Planck... the youngest physics professor at Princeton University.</speak>
+            <speak chara="karlNoFace">This is Miss Emma Planck … the youngest physics professor ever to teach at Princeton University.</speak>
             <show chara="karlSmileClose" position="right" opacity="0.7"/>
             <show chara="emmaPromiseSmileClose" position="left"/>
-            <speak chara="emmaNoFace">Hi! I'm Emma, Carl's cousin.</speak>
+            <speak chara="emmaNoFace">Hi! I'm Emma! Carl's cousin!</speak>
             <show chara="emmaSmileClose" position="left"/>
-            <speak chara="emmaNoFace">――I don't know if he does it on purpose or not, but he always forgets to mention we're cousins.</speak>
+            <speak chara="emmaNoFace"> ― I don't know whether he does it on purpose or not, but every time he introduces me he always forgets to mention this.</speak>
             <show chara="emmaPromiseSmileClose" position="left"/>
-            <speak chara="emmaNoFace">Well, not that I really care~</speak>
+            <speak chara="emmaNoFace">But, it's not that I really care, right?</speak>
             <show chara="emmaPromiseSmileClose" position="left" opacity="0.7"/>
             <show chara="karlFoolClose" position="right"/>
-            <speak chara="karlNoFace">Ahaha...</speak>
+            <speak chara="karlNoFace">Ahaha … </speak>
             <show chara="fatherEmbarraClose" position="right" opacity="0.7"/>
             <show chara="motherSeriousClose" position="left"/>
-            <speak chara="motherNoFace">...Cough.</speak>
+            <speak chara="motherNoFace"> … Ahem.</speak>
             <show chara="karlFoolClose" position="right"/>
             <show chara="emmaNormalClose" position="left" opacity="0.7"/>
-            <speak chara="karlNoFace">Err... back to the topic at hand.</speak>
+            <speak chara="karlNoFace">Err … back to the topic at hand.</speak>
             <show chara="karlNormalClose" position="right"/>
-            <speak chara="karlNoFace">After you consulted me about letting your daughter enter college,</speak>
+            <speak chara="karlNoFace">Previously, we had initially discussed the possibility of allowing your child to advance to university directly.</speak>
             <show chara="karlSmileClose" position="right"/>
-            <speak chara="karlNoFace">I got permission and contacted Emma immediately.</speak>
-            <speak chara="karlNoFace">I think having a young woman like Emma nearby is great for a child's education.</speak>
+            <speak chara="karlNoFace">As soon as we all agreed, I contacted Emma at the first available opportunity.</speak>
+            <speak chara="karlNoFace">From the perspective of educating your child, her gender and age should be a strong asset.</speak>
             <show chara="karlSmileClose" position="right" opacity="0.7"/>
             <show chara="emmaPromiseSmileClose" position="left"/>
-            <speak chara="emmaNoFace">And that's not all! I'm very interested in her too!</speak>
-            <speak chara="emmaNoFace">I would love to explore the truth of this universe together with her!</speak>
+            <speak chara="emmaNoFace">And that's not all! I'm also very interested in her too!</speak>
+            <speak chara="emmaNoFace">Please, you must let her accompany me in chasing down the mysteries of this universe!</speak>
             <show chara="fatherEmbarraClose" position="right" opacity="0.7"/>
             <show chara="motherNormalClose" position="left"/>
-            <speak chara="motherNoFace">.....</speak>
+            <speak chara="motherNoFace"> … </speak>
             <show chara="emmaPromiseSeriousClose" position="left" opacity="0.7"/>
             <show chara="karlSmileClose" position="right"/>
-            <speak chara="karlNoFace">Hahaha... I'm very sorry. When Emma gets excited she forgets her manners.</speak>
+            <speak chara="karlNoFace">Hahaha … Sorry, Emma can get a little overexcited on occasion.</speak>
             <show chara="fatherSmileClose" position="right"/>
             <show chara="motherNormalClose" position="left" opacity="0.7"/>
-            <speak chara="fatherNoFace">No, I think that's a good thing... It'll be good for our daughter.</speak>
+            <speak chara="fatherNoFace">No, isn't that a good thing? … I think our daughter will definitely get along with her.</speak>
             <show chara="fatherSmileClose" position="right" opacity="0.7"/>
             <show chara="motherSlyClose" position="left"/>
-            <speak chara="motherNoFace">.....</speak>
-            <speak chara="motherNoFace">...I agree as well.</speak>
+            <speak chara="motherNoFace"> … </speak>
+            <speak chara="motherNoFace"> … On this point, I also have no objections.</speak>
             <goto goto="110" change="#ffffff"/>
         </scene>
         <scene id="110" background="westCliffWindow.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>If Carl was the one who introduced me to a new world, Emma was my Sailing Master.</text>
-            <text>...At some point I started to call her 「Professor Planck」.</text>
-            <text>Emma back then... how should I put it, was a woman who didn't show any signs of a 「midlife crisis」.</text>
-            <text>A genuine scholar, a genuine beauty. A light that illuminated me like sunshine――</text>
-            <text>一We played the piano, we sang songs, we watched the stars at night together.</text>
-            <text>I was closer to her... than I was to my real mother.</text>
-            <text>...Of course, I don't mean to imply there was something wrong with Carl. This was simply a 「gender advantage」.</text>
+            <text>If Carl was the one who introduced me to a new world, Emma was the ultimate navigator.</text>
+            <text> … Although, at some point later in life, I started calling her “Professor Planck” for fun.</text>
+            <text>Emma back then … how should I put it, didn't show any signs of the “midlife crisis” she has now.</text>
+            <text>A consummate scholar, a consummate beauty. A woman who would always illuminate you with her own sunshine ― </text>
+            <text>She'd take you to play the piano, to sing songs, to watch the stars at night together.</text>
+            <text>She was more of a mother, than my blood-related one.</text>
+            <text> … Of course, I don't mean to imply there was anything wrong with Carl. This was purely a “gender advantage”.</text>
             <goto goto="120" change="#ffffff"/>
         </scene>
         <scene id="120" background="einRoomSw.jpg">
@@ -306,120 +306,120 @@
             <speak chara="meEinNoFace">Carl, are you going back to Germany tomorrow?</speak>
             <show chara="einNormalLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">Yeah...</speak>
+            <speak chara="karlNoFace">Yes … </speak>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">This is my last free weekend so I have to return to HQ.</speak>
+            <speak chara="karlNoFace">This weekend is the last day of my holiday. I have to report back to Headquarters.</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einSurpriseLittleClose" position="right"/>
-            <speak chara="meEinNoFace">HQ?</speak>
+            <speak chara="meEinNoFace">Headquarters?</speak>
             <show chara="einSurpriseLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">The Mental Health Center of Berlin's Defense Force.</speak>
+            <speak chara="karlNoFace">The Allied Kommandatura, Berlin City Defence headquarters, Psychological Counselling Office.</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">Hehe... so you really were a 「professional」?</speak>
+            <speak chara="meEinNoFace">Mm … so you really are a genuine “expert”?</speak>
             <show chara="einNormalLittleClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">Hahaha... only now you believe me, what a wrong first impression I must have given you.</speak>
+            <speak chara="karlNoFace">Haha … only now do you believe me, you must've had a really a bad first impression of me.</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einProvocativeLittleClose" position="right"/>
             <speak chara="meEinNoFace">Well, it certainly wasn't as good as you thought it was.</speak>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">Working on HQ means you're treating soldiers who suffer PTSD from the war?</speak>
+            <speak chara="meEinNoFace">But … Working at the headquarters … Are you responsible for treating post-war trauma?</speak>
             <show chara="einNormalLittleClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">Yeah... it's a tough job if you're not a professional.</speak>
+            <speak chara="karlNoFace">Pretty close … it's a tough job if you're not a professional.</speak>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">Most people are unable to stand the pain coming from others―― Before long they start to feel that way themselves.</speak>
+            <speak chara="karlNoFace">After all, many people are not fond of hearing the grievances of others ― before long they'll start feeling the same pain.</speak>
             <show chara="karlThinkingClose" position="left" opacity="0.7"/>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">So what makes a professional different?</speak>
+            <speak chara="meEinNoFace">How is a professional any different? How are they special?</speak>
             <show chara="einNormalLittleClose" position="right" opacity="0.7"/>
             <show chara="karlNormalClose" position="left"/>
-            <speak chara="karlNoFace">A professional looks at people in a different way.</speak>
+            <speak chara="karlNoFace">A professional treats the other person as a subject of analysis.</speak>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">They analyze and treat their suffering, but don't project it onto themselves.</speak>
+            <speak chara="karlNoFace">We analyse their pain, treat their pain, but never let ourselves experience their pain.</speak>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">If personal feelings do show up, they need someone else to take care of the patient.</speak>
+            <speak chara="karlNoFace">As soon as any personal relationship develops, the patient must be passed on to someone else for therapy.</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="einProvocativeLittleClose" position="right"/>
-            <speak chara="meEinNoFace">...So you're handing me over to Emma?</speak>
+            <speak chara="meEinNoFace"> … So is Carl handing me over to Emma?</speak>
             <show chara="einProvocativeLittleClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">...No no, that's not the case at all.</speak>
-            <speak chara="karlNoFace">First, you're not my patient. I'm not giving you any treatment. And second, Emma is not a psychologist.</speak>
+            <speak chara="karlNoFace"> … No no no, that's not the case at all.</speak>
+            <speak chara="karlNoFace">Firstly; you're not a patient; secondly, I'm not treating you. Emma's also not a clinician.</speak>
             <show chara="karlShameClose" position="left" opacity="0.7"/>
             <show chara="einSmileLittleClose" position="right"/>
-            <speak chara="meEinNoFace">Hehehe, seeing your panicking face was funny!</speak>
+            <speak chara="meEinNoFace">Hehe, seeing Carl's flustered face is so funny!</speak>
             <show chara="einSmileLittleClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">...Eh? You were teasing me?</speak>
+            <speak chara="karlNoFace"> … Huh? Are you teasing me?</speak>
             <show chara="karlSlyClose" position="left"/>
-            <speak chara="karlNoFace">You bad kid, prepare yourself!</speak>
+            <speak chara="karlNoFace">You little brat, I'm gonna mop you up!</speak>
             <show chara="karlSlyClose" position="left" opacity="0.7"/>
             <show chara="einCryLittleClose" position="right"/>
-            <speak chara="meEinNoFace">Oh no! The old man raised his hand!</speak>
+            <speak chara="meEinNoFace">Ah! Uncle Carl is gonna hit someone!</speak>
             <show chara="einCryLittleClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">H-Hey! Don't lie!</speak>
+            <speak chara="karlNoFace">D-don't cry wolf at me! </speak>
             <hide position="left"/>
             <hide position="right"/>
             <show chara="karlShameClose" position="center"/>
-            <speak chara="karlNoFace">Come here!</speak>
+            <speak chara="karlNoFace">Stay still!</speak>
             <goto goto="130" change="#ffffff"/>
         </scene>
         <scene id="130" background="einHomeSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <show chara="karlTiredClose" position="left"/>
-            <speak chara="karlNoFace">Ha... I-I'm tired...</speak>
+            <speak chara="karlNoFace">Phew … You've tired me out … </speak>
             <show chara="karlTiredClose" position="left" opacity="0.7"/>
             <show chara="einProvocativeLittleClose" position="right"/>
-            <speak chara="meEinNoFace">You look young but you have the stamina of an old man.</speak>
+            <speak chara="meEinNoFace">Carl clearly considers himself a young man, yet I didn't expect him to have the stamina of an old man.</speak>
             <show chara="einProvocativeLittleClose" position="right" opacity="0.7"/>
             <show chara="karlTiredClose" position="left"/>
-            <speak chara="karlNoFace">S-Shut up...</speak>
+            <speak chara="karlNoFace">W-watch your tongue … </speak>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">Anyway, Switzerland sure is great...</speak>
+            <speak chara="karlNoFace">I blame it on Switzerland, life is too comfortable here … </speak>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">I hate having to return to Berlin!</speak>
+            <speak chara="karlNoFace">Darn it, I really don't want to return to Berlin!</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einNormalLittleClose" position="right"/>
-            <speak chara="meEinNoFace">.....</speak>
+            <speak chara="meEinNoFace"> … </speak>
             <show chara="einHappyLittleClose" position="right"/>
-            <speak chara="meEinNoFace">...Will you come back someday?</speak>
+            <speak chara="meEinNoFace"> … In the future, will we meet again?</speak>
             <show chara="einHappyLittleClose" position="right" opacity="0.7"/>
             <show chara="karlThinkingClose" position="left"/>
-            <speak chara="karlNoFace">.....</speak>
+            <speak chara="karlNoFace"> … </speak>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">Yeah, if I can get another vacation.</speak>
+            <speak chara="karlNoFace">Yeah, if we can get a vacation.</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einSmileLittleClose" position="right"/>
-            <speak chara="meEinNoFace">I wish you were a little younger.</speak>
+            <speak chara="meEinNoFace">It would be nice if Carl was a few years younger.</speak>
             <show chara="einSmileLittleClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
             <speak chara="karlNoFace">Huh?</speak>
             <show chara="karlFoolClose" position="left" opacity="0.7"/>
             <show chara="einHappyLittleClose" position="right"/>
-            <speak chara="meEinNoFace">If you were 10 years younger I could pair you with Emma.</speak>
+            <speak chara="meEinNoFace">If only Carl were …  10 years younger? I could match-make you with Sister Emma!</speak>
             <show chara="einHappyLittleClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">That's enough!</speak>
-            <speak chara="karlNoFace">I've had enough of this bad kid!</speak>
+            <speak chara="karlNoFace">Yeesh!</speak>
+            <speak chara="karlNoFace">You imp, your evil bag of tricks is growing!</speak>
             <show chara="karlShameClose" position="left" opacity="0.7"/>
             <show chara="einHappyLittleClose" position="right"/>
-            <speak chara="meEinNoFace">Haha...</speak>
+            <speak chara="meEinNoFace">Hehe … </speak>
             <show chara="einSmileLittleClose" position="right"/>
-            <speak chara="meEinNoFace">Emma said――</speak>
+            <speak chara="meEinNoFace">Indeed, Emma once told me ― </speak>
             <show chara="einProvocativeLittleClose" position="right"/>
-            <speak chara="meEinNoFace">「Men call others bad, but secretly they themselves want to be the bad ones!」.</speak>
+            <speak chara="meEinNoFace">“Men often call others evil, but in reality they secretly look forward to being even more diabolical!”.</speak>
             <show chara="einProvocativeLittleClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">Hey! What are you teaching her, Emma!?</speak>
+            <speak chara="karlNoFace">Hey! What is she teaching you!?</speak>
             <show chara="karlShameClose" position="left" opacity="0.7"/>
             <show chara="einHappyLittleClose" position="right"/>
-            <speak chara="meEinNoFace">Hehe... what did you think I was talking about?</speak>
+            <speak chara="meEinNoFace">Hehe … you think I would tell you?</speak>
             <show chara="einProvocativeLittleClose" position="right"/>
-            <speak chara="meEinNoFace">Try to become 20 years younger so you can teach me together with Emma!</speak>
+            <speak chara="meEinNoFace">If you can, try and become 20 years younger so we can be Emma's students together!</speak>
             <hide position="left"/>
             <hide position="right"/>
             <show chara="emmaPromiseSmileClose" position="center"/>
@@ -427,69 +427,69 @@
             <hide position="center"/>
             <show chara="emmaPromiseSmileClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">E-Emma!? When did you――</speak>
+            <speak chara="karlNoFace">E-Emma!? When did you ― </speak>
             <show chara="karlShameClose" position="left" opacity="0.7"/>
             <show chara="emmaSmileClose" position="right"/>
-            <speak chara="emmaNoFace">From around 「if only you were 10 years younger...」.</speak>
+            <speak chara="emmaNoFace">Hehe, “if only Carl were 10 years younger … ”.</speak>
             <show chara="emmaPromiseSmileClose" position="right"/>
-            <speak chara="emmaNoFace">I don't mind that you aren't 10 years younger, by the way.</speak>
+            <speak chara="emmaNoFace">Even if you weren't 10 years younger, I wouldn't mind!?</speak>
             <show chara="emmaPromiseSmileClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">W-W-What are you saying!!!!</speak>
+            <speak chara="karlNoFace">Aaaah w-w-where are you going with that!!!!</speak>
             <goto goto="140" change="#ffffff"/>
         </scene>
         <scene id="140" background="westCliffWindow.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
-            <text>I was still young, but I had a feeling I couldn't shake off.</text>
-            <text>「We probably won't see each other again」.</text>
-            <text>But I was unable to say it out loud...</text>
-            <text>That Summer became the last day of our life together.</text>
-            <text>Carl was very busy and had almost no time to rest. And me who was studying under Planck and doing research on the side, can't say I had free time either.</text>
-            <text>Everyone thought 「we'll meet again」.</text>
+            <text>At the time, although I was still young, I already had a certain premonition.</text>
+            <text>“It would probably be very difficult for us to meet again in the future”.</text>
+            <text>It's just that, at the time, nobody could anticipate … </text>
+            <text>That the last day of that summer, was also the last day that our life trajectories overlapped.</text>
+            <text>Carl was a very busy man, and he never really enjoyed a genuine holiday. As for me, learning and conducting research under Planck, I cannot say that I had much free time either.</text>
+            <text>Everyone was probably thinking, “Anyway, there'll always be time in the future”.</text>
             <text>Until 3 years ago.</text>
-            <text>January 1, 1952. The day a Houkai Impact that destroyed an entire city occurred.</text>
-            <text>Carl was in Berlin.</text>
-            <text>Not anywhere else, but right there in Berlin. In its epicenter.</text>
+            <text>That's right, January 1, 1952. The day the Honkai incident levelled an entire city.</text>
+            <text>He was in Berlin at the time.</text>
+            <text>That's right, Berlin. City centre.</text>
             <goto goto="150" change="#ffffff"/>
         </scene>
         <scene id="150" background="hotelSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="emmaNormalClose" position="right"/>
-            <speak chara="emmaNoFace">Carl... are you going to see another kid on your next break?</speak>
+            <speak chara="emmaNoFace">Carl … next holiday, you'll have to go help children in other places, isn't that right?</speak>
             <show chara="emmaNormalClose" position="right" opacity="0.7"/>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">Yeah... probably.</speak>
-            <speak chara="karlNoFace">That girl already found her path in life, hasn't she?</speak>
-            <speak chara="karlNoFace">There are still so many lost people in the world who need our help.</speak>
+            <speak chara="karlNoFace">Yeah … that's about right.</speak>
+            <speak chara="karlNoFace">The little brat has already found her own path in life, hasn't she?</speak>
+            <speak chara="karlNoFace">And in this world, there are even more people who have yet to find their path, and they need me to help them find it.</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="emmaSmileClose" position="right"/>
-            <speak chara="emmaNoFace">Hahaha... that's so like you.</speak>
+            <speak chara="emmaNoFace">Haha … that is so you.</speak>
             <show chara="emmaSmileClose" position="right" opacity="0.7"/>
             <show chara="karlFoolClose" position="left"/>
-            <speak chara="karlNoFace">.....</speak>
+            <speak chara="karlNoFace"> … </speak>
             <show chara="karlSmileClose" position="left"/>
-            <speak chara="karlNoFace">Later, Emma. I'm leaving.</speak>
+            <speak chara="karlNoFace">Well, Emma. I'm leaving now.</speak>
             <show chara="karlSmileClose" position="left" opacity="0.7"/>
             <show chara="emmaNormalClose" position="right"/>
-            <speak chara="emmaNoFace">.....</speak>
-            <speak chara="emmaNoFace">Ah, wait a minute.</speak>
+            <speak chara="emmaNoFace"> … </speak>
+            <speak chara="emmaNoFace">No, please wait a moment for me.</speak>
             <show chara="emmaNormalClose" position="right" opacity="0.7"/>
             <show chara="karlShameClose" position="left"/>
-            <speak chara="karlNoFace">What is it?</speak>
+            <speak chara="karlNoFace">Huh?</speak>
             <show chara="karlShameClose" position="left" opacity="0.7"/>
             <show chara="emmaSmileClose" position="right"/>
-            <speak chara="emmaNoFace">It's nothing big but...</speak>
+            <speak chara="emmaNoFace">No, it's no big deal.</speak>
             <show chara="emmaSmileClose" position="right"/>
-            <speak chara="emmaNoFace">Weren't you in the choir when you were in college?</speak>
+            <speak chara="emmaNoFace">It just that I remember … when you were at school, you used to participate in choir, right?</speak>
             <goto goto="160" change="#ffffff"/>
         </scene>
         <scene id="160" background="hotelSw.jpg">
             <bgm src="12_15_1946.mp3" status="continue"></bgm>
             <show chara="emmaBlackClose-up" position="center"/>
-            <speak chara="emmaNoFace">Alright, I brought the instruments.</speak>
-            <speak chara="emmaNoFace">I chose the song myself―― I'm sure you know the lyrics.</speak>
-            <speak chara="emmaNoFace">What are you spacing out for? Go get her. That meddlesome girl tried to give us some 「time alone」!</speak>
+            <speak chara="emmaNoFace">Mmm, I've borrowed our instruments without a hitch.</speak>
+            <speak chara="emmaNoFace">I've decided on the song myself, without your permission ― but I'm sure you know the lyrics anyway.</speak>
+            <speak chara="emmaNoFace">What are you spacing out for? Go hurry up and grab that little brat! That foolish girl even tried to give us some “time alone”!</speak>
             <goto goto="170" change="#ffffff"/>
         </scene>
         <scene id="170" background="CG13-1.jpg">
@@ -509,7 +509,7 @@
             <speak chara="karlNoFace">And I shall hear, though soft you tread above me,</speak>
             <speak chara="karlNoFace">And all my grave will warmer, sweeter be,</speak>
             <speak chara="karlNoFace">For you will bend and tell me that you love me,</speak>
-            <speak chara="karlNoFace">and I shall sleep in peace until you come to me...</speak>
+            <speak chara="karlNoFace">and I shall sleep in peace until you come to me … </speak>
             <end post="U2FsdGVkX1+xkpSdMeRC3Mean98cjWF96OT3Viw3ijY="/>
         </scene>
 
