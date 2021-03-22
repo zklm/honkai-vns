@@ -6,7 +6,9 @@ I am currently only working on the Anti-Entropy VN. However, the standalone VN v
 
 - Anti-Entropy: https://zklm.github.io/honkai-vn-antientropy/ (Standalone)
   - Chapters 1 to 12: done by listless-restless
-  - Chapters 13 to 26: partially done by Aiatar and zklm
+  - Chapters 13: done by listless-restless based on work by Aiatar and zklm 
+      - Subjected to extensive edits; for original work by Aiatar and zklm, use`master-old` branch
+  - Chapters 14 to 26: partially done by Aiatar and zklm
 - Durandal: https://zklm.github.io/honkai-vn-durandal/ (Standalone)
   - Chapters 1 to 20: done by Aiatar and zklm
   - Chapters 21 to 31: untranslated
