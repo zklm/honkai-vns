@@ -315,134 +315,134 @@
         </scene>
         <scene id="55" background="westCliffSkyNorth.jpg">
             <bgm src="11_17_memory.mp3" status="start"></bgm>
-            <text>Night.</text>
-            <text>摆脱了特斯拉劝酒的纠缠, 爱因斯坦和瓦尔特两人在海滩上慵懒地躺成了两个“大”字. </text>
-            <speak chara="weltNoFace"> … 好冷. </speak>
-            <speak chara="weltNoFace"> … 明明躺下之前还很暖和. </speak>
-            <speak chara="einNoFace">身体缺乏运动的时候, 觉得冷是必然的. </speak>
-            <speak chara="einNoFace">适应了就好. 这个程度还不至于冻出病来. </speak>
-            <speak chara="weltNoFace"> … 哈哈. </speak>
-            <speak chara="einNoFace">瓦尔特你还是第一次见到这么清楚的星空吧. </speak>
-            <speak chara="weltNoFace">是啊 … </speak>
-            <speak chara="weltNoFace">天顶这条若隐若现的 … 是银河吗? </speak>
-            <speak chara="einNoFace">没错. </speak>
-            <speak chara="einNoFace">星星呢? 能认出一些吗? </speak>
-            <speak chara="weltNoFace">唔 … </speak>
+            <text>Late night.</text>
+            <text>Breaking free from Tesla's exhortations to indulge in booze, Einstein and Welt languidly lie down on the beach, forming two “sand angels”. </text>
+            <speak chara="weltNoFace"> … So cold. </speak>
+            <speak chara="weltNoFace"> … It was clearly warmer before we lay down. </speak>
+            <speak chara="einNoFace">When one is lacking in exercise, it's natural they would feel cold. </speak>
+            <speak chara="einNoFace">Just get used to it. This level of cold is unlikely to make you sick. </speak>
+            <speak chara="weltNoFace"> … Haha. </speak>
+            <speak chara="einNoFace">Welt, this must be the first time you've seen such a clear starry sky. </speak>
+            <speak chara="weltNoFace">Yeah … </speak>
+            <speak chara="weltNoFace">That faintly-visible streak at the very top of the sky … is that the Milky Way? </speak>
+            <speak chara="einNoFace">Correct. </speak>
+            <speak chara="einNoFace">How about the stars? Can you recognise any? </speak>
+            <speak chara="weltNoFace">Um … </speak>
             <show chara="beidou" position="back"/>
-            <speak chara="weltNoFace">这边的这个是北斗七星 … </speak>
+            <speak chara="weltNoFace">This one over here is the Big Dipper … </speak> <!-- 北斗七星 = "Northern Dipper, Seven Stars" -->
             <show chara="beiji" position="back"/>
-            <speak chara="weltNoFace"> … 所以那边的那个是北极星. </speak>
-            <speak chara="weltNoFace">没错吧? </speak>
-            <speak chara="einNoFace">没错. </speak>
-            <speak chara="einNoFace">北斗七星 … 这大概是全世界最知名的一组星星吧. </speak>
-            <speak chara="einNoFace">Großer Wagen, Großer Bär, Big Dipper, Plough... 光是名字就有一大堆. </speak>
-            <speak chara="weltNoFace"> … 不过像我这样的门外汉, 认个北极星也就是极限了. </speak>
+            <speak chara="weltNoFace"> … So that one over there is the North Star. </speak> <!-- 北极星 = "Northernmost Star" -->
+            <speak chara="weltNoFace">Is that correct? </speak>
+            <speak chara="einNoFace">Correct. </speak>
+            <speak chara="einNoFace">Big Dipper … That one probably the most famous group of stars in the world. </speak>
+            <speak chara="einNoFace">Großer Wagen, Großer Bär, Big Dipper, Plough... Just the many names alone form a big pile. </speak>
+            <speak chara="weltNoFace"> … But for a layman like me, recognizing the North Star is the limit. </speak>
             <goto goto="60" change="0"/>
         </scene>
         <scene id="60" background="CG14-1.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
-            <speak chara="einNoFace">所以 … 想让我介绍一些别的吗? </speak>
-            <speak chara="weltNoFace">啊 … 那自然是再好不过. </speak>
-            <speak chara="weltNoFace">说实话, 我很羡慕那些, 随手一指, 就能叫出星星名字的人. </speak>
-            <speak chara="einNoFace"> … 那是天文学家. </speak>
-            <speak chara="weltNoFace">呃 … 哈哈, 说的是. </speak>
-            <speak chara="einNoFace">不过, 只是随便介绍的话 … </speak>
-            <speak chara="einNoFace">我也可以给你讲讲. </speak>
-            <speak chara="weltNoFace">啊 … 就当是随便聊天吧. </speak>
-            <text>青年的直觉告诉他, 今天一整天, 所有人的感觉都有点奇怪. </text>
-            <text>无论是爱因斯坦和特斯拉, 还是仅有一面之缘的丽塔和符华 … </text>
-            <text>每个人似乎都不约而同地, 怀揣着一些心事. </text>
-            <text>这种时候, 聊天, 大概是很必要的. </text>
-            <text>哪怕是随便瞎扯也好. </text>
+            <speak chara="einNoFace">So … do you want me to introduce you to some more? </speak>
+            <speak chara="weltNoFace">Ah … naturally, couldn't be better if you could. </speak>
+            <speak chara="weltNoFace">To be honest, I'm very envious of those people who can just point out any star and call out its name. </speak>
+            <speak chara="einNoFace"> … Those are astronomers. </speak>
+            <speak chara="weltNoFace">Uh … Haha, that's what I meant. </speak>
+            <speak chara="einNoFace">However, if it's just a casual introduction … </speak>
+            <speak chara="einNoFace">I can talk to you about it. </speak>
+            <speak chara="weltNoFace">Ah … let's just treat as casual banter then. </speak>
+            <text>The young man's instinct is telling him that, for the entirety of today, everybody felt just a little stranger than usual. </text>
+            <text>Whether it is Einstein and Tesla, or the new acquaintances Rita and Fu Hua … </text>
+            <text>Everyone is apparently, by coincidence, carrying some burden in their hearts. </text>
+            <text>At such a time, idle banter is probably a welcome necessity. </text>
+            <text>Even if it's just talking about nonsense. </text>
             <goto goto="65" change="0"/>
         </scene>
         <scene id="65" background="westCliffSkyNorth.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
-            <speak chara="einNoFace">聊天 … 吗 … </speak>
-            <speak chara="einNoFace">啊, 这个是聊天星. </speak>
-            <speak chara="weltNoFace">唉? 有这样名字的星星吗? </speak>
-            <speak chara="einNoFace">当然是骗你的啊. </speak>
-            <speak chara="einNoFace">笨蛋. </speak>
+            <speak chara="einNoFace">Want to … gossip … ? </speak>
+            <speak chara="einNoFace">Ah, that one is the gossiping star. </speak>
+            <speak chara="weltNoFace">Huh? Is there even such a thing? </speak>
+            <speak chara="einNoFace">Of course not, I'm kidding. </speak>
+            <speak chara="einNoFace">Idiot. </speak>
             <speak chara="weltNoFace"> … </speak>
-            <speak chara="einNoFace">不过下面就是正经的了. </speak>
-            <speak chara="einNoFace">你刚才是怎么找北极星的? </speak>
-            <speak chara="weltNoFace">唔 … </speak>
+            <speak chara="einNoFace">However, what I'll say next is more serious. </speak>
+            <speak chara="einNoFace">How did you find the North Star just now? </speak>
+            <speak chara="weltNoFace">Um … </speak>
             <show chara="beiji" position="back"/>
-            <speak chara="weltNoFace">沿着斗勺头部的两颗星, 向天空的中央延长过去 … 就找到了. </speak>
-            <speak chara="einNoFace">好. </speak>
+            <speak chara="weltNoFace">Follow the two stars on the head of the Dipper, then extend towards the centre of the sky … and there you'll find it. </speak>
+            <speak chara="einNoFace">Good. </speak>
             <hide position="back"/>
-            <speak chara="einNoFace">现在请你注视斗柄部分. </speak>
-            <speak chara="einNoFace">把这三颗星, 想象成一张拉满的弓. </speak>
-            <speak chara="einNoFace">然后 … 用这张弓, 把箭向西射出去. 一直射向银河. </speak>
-            <speak chara="weltNoFace">啊. 这边有三颗很亮的星星. 三、三角形的感觉. </speak>
-            <speak chara="einNoFace">嗯. </speak>
-            <speak chara="einNoFace">在银河两侧的这两颗, 就是东方传说中, 大名鼎鼎的织女、牛郎了. </speak>
-            <speak chara="einNoFace">孤单地在银河右边的是天琴座α, 织女星 … </speak>
-            <speak chara="einNoFace">银河左边, 有两颗小星左右陪伴的是天鹰座α, 牛郎星. </speak>
-            <speak chara="einNoFace">牛郎旁边的那两颗小星, 是他们的两个儿子. </speak>
-            <speak chara="weltNoFace">哇哦. </speak>
-            <speak chara="einNoFace">至于上方沐浴在银河里的那颗 … </speak>
+            <speak chara="einNoFace">Now please examine the handle of the Bigger Dipper. </speak>
+            <speak chara="einNoFace">Take these three stars, and imagine that they form a fully-extended bow. </speak>
+            <speak chara="einNoFace">Then … take this bow, and shoot an arrow westward. Straight towards the Milky Way. </speak>
+            <speak chara="weltNoFace">Ah. There are three very bright stars here. I-it feels like they form a triangle. </speak>
+            <speak chara="einNoFace">Mm-hmm. </speak>
+            <speak chara="einNoFace">The two stars on either side of the Milky Way, those are the famous Weaving Girl and Cowherd from Eastern folklore. </speak> <!-- Vega and Altair -->
+            <speak chara="einNoFace">Alone on the right side of the Milky Way is α Lyrae, the Weaving Girl, or Vega … </speak>
+            <speak chara="einNoFace">On the left of the Milky Way, there are two small stars accompanying α Aquilae, the Cowherd, or Altair . </speak>
+            <speak chara="einNoFace">The two little stars next to the Cowherd, are their two sons. </speak>
+            <speak chara="weltNoFace">Wow. </speak>
+            <speak chara="einNoFace">As for the one above, bathed within the Milky Way itself … </speak>
             <show chara="northCross" position="back"/>
-            <speak chara="einNoFace" remark="next">那是天鹅座α, “北十字星”的成员之一. </speak>
+            <speak chara="einNoFace" remark="next">That is α Cygni, one of the members of the “Northern Cross”. </speak> <!-- Deneb -->
             <remark post="U2FsdGVkX1+0GHKRy7JXUTMSQY8Q">
-                <p class="article-text-h">注：</p>
-                <p class="article-text">“天鹅”一词在日语中写作“白鳥”. 所以, 在某些翻译作品中出现的“白鸟座”, 其实就是“天鹅座”. </p>
-                <p class="article-text">天鹅座α在星宿系统中被称为“天津四”. 英文俗称为"Deneb"（来自阿拉伯语音译）. </p>
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">The word “Swan” (Chinese: 天鹅) is written as “White bird” (白鳥) in Japanese. Therefore, the Shiratori constellation (“白鳥座”) that appears in some translation works is in fact the Swan constellation (“天鹅座”), or Cygnus. </p>
+                <p class="article-text">In the Chinese constellation system, α Cygni is designated “Tianjin 4” or “Heavenly Vessel 4” (“天津四”). In English it is commonly referred to as “Deneb” (a transliteration of the original Arabic name). </p>
             </remark>
-            <speak chara="einNoFace">它和下方的三颗星, 以及稍远的另一颗星, 一起组成了这个十字架的形状. </speak>
-            <speak chara="einNoFace"> … 顺带一提, α本身其实是天鹅的尾巴. </speak>
-            <speak chara="weltNoFace"> … 所以十字架较长的部分是天鹅的脖子? </speak>
-            <speak chara="weltNoFace">两侧看起来对称的部分是天鹅的翅膀? </speak>
-            <speak chara="einNoFace">没错. </speak>
-            <speak chara="einNoFace">这个区域里, 主要的亮星就是这样了. </speak>
+            <speak chara="einNoFace">It, together with the three stars below it, and another star a little further away, together form the shape of a cross. </speak>
+            <speak chara="einNoFace"> … By the way, α itself is actually the tail of the swan. </speak>
+            <speak chara="weltNoFace"> … So the long axis of the cross is the neck of the swan? </speak>
+            <speak chara="weltNoFace">And the two symmetrical parts on either side are the swan's wings? </speak>
+            <speak chara="einNoFace">Correct. </speak>
             <show chara="beidou" position="back"/>
-            <speak chara="einNoFace">现在让我们的视线回到北斗七星 — </speak>
-            <speak chara="einNoFace"> — 沿着勺口平面, 对着勺柄的反方向出发. 也是延伸到银河附近的位置. </speak>
-            <speak chara="weltNoFace">啊. </speak>
-            <speak chara="weltNoFace">这边有一颗和织女星一样亮的! </speak>
+            <speak chara="einNoFace">Those are the major stars in this part of the sky. </speak>
+            <speak chara="einNoFace">Now let our gaze return to the Big Dipper — </speak>
+            <speak chara="einNoFace"> — Follow along the plane of the Dipper bowl, proceed in the opposite direction of the Dipper handle. That should also extend to a location near the Milky Way. </speak>
+            <speak chara="weltNoFace">Ah. </speak>
+            <speak chara="weltNoFace">There's a star as bright as Vega! </speak>
             <show chara="yufubei" position="back"/>
-            <speak chara="einNoFace" remark="next">嗯. 那是御夫座α. 它和周围几颗星组成的五边形, 是御夫座的主体部分. </speak>
+            <speak chara="einNoFace" remark="next">Mm. That is α Aurigae. It and the surrounding stars form a pentagon, which is the main part of the constellation Auriga. </speak>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">御夫座α在星宿系统中被称为“五车二”. 英文俗称为"Capella". </p>
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">α Aurigae is called “Five Chariots 2” (“五车二”) in the Chinese constellation system. In English it is commonly referred to as “Capella”. </p>
             </remark>
-            <speak chara="einNoFace">在这个五边形下方的两颗亮星, 则是双子座的两个头部, 双子座α和双子座β. </speak>
-            <speak chara="einNoFace">接下来 … </speak>
+            <speak chara="einNoFace">The two bright stars below this pentagon are the two heads of the constellation Gemini, α Geminorum and β Geminorum. </speak>
+            <speak chara="einNoFace">Now … </speak>
             <goto goto="75" change="0"/>
         </scene>
         <scene id="75" background="westCliffSkySouth.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
-            <speak chara="einNoFace">让我们的视线跨过银河, 向南偏转. </speak>
-            <speak chara="einNoFace">有看到什么显眼的吗? </speak>
+            <speak chara="einNoFace">Let our gaze cross the Milky Way, and divert southward. </speak>
+            <speak chara="einNoFace">Do you see anything conspicuous or eye-catching? </speak>
             <speak chara="weltNoFace"> … </speak>
             <show chara="liehu" position="back"/>
-            <speak chara="weltNoFace"> … 左边有三颗挨得很近的亮星! </speak>
-            <speak chara="weltNoFace">它们周围的其他几颗星也很亮! </speak>
-            <speak chara="einNoFace" remark="next">嗯. 中间那三颗是“猎户的腰带”, 猎户座ζ、猎户座ε、猎户座δ. </speak>
+            <speak chara="weltNoFace"> … There are three bright stars close together on the left! </speak>
+            <speak chara="weltNoFace">The other stars around them are also very bright! </speak>
+            <speak chara="einNoFace" remark="next">Mm-hmm. The middle three are “Orion's belt” or “the Hunter's Belt”: ζ Orionis, ε Orionis, and δ Orionis. </speak>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">猎户座ζ、猎户座ε、猎户座δ在星宿系统中被称为“参宿一”、“参宿二”、“参宿三”. 英文俗称分别为"Alnitak", "Alnilam"及"Mintaka"（来自阿拉伯语音译）. </p>
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">ζ, ε, and δ Orionis are called “Three-Star Mansion 1, 2, and 3” respectively (“参宿一”、“二”、“三”), in the Chinese constellation System. In English they are commonly called “Alnitak”, “Alnilam” and “Mintaka” (transliteration from Arabic). </p>
                 <br />
-                <p class="article-text">p.s. “参宿”的正确读法为shēn xiù. </p>
+                <p class="article-text">P.S. The correct pronunciation of “参宿” is shēn xiù. (Translator's note: This is included as the character “参” is an archaic term for the number “three”, and may be pronounced “sān”; but confusingly, in this case it is pronounced “shēn” as in “rénshēn” or ginseng, “人參”. The word for mansion, “宿”, may also be pronounced “sù”). </p>
             </remark>
-            <speak chara="einNoFace" remark="next">它们和上方的猎户座α、猎户座γ, 下方的猎户座κ、猎户座β, 一同构成了猎户座的主体部分. </speak>
+            <speak chara="einNoFace" remark="next">Together with α Orionis and γ Orionis above, and κ Orionis and β Orionis below, they form the main part of the constellation Orion. </speak>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">猎户座α、猎户座γ、猎户座κ、猎户座β在星宿系统中被称为“参宿四”、“参宿五”、“参宿六”、“参宿七”. 英文俗称分别为"Betelgeuse", "Bellatrix", "Saiph", "Rigel"（来自阿拉伯语音译）. </p>
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">α, γ, κ and β Orionis are called “Three-Star Mansion 4, 5, 6 and 7” respectively (“参宿四”、“五”、“六”、“七”), in the Chinese constellation System. In English they are commonly called “Betelgeuse”, “Bellatrix”, “Saiph” and “Rigel” (transliteration from Arabic). </p>
             </remark>
-            <speak chara="einNoFace"> … 可惜伦敦纬度太高, 不然, 在它们的左下方, 你还能看到更耀眼的天狼星. 那可是全天最亮的一颗恒星啊. </speak>
-            <speak chara="weltNoFace">唔 … </speak>
-            <speak chara="einNoFace">让我们的视线来到猎户座的右上方吧. </speak>
-            <speak chara="einNoFace">这里有一颗金黄色的亮星, 和周围的几颗小星组成了小小的“V”字. </speak>
-            <speak chara="weltNoFace">唔 … </speak>
+            <speak chara="einNoFace"> … It’s a pity that London’s latitude is too high. Otherwise, at the bottom left of them, you would have seen the even more dazzling Sirius. That’s the brightest star in the sky. </speak>
+            <speak chara="weltNoFace">Mm-hmm … </speak>
+            <speak chara="einNoFace">Let our gaze come upon the upper right part of Orion. </speak>
+            <speak chara="einNoFace">There is a bright golden star here, and together with the several smaller stars around it form a small “V” shape. </speak>
+            <speak chara="weltNoFace">Mm-hmm … </speak>
             <show chara="yufunan" position="center"/>
-            <speak chara="weltNoFace">啊, 就是夹在猎户座和御夫座之间的那个? </speak>
-            <speak chara="einNoFace" remark="next">嗯. 那是金牛座α. 这个小小的“V”字就是它的牛头. </speak>
+            <speak chara="weltNoFace">Ah, is it the one sandwiched between Orion and Auriga? </speak>
+            <speak chara="einNoFace" remark="next">Mm. That is α Tauri. That small “V” shape is the Golden Bull's head. </speak>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">金牛座α在星宿系统中被称为“毕宿五”. 英文俗称为"Aldebaran"（来自阿拉伯语音译）. </p>
+                <p class="article-text-h">Note</p>
+                <p class="article-text">α Tauri is known as “Net Mansion 5” (“毕宿五”) in the Chinese constellation System. In English it is commonly referred to as “Aldebaran” (transliteration from Arabic). </p>
                 <br />
-                <p class="article-text">p.s. 车田正美的《圣斗士星矢》中, “金牛座黄金圣斗士”即以此星为名 — 中文版一般译作“阿鲁迪巴”. </p>
+                <p class="article-text">P.S. In “Saint Seiya” by Masami Kurumada, the “Taurus Gold Saint” is named after this star — the Chinese version translates this as “阿鲁迪巴” or “ā lǔ dí bā” (transliteration of Aldebaran) (Translators' note: The Japanese version still refers to him as “タウラスの アルデバラン” or “Taurasu no Arudebaran”, “Aldebaran of Taurus”, so it's not like they got it wrong). </p>
             </remark>
             <goto goto="80" change="0"/>
         </scene>
