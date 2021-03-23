@@ -380,14 +380,14 @@
             <speak chara="einNoFace">Alone on the right side of the Milky Way is α Lyrae, the Weaving Girl, or Vega … </speak>
             <speak chara="einNoFace">On the left of the Milky Way, there are two small stars accompanying α Aquilae, the Cowherd, or Altair . </speak>
             <speak chara="einNoFace">The two little stars next to the Cowherd, are their two sons. </speak>
-            <speak chara="weltNoFace">Wow. </speak>
+            <speak chara="weltNoFace">Woah. </speak>
             <speak chara="einNoFace">As for the one above, bathed within the Milky Way itself … </speak>
             <show chara="northCross" position="back"/>
             <speak chara="einNoFace" remark="next">That is α Cygni, one of the members of the “Northern Cross”. </speak> <!-- Deneb -->
             <remark post="U2FsdGVkX1+0GHKRy7JXUTMSQY8Q">
                 <p class="article-text-h">Note:</p>
                 <p class="article-text">The word “Swan” (Chinese: 天鹅) is written as “White bird” (白鳥) in Japanese. Therefore, the Shiratori constellation (“白鳥座”) that appears in some translation works is in fact the Swan constellation (“天鹅座”), or Cygnus. </p>
-                <p class="article-text">In the Chinese constellation system, α Cygni is designated “Tianjin 4” or “Heavenly Vessel 4” (“天津四”). In English it is commonly referred to as “Deneb” (a transliteration of the original Arabic name). </p>
+                <p class="article-text">In the Chinese constellation system, α Cygni is designated “Celestial Ford 4” (“天津四”). In English it is commonly referred to as “Deneb” (a transliteration of the original Arabic name). </p>
             </remark>
             <speak chara="einNoFace">It, together with the three stars below it, and another star a little further away, together form the shape of a cross. </speak>
             <speak chara="einNoFace"> … By the way, α itself is actually the tail of the swan. </speak>
@@ -448,131 +448,131 @@
         </scene>
         <scene id="80" background="CG14-0.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">话说 … 我从刚才就注意到了 … </speak>
-            <speak chara="weltNoFace">为什么这些星星全都叫某某座α、某某座β啊? </speak>
-            <speak chara="einNoFace" remark="next">因为本来就是按亮度取名的嘛. </speak>
+            <speak chara="weltNoFace">By the way … I've noticed just now … </speak>
+            <speak chara="weltNoFace">Why are all these stars called α-this, β-that? </speak>
+            <speak chara="einNoFace" remark="next">Because they were originally named based on brightness. </speak>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">拜耳命名法（Bayer designation）是如今国际通用的恒星命名方式, 首创于德国天文学家约翰·拜耳（Johann Bayer）1603年的著作《测天图》（Uranometria）中. </p>
-                <p class="article-text">总体来说, 这一命名法是按照星座中各星的亮度, 依次赋予它们希腊字母, 形成“星座名+字母”的名称. （有例外, 如天龙座α, 中文名“右枢”, 它就不是天龙座的最亮星. 它之所以成为α, 是因为它在五千年前做过北极星. ）</p>
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">Bayer designation is the international standard for naming stars, first described by German astronomer Johann Bayer in his 1603 star atlas, “Uranometria”. </p>
+                <p class="article-text">Generally speaking, this nomenclature is based on the brightness of the stars in the constellation, assigning Greek letters in descending order of brightness, such that names are formed by “letter + constellation name”. (However, there are exceptions, such as α Draconis, called “Right Pivot” (“右枢”) in Chinese, which is not the brightest star in the Draco constellation. It became α because it was originally the Polaris or North Star five thousand years ago.) (Translator note: The original Chinese text has the naming system the other way around, “Constellation name + Greek letter”, and describes it as such. This is likely a stylistic choice to mirror the Ancient Chinese nomenclature.)</p>
             </remark>
-            <speak chara="weltNoFace">这、这样啊 … </speak>
-            <speak chara="einNoFace">它们其实都有自己的诨名 … 不过大多是外来语, 念起来很莫名其妙. </speak>
-            <speak chara="einNoFace">Aldebaran, 阿拉伯语, 金牛座α；Capella, 拉丁语, 御夫座α；Castor和Pollux, 希腊语, 双子座α和双子座β … </speak>
-            <speak chara="einNoFace">我个人觉得, 这种乱七八糟的叫法, 反而还不如字母命名法有意义. </speak>
-            <speak chara="einNoFace">啊. 说到金牛座α … </speak>
-            <speak chara="einNoFace">在它的另一侧 — 对, 就是相反于猎户座的另一侧 … </speak>
-            <speak chara="einNoFace">你有没有看到一堆细小的亮星挤在一起? </speak>
-            <speak chara="weltNoFace">唔 … </speak>
-            <speak chara="weltNoFace">啊. 是有呢. </speak>
-            <speak chara="weltNoFace">密密麻麻的, 好像有六七颗? </speak>
-            <speak chara="einNoFace">那就是七姐妹. </speak>
-            <speak chara="weltNoFace">七姐妹? </speak>
-            <speak chara="einNoFace" remark="next">Pleiades, Atlas的七个女儿的统称. </speak>
+            <speak chara="weltNoFace">W-Was it so … </speak>
+            <speak chara="einNoFace">They actually all have their own nicknames … but most of them are in a foreign language, which makes them difficult to remember. </speak>
+            <speak chara="einNoFace">Aldebaran, Arabic, α Tauri; Capella, Latin, α Aurigae; Castor and Pollux, Greek, α Geminorum and β Geminorum … </speak>
+            <speak chara="einNoFace">I personally think that this kind of disorderly nomenclature is even less meaningful than the letter-based nomenclature. </speak>
+            <speak chara="einNoFace">Ah. Speaking of α Tauri … </speak>
+            <speak chara="einNoFace">On the other side of it — Yes, it's the opposite side of Orion … </speak>
+            <speak chara="einNoFace">Do you see a bunch of tiny bright stars crowded together? </speak>
+            <speak chara="weltNoFace">Mm … </speak>
+            <speak chara="weltNoFace">Ah. Yes indeed. </speak>
+            <speak chara="weltNoFace">Densely packed, looks like there are six or seven? </speak>
+            <speak chara="einNoFace">Thos are the Seven Sisters. </speak>
+            <speak chara="weltNoFace">Seven Sisters? </speak>
+            <speak chara="einNoFace" remark="next">Pleiades, the collective name for Atlas' seven daughters.</speak>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">Pleiades, 中文称作“昴星团”, 是最接近地球的星云之一（约444光年）, 梅西耶星云编号为M45. </p>
-                <p class="article-text">该星云中有一系列肉眼可区分的亮星, 在光线条件允许的情况下, 正常视力者能数出九颗之多. </p>
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">Pleiades, in Chinese “Maned Head Star Group” (“昴星团”), is one of the nebulae closest to Earth (about 444 light years away), designated Messier nebula number M45. </p>
+                <p class="article-text">In the nebula, there are a series of bright stars  that can be distinguished by the naked eye. Under favourable light conditions, a person with normal vision can count as many as nine of them. </p>
             </remark>
-            <speak chara="einNoFace">Atlas自己是一位泰坦神, 支撑着西方的天空 — 他也是“大西洋”（Atlantic Ocean）的词源. </speak>
+            <speak chara="einNoFace">Atlas himself was a Titan, lifting up the western sky — He is also the namesake for the “Atlantic Ocean”. </speak>
             <goto goto="90" change="0"/>
         </scene>
         <scene id="90" background="CG14-1.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace">哇. </speak>
-            <speak chara="weltNoFace">我还以为, 你是不熟悉星座神话什么的 … </speak>
-            <speak chara="einNoFace">并不 … 但是它们确实没什么意思. </speak>
-            <speak chara="einNoFace">全是些这个死了、那个死了, 最后都变成星星的无聊故事. </speak>
+            <speak chara="weltNoFace">Wow. </speak>
+            <speak chara="weltNoFace">And I thought you were not familiar with constellations or mythologies or that sort of thing … </speak>
+            <speak chara="einNoFace">No at all … but they really are quite meaningless. </speak>
+            <speak chara="einNoFace">They're all just silly stories about this person dying, that person dying, then they all become stars. </speak>
             <speak chara="weltNoFace"> … </speak>
-            <speak chara="einNoFace">不过偶尔也有喜剧结局的 — 而且就在我们视线的正上方. </speak>
+            <speak chara="einNoFace">But occasionally there are happy endings — indeed, there is one right in our line of sight right now. </speak>
             <goto goto="95" change="0"/>
         </scene>
         <scene id="95" background="westCliffSkySouth.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
             <show chara="yufunan" position="back"/>
-            <speak chara="einNoFace">在七姐妹的上方、御夫座的右边. 一、二、三、四 — </speak>
+            <speak chara="einNoFace">Above the Seven Sisters, to the right of Auriga. One, two, three, four — </speak>
             <show chara="chain" position="back"/>
-            <speak chara="einNoFace"> — 四颗亮星整齐地排成一行. 看到了吗? </speak>
-            <speak chara="weltNoFace"> … 啊. 稍微有点弧形, 不过确实很整齐呢. </speak>
-            <speak chara="einNoFace" remark="next">它们从左到右, 分别是英仙座α, 仙女座γ, 仙女座β, 仙女座α. </speak>
+            <speak chara="einNoFace"> — Four bright stars neatly lined up. Can you see them? </speak>
+            <speak chara="weltNoFace"> … Ah. It's a little curved, but indeed it's quite orderly. </speak>
+            <speak chara="einNoFace" remark="next">From left to right, they are α Persei, γ Andromedae, β Andromedae, α Andromedae. </speak>
             <remark post="U2FsdGVkX19gU8MXMOhDJndKApoQ">
-                <p class="article-text-h">注：</p>
-                <p class="article-text">英仙座α、仙女座γ、仙女座β、仙女座α, 在星宿系统中分别被称为“天船三”、“天大将军一”、“奎宿九”、“壁宿二”, 英文诨名分别为"Mirfak", "Almach", "Mirach", "Alpheratz"（来自阿拉伯语音译）. </p>
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">α Persei, and γ, β, α Andromedae are called  “Celestial Boat 3”, “Heaven's Great General 1”, “Leg-stride Mansion Nine”, and “Wall Mansion 2” respectively (“天船三”、“天大将军一”、“奎宿九”、“壁宿二”) in the Chinese constellation system. In English, these are commonly known as “Mirfak”, “Almach”, “Mirach”, and “Alpheratz" (transliteration from Arabic). </p>
                 <br />
-                <p class="article-text">p.s. 仙女座β上方形似灰斑的不起眼星云, 即为著名的M31星云 — 仙女座星系（Andromeda Galaxy）. 它距离地球大约250万光年, 是一个质量约相当于银河系两倍的河外星系. 它也是北半球绝大多数地区, 唯一肉眼可见的河外星系. </p>
+                <p class="article-text">P.S. The unremarkable-looking nebula resembling a square grey spot over β Andromedae is the famous M31 nebula — the Andromeda Galaxy. About 2.5 million light-years away from Earth, it is an extragalatic galaxy with a mass about twice that of the Milky Way. It is also the only extragalatic galaxy that is visible to the naked eye from most parts of the Northern Hemisphere. </p>
             </remark>
-            <speak chara="einNoFace" remark="next">仙女座α同时也被称作飞马座δ — 这是一颗由仙女座和飞马座共享的星星. </speak>
+            <speak chara="einNoFace" remark="next">α Andromedae is also called δ Pegasi — It's a star shared by both Andromeda and Pegasus. </speak>
             <remark>
-                <p class="article-text-h">注：</p>
-                <p class="article-text">飞马座（Pegasus）在某些作品中也被翻译为“天马座”, 如《圣斗士星矢》. </p>
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">The constellation Pegasus, in Chinese “Flying Horse” (“飞马座”), is also translated in some works as “Heavenly Horse” (“天马座”), as was the case in “Saint Seiya”. </p>
             </remark>
-            <speak chara="weltNoFace">啊. </speak>
-            <speak chara="weltNoFace">所以这就是某个希腊英雄, 用美杜莎的头把海怪变成石头, 救下作为祭品的公主, 然后和她成亲的故事? </speak>
-            <speak chara="einNoFace">嗯. 这一列星星就象征着捆绑公主的锁链. </speak>
+            <speak chara="weltNoFace">Ah. </speak>
+            <speak chara="weltNoFace">So this is the story of a certain Greek hero who used Medusa’s head to turn a sea monster to stone, rescued the princess who was to be offered as a sacrifice, and then married her? </speak>
+            <speak chara="einNoFace">Mm-hmm. This column of stars symbolises the chains that bind the princess. </speak>
             <show chara="pegasus" position="center"/>
-            <speak chara="einNoFace">顺带一提, 飞马座的主体, 就是这条“锁链”末尾的那个四边形. </speak>
-            <speak chara="einNoFace">你也可以把它全部, 当成天空中最大的一把勺子. </speak>
-            <speak chara="einNoFace">然后 … 再往右边的话, 就是我们之前观察过的牛郎星了. </speak>
-            <speak chara="weltNoFace">如果让我说的话 … </speak>
-            <speak chara="weltNoFace"> … 它大概更像一只浣熊? </speak>
-            <speak chara="weltNoFace">你看, 这一列星星是尾巴, 四边形右上角那颗额外的星星是脑袋. </speak>
-            <speak chara="einNoFace">噗 … 尾巴这么长, 你这是漫画里的浣熊吧. </speak>
-            <speak chara="weltNoFace">没、没什么不好吧 … </speak>
+            <speak chara="einNoFace">By the way, the main body of the Pegasus is the quadrilateral at the end of this “chain”. </speak>
+            <speak chara="einNoFace">You can also think of it all as the largest spoon in the sky. </speak>
+            <speak chara="einNoFace">Then … If you go further to the right, it is the Cowherd or Altair that we had observed before. </speak>
+            <speak chara="weltNoFace">Can't you say … </speak>
+            <speak chara="weltNoFace"> … It looks roughly more like a raccoon? </speak>
+            <speak chara="weltNoFace">You see, this column of stars is the tail, and the extra star at the upper right corner of the quadrilateral is the head. </speak>
+            <speak chara="einNoFace">Pfft … With such a long tail, it looks more like a racoon from a comic book. </speak>
+            <speak chara="weltNoFace">N-nothing wrong with that … </speak>
             <goto goto="100" change="0"/>
         </scene>
         <scene id="100" background="CG14-0.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace"> … 啊. </speak>
-            <speak chara="weltNoFace">那是什么? 在最南边的海平面上 … 孤零零的一颗 … </speak>
-            <speak chara="einNoFace">唔 … 你是说右下角, 和牛郎星反方向的那个位置吗? </speak>
-            <speak chara="weltNoFace"> … 对、对, 就是你指的那边. </speak>
-            <speak chara="einNoFace" remark="next">那是南鱼座α … 这片区域里唯一的亮星. </speak>
+            <speak chara="weltNoFace"> … Ah. </speak>
+            <speak chara="weltNoFace">What's that? The southernmost, near sea level … a lonely one … </speak>
+            <speak chara="einNoFace">Hmm … Do you mean the lower right corner, the position opposite Altair? </speak>
+            <speak chara="weltNoFace"> … Y-yes, where you are pointing. </speak>
+            <speak chara="einNoFace" remark="next">That is α Piscis Austrini … the only bright star in this area. </speak>
             <remark post="U2FsdGVkX1+rF0ozx14SzE37yIBz">
-                <p class="article-text-h">注：</p>
-                <p class="article-text">南鱼座α, 在星宿系统中被称为“北落师门”, 英文诨名为"Fomalhaut"（来自阿拉伯语音译）. </p>
+                <p class="article-text-h">Note:</p>
+                <p class="article-text">α Piscis Austrini (the “Southern Fish” Constellation) is called “North Gate of the Military Camp” (“北落师门”) in the Chinese constellation system. In English it is commonly known as “Fomalhaut” (transliteration from Arabic). </p>
                 <br />
-                <p class="article-text">p.s. 由于星宿系统中按照太阳和北极星来规定方位, 导致南北星官与实际的地理方向相反, 因此位于南方低空的南鱼座α, 反而有“北落师门”这样的名字. </p>
+                <p class="article-text">P.S. As the Chinese constellation system determines the bearing of the stars in reference to the Sun and the North Star, this causes the North and South constellations to be the opposite of their actual geographic directions. Therefore α Piscis Austrini, which is located at low altitude to the south, is given the name “North Gate of the Military Camp” instead. </p>
             </remark>
             <goto goto="110" change="0"/>
         </scene>
         <scene id="110" background="CG14-1.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
-            <speak chara="weltNoFace"> … 看起来很孤单呢. </speak>
-            <speak chara="einNoFace">星星们都是孤单的. </speak>
-            <speak chara="einNoFace">如果把地球和太阳缩小到能同时放在你我的身前 — </speak>
-            <speak chara="einNoFace"> — 那么, 按照比例, 另一颗恒星, 最近的, 也得有从这里到伦敦市中心那么远. </speak>
-            <speak chara="weltNoFace">什 … </speak>
-            <speak chara="einNoFace">不用惊讶. </speak>
-            <speak chara="einNoFace">大到宇宙, 小到原子, 这个世界的绝大部分, 都不过是空无一物的真空. </speak>
-            <speak chara="einNoFace">就是在这真空的汪洋里 … 大家在波浪起伏之间, 渐渐汇聚到一起. </speak>
-            <speak chara="einNoFace">宇宙花了90亿年, 终于制造出了地球；地球又花了40亿年, 将才变成我们现在看到的这个伊甸园. </speak>
-            <speak chara="einNoFace">而更奇妙的是, 在这个伊甸园中, 有你、有我. </speak>
+            <speak chara="weltNoFace"> … It looks lonely. </speak>
+            <speak chara="einNoFace">All stars are lonely. </speak>
+            <speak chara="einNoFace">If the Earth and the Sun are shrunk to a size such that we can place both in front of you and me — </speak>
+            <speak chara="einNoFace"> — Then, to scale, the closest fixed star will need to be as far from here as Central London. </speak>
+            <speak chara="weltNoFace">Wha- … </speak>
+            <speak chara="einNoFace">Don't be surprised. </speak>
+            <speak chara="einNoFace">From the enormous universe, to the diminutive atom, most of this world is nothing but a vast empty vacuum.</speak>
+            <speak chara="einNoFace">It is in this vast ocean of vacuum … that all matter slowly converges together, among its undulating waves. </speak>
+            <speak chara="einNoFace">It took 9 billion years for the universe to finally create the Earth; and it took the Earth another 4 billion years to become the Garden of Eden we see today. </speak>
+            <speak chara="einNoFace">What's even more amazing, is that in this Garden of Eden, there is you, and me. </speak>
             <speak chara="weltNoFace"> … </speak>
-            <speak chara="einNoFace">抱歉. 好像有点煽情了. </speak>
+            <speak chara="einNoFace">Apologies. That seemed a bit too sentimental. </speak>
             <goto goto="120" change="#ffffff"/>
         </scene>
         <scene id="120" background="westCliffSkySouth.jpg">
             <bgm src="11_3_themeOtto.mp3" status="start"></bgm>
             <text article="1">
-                <p class="article-text">冬季, 并不是一个浪漫的季节. </p>
-                <p class="article-text">如果说, 在那一日的海滩上, 两个人的心间刚刚生出了一点萌芽 … </p>
-                <p class="article-text">那么, 这颗萌芽, 并没有得到, 应有的, 生根发芽的机会. </p>
+                <p class="article-text">Winter is not a romantic season. </p>
+                <p class="article-text">If it can be said that, on that day at the beach, a little bud had just sprouted between the hearts of two people … </p>
+                <p class="article-text">Then it can also be said, that this bud never got the chance to take root and germinate, as it should have. </p>
             </text>
             <goto goto="160" change="0"/>
         </scene>
         <scene id="160" background="studyLamp.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <text>现代不是古代, 温泉浴场也不是桑拿房. </text>
-            <text>观星之后的热水澡, 当然是男女分开的. </text>
-            <text>只不过 — </text>
+            <text>The Modern Age is unlike the Ancient Era, and hot spring baths are also nothing like saunas. </text>
+            <text>Taking a hot bath after stargazing, of course it would be separate for men and women. </text>
+            <text>It's just that — </text>
             <goto goto="170" change="0"/>
         </scene>
         <scene id="170" background="CG14-2.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
             <speak chara="ottoNoNameNoFace">Hey.</speak>
             <speak chara="ottoNoNameNoFace">How have you been lately, Ω?</speak>
-            <text>...Just because you didn't see a single man during the entire day doesn't mean the night bath will be all yours.</text>
-            <text>Right?</text> <!-- zklm-->
+            <text> You see … Just because you haven't seen a single man during the entire day, doesn't mean you should lower your guard in the public bath at night.</text>
+            <text>Isn't that so?</text> <!-- translated by Listless-restless on top of work by zklm -->
             <end post="U2FsdGVkX1+oux9WBwhQORIDDRFn"/>
         </scene>
     </story>
