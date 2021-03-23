@@ -319,7 +319,7 @@
             <text>Breaking free from Tesla's exhortations to indulge in booze, Einstein and Welt languidly lie down on the beach, forming two “sand angels”. </text>
             <speak chara="weltNoFace"> … So cold. </speak>
             <speak chara="weltNoFace"> … It was clearly warmer before we lay down. </speak>
-            <speak chara="einNoFace">When one is lacking in exercise, it's natural they would feel cold. </speak>
+            <speak chara="einNoFace">When one is lacking in exercise, it's only natural they would feel cold. </speak>
             <speak chara="einNoFace">Just get used to it. This level of cold is unlikely to make you sick. </speak>
             <speak chara="weltNoFace"> … Haha. </speak>
             <speak chara="einNoFace">Welt, this must be the first time you've seen such a clear starry sky. </speak>
@@ -335,23 +335,23 @@
             <speak chara="weltNoFace">Is that correct? </speak>
             <speak chara="einNoFace">Correct. </speak>
             <speak chara="einNoFace">Big Dipper … That one probably the most famous group of stars in the world. </speak>
-            <speak chara="einNoFace">Großer Wagen, Großer Bär, Big Dipper, Plough... Just the many names alone form a big pile. </speak>
-            <speak chara="weltNoFace"> … But for a layman like me, recognizing the North Star is the limit. </speak>
+            <speak chara="einNoFace">Großer Wagen, Großer Bär, Big Dipper, Plough... Just the names alone form a long list. </speak>
+            <speak chara="weltNoFace"> … But for a layman like me, recognizing the North Star is the limit of my abilities. </speak>
             <goto goto="60" change="0"/>
         </scene>
         <scene id="60" background="CG14-1.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
             <speak chara="einNoFace">So … do you want me to introduce you to some more? </speak>
-            <speak chara="weltNoFace">Ah … naturally, couldn't be better if you could. </speak>
+            <speak chara="weltNoFace">Ah … of course, can't get any better than that. </speak>
             <speak chara="weltNoFace">To be honest, I'm very envious of those people who can just point out any star and call out its name. </speak>
             <speak chara="einNoFace"> … Those are astronomers. </speak>
             <speak chara="weltNoFace">Uh … Haha, that's what I meant. </speak>
             <speak chara="einNoFace">However, if it's just a casual introduction … </speak>
             <speak chara="einNoFace">I can talk to you about it. </speak>
-            <speak chara="weltNoFace">Ah … let's just treat as casual banter then. </speak>
-            <text>The young man's instinct is telling him that, for the entirety of today, everybody felt just a little stranger than usual. </text>
-            <text>Whether it is Einstein and Tesla, or the new acquaintances Rita and Fu Hua … </text>
-            <text>Everyone is apparently, by coincidence, carrying some burden in their hearts. </text>
+            <speak chara="weltNoFace">Ah … let's just treat it as casual banter then. </speak>
+            <text>The young man's instinct is telling him that, for the entirety of that day, everybody felt just a little stranger than usual. </text>
+            <text>Whether it was Einstein and Tesla, or the new acquaintances Rita and Fu Hua … </text>
+            <text>Everyone is apparently, by some coincidence, carrying a burden in their hearts. </text>
             <text>At such a time, idle banter is probably a welcome necessity. </text>
             <text>Even if it's just talking about nonsense. </text>
             <goto goto="65" change="0"/>
@@ -391,7 +391,7 @@
             </remark>
             <speak chara="einNoFace">It, together with the three stars below it, and another star a little further away, together form the shape of a cross. </speak>
             <speak chara="einNoFace"> … By the way, α itself is actually the tail of the swan. </speak>
-            <speak chara="weltNoFace"> … So the long axis of the cross is the neck of the swan? </speak>
+            <speak chara="weltNoFace"> … So the long arm of the cross is the neck of the swan? </speak>
             <speak chara="weltNoFace">And the two symmetrical parts on either side are the swan's wings? </speak>
             <speak chara="einNoFace">Correct. </speak>
             <show chara="beidou" position="back"/>
