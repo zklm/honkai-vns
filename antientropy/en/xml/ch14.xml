@@ -220,7 +220,7 @@
             <show chara="fuhuaNormalCloseEyeFar" position="right"/>
             <speak chara="fuhuaNoNameNoFace">Geographically, Xianshan is just a small mound in the hinterland of Shenzhou. It's nothing compared to the Five Sacred Mountains; nothing compared to those snow-capped mountains; nothing compared to the Roof of the World.</speak>
             <show chara="fuhuaSeriousFar" position="right"/>
-            <speak chara="fuhuaNoNameNoFace">But a friend once told me that, this little Xianshan is a point where the “Dragon Vein” passes through, a key element to the safety of Shenzhou.</speak>
+            <speak chara="fuhuaNoNameNoFace">But a friend once told me that, this little Xianshan is a location where the “Dragon Vein” passes through. It is a crucial key to the safety of Shenzhou.</speak>
             <speak chara="fuhuaNoNameNoFace">According to legend, one of the first ancestors of Shenzhou, Fuxi, was buried there ― with her own body, she stands vigilant over “the Dragon Vein”, to protect this land.</speak>
             <show chara="fuhuaSeriousFar" position="right" opacity="0.7"/>
             <show chara="einNormalWinterFar" position="back"/>
@@ -251,7 +251,7 @@
             <speak chara="weltNoFace">Umm … thanks … ?</speak>
             <show chara="weltSurpriseWinterFar" position="left" opacity="0.7"/>
             <show chara="fuhuaNormalOpenEyeFar" position="right"/>
-            <speak chara="fuhuaNoFace">Today you will perhaps encounter a dangerous person, who may even come across as a little annoying.</speak>
+            <speak chara="fuhuaNoFace">Today you may encounter a dangerous person, who may even come across as a little annoying.</speak>
             <show chara="fuhuaSmileCloseEyeFar" position="right"/>
             <speak chara="fuhuaNoFace">But don't be alarmed — the least I can guarantee, is that your personal safety will not come under threat.</speak>
             <show chara="fuhuaSmileOpenEyeFar" position="right"/>
@@ -334,7 +334,7 @@
             <speak chara="weltNoFace"> … So that one over there is the North Star. </speak> <!-- 北极星 = "Northernmost Star" -->
             <speak chara="weltNoFace">Is that correct? </speak>
             <speak chara="einNoFace">Correct. </speak>
-            <speak chara="einNoFace">Big Dipper … That one probably the most famous group of stars in the world. </speak>
+            <speak chara="einNoFace">Big Dipper … That one is probably the most famous group of stars in the world. </speak>
             <speak chara="einNoFace">Großer Wagen, Großer Bär, Big Dipper, Plough... Just the names alone form a long list. </speak>
             <speak chara="weltNoFace"> … But for a layman like me, recognizing the North Star is the limit of my abilities. </speak>
             <goto goto="60" change="0"/>
@@ -349,7 +349,7 @@
             <speak chara="einNoFace">However, if it's just a casual introduction … </speak>
             <speak chara="einNoFace">I can talk to you about it. </speak>
             <speak chara="weltNoFace">Ah … let's just treat it as casual banter then. </speak>
-            <text>The young man's instinct is telling him that, for the entirety of that day, everybody felt just a little stranger than usual. </text>
+            <text>The young man's instinct is telling him that, for the entirety of that day, everybody felt just a little more tense and strange than usual. </text>
             <text>Whether it was Einstein and Tesla, or the new acquaintances Rita and Fu Hua … </text>
             <text>Everyone is apparently, by some coincidence, carrying a burden in their hearts. </text>
             <text>At such a time, idle banter is probably a welcome necessity. </text>
@@ -359,7 +359,7 @@
         <scene id="65" background="westCliffSkyNorth.jpg">
             <bgm src="11_17_memory.mp3" status="continue"></bgm>
             <speak chara="einNoFace">Want to … gossip … ? </speak>
-            <speak chara="einNoFace">Ah, that one is the gossiping star. </speak>
+            <speak chara="einNoFace">Ah, that one there is the “gossiping star”. </speak>
             <speak chara="weltNoFace">Huh? Is there even such a thing? </speak>
             <speak chara="einNoFace">Of course not, I'm kidding. </speak>
             <speak chara="einNoFace">Idiot. </speak>
@@ -459,7 +459,7 @@
             <speak chara="weltNoFace">W-Was it so … </speak>
             <speak chara="einNoFace">They actually all have their own nicknames … but most of them are in a foreign language, which makes them difficult to remember. </speak>
             <speak chara="einNoFace">Aldebaran, Arabic, α Tauri; Capella, Latin, α Aurigae; Castor and Pollux, Greek, α Geminorum and β Geminorum … </speak>
-            <speak chara="einNoFace">I personally think that this kind of disorderly nomenclature is even less meaningful than the letter-based nomenclature. </speak>
+            <speak chara="einNoFace">I personally think that this kind of disorderly naming system is even less meaningful than the letter-based nomenclature. </speak>
             <speak chara="einNoFace">Ah. Speaking of α Tauri … </speak>
             <speak chara="einNoFace">On the other side of it — Yes, it's the opposite side of Orion … </speak>
             <speak chara="einNoFace">Do you see a bunch of tiny bright stars crowded together? </speak>
@@ -544,7 +544,7 @@
             <speak chara="weltNoFace">Wha- … </speak>
             <speak chara="einNoFace">Don't be surprised. </speak>
             <speak chara="einNoFace">From the enormous universe, to the diminutive atom, most of this world is nothing but a vast empty vacuum.</speak>
-            <speak chara="einNoFace">It is in this vast ocean of vacuum … that all matter slowly converges together, among its undulating waves. </speak>
+            <speak chara="einNoFace">It is in this vast ocean of vacuum … that all matter slowly converged together into discrete pockets, among its undulating waves. </speak>
             <speak chara="einNoFace">It took 9 billion years for the universe to finally create the Earth; and it took the Earth another 4 billion years to become the Garden of Eden we see today. </speak>
             <speak chara="einNoFace">What's even more amazing, is that in this Garden of Eden, there is you, and me. </speak>
             <speak chara="weltNoFace"> … </speak>
@@ -562,7 +562,7 @@
         </scene>
         <scene id="160" background="studyLamp.jpg">
             <bgm src="11_3_themeOtto.mp3" status="continue"></bgm>
-            <text>The Modern Age is unlike the Ancient Era, and hot spring baths are also nothing like saunas. </text>
+            <text>The Modern Age is not like the Ancient Era, and hot spring baths are also nothing like saunas. </text>
             <text>Taking a hot bath after stargazing, of course it would be separate for men and women. </text>
             <text>It's just that — </text>
             <goto goto="170" change="0"/>
